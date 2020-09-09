@@ -1,0 +1,1 @@
+Programul de completare Dynamics 365 Project Service Automation pentru Microsoft Project

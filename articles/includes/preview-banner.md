@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Funcționalitățile din acest articol sunt disponibile pentru utilizatorii vizați ca parte a unei versiuni de previzualizare. Conținutul și funcționalitățile pot fi modificate. Pentru mai multe informații despre lansările de previzualizare, consultați [Întrebări frecvente despre actualizările de serviciu la o versiune](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).

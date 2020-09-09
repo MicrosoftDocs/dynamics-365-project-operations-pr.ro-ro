@@ -1,0 +1,954 @@
+- name: Dynamics 365 Project Operations
+  href: project-operations-home-page.md
+- name: Project Operations pentru resurse/scenarii care nu sunt bazate pe stoc
+  items:
+    - name: Proces de vânzări
+      items:
+        - name: Prezentare generală vânzări
+          href: sales/sales-overview.md
+        - name: Diferențe cheie
+          href: sales/key-differences.md
+        - name: Configurare
+          items:
+            - name: Produse
+              href: sales/sales-products.md
+            - name: Unități și grupuri de unități
+              href: sales/sales-units-unit-groups.md
+            - name: Monedă
+              href: sales/sales-currency.md
+        - name: Gestionarea clienților potențiali
+          href: sales/managing-leads.md
+        - name: Gestionarea oportunităților
+          items:
+            - name: Antet de oportunitate
+              href: sales/opportunity-header.md
+            - name: Linii bazate pe produs
+              href: sales/product-based-lines.md
+            - name: Linii bazate pe proiect
+              href: sales/project-based-lines.md
+            - name: Conectarea ofertelor și oportunităților
+              href: sales/link-quotes-opportunities.md
+            - name: Închiderea unei oportunități
+              href: sales/close-opportunity.md
+        - name: Gestionarea ofertelor
+          items:
+            - name: Concepte cheie
+              href: sales/quotes-key-concepts.md
+            - name: 'Gestionarea valorilor, bugetelor clienților și limitelor care nu trebuie depășite dintr-o ofertă'
+              href: sales/quote-values-budgets-limits.md
+            - name: Gestionarea mai multor clienți într-o ofertă
+              href: sales/manage-multiple-customers-quote.md
+            - name: Linii de oferte bazate pe produs
+              item:
+                - name: Linii de oferte bazate pe produs de cost
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Gestionarea unităților complexe pentru liniile de ofertă bazate pe produse
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Linii de oferte bazate pe proiect
+              items:
+                - name: Gestionarea listelor de prețuri pentru proiecte
+                  href: sales/managing-project-price-lists.md
+                - name: Gestionarea mai multor clienți într-o linie de ofertă
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: Maparea proiectelor și activităților într-o linie de ofertă
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Crearea de estimări într-o linie de ofertă
+                  href: sales/create-estimate-quote-line.md
+                - name: Importul estimărilor dintr-un proiect într-o linie de ofertă
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Gestionarea valorilor, bugetelor clienților și limitelor care nu trebuie depășite dintr-o ofertă'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Planificările de facturi într-o linie de ofertă
+                  href: sales/invoice-schedule-quote-line
+            - name: Câștigarea unei oferte
+              href: sales/win-quote.md
+            - name: Pierderea unei oferte
+              href: sales/lose-quote.md
+        - name: Gestionarea contractelor
+          items:
+            - name: Concepte cheie
+              href: sales/contacts-key-concepts.md
+            - name: 'Gestionarea valorilor, bugetelor clienților și limitelor care nu trebuie depășite pentru un contract'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Gestionarea mai multor clienți într-un contract
+              href: sales/manage-multiple-customers-contract.md
+            - name: Linii de contract bazate pe produs
+              items:
+                - name: Linii de contract bazate pe produs de cost
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Gestionarea unităților complexe pentru liniile de contract bazate pe produse
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Linii de contract bazate pe proiect
+              items:
+                - name: Gestionarea listelor de prețuri pentru proiecte
+                  href: sales/manage-project-price-lists.md
+                - name: Gestionarea mai multor clienți într-o linie de contract
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Maparea proiectelor și activităților într-o linie de contract
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Crearea estimărilor pentru un proiect într-o linie de contract
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Importul estimărilor dintr-un proiect într-o linie de contract
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Gestionarea valorilor, bugetelor clienților și limitelor contractuale care nu trebuie depășite pentru o linie de ofertă'
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: Planificările de facturi într-o linie de ofertă
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Confirmarea unui contract
+              href: sales/confirm-contract.md
+            - name: Închiderea unui contract când lucrul s-a finalizat
+              href: sales/close-contract-work-completed.md
+            - name: Închiderea unui contract ca anulat
+              href: sales/close-contract-canceled.md
+    - name: Prețuri și costuri
+      items:
+        - name: Liste de prețuri pentru produse
+          href: pricing-costing/product-price-list.md
+        - name: Liste de prețuri pentru proiecte
+          items:
+            - name: Listă de prețuri pentru cost
+              items:
+                - name: Configurarea listelor de prețuri pentru cost
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Valori implicite pentru o listă de prețuri
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Înlocuirea valorilor implicite
+                  href: pricing-costing/cost-override-default.md
+            - name: Configurarea listei de prețuri pentru vânzări
+              items:
+                - name: Configurarea listei de prețuri pentru vânzări
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Valori implicite pentru lista de prețuri pentru vânzări
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Înlocuirea valorilor implicite
+                  href: pricing-costing/sales-override-default.md
+        - name: Dimensiuni de preț
+          items:
+            - name: Prezentare generală a dimensiunilor de preț
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Utilizarea unui câmp existent în operațiile de proiect ca dimensiune de preț
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Câmpuri particularizate ca dimensiuni de preț
+              items:
+                - name: Crearea de entități și câmpuri particularizate ca dimensiuni de preț
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Adăugarea câmpurilor particularizate la configurarea prețurilor și la entitățile tranzacționale
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Configurarea câmpurilor particularizate ca dimensiuni de preț
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Dezactivarea unei dimensiuni de preț
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Gestionarea proiectelor
+      items:
+        - name: Prezentare generală a gestionării proiectelor
+          href: project-management/project-management-overview.md
+        - name: Fazele unui proiect
+          href: project-management/project-stages.md
+        - name: Navigarea în interfața de utilizare
+          href: project-management/navigate-ui.md
+        - name: Înțelegerea stării proiectului
+          href: project-management/understand-project-status.md
+        - name: Definirea calendarelor de proiect
+          href: project-management/define-project-calendars.md
+        - name: Crearea unui proiect
+          items:
+            - name: Crearea de estimări inițiale
+              href: project-management/create-initial-estimates.md
+            - name: Configurarea calendarului de proiect
+              href: project-management/set-project-calendar.md
+            - name: Configurarea monedei proiectului
+              href: project-management/set-project-currency.md
+            - name: Definirea unui client
+              href: project-management/set-customer.md
+            - name: Adăugarea unui grup
+              href: project-management/add-group.md
+        - name: Actualizarea unui proiect
+          href: project-management/update-project.md
+        - name: Copierea unui proiect
+          href: project-management/copy-project.md
+        - name: Planificarea structurii detaliate a proiectului
+          items:
+            - name: Crearea unei structuri detaliate a proiectului
+              items:
+                - name: Crearea de activități
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Decuparea, copierea și lipirea activităților'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Anularea și refacerea activităților
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Ierarhia structurii detaliate a proiectului
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Actualizări de activități în bloc
+                  href: project-management/bulk-task-updates.md
+                - name: Editarea detaliilor unei activități
+                  href: project-management/edit-task-details.md
+            - name: Crearea de atribuiri
+              items:
+                - name: Adăugarea unor resurse existente
+                  href: project-management/add-existing-resources.md
+                - name: Adăugarea unor resurse generice
+                  href: project-management/add-generic-resources.md
+                - name: 'Care este impactul atribuirilor asupra efortului, duratei și datei de încheiere a activităților'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Vizualizarea contururilor de atribuire
+                  href: project-management/view-assignment-contours.md
+            - name: Navigarea prin experiența de gestionare a activităților
+              items:
+                - name: Gestionarea coloanelor
+                  href: project-management/column-management.md
+                - name: Vizualizări
+                  href: project-management/task-management-views.md
+                - name: Bucketuri
+                  href: project-management/task management-buckets.md
+        - name: Estimarea proiectelor
+          items:
+            - name: Prezentare generală a estimării proiectelor
+              href: project-management/estimating-projects-overview.md
+            - name: Estimări de resurse
+              items:
+                - name: Reîmprospătarea estimărilor proiectului pentru a reflecta modificările aduse planului de proiect
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Reîmprospătarea prețurilor și ratelor de cost pentru estimările unui proiect
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Prețul de cost al resurselor și valorile implicite pentru moneda de cost
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Rata de facturare a resurselor și valorile implicite pentru moneda de vânzare
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Crearea estimărilor de cheltuieli
+              items:
+                - name: Prețul de cost al cheltuielilor și valorile implicite pentru moneda de cost
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Rata de facturare a cheltuielilor și valorile implicite pentru moneda de vânzare
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Generarea de oferte și contracte
+          items:
+            - name: Importul structurii detaliate a proiectului în oferte
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Importul structurii detaliate a proiectului în contracte
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Urmărirea proiectelor
+          items:
+            - name: Pagina de pornire pentru urmărirea unui proiect
+              href: project-management/project-tracking-overview.md
+            - name: Definiții de coloane
+              items:
+                - name: Efort
+                  href: project-management/effort.md
+                - name: Cost
+                  href: project-management/cost.md
+                - name: Vânzări
+                  href: project-management/sales.md
+            - name: Actualizarea costului estimat la finalizare
+              href: project-management/update-completed-estimate.md
+        - name: Membrii echipei de proiect
+          items:
+            - name: Prezentare generală a membrilor echipei de proiect
+              href: project-management/project-team-members-overview.md
+            - name: Menținerea membrilor echipei
+              items:
+                - name: Adăugarea de membri la echipă
+                  href: project-management/add-team-members.md
+                - name: Actualizarea membrilor din echipa de proiect
+                  href: project-management/update-project-team-members.md
+                - name: Ștergerea membrilor echipei
+                  href: project-management/delete-team-members.md
+                - name: Menținerea rezervărilor
+                  href: project-management/maintain-bookings.md
+                - name: Aprobatori de proiect
+                  href: project-management/project-approvers.md
+        - name: Vânzări
+          items:
+            - name: Prezentare generală a filei de vânzări
+              href: project-management/sales-tab-overview.md
+        - name: Colaborare
+          items:
+            - name: Grupuri
+              href: project-management/groups.md
+        - name: Întrebări frecvente privind planificarea unui proiect
+          href: project-management/project-planning-faq.md
+    - name: Gestionarea resurselor
+      items:
+        - name: Prezentare generală a gestionării resurselor
+          href: resource-management/resource-management-overview.md
+        - name: Concepte cheie
+          href: resource-management/resource-management-key-concepts.md
+        - name: Rezervări versus atribuiri
+          href: resource-management/booking-vs-assignment.md
+        - name: Moduri de gestionare a resurselor
+          items:
+            - name: Prezentare generală a modului de gestionare a resurselor
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hibrid
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Central
+              href: resource-management/resource-management-mode-central.md
+        - name: Rezervare centralizată
+          items:
+            - name: Prezentare generală a rezervării centralizate
+              href: resource-management/centralized-booking-overview.md
+            - name: Adăugarea unor membri generici de echipă la activități
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definirea cerințelor pentru resurse
+              href: resource-management/define-resource-requirements.md
+            - name: Definirea contururilor cerințelor
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Actualizarea cerințelor pentru resurse
+              href: resource-management/update-resource-requirements.md
+            - name: Remiterea cerințelor pentru resurse
+              href: resource-management/submit-resource-requirements.md
+            - name: Solicitări de resurse
+              items:
+                - name: Prezentare generală a solicitărilor de resurse
+                  href: resource-management/resource-requests-overview.md
+                - name: Revizuirea câmpurilor și acțiunilor
+                  href: resource-management/review-fields-actions.md
+                - name: Găsirea resurselor
+                  href: resource-management/find-resources.md
+                - name: Revizuirea resurselor propuse
+                  href: resource-management/review-proposed-resources.md
+        - name: Rezervarea descentralizată a resurselor
+          items:
+            - name: Prezentare generală a rezervării descentralizate a resurselor
+              href: resource-management/centralized-booking-overview.md
+            - name: Opțiuni de rezervare directă
+              href: resource-management/options-book-directly.md
+            - name: Îndeplinirea cerințelor de resurse generice
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administrarea resurselor
+          items:
+            - name: Crearea de resurse
+              href: resource-management/create-resources.md
+            - name: Definirea abilităților și competențelor
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definirea rolurilor
+              href: resource-management/define-roles.md
+            - name: Definirea calendarelor de resurse
+              href: resource-management/define-resource-calendars.md
+            - name: Asocierea resurselor cu unitățile organizaționale
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Asocierea resurselor cu firmele
+              href: resource-management/associate-resources-companies.md
+        - name: Metode de alocare a rezervării
+          href: resource-management/booking-allocation-methods.md
+        - name: Starea rezervării
+          href: resource-management/booking-status.md
+        - name: Modele de abilități și competențe
+          href: resource-management/skills-proficiency-models.md
+        - name: Reconcilierea resurselor
+          items:
+            - name: Prezentare generală a reconcilierii resurselor
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Concepte cheie
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigare
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Extinderea rezervărilor
+              href: resource-management/extend-bookings.md
+            - name: Gestionarea mai multor fusuri orare
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Utilizarea resurselor
+          items:
+            - name: Prezentare generală a utilizării resurselor
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Căutarea, setările și navigarea'
+              href: resource-management/search-settings-navigation.md
+        - name: Tabloul de planificare
+          items:
+            - name: Navigarea și setările cheie
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Personalizarea
+              href: resource-management/personalization-urs.md
+            - name: Căutarea
+              href: resource-management/search-urs.md
+            - name: Acțiuni de rezervare
+              href: resource-management/booking-actions-urs.md
+            - name: Rezervarea
+              items:
+                - name: Rezervarea pentru un proiect
+                  href: resource-management/book-project.md
+                - name: Rezervarea cerințelor deschise
+                  href: resource-management/book-open-requirements.md
+                - name: Înlocuirea resurselor
+                  href: resource-management/substitute-resources.md
+                - name: Editarea rezervărilor existente
+                  href: resource-management/edit-existing-bookings.md
+        - name: Întrebări frecvente despre gestionarea resurselor
+          href: resource-management/resource-management-faq.md
+    - name: Timp
+      items:
+        - name: Prezentare generală a intrărilor de timp
+          href: time/time-entry-overview.md
+        - name: Crearea intrărilor de timp
+          items:
+            - name: 'Importul rezervărilor, atribuirilor și intrărilor în calendar'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Comportament UI
+              href: time/ui-behavior.md
+        - name: Remiterea Intrărilor de timp
+          href: time/submit-time-entries.md
+        - name: Retragerea intrărilor de timp
+          items:
+            - name: Înainte de aprobare
+              href: time/recall-time-entries-before-approval.md
+            - name: După aprobare
+              href: time/recall-time-entries-after-approval.md
+        - name: Aprobarea intrărilor de timp
+          href: time/approvals.md
+        - name: Note pentru dezvoltatori
+          items:
+            - name: Extinderea intrărilor de timp
+              href: time/extending-time-entries.md
+            - name: Particularizarea grilei de intrări de timp săptămânale
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Considerații de securitate
+              href: time/security-considerations.md
+    - name: Cheltuială
+      items:
+        - name: Pagina principală a cheltuielilor
+          href: expense/expense-overview.md
+        - name: Intrare simplificată cheltuieli
+          href: expense/expense-lite-entry.md
+        - name: Remiterea și retragerea intrărilor de cheltuieli
+          href: expense/submit-recall-expense-entries.md
+        - name: Aprobarea intrărilor simplificate de cheltuieli
+          href: expense/approvals.md
+        - name: Experiența de gestionare a cheltuielilor pentru proiecte
+          items:
+            - name: Configurarea și instalarea
+              items:
+                - name: Configurarea politicilor
+                  href: expense/set-up-policies.md
+                - name: Configurarea fluxurilor de lucru
+                  href: expense/set-up-workflows.md
+                - name: Gestionarea delegării
+                  href: expense/manage-delegation.md
+                - name: Configurarea parametrilor de gestionare a cheltuielilor
+                  href: expense/configure-expense-management-parameters.md
+                - name: Configurarea integrării cardului de credit
+                  href: expense/set-up-credit-card-integration.md
+                - name: Configurarea categoriilor de cheltuieli
+                  href: expense/set-up-expense-categories.md
+            - name: Crearea rapoartelor de cheltuieli
+              items:
+                - name: Distribuții pe un raport de cheltuieli
+                  href: expense/distributions-expense-report.md
+            - name: Aprobarea rapoartelor de cheltuieli
+              items:
+                - name: Rapoarte de cheltuieli și mai mulți aprobatori
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Postarea rapoartelor de cheltuieli
+              href: expense/posting-expense-reports.md
+            - name: Cerere de călătorie
+              href: expense/travel-requisition.md
+            - name: Avans în numerar
+              href: expense/cash-advance.md
+            - name: Diurne
+              href: expense/per-diems.md
+            - name: Gestiune financiară
+              items:
+                - name: Recuperarea TVA
+                  href: expense/vat-recovery.md
+            - name: Experiența nouă pentru cheltuieli
+              items:
+                - name: Rapoartele de cheltuieli reinventate
+                  href: expense/expense-reports-reimagined.md
+                - name: Corelarea chitanței cu cheltuielile folosind OCR
+                  href: expense/match-receipt-expense-ocr.md
+        - name: Cheltuieli folosind dispozitive mobile
+          href: expense/expense-using-mobile.md
+    - name: Aprobări
+      items:
+        - name: Prezentare generală
+          href: approvals/approvals-overview.md
+        - name: Aprobarea intrărilor de timp
+          href: approvals/approving-time-entries.md
+        - name: Aprobarea intrărilor de cheltuieli
+          items:
+            - name: Cheltuieli simplificate
+              href: approvals/approve-lite-expense.md
+            - name: Cheltuieli complete
+              href: approvals/approve-full-expense.md
+        - name: Anularea unor intrări de timp aprobate
+          href: approvals/cancelling-approved-time-entries.md
+        - name: Anularea unor intrări de cheltuieli aprobate
+          items:
+            - name: Cheltuieli simplificate
+              href: approvals/cancel-lite-expense.md
+            - name: Cheltuieli complete
+              href: approvals/cancel-full-expense.md
+    - name: Date reale
+      items:
+        - name: Prezentare generală
+          href: actuals/actuals-overview.md
+        - name: Crearea de date reale pentru un proiect intern
+          href: actuals/create-actuals-internal-project.md
+        - name: Crearea de date reale pentru o componentă facturabilă de proiect
+          items:
+            - name: Timp și material
+              href: actuals/time-material.md
+            - name: Preț fix
+              href: actuals/fixed-price.md
+        - name: Gestionarea stării și validărilor care nu trebuie depășite
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: Jurnale de proiect
+          items:
+            - name: Crearea unor jurnale de proiect pentru a înregistra tarifele pentru proiecte
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: Crearea unor jurnale de proiect pentru timp și cheltuieli
+              href: actuals/create-project-journals-time-expense.md
+            - name: Crearea și confirmarea jurnalelor de corecție
+              href: actuals/create-confirm-correction-journals-md
+        - name: Gestionarea restanțelor de facturare
+          href: actuals/manage-billing-backlog.md
+    - name: Facturarea proforma
+      items:
+        - name: Crearea planificărilor de factură
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Crearea unei facturi proforma manuale
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Gestionarea unei facturi proforma
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Confirmarea unei facturi proforma
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Facturi corective
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Configurarea unei creări automate a facturilor
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: Implementare simplificată - facturare de la tranzacție la proforma
+  items:
+    - name: Scenarii aplicabile
+      href: applicable-scenarios.md
+    - name: Noutăți
+      href: whats-new-mode-2-project-operations.md
+    - name: Configurarea mediului
+      href: set-up-environment-mode-2.md
+    - name: Date eșantion
+      href: sample-data-mode-2.md
+    - name: Proces de vânzări
+      items:
+        - name: Prezentare generală a procesului de vânzări
+          href: sales/sales-overview.md
+        - name: Diferențe cheie
+          href: sales/key-differences.md
+        - name: Configurare
+          items:
+            - name: Produse
+              href: sales/sales-products.md
+            - name: Unități și grupuri de unități
+              href: sales/sales-units-unit-groups.md
+            - name: Monedă
+              href: sales/sales-currency.md
+        - name: Gestionarea clienților potențiali
+          href: sales/managing-leads.md
+        - name: Gestionarea oportunităților
+          items:
+            - name: Antet de oportunitate
+              href: sales/opportunity-header.md
+            - name: Linii bazate pe produs
+              href: sales/product-based-lines.md
+            - name: Linii bazate pe proiect
+              href: sales/project-based-lines.md
+            - name: Conectarea ofertelor și oportunităților
+              href: sales/link-quotes-opportunities.md
+            - name: Închiderea unei oportunități
+              href: sales/close-opportunity.md
+        - name: Gestionarea ofertelor
+          items:
+            - name: Concepte cheie
+              href: sales/quotes-key-concepts.md
+            - name: 'Gestionarea valorilor, bugetelor clienților și limitelor care nu trebuie depășite dintr-o ofertă'
+              href: sales/quote-values-budget-limits.md
+            - name: Gestionarea mai multor clienți într-o ofertă
+              href: sales/manage-multiple-customers-quote.md
+            - name: Linii de oferte bazate pe produs
+              items:
+                - name: Linii de oferte bazate pe produs de cost
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Gestionarea unităților complexe pentru liniile de ofertă bazate pe produse
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Linii de oferte bazate pe proiect
+              items:
+                - name: Gestionarea listelor de prețuri pentru proiecte
+                  href: sales/manage-project-price-lists.md
+                - name: Gestionarea mai multor clienți într-o linie de ofertă
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Maparea proiectelor și activităților într-o linie de ofertă
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Crearea de estimări într-o linie de ofertă
+                  href: sales/create-estimate-quote-line.md
+                - name: Importul estimărilor dintr-un proiect într-o linie de ofertă
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Gestionarea valorilor, bugetelor clienților și limitelor care nu trebuie depășite dintr-o ofertă'
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Planificările de facturi într-o linie de ofertă
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Câștigarea unei oferte
+              href: sales/win-quote.md
+            - name: Pierderea unei oferte
+              href: sales/lose-quote.md
+        - name: Gestionarea contractelor
+          items:
+            - name: Concepte cheie
+              href: sales/contracts-key-concepts.md
+            - name: 'Gestionarea valorilor, bugetelor clienților și limitelor care nu trebuie depășite pentru un contract'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Gestionarea mai multor clienți într-un contract
+              href: sales/manage-multiple-customers-contract.md
+            - name: Linii de contract bazate pe produs
+              items:
+                - name: Linii de contract bazate pe produs de cost
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Gestionarea unităților complexe pentru liniile de contract bazate pe produse
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Linii de contract bazate pe proiect
+              items:
+                - name: Gestionarea listelor de prețuri pentru proiecte
+                  href: sales/manage-project-price-lists.md
+                - name: Gestionarea mai multor clienți într-o linie de contract
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Maparea proiectelor și activităților într-o linie de contract
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Crearea estimărilor dintr-un proiect într-o linie de contract
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Importul estimărilor dintr-un proiect într-o linie de contract
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Gestionarea valorilor, bugetelor clienților și limitelor care nu trebuie depășite pentru o linie de contract'
+                  href: sales/manage-contract-values-project-based.md
+                - name: Planificările de facturi într-o linie de ofertă
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Confirmarea unui contract
+              href: sales/confirm-contract.md
+            - name: Închiderea unui contract când lucrul s-a finalizat
+              href: sales/close-contract-work-completed.md
+            - name: Închiderea unui contract ca anulat
+              href: sales/close-contract-canceled.md
+    - name: Prețuri și costuri
+      items:
+        - name: Liste de prețuri pentru produse
+          href: pricing-costing/product-price-lists.md
+        - name: Liste de prețuri pentru proiecte
+          items:
+            - name: Listă de prețuri pentru cost
+              items:
+                - name: Configurarea listelor de prețuri pentru cost
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Valori implicite pentru o listă de prețuri
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Înlocuirea valorilor implicite
+                  href: pricing-costing/cost-override-default.md
+            - name: Configurarea listei de prețuri pentru vânzări
+              items:
+                - name: Configurarea listei de prețuri pentru vânzări
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Valori implicite pentru lista de prețuri pentru vânzări
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Înlocuirea valorilor implicite
+                  href: pricing-costing/sales-override-default.md
+        - name: Dimensiuni de preț
+          items:
+            - name: Prezentare generală a dimensiunilor de preț
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: Utilizarea unui câmp existent în operațiile de proiect ca dimensiune de preț
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Câmpuri particularizate ca dimensiune de preț
+              items:
+                - name: Crearea de entități și câmpuri particularizate ca dimensiuni de preț
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Adăugarea câmpurilor particularizate la configurarea prețurilor și entitățile tranzacționale
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Configurarea câmpurilor particularizate ca dimensiuni de preț
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Dezactivarea unei dimensiuni de preț
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Gestionarea proiectelor
+      items:
+        - name: Prezentare generală a gestionării proiectelor
+          href: project-management/project-management-overview.md
+        - name: Fazele unui proiect
+          href: project-management/project-stages.md
+        - name: Navigarea în interfața de utilizare
+          href: project-management/navigate-ui.md
+        - name: Înțelegerea stării proiectului
+          href: project-management/understand-project-status.md
+        - name: Definirea calendarelor de proiect
+          href: project-management/define-project-calendars.md
+        - name: Crearea unui proiect
+          items:
+            - name: Crearea unor estimări inițiale
+              href: project-management/create-initial-estimates.md
+            - name: Configurarea calendarului de proiect
+              href: project-management/set-project-calendar.md
+            - name: Configurarea monedei proiectului
+              href: project-management/set-project-currency.md
+            - name: Definirea unui client
+              href: project-management/set-customer.md
+            - name: Adăugarea unui grup
+              href: project-management/add-group.md
+        - name: Actualizarea unui proiect
+          href: project-management/update-project.md
+        - name: Copierea unui proiect
+          href: project-management/copy-project.md
+        - name: Planificarea structurii detaliate a proiectului
+          items:
+            - name: Crearea unei structuri detaliate a proiectului
+              items:
+                - name: Crearea de activități
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Decuparea, copierea și lipirea activităților'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Anularea și refacerea activităților
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Ierarhia structurii detaliate a proiectului
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Actualizări de activități în bloc
+                  href: project-management/bulk-task-updates.md
+                - name: Editarea detaliilor unei activități
+                  href: project-management/edit-task-details.md
+            - name: Crearea de atribuiri
+              items:
+                - name: Adăugarea unor resurse existente
+                  href: project-management/add-existing-resources.md
+                - name: Adăugarea unor resurse generice
+                  href: project-management/add-generic-resources.md
+                - name: 'Care este impactul atribuirilor asupra efortului, duratei și datei de încheiere a activităților'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Vizualizarea contururilor de atribuire
+                  href: project-management/view-assignment-contours.md
+            - name: Navigarea prin experiența de gestionare a activităților
+              items:
+                - name: Gestionarea coloanelor
+                  href: project-management/column-management.md
+                - name: Vizualizări
+                  href: project-management/task-management-views.md
+                - name: Bucketuri
+                  href: project-management/task management-buckets.md
+        - name: Estimarea proiectelor
+          items:
+            - name: Prezentare generală a estimării proiectelor
+              href: project-management/estimate-projects-overview.md
+            - name: Estimări de resurse
+              items:
+                - name: Reîmprospătarea estimărilor proiectului pentru a reflecta modificările aduse planului de proiect
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Reîmprospătarea prețurilor și ratelor de cost pentru estimările unui proiect
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Prețul de cost al resurselor și valorile implicite pentru moneda de cost
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Rata de facturare a resurselor și valorile implicite pentru moneda de vânzare
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Crearea estimărilor de cheltuieli
+              items:
+                - name: Prețul de cost al cheltuielilor și valorile implicite pentru moneda de cost
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Rata de facturare a cheltuielilor și valorile implicite pentru moneda de vânzare
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Generarea de oferte și contracte
+          items:
+            - name: Importul structurii detaliate a proiectului în oferte
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Importul structurii detaliate a proiectului în contracte
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Urmărirea proiectelor
+          items:
+            - name: Pagina de pornire pentru urmărirea unui proiect
+              href: project-management/cost-vs-effort-overview.md
+            - name: Definiții de coloane
+              items:
+                - name: Efort
+                  href: project-management/effort.md
+                - name: Cost
+                  href: project-management/cost.md
+                - name: Vânzări
+                  href: project-management/sales.md
+            - name: Actualizarea costului estimat la finalizare
+              href: project-management/update-completed-estimate.md
+        - name: Membrii echipei de proiect
+          items:
+            - name: Prezentare generală a membrilor echipei de proiect
+              href: project-management/project-team-members-overview.md
+            - name: Menținerea membrilor echipei
+              items:
+                - name: Adăugarea de membri la echipă
+                  href: project-management/add-team-members.md
+                - name: Actualizarea membrilor din echipa de proiect
+                  href: project-management/update-project-team-members.md
+                - name: Ștergerea membrilor echipei
+                  href: project-management/delete-team-members.md
+                - name: Menținerea rezervărilor
+                  href: project-management/maintain-bookings.md
+                - name: Aprobatori de proiect
+                  href: project-management/project-approvers.md
+        - name: Vânzări
+          items:
+            - name: Prezentare generală a filei de vânzări
+              href: project-management/sales-tab-overview.md
+        - name: Colaborare
+          items:
+            - name: Grupuri
+              href: project-management/groups.md
+        - name: Întrebări frecvente privind planificarea unui proiect
+          href: project-management/project-planning-faq.md
+    - name: Gestionarea resurselor
+      items:
+        - name: Prezentare generală a gestionării resurselor
+          href: resource-management/resource-management-overview.md
+        - name: Concepte cheie
+          href: resource-management/resource-management-key-concepts.md
+        - name: Rezervări versus atribuiri
+          href: resource-management/booking-vs-assignment.md
+        - name: Moduri de gestionare a resurselor
+          items:
+            - name: Prezentare generală a modului de gestionare a resurselor
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hibrid
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Central
+              href: resource-management/resource-management-mode-central.md
+        - name: Rezervare centralizată
+          items:
+            - name: Prezentare generală a rezervării centralizate
+              href: resource-management/centralized-booking-overview.md
+            - name: Adăugarea unor membri generici de echipă la activități
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Definirea cerințelor pentru resurse
+              href: resource-management/define-resource-requirements.md
+            - name: Definirea contururilor cerințelor
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Actualizarea cerințelor pentru resurse
+              href: resource-management/update-resource-requirements.md
+            - name: Remiterea cerințelor pentru resurse
+              href: resource-management/submit-resource-requirements.md
+            - name: Solicitări de resurse
+              items:
+                - name: Prezentare generală a solicitărilor de resurse
+                  href: resource-management/resource-requests-overview.md
+                - name: Revizuirea câmpurilor și acțiunilor
+                  href: resource-management/review-fields-actions.md
+                - name: Găsirea resurselor
+                  href: resource-management/find-resources.md
+                - name: Revizuirea resurselor propuse
+                  href: resource-management/review-proposed-resources.md
+        - name: Rezervarea descentralizată a resurselor
+          items:
+            - name: Prezentare generală a rezervării descentralizate a resurselor
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: Opțiuni de rezervare directă
+              href: resource-management/options-book-directly.md
+            - name: Îndeplinirea cerințelor de resurse generice
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administrarea resurselor
+          items:
+            - name: Crearea de resurse
+              href: resource-management/create-resources.md
+            - name: Definirea abilităților și competențelor
+              href: resource-management/define-skills-proficiencies.md
+            - name: Definirea rolurilor
+              href: resource-management/define-roles.md
+            - name: Definirea calendarelor de resurse
+              href: resource-management/define-resource-calendars.md
+            - name: Asocierea resurselor cu unitățile organizaționale
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Asocierea resurselor cu firmele
+              href: resource-management/associate-resources-companies.md
+        - name: Metode de alocare a rezervării
+          href: resource-management/booking-allocation-methods.md
+        - name: Stări de rezervare
+          href: resource-management/booking-status.md
+        - name: Modele de abilități și competențe
+          href: resource-management/skills-proficiency-models.md
+        - name: Reconcilierea resurselor
+          items:
+            - name: Prezentare generală a reconcilierii resurselor
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Concepte cheie
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigare
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Extinderea rezervărilor
+              href: resource-management/extend-bookings.md
+            - name: Gestionarea mai multor fusuri orare
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Utilizarea resurselor
+          items:
+            - name: Prezentare generală a utilizării resurselor
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Căutarea, setările și navigarea'
+              href: resource-management/search-settings-navigation.md
+        - name: Tabloul de planificare
+          items:
+            - name: Navigarea și setările cheie
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Personalizarea
+              href: resource-management/personalization-urs.md
+            - name: Căutarea
+              href: resource-management/search-urs.md
+            - name: Acțiuni de rezervare
+              href: resource-management/booking-actions-urs.md
+            - name: Rezervarea
+              items:
+                - name: Rezervarea pentru un proiect
+                  href: resource-management/book-project.md
+                - name: Rezervarea cerințelor deschise
+                  href: resource-management/book-open-requirements.md
+                - name: Înlocuirea resurselor
+                  href: resource-management/substitute-resources.md
+                - name: Editarea rezervărilor existente
+                  href: resource-management/edit-existing-bookings.md
+        - name: Întrebări frecvente despre gestionarea resurselor
+          href: resource-management/resource-management-faq.md
+    - name: Timp
+      items:
+        - name: Prezentare generală a intrărilor de timp
+          href: time/time-entry-overview.md
+        - name: Crearea intrărilor de timp
+          items:
+            - name: 'Importul rezervărilor, atribuirilor și intrărilor în calendar'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Comportament UI
+              href: time/ui-behavior.md
+        - name: Remiterea Intrărilor de timp
+          href: time/submit-time-entries.md
+        - name: Retragerea intrărilor de timp
+          items:
+            - name: Înainte de aprobare
+              href: time/recall-time-entries-before-approval.md
+            - name: După aprobare
+              href: time/recall-time-entries-after-approval.md
+        - name: Aprobarea intrărilor de timp
+          href: time/approvals.md
+        - name: Note pentru dezvoltatori
+          items:
+            - name: Extinderea intrărilor de timp
+              href: time/extending-time-entries.md
+            - name: Particularizarea grilei de intrări de timp săptămânale
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Considerații de securitate
+              href: time/security-considerations.md
+    - name: Cheltuială
+      items:
+        - name: Pagina principală a cheltuielilor
+          href: expense/expense-overview.md
+        - name: Intrare cheltuieli
+          href: expense-entry.md
+    - name: Aprobări
+      items:
+        - name: Prezentare generală
+          href: approvals/approvals-overview.md
+        - name: Aprobarea intrărilor de timp
+          href: approvals/approving-time-entries.md
+        - name: Aprobarea intrărilor de cheltuieli
+          href: approve-expense-entries.md
+    - name: Facturarea proforma
+      items:
+        - name: Crearea planificărilor de factură
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Crearea unei facturi proforma manuale
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Gestionarea unei facturi proforma
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Confirmarea unei facturi proforma
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Facturi corective
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Configurarea unei creări automate a facturilor
+          href: proforma-invoicing/configure-automated-invoice-creation.md
