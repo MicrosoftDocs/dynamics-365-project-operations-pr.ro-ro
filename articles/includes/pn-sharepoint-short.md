@@ -1,1 +1,1 @@
-SharePoint
+<span data-ttu-id="efbed-101">SharePoint</span><span class="sxs-lookup"><span data-stu-id="efbed-101">SharePoint</span></span>

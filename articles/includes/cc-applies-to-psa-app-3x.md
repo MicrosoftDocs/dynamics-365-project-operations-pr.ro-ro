@@ -1,1 +1,1 @@
-Valabil pentru aplicația Project Service versiunea 3.x
+<span data-ttu-id="5085f-101">Valabil pentru aplicația Project Service versiunea 3.x</span><span class="sxs-lookup"><span data-stu-id="5085f-101">Applies to Project Service app version 3.x</span></span>

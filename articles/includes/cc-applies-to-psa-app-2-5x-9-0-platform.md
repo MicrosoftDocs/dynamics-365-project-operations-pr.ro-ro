@@ -1,1 +1,1 @@
-Aplicația Project Service versiunea 2.5.x sau o versiune ulterioară pe Dynamics 365 (online) versiunea 9.x
+<span data-ttu-id="1c2fe-101">Aplicația Project Service versiunea 2.5.x sau o versiune ulterioară pe Dynamics 365 (online) versiunea 9.x</span><span class="sxs-lookup"><span data-stu-id="1c2fe-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>

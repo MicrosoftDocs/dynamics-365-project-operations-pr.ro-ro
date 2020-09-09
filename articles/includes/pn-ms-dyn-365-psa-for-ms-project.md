@@ -1,1 +1,1 @@
-Programul de completare Dynamics 365 Project Service Automation pentru Microsoft Project
+<span data-ttu-id="84d56-101">Programul de completare Dynamics 365 Project Service Automation pentru Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="84d56-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

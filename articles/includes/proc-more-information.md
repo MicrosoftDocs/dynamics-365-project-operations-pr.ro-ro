@@ -1,1 +1,1 @@
-Informații suplimentare:
+<span data-ttu-id="69b5f-101">Informații suplimentare:</span><span class="sxs-lookup"><span data-stu-id="69b5f-101">More information:</span></span>

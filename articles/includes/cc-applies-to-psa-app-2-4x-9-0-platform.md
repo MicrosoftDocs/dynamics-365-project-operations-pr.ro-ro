@@ -1,1 +1,1 @@
-Valabil pentru aplicația Project Service versiunea 2.4.4.30 sau o versiune anterioară pe Dynamics 365 (online) versiunea 9.x
+<span data-ttu-id="583bc-101">Valabil pentru aplicația Project Service versiunea 2.4.4.30 sau o versiune anterioară pe Dynamics 365 (online) versiunea 9.x</span><span class="sxs-lookup"><span data-stu-id="583bc-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

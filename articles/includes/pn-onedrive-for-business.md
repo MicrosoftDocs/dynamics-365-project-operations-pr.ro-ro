@@ -1,1 +1,1 @@
-OneDrive pentru business
+<span data-ttu-id="4df2d-101">OneDrive pentru business</span><span class="sxs-lookup"><span data-stu-id="4df2d-101">OneDrive for Business</span></span>

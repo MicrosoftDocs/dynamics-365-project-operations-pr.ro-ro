@@ -1,1 +1,1 @@
-Grupuri Office 365
+<span data-ttu-id="d245c-101">Grupuri Office 365</span><span class="sxs-lookup"><span data-stu-id="d245c-101">Office 365 Groups</span></span>
