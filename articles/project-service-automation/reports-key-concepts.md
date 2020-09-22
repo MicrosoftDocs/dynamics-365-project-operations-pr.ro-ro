@@ -1,0 +1,50 @@
+---
+title: Concepte-cheie
+description: Acest subiect oferă informații despre conceptele-cheie pentru gestionarea resurselor în Project Service Automation.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/28/2019
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: f5f96f65-c191-493a-aef7-df7deb52a9cb
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 4a839b828d5e1da1e5a8d8a378197b3d4932e529
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: ro-RO
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3754801"
+---
+# <a name="key-concepts"></a>Concepte-cheie
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+Următorul tabel definește conceptele cheie care sunt utilizate în aplicația Dynamics 365 Project Service Automation.
+
+| Concept                    | Definire |
+|----------------------------|------------|
+| Membru echipă de proiect        | Ca parte a echipei de proiect, un membru al echipei de proiect poate fi o resursă denumită care are rezervări, o resursă denumită care nu are rezervări sau o resursă generică. Resursele generice nu au rezervări, sunt locale pentru proiect și nu au constrângeri de capacitate în cadrul proiectelor. |
+| Resursă generică proiect   | Un substituent de resurse care vă permite să formați o echipă și un personal pentru un plan de proiect fără a fi nevoie să cunoașteți resursa denumită. Calendarul proiectului este utilizat drept calendarul resursei generice. Resursele generice pot fi adăugate la o echipă de proiect și atribuite la activități. |
+| Ore rezervate               | Orele resursei sunt rezervate ferm pe un proiect pentru a ajuta la garantarea finalizării lucrului la proiect. Orele rezervate sunt consumate din capacitatea globală a resursei. Rezervările se fac numai pentru resursele denumite, nu pentru resursele generice. |
+| Ore atribuite             | Orele resurselor sunt atribuite activităților din planificarea proiectului. Atribuirile pot fi făcute fie pentru resurse numite sau pentru resurse generice. Atribuirile pot fi independente de rezervări. |
+| Ore obligatorii             | Capacitatea necesară, dar care nu este încă îndeplinită de o resursă denumită. Orele necesare sunt relevante numai pentru membrii generici ai echipei care au generat cerințe de resurse. |
+| Cerere                     | Volumul de muncă curent și viitor. În Project Service Automation, cererea este afișată ca cerințe de resurse sau solicitări de resurse. |
+| Cerință resursă       | O entitate care este utilizată pentru a capta orele necesare, datele de început și de sfârșit, competențele, geografia și alte dimensiuni de preț pentru resursele necesare. Cerințele de resurse sunt fie generate de membrii echipei de proiect, fie create individual. |
+| Solicitare de resurse           | O entitate care este utilizată ca un „plic" pentru a transporta cerința de resurse care trebuie să îndeplinită de către un manager de resurse. |
+| Rolul implicit al resursei      | Rolul sub care este grupată o resursă pentru calculul de utilizare. Se presupune că resursa are competențele necesare pentru rolul și îndeplinirea obiectivului de utilizare a acestui rol. |
+| Unitatea organizațională a resursei | Unitatea organizațională la care este atribuită o resursă. |
+| Contur                    | Activitate, cerință sau ore de atribuire conform defalcării într-o distribuție zilnică. De exemplu, o activitate de cinci zile, 40 de ore poate fi conturată în opt ore pe zi, timp de cinci zile. |
+| Vizualizare reconciliere        | O vizualizare care afișează rezervările și atribuirile pentru fiecare membru al echipei de proiect. Această vizualizare îi permite managerului de proiect să caute orice nepotrivire între rezervări și atribuiri și să ia măsuri corective dacă are loc o nepotrivire. |
+| Ore de lucru                 | O entitate care este utilizată pentru a identifica capacitatea de resurse și orele de lucru și non-lucru. Această entitate este denumită și calendarul resursei. |
