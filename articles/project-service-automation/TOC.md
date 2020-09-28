@@ -77,7 +77,7 @@
 ### [Îndeplinirea solicitărilor de resurse](resource-management-fulfill-requests.md)
 ### [Propunerea de resurse](resource-management-propose-resources.md)
 ### [Rezervarea de resurse](resource-management-book-resources-scheduleboard.md)
-### [Metode de alocare a rezervării](FAQ-allocation-methods.md)
+### [Metode de alocare a rezervărilor](FAQ-allocation-methods.md)
 ### [Cerințe de rezervare provizorie](resource-management-softbook-requirements.md)
 ### [Rezervarea provizorie a unei resurse](FAQ-soft-book.md)
 ### [Crearea unei rezervări de proiect din panoul de planificare](FAQ-project-booking-schedule-board.md)
