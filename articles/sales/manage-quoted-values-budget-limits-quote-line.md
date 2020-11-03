@@ -9,169 +9,189 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906299"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082663"
 ---
-# <a name="project-based-quote-lines"></a>Linii de oferte bazate pe proiect
+# <a name="project-based-quote-lines"></a><span data-ttu-id="a6d94-103">Linii de oferte bazate pe proiect</span><span class="sxs-lookup"><span data-stu-id="a6d94-103">Project-based quote lines</span></span>
 
-_**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
+<span data-ttu-id="a6d94-104">_**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_</span><span class="sxs-lookup"><span data-stu-id="a6d94-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Liniile de ofertă bazate pe proiect sunt concepute pentru a ajuta la estimarea muncii proiectului pe baza unui angajament. Structura unei linii de ofertă bazată pe proiect este extinsă pentru estimările proiectului cu următoarele concepte:
+<span data-ttu-id="a6d94-105">Liniile de ofertă bazate pe proiect sunt concepute pentru a ajuta la estimarea muncii proiectului pe baza unui angajament.</span><span class="sxs-lookup"><span data-stu-id="a6d94-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="a6d94-106">Structura unei linii de ofertă bazată pe proiect este extinsă pentru estimările proiectului cu următoarele concepte:</span><span class="sxs-lookup"><span data-stu-id="a6d94-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
 
-- Metodă de facturare
-- Maparea proiectului
-- Clase de tranzacții incluse
-- Limită de nedepășire
-- Configurare posibilitate de tarifare
-- Estimare folosind Detaliile liniei de ofertă
-- Clienți de linie de ofertă
+- <span data-ttu-id="a6d94-107">Metodă de facturare</span><span class="sxs-lookup"><span data-stu-id="a6d94-107">Billing Method</span></span>
+- <span data-ttu-id="a6d94-108">Maparea proiectului</span><span class="sxs-lookup"><span data-stu-id="a6d94-108">Project Mapping</span></span>
+- <span data-ttu-id="a6d94-109">Clase de tranzacții incluse</span><span class="sxs-lookup"><span data-stu-id="a6d94-109">Included Transaction classes</span></span>
+- <span data-ttu-id="a6d94-110">Limită de nedepășire</span><span class="sxs-lookup"><span data-stu-id="a6d94-110">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="a6d94-111">Configurare posibilitate de tarifare</span><span class="sxs-lookup"><span data-stu-id="a6d94-111">Chargeability setup</span></span>
+- <span data-ttu-id="a6d94-112">Estimare folosind Detaliile liniei de ofertă</span><span class="sxs-lookup"><span data-stu-id="a6d94-112">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="a6d94-113">Clienți de linie de ofertă</span><span class="sxs-lookup"><span data-stu-id="a6d94-113">Quote line Customers</span></span>
 
-Următorul tabel oferă informații despre câmpurile de pe fila **General** a liniei de ofertă bazată pe proiect. Aceste câmpuri ajută la stabilirea bazei unei estimări detaliate, fundamentate pentru lucrările de proiect.
+<span data-ttu-id="a6d94-114">Următorul tabel oferă informații despre câmpurile de pe fila **General** a liniei de ofertă bazată pe proiect.</span><span class="sxs-lookup"><span data-stu-id="a6d94-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="a6d94-115">Aceste câmpuri ajută la stabilirea bazei unei estimări detaliate, fundamentate pentru lucrările de proiect.</span><span class="sxs-lookup"><span data-stu-id="a6d94-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
 
-| **Câmp** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| <span data-ttu-id="a6d94-116">**Câmp**</span><span class="sxs-lookup"><span data-stu-id="a6d94-116">**Field**</span></span> | <span data-ttu-id="a6d94-117">**Relevanță, scop și îndrumare**</span><span class="sxs-lookup"><span data-stu-id="a6d94-117">**Relevance, purpose, and guidance**</span></span> | <span data-ttu-id="a6d94-118">**Impactul din aval**</span><span class="sxs-lookup"><span data-stu-id="a6d94-118">**Downstream impact**</span></span> |
 | --- | --- | --- |
-| Nume | Numele liniei de cotație care ar trebui să vă ajute să identificați componenta discretă a cotației care este estimată. | Copiat pe linia contractului de proiect care este creată din această linie de cotație atunci când oferta este câștigată. |
-| Metodă de facturare | Pe o ofertă creată dintr-o oportunitate, această valoare este copiată din câmpul corespunzător de pe linia de oportunitate. Acest câmp include cele două modele principale de contractare acceptate de Dynamics 365 Project Operations:</br>- Preț fix</br>- Timp și material.| Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Project | Utilizați acest câmp opțional pentru a identifica proiectul care va fi utilizat pentru a furniza lucrările la acest angajament. Atunci când un proiect este mapat la o linie de ofertă, ajută la configurarea sarcinilor cu taxă și, de asemenea, la introducerea unei estimări bazate pe proiect la linia de estimare ca detalii despre linia de estimare. Atunci când un proiect nu este mapat la o linie de ofertă bazată pe proiect, devizul trebuie creat manual prin crearea fiecărui detaliu al liniei de estimare. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Includeți timpul | Un semnalizator **Da**/**Nu** indică dacă tranzacțiile de timp sau costurile forței de muncă pentru proiectul selectat vor fi incluse în estimarea de pe această linie de ofertă. O valoare de semnalizator **Nu** indică faptul că tranzacțiile de timp sau costul cu forța de muncă nu vor fi incluse în estimarea acestei linii de ofertă. O valoare de semnalizator **Da** indică faptul că tranzacțiile de timp sau costul cu forța de muncă vor fi incluse în estimarea acestei linii de ofertă. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Includeți cheltuielile | Un semnalizator **Da**/**Nu** indică dacă costurile de cheltuieli pentru proiectul selectat vor fi incluse în estimarea de pe această linie de ofertă. O valoare de semnalizator **Nu** indică faptul că costurile de cheltuieli nu vor fi incluse în estimarea acestei linii de ofertă. O valoare de semnalizator **Da** indică faptul că costurile de cheltuieli vor fi incluse în estimarea acestei linii de ofertă. | Această valoare de câmp este copiată peste linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Includeți tariful | Un semnalizator **Da**/**Nu** indică dacă taxele pentru proiectul selectat vor fi incluse în estimarea de pe această linie de ofertă. O valoare de semnalizator **Nu** indică faptul că taxele nu vor fi incluse în estimarea acestei linii de ofertă. O valoare de semnalizator **Da** indică faptul că taxele vor fi incluse în estimarea acestei linii de ofertă. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Valoare cotă | Aceasta este suma care va fi cotată clientului pentru toate lucrările prognozate pe această linie de ofertă bazată pe proiect. Pe o ofertă creată dintr-o oportunitate, această valoare este copiată din câmpul **Buget de client** de pe linia de oportunitate. Când linia de estimare bazată pe proiect are detalii despre linie, acest câmp este blocat pentru editare și este rezumat din suma din detaliile liniei de estimare. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Impozit estimat | Acesta este un câmp editabil pentru ca utilizatorul să adauge suma fiscală estimată pe linia de ofertă. Când o linie de estimare bazată pe proiect are detalii despre linie, acest câmp este blocat pentru editare și este rezumat din suma taxelor din detaliile liniei de estimare. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Valoare ofertată după taxe | Acest câmp reprezintă suma liniei de cotare după impozitare și este doar în citire. Suma din acest câmp este calculată ca *Suma oferită + Taxe*. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Limită de nedepășire | Acest câmp este editabil și este disponibil numai pe liniile de cotație bazate pe proiecte care au o metodă de facturare **Timp și material**. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
-| Buget client | Acest câmp se poate edita și este copiat din câmpul corespunzător de pe linia de oportunitate dacă oferta a fost creată dintr-o oportunitate. | Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
+| <span data-ttu-id="a6d94-119">Nume</span><span class="sxs-lookup"><span data-stu-id="a6d94-119">Name</span></span> | <span data-ttu-id="a6d94-120">Numele liniei de cotație care ar trebui să vă ajute să identificați componenta discretă a cotației care este estimată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-120">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="a6d94-121">Copiat pe linia contractului de proiect care este creată din această linie de cotație atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-122">Metodă de facturare</span><span class="sxs-lookup"><span data-stu-id="a6d94-122">Billing Method</span></span> | <span data-ttu-id="a6d94-123">Pe o ofertă creată dintr-o oportunitate, această valoare este copiată din câmpul corespunzător de pe linia de oportunitate.</span><span class="sxs-lookup"><span data-stu-id="a6d94-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="a6d94-124">Acest câmp include cele două modele principale de contractare acceptate de Dynamics 365 Project Operations:</span><span class="sxs-lookup"><span data-stu-id="a6d94-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="a6d94-125">- Preț fix</span><span class="sxs-lookup"><span data-stu-id="a6d94-125">- Fixed price</span></span></br><span data-ttu-id="a6d94-126">- Timp și material.</span><span class="sxs-lookup"><span data-stu-id="a6d94-126">- Time and material.</span></span>| <span data-ttu-id="a6d94-127">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-127">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-128">Project</span><span class="sxs-lookup"><span data-stu-id="a6d94-128">Project</span></span> | <span data-ttu-id="a6d94-129">Utilizați acest câmp opțional pentru a identifica proiectul care va fi utilizat pentru a furniza lucrările la acest angajament.</span><span class="sxs-lookup"><span data-stu-id="a6d94-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="a6d94-130">Atunci când un proiect este mapat la o linie de ofertă, ajută la configurarea sarcinilor cu taxă și, de asemenea, la introducerea unei estimări bazate pe proiect la linia de estimare ca detalii despre linia de estimare.</span><span class="sxs-lookup"><span data-stu-id="a6d94-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="a6d94-131">Atunci când un proiect nu este mapat la o linie de ofertă bazată pe proiect, devizul trebuie creat manual prin crearea fiecărui detaliu al liniei de estimare.</span><span class="sxs-lookup"><span data-stu-id="a6d94-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="a6d94-132">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-132">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-133">Includeți timpul</span><span class="sxs-lookup"><span data-stu-id="a6d94-133">Include Time</span></span> | <span data-ttu-id="a6d94-134">Un semnalizator **Da**/**Nu** indică dacă tranzacțiile de timp sau costurile forței de muncă pentru proiectul selectat vor fi incluse în estimarea de pe această linie de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-134">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="a6d94-135">O valoare de semnalizator **Nu** indică faptul că tranzacțiile de timp sau costul cu forța de muncă nu vor fi incluse în estimarea acestei linii de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-135">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="a6d94-136">O valoare de semnalizator **Da** indică faptul că tranzacțiile de timp sau costul cu forța de muncă vor fi incluse în estimarea acestei linii de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-136">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="a6d94-137">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-137">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-138">Includeți cheltuielile</span><span class="sxs-lookup"><span data-stu-id="a6d94-138">Include Expense</span></span> | <span data-ttu-id="a6d94-139">Un semnalizator **Da**/**Nu** indică dacă costurile de cheltuieli pentru proiectul selectat vor fi incluse în estimarea de pe această linie de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-139">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="a6d94-140">O valoare de semnalizator **Nu** indică faptul că costurile de cheltuieli nu vor fi incluse în estimarea acestei linii de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-140">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="a6d94-141">O valoare de semnalizator **Da** indică faptul că costurile de cheltuieli vor fi incluse în estimarea acestei linii de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-141">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="a6d94-142">Această valoare de câmp este copiată peste linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-142">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-143">Includeți tariful</span><span class="sxs-lookup"><span data-stu-id="a6d94-143">Include Fee</span></span> | <span data-ttu-id="a6d94-144">Un semnalizator **Da**/**Nu** indică dacă taxele pentru proiectul selectat vor fi incluse în estimarea de pe această linie de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-144">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="a6d94-145">O valoare de semnalizator **Nu** indică faptul că taxele nu vor fi incluse în estimarea acestei linii de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-145">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="a6d94-146">O valoare de semnalizator **Da** indică faptul că taxele vor fi incluse în estimarea acestei linii de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-146">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="a6d94-147">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-147">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-148">Valoare cotă</span><span class="sxs-lookup"><span data-stu-id="a6d94-148">Quoted Amount</span></span> | <span data-ttu-id="a6d94-149">Aceasta este suma care va fi cotată clientului pentru toate lucrările prognozate pe această linie de ofertă bazată pe proiect.</span><span class="sxs-lookup"><span data-stu-id="a6d94-149">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="a6d94-150">Pe o ofertă creată dintr-o oportunitate, această valoare este copiată din câmpul **Buget de client** de pe linia de oportunitate.</span><span class="sxs-lookup"><span data-stu-id="a6d94-150">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="a6d94-151">Când linia de estimare bazată pe proiect are detalii despre linie, acest câmp este blocat pentru editare și este rezumat din suma din detaliile liniei de estimare.</span><span class="sxs-lookup"><span data-stu-id="a6d94-151">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="a6d94-152">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-152">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-153">Impozit estimat</span><span class="sxs-lookup"><span data-stu-id="a6d94-153">Estimated Tax</span></span> | <span data-ttu-id="a6d94-154">Acesta este un câmp editabil pentru ca utilizatorul să adauge suma fiscală estimată pe linia de ofertă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-154">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="a6d94-155">Când o linie de estimare bazată pe proiect are detalii despre linie, acest câmp este blocat pentru editare și este rezumat din suma taxelor din detaliile liniei de estimare.</span><span class="sxs-lookup"><span data-stu-id="a6d94-155">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="a6d94-156">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-156">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-157">Valoare ofertată după taxe</span><span class="sxs-lookup"><span data-stu-id="a6d94-157">Quoted Amount after Tax</span></span> | <span data-ttu-id="a6d94-158">Acest câmp reprezintă suma liniei de cotare după impozitare și este doar în citire.</span><span class="sxs-lookup"><span data-stu-id="a6d94-158">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="a6d94-159">Suma din acest câmp este calculată ca *Suma oferită + Taxe*.</span><span class="sxs-lookup"><span data-stu-id="a6d94-159">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="a6d94-160">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-160">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-161">Limită de nedepășire</span><span class="sxs-lookup"><span data-stu-id="a6d94-161">Not-to-exceed Limit</span></span> | <span data-ttu-id="a6d94-162">Acest câmp este editabil și este disponibil numai pe liniile de cotație bazate pe proiecte care au o metodă de facturare **Timp și material**.</span><span class="sxs-lookup"><span data-stu-id="a6d94-162">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="a6d94-163">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-163">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="a6d94-164">Buget client</span><span class="sxs-lookup"><span data-stu-id="a6d94-164">Customer Budget</span></span> | <span data-ttu-id="a6d94-165">Acest câmp se poate edita și este copiat din câmpul corespunzător de pe linia de oportunitate dacă oferta a fost creată dintr-o oportunitate.</span><span class="sxs-lookup"><span data-stu-id="a6d94-165">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="a6d94-166">Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată.</span><span class="sxs-lookup"><span data-stu-id="a6d94-166">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reguli de validare pentru câmpurile din fila General a liniilor de ofertă bazate pe proiect
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="a6d94-167">Reguli de validare pentru câmpurile din fila General a liniilor de ofertă bazate pe proiect</span><span class="sxs-lookup"><span data-stu-id="a6d94-167">Validation rules for fields on the General tab of project-based quote lines</span></span>
 
-**Regula 1**: O anumită clasă de tranzacție pentru proiectul selectat poate fi inclusă numai pe o singură linie de ofertă bazată pe proiect.
+<span data-ttu-id="a6d94-168">**Regula 1** : O anumită clasă de tranzacție pentru proiectul selectat poate fi inclusă numai pe o singură linie de ofertă bazată pe proiect.</span><span class="sxs-lookup"><span data-stu-id="a6d94-168">**Rule 1** : A certain transaction class on the selected project can only be included on one project-based quote line of a quote.</span></span>
 
-**Regula 2**: Dacă o oportunitate are mai multe ghilimele, pot exista linii de ofertă din oferte diferite care fac referire la același proiect și includ aceeași clasă de tranzacții.
+<span data-ttu-id="a6d94-169">**Regula 2** : Dacă o oportunitate are mai multe ghilimele, pot exista linii de ofertă din oferte diferite care fac referire la același proiect și includ aceeași clasă de tranzacții.</span><span class="sxs-lookup"><span data-stu-id="a6d94-169">**Rule 2** : If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
 
-**Regula 3**: Dacă ofertele nu aparțin aceleiași oportunități, nu pot include același proiect și aceeași clasă de tranzacții.
+<span data-ttu-id="a6d94-170">**Regula 3** : Dacă ofertele nu aparțin aceleiași oportunități, nu pot include același proiect și aceeași clasă de tranzacții.</span><span class="sxs-lookup"><span data-stu-id="a6d94-170">**Rule 3** : If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="61" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-171">
                     <strong>Oportunitate</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-171">
+                    <strong>Opportunity</strong>
+                </span></span></p>
             </td>
             <td width="41" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-172">
                     <strong>Ofertă</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-172">
+                    <strong>Quote</strong>
+                </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-173">
                     <strong>Linie de ofertă</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-173">
+                    <strong>Quote line</strong>
+                </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-174">
                     <strong>Project</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-174">
+                    <strong>Project</strong>
+                </span></span></p>
             </td>
             <td width="48" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-175">
                     <strong>Includeți timpul</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-175">
+                    <strong>Include time</strong>
+                </span></span></p>
             </td>
             <td width="48" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-176">
                     <strong>Includeți cheltuielile</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-176">
+                    <strong>Include expense</strong>
+                </span></span></p>
             </td>
             <td width="42" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-177">
                     <strong>Includere</strong>
-                </p>
-                <p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-177">
+                    <strong>Include</strong>
+                </span></span></p>
+                <p><span data-ttu-id="a6d94-178">
                     <strong>taxă</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-178">
+                    <strong>fee</strong>
+                </span></span></p>
             </td>
             <td width="54" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-179">
                     <strong>Valid/nu este valid</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-179">
+                    <strong>Valid/ Not valid</strong>
+                </span></span></p>
             </td>
             <td width="308" valign="top">
-                <p>
+                <p><span data-ttu-id="a6d94-180">
                     <strong>Motiv</strong>
-                </p>
+                </span><span class="sxs-lookup"><span data-stu-id="a6d94-180">
+                    <strong>Reason</strong>
+                </span></span></p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-181">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-181">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-182">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-182">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 </p>
+<span data-ttu-id="a6d94-183">QL1</span><span class="sxs-lookup"><span data-stu-id="a6d94-183">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-184">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-184">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-185">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-185">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-186">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-186">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-187">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-187">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Nu este valid </p>
+<span data-ttu-id="a6d94-188">Nu este valid</span><span class="sxs-lookup"><span data-stu-id="a6d94-188">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Încălcarea regulii #1. Timpul, cheltuielile și taxele pentru proiectul P1 sunt incluse pe ambele linii de ofertă, QL1 și QL2.
+<span data-ttu-id="a6d94-189">Încălcarea regulii #1.</span><span class="sxs-lookup"><span data-stu-id="a6d94-189">Violation of Rule #1.</span></span> <span data-ttu-id="a6d94-190">Timpul, cheltuielile și taxele pentru proiectul P1 sunt incluse pe ambele linii de ofertă, QL1 și QL2.</span><span class="sxs-lookup"><span data-stu-id="a6d94-190">Time, Expense, and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-191">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-191">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-192">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-192">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL2 </p>
+<span data-ttu-id="a6d94-193">QL2</span><span class="sxs-lookup"><span data-stu-id="a6d94-193">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-194">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-194">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-195">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-195">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-196">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-196">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-197">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-197">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -197,70 +217,70 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-198">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-198">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-199">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-199">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 </p>
+<span data-ttu-id="a6d94-200">QL1</span><span class="sxs-lookup"><span data-stu-id="a6d94-200">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-201">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-201">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-202">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-202">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Nicio </p>
+<span data-ttu-id="a6d94-203">Nicio</span><span class="sxs-lookup"><span data-stu-id="a6d94-203">No</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-204">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-204">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Nu este valid </p>
+<span data-ttu-id="a6d94-205">Nu este valid</span><span class="sxs-lookup"><span data-stu-id="a6d94-205">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Încălcarea regulii #1. Timpul și taxele pentru proiectul P1 sunt incluse pe ambele linii de ofertă, QL1 și QL2.
+<span data-ttu-id="a6d94-206">Încălcarea regulii #1.</span><span class="sxs-lookup"><span data-stu-id="a6d94-206">Violation of Rule #1.</span></span> <span data-ttu-id="a6d94-207">Timpul și taxele pentru proiectul P1 sunt incluse pe ambele linii de ofertă, QL1 și QL2.</span><span class="sxs-lookup"><span data-stu-id="a6d94-207">Time and Fees on P1 project are included on both quote lines, QL1 and QL2.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-208">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-208">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-209">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-209">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL2 </p>
+<span data-ttu-id="a6d94-210">QL2</span><span class="sxs-lookup"><span data-stu-id="a6d94-210">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-211">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-211">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-212">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-212">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-213">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-213">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-214">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-214">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -286,72 +306,72 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-215">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-215">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-216">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-216">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 </p>
+<span data-ttu-id="a6d94-217">QL1</span><span class="sxs-lookup"><span data-stu-id="a6d94-217">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-218">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-218">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-219">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-219">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Nicio </p>
+<span data-ttu-id="a6d94-220">Nicio</span><span class="sxs-lookup"><span data-stu-id="a6d94-220">No</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-221">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-221">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Valid </p>
+<span data-ttu-id="a6d94-222">Valid</span><span class="sxs-lookup"><span data-stu-id="a6d94-222">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                  <p>
-Timpul și taxele pentru proiectul P1 sunt incluse pe QL1.
-Cheltuielile pentru proiectul P1 sunt incluse în QL2.
-Nu există o suprapunere în ceea ce este inclus pe fiecare linie de cotare, deci este valabilă.
+<span data-ttu-id="a6d94-223">Timpul și taxele pentru proiectul P1 sunt incluse pe QL1.</span><span class="sxs-lookup"><span data-stu-id="a6d94-223">Time and fees on P1 project are included on QL1.</span></span>
+<span data-ttu-id="a6d94-224">Cheltuielile pentru proiectul P1 sunt incluse în QL2.</span><span class="sxs-lookup"><span data-stu-id="a6d94-224">Expense on P1 project is included on QL2.</span></span>
+<span data-ttu-id="a6d94-225">Nu există o suprapunere în ceea ce este inclus pe fiecare linie de cotare, deci este valabilă.</span><span class="sxs-lookup"><span data-stu-id="a6d94-225">There is no overlap in what is being included on each quote line so it is valid.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-226">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-226">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-227">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-227">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL2 </p>
+<span data-ttu-id="a6d94-228">QL2</span><span class="sxs-lookup"><span data-stu-id="a6d94-228">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-229">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-229">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Nicio </p>
+<span data-ttu-id="a6d94-230">Nicio</span><span class="sxs-lookup"><span data-stu-id="a6d94-230">No</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-231">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-231">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Nicio </p>
+<span data-ttu-id="a6d94-232">Nicio</span><span class="sxs-lookup"><span data-stu-id="a6d94-232">No</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -377,75 +397,75 @@ Nicio </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-233">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-233">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-234">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-234">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 </p>
+<span data-ttu-id="a6d94-235">QL1</span><span class="sxs-lookup"><span data-stu-id="a6d94-235">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-236">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-236">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-237">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-237">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-238">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-238">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-239">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-239">Yes</span></span> </p>
             </td>
             <td width="54" rowspan="2" valign="top">
                 <p>
-Nu este valid </p>
+<span data-ttu-id="a6d94-240">Nu este valid</span><span class="sxs-lookup"><span data-stu-id="a6d94-240">Not valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Încălcarea regulii #1 de mai sus </p>
+<span data-ttu-id="a6d94-241">Încălcarea regulii #1 de mai sus</span><span class="sxs-lookup"><span data-stu-id="a6d94-241">Violation of Rule #1 above</span></span> </p>
                 <p>
-Q1 include timp, cheltuieli și taxe pentru întregul proiect P1.
+<span data-ttu-id="a6d94-242">Q1 include timp, cheltuieli și taxe pentru întregul proiect P1.</span><span class="sxs-lookup"><span data-stu-id="a6d94-242">Q1 includes Time, Expenses, and Fees for the whole project P1.</span></span>
                 </p>
                 <p>
-QL2 include timp, cheltuieli și taxe pentru întregul proiect P1 și se suprapune cu ceea ce este inclus în Q1.
+<span data-ttu-id="a6d94-243">QL2 include timp, cheltuieli și taxe pentru întregul proiect P1 și se suprapune cu ceea ce este inclus în Q1.</span><span class="sxs-lookup"><span data-stu-id="a6d94-243">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-244">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-244">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-245">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-245">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL2 </p>
+<span data-ttu-id="a6d94-246">QL2</span><span class="sxs-lookup"><span data-stu-id="a6d94-246">QL2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-247">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-247">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-248">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-248">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-249">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-249">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-250">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-250">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
@@ -471,70 +491,70 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-251">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-251">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-252">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-252">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 </p>
+<span data-ttu-id="a6d94-253">QL1</span><span class="sxs-lookup"><span data-stu-id="a6d94-253">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-254">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-254">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-255">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-255">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-256">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-256">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-257">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-257">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-Valid </p>
+<span data-ttu-id="a6d94-258">Valid</span><span class="sxs-lookup"><span data-stu-id="a6d94-258">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Pe baza regulii #2, Q1 și Q2 sunt două citate cu aceeași oportunitate, astfel încât ambele pot estima pentru aceleași componente ale unui proiect.
+<span data-ttu-id="a6d94-259">Pe baza regulii #2, Q1 și Q2 sunt două citate cu aceeași oportunitate, astfel încât ambele pot estima pentru aceleași componente ale unui proiect.</span><span class="sxs-lookup"><span data-stu-id="a6d94-259">Based on Rule #2, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-260">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-260">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T2 </p>
+<span data-ttu-id="a6d94-261">T2</span><span class="sxs-lookup"><span data-stu-id="a6d94-261">Q2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 pe Q2 </p>
+<span data-ttu-id="a6d94-262">QL1 pe Q2</span><span class="sxs-lookup"><span data-stu-id="a6d94-262">QL1 on Q2</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-263">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-263">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-264">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-264">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-265">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-265">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-266">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-266">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
             </td>
@@ -562,74 +582,74 @@ Da </p>
         <tr>
             <td width="61" valign="top">
                 <p>
-O1 </p>
+<span data-ttu-id="a6d94-267">O1</span><span class="sxs-lookup"><span data-stu-id="a6d94-267">O1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-268">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-268">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 </p>
+<span data-ttu-id="a6d94-269">QL1</span><span class="sxs-lookup"><span data-stu-id="a6d94-269">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-270">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-270">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-271">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-271">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-272">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-272">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-273">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-273">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-Valid </p>
+<span data-ttu-id="a6d94-274">Valid</span><span class="sxs-lookup"><span data-stu-id="a6d94-274">Valid</span></span> </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-Pe baza regulii #3, Q1 și Q2 sunt două citate cu oportunități diferite, astfel încât ambele nu pot estima pentru aceleași componente ale aceluiași proiect.
+<span data-ttu-id="a6d94-275">Pe baza regulii #3, Q1 și Q2 sunt două citate cu oportunități diferite, astfel încât ambele nu pot estima pentru aceleași componente ale aceluiași proiect.</span><span class="sxs-lookup"><span data-stu-id="a6d94-275">Based on Rule #3, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="61" valign="top">
                 <p>
-O2 </p>
+<span data-ttu-id="a6d94-276">O2</span><span class="sxs-lookup"><span data-stu-id="a6d94-276">O2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-T1 </p>
+<span data-ttu-id="a6d94-277">T1</span><span class="sxs-lookup"><span data-stu-id="a6d94-277">Q1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-QL1 </p>
+<span data-ttu-id="a6d94-278">QL1</span><span class="sxs-lookup"><span data-stu-id="a6d94-278">QL1</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-P1 </p>
+<span data-ttu-id="a6d94-279">P1</span><span class="sxs-lookup"><span data-stu-id="a6d94-279">P1</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-280">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-280">Yes</span></span> </p>
             </td>
             <td width="48" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-281">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-281">Yes</span></span> </p>
             </td>
             <td width="42" valign="top">
                 <p>
-Da </p>
+<span data-ttu-id="a6d94-282">Da</span><span class="sxs-lookup"><span data-stu-id="a6d94-282">Yes</span></span> </p>
             </td>
             <td width="54" valign="top">
                 <p>
-Nu este valid </p>
+<span data-ttu-id="a6d94-283">Nu este valid</span><span class="sxs-lookup"><span data-stu-id="a6d94-283">Not Valid</span></span> </p>
             </td>
         </tr>
     </tbody>

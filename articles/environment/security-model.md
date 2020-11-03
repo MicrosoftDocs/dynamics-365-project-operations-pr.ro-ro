@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082681"
 ---
-# <a name="security-model"></a>Model de securitate
+# <a name="security-model"></a><span data-ttu-id="c345f-103">Model de securitate</span><span class="sxs-lookup"><span data-stu-id="c345f-103">Security Model</span></span>
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+<span data-ttu-id="c345f-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="c345f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Microsoft Dynamics 365 Project Operations conține un model de securitate unic, care permite un model de securitate de afaceri bazat pe roluri, care colaborează cu Microsoft Office Groups. 
+<span data-ttu-id="c345f-105">Microsoft Dynamics 365 Project Operations conține un model de securitate unic, care permite un model de securitate de afaceri bazat pe roluri, care colaborează cu Microsoft Office Groups.</span><span class="sxs-lookup"><span data-stu-id="c345f-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>Roluri de securitate
-Capabilitățile front-end ale Project Operations includ următoarele roluri:
+## <a name="security-roles"></a><span data-ttu-id="c345f-106">Roluri de securitate</span><span class="sxs-lookup"><span data-stu-id="c345f-106">Security roles</span></span>
+<span data-ttu-id="c345f-107">Capabilitățile front-end ale Project Operations includ următoarele roluri:</span><span class="sxs-lookup"><span data-stu-id="c345f-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| Rol                          | Descriere                                                                                                                                                                 | Domeniu de acoperire |
+| <span data-ttu-id="c345f-108">Rol</span><span class="sxs-lookup"><span data-stu-id="c345f-108">Role</span></span>                          | <span data-ttu-id="c345f-109">Descriere</span><span class="sxs-lookup"><span data-stu-id="c345f-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="c345f-110">Domeniu de acoperire</span><span class="sxs-lookup"><span data-stu-id="c345f-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Manager de practică              | Sprijină raportarea între proiecte.                                                                                                            | Unitate de business              |
-| Aprobator de proiect              | Aprobă timpul și cheltuielile la un proiect.                                                                                                                              | Unitate de business |
-| Administrator de facturare de proiect | Creează propunerea de facturare.                                                                                                                                                 | Unitate de business |
-| Manager de proiect               | Creează planul de proiect și solicită resurse.                                                                                                                              | Unitate de business |
-| Resursă de proiect              | Membrii echipei care pot fi rezervați și raportează timpul.                                                                                                          | Unitate de business|
-| Manager resurse              | Toate funcțiile de gestionare a resurselor, cum ar fi îndeplinirea cererilor și rezervărilor de resurse, separate pentru a susține o configurație hibridă de manager de proiect + Manager resurse și un rol unic și centralizat de Manager resurse. | Unitate de business |
+| <span data-ttu-id="c345f-111">Manager de practică</span><span class="sxs-lookup"><span data-stu-id="c345f-111">Practice manager</span></span>              | <span data-ttu-id="c345f-112">Sprijină raportarea între proiecte.</span><span class="sxs-lookup"><span data-stu-id="c345f-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="c345f-113">Unitate de business</span><span class="sxs-lookup"><span data-stu-id="c345f-113">Business unit</span></span>              |
+| <span data-ttu-id="c345f-114">Aprobator de proiect</span><span class="sxs-lookup"><span data-stu-id="c345f-114">Project approver</span></span>              | <span data-ttu-id="c345f-115">Aprobă timpul și cheltuielile la un proiect.</span><span class="sxs-lookup"><span data-stu-id="c345f-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="c345f-116">Unitate de business</span><span class="sxs-lookup"><span data-stu-id="c345f-116">Business unit</span></span> |
+| <span data-ttu-id="c345f-117">Administrator de facturare de proiect</span><span class="sxs-lookup"><span data-stu-id="c345f-117">Project billing administrator</span></span> | <span data-ttu-id="c345f-118">Creează propunerea de facturare.</span><span class="sxs-lookup"><span data-stu-id="c345f-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="c345f-119">Unitate de business</span><span class="sxs-lookup"><span data-stu-id="c345f-119">Business unit</span></span> |
+| <span data-ttu-id="c345f-120">Manager de proiect</span><span class="sxs-lookup"><span data-stu-id="c345f-120">Project manager</span></span>               | <span data-ttu-id="c345f-121">Creează planul de proiect și solicită resurse.</span><span class="sxs-lookup"><span data-stu-id="c345f-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="c345f-122">Unitate de business</span><span class="sxs-lookup"><span data-stu-id="c345f-122">Business unit</span></span> |
+| <span data-ttu-id="c345f-123">Resursă de proiect</span><span class="sxs-lookup"><span data-stu-id="c345f-123">Project resource</span></span>              | <span data-ttu-id="c345f-124">Membrii echipei care pot fi rezervați și raportează timpul.</span><span class="sxs-lookup"><span data-stu-id="c345f-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="c345f-125">Unitate de business</span><span class="sxs-lookup"><span data-stu-id="c345f-125">Business unit</span></span>|
+| <span data-ttu-id="c345f-126">Manager resurse</span><span class="sxs-lookup"><span data-stu-id="c345f-126">Resource manager</span></span>              | <span data-ttu-id="c345f-127">Toate funcțiile de gestionare a resurselor, cum ar fi îndeplinirea cererilor și rezervărilor de resurse, separate pentru a susține o configurație hibridă de manager de proiect + Manager resurse și un rol unic și centralizat de Manager resurse.</span><span class="sxs-lookup"><span data-stu-id="c345f-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="c345f-128">Unitate de business</span><span class="sxs-lookup"><span data-stu-id="c345f-128">Business unit</span></span> |
 
 
-Microsoft Project pentru web include următoarele roluri:
-| Rol                          | Descriere                                                                                                          | Domeniu de acoperire |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Utilizator de proiect | Utilizator colaborativ al proiectului, care este capabil să își creeze propriile proiecte și să vizualizeze orice proiecte partajate cu aceștia.| Utilizator|
-| Sistemul proiectului | Rolul utilizat pentru contextul aplicației. Clienții nu ar trebui să utilizeze acest rol de sistem. | Global|
+<span data-ttu-id="c345f-129">Microsoft Project pentru web include următoarele roluri:</span><span class="sxs-lookup"><span data-stu-id="c345f-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>Aplicarea securității
-Acțiunile care sunt efectuate la nivelul proiectului sunt efectuate în contextul utilizatorului conectat. Aceasta înseamnă că, pentru a crea, deschide sau șterge un proiect, utilizatorul trebuie să aibă acces disponibil în CDS. Accesul în CDS poate fi acordat prin oricare dintre mecanismele posibile incluse în platformă. De exemplu, un utilizator cu un domeniu mai mare de acces poate accesa proiectul sau dacă a fost efectuată o acțiune explicită de partajare a proiectului care îi acordă utilizatorului acces.
+| <span data-ttu-id="c345f-130">Rol</span><span class="sxs-lookup"><span data-stu-id="c345f-130">Role</span></span>           | <span data-ttu-id="c345f-131">Descriere</span><span class="sxs-lookup"><span data-stu-id="c345f-131">Description</span></span>                                                                                                        | <span data-ttu-id="c345f-132">Domeniu de acoperire</span><span class="sxs-lookup"><span data-stu-id="c345f-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="c345f-133">Utilizator de proiect</span><span class="sxs-lookup"><span data-stu-id="c345f-133">Project user</span></span>   | <span data-ttu-id="c345f-134">Utilizator colaborativ al Project   care este capabil să își creeze propriile proiecte și să vizualizeze orice proiecte partajate cu   acesta.</span><span class="sxs-lookup"><span data-stu-id="c345f-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="c345f-135">Utilizator</span><span class="sxs-lookup"><span data-stu-id="c345f-135">User</span></span>   |
+| <span data-ttu-id="c345f-136">Sistemul proiectului</span><span class="sxs-lookup"><span data-stu-id="c345f-136">Project system</span></span> | <span data-ttu-id="c345f-137">Rolul utilizat pentru contextul   aplicației.</span><span class="sxs-lookup"><span data-stu-id="c345f-137">Role used for application   context.</span></span> <span data-ttu-id="c345f-138">Clienții nu ar trebui să utilizeze acest rol de sistem.</span><span class="sxs-lookup"><span data-stu-id="c345f-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="c345f-139">Global</span><span class="sxs-lookup"><span data-stu-id="c345f-139">Global</span></span> |
 
-Este important să luați în considerare acest lucru atunci când creați proiecte în Project Operations.
+## <a name="security-enforcement"></a><span data-ttu-id="c345f-140">Aplicarea securității</span><span class="sxs-lookup"><span data-stu-id="c345f-140">Security enforcement</span></span>
+<span data-ttu-id="c345f-141">Acțiunile care sunt efectuate la nivelul proiectului sunt efectuate în contextul utilizatorului conectat.</span><span class="sxs-lookup"><span data-stu-id="c345f-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="c345f-142">Aceasta înseamnă că, pentru a crea, deschide sau șterge un proiect, utilizatorul trebuie să aibă acces disponibil în CDS.</span><span class="sxs-lookup"><span data-stu-id="c345f-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="c345f-143">Accesul în CDS poate fi acordat prin oricare dintre mecanismele posibile incluse în platformă.</span><span class="sxs-lookup"><span data-stu-id="c345f-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="c345f-144">De exemplu, un utilizator cu un domeniu mai mare de acces poate accesa proiectul sau dacă a fost efectuată o acțiune explicită de partajare a proiectului care îi acordă utilizatorului acces.</span><span class="sxs-lookup"><span data-stu-id="c345f-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>Colaborare modernă de grup cu Project Operations
-Proiect pentru web și Project Operations susțin grupuri moderne pentru colaborare. Utilizatorii adăugați la proiect printr-un grup pot edita planul de proiect.
+<span data-ttu-id="c345f-145">Este important să luați în considerare acest lucru atunci când creați proiecte în Project Operations.</span><span class="sxs-lookup"><span data-stu-id="c345f-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-Project for the Web adaugă utilizatorii în grup automat la alocare.
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="c345f-146">Colaborare modernă de grup cu Project Operations</span><span class="sxs-lookup"><span data-stu-id="c345f-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="c345f-147">Proiect pentru web și Project Operations susțin grupuri moderne pentru colaborare.</span><span class="sxs-lookup"><span data-stu-id="c345f-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="c345f-148">Utilizatorii adăugați la proiect printr-un grup pot edita planul de proiect.</span><span class="sxs-lookup"><span data-stu-id="c345f-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-Grupurile permit ca permisiunile proiectului și sprijinirea artefactelor de colaborare să fie lucrate în colaborare. Următoarea diagramă ilustrează evenimentele și modificările de stare care au loc în timpul procesului de atribuire a grupului.
+<span data-ttu-id="c345f-149">Project for the Web adaugă utilizatorii în grup automat la alocare.</span><span class="sxs-lookup"><span data-stu-id="c345f-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-Project Operations nu creează un grup prin acțiune implicită și face acest lucru doar prin acțiunea explicită a apăsării grupurilor.
+<span data-ttu-id="c345f-150">Grupurile permit ca permisiunile proiectului și sprijinirea artefactelor de colaborare să fie lucrate în colaborare.</span><span class="sxs-lookup"><span data-stu-id="c345f-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="c345f-151">Următoarea diagramă ilustrează evenimentele și modificările de stare care au loc în timpul procesului de atribuire a grupului.</span><span class="sxs-lookup"><span data-stu-id="c345f-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-Căutarea membrilor grupului în dialogul **Managementul grupului**, este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).
+<span data-ttu-id="c345f-152">Project Operations nu creează un grup prin acțiune implicită și face acest lucru doar prin acțiunea explicită a apăsării grupurilor.</span><span class="sxs-lookup"><span data-stu-id="c345f-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. Proiectul este creat și deținut de utilizatorul care a creat.
-2. Proprietarul proiectului este actualizat echipei.
-3. Echipa Proprietar este mapată la grupul Office specificat sau creat.
-4. Proprietarul inițial al proiectului este adăugat la Office Group.
+<span data-ttu-id="c345f-153">Căutarea membrilor grupului în dialogul **Managementul grupului** , este limitat la cei care sunt setați ca parte a grupului de securitate al mediului.</span><span class="sxs-lookup"><span data-stu-id="c345f-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="c345f-154">Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).</span><span class="sxs-lookup"><span data-stu-id="c345f-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>Implementarea recomandării
-Pe măsură ce modelul de colaborare în grup Office evoluează, funcționalitatea va fi adăugată pentru a oferi un control mai detaliat în timp. Clienții care desfășoară Project Operations astăzi sunt încurajați să se concentreze pe un model de securitate tradițional Microsoft Dynamics 365.
+![Mod grup](./media/groupsmode.png)
 
-Pentru mai multe informații consultați [Securitate în Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+1. <span data-ttu-id="c345f-156">Proiectul este creat și deținut de utilizatorul care a creat.</span><span class="sxs-lookup"><span data-stu-id="c345f-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="c345f-157">Proprietarul proiectului este actualizat echipei.</span><span class="sxs-lookup"><span data-stu-id="c345f-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="c345f-158">Echipa Proprietar este mapată la grupul Office specificat sau creat.</span><span class="sxs-lookup"><span data-stu-id="c345f-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="c345f-159">Proprietarul inițial al proiectului este adăugat la Office Group.</span><span class="sxs-lookup"><span data-stu-id="c345f-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations și securitate Microsoft Dynamics 365 Finance
-Project Operations include următoarele roluri:
+## <a name="deployment-recommendation"></a><span data-ttu-id="c345f-160">Implementarea recomandării</span><span class="sxs-lookup"><span data-stu-id="c345f-160">Deployment recommendation</span></span>
+<span data-ttu-id="c345f-161">Pe măsură ce modelul de colaborare în grup Office evoluează, funcționalitatea va fi adăugată pentru a oferi un control mai detaliat în timp.</span><span class="sxs-lookup"><span data-stu-id="c345f-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="c345f-162">Clienții care desfășoară Project Operations astăzi sunt încurajați să se concentreze pe un model de securitate tradițional Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="c345f-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- Manager de proiect
-- Contabil de proiect
+<span data-ttu-id="c345f-163">Pentru mai multe informații consultați [Securitate în Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span><span class="sxs-lookup"><span data-stu-id="c345f-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-Pentru mai multe informații despre rolurile de securitate în finanțe, consultați [Securitate pe bază de rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="c345f-164">Project Operations și securitate Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="c345f-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="c345f-165">Project Operations include următoarele roluri:</span><span class="sxs-lookup"><span data-stu-id="c345f-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="c345f-166">Manager de proiect</span><span class="sxs-lookup"><span data-stu-id="c345f-166">Project manager</span></span>
+- <span data-ttu-id="c345f-167">Contabil de proiect</span><span class="sxs-lookup"><span data-stu-id="c345f-167">Project accountant</span></span>
+
+<span data-ttu-id="c345f-168">Pentru mai multe informații despre rolurile de securitate în finanțe, consultați [Securitate pe bază de rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span><span class="sxs-lookup"><span data-stu-id="c345f-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 

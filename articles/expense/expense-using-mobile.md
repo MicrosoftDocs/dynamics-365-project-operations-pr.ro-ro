@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082798"
 ---
-# <a name="expense-using-mobile"></a>Cheltuială folosind dispozitive mobile
+# <a name="expense-using-mobile"></a><span data-ttu-id="a388d-103">Cheltuială folosind dispozitive mobile</span><span class="sxs-lookup"><span data-stu-id="a388d-103">Expense using mobile</span></span>
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+<span data-ttu-id="a388d-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="a388d-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Acest subiect oferă informații despre spațiul de lucru mobil pentru **Gestionarea cheltuielii**. Acest spațiu de lucru permite utilizatorilor să captureze și să încarce o chitanță, astfel încât să o poată atașa la un raport de cheltuieli ulterior. De asemenea, utilizatorii pot crea rapid o linie de cheltuieli utilizând o chitanță atașată și pot crea și gestiona rapoartele de cheltuieli. În plus, aprobatorii pot utiliza spațiul de lucru mobil **Gestionarea cheltuielilor** pentru a vizualiza rapoartele de cheltuieli care le sunt atribuite și pentru a aproba sau respinge rapoartele de cheltuieli respective.
+<span data-ttu-id="a388d-105">Acest subiect oferă informații despre spațiul de lucru mobil pentru **Gestionarea cheltuielii**.</span><span class="sxs-lookup"><span data-stu-id="a388d-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="a388d-106">Acest spațiu de lucru permite utilizatorilor să captureze și să încarce o chitanță, astfel încât să o poată atașa la un raport de cheltuieli ulterior.</span><span class="sxs-lookup"><span data-stu-id="a388d-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="a388d-107">De asemenea, utilizatorii pot crea rapid o linie de cheltuieli utilizând o chitanță atașată și pot crea și gestiona rapoartele de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="a388d-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="a388d-108">În plus, aprobatorii pot utiliza spațiul de lucru mobil **Gestionarea cheltuielilor** pentru a vizualiza rapoartele de cheltuieli care le sunt atribuite și pentru a aproba sau respinge rapoartele de cheltuieli respective.</span><span class="sxs-lookup"><span data-stu-id="a388d-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Acest spațiu de lucru mobil este destinat să fie utilizat cu aplicația mobilă Dynamics 365 Unified Ops.
+<span data-ttu-id="a388d-109">Acest spațiu de lucru mobil este destinat să fie utilizat cu aplicația mobilă Dynamics 365 Unified Ops.</span><span class="sxs-lookup"><span data-stu-id="a388d-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-Multe organizații solicită ca o copie a chitanței să fie atașată unui raport de cheltuieli legate de călătorie sau de afaceri pe care un angajat îl trimite pentru rambursare. Spațiul de lucru mobil **Gestionarea cheltuielilor** permite utilizatorilor să creeze rapid noi linii de cheltuieli pe dispozitivul mobil la alegere, utilizând o fotografie atașată a unei chitanțe. Alternativ, utilizatorii pot captura o fotografie a unei chitanțe și apoi o pot atașa la un raport de cheltuieli ulterior. Angajații își pot crea și gestiona rapoartele de cheltuieli, apoi le pot trimite pentru aprobare și rambursare utilizând dispozitivul lor mobil.
+<span data-ttu-id="a388d-110">Multe organizații solicită ca o copie a chitanței să fie atașată unui raport de cheltuieli legate de călătorie sau de afaceri pe care un angajat îl trimite pentru rambursare.</span><span class="sxs-lookup"><span data-stu-id="a388d-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="a388d-111">Spațiul de lucru mobil **Gestionarea cheltuielilor** permite utilizatorilor să creeze rapid noi linii de cheltuieli pe dispozitivul mobil la alegere, utilizând o fotografie atașată a unei chitanțe.</span><span class="sxs-lookup"><span data-stu-id="a388d-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="a388d-112">Alternativ, utilizatorii pot captura o fotografie a unei chitanțe și apoi o pot atașa la un raport de cheltuieli ulterior.</span><span class="sxs-lookup"><span data-stu-id="a388d-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="a388d-113">Angajații își pot crea și gestiona rapoartele de cheltuieli, apoi le pot trimite pentru aprobare și rambursare utilizând dispozitivul lor mobil.</span><span class="sxs-lookup"><span data-stu-id="a388d-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Mai exact, spațiul de lucru mobil **Managementul cheltuielilor** permite utilizatorilor să efectueze următoarele sarcini:
+<span data-ttu-id="a388d-114">Mai exact, spațiul de lucru mobil **Managementul cheltuielilor** permite utilizatorilor să efectueze următoarele sarcini:</span><span class="sxs-lookup"><span data-stu-id="a388d-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Faceți o fotografie a unei chitanțe. Încărcați fotografia chitanței și atașați-o ulterior la un raport de cheltuieli.
-- Încărcați un fișier ca chitanță capturată. Apoi, puteți atașa fișierul respectiv la un raport de cheltuieli ulterior.
-- Creați o nouă linie de cheltuieli utilizând o chitanță atașată. Apoi puteți adăuga elementul rând la un raport de cheltuieli ulterior și îl puteți trimite pentru aprobare și rambursare.
+- <span data-ttu-id="a388d-115">Faceți o fotografie a unei chitanțe.</span><span class="sxs-lookup"><span data-stu-id="a388d-115">Take a photo of a receipt.</span></span> <span data-ttu-id="a388d-116">Încărcați fotografia chitanței și atașați-o ulterior la un raport de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="a388d-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="a388d-117">Încărcați un fișier ca chitanță capturată.</span><span class="sxs-lookup"><span data-stu-id="a388d-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="a388d-118">Apoi, puteți atașa fișierul respectiv la un raport de cheltuieli ulterior.</span><span class="sxs-lookup"><span data-stu-id="a388d-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="a388d-119">Creați o nouă linie de cheltuieli utilizând o chitanță atașată.</span><span class="sxs-lookup"><span data-stu-id="a388d-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="a388d-120">Apoi puteți adăuga elementul rând la un raport de cheltuieli ulterior și îl puteți trimite pentru aprobare și rambursare.</span><span class="sxs-lookup"><span data-stu-id="a388d-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-De asemenea, aveţi posibilitatea să utilizaţi aceste caracteristici:
+<span data-ttu-id="a388d-121">De asemenea, aveţi posibilitatea să utilizaţi aceste caracteristici:</span><span class="sxs-lookup"><span data-stu-id="a388d-121">You can also use these features:</span></span>
 
-- Creați un nou raport de cheltuială.
-- Atașați tranzacțiile cu cardul de credit și alte cheltuieli create anterior la un raport de cheltuieli.
-- Creați cheltuieli noi pentru un raport de cheltuieli.
-- Atașați o chitanță la orice cheltuială pentru un raport de cheltuieli, fie făcând o fotografie a chitanței, fie încărcând un fișier ca chitanță capturată.
-- În funcție de politica de cheltuieli a companiei, adăugați lista invitaților la o cheltuială.
-- În funcție de politica de cheltuieli a companiei, detaliați cheltuielile.
-- Trimiteți un raport de cheltuieli pentru aprobare și rambursare.
-- Aprobați sau respingeți rapoartele de cheltuieli pentru care sunteți aprobator desemnat.
+- <span data-ttu-id="a388d-122">Creați un nou raport de cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-122">Create a new expense report.</span></span>
+- <span data-ttu-id="a388d-123">Atașați tranzacțiile cu cardul de credit și alte cheltuieli create anterior la un raport de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="a388d-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="a388d-124">Creați cheltuieli noi pentru un raport de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="a388d-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="a388d-125">Atașați o chitanță la orice cheltuială pentru un raport de cheltuieli, fie făcând o fotografie a chitanței, fie încărcând un fișier ca chitanță capturată.</span><span class="sxs-lookup"><span data-stu-id="a388d-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="a388d-126">În funcție de politica de cheltuieli a companiei, adăugați lista invitaților la o cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="a388d-127">În funcție de politica de cheltuieli a companiei, detaliați cheltuielile.</span><span class="sxs-lookup"><span data-stu-id="a388d-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="a388d-128">Trimiteți un raport de cheltuieli pentru aprobare și rambursare.</span><span class="sxs-lookup"><span data-stu-id="a388d-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="a388d-129">Aprobați sau respingeți rapoartele de cheltuieli pentru care sunteți aprobator desemnat.</span><span class="sxs-lookup"><span data-stu-id="a388d-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Cerințe preliminare
-Cerințele preliminare variază, în funcție de versiunea care a fost implementată pentru organizația dvs.
+## <a name="prerequisites"></a><span data-ttu-id="a388d-130">Cerințe preliminare</span><span class="sxs-lookup"><span data-stu-id="a388d-130">Prerequisites</span></span>
+<span data-ttu-id="a388d-131">Cerințele preliminare variază, în funcție de versiunea care a fost implementată pentru organizația dvs.</span><span class="sxs-lookup"><span data-stu-id="a388d-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Condiții preliminare dacă utilizați Dynamics 365 Finance 
-Dacă Finanța a fost implementată pentru organizația dvs., administratorul de sistem trebuie să publice fișierul spațiu de lucru mobil **Gestionarea cheltuielii**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="a388d-132">Condiții preliminare dacă utilizați Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="a388d-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="a388d-133">Dacă Finanța a fost implementată pentru organizația dvs., administratorul de sistem trebuie să publice fișierul spațiu de lucru mobil **Gestionarea cheltuielii**.</span><span class="sxs-lookup"><span data-stu-id="a388d-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Condiții preliminare dacă utilizați versiunea 1611 cu platforma de 3 actualizare sau o versiune ulterioară
-Dacă versiunea 1611 cu actualizarea platformei 3 sau o versiune ulterioară a fost implementată pentru organizația dvs., administratorul de sistem trebuie să îndeplinească următoarele condiții prealabile. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="a388d-134">Condiții preliminare dacă utilizați versiunea 1611 cu platforma de 3 actualizare sau o versiune ulterioară</span><span class="sxs-lookup"><span data-stu-id="a388d-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="a388d-135">Dacă versiunea 1611 cu actualizarea platformei 3 sau o versiune ulterioară a fost implementată pentru organizația dvs., administratorul de sistem trebuie să îndeplinească următoarele condiții prealabile.</span><span class="sxs-lookup"><span data-stu-id="a388d-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Cerințe preliminare</th>
-<th>Rol</th>
-<th>Descriere</th>
+<th><span data-ttu-id="a388d-136">Cerințe preliminare</span><span class="sxs-lookup"><span data-stu-id="a388d-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="a388d-137">Rol</span><span class="sxs-lookup"><span data-stu-id="a388d-137">Role</span></span></th>
+<th><span data-ttu-id="a388d-138">Descriere</span><span class="sxs-lookup"><span data-stu-id="a388d-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Implementați KB 4019015.</td>
-<td>Administrator de sistem</td>
-<td>KB 4019015 este o actualizare X++ sau metadate remediere rapidă care conține spațiu de lucru mobil <strong>Gestionarea cheltuielii</strong>. Pentru a implementa KB 4019015, administratorul de sistem trebuie să urmeze acești pași.
+<td><span data-ttu-id="a388d-139">Implementați KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="a388d-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="a388d-140">Administrator de sistem</span><span class="sxs-lookup"><span data-stu-id="a388d-140">System administrator</span></span></td>
+<td><span data-ttu-id="a388d-141">KB 4019015 este o actualizare X++ sau metadate remediere rapidă care conține spațiu de lucru mobil <strong>Gestionarea cheltuielii</strong>.</span><span class="sxs-lookup"><span data-stu-id="a388d-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="a388d-142">Pentru a implementa KB 4019015, administratorul de sistem trebuie să urmeze acești pași.</span><span class="sxs-lookup"><span data-stu-id="a388d-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descărcați actualizările din Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalați remedierea rapidă a metadatelor</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creați un pachet implementabil</a> care conține modele <strong>ApplicationSuite</strong> și <strong>ExpenseMobile</strong> și apoi încărcați pachetul implementabil la LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicați pachetul implementabil</a>.</li>
+<li><span data-ttu-id="a388d-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descărcați actualizările din Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="a388d-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="a388d-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalați remedierea rapidă a metadatelor</a>.</span><span class="sxs-lookup"><span data-stu-id="a388d-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="a388d-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creați un pachet implementabil</a> care conține modele <strong>ApplicationSuite</strong> și <strong>ExpenseMobile</strong> și apoi încărcați pachetul implementabil la LCS.</span><span class="sxs-lookup"><span data-stu-id="a388d-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="a388d-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicați pachetul implementabil</a>.</span><span class="sxs-lookup"><span data-stu-id="a388d-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Publicați fișierul spațiu de lucru mobil <strong>Gestionarea cheltuielilor</strong>.</td>
-<td>Administrator de sistem</td>
-<td>Consultați <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicați un spațiu de lucru mobil</a>.</td>
+<td><span data-ttu-id="a388d-147">Publicați fișierul spațiu de lucru mobil <strong>Gestionarea cheltuielilor</strong>.</span><span class="sxs-lookup"><span data-stu-id="a388d-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="a388d-148">Administrator de sistem</span><span class="sxs-lookup"><span data-stu-id="a388d-148">System administrator</span></span></td>
+<td><span data-ttu-id="a388d-149">Consultați <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicați un spațiu de lucru mobil</a>.</span><span class="sxs-lookup"><span data-stu-id="a388d-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops
-Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="a388d-150">Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops</span><span class="sxs-lookup"><span data-stu-id="a388d-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="a388d-151">Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:</span><span class="sxs-lookup"><span data-stu-id="a388d-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Pentru telefoane Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Pentru telefoane iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="a388d-152">Pentru telefoane Android</span><span class="sxs-lookup"><span data-stu-id="a388d-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="a388d-153">Pentru telefoane iPhone</span><span class="sxs-lookup"><span data-stu-id="a388d-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Conectați-vă la aplicația mobilă
-1. Deschideți aplicația pe dispozitivul mobil.
-2. Introduceți adresa URL Dynamics 365.
-4. Prima dată când vă conectați, vi se solicită numele de utilizator și parola. Introduceți acreditările.
-5. După ce vă conectați, sunt afișate spațiile de lucru disponibile pentru compania dvs. Dacă administratorul de sistem publică mai târziu un spațiu de lucru nou, va trebui să reîmprospătați lista spațiilor de lucru mobile.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="a388d-154">Conectați-vă la aplicația mobilă</span><span class="sxs-lookup"><span data-stu-id="a388d-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="a388d-155">Deschideți aplicația pe dispozitivul mobil.</span><span class="sxs-lookup"><span data-stu-id="a388d-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="a388d-156">Introduceți adresa URL Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="a388d-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="a388d-157">Prima dată când vă conectați, vi se solicită numele de utilizator și parola.</span><span class="sxs-lookup"><span data-stu-id="a388d-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="a388d-158">Introduceți acreditările.</span><span class="sxs-lookup"><span data-stu-id="a388d-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="a388d-159">După ce vă conectați, sunt afișate spațiile de lucru disponibile pentru compania dvs.</span><span class="sxs-lookup"><span data-stu-id="a388d-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="a388d-160">Dacă administratorul de sistem publică mai târziu un spațiu de lucru nou, va trebui să reîmprospătați lista spațiilor de lucru mobile.</span><span class="sxs-lookup"><span data-stu-id="a388d-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Capturați o chitanță utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="a388d-161">Capturați o chitanță utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor</span><span class="sxs-lookup"><span data-stu-id="a388d-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
-2. Selectați **Captură chitanță**.
-3. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
-4. Urmați unul dintre acești pași:
+1. <span data-ttu-id="a388d-162">Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.</span><span class="sxs-lookup"><span data-stu-id="a388d-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a388d-163">Selectați **Captură chitanță**.</span><span class="sxs-lookup"><span data-stu-id="a388d-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="a388d-164">Selectați **Faceți o fotografie** sau **Alegeți imaginea**.</span><span class="sxs-lookup"><span data-stu-id="a388d-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="a388d-165">Urmați unul dintre acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-165">Follow one of these steps:</span></span>
 
-   - Dacă ați selectat **Faceți o fotografie**, urmați acești pași:
+   - <span data-ttu-id="a388d-166">Dacă ați selectat **Faceți o fotografie** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței. 
-      2. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
-      3. Opțional: introduceți un nume pentru fotografie și introduceți orice notă.
+      1. <span data-ttu-id="a388d-167">Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței.</span><span class="sxs-lookup"><span data-stu-id="a388d-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="a388d-168">După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.</span><span class="sxs-lookup"><span data-stu-id="a388d-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="a388d-169">Opțional: introduceți un nume pentru fotografie și introduceți orice notă.</span><span class="sxs-lookup"><span data-stu-id="a388d-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Dacă ați selectat **Alegeți imagine**, urmați acești pași:
+    - <span data-ttu-id="a388d-170">Dacă ați selectat **Alegeți imagine** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Selectaţi o imagine din listă.
-        2. Opțional: introduceți un nume pentru imagine și introduceți orice notă.
+        1. <span data-ttu-id="a388d-171">Selectaţi o imagine din listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="a388d-172">Opțional: introduceți un nume pentru imagine și introduceți orice notă.</span><span class="sxs-lookup"><span data-stu-id="a388d-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Selectați **Terminat**.
+5. <span data-ttu-id="a388d-173">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Introduceți repede cheltuieli utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="a388d-174">Introduceți repede cheltuieli utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor</span><span class="sxs-lookup"><span data-stu-id="a388d-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
-2. Selectați **Intrare rapidă a cheltuielilor**.
-3. Selectați categoria de cheltuială. Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.
-4. Introduceți data tranzacției pentru cheltuială.
-5. Opțional: introduceți comerciantul pentru cheltuială.
-6. Introduceţi valoarea monetară a cheltuielii.
-7. Selectați moneda cheltuielii. Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după monedă sau comutați la căutare după nume.
-8. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
-9. Urmați unul dintre acești pași:
+1. <span data-ttu-id="a388d-175">Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.</span><span class="sxs-lookup"><span data-stu-id="a388d-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a388d-176">Selectați **Intrare rapidă a cheltuielilor**.</span><span class="sxs-lookup"><span data-stu-id="a388d-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="a388d-177">Selectați categoria de cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-177">Select the expense category.</span></span> <span data-ttu-id="a388d-178">Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline.</span><span class="sxs-lookup"><span data-stu-id="a388d-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a388d-179">În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr.</span><span class="sxs-lookup"><span data-stu-id="a388d-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a388d-180">Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="a388d-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="a388d-181">Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online.</span><span class="sxs-lookup"><span data-stu-id="a388d-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a388d-182">Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="a388d-183">Introduceți data tranzacției pentru cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="a388d-184">Opțional: introduceți comerciantul pentru cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="a388d-185">Introduceţi valoarea monetară a cheltuielii.</span><span class="sxs-lookup"><span data-stu-id="a388d-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="a388d-186">Selectați moneda cheltuielii.</span><span class="sxs-lookup"><span data-stu-id="a388d-186">Select the currency of the expense.</span></span> <span data-ttu-id="a388d-187">Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline.</span><span class="sxs-lookup"><span data-stu-id="a388d-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="a388d-188">În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr.</span><span class="sxs-lookup"><span data-stu-id="a388d-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a388d-189">Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="a388d-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="a388d-190">Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online.</span><span class="sxs-lookup"><span data-stu-id="a388d-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a388d-191">Căutați după monedă sau comutați la căutare după nume.</span><span class="sxs-lookup"><span data-stu-id="a388d-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="a388d-192">Selectați **Faceți o fotografie** sau **Alegeți imaginea**.</span><span class="sxs-lookup"><span data-stu-id="a388d-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="a388d-193">Urmați unul dintre acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-193">Follow one of these steps:</span></span>
 
-    - Dacă ați selectat **Faceți fotografie**, sunteți conduși la camera de pe dispozitivul mobil, astfel încât puteți face o fotografie a chitanței. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
-    - Dacă ați selectat **Alegeți imaginea**, selectați o imagine din listă.
+    - <span data-ttu-id="a388d-194">Dacă ați selectat **Faceți fotografie** , sunteți conduși la camera de pe dispozitivul mobil, astfel încât puteți face o fotografie a chitanței.</span><span class="sxs-lookup"><span data-stu-id="a388d-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a388d-195">După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.</span><span class="sxs-lookup"><span data-stu-id="a388d-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="a388d-196">Dacă ați selectat **Alegeți imaginea** , selectați o imagine din listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Selectați **Terminat**.
+10. <span data-ttu-id="a388d-197">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Aprobați un raport de cheltuieli utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor (dacă utilizați actualizarea din iulie 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="a388d-198">Aprobați un raport de cheltuieli utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor (dacă utilizați actualizarea din iulie 2017)</span><span class="sxs-lookup"><span data-stu-id="a388d-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
-2. **Aprobări de cheltuieli** afișează numărul de rapoarte de cheltuieli care vi se atribuie spre aprobare. Numărul este actualizat aproximativ la fiecare 30 de minute. Selectați **Aprobări de cheltuieli**.
+1. <span data-ttu-id="a388d-199">Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.</span><span class="sxs-lookup"><span data-stu-id="a388d-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a388d-200">**Aprobări de cheltuieli** afișează numărul de rapoarte de cheltuieli care vi se atribuie spre aprobare.</span><span class="sxs-lookup"><span data-stu-id="a388d-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="a388d-201">Numărul este actualizat aproximativ la fiecare 30 de minute.</span><span class="sxs-lookup"><span data-stu-id="a388d-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="a388d-202">Selectați **Aprobări de cheltuieli**.</span><span class="sxs-lookup"><span data-stu-id="a388d-202">Select **Expense approvals**.</span></span>
 
-    Este afișată lista de rapoarte de cheltuieli care vi se atribuie spre aprobare.
+    <span data-ttu-id="a388d-203">Este afișată lista de rapoarte de cheltuieli care vi se atribuie spre aprobare.</span><span class="sxs-lookup"><span data-stu-id="a388d-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Selectați un raport de cheltuieli pentru a vizualiza detaliile cheltuielilor pentru acesta.
-4. Selectați o cheltuială pentru a vizualiza detaliile pentru acesta. Informațiile afișate pentru o cheltuială includ orice chitanță, invitat și detalii de detaliere.
-5. Înapoi pe pagina **Raport de cheltuieli**, selectați pentru a aproba sau respinge raportul de cheltuieli.
-6. Introduceți orice comentariu pentru acțiunea de aprobare.
-7. Selectați **Terminat**.
+3. <span data-ttu-id="a388d-204">Selectați un raport de cheltuieli pentru a vizualiza detaliile cheltuielilor pentru acesta.</span><span class="sxs-lookup"><span data-stu-id="a388d-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="a388d-205">Selectați o cheltuială pentru a vizualiza detaliile pentru acesta.</span><span class="sxs-lookup"><span data-stu-id="a388d-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="a388d-206">Informațiile afișate pentru o cheltuială includ orice chitanță, invitat și detalii de detaliere.</span><span class="sxs-lookup"><span data-stu-id="a388d-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="a388d-207">Înapoi pe pagina **Raport de cheltuieli** , selectați pentru a aproba sau respinge raportul de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="a388d-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="a388d-208">Introduceți orice comentariu pentru acțiunea de aprobare.</span><span class="sxs-lookup"><span data-stu-id="a388d-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="a388d-209">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Creați un nou raport de cheltuieli și trimiteți-l pentru aprobare utilizând spațiul de lucru mobil de gestionare a cheltuielilor (dacă utilizați actualizarea din 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="a388d-210">Creați un nou raport de cheltuieli și trimiteți-l pentru aprobare utilizând spațiul de lucru mobil de gestionare a cheltuielilor (dacă utilizați actualizarea din 2017)</span><span class="sxs-lookup"><span data-stu-id="a388d-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
-2. Selectați **Introducere de cheltuieli**.
-3. Selectați **Raport nou** sau selectați un raport de cheltuieli existent în listă.
-4. Pentru rapoarte de cheltuieli noi, introduceți scopul și orice informații suplimentare disponibile. Aceste informații variază, în funcție de modul în care gestionarea cheltuielilor este configurată pentru compania dvs.
-5. Selectați **Terminat**.
-6. Pentru a adăuga cheltuielile existente, cum ar fi tranzacțiile cu cardul de credit, la raportul de cheltuieli, selectați **Atașați**.
-7. Selectați una sau mai multe cheltuieli în listă.
-8. Selectați **Terminat**.
-9. Pentru a adăuga o nouă cheltuială la raportul de cheltuieli, selectați **Cheltuială nouă**.
-10. Selectați categoria pentru cheltuială. Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.
-11. Opțional: introduceți comerciantul pentru cheltuială.
-12. Introduceți data tranzacției pentru cheltuială.
-13. Introduceţi valoarea monetară a cheltuielii.
-14. Selectați moneda cheltuielii. Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după monedă sau comutați la căutare după nume.
-15. Selectați **Terminat**.
-16. Pentru a adăuga mai multe detalii la cheltuială, selectați **Adăugați mai multe detalii**. Câmpurile disponibile depind de configurația gestionării cheltuielilor pentru compania dvs.
-17. Dacă politica companiei necesită o chitanță pentru cheltuială, selectați **Chitanțe**, apoi urmați acești pași:
+1. <span data-ttu-id="a388d-211">Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.</span><span class="sxs-lookup"><span data-stu-id="a388d-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a388d-212">Selectați **Introducere de cheltuieli**.</span><span class="sxs-lookup"><span data-stu-id="a388d-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="a388d-213">Selectați **Raport nou** sau selectați un raport de cheltuieli existent în listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="a388d-214">Pentru rapoarte de cheltuieli noi, introduceți scopul și orice informații suplimentare disponibile.</span><span class="sxs-lookup"><span data-stu-id="a388d-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="a388d-215">Aceste informații variază, în funcție de modul în care gestionarea cheltuielilor este configurată pentru compania dvs.</span><span class="sxs-lookup"><span data-stu-id="a388d-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="a388d-216">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-216">Select **Done**.</span></span>
+6. <span data-ttu-id="a388d-217">Pentru a adăuga cheltuielile existente, cum ar fi tranzacțiile cu cardul de credit, la raportul de cheltuieli, selectați **Atașați**.</span><span class="sxs-lookup"><span data-stu-id="a388d-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="a388d-218">Selectați una sau mai multe cheltuieli în listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="a388d-219">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-219">Select **Done**.</span></span>
+9. <span data-ttu-id="a388d-220">Pentru a adăuga o nouă cheltuială la raportul de cheltuieli, selectați **Cheltuială nouă**.</span><span class="sxs-lookup"><span data-stu-id="a388d-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="a388d-221">Selectați categoria pentru cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-221">Select the category for the expense.</span></span> <span data-ttu-id="a388d-222">Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline.</span><span class="sxs-lookup"><span data-stu-id="a388d-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a388d-223">În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr.</span><span class="sxs-lookup"><span data-stu-id="a388d-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a388d-224">Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="a388d-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="a388d-225">Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online.</span><span class="sxs-lookup"><span data-stu-id="a388d-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a388d-226">Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="a388d-227">Opțional: introduceți comerciantul pentru cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="a388d-228">Introduceți data tranzacției pentru cheltuială.</span><span class="sxs-lookup"><span data-stu-id="a388d-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="a388d-229">Introduceţi valoarea monetară a cheltuielii.</span><span class="sxs-lookup"><span data-stu-id="a388d-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="a388d-230">Selectați moneda cheltuielii.</span><span class="sxs-lookup"><span data-stu-id="a388d-230">Select the currency of the expense.</span></span> <span data-ttu-id="a388d-231">Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline.</span><span class="sxs-lookup"><span data-stu-id="a388d-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="a388d-232">În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr.</span><span class="sxs-lookup"><span data-stu-id="a388d-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a388d-233">Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="a388d-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="a388d-234">Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online.</span><span class="sxs-lookup"><span data-stu-id="a388d-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a388d-235">Căutați după monedă sau comutați la căutare după nume.</span><span class="sxs-lookup"><span data-stu-id="a388d-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="a388d-236">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-236">Select **Done**.</span></span>
+16. <span data-ttu-id="a388d-237">Pentru a adăuga mai multe detalii la cheltuială, selectați **Adăugați mai multe detalii**.</span><span class="sxs-lookup"><span data-stu-id="a388d-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="a388d-238">Câmpurile disponibile depind de configurația gestionării cheltuielilor pentru compania dvs.</span><span class="sxs-lookup"><span data-stu-id="a388d-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="a388d-239">Dacă politica companiei necesită o chitanță pentru cheltuială, selectați **Chitanțe** , apoi urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Selectați **Captură chitanță** sau **Atașați chitanța**.
-    2. Urmați unul dintre acești pași:
+    1. <span data-ttu-id="a388d-240">Selectați **Captură chitanță** sau **Atașați chitanța**.</span><span class="sxs-lookup"><span data-stu-id="a388d-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="a388d-241">Urmați unul dintre acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-241">Follow one of these steps:</span></span>
 
-        - Dacă ați selectat **Capturați chitanță**, urmați acești pași:
+        - <span data-ttu-id="a388d-242">Dacă ați selectat **Capturați chitanță** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
-            2. Urmați unul dintre acești pași:
+            1. <span data-ttu-id="a388d-243">Selectați **Faceți o fotografie** sau **Alegeți imaginea**.</span><span class="sxs-lookup"><span data-stu-id="a388d-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="a388d-244">Urmați unul dintre acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-244">Follow one of these steps:</span></span>
 
-                - Dacă ați selectat **Faceți o fotografie**, urmați acești pași:
+                - <span data-ttu-id="a388d-245">Dacă ați selectat **Faceți o fotografie** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
-                    2. Opțional: introduceți un nume pentru fotografie și introduceți orice notă.
+                    1. <span data-ttu-id="a388d-246">Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței.</span><span class="sxs-lookup"><span data-stu-id="a388d-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a388d-247">După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.</span><span class="sxs-lookup"><span data-stu-id="a388d-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="a388d-248">Opțional: introduceți un nume pentru fotografie și introduceți orice notă.</span><span class="sxs-lookup"><span data-stu-id="a388d-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Dacă ați selectat **Alegeți imagine**, urmați acești pași:
+                - <span data-ttu-id="a388d-249">Dacă ați selectat **Alegeți imagine** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Selectaţi o imagine din listă.
-                    2. Opțional: introduceți un nume pentru imagine și introduceți orice notă.
+                    1. <span data-ttu-id="a388d-250">Selectaţi o imagine din listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="a388d-251">Opțional: introduceți un nume pentru imagine și introduceți orice notă.</span><span class="sxs-lookup"><span data-stu-id="a388d-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Selectați **Terminat**.
+            3.  <span data-ttu-id="a388d-252">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-252">Select **Done**.</span></span>
 
-        - Dacă ați selectat **Atașați chitanța**, urmați acești pași:
+        - <span data-ttu-id="a388d-253">Dacă ați selectat **Atașați chitanța** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  Selectați una sau mai multe imagini în listă.
-            2.  Selectați **Terminat**.
+            1.  <span data-ttu-id="a388d-254">Selectați una sau mai multe imagini în listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="a388d-255">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-255">Select **Done**.</span></span>
 
-    3. Selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.
+    3. <span data-ttu-id="a388d-256">Selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.</span><span class="sxs-lookup"><span data-stu-id="a388d-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Dacă politica companiei cere invitaților cheltuiala, selectați **Invitați**, apoi urmați acești pași:
+18. <span data-ttu-id="a388d-257">Dacă politica companiei cere invitaților cheltuiala, selectați **Invitați** , apoi urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Selectați **Invitat**, **Invitați anteriori**, sau **Colegi de muncă**.
-    2. Urmați unul dintre acești pași:
+    1. <span data-ttu-id="a388d-258">Selectați **Invitat** , **Invitați anteriori** , sau **Colegi de muncă**.</span><span class="sxs-lookup"><span data-stu-id="a388d-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="a388d-259">Urmați unul dintre acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-259">Follow one of these steps:</span></span>
 
-        - Dacă ați selectat **Invitat**, urmați acești pași:
+        - <span data-ttu-id="a388d-260">Dacă ați selectat **Invitat** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Introduceţi numele invitatului.
-            2. Opțional: introduceți organizația și/sau țara oaspetelui.
-            3. Opțional: introduceți titlul invitatului.
-            4. Selectați **Terminat**.
+            1. <span data-ttu-id="a388d-261">Introduceţi numele invitatului.</span><span class="sxs-lookup"><span data-stu-id="a388d-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="a388d-262">Opțional: introduceți organizația și/sau țara oaspetelui.</span><span class="sxs-lookup"><span data-stu-id="a388d-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="a388d-263">Opțional: introduceți titlul invitatului.</span><span class="sxs-lookup"><span data-stu-id="a388d-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="a388d-264">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-264">Select **Done**.</span></span>
 
-        - Dacă ați selectat **Oaspeți anteriori**, urmați acești pași:
+        - <span data-ttu-id="a388d-265">Dacă ați selectat **Oaspeți anteriori** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. Selectați unul sau mai mulți oaspeți anteriori din listă. Vedeți o listă de invitați anteriori pe care i-ați adăugat la rapoartele de cheltuieli anterioare care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă invitatul dvs. anterior nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după organizație, țară sau titlu.
-            2. Selectați **Terminat**.
+            1. <span data-ttu-id="a388d-266">Selectați unul sau mai mulți oaspeți anteriori din listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="a388d-267">Vedeți o listă de invitați anteriori pe care i-ați adăugat la rapoartele de cheltuieli anterioare care sunt încărcate în aplicația dvs. pentru utilizare offline.</span><span class="sxs-lookup"><span data-stu-id="a388d-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="a388d-268">În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr.</span><span class="sxs-lookup"><span data-stu-id="a388d-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a388d-269">Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="a388d-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="a388d-270">Dacă invitatul dvs. anterior nu se află în listă, selectați **Căutare** pentru a face o căutare online.</span><span class="sxs-lookup"><span data-stu-id="a388d-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a388d-271">Căutați după nume sau comutați la căutare după organizație, țară sau titlu.</span><span class="sxs-lookup"><span data-stu-id="a388d-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="a388d-272">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-272">Select **Done**.</span></span>
 
-        - Dacă ați selectat **Colegi**, urmați acești pași:
+        - <span data-ttu-id="a388d-273">Dacă ați selectat **Colegi** , urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. Selectați unul sau mai mulți colegi din listă. Vedeți o listă de colegi care sunt încărcați în aplicația dvs. pentru a fi utilizați offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă colegul dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după companie sau titlu.
-            2. Selectați **Terminat**.
+            1. <span data-ttu-id="a388d-274">Selectați unul sau mai mulți colegi din listă.</span><span class="sxs-lookup"><span data-stu-id="a388d-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="a388d-275">Vedeți o listă de colegi care sunt încărcați în aplicația dvs. pentru a fi utilizați offline.</span><span class="sxs-lookup"><span data-stu-id="a388d-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="a388d-276">În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr.</span><span class="sxs-lookup"><span data-stu-id="a388d-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a388d-277">Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="a388d-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="a388d-278">Dacă colegul dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online.</span><span class="sxs-lookup"><span data-stu-id="a388d-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a388d-279">Căutați după nume sau comutați la căutare după companie sau titlu.</span><span class="sxs-lookup"><span data-stu-id="a388d-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="a388d-280">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-280">Select **Done**.</span></span>
 
-    3. Selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.
+    3. <span data-ttu-id="a388d-281">Selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.</span><span class="sxs-lookup"><span data-stu-id="a388d-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Dacă politica companiei cere detalierea cheltuielii, selectați **Detaliere** și apoi urmați acești pași:
+19. <span data-ttu-id="a388d-282">Dacă politica companiei cere detalierea cheltuielii, selectați **Detaliere** și apoi urmați acești pași:</span><span class="sxs-lookup"><span data-stu-id="a388d-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Selectați prima dată pe care doriți să o detaliați.
-    2. Selectați **Adăugați detalii**.
-    3. Selectați subcategoria pentru detalierea cheltuielii. Vedeți o listă de subcategorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă subcategoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutare după numele subcategorii cheltuieli.
-    4. Introduceți suma tranzacției pentru detaliere.
-    5. Modificați data tranzacției dacă este necesară.
-    6. Selectați **Terminat**.
-    7. Repetați pașii anteriori până când ați terminat de adăugat toate elementele pentru data selectată.
-    8. Pentru zile suplimentare, puteți selecta **Copiază în ziua următoare** pentru a copia detaliile în ziua următoare. Alternativ, puteți selecta data de detaliere și apoi adăugați detaliere așa cum ați făcut pentru prima dată.
-    9. După ce ați terminat de specificat cheltuielile, selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.
+    1. <span data-ttu-id="a388d-283">Selectați prima dată pe care doriți să o detaliați.</span><span class="sxs-lookup"><span data-stu-id="a388d-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="a388d-284">Selectați **Adăugați detalii**.</span><span class="sxs-lookup"><span data-stu-id="a388d-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="a388d-285">Selectați subcategoria pentru detalierea cheltuielii.</span><span class="sxs-lookup"><span data-stu-id="a388d-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="a388d-286">Vedeți o listă de subcategorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline.</span><span class="sxs-lookup"><span data-stu-id="a388d-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a388d-287">În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr.</span><span class="sxs-lookup"><span data-stu-id="a388d-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a388d-288">Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="a388d-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="a388d-289">Dacă subcategoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online.</span><span class="sxs-lookup"><span data-stu-id="a388d-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a388d-290">Căutare după numele subcategorii cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="a388d-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="a388d-291">Introduceți suma tranzacției pentru detaliere.</span><span class="sxs-lookup"><span data-stu-id="a388d-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="a388d-292">Modificați data tranzacției dacă este necesară.</span><span class="sxs-lookup"><span data-stu-id="a388d-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="a388d-293">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="a388d-294">Repetați pașii anteriori până când ați terminat de adăugat toate elementele pentru data selectată.</span><span class="sxs-lookup"><span data-stu-id="a388d-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="a388d-295">Pentru zile suplimentare, puteți selecta **Copiază în ziua următoare** pentru a copia detaliile în ziua următoare.</span><span class="sxs-lookup"><span data-stu-id="a388d-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="a388d-296">Alternativ, puteți selecta data de detaliere și apoi adăugați detaliere așa cum ați făcut pentru prima dată.</span><span class="sxs-lookup"><span data-stu-id="a388d-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="a388d-297">După ce ați terminat de specificat cheltuielile, selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.</span><span class="sxs-lookup"><span data-stu-id="a388d-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Selectați butonul **Înapoi** pentru a reveni la pagina **Raport de cheltuială**.
-21. Repetați pașii anteriori până când ați terminat de adăugat toate cheltuielile.
-22. Selectați **Remitere**.
-23. Introduceți orice comentariu pentru aprobator.
-24. Selectați **Terminat**.
+20. <span data-ttu-id="a388d-298">Selectați butonul **Înapoi** pentru a reveni la pagina **Raport de cheltuială**.</span><span class="sxs-lookup"><span data-stu-id="a388d-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="a388d-299">Repetați pașii anteriori până când ați terminat de adăugat toate cheltuielile.</span><span class="sxs-lookup"><span data-stu-id="a388d-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="a388d-300">Selectați **Remitere**.</span><span class="sxs-lookup"><span data-stu-id="a388d-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="a388d-301">Introduceți orice comentariu pentru aprobator.</span><span class="sxs-lookup"><span data-stu-id="a388d-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="a388d-302">Selectați **Terminat**.</span><span class="sxs-lookup"><span data-stu-id="a388d-302">Select **Done**.</span></span>

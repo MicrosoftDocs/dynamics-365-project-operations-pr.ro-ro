@@ -3,67 +3,67 @@ title: Importați estimări pentru un proiect pentru o linie de ofertă pe bază
 description: Acest subiect oferă informații despre cum să importați estimările dintr-un proiect într-o linie de proiect.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908491"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082712"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importați estimări pentru un proiect pentru o linie de ofertă pe bază de proiect
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="016c9-103">Importați estimări pentru un proiect pentru o linie de ofertă pe bază de proiect</span><span class="sxs-lookup"><span data-stu-id="016c9-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+<span data-ttu-id="016c9-104">_**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_</span><span class="sxs-lookup"><span data-stu-id="016c9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-Dacă un proiect este creat în etapa de pre-vânzare, puteți alege să importați estimarea financiară din proiect în linia de ofertă bazată pe proiect.
+<span data-ttu-id="016c9-105">Dacă un proiect este creat în etapa de pre-vânzare, puteți alege să importați estimarea financiară din proiect în linia de ofertă bazată pe proiect.</span><span class="sxs-lookup"><span data-stu-id="016c9-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. Asigurați-vă că linia de ofertă bazată pe proiect are informațiile despre proiect în câmpul **Proiect**.
-2. Pe fila **Detalii linie de ofertă**, selectați **Importați din estimarea de proiect**.
-3. Când se deschide pagina casetei de dialog, selectați una dintre următoarele opțiuni de rezumat.
+1. <span data-ttu-id="016c9-106">Asigurați-vă că linia de ofertă bazată pe proiect are informațiile despre proiect în câmpul **Proiect**.</span><span class="sxs-lookup"><span data-stu-id="016c9-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="016c9-107">Pe fila **Detalii linie de ofertă** , selectați **Importați din estimarea de proiect**.</span><span class="sxs-lookup"><span data-stu-id="016c9-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="016c9-108">Când se deschide pagina casetei de dialog, selectați una dintre următoarele opțiuni de rezumat:</span><span class="sxs-lookup"><span data-stu-id="016c9-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **Clasă de tranzacții**
-  - **Categorie**
-  - **Rol** 
-  - **Activitate de proiect**
+  - <span data-ttu-id="016c9-109">**Clasă de tranzacții**</span><span class="sxs-lookup"><span data-stu-id="016c9-109">**Transaction class**</span></span>
+  - <span data-ttu-id="016c9-110">**Categorie**</span><span class="sxs-lookup"><span data-stu-id="016c9-110">**Category**</span></span>
+  - <span data-ttu-id="016c9-111">**Rol**</span><span class="sxs-lookup"><span data-stu-id="016c9-111">**Role**</span></span> 
+  - <span data-ttu-id="016c9-112">**Activitate de proiect**</span><span class="sxs-lookup"><span data-stu-id="016c9-112">**Project task**</span></span>
 
-Pe baza selecției dvs., estimarea din proiect pentru toate clasele de tranzacții incluse pe această linie de ofertă este copiată. Pentru a verifica ce clase de tranzacții sunt incluse, selectați fila **General** de pe linia de ofertă bazată pe proiect și verificați valorile pentru **Includeți timpul**, **Includeți cheltuielile** și **Includeți taxe**.
+<span data-ttu-id="016c9-113">Pe baza selecției dvs., estimarea din proiect pentru toate clasele de tranzacții incluse pe această linie de ofertă este copiată.</span><span class="sxs-lookup"><span data-stu-id="016c9-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="016c9-114">Pentru a verifica ce clase de tranzacții sunt incluse, selectați fila **General** de pe linia de ofertă bazată pe proiect și verificați valorile pentru **Includeți timpul** , **Includeți cheltuielile** și **Includeți taxe**.</span><span class="sxs-lookup"><span data-stu-id="016c9-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-Când importați estimări, sistemul va stabili implicit prețurile pe baza listelor de prețuri ale proiectului atașate la ofertă și a tipului de facturare configurat pe linia de ofertă bazată pe proiect. Dacă un rol sau o categorie este configurat pe linia de cotație bazată pe proiect ca neimpozabilă, linia estimată importată va fi imputabilă și nu se va adăuga la valoarea citată a liniei de ofertă.
+<span data-ttu-id="016c9-115">Când importați estimări, sistemul va stabili implicit prețurile pe baza listelor de prețuri ale proiectului atașate la ofertă și a tipului de facturare configurat pe linia de ofertă bazată pe proiect.</span><span class="sxs-lookup"><span data-stu-id="016c9-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="016c9-116">Dacă un rol sau o categorie este configurat pe linia de cotație bazată pe proiect ca neimpozabilă, linia estimată importată va fi imputabilă și nu se va adăuga la valoarea citată a liniei de ofertă.</span><span class="sxs-lookup"><span data-stu-id="016c9-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-Când o linie de ofertă are detalii despre linie, **Valoarea ofertei** și câmpurile **Taxe estimate** de pe linia de ofertă sunt rezumate și nu pot fi editate.
+<span data-ttu-id="016c9-117">Când o linie de ofertă are detalii despre linie, **Valoarea ofertei** și câmpurile **Taxe estimate** de pe linia de ofertă sunt rezumate și nu pot fi editate.</span><span class="sxs-lookup"><span data-stu-id="016c9-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-Când sunt selectate mai multe opțiuni de rezumare, rezumarea încearcă să rezume prin toate opțiunile selectate. Aceasta înseamnă că ieșirea liniilor de cotație importate va fi mai mare decât dacă ați selectat o singură opțiune de rezumare.
+<span data-ttu-id="016c9-118">Când sunt selectate mai multe opțiuni de rezumare, sistemul încearcă să rezume prin toate opțiunile selectate.</span><span class="sxs-lookup"><span data-stu-id="016c9-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="016c9-119">Rezultatul este că ieșirea liniilor de ofertă importate va fi mai mare decât dacă ați selectat o singură opțiune de rezumare.</span><span class="sxs-lookup"><span data-stu-id="016c9-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-De exemplu, dacă proiectul are următoarele linii estimate pentru cheltuieli.
+<span data-ttu-id="016c9-120">De exemplu, dacă proiectul are următoarele linii estimate pentru cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="016c9-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| Activitate | Categorie | Data | Cantitate | Preț unitar | Sumă |
+| <span data-ttu-id="016c9-121">Activitate</span><span class="sxs-lookup"><span data-stu-id="016c9-121">Task</span></span> | <span data-ttu-id="016c9-122">Categorie</span><span class="sxs-lookup"><span data-stu-id="016c9-122">Category</span></span> | <span data-ttu-id="016c9-123">Data</span><span class="sxs-lookup"><span data-stu-id="016c9-123">Date</span></span> | <span data-ttu-id="016c9-124">Cantitate</span><span class="sxs-lookup"><span data-stu-id="016c9-124">Quantity</span></span> | <span data-ttu-id="016c9-125">Preț unitar</span><span class="sxs-lookup"><span data-stu-id="016c9-125">Unit price</span></span> | <span data-ttu-id="016c9-126">Sumă</span><span class="sxs-lookup"><span data-stu-id="016c9-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Activitatea A | Biletele de avion | 10/1/2020 | 4 | 400 | 1600 |
-| Activitatea B | Hotel | 10/1/2020 | 4 | 200 | 800 |
-| Activitatea C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="016c9-127">Activitatea A</span><span class="sxs-lookup"><span data-stu-id="016c9-127">Task A</span></span> | <span data-ttu-id="016c9-128">Biletele de avion</span><span class="sxs-lookup"><span data-stu-id="016c9-128">Airfare</span></span> | <span data-ttu-id="016c9-129">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-129">10/1/2020</span></span> | <span data-ttu-id="016c9-130">4</span><span class="sxs-lookup"><span data-stu-id="016c9-130">4</span></span> | <span data-ttu-id="016c9-131">400</span><span class="sxs-lookup"><span data-stu-id="016c9-131">400</span></span> | <span data-ttu-id="016c9-132">1600</span><span class="sxs-lookup"><span data-stu-id="016c9-132">1600</span></span> |
+| <span data-ttu-id="016c9-133">Activitatea B</span><span class="sxs-lookup"><span data-stu-id="016c9-133">Task B</span></span> | <span data-ttu-id="016c9-134">Hotel</span><span class="sxs-lookup"><span data-stu-id="016c9-134">Hotel</span></span> | <span data-ttu-id="016c9-135">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-135">10/1/2020</span></span> | <span data-ttu-id="016c9-136">4</span><span class="sxs-lookup"><span data-stu-id="016c9-136">4</span></span> | <span data-ttu-id="016c9-137">200</span><span class="sxs-lookup"><span data-stu-id="016c9-137">200</span></span> | <span data-ttu-id="016c9-138">800</span><span class="sxs-lookup"><span data-stu-id="016c9-138">800</span></span> |
+| <span data-ttu-id="016c9-139">Activitatea C</span><span class="sxs-lookup"><span data-stu-id="016c9-139">Task C</span></span> | <span data-ttu-id="016c9-140">Hotel</span><span class="sxs-lookup"><span data-stu-id="016c9-140">Hotel</span></span> | <span data-ttu-id="016c9-141">11/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-141">11/1/2020</span></span> | <span data-ttu-id="016c9-142">2</span><span class="sxs-lookup"><span data-stu-id="016c9-142">2</span></span> | <span data-ttu-id="016c9-143">200</span><span class="sxs-lookup"><span data-stu-id="016c9-143">200</span></span> | <span data-ttu-id="016c9-144">400</span><span class="sxs-lookup"><span data-stu-id="016c9-144">400</span></span> |
 
-Când utilizatorul selectează pentru a rezuma în funcție de clasa Tranzacție, următoarele informații vor fi importate.
+<span data-ttu-id="016c9-145">Când utilizatorul selectează pentru a rezuma în funcție de clasa Tranzacție, următoarele informații vor fi importate.</span><span class="sxs-lookup"><span data-stu-id="016c9-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| Activitate | Categorie | Data | Cantitate | Preț unitar | Sumă |
+| <span data-ttu-id="016c9-146">Activitate</span><span class="sxs-lookup"><span data-stu-id="016c9-146">Task</span></span> | <span data-ttu-id="016c9-147">Categorie</span><span class="sxs-lookup"><span data-stu-id="016c9-147">Category</span></span> | <span data-ttu-id="016c9-148">Data</span><span class="sxs-lookup"><span data-stu-id="016c9-148">Date</span></span> | <span data-ttu-id="016c9-149">Cantitate</span><span class="sxs-lookup"><span data-stu-id="016c9-149">Quantity</span></span> | <span data-ttu-id="016c9-150">Preț unitar</span><span class="sxs-lookup"><span data-stu-id="016c9-150">Unit price</span></span> | <span data-ttu-id="016c9-151">Sumă</span><span class="sxs-lookup"><span data-stu-id="016c9-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 10/1/2020 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="016c9-152">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-152">10/1/2020</span></span> | <span data-ttu-id="016c9-153">3.34</span><span class="sxs-lookup"><span data-stu-id="016c9-153">3.34</span></span> | <span data-ttu-id="016c9-154">840</span><span class="sxs-lookup"><span data-stu-id="016c9-154">840</span></span> | <span data-ttu-id="016c9-155">2800</span><span class="sxs-lookup"><span data-stu-id="016c9-155">2800</span></span> |
 
-Când utilizatorul selectează pentru a rezuma în funcție de clasa de tranzacție și categorie, următoarele informații vor fi importate.
+<span data-ttu-id="016c9-156">Când utilizatorul selectează pentru a rezuma în funcție de clasa de tranzacție și categorie, următoarele informații vor fi importate.</span><span class="sxs-lookup"><span data-stu-id="016c9-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| Activitate | Categorie | Data | Cantitate | Preț unitar | Sumă |
+| <span data-ttu-id="016c9-157">Activitate</span><span class="sxs-lookup"><span data-stu-id="016c9-157">Task</span></span> | <span data-ttu-id="016c9-158">Categorie</span><span class="sxs-lookup"><span data-stu-id="016c9-158">Category</span></span> | <span data-ttu-id="016c9-159">Data</span><span class="sxs-lookup"><span data-stu-id="016c9-159">Date</span></span> | <span data-ttu-id="016c9-160">Cantitate</span><span class="sxs-lookup"><span data-stu-id="016c9-160">Quantity</span></span> | <span data-ttu-id="016c9-161">Preț unitar</span><span class="sxs-lookup"><span data-stu-id="016c9-161">Unit price</span></span> | <span data-ttu-id="016c9-162">Sumă</span><span class="sxs-lookup"><span data-stu-id="016c9-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Activitatea A | Biletele de avion | 10/1/2020 | 4 | 400 | 1600 |
-| | Hotel | 10/1/2020 | 6 | 200 | 1200 |
+| <span data-ttu-id="016c9-163">Activitatea A</span><span class="sxs-lookup"><span data-stu-id="016c9-163">Task A</span></span> | <span data-ttu-id="016c9-164">Biletele de avion</span><span class="sxs-lookup"><span data-stu-id="016c9-164">Airfare</span></span> | <span data-ttu-id="016c9-165">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-165">10/1/2020</span></span> | <span data-ttu-id="016c9-166">4</span><span class="sxs-lookup"><span data-stu-id="016c9-166">4</span></span> | <span data-ttu-id="016c9-167">400</span><span class="sxs-lookup"><span data-stu-id="016c9-167">400</span></span> | <span data-ttu-id="016c9-168">1600</span><span class="sxs-lookup"><span data-stu-id="016c9-168">1600</span></span> |
+| | <span data-ttu-id="016c9-169">Hotel</span><span class="sxs-lookup"><span data-stu-id="016c9-169">Hotel</span></span> | <span data-ttu-id="016c9-170">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-170">10/1/2020</span></span> | <span data-ttu-id="016c9-171">6</span><span class="sxs-lookup"><span data-stu-id="016c9-171">6</span></span> | <span data-ttu-id="016c9-172">200</span><span class="sxs-lookup"><span data-stu-id="016c9-172">200</span></span> | <span data-ttu-id="016c9-173">1200</span><span class="sxs-lookup"><span data-stu-id="016c9-173">1200</span></span> |
 
-Când utilizatorul selectează pentru a rezuma în funcție de clasa de tranzacție, categorie și activitatea nod frunză următoarele informații vor fi importate. Observați că acest rezultat este același cu cel din proiect.
+<span data-ttu-id="016c9-174">Când utilizatorul selectează pentru a rezuma în funcție de clasa de tranzacție, categorie și activitatea nod frunză următoarele informații vor fi importate.</span><span class="sxs-lookup"><span data-stu-id="016c9-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="016c9-175">Observați că acest rezultat este același cu cel din proiect.</span><span class="sxs-lookup"><span data-stu-id="016c9-175">Notice that this result is the same as what was on the project.</span></span>
 
-| Activitate | Categorie | Data | Cantitate | Preț unitar | Sumă |
+| <span data-ttu-id="016c9-176">Activitate</span><span class="sxs-lookup"><span data-stu-id="016c9-176">Task</span></span> | <span data-ttu-id="016c9-177">Categorie</span><span class="sxs-lookup"><span data-stu-id="016c9-177">Category</span></span> | <span data-ttu-id="016c9-178">Data</span><span class="sxs-lookup"><span data-stu-id="016c9-178">Date</span></span> | <span data-ttu-id="016c9-179">Cantitate</span><span class="sxs-lookup"><span data-stu-id="016c9-179">Quantity</span></span> | <span data-ttu-id="016c9-180">Preț unitar</span><span class="sxs-lookup"><span data-stu-id="016c9-180">Unit price</span></span> | <span data-ttu-id="016c9-181">Sumă</span><span class="sxs-lookup"><span data-stu-id="016c9-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Activitatea A | Biletele de avion | 10/1/2020 | 4 | 400 | 1600 |
-| Activitatea B | Hotel | 10/1/2020 | 4 | 200 | 800 |
-| Activitatea C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="016c9-182">Activitatea A</span><span class="sxs-lookup"><span data-stu-id="016c9-182">Task A</span></span> | <span data-ttu-id="016c9-183">Biletele de avion</span><span class="sxs-lookup"><span data-stu-id="016c9-183">Airfare</span></span> | <span data-ttu-id="016c9-184">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-184">10/1/2020</span></span> | <span data-ttu-id="016c9-185">4</span><span class="sxs-lookup"><span data-stu-id="016c9-185">4</span></span> | <span data-ttu-id="016c9-186">400</span><span class="sxs-lookup"><span data-stu-id="016c9-186">400</span></span> | <span data-ttu-id="016c9-187">1600</span><span class="sxs-lookup"><span data-stu-id="016c9-187">1600</span></span> |
+| <span data-ttu-id="016c9-188">Activitatea B</span><span class="sxs-lookup"><span data-stu-id="016c9-188">Task B</span></span> | <span data-ttu-id="016c9-189">Hotel</span><span class="sxs-lookup"><span data-stu-id="016c9-189">Hotel</span></span> | <span data-ttu-id="016c9-190">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-190">10/1/2020</span></span> | <span data-ttu-id="016c9-191">4</span><span class="sxs-lookup"><span data-stu-id="016c9-191">4</span></span> | <span data-ttu-id="016c9-192">200</span><span class="sxs-lookup"><span data-stu-id="016c9-192">200</span></span> | <span data-ttu-id="016c9-193">800</span><span class="sxs-lookup"><span data-stu-id="016c9-193">800</span></span> |
+| <span data-ttu-id="016c9-194">Activitatea C</span><span class="sxs-lookup"><span data-stu-id="016c9-194">Task C</span></span> | <span data-ttu-id="016c9-195">Hotel</span><span class="sxs-lookup"><span data-stu-id="016c9-195">Hotel</span></span> | <span data-ttu-id="016c9-196">11/1/2020</span><span class="sxs-lookup"><span data-stu-id="016c9-196">11/1/2020</span></span> | <span data-ttu-id="016c9-197">2</span><span class="sxs-lookup"><span data-stu-id="016c9-197">2</span></span> | <span data-ttu-id="016c9-198">200</span><span class="sxs-lookup"><span data-stu-id="016c9-198">200</span></span> | <span data-ttu-id="016c9-199">400</span><span class="sxs-lookup"><span data-stu-id="016c9-199">400</span></span> |

@@ -9,51 +9,51 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908486"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082652"
 ---
-# <a name="schedule-assistant-overview"></a>Prezentare generală a asistentului de planificare
+# <a name="schedule-assistant-overview"></a><span data-ttu-id="f5d09-103">Prezentare generală a asistentului de planificare</span><span class="sxs-lookup"><span data-stu-id="f5d09-103">Schedule assistant overview</span></span>
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+<span data-ttu-id="f5d09-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="f5d09-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Asistentul de planificare este utilizat pentru a rezerva resurse pe baza cerințelor definite de managerul de proiect. Asistentul de planificare se bazează pe parametrii furnizați în cerința resursei pentru a găsi resursa. Asistentul de planificare recomandă resurse care corespund cerințelor relevante, cum ar fi ferestrele de timp sau abilitățile necesare.
+<span data-ttu-id="f5d09-105">Asistentul de planificare este utilizat pentru a rezerva resurse pe baza cerințelor definite de managerul de proiect.</span><span class="sxs-lookup"><span data-stu-id="f5d09-105">The Schedule assistant is used to book resources based on requirements defined by the Project manager.</span></span> <span data-ttu-id="f5d09-106">Asistentul de planificare se bazează pe parametrii furnizați în cerința resursei pentru a găsi resursa.</span><span class="sxs-lookup"><span data-stu-id="f5d09-106">The schedule assistant relies on the parameters provided in the resource requirement to find the resource.</span></span> <span data-ttu-id="f5d09-107">Asistentul de planificare recomandă resurse care corespund cerințelor relevante, cum ar fi ferestrele de timp sau abilitățile necesare.</span><span class="sxs-lookup"><span data-stu-id="f5d09-107">The Schedule assistant recommends resources that match relevant requirements, like time windows or skills needed.</span></span>
 
-După identificarea resurselor adecvate, resursa sau managerul de proiect poate rezerva resursa la lucrare.
+<span data-ttu-id="f5d09-108">După identificarea resurselor adecvate, resursa sau managerul de proiect poate rezerva resursa la lucrare.</span><span class="sxs-lookup"><span data-stu-id="f5d09-108">After suitable resources are identified, the Resource or Project manager can book the resource to the work.</span></span>
 
-## <a name="prerequisites"></a>Cerințe preliminare
+## <a name="prerequisites"></a><span data-ttu-id="f5d09-109">Cerințe preliminare</span><span class="sxs-lookup"><span data-stu-id="f5d09-109">Prerequisites</span></span>
 
-Asistentul de planificare face parte din soluția Universal Resource Scheduling. Această soluție este inclusă și instalată cu Dynamics 365 Project Operations, Dynamics 365 Field Service și Dynamics 365 Customer Service.
+<span data-ttu-id="f5d09-110">Asistentul de planificare face parte din soluția Universal Resource Scheduling.</span><span class="sxs-lookup"><span data-stu-id="f5d09-110">The Schedule assistant is a part of the Universal Resource Scheduling solution.</span></span> <span data-ttu-id="f5d09-111">Această soluție este inclusă și instalată cu Dynamics 365 Project Operations, Dynamics 365 Field Service și Dynamics 365 Customer Service.</span><span class="sxs-lookup"><span data-stu-id="f5d09-111">This solution is included and installed with Dynamics 365 Project Operations, Dynamics 365 Field Service, and Dynamics 365 Customer Service.</span></span>
 
-## <a name="matching-requirements-and-resources"></a>Cerințe și resurse potrivite
+## <a name="matching-requirements-and-resources"></a><span data-ttu-id="f5d09-112">Cerințe și resurse potrivite</span><span class="sxs-lookup"><span data-stu-id="f5d09-112">Matching requirements and resources</span></span>
 
-O cerință de resursă generată se bazează pe detalii precum:
+<span data-ttu-id="f5d09-113">O cerință de resursă generată se bazează pe detalii precum:</span><span class="sxs-lookup"><span data-stu-id="f5d09-113">A generated resource requirement is based on details such as:</span></span>
 
--   Caracteristici
--   Roluri
--   Unități de business
--   Preferințe resurse
--   Contururi de efort
--   Fus orar
+-   <span data-ttu-id="f5d09-114">Caracteristici</span><span class="sxs-lookup"><span data-stu-id="f5d09-114">Characteristics</span></span>
+-   <span data-ttu-id="f5d09-115">Roluri</span><span class="sxs-lookup"><span data-stu-id="f5d09-115">Roles</span></span>
+-   <span data-ttu-id="f5d09-116">Unități de business</span><span class="sxs-lookup"><span data-stu-id="f5d09-116">Business units</span></span>
+-   <span data-ttu-id="f5d09-117">Preferințe resurse</span><span class="sxs-lookup"><span data-stu-id="f5d09-117">Resource preferences</span></span>
+-   <span data-ttu-id="f5d09-118">Contururi de efort</span><span class="sxs-lookup"><span data-stu-id="f5d09-118">Effort contours</span></span>
+-   <span data-ttu-id="f5d09-119">Fus orar</span><span class="sxs-lookup"><span data-stu-id="f5d09-119">Time zone</span></span>
 
-Asistentul de planificare utilizează aceste detalii pentru a filtra resursele.
+<span data-ttu-id="f5d09-120">Asistentul de planificare utilizează aceste detalii pentru a filtra resursele.</span><span class="sxs-lookup"><span data-stu-id="f5d09-120">The Schedule assistant uses these details to filter resources.</span></span>
 
-## <a name="launch-the-schedule-assistant"></a>Lansați Asistentul de planificare
+## <a name="launch-the-schedule-assistant"></a><span data-ttu-id="f5d09-121">Lansați Asistentul de planificare</span><span class="sxs-lookup"><span data-stu-id="f5d09-121">Launch the Schedule assistant</span></span>
 
-Există două moduri în care este lansat asistentul de programare. Dacă utilizați modul hibrid, în grila membrilor echipei puteți selecta orice membru al echipei cu o cerință de resurse neîndeplinită, apoi selectați **Rezervare**. Dacă utilizați modul central, managerul de resurse găsește și selectează resursa.
+<span data-ttu-id="f5d09-122">Există două moduri în care este lansat asistentul de programare.</span><span class="sxs-lookup"><span data-stu-id="f5d09-122">There are two ways in which the schedule assistant is launched.</span></span> <span data-ttu-id="f5d09-123">Dacă utilizați modul hibrid, în grila membrilor echipei puteți selecta orice membru al echipei cu o cerință de resurse neîndeplinită, apoi selectați **Rezervare**.</span><span class="sxs-lookup"><span data-stu-id="f5d09-123">If you're using the hybrid mode, in the team member grid you can select any team member with an unfulfilled resource requirement, and then select **Book**.</span></span> <span data-ttu-id="f5d09-124">Dacă utilizați modul central, managerul de resurse găsește și selectează resursa.</span><span class="sxs-lookup"><span data-stu-id="f5d09-124">If you're using the central mode, the Resource manager finds and selects the resource.</span></span>
 
-## <a name="schedule-assistant-filters"></a>Filtre asistent de planificare
+## <a name="schedule-assistant-filters"></a><span data-ttu-id="f5d09-125">Filtre asistent de planificare</span><span class="sxs-lookup"><span data-stu-id="f5d09-125">Schedule assistant filters</span></span>
 
-După executarea asistentului de planificare, detaliile din cerința de resurse sunt afișate ca valori filtrate în panoul din stânga. Managerul de resurse sau managerul de proiect pot ajusta rezultatele ajustând filtrele pentru a satisface nevoile de planificare.
+<span data-ttu-id="f5d09-126">După executarea asistentului de planificare, detaliile din cerința de resurse sunt afișate ca valori filtrate în panoul din stânga.</span><span class="sxs-lookup"><span data-stu-id="f5d09-126">After the Schedule assistant runs, the details from the resource requirement are displayed as filtered values in the left pane.</span></span> <span data-ttu-id="f5d09-127">Managerul de resurse sau managerul de proiect pot ajusta rezultatele ajustând filtrele pentru a satisface nevoile de planificare.</span><span class="sxs-lookup"><span data-stu-id="f5d09-127">The Resource manager or the Project manager can fine-tune results by adjusting filters to meet the scheduling needs.</span></span>
 
-Panoul de filtrare prezintă opțiuni legate de muncă, inclusiv:
+<span data-ttu-id="f5d09-128">Panoul de filtrare prezintă opțiuni legate de muncă, inclusiv:</span><span class="sxs-lookup"><span data-stu-id="f5d09-128">The filter pane shows work-related options, including:</span></span>
 
--   Începutul și sfârșitul lucrului
--   Caracteristici
--   Roluri
--   Unități organizaționale
--   Firmă de resurse
--   Tipuri de resursă
--   Resurse preferate
+-   <span data-ttu-id="f5d09-129">Începutul și sfârșitul lucrului</span><span class="sxs-lookup"><span data-stu-id="f5d09-129">Work start and end</span></span>
+-   <span data-ttu-id="f5d09-130">Caracteristici</span><span class="sxs-lookup"><span data-stu-id="f5d09-130">Characteristics</span></span>
+-   <span data-ttu-id="f5d09-131">Roluri</span><span class="sxs-lookup"><span data-stu-id="f5d09-131">Roles</span></span>
+-   <span data-ttu-id="f5d09-132">Unități organizaționale</span><span class="sxs-lookup"><span data-stu-id="f5d09-132">Organizational units</span></span>
+-   <span data-ttu-id="f5d09-133">Firmă de resurse</span><span class="sxs-lookup"><span data-stu-id="f5d09-133">Resourcing company</span></span>
+-   <span data-ttu-id="f5d09-134">Tipuri de resursă</span><span class="sxs-lookup"><span data-stu-id="f5d09-134">Resource types</span></span>
+-   <span data-ttu-id="f5d09-135">Resurse preferate</span><span class="sxs-lookup"><span data-stu-id="f5d09-135">Preferred resources</span></span>

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,110 +17,110 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082893"
 ---
-# <a name="products"></a>Produse
+# <a name="products"></a><span data-ttu-id="590fb-103">Produse</span><span class="sxs-lookup"><span data-stu-id="590fb-103">Products</span></span>
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+<span data-ttu-id="590fb-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="590fb-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Produsele sunt coloana vertebrală a afacerii dumneavoastră. Catalogul de produse din Dynamics 365 Sales Professional este o colecție de produse cu informații despre prețurile lor. Ajutați agenții de vânzări să crească vânzările, creând rapid un catalog de produse.
+<span data-ttu-id="590fb-105">Produsele sunt coloana vertebrală a afacerii dumneavoastră.</span><span class="sxs-lookup"><span data-stu-id="590fb-105">Products are the backbone of your business.</span></span> <span data-ttu-id="590fb-106">Catalogul de produse din Dynamics 365 Sales Professional este o colecție de produse cu informații despre prețurile lor.</span><span class="sxs-lookup"><span data-stu-id="590fb-106">The product catalog in Dynamics 365 Sales Professional is a collection of products and pricing information.</span></span> <span data-ttu-id="590fb-107">Ajutați agenții de vânzări să crească vânzările, creând rapid un catalog de produse.</span><span class="sxs-lookup"><span data-stu-id="590fb-107">Make it easier for your sales reps to increase their sales by creating a product catalog quickly.</span></span>
 
-## <a name="add-a-product"></a>Adăugarea unui produs
+## <a name="add-a-product"></a><span data-ttu-id="590fb-108">Adăugarea unui produs</span><span class="sxs-lookup"><span data-stu-id="590fb-108">Add a product</span></span>
 
-1.  Asigurați-vă că aveți funcția Sales Manager Professional sau un rol de administrator de sistem pentru a putea adăuga produse în Dynamics 365 Sales Professional.
-2.  În harta site-ului, sub **Configurare**, selectați **Produse**.
-3.  Selectați **Adăugați produs** și completați următoarele informații:
+1.  <span data-ttu-id="590fb-109">Asigurați-vă că aveți funcția Sales Manager Professional sau un rol de administrator de sistem pentru a putea adăuga produse în Dynamics 365 Sales Professional.</span><span class="sxs-lookup"><span data-stu-id="590fb-109">Make sure you have the Sales Manager Professional or a System Administrator role so you can add products in Dynamics 365 Sales Professional.</span></span>
+2.  <span data-ttu-id="590fb-110">În harta site-ului, sub **Configurare** , selectați **Produse**.</span><span class="sxs-lookup"><span data-stu-id="590fb-110">In the site map, under **Setup** , select **Products**.</span></span>
+3.  <span data-ttu-id="590fb-111">Selectați **Adăugați produs** și completați următoarele informații:</span><span class="sxs-lookup"><span data-stu-id="590fb-111">Select **Add Product** and fill in the following information:</span></span>
 
-    -  **Nume**
-    -  **ID produs**
-    -  **Principal**: selectați o familie de produse principale pentru produs. În cazul în care creați un produs secundar într-o familie de produse, numele familiei de produse principale este populat aici. Acest lucru nu poate fi schimbat după ce înregistrarea este salvată.
-    -  **Valid de la**/**Valid până la**: definiți perioada de valabilitate a produsului selectând o dată **Valid de la** și **Valid până la**.
-    -  **Grup de unități**: selectați un grup de unități. Un grup de unități este o colecție de diverse unități în care este vândut un produs și definește modul în care sunt grupate elementele individuale în cantități mai mari. De exemplu, dacă adăugați semințe ca produs, este posibil să fie creat un grup de unități numit „Semințe” și să îi fie definită unitatea principală ca „pachet.”
-    -  **Unitate implicită**: selectați unitatea cea mai comună în care se va vinde produsul. Unitățile sunt cantitățile sau măsurătorile în care vă vindeți produsele. De exemplu, dacă adăugați semințe ca produs, le puteți vinde în pachete, cutii, sau pungi. Fiecare dintre acestea devine o unitate de produs. În cazul în care semințele se vând în principal în pachete, selectați pachet ca unitate.
-    -  **Listă de prețuri implicită**: dacă acesta este un produs nou, acest câmp este doar în citire. Înainte de a selecta o listă de prețuri implicită, trebuie să completați toate câmpurile obligatorii și apoi să salvați înregistrarea. Deși lista de prețuri implicită nu este obligatorie, după salvarea înregistrării de produs se recomandă setarea unei liste de prețuri implicite pentru fiecare produs. Apoi, dacă o înregistrare client nu conține o listă de prețuri, Vânzări poate utiliza lista de prețuri implicită pentru a genera oferte, comenzi și facturi.
-    -  **Zecimale acceptate**: introduceți un număr întreg între 0 și 5. Dacă produsul nu poate fi împărțit în cantități fracționare, introduceți 0. Precizia câmpului **Cantitate** în înregistrarea ofertei, comenzii sau facturii produs este validată în raport cu valoarea din acest câmp în cazul în care produsul nu are o listă de prețuri asociată.
-    -  **Subiect**: asociați acst produs cu un subiect. Utilizaţi subiectele pentru a clasifica produsele dvs. şi pentru a filtra rapoarte.
+    -  <span data-ttu-id="590fb-112">**Nume**</span><span class="sxs-lookup"><span data-stu-id="590fb-112">**Name**</span></span>
+    -  <span data-ttu-id="590fb-113">**ID produs**</span><span class="sxs-lookup"><span data-stu-id="590fb-113">**Product ID**</span></span>
+    -  <span data-ttu-id="590fb-114">**Principal** : selectați o familie de produse principale pentru produs.</span><span class="sxs-lookup"><span data-stu-id="590fb-114">**Parent** : Select a parent product family for the product.</span></span> <span data-ttu-id="590fb-115">În cazul în care creați un produs secundar într-o familie de produse, numele familiei de produse principale este populat aici.</span><span class="sxs-lookup"><span data-stu-id="590fb-115">If you're creating a child product in a product family, the name of the parent product family is populated here.</span></span> <span data-ttu-id="590fb-116">Acest lucru nu poate fi schimbat după ce înregistrarea este salvată.</span><span class="sxs-lookup"><span data-stu-id="590fb-116">This can't be changed after the record is saved.</span></span>
+    -  <span data-ttu-id="590fb-117">**Valid de la**/**Valid până la** : definiți perioada de valabilitate a produsului selectând o dată **Valid de la** și **Valid până la**.</span><span class="sxs-lookup"><span data-stu-id="590fb-117">**Valid From**/**Valid To** : Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.</span></span>
+    -  <span data-ttu-id="590fb-118">**Grup de unități** : selectați un grup de unități.</span><span class="sxs-lookup"><span data-stu-id="590fb-118">**Unit Group** : Select a unit group.</span></span> <span data-ttu-id="590fb-119">Un grup de unități este o colecție de diverse unități în care este vândut un produs și definește modul în care sunt grupate elementele individuale în cantități mai mari.</span><span class="sxs-lookup"><span data-stu-id="590fb-119">A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities.</span></span> <span data-ttu-id="590fb-120">De exemplu, dacă adăugați semințe ca produs, este posibil să fie creat un grup de unități numit „Semințe” și să îi fie definită unitatea principală ca „pachet.”</span><span class="sxs-lookup"><span data-stu-id="590fb-120">For example, if you're adding seeds as a product, you might have created a unit group called "Seeds" and defined its primary unit as "packet."</span></span>
+    -  <span data-ttu-id="590fb-121">**Unitate implicită** : selectați unitatea cea mai comună în care se va vinde produsul.</span><span class="sxs-lookup"><span data-stu-id="590fb-121">**Default Unit** : Select the most common unit in which the product will be sold.</span></span> <span data-ttu-id="590fb-122">Unitățile sunt cantitățile sau măsurătorile în care vă vindeți produsele.</span><span class="sxs-lookup"><span data-stu-id="590fb-122">Units are the quantities or measurements that you sell your products in.</span></span> <span data-ttu-id="590fb-123">De exemplu, dacă adăugați semințe ca produs, le puteți vinde în pachete, cutii, sau pungi.</span><span class="sxs-lookup"><span data-stu-id="590fb-123">For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets.</span></span> <span data-ttu-id="590fb-124">Fiecare dintre acestea devine o unitate de produs.</span><span class="sxs-lookup"><span data-stu-id="590fb-124">Each of these becomes a unit of the product.</span></span> <span data-ttu-id="590fb-125">În cazul în care semințele se vând în principal în pachete, selectați pachet ca unitate.</span><span class="sxs-lookup"><span data-stu-id="590fb-125">If seeds are mostly sold in packets, select that as the unit.</span></span>
+    -  <span data-ttu-id="590fb-126">**Listă de prețuri implicită** : dacă acesta este un produs nou, acest câmp este doar în citire.</span><span class="sxs-lookup"><span data-stu-id="590fb-126">**Default Price List** : If this is a new product, this field is read-only.</span></span> <span data-ttu-id="590fb-127">Înainte de a selecta o listă de prețuri implicită, trebuie să completați toate câmpurile obligatorii și apoi să salvați înregistrarea.</span><span class="sxs-lookup"><span data-stu-id="590fb-127">Before you can select a default price list, you must complete all the required fields and then save the record.</span></span> <span data-ttu-id="590fb-128">Deși lista de prețuri implicită nu este obligatorie, după salvarea înregistrării de produs se recomandă setarea unei liste de prețuri implicite pentru fiecare produs.</span><span class="sxs-lookup"><span data-stu-id="590fb-128">Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product.</span></span> <span data-ttu-id="590fb-129">Apoi, dacă o înregistrare client nu conține o listă de prețuri, Vânzări poate utiliza lista de prețuri implicită pentru a genera oferte, comenzi și facturi.</span><span class="sxs-lookup"><span data-stu-id="590fb-129">Then, if a customer record does not contain a price list, Sales can use the default price list for generating quotes, orders, and invoices.</span></span>
+    -  <span data-ttu-id="590fb-130">**Zecimale acceptate** : introduceți un număr întreg între 0 și 5.</span><span class="sxs-lookup"><span data-stu-id="590fb-130">**Decimals Supported** : Enter a whole number between 0 and 5.</span></span> <span data-ttu-id="590fb-131">Dacă produsul nu poate fi împărțit în cantități fracționare, introduceți 0.</span><span class="sxs-lookup"><span data-stu-id="590fb-131">If the product can't be divided into fractional quantities, enter 0.</span></span> <span data-ttu-id="590fb-132">Precizia câmpului **Cantitate** în înregistrarea ofertei, comenzii sau facturii produs este validată în raport cu valoarea din acest câmp în cazul în care produsul nu are o listă de prețuri asociată.</span><span class="sxs-lookup"><span data-stu-id="590fb-132">The precision of the **Quantity** field in the quote, order, or invoice product record is validated against the value in this field if the product does not have an associated price list.</span></span>
+    -  <span data-ttu-id="590fb-133">**Subiect** : asociați acst produs cu un subiect.</span><span class="sxs-lookup"><span data-stu-id="590fb-133">**Subject** : Associate this product with a subject.</span></span> <span data-ttu-id="590fb-134">Utilizaţi subiectele pentru a clasifica produsele dvs. şi pentru a filtra rapoarte.</span><span class="sxs-lookup"><span data-stu-id="590fb-134">You can use subjects to categorize your products and to filter reports.</span></span>
 
-4.  Selectați **Salvare**.
-5.  Pe fila **Detalii adiționale**, în secțiunea **Elemente de listă de prețuri**, selectați **Mai multe comenzi**, iar apoi selectați **Adăugați nou element listă de prețuri**.
-7.  Pe fila **Detalii adiționale**, în secțiunea **Relație de produs**, selectați pictograma **Mai multe comenzi** și apoi selectați **Adăugați relație nouă de produs.**
-8.  În formularul **Relație nouă produs**, introduceți următoarele detalii, iar pe bara de comandă, selectați **Salvare și închidere**:
+4.  <span data-ttu-id="590fb-135">Selectați **Salvare**.</span><span class="sxs-lookup"><span data-stu-id="590fb-135">Select **Save**.</span></span>
+5.  <span data-ttu-id="590fb-136">Pe fila **Detalii adiționale** , în secțiunea **Elemente de listă de prețuri** , selectați **Mai multe comenzi** , iar apoi selectați **Adăugați nou element listă de prețuri**.</span><span class="sxs-lookup"><span data-stu-id="590fb-136">On the **Additional Details** tab, in the **Price List Items** section, select **More commands** , and then select **Add New Price List Item**.</span></span>
+7.  <span data-ttu-id="590fb-137">Pe fila **Detalii adiționale** , în secțiunea **Relație de produs** , selectați pictograma **Mai multe comenzi** și apoi selectați **Adăugați relație nouă de produs.**</span><span class="sxs-lookup"><span data-stu-id="590fb-137">On the **Additional Details** tab, in the **Product Relationship** section, select the **More commands** icon, and then select **Add New Product Relationship.**</span></span>
+8.  <span data-ttu-id="590fb-138">În formularul **Relație nouă produs** , introduceți următoarele detalii, iar pe bara de comandă, selectați **Salvare și închidere** :</span><span class="sxs-lookup"><span data-stu-id="590fb-138">In the **New Product Relationship** form, enter the following details, and on the command bar, select **Save and Close** :</span></span>
 
-    -   **Produs corelat**: selectați un produs pe care doriți să îl adăugați ca produs conex la înregistrarea de produs existentă la care lucrați.
-    -   **Tip de relație de vânzări**: Selectați dacă doriți să adăugați produsul ca vânzare suplimentară, vânzare încrucișată, accesoriu sau produs substituent.
-    -   **Direcție**:Selectați dacă relația dintre produse va fi unidirecțională sau bidirecțională. Când selectați unidirecțională, produsul pe care îl selectați în **Produs asociat** va fi afișat ca o recomandare pentru produsul existent, dar nu invers.
+    -   <span data-ttu-id="590fb-139">**Produs corelat** : selectați un produs pe care doriți să îl adăugați ca produs conex la înregistrarea de produs existentă la care lucrați.</span><span class="sxs-lookup"><span data-stu-id="590fb-139">**Related Product** : Select a product that you want to add as a related product to the existing product record you're working on.</span></span>
+    -   <span data-ttu-id="590fb-140">**Tip de relație de vânzări** : Selectați dacă doriți să adăugați produsul ca vânzare suplimentară, vânzare încrucișată, accesoriu sau produs substituent.</span><span class="sxs-lookup"><span data-stu-id="590fb-140">**Sales Relation Type** : Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product.</span></span>
+    -   <span data-ttu-id="590fb-141">**Direcție** :Selectați dacă relația dintre produse va fi unidirecțională sau bidirecțională.</span><span class="sxs-lookup"><span data-stu-id="590fb-141">**Direction** :Select whether the relationship between the products will be unidirectional or bidirectional.</span></span> <span data-ttu-id="590fb-142">Când selectați unidirecțională, produsul pe care îl selectați în **Produs asociat** va fi afișat ca o recomandare pentru produsul existent, dar nu invers.</span><span class="sxs-lookup"><span data-stu-id="590fb-142">When you select unidirectional, the product that you select in **Related Product** will be shown as a recommendation for the existing product but not vice versa.</span></span>
 
-9.  În formularul de produs, selectați **Salvare**.
+9.  <span data-ttu-id="590fb-143">În formularul de produs, selectați **Salvare**.</span><span class="sxs-lookup"><span data-stu-id="590fb-143">On the Product form, select **Save**.</span></span>
 
-## <a name="import-products"></a>Import produse
+## <a name="import-products"></a><span data-ttu-id="590fb-144">Import produse</span><span class="sxs-lookup"><span data-stu-id="590fb-144">Import products</span></span>
 
-Puteți utiliza șabloane de import pentru a introduce vrac date despre produse în Dynamics 365 Sales.
+<span data-ttu-id="590fb-145">Puteți utiliza șabloane de import pentru a introduce vrac date despre produse în Dynamics 365 Sales.</span><span class="sxs-lookup"><span data-stu-id="590fb-145">You can use import templates to bring bulk product data into Dynamics 365 Sales.</span></span>
 
-## <a name="revise-a-product"></a>Revizuirea unui produs
+## <a name="revise-a-product"></a><span data-ttu-id="590fb-146">Revizuirea unui produs</span><span class="sxs-lookup"><span data-stu-id="590fb-146">Revise a product</span></span>
 
-Păstrați actualizat inventarul produselor revizuind rapid proprietățile pentru produse, după caz, și republicând informațiile, astfel încât agenții de vânzări să poată vedea ultimele modificări la inventar.
+<span data-ttu-id="590fb-147">Păstrați actualizat inventarul produselor revizuind rapid proprietățile pentru produse, după caz, și republicând informațiile, astfel încât agenții de vânzări să poată vedea ultimele modificări la inventar.</span><span class="sxs-lookup"><span data-stu-id="590fb-147">Keep the product inventory updated by quickly revising properties for the products, as required, and republishing the information so that your sales agents can see the latest changes to the inventory.</span></span>
 
-1.  Asigurați-vă că aveți unul dintre următoarele roluri de securitate sau permisiuni echivalente: Administrator de sistem, Expert logistică sistem, Manager de vânzări, Vicepreședinte de vânzări, Vicepreședinte de marketing sau Președinte - director de firmă.
-2.  În harta site-ului, selectați **Produse**.
-3.  Deschideți un produs, pe care doriți să îl modificați și, pe bara de comenzi, selectați **Revizuire**.
-4.  În caseta de dialog **Confirmați revizuirea**, selectați **Confirmați**. Acest lucru va schimba starea produsului la **În curs de revizuire**.
-5.  După ce terminați modificările, din bara de comenzi selectați **Publicare**.
+1.  <span data-ttu-id="590fb-148">Asigurați-vă că aveți unul dintre următoarele roluri de securitate sau permisiuni echivalente: Administrator de sistem, Expert logistică sistem, Manager de vânzări, Vicepreședinte de vânzări, Vicepreședinte de marketing sau Președinte - director de firmă.</span><span class="sxs-lookup"><span data-stu-id="590fb-148">Make sure that you have one of the following security roles or equivalent permissions: System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager.</span></span>
+2.  <span data-ttu-id="590fb-149">În harta site-ului, selectați **Produse**.</span><span class="sxs-lookup"><span data-stu-id="590fb-149">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="590fb-150">Deschideți un produs, pe care doriți să îl modificați și, pe bara de comenzi, selectați **Revizuire**.</span><span class="sxs-lookup"><span data-stu-id="590fb-150">Open an active product that you want to change, and on the command bar, select **Revise**.</span></span>
+4.  <span data-ttu-id="590fb-151">În caseta de dialog **Confirmați revizuirea** , selectați **Confirmați**.</span><span class="sxs-lookup"><span data-stu-id="590fb-151">In the **Confirm Revise** dialog box, select **Confirm**.</span></span> <span data-ttu-id="590fb-152">Acest lucru va schimba starea produsului la **În curs de revizuire**.</span><span class="sxs-lookup"><span data-stu-id="590fb-152">This will change the product status to **Under Revision**.</span></span>
+5.  <span data-ttu-id="590fb-153">După ce terminați modificările, din bara de comenzi selectați **Publicare**.</span><span class="sxs-lookup"><span data-stu-id="590fb-153">After you're done making changes, on the command bar, select **Publish**.</span></span>
 
     > [!TIP]
-    > Pentru a anula modificările și a continua cu ultima versiune activă a produsului, selectați **Revenire**. Acest lucru modifică starea produsului înapoi la **Activ**.
+    > <span data-ttu-id="590fb-154">Pentru a anula modificările și a continua cu ultima versiune activă a produsului, selectați **Revenire**.</span><span class="sxs-lookup"><span data-stu-id="590fb-154">To revert the changes and continue with the last active version of the product, select **Revert**.</span></span> <span data-ttu-id="590fb-155">Acest lucru modifică starea produsului înapoi la **Activ**.</span><span class="sxs-lookup"><span data-stu-id="590fb-155">This changes the status of the product back to **Active**.</span></span>
 
-## <a name="clone-a-product"></a>Clonarea unui produs 
+## <a name="clone-a-product"></a><span data-ttu-id="590fb-156">Clonarea unui produs</span><span class="sxs-lookup"><span data-stu-id="590fb-156">Clone a product</span></span> 
 
-Atunci când creați un produs, economisiți timp clonând unul deja existent. Acest lucru creează o copie a înregistrării originale cu toate detaliile cu excepția numelui și ID-ului.
+<span data-ttu-id="590fb-157">Atunci când creați un produs, economisiți timp clonând unul deja existent.</span><span class="sxs-lookup"><span data-stu-id="590fb-157">When you're creating a new product, save time by cloning an existing one.</span></span> <span data-ttu-id="590fb-158">Acest lucru creează o copie a înregistrării originale cu toate detaliile cu excepția numelui și ID-ului.</span><span class="sxs-lookup"><span data-stu-id="590fb-158">This creates a copy of the original record with all the details except for the name and ID.</span></span>
 
-1.  Asigurați-vă că aveți unul dintre următoarele roluri de securitate sau permisiuni echivalente: Administrator de sistem, Expert logistică sistem, Manager de vânzări, Vicepreședinte de vânzări, Vicepreședinte de marketing sau Președinte - director de firmă.
-2.  În harta site-ului, selectați **Produse**.
-3.  Selectați o înregistrare de produs, pe care doriți să o clonați și, pe bara de comenzi, selectați **Clonare**. Apare o casetă de dialog de confirmare.
-4.  Selectați **Confirmare**.
+1.  <span data-ttu-id="590fb-159">Asigurați-vă că aveți unul dintre următoarele roluri de securitate sau permisiuni echivalente: Administrator de sistem, Expert logistică sistem, Manager de vânzări, Vicepreședinte de vânzări, Vicepreședinte de marketing sau Președinte - director de firmă.</span><span class="sxs-lookup"><span data-stu-id="590fb-159">Make sure that you have one of the following security roles or equivalent permissions: System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager.</span></span>
+2.  <span data-ttu-id="590fb-160">În harta site-ului, selectați **Produse**.</span><span class="sxs-lookup"><span data-stu-id="590fb-160">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="590fb-161">Selectați o înregistrare de produs, pe care doriți să o clonați și, pe bara de comenzi, selectați **Clonare**.</span><span class="sxs-lookup"><span data-stu-id="590fb-161">Select a product record that you want to clone, and on the command bar, select **Clone**.</span></span> <span data-ttu-id="590fb-162">Apare o casetă de dialog de confirmare.</span><span class="sxs-lookup"><span data-stu-id="590fb-162">A confirmation dialog box appears.</span></span>
+4.  <span data-ttu-id="590fb-163">Selectați **Confirmare**.</span><span class="sxs-lookup"><span data-stu-id="590fb-163">Select **Confirm**.</span></span>
 
-Se deschide o nouă înregistrare de produs cu aceleași detalii ca înregistrarea originală, cu excepția numelui și ID-ului.
+<span data-ttu-id="590fb-164">Se deschide o nouă înregistrare de produs cu aceleași detalii ca înregistrarea originală, cu excepția numelui și ID-ului.</span><span class="sxs-lookup"><span data-stu-id="590fb-164">A new product record opens with the same details as the original one except for the name and ID.</span></span>
 
-## <a name="retire-a-product"></a>Retragerea unui produs 
+## <a name="retire-a-product"></a><span data-ttu-id="590fb-165">Retragerea unui produs</span><span class="sxs-lookup"><span data-stu-id="590fb-165">Retire a product</span></span> 
 
-Dacă organizația dvs. nu mai vinde un produs, retrageți produsul, pentru a nu mai fi disponibil agenților de vânzări.
+<span data-ttu-id="590fb-166">Dacă organizația dvs. nu mai vinde un produs, retrageți produsul, pentru a nu mai fi disponibil agenților de vânzări.</span><span class="sxs-lookup"><span data-stu-id="590fb-166">If your organization doesn't sell a product anymore, retire it so that the product is no longer available to your sales agents.</span></span>
 
-1.  Asigurați-vă că aveți rolul de administrator de sistem sau Sales Professional Manager sau permisiuni echivalente.
-2.  În harta site-ului, selectați **Produse**.
-3.  Deschideți un produs, pe care doriți să îl retrageți și, pe bara de comenzi, selectați **Retragere**.
-4.  În caseta de dialog **Confirmați retragerea**, selectați **Confirmați**.
+1.  <span data-ttu-id="590fb-167">Asigurați-vă că aveți rolul de administrator de sistem sau Sales Professional Manager sau permisiuni echivalente.</span><span class="sxs-lookup"><span data-stu-id="590fb-167">Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.</span></span>
+2.  <span data-ttu-id="590fb-168">În harta site-ului, selectați **Produse**.</span><span class="sxs-lookup"><span data-stu-id="590fb-168">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="590fb-169">Deschideți un produs, pe care doriți să îl retrageți și, pe bara de comenzi, selectați **Retragere**.</span><span class="sxs-lookup"><span data-stu-id="590fb-169">Open an active product that you want to retire, and on the command bar, select **Retire**.</span></span>
+4.  <span data-ttu-id="590fb-170">În caseta de dialog **Confirmați retragerea** , selectați **Confirmați**.</span><span class="sxs-lookup"><span data-stu-id="590fb-170">In the **Confirm Retire** dialog box, select **Confirm**.</span></span>
 
 
-## <a name="delete-a-product"></a>Ștergerea unui produs
+## <a name="delete-a-product"></a><span data-ttu-id="590fb-171">Ștergerea unui produs</span><span class="sxs-lookup"><span data-stu-id="590fb-171">Delete a product</span></span>
 
-Pentru a opri vânzarea unui produs, ștergeți-l.
+<span data-ttu-id="590fb-172">Pentru a opri vânzarea unui produs, ștergeți-l.</span><span class="sxs-lookup"><span data-stu-id="590fb-172">To stop selling a product, delete it.</span></span>
 
 > [!IMPORTANT]
-> Nu puteți recupera o înregistrare ștearsă.
+> <span data-ttu-id="590fb-173">Nu puteți recupera o înregistrare ștearsă.</span><span class="sxs-lookup"><span data-stu-id="590fb-173">You can't recover a deleted record.</span></span>
 
-1.  Asigurați-vă că aveți rolul de administrator de sistem sau Sales Professional Manager sau permisiuni echivalente.
-2.  În harta site-ului, selectați **Produse**.
-3.  Selectați o înregistrare de produs pe care doriți să o ștergeți și, pe bara de comenzi, selectați **Ștergere**.
-4.  În caseta de dialog **Confirmare ștergere**, selectați **Continuare**.
+1.  <span data-ttu-id="590fb-174">Asigurați-vă că aveți rolul de administrator de sistem sau Sales Professional Manager sau permisiuni echivalente.</span><span class="sxs-lookup"><span data-stu-id="590fb-174">Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.</span></span>
+2.  <span data-ttu-id="590fb-175">În harta site-ului, selectați **Produse**.</span><span class="sxs-lookup"><span data-stu-id="590fb-175">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="590fb-176">Selectați o înregistrare de produs pe care doriți să o ștergeți și, pe bara de comenzi, selectați **Ștergere**.</span><span class="sxs-lookup"><span data-stu-id="590fb-176">Select a product record you want to delete, and on the command bar, select **Delete**.</span></span>
+4.  <span data-ttu-id="590fb-177">În caseta de dialog **Confirmare ștergere** , selectați **Continuare**.</span><span class="sxs-lookup"><span data-stu-id="590fb-177">In the **Confirm Deletion** dialog box, select **Continue**.</span></span>
  
- ## <a name="quantity-factors-for-products"></a>Factori de cantitate pentru produse
+ ## <a name="quantity-factors-for-products"></a><span data-ttu-id="590fb-178">Factori de cantitate pentru produse</span><span class="sxs-lookup"><span data-stu-id="590fb-178">Quantity factors for products</span></span>
 
-Factori de cantitate acceptă vânzarea de produse pe bază de abonament. Pentru produsele bazate pe abonament, cantitatea din linia de contract de ofertă sau de proiect este exprimată ca număr de luni de utilizare.
+<span data-ttu-id="590fb-179">Factori de cantitate acceptă vânzarea de produse pe bază de abonament.</span><span class="sxs-lookup"><span data-stu-id="590fb-179">Quantity factors support the sale of subscription-based products.</span></span> <span data-ttu-id="590fb-180">Pentru produsele bazate pe abonament, cantitatea din linia de contract de ofertă sau de proiect este exprimată ca număr de luni de utilizare.</span><span class="sxs-lookup"><span data-stu-id="590fb-180">For subscription-based products, the quantity on the quote or project contract line is expressed as the number of user months.</span></span>
 
-De obicei, prețul software-ului de abonament este stocat în catalogul ca prețul pe utilizator pe lună. Cu toate acestea, puteți utiliza alte descrieri de timp în schimb. În timpul procesului de vânzări, prețul de pe linia de ofertă este, de obicei, prețul per utilizator, pe lună, care a fost negociat și actualizat de către agentul de vânzări IT. Fiecare afacere are un număr diferit de utilizatori și un număr diferit de luni de abonament. Cantitatea utilizată pentru a calcula suma liniei de ofertă este un produs al numărului de utilizatori și numărul de luni de abonament.
+<span data-ttu-id="590fb-181">De obicei, prețul software-ului de abonament este stocat în catalogul ca prețul pe utilizator pe lună.</span><span class="sxs-lookup"><span data-stu-id="590fb-181">Usually, the price of subscription software is stored in the catalog as the price per user per month.</span></span> <span data-ttu-id="590fb-182">Cu toate acestea, puteți utiliza alte descrieri de timp în schimb.</span><span class="sxs-lookup"><span data-stu-id="590fb-182">However, you can use other time descriptions instead.</span></span> <span data-ttu-id="590fb-183">În timpul procesului de vânzări, prețul de pe linia de ofertă este, de obicei, prețul per utilizator, pe lună, care a fost negociat și actualizat de către agentul de vânzări IT.</span><span class="sxs-lookup"><span data-stu-id="590fb-183">During the sales process, the price on the quote line is usually the per-user, per-month price that was negotiated and discounted by the IT sales agent.</span></span> <span data-ttu-id="590fb-184">Fiecare afacere are un număr diferit de utilizatori și un număr diferit de luni de abonament.</span><span class="sxs-lookup"><span data-stu-id="590fb-184">Each deal has a different number of users and a different number of subscription months.</span></span> <span data-ttu-id="590fb-185">Cantitatea utilizată pentru a calcula suma liniei de ofertă este un produs al numărului de utilizatori și numărul de luni de abonament.</span><span class="sxs-lookup"><span data-stu-id="590fb-185">The quantity that is used to compute the amount of the quote line is a product of the number of users and the number of subscription months.</span></span>
 
-Factorii de cantitate se bazează pe atributele produsului. Când configurați proprietăți specifice pentru un produs, puteți semnaliza un subset al acelor proprietăți sau toate proprietățile, ca factori de cantitate.
+<span data-ttu-id="590fb-186">Factorii de cantitate se bazează pe atributele produsului.</span><span class="sxs-lookup"><span data-stu-id="590fb-186">Quantity factors rely on product attributes.</span></span> <span data-ttu-id="590fb-187">Când configurați proprietăți specifice pentru un produs, puteți semnaliza un subset al acelor proprietăți sau toate proprietățile, ca factori de cantitate.</span><span class="sxs-lookup"><span data-stu-id="590fb-187">When you configure specific properties for a product, you can flag a subset of those properties, or all the properties, as quantity factors.</span></span>
 
-Sistemul validează că numai proprietățile numerice sau proprietățile produsului care au un tip de date numerice sunt marcate ca factori de cantitate. Când un produs pentru care sunt configurate factori de cantitate este adăugat la o linie de ofertă câmpul **Cantitate** din linia de ofertă devine un câmp doar în citire. După ce introduceți valori pentru proprietățile produsului care sunt factori de cantitate, este calculată cantitatea liniei de ofertă.
+<span data-ttu-id="590fb-188">Sistemul validează că numai proprietățile numerice sau proprietățile produsului care au un tip de date numerice sunt marcate ca factori de cantitate.</span><span class="sxs-lookup"><span data-stu-id="590fb-188">The system validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors.</span></span> <span data-ttu-id="590fb-189">Când un produs pentru care sunt configurate factori de cantitate este adăugat la o linie de ofertă câmpul **Cantitate** din linia de ofertă devine un câmp doar în citire.</span><span class="sxs-lookup"><span data-stu-id="590fb-189">When a product that quantity factors are configured for is added to a quote line, the **Quantity** field on the quote line becomes a read-only field.</span></span> <span data-ttu-id="590fb-190">După ce introduceți valori pentru proprietățile produsului care sunt factori de cantitate, este calculată cantitatea liniei de ofertă.</span><span class="sxs-lookup"><span data-stu-id="590fb-190">After you enter values for product properties that are quantity factors, the quantity of the quote line is calculated.</span></span>
 
-De exemplu, dacă există următoarele proprietăți: 
+<span data-ttu-id="590fb-191">De exemplu, dacă există următoarele proprietăți:</span><span class="sxs-lookup"><span data-stu-id="590fb-191">For example, if there are the following properties:</span></span> 
 
-- **Nr. de utilizatori**: numărul de utilizatori 
-- **Nr. de luni**: numărul de luni de abonament
-- **Produs SKU** 
+- <span data-ttu-id="590fb-192">**Nr. de utilizatori** : numărul de utilizatori</span><span class="sxs-lookup"><span data-stu-id="590fb-192">**No of users** : The number of users</span></span> 
+- <span data-ttu-id="590fb-193">**Nr. de luni** : numărul de luni de abonament</span><span class="sxs-lookup"><span data-stu-id="590fb-193">**No of Months** : The number of subscription months</span></span>
+- <span data-ttu-id="590fb-194">**Produs SKU**</span><span class="sxs-lookup"><span data-stu-id="590fb-194">**Product SKU**</span></span> 
 
-Proprietățile **Nr. de utilizatori** și **Nr. de luni** pot fi marcate ca factori de cantitate prin editarea proprietăților de linie de produs. 
+<span data-ttu-id="590fb-195">Proprietățile **Nr. de utilizatori** și **Nr. de luni** pot fi marcate ca factori de cantitate prin editarea proprietăților de linie de produs.</span><span class="sxs-lookup"><span data-stu-id="590fb-195">The **No of Users** and **No of Months** properties can be flagged as quantity factors by editing the properties of the product line.</span></span> 

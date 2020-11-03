@@ -3,59 +3,61 @@ title: Copierea unui proiect
 description: Acest subiect furnizează informații despre copierea proiectelor în Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082737"
 ---
-# <a name="copy-a-project"></a>Copierea unui proiect
+# <a name="copy-a-project"></a><span data-ttu-id="1fc96-103">Copierea unui proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-103">Copy a project</span></span>
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+<span data-ttu-id="1fc96-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="1fc96-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Cu Dynamics 365 Project Operations, puteți construi rapid proiecte noi utilizând acțiunea **Copie proiect** pe formularul **Proiecte**. Pentru a copia un proiect, selectați un proiect, apoi selectați **Copie**. Acțiunea va copia:
+<span data-ttu-id="1fc96-105">Cu Dynamics 365 Project Operations, puteți construi rapid proiecte noi selectând **Copie proiect** pe formularul **Proiecte**.</span><span class="sxs-lookup"><span data-stu-id="1fc96-105">With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form.</span></span> <span data-ttu-id="1fc96-106">Pentru a copia un proiect, deschideți proiectul pe care doriți să îl copiați, apoi selectați **Copiați proiectul**.</span><span class="sxs-lookup"><span data-stu-id="1fc96-106">To copy a project, open the project you want to copy, and then select **Copy project**.</span></span> <span data-ttu-id="1fc96-107">Acțiunea va copia:</span><span class="sxs-lookup"><span data-stu-id="1fc96-107">The action will copy:</span></span>
 
-- Proprietăți de proiect
-- Structura detaliată a proiectului
-- Membrii echipei de proiect
-- Estimări de proiect
-- Estimări de cheltuieli proiect
+- <span data-ttu-id="1fc96-108">Proprietăți de proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-108">Project properties</span></span>
+- <span data-ttu-id="1fc96-109">Structura detaliată a proiectului</span><span class="sxs-lookup"><span data-stu-id="1fc96-109">The Work breakdown structure</span></span>
+- <span data-ttu-id="1fc96-110">Membrii echipei de proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-110">Project team members</span></span>
+- <span data-ttu-id="1fc96-111">Estimări de proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-111">Project estimates</span></span>
+- <span data-ttu-id="1fc96-112">Estimări de cheltuieli proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-112">Project expense estimates</span></span>
 
-## <a name="project-properties"></a>Proprietăți de proiect
+## <a name="project-properties"></a><span data-ttu-id="1fc96-113">Proprietăți de proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-113">Project properties</span></span>
 
-Când proiectul este copiat, valorile din următoarele câmpuri sunt copiate:
+<span data-ttu-id="1fc96-114">Când proiectul este copiat, valorile din următoarele câmpuri sunt copiate:</span><span class="sxs-lookup"><span data-stu-id="1fc96-114">When the project is copied, the values in the following fields are copied:</span></span>
 
-- Nume
-- Descriere
-- Client
-- Șablon de calendar
-- Monedă
-- Unitate contractantă
-- Manager de proiect
-- Stare
-- Stare generală proiect
-- Comentarii
-- Estimări
-- Dată pornire estimată
-- Data de terminare
-- Efort (ore)
-- Cost estimat cu munca
-- Cheltuieli estimate
+- <span data-ttu-id="1fc96-115">Nume</span><span class="sxs-lookup"><span data-stu-id="1fc96-115">Name</span></span>
+- <span data-ttu-id="1fc96-116">Descriere</span><span class="sxs-lookup"><span data-stu-id="1fc96-116">Description</span></span>
+- <span data-ttu-id="1fc96-117">Client</span><span class="sxs-lookup"><span data-stu-id="1fc96-117">Customer</span></span>
+- <span data-ttu-id="1fc96-118">Șablon de calendar</span><span class="sxs-lookup"><span data-stu-id="1fc96-118">Calendar Template</span></span>
+- <span data-ttu-id="1fc96-119">Monedă</span><span class="sxs-lookup"><span data-stu-id="1fc96-119">Currency</span></span>
+- <span data-ttu-id="1fc96-120">Unitate contractantă</span><span class="sxs-lookup"><span data-stu-id="1fc96-120">Contracting Unit</span></span>
+- <span data-ttu-id="1fc96-121">Manager de proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-121">Project Manager</span></span>
+- <span data-ttu-id="1fc96-122">Stare</span><span class="sxs-lookup"><span data-stu-id="1fc96-122">Status</span></span>
+- <span data-ttu-id="1fc96-123">Stare generală proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-123">Overall Project Status</span></span>
+- <span data-ttu-id="1fc96-124">Comentarii</span><span class="sxs-lookup"><span data-stu-id="1fc96-124">Comments</span></span>
+- <span data-ttu-id="1fc96-125">Estimări</span><span class="sxs-lookup"><span data-stu-id="1fc96-125">Estimates</span></span>
+- <span data-ttu-id="1fc96-126">Dată pornire estimată</span><span class="sxs-lookup"><span data-stu-id="1fc96-126">Estimated Start Date</span></span>
+- <span data-ttu-id="1fc96-127">Data de terminare</span><span class="sxs-lookup"><span data-stu-id="1fc96-127">Finish Date</span></span>
+- <span data-ttu-id="1fc96-128">Efort (ore)</span><span class="sxs-lookup"><span data-stu-id="1fc96-128">Effort (Hours)</span></span>
+- <span data-ttu-id="1fc96-129">Cost estimat cu munca</span><span class="sxs-lookup"><span data-stu-id="1fc96-129">Estimated Labor Cost</span></span>
+- <span data-ttu-id="1fc96-130">Cheltuieli estimate</span><span class="sxs-lookup"><span data-stu-id="1fc96-130">Estimated Expense Cost</span></span>
 
-## <a name="work-breakdown-structure"></a>Structură detaliată a proiectului
+## <a name="work-breakdown-structure"></a><span data-ttu-id="1fc96-131">Structură detaliată a proiectului</span><span class="sxs-lookup"><span data-stu-id="1fc96-131">Work breakdown structure</span></span>
 
-Când proiectul este copiat, este copiată întreaga structură detaliată a proiectului încărcată cu resurse. Resursele numite sunt înlocuite cu resurse generice. Dacă resursele numite nu au aceleași ore de lucru ca resursa generică, programul va fi recalculat și durata sarcinilor se poate modifica.
+<span data-ttu-id="1fc96-132">Când proiectul este copiat, este copiată întreaga structură detaliată a proiectului încărcată cu resurse.</span><span class="sxs-lookup"><span data-stu-id="1fc96-132">When the project is copied, the entire resource-loaded work breakdown structure is copied.</span></span> <span data-ttu-id="1fc96-133">Resursele numite sunt înlocuite cu resurse generice.</span><span class="sxs-lookup"><span data-stu-id="1fc96-133">Named resources are replaced with generic resources.</span></span> <span data-ttu-id="1fc96-134">Dacă resursele numite nu au aceleași ore de lucru ca resursa generică, programul va fi recalculat și durata sarcinilor se poate modifica.</span><span class="sxs-lookup"><span data-stu-id="1fc96-134">If the named resources don't have the same working hours as the generic resource, the schedule will be recalculated and task durations may change.</span></span>
 
-## <a name="project-team-members"></a>Membrii echipei de proiect
+## <a name="project-team-members"></a><span data-ttu-id="1fc96-135">Membrii echipei de proiect</span><span class="sxs-lookup"><span data-stu-id="1fc96-135">Project team members</span></span>
 
-Când o echipă de proiect este copiată din proiectul sursă, resursele generice sunt copiate. Atribuirile de resurse generice sunt păstrate cum erau în proiectul sursă. Resursele denumite vor fi convertite în membri generici ai echipei.
+<span data-ttu-id="1fc96-136">Când o echipă de proiect este copiată din proiectul sursă, resursele generice sunt copiate.</span><span class="sxs-lookup"><span data-stu-id="1fc96-136">When a project team is copied from the source project, the generic resources are copied.</span></span> <span data-ttu-id="1fc96-137">Atribuirile de resurse generice sunt păstrate cum erau în proiectul sursă.</span><span class="sxs-lookup"><span data-stu-id="1fc96-137">Generic resource assignments are also maintained as they were in the source project.</span></span> <span data-ttu-id="1fc96-138">Resursele denumite vor fi convertite în membri generici ai echipei.</span><span class="sxs-lookup"><span data-stu-id="1fc96-138">Named resources will be converted to generic team members.</span></span>
 
-## <a name="estimates"></a>Estimări
+## <a name="estimates"></a><span data-ttu-id="1fc96-139">Estimări</span><span class="sxs-lookup"><span data-stu-id="1fc96-139">Estimates</span></span>
 
-Când proiectul este copiat, ambele linii de estimare a resurselor și a cheltuielilor sunt copiate din proiectul sursă.
+<span data-ttu-id="1fc96-140">Când proiectul este copiat, ambele linii de estimare a resurselor și a cheltuielilor sunt copiate din proiectul sursă.</span><span class="sxs-lookup"><span data-stu-id="1fc96-140">When the project is copied, both resource and expense estimate lines are copied from the source project.</span></span> 
+
+<span data-ttu-id="1fc96-141">Pentru informații despre cum să accesați programul Copiere proiect, consultați [Elaborați șabloane de proiect cu Copiere proiect](dev-copy-project.md).</span><span class="sxs-lookup"><span data-stu-id="1fc96-141">For information on how to programmatically access Copy Project, see [Develop project templates with Copy Project](dev-copy-project.md).</span></span>

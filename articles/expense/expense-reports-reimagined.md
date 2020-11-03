@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,66 +15,66 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897151"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082862"
 ---
-# <a name="expense-reports-reimagined"></a>Rapoartele de cheltuieli reinventate
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="32201-103">Rapoartele de cheltuieli reinventate</span><span class="sxs-lookup"><span data-stu-id="32201-103">Expense reports reimagined</span></span>
 
-Intrarea raportului de cheltuieli a fost reproiectată pentru a simplifica procesul și a reduce timpul necesar pentru finalizarea unui raport. Iată componentele majore ale noii experiențe de cheltuieli:
+<span data-ttu-id="32201-104">Intrarea raportului de cheltuieli a fost reproiectată pentru a simplifica procesul și a reduce timpul necesar pentru finalizarea unui raport.</span><span class="sxs-lookup"><span data-stu-id="32201-104">Expense report entry has been redesigned to simplify the process and reduce the time needed to complete a report.</span></span> <span data-ttu-id="32201-105">Iată componentele majore ale noii experiențe de cheltuieli:</span><span class="sxs-lookup"><span data-stu-id="32201-105">Here are the major components of the new expense experience:</span></span>
 
-- Un nou spațiu de lucru pentru gestionarea cheltuielilor, care vă permite să accesați cheltuielile delegatului.
-- O nouă experiență de potrivire a chitanțelor pentru a afișa mai bine chitanțele la nivel de antet și pentru a simplifica procesul de atașare a chitanțelor la liniile de cheltuieli.
-- O nouă grilă numai în citire care vă permite să vizualizați mai multe linii de cheltuieli și coloane suplimentare de date. Acum puteți vedea toate liniile detaliate și împărțite, împreună cu cheltuielile lor părinte.
-- Un panou simplificat pentru cheltuieli de editare.
-- Mesaje de eroare, avertisment și politică reproiectate pentru a oferi contextul corect și înțelegerea problemei și modul de soluționare a acesteia. Am eliminat mai multe dintre mesajele care au apărut înainte ca utilizatorii să își poată finaliza sarcinile și să rezolve problemele.
-- O nouă pagină pentru a specifica câmpurile obligatorii, câmpurile opționale și câmpurile care nu ar trebui incluse. Această pagină ajută la reducerea numărului de câmpuri care trebuie setate.
-- Un aspect nou pentru rapoartele de cheltuieli, astfel încât rapoartele să nu mai pară că ar fi concepute pentru contabilitate.
+- <span data-ttu-id="32201-106">Un nou spațiu de lucru pentru gestionarea cheltuielilor, care vă permite să accesați cheltuielile delegatului.</span><span class="sxs-lookup"><span data-stu-id="32201-106">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="32201-107">O nouă experiență de potrivire a chitanțelor pentru a afișa mai bine chitanțele la nivel de antet și pentru a simplifica procesul de atașare a chitanțelor la liniile de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="32201-107">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="32201-108">O nouă grilă numai în citire care vă permite să vizualizați mai multe linii de cheltuieli și coloane suplimentare de date.</span><span class="sxs-lookup"><span data-stu-id="32201-108">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="32201-109">Acum puteți vedea toate liniile detaliate și împărțite, împreună cu cheltuielile lor părinte.</span><span class="sxs-lookup"><span data-stu-id="32201-109">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="32201-110">Un panou simplificat pentru cheltuieli de editare.</span><span class="sxs-lookup"><span data-stu-id="32201-110">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="32201-111">Mesaje de eroare, avertisment și politică reproiectate pentru a oferi contextul corect și înțelegerea problemei și modul de soluționare a acesteia.</span><span class="sxs-lookup"><span data-stu-id="32201-111">Redesigned error, warning, and policy messages to provide the correct context and understanding of the issue and how to resolve it.</span></span> <span data-ttu-id="32201-112">Am eliminat mai multe dintre mesajele care au apărut înainte ca utilizatorii să își poată finaliza sarcinile și să rezolve problemele.</span><span class="sxs-lookup"><span data-stu-id="32201-112">We have removed several of the messages that appeared before users could complete their tasks and address the issues.</span></span>
+- <span data-ttu-id="32201-113">O nouă pagină pentru a specifica câmpurile obligatorii, câmpurile opționale și câmpurile care nu ar trebui incluse.</span><span class="sxs-lookup"><span data-stu-id="32201-113">A new page to specify required fields, optional fields, and the fields that should not be included.</span></span> <span data-ttu-id="32201-114">Această pagină ajută la reducerea numărului de câmpuri care trebuie setate.</span><span class="sxs-lookup"><span data-stu-id="32201-114">This page helps to reduce the number of fields that must be set.</span></span>
+- <span data-ttu-id="32201-115">Un aspect nou pentru rapoartele de cheltuieli, astfel încât rapoartele să nu mai pară că ar fi concepute pentru contabilitate.</span><span class="sxs-lookup"><span data-stu-id="32201-115">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
 
-Pentru a activa noua experiență, utilizați spațiul de lucru **Managementul caracteristicilor** pentru a activa caracteristica **Rapoartele de cheltuieli reinventate**. Când activați această caracteristică, au loc următoarele acțiuni:
+<span data-ttu-id="32201-116">Pentru a activa noua experiență, utilizați spațiul de lucru **Managementul caracteristicilor** pentru a activa caracteristica **Rapoartele de cheltuieli reinventate**.</span><span class="sxs-lookup"><span data-stu-id="32201-116">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature.</span></span> <span data-ttu-id="32201-117">Când activați această caracteristică, au loc următoarele acțiuni:</span><span class="sxs-lookup"><span data-stu-id="32201-117">When you turn on this feature, the following actions occur:</span></span>
 
-- Spațiul de lucru existent de cheltuieli este înlocuit cu noul spațiu de lucru.
-- Se adaugă un nou element de meniu pentru vizibilitatea câmpului de cheltuieli.
-- Nu sunt eliminate elemente de meniu existente pentru rapoartele de cheltuieli (pagina existentă) sau câmpurile pentru rapoarte de cheltuieli.
-- Fluxurile de lucru și orice aprobări vă duc în continuare la pagina de rapoarte de cheltuieli existente.
+- <span data-ttu-id="32201-118">Spațiul de lucru existent de cheltuieli este înlocuit cu noul spațiu de lucru.</span><span class="sxs-lookup"><span data-stu-id="32201-118">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="32201-119">Se adaugă un nou element de meniu pentru vizibilitatea câmpului de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="32201-119">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="32201-120">Nu sunt eliminate elemente de meniu existente pentru rapoartele de cheltuieli (pagina existentă) sau câmpurile pentru rapoarte de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="32201-120">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="32201-121">Fluxurile de lucru și orice aprobări vă duc în continuare la pagina de rapoarte de cheltuieli existente.</span><span class="sxs-lookup"><span data-stu-id="32201-121">Workflows and any approvals still take you to the existing expense reports page.</span></span>
 
-## <a name="getting-started-video-for-new-users"></a>Video de început pentru noii utilizatori
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="32201-122">Video de început pentru noii utilizatori</span><span class="sxs-lookup"><span data-stu-id="32201-122">Getting started video for new users</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-[Experiența de cheltuieli în videoclipul Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prezentat mai sus) este inclus în [Finance and Operations playlistul](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibil pe YouTube.
+<span data-ttu-id="32201-123">[Experiența de cheltuieli în videoclipul Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prezentat mai sus) este inclus în [Finance and Operations playlistul](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibil pe YouTube.</span><span class="sxs-lookup"><span data-stu-id="32201-123">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
 
-## <a name="new-features"></a>Caracteristici noi
+## <a name="new-features"></a><span data-ttu-id="32201-124">Caracteristici noi</span><span class="sxs-lookup"><span data-stu-id="32201-124">New features</span></span>
 
-| Caracteristică nouă | Descriere |
+| <span data-ttu-id="32201-125">Caracteristică nouă</span><span class="sxs-lookup"><span data-stu-id="32201-125">New feature</span></span> | <span data-ttu-id="32201-126">Descriere</span><span class="sxs-lookup"><span data-stu-id="32201-126">Description</span></span> |
 |---|----|
-| Extindeți vizibilitatea câmpului | O nouă pagină de configurare vă permite să specificați câmpurile care trebuie dezactivate pentru o organizație, care câmpuri ar trebui să fie obligatorii și ce câmpuri sunt recomandate. |
-| Câmpuri obligatorii | O nouă configurație simplă vă permite să creați câteva câmpuri necesare, fără a fi nevoie să utilizați cadrul de politici. |
-| Câmpuri opționale | Se adaugă o a doua pagină pentru câmpurile opționale. În acest fel, angajații nu vor simți că ar trebui să seteze câmpurile, dar câmpurile sunt încă ușor accesibile. |
-| Adăugați chitanțe neatașate | Capacitatea de a adăuga chitanțe neatașate la raportul de cheltuieli este mai vizibilă din spațiul de lucru și din raportul de cheltuieli. |
-| Mesagerie îmbunătățită | Există o vizibilitate mai bună a liniilor de cheltuieli care au avertismente sau erori. |
-| Reducerea mesajelor din bara de mesaje| Numărul de mesaje Infolog a scăzut și s-a făcut un efort pentru a preveni apariția mesajelor duplicate în multe cazuri. |
-| Grupate împreună acțiuni comune | Interfața a fost curățată cu adăugarea unui nou buton de acțiuni pentru majoritatea acțiunilor comune la nivel de linie și adăugarea unui buton de punctă de suspensie (...) pentru antet și alte acțiuni mai puțin frecvente. |
-| Nou spațiu de lucru pentru a crește vizibilitatea | Un nou spațiu de lucru unifică caracteristicile și linkurile care permit utilizatorilor să se mute în diferite zone. |
-| Adăugați cheltuielile și încasările existente în timpul creării cheltuielilor | Când creați rapoarte de cheltuieli, puteți adăuga toate cheltuielile și chitanțele selectate sau selectate. |
-| Calculator de curs valutar | Se adaugă un calculator al cursului valutar, care vă permite să calculați rata de schimb pentru tranzacțiile din mai multe buzunare. |
-| Salvați și adăugați noi linii de cheltuieli | Butoanele **Salvați** și **Nou** sunt disponibile atunci când sunt introduse noi cheltuieli, pentru a vă ajuta să introduceți rapid liniile de cheltuieli. |
-| O vizibilitate mai bună în linii separate și detaliate | Liniile detaliate și împărțite sunt adăugate direct la lista cheltuielilor pentru a crește vizibilitatea și a vă ajuta să determinați cu ușurință dacă există erori. |
-| Afișați chitanțele în timpul detalierii | Chitanțele pot fi afișate în timpul detalierii. |
+| <span data-ttu-id="32201-127">Extindeți vizibilitatea câmpului</span><span class="sxs-lookup"><span data-stu-id="32201-127">Expense field visibility</span></span> | <span data-ttu-id="32201-128">O nouă pagină de configurare vă permite să specificați câmpurile care trebuie dezactivate pentru o organizație, care câmpuri ar trebui să fie obligatorii și ce câmpuri sunt recomandate.</span><span class="sxs-lookup"><span data-stu-id="32201-128">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="32201-129">Câmpuri obligatorii</span><span class="sxs-lookup"><span data-stu-id="32201-129">Required fields</span></span> | <span data-ttu-id="32201-130">O nouă configurație simplă vă permite să creați câteva câmpuri necesare, fără a fi nevoie să utilizați cadrul de politici.</span><span class="sxs-lookup"><span data-stu-id="32201-130">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="32201-131">Câmpuri opționale</span><span class="sxs-lookup"><span data-stu-id="32201-131">Optional fields</span></span> | <span data-ttu-id="32201-132">Se adaugă o a doua pagină pentru câmpurile opționale.</span><span class="sxs-lookup"><span data-stu-id="32201-132">A second page for optional fields is added.</span></span> <span data-ttu-id="32201-133">În acest fel, angajații nu vor simți că ar trebui să seteze câmpurile, dar câmpurile sunt încă ușor accesibile.</span><span class="sxs-lookup"><span data-stu-id="32201-133">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="32201-134">Adăugați chitanțe neatașate</span><span class="sxs-lookup"><span data-stu-id="32201-134">Add unattached receipts</span></span> | <span data-ttu-id="32201-135">Capacitatea de a adăuga chitanțe neatașate la raportul de cheltuieli este mai vizibilă din spațiul de lucru și din raportul de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="32201-135">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="32201-136">Mesagerie îmbunătățită</span><span class="sxs-lookup"><span data-stu-id="32201-136">Improved messaging</span></span> | <span data-ttu-id="32201-137">Există o vizibilitate mai bună a liniilor de cheltuieli care au avertismente sau erori.</span><span class="sxs-lookup"><span data-stu-id="32201-137">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="32201-138">Reducerea mesajelor din bara de mesaje</span><span class="sxs-lookup"><span data-stu-id="32201-138">Reduction in messages in the message bar</span></span>| <span data-ttu-id="32201-139">Numărul de mesaje Infolog a scăzut și s-a făcut un efort pentru a preveni apariția mesajelor duplicate în multe cazuri.</span><span class="sxs-lookup"><span data-stu-id="32201-139">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="32201-140">Grupate împreună acțiuni comune</span><span class="sxs-lookup"><span data-stu-id="32201-140">Grouped together common actions</span></span> | <span data-ttu-id="32201-141">Interfața a fost curățată cu adăugarea unui nou buton de acțiuni pentru majoritatea acțiunilor comune la nivel de linie și adăugarea unui buton de punctă de suspensie (...) pentru antet și alte acțiuni mai puțin frecvente.</span><span class="sxs-lookup"><span data-stu-id="32201-141">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="32201-142">Nou spațiu de lucru pentru a crește vizibilitatea</span><span class="sxs-lookup"><span data-stu-id="32201-142">New workspace to increase visibility</span></span> | <span data-ttu-id="32201-143">Un nou spațiu de lucru unifică caracteristicile și linkurile care permit utilizatorilor să se mute în diferite zone.</span><span class="sxs-lookup"><span data-stu-id="32201-143">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="32201-144">Adăugați cheltuielile și încasările existente în timpul creării cheltuielilor</span><span class="sxs-lookup"><span data-stu-id="32201-144">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="32201-145">Când creați rapoarte de cheltuieli, puteți adăuga toate cheltuielile și chitanțele selectate sau selectate.</span><span class="sxs-lookup"><span data-stu-id="32201-145">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="32201-146">Calculator de curs valutar</span><span class="sxs-lookup"><span data-stu-id="32201-146">Exchange rate calculator</span></span> | <span data-ttu-id="32201-147">Se adaugă un calculator al cursului valutar, care vă permite să calculați rata de schimb pentru tranzacțiile din mai multe buzunare.</span><span class="sxs-lookup"><span data-stu-id="32201-147">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="32201-148">Salvați și adăugați noi linii de cheltuieli</span><span class="sxs-lookup"><span data-stu-id="32201-148">Save and add new expense lines</span></span> | <span data-ttu-id="32201-149">Butoanele **Salvați** și **Nou** sunt disponibile atunci când sunt introduse noi cheltuieli, pentru a vă ajuta să introduceți rapid liniile de cheltuieli.</span><span class="sxs-lookup"><span data-stu-id="32201-149">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="32201-150">O vizibilitate mai bună în linii separate și detaliate</span><span class="sxs-lookup"><span data-stu-id="32201-150">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="32201-151">Liniile detaliate și împărțite sunt adăugate direct la lista cheltuielilor pentru a crește vizibilitatea și a vă ajuta să determinați cu ușurință dacă există erori.</span><span class="sxs-lookup"><span data-stu-id="32201-151">Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors.</span></span> |
+| <span data-ttu-id="32201-152">Afișați chitanțele în timpul detalierii</span><span class="sxs-lookup"><span data-stu-id="32201-152">Show receipts during itemization</span></span> | <span data-ttu-id="32201-153">Chitanțele pot fi afișate în timpul detalierii.</span><span class="sxs-lookup"><span data-stu-id="32201-153">Receipts can be shown during itemization.</span></span> |
 
-Versiunea inițială este axată pe scenarii de intrare a cheltuielilor. Orice scenariu de revizuire sau aprobare a raportului de cheltuieli va continua să folosească pagina de introducere a cheltuielilor existente.
+<span data-ttu-id="32201-154">Versiunea inițială este axată pe scenarii de intrare a cheltuielilor.</span><span class="sxs-lookup"><span data-stu-id="32201-154">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="32201-155">Orice scenariu de revizuire sau aprobare a raportului de cheltuieli va continua să folosească pagina de introducere a cheltuielilor existente.</span><span class="sxs-lookup"><span data-stu-id="32201-155">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
 
-Următoarele funcții sunt prezente pe pagina existentă, dar nu sunt încă prezente pe pagina nouă. Aceste caracteristici vor fi reintroduse în următoarele câteva versiuni:
+<span data-ttu-id="32201-156">Următoarele funcții sunt prezente pe pagina existentă, dar nu sunt încă prezente pe pagina nouă.</span><span class="sxs-lookup"><span data-stu-id="32201-156">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="32201-157">Aceste caracteristici vor fi reintroduse în următoarele câteva versiuni:</span><span class="sxs-lookup"><span data-stu-id="32201-157">These features will be reintroduced over the next several releases:</span></span>
 
-- Aprobări
-- Aprobarea conturilor de plătit și posibilitatea de a edita contabilitatea
-- Puncte multiple de intrare
-- Integrarea cererii de călătorie
-- Entitate de date pentru vizibilitatea câmpului de cheltuieli
-- Intrare pentru cheltuieli diurne
-- Flux de lucru la nivel de linie
-- Suport interimar pentru aprobare
-- Detaliere avansată
+- <span data-ttu-id="32201-158">Aprobări</span><span class="sxs-lookup"><span data-stu-id="32201-158">Approvals</span></span>
+- <span data-ttu-id="32201-159">Aprobarea conturilor de plătit și posibilitatea de a edita contabilitatea</span><span class="sxs-lookup"><span data-stu-id="32201-159">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="32201-160">Puncte multiple de intrare</span><span class="sxs-lookup"><span data-stu-id="32201-160">Multiple entry points</span></span>
+- <span data-ttu-id="32201-161">Integrarea cererii de călătorie</span><span class="sxs-lookup"><span data-stu-id="32201-161">Travel requisition integration</span></span>
+- <span data-ttu-id="32201-162">Entitate de date pentru vizibilitatea câmpului de cheltuieli</span><span class="sxs-lookup"><span data-stu-id="32201-162">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="32201-163">Intrare pentru cheltuieli diurne</span><span class="sxs-lookup"><span data-stu-id="32201-163">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="32201-164">Flux de lucru la nivel de linie</span><span class="sxs-lookup"><span data-stu-id="32201-164">Line-level workflow</span></span>
+- <span data-ttu-id="32201-165">Suport interimar pentru aprobare</span><span class="sxs-lookup"><span data-stu-id="32201-165">Interim approver support</span></span>
+- <span data-ttu-id="32201-166">Detaliere avansată</span><span class="sxs-lookup"><span data-stu-id="32201-166">Advanced itemization</span></span>
