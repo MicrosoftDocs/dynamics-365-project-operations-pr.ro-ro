@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965869"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082697"
 ---
 # <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Gestionarea mai multor clienți în linii de oferte bazate pe proiect
 
@@ -33,10 +33,10 @@ Tabelul următor arată câmpurile pe înregistrarea de client de linie de ofert
 
 | Câmp | Locație | Descriere și îndrumare | Impactul din aval |
 | --- | --- | --- | --- |
-| **Cont** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Listează toate conturile active. Acest câmp este blocat după crearea înregistrării. Dacă trebuie să actualizați câmpul, ștergeți și recreați înregistrarea. Dacă ați înregistrat date reale, nu puteți șterge înregistrarea. | Atunci când alegeți un cont din lista principală de conturi de adăugat, clientul de linie de ofertă este adăugat și ca client de ofertă atunci când îl salvați. Când se câștigă o ofertă, clienții liniei de cotare sunt copiați la clienții din linia contractului de proiect. |
-| **Procent de divizare de factură** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Reprezintă procentul din fiecare tranzacție de vânzare nefacturată care va fi atribuită acestui client de linie de ofertă. | Copiat pentru clienți de linii de contract de proiect. |
-| **Limită de nedepășire** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă există o limită superioară sau o limită negociată pentru suma totală care va fi facturată acestui client pentru această linie de ofertă. | Copiat clienților de linii de contract de proiect atunci când se câștigă o ofertă. |
-| **Este rotunjire** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă acest client este un client implicit de rotunjire pentru această linie de ofertă bazată pe proiect. | Copiat clienților de contract de proiect atunci când se câștigă o ofertă. |
+| **Cont** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Listează toate conturile active. Acest câmp este blocat după crearea înregistrării. Dacă trebuie să actualizați câmpul, ștergeți și recreați înregistrarea. Dacă ați înregistrat date reale, nu puteți șterge înregistrarea. | Atunci când alegeți un cont din lista principală de conturi de adăugat, clientul de linie de ofertă este adăugat și ca client de ofertă atunci când îl salvați. Când se câștigă o ofertă, clienții liniei de cotare sunt copiați la clienții din linia contractului de proiect. |
+| **Procent de divizare de factură** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Reprezintă procentul din fiecare tranzacție de vânzare nefacturată care va fi atribuită acestui client de linie de ofertă. | Copiat pentru clienți de linii de contract de proiect. |
+| **Limită de nedepășire** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă există o limită superioară sau o limită negociată pentru suma totală care va fi facturată acestui client pentru această linie de ofertă. | Copiat clienților de linii de contract de proiect atunci când se câștigă o ofertă. |
+| **Este rotunjire** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă acest client este un client implicit de rotunjire pentru această linie de ofertă bazată pe proiect. | Copiat clienților de contract de proiect atunci când se câștigă o ofertă. |
 
 ## <a name="edit-billing-split-percentages"></a>Editați procente de facturare
 

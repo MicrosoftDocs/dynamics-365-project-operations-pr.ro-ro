@@ -3,17 +3,17 @@ title: Înscrieți-vă pentru un abonament de previzualizare
 description: Acest subiect oferă informații despre cum să vă abonați și să implementați Project Operations simplificat - gestionați facturarea proforma.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949029"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082659"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Înscrieți-vă pentru un abonament de previzualizare pentru implementare simplificată - faceți facturi proforma
 
@@ -26,98 +26,67 @@ Acest subiect explică cum să vă abonați la oferta de previzualizare de parte
 
 - Veți primi un e-mail care vă invită să participați la previzualizare. Puteți solicita o previzualizare pe [Site-ul web al Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - Utilizatorul care implementează previzualizarea trebuie să aibă drepturi de administrator global entitate găzduită Azure.
-- Utilizatorul care implementează previzualizarea va avea nevoie de un număr de telefon și un card de credit valid. În timpul înscrierii, nu vor exista taxe pe card timp de șase luni. După șase luni, trebuie să anulați abonamentul. 
 - Examinați toți termenii și condițiile.
 
 ## <a name="subscribe"></a>Abonare
 
-Când primiți o aprobare [cerere de previzualizare](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), veți primi două oferte de la Microsoft prin e-mail. Aceste oferte vă permit să implementați previzualizarea Project Operations:
+Când primiți o aprobare de [cerere de previzualizare](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), veți primi două oferte de la Microsoft prin e-mail. Aceste oferte vă permit să implementați previzualizarea Project Operations:
 
-- Previzualizare încercare Dynamics 365 Customer Service - cod de o singură utilizare
-- Dynamics 365 Project Operations – versiune de încercare de previzualizare
+- Dynamics 365 Project Operations (CRM) – previzualizare versiune de încercare
+- Office 365 Project Operations - Previzualizare versiune de încercare
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Ofertă plătită Dynamics 365 Customer Service
+> [!IMPORTANT]
+> O singură persoană, administratorul entității găzduite, dintr-o organizație trebuie să îndeplinească această sarcină. Dacă nu sunteți abonatul la această versiune, așteptați până când organizația dvs. a fost înregistrată și ați primit acreditările dvs. de utilizator.
 
-1. Folosind o fereastră de browser InPrivate/Incognito, valorificați primul cod de ofertă pentru Dynamics 365 Customer Service. Pentru a vă înscrie la serviciu pentru relații cu clienții, veți avea nevoie de:
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – previzualizare versiune de încercare 
 
-- Un număr de telefon
-- Un card de credit. Când vă înscrieți, timp de șase luni cardul nu va fi taxat. După șase luni, trebuie să anulați abonamentul.
-- Examinați toți termenii și condițiile.
+Înainte de a începe, asigurați-vă că sunteți conectat la un browser cu contul de lucru al utilizatorului în chiriașul în care doriți previzualizarea Project Operations.
 
-2. Furnizați informațiile dvs. de contact.
+1. Valorificați primul cod de ofertă, **Dynamics 365 Project Operations (CRM) - Previzualizare versiune de încercare** lipindu-l în URL-ul browserului.
 
-![Informații contact](./media/1ContactInformation.png)
+![Valorificați oferta](./media/16RedeemFirstOfferNew.png)
 
-3. Furnizați detaliile noilor entități găzduite.
+2. Confirmați comanda.
+![Confirmați comanda](./media/17ConfirmOrderNew.png)
 
-![Creați ID de utilizator](./media/2CreateUserID.png)
+Veți vedea că oferta de confirmare a fost valorificată cu succes.
 
-4. Verificați-vă identitatea, salvați noul ID de utilizator, apoi selectați **Instalare**.
+![Confirmare](./media/18OrderConfirmationNew.png)
 
-![Salvați informații](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Previzualizare versiune de încercare
 
-5. Finalizați înscrierea cardului de credit și examinați toți termenii și condițiile. 
-
-![Finalizați cardul de credit](./media/4CompleteCreditCard.png)
-
-![Extrageți cardul de credit](./media/5CreditCardCheckout.png)
-
-![Salvați comanda](./media/6SaveOrder.png)
-
-![Confirmare card de credit](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Anulați oferta de întreprindere Dynamics 365 Customer Service
-
-Oferta Dynamics 365 Customer Service pentru întreprinderi este oferită gratuit timp de șase luni. Oferta va fi reînnoită la tariful complet la sfârșitul perioadei de șase luni. Pentru a anula înainte de data reînnoirii, completați următoarele instrucțiuni. 
-
-> [!NOTE]
-> După ce parcurgeți acești pași, nu veți mai putea utiliza mediul de previzualizare publică Project Operations.
-
-1. Accesați [Portal de administrare](https://admin.microsoft.com/) și sub **Facturare**, selectați **Produsele dvs.**.
-
-![Portal de administrare, pagina Produsele dvs.](./media/8AdminPortal.png)
-
-2. Selectați **Oferta de întreprindere Dynamics 365 Customer Service**.
-
-![Anulați abonamentul](./media/9CancelSubscription.png)
-
-3. Selectați **Setări** > **Acțiuni** > **Anulați abonamentul**.
-4. Pe formularul **Anularea abonamentului**, introduceți informații în câmpurile obligatorii.
-5. Selectați **Anulare** > **Abonament.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Versiune de încercare de previzualizare
-
-1. Valorificați a doua ofertă, Versiune de încercare Dynamics 365 Project Operations, cu adresa URL furnizată în e-mailul binevenit.
-
-![Valorificați oferta 2](./media/10RedeemOffer2.png)
-
-2. Verificați dacă sunteți conectat ca utilizator care aparține aceleiași organizații care a fost abonată utilizând primul cod de ofertă și apoi continuați cu valorificarea ofertei. 
-3. Selectați **Da, adăugați-l la contul meu**.
-
-![Adăugare la cont](./media/11AddToAccount.png)
-
-![Încercați Ecran acum](./media/12TryNow.png)
-
-![Detalii comandă](./media/13Confirmation.png)
+Repetați aceiași pași ca la primul cod de ofertă. Asigurați-vă că adăugați al doilea cod de ofertă utilizând același cont de utilizator care a fost utilizat cu primul cod de ofertă.
 
 ## <a name="assign-licenses"></a>Atribuiți licențe
 
 > [!IMPORTANT]
-> Veți avea nevoie de acces administrativ la organizația dvs. Office 365 Portal pentru a finaliza pașii următori.
+> Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
+
 
 1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 
 ![Pagina principală a centrului de administrare](./media/14AdminPortal.png)
 
-2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
+2. Pe pagina **Utilizatori activi** , selectați utilizatorii cărora doriți să le atribuiți o licență.
 
 ![Atribuiți licențe](./media/15AssignLicenses.png)
 
-3. Verificați ca **Customer Service Enterprise** și licența**Project Operations** au fost selectate și selectați **Salvați modificările**.
+3. Verificați ca licențele **Dynamics 365 Project Operations (CRM) Previzualizare** și **Office 365 Project Operations - Previzualizare** să fie selectate. 
+4. Selectați **Salvați modificările**.
 
 ## <a name="create-a-new-cds-environment"></a>Creați un nou mediu CDS
 
-Furnizați un nou mediu de implementare CDS pentru Project Operations urmând instrucțiunile din subiect, [Model de implementare CDS](lite-deployment.md).
+1. Furnizați un nou mediu de implementare CDS pentru Project Operations urmând instrucțiunile din subiect, [Model de implementare CDS](lite-deployment.md). Când selectați tipul de mediu, asigurați-vă că utilizați **Versiune de încercare (pe bază de abonament)**.
+![Mediu nou](./media/19CreateEnvironment.png)
+
+2. Selectați setarea **Activați aplicațiile Dynamics 365** și lăsați **Implementați automat aceste aplicații** gol.  
+3. Selectați **Salvare** pentru a crea mediul.
+
+![Adăugați baza de date](./media/20CreateEnvironment1.png)
+
+4. După crearea mediului, instalați soluția **Microsoft Dynamics 365 Project Operations**. 
+
+![Instalați soluția](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalați o configurare CDS și instalați date demonstrative
 

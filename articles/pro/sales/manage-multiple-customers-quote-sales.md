@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082696"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Gestionarea mai multor clienți în oferte de proiect (Vânzări)
 
@@ -31,7 +31,7 @@ Clienții de ofertă și clienții de linie de ofertă pot fi adăugați, actual
 
 Clientul care se află în fila rezumată a ofertei de proiect ca potențial client este clientul principal al ofertei. Când încercați să ștergeți clientul principal din lista de clienți din ofertă, veți vedea o eroare conform căreia înregistrarea unui client principal dintr-o ofertă nu poate fi ștearsă.
 
-Clientul principal nu ar trebui să fie actualizat din lista de clienți din ofertă. Cu toate acestea, puteți influența clientul principal schimbând clientul potențial pe fila **Rezumat** a ofertei. Când acest câmp este actualizat pe **Rezumat ofertă**, clientul potențial nou selectat este adăugat ca un nou client de ofertă cu setul de semnalizare **Primar**. Vechiul client potențial va rămâne în continuare client la ofertă.
+Clientul principal nu ar trebui să fie actualizat din lista de clienți din ofertă. Cu toate acestea, puteți influența clientul principal schimbând clientul potențial pe fila **Rezumat** a ofertei. Când acest câmp este actualizat pe **Rezumat ofertă** , clientul potențial nou selectat este adăugat ca un nou client de ofertă cu setul de semnalizare **Primar**. Vechiul client potențial va rămâne în continuare client la ofertă.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Creați, actualizați sau ștergeți o înregistrare de ofertă client
 

@@ -3,23 +3,23 @@ title: Copierea unui proiect
 description: Acest subiect furnizează informații despre copierea proiectelor în Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082737"
 ---
 # <a name="copy-a-project"></a>Copierea unui proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Cu Dynamics 365 Project Operations, puteți construi rapid proiecte noi utilizând acțiunea **Copie proiect** pe formularul **Proiecte**. Pentru a copia un proiect, selectați un proiect, apoi selectați **Copie**. Acțiunea va copia:
+Cu Dynamics 365 Project Operations, puteți construi rapid proiecte noi selectând **Copie proiect** pe formularul **Proiecte**. Pentru a copia un proiect, deschideți proiectul pe care doriți să îl copiați, apoi selectați **Copiați proiectul**. Acțiunea va copia:
 
 - Proprietăți de proiect
 - Structura detaliată a proiectului
@@ -58,4 +58,6 @@ Când o echipă de proiect este copiată din proiectul sursă, resursele generic
 
 ## <a name="estimates"></a>Estimări
 
-Când proiectul este copiat, ambele linii de estimare a resurselor și a cheltuielilor sunt copiate din proiectul sursă.
+Când proiectul este copiat, ambele linii de estimare a resurselor și a cheltuielilor sunt copiate din proiectul sursă. 
+
+Pentru informații despre cum să accesați programul Copiere proiect, consultați [Elaborați șabloane de proiect cu Copiere proiect](dev-copy-project.md).

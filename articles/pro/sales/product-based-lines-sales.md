@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896251"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082722"
 ---
 # <a name="product-based-opportunity-lines"></a>Linii de contract bazate pe oportunitate
 
@@ -25,4 +25,4 @@ Liniile bazate pe produse pot fi articole din catalog sau produse înscrise. Cea
 
 Un concept despre liniile de oportunități bazate pe produse, care este specific oportunităților bazate pe proiecte, este **Bugetul clientului**. Utilizați acest câmp pentru a urmări suma pe care clientul este dispus să o plătească pentru elementul rând.
 
-Dacă metoda veniturilor din rezumatul Opportunity este setată la **Calculat de sistem**, valorile bugetului clienților pe linii bazate pe produse și proiecte sunt rezumate pentru a calcula veniturile estimate.
+Dacă metoda veniturilor din rezumatul Opportunity este setată la **Calculat de sistem** , valorile bugetului clienților pe linii bazate pe produse și proiecte sunt rezumate pentru a calcula veniturile estimate.

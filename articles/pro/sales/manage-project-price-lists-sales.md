@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082719"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Gestionarea listelor de prețuri din ofertele de proiecte (Vânzări)
 
@@ -48,8 +48,8 @@ Listele de prețuri ale proiectului pot fi setate ca implicite la o ofertă de p
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Configurați setările implicite organizaționale pentru listele de prețuri ale proiectului
 
 1. Accesați **Setări** > **General** > **Parametri**.
-2. Pe pagina listei **Parametri activi**, localizați înregistrarea și faceți dublu clic pentru a o deschide. 
-3. Pe pagina **Parametri**, selectați fila **Listă de prețuri**. Puteți vedea lista listelor de prețuri implicite. Aceasta este o listă de costuri standard și liste de prețuri de vânzare. Având o listă de prețuri de vânzare asociată aici pentru fiecare monedă în care vindeți, vă veți asigura că această listă de prețuri de vânzare este implicită pentru orice ofertă pe care o creați pentru clienții care tranzacționează în această monedă.
+2. Pe pagina listei **Parametri activi** , localizați înregistrarea și faceți dublu clic pentru a o deschide. 
+3. Pe pagina **Parametri** , selectați fila **Listă de prețuri**. Puteți vedea lista listelor de prețuri implicite. Aceasta este o listă de costuri standard și liste de prețuri de vânzare. Având o listă de prețuri de vânzare asociată aici pentru fiecare monedă în care vindeți, vă veți asigura că această listă de prețuri de vânzare este implicită pentru orice ofertă pe care o creați pentru clienții care tranzacționează în această monedă.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Configurați liste de prețuri specifice proiectului pentru clienți
 
@@ -57,13 +57,13 @@ Listele de prețuri specifice proiectului pentru clienți pot fi, de asemenea, c
 
 Pentru a configura o listă de prețuri a proiectului specifică clientului, parcurgeți pașii următori.
 
-1. În zona **Vânzări**, selectați **Clienți**.
+1. În zona **Vânzări** , selectați **Clienți**.
 2. În lista conturilor dvs. active, selectați și deschideți înregistrarea clientului pentru care aveți o listă de prețuri specială.
-3. Pe fila **Listele de prețuri ale proiectului**, puteți crea o nouă asociație de listă de prețuri pentru a avea lista de prețuri a proiectului care este specifică acestui client.
+3. Pe fila **Listele de prețuri ale proiectului** , puteți crea o nouă asociație de listă de prețuri pentru a avea lista de prețuri a proiectului care este specifică acestui client.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Creați prețuri particularizate pentru o ofertă de proiect
 
 După ce aveți liste de prețuri implicite organizaționale și specifice clientului, ofertele dvs. de proiect vor fi create automat cu aceste asociații de liste de prețuri ale proiectului. Cu toate acestea, în anumite cazuri, poate fi necesar să creați prețuri personalizate pentru o anumită ofertă de proiect. 
 
-1. Pe **Oferta de proiect**, pe fila **Lista de prețuri a proiectului**, verificați în subgrilă dacă nu este selectată nicio înregistrare specifică a listei de prețuri.
+1. Pe **Oferta de proiect** , pe fila **Lista de prețuri a proiectului** , verificați în subgrilă dacă nu este selectată nicio înregistrare specifică a listei de prețuri.
 2. Selectați **Creați prețuri particularizate**. Aceasta va face copii ale tuturor listelor de preț standard asociate în prezent cu oferta și va asocia aceste copii cu oferta. Asocierile existente la listele standard de prețuri vor fi eliminate. Agentul de vânzări poate începe apoi să editeze prețurile pe aceste copii. Aceste prețuri modificate vor fi aplicabile numai pentru această ofertă de proiect.

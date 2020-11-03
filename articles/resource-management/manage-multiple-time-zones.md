@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082734"
 ---
 # <a name="manage-time-zones"></a>Gestionarea fusurilor orare
 
@@ -30,7 +30,7 @@ Când se creează o activitate, ora de începere, ora de încheiere și orele/zi
 
 ## <a name="manage-resources-with-time-zones"></a>Gestionați resursele cu fusuri orare
 
-Pentru rezultate precise și predictibile atunci când se utilizează **Extindeți rezervarea**, există două condiții prealabile cheie care trebuie îndeplinite:  
+Pentru rezultate precise și predictibile atunci când se utilizează **Extindeți rezervarea** , există două condiții prealabile cheie care trebuie îndeplinite:  
 
 - Utilizatorul trebuie să configureze fusul orar al dispozitivului său pentru a se potrivi cu fusul orar definit în **Setările de personalizare** ale sistemului.
  
@@ -57,7 +57,7 @@ Tabelul următor afișează:
 |Resursă C  |  ![Calendar resursa C](media/reconcile-assignments-08.png) |
 |Resursă D  | ![Calendar resursa D](media/reconcile-assignments-09.png)  |
  
-Când navigați la vizualizarea **Reconciliere**, sunt afișate alocările de resurse și lipsa de rezervare asociată.
+Când navigați la vizualizarea **Reconciliere** , sunt afișate alocările de resurse și lipsa de rezervare asociată.
 
 ![Vedere de reconciliere înainte de extensie](media/reconcile-assignments-10.png)
 

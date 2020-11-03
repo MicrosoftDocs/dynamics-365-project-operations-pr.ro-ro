@@ -11,11 +11,11 @@ ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
 ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908488"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082679"
 ---
 # <a name="cash-advance"></a>Avans în numerar
 
@@ -25,10 +25,10 @@ Un avans în numerar permite angajaților să împrumute bani de la compania lor
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Creați și trimiteți o cerere de avans în numerar
 
-1. Sub **Cheltuielile mele**, selectați **Avansuri de numerar** > **Nou** pentru a crea un nou avans de numerar. 
-2. Pe pagina **Nouă solicitare de avans în numerar**, introduceți scopul cheltuielilor și selectați locația în care va fi efectuată cheltuiala.
+1. Sub **Cheltuielile mele** , selectați **Avansuri de numerar** > **Nou** pentru a crea un nou avans de numerar. 
+2. Pe pagina **Nouă solicitare de avans în numerar** , introduceți scopul cheltuielilor și selectați locația în care va fi efectuată cheltuiala.
 3. Introduceți suma și moneda solicitate, apoi selectați **Salvare**. 
-4. Când sunteți gata să depuneți cererea de avans în numerar, pe pagina **Cerere de avans în numerar**, selectați **Flux de lucru** > **Trimite**.
+4. Când sunteți gata să depuneți cererea de avans în numerar, pe pagina **Cerere de avans în numerar** , selectați **Flux de lucru** > **Trimite**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modificați o solicitare de avans în numerar
 
@@ -46,13 +46,13 @@ Puteți consulta lista tuturor avansurilor în numerar care sunt în proiect, tr
 
 Managerii sau utilizatorii configurați ca aprobatori în fluxul de lucru vor putea aproba avansurile de numerar care le-au fost supuse spre examinare. 
 
-1. Pentru a aproba un avans de numerar, în conformitate cu **Procesează avansuri de numerar**, selectați **Avansuri de numerar pentru recenzia mea**.
+1. Pentru a aproba un avans de numerar, în conformitate cu **Procesează avansuri de numerar** , selectați **Avansuri de numerar pentru recenzia mea**.
 2. Selectați avansul de numerar pe care trebuie să îl examinați și selectați **Aprobare**.  
 
 ## <a name="pay-cash-advances"></a>Plătiți avansuri în numerar 
 Următoarea procedură este de obicei finalizată de un contabil sau un utilizator cu permisiuni de contabilitate.
 
-1. Pentru a înregistra avansuri de numerar aprobate, selectați **Avansuri de numerar aprobate**, apoi selectați **Plătiți și transferați**.  
+1. Pentru a înregistra avansuri de numerar aprobate, selectați **Avansuri de numerar aprobate** , apoi selectați **Plătiți și transferați**.  
 2. Furnizați detaliile jurnalului pentru avansurile de numerar, apoi selectați **OK**. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Trimiteți un raport de cheltuieli cu un avans de numerar plătit 

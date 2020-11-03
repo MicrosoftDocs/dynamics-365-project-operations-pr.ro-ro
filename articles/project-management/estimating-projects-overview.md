@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968058"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082685"
 ---
 # <a name="estimate-projects-overview"></a>Prezentare generală a estimării proiectelor
 
@@ -71,11 +71,11 @@ Utilizați următorul tabel ca un ghid pentru înțelegerea logicii de afaceri �
 Dacă ați adăugat un câmp particularizat în detaliul liniei de ofertă și doriți ca sistemul să introducă valoarea câmpului ca valoare implicită pe linia de cost corelată pe care o creează, utilizați instrumentele insert de preînregistrare **PreOperationContractLineDetailUpdate** și **PreOperationQuoteLineDetailUpdate**. Aceste inserturi trebuie reînregistrate după ce detaliul liniei de ofertă sau detaliul liniei de contract se modifică. Urmați acești pași pentru a finaliza procesul.
 
 1. Deschideți PluginRegistrationTool și conectați-vă la instanța dvs. online.
-2. Selectați **Căutare**și căutați insertul pentru actualizare.
+2. Selectați **Căutare** și căutați insertul pentru actualizare.
 3. Selectați insertul, apoi, în pagina principală, faceți clic pe **Selectare**.
 4. Selectați pasul insertului pentru a actualiza, faceți clic dreapta, iar apoi selectați **Actualizare**.
-5. În caseta de dialog **Actualizarea pasului existent**, în câmpul **Filtrarea atributelor**, selectați butonul puncte de suspensie (**...**):
-6. În caseta de dialog **Selectare atribute**, bifați casetele de selectare pentru atributele particularizate.
+5. În caseta de dialog **Actualizarea pasului existent** , în câmpul **Filtrarea atributelor** , selectați butonul puncte de suspensie ( **...** ):
+6. În caseta de dialog **Selectare atribute** , bifați casetele de selectare pentru atributele particularizate.
 7. Selectați **OK** pentru a închide caseta de dialog, apoi selectați **Actualizați pasul**.
 8. Repetați pașii de la 1 la 7 pentru al doilea insert.
 9. Închideți **PluginRegistrationTool**.

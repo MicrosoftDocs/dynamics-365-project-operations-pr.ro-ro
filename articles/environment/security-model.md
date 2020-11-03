@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896746"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082681"
 ---
 # <a name="security-model"></a>Model de securitate
 
@@ -36,10 +36,11 @@ Capabilitățile front-end ale Project Operations includ următoarele roluri:
 
 
 Microsoft Project pentru web include următoarele roluri:
-| Rol                          | Descriere                                                                                                          | Domeniu de acoperire |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Utilizator de proiect | Utilizator colaborativ al proiectului, care este capabil să își creeze propriile proiecte și să vizualizeze orice proiecte partajate cu aceștia.| Utilizator|
-| Sistemul proiectului | Rolul utilizat pentru contextul aplicației. Clienții nu ar trebui să utilizeze acest rol de sistem. | Global|
+
+| Rol           | Descriere                                                                                                        | Domeniu de acoperire  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Utilizator de proiect   | Utilizator colaborativ al Project   care este capabil să își creeze propriile proiecte și să vizualizeze orice proiecte partajate cu   acesta. | Utilizator   |
+| Sistemul proiectului | Rolul utilizat pentru contextul   aplicației. Clienții nu ar trebui să utilizeze acest rol de sistem.                                    | Global |
 
 ## <a name="security-enforcement"></a>Aplicarea securității
 Acțiunile care sunt efectuate la nivelul proiectului sunt efectuate în contextul utilizatorului conectat. Aceasta înseamnă că, pentru a crea, deschide sau șterge un proiect, utilizatorul trebuie să aibă acces disponibil în CDS. Accesul în CDS poate fi acordat prin oricare dintre mecanismele posibile incluse în platformă. De exemplu, un utilizator cu un domeniu mai mare de acces poate accesa proiectul sau dacă a fost efectuată o acțiune explicită de partajare a proiectului care îi acordă utilizatorului acces.
@@ -55,7 +56,9 @@ Grupurile permit ca permisiunile proiectului și sprijinirea artefactelor de col
 
 Project Operations nu creează un grup prin acțiune implicită și face acest lucru doar prin acțiunea explicită a apăsării grupurilor.
 
-Căutarea membrilor grupului în dialogul **Managementul grupului**, este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Căutarea membrilor grupului în dialogul **Managementul grupului** , este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Mod grup](./media/groupsmode.png)
 
 1. Proiectul este creat și deținut de utilizatorul care a creat.
 2. Proprietarul proiectului este actualizat echipei.

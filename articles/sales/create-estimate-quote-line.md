@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898502"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082824"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Crearea de estimări într-o linie de ofertă
 
@@ -81,11 +80,11 @@ Utilizați următorul tabel ca un ghid pentru înțelegerea logicii de afaceri �
 Dacă ați adăugat un câmp particularizat în detaliul liniei de ofertă și doriți ca sistemul să introducă valoarea câmpului ca valoare implicită pe linia de cost corelată pe care o creează, utilizați instrumentele de înregistrare a insertului PreOperationContractLineDetailUpdate și PreOperationQuoteLineDetailUpdate. Aceste inserturi trebuie reînregistrate după ce detaliul liniei de ofertă sau detaliul liniei de contract se modifică. Urmați acești pași pentru a finaliza procesul.
 
 1. Deschideți PluginRegistrationTool și conectați-vă la instanța dvs. online.
-2. Selectați **Căutare**și căutați insertul pentru actualizare.
+2. Selectați **Căutare** și căutați insertul pentru actualizare.
 3. Selectați insertul, apoi, în pagina principală, selectați **Selectare**.
 4. Selectați pasul insertului pentru a actualiza, faceți clic dreapta, iar apoi selectați **Actualizare**.
-5. În caseta de dialog **Actualizarea pasului existent**, în câmpul **Filtrarea atributelor**, selectați butonul puncte de suspensie (**...**):
-6. În caseta de dialog **Selectare atribute**, bifați casetele de selectare pentru atributele particularizate.
+5. În caseta de dialog **Actualizarea pasului existent** , în câmpul **Filtrarea atributelor** , selectați butonul puncte de suspensie ( **...** ):
+6. În caseta de dialog **Selectare atribute** , bifați casetele de selectare pentru atributele particularizate.
 7. Selectați **OK** pentru a închide caseta de dialog, apoi selectați **Actualizați pasul**.
 8. Repetați pașii de la 1 la 7 pentru al doilea insert.
 9. Închideți PluginRegistrationTool.

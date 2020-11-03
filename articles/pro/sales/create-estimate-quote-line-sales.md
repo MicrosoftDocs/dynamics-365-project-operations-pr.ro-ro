@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082700"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimarea unei linii de ofertă pe bază de proiect
 
@@ -30,7 +30,7 @@ Pentru a estima o linie de ofertă bazată pe proiect, pe linia de estimare baza
 
 Pentru a crea o ofertă pe o linie de ofertă bazată pe proiect, selectați fila **Detalii linie ofertă**. Elementul rând pe care îl creați în această filă va rezuma valoarea ofertată pentru acest rând de ofertă. 
 
-Pentru a crea detaliile liniei de ofertă, selectați **+ Detaliu linie nouă de ofertă** pe sub-grila **Detalii despre linia de ofertă**. Se va deschide un glisor de creare rapidă. Următoarele câmpuri de pe formularul **Linie ofertă**:
+Pentru a crea detaliile liniei de ofertă, selectați **+ Detaliu linie nouă de ofertă** pe sub-grila **Detalii despre linia de ofertă**. Se va deschide un glisor de creare rapidă. Următoarele câmpuri de pe formularul **Linie ofertă** :
 
 | **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Pentru a crea detaliile liniei de ofertă, selectați **+ Detaliu linie nouă de
 
 ## <a name="update-prices-on-quote-line-details"></a>Actualizați prețurile în detaliile liniei de ofertă
 
-Dacă ați modificat prețurile în lista de prețuri a proiectului care este atașată la ofertă sau în lista de prețuri a costului unității contractante, puteți selecta pagina **Recalculează** pe pagina **Ofertă**, pentru a reîmprospăta prețurile din detaliile liniei de ofertă individuale pentru a reflecta această modificare. Când selectați **Recalculează**, apare un avertisment care vă informează că prețurile din detaliile liniei de ofertă pentru toate liniile de ofertă din această ofertă vor fi resetate. Selectați **Da**, pentru a reîmprospăta prețurile atât pentru vânzări, cât și pentru detaliile liniei de ofertă.
+Dacă ați modificat prețurile în lista de prețuri a proiectului care este atașată la ofertă sau în lista de prețuri a costului unității contractante, puteți selecta pagina **Recalculează** pe pagina **Ofertă** , pentru a reîmprospăta prețurile din detaliile liniei de ofertă individuale pentru a reflecta această modificare. Când selectați **Recalculează** , apare un avertisment care vă informează că prețurile din detaliile liniei de ofertă pentru toate liniile de ofertă din această ofertă vor fi resetate. Selectați **Da** , pentru a reîmprospăta prețurile atât pentru vânzări, cât și pentru detaliile liniei de ofertă.
 
 ## <a name="access-quote-line-details-for-cost"></a>Accesați detaliile liniei de ofertă pentru cost
 
-Pe fila **Detalii despre linia de ofertă**, selectați un rând din grilă pentru a activa unele acțiuni pe bara de instrumente a grilei secundare. Prima acțiune pe bara de instrumente sub-grilă atunci când este selectat un detaliu al liniei de ofertă este **Deschideți detaliile costurilor**. Selectați **Deschideți detaliile costurilor** pentru a vedea rata de cost aferentă și suma pentru această linie de ofertă.
+Pe fila **Detalii despre linia de ofertă** , selectați un rând din grilă pentru a activa unele acțiuni pe bara de instrumente a grilei secundare. Prima acțiune pe bara de instrumente sub-grilă atunci când este selectat un detaliu al liniei de ofertă este **Deschideți detaliile costurilor**. Selectați **Deschideți detaliile costurilor** pentru a vedea rata de cost aferentă și suma pentru această linie de ofertă.
 
 > [!NOTE]
 > Modificarea valorilor unității de resurse, cantității, datele, rolul sau categoriile din detaliile liniei de ofertă pentru costuri vor modifica valorile corespunzătoare din detaliile liniei de ofertă pentru vânzări.

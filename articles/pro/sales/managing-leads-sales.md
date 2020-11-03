@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082725"
 ---
 # <a name="manage-leads-pro"></a>Gestionați clienți potențiali (Pro)
 
@@ -23,7 +23,7 @@ Oportunitățile bazate pe proiect pot fi gestionate și calificate în Project 
 
 ## <a name="list-of-project-sales-leads"></a>Lista clienților potențiali în de Proiect
 
-În secțiunea **Vânzări**, în panoul de navigare din stânga, deschideți pagina listă **Clienți potențiali** pentru a vizualiza o listă cu toate înregistrările potențiale din sistem. Lista de clienți potențiali afișați este bazată pe muncă și alte tipuri de clienți potențiali care pot fi creați dacă aveți și Dynamics 365 Sales sau aplicații Dynamics 365 Field Service.
+În secțiunea **Vânzări** , în panoul de navigare din stânga, deschideți pagina listă **Clienți potențiali** pentru a vizualiza o listă cu toate înregistrările potențiale din sistem. Lista de clienți potențiali afișați este bazată pe muncă și alte tipuri de clienți potențiali care pot fi creați dacă aveți și Dynamics 365 Sales sau aplicații Dynamics 365 Field Service.
 
 Puteți crea o vizualizare filtrată pentru a vedea numai clienți potențiali bazate pe proiecte, creând un filtru pe valoarea **Tip**. De exemplu, puteți selecta să afișați numai clienți potențiali pe bază de muncă.
 
@@ -53,7 +53,7 @@ Clienții potențiali care au valoarea **Tip** setată la **Bazat pe muncă** su
 
 - Un cont care utilizează câmpul **Companie** din clientul potențial.
 - O înregistrare de contact asociată contului pe baza valorilor din **Prenume** și câmpurile **Nume de familie** pe clientul potențial.
-- O oportunitate bazată pe proiect care are câmpul **Tip** setat la &quot;**Bazat pe muncă**.
+- O oportunitate bazată pe proiect care are câmpul **Tip** setat la **Bazat pe muncă**.
 
 Pentru informații mai detaliate despre clienții potențiali de calificare, consultați[Calificați sau convertiți clienții potențiali](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

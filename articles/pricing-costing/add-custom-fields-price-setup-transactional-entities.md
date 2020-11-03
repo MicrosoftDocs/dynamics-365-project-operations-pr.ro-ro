@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898321"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082836"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Adăugarea câmpurilor solicitate particularizate la configurarea prețurilor și la entitățile tranzacționale
 
@@ -43,31 +42,31 @@ Atunci când o dimensiune de prețuri particularizată este bazată pe un set de
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Entități > Preț de rol**.
 3. Extindeți entitatea **Preț de rol** și selectați **Câmpuri**.
 4. Selectați **Nou** pentru a crea un câmp nou denumit **Locație de lucru resursă** și selectați **Set de opțiuni** ca tip de câmp. 
-5. Selectați **Se utilizează un set de opțiuni existent**, selectați setul de opțiuni **Locație de lucru resursă**, apoi selectați **Salvare**.
+5. Selectați **Se utilizează un set de opțiuni existent** , selectați setul de opțiuni **Locație de lucru resursă** , apoi selectați **Salvare**.
 6. Repetați pașii 1-5 pentru a adăuga acest câmp la entitatea **Adaos de preț pentru rol**. 
 7. Repetați pașii 1-5 pentru setul de opțiuni **Ore de lucru resursă**.
 
 > [!IMPORTANT]
 > Când adăugați un câmp la mai multe entități, utilizați același nume de câmp pentru toate entitățile. 
 
-În fazele de vânzări și de estimare pentru un proiect, estimările efortului de lucru necesar pentru finalizarea lucrărilor **Locale** și **La fața locului**, în **Ore normale** și **Ore suplimentare** sunt utilizate pentru a estimarea valorii ofertei/proiectului. Câmpurile **Locația de lucru resursă** și **Ore de lucru resursă** vor fi adăugate la entități de estimare **Detaliu linie de ofertă**, **Detaliu linie de contract**, **Membru echipă de proiect** și **Linie estimată**.
+În fazele de vânzări și de estimare pentru un proiect, estimările efortului de lucru necesar pentru finalizarea lucrărilor **Locale** și **La fața locului** , în **Ore normale** și **Ore suplimentare** sunt utilizate pentru a estimarea valorii ofertei/proiectului. Câmpurile **Locația de lucru resursă** și **Ore de lucru resursă** vor fi adăugate la entități de estimare **Detaliu linie de ofertă** , **Detaliu linie de contract** , **Membru echipă de proiect** și **Linie estimată**.
 
 1. În Project Operations, selectați **Setări** > **Soluții** și apoi faceți clic dublu pe **\<your organization name> dimensiuni de prețuri**. 
 2. În Explorator soluții, din panoul de navigare din stânga, selectați **Entități > Detaliu linie de ofertă**.
 3. Extindeți entitatea **Detaliu linie de ofertă** și selectați **Câmpuri**.
 4. Selectați **Nou** pentru a crea un câmp nou denumit **Locație de lucru resursă** și selectați tipul de câmp, **Set de opțiuni**. 
-5. Selectați **Se utilizează un set de opțiuni existent** și **Locație de lucru resursă**, apoi selectați **Salvare**.
-6. Repetați pașii 1-5 pentru a adăuga acest câmp la **Detaliu linie contract pentru proiect**, **Membru echipă de proiect** și **Linie estimată**.
+5. Selectați **Se utilizează un set de opțiuni existent** și **Locație de lucru resursă** , apoi selectați **Salvare**.
+6. Repetați pașii 1-5 pentru a adăuga acest câmp la **Detaliu linie contract pentru proiect** , **Membru echipă de proiect** și **Linie estimată**.
 7. Repetați pașii 1-6 pentru setul de opțiuni **Ore de lucru resursă**. 
 
-Pentru livrare și facturare, lucrarea finalizată trebuie să fie evaluate cu exactitate pentru a selecta dacă a fost efectuată **Local** sau **La fața locului** și dacă a fost finalizată în timpul **Orelor obișnuite** sau în timpul **Orelor suplimentare** cu privire la Valorile reale ale proiectului. Câmpurile **Locația de lucru resursă** și **Ore de lucru resursă** ar trebui adăugate la entitățile **Intrare de timp**, **Real**, **Detaliu linie factură** și **Linie de jurnal**.
+Pentru livrare și facturare, lucrarea finalizată trebuie să fie evaluate cu exactitate pentru a selecta dacă a fost efectuată **Local** sau **La fața locului** și dacă a fost finalizată în timpul **Orelor obișnuite** sau în timpul **Orelor suplimentare** cu privire la Valorile reale ale proiectului. Câmpurile **Locația de lucru resursă** și **Ore de lucru resursă** ar trebui adăugate la entitățile **Intrare de timp** , **Real** , **Detaliu linie factură** și **Linie de jurnal**.
 
 1. Selectați **Setări** > **Soluții** și apoi faceți clic dublu pe **\<your organization name> dimensiuni de preț**.
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Entități > Intrare de timp**.
-3. Extindeți entitatea **Detaliu linie de ofertă**, iar apoi selectați **Câmpuri**.
+3. Extindeți entitatea **Detaliu linie de ofertă** , iar apoi selectați **Câmpuri**.
 4. Selectați **Nou** pentru a crea un câmp nou denumit **Locație de lucru resursă** și selectați **Set de opțiuni** ca tip de câmp. 
-5. Selectați **Se utilizează un set de opțiuni existent**, selectați setul de opțiuni **Locație de lucru resursă**, apoi selectați **Salvare**.
-6. Repetați pașii 1-5 pentru a adăuga acest câmp la entitățile **Real**, **Detaliu linie factură** și **Linie jurnal**.
+5. Selectați **Se utilizează un set de opțiuni existent** , selectați setul de opțiuni **Locație de lucru resursă** , apoi selectați **Salvare**.
+6. Repetați pașii 1-5 pentru a adăuga acest câmp la entitățile **Real** , **Detaliu linie factură** și **Linie jurnal**.
 7. Repetați pașii 1-6 pentru setul de opțiuni **Ore de lucru resursă**. 
 
 Aceasta încheie modificările schemei necesare pentru dimensiunile particularizate bazate pe setul de opțiuni.
@@ -95,18 +94,18 @@ Titlul standard va trebui adăugat, de asemenea, la entitățile de preț, **Pre
 - **Membru echipă de proiect**
 - **Linie estimată**
 
-5. Repetați pașii 1-5 pentru a crea relații 1:N din **Titlul standard** la **Detaliu linie de ofertă**, **Detaliu linie contract pentru proiect**, **Membru echipă de proiect** și **Linie estimată**.
+5. Repetați pașii 1-5 pentru a crea relații 1:N din **Titlul standard** la **Detaliu linie de ofertă** , **Detaliu linie contract pentru proiect** , **Membru echipă de proiect** și **Linie estimată**.
 
-  În fazele de livrare și facturare, lucrarea este finalizată de fiecare titlul standard trebuie evaluată cu acuratețe cu privire la Valorile reale ale proiectului. Aceasta înseamnă că trebuie să existe relații 1:N de la **Titlul standard** la **Intrarea de timp**, **Valori reale**, **Detaliu linie factură** și **entități Linie de jurnal**.
+  În fazele de livrare și facturare, lucrarea este finalizată de fiecare titlul standard trebuie evaluată cu acuratețe cu privire la Valorile reale ale proiectului. Aceasta înseamnă că trebuie să existe relații 1:N de la **Titlul standard** la **Intrarea de timp** , **Valori reale** , **Detaliu linie factură** și **entități Linie de jurnal**.
 
-6. Repetați pașii 1-6 pentru a crea relații 1:N din **Titlul standard** la **Intrarea de timp**, **Valori reale**, **Detaliu linie factură** și **entități Linie de jurnal**.
+6. Repetați pașii 1-6 pentru a crea relații 1:N din **Titlul standard** la **Intrarea de timp** , **Valori reale** , **Detaliu linie factură** și **entități Linie de jurnal**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurați Valoarea de dimensiune la valoarea implicită utilizând caracteristicile mapărilor platformei
 Pentru Intrarea de timp, ar fi util să aveți setarea implicită de sistem Titlul standard la Intrarea de timp din Resursa ce se poate rezerva care este înregistrarea Intrării de timp. Utilizați pașii următori pentru a adăuga mapări de câmp la relația 1:N din **Resursa ce se poate rezerva** la **Intrarea de timp**.
 
 1. În Explorator soluții, în panoul de navigare din stânga, selectați **Entități > Titlu standard**.
 2. Extindeți entitatea **Titlu standard** și selectați **Relații 1: N**.
-3. Faceți dublu clic pe **Resursă ce se poate rezerva la Intrarea de timp**. Pe pagina **Relație**, selectați **Utilizați mapări de câmp**. 
+3. Faceți dublu clic pe **Resursă ce se poate rezerva la Intrarea de timp**. Pe pagina **Relație** , selectați **Utilizați mapări de câmp**. 
 4. Selectați **Nou** pentru a crea o mapare de câmp între câmpul **Titlu standard** de pe entitatea **Resursă ce se poate rezerva** la câmpul de referință **Titlu standard** la entitatea **Intrare de timp**. 
 
 Aceasta încheie modificările schemei necesare pentru dimensiunile particularizate bazate pe entitate.
@@ -116,7 +115,7 @@ Aceasta încheie modificările schemei necesare pentru dimensiunile particulariz
 După ce ați făcut toate modificările schemei necesare, următorul pas este de a face câmpurile vizibile în interfața cu utilizatorul adăugând câmpurile la formulare și vizualizări.
 
 1. Deschideți formularul sau vizualizarea. În panoul de navigare din dreapta, selectați câmpul și glisați-l pe pânza formularului. 
-2. Dacă editați o vizualizare, utilizați panoul de navigare din dreapta, selectați **Adăugați câmpuri**, iar în caseta de dialog **Listare câmp**, selectați câmpurile de care aveți nevoie și selectați **OK**.
+2. Dacă editați o vizualizare, utilizați panoul de navigare din dreapta, selectați **Adăugați câmpuri** , iar în caseta de dialog **Listare câmp** , selectați câmpurile de care aveți nevoie și selectați **OK**.
 
 Următorul tabel oferă o listă cuprinzătoare de formulare și vizualizări predefinite, de entitate, care vor trebui actualizate cu noile câmpuri. Dacă există vizualizări sau formulare suplimentare în particularizările acestor entități, adăugați noile câmpuri și la acelea.
 

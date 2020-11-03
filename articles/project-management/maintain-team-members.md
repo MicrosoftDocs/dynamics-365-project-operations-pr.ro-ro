@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961929"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082662"
 ---
 # <a name="maintain-team-members"></a>Menținerea membrilor echipei
 
@@ -22,13 +22,13 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 Puteți adăuga o resursă numită echipei dvs. de proiect, rezervând-o direct echipei.
 
 1. Ăn Dynamics 365 Project Operations, accesați **Proiecte** și selectați să deschideți proiectul pentru care faceți rezervarea.
-2. Pe pagina **Proiect**, în fila **Echipă**, selectați **Nou**. 
-3. În caseta de dialog **Creare rapidă membru echipă proiect**, selectați resursa care se poate rezerva. Câmpul **Rol** se va popula cu rolul implicit al resursei, dacă aceasta are unul atribuit. Aveţi posibilitatea de a schimba rolul. 
+2. Pe pagina **Proiect** , în fila **Echipă** , selectați **Nou**. 
+3. În caseta de dialog **Creare rapidă membru echipă proiect** , selectați resursa care se poate rezerva. Câmpul **Rol** se va popula cu rolul implicit al resursei, dacă aceasta are unul atribuit. Aveţi posibilitatea de a schimba rolul. 
 4. Selectați datele de la și până la care resursa va fi necesară și selectați metoda de alocare a capacității resursei. 
-5. În câmpul **Aprobator de proiect**, selectați **Da** dacă doriți ca membrul echipei să fie aprobator de proiect. Membrul echipei poate aproba intrările de timp și cheltuieli remise pentru acest proiect. 
+5. În câmpul **Aprobator de proiect** , selectați **Da** dacă doriți ca membrul echipei să fie aprobator de proiect. Membrul echipei poate aproba intrările de timp și cheltuieli remise pentru acest proiect. 
 6. Selectați **Salvare**.
 
-Acum aveți posibilitatea să atribuiți resursa rezervată activităților din proiect. Pe pagina **Proiect**, pe fila **Planificare** atribuiți activități la noua resursă. Selectorul de resurse care este lansat din câmpul **Resurse** din grila de activități va afișa membrii echipei pe care îi puteți selecta.
+Acum aveți posibilitatea să atribuiți resursa rezervată activităților din proiect. Pe pagina **Proiect** , pe fila **Planificare** atribuiți activități la noua resursă. Selectorul de resurse care este lansat din câmpul **Resurse** din grila de activități va afișa membrii echipei pe care îi puteți selecta.
 
 
 În Project Operations, rezervările de resurse și atribuțiile de sarcini nu sunt strâns legate. Atunci când utilizați selectorul de resurse din planificare, aveți posibilitatea să atribuiți activități membrilor echipei pentru mai multe ore decât acoperă rezervările lor pe proiect.

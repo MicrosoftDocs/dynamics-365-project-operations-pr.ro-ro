@@ -3,26 +3,198 @@ title: Confirmarea unei facturi proforma
 description: Acest subiect oferă informații despre confirmarea unei facturi proforma.
 author: rumant
 manager: AnnBe
-ms.date: 06/21/2020
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: be6b8efe7afb4d78cda6864baaa687a9c005117a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 560bb68cba865a6af60504114126ae6ea73dde2d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896071"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082641"
 ---
-# <a name="confirming-a-proforma-invoice"></a>Confirmarea unei facturi proforma
+# <a name="confirm-a-proforma-invoice"></a>Confirmarea unei facturi proforma
+
+_**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
+
+După confirmarea unei facturi proforma, starea facturii proiectului se actualizează la **Confirmat**. Când o factură este confirmată, aceasta devine doar în citire. În continuare, factura poate fi corectată numai dacă există corecții sau credite inițiate de clienți sau când este marcată ca plătită.
+
+Următorul tabel listează datele efective create de sistem. Aceste date reale sunt create atunci când anumite operațiuni sunt efectuate pe schița facturii proiectului înainte de a fi confirmată.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="416" valign="top">
+                <p>
+                    <strong>Scenariu</strong>
+                </p>
+            </td>
+            <td width="608" valign="top">
+                <p>
+                    <strong>Date reale create la confirmare</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturarea unei tranzacții de timp fără modificări pe schița de factură.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare a vânzărilor nefacturate pentru ore și sumă conform aprobării inițiale a timpului.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O valoare reală de vânzări facturate pentru ore și sumă conform aprobării inițiale a timpului.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturarea unei tranzacții în timp care a fost editată pentru a reduce cantitatea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare a vânzărilor nefacturate pentru ore și sumă conform aprobării inițiale a timpului.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care se taxează pentru orele și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care nu se taxează pentru orele rămase și suma după deducerea cifrelor corectate din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturarea unei tranzacții în timp care a fost editată pentru a mări cantitatea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare a vânzărilor nefacturate pentru ore și sumă conform aprobării inițiale a timpului.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care se taxează pentru orele și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturarea unei tranzacții pentru o cheltuială fără modificări pe schița de factură.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare a vânzărilor nefacturate pentru cantitatea și suma conform aprobării inițiale a cheltuielii.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O valoare reală de vânzări nefacturate care se taxează pentru cantitatea și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturarea unei tranzacții pentru o cheltuială care a fost editată pentru a reduce cantitatea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare a vânzărilor nefacturate pentru cantitatea și suma conform aprobării inițiale a cheltuielii.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care se taxează pentru orele și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care nu se taxează pentru cantitatea rămasă și suma după deducerea cifrelor corectate din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și un echivalent al vânzărilor facturate efective.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturarea unei tranzacții pentru o cheltuială care a fost editată pentru a mări cantitatea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare a vânzărilor nefacturate pentru cantitatea și suma conform aprobării inițiale a cheltuielii.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care se taxează pentru orele și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturarea unei taxe.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare a vânzărilor nefacturate pentru valoarea taxei pe linia de jurnal originală.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O valoare reală de vânzări facturate pentru cantitatea și suma din linia de jurnal de taxă inițială.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Facturarea unui jalon.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O vânzare facturată efectivă pentru suma de jalon de pe jalonul original de pe linia contractului de proiect.
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

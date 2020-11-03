@@ -3,17 +3,17 @@ title: Asigurarea accesului pentru un nou mediu
 description: Acest subiect furnizează informații despre ucm să provizionați un nou mediu Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949377"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082683"
 ---
 # <a name="provision-a-new-environment"></a>Asigurarea accesului pentru un nou mediu
 
@@ -26,20 +26,20 @@ Acest subiect oferă informații despre cum să provizioneze un nou mediu Dynami
 Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pentru Project Operations pentru proiectul dvs. LCS.
 
 1. Accesați [LCS](https://lcs.dynamics.com/v2) și selectați titlul **Previzualizarea gestionării caracteristicilor**.
-2. În lista **Caracteristică de previzualizare**, selectați **Project Operations** și apoi selectați **Caracteristica de previzualizare activată** pentru a activa Project Operations.
+2. În lista **Caracteristică de previzualizare** , selectați **Caracteristică Project Operations** și apoi selectați **Caracteristica de previzualizare activată** pentru a activa Project Operations.
 
 > [!NOTE]
 > Acest pas se efectuează o singură dată pentru fiecare proiect LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Furnizarea unui mediu de Project Operations
 
-1. Deschideți un nou Dynamics 365 Finance [mediul demonstrativ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) sau o implementare [sandbox/ mediu de producție](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Deschideți un nou Dynamics 365 Finance [mediul demonstrativ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) sau o implementare [sandbox/ mediu de producție](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Vom arăta expertul **Pregătirea mediului**. 
 
 > [!IMPORTANT]
 > Asigurați-vă că versiunea aplicației selectate este 10.0.13 sau mai mare.
 
-3. Pentru a pregări Project Operations, în secțiunea **Setări avansate**, selectați **Common Data Service**. 
+3. Pentru a pregări Project Operations, în secțiunea **Setări avansate** , selectați **Common Data Service**. 
 4. Activați **Common Data Service Setarea** prin selectarea **Da** și apoi introduceți informații în câmpurile obligatorii:
 
   - Nume
@@ -47,7 +47,7 @@ Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pen
   - Limbă
   - Monedă
  
-5. În câmpul **Common Data Service Șablon**, selectați **Project Operations** 
+5. În câmpul **Common Data Service Șablon** , selectați **Project Operations** 
 
 6. Selectați tipul de mediu pentru implementarea dvs. O versiune de probă bazată pe abonament vă va permite să implementați un mediu CDS timp de 30 de zile. 
 
@@ -76,11 +76,11 @@ Project Operations necesită un mediu financiar cu versiunea aplicației **10.0.
 
 Este posibil să trebuiască să aplicați actualizări de calitate mediului dvs. financiar pentru a primi această versiune.
 
-1. În LCS, pe pagina **Detalii despre mediu**, în secțiunea **Actualizări disponibile**, selectați **Vizualizare actualizare**.
+1. În LCS, pe pagina **Detalii despre mediu** , în secțiunea **Actualizări disponibile** , selectați **Vizualizare actualizare**.
 
 ![Vizualizare actualizări](./media/5ViewUpdates.png)
 
-2. Pe pagina **Actualizări binare**, selectați **Salvați pachetul.**
+2. Pe pagina **Actualizări binare** , selectați **Salvați pachetul.**
 
 ![Salvați pachetul](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ Salvarea și validarea pachetului ar putea dura aproximativ 15 minute.
 ## <a name="establish-a-dual-write-connection"></a>Stabiliți o conexiune Dual Write 
 
 1. În proiectul dvs. LCS, accesați pagina **Detalii despre mediu**.
-2. Sub **Common Data Service Informații despre mediu**, selectați **Link către CDS pentru aplicații**.
+2. Sub **Common Data Service Informații despre mediu** , selectați **Link către CDS pentru aplicații**.
 3. După ce linkul este complet, selectați din nou **Link către CDS pentru aplicații**. Veți fi redirecționat către Dual Write în Finanțe.
 
 ![Link la CDS](./media/12LinktoCDS.png)
@@ -120,7 +120,7 @@ Salvarea și validarea pachetului ar putea dura aproximativ 15 minute.
 
 ![Aplicați soluții](./media/13ApplySolutions.png)
 
-5. Selectați ambele soluții, **Dynamics 365 Finance and Operations Harta entității cu scriere dublă** și **Hărți de entitate cu operații de scriere duală din Dynamics 365 Project Operations**, apoi selectați **Aplicare**.
+5. Selectați ambele soluții, **Dynamics 365 Finance and Operations Harta entității cu scriere dublă** și **Hărți de entitate cu operații de scriere duală din Dynamics 365 Project Operations** , apoi selectați **Aplicare**.
 
 ![Confirmați soluțiile](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ După aplicarea entităților, toate mapările disponibile sunt listate în medi
 
 ![Parametrii de cadru](./media/17FrameworkParameters.png)
 
-3. Pe pagina **Setări entitate**, selectați **Reîmprospătați lista entităților**.
+3. Pe pagina **Setări entitate** , selectați **Reîmprospătați lista entităților**.
 
 ![Reîmprospătare listă entitate](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ Reîmprospătarea va dura aproximativ 20 de minute. Veți primi o alertă când 
 ## <a name="run-project-operations-dual-write-maps"></a>Rulare hărți Project Operations Dual Write
 
 1. În proiectul dvs. LCS, accesați pagina **Detalii despre mediu**.
-2. Sub **Common Data Service Informații despre mediu**, selectați **Link către CDS pentru aplicații.** După ce selectați linkul, veți fi redirecționat către lista entităților din mapări.
+2. Sub **Common Data Service Informații despre mediu** , selectați **Link către CDS pentru aplicații.** După ce selectați linkul, veți fi redirecționat către lista entităților din mapări.
 3. Porniți hărțile așa cum este descris în tabelul următor. Asigurați-vă că urmați secvența așa cum este listată.
 
 | **Mapare entități** | **Reîmprospătați entitatea** | **Sincronizare inițială** | **Coordonator pentru sincronizarea inițială** | **Rulați cerințe preliminare** | **Cerințe preliminare sincronizare inițială** |
@@ -165,18 +165,19 @@ Reîmprospătarea va dura aproximativ 20 de minute. Veți primi o alertă când 
 | **Entitate de integrare pentru relațiile de tranzacție ale proiectului (msdyn\_transactionconnections)** | Nicio | Nicio | N\A | Nicio | N\A |
 | **Integrare Project Operations etape linie de contract (msdyn\_contractlinesscheduleofvalues)** | Nicio | Nicio | N\A | Nicio | N\A |
 | **Entitate de integrare a Project Operations pentru estimări de cheltuieli (msdyn\_estimateslines)** | Nicio | Nicio | N\A | Nicio | N\A |
-| **Entitate de integrare a Project Operations pentru estimări orare (msdyn\_resourceassignments)** | Nicio | Nicio | N\A | Nicio | N\A |
+| **Entitate de integrare de export Project Operations pentru categorii de cheltuieli (msdyn\_expensecategories)** | Nicio | Nicio | N\A | Nicio | N\A |
 | **Entitate de integrare a Project Operations pentru cheltuieli de export (msdyn\_expenses)** | Da | Nicio | N\A | Nicio | N\A |
 | **Entitate de integrare a Project Operations pentru estimări orare (msdyn\_resourceassignments)** | Da | Nicio | N\A | Nicio | N\A |
 
+
 4. Pentru a reîmprospăta entitatea, selectați numele hărții, apoi selectați **Reîmprospătați entități**. 
-5. Continuați cu rularea hărții după finalizarea reîmprospătării.
+
 
 ![Reîmprospătați harta](./media/20RefreshMapping.png)
 
-Înainte de a activa următoarea hartă, verificați dacă harta din tabel se află în starea **Rulării**. Rularea hărților cu un număr mai mare de condiții prealabile ar putea dura ceva timp.
+5. După finalizarea reîmprospătării, rulați harta. Înainte de a activa următoarea hartă, verificați dacă harta din tabel se află în starea **Rulării**. Rularea hărților cu un număr mai mare de condiții prealabile ar putea dura ceva timp.
 
-Pentru a rula o hartă cu condiții prealabile, activați comutarea **Afișați hărți de entități corelate**. Dacă tabelul indică **Sincronizare inițială preliminară** este **Nu**, verificați dacă semnalizarea **Sincronizare inițială** este **Dezactivat** în toate hărțile premise înainte de a-l rula.
+Pentru a rula o hartă cu condiții prealabile, activați comutarea **Afișați hărți de entități corelate**. Dacă tabelul indică **Sincronizare inițială preliminară** este **Nu** , verificați dacă semnalizarea **Sincronizare inițială** este **Dezactivat** în toate hărțile premise înainte de a-l rula.
 
 ![Rulați Harta](./media/21RunMap.png)
 

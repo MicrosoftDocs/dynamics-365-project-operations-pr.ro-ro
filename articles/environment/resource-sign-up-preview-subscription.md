@@ -3,17 +3,17 @@ title: Înscrieți-vă pentru abonamente de previzualizare a Project Operations 
 description: Acest subiect oferă informații despre cum să aboneze și implementeze Project Operations pentru resurse/scenarii care nu sunt bazate pe stoc.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949032"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082682"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Înscrieți-vă pentru abonamente de previzualizare a Project Operations pentru resurse/scenarii ne-stocate
 
@@ -29,48 +29,53 @@ Acest subiect explică cum să vă abonați la oferta de previzualizare/partener
 
 ## <a name="subscribe"></a>Abonare
 
-Când [cerere de previzualizare](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) este aprobat, veți primi două oferte de la Microsoft prin e-mail. Aceste oferte vă permit să implementați previzualizarea Project Operations:
+Când [cerere de previzualizare](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) este aprobată, veți primi trei oferte de la Microsoft prin e-mail. Aceste oferte vă permit să implementați previzualizarea Project Operations:
 
-- Dynamics 365 Project Operations – versiune de încercare de previzualizare
-- Dynamics 365 for Finance and Operations Previzualizare versiune de încercare.
+- Dynamics 365 Project Operations (CRM) – previzualizare versiune de încercare
+- Office 365 Project Operations - Previzualizare versiune de încercare
+- Dynamics 365 Finance - previzualizare versiune de încercare
 
 > [!IMPORTANT]
 > O singură persoană, administratorul entității găzduite, dintr-o organizație trebuie să îndeplinească această sarcină. Dacă nu sunteți abonatul la această versiune, așteptați până când organizația dvs. a fost înregistrată și ați primit acreditările dvs. de utilizator.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Versiune de încercare de previzualizare
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – previzualizare versiune de încercare 
 
-1. Valorificați prima ofertă, **Versiune de încercare Dynamics 365 Project Operations**, cu adresa URL furnizată în e-mailul binevenit.
+Înainte de a începe, asigurați-vă că sunteți conectat la un browser cu contul de lucru al utilizatorului în chiriașul în care doriți previzualizarea Project Operations.
 
-![Prima ofertă](./media/1FirstOffer.png)
+1. Valorificați primul cod de ofertă, **Dynamics 365 Project Operations (CRM) - Previzualizare versiune de încercare** lipindu-l în URL-ul browserului.
 
-2. Verificați dacă sunteți conectat ca utilizator care aparține organizației care se va abona la serviciu.
-3. Continuați cu valorificarea ofertei. 
-4. Selectați **Da, adăugați-l la contul meu**.
+![Valorificați oferta](./media/16RedeemFirstOfferNew.png)
 
-![Valorificați oferta](./media/2RedeemFirstOffer.png)
+2. Confirmați comanda.
 
-![Confirmați oferta](./media/3ConfirmFirstOffer.png)
+![Confirmați comanda](./media/17ConfirmOrderNew.png)
 
-![Ofertă valorificată](./media/4OfferSuccessfulyRedeemed.png)
+Veți vedea că oferta de confirmare a fost valorificată cu succes.
+
+![Confirmare](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Previzualizare versiune de încercare
+
+Repetați aceiași pași ca la primul cod de ofertă. Asigurați-vă că adăugați al doilea cod de ofertă utilizând același cont de utilizator care a fost utilizat cu primul cod de ofertă.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance previzualizare versiune de încercare
 
-Repetați aceiași pași cu a doua ofertă din e-mailul de bun venit.
+Repetați aceiași pași cu ultima ofertă din e-mailul de bun venit.
 
 ## <a name="assign-licenses"></a>Atribuiți licențe
 
 > [!IMPORTANT]
-> Veți avea nevoie de acces administrativ la organizația dvs. Office 365 Portal pentru a finaliza pașii următori.
+> Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
 
-1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențe utilizatorilor dvs.
+1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 
-![Portal de administrare Office](./media/5OfficeAdminPortal.png)
+![Pagina principală a centrului de administrare](./media/14AdminPortal.png)
 
-2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
+2. Pe pagina **Utilizatori activi** , selectați utilizatorii cărora doriți să le atribuiți o licență.
 
-![Atribuiți licențe](./media/6AssignLicenses.png)
+![Atribuiți licențe](./media/15AssignLicenses.png)
 
-3. Verificați dacă a fost selectată licența Project Operations și selectați **Salvează modificările**. 
+3. Verificați dacă **Previzualizare Operațiuni de proiect Dynamics 365 (CRM)** și licența **Office 365 Operațiuni de proiect - Previzualizare** au fost selectate și selectați **Salvează modificările**.
 
 > [!NOTE]
 > Oferta de încercare finanțe nu trebuie să fie atribuită unui utilizator.
@@ -85,9 +90,9 @@ Pentru a finaliza această sarcină, urmați pașii din subiect, [Adăugați un 
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementați mediul demo de finanțare cu Project Operations pentru resurse/scenarii fără stoc
 
-Urmați îndrumările din subiect, [Furnizarea accesului la un mediu nou](resource-provision-new-environment.md) pentru a finaliza implementarea. Utilizați tipul de implementare [mediu demonstrativ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pentru previzualizare.
+Urmați îndrumările din subiect, [Furnizarea accesului la un mediu nou](resource-provision-new-environment.md) pentru a finaliza implementarea. Utilizați tipul de implementare [mediu demonstrativ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pentru previzualizare. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalați datele de instalare și configurare CDS
 
 Instalați datele de configurare și configurare CDS așa cum este descris în subiect, [Configurați și aplicați datele de configurare în Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Finalizați acest pas numai după ce mediul de demonstrație Finance este implementat și datele demo din FO sunt gata.

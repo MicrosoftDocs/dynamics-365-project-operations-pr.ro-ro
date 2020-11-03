@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949030"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082669"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configurați și aplicați datele de configurare în Common Data Service pentru Project Operations
 
@@ -27,7 +27,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 ![Migrarea configurării](./media/1ConfigurationMigration.png)
 
-4. Pe pagina 2 a Expertului CMT, selectați **Office 365** după **Tipul de implementare**.
+4. Pe pagina 2 a expertului CMT, selectați **Microsoft 365** ca **Tip de implementare**.
 5. Selectați **Afișați o listă a organizațiilor disponibile** și casetele de selectare **Afișați avansat**.
 6. Selectați regiunea entității dvs. găzduite, introduceți acreditările, apoi selectați **Conectare**.
 
@@ -79,11 +79,11 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 ![Resurse ce se pot rezerva](./media/8BookableResources.png)
 
-3. Pe fila **General**, selectați-vă utilizatorul de administrator. Verificați dacă fusul orar se potrivește cu cel în care vă aflați. 
+3. Pe fila **General** , selectați-vă utilizatorul de administrator. Verificați dacă fusul orar se potrivește cu cel în care vă aflați. 
 
 ![Resursă nouă care se poate rezerva](./media/9NewBookableResource.png)
 
-4. Pe fila **Planificare**, în câmpul **Companie**, alegeți compania **USPM**, apoi selectați **Salvare**. 
+4. Pe fila **Planificare** , în câmpul **Companie** , alegeți compania **USPM** , apoi selectați **Salvare**. 
 
 ![Filă de planificare](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
  
 12. Actualizați următoarele câmpuri:
 
- - **Companie implicită**: USPM
- - **Unitate organizațională implicită**: Contoso Robotics Global
- - **Frecvența facturii**: a șaptea și ultima zi
- - **Șablon de oră de lucru**: modificați șablonul pe care l-ați creat.
+ - **Companie implicită** : USPM
+ - **Unitate organizațională implicită** : Contoso Robotics Global
+ - **Frecvența facturii** : a șaptea și ultima zi
+ - **Șablon de oră de lucru** : modificați șablonul pe care l-ați creat.
 
 13. Selectați **Salvare**. 
 

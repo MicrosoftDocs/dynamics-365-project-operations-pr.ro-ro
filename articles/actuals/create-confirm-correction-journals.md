@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082793"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Creați și confirmați jurnalele de corecție
 
@@ -37,31 +36,31 @@ Pentru a finaliza procedurile din acest subiect, veți avea nevoie de permisiuni
 
 Urmați pașii următori pentru a corecta intrările de timp unice sau multiple pentru un proiect.
 
-1. În zona **Vânzări**, selectați **Tranzacții**, apoi selectați **Timp aprobat**. 
+1. În zona **Vânzări** , selectați **Tranzacții** , apoi selectați **Timp aprobat**. 
 
-2. În lista **Timp aprobat**, localizați și selectați una sau mai multe intrări de timp aprobate pentru a fi corectate. Puteți utiliza filtrul pentru a localiza intrările conexe. De exemplu, puteți filtra pentru un ID de proiect și puteți selecta toate intrările de timp aprobate cu acel ID de proiect.
+2. În lista **Timp aprobat** , localizați și selectați una sau mai multe intrări de timp aprobate pentru a fi corectate. Puteți utiliza filtrul pentru a localiza intrările conexe. De exemplu, puteți filtra pentru un ID de proiect și puteți selecta toate intrările de timp aprobate cu acel ID de proiect.
 
 3. Selectați **Corectați intrările**. Un nou jurnal de corecție este creat automat, cu tipul alocat **Corecție de timp**. Intrările selectate sunt adăugate în jurnal. 
 
-4. Din pagina **Jurnal nou**, introduceți o **Descriere** pentru jurnalul de corectare, apoi selectați fila **Corecții intrări de timp**.  
+4. Din pagina **Jurnal nou** , introduceți o **Descriere** pentru jurnalul de corectare, apoi selectați fila **Corecții intrări de timp**.  
 
-5. În secțiunea **Valori noi pentru intrările de timp**, actualizați câmpurile cu informațiile corecte, după caz. De exemplu, puteți modifica proiectul alocat sau resursa rezervabilă.
+5. În secțiunea **Valori noi pentru intrările de timp** , actualizați câmpurile cu informațiile corecte, după caz. De exemplu, puteți modifica proiectul alocat sau resursa rezervabilă.
 
-6. Selectați **Previzualizare**. În caseta de dialog, selectați **OK**. Pe fila **Linii de jurnal**, puteți vedea o listă cu datele reale originale care sunt legate de intrările de timp selectate care au fost inversate și liniile corespunzătoare corectate care au fost create. Dacă trebuie efectuate corecții suplimentare, repetați pașii 5 și 6. 
+6. Selectați **Previzualizare**. În caseta de dialog, selectați **OK**. Pe fila **Linii de jurnal** , puteți vedea o listă cu datele reale originale care sunt legate de intrările de timp selectate care au fost inversate și liniile corespunzătoare corectate care au fost create. Dacă trebuie efectuate corecții suplimentare, repetați pașii 5 și 6. 
 
 > [!NOTE]
 > Toate datele reale corectate vor avea aceleași valori pe care le-ați selectat în secțiunea **Valori noi pentru intrările de timp**.
 
 7. Când corecțiile apar așa cum este așteptat, selectați **Confirmare**. În caseta de dialog, selectați **OK**.
 
-8. Reveniți la zona **Vânzări**, selectați **Proiecte**, apoi deschideți proiectul pentru care tocmai ați actualizat intrările de timp. 
+8. Reveniți la zona **Vânzări** , selectați **Proiecte** , apoi deschideți proiectul pentru care tocmai ați actualizat intrările de timp. 
 
-9. Din pagina **Proiecte**, pe fila **Date reale**, vizualizați modificările pe care le-ați făcut. 
+9. Din pagina **Proiecte** , pe fila **Date reale** , vizualizați modificările pe care le-ați făcut. 
 
 > [!NOTE]
 > Dacă fila **Date reale** nu este vizibilă, selectați **Date reale** > **asociate**.  
 
-10. În lista **Vizualizare asociată valori reale**, puteți vedea că intrările de timp originale care au fost inversate sunt încă listate, la fel și intrările de timp corectate corespunzătoare. 
+10. În lista **Vizualizare asociată valori reale** , puteți vedea că intrările de timp originale care au fost inversate sunt încă listate, la fel și intrările de timp corectate corespunzătoare. 
 
 De exemplu, în graficul următor, există două elemente linie cu o cantitate de 8,00 care au debite listate în coloana Sumă. În plus, există două elemente linie cu o cantitate de -8,00 care arată sumele creditate în coloana Sumă. Aceste corecții aduc cantitatea la zero.
 
@@ -70,11 +69,11 @@ De exemplu, în graficul următor, există două elemente linie cu o cantitate d
 
 Urmați pașii următori pentru a corecta una sau mai multe intrări de cheltuieli. 
 
-1. În zona **Vânzări**, în panoul de navigare din stânga, sub **Tranzacții**, selectați **Cheltuieli aprobate**.
+1. În zona **Vânzări** , în panoul de navigare din stânga, sub **Tranzacții** , selectați **Cheltuieli aprobate**.
 
-2. În lista **Cheltuieli aprobate**, selectați proiectul pe care doriți să îl corectați, apoi selectați **Corectați intrările**. Un nou jurnal de corecție va fi creat automat, cu tipul alocat **Corecție de cheltuială**. 
+2. În lista **Cheltuieli aprobate** , selectați proiectul pe care doriți să îl corectați, apoi selectați **Corectați intrările**. Un nou jurnal de corecție va fi creat automat, cu tipul alocat **Corecție de cheltuială**. 
 
-3. Din pagina **Jurnal nou**, introduceți o **Descriere** pentru corecție și din fila **Corecție cheltuieli**, în secțiunea **Valori noi pentru cheltuieli**, selectați câmpurile de date pe care doriți să le corectați pentru liniile de cheltuieli selectate. De exemplu, puteți atribui cheltuielile altui **Proiect**, sau corecta **Categoria de cheltuieli**, **Data cheltuielilor**, sau **Resursă rezervabilă**.
+3. Din pagina **Jurnal nou** , introduceți o **Descriere** pentru corecție și din fila **Corecție cheltuieli** , în secțiunea **Valori noi pentru cheltuieli** , selectați câmpurile de date pe care doriți să le corectați pentru liniile de cheltuieli selectate. De exemplu, puteți atribui cheltuielile altui **Proiect** , sau corecta **Categoria de cheltuieli** , **Data cheltuielilor** , sau **Resursă rezervabilă**.
 
 4. Selectați **Previzualizare**. În caseta de dialog, selectați **OK**. 
 
@@ -87,6 +86,6 @@ Urmați pașii următori pentru a corecta una sau mai multe intrări de cheltuie
 
 7. După ce confirmați jurnalul de corecție, navigați înapoi la proiectul sau proiectele pe care le-ați actualizat, pentru a vizualiza modificările.  
 
-8. În pagina proiectului, pe fila **Date reale**, treceți în revistă **Vizualizare asociată valori reale**. Sunt enumerate intrările originale și intrările corectate. Următorul grafic arată sumele de intrare pentru cheltuieli originale și sumele corespunzătoare de intrare ale cheltuielilor corectate. 
+8. În pagina proiectului, pe fila **Date reale** , treceți în revistă **Vizualizare asociată valori reale**. Sunt enumerate intrările originale și intrările corectate. Următorul grafic arată sumele de intrare pentru cheltuieli originale și sumele corespunzătoare de intrare ale cheltuielilor corectate. 
 
 

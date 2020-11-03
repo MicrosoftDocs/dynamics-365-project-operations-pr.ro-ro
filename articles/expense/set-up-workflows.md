@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc5945f32bb8d4073fc31499979ba279fef66a4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082823"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Configurați fluxuri de lucru pentru gestionarea cheltuielilor
 
@@ -31,9 +30,9 @@ Puteți configura un proces de flux de lucru pentru a revizui și aproba documen
 
 Un flux de lucru reprezintă un proces de afaceri și definește modul în care un document circulă prin sistem. Fluxul de lucru indică, de asemenea, cine trebuie să finalizeze o sarcină sau să aprobe un document. Există mai multe avantaje ale utilizării sistemului de flux de lucru în organizația dvs.:
 
-- **Procese consistente**: Puteți defini procesul de aprobare pentru documente specifice, cum ar fi cereri de achiziții și rapoarte de cheltuieli. Utilizarea sistemului de flux de lucru vă asigură că documentele sunt procesate și aprobate într-un mod consecvent și eficient.
-- **Vizibilitatea procesului**: Puteți urmări statutul, istoricul și valorile de performanță ale unei instanțe specifice de flux de lucru. Acest lucru vă ajută să determinați dacă ar trebui făcute modificări ale fluxului de lucru pentru a îmbunătăți eficiența.
-- **Lista de lucru centralizată**: utilizatorii pot vizualiza o listă de lucru centralizată pentru a vizualiza sarcinile fluxului de lucru și aprobările atribuite acestora. 
+- **Procese consistente** : Puteți defini procesul de aprobare pentru documente specifice, cum ar fi cereri de achiziții și rapoarte de cheltuieli. Utilizarea sistemului de flux de lucru vă asigură că documentele sunt procesate și aprobate într-un mod consecvent și eficient.
+- **Vizibilitatea procesului** : Puteți urmări statutul, istoricul și valorile de performanță ale unei instanțe specifice de flux de lucru. Acest lucru vă ajută să determinați dacă ar trebui făcute modificări ale fluxului de lucru pentru a îmbunătăți eficiența.
+- **Lista de lucru centralizată** : utilizatorii pot vizualiza o listă de lucru centralizată pentru a vizualiza sarcinile fluxului de lucru și aprobările atribuite acestora. 
 
 ## <a name="workflow-types"></a>Tipuri de flux de lucru
 

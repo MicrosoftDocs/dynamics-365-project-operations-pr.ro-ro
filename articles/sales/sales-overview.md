@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a proceselor de vânzări
-description: Acest subiect oferă informații despre procesele de vânzări de bază.
+description: Acest subiect oferă informații despre procese de vânzări de bază.
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3892040"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082995"
 ---
 # <a name="sales-processes-overview"></a>Prezentare generală a proceselor de vânzări
 
@@ -57,12 +56,12 @@ De exemplu, compania dvs. poate avea următoarele șase etape în procesul de v�
  
 Organizația dvs. poate utiliza entități diferite pentru a reprezenta aceeași tranzacție, pe măsură ce aceasta evoluează. La începutul procesului de vânzări, o tranzacție este reprezentată de entitatea Oportunitate. Pe măsură ce trece timpul și apar mai multe detalii, este posibil să utilizați estimări de nivel înalt pentru a crea una sau mai multe oferte. Dacă una dintre aceste oferte este revizuită de către participanții direct interesați interni și ai clienților, entitatea Ofertă reprezintă tranzacția. După ce clientul acceptă oferta, un contract de proiect sau o SL reprezintă tranzacția. Pentru a sprijini acest comportament, FB-urile sunt structurate astfel încât fiecare etapă din proces este legată la un tabel de baze de date diferit.
 
-Etapa **Calificare** din procesul de vânzări poate fi susținută de o entitate Oportunitate. Etapele **Estimare** și **Recenzie internă** pot fi susținute de o entitate Ofertă. Etapele **Contract**, **Livrare** și **Închidere** pot fi susținute de o entitate Contract de proiect.
+Etapa **Calificare** din procesul de vânzări poate fi susținută de o entitate Oportunitate. Etapele **Estimare** și **Recenzie internă** pot fi susținute de o entitate Ofertă. Etapele **Contract** , **Livrare** și **Închidere** pot fi susținute de o entitate Contract de proiect.
 
 Pe măsură ce faceți tranzacțiile să avanseze prin etape, vi se solicită să creați înregistrarea de entitate corespunzătoare pentru a vă ajuta și ghida prin proces. Etapele pot fi condiționate. De exemplu, dacă aveți nevoie de o revizuire internă a unei oferte numai dacă oferta utilizează o listă de prețuri particularizată, aveți posibilitatea să configurați această condiție în stadiul corespunzător al procesului de afaceri. Etapa **Recenzie internă** este apoi afișată numai pentru ofertele care utilizează o listă de prețuri personalizată. Pentru toate celelalte tranzacții și oferte, etapa **Estimare** este urmată de etapa **Contract**.
 
 > [!NOTE]
-> Project Operations conțin pagini specifice pentru înregistrările entității Oportunitate, Ofertă, Comandă și Factură. Trebuie să creați aceste înregistrări folosind paginile cu informații despre proiect pentru aceste entități. În caz contrar, nu veți putea deschide înregistrările din pagina **Informații despre proiect**. Dacă doriți să deschideți o înregistrare din pagina **Informații despre proiect**, trebuie să ștergeți înregistrarea și să o recreați folosind pagina **Informații despre proiect** în care logica de afaceri pentru fiecare dintre aceste tipuri de entități asigură faptul că câmpul **Tip** al înregistrării este setat corect și toate conceptele obligatorii sunt inițializate corespunzător.
+> Project Operations conțin pagini specifice pentru înregistrările entității Oportunitate, Ofertă, Comandă și Factură. Trebuie să creați aceste înregistrări folosind paginile cu informații despre proiect pentru aceste entități. În caz contrar, nu veți putea deschide înregistrările din pagina **Informații despre proiect**. Dacă doriți să deschideți o înregistrare din pagina **Informații despre proiect** , trebuie să ștergeți înregistrarea și să o recreați folosind pagina **Informații despre proiect** în care logica de afaceri pentru fiecare dintre aceste tipuri de entități asigură faptul că câmpul **Tip** al înregistrării este setat corect și toate conceptele obligatorii sunt inițializate corespunzător.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Urmăriți revizuirile la oferte și planuri de proiect în ciclul de vânzări

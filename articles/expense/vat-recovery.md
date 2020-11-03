@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082664"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recuperarea TVA în gestionarea cheltuielilor
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Pentru a primi rambursări pentru tranzacțiile eligibile cu taxa pe valoarea adăugată (TVA), o companie sau organizație trebuie să identifice, să colecteze, să verifice și să transmită informații exacte. Acest proces include sarcini multiple și, în funcție de mărimea companiei dvs., poate include mai mulți angajați sau roluri.
 
-Pentru a recupera TVA în modulul **Gestionarea cheltuielilor**, trebuie îndeplinite următoarele condiții prealabile:
+Pentru a recupera TVA în modulul **Gestionarea cheltuielilor** , trebuie îndeplinite următoarele condiții prealabile:
 
 - Trebuie create coduri fiscale pentru țările/regiunile care sunt alocate categoriilor de cheltuieli.
 - Trebuie creat un grup de taxe pe vânzări pentru fiecare cod fiscal.

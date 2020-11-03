@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082720"
 ---
 # <a name="project-quote-key-concepts"></a>Concepte cheie pentru oferte de proiect
 
@@ -78,7 +78,7 @@ Se fac tranzacții cu mai mulți clienți atunci când există mai mulți clien�
 
 ## <a name="invoice-schedules"></a>Planificări factură
 
-Planificările facturilor sunt specifice fiecărei linii de ofertă și sunt, de asemenea, opționale. Planificările facturilor sunt create în funcție de anumite date de început și de terminare și de frecvența facturilor. Planificările facturilor sunt utilizate în etapa contractului atunci când procesul de creare automată a facturilor este configurat. În etapa ofertei, planificările sunt opționale. Când sunt create planuri de facturare în etapa **Ofertă**, acestea sunt copiate în contractul de proiect care este creat atunci când se câștigă o ofertă de proiect.
+Planificările facturilor sunt specifice fiecărei linii de ofertă și sunt, de asemenea, opționale. Planificările facturilor sunt create în funcție de anumite date de început și de terminare și de frecvența facturilor. Planificările facturilor sunt utilizate în etapa contractului atunci când procesul de creare automată a facturilor este configurat. În etapa ofertei, planificările sunt opționale. Când sunt create planuri de facturare în etapa **Ofertă** , acestea sunt copiate în contractul de proiect care este creat atunci când se câștigă o ofertă de proiect.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Modificările din oferta Dynamics 365 Sales:
 

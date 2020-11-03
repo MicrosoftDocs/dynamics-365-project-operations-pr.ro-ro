@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082834"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Crearea de entități și câmpuri particularizate ca dimensiuni de preț
 
@@ -37,7 +36,7 @@ Parcurgeți pașii următori în orice moment în care doriți să creați un se
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Crearea unei soluții particularizate pentru dimensiunile de tarifare
 1. Accesați **Setări** > **Soluții** și apoi selectați **Nou** pentru a crea o soluție nouă. 
-2. Denumiți soluția, **\<your organization name> dimensiunile de preț**, introduceți informațiile necesare rămase și apoi selectați **Salvați**.
+2. Denumiți soluția, **\<your organization name> dimensiunile de preț** , introduceți informațiile necesare rămase și apoi selectați **Salvați**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Creați câmpuri particularizate și seturi de opțiuni în soluția de dimensiune de tarifare
 
@@ -45,7 +44,7 @@ O dimensiune de tarifare poate fi un set de opțiuni sau o entitate. Ambele treb
 
 ### <a name="entity-based-dimensions"></a>Dimensiuni bazate pe entități
 
-1. Accesați **Setări** > **Soluții**, apoi faceți dublu clic pe **\<your organization name> dimensiunile prețurilor**.
+1. Accesați **Setări** > **Soluții** , apoi faceți dublu clic pe **\<your organization name> dimensiunile prețurilor**.
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Entități**.
 3. Selectați **Nou** pentru a crea o nouă entitate denumită **Titlu standard**. 
 4. Introduceți restul de informații solicitate și apoi selectați **Salvare**.
@@ -55,7 +54,7 @@ O dimensiune de tarifare poate fi un set de opțiuni sau o entitate. Ambele treb
 Aveți posibilitatea să creați două dimensiuni bazate pe seturi de opțiuni. Utilizați **Locația de lucru resursă** pentru a urmări prețul lucrărilor cu locația **Acasă** și **Local** și utilizați **Ore de lucru resursă** cu valorile **Obișnuite** și **Ore suplimentare** pentru a aplica un marcaj la terminarea lucrărilor.
 
 
-1. Accesați **Setări** > **Soluții**, apoi faceți dublu clic pe  **\<your organization name> dimensiunile prețurilor**. 
+1. Accesați **Setări** > **Soluții** , apoi faceți dublu clic pe  **\<your organization name> dimensiunile prețurilor**. 
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Seturi de opțiuni**. 
 3. Selectați **Nou** pentru a crea un set de opțiuni nou, introduceți restul de informații solicitate, apoi selectați **Salvare**.
 
@@ -63,8 +62,8 @@ Aveți posibilitatea să creați două dimensiuni bazate pe seturi de opțiuni. 
 
 Aveți posibilitatea să creați manual date pentru dimensiunile bazate pe entități sau utilizând apelurile de import sau de service Microsoft Excel. Utilizați pașii din această procedură pentru a crea două titluri standard, **Inginer sisteme** și **Inginer sisteme senior** din dimensiunea bazată pe entitate **Titlu standard**. Dacă datele pe care doriți să le creați sunt mici, ca în exemplul următor, aveți posibilitatea să utilizați un formular standard.
 
-1. Selectați **Găsire avansată**, selectați entitatea **Titlu standard**, apoi selectați **Rezultate**. Toate rândurile din entitatea **Titlu standard** vor fi afișate.
-2. Selectați **Nou** și pe câmpul **Nume**, introduceți „Inginer de sistem” și apoi selectați **Salvare**.
+1. Selectați **Găsire avansată** , selectați entitatea **Titlu standard** , apoi selectați **Rezultate**. Toate rândurile din entitatea **Titlu standard** vor fi afișate.
+2. Selectați **Nou** și pe câmpul **Nume** , introduceți „Inginer de sistem” și apoi selectați **Salvare**.
 3. Închideți formularul. 
 4. Repetați pașii 1-3 pentru a crea un alt titlu standard pentru „Inginer sisteme senior”.
 
@@ -73,7 +72,7 @@ Va trebui să adăugați următoarele entități la soluția dvs. de tarifare. U
 
 1. Selectați **Setări** > **Soluții** și faceți clic dublu pe **\<your organization name> dimensiuni de preț**. 
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Adăugare existentă** > **Entități**.
-3. În caseta de dialog **Componente soluție**, selectați următoarele entități:
+3. În caseta de dialog **Componente soluție** , selectați următoarele entități:
 
   - Real
   - Resursă ce se poate rezerva

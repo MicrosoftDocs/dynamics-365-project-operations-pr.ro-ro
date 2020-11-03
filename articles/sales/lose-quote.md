@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082673"
 ---
 # <a name="copy-project-based-quotes"></a>Copierea ofertelor bazate pe proiect
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Puteți crea cu ușurință o nouă ofertă de proiect copiind una existentă. 
 
-- Pentru a copia o ofertă de proiect, pe pagina listei **Oferte de proiect** sau pagina de detalii **Oferta proiectului**, selectați oferta proiectului pe care doriți să o copiați, apoi selectați **Copiați**.
+- Pentru a copia o ofertă de proiect, pe pagina listei **Oferte de proiect** sau pagina de detalii **Oferta proiectului** , selectați oferta proiectului pe care doriți să o copiați, apoi selectați **Copiați**.
 
 Aceasta va deschide o pagină de dialog în care puteți introduce parametrii copiei. Următorul tabel listează câmpurile care sunt incluse în pagina de dialog. În funcție de valorile selectate, procesul de copiere se poate modifica.
 

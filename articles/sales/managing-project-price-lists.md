@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898681"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083022"
 ---
 # <a name="project-price-lists"></a>Liste de prețuri pentru proiecte
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations extind entitatea listă de prețuri din Dynamics
 
 O listă de prețuri include informații furnizate de patru entități diferite:
 
-- **Listă de prețuri**: această entitate stochează informații despre context, monedă, efectivitatea datelor și unitatea de timp pentru timpul de tarifare. Contextul arată dacă lista de prețuri exprimă ratele de cost sau ratele de vânzări. 
-- **Monedă**: această entitate stochează moneda prețurilor de pe lista de prețuri. 
-- **Dată**: această entitate este utilizată atunci când sistemul încearcă să introducă un preț implicit pe o tranzacție. Este selectată o listă de prețuri care are o efectivitate a datelor care include data tranzacției. Dacă este găsită mai mult de o listă de prețuri care este eficientă pentru data tranzacției și este atașată la oferta corelată, contract sau unitate organizațională, atunci niciun preț nu este implicit. 
-- **Timp**: această entitate stochează unitatea de timp pentru care sunt exprimate prețurile, cum ar fi tarifele zilnice sau orare. 
+- **Listă de prețuri** : această entitate stochează informații despre context, monedă, efectivitatea datelor și unitatea de timp pentru timpul de tarifare. Contextul arată dacă lista de prețuri exprimă ratele de cost sau ratele de vânzări. 
+- **Monedă** : această entitate stochează moneda prețurilor de pe lista de prețuri. 
+- **Dată** : această entitate este utilizată atunci când sistemul încearcă să introducă un preț implicit pe o tranzacție. Este selectată o listă de prețuri care are o efectivitate a datelor care include data tranzacției. Dacă este găsită mai mult de o listă de prețuri care este eficientă pentru data tranzacției și este atașată la oferta corelată, contract sau unitate organizațională, atunci niciun preț nu este implicit. 
+- **Timp** : această entitate stochează unitatea de timp pentru care sunt exprimate prețurile, cum ar fi tarifele zilnice sau orare. 
 
 Entitatea Listă de prețuri are trei tabele corelate care stochează prețurile:
 
-  - **Preț pentru rol**: acest tabel stochează o rată pentru o combinație de valori ale rolului și ale unităților organizaționale și este utilizat pentru a configura prețuri bazate pe roluri pentru resursele umane.
-  - **Preț pentru categoria de tranzacție**: acest tabel stochează prețurile după categoria de tranzacții și este utilizat pentru a configura prețurile categoriilor de cheltuieli.
-  - **Elemente de listă de prețuri**: acest tabel stochează prețurile pentru produsele din catalog.
+  - **Preț pentru rol** : acest tabel stochează o rată pentru o combinație de valori ale rolului și ale unităților organizaționale și este utilizat pentru a configura prețuri bazate pe roluri pentru resursele umane.
+  - **Preț pentru categoria de tranzacție** : acest tabel stochează prețurile după categoria de tranzacții și este utilizat pentru a configura prețurile categoriilor de cheltuieli.
+  - **Elemente de listă de prețuri** : acest tabel stochează prețurile pentru produsele din catalog.
  
 Lista de prețuri este o grilă tarifară. O grilă tarifară este o combinație a entității Listă de prețuri și a rândurilor corelate din tabelele Preț de rol, Preț categorie tranzacție și Elemente de listă de prețuri.
 
@@ -54,15 +53,15 @@ Termenul *rol de resursă* se referă la un set de aptitudini, competențe și c
 
 Timpul de resurse umane este ofertat pe baza rolului pe care o resursă îl îndeplinește pe un anumit proiect. Pentru timpul de resurse umane, costurile și facturarea se bazează pe rolul de resursă. Timpul poate fi tarifat în orice unitate din grupul de unități **Timp**.
 
-Grupul de unități **Timp** este creat atunci când instalați Project Operations. Acesta are o unitate implicită de **Oră.** Nu aveți posibilitatea să ștergeți, să redenumiți sau să editați atributele pentru grupul de unități **Timp** sau pentru unitatea **Oră**. Cu toate acestea, puteți adăuga alte unități la grupul de unități **Timp**. Dacă încercați să ștergeți fie grupul de unități **Timp**, fie unitatea **Oră**, s-ar putea să provocați erori în logica de afaceri.
+Grupul de unități **Timp** este creat atunci când instalați Project Operations. Acesta are o unitate implicită de **Oră.** Nu aveți posibilitatea să ștergeți, să redenumiți sau să editați atributele pentru grupul de unități **Timp** sau pentru unitatea **Oră**. Cu toate acestea, puteți adăuga alte unități la grupul de unități **Timp**. Dacă încercați să ștergeți fie grupul de unități **Timp** , fie unitatea **Oră** , s-ar putea să provocați erori în logica de afaceri.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categoriile de tranzacții și categoriile de cheltuieli
 
 Cheltuielile de deplasare și alte cheltuieli pe care consultanții de proiect le suportă sunt facturate clientului. Tarifarea categoriilor de cheltuieli este completată utilizând listele de prețuri. Biletele de avion, cazarea la hotel și închirierile auto sunt exemple de categorii de cheltuieli. Fiecare linie de listă de prețuri pentru cheltuieli specifică tarifarea pentru o anumită categorie de cheltuieli. Următoarele trei metode sunt utilizate pentru prețul categoriilor de cheltuieli:
 
-- **La cost**: costul cheltuielilor este facturat clientului și nu se aplică niciun adaos.
-- **Procent adaos**: procentul din costul real este facturat clientului. 
-- **Preț unitar**: un preț de facturare este setat pentru fiecare unitate din categoria de cheltuieli. Suma facturată clientului se calculează pe baza numărului de unități de cheltuieli pe care le raportează consultantul. Kilometraj utilizează metoda de tarifare preț pe unitate. De exemplu, categoria de cheltuieli kilometraj poate fi configurată pentru 30 de dolari SUA (USD) pe zi sau 2 USD pe kilometru. Atunci când un consultant raportează kilometrajul pe un proiect, suma de facturat se calculează în funcție de numărul de kilometri raportat de consultant.
+- **La cost** : costul cheltuielilor este facturat clientului și nu se aplică niciun adaos.
+- **Procent adaos** : procentul din costul real este facturat clientului. 
+- **Preț unitar** : un preț de facturare este setat pentru fiecare unitate din categoria de cheltuieli. Suma facturată clientului se calculează pe baza numărului de unități de cheltuieli pe care le raportează consultantul. Kilometraj utilizează metoda de tarifare preț pe unitate. De exemplu, categoria de cheltuieli kilometraj poate fi configurată pentru 30 de dolari SUA (USD) pe zi sau 2 USD pe kilometru. Atunci când un consultant raportează kilometrajul pe un proiect, suma de facturat se calculează în funcție de numărul de kilometri raportat de consultant.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Tarifarea vânzărilor de proiect și suprascrieri
 

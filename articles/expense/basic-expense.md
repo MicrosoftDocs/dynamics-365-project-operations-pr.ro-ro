@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082680"
 ---
 # <a name="expense-entry-lite"></a>Intrare cheltuieli (simplificată)
 
@@ -28,7 +28,7 @@ Pentru mai multe informații despre capacitățile de cheltuieli din Dynamics 36
 Vă puteți captura cheltuielile, astfel încât să le puteți trimite aprobatorului.
 
 1. Accesați **Cheltuieli** și selectați **Nou**.
-2. Pe pagina **Cheltuieli noi**, introduceți informațiile necesare despre cheltuieli, apoi selectați **Salvați**.
+2. Pe pagina **Cheltuieli noi** , introduceți informațiile necesare despre cheltuieli, apoi selectați **Salvați**.
 
 ## <a name="submit-a-basic-expense"></a>Remite o cheltuială de bază
 
@@ -41,7 +41,7 @@ După ce ați terminat de capturat toate cheltuielile și sunteți gata să le a
 
 Când trimiteți o cheltuială din greșeală, o puteți retrage. Timpul necesar pentru recuperarea unei înregistrări de cheltuieli depinde de etapa de aprobare a acesteia.  Dacă aprobatorul nu a aprobat încă înregistrarea, retragerea poate avea loc imediat. Cu toate acestea, dacă înregistrarea a fost deja aprobată, aprobatorului i se cere să aprobe retragerea și să inverseze tranzacțiile.
 
-1. Accesați **Cheltuieli**, apoi, în lista de cheltuieli, selectați cheltuiala de retras.
+1. Accesați **Cheltuieli** , apoi, în lista de cheltuieli, selectați cheltuiala de retras.
 2. Selectați **Retragere**. Dacă înregistrarea cheltuielilor nu a fost încă aprobată, sistemul o retrage imediat. Dacă înregistrarea cheltuielilor a fost deja aprobată, se creează o cerere de retragere pentru a notifica aprobatorului că doriți să inversați cheltuielile. Aprobatorul va confirma apoi că se poate face inversarea, iar intrarea va fi returnată.
 
 ## <a name="delete-a-basic-expense"></a>Șterge o cheltuială de bază
