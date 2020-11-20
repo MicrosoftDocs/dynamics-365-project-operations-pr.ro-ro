@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082741"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130323"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Îndeplinirea cerințelor de resurse generice
 
@@ -21,9 +21,9 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Aveți posibilitatea să rezervați o resursă denumită pentru a înlocui resursa generică care are o cerință de resurse.
 
-1. Pe pagina **Proiecte** , selectați fila **Echipă**.
+1. Pe pagina **Proiecte**, selectați fila **Echipă**.
 2. Selectați resursa generică care are o cerință de resurse din listă și apoi selectați **Rezervare**. Sau, deschideți cerința de resurse și apoi selectați **Rezervare**.
-3. În pagina **Asistent de planificare** , selectați o resursă denumită pentru a rezerva în echipa de proiect și apoi selectați **Rezervare**.
+3. În pagina **Asistent de planificare**, selectați o resursă denumită pentru a rezerva în echipa de proiect și apoi selectați **Rezervare**.
 
 Când rezervarea este finalizată și îndeplinită de o resursă denumită, resursa generică este înlocuită cu resursa denumită.
 

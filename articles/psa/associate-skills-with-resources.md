@@ -3,7 +3,7 @@ title: Asociați abilități cu resurse
 description: Cum să asociați abilitățile cu resurse specifice în Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9b025f9856b60e97facf15b6f2edcc8a1e59874b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e322f331b37132fa0478d190c10f3bf67c22fda3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082914"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130471"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>Asociați abilitățile cu resursele (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4082914"
   
 2.  Faceți dublu clic pe resursa la care doriți să adăugați abilități.  
   
-3.  În zona **Competențe** , faceți clic pe **+** pentru a adăuga o competență.  
+3.  În zona **Competențe**, faceți clic pe **+** pentru a adăuga o competență.  
   
 4.  In ecranul care apare, completați câmpurile după cum este necesar, apoi faceți clic pe butonul **Salvare** în colțul din dreapta jos al ecranului.  
   

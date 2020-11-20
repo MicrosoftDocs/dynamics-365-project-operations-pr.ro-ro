@@ -3,7 +3,7 @@ title: Unități și grupuri de unități
 description: Acest subiect oferă informații despre unități și grupuri de unități.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082812"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130593"
 ---
 # <a name="unit-groups-and-units"></a>Unități și grupuri de unități
 
@@ -33,16 +33,16 @@ Grupurile de unități și unitățile sunt entități de bază în Microsoft Dy
 
 Iată câteva exemple de unități și grupuri de unități:
  
-- **Grup de unități** : Distanță 
-    - **Unități** : Milă, Kilometru și așa mai departe.
-- **Grup de unități** : Timp
-    - **Unități** : oră, zi, săptămână și așa mai departe. 
+- **Grup de unități**: Distanță 
+    - **Unități**: Milă, Kilometru și așa mai departe.
+- **Grup de unități**: Timp
+    - **Unități**: oră, zi, săptămână și așa mai departe. 
 
 Când configurați mai multe unități într-un grup de unități, trebuie să configurați și un factor de conversie între ele, desemnând prima unitate pe care ați configurat-o ca unitatea implicită sau principală pentru grupul de unități. 
 
-De exemplu, într-un grup de unități **Timp** , dacă configurați **Oră** ca prima unitate, sistemul desemnează **Oră** drept unitatea implicită. Dacă unitatea următoare pe care ați configurat-o este **Zi** , trebuie să configurați un factor de conversie pentru **Zi** la **Oră**. Dacă apoi adăugați **Săptămână** ca o a treia unitate, trebuie să configurați un factor de conversie pentru **Săptămână** în termeni de **Zi** sau de **Oră**. 
+De exemplu, într-un grup de unități **Timp**, dacă configurați **Oră** ca prima unitate, sistemul desemnează **Oră** drept unitatea implicită. Dacă unitatea următoare pe care ați configurat-o este **Zi**, trebuie să configurați un factor de conversie pentru **Zi** la **Oră**. Dacă apoi adăugați **Săptămână** ca o a treia unitate, trebuie să configurați un factor de conversie pentru **Săptămână** în termeni de **Zi** sau de **Oră**. 
 
-Următoarea imagine afișează un exemplu de configurare pentru unitatea **Zi** , unde câmpul **Cantitate** afișează numărul de ore dintr-o zi, și pentru **Săptămână** , unde câmpul **Cantitate** afișează numărul de zile care sunt într-o săptămână.
+Următoarea imagine afișează un exemplu de configurare pentru unitatea **Zi**, unde câmpul **Cantitate** afișează numărul de ore dintr-o zi, și pentru **Săptămână**, unde câmpul **Cantitate** afișează numărul de zile care sunt într-o săptămână.
 
 > ![Grup de unități: Pagina de informații](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation utilizează unități și grupuri de uni
 
 Pentru cheltuieli, fiecare categorie de cheltuieli are un grup de unități și o unitate implicite. Aceste valori sunt introduse ca valori implicite în intrările listei de prețuri pentru categoriile de cheltuieli. 
 
-De exemplu, aveți o categorie de cheltuieli care este numită **Kilometraj**. Ea are un grup de unități care este numit **Distanță** și o unitate implicită, care este numită **Kilometru**. Dacă ați configurat grupul de unități **Distanță** astfel încât acesta are două unități ( **Kilometru** și **Milă** ), puteți seta două prețuri pentru categoria **Kilometraj** pe o listă de prețuri: prețul pe kilometru și prețul pe milă.
+De exemplu, aveți o categorie de cheltuieli care este numită **Kilometraj**. Ea are un grup de unități care este numit **Distanță** și o unitate implicită, care este numită **Kilometru**. Dacă ați configurat grupul de unități **Distanță** astfel încât acesta are două unități (**Kilometru** și **Milă**), puteți seta două prețuri pentru categoria **Kilometraj** pe o listă de prețuri: prețul pe kilometru și prețul pe milă.
 
 | Categorie de cheltuieli  | Grup de unități  | Unitate      | Metodă de stabilire a prețului  | Preț unitar  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Liniile de estimare pentru câmpul **Timp în ofertă** pot fi exprimate în ori
 Următorul exemplu arată modul în care PSA utilizează grupul de unități, unitățile și factorii de conversie.
 - Unităţi
 
-   - **Grup de unități** : Timp 
-   - **Unități** : Oră 
+   - **Grup de unități**: Timp 
+   - **Unități**: Oră 
     
     - **Zi** – factor de conversie: 8 ore       
     - **Săptămână** – factor de conversie: 40 de ore  
         
 - Configurare listă de prețuri pe proiectul A:
 
-    - **Nume** : prețurile de vânzare în Regatul Unit pe 2016 
-    - **Unitate de timp implicită** : Zi 
-    - **Monedă** : GBP
+    - **Nume**: prețurile de vânzare în Regatul Unit pe 2016 
+    - **Unitate de timp implicită**: Zi 
+    - **Monedă**: GBP
 
 | Rol      | Grup de unități | Unitate | Unitate organizațională | Preț   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Nu. Conversia unităților funcționează doar pentru timp. Pentru cheltuieli, �
 Nu. Estimarea planificării este momentan limitată la ore și nu poate fi schimbată.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Pot fi editate, șterse și adăugate unitățile și grupurile de unități?
-Da. Cu excepția grupului de unități **Timp** și a unității **Oră** , toate unitățile pot fi șterse sau editate, iar unitățile noi pot fi adăugate. În PSA, grupul de unități **Timp** și unitatea **Oră** nu pot fi șterse. Cu toate acestea, ele pot fi actualizate cu un text tradus pentru câmpul **Nume**.
+Da. Cu excepția grupului de unități **Timp** și a unității **Oră**, toate unitățile pot fi șterse sau editate, iar unitățile noi pot fi adăugate. În PSA, grupul de unități **Timp** și unitatea **Oră** nu pot fi șterse. Cu toate acestea, ele pot fi actualizate cu un text tradus pentru câmpul **Nume**.

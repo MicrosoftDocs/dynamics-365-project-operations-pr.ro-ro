@@ -3,7 +3,7 @@ title: Creați o oportunitate de produs
 description: Cum să creați o oportunitate de proiect în Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082988"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133248"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Crearea unei oportunități de proiect (Project Service)
 
@@ -35,17 +35,17 @@ Oportunitățile sunt clienți potențiali imediați de la clienții care sunt i
   
 2.  Faceți clic pe **Nou**.  
   
-3.  În zona **Rezumat** , introduceți firma oportunității și alte informații.  
+3.  În zona **Rezumat**, introduceți firma oportunității și alte informații.  
   
 4.  Adăugați orice note și activități (de exemplu, apeluri telefonice sau mesaje de e-mail) referitoare la acest client potențial. Pentru a afla mai multe despre adăugarea notelor și activităților, consultați [Urmăriți note, sarcini, apeluri sau mesaje de e-mail cu activități](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Pentru a adăuga participanți direct interesați, în zona **Participanți direct interesați** , faceți clic pe **+**.  
+5.  Pentru a adăuga participanți direct interesați, în zona **Participanți direct interesați**, faceți clic pe **+**.  
   
-6.  Pentru a adăuga membri ai echipei de vânzări, în zona **Echipă de vânzări** , faceți clic pe **+**.  
+6.  Pentru a adăuga membri ai echipei de vânzări, în zona **Echipă de vânzări**, faceți clic pe **+**.  
   
-7.  Pentru a adăuga concurenți, în zona **Concurenți** , faceți clic pe **+**.  
+7.  Pentru a adăuga concurenți, în zona **Concurenți**, faceți clic pe **+**.  
   
-8.  Pentru a adăuga un produs la oportunitate, faceți clic pe **Nou** sub **Linii pe bază de produs** în zona **Linii de oportunitate**. Selectați un element sub **Nume produs** , apoi precizați cantitatea, prețul de vânzare și bugetul clientului.  
+8.  Pentru a adăuga un produs la oportunitate, faceți clic pe **Nou** sub **Linii pe bază de produs** în zona **Linii de oportunitate**. Selectați un element sub **Nume produs**, apoi precizați cantitatea, prețul de vânzare și bugetul clientului.  
   
 9. Pentru a adăuga o estimare de proiect la oportunitate, faceți clic pe **+** sub **Linii pe bază de proiect** în zona **Linii de oportunitate**. Introduceți numele, suma de buget și proiectul, dacă sunt disponibile. Dacă trebuie să creați un proiect cu o structură detaliată a proiectului pentru a oferi o estimare, consultați [Creați un proiect](../psa/create-project.md).  
   

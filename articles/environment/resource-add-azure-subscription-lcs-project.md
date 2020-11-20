@@ -1,21 +1,21 @@
 ---
-title: Adăugarea unui abonament Azure la proiectul LCS
+title: Adăugarea unui abonament Azure unui proiectul LCS
 description: Acest subiect oferă informații despre cum să vă conectați abonamentul Azure la un proiect LCS.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082667"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175816"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Adăugarea unui abonament Azure la proiectul LCS
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adăugarea unui abonament Azure unui proiectul LCS
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
@@ -23,11 +23,11 @@ Mediile găzduite în cloud trebuie să fie implementate utilizând un abonament
 
 ## <a name="grant-admin-consent"></a>Acordă consimțământul administratorului
 
-1. În proiectul dvs. LCS, în secțiunea **Medii** , selectați **Microsoft Azure setări**.
+1. În proiectul dvs. LCS, în secțiunea **Medii**, selectați **Microsoft Azure setări**.
 
 ![Setările Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Pe pagina **Setările proiectului** , pe fila **Conectori Azure** , selectați **Autorizare**. Acest lucru permite implementarea mediilor în acest proiect.
+2. Pe pagina **Setările proiectului**, pe fila **Conectori Azure**, selectați **Autorizare**. Acest lucru permite implementarea mediilor în acest proiect.
 
 ![Conectori Azure](./media/2AzureConnectors.png)
 
@@ -50,16 +50,16 @@ Autorizația este acum completă.
 ![Detalii abonament Azure](./media/6AzureSubscription.png)
 
 2. Selectați **Control acces (IAM)** în panoul de navigare, apoi selectați **Adăugați atribuirea de roluri**.
-3. În glisorul din partea dreaptă, selectați **Rol de colaborator** , și în lista furnizată, găsiți și selectați **Dynamics Deployment Services**. 
+3. În glisorul din partea dreaptă, selectați **Rol de colaborator**, și în lista furnizată, găsiți și selectați **Dynamics Deployment Services**. 
 4. Selectați **Salvare**.
 
 ![Acces abonamente](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Adăugați un conector de abonament la un proiect LCS
 
-1. În proiectul dvs. LCS, pe pagina **Microsoft Azure setări** , selectați **Adăugare** pentru a adăuga un nou conector.
+1. În proiectul dvs. LCS, pe pagina **Microsoft Azure setări**, selectați **Adăugare** pentru a adăuga un nou conector.
 2. Introduceți codul de abonament Azure. Puteți găsi ID-ul dvs. de abonament Azure în [Portal Azure](https://ms.portal.azure.com/), sub  **Setări**  în colțul din stânga jos al ecranului.
-3. În câmpul **Configurați pentru a utiliza Azure Resource Manager** , selectați **Da**.
+3. În câmpul **Configurați pentru a utiliza Azure Resource Manager**, selectați **Da**.
 4. Asigurați-vă că Abonamentul Azure AAD Domeniu entitate găzduită se potrivește cu abonamentul Azure deținut de domeniu pe care îl utilizați și selectați **Următorul**.
 5. Pe ecranul **Microsoft Azure Instalare** ecran, selectați **Următorul** pentru a confirma. Dacă primiți o eroare pe acest ecran, reveniți la secțiunea [Oferiți acces la serviciile de implementare dinamică la abonamentul Azure](#provide) în acest subiect și asigurați-vă că ați parcurs toți pașii.
 6. Descărcați certificatul de gestionare Azure într-un folder local de pe computer, apoi încărcați-l în Azure Management Portal accesând **Setări** > **Certificate de management**. Acest certificat va permite LCS să comunice cu Azure în numele dvs. Puteți sări peste acest pas dacă utilizatorul dvs. are acces la abonament.

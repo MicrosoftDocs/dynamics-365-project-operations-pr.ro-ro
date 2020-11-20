@@ -3,7 +3,7 @@ title: Planificare indisponibilitate
 description: Cum să planificați timpul liber în Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083021"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132213"
 ---
 # <a name="schedule-time-off-project-service"></a>Planificați timpul liber (Project Service)
 
@@ -41,7 +41,7 @@ Planificați perioada de vacanță sau concediul la fel de bine cum procedați a
   
 4.  Completați câmpurile din formularul **Intrare de timp**.  
   
-5.  În **Tip** , selectați **Vacanță** sau **Absență**.  
+5.  În **Tip**, selectați **Vacanță** sau **Absență**.  
   
 6.  Faceți clic pe **Salvare**.  
   

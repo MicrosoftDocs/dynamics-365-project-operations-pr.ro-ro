@@ -3,7 +3,7 @@ title: Gestionare resurse
 description: Acest subiect oferă informații despre cum puteți gestiona resursele.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082997"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132348"
 ---
 # <a name="manage-resources"></a>Gestionare resurse
 
@@ -44,11 +44,11 @@ Managerii de proiect pot utiliza tabloul de bord al managerului de resurse pentr
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Adăugarea unui membru al echipei direct la un proiect
 
-Pentru a adăuga un membru al echipei direct la un proiect, pe pagina **Proiecte** , pe fila **Echipă** , selectați **Nou**. Apare caseta de dialog **Creare rapidă:membru al echipei de proiect**. În această casetă de dialog, aveți posibilitatea să efectuați aceste activități:
+Pentru a adăuga un membru al echipei direct la un proiect, pe pagina **Proiecte**, pe fila **Echipă**, selectați **Nou**. Apare caseta de dialog **Creare rapidă:membru al echipei de proiect**. În această casetă de dialog, aveți posibilitatea să efectuați aceste activități:
 
-- **Rezervați o resursă denumită** - în câmpul **Resursă care se poate rezerva** , selectați numele resursei. Apoi selectați rolul, setați perioada și selectați o metodă de alocare. Resursa denumită pe care ați selectat-o este adăugată la proiect utilizând metoda de alocare selectată și calendarul de resurse.
-- **Adăugați o resursă generică** - lăsați câmpul **Resurse care se pot rezerva** necompletat, apoi selectați rolul, setați perioada și selectați metoda de alocare preferată. O resursă generică este adăugată la echipă ca un substituent pentru a ține modelul cererii care este utilizat pentru a rezerva resursele numite pe echipă. Cerința se face în funcție de calendarul proiectului.
-- **Adăugați la echipă o resursă denumită fără a consuma capacitatea de resurse** - în câmpul **Resursă care se poate rezerva** , selectați o resursă. Apoi selectați perioada și selectați **Niciuna** ca metodă de alocare. Resursa este adăugată la echipă, dar capacitatea resursei nu este consumată printr-o rezervare.
+- **Rezervați o resursă denumită** - în câmpul **Resursă care se poate rezerva**, selectați numele resursei. Apoi selectați rolul, setați perioada și selectați o metodă de alocare. Resursa denumită pe care ați selectat-o este adăugată la proiect utilizând metoda de alocare selectată și calendarul de resurse.
+- **Adăugați o resursă generică**- lăsați câmpul **Resurse care se pot rezerva** necompletat, apoi selectați rolul, setați perioada și selectați metoda de alocare preferată. O resursă generică este adăugată la echipă ca un substituent pentru a ține modelul cererii care este utilizat pentru a rezerva resursele numite pe echipă. Cerința se face în funcție de calendarul proiectului.
+- **Adăugați la echipă o resursă denumită fără a consuma capacitatea de resurse**- în câmpul **Resursă care se poate rezerva**, selectați o resursă. Apoi selectați perioada și selectați **Niciuna** ca metodă de alocare. Resursa este adăugată la echipă, dar capacitatea resursei nu este consumată printr-o rezervare.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Rezervați un membru al echipei pentru a îndeplini cerințele de resurse pentru o resursă generică
 
@@ -56,23 +56,23 @@ Pentru a adăuga un membru al echipei direct la un proiect, pe pagina **Proiecte
 
 Urmați acești pași pentru a specifica abilitățile necesare pe o resursă generică pentru un dezvoltator.
 
-1. Pe pagina **Proiecte** , pe fila **Echipă** , selectați **Nou** pentru a rezerva o resursă generică.
+1. Pe pagina **Proiecte**, pe fila **Echipă**, selectați **Nou** pentru a rezerva o resursă generică.
 
     ![Resursă generică rezervată echipei](media/Resource-Management-image9.png)
 
-2. În vizualizarea **Toți membrii echipei** , în coloana **Cerință de resursă** , selectați linkul pentru a adăuga abilitățile necesare pentru resursa generică.
+2. În vizualizarea **Toți membrii echipei**, în coloana **Cerință de resursă**, selectați linkul pentru a adăuga abilitățile necesare pentru resursa generică.
 
     ![Link cerință](media/Resource-Management-image10.png)
 
-3. Pe pagina **Cerință de resurse** care apare, în grila **Abilități** , selectați punctele de suspensie ( **...** ) și apoi selectați **Adăugați noua caracteristică cerință** pentru a adăuga abilitățile necesare pentru dezvoltator.
+3. Pe pagina **Cerință de resurse** care apare, în grila **Abilități**, selectați punctele de suspensie (**...**) și apoi selectați **Adăugați noua caracteristică cerință** pentru a adăuga abilitățile necesare pentru dezvoltator.
 
     ![Adăugați comandă nouă Caracteristică cerință](media/Resource-Management-image11.png)
 
-4. În caseta de dialog **Creare rapidă: caracteristică cerință** care apare, în câmpul **Caracteristică** , selectați abilitatea necesară. Apoi, în câmpul **Valoare de evaluare** , selectați nivelul de competență pentru acea abilitate. În cele din urmă în câmpul **Cerință de resursă** , setați cerința de resurse pentru a obține resurse din unități organizaționale sau chiar resurse numite. Când ați terminat, selectați **Salvare**.
+4. În caseta de dialog **Creare rapidă: caracteristică cerință** care apare, în câmpul **Caracteristică**, selectați abilitatea necesară. Apoi, în câmpul **Valoare de evaluare**, selectați nivelul de competență pentru acea abilitate. În cele din urmă în câmpul **Cerință de resursă**, setați cerința de resurse pentru a obține resurse din unități organizaționale sau chiar resurse numite. Când ați terminat, selectați **Salvare**.
 
     ![Creare rapidă: caseta de dialog Caracteristică cerință](media/Resource-Management-image12.png)
 
-5. Pe pagina **Cerință resursă** , selectați **Rezervare** pentru a îndeplini cerința de resurse.
+5. Pe pagina **Cerință resursă**, selectați **Rezervare** pentru a îndeplini cerința de resurse.
 
     ![Buton de rezervare pe pagina Cerință de resursă](media/Resource-Management-image13.png)
 
@@ -83,7 +83,7 @@ Urmați acești pași pentru a specifica abilitățile necesare pe o resursă ge
     > [!NOTE]
     > În acest exemplu, există 40 ore necesare, dar nu ore rezervate reale, deoarece resursele generice nu au rezervări. În plus, nu există ore atribuite, deoarece resursa generică a fost adăugată direct la echipă. Nu s-a adăugat utilizând atribuirea sarcinilor.
 
-    În pagina **Asistent de planificare** , aveți posibilitatea să filtrați resursele disponibile după cerințele specificate în cerința de resursă. Resursele sunt sortate în funcție de parametrii de sortare specificați în Tabloul de planificare.
+    În pagina **Asistent de planificare**, aveți posibilitatea să filtrați resursele disponibile după cerințele specificate în cerința de resursă. Resursele sunt sortate în funcție de parametrii de sortare specificați în Tabloul de planificare.
 
     ![Pagina Asistent de planificare](media/Resource-Management-image15.png)
 
@@ -120,11 +120,11 @@ Urmați acești pași pentru a specifica abilitățile necesare pe o resursă ge
 
 În PSA, aveți posibilitatea să creați activități și apoi să le atribuiți resurse generice. În acest fel, cererea de resurse poate fi reprezentată de substituenți în timp ce estimați planificarea și numerele financiare. Puteți genera apoi cerințe de resurse pentru resursele generice și să le îndepliniți.
 
-1. Pe pagina de **Proiecte** , în fila **Planificare** , selectați **Adăugare** pentru a crea o activitate.
+1. Pe pagina de **Proiecte**, în fila **Planificare**, selectați **Adăugare** pentru a crea o activitate.
 
     ![Activitate nouă creată](media/Resource-Management-image21.png)
 
-2. În câmpul **Resurse** , selectați simbolul **Selectorul de resurse**. Selectorul de resurse apare și afișează membrii echipei existente pentru proiect.
+2. În câmpul **Resurse**, selectați simbolul **Selectorul de resurse**. Selectorul de resurse apare și afișează membrii echipei existente pentru proiect.
 
     ![Selector resurse](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ Urmați acești pași pentru a specifica abilitățile necesare pe o resursă ge
 
     ![Numele unei noi resurse generice introduse](media/Resource-Management-image23.png)
 
-4. În caseta de dialog **Creare rapidă: membrul echipei de proiect** care apare, în câmpul **Rol** , selectați rolul pentru resursa generică. În câmpul **Unitate resursă** , selectați unitatea organizațională pentru resursa generică. Apoi selectați **Salvare**.
+4. În caseta de dialog **Creare rapidă: membrul echipei de proiect** care apare, în câmpul **Rol**, selectați rolul pentru resursa generică. În câmpul **Unitate resursă**, selectați unitatea organizațională pentru resursa generică. Apoi selectați **Salvare**.
 
     ![Creare rapidă: caseta de dialog Membrul echipei de proiect](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ Urmați acești pași pentru a specifica abilitățile necesare pe o resursă ge
 
     ![Membrul generic al echipei atribuit activității](media/Resource-Management-image25.png)
 
-    În fila **Echipă** , veți vedea noul membru generic al echipei. Observați că are doar ore atribuite. Aceste ore sunt suma tuturor activităților care sunt atribuite membrului generic de echipă. Membrul generic al echipei nu are încă orele necesare sau o cerință de resurse.
+    În fila **Echipă**, veți vedea noul membru generic al echipei. Observați că are doar ore atribuite. Aceste ore sunt suma tuturor activităților care sunt atribuite membrului generic de echipă. Membrul generic al echipei nu are încă orele necesare sau o cerință de resurse.
 
     ![Membru generic de echipă în fila Echipă](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ Urmați acești pași pentru a specifica abilitățile necesare pe o resursă ge
 
     După ce ați terminat asocierea resursei generice la activități, aveți posibilitatea să generați o cerință de resursă pentru resursa generică.
 
-5. În fila **Echipă** , selectați resursa generică, apoi selectați **Generare cerință**.
+5. În fila **Echipă**, selectați resursa generică, apoi selectați **Generare cerință**.
 
     ![Comanda Generați cerința](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ Urmați acești pași pentru a specifica abilitățile necesare pe o resursă ge
 
     ![Resursă generică înlocuită de resursa denumită](media/Resource-Management-image30.png)
 
-    În fila **Planificare** , atribuirile de resurse generice sunt eliminate și înlocuite de resursa denumită.
+    În fila **Planificare**, atribuirile de resurse generice sunt eliminate și înlocuite de resursa denumită.
 
     ![Atribuiri ale resursei generice înlocuite de resursa denumită pe fila Planificare](media/Resource-Management-image31.png)
 
@@ -181,7 +181,7 @@ Urmați acești pași pentru a specifica abilitățile necesare pe o resursă ge
 
     ![A doua resursă](media/Resource-Management-image35.png)
 
-    În fila **Echipă** , puteți vedea acum că resursa generică nu are ore necesare, dar orele atribuite apar în continuare împreună cu cele două resurse numite care alcătuiesc procesarea.
+    În fila **Echipă**, puteți vedea acum că resursa generică nu are ore necesare, dar orele atribuite apar în continuare împreună cu cele două resurse numite care alcătuiesc procesarea.
 
     ![Două resurse denumite în fila Echipă](media/Resource-Management-image36.png)
 
@@ -197,7 +197,7 @@ Prin urmare, în aceste scenarii, managerul de proiect este responsabil pentru a
 
 După ce s-a creat o cerință de resursă, un manager de proiect sau un manager de resurse poate dori să editeze detaliile pentru a rafina criteriile de căutare atunci când se utilizează tabloul de planificare. Pentru a edita cerința de resurse, urmați acești pași.
 
-1. Pe pagina **Proiecte** , pe fila **Echipă** , selectați linkul spre orice cerință pe o resursă generică.
+1. Pe pagina **Proiecte**, pe fila **Echipă**, selectați linkul spre orice cerință pe o resursă generică.
 2. Pe pagina **Cerință de resurse** care apare, aveți posibilitatea să actualizați mai multe atribute. Iată câteva exemple:
 
     - Nume
@@ -206,7 +206,7 @@ După ce s-a creat o cerință de resursă, un manager de proiect sau un manager
     - Durată
     - Tip de resursă
 
-Pe pagina **Cerință de resurse** , managerul de proiect sau managerul de resurse poate defini, de asemenea, următoarele informații:
+Pe pagina **Cerință de resurse**, managerul de proiect sau managerul de resurse poate defini, de asemenea, următoarele informații:
 
 - Competențe
 - Roluri
@@ -217,7 +217,7 @@ Pe pagina **Cerință de resurse** , managerul de proiect sau managerul de resur
 
 După ce ați adăugat o resursă generică sau denumită într-o echipă de proiect, aveți posibilitatea să modificați rezervările resursei.
 
-1. Pe pagina **Proiecte** , pe fila **Echipă** , selectați un membru al echipei și apoi selectați **Mențineți rezervări**.
+1. Pe pagina **Proiecte**, pe fila **Echipă**, selectați un membru al echipei și apoi selectați **Mențineți rezervări**.
 
     ![Consiliul de planificare deschis pentru membrul de echipă selectat](media/Resource-Management-image40.png)
 
@@ -286,7 +286,7 @@ Selectați **Acceptați toate propunerile** pentru a accepta toate resursele pro
 
 Uneori, un manager de proiect trebuie să înlocuiască un membru al echipei rezervat într-un proiect.
 
-1. Pe pagina **Proiecte** , pe fila **Echipă** , selectați resursa care are nevoie de o înlocuire și apoi selectați **Mențineți rezervări**.
+1. Pe pagina **Proiecte**, pe fila **Echipă**, selectați resursa care are nevoie de o înlocuire și apoi selectați **Mențineți rezervări**.
 2. Extindeți resursa pentru a vizualiza proiectele la care este atribuită.
 
     ![Resursă extinsă pentru a afișa proiectele atribuite](media/Resource-Management-image50.png)
@@ -337,7 +337,7 @@ Când vizualizați timpul la nivele mai înalte, celulele din fila **Reconcilier
 
 ![Indicator diferență](media/Resource-Management-image57.png)
 
-DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări pe pagina **Proiecte** , pe fila **Reconciliere** , selectați deficitul de rezervare și apoi selectați **Extindeți rezervarea**. Apare caseta de dialog **Extindere rezervare** și afișează rezervarea necesară pentru a aborda deficitul resursei. De asemenea, arată rezervările existente ale resursei în toate proiectele sau alte entități care pot fi planificate. Dacă selectați **OK** pentru a crea rezervarea pentru resursă, indiferent de disponibilitatea acelei resurse, este posibil să cauzați o suprarezervare.
+DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări pe pagina **Proiecte**, pe fila **Reconciliere**, selectați deficitul de rezervare și apoi selectați **Extindeți rezervarea**. Apare caseta de dialog **Extindere rezervare** și afișează rezervarea necesară pentru a aborda deficitul resursei. De asemenea, arată rezervările existente ale resursei în toate proiectele sau alte entități care pot fi planificate. Dacă selectați **OK** pentru a crea rezervarea pentru resursă, indiferent de disponibilitatea acelei resurse, este posibil să cauzați o suprarezervare.
 
 ![Caseta de dialog extindere rezervare](media/Resource-Management-image58.png)
 

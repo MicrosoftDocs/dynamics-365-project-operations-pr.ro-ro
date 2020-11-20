@@ -1,26 +1,26 @@
 ---
-title: Linii de contract bazate pe produs de cost
+title: Linii de contract bazate pe produs de cost - simplificat
 description: Acest subiect oferă informații despre creare
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4083027"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177256"
 ---
-# <a name="costing-product-based-contract-lines"></a>Linii de contract bazate pe produs de cost
+# <a name="cost-product-based-contract-lines---lite"></a>Linii de contract bazate pe produs de cost - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 
-Linii de contract bazate pe produs din Dynamics 365 Project Operations includ câmpul **Preț de cost** , care stochează prețul de cost al produsului pentru calculele de profitabilitate din aval.
+Linii de contract bazate pe produs din Dynamics 365 Project Operations includ câmpul **Preț de cost**, care stochează prețul de cost al produsului pentru calculele de profitabilitate din aval.
 
 Atunci când se creează o linie de contract bazată pe produs pentru un produs din catalog, costul liniei de contract bazată pe produs este implicit de la câmpul **Cost standard** din catalogul de produse. Câmpul **Cost standard** din catalogul de produse este configurat în moneda de bază a Organizației. Când costul unitar este implicit pe linia contractului, acesta este convertit în moneda de vânzare din contract.
 

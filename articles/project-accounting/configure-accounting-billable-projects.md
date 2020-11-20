@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082710"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131988"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurați contabilitatea pentru proiectele facturabile
 
@@ -21,8 +21,8 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Dynamics 365 Project Operations acceptă diverse opțiuni de contabilitate pentru proiectele facturabile care includ tranzacții de timp și materiale și cu preț fix.
 
-- **Timp și tranzacții materiale** : Aceste tranzacții sunt facturate pe măsură ce lucrările progresează pe baza consumului de ore, cheltuieli, articole sau taxe din proiect. Aceste costuri de tranzacție pot fi corelate cu veniturile din fiecare tranzacție, iar proiectul este facturat pe măsură ce lucrările progresează. Veniturile proiectului se pot acumula și în momentul în care are loc tranzacția. În timpul facturării, veniturile sunt recunoscute și, dacă este cazul, veniturile acumulate sunt inversate.
-- **Tranzacții cu preț fix** : aceste tranzacții sunt facturate conform unui program de facturare care se bazează pe contractul de proiect. Veniturile pentru tranzacțiile cu preț fix pot fi recunoscute la facturare sau calculate și înregistrate periodic, conform metodelor **Contract finalizat** sau **Procent finalizat**.
+- **Timp și tranzacții materiale**: Aceste tranzacții sunt facturate pe măsură ce lucrările progresează pe baza consumului de ore, cheltuieli, articole sau taxe din proiect. Aceste costuri de tranzacție pot fi corelate cu veniturile din fiecare tranzacție, iar proiectul este facturat pe măsură ce lucrările progresează. Veniturile proiectului se pot acumula și în momentul în care are loc tranzacția. În timpul facturării, veniturile sunt recunoscute și, dacă este cazul, veniturile acumulate sunt inversate.
+- **Tranzacții cu preț fix**: aceste tranzacții sunt facturate conform unui program de facturare care se bazează pe contractul de proiect. Veniturile pentru tranzacțiile cu preț fix pot fi recunoscute la facturare sau calculate și înregistrate periodic, conform metodelor **Contract finalizat** sau **Procent finalizat**.
 
 Un proiect este considerat facturabil atunci când este asociat cu una sau mai multe linii de contract. O linie de contract de proiect definește singură ce metodă de facturare și tipuri de tranzacții sunt permise.
 
@@ -42,29 +42,29 @@ Parcurgeți pașii următori pentru a crea un nou profil de cost și venit al pr
 
 1. Accesați **Management de proiect și contabilitate** > **Configurare** > **Publicare** > **Profilurile de cost și venituri ale proiectului**. 
 2. Selectați **Nou** pentru a crea un nou profil al costurilor și veniturilor proiectului.
-3. În câmpul **Nume** , introduceți numele și o scurtă descriere a profilului.
-4. În câmpul **Metoda de facturare** , selectați **Timp și material** sau **Preț fix**.
+3. În câmpul **Nume**, introduceți numele și o scurtă descriere a profilului.
+4. În câmpul **Metoda de facturare**, selectați **Timp și material** sau **Preț fix**.
 5. Extindeți **Registrul** FastTab. Câmpurile din această filă definesc principiile contabile care sunt utilizate atunci când tranzacțiile de proiect sunt jurnalizate utilizând jurnalul de integrare a Project Operations și apoi facturate prin propunerea de facturare a proiectului.
 6. Selectați informația potrivită în următoarele câmpuri ale **Registrului** FastTab:
 
-    - **Costuri post - oră** :
+    - **Costuri post - oră**:
 
-       - *Fără registru* : Costul tranzacțiilor de timp nu va fi înregistrat în registrul contabil atunci când este înregistrat jurnalul de integrare a Project Operations. Cu toate acestea, contabilul poate publica costuri utilizând funcția Publicare costuri ulterior.
-       - **Sold** : Costul tranzacțiilor de timp va fi debitat în tipul de cont Registru, *WIP - Valoarea costului* și creditat la *Cont de alocare a salarizării* în configurarea de publicare Registru. Contabilul va utiliza funcția Înregistrare costuri pentru a muta periodic acest cost dintr-un cont de sold într-un cont de profit și pierderi.
-       - **Profit și pierdere** : La publicare jurnalului de integrare a operațiunilor de proiect, costul tranzacției în timp va fi debitat în tipul de cont Registru *Cost* , și creditat la *Cont de alocare a salarizării* definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** ( **Management de proiect și contabilitate** \> **Configurare** \> **Publicare** \> **Configurare înregistrare contabilitate** ). Aceasta este cea mai frecventă configurare pentru tranzacții de timp și materiale.
-        - *Niciodată Registru* : Costul tranzacțiilor temporale nu va fi niciodată înregistrat în registrul contabil.
+       - *Fără registru*: Costul tranzacțiilor de timp nu va fi înregistrat în registrul contabil atunci când este înregistrat jurnalul de integrare a Project Operations. Cu toate acestea, contabilul poate publica costuri utilizând funcția Publicare costuri ulterior.
+       - **Sold**: Costul tranzacțiilor de timp va fi debitat în tipul de cont Registru, *WIP - Valoarea costului* și creditat la *Cont de alocare a salarizării* în configurarea de publicare Registru. Contabilul va utiliza funcția Înregistrare costuri pentru a muta periodic acest cost dintr-un cont de sold într-un cont de profit și pierderi.
+       - **Profit și pierdere**: La publicare jurnalului de integrare a operațiunilor de proiect, costul tranzacției în timp va fi debitat în tipul de cont Registru *Cost*, și creditat la *Cont de alocare a salarizării* definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** (**Management de proiect și contabilitate** \> **Configurare** \> **Publicare** \> **Configurare înregistrare contabilitate**). Aceasta este cea mai frecventă configurare pentru tranzacții de timp și materiale.
+        - *Niciodată Registru*: Costul tranzacțiilor temporale nu va fi niciodată înregistrat în registrul contabil.
 
-    - **Publicare costuri - cheltuieli** :
+    - **Publicare costuri - cheltuieli**:
 
-         - **Sold** : La postarea jurnalului de integrare a operațiunilor de proiect, costul tranzacției de cheltuieli va fi debitat în tipul de cont Registru *WIP - Valoarea costului* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și creditat în contul offset de pe linia jurnalului. Conturile compensate implicite pentru cheltuieli sunt definite în **Management de proiect și contabilitate** > **Configurat** \> **Publicare** \> **Cont de compensare implicit pentru cheltuieli**. Contabilul va utiliza funcția **Publicare costuri** pentru a muta periodic acest cost dintr-un cont de sold într-un cont de profit și pierderi.
-        - **Profit și pierdere** : La publicarea jurnalului de integrare a operațiunilor de proiect, costul tranzacției de cheltuieli va fi debitat în tipul de cont Registru *WIP - Valoarea costului* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și creditat în contul offset de pe linia jurnalului. Conturile compensate implicite pentru cheltuieli sunt definite în **Management de proiect și contabilitate** \> **Configurare** \> **Publicare** \> **Cont de decalaj implicit pentru cheltuieli**.
+         - **Sold**: La postarea jurnalului de integrare a operațiunilor de proiect, costul tranzacției de cheltuieli va fi debitat în tipul de cont Registru *WIP - Valoarea costului* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și creditat în contul offset de pe linia jurnalului. Conturile compensate implicite pentru cheltuieli sunt definite în **Management de proiect și contabilitate** > **Configurat** \> **Publicare** \> **Cont de compensare implicit pentru cheltuieli**. Contabilul va utiliza funcția **Publicare costuri** pentru a muta periodic acest cost dintr-un cont de sold într-un cont de profit și pierderi.
+        - **Profit și pierdere**: La publicarea jurnalului de integrare a operațiunilor de proiect, costul tranzacției de cheltuieli va fi debitat în tipul de cont Registru *WIP - Valoarea costului* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și creditat în contul offset de pe linia jurnalului. Conturile compensate implicite pentru cheltuieli sunt definite în **Management de proiect și contabilitate** \> **Configurare** \> **Publicare** \> **Cont de decalaj implicit pentru cheltuieli**.
        
-    - **Despre facturarea contului** :
+    - **Despre facturarea contului**:
 
-        - **Sold** : La publicarea propunerii de facturare a proiectului, o tranzacție pe cont (etapă de facturare) va fi creditată în tipul de cont Registru *WIP facturat - pe cont* așa cum este definit pe fila **Venituri** de pe pagina **Configurare înregistrare contabilitate** și debitat în contul de sold al clienților.
-         - **Profit și pierdere** : La publicarea propunerii de facturare a proiectului, o tranzacție pe cont (etapă de facturare) va fi creditată în tipul de cont Registru *Venit facturat - pe cont* așa cum este definit pe fila **Venituri** de pe pagina **Configurare înregistrare contabilitate** și debitat în contul de sold al clienților. Conturile de sold ale clienților sunt definite în **Conturi clienți** \> **Configurare** \> **Profiluri de publicare ale clienților**.
+        - **Sold**: La publicarea propunerii de facturare a proiectului, o tranzacție pe cont (etapă de facturare) va fi creditată în tipul de cont Registru *WIP facturat - pe cont* așa cum este definit pe fila **Venituri** de pe pagina **Configurare înregistrare contabilitate** și debitat în contul de sold al clienților.
+         - **Profit și pierdere**: La publicarea propunerii de facturare a proiectului, o tranzacție pe cont (etapă de facturare) va fi creditată în tipul de cont Registru *Venit facturat - pe cont* așa cum este definit pe fila **Venituri** de pe pagina **Configurare înregistrare contabilitate** și debitat în contul de sold al clienților. Conturile de sold ale clienților sunt definite în **Conturi clienți** \> **Configurare** \> **Profiluri de publicare ale clienților**.
 
-   Când definiți profilurile de înregistrare pentru metodele de facturare în timp și materiale, aveți opțiunea de a acumula venituri pe tip de tranzacție (oră, cheltuială și taxă). Dacă opțiunea **Venituri acumulate** este setată la **Da** , tranzacțiile de vânzare necotificate în jurnalul de integrare a operațiunilor de proiect vor fi înregistrate în registrul general. Valoarea vânzărilor este debitată către **WIP - cont de valoare pentru vânzări** și creditat în contul **Venituri acumulate - valoarea vânzărilor** care a fost creat pe pagina **Configurare înregistrare contabilitate** , pe fila **Venituri**. 
+   Când definiți profilurile de înregistrare pentru metodele de facturare în timp și materiale, aveți opțiunea de a acumula venituri pe tip de tranzacție (oră, cheltuială și taxă). Dacă opțiunea **Venituri acumulate** este setată la **Da**, tranzacțiile de vânzare necotificate în jurnalul de integrare a operațiunilor de proiect vor fi înregistrate în registrul general. Valoarea vânzărilor este debitată către **WIP - cont de valoare pentru vânzări** și creditat în contul **Venituri acumulate - valoarea vânzărilor** care a fost creat pe pagina **Configurare înregistrare contabilitate**, pe fila **Venituri**. 
   
   > [!NOTE]
   > Optiunea, **Acumulați venituri** este disponibilă numai atunci când tipul respectiv de tranzacție **Cost** este înregistrat în contul de profit și pierdere.
@@ -72,20 +72,20 @@ Parcurgeți pașii următori pentru a crea un nou profil de cost și venit al pr
 7. Extindeți **Estimarea** FastTab. Câmpurile din această filă definesc setările de calcul pentru estimările veniturilor la prețuri fixe. Câmpurile din această filă se aplică numai profilurilor de costuri și venituri ale proiectului cu o metodă de facturare de **Preț fix**.
 8. Selectați informația potrivită în următoarele câmpuri ale **Estimare** FastTab:
 
-    - **Principiul utilizat pentru calculele de finalizare a proiectului** :
+    - **Principiul utilizat pentru calculele de finalizare a proiectului**:
 
-        - **Contract finalizat** : Corelarea costurilor și recunoașterea veniturilor nu au loc până la sfârșitul proiectului. Costurile se reflectă ca WIP în sold până la finalizarea proiectului.
-        - **Procent finalizat** : Veniturile acumulate sunt calculate și înregistrate în registru în fiecare perioadă pe baza procentului de finalizare a proiectului. Există mai multe metode disponibile pentru a calcula procentul de finalizare. Aceste metode pot fi automate bazate pe configurare sau manual.
-        - **Fără WIP** : Această configurație este utilizată pentru proiecte cu preț fix cu un interval de timp scurt și în care factura și costurile au loc în aceeași perioadă. În acest caz, valoarea câmpului **Facturare pe cont** pe **Registru** FastTab este setat automat la **Profit și pierdere** pentru a se asigura că veniturile sunt recunoscute la facturare. Procesul de estimare a veniturilor nu va fi utilizat pentru acest profil de cost și profil de venituri.
+        - **Contract finalizat**: Corelarea costurilor și recunoașterea veniturilor nu au loc până la sfârșitul proiectului. Costurile se reflectă ca WIP în sold până la finalizarea proiectului.
+        - **Procent finalizat**: Veniturile acumulate sunt calculate și înregistrate în registru în fiecare perioadă pe baza procentului de finalizare a proiectului. Există mai multe metode disponibile pentru a calcula procentul de finalizare. Aceste metode pot fi automate bazate pe configurare sau manual.
+        - **Fără WIP**: Această configurație este utilizată pentru proiecte cu preț fix cu un interval de timp scurt și în care factura și costurile au loc în aceeași perioadă. În acest caz, valoarea câmpului **Facturare pe cont** pe **Registru** FastTab este setat automat la **Profit și pierdere** pentru a se asigura că veniturile sunt recunoscute la facturare. Procesul de estimare a veniturilor nu va fi utilizat pentru acest profil de cost și profil de venituri.
 
-    - **Principiul de potrivire** : Acest câmp determină modul în care valoarea vânzărilor calculate (venituri acumulate) va fi înregistrată în registru.
+    - **Principiul de potrivire**: Acest câmp determină modul în care valoarea vânzărilor calculate (venituri acumulate) va fi înregistrată în registru.
 
-        - Utilizând principiul **Valoarea vânzărilor** , sistemul va calcula valoarea vânzărilor prin potrivirea costurilor și veniturilor și apoi înregistrarea acesteia ca o singură sumă.
-        - Utilizând principiul **Producție și profit** , sistemul va împărți valoarea vânzărilor în costuri realizate și profit calculat. Acestea sunt postate separat.
+        - Utilizând principiul **Valoarea vânzărilor**, sistemul va calcula valoarea vânzărilor prin potrivirea costurilor și veniturilor și apoi înregistrarea acesteia ca o singură sumă.
+        - Utilizând principiul **Producție și profit**, sistemul va împărți valoarea vânzărilor în costuri realizate și profit calculat. Acestea sunt postate separat.
 
-    - **Șabloane de costuri** : Permiteți gruparea tranzacțiilor de proiect pe baza tipului de tranzacție și a categoriei de proiect și definiți regulile de calcul al procentului de finalizare pentru aceste grupuri.
-    - **Coduri de perioadă** : Definiți frecvența cu care sunt calculate estimările veniturilor pentru un anumit profil al proiectului de cost și venit.
-    - **Categorii pentru estimare** : utilizat pentru înregistrarea valorii vânzărilor (venituri acumulate) în tranzacțiile proiectului. Mai întâi, configurați categoria de proiect dedicată pentru un tip de tranzacție **Taxă** și apoi setați steagul, **Estimare** pentru această categorie de proiect. Apoi, în funcție de principiul de potrivire selectat, alegeți această categorie de proiect în valoarea **Vânzări** sau **Profit** din profilul de cost și venituri al proiectului.
+    - **Șabloane de costuri**: Permiteți gruparea tranzacțiilor de proiect pe baza tipului de tranzacție și a categoriei de proiect și definiți regulile de calcul al procentului de finalizare pentru aceste grupuri.
+    - **Coduri de perioadă**: Definiți frecvența cu care sunt calculate estimările veniturilor pentru un anumit profil al proiectului de cost și venit.
+    - **Categorii pentru estimare**: utilizat pentru înregistrarea valorii vânzărilor (venituri acumulate) în tranzacțiile proiectului. Mai întâi, configurați categoria de proiect dedicată pentru un tip de tranzacție **Taxă** și apoi setați steagul, **Estimare** pentru această categorie de proiect. Apoi, în funcție de principiul de potrivire selectat, alegeți această categorie de proiect în valoarea **Vânzări** sau **Profit** din profilul de cost și venituri al proiectului.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Exemple de configurații pentru profilurile de cost și venituri ale proiectului
 

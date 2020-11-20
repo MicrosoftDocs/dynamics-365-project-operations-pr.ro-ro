@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082685"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131583"
 ---
 # <a name="estimate-projects-overview"></a>Prezentare generală a estimării proiectelor
 
@@ -74,8 +74,8 @@ Dacă ați adăugat un câmp particularizat în detaliul liniei de ofertă și d
 2. Selectați **Căutare** și căutați insertul pentru actualizare.
 3. Selectați insertul, apoi, în pagina principală, faceți clic pe **Selectare**.
 4. Selectați pasul insertului pentru a actualiza, faceți clic dreapta, iar apoi selectați **Actualizare**.
-5. În caseta de dialog **Actualizarea pasului existent** , în câmpul **Filtrarea atributelor** , selectați butonul puncte de suspensie ( **...** ):
-6. În caseta de dialog **Selectare atribute** , bifați casetele de selectare pentru atributele particularizate.
+5. În caseta de dialog **Actualizarea pasului existent**, în câmpul **Filtrarea atributelor**, selectați butonul puncte de suspensie (**...**):
+6. În caseta de dialog **Selectare atribute**, bifați casetele de selectare pentru atributele particularizate.
 7. Selectați **OK** pentru a închide caseta de dialog, apoi selectați **Actualizați pasul**.
 8. Repetați pașii de la 1 la 7 pentru al doilea insert.
 9. Închideți **PluginRegistrationTool**.

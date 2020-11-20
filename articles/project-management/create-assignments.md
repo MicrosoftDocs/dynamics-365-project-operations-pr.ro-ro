@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082709"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131763"
 ---
 # <a name="create-resource-assignments"></a>Creați atribuiri de resurse
 
@@ -29,15 +29,15 @@ Când creați un membru al echipei generic prin atribuirea sarcinilor, creați u
 
 1. Pe grila Planificare pentru o activitate, selectați pictograma resursă din celula **Resursă**.
 2. Tastați un nume pentru a servi drept substituent pentru numele resursei. De exemplu „Manager de Program”.
-3. Selectați **Creare** , iar în câmpul **Creare rapidă membru echipă** , setați rolul pentru resursa generică.
+3. Selectați **Creare**, iar în câmpul **Creare rapidă membru echipă**, setați rolul pentru resursa generică.
 4. Atribuiți activități după cum este nevoie acestei resurse substituent prin selectarea resursei pe **Selectorul de resursă** pentru activitate. Resursele listate sub **Membrii echipei**.
-5. Când ați finalizat alocarea resursei generice, selectați resursa generică pe fila **Echipă** , selectați resursa generică și apoi selectați **Generare cerință** pentru a crea o cerință de resurse pentru resursa generică.
+5. Când ați finalizat alocarea resursei generice, selectați resursa generică pe fila **Echipă**, selectați resursa generică și apoi selectați **Generare cerință** pentru a crea o cerință de resurse pentru resursa generică.
 6. Selectați **Rezervare** pentru resursa generică și apoi puteți folosi panoul de planificare pentru a găsi și rezerva o resursă reală. Puteți de asemenea remite solicitarea de realizare de către un manager de resurse.
 7. Când resursa generică este pe deplin îndeplinită (îndeplinirea parțială a cerinței de resurse nu va avea ca rezultat o atribuire de resurse) cu o resursă numită, resursa generică este eliminată din echipă. Atribuțiile de sarcini pentru resursa generică sunt atribuite resursei denumite care a îndeplinit cerința resurselor generice.
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Atribuiți o resursă din lista tuturor resurselor care se pot rezerva.
 
-Puteți utiliza caseta de căutare în **Selector de resurse** pentru a căuta toate resursele active care se pot rezerva și pentru a le atribui la orice activitate nod frunză. Resursele atribuite în acest mod sunt adăugate echipei fără rezervări. Acest lucru este similar cu adăugarea unui membru al echipei și selectarea **Niciuna** ca metodă de alocare. Resursa este afișată pe filele **Echipă** , **Atribuire resursă** și **Reconciliere** ca resurse cu singurele atribuiri și un deficit de rezervare. Rezervați-le dacă doriți să le utilizați disponibilitatea.
+Puteți utiliza caseta de căutare în **Selector de resurse** pentru a căuta toate resursele active care se pot rezerva și pentru a le atribui la orice activitate nod frunză. Resursele atribuite în acest mod sunt adăugate echipei fără rezervări. Acest lucru este similar cu adăugarea unui membru al echipei și selectarea **Niciuna** ca metodă de alocare. Resursa este afișată pe filele **Echipă**, **Atribuire resursă** și **Reconciliere** ca resurse cu singurele atribuiri și un deficit de rezervare. Rezervați-le dacă doriți să le utilizați disponibilitatea.
 
 1. Din grila de activități, tablă sau cronologie, navigați la celula **Atribuit la**.
 2. În caseta de căutare, începeți să tastați un nume. Rezultatele căutării sunt afișate în **Selectorul de resurse** în **Alte resurse**.

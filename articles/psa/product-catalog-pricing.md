@@ -3,7 +3,7 @@ title: Tarifare pentru Catalog de produse
 description: Acest subiect furnizează informații despre modul în care funcționează prețul din catalogul de produse în Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082827"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132303"
 ---
 # <a name="product-catalog-pricing"></a>Tarifare pentru Catalog de produse 
 
@@ -46,11 +46,11 @@ PSA acceptă diverse opțiuni de rotunjire atunci când prețurile sunt configur
 
 > ![Adăugarea produselor dintr-un catalog la liste de prețuri diferite](media/basic-guide-16.png)
 
-Atunci când creați o nouă listă de prețuri particularizate pentru o ofertă selectând **Creați prețuri particularizate** pe pagina **Ofertă de proiect** , PSA face o copie a listei de prețuri și câmpul **Entitate** pe antetul noii liste de prețuri este setată la **Entitate de vânzări**. Numele listei de prețuri noi este anexat cu numele ofertei și cu un marcaj temporal. De asemenea, puteți utiliza numele listei de prețuri noi și numele ofertei în fluxuri de lucru particularizate pentru a declanșa revizuire suplimentară și aprobări pentru ofertele care utilizează prețuri particularizate.
+Atunci când creați o nouă listă de prețuri particularizate pentru o ofertă selectând **Creați prețuri particularizate** pe pagina **Ofertă de proiect**, PSA face o copie a listei de prețuri și câmpul **Entitate** pe antetul noii liste de prețuri este setată la **Entitate de vânzări**. Numele listei de prețuri noi este anexat cu numele ofertei și cu un marcaj temporal. De asemenea, puteți utiliza numele listei de prețuri noi și numele ofertei în fluxuri de lucru particularizate pentru a declanșa revizuire suplimentară și aprobări pentru ofertele care utilizează prețuri particularizate.
 
  
 ## <a name="default-product-price-list"></a>Listă de prețuri de produs implicită
-Fiecare înregistrare client are un câmp **Câmp de listă de prețuri implicit** , unde aveți posibilitatea să specificați o listă de prețuri care corespunde cu valuta clientului. În PSA, o valoare implicită nu este introdusă automat în acest câmp. Atunci când există un acord de tarifare particularizat cu un anumit client, aveți posibilitatea să utilizați acest câmp pentru a asocia o listă de prețuri cu acel client.
+Fiecare înregistrare client are un câmp **Câmp de listă de prețuri implicit**, unde aveți posibilitatea să specificați o listă de prețuri care corespunde cu valuta clientului. În PSA, o valoare implicită nu este introdusă automat în acest câmp. Atunci când există un acord de tarifare particularizat cu un anumit client, aveți posibilitatea să utilizați acest câmp pentru a asocia o listă de prețuri cu acel client.
 
 Entitățile de oportunitate, ofertă și contract de proiect utilizează următoarea ordine pentru a introduce listele de prețuri de produs implicite. Aceeași ordine este utilizată pentru listele de prețuri de proiect.
 

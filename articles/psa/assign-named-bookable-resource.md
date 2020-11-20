@@ -3,7 +3,7 @@ title: Rezervați resurse rezervabile numite la o echipă de proiect și atribui
 description: Acest subiect oferă informații despre cum să rezervați resurse numite pentru echipe de proiect și despre atribuirea lor către activități.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082915"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130188"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Rezervați resurse rezervabile numite la o echipă de proiect și atribuiți sarcini 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4082915"
 Puteți adăuga o resursă numită echipei dvs. de proiect, rezervând-o direct pe echipă. Pentru a face acest lucru, efectuați următorii pași.
 
 1. În Project Service Automation, accesați **Proiecte** și selectați și deschideți proiectul pentru care faceți rezervarea.
-2. Pe pagina **Proiect** , în fila **Echipă** , faceți clic pe **Nou**. 
+2. Pe pagina **Proiect**, în fila **Echipă**, faceți clic pe **Nou**. 
 
 ![Adăugarea unui membru al echipei din fila echipă](media/RM-how-to-1.png)
 
-3. În caseta de dialog **Creare rapidă membru echipă proiect** , selectați resursa care se poate rezerva. Câmpul **Rol** se va popula cu rolul implicit al resursei, dacă aceasta are unul atribuit. Aveți posibilitatea să schimbați rolul, dacă este necesar. 
+3. În caseta de dialog **Creare rapidă membru echipă proiect**, selectați resursa care se poate rezerva. Câmpul **Rol** se va popula cu rolul implicit al resursei, dacă aceasta are unul atribuit. Aveți posibilitatea să schimbați rolul, dacă este necesar. 
 4. Selectați datele de la și până la care resursa va fi necesară și selectați metoda de alocare a capacității resursei. 
 5. Dacă doriți ca membrul echipei să fie un aprobator de proiect, selectați **Da** în câmpul **Aprobator proiect**. Acest lucru va însemna că membrul echipei poate aproba intrările de timp și cheltuieli remise pentru acest proiect. 
 6. Faceţi clic pe **Salvare**.
@@ -44,7 +44,7 @@ Puteți adăuga o resursă numită echipei dvs. de proiect, rezervând-o direct 
 ![Adăugarea unui membru al echipei în formularul de creare rapidă](media/RM-how-to-2.png)
 
 
-Acum aveți posibilitatea să atribuiți resursa rezervată activităților din proiect. Pe pagina **Proiect** , faceți clic pe fila **Planificare** pentru a atribui activități la noua resursă. Selectorul de resurse care este lansat din câmpul **Resurse** din grila de activități va afișa membrii echipei pe care îi puteți selecta.
+Acum aveți posibilitatea să atribuiți resursa rezervată activităților din proiect. Pe pagina **Proiect**, faceți clic pe fila **Planificare** pentru a atribui activități la noua resursă. Selectorul de resurse care este lansat din câmpul **Resurse** din grila de activități va afișa membrii echipei pe care îi puteți selecta.
 
 ![Atribuirea unui membru al echipei la o activitate din fila planificare](media/RM-how-to-3.png)
 

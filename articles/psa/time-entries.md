@@ -3,7 +3,7 @@ title: Creare intrări de timp
 description: Acest subiect oferă informații despre modul de creare a intrărilor de timp.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082887"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131302"
 ---
 # <a name="create-time-entries"></a>Creare intrări de timp
 
@@ -35,13 +35,13 @@ ms.locfileid: "4082887"
 
 Urmați acești pași pentru a crea o intrare de timp.
 
-1. În pagina **Intrări timp** , selectați **Nou**.
-2. În caseta de dialog **Creare rapidă: intrare timp** , introduceți durata intrării de timp în minute, ore sau zile. Durata trebuie introdusă în formatul următor: *x* minute, *x* ore sau *x* zile. Orele și zilele pot fi introduse și ca valori zecimale, de exemplu, *x.x* ore sau *x.x* zile.
+1. În pagina **Intrări timp**, selectați **Nou**.
+2. În caseta de dialog **Creare rapidă: intrare timp**, introduceți durata intrării de timp în minute, ore sau zile. Durata trebuie introdusă în formatul următor: *x* minute, *x* ore sau *x* zile. Orele și zilele pot fi introduse și ca valori zecimale, de exemplu, *x.x* ore sau *x.x* zile.
 3. Selectați tipul de intrare de timp și proiectul în care introduceți intrarea de timp.
-4. În câmpul **Activitate proiect** , găsiți activitatea pentru această intrare de timp.
+4. În câmpul **Activitate proiect**, găsiți activitatea pentru această intrare de timp.
 
     > [!NOTE]
-    > Dacă creați o intrare de timp pentru o activitate care nu este atribuită unui utilizator, în câmpul **activitate proiect** , selectați butonul **Căutare** , selectați **Schimbare vizualizare** , apoi selectați **Toate activitățile de proiect active** pentru a lista toate activitățile.
+    > Dacă creați o intrare de timp pentru o activitate care nu este atribuită unui utilizator, în câmpul **activitate proiect**, selectați butonul **Căutare**, selectați **Schimbare vizualizare**, apoi selectați **Toate activitățile de proiect active** pentru a lista toate activitățile.
 
 5. Introduceți o descriere, dacă este necesară o descriere, apoi selectați **Salvare și închidere**.
 
@@ -56,9 +56,9 @@ Rețineți că fracțiunile unei ore nu sunt minute. Prin urmare, 1,5 ore reprez
 
 După ce au fost create câteva înregistrări de timp, le puteți copia pentru a crea în bloc înregistrări de timp suplimentare.
 
-1. În pagina **Intrări timp** , selectați **Copiere săptămână**.
-2. În grupul de câmpuri **De la perioada** , în câmpurile **Data de început** și **Data de sfârșit** , definiți intervalul de date din care să copiați înregistrările de timp.
-3. În grupul de câmpuri **Până la perioada** , în câmpul **Data de început** , specificați data pentru care să creați înregistrări de timp.
+1. În pagina **Intrări timp**, selectați **Copiere săptămână**.
+2. În grupul de câmpuri **De la perioada**, în câmpurile **Data de început** și **Data de sfârșit**, definiți intervalul de date din care să copiați înregistrările de timp.
+3. În grupul de câmpuri **Până la perioada**, în câmpul **Data de început**, specificați data pentru care să creați înregistrări de timp.
 4. Selectați **Copiere** pentru a crea o copie a intrărilor de timp care corespund zilei săptămânii indicate în grupul de câmpuri **Până la perioada**. De exemplu, înregistrarea de timp pentru ziua de luni de săptămâna trecută este copiată pentru lunea săptămânii indicate în grupul de câmpuri **Până la perioada**.
 
 ## <a name="import-data-for-time-entries"></a>Importați date pentru intrările de timp
@@ -67,4 +67,4 @@ Aveți posibilitatea să importați date din rezervările și activitățile de 
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Grupați după, sortați, căutați și filtrați capacități
 
-Aveți posibilitatea să grupați și să filtrați intrările de timp după dimensiunile specificate în coloane. În câmpul **Grupare după** , selectați dimensiunea de utilizat pentru filtrarea intrărilor de timp. De asemenea, aveți posibilitatea să sortați înregistrările de intrări de timp în ordine crescătoare sau descrescătoare utilizând săgeata de sortare de pe titlurile coloanelor. În plus, aveți posibilitatea să afișați sau să ascundeți intrările selectând butonul **Filtru** de pe titlurile coloanelor, apoi, în caseta **Căutare** , introduceți textul care ar trebui utilizat pentru a căuta intrările de timp după numele proiectului, activitatea proiectului, intrarea de timp sau resursă.
+Aveți posibilitatea să grupați și să filtrați intrările de timp după dimensiunile specificate în coloane. În câmpul **Grupare după**, selectați dimensiunea de utilizat pentru filtrarea intrărilor de timp. De asemenea, aveți posibilitatea să sortați înregistrările de intrări de timp în ordine crescătoare sau descrescătoare utilizând săgeata de sortare de pe titlurile coloanelor. În plus, aveți posibilitatea să afișați sau să ascundeți intrările selectând butonul **Filtru** de pe titlurile coloanelor, apoi, în caseta **Căutare**, introduceți textul care ar trebui utilizat pentru a căuta intrările de timp după numele proiectului, activitatea proiectului, intrarea de timp sau resursă.

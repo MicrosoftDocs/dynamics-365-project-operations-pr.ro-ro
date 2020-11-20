@@ -3,7 +3,7 @@ title: Introduceți cheltuielile
 description: Cum să introduceți cheltuielile în Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083000"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132933"
 ---
 # <a name="enter-expenses-project-service"></a>Introduceți cheltuielile (Project Service)
 
@@ -39,7 +39,7 @@ Introduceți cheltuielile cel puțin săptămânal - sau la frecvența solicitat
   
 3. Pentru a introduce o cheltuială, faceți clic pe **Nou** sau faceți dublu clic în calendar, sub ziua pentru care doriți să introduceți timp.  
   
-4. Completați câmpurile din formularul **Cheltuială nouă** , apoi faceți clic pe **Salvare**.  
+4. Completați câmpurile din formularul **Cheltuială nouă**, apoi faceți clic pe **Salvare**.  
   
 5. Continuați să introduceți cheltuielile pentru săptămână. Când ați terminat și totul arată corect, faceți clic pe **Remitere**. Un manager va examina și aproba cheltuielile dvs.  
   
@@ -49,7 +49,7 @@ Introduceți cheltuielile cel puțin săptămânal - sau la frecvența solicitat
   
    Dacă utilizați aplicația mobilă:  
   
-8. Din meniu, accesați **Cheltuieli**.     Puteți comuta la vizualizarea **Zi** , **Săptămână** sau **Lună** sau accesați perioada de timp anterioară sau următoare.  
+8. Din meniu, accesați **Cheltuieli**.     Puteți comuta la vizualizarea **Zi**, **Săptămână** sau **Lună** sau accesați perioada de timp anterioară sau următoare.  
   
 9. Atingeți **…** și atingeți **Nou**.  
   

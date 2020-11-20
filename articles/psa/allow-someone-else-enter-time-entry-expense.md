@@ -3,7 +3,7 @@ title: Permiteți altei persoane să introducă intrarea de timp sau de cheltuie
 description: Cum să le permiteți altor persoane să introducă intrarea de timp sau de cheltuieli în Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082769"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130398"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Permiteți altei persoane să introducă intrarea de timp sau de cheltuieli (Project Service)
 
@@ -37,13 +37,13 @@ Configurați o delegare pentru a permite altcuiva să facă intrări de timp sau
   
 2.  Pe bara de comenzi, faceți clic pe **Nou**.  
   
-3. **Nume** : Introduceți un nume pentru înregistrare.  
+3. **Nume**: Introduceți un nume pentru înregistrare.  
   
-4. **Tip** : Selectați dacă delegatul poate introduce intrări de timp sau de cheltuieli în numele dvs.  
+4. **Tip**: Selectați dacă delegatul poate introduce intrări de timp sau de cheltuieli în numele dvs.  
   
-5. **Delegat** : Selectați numele persoanei care doriți să fie delegată.  
+5. **Delegat**: Selectați numele persoanei care doriți să fie delegată.  
   
-6. **Datele de începere și de încheiere** : Alegeți datele începe și se termină delegarea.  
+6. **Datele de începere și de încheiere**: Alegeți datele începe și se termină delegarea.  
   
 7.  După ce ați terminat, faceți clic pe **Salvare și închidere**.  
   
@@ -55,7 +55,7 @@ Configurați o delegare pentru a permite altcuiva să facă intrări de timp sau
   
 3.  Pe bara de comenzi, faceți clic pe **Dezactivare**.  
   
-4.  În caseta de dialog **Confirmare dezactivare** , faceți clic pe **Dezactivare**.  
+4.  În caseta de dialog **Confirmare dezactivare**, faceți clic pe **Dezactivare**.  
   
 ## <a name="enter-time-for-someone-else"></a>Introducerea de timpi pentru altcineva  
   

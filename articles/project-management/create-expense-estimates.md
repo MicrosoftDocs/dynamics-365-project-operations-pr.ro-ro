@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082718"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131718"
 ---
 # <a name="expense-estimates"></a>Estimări de cheltuieli
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
@@ -26,15 +26,15 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Parcurgeți pașii următori pentru a vizualiza, adăuga sau șterge o cheltuială a proiectului.
 
-1. Accesați **Proiecte** , și selectați proiectul la care doriți să lucrați.
+1. Accesați **Proiecte**, și selectați proiectul la care doriți să lucrați.
 2. Selectați fila **Estimări ale proiectului** și vizualizați lista cheltuielilor proiectului.
 3. Selectați **Cheltuieli noi** pentru a adăuga o cheltuială. Sau selectați o cheltuială de șters, apoi selectați **Ștergeți cheltuiala**.
 
 Următoarele atribute sunt definite pentru fiecare element rând de cheltuieli:
 
-- **Categorie** : Grupările comune utilizate pentru a descrie toate cheltuielile suportate pentru un proiect.
-- **Data de început** : Data la care se estimează că va fi efectuată cheltuiala.
-- **Cantitate** : Numărul estimat de articole de cheltuieli pentru o anumită categorie.
-- **Preț de cost unitar** : Prețul unitar utilizat pentru calcularea costului cheltuielilor.
-- **Preț unitar de vânzare** : Prețul unitar utilizat pentru calcularea prețurilor de vânzare a cheltuielilor.
+- **Categorie**: Grupările comune utilizate pentru a descrie toate cheltuielile suportate pentru un proiect.
+- **Data de început**: Data la care se estimează că va fi efectuată cheltuiala.
+- **Cantitate**: Numărul estimat de articole de cheltuieli pentru o anumită categorie.
+- **Preț de cost unitar**: Prețul unitar utilizat pentru calcularea costului cheltuielilor.
+- **Preț unitar de vânzare**: Prețul unitar utilizat pentru calcularea prețurilor de vânzare a cheltuielilor.
 

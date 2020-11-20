@@ -1,21 +1,21 @@
 ---
-title: Înscrieți-vă pentru un abonament de previzualizare
+title: Înscrieți-vă pentru un abonament de previzualizare - simplificat
 description: Acest subiect oferă informații despre cum să vă abonați și să implementați Project Operations simplificat - gestionați facturarea proforma.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082659"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175906"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Înscrieți-vă pentru un abonament de previzualizare pentru implementare simplificată - faceți facturi proforma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Înscrieți-vă pentru un abonament de previzualizare - simplificat 
 
 Acest subiect explică cum să vă abonați la oferta de previzualizare de partener și să implementați Dynamics 365 Project Operations implementare simplificată - facturare de la tranzacție la proforma.
 
@@ -67,7 +67,7 @@ Repetați aceiași pași ca la primul cod de ofertă. Asigurați-vă că adăuga
 
 ![Pagina principală a centrului de administrare](./media/14AdminPortal.png)
 
-2. Pe pagina **Utilizatori activi** , selectați utilizatorii cărora doriți să le atribuiți o licență.
+2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
 
 ![Atribuiți licențe](./media/15AssignLicenses.png)
 

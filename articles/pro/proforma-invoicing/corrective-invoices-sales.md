@@ -1,21 +1,21 @@
 ---
-title: Credite și facturi corectate
+title: Facturi corectate - simplificat
 description: Acest subiect furnizează informații despre facturi corectate în Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082907"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176446"
 ---
-# <a name="credits-and-corrected-invoices"></a>Credite și facturi corectate
+# <a name="corrected-invoices---lite"></a>Facturi corectate - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 

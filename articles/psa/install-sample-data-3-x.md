@@ -3,7 +3,7 @@ title: Instalarea datelor eșantion
 description: Acest subiect oferă informații despre instalarea eșantionului de date în Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082861"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132438"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalarea datelor eșantion pentru aplicația Project Service
 
@@ -49,9 +49,9 @@ Atunci când instalați oricare dintre pachetele de date eșantion, procesul de 
 
 - Creează sau setează parametri impliciți pentru a folosi Project Service, Field Service sau ambele aplicații (după caz).
 
-- Importă date esantion pentru aplicații, cum ar fi resurse ce se pot rezerva, roluri specifice aplicațiilor, liste de vânzări și de prețuri, unități organizaționale, înregistrări ale procesului de vânzări și alte entități pentru a demonstra capacitățile cheie.  
+- Importă date esantion pentru aplicații, cum ar fi resurse ce se pot rezerva, roluri specifice aplicațiilor, liste de vânzări și de prețuri, unități organizaționale, înregistrări ale procesului de vânzări și alte entități pentru a demonstra capacitățile cheie.  
 
-Cu pachetul de **date demonstrative** , veți obține datele tranzacționale de mai sus, precum și date tranzacționale suplimentare, cum ar fi comenzi de lucru și proiecte.
+Cu pachetul de **date demonstrative**, veți obține datele tranzacționale de mai sus, precum și date tranzacționale suplimentare, cum ar fi comenzi de lucru și proiecte.
 
 Vă întrebați ce capabilități puteți demonstra cu date eșantion? Consultați scenariul fictiv Fabrikam Robotics din [Note tehnice](#technical-notes).
 
@@ -80,7 +80,7 @@ Protocolul de instalare presupune următoarele despre instanța (organizația) d
 
 Trebuie să rulați programul de instalare pe un computer cu o versiune recentă de Windows (preferabil Windows 10).
 
-Ar trebui să planificați ca acel computer să rămână conectat la o rețea, și ca instalarea să ruleze până la **1 oră** pentru **date pentru configurare/referință**. (În mod normal, instalarea durează aproximativ 30 de minute pentru **FPSMasterData** , care include date eșantion pentru ambele aplicații.) Pentru **FPSDemoData** , instalarea va lua circa **3 ore**.
+Ar trebui să planificați ca acel computer să rămână conectat la o rețea, și ca instalarea să ruleze până la **1 oră** pentru **date pentru configurare/referință**. (În mod normal, instalarea durează aproximativ 30 de minute pentru **FPSMasterData**, care include date eșantion pentru ambele aplicații.) Pentru **FPSDemoData**, instalarea va lua circa **3 ore**.
 
 Computerul trebuie să aibă dezactivată funcția Economizor de ecran. În caz contrar, acreditările de sesiune pentru instalare se pot pierde atunci când economizorul de ecran se angajează (cu excepția cazului în care păstrați sesiunea activă).
 
@@ -114,13 +114,13 @@ Pachetul **FPSMasterData** este conceput pentru a fi instalat cu un utilizator n
 
 Pentru a crea sau a configura utilizatori, accesați **Setări** > **Securitate** > **Utilizatori** și efectuați următoarele:
 
-1. Setați UserFullname="Spencer Low" cu numele "spencerl" ( **litere mici** ) la rolurile Manager de proiect și Manager de practică.
+1. Setați UserFullname="Spencer Low" cu numele "spencerl" (**litere mici**) la rolurile Manager de proiect și Manager de practică.
 
-2. Selectați utilizatorul **Spencer Low** și apoi selectați **Gestionare roluri**. Găsiți și selectați rolul **Administrator de sistem** , apoi selectați **OK** pentru a acorda drepturi de administrator complete utilizatorului Spencer Low. Acest pas este necesar pentru a asigura că înregistrările eșantion sunt create cu dreptul de proprietate de utilizator corect și, prin urmare, populează corect vizualizările.
+2. Selectați utilizatorul **Spencer Low** și apoi selectați **Gestionare roluri**. Găsiți și selectați rolul **Administrator de sistem**, apoi selectați **OK** pentru a acorda drepturi de administrator complete utilizatorului Spencer Low. Acest pas este necesar pentru a asigura că înregistrările eșantion sunt create cu dreptul de proprietate de utilizator corect și, prin urmare, populează corect vizualizările.
 
 3. Din pachetul descărcat, trebuie să actualizați un fișier de mapare de date cu adresele de e-mail ale contextului de utilizator implicit. Pentru a face asta, deschideți **PkgFolder** și apoi găsiți și deschideți fișierul **ImportUserMapFile.xml** în Notepad (sau Visual Studio sau alt editor XML). Setați câmpul **DefaultUserToMapTo=** la adresa de e-mail a utilizatorului Spencer Low.
 
-4. Dacă nu utilizați Spencer Low cu numele de utilizator **spencerl** , trebuie să actualizați un fișier suplimentar. Deschideți fișierul **DemoDataPreImportConfig.xml** , apoi găsiți eticheta **userstocreateandconfigure**. Actualizați eticheta **\<login\>** cu numele de utilizator al utilizatorului Spencer Low. Pentru detalii suplimentare, consultați [Note tehnice](#technical-notes).
+4. Dacă nu utilizați Spencer Low cu numele de utilizator **spencerl**, trebuie să actualizați un fișier suplimentar. Deschideți fișierul **DemoDataPreImportConfig.xml**, apoi găsiți eticheta **userstocreateandconfigure**. Actualizați eticheta **\<login\>** cu numele de utilizator al utilizatorului Spencer Low. Pentru detalii suplimentare, consultați [Note tehnice](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Crearea sau configurarea utilizatorilor - pachet de date demonstrative
 
@@ -138,14 +138,14 @@ Pachetul de date demonstrative necesită șase utilizatori. Pentru instalarea co
   
 2. Pentru a importa datele demonstrative, atribuiți cei șase utilizatori deasupra rolului de Administrator, astfel încât înregistrările eșantion să fie importate corect. 
 
-3. Deschideți **PkgFolder** , iar apoi găsiți și deschideți **ImportUserMapFile.xml**. Actualizați câmpurile **Nou=** la adresele de e-mail ale utilizatorilor corespunzători din sistemul dvs.
+3. Deschideți **PkgFolder**, iar apoi găsiți și deschideți **ImportUserMapFile.xml**. Actualizați câmpurile **Nou=** la adresele de e-mail ale utilizatorilor corespunzători din sistemul dvs.
 
    > [!div class="mx-imgBorder"]
    > ![Captură de ecran a UserMapFile](media/sample-data-7.png)
 
-4. În cazul în care numele complet "Spencer Low" al utilizatorului are un ID de utilizator diferit de **"spencerl"** , trebuie să actualizați un fișier suplimentar. Deschideți **DemoDataPreImportConfig.xml** și găsiți eticheta **userstocreateandconfigure**. Actualizați eticheta **\<login\>** cu Id conectare (sensibil la litere mari și mici). 
+4. În cazul în care numele complet "Spencer Low" al utilizatorului are un ID de utilizator diferit de **"spencerl"**, trebuie să actualizați un fișier suplimentar. Deschideți **DemoDataPreImportConfig.xml** și găsiți eticheta **userstocreateandconfigure**. Actualizați eticheta **\<login\>** cu Id conectare (sensibil la litere mari și mici). 
 
-5. Primul calendar al utilizatorului (în eticheta **userstocreateandconfigure** ) este folosit pentru a popula orele de lucru pentru toate resursele care se pot rezerva la importul de date demonstrative. Navigați la **Setări** > **Securitate** > **Utilizatori** , găsiți utilizatorul "Spencer Low" și deschideți opțiunea „Ore de lucru”. Editați orele de lucru existente, selectând opțiunea **Planificare săptămânală recurentă în totalitate de la început la sfârșit**. Asigurați-vă că **Orele de lucru sunt setate pentru 08:00-17:00 (9 ore), de luni până vineri și cu fusul orar stabilit la ora Pacificului (SUA și Canada)**. Acest lucru este necesar pentru a garanta că panoul de Proiect și Planificare este conform așteptărilor.
+5. Primul calendar al utilizatorului (în eticheta **userstocreateandconfigure**) este folosit pentru a popula orele de lucru pentru toate resursele care se pot rezerva la importul de date demonstrative. Navigați la **Setări** > **Securitate** > **Utilizatori**, găsiți utilizatorul "Spencer Low" și deschideți opțiunea „Ore de lucru”. Editați orele de lucru existente, selectând opțiunea **Planificare săptămânală recurentă în totalitate de la început la sfârșit**. Asigurați-vă că **Orele de lucru sunt setate pentru 08:00-17:00 (9 ore), de luni până vineri și cu fusul orar stabilit la ora Pacificului (SUA și Canada)**. Acest lucru este necesar pentru a garanta că panoul de Proiect și Planificare este conform așteptărilor.
 
 **Recomandare:** luați în considerare crearea unei copii backup a organizației dvs. acum, în cazul în care trebuie să reveniți la punctul de plecare dacă ceva nu merge bine în timpul instalării datelor eșantion. Pentru informații suplimentare, consultați [Backupul și restaurarea instanțelor](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -241,7 +241,7 @@ Există o serie de alte componente de configurație în acest fișier de configu
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Scenariu fictiv Fabrikam Robotics
 
-Pachetele de date eșantion pentru referință Field Service și Project Service instalează **Soluția Fabrikam Manufacturing Master Data (v3.0.0.0)** , împreună cu aproximativ 4.000 de înregistrări și aproximativ 40 de entități diferite. Pachetele de date eșantion separate pentru Field Service sau Project Service conțin un subset de date eșantion **v902FPSMasterData** pentru acea aplicație. Pachetul **Date demonstrative** instalează **Soluția Fabrikam Manufacturing Demo Data (v3.0.0.7)** cu aproximativ 22.000 de înregistrări în 148 de entități.
+Pachetele de date eșantion pentru referință Field Service și Project Service instalează **Soluția Fabrikam Manufacturing Master Data (v3.0.0.0)**, împreună cu aproximativ 4.000 de înregistrări și aproximativ 40 de entități diferite. Pachetele de date eșantion separate pentru Field Service sau Project Service conțin un subset de date eșantion **v902FPSMasterData** pentru acea aplicație. Pachetul **Date demonstrative** instalează **Soluția Fabrikam Manufacturing Demo Data (v3.0.0.7)** cu aproximativ 22.000 de înregistrări în 148 de entități.
 
 Compania fictivă Fabrikam Robotics este un producător de roboți pentru linia de asamblare a dispozitivelor electronice și este cunoscută pentru calitatea produselor, inovație și un serviciu serios pentru clienți, inclusiv pentru planificarea instalării, implementare și servicii de întreținere permanente. Fabrikam are sediul în Statele Unite ale Americii (Fabrikam US) și are operațiuni de service bazate pe proiecte în Franța, India, Regatul Unit și Elveția.
 
@@ -291,7 +291,7 @@ Pachetul **Date demonstrative** instalează aproximativ 179 de comenzi de lucru,
 
 În cazul în care trebuie să modificați orele de lucru pentru resursele eșantion care se pot rezerva, accesați **Universal Resource Scheduling** > **Planificare** > **Resurse**.
 
-Selectați un utilizator (de exemplu, Spencer Low) și schimbați orele de lucru ale lui Spencer în orele pe care doriți să le aplicați pentru mai mulți utilizatori. Accesați **Universal Resource Scheduling** > **Setări** > **Șabloane de ore de lucru** și editați înregistrarea **Șablon implicit de lucru**. În câmpul **Resursă șablon** , selectați un utilizator cu orele de lucru pe care doriți să le aplicați la alte resurse. Accesați **Universal Resource Scheduling** > **Programare** > **Resurse** > **Resurse active ce se pot rezerva**. Selectați resursele pe care doriți să le modificați, apoi selectați **Setare calendar**. În lista verticală **Șablon de lucru** , selectați șablonul **Ore de lucru implicite** sau un alt șablo cu resursa de șablon corectă. Când accesați panoul de planificare, ar trebui să vedeți că resursele au acum ore de lucru actualizate.
+Selectați un utilizator (de exemplu, Spencer Low) și schimbați orele de lucru ale lui Spencer în orele pe care doriți să le aplicați pentru mai mulți utilizatori. Accesați **Universal Resource Scheduling** > **Setări** > **Șabloane de ore de lucru** și editați înregistrarea **Șablon implicit de lucru**. În câmpul **Resursă șablon**, selectați un utilizator cu orele de lucru pe care doriți să le aplicați la alte resurse. Accesați **Universal Resource Scheduling** > **Programare** > **Resurse** > **Resurse active ce se pot rezerva**. Selectați resursele pe care doriți să le modificați, apoi selectați **Setare calendar**. În lista verticală **Șablon de lucru**, selectați șablonul **Ore de lucru implicite** sau un alt șablo cu resursa de șablon corectă. Când accesați panoul de planificare, ar trebui să vedeți că resursele au acum ore de lucru actualizate.
 
 > [!div class="mx-imgBorder"]
 > ![Captură de ecran cu resurse active ce se pot rezerva](media/sample-data-6.png)

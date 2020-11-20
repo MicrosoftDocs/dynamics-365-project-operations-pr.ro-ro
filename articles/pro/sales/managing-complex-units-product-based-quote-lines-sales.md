@@ -1,21 +1,21 @@
 ---
-title: Gestionarea unităților complexe, cum ar fi liniile de ofertă bazate pe produse per utilizator, pe lună
+title: Gestionarea unităților complexe, cum ar fi liniile de ofertă bazate pe produse per utilizator, pe lună - simplificat
 description: Acest subiect oferă informații despre gestionarea unităților complexe pentru linii de ofertă bazate pe produs.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082728"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175591"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Gestionarea unităților complexe, cum ar fi liniile de ofertă bazate pe produse per utilizator, pe lună
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Gestionarea unităților complexe, cum ar fi liniile de ofertă bazate pe produse per utilizator, pe lună - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -29,8 +29,8 @@ Project Operations validează că numai proprietățile numerice sau proprietă�
 
 De exemplu, Dynamics 365 Sales poate avea următoarele proprietăți:
 
-- **Nr. de utilizatori** : numărul de utilizatori
-- **Nr. de luni** : numărul de luni de abonament
+- **Nr. de utilizatori**: numărul de utilizatori
+- **Nr. de luni**: numărul de luni de abonament
 - **Produs SKU**
 
 Puteți semnaliza proprietățile **Nr. de utilizatori** și **Nr. de luni** ca factori de cantitate prin editarea proprietăților de linie de produs.

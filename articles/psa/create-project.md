@@ -3,7 +3,7 @@ title: Creați un proiect
 description: Cum să creați un proiect în Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082808"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133113"
 ---
 # <a name="create-a-project-project-service"></a>Crearea unui proiect (Project Service)
 
@@ -35,7 +35,7 @@ Creați un proiect folosind capabilitățile [!INCLUDE[pn_project_service_auto](
   
 2.  Faceți clic pe **Proiect nou**.  
   
-3.  În zona **Rezumat** , introduceți un nume pentru proiectul dumneavoastră și apoi completați cât mai multe detalii posibil. Elementele marcate cu un asterisc roșu (*) sunt obligatorii.  
+3.  În zona **Rezumat**, introduceți un nume pentru proiectul dumneavoastră și apoi completați cât mai multe detalii posibil. Elementele marcate cu un asterisc roșu (*) sunt obligatorii.  
   
 4.  Faceți clic pe **Salvare** pentru a vă crea proiectul, astfel încât să îl puteți edita în continuare.  
   

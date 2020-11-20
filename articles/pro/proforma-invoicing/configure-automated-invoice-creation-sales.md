@@ -1,22 +1,22 @@
 ---
-title: Configurarea creării automate a facturilor proforma
+title: Configurarea creării automate a facturilor - simplificat
 description: Acest subiect oferă informații despre configurarea creării automate a facturilor proforma.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082705"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176581"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Configurarea creării automate a facturilor proforma
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Configurarea creării automate a facturilor - simplificat
+ 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Puteți configura crearea automată a facturilor în Dynamics 365 Project Operations. Sistemul creează o schiță de factură proforma pe baza programului de facturare pentru fiecare contract de proiect și linie de contract. Programările facturilor sunt configurate la nivelul liniei contractului. Fiecare linie dintr-un contract poate avea un program de facturare distinct sau același program de facturare poate fi inclus pe fiecare linie a contractului.
@@ -48,44 +48,44 @@ Planificările de facturi definite pentru fiecare dintre aceste două elemente r
 
 În acest exemplu când facturarea automată rulează:
 
-- **4 octombrie sau orice altă dată înainte** : Nu se generează nicio factură pentru acest contract deoarece tabelul **Planificare factură** pentru fiecare dintre aceste linii de contract nu au data de 4 octombrie, duminică, ca dată de rulare a facturii.
-- **5 octombrie, luni** : Se generează o factură pentru:
+- **4 octombrie sau orice altă dată înainte**: Nu se generează nicio factură pentru acest contract deoarece tabelul **Planificare factură** pentru fiecare dintre aceste linii de contract nu au data de 4 octombrie, duminică, ca dată de rulare a facturii.
+- **5 octombrie, luni**: Se generează o factură pentru:
 
     - Lucrarea prototip care include jalonul, dacă este marcat ca **Gata de facturat**.
     - Lucrarea de implementare care include toate tranzacțiile de timp create înainte de data limită a tranzacției de 4 octombrie, duminică, care este marcată ca **Gata de facturat**.
     - Cheltuielile efectuate care includ toate Tranzacțiile de cheltuieli create înainte de data limită a tranzacției de 4 octombrie, duminică, care este marcată ca **Gata de facturat**.
   
-- **La 6 octombrie sau orice altă dată înainte de 19 octombrie** : Nu se generează nicio factură pentru acest contract deoarece tabelul **Planificare factură** pentru fiecare dintre aceste linii de contract nu au data de 6 octombrie sau orice altă dată înainte de 19 octombrie ca dată de rulare a facturii.
-- **19 octombrie, luni** : Se generează o singură factură pentru lucrările de implementare care include toate tranzacțiile de timp create înainte de data limită a tranzacției de 18 octombrie, duminică, care este marcată ca **Gata de facturat**.
-- **2 noiembrie, luni** : Se generează o factură pentru:
+- **La 6 octombrie sau orice altă dată înainte de 19 octombrie**: Nu se generează nicio factură pentru acest contract deoarece tabelul **Planificare factură** pentru fiecare dintre aceste linii de contract nu au data de 6 octombrie sau orice altă dată înainte de 19 octombrie ca dată de rulare a facturii.
+- **19 octombrie, luni**: Se generează o singură factură pentru lucrările de implementare care include toate tranzacțiile de timp create înainte de data limită a tranzacției de 18 octombrie, duminică, care este marcată ca **Gata de facturat**.
+- **2 noiembrie, luni**: Se generează o factură pentru:
 
     - Lucrarea de implementare care include toate tranzacțiile de timp create înainte de data limită a tranzacției de 1 noiembrie, duminică, care este marcată ca **Gata de facturat**.
     - Cheltuielile efectuate care includ toate Tranzacțiile de cheltuieli create înainte de data limită a tranzacției de 1 noiembrie, duminică, care este marcată ca **Gata de facturat**.
 
-- **3 noiembrie, marți** : Se generează o factură pentru lucrarea prototip care include jalonul important pentru 12000 USD, dacă este marcată ca **Gata de facturat**.
+- **3 noiembrie, marți**: Se generează o factură pentru lucrarea prototip care include jalonul important pentru 12000 USD, dacă este marcată ca **Gata de facturat**.
 
 ## <a name="configure-automatic-invoicing"></a>Configurați facturarea automată
 
 Parcurgeți pașii următori pentru a configura o rulare factură automată.
 
-1. În **Project Operations** , accesați **Setări** > **Configurare factură recurentă**.
+1. În **Project Operations**, accesați **Setări** > **Configurare factură recurentă**.
 2. Creați o operațiune de lot și denumiți-o **Operațiuni de proiect de creare facturi**. Numele operațiunii de lot trebuie să includă cuvintele „creare facturi”.
-3. În câmpul **Tip lucrare** , selectați **Fără**. În mod implicit, câmpurile **Frecvența zilnică** și **Este activ** sunt setate la **Da**.
-4. Selectați **Rulați fluxul de lucru**. În caseta de dialog **Căutare înregistrare** , veți vedea trei fluxuri de lucru:
+3. În câmpul **Tip lucrare**, selectați **Fără**. În mod implicit, câmpurile **Frecvența zilnică** și **Este activ** sunt setate la **Da**.
+4. Selectați **Rulați fluxul de lucru**. În caseta de dialog **Căutare înregistrare**, veți vedea trei fluxuri de lucru:
 
 - ProcessRunCaller
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Selectați **ProcessRunCaller** , apoi selectați **Adăugare**.
+5. Selectați **ProcessRunCaller**, apoi selectați **Adăugare**.
 6. În următoarea casetă de dialog, selectați **OK**. Un flux de lucru **Stare de repaus** este urmat de un fux de lucru **Proces**. 
 
 > [!NOTE]
-> De asemenea, puteți selecta **ProcessRunner** în pasul 5. Apoi, când selectați **OK** , un flux de lucru **Proces** este urmat de un flux de lucru **Stare de repaus**.
+> De asemenea, puteți selecta **ProcessRunner** în pasul 5. Apoi, când selectați **OK**, un flux de lucru **Proces** este urmat de un flux de lucru **Stare de repaus**.
 
 Fluxurile de lucru **ProcessRunCaller** și **ProcessRunner** creează facturi. **ProcessRunCaller** apelează **ProcessRunner**. **ProcessRunner** este fluxul de lucru care creează de fapt facturile. Fluxul de lucru trece prin toate liniile de contract pentru care trebuie create facturile și creează facturi pentru acele linii. Pentru a determina liniile de contract pentru care trebuie create facturile, lucrarea analizează datele de rulare a facturii pentru liniile de contract. Dacă liniile de contract care aparțin unui contract au aceeași dată de rulare a facturii, tranzacțiile sunt combinate într-o singură factură care are două linii de factură. Dacă nu există tranzacții pentru care să fie create facturi, operațiunea ignoră crearea unei facturi.
 
-După ce **ProcessRunner** a terminat să ruleze, apelează **ProcessRunCaller** , oferă ora de sfârșit și este închis. **ProcessRunCaller** pornește apoi un cronometru care rulează timp de 24 de ore de la ora de sfârșit specificată. La sfârșitul cronometru, **ProcessRunCaller** este închis.
+După ce **ProcessRunner** a terminat să ruleze, apelează **ProcessRunCaller**, oferă ora de sfârșit și este închis. **ProcessRunCaller** pornește apoi un cronometru care rulează timp de 24 de ore de la ora de sfârșit specificată. La sfârșitul cronometru, **ProcessRunCaller** este închis.
 
 Lucrarea proces de lot pentru crearea facturilor este o lucrare recurentă. Dacă acest proces de lot rulează de mai multe ori, sunt create mai multe instanțe ale lucrării și cauzează erori. De aceea, ar trebui să porniți procesul de lot doar o singură dată și apoi reporniți-l numai dacă se oprește rularea.
 
