@@ -5,41 +5,41 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082644"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123933"
 ---
-# <a name="define-resource-calendars"></a><span data-ttu-id="f0126-103">Definirea calendarelor de resurse</span><span class="sxs-lookup"><span data-stu-id="f0126-103">Define resource calendars</span></span>
+# <a name="define-resource-calendars"></a><span data-ttu-id="8d191-103">Definirea calendarelor de resurse</span><span class="sxs-lookup"><span data-stu-id="8d191-103">Define resource calendars</span></span>
 
-<span data-ttu-id="f0126-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="f0126-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="8d191-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="8d191-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="f0126-105">Fiecare resursă rezervabilă care lucrează la un proiect trebuie să aibă un calendar al orelor de lucru pentru a defini disponibilitatea acestora.</span><span class="sxs-lookup"><span data-stu-id="f0126-105">Each bookable resource working on a project must have a calendar of working hours to define their availability.</span></span> <span data-ttu-id="f0126-106">Orele de lucru pentru o resursă pot fi definite în două moduri:</span><span class="sxs-lookup"><span data-stu-id="f0126-106">Workings hours for a resource can be defined in two ways:</span></span> 
+<span data-ttu-id="8d191-105">Fiecare resursă rezervabilă care lucrează la un proiect trebuie să aibă un calendar al orelor de lucru pentru a defini disponibilitatea acestora.</span><span class="sxs-lookup"><span data-stu-id="8d191-105">Each bookable resource working on a project must have a calendar of working hours to define their availability.</span></span> <span data-ttu-id="8d191-106">Orele de lucru pentru o resursă pot fi definite în două moduri:</span><span class="sxs-lookup"><span data-stu-id="8d191-106">Workings hours for a resource can be defined in two ways:</span></span> 
 
-   - <span data-ttu-id="f0126-107">Definiți regulile de calendar individuale pentru o resursă</span><span class="sxs-lookup"><span data-stu-id="f0126-107">Define individual calendar rules for a resource</span></span>
-   - <span data-ttu-id="f0126-108">Aplicați un șablon de calendar existent pentru resursă</span><span class="sxs-lookup"><span data-stu-id="f0126-108">Apply an existing calendar template for the resource</span></span>
+   - <span data-ttu-id="8d191-107">Definiți regulile de calendar individuale pentru o resursă</span><span class="sxs-lookup"><span data-stu-id="8d191-107">Define individual calendar rules for a resource</span></span>
+   - <span data-ttu-id="8d191-108">Aplicați un șablon de calendar existent pentru resursă</span><span class="sxs-lookup"><span data-stu-id="8d191-108">Apply an existing calendar template for the resource</span></span>
 
-## <a name="define-a-resources-working-hours"></a><span data-ttu-id="f0126-109">Definiți orele de lucru ale unei resurse</span><span class="sxs-lookup"><span data-stu-id="f0126-109">Define a resource's working hours</span></span>
+## <a name="define-a-resources-working-hours"></a><span data-ttu-id="8d191-109">Definiți orele de lucru ale unei resurse</span><span class="sxs-lookup"><span data-stu-id="8d191-109">Define a resource's working hours</span></span>
 
-1. <span data-ttu-id="f0126-110">Pe meniul **Resurse** , selectați **Resurse**.</span><span class="sxs-lookup"><span data-stu-id="f0126-110">On the **Resources** menu, select **Resources**.</span></span>
-2. <span data-ttu-id="f0126-111">Din vizualizarea grilă, selectați aplicația corespunzătoare **Resursă rezervabilă**.</span><span class="sxs-lookup"><span data-stu-id="f0126-111">From the grid view, select the applicable **Bookable Resource**.</span></span>
-3. <span data-ttu-id="f0126-112">Pe pagina **Detalii despre resurse** , selectați fila **Ore de lucru**. În mod implicit, calendarul resurselor rezervabile implicit este programul de lucru al șablonului implicit de oră de lucru definit pentru organizație.</span><span class="sxs-lookup"><span data-stu-id="f0126-112">On the **Resource Details** page, select the **Working Hours** tab. By default, the bookable resources calendar defaults to the working hours of the default work hour template that is defined for the organization.</span></span>
-4. <span data-ttu-id="f0126-113">Pentru a actualiza programul de lucru, faceți clic dreapta pe data de începere a regulii calendaristice propuse care urmează să fie definită.</span><span class="sxs-lookup"><span data-stu-id="f0126-113">To update the working hours, right-click on the start date of the proposed calendar rule to be defined.</span></span> <span data-ttu-id="f0126-114">Utilizați meniul regulii calendarului pentru a defini o regulă calendaristică pentru o anumită zi, restul seriei sau întregul calendar.</span><span class="sxs-lookup"><span data-stu-id="f0126-114">Use the calendar rule menu to define a calendar rule for a specific day, the remainder of the series, or the entire calendar.</span></span>
-5. <span data-ttu-id="f0126-115">După selectarea opțiunii, puteți defini:</span><span class="sxs-lookup"><span data-stu-id="f0126-115">After the option is selected, you can then define:</span></span>
+1. <span data-ttu-id="8d191-110">Pe meniul **Resurse**, selectați **Resurse**.</span><span class="sxs-lookup"><span data-stu-id="8d191-110">On the **Resources** menu, select **Resources**.</span></span>
+2. <span data-ttu-id="8d191-111">Din vizualizarea grilă, selectați aplicația corespunzătoare **Resursă rezervabilă**.</span><span class="sxs-lookup"><span data-stu-id="8d191-111">From the grid view, select the applicable **Bookable Resource**.</span></span>
+3. <span data-ttu-id="8d191-112">Pe pagina **Detalii despre resurse**, selectați fila **Ore de lucru**. În mod implicit, calendarul resurselor rezervabile implicit este programul de lucru al șablonului implicit de oră de lucru definit pentru organizație.</span><span class="sxs-lookup"><span data-stu-id="8d191-112">On the **Resource Details** page, select the **Working Hours** tab. By default, the bookable resources calendar defaults to the working hours of the default work hour template that is defined for the organization.</span></span>
+4. <span data-ttu-id="8d191-113">Pentru a actualiza programul de lucru, faceți clic dreapta pe data de începere a regulii calendaristice propuse care urmează să fie definită.</span><span class="sxs-lookup"><span data-stu-id="8d191-113">To update the working hours, right-click on the start date of the proposed calendar rule to be defined.</span></span> <span data-ttu-id="8d191-114">Utilizați meniul regulii calendarului pentru a defini o regulă calendaristică pentru o anumită zi, restul seriei sau întregul calendar.</span><span class="sxs-lookup"><span data-stu-id="8d191-114">Use the calendar rule menu to define a calendar rule for a specific day, the remainder of the series, or the entire calendar.</span></span>
+5. <span data-ttu-id="8d191-115">După selectarea opțiunii, puteți defini:</span><span class="sxs-lookup"><span data-stu-id="8d191-115">After the option is selected, you can then define:</span></span>
 
-    - <span data-ttu-id="f0126-116">Ziua săptămânii în care se vor aplica programele de lucru.</span><span class="sxs-lookup"><span data-stu-id="f0126-116">The day of the week where the working hours will apply.</span></span>
-    - <span data-ttu-id="f0126-117">Orele de lucru din fiecare zi.</span><span class="sxs-lookup"><span data-stu-id="f0126-117">The working times within each day.</span></span>
-    - <span data-ttu-id="f0126-118">Fusul orar local pentru regula de calendar.</span><span class="sxs-lookup"><span data-stu-id="f0126-118">The time zone for the calendar rule.</span></span>
-    - <span data-ttu-id="f0126-119">Dacă este cazul, pentru regulă se poate specifica și timpul de lucru.</span><span class="sxs-lookup"><span data-stu-id="f0126-119">If applicable, non-working time can also be specified for the rule.</span></span>
+    - <span data-ttu-id="8d191-116">Ziua săptămânii în care se vor aplica programele de lucru.</span><span class="sxs-lookup"><span data-stu-id="8d191-116">The day of the week where the working hours will apply.</span></span>
+    - <span data-ttu-id="8d191-117">Orele de lucru din fiecare zi.</span><span class="sxs-lookup"><span data-stu-id="8d191-117">The working times within each day.</span></span>
+    - <span data-ttu-id="8d191-118">Fusul orar local pentru regula de calendar.</span><span class="sxs-lookup"><span data-stu-id="8d191-118">The time zone for the calendar rule.</span></span>
+    - <span data-ttu-id="8d191-119">Dacă este cazul, pentru regulă se poate specifica și timpul de lucru.</span><span class="sxs-lookup"><span data-stu-id="8d191-119">If applicable, non-working time can also be specified for the rule.</span></span>
 
-## <a name="applying-a-calendar-template-to-a-resource"></a><span data-ttu-id="f0126-120">Aplicarea unui șablon de calendare unei resurse</span><span class="sxs-lookup"><span data-stu-id="f0126-120">Applying a calendar template to a resource</span></span>
+## <a name="applying-a-calendar-template-to-a-resource"></a><span data-ttu-id="8d191-120">Aplicarea unui șablon de calendare unei resurse</span><span class="sxs-lookup"><span data-stu-id="8d191-120">Applying a calendar template to a resource</span></span>
 
-1. <span data-ttu-id="f0126-121">Pe meniul **Resurse** , selectați **Resurse**.</span><span class="sxs-lookup"><span data-stu-id="f0126-121">On the **Resources** menu, select **Resources**.</span></span>
-2. <span data-ttu-id="f0126-122">Din vizualizarea grilă, selectați până la 25 de **Resurse rezervabile** pentru a actualiza.</span><span class="sxs-lookup"><span data-stu-id="f0126-122">From the grid view, select up to 25 **Bookable Resources** to update.</span></span>
-3. <span data-ttu-id="f0126-123">Selectați **Setați Calendar** și o fereastră de dialog vă va solicita cu o listă de șabloane de ore de lucru disponibile.</span><span class="sxs-lookup"><span data-stu-id="f0126-123">Select **Set Calendar** and a dialog will prompt you with a list of available work hour templates.</span></span>
-4. <span data-ttu-id="f0126-124">Selectați șablonul pe care doriți să îl utilizați și apoi selectați **Aplicare**.</span><span class="sxs-lookup"><span data-stu-id="f0126-124">Select the template you want to use, and then select **Apply**.</span></span>
+1. <span data-ttu-id="8d191-121">Pe meniul **Resurse**, selectați **Resurse**.</span><span class="sxs-lookup"><span data-stu-id="8d191-121">On the **Resources** menu, select **Resources**.</span></span>
+2. <span data-ttu-id="8d191-122">Din vizualizarea grilă, selectați până la 25 de **Resurse rezervabile** pentru a actualiza.</span><span class="sxs-lookup"><span data-stu-id="8d191-122">From the grid view, select up to 25 **Bookable Resources** to update.</span></span>
+3. <span data-ttu-id="8d191-123">Selectați **Setați Calendar** și o fereastră de dialog vă va solicita cu o listă de șabloane de ore de lucru disponibile.</span><span class="sxs-lookup"><span data-stu-id="8d191-123">Select **Set Calendar** and a dialog will prompt you with a list of available work hour templates.</span></span>
+4. <span data-ttu-id="8d191-124">Selectați șablonul pe care doriți să îl utilizați și apoi selectați **Aplicare**.</span><span class="sxs-lookup"><span data-stu-id="8d191-124">Select the template you want to use, and then select **Apply**.</span></span>
