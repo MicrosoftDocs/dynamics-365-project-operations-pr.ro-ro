@@ -3,7 +3,7 @@ title: Vizualizați și trimiteți facturi
 description: Cum să vizualizați și să trimiteți facturi în Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 27994c4a14b25d769a0919514906a7be1804dae2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082868"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125778"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Vizualizați și trimiteți facturi (Project Service)
 
@@ -48,7 +48,7 @@ Când creați un proiect, setați frecvența pentru a genera facturi. Puteți vi
   
 2.  Faceți clic pe proiectul pe care doriți să îl facturați.  
   
-3.  Faceți clic pe **Sales** , apoi pe **Factură**.  
+3.  Faceți clic pe **Sales**, apoi pe **Factură**.  
   
 4.  Selectați parametrii pentru tranzacțiile pe care doriți să le facturați, inclusiv data de întrerupere, tipul de element de facturat, unitatea și jalonul. Când ați terminat de selectat parametrii, faceți clic pe **Următorul**.  
   

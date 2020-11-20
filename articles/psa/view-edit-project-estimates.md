@@ -3,7 +3,7 @@ title: Vizualizați și editați estimările proiectului
 description: Cum să vizualizați și să editați estimările proiectului în Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082872"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125868"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Vizualizați și editați estimările proiectului (Project Service)
 
@@ -37,7 +37,7 @@ Cu capacitățile [!INCLUDE[pn_project_service_auto](../includes/pn-project-serv
   
 3.  În bara din partea de sus a ecranului, selectați săgeata în jos de lângă numele proiectului, apoi faceți clic pe **Estimări de proiect**.  
   
-4.  În **Etapă după** , selectați **Efort** , **Cost** sau **Vânzări** pentru a modifica estimările de proiect care să se afișeze.  
+4.  În **Etapă după**, selectați **Efort**, **Cost** sau **Vânzări** pentru a modifica estimările de proiect care să se afișeze.  
   
 5.  Pentru a adăuga sau a șterge cheltuielile, faceți clic pe **Afișați vizualizarea grilă**. Pentru a crea o noua cheltuială, faceți clic pe **Cheltuială nouă**. Pentru a șterge o cheltuială, selectați-o din listă și apoi faceți clic pe **Ștergere cheltuială**. Când ați terminat de adăugat sau de șters cheltuielile, faceți clic pe **Salvare**.  
   

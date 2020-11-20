@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082738"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125733"
 ---
 # <a name="resource-reconciliation-overview"></a>Prezentare generală a reconcilierii resurselor
 
@@ -46,7 +46,7 @@ Pentru fiecare resursă, fila calculează diferența dintre rezervările membrul
 Când vizualizați timpul la nivele mai înalte, celulele din fila **Reconciliere** au un indicator pentru a vă informa că sunt diferențe la niveluri mai joase. Făcând dublu clic într-o celulă, aveți posibilitatea să măriți pentru a vizualiza diferența. Apoi puteți face clic dreapta pentru a micșora. Selectând o resursă și apoi utilizând controlul **Următoarea diferență** pe grila barei de instrumente, puteți trece la următoarea diferență dintre rezervări și atribuiri pentru acea resursă. Apoi puteți utiliza controlul **Diferenței anterioare** pentru a reveni. De asemenea, puteți dezactiva indicatorul de diferență și comportamentul de navigare sub **Setări**.
 
 
-DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări pe pagina **Proiecte** , pe fila **Reconciliere** , selectați deficitul de rezervare și apoi selectați **Extindeți rezervarea**. Apare caseta de dialog **Extindere rezervare** și afișează rezervarea necesară pentru a aborda deficitul resursei. De asemenea, arată rezervările existente ale resursei în toate proiectele sau alte entități care pot fi planificate. Dacă selectați **OK** pentru a crea rezervarea pentru resursă, indiferent de disponibilitatea acelei resurse, este posibil să cauzați o suprarezervare.
+DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări pe pagina **Proiecte**, pe fila **Reconciliere**, selectați deficitul de rezervare și apoi selectați **Extindeți rezervarea**. Apare caseta de dialog **Extindere rezervare** și afișează rezervarea necesară pentru a aborda deficitul resursei. De asemenea, arată rezervările existente ale resursei în toate proiectele sau alte entități care pot fi planificate. Dacă selectați **OK** pentru a crea rezervarea pentru resursă, indiferent de disponibilitatea acelei resurse, este posibil să cauzați o suprarezervare.
 
 Managerul de proiect sau managerul de resurse pot utiliza apoi Panoul de planificare pentru a gestiona orice situații în care o resursă este suprarezervată peste capacitate.
 

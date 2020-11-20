@@ -3,7 +3,7 @@ title: Planificarea unui proiect cu o structură detaliată a proiectului
 description: Cum să planificați un proiect cu o structură detaliată a proiectului în Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082978"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127893"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planificarea unui proiect cu o structură detaliată a proiectului (Project Service)
 
@@ -86,14 +86,14 @@ Veți utiliza următoarele tipuri de activități atunci când creați structura
   
 ### <a name="schedule-attributes"></a>Planificare atribute
 
- - Atribuiți valori pentru **Ore de efort** , **Număr de resurse** , **Data de început** , **Data de sfârșit** și **Durată** pentru a stabili planificarea pentru activitate. 
+ - Atribuiți valori pentru **Ore de efort**, **Număr de resurse**, **Data de început**, **Data de sfârșit** și **Durată** pentru a stabili planificarea pentru activitate. 
  - **Efortul** este o estimare a orelor necesare pentru a finaliza activitata.
  - **Număr de resurse** este o estimare efectuată de managerul proiectului în activitate, pentru a ajuta la realizarea celui mai bun program posibil. 
  - **Duraăa** (în zile) indică numărul de zile de lucru necesare pentru a finaliza activitatea.  
   
 ### <a name="staffing-attributes"></a>Atribute de personal
 
- - **Rol** , **Unitate organizațională de resurse** , **Număr de resurse** și **Resurse** descriu cerințele de personal pentru activitate. 
+ - **Rol**, **Unitate organizațională de resurse**, **Număr de resurse** și **Resurse** descriu cerințele de personal pentru activitate. 
  - **Rol** descrie tipul de resurse necesare pentru a îndeplini activitatea. 
  - **Unitate organizațională de resurse** indică unitatea organizațională din care ar trebui să fie recrutate resurse pentru această activitate; de asemenea, acest lucru afectează estimarea de costuri și vânzări pentru activitate, deoarece este contabilizat atunci când se stabilește prețul de vânzare unitar pentru resursă. 
  - **Resurse** înseamnă o resursă generică sau o resursă denumită, atunci când este găsită una.  

@@ -3,7 +3,7 @@ title: Gestionați proiecte și rezervări în calendarul dvs. Office 365
 description: Cum să gestionați proiecte și rezervări în calendarul dvs. Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082830"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129063"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gestionați proiecte și rezervări în calendarul dvs. (Project Service)
 
@@ -60,7 +60,7 @@ Vedeți întâlnirile personale, rezervările pentru proiect și atribuirile com
   
 3.  Faceți clic pe fila **Sincronizare**.  
   
-4.  Sub **Selectați dacă se permite sincronizarea rezervărilor de resurse cu** , bifați **Sincronizați rezervarea de resurse cu Outlook**.  
+4.  Sub **Selectați dacă se permite sincronizarea rezervărilor de resurse cu**, bifați **Sincronizați rezervarea de resurse cu Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Activați sincronizarea pentru profilul dvs. de utilizator (activitate utilizator)  
   
@@ -70,7 +70,7 @@ Vedeți întâlnirile personale, rezervările pentru proiect și atribuirile com
   
 3.  Faceți clic pe fila **Sincronizare**.  
   
-4.  Sub **Sincronizați rezervarea resurselor cu Outlook** , bifați **Rezervare resurse de sincronizare cu Outlook**.  
+4.  Sub **Sincronizați rezervarea resurselor cu Outlook**, bifați **Rezervare resurse de sincronizare cu Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Importați-vă rezervările personale (activitate utilizator)  
  Puteți importa rezervările personale din calendar în vizualizarea intrărilor de timp din Project Service Automation.  
@@ -83,7 +83,7 @@ Vedeți întâlnirile personale, rezervările pentru proiect și atribuirile com
   
 4. Selectați rezervarea pe care doriți s-o adăugați în vizualizarea intrări de timp Project Service Automation.  
   
-5. În caseta pop-up **Intrare de timp** , selectați opțiunile corespunzătoare pentru a converti rezervarea într-o vizualizare intrare de timp Project Service Automation.  
+5. În caseta pop-up **Intrare de timp**, selectați opțiunile corespunzătoare pentru a converti rezervarea într-o vizualizare intrare de timp Project Service Automation.  
   
 6. Faceți clic pe **Salvare**.  
   

@@ -3,7 +3,7 @@ title: Configurați roluri de resurse
 description: Cum să configurați roluri de resurse în Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082794"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129153"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurați roluri de resurse (Project Service)
 
@@ -41,13 +41,13 @@ Rolurile sunt o parte importantă în planificarea proiectului, atunci când se 
   
 2.  Faceți clic pe **Nou**.  
   
-3.  În zona **General** , introduceți un nume pentru rol în **Nume** , apoi completați celelalte câmpuri după cum este necesar.  
+3.  În zona **General**, introduceți un nume pentru rol în **Nume**, apoi completați celelalte câmpuri după cum este necesar.  
   
 4.  Faceți clic pe **Salvare** pentru a crea înregistrarea, astfel încât să o puteți edita în continuare.  
   
-5.  În zona **Competențe** , faceți clic pe **+** pentru a adăuga o competență.  
+5.  În zona **Competențe**, faceți clic pe **+** pentru a adăuga o competență.  
   
-6.  În panoul **Cerință de competență a rolului** , faceți clic în câmpul **Competență** , pe butonul **Căutare** și selectați o competență.  
+6.  În panoul **Cerință de competență a rolului**, faceți clic în câmpul **Competență**, pe butonul **Căutare** și selectați o competență.  
   
 7.  Selectați o competență pentru acea calificare, apoi faceți clic pe **Salvare**.  
   

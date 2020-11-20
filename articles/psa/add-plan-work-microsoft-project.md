@@ -3,7 +3,7 @@ title: Utilizarea programului de completare Project Service pentru a vă planifi
 description: Acest subiect furnizează informații despre cum se adaugă, se configurează și se utilizează programul de completare Microsoft Project pentru Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082926"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129693"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilizarea programului de completare Project Service Automation pentru a vă planifica munca în Microsoft Project
 
@@ -59,7 +59,7 @@ ms.locfileid: "4082926"
 ## <a name="read-from-a-template"></a>Citirea de pe un șablon  
  Citiți dintr-un șablon creat în [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] și copiat în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] pentru a începe să vă planificați proiectul. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crearea unui șablon de proiect (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  De pe fila **Project Service** , faceți clic pe **Citire** > **Șablon de proiect Project Service Automation**.  
+1.  De pe fila **Project Service**, faceți clic pe **Citire** > **Șablon de proiect Project Service Automation**.  
 
 2.  Alegeți un șablon de proiect din listă și faceți clic pe **Deschidere**.  
 
@@ -78,9 +78,9 @@ ms.locfileid: "4082926"
 
 1.  Din fila Project Service, selectați un rând și faceți clic pe **Găsiți resurse**.  
 
-2.  Pe ecranul **Rezervați resursa** , selectați resursa pe care doriți s-o utilizați pentru proiect.  
+2.  Pe ecranul **Rezervați resursa**, selectați resursa pe care doriți s-o utilizați pentru proiect.  
 
-3.  Faceți clic pe **Rezervare** , apoi pe **OK**.  
+3.  Faceți clic pe **Rezervare**, apoi pe **OK**.  
 
 ## <a name="publish-your-project"></a>Publicarea proiectului  
 Atunci când terminați de planificat proiectul, următorul pas este să importați și să publicați proiectul în [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -95,9 +95,9 @@ Proiectul se va importa în [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Folosirea utilizării**    |    Importurile în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estimări de proiect**.     |
 
 **Pentru a vă importa și a vă publica proiectul**  
-1. De pe fila **Project Service** , faceți clic pe **Publicare** > **Proiect nou Project Service Automation**.  
+1. De pe fila **Project Service**, faceți clic pe **Publicare** > **Proiect nou Project Service Automation**.  
 
-2. În caseta de dialog **Publicați într-un nou proiect din Project Service** , introduceți **Numele proiectului** și selectați **Clientul**.  
+2. În caseta de dialog **Publicați într-un nou proiect din Project Service**, introduceți **Numele proiectului** și selectați **Clientul**.  
 
 3. Opțional, bifați **Legați planul de proiect la Project Service Automation** pentru a lega planul fișierului Project la Project Service Automation.  
 
@@ -139,11 +139,11 @@ Proiectul se va importa în [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Selectați **În documentele Project din Project Service Automation**.  
 
-3. În caseta de dialog **Activați deschiderea în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , selectați **Da** sau **Nu**.  
+3. În caseta de dialog **Activați deschiderea în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, selectați **Da** sau **Nu**.  
 
-   - Dacă faceți clic pe **Da** , veți putea selecta butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** din Project Service Automation, veți putea lansa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] și încărca fișierul Project din biblioteca de documente SharePoint.  
+   - Dacă faceți clic pe **Da**, veți putea selecta butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** din Project Service Automation, veți putea lansa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] și încărca fișierul Project din biblioteca de documente SharePoint.  
 
-   - Dacă faceți clic pe **Nu** , linkul pentru butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nu va funcționa.  
+   - Dacă faceți clic pe **Nu**, linkul pentru butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nu va funcționa.  
 
 4. Fișierul [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] poate fi găsit în [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sub **Documente** pentru respectivul proiect [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -153,20 +153,20 @@ Proiectul se va importa în [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 2. Selectați **În documentele Project din Project Service Automation**.  
 
-3. În caseta de dialog **Activați deschiderea în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , selectați **Da** sau **Nu**.  
+3. În caseta de dialog **Activați deschiderea în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, selectați **Da** sau **Nu**.  
 
-   - Dacă faceți clic pe **Da** , veți putea selecta butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** în Project Service Automation, veți putea lansa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] și încărca fișierul Project din biblioteca de documente SharePoint.  
+   - Dacă faceți clic pe **Da**, veți putea selecta butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** în Project Service Automation, veți putea lansa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] și încărca fișierul Project din biblioteca de documente SharePoint.  
 
-   - Dacă faceți clic pe **Nu** , linkul pentru butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nu va funcționa.  
+   - Dacă faceți clic pe **Nu**, linkul pentru butonul **Deschideți în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** nu va funcționa.  
 
 4. Fișierul [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] poate fi găsit în [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sub **Documente** pentru respectivul proiect [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="publish--your-project-as-a-template"></a>Publicarea proiectului ca șablon  
  Puteți să vă salvați proiectul și să-l refolosiți dacă îl salvați ca șablon de proiect în [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Șabloanele de proiect sunt planuri de proiect reutilizabile din [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Crearea unui șablon de proiect (Project Service Automation)](../psa/create-project-template.md)  
 
-1. De pe fila **Project Service** , faceți clic pe **Publicare** > **Șablon proiect nou Project Service Automation**.  
+1. De pe fila **Project Service**, faceți clic pe **Publicare** > **Șablon proiect nou Project Service Automation**.  
 
-2. În caseta de dialog **Publicați într-un nou proiect din șablonul Project Service** , introduceți **Numele șablonului de proiect**.  
+2. În caseta de dialog **Publicați într-un nou proiect din șablonul Project Service**, introduceți **Numele șablonului de proiect**.  
 
 3. Opțional, bifați **Legați planul de proiect la Project Service Automation** pentru a lega fișierul Project la [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

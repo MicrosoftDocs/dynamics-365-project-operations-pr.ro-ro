@@ -3,7 +3,7 @@ title: Ce este nou sau schimbat în Project Service Automation versiunea actuali
 description: Acest subiect listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea actualizată 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082748"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126588"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, versiunea actualizată 24, V3
 
@@ -67,7 +67,7 @@ S-au remediat următoarele probleme:
 
 S-au remediat următoarele probleme:
 
-- În **Planificare proiect** , la schimbarea de la **Manual** la **Auto** , salvarea automată nu se finalizează.
+- În **Planificare proiect**, la schimbarea de la **Manual** la **Auto**, salvarea automată nu se finalizează.
 - Costurile cheltuielilor nu ar trebui să se calculeze în raport cu varianța pe **Grila de urmărire a proiectului**.
 - Comportament neconstant pentru coloanele **Etichetă estimativă** în timpul încărcării versus schimbarea tipului **Fază de timp**.
 - Este posibil ca costul real al unui proiect să nu reflecte totalurile din **Valori reale**.

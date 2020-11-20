@@ -3,7 +3,7 @@ title: Cum atribui o resursă care se poate rezerva unei activități în aplica
 description: Prezentare generală a modurilor în care puteți atribui resurse care pot fi rezervate.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082984"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125193"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Cum atribui o resursă care se poate rezerva unei sarcină în aplicația web (aplicația Project Service v2.x)?
 
@@ -51,7 +51,7 @@ Cu această metodă adăugați o resursă la echipa proiectului și apoi atribui
     - **După ore - Distribuiți uniform** rezervă resursa pentru un anumit număr de ore, distribuind-o uniform pe zi intre datele de început și sfârșit indicate.
     - **După ore - Încărcare frontală** rezervă resursa pentru un anumit număr de ore, încărcând frontal timpul pe zi între datele de început și sfârșit indicate.
 
-    Nu selectați **Niciuna** , deoarece acest lucru adaugă resursa la echipă, dar nu creează rezervări care să absoarbă capacitatea resursei.
+    Nu selectați **Niciuna**, deoarece acest lucru adaugă resursa la echipă, dar nu creează rezervări care să absoarbă capacitatea resursei.
 5.  Selectați **Salvare**.
 
     Rețineți că orele rezervării trebuie să fie suficiente pentru a acoperi orele de efort si intervalele de dată de ale sarcinilor pentru care atribuiți această resursă. În cazul în care acestea nu sunt aliniate, nu puteți asocia resursa la sarcină.

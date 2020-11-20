@@ -3,7 +3,7 @@ title: Urmărirea stării unui proiect
 description: Cum să urmăriți starea unui proiect în Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082882"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127848"
 ---
 # <a name="track-a-projects-status-project-service"></a>Urmărirea stării unui proiect (Project Service)
 
@@ -40,7 +40,7 @@ Pe măsură ce angajamentul progreseaz, etapele proiectului se actualizează pen
 |  **Ofertă**   |      Când asociați un proiect la o ofertă sau creați unul de la o ofertă, faza proiectului este setată la **Ofertă** și datele de început și de sfârșit estimate sunt actualizate, de asemenea. Atunci proiectul este în faza de ofertă, detaliile ofertei se afișează pe fila **Vânzări** din pagina **Proiect**.      |
 |   **Plan**   |                                     Atunci când câștigați o ofertă asociată cu un proiect și atunci când angajamentul progresează la faza de contractul, faza proiectului se actualizează la **Plan**. Detaliile contractului se afișează în fila **Vânzări** din pagina **Proiect**.                                      |
 | **Terminată** |                    Când proiectul este terminat, puteți comuta faza la **Terminată**. Când faza de proiect este setată la Terminată, se înțelege că munca este 100% completă, dar proiectul este menținut deschis pentru orice timp de așteptare sau intrări de cheltuieli ce se vor înregistra.                     |
-|  **Închidere**   |           Atunci când au fost înregistrate toate tranzacțiile pentru proiect și nu vă așteptați să mai fie și altele înregistrate, puteți seta manual etapa la **Închidere**. Când proiectul este setat la **Închidere** , nu mai puteți înregistra tranzacții în proiect și proiectul va fi doar în citire.           |
+|  **Închidere**   |           Atunci când au fost înregistrate toate tranzacțiile pentru proiect și nu vă așteptați să mai fie și altele înregistrate, puteți seta manual etapa la **Închidere**. Când proiectul este setat la **Închidere**, nu mai puteți înregistra tranzacții în proiect și proiectul va fi doar în citire.           |
 
 ## <a name="to-track-a-projects-status"></a>Pentru a urmări starea unui proiect  
 

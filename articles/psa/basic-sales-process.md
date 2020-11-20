@@ -3,7 +3,7 @@ title: Procese vânzări
 description: Acest subiect oferă informații despre procesele de vânzări de bază.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082910"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129333"
 ---
 # <a name="sales-processes"></a>Procese vânzări
 
@@ -70,12 +70,12 @@ Aceste șase etape sunt reprezentate de ghilimelele unghiulare (\>) pe care le s
  
 Organizația dvs. poate utiliza entități diferite pentru a reprezenta aceeași tranzacție, pe măsură ce aceasta evoluează. La începutul procesului de vânzări, o tranzacție este reprezentată de entitatea Oportunitate. Pe măsură ce trece timpul și apar mai multe detalii, este posibil să utilizați estimări de nivel înalt pentru a crea una sau mai multe oferte. Dacă una dintre aceste oferte este revizuită de către participanții direct interesați interni și ai clienților, entitatea Ofertă reprezintă tranzacția. După ce clientul acceptă oferta, un contract de proiect sau o SL reprezintă tranzacția. Pentru a sprijini acest comportament, FB-urile sunt structurate astfel încât fiecare etapă din proces este legată la un tabel de baze de date diferit.
 
-Etapa **Calificare** din procesul de vânzări poate fi susținută de o entitate Oportunitate. Etapele **Estimare** și **Recenzie internă** pot fi susținute de o entitate Ofertă. Etapele **Contract** , **Livrare** și **Închidere** pot fi susținute de o entitate Contract de proiect.
+Etapa **Calificare** din procesul de vânzări poate fi susținută de o entitate Oportunitate. Etapele **Estimare** și **Recenzie internă** pot fi susținute de o entitate Ofertă. Etapele **Contract**, **Livrare** și **Închidere** pot fi susținute de o entitate Contract de proiect.
 
 Pe măsură ce faceți tranzacțiile să avanseze prin etape, vi se solicită să creați înregistrarea de entitate corespunzătoare pentru a vă ajuta și ghida prin proces. Etapele pot fi condiționate. De exemplu, dacă aveți nevoie de o revizuire internă a unei oferte numai dacă oferta utilizează o listă de prețuri particularizată, aveți posibilitatea să configurați această condiție în stadiul corespunzător al procesului de afaceri. Etapa **Recenzie internă** este apoi afișată numai pentru ofertele care utilizează o listă de prețuri personalizată. Pentru toate celelalte tranzacții și oferte, etapa **Estimare** este urmată de etapa **Contract**.
 
 > [!NOTE]
-> PSA are anumite pagini pentru entitățile Oportunitate, Ofertă, Comandă și Factură. Trebuie să creați oportunități de servicii de proiecte, oferte, comenzi și facturi utilizând paginile de informații ale proiectului pentru aceste entități. Dacă utilizați o altă pagină pentru a crea o înregistrare, nu veți putea deschide înregistrarea din pagina **Informații proiect**. Dacă doriți să deschideți o înregistrare din pagina **Informații proiect** , trebuie să ștergeți înregistrarea și să o recreați utilizând pagina **Informații proiect**. În pagina **Informații proiect** , logica de business pentru fiecare dintre aceste tipuri de entități asigură faptul că câmpul **Tip** al înregistrării este setat corect și toate conceptele obligatorii sunt inițializate corect.
+> PSA are anumite pagini pentru entitățile Oportunitate, Ofertă, Comandă și Factură. Trebuie să creați oportunități de servicii de proiecte, oferte, comenzi și facturi utilizând paginile de informații ale proiectului pentru aceste entități. Dacă utilizați o altă pagină pentru a crea o înregistrare, nu veți putea deschide înregistrarea din pagina **Informații proiect**. Dacă doriți să deschideți o înregistrare din pagina **Informații proiect**, trebuie să ștergeți înregistrarea și să o recreați utilizând pagina **Informații proiect**. În pagina **Informații proiect**, logica de business pentru fiecare dintre aceste tipuri de entități asigură faptul că câmpul **Tip** al înregistrării este setat corect și toate conceptele obligatorii sunt inițializate corect.
 
 > ![Informații despre proiect pentru o nouă comandă](media/basic-guide-4.png)
  

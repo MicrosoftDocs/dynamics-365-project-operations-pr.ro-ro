@@ -3,7 +3,7 @@ title: Trimiterea solicitărilor de resurse
 description: Cum se trimit solicitările de resurse în Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082888"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126903"
 ---
 # <a name="submit-resource-requests-project-service"></a>Trimiterea solicitărilor de resurse (Project Service)
 
@@ -41,11 +41,11 @@ Odată ce ați câștigat un contract de proiect, veți avea nevoie de personal 
   
 5.  Pentru a rezerva ferm o resursă în schimb, selectați rolul și apoi faceți clic pe **Rezervare fermă**. Acest lucru afișează o vizualizare calendar cu toate resursele și disponibilitatea lor, cu o codificare color ce vă oferă o descriere vizuală a stării de rezervare a unei resurse. Efectuați una din următoarele acțiuni pentru a optimiza căutarea:  
   
-    -   Selectați o vizualizare sau o ordine de sortare din partea de sus a ecranului. Puteți selecta, de asemenea, dacă să se afișeze disponibilitatea pentru **Zi** , **Săptămână** sau **Lună** și să utilizați săgețile pentru a vizualiza perioada anterioară sau următoare. Utilizați caseta de căutare pentru a găsi o resursă specifică.  
+    -   Selectați o vizualizare sau o ordine de sortare din partea de sus a ecranului. Puteți selecta, de asemenea, dacă să se afișeze disponibilitatea pentru **Zi**, **Săptămână** sau **Lună** și să utilizați săgețile pentru a vizualiza perioada anterioară sau următoare. Utilizați caseta de căutare pentru a găsi o resursă specifică.  
   
     -   Faceți clic pe **Opțiuni** pentru a schimba ceea ce se afișează. De exemplu, aveți posibilitatea să afișați o legendă care să afișeze schema de culori pentru diferite tipuri de rezervari, sau puteți alege să afișați numai un anumit tip de rezervare (de exemplu, rezervare fermă sau permisivă).  
   
-    -   Faceți clic pe **Filtru** pentru a afișa panoul **Filtru** , care vă permite să filtrați rezultatele după unitatea organizațională, după rol, după capacitate sau după alte atribute.  
+    -   Faceți clic pe **Filtru** pentru a afișa panoul **Filtru**, care vă permite să filtrați rezultatele după unitatea organizațională, după rol, după capacitate sau după alte atribute.  
   
     -   În calendarul pentru resursa pe care doriți să o rezervați, selectați perioadă de timp pentru a rezerva resursa și fie faceți clic pe **Rezervare** pentru a rezerva resursa, fie faceți clic pe **Propunere rezervare** ca să propuneți rezervarea și să o dați solicitantului pentru a o aproba.  
   

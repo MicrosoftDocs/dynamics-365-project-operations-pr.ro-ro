@@ -3,7 +3,7 @@ title: Ce este nou sau schimbat în Project Service Automation versiunea actuali
 description: Acest subiect listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea actualizată 20, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082745"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126768"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, versiunea actualizată 20, V3
 
@@ -48,7 +48,7 @@ S-au remediat următoarele probleme:
 
 S-au remediat următoarele probleme:
 
-- Pe formularul **Contract** , dublul clic pe **Creați factură** creează două facturi pentru o singură înregistrare de date reale.
+- Pe formularul **Contract**, dublul clic pe **Creați factură** creează două facturi pentru o singură înregistrare de date reale.
 - În Internet Explorer 11, utilizatorii nu pot crea intrări de cheltuieli.
 - Inversarea costurilor și inversarea Cifrelor reale din vânzările nefacturate nu sunt legate.
 - Butonul **Reîmprospătați valorile reale** de pe formularul **Proiect** nu reîmprospătează **Activitate ore efective**.
@@ -59,4 +59,4 @@ S-au remediat următoarele probleme:
 - Valorile grupului unitar și ale unităților nu implicit corect pentru categoriile de cheltuieli din **Detalii linie contract** și formulare **Detalii despre linie de ofertă**.
 - Listele **Preț cost unitate organizațională** permit suprapunerea efectivității datei.
 - Utilizatorii nu au voie să schimbe **OrgUnit** când tipul de comandă nu este bazat pe lucru, deoarece va duce la o eroare nulă de excepție de referință.
-- Când încercați să navigați din formularul **Detalii despre linie de ofertă** , înapoi la fila **Oferta** , formularul reîmprospătează și afișează fila **Rezumat**.
+- Când încercați să navigați din formularul **Detalii despre linie de ofertă**, înapoi la fila **Oferta**, formularul reîmprospătează și afișează fila **Rezumat**.

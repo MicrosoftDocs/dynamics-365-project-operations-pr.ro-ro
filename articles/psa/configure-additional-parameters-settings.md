@@ -3,7 +3,7 @@ title: Configurați setările parametrilor suplimentari
 description: Cum să configurați setările de parametru suplimentare în Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082796"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129378"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurarea setărilor de parametru suplimentare (Project Service)
 
@@ -54,9 +54,9 @@ Pentru a seta parametrii de proiect:
   
 2. Faceți clic pe setarea de parametru pe care doriți s-o configurați (cea pe care ați creat-o când ați instalat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]) sau faceți clic pe **Nou** pentru a crea una nouă.  
   
-3. În zona **General** , setați toate opțiunile pentru parametrii de proiect.  
+3. În zona **General**, setați toate opțiunile pentru parametrii de proiect.  
   
-4. În zona **Listă de prețuri** , faceți clic pe **+** pentru a adăuga o listă de prețuri, selectați o listă de prețuri din lista verticală **Lista de prețuri pentru parametrii de proiect** , apoi faceți clic pe **Salvare**.  
+4. În zona **Listă de prețuri**, faceți clic pe **+** pentru a adăuga o listă de prețuri, selectați o listă de prețuri din lista verticală **Lista de prețuri pentru parametrii de proiect**, apoi faceți clic pe **Salvare**.  
   
 5. Faceți clic pe butonul **Salvare** din colțul din dreapta jos al ecranului.  
 

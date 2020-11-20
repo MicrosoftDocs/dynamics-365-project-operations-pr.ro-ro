@@ -3,7 +3,7 @@ title: Gestionarea solicitărilor de resurse
 description: Cum se gestionează solicitările de resurse în Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082795"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129018"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gestionarea solicitărilor de resurse (Project Service)
 
@@ -37,11 +37,11 @@ Managerii de conturi și managerii de proiect solicită în mod regulat resurse 
   
     Efectuați una din următoarele acțiuni pentru a optimiza căutarea:  
   
-   -   Selectați o vizualizare sau o ordine de sortare din partea de sus a ecranului. Puteți selecta, de asemenea, dacă să se afișeze disponibilitatea pentru **Zi** , **Săptămână** sau **Lună** și să utilizați săgețile pentru a vizualiza perioada anterioară sau următoare. Utilizați caseta de căutare pentru a găsi o resursă specifică.  
+   -   Selectați o vizualizare sau o ordine de sortare din partea de sus a ecranului. Puteți selecta, de asemenea, dacă să se afișeze disponibilitatea pentru **Zi**, **Săptămână** sau **Lună** și să utilizați săgețile pentru a vizualiza perioada anterioară sau următoare. Utilizați caseta de căutare pentru a găsi o resursă specifică.  
   
    -   Faceți clic pe **Opțiuni** pentru a schimba ceea ce se afișează. De exemplu, aveți posibilitatea să afișați o legendă care să afișeze schema de culori pentru diferite tipuri de rezervari, sau puteți alege să afișați numai un anumit tip de rezervare (de exemplu, rezervare fermă sau permisivă).  
   
-   -   Faceți clic pe **Filtru** pentru a afișa panoul **Filtru** , care vă permite să filtrați rezultatele după unitatea organizațională, după rol, după capacitate sau după alte atribute.  
+   -   Faceți clic pe **Filtru** pentru a afișa panoul **Filtru**, care vă permite să filtrați rezultatele după unitatea organizațională, după rol, după capacitate sau după alte atribute.  
   
        ![Ecran de solicitare de resurse Project Service](../psa/media/project-service-resource-request-screen.png "Ecran de solicitare de resurse Project Service")  
   

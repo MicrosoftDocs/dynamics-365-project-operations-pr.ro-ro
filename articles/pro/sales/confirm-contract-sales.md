@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082916"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128298"
 ---
 # <a name="confirm-a-project-contract"></a>Confirmarea unui contract de proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Un contract de proiect în Dynamics 365 Project Operations poate fi activ cu un motiv de **Confirmat** , sau închis cu un motiv de **Pierdut**. Când confirmați un contract de proiect, starea se actualizează de la **Schiță** la **Activ** iar motivul de stare este **Confirmat**. Un contract activ sau închis nu poate fi editat sau redeschis. 
+Un contract de proiect în Dynamics 365 Project Operations poate fi activ cu un motiv de **Confirmat**, sau închis cu un motiv de **Pierdut**. Când confirmați un contract de proiect, starea se actualizează de la **Schiță** la **Activ** iar motivul de stare este **Confirmat**. Un contract activ sau închis nu poate fi editat sau redeschis. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Impactul financiar al confirmării unui contract de proiect
 

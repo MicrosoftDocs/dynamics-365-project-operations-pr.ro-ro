@@ -3,7 +3,7 @@ title: Ce este nou sau schimbat în Project Service Automation versiunea actuali
 description: Acest subiect listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea actualizată 17, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082752"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126817"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation, versiunea actualizată 17, V3
 
@@ -52,6 +52,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
 **Sales**
 
 - Soluționat: **Invoice.PreValidateInvoiceUpdate** gestionează acum scenariul realocării proprietarilor de înregistrări în mod corespunzător.
-- Soluționat: Când clasa de tranzacție este **Timp** , **UnitGroup** este needitabil pentru toate entitățile inclusiv, **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** , și **ContractLineDetails**. În orice caz, **Unitate** este needitabil doar pentru **JournalLine** și **InvoiceLineDetails**.
+- Soluționat: Când clasa de tranzacție este **Timp**, **UnitGroup** este needitabil pentru toate entitățile inclusiv, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, și **ContractLineDetails**. În orice caz, **Unitate** este needitabil doar pentru **JournalLine** și **InvoiceLineDetails**.
 
 

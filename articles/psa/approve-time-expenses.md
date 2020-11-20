@@ -3,7 +3,7 @@ title: Aprobați timpul și cheltuielile
 description: Cum să aprobați timpul și cheltuielile în Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082974"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127128"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Aprobați timpul și cheltuielile (Project Service)
 
@@ -35,7 +35,7 @@ După ce consultanții introduc timpul și cheltuielile pentru un proiect, trebu
   
 2.  Faceți clic pe element pentru a aproba.  
   
-3.  În filele **Intrări de timp** , **Intrări de cheltuieli** și **Absență/Vacanță** , revizuiți fiecare element și faceți modificările necesare.  
+3.  În filele **Intrări de timp**, **Intrări de cheltuieli** și **Absență/Vacanță**, revizuiți fiecare element și faceți modificările necesare.  
   
 4.  Pentru a aproba un element, selectați-l și faceți clic pe **Aprobare**. Puteți să selectați și să aprobați mai multe elemente deodată.  
   

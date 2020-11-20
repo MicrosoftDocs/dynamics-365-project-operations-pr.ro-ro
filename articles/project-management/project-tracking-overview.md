@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082647"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127379"
 ---
 # <a name="project-tracking-overview"></a>Prezentare generală a urmăririi proiectelor
 
@@ -25,10 +25,10 @@ Necesitatea de a urmări progresele în raport cu o planificare variază în fun
 
 Vizualizarea **Urmărirea efortului** urmărește progresul activităților din planificare prin compararea orelor de efort efective petrecute pe o activitate cu orele de efort planificate ale activității. Dynamics 365 Project Operations utilizează următoarele formule pentru a calcula măsurătorile de urmărire:
 
-- **Procent progres** : efortul real petrecut până în prezent ÷ cost estimat la finalizare (EAC) 
-- **Estimare pentru a finaliza (ETC)** : efort planificat – efortul real petrecut până în prezent 
-- **EAC** : efortul rămas + efortul real depus până în prezent 
-- **Varianța preconizată a efortului** : efort planificat – EAC
+- **Procent progres**: efortul real petrecut până în prezent ÷ cost estimat la finalizare (EAC) 
+- **Estimare pentru a finaliza (ETC)**: efort planificat – efortul real petrecut până în prezent 
+- **EAC**: efortul rămas + efortul real depus până în prezent 
+- **Varianța preconizată a efortului**: efort planificat – EAC
 
 Project Operations prezintă o proiecție a varianței efortului pe activitate. În cazul în care EAC este mai mult decât efortul planificat, activitatea este proiectată să dureze mai mult timp decât a fost planificat inițial și este în urmă. În cazul în care EAC este mai puțin decât efortul planificat, activitatea este proiectată să dureze mai puțin timp decât a fost planificat inițial și este înainte.
 
@@ -60,10 +60,10 @@ Vizualizarea **Urmărirea costurilor** compară costul real care a fost cheltuit
 > [!NOTE]
 > Această vizualizare afișează numai costurile cu munca și nu include costurile din estimările de cheltuieli. Project Operations utilizează următoarele formule pentru a calcula măsurătorile de urmărire:
 
-- **Procent din costul consumat** : ost real cheltuit până în prezent ÷ costul estimat la finalizare
-- **Cost pentru a finaliza (CTC)** : cost planificat – cost real cheltuit până în prezent
-- **EAC** : cost rămas + cost real cheltuit până acum
-- **Varianța costurilor proiectate** : cost planificat – EAC
+- **Procent din costul consumat**: ost real cheltuit până în prezent ÷ costul estimat la finalizare
+- **Cost pentru a finaliza (CTC)**: cost planificat – cost real cheltuit până în prezent
+- **EAC**: cost rămas + cost real cheltuit până acum
+- **Varianța costurilor proiectate**: cost planificat – EAC
 
 Pe activitate este afișată o proiecție a variației de cost. În cazul în care EAC este mai mult decât costul planificat, activitatea este proiectată să coste mai mult timp decât a fost planificat inițial. Prin urmare, este în tendință peste buget. În cazul în care EAC este mai puțin decât costul planificat, activitatea este proiectată să coste mai puțin decât a fost planificat inițial. Prin urmare, este în tendință sub buget.
 

@@ -3,7 +3,7 @@ title: Prezentare date reale
 description: Acest subiect oferă informații despre valorile reale ale proiectului.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082994"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129783"
 ---
 # <a name="actuals-overview"></a>Prezentare date reale
 
@@ -39,7 +39,7 @@ Valorile reale reprezintă volumul de lucru care a fost finalizat pe un proiect.
 
 Logica pentru introducerea prețurilor implicite se află în linia de jurnal. Toate valorile de câmp dintr-o intrare de timp sunt copiate în linia de jurnal. Aceste câmpuri includ data tranzacției, linia de contract la care este mapat proiectul și rezultatul privind moneda din lista de prețuri corespunzătoare. 
 
-Câmpurile care afectează prețurile implicite, cum ar fi **Rol** și **Unitate organizațională** , determină introducerea implicită a unui preț corespunzător în linia de jurnal. Dacă adăugați un câmp particularizat în intrarea de timp și doriți ca valoarea câmpului să fie propagată în valorile reale, creați câmpul în entitatea Valori reale și utilizați mapări de câmp pentru a copia câmpul din intrarea de timp în valoarea reală.
+Câmpurile care afectează prețurile implicite, cum ar fi **Rol** și **Unitate organizațională**, determină introducerea implicită a unui preț corespunzător în linia de jurnal. Dacă adăugați un câmp particularizat în intrarea de timp și doriți ca valoarea câmpului să fie propagată în valorile reale, creați câmpul în entitatea Valori reale și utilizați mapări de câmp pentru a copia câmpul din intrarea de timp în valoarea reală.
 
 ## <a name="submitting-an-expense-entry"></a>Remiterea unei intrări de cheltuieli
 

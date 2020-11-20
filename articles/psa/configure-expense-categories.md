@@ -3,7 +3,7 @@ title: Configurați categoriile de cheltuieli
 description: Cum să configurați categoriile de cheltuieli în Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082768"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129288"
 ---
 # <a name="configure-expense-categories-project-service"></a>Configurați categoriile de cheltuieli (Project Service)
 
@@ -37,7 +37,7 @@ Fiecare categorie de cheltuieli poate avea propriul grup de unități și unită
   
 2.  Faceți clic pe **Nou**.  
   
-3.  În zona **General** , completați câmpurile după cum este necesar. Este o practică bună să configurați următoarele categorii de cheltuieli la un nivel minim:  
+3.  În zona **General**, completați câmpurile după cum este necesar. Este o practică bună să configurați următoarele categorii de cheltuieli la un nivel minim:  
   
     -   Biletele de avion  
   

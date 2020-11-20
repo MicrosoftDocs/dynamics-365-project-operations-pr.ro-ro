@@ -3,7 +3,7 @@ title: Rezervați resurse denumite din cerințele de resurse
 description: Acest subiect furnizează informații despre rezervarea de resurse denumite pentru o cerință de resurse generice.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083001"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125913"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezervați resurse denumite din cerințele de resurse
 
@@ -31,14 +31,14 @@ ms.locfileid: "4083001"
 
 Aveți posibilitatea să rezervați o resursă denumită pentru a înlocui resursa generică care are o cerință de resurse.
 
-1. În Project Service Automation (PSA), pe pagina **Proiecte** , faceți clic pe fila **Echipă**.
+1. În Project Service Automation (PSA), pe pagina **Proiecte**, faceți clic pe fila **Echipă**.
 2. Selectați resursa generică care are o cerință de resurse din listă și apoi faceți clic pe **Rezervare**. Sau, deschideți cerința de resurse și apoi faceți clic pe **Rezervare**.
 
 
 ![Rezervarea unui membru generic al echipei](media/RM-how-to-14.png)
 
 
-3. În pagina **Asistent de planificare** , selectați o resursă denumită pentru a rezerva în echipa de proiect și apoi faceți clic pe **Rezervare**.
+3. În pagina **Asistent de planificare**, selectați o resursă denumită pentru a rezerva în echipa de proiect și apoi faceți clic pe **Rezervare**.
 
 ![Rezervarea unui membru generic al echipei folosind Asistentul de planificare](media/RM-how-to-15.png)
 

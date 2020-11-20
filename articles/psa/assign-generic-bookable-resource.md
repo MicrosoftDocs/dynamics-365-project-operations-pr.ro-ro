@@ -3,7 +3,7 @@ title: Atribuirea de resurse generice rezervabile unei activități și unei ech
 description: Acest subiect oferă informații despre rezervarea resurselor generice pentru activități și echipe de proiect.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082811"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127083"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Atribuiți resurse generice care se pot rezerva unei activități și generați cerințe de resurse 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082811"
 
 Pe lângă rezervarea și atribuirea resurselor denumite sau reale proiectului dvs., aveți posibilitatea să atribuiți resurse generice activităților de proiect. Aceste resurse pot servi ca substituenți pentru resursele numite până când sunteți gata să alocați ca personal pentru proiectul dvs. resurse numite. 
 
-1. În Project Service Automation (PSA), deschideți pagina **Proiect** și în fila **Planificare** , introduceți numele de poziție al resursei generice în celula **Resursă** a planificării. Sau, aveți posibilitatea să faceți clic pe pictograma **Resursă** din celulă pentru a deschide selectorul de resurse, apoi introduceți numele resursei generice pe care doriți să o creați.
+1. În Project Service Automation (PSA), deschideți pagina **Proiect** și în fila **Planificare**, introduceți numele de poziție al resursei generice în celula **Resursă** a planificării. Sau, aveți posibilitatea să faceți clic pe pictograma **Resursă** din celulă pentru a deschide selectorul de resurse, apoi introduceți numele resursei generice pe care doriți să o creați.
 
 ![Crearea și atribuirea unui membru al echipei generice](media/RM-how-to-9.png)
 

@@ -3,7 +3,7 @@ title: Rezervări resurse și care este legătura sa cu atribuirile sarcinilor
 description: Acest subiect oferă informații despre modul în care se gestionează resursele denumite, rezervările de resurse și atribuirile de activități și modul în care acestea se asociază între ele.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082983"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125020"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Rezervări resurse și care este legătura sa cu atribuirile sarcinilor
 

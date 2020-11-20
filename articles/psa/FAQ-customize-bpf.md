@@ -2,7 +2,7 @@
 title: Cum particularizez fluxul de business Fazele proiectului?
 description: Generalități despre particularizarea fluxului de business Fazele proiectului.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082982"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125058"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Cum particularizez fluxul de business Fazele proiectului?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Există o limitare cunoscută în versiunile anterioare ale aplicației Project Service, și anume faptul că numele de faze în fluxul de business Fazele Proiectului trebuie să corespundă exact numele așteptate în engleză ( **Quote** , **Plan** , **Close** ). În caz contrar, logica de business, care se bazează pe numele de faze din limba engleză, nu funcționează conform așteptărilor. De aceea nu vedeți acțiuni familiare cum ar fi **Comutare proces** sau **Editare proces** disponibile pe formularul de proiect iar particularizarea fluxului de business nu este încurajată. 
+Există o limitare cunoscută în versiunile anterioare ale aplicației Project Service, și anume faptul că numele de faze în fluxul de business Fazele Proiectului trebuie să corespundă exact numele așteptate în engleză (**Quote**, **Plan**, **Close**). În caz contrar, logica de business, care se bazează pe numele de faze din limba engleză, nu funcționează conform așteptărilor. De aceea nu vedeți acțiuni familiare cum ar fi **Comutare proces** sau **Editare proces** disponibile pe formularul de proiect iar particularizarea fluxului de business nu este încurajată. 
 
 Această limitare a fost tratată în versiunea 2.4.5.48 și ulterioară. Acest articol oferă soluții sugerate în cazul în care aveți nevoie să particularizați fluxul de business implicit pentru versiunile anterioare.  
 
@@ -61,7 +61,7 @@ Dacă actualizarea nu este posibilă, aveți posibilitatea să particularizați 
 
 ![Captură de ecran cu adăugarea de faze la configurația implicită](media/FAQ-Customize-BPF-1.png)
  
-2. Creați-vă propriul flux de business și faceți din acesta fluxul de business principal pentru entitatea de proiect, lucru care vă permite să aveți orice nume de fază doriți. Cu toate acestea, dacă doriți să utilizați aceleași faze de proiect standard **Ofertă** , **Planificare** și **Închidere** , trebuie să faceți unele particularizări care sunt implicate de numele de fază personalizate. Logica mai complexă se află la închiderea proiectului, pe care îl puteți încă declanșa prin simpla dezactivare a înregistrării proiectului.
+2. Creați-vă propriul flux de business și faceți din acesta fluxul de business principal pentru entitatea de proiect, lucru care vă permite să aveți orice nume de fază doriți. Cu toate acestea, dacă doriți să utilizați aceleași faze de proiect standard **Ofertă**, **Planificare** și **Închidere**, trebuie să faceți unele particularizări care sunt implicate de numele de fază personalizate. Logica mai complexă se află la închiderea proiectului, pe care îl puteți încă declanșa prin simpla dezactivare a înregistrării proiectului.
 
 ![Particularizare BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Pentru a vă crea propriul flux de business pentru entitatea de proiect, faceți
 
   ![Creare proces](media/FAQ-Customize-BPF-3.png)
 
-2. Utilizați Proiectantul de procese pentru a crea numele de fază pe care le doriți. Dacă doriți aceeași funcționalitate cu fazele implicite pentru **Ofertă** , **Planificare** și **Închidere** , va trebui să creați acest lucru pe baza numelor de fază ale fluxului dvs. de business personalizat.
+2. Utilizați Proiectantul de procese pentru a crea numele de fază pe care le doriți. Dacă doriți aceeași funcționalitate cu fazele implicite pentru **Ofertă**, **Planificare** și **Închidere**, va trebui să creați acest lucru pe baza numelor de fază ale fluxului dvs. de business personalizat.
 
    ![Captură de ecran cu Proiectantul de Procese utilizat pentru personalizarea BPF](media/FAQ-Customize-BPF-4.png) 
 

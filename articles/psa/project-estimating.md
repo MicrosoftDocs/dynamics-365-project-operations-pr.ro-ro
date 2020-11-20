@@ -3,7 +3,7 @@ title: Costuri și venit de proiect
 description: Acest subiect furnizează informații despre estimarea costurilor și veniturilor proiectului.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082826"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127983"
 ---
 # <a name="project-costs-and-revenue"></a>Costuri și venit de proiect
 
@@ -80,7 +80,7 @@ Vizualizarea pe etape a estimărilor de proiect arată datele estimate din vizua
 
 ### <a name="work-hours-based-allocation"></a>Alocare pe baza orelor de lucru
  
-În modul de activitate de planificare automată, orele implicite zilnice pentru resursele de activitate sunt setate la rata completă a orei de lucru. Acest comportament se aplică atunci când efortul este alocat împărțindu-l pe durata activității în vizualizarea pe etape. De exemplu, dacă estimați că o activitate va fi terminată de o resursă în scala de timp **Zi** , efortul care este alocat pe zi nu va depăși orele de lucru pe zi care sunt definite în calendarul de proiect. Prin urmare, alocarea efortului asigură întotdeauna că resursele sunt estimate pentru a fi utilizate întreaga zi.
+În modul de activitate de planificare automată, orele implicite zilnice pentru resursele de activitate sunt setate la rata completă a orei de lucru. Acest comportament se aplică atunci când efortul este alocat împărțindu-l pe durata activității în vizualizarea pe etape. De exemplu, dacă estimați că o activitate va fi terminată de o resursă în scala de timp **Zi**, efortul care este alocat pe zi nu va depăși orele de lucru pe zi care sunt definite în calendarul de proiect. Prin urmare, alocarea efortului asigură întotdeauna că resursele sunt estimate pentru a fi utilizate întreaga zi.
 
 ### <a name="even-allocation"></a>Alocare uniformă
 

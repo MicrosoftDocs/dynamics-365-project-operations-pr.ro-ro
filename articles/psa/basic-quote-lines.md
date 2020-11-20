@@ -3,7 +3,7 @@ title: Oferte și linii de ofertă
 description: Acest subiect oferă informații despre oferte și linii de ofertă.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082911"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129468"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferte și linii de ofertă
 
@@ -35,7 +35,7 @@ ms.locfileid: "4082911"
 - O ofertă de vânzări acceptă activarea și revizuirile. O ofertă de proiect nu acceptă aceste procese.
 - Aveți posibilitatea să atașați mai multe comenzi la o ofertă de vânzări. Aveți posibilitatea să atașați un singur contract de proiect la o ofertă de proiect.
 - Aveți posibilitatea să câștigați o ofertă de vânzări și să mențineți deschisă oportunitatea corelată. După ce se câștigă o ofertă de proiect, oportunitatea corelată este închisă.
-- O ofertă de vânzări nu include unele câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă** , **Managerul de cont** și **Facturare către Nume persoană de contact**.  
+- O ofertă de vânzări nu include unele câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă**, **Managerul de cont** și **Facturare către Nume persoană de contact**.  
 - Ofertele de vânzări și ofertele de proiect sunt, de asemenea, identificate printr-un câmp bazat pe set de opțiuni care este denumit **Tip**. Pentru o ofertă de vânzări, acest câmp are valoarea **Pe bază de articol**. Pentru o ofertă de proiect, are valoarea **Pe bază de lucru**.
 
 Acest subiect se va concentra pe detaliile ofertelor de proiect.
@@ -76,7 +76,7 @@ PSA acceptă toate cele trei tipuri de planificări ale facturilor pentru liniil
 Organizațiile profesionale de servicii de obicei își ofertează și facturează clienții prin clasificarea costurilor. În PSA, costurile sunt reprezentate de următoarele clasificări de tranzacții:
 
 - **Timp** – această clasificare reprezintă costul muncii sau de timpul de resurse umane din cadrul unui proiect.
-- **Cheltuieli** : – această clasificare reprezintă toate celelalte tipuri de cheltuieli pe un proiect. Deoarece cheltuielile pot fi clasificate în linii mari, cele mai multe organizații creează subcategorii, precum de deplasare, închirieri auto, cazare la hotel sau consumabile de birou.
+- **Cheltuieli**: – această clasificare reprezintă toate celelalte tipuri de cheltuieli pe un proiect. Deoarece cheltuielile pot fi clasificate în linii mari, cele mai multe organizații creează subcategorii, precum de deplasare, închirieri auto, cazare la hotel sau consumabile de birou.
 - **Taxă** – această clasificare reprezintă diverse cheltuieli de regie, penalități și alte elemente care sunt percepute clientului. 
 - **Impozit** – această clasificare reprezintă sumele fiscale pe care utilizatorii le adaugă în timp ce introduc cheltuieli.
 - **Tranzacții materiale** – această clasificare reprezintă valorile reale din liniile de produse pe o factură de proiect confirmată.
@@ -91,7 +91,7 @@ De exemplu, o ofertă poate conține următoarele două linii de ofertă:
 - Cheltuieli corelate de deplasare care utilizează o metodă de facturare Preț fix. De exemplu, toate cheltuielile de deplasare pentru proiectul de exemplificare **Implementare Dynamics AX** sunt facturate la o valoare monetară fixă.
 
 > [!NOTE]
-> Combinația de clasificări de proiect și de tranzacții pentru **Timp** , **Cheltuieli** și **Taxă** care sunt asociate cu o linie de ofertă sau linie de contract trebuie să fie unică. Dacă aceeași combinație de clasă de proiect și de tranzacții este asociată cu mai mult de o linie de contract sau o linie de ofertă, PSA nu va funcționa corect.
+> Combinația de clasificări de proiect și de tranzacții pentru **Timp**, **Cheltuieli** și **Taxă** care sunt asociate cu o linie de ofertă sau linie de contract trebuie să fie unică. Dacă aceeași combinație de clasă de proiect și de tranzacții este asociată cu mai mult de o linie de contract sau o linie de ofertă, PSA nu va funcționa corect.
 
 ## <a name="billing-types"></a>Tipuri de facturare
 
