@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,32 +17,32 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082919"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131043"
 ---
-# <a name="units-and-unit-groups"></a><span data-ttu-id="b978c-103">Unități și grupuri de unități</span><span class="sxs-lookup"><span data-stu-id="b978c-103">Units and unit groups</span></span>
+# <a name="units-and-unit-groups"></a><span data-ttu-id="1524e-103">Unități și grupuri de unități</span><span class="sxs-lookup"><span data-stu-id="1524e-103">Units and unit groups</span></span>
 
-<span data-ttu-id="b978c-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="b978c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="1524e-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="1524e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="b978c-105">Unitățile sunt cantitățile sau măsurătorile în care vă vindeți produsele sau serviciilor.</span><span class="sxs-lookup"><span data-stu-id="b978c-105">Units are the quantities or measurements that you sell your products or services in.</span></span> <span data-ttu-id="b978c-106">De exemplu, dacă vindeți produse pentru grădinărit, puteți vinde semințele în unități de tip pachete, cutii și paleți.</span><span class="sxs-lookup"><span data-stu-id="b978c-106">For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets.</span></span> <span data-ttu-id="b978c-107">Un grup de unitate este o colecție de unități diferite.</span><span class="sxs-lookup"><span data-stu-id="b978c-107">A unit group is a collection of these different units.</span></span>
+<span data-ttu-id="1524e-105">Unitățile sunt cantitățile sau măsurătorile în care vă vindeți produsele sau serviciilor.</span><span class="sxs-lookup"><span data-stu-id="1524e-105">Units are the quantities or measurements that you sell your products or services in.</span></span> <span data-ttu-id="1524e-106">De exemplu, dacă vindeți produse pentru grădinărit, puteți vinde semințele în unități de tip pachete, cutii și paleți.</span><span class="sxs-lookup"><span data-stu-id="1524e-106">For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets.</span></span> <span data-ttu-id="1524e-107">Un grup de unitate este o colecție de unități diferite.</span><span class="sxs-lookup"><span data-stu-id="1524e-107">A unit group is a collection of these different units.</span></span>
 
-<span data-ttu-id="b978c-108">Pentru a finaliza pașii din acest subiect, asigurați-vă că ați fost atribuit rolului de administrator de sistem sau de manager Sales Professional sau că aveți permisiuni echivalente.</span><span class="sxs-lookup"><span data-stu-id="b978c-108">To complete the steps in this topic, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.</span></span>
+<span data-ttu-id="1524e-108">Pentru a finaliza pașii din acest subiect, asigurați-vă că ați fost atribuit rolului de administrator de sistem sau de manager Sales Professional sau că aveți permisiuni echivalente.</span><span class="sxs-lookup"><span data-stu-id="1524e-108">To complete the steps in this topic, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.</span></span>
 
-## <a name="create-a-unit-group"></a><span data-ttu-id="b978c-109">Crearea unui grup de unităţi</span><span class="sxs-lookup"><span data-stu-id="b978c-109">Create a unit group</span></span>
+## <a name="create-a-unit-group"></a><span data-ttu-id="1524e-109">Crearea unui grup de unităţi</span><span class="sxs-lookup"><span data-stu-id="1524e-109">Create a unit group</span></span>
 
-1. <span data-ttu-id="b978c-110">În harta site-ului, selectați **Unități**.</span><span class="sxs-lookup"><span data-stu-id="b978c-110">In the site map, select **Units**.</span></span>
-2. <span data-ttu-id="b978c-111">Selectați **Nou** , și în caseta de dialog **Creați un grup de unități** , introduceți numele unității.</span><span class="sxs-lookup"><span data-stu-id="b978c-111">Select **New** , and in the **Create Unit Group** dialog box, enter the unit name.</span></span>
-3. <span data-ttu-id="b978c-112">În câmpul **Unitate primară** , introduceți cea mai joasă unitate comună de măsură în care se va vinde produsul.</span><span class="sxs-lookup"><span data-stu-id="b978c-112">In the **Primary unit** field, enter the lowest common unit of measure that the product will be sold in.</span></span> <span data-ttu-id="b978c-113">De exemplu, puteți introduce „bucată” sau „uncie”.</span><span class="sxs-lookup"><span data-stu-id="b978c-113">For example, you might enter "piece" or "ounce".</span></span>
-4. <span data-ttu-id="b978c-114">Selectați **OK**.</span><span class="sxs-lookup"><span data-stu-id="b978c-114">Select **OK**.</span></span>
+1. <span data-ttu-id="1524e-110">În harta site-ului, selectați **Unități**.</span><span class="sxs-lookup"><span data-stu-id="1524e-110">In the site map, select **Units**.</span></span>
+2. <span data-ttu-id="1524e-111">Selectați **Nou**, și în caseta de dialog **Creați un grup de unități**, introduceți numele unității.</span><span class="sxs-lookup"><span data-stu-id="1524e-111">Select **New**, and in the **Create Unit Group** dialog box, enter the unit name.</span></span>
+3. <span data-ttu-id="1524e-112">În câmpul **Unitate primară**, introduceți cea mai joasă unitate comună de măsură în care se va vinde produsul.</span><span class="sxs-lookup"><span data-stu-id="1524e-112">In the **Primary unit** field, enter the lowest common unit of measure that the product will be sold in.</span></span> <span data-ttu-id="1524e-113">De exemplu, puteți introduce „bucată” sau „uncie”.</span><span class="sxs-lookup"><span data-stu-id="1524e-113">For example, you might enter "piece" or "ounce".</span></span>
+4. <span data-ttu-id="1524e-114">Selectați **OK**.</span><span class="sxs-lookup"><span data-stu-id="1524e-114">Select **OK**.</span></span>
 
-## <a name="add-units-to-a-unit-group"></a><span data-ttu-id="b978c-115">Adăugați unități la un grup de unități</span><span class="sxs-lookup"><span data-stu-id="b978c-115">Add units to a unit group</span></span>
+## <a name="add-units-to-a-unit-group"></a><span data-ttu-id="1524e-115">Adăugați unități la un grup de unități</span><span class="sxs-lookup"><span data-stu-id="1524e-115">Add units to a unit group</span></span>
 
-1. <span data-ttu-id="b978c-116">Deschideți un grup de unități și pe fila **Legate de** , selectați **Unități**.</span><span class="sxs-lookup"><span data-stu-id="b978c-116">Open a unit group, and on the **Related** tab, select **Units**.</span></span> <span data-ttu-id="b978c-117">Veți vedea că unitatea principală este adăugată deja.</span><span class="sxs-lookup"><span data-stu-id="b978c-117">You will see that the primary unit is already added.</span></span>
-2. <span data-ttu-id="b978c-118">Selectați **Adăugați o unitate nouă** , și pe pagina **Creare rapidă: unitate** , în câmpul **Nume** , introduceți numele unității.</span><span class="sxs-lookup"><span data-stu-id="b978c-118">Select **Add New Unit** , and on the **Quick Create: Unit** page, in the **Name** field, enter the nanem of the unit.</span></span>
-3. <span data-ttu-id="b978c-119">În câmpul **Cantitate** , introduceți cantitatea pe care o va conține unitatea.</span><span class="sxs-lookup"><span data-stu-id="b978c-119">In the **QUantity** field, enter the quantity that the unit will contain.</span></span> <span data-ttu-id="b978c-120">De exemplu, dacă o cutie conține două bucăți, introduceți „2”.</span><span class="sxs-lookup"><span data-stu-id="b978c-120">For example, if a box contains two pieces, enter "2".</span></span> 
-4. <span data-ttu-id="b978c-121">În câmpul **Unitate de bază** , selectați o unitate de bază pentru a stabili cea mai mică unitate de măsură pentru unitate.</span><span class="sxs-lookup"><span data-stu-id="b978c-121">In the **Base unit** field, select a base unit to establish the lowest unit of measurement for the unit.</span></span> <span data-ttu-id="b978c-122">De exemplu, puteți selecta „Bucată”.</span><span class="sxs-lookup"><span data-stu-id="b978c-122">For example, you might select "Piece".</span></span>
-5. <span data-ttu-id="b978c-123">Selectați **Salvare** :</span><span class="sxs-lookup"><span data-stu-id="b978c-123">Select **Save** :</span></span>
+1. <span data-ttu-id="1524e-116">Deschideți un grup de unități și pe fila **Legate de**, selectați **Unități**.</span><span class="sxs-lookup"><span data-stu-id="1524e-116">Open a unit group, and on the **Related** tab, select **Units**.</span></span> <span data-ttu-id="1524e-117">Veți vedea că unitatea principală este adăugată deja.</span><span class="sxs-lookup"><span data-stu-id="1524e-117">You will see that the primary unit is already added.</span></span>
+2. <span data-ttu-id="1524e-118">Selectați **Adăugați o unitate nouă**, și pe pagina **Creare rapidă: unitate**, în câmpul **Nume**, introduceți numele unității.</span><span class="sxs-lookup"><span data-stu-id="1524e-118">Select **Add New Unit**, and on the **Quick Create: Unit** page, in the **Name** field, enter the nanem of the unit.</span></span>
+3. <span data-ttu-id="1524e-119">În câmpul **Cantitate**, introduceți cantitatea pe care o va conține unitatea.</span><span class="sxs-lookup"><span data-stu-id="1524e-119">In the **QUantity** field, enter the quantity that the unit will contain.</span></span> <span data-ttu-id="1524e-120">De exemplu, dacă o cutie conține două bucăți, introduceți „2”.</span><span class="sxs-lookup"><span data-stu-id="1524e-120">For example, if a box contains two pieces, enter "2".</span></span> 
+4. <span data-ttu-id="1524e-121">În câmpul **Unitate de bază**, selectați o unitate de bază pentru a stabili cea mai mică unitate de măsură pentru unitate.</span><span class="sxs-lookup"><span data-stu-id="1524e-121">In the **Base unit** field, select a base unit to establish the lowest unit of measurement for the unit.</span></span> <span data-ttu-id="1524e-122">De exemplu, puteți selecta „Bucată”.</span><span class="sxs-lookup"><span data-stu-id="1524e-122">For example, you might select "Piece".</span></span>
+5. <span data-ttu-id="1524e-123">Selectați **Salvare**:</span><span class="sxs-lookup"><span data-stu-id="1524e-123">Select **Save**:</span></span>
