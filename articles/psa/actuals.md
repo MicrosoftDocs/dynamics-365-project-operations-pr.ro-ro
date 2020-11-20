@@ -3,7 +3,7 @@ title: Prezentare date reale
 description: Acest subiect oferă informații despre valorile reale ale proiectului.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,313 +18,313 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082994"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129783"
 ---
-# <a name="actuals-overview"></a><span data-ttu-id="816f2-103">Prezentare date reale</span><span class="sxs-lookup"><span data-stu-id="816f2-103">Actuals overview</span></span>
+# <a name="actuals-overview"></a><span data-ttu-id="3c112-103">Prezentare date reale</span><span class="sxs-lookup"><span data-stu-id="3c112-103">Actuals overview</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="816f2-104">Valorile reale reprezintă volumul de lucru care a fost finalizat pe un proiect.</span><span class="sxs-lookup"><span data-stu-id="816f2-104">Actuals are the amount of work that has been completed on a project.</span></span> <span data-ttu-id="816f2-105">Valorile reale ale proiectului pot fi urmărite înapoi la documentele lor sursă.</span><span class="sxs-lookup"><span data-stu-id="816f2-105">Project actuals can be traced back to their source documents.</span></span> <span data-ttu-id="816f2-106">Aceste documente sursă includ intrările de timp, intrările cu cheltuieli și intrările în jurnal și, de asemenea, facturile.</span><span class="sxs-lookup"><span data-stu-id="816f2-106">Those source documents include time, expense, and journal entries, and also invoices.</span></span>
+<span data-ttu-id="3c112-104">Valorile reale reprezintă volumul de lucru care a fost finalizat pe un proiect.</span><span class="sxs-lookup"><span data-stu-id="3c112-104">Actuals are the amount of work that has been completed on a project.</span></span> <span data-ttu-id="3c112-105">Valorile reale ale proiectului pot fi urmărite înapoi la documentele lor sursă.</span><span class="sxs-lookup"><span data-stu-id="3c112-105">Project actuals can be traced back to their source documents.</span></span> <span data-ttu-id="3c112-106">Aceste documente sursă includ intrările de timp, intrările cu cheltuieli și intrările în jurnal și, de asemenea, facturile.</span><span class="sxs-lookup"><span data-stu-id="3c112-106">Those source documents include time, expense, and journal entries, and also invoices.</span></span>
 
 ![Cum sunt urmărite valorile reale ale proiectului la documentele sursă](media/basic-guide-18.png)
 
-## <a name="submitting-a-time-entry"></a><span data-ttu-id="816f2-108">Remiterea unei intrări de timp</span><span class="sxs-lookup"><span data-stu-id="816f2-108">Submitting a time entry</span></span>
+## <a name="submitting-a-time-entry"></a><span data-ttu-id="3c112-108">Remiterea unei intrări de timp</span><span class="sxs-lookup"><span data-stu-id="3c112-108">Submitting a time entry</span></span>
 
-<span data-ttu-id="816f2-109">În PSA, atunci când o intrare de timp este remisă pentru un proiect care este mapat la o linie de contract pentru timp și materiale, se creează două linii de jurnal.</span><span class="sxs-lookup"><span data-stu-id="816f2-109">In PSA, when a time entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="816f2-110">O linie este pentru cost, iar cealaltă linie este pentru vânzările nefacturate.</span><span class="sxs-lookup"><span data-stu-id="816f2-110">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="816f2-111">Atunci când o intrare de timp este remisă pentru un proiect care este mapat la o linie de contract cu preț fix, se creează o linie de jurnal doar pentru cost.</span><span class="sxs-lookup"><span data-stu-id="816f2-111">When a time entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span> 
+<span data-ttu-id="3c112-109">În PSA, atunci când o intrare de timp este remisă pentru un proiect care este mapat la o linie de contract pentru timp și materiale, se creează două linii de jurnal.</span><span class="sxs-lookup"><span data-stu-id="3c112-109">In PSA, when a time entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="3c112-110">O linie este pentru cost, iar cealaltă linie este pentru vânzările nefacturate.</span><span class="sxs-lookup"><span data-stu-id="3c112-110">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="3c112-111">Atunci când o intrare de timp este remisă pentru un proiect care este mapat la o linie de contract cu preț fix, se creează o linie de jurnal doar pentru cost.</span><span class="sxs-lookup"><span data-stu-id="3c112-111">When a time entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span> 
 
-<span data-ttu-id="816f2-112">Logica pentru introducerea prețurilor implicite se află în linia de jurnal.</span><span class="sxs-lookup"><span data-stu-id="816f2-112">Logic for entering default prices resides on the journal line.</span></span> <span data-ttu-id="816f2-113">Toate valorile de câmp dintr-o intrare de timp sunt copiate în linia de jurnal.</span><span class="sxs-lookup"><span data-stu-id="816f2-113">All the field values from a time entry are copied to the journal line.</span></span> <span data-ttu-id="816f2-114">Aceste câmpuri includ data tranzacției, linia de contract la care este mapat proiectul și rezultatul privind moneda din lista de prețuri corespunzătoare.</span><span class="sxs-lookup"><span data-stu-id="816f2-114">These fields include the date of the transaction, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span> 
+<span data-ttu-id="3c112-112">Logica pentru introducerea prețurilor implicite se află în linia de jurnal.</span><span class="sxs-lookup"><span data-stu-id="3c112-112">Logic for entering default prices resides on the journal line.</span></span> <span data-ttu-id="3c112-113">Toate valorile de câmp dintr-o intrare de timp sunt copiate în linia de jurnal.</span><span class="sxs-lookup"><span data-stu-id="3c112-113">All the field values from a time entry are copied to the journal line.</span></span> <span data-ttu-id="3c112-114">Aceste câmpuri includ data tranzacției, linia de contract la care este mapat proiectul și rezultatul privind moneda din lista de prețuri corespunzătoare.</span><span class="sxs-lookup"><span data-stu-id="3c112-114">These fields include the date of the transaction, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span> 
 
-<span data-ttu-id="816f2-115">Câmpurile care afectează prețurile implicite, cum ar fi **Rol** și **Unitate organizațională** , determină introducerea implicită a unui preț corespunzător în linia de jurnal.</span><span class="sxs-lookup"><span data-stu-id="816f2-115">The fields that affect default prices, such as **Role** and **Org Unit** , cause an appropriate price to be entered by default on the journal line.</span></span> <span data-ttu-id="816f2-116">Dacă adăugați un câmp particularizat în intrarea de timp și doriți ca valoarea câmpului să fie propagată în valorile reale, creați câmpul în entitatea Valori reale și utilizați mapări de câmp pentru a copia câmpul din intrarea de timp în valoarea reală.</span><span class="sxs-lookup"><span data-stu-id="816f2-116">If you add a custom field on the time entry, and you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.</span></span>
+<span data-ttu-id="3c112-115">Câmpurile care afectează prețurile implicite, cum ar fi **Rol** și **Unitate organizațională**, determină introducerea implicită a unui preț corespunzător în linia de jurnal.</span><span class="sxs-lookup"><span data-stu-id="3c112-115">The fields that affect default prices, such as **Role** and **Org Unit**, cause an appropriate price to be entered by default on the journal line.</span></span> <span data-ttu-id="3c112-116">Dacă adăugați un câmp particularizat în intrarea de timp și doriți ca valoarea câmpului să fie propagată în valorile reale, creați câmpul în entitatea Valori reale și utilizați mapări de câmp pentru a copia câmpul din intrarea de timp în valoarea reală.</span><span class="sxs-lookup"><span data-stu-id="3c112-116">If you add a custom field on the time entry, and you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.</span></span>
 
-## <a name="submitting-an-expense-entry"></a><span data-ttu-id="816f2-117">Remiterea unei intrări de cheltuieli</span><span class="sxs-lookup"><span data-stu-id="816f2-117">Submitting an expense entry</span></span>
+## <a name="submitting-an-expense-entry"></a><span data-ttu-id="3c112-117">Remiterea unei intrări de cheltuieli</span><span class="sxs-lookup"><span data-stu-id="3c112-117">Submitting an expense entry</span></span>
 
-<span data-ttu-id="816f2-118">În PSA, atunci când o intrare de cheltuieli este remisă pentru un proiect care este mapat la o linie de contract pentru timp și materiale, se creează două linii de jurnal.</span><span class="sxs-lookup"><span data-stu-id="816f2-118">In PSA, when an expense entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="816f2-119">O linie este pentru cost, iar cealaltă linie este pentru vânzările nefacturate.</span><span class="sxs-lookup"><span data-stu-id="816f2-119">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="816f2-120">Atunci când o intrare de cheltuieli este remisă pentru un proiect care este mapat la o linie de contract cu preț fix, se creează o linie de jurnal doar pentru cost.</span><span class="sxs-lookup"><span data-stu-id="816f2-120">When an expense entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span>
+<span data-ttu-id="3c112-118">În PSA, atunci când o intrare de cheltuieli este remisă pentru un proiect care este mapat la o linie de contract pentru timp și materiale, se creează două linii de jurnal.</span><span class="sxs-lookup"><span data-stu-id="3c112-118">In PSA, when an expense entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="3c112-119">O linie este pentru cost, iar cealaltă linie este pentru vânzările nefacturate.</span><span class="sxs-lookup"><span data-stu-id="3c112-119">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="3c112-120">Atunci când o intrare de cheltuieli este remisă pentru un proiect care este mapat la o linie de contract cu preț fix, se creează o linie de jurnal doar pentru cost.</span><span class="sxs-lookup"><span data-stu-id="3c112-120">When an expense entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span>
 
-<span data-ttu-id="816f2-121">Logica pentru introducerea prețurilor implicite pentru cheltuieli se bazează pe categoria de cheltuieli care este selectată în pagina **Intrare cheltuieli**.</span><span class="sxs-lookup"><span data-stu-id="816f2-121">Logic for entering default prices for expenses is based on the expense category that is selected on the **Expense entry** page.</span></span> <span data-ttu-id="816f2-122">Data tranzacției, linia de contract la care este mapat proiectul și moneda sunt toate utilizate pentru a determina lista de prețuri corespunzătoare.</span><span class="sxs-lookup"><span data-stu-id="816f2-122">The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list.</span></span> <span data-ttu-id="816f2-123">Cu toate acestea, pentru prețul în sine, suma pe care utilizatorul a introdus-o este setată direct pe liniile de jurnal de cheltuieli corelate pentru cost și vânzări în mod implicit.</span><span class="sxs-lookup"><span data-stu-id="816f2-123">However, for the price itself, the amount that the user entered is set directly on the related expense journal lines for cost and sales by default.</span></span>
+<span data-ttu-id="3c112-121">Logica pentru introducerea prețurilor implicite pentru cheltuieli se bazează pe categoria de cheltuieli care este selectată în pagina **Intrare cheltuieli**.</span><span class="sxs-lookup"><span data-stu-id="3c112-121">Logic for entering default prices for expenses is based on the expense category that is selected on the **Expense entry** page.</span></span> <span data-ttu-id="3c112-122">Data tranzacției, linia de contract la care este mapat proiectul și moneda sunt toate utilizate pentru a determina lista de prețuri corespunzătoare.</span><span class="sxs-lookup"><span data-stu-id="3c112-122">The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list.</span></span> <span data-ttu-id="3c112-123">Cu toate acestea, pentru prețul în sine, suma pe care utilizatorul a introdus-o este setată direct pe liniile de jurnal de cheltuieli corelate pentru cost și vânzări în mod implicit.</span><span class="sxs-lookup"><span data-stu-id="3c112-123">However, for the price itself, the amount that the user entered is set directly on the related expense journal lines for cost and sales by default.</span></span>
 
-<span data-ttu-id="816f2-124">În versiunea curentă de PSA, introducerea pe categorii a unor prețuri implicite per unitate pe intrările de cheltuieli nu este disponibilă.</span><span class="sxs-lookup"><span data-stu-id="816f2-124">In the current version of PSA, category-based entry of per-unit default prices on expense entries isn't available.</span></span>
+<span data-ttu-id="3c112-124">În versiunea curentă de PSA, introducerea pe categorii a unor prețuri implicite per unitate pe intrările de cheltuieli nu este disponibilă.</span><span class="sxs-lookup"><span data-stu-id="3c112-124">In the current version of PSA, category-based entry of per-unit default prices on expense entries isn't available.</span></span>
 
-## <a name="using-entry-journals-to-record-costs"></a><span data-ttu-id="816f2-125">Utilizarea jurnalelor de intrări pentru înregistrarea costurilor</span><span class="sxs-lookup"><span data-stu-id="816f2-125">Using Entry journals to record costs</span></span>
+## <a name="using-entry-journals-to-record-costs"></a><span data-ttu-id="3c112-125">Utilizarea jurnalelor de intrări pentru înregistrarea costurilor</span><span class="sxs-lookup"><span data-stu-id="3c112-125">Using Entry journals to record costs</span></span>
 
-<span data-ttu-id="816f2-126">În PSA, jurnalele de intare vă permit să înregistrați costul sau venitul în clasele de tranzacții Materiale, Tarife, Timp, Cheltuieli sau Taxe.</span><span class="sxs-lookup"><span data-stu-id="816f2-126">In PSA, Entry journals let you record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="816f2-127">Un jurnal are un antet, linii și o acțiune **Confirmare**.</span><span class="sxs-lookup"><span data-stu-id="816f2-127">A journal has a header, lines, and a **Confirm** action.</span></span> <span data-ttu-id="816f2-128">Iată câteva scenarii în care este posibil să utilizați un jurnal:</span><span class="sxs-lookup"><span data-stu-id="816f2-128">Here are some scenarios where you might use a journal:</span></span>
+<span data-ttu-id="3c112-126">În PSA, jurnalele de intare vă permit să înregistrați costul sau venitul în clasele de tranzacții Materiale, Tarife, Timp, Cheltuieli sau Taxe.</span><span class="sxs-lookup"><span data-stu-id="3c112-126">In PSA, Entry journals let you record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="3c112-127">Un jurnal are un antet, linii și o acțiune **Confirmare**.</span><span class="sxs-lookup"><span data-stu-id="3c112-127">A journal has a header, lines, and a **Confirm** action.</span></span> <span data-ttu-id="3c112-128">Iată câteva scenarii în care este posibil să utilizați un jurnal:</span><span class="sxs-lookup"><span data-stu-id="3c112-128">Here are some scenarios where you might use a journal:</span></span>
 
-- <span data-ttu-id="816f2-129">Trebuie să înregistrați costurile reale ale materialelor și vânzările pe un proiect.</span><span class="sxs-lookup"><span data-stu-id="816f2-129">You must record material actual costs and sales on a project.</span></span>
-- <span data-ttu-id="816f2-130">Trebuie să mutați valori reale privind tranzacțiile dintr-un alt sistem în PSA.</span><span class="sxs-lookup"><span data-stu-id="816f2-130">You must move transaction actuals from another system to PSA.</span></span>
-- <span data-ttu-id="816f2-131">Trebuie să înregistrați costuri care au avut loc în alt sistem, cum ar fi costurile de achiziție sau subcontractare.</span><span class="sxs-lookup"><span data-stu-id="816f2-131">You must record costs that occurred in another system, such as procurement or subcontracting costs.</span></span>
+- <span data-ttu-id="3c112-129">Trebuie să înregistrați costurile reale ale materialelor și vânzările pe un proiect.</span><span class="sxs-lookup"><span data-stu-id="3c112-129">You must record material actual costs and sales on a project.</span></span>
+- <span data-ttu-id="3c112-130">Trebuie să mutați valori reale privind tranzacțiile dintr-un alt sistem în PSA.</span><span class="sxs-lookup"><span data-stu-id="3c112-130">You must move transaction actuals from another system to PSA.</span></span>
+- <span data-ttu-id="3c112-131">Trebuie să înregistrați costuri care au avut loc în alt sistem, cum ar fi costurile de achiziție sau subcontractare.</span><span class="sxs-lookup"><span data-stu-id="3c112-131">You must record costs that occurred in another system, such as procurement or subcontracting costs.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="816f2-132">Utilizarea jurnalelor de intrare pentru a crea actualități ar trebui să fie făcută doar de către un utilizator care este pe deplin conștient de impactul contabil pe care efectivele îl au asupra proiectului.</span><span class="sxs-lookup"><span data-stu-id="816f2-132">Using Entry journals to create actuals should be done only by a user who is fully aware of the accounting impact the Actuals have on the project.</span></span> <span data-ttu-id="816f2-133">Acest lucru se datorează faptului că aplicația nu validează tipul liniei de jurnal sau prețurile aferente care sunt introduse pe linia jurnalului.</span><span class="sxs-lookup"><span data-stu-id="816f2-133">This is because the application does not validate the journal line type, or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="816f2-134">Din cauza impactului acestui tip de jurnal, trebuie să aveți precauție adecvată pentru cine are acces la crearea jurnalelor de intrare.</span><span class="sxs-lookup"><span data-stu-id="816f2-134">Because of the impact of this journal type, exercise adequate caution in who is given access to create Entry journals.</span></span>     
+> <span data-ttu-id="3c112-132">Utilizarea jurnalelor de intrare pentru a crea actualități ar trebui să fie făcută doar de către un utilizator care este pe deplin conștient de impactul contabil pe care efectivele îl au asupra proiectului.</span><span class="sxs-lookup"><span data-stu-id="3c112-132">Using Entry journals to create actuals should be done only by a user who is fully aware of the accounting impact the Actuals have on the project.</span></span> <span data-ttu-id="3c112-133">Acest lucru se datorează faptului că aplicația nu validează tipul liniei de jurnal sau prețurile aferente care sunt introduse pe linia jurnalului.</span><span class="sxs-lookup"><span data-stu-id="3c112-133">This is because the application does not validate the journal line type, or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="3c112-134">Din cauza impactului acestui tip de jurnal, trebuie să aveți precauție adecvată pentru cine are acces la crearea jurnalelor de intrare.</span><span class="sxs-lookup"><span data-stu-id="3c112-134">Because of the impact of this journal type, exercise adequate caution in who is given access to create Entry journals.</span></span>     
 
 
-## <a name="recording-actuals-based-on-project-events"></a><span data-ttu-id="816f2-135">Înregistrarea valorilor reale pe baza evenimentelor proiectului</span><span class="sxs-lookup"><span data-stu-id="816f2-135">Recording actuals based on project events</span></span>
+## <a name="recording-actuals-based-on-project-events"></a><span data-ttu-id="3c112-135">Înregistrarea valorilor reale pe baza evenimentelor proiectului</span><span class="sxs-lookup"><span data-stu-id="3c112-135">Recording actuals based on project events</span></span>
 
-<span data-ttu-id="816f2-136">PSA înregistrează tranzacțiile financiare care apar în timpul unui proiect.</span><span class="sxs-lookup"><span data-stu-id="816f2-136">PSA records the financial transactions that occur during a project.</span></span> <span data-ttu-id="816f2-137">Aceste tranzacții sunt înregistrate ca **valori reale**.</span><span class="sxs-lookup"><span data-stu-id="816f2-137">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="816f2-138">Tabelele următoare arată diferitele tipuri de valori reale care sunt create, în funcție de faptul dacă proiectul este un proiect pe bază de timp și materiale sau un proiect cu preț fix, este în etapa de prevânzare sau este un proiect intern.</span><span class="sxs-lookup"><span data-stu-id="816f2-138">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+<span data-ttu-id="3c112-136">PSA înregistrează tranzacțiile financiare care apar în timpul unui proiect.</span><span class="sxs-lookup"><span data-stu-id="3c112-136">PSA records the financial transactions that occur during a project.</span></span> <span data-ttu-id="3c112-137">Aceste tranzacții sunt înregistrate ca **valori reale**.</span><span class="sxs-lookup"><span data-stu-id="3c112-137">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="3c112-138">Tabelele următoare arată diferitele tipuri de valori reale care sunt create, în funcție de faptul dacă proiectul este un proiect pe bază de timp și materiale sau un proiect cu preț fix, este în etapa de prevânzare sau este un proiect intern.</span><span class="sxs-lookup"><span data-stu-id="3c112-138">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
 
-<span data-ttu-id="816f2-139">**Resursa aparține aceleiași unități organizatorice ca și unitatea contractantă a proiectului**</span><span class="sxs-lookup"><span data-stu-id="816f2-139">**The resource belongs to same organizational unit as the project's contracting unit**</span></span>
+<span data-ttu-id="3c112-139">**Resursa aparține aceleiași unități organizatorice ca și unitatea contractantă a proiectului**</span><span class="sxs-lookup"><span data-stu-id="3c112-139">**The resource belongs to same organizational unit as the project's contracting unit**</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="816f2-140">Eveniment</span><span class="sxs-lookup"><span data-stu-id="816f2-140">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="816f2-141">Proiect facturabil sau vândut</span><span class="sxs-lookup"><span data-stu-id="816f2-141">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="816f2-142">Proiect în etapa de prevânzare</span><span class="sxs-lookup"><span data-stu-id="816f2-142">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="816f2-143">Proiect intern</span><span class="sxs-lookup"><span data-stu-id="816f2-143">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3c112-140">Eveniment</span><span class="sxs-lookup"><span data-stu-id="3c112-140">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="3c112-141">Proiect facturabil sau vândut</span><span class="sxs-lookup"><span data-stu-id="3c112-141">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3c112-142">Proiect în etapa de prevânzare</span><span class="sxs-lookup"><span data-stu-id="3c112-142">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="3c112-143">Proiect intern</span><span class="sxs-lookup"><span data-stu-id="3c112-143">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="816f2-144">Timp și materiale</span><span class="sxs-lookup"><span data-stu-id="816f2-144">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="816f2-145">Preț fix</span><span class="sxs-lookup"><span data-stu-id="816f2-145">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="3c112-144">Timp și materiale</span><span class="sxs-lookup"><span data-stu-id="3c112-144">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="3c112-145">Preț fix</span><span class="sxs-lookup"><span data-stu-id="3c112-145">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="816f2-146">Reale</span><span class="sxs-lookup"><span data-stu-id="816f2-146">Actuals</span></span></th>
-<th><span data-ttu-id="816f2-147">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="816f2-147">Transaction currency</span></span></th>
-<th><span data-ttu-id="816f2-148">Preț fix</span><span class="sxs-lookup"><span data-stu-id="816f2-148">Fixed price</span></span></th>
-<th><span data-ttu-id="816f2-149">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="816f2-149">Transaction currency</span></span></th>
+<th><span data-ttu-id="3c112-146">Reale</span><span class="sxs-lookup"><span data-stu-id="3c112-146">Actuals</span></span></th>
+<th><span data-ttu-id="3c112-147">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="3c112-147">Transaction currency</span></span></th>
+<th><span data-ttu-id="3c112-148">Preț fix</span><span class="sxs-lookup"><span data-stu-id="3c112-148">Fixed price</span></span></th>
+<th><span data-ttu-id="3c112-149">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="3c112-149">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="816f2-150">Este creată o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="816f2-150">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="816f2-151">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="816f2-151">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3c112-150">Este creată o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="3c112-150">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="3c112-151">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="3c112-151">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-152">Este remisă o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="816f2-152">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="816f2-153">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="816f2-153">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3c112-152">Este remisă o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="3c112-152">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="3c112-153">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="3c112-153">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="816f2-154">Timpul este aprobat și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-154">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="816f2-155">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-155">Cost actual</span></span></td>
-<td><span data-ttu-id="816f2-156">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-156">Contracting unit currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-157">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-157">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-158">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-158">Contracting unit currency</span></span>
-<td rowspan="2"><span data-ttu-id="816f2-159">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-159">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-160">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-160">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-154">Timpul este aprobat și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-154">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3c112-155">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-155">Cost actual</span></span></td>
+<td><span data-ttu-id="3c112-156">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-156">Contracting unit currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-157">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-157">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-158">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-158">Contracting unit currency</span></span>
+<td rowspan="2"><span data-ttu-id="3c112-159">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-159">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-160">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-160">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-161">Valoare reală vânzări nefacturate – taxabilă</span><span class="sxs-lookup"><span data-stu-id="816f2-161">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="816f2-162">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-162">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-161">Valoare reală vânzări nefacturate – taxabilă</span><span class="sxs-lookup"><span data-stu-id="3c112-161">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="3c112-162">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-162">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="816f2-163">Timpul este aprobat și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-163">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="816f2-164">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-164">Cost actual</span></span></td>
-<td><span data-ttu-id="816f2-165">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-165">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-166">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-166">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-167">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-167">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-168">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-168">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-169">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-169">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-163">Timpul este aprobat și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-163">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3c112-164">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-164">Cost actual</span></span></td>
+<td><span data-ttu-id="3c112-165">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-165">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-166">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-166">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-167">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-167">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-168">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-168">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-169">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-169">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-170">Valoare reală vânzări nefacturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="816f2-170">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="816f2-171">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-171">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-170">Valoare reală vânzări nefacturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="3c112-170">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3c112-171">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-171">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-172">Valoare reală vânzări nefacturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="816f2-172">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="816f2-173">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-173">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-172">Valoare reală vânzări nefacturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="3c112-172">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3c112-173">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-173">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="816f2-174">O factură este confirmată și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-174">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="816f2-175">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="816f2-175">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="816f2-176">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-176">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-177">Vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="816f2-177">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-178">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-178">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-179">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-179">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-180">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-180">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-174">O factură este confirmată și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-174">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3c112-175">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="3c112-175">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3c112-176">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-176">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-177">Vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="3c112-177">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-178">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-178">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-179">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-179">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-180">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-180">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-181">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="816f2-181">Billed sales</span></span></td>
-<td><span data-ttu-id="816f2-182">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-182">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-181">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="3c112-181">Billed sales</span></span></td>
+<td><span data-ttu-id="3c112-182">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-182">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="816f2-183">O factură este confirmată și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-183">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="816f2-184">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="816f2-184">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="816f2-185">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-185">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-186">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-186">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-187">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-187">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-188">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-188">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-189">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-189">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-183">O factură este confirmată și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-183">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3c112-184">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="3c112-184">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3c112-185">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-185">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-186">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-186">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-187">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-187">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-188">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-188">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-189">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-189">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-190">Vânzări facturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="816f2-190">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="816f2-191">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-191">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-190">Vânzări facturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="3c112-190">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3c112-191">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-191">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-192">Vânzări facturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="816f2-192">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="816f2-193">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-193">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-192">Vânzări facturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="3c112-192">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3c112-193">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-193">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="816f2-194">O factură este corectată pentru a mări cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="816f2-194">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="816f2-195">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="816f2-195">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="816f2-196">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-196">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-194">O factură este corectată pentru a mări cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="3c112-194">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3c112-195">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="3c112-195">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3c112-196">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-196">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="816f2-197">Inversare vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="816f2-197">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="816f2-198">Modificarea stării jalonului de la <strong>Facturat</strong> la <strong>Gata de facturare</strong></span><span class="sxs-lookup"><span data-stu-id="816f2-198">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="3c112-197">Inversare vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="3c112-197">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="3c112-198">Modificarea stării jalonului de la <strong>Facturat</strong> la <strong>Gata de facturare</strong></span><span class="sxs-lookup"><span data-stu-id="3c112-198">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="816f2-199">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-199">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-200">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-200">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-201">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-201">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-199">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-199">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-200">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-200">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-201">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-201">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-202">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="816f2-202">Billed sales</span></span></td>
-<td><span data-ttu-id="816f2-203">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-203">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-202">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="3c112-202">Billed sales</span></span></td>
+<td><span data-ttu-id="3c112-203">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-203">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="816f2-204">O factură este corectată pentru a micșora cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="816f2-204">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="816f2-205">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="816f2-205">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="816f2-206">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-206">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-204">O factură este corectată pentru a micșora cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="3c112-204">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3c112-205">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="3c112-205">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3c112-206">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-206">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-207">Vânzări facturate pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="816f2-207">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="816f2-208">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-208">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-207">Vânzări facturate pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="3c112-207">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="3c112-208">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-208">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-209">Vânzări nefacturate – taxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="816f2-209">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="816f2-210">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-210">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-209">Vânzări nefacturate – taxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="3c112-209">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3c112-210">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-210">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="816f2-211">**Resursa aparține unei unități organizatorice care diferă de unitatea contractantă a proiectului**</span><span class="sxs-lookup"><span data-stu-id="816f2-211">**The resource belongs to an organizational unit that differs from the project's contracting unit**</span></span>
+<span data-ttu-id="3c112-211">**Resursa aparține unei unități organizatorice care diferă de unitatea contractantă a proiectului**</span><span class="sxs-lookup"><span data-stu-id="3c112-211">**The resource belongs to an organizational unit that differs from the project's contracting unit**</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="816f2-212">Eveniment</span><span class="sxs-lookup"><span data-stu-id="816f2-212">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="816f2-213">Proiect facturabil sau vândut</span><span class="sxs-lookup"><span data-stu-id="816f2-213">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="816f2-214">Proiect în etapa de prevânzare</span><span class="sxs-lookup"><span data-stu-id="816f2-214">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="816f2-215">Proiect intern</span><span class="sxs-lookup"><span data-stu-id="816f2-215">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3c112-212">Eveniment</span><span class="sxs-lookup"><span data-stu-id="3c112-212">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="3c112-213">Proiect facturabil sau vândut</span><span class="sxs-lookup"><span data-stu-id="3c112-213">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3c112-214">Proiect în etapa de prevânzare</span><span class="sxs-lookup"><span data-stu-id="3c112-214">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="3c112-215">Proiect intern</span><span class="sxs-lookup"><span data-stu-id="3c112-215">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="816f2-216">Timp și materiale</span><span class="sxs-lookup"><span data-stu-id="816f2-216">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="816f2-217">Preț fix</span><span class="sxs-lookup"><span data-stu-id="816f2-217">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="3c112-216">Timp și materiale</span><span class="sxs-lookup"><span data-stu-id="3c112-216">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="3c112-217">Preț fix</span><span class="sxs-lookup"><span data-stu-id="3c112-217">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="816f2-218">Reale</span><span class="sxs-lookup"><span data-stu-id="816f2-218">Actuals</span></span></th>
-<th><span data-ttu-id="816f2-219">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="816f2-219">Transaction currency</span></span></th>
-<th><span data-ttu-id="816f2-220">Preț fix</span><span class="sxs-lookup"><span data-stu-id="816f2-220">Fixed price</span></span></th>
-<th><span data-ttu-id="816f2-221">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="816f2-221">Transaction currency</span></span></th>
+<th><span data-ttu-id="3c112-218">Reale</span><span class="sxs-lookup"><span data-stu-id="3c112-218">Actuals</span></span></th>
+<th><span data-ttu-id="3c112-219">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="3c112-219">Transaction currency</span></span></th>
+<th><span data-ttu-id="3c112-220">Preț fix</span><span class="sxs-lookup"><span data-stu-id="3c112-220">Fixed price</span></span></th>
+<th><span data-ttu-id="3c112-221">Monedă de tranzacționare</span><span class="sxs-lookup"><span data-stu-id="3c112-221">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="816f2-222">Este creată o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="816f2-222">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="816f2-223">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="816f2-223">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3c112-222">Este creată o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="3c112-222">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="3c112-223">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="3c112-223">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-224">Este remisă o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="816f2-224">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="816f2-225">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="816f2-225">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3c112-224">Este remisă o intrare de timp.</span><span class="sxs-lookup"><span data-stu-id="3c112-224">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="3c112-225">Nicio activitate în entitatea Valori reale</span><span class="sxs-lookup"><span data-stu-id="3c112-225">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="4"><span data-ttu-id="816f2-226">Timpul este aprobat și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-226">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="816f2-227">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-227">Cost actual</span></span></td>
-<td><span data-ttu-id="816f2-228">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-228">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="816f2-229">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-229">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="816f2-230">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-230">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="816f2-231">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-231">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="816f2-232">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-232">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="3c112-226">Timpul este aprobat și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-226">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3c112-227">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-227">Cost actual</span></span></td>
+<td><span data-ttu-id="3c112-228">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-228">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="3c112-229">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-229">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="3c112-230">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-230">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="3c112-231">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-231">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="3c112-232">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-232">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-233">Valoare reală vânzări nefacturate – taxabilă</span><span class="sxs-lookup"><span data-stu-id="816f2-233">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="816f2-234">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-234">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-233">Valoare reală vânzări nefacturate – taxabilă</span><span class="sxs-lookup"><span data-stu-id="3c112-233">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="3c112-234">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-234">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-235">Cost de unitate resursă</span><span class="sxs-lookup"><span data-stu-id="816f2-235">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="816f2-236">Monedă unitate resursă</span><span class="sxs-lookup"><span data-stu-id="816f2-236">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="3c112-235">Cost de unitate resursă</span><span class="sxs-lookup"><span data-stu-id="3c112-235">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="3c112-236">Monedă unitate resursă</span><span class="sxs-lookup"><span data-stu-id="3c112-236">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-237">Vânzări inter-organizaționale</span><span class="sxs-lookup"><span data-stu-id="816f2-237">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="816f2-238">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-238">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="3c112-237">Vânzări inter-organizaționale</span><span class="sxs-lookup"><span data-stu-id="3c112-237">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="3c112-238">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-238">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="5"><span data-ttu-id="816f2-239">Timpul este aprobat și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-239">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="816f2-240">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-240">Cost actual</span></span></td>
-<td><span data-ttu-id="816f2-241">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-241">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-242">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-242">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-243">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-243">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-244">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-244">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-245">Cost real</span><span class="sxs-lookup"><span data-stu-id="816f2-245">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-239">Timpul este aprobat și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-239">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3c112-240">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-240">Cost actual</span></span></td>
+<td><span data-ttu-id="3c112-241">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-241">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-242">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-242">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-243">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-243">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-244">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-244">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-245">Cost real</span><span class="sxs-lookup"><span data-stu-id="3c112-245">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-246">Cost de unitate resursă</span><span class="sxs-lookup"><span data-stu-id="816f2-246">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="816f2-247">Monedă unitate resursă</span><span class="sxs-lookup"><span data-stu-id="816f2-247">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="3c112-246">Cost de unitate resursă</span><span class="sxs-lookup"><span data-stu-id="3c112-246">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="3c112-247">Monedă unitate resursă</span><span class="sxs-lookup"><span data-stu-id="3c112-247">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-248">Vânzări inter-organizaționale</span><span class="sxs-lookup"><span data-stu-id="816f2-248">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="816f2-249">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="816f2-249">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="3c112-248">Vânzări inter-organizaționale</span><span class="sxs-lookup"><span data-stu-id="3c112-248">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="3c112-249">Moneda unității contractante</span><span class="sxs-lookup"><span data-stu-id="3c112-249">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-250">Valoare reală vânzări nefacturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="816f2-250">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="816f2-251">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-251">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-250">Valoare reală vânzări nefacturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="3c112-250">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3c112-251">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-251">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-252">Valoare reală vânzări nefacturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="816f2-252">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="816f2-253">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-253">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-252">Valoare reală vânzări nefacturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="3c112-252">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3c112-253">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-253">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="816f2-254">O factură este confirmată și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-254">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="816f2-255">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="816f2-255">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="816f2-256">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-256">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-257">Vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="816f2-257">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-258">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-258">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-259">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-259">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="816f2-260">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-260">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-254">O factură este confirmată și nicio modificare sau creștere a orelor facturabile nu apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-254">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3c112-255">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="3c112-255">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3c112-256">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-256">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-257">Vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="3c112-257">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-258">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-258">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-259">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-259">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-260">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-260">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-261">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="816f2-261">Billed sales</span></span></td>
-<td><span data-ttu-id="816f2-262">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-262">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-261">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="3c112-261">Billed sales</span></span></td>
+<td><span data-ttu-id="3c112-262">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-262">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="816f2-263">O factură este confirmată și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="816f2-263">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="816f2-264">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="816f2-264">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="816f2-265">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-265">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-266">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-266">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-267">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-267">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-268">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-268">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="816f2-269">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-269">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-263">O factură este confirmată și o reducere a orelor facturabile apare în timpul aprobării.</span><span class="sxs-lookup"><span data-stu-id="3c112-263">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3c112-264">Inversare vânzări nefacturate</span><span class="sxs-lookup"><span data-stu-id="3c112-264">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3c112-265">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-265">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-266">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-266">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-267">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-267">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-268">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-268">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-269">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-269">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-270">Vânzări facturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="816f2-270">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="816f2-271">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-271">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-270">Vânzări facturate – taxabile pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="3c112-270">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3c112-271">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-271">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-272">Vânzări facturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="816f2-272">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="816f2-273">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-273">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-272">Vânzări facturate – netaxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="3c112-272">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3c112-273">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-273">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="816f2-274">O factură este corectată pentru a mări cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="816f2-274">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="816f2-275">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="816f2-275">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="816f2-276">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-276">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3c112-274">O factură este corectată pentru a mări cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="3c112-274">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3c112-275">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="3c112-275">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3c112-276">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-276">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="816f2-277">Inversare vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="816f2-277">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="816f2-278">Modificarea stării jalonului de la <strong>Facturat</strong> la <strong>Gata de facturare</strong></span><span class="sxs-lookup"><span data-stu-id="816f2-278">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="3c112-277">Inversare vânzări facturate pentru jalon</span><span class="sxs-lookup"><span data-stu-id="3c112-277">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="3c112-278">Modificarea stării jalonului de la <strong>Facturat</strong> la <strong>Gata de facturare</strong></span><span class="sxs-lookup"><span data-stu-id="3c112-278">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="816f2-279">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-279">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-280">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-280">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="816f2-281">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="816f2-281">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-279">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-279">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-280">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-280">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3c112-281">Nu se aplică</span><span class="sxs-lookup"><span data-stu-id="3c112-281">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-282">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="816f2-282">Billed sales</span></span></td>
-<td><span data-ttu-id="816f2-283">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-283">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-282">Vânzări facturate</span><span class="sxs-lookup"><span data-stu-id="3c112-282">Billed sales</span></span></td>
+<td><span data-ttu-id="3c112-283">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-283">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="816f2-284">O factură este corectată pentru a micșora cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="816f2-284">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="816f2-285">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="816f2-285">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="816f2-286">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-286">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3c112-284">O factură este corectată pentru a micșora cantitatea tarifabilă.</span><span class="sxs-lookup"><span data-stu-id="3c112-284">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3c112-285">Vânzări facturate – inversare</span><span class="sxs-lookup"><span data-stu-id="3c112-285">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3c112-286">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-286">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-287">Vânzări facturate pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="816f2-287">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="816f2-288">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-288">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-287">Vânzări facturate pentru noua cantitate</span><span class="sxs-lookup"><span data-stu-id="3c112-287">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="3c112-288">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-288">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="816f2-289">Vânzări nefacturate – taxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="816f2-289">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="816f2-290">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="816f2-290">Project contract currency</span></span></td>
+<td><span data-ttu-id="3c112-289">Vânzări nefacturate – taxabile pentru diferență</span><span class="sxs-lookup"><span data-stu-id="3c112-289">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3c112-290">Monedă contract pentru proiect</span><span class="sxs-lookup"><span data-stu-id="3c112-290">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
