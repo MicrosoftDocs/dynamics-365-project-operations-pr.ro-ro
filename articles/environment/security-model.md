@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082681"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124383"
 ---
 # <a name="security-model"></a>Model de securitate
 
@@ -56,7 +56,7 @@ Grupurile permit ca permisiunile proiectului și sprijinirea artefactelor de col
 
 Project Operations nu creează un grup prin acțiune implicită și face acest lucru doar prin acțiunea explicită a apăsării grupurilor.
 
-Căutarea membrilor grupului în dialogul **Managementul grupului** , este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Căutarea membrilor grupului în dialogul **Managementul grupului**, este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
 ![Mod grup](./media/groupsmode.png)
 

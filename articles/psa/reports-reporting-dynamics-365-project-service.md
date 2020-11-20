@@ -3,7 +3,7 @@ title: Pagina de pornire raportare
 description: Acest subiect oferă informații despre raportare în Dynamics 365 Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 30411818bdc1b370a71148cf79f743413167dab2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e1a645b157c56066e56b22ea8cf0324fbc1ddd2c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083023"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120333"
 ---
 # <a name="reporting-home-page"></a>Pagina de pornire raportare
 

@@ -3,7 +3,7 @@ title: Retragerea înregistrărilor aprobate de timp sau cheltuieli
 description: Acest subiect oferă informații despre cum să retrageți o operațiune de timp sau cheltuieli aprobată anterior.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082843"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120558"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Retragerea înregistrărilor aprobate de timp sau cheltuieli
 
@@ -60,13 +60,13 @@ Urmați acești pași pentru a solicita o retragere a unei înregistrări de tim
 Urmați acești pași pentru a aproba sau respinge o solicitare de retragere.
 
 1. Accesați **Proiecte** \> **Lucrul meu** \> **Aprobări**.
-2. Pe pagina cu lista **Aprobări** , modificați vizualizarea la **Cereri de retragere de aprobat**. Este afișată o listă de solicitări de retragere trimise.
-3. Selectați una sau mai multe înregistrări, apoi selectați fie **Aprobare** , fie **Respingere**.
-4. Dacă ați selectat **Aprobare** , primiți un mesaj de avertizare care explică impactul aprobării. Selectați **OK** pentru a confirma operațiunea. Solicitarea de retragere este aprobată
+2. Pe pagina cu lista **Aprobări**, modificați vizualizarea la **Cereri de retragere de aprobat**. Este afișată o listă de solicitări de retragere trimise.
+3. Selectați una sau mai multe înregistrări, apoi selectați fie **Aprobare**, fie **Respingere**.
+4. Dacă ați selectat **Aprobare**, primiți un mesaj de avertizare care explică impactul aprobării. Selectați **OK** pentru a confirma operațiunea. Solicitarea de retragere este aprobată
 
     -sau-
 
-    Dacă ați selectat **Respingere** , solicitarea de retragere este respinsă.
+    Dacă ați selectat **Respingere**, solicitarea de retragere este respinsă.
 
 > [!NOTE]
 > Ca atunci când se solicită o retragere, atunci când o retragere este aprobată, sistemul verifică orice activitate de facturare pe înregistrările de timp sau cheltuieli. Dacă o înregistrare a fost deja facturată sau dacă este pe un proiect de factură, aprobatorul va primi un mesaj de eroare care spune că timpul sau cheltuiala nu pot fi aprobate pentru retragere, deoarece au fost deja facturate.
@@ -77,11 +77,11 @@ Atunci când se retrage o aprobare, există atât un impact operațional, cât �
 
 ### <a name="operational-impact"></a>Impactul operațional
 
-Dacă se aprobă o solicitare de retragere, înregistrarea de aprobare este marcată **Respinsă**. Starea înregistrării se modifică fie în **Returnată** , fie în **Respinsă** , în funcție de faptul dacă este o înregistrare de timp sau o înregistrare de cheltuieli.
+Dacă se aprobă o solicitare de retragere, înregistrarea de aprobare este marcată **Respinsă**. Starea înregistrării se modifică fie în **Returnată**, fie în **Respinsă**, în funcție de faptul dacă este o înregistrare de timp sau o înregistrare de cheltuieli.
 
 Membrul echipei de proiect poate vizualiza înregistrările, poate, edita și apoi remite înregistrările sau poate șterge înregistrările în întregime.
 
-Dacă o solicitare de retragere este respinsă, starea înregistrării rămâne **Aprobată** , iar înregistrarea nu poate fi editată de membrul echipei de proiect sau de aprobatorul proiectului.
+Dacă o solicitare de retragere este respinsă, starea înregistrării rămâne **Aprobată**, iar înregistrarea nu poate fi editată de membrul echipei de proiect sau de aprobatorul proiectului.
 
 ### <a name="financial-impact"></a>Impactul financiar
 
@@ -90,7 +90,7 @@ Dacă se aprobă o solicitare de retragere, valorile reale corespunzătoare pent
 - Câmpul **Stare Ajustare** este actualizat la **Ajustat**.
 - Câmpul **Stare Facturare** este actualizat la **Anulat**.
 
-Apoi, intrările de inversare sunt create în tabelul Valori reale. Pentru a crea intrări de inversare, sistemul copiază peste valorile câmpului din valorile reale inițiale. Singurele valori peste care nu se copiază sunt valorile cantitative. Aceste valori sunt inversate în schimb. Valori reale inversate sunt create atât pentru valorile reale **Cost** , cât și **Vânzări nefacturate**. Câmpul **Stare Ajustare** de pe valorile reale inversate este setat la **Neajustabil** , iar câmpul **Stare Facturare** este setat la **Anulat.** Din cauza acestor modificări, restanțele înregistrare de cheltuieli și venituri de pe proiect nu vor mai duce la pentru sumele pe care le reprezintă aceste date reale.
+Apoi, intrările de inversare sunt create în tabelul Valori reale. Pentru a crea intrări de inversare, sistemul copiază peste valorile câmpului din valorile reale inițiale. Singurele valori peste care nu se copiază sunt valorile cantitative. Aceste valori sunt inversate în schimb. Valori reale inversate sunt create atât pentru valorile reale **Cost**, cât și **Vânzări nefacturate**. Câmpul **Stare Ajustare** de pe valorile reale inversate este setat la **Neajustabil**, iar câmpul **Stare Facturare** este setat la **Anulat.** Din cauza acestor modificări, restanțele înregistrare de cheltuieli și venituri de pe proiect nu vor mai duce la pentru sumele pe care le reprezintă aceste date reale.
 
 Dacă o cerere de retragere este respinsă, nu există niciun impact financiar asupra proiectului.
 

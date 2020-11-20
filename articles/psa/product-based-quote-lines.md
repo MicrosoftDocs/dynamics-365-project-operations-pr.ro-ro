@@ -3,7 +3,7 @@ title: Linii de oferte bazate pe produs
 description: Acest subiect oferă informații despre linii de ofertă pe bază de produs.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082976"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123224"
 ---
 # <a name="product-based-quote-lines"></a>Linii de oferte bazate pe produs
 
@@ -54,7 +54,7 @@ Dacă o linie de ofertă se bazează pe un catalog de produse, aveți posibilita
 - Înlocuire stabilire preț  
 - Utilizați valoarea implicită
 
-Dacă setați acest câmp pentru **Înlocuire stabilire preț** , Dynamics 365 nu configurează un preț implicit. Trebuie să introduceți un preț pentru produs în linia de ofertă. Dacă setați acest câmp pentru a **Utiliza implicit** , Dynamics 365 utilizează prețul implicit de vânzare și blochează câmpul pentru a preveni editarea.
+Dacă setați acest câmp pentru **Înlocuire stabilire preț**, Dynamics 365 nu configurează un preț implicit. Trebuie să introduceți un preț pentru produs în linia de ofertă. Dacă setați acest câmp pentru a **Utiliza implicit**, Dynamics 365 utilizează prețul implicit de vânzare și blochează câmpul pentru a preveni editarea.
 
 După ce instalați PSA, prețurile de vânzare implicite sunt introduse pe liniile bazate pe produs pe o ofertă. Câmpul **Stabilire preț** este atunci configurat la **Înlocuire stabilire preț** astfel încât puteți edita prețul implicit pe liniile de ofertă.
 

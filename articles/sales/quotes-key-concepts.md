@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082962"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121323"
 ---
 # <a name="quotes---key-concepts"></a>Oferte - Concepte cheie
 
@@ -30,20 +30,20 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 În Project Operations Dynamics 365, există două tipuri de cotații, proiect și vânzări. Cele două tipuri de oferte diferă în următoarele moduri:
 
-- **GGrile pentru elemente de linie** : într-o ofertă de vânzări, există o singură grilă pentru elementele de linie. Pe o ofertă de proiect sunt două grile pentru elemente de linie. O grilă este pentru liniile de proiect și cealaltă este pentru liniile de produse.
-- **Activare și revizuiri** : cotațiile de vânzări acceptă activarea și revizuirea. Aceste procese nu sunt acceptate pe o ofertă de proiect.
-- **Comenzi atașate** : puteți atașa mai multe comenzi la o ofertă de vânzări. Doar un contract de proiect poate fi atașat unei oferte de proiect.
-- **Câștigarea unei oferte** : Când câștigați o ofertă de vânzare, oportunitatea aferentă poate rămâne deschisă. După ce se câștigă o ofertă de proiect, oportunitatea corelată este închisă.
-- **Câmpuri și concepte** : o ofertă de vânzări nu include unele câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă** , **Managerul de cont** și **Facturare către Nume persoană de contact**.  
-- **Tip** : ofertele de vânzări și proiecte sunt identificate și de câmpul bazat pe setul de opțiuni, **Tip**. Pentru o ofertă de vânzări, acest câmp are valoarea **Pe bază de articol**. Pentru o ofertă de proiect, are valoarea **Pe bază de lucru**.
+- **GGrile pentru elemente de linie**: într-o ofertă de vânzări, există o singură grilă pentru elementele de linie. Pe o ofertă de proiect sunt două grile pentru elemente de linie. O grilă este pentru liniile de proiect și cealaltă este pentru liniile de produse.
+- **Activare și revizuiri**: cotațiile de vânzări acceptă activarea și revizuirea. Aceste procese nu sunt acceptate pe o ofertă de proiect.
+- **Comenzi atașate**: puteți atașa mai multe comenzi la o ofertă de vânzări. Doar un contract de proiect poate fi atașat unei oferte de proiect.
+- **Câștigarea unei oferte**: Când câștigați o ofertă de vânzare, oportunitatea aferentă poate rămâne deschisă. După ce se câștigă o ofertă de proiect, oportunitatea corelată este închisă.
+- **Câmpuri și concepte**: o ofertă de vânzări nu include unele câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă**, **Managerul de cont** și **Facturare către Nume persoană de contact**.  
+- **Tip**: ofertele de vânzări și proiecte sunt identificate și de câmpul bazat pe setul de opțiuni, **Tip**. Pentru o ofertă de vânzări, acest câmp are valoarea **Pe bază de articol**. Pentru o ofertă de proiect, are valoarea **Pe bază de lucru**.
 
 Acest subiect se concentrează pe detaliile ofertelor de proiect.
 
 O ofertă de proiect în Project Operations poate avea mai multe elemente de linie sau linii de ofertă. De fapt, o ofertă de proiect are două grile pentru elemente de linie. O grilă este pentru liniile bazate pe proiect, care permit estimări detaliate. Cealaltă grilă este pentru liniile bazate pe produse, care utilizează un preț unitar simplu și o abordare bazată pe cantități.
 
-- **Pe bază de proiect** : valoarea ofertată este determinată după ce estimați cât de multă muncă este necesară. Puteți estima munca la un nivel ridicat, direct ca detalii de linie sub fiecare linie de ofertă sau pe baza estimărilor de la sol, utilizând un proiect și un plan de proiect. Liniile de ofertă bazate pe proiect se găsesc numai în ofertele bazate pe proiect care sunt create utilizând Project Operations. Acest tip de linie de ofertă este o formă particularizată a liniilor de ofertă din afara catalogului care sunt disponibile în Microsoft Dynamics 365 Sales.
+- **Pe bază de proiect**: valoarea ofertată este determinată după ce estimați cât de multă muncă este necesară. Puteți estima munca la un nivel ridicat, direct ca detalii de linie sub fiecare linie de ofertă sau pe baza estimărilor de la sol, utilizând un proiect și un plan de proiect. Liniile de ofertă bazate pe proiect se găsesc numai în ofertele bazate pe proiect care sunt create utilizând Project Operations. Acest tip de linie de ofertă este o formă particularizată a liniilor de ofertă din afara catalogului care sunt disponibile în Microsoft Dynamics 365 Sales.
 
-- **Pe bază de produs** : valoarea ofertată este determinată în funcție de cantitatea de unități vândute și de prețul de vânzare unitar. Produsul dintr-o linie bazată pe produse poate proveni dintr-un catalog de produse din Vânzări sau poate fi un produs pe care îl definiți. Acest tip de linie de ofertă este disponibil și pe ofertele bazate pe proiect care sunt create utilizând Project Operations.
+- **Pe bază de produs**: valoarea ofertată este determinată în funcție de cantitatea de unități vândute și de prețul de vânzare unitar. Produsul dintr-o linie bazată pe produse poate proveni dintr-un catalog de produse din Vânzări sau poate fi un produs pe care îl definiți. Acest tip de linie de ofertă este disponibil și pe ofertele bazate pe proiect care sunt create utilizând Project Operations.
 
 Suma dintr-o ofertă este totalul din liniile bazate pe produs și liniile bazate pe proiect.
 
@@ -75,12 +75,12 @@ Project Operations acceptă toate cele trei tipuri de planificări ale facturilo
 
 Organizațiile profesionale de servicii de obicei își ofertează și facturează clienții prin clasificarea costurilor. Costurile sunt reprezentate de următoarele clasificări de tranzacții:
 
-- **Timp** : această clasificare reprezintă costul muncii sau de timpul de resurse umane din cadrul unui proiect.
-- **Cheltuieli** : această clasificare reprezintă toate celelalte tipuri de cheltuieli pe un proiect. Deoarece cheltuielile pot fi clasificate în linii mari, cele mai multe organizații creează subcategorii, precum de deplasare, închirieri auto, cazare la hotel sau consumabile de birou.
-- **Taxă** : această clasificare reprezintă diverse cheltuieli de regie, penalități și alte elemente care sunt percepute clientului. 
-- **Impozit** : această clasificare reprezintă sumele fiscale pe care utilizatorii le adaugă în timp ce introduc cheltuieli.
-- **Tranzacții materiale** : această clasificare reprezintă valorile reale din liniile de produse pe o factură de proiect confirmată.
-- **Jalon** : această clasificare este utilizată de logica facturării la preț fix.
+- **Timp**: această clasificare reprezintă costul muncii sau de timpul de resurse umane din cadrul unui proiect.
+- **Cheltuieli**: această clasificare reprezintă toate celelalte tipuri de cheltuieli pe un proiect. Deoarece cheltuielile pot fi clasificate în linii mari, cele mai multe organizații creează subcategorii, precum de deplasare, închirieri auto, cazare la hotel sau consumabile de birou.
+- **Taxă**: această clasificare reprezintă diverse cheltuieli de regie, penalități și alte elemente care sunt percepute clientului. 
+- **Impozit**: această clasificare reprezintă sumele fiscale pe care utilizatorii le adaugă în timp ce introduc cheltuieli.
+- **Tranzacții materiale**: această clasificare reprezintă valorile reale din liniile de produse pe o factură de proiect confirmată.
+- **Jalon**: această clasificare este utilizată de logica facturării la preț fix.
 
 Una sau mai multe dintre aceste clasificări de tranzacții pot fi asociate cu fiecare linie de ofertă. După ce se câștigă o ofertă, maparea dintre clasificarea tranzacțiilor și linia de ofertă este transferată la linia de contract.
   
@@ -90,16 +90,16 @@ De exemplu, o ofertă poate conține următoarele două linii de ofertă:
 - Cheltuieli corelate de deplasare care utilizează o metodă de facturare Preț fix. De exemplu, toate cheltuielile de deplasare pentru proiectul de exemplificare **Implementare Dynamics AX** sunt facturate la o valoare monetară fixă.
 
 > [!NOTE]
-> Combinația de clasificări de proiect și de tranzacții pentru **Timp** , **Cheltuieli** și **Taxă** care sunt asociate cu o linie de ofertă sau linie de contract trebuie să fie unică. Dacă aceeași combinație de clasă de proiect și de tranzacții este asociată cu mai mult de o linie de contract sau o linie de ofertă, Project Operations nu vor funcționa corect.
+> Combinația de clasificări de proiect și de tranzacții pentru **Timp**, **Cheltuieli** și **Taxă** care sunt asociate cu o linie de ofertă sau linie de contract trebuie să fie unică. Dacă aceeași combinație de clasă de proiect și de tranzacții este asociată cu mai mult de o linie de contract sau o linie de ofertă, Project Operations nu vor funcționa corect.
 
 ## <a name="billing-types"></a>Tipuri de facturare
 
 Câmpul **Tip de facturare** definește conceptul de tarifare. Este un set de opțiuni care are următoarele valori posibile:
 
-- **Tarifabil** : costul care este acumulat de acest rol/categorie este un cost direct care determină executarea proiectului, iar clientul va plăti pentru această lucrare. Plata poate fi administrată ca un aranjament de timp și materiale sau cu preț fix. Cu toate acestea, angajatul care petrece acest timp va primi creditul corespunzător pentru utilizarea sa facturabilă.
-- **Netarifabil** : costul care este acumulat de acest rol/categorie este considerat un cost direct care determină executarea proiectului, chiar dacă clientul nu recunoaște acest fapt și nu va plăti pentru această lucrare. Angajatul care petrece acest timp nu va fi creditat cu utilizare facturabilă pentru el.
-- **Gratuit** : costul care este acumulat de acest rol/categorie este considerat un cost direct care determină executarea proiectului, iar clientul recunoaște acest fapt. Angajatul care petrece acest timp va fi creditat pentru utilizarea facturabilă pentru el. Cu toate acestea, acest cost nu este tarifat clientului.
-- **Indisponibil** : costurile suportate pentru proiecte interne care nu necesită urmărirea veniturilor sunt urmărite utilizând această opțiune.
+- **Tarifabil**: costul care este acumulat de acest rol/categorie este un cost direct care determină executarea proiectului, iar clientul va plăti pentru această lucrare. Plata poate fi administrată ca un aranjament de timp și materiale sau cu preț fix. Cu toate acestea, angajatul care petrece acest timp va primi creditul corespunzător pentru utilizarea sa facturabilă.
+- **Netarifabil**: costul care este acumulat de acest rol/categorie este considerat un cost direct care determină executarea proiectului, chiar dacă clientul nu recunoaște acest fapt și nu va plăti pentru această lucrare. Angajatul care petrece acest timp nu va fi creditat cu utilizare facturabilă pentru el.
+- **Gratuit**: costul care este acumulat de acest rol/categorie este considerat un cost direct care determină executarea proiectului, iar clientul recunoaște acest fapt. Angajatul care petrece acest timp va fi creditat pentru utilizarea facturabilă pentru el. Cu toate acestea, acest cost nu este tarifat clientului.
+- **Indisponibil**: costurile suportate pentru proiecte interne care nu necesită urmărirea veniturilor sunt urmărite utilizând această opțiune.
 
 ## <a name="invoice-schedule"></a>Planificare factură
 
@@ -115,11 +115,11 @@ Aceste trei valori de atribut sunt utilizate pentru a genera un set provizoriu d
 
 Frecvența facturilor este o entitate care stochează valorile atributelor care ajută la exprimarea frecvenței creării de facturi. Următoarele atribute exprimă sau definesc entitatea Frecvență facturi:
 
-- **Perioada** : sunt acceptate perioadele lunare, bisăptămânale și săptămânale. 
-- **Rulări pe perioadă** : pentru perioade săptămânale și bisăptămânale, aveți posibilitatea să definiți doar o singură rulare pe perioadă. Pentru perioadele lunare, puteți defini între una și patru rulări pe perioadă. 
-- **Zile de rulare** : zilele când facturarea trebuie executată. Puteți configura acest atribut în două moduri diferite:
-  - **Zile lucrătoare** : de exemplu, aveți posibilitatea să specificați că facturarea se execută în fiecare luni sau în fiecare luni din două în două săptămâni. Clienții care trebuie să seteze facturarea să se execute într-o zi lucrătoare ar putea prefera acest tip de configurație. 
-  - **Zile calendaristice** : de exemplu, aveți posibilitatea să specificați că facturarea se execută în a șaptea și a douăzeci și una zi a fiecărei luni. Unele organizații pot prefera acest tip de configurație, deoarece contribuie la garantarea faptului că facturarea se execută după un program fix în fiecare lună.
+- **Perioada**: sunt acceptate perioadele lunare, bisăptămânale și săptămânale. 
+- **Rulări pe perioadă**: pentru perioade săptămânale și bisăptămânale, aveți posibilitatea să definiți doar o singură rulare pe perioadă. Pentru perioadele lunare, puteți defini între una și patru rulări pe perioadă. 
+- **Zile de rulare**: zilele când facturarea trebuie executată. Puteți configura acest atribut în două moduri diferite:
+  - **Zile lucrătoare**: de exemplu, aveți posibilitatea să specificați că facturarea se execută în fiecare luni sau în fiecare luni din două în două săptămâni. Clienții care trebuie să seteze facturarea să se execute într-o zi lucrătoare ar putea prefera acest tip de configurație. 
+  - **Zile calendaristice**: de exemplu, aveți posibilitatea să specificați că facturarea se execută în a șaptea și a douăzeci și una zi a fiecărei luni. Unele organizații pot prefera acest tip de configurație, deoarece contribuie la garantarea faptului că facturarea se execută după un program fix în fiecare lună.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Planificarea facturii pentru o linie de ofertă cu preț fix
 

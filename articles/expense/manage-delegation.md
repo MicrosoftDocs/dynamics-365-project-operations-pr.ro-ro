@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082797"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122718"
 ---
 # <a name="manage-delegation"></a>Gestionarea delegării
 Un delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli pentru un alt angajat.
@@ -34,7 +34,7 @@ Pentru a configura un utilizator ca delegat de cheltuieli, parcurgeți pașii ur
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Gestionați cheltuielile în numele altui angajat
 
-Dacă este activată cheia de gestionare a caracteristicilor **Activați pagina cu lista delegaților de cheltuieli** , pagina listei **Cheltuieli care mi-au fost delegate** va fi disponibilă. Accesați **Gestionarea cheltuielilor** > **Cheltuielile mele** > **Cheltuieli care mi-au fost delegate**.
+Dacă este activată cheia de gestionare a caracteristicilor **Activați pagina cu lista delegaților de cheltuieli**, pagina listei **Cheltuieli care mi-au fost delegate** va fi disponibilă. Accesați **Gestionarea cheltuielilor** > **Cheltuielile mele** > **Cheltuieli care mi-au fost delegate**.
 
 Un delegat poate filtra și căuta rapid rapoartele de cheltuieli existente care le-au fost delegate. De asemenea, delegatul poate crea rapid un nou raport de cheltuieli pentru alți utilizatori, selectând **Nou raport de cheltuieli**.
 

@@ -3,7 +3,7 @@ title: Crearea unei rezervări de proiect din Panoul de planificare
 description: Acest subiect oferă informații despre modul de a crea o rezervare de proiect de la tabloul de planificare.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082813"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122313"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crearea unei rezervări de proiect din Panoul de planificare
 
@@ -79,9 +79,9 @@ Crearea unui proiect în Project Service creează automat o cerință de resurse
 ## <a name="book-from-a-new-resource-requirement"></a>Rezervați de la o cerință de resursă nouă
 Parcurgeți pașii următori pentru a rezerva dintr-o nouă cerință de resurse. 
 
-1. Accesați **Cerințe resurse** , apoi selectați **Nou** pentru a crea noua cerință de resursă.
+1. Accesați **Cerințe resurse**, apoi selectați **Nou** pentru a crea noua cerință de resursă.
 
-2. În fila **Proiect** , selectați un proiect pentru a asocia cerința la proiect.
+2. În fila **Proiect**, selectați un proiect pentru a asocia cerința la proiect.
  
     Pe tabloul de planificare, această cerință nouă se afișează ca **Deschidere cerință** pe care o puteți procesa.
 

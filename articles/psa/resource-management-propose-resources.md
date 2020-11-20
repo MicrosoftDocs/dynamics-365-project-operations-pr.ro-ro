@@ -3,7 +3,7 @@ title: Propuneți resurse de proiect
 description: Acest subiect furnizează informații despre propunerea resurselor de proiect.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,25 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083015"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120198"
 ---
 # <a name="propose-project-resources"></a>Propuneți resurse de proiect
 
 Managerii de resurse pot propune o resursă către managerul de proiect utilizând o solicitare de resurse.
 
 1. Din grila de solicitări sau din cererea în sine,selectați **Găsire resurse**.
-2. În pagina **Asistent planificare** , selectați resursa, apoi, în panoul **Creare rezervare resursă** , în câmpul **Stare rezervare** , selectați **Rezervare.**
+2. În pagina **Asistent planificare**, selectați resursa, apoi, în panoul **Creare rezervare resursă**, în câmpul **Stare rezervare**, selectați **Rezervare.**
 
     ![Resursa propusă selectată.](media/Resource-Management-image62.png)
 
 Apar următoarele actualizări de stare:
 
-- În pagina **Asistent programare** , indicatorii de stare sunt actualizați pentru a indica faptul că rezervarea este propusă, nu rezervată ferm.
+- În pagina **Asistent programare**, indicatorii de stare sunt actualizați pentru a indica faptul că rezervarea este propusă, nu rezervată ferm.
 
     ![Indicatori de stare pentru rezervarea propusă pe pagina Asistent programări](media/Resource-Management-image63.png)
 
@@ -82,11 +82,11 @@ Deoarece vizualizarea **Utilizare resurse** se bazează pe tabloul de planificar
 
 Grila necesită să setați o utilizare țintă fie pe rol, fie pe resursa individuală. Pentru a face această configurare, accesați **Resurse**\> **Roluri resurse**.
 
-În plus, un rol implicit trebuie să fie atribuit fiecărei resurse care se poate rezerva. Accesați **Resurse**\> **Resurse**. În fila **Project Service** , verificați că este definit un rol de resursă și că câmpul **Este implicit** pentru acesta este setat la **Da**. Aveți posibilitatea să adăugați roluri suplimentare acolo unde **Este implicit = Nu**. Rolul în care **Este implicit = da** este utilizat pentru a evalua utilizarea resursei față de obiectivul pentru rolul respectiv.
+În plus, un rol implicit trebuie să fie atribuit fiecărei resurse care se poate rezerva. Accesați **Resurse**\> **Resurse**. În fila **Project Service**, verificați că este definit un rol de resursă și că câmpul **Este implicit** pentru acesta este setat la **Da**. Aveți posibilitatea să adăugați roluri suplimentare acolo unde **Este implicit = Nu**. Rolul în care **Este implicit = da** este utilizat pentru a evalua utilizarea resursei față de obiectivul pentru rolul respectiv.
 
 ![Set de roluri implicite](media/Resource-Management-image67.png)
 
-În fila **Project Service** , puteți seta, de asemenea, o utilizare țintă individuală pentru resursă. Calculul utilizării folosește apoi acea utilizare țintă pentru a evalua ținta resursei în locul țintei rolului implicit al resursei.
+În fila **Project Service**, puteți seta, de asemenea, o utilizare țintă individuală pentru resursă. Calculul utilizării folosește apoi acea utilizare țintă pentru a evalua ținta resursei în locul țintei rolului implicit al resursei.
 
 Utilizarea este afișată pentru o resursă numai în cazul în care resursa are aprobat timp taxabil în perioada afișată în grilă.
 

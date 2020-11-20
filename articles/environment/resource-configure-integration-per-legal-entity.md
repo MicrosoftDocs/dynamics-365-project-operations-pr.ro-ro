@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096767"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122898"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurarea integrării Project Operations per entitate juridică 
 
@@ -26,7 +26,7 @@ Acest subiect vă prezintă pașii necesari pentru configurarea Dynamics 365 Pro
 Parcurgeți pașii următori pentru a activa funcțiile necesare.
 
 1. În Dynamics 365 Finance, accesați spațiul de lucru **Gestionarea caracteristicilor**.
-2. În **Listă de caracteristici** , găsiți și activați următoarele caracteristici:
+2. În **Listă de caracteristici**, găsiți și activați următoarele caracteristici:
   
     - **Activați mai multe linii contractuale pentru un proiect**
     - **Activați Project Operations pe Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Puteți activa Project Operations pe Dynamics 365 Customer Engagement la un nive
 
 Fiecare persoană juridică care folosește Project Operations pe Dynamics 365 Customer Engagement are nevoie de un set de parametri impliciti. Acești parametri sunt configurați pe fila **Project Operations** de pe pagina **Managementul proiectului și parametrii contabili**. Parametrii sunt:
 
-  - **Tip implicit de facturare** : Project Operations utilizează un set fix de valori implicite de tip facturare care trebuie mapate la proprietățile liniei Finanțare. Creați o înregistrare pentru fiecare tip de facturare: **Nespecificat** , **Taxabil** , **Netaxabil** , **Gratuit** , și **Nu e disponibil**.
-  - **Categorii de proiecte implicite** : Selectați categoriile implicite de proiect care vor fi utilizate pentru fiecare tip de tranzacție. Aceste valori implicite vor fi utilizate în **Jurnal de integrare a Project Operations** și în estimări în care nu este specificată nicio categorie de tranzacții pentru proiectul real.
-  - **Prognoze** : Selectați modelul de prognoză care va fi utilizat pentru estimări de timp și cheltuieli.
+  - **Tip implicit de facturare**: Project Operations utilizează un set fix de valori implicite de tip facturare care trebuie mapate la proprietățile liniei Finanțare. Creați o înregistrare pentru fiecare tip de facturare: **Nespecificat**, **Taxabil**, **Netaxabil**, **Gratuit**, și **Nu e disponibil**.
+  - **Categorii de proiecte implicite**: Selectați categoriile implicite de proiect care vor fi utilizate pentru fiecare tip de tranzacție. Aceste valori implicite vor fi utilizate în **Jurnal de integrare a Project Operations** și în estimări în care nu este specificată nicio categorie de tranzacții pentru proiectul real.
+  - **Prognoze**: Selectați modelul de prognoză care va fi utilizat pentru estimări de timp și cheltuieli.

@@ -3,7 +3,7 @@ title: Tarifare proiect
 description: Acest subiect oferă informații despre modul în care funcționează tarifarea în Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082993"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120783"
 ---
 # <a name="project-pricing"></a>Tarifare proiect 
 
@@ -56,7 +56,7 @@ Termenul *rol de resursă* se referă la un set de aptitudini, competențe și c
 
 Timpul de resurse umane este, de obicei, ofertat pe baza rolului pe care o resursă îl îndeplinește pe un anumit proiect. Pentru timpul de resurse umane, PSA acceptă costurile și facturarea care se bazează pe rolul de resursă. Timpul poate fi tarifat în orice unitate din grupul de unități **Timp**.
 
-Grupul de unități **Timp** este creat atunci când este instalată PSA. Acesta are o unitate implicită de **Oră.** Nu aveți posibilitatea să ștergeți, să redenumiți sau să editați atributele pentru grupul de unități **Timp** sau pentru unitatea **Oră**. Cu toate acestea, puteți adăuga alte unități la grupul de unități **Timp**. Dacă încercați să ștergeți fie grupul de unități **Timp** , fie unitatea **Oră** , s-ar putea să provocați erori în logica de afaceri PSA.
+Grupul de unități **Timp** este creat atunci când este instalată PSA. Acesta are o unitate implicită de **Oră.** Nu aveți posibilitatea să ștergeți, să redenumiți sau să editați atributele pentru grupul de unități **Timp** sau pentru unitatea **Oră**. Cu toate acestea, puteți adăuga alte unități la grupul de unități **Timp**. Dacă încercați să ștergeți fie grupul de unități **Timp**, fie unitatea **Oră**, s-ar putea să provocați erori în logica de afaceri PSA.
 
 > ![Configurarea prețurilor după rol](media/basic-guide-13.png)
  

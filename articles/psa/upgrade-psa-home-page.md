@@ -2,7 +2,7 @@
 title: Actualizare pagină de pornire
 description: Acest subiect arată unde se găsesc informații importante despre caracteristicile noi și modificate din Dynamics 365 Project Service Automation, precum și procesul de upgrade la cea mai nouă versiune.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082877"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121773"
 ---
 # <a name="upgrade-home-page"></a>Actualizare pagină de pornire
 
@@ -61,4 +61,4 @@ De la 17 mai 2019, toate instanțele noi vor avea UCI ca client implicit. Pentru
 Începând cu 1 martie 2020, clienții Dynamics PSA nu vor mai putea crea medii noi cu versiuni mai vechi de PSA, de exemplu versiunea PSA 2.x sau mai veche. Orice nou mediu va avea doar versiunea 3.x a PSA.
 
 > [!NOTE]
-> Pentru cea mai bună experiență când utilizați versiunile mai vechi ale Field Service și ale aplicațiilor PSA, accesați pagina **Setări sistem** și, la câmpul **Utilizați numai noua Interfață unificată (recomandat)** , selectați **Nu** , deoarece aceste versiuni nu sunt proiectate să se încarce corect în UCI. După ce ați dezactivat UCI, aveți posibilitatea să deschideți și să executați aceste versiuni de Field Service și PSA utilizând vechiul client web. 
+> Pentru cea mai bună experiență când utilizați versiunile mai vechi ale Field Service și ale aplicațiilor PSA, accesați pagina **Setări sistem** și, la câmpul **Utilizați numai noua Interfață unificată (recomandat)**, selectați **Nu**, deoarece aceste versiuni nu sunt proiectate să se încarce corect în UCI. După ce ați dezactivat UCI, aveți posibilitatea să deschideți și să executați aceste versiuni de Field Service și PSA utilizând vechiul client web. 

@@ -3,7 +3,7 @@ title: Cerințe de rezervare provizorie
 description: Acest subiect oferă informații despre modul de creare a rezervărilor provizorii.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083006"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124113"
 ---
 # <a name="soft-book-requirements"></a>Cerințe de rezervare provizorie
 
@@ -31,7 +31,7 @@ O cerință de resurse poate fi rezervată ferm. O rezervare fermă creează o p
 
 ![Starea de rezervare este setată la Provizoriu](media/Resource-Management-image77.png)
 
-Când fila **Echipă** este în vizualizarea **Membri denumiți ai echipei** , resursa apare acolo. Orele de rezervare provizorie sunt raportate în coloana **Ore rezervate provizoriu**.
+Când fila **Echipă** este în vizualizarea **Membri denumiți ai echipei**, resursa apare acolo. Orele de rezervare provizorie sunt raportate în coloana **Ore rezervate provizoriu**.
 
 ![Orele rezervate provizoriu în vizualizarea membrilor numiți ai echipei](media/Resource-Management-image78.png)
 
@@ -39,7 +39,7 @@ Membrii echipei rezervați provizoriu pot fi atribuiți sarcinilor.
 
 ![Membru al echipei rezervat provizoriu atribuit unei sarcini.](media/Resource-Management-image79.png)
 
-În fila **Reconciliere** , nu sunt afișate rezervări pentru o resursă cu rezervare provizorie, deoarece fila **Reconciliere** ia în considerare numai rezervările ferme.
+În fila **Reconciliere**, nu sunt afișate rezervări pentru o resursă cu rezervare provizorie, deoarece fila **Reconciliere** ia în considerare numai rezervările ferme.
 
 ![Resursă cu rezervare provizorie fără rezervări în fila reconciliere](media/Resource-Management-image80.png)
 
@@ -54,7 +54,7 @@ Pentru a converti o rezervare provizorie într-o rezervare fermă, pe panoul de 
 
 ![Schimbarea stării rezervării la Ferm](media/Resource-Management-image82.png)
 
-Rezervarea este schimbată, iar starea se modifică în panoul de planificare. Deoarece starea rezervării este acum **Ferm** , resursa este afișată ca fiind rezervată, iar capacitatea și disponibilitatea acesteia sunt ajustate.
+Rezervarea este schimbată, iar starea se modifică în panoul de planificare. Deoarece starea rezervării este acum **Ferm**, resursa este afișată ca fiind rezervată, iar capacitatea și disponibilitatea acesteia sunt ajustate.
 
 Puteți utiliza aceeași metodă pentru a anula o rezervare fermă sau o rezervare provizorie din panoul de planificare.
 

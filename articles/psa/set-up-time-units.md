@@ -3,7 +3,7 @@ title: Configurați unitățile de timp
 description: Cum se configurează unitățile de timp în Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d071549e6493258aeea187d70ee35054d2e8ea60
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082891"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120108"
 ---
 # <a name="set-up-time-units-project-service"></a>Configurați unitățile de timp (Project Service)
 
@@ -37,7 +37,7 @@ Configurați unități de timp în catalogul de produse pe care îl veți utiliz
   
 3. Faceți clic pe grupul de unități **Timp** (creat în timpul instalării [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]).  
   
-4. În fila **Unități** , faceți clic pe **Adăugare unitate nouă** , apoi modificați valorile după cum este necesar. Adăugați câte unități doriți. De exemplu, se recomandă să creați următoarele unități:  
+4. În fila **Unități**, faceți clic pe **Adăugare unitate nouă**, apoi modificați valorile după cum este necesar. Adăugați câte unități doriți. De exemplu, se recomandă să creați următoarele unități:  
   
    - **Zi** cu **Unitate de bază** = **Oră** și **Cantitate** = 8  
   

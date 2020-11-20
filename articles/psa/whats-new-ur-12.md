@@ -3,7 +3,7 @@ title: Ce este nou sau schimbat în Project Service Automation versiunea actuali
 description: Acest subiect oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea 12, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082757"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119973"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation, versiunea actualizată 12, V3
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Dynamics 365 Project Service Automation (PSA). Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365 online și accesați pagina cu soluții pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -39,7 +39,7 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
     - Remediat: Grila de intrare a timpului și programul afișează corect bara de defilare verticală când este necesar.
     - Remediat: intrările de cost și timp remise pot fi aprobate.
     - Remediat: a fost corectat mesajul de dialog de confirmare a aprobării pentru a reflecta starea aprobării la schimbarea din **Aprobat** la **Înscris**.
-    - Remediat: câmpurile **Preț** , **Unitate** și **Cantitate** sunt acum blocate în înregistrarea cheltuieli după ce a fost aprobată.
+    - Remediat: câmpurile **Preț**, **Unitate** și **Cantitate** sunt acum blocate în înregistrarea cheltuieli după ce a fost aprobată.
 
 - Gestionare de proiect
 
@@ -56,5 +56,5 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
 - Sales
 
     - Remediat: ID-uri de duplicare ale obiectului găsite pe formularul **Contract principal**.
-    - Remediat: Logica a fost actualizată pentru a face vizibilă fila **Analiza ofertelor** , astfel încât să afișeze configurația de metadate a filei.
+    - Remediat: Logica a fost actualizată pentru a face vizibilă fila **Analiza ofertelor**, astfel încât să afișeze configurația de metadate a filei.
     - Remediat: data contabilității înregistrării efective vine acum de la data intrării timpului/cheltuielilor și nu a datei aprobării.

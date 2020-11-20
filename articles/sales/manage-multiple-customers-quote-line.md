@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082672"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118578"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gestionați mai mulți clienți în linii de oferte bazate pe proiect
 
@@ -33,11 +33,11 @@ Tabelul următor arată câmpurile pe înregistrarea de client de linie de ofert
 
 | Câmp | Locație | Descriere și îndrumare | Impactul din aval |
 | --- | --- | --- | --- |
-| **Cont** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Listează toate conturile active. Acest câmp este blocat după crearea înregistrării. Dacă trebuie să actualizați câmpul, ștergeți și recreați înregistrarea. Dacă ați înregistrat date reale, nu puteți șterge înregistrarea. | Atunci când alegeți un cont din lista principală de conturi de adăugat, clientul de linie de ofertă este adăugat și ca client de ofertă. Când se câștigă o ofertă, clienții liniei de ofertă sunt copiați la clienții din linia contractului de proiect. |
-| **Procent de divizare de factură** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Reprezintă procentul din fiecare tranzacție de vânzare nefacturată care va fi atribuită acestui client de linie de ofertă. | Copiat pentru clienți de linii de contract de proiect. |
-| **Limită de nedepășire** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă există o limită superioară sau o limită negociată pentru suma totală care va fi facturată acestui client pentru această linie de ofertă. | Copiat clienților de linii de contract de proiect atunci când se câștigă o ofertă. |
-| **Firmă deținătoare** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă, | Entitatea juridică în care este instalat acest client în cadrul modulului **Management de proiect și contabilitate**. Acest câmp este numai în citire și este setat la compania proprietară a ofertei în sine. Lista clienților de adăugat în câmpul **Cont** este deja filtrat în lista de la această companie deținătoare în modulul **Management de proiect și contabilitate** din Project Operations. | Compania deținătoare echivalează cu conceptul de persoană juridică. Toate costurile și veniturile care se acumulează de acest proiect sunt contabilizate în registrul general al companiei deținătoare. |
-| **Este rotunjire** | O grilă editabilă pe fila **Clienți de linie de ofertă** , formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă acest client este un client implicit de rotunjire pentru această linie de ofertă bazată pe proiect. | Copiat clienților de contract de proiect atunci când se câștigă o ofertă. |
+| **Cont** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Listează toate conturile active. Acest câmp este blocat după crearea înregistrării. Dacă trebuie să actualizați câmpul, ștergeți și recreați înregistrarea. Dacă ați înregistrat date reale, nu puteți șterge înregistrarea. | Atunci când alegeți un cont din lista principală de conturi de adăugat, clientul de linie de ofertă este adăugat și ca client de ofertă. Când se câștigă o ofertă, clienții liniei de ofertă sunt copiați la clienții din linia contractului de proiect. |
+| **Procent de divizare de factură** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Reprezintă procentul din fiecare tranzacție de vânzare nefacturată care va fi atribuită acestui client de linie de ofertă. | Copiat pentru clienți de linii de contract de proiect. |
+| **Limită de nedepășire** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă există o limită superioară sau o limită negociată pentru suma totală care va fi facturată acestui client pentru această linie de ofertă. | Copiat clienților de linii de contract de proiect atunci când se câștigă o ofertă. |
+| **Firmă deținătoare** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă, | Entitatea juridică în care este instalat acest client în cadrul modulului **Management de proiect și contabilitate**. Acest câmp este numai în citire și este setat la compania proprietară a ofertei în sine. Lista clienților de adăugat în câmpul **Cont** este deja filtrat în lista de la această companie deținătoare în modulul **Management de proiect și contabilitate** din Project Operations. | Compania deținătoare echivalează cu conceptul de persoană juridică. Toate costurile și veniturile care se acumulează de acest proiect sunt contabilizate în registrul general al companiei deținătoare. |
+| **Este rotunjire** | O grilă editabilă pe fila **Clienți de linie de ofertă**, formularul principal și formularul de creare rapidă pentru un client de linie de ofertă. | Indică dacă acest client este un client implicit de rotunjire pentru această linie de ofertă bazată pe proiect. | Copiat clienților de contract de proiect atunci când se câștigă o ofertă. |
 
 ## <a name="edit-billing-split-percentages"></a>Editați procente de facturare
 

@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082665"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123753"
 ---
 # <a name="travel-requisitions"></a>Cereri de călătorie
 
@@ -31,9 +31,9 @@ Cerințele de călătorie pot fi configurate ca „obligatorii” prin activarea
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Creați și trimiteți o cerere de călătorie
 
-1. Accesați **Cheltuielile mele: Cerere de călătorie** , și selectați **Cerere nouă de călătorie**.
+1. Accesați **Cheltuielile mele: Cerere de călătorie**, și selectați **Cerere nouă de călătorie**.
 2. Introduceți un scop și o destinație pentru solicitare.
-3. În câmpul  **Descrierea călătoriei** , introduceți orice informații suplimentare. 
+3. În câmpul  **Descrierea călătoriei**, introduceți orice informații suplimentare. 
 4. Pentru fiecare dintre cheltuielile așteptate, cum ar fi zborul, mesele sau închirierea de mașini, creați un element rând pentru cheltuieli. Includeți data estimată, suma estimată și moneda pentru fiecare cheltuială. 
 5. După ce ați terminat de adăugat cheltuielile preconizate, selectați **Salvați**.
 6. Când sunteți gata să trimiteți cererea de călătorie, selectați **Flux de lucru** > **Trimite**.
@@ -52,7 +52,7 @@ Selectați cerința de călătorie pe care doriți să o aprobați, apoi selecta
 
 1. Creați un nou raport de cheltuieli și în antetul raportului de cheltuieli și selectați din lista cererilor de călătorie aprobate **Mapați la Cerere de călătorie**.
 2. Câmpul **Suma cererii de călătorie** este actualizat automat în antetul raportului de cheltuieli.
-3. Adăugați fiecare cheltuială efectuată pentru călătorie. Dacă este activat câmpul **Pre-autorizat** , suma reconciliată și suma autorizată pentru categoria de cheltuieli specifice vor fi actualizate.
+3. Adăugați fiecare cheltuială efectuată pentru călătorie. Dacă este activat câmpul **Pre-autorizat**, suma reconciliată și suma autorizată pentru categoria de cheltuieli specifice vor fi actualizate.
 
 > [!NOTE]
 > Când mapați un raport de cheltuieli la o cerere de călătorie aprobată, suma tranzacției nu poate fi mai mare decât suma autorizată. 

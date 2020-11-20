@@ -3,7 +3,7 @@ title: Reconciliați rezervări și atribuiri
 description: Acest subiect oferă informații despre valorile reale.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082842"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120468"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Reconciliați rezervări și atribuiri
 
@@ -35,7 +35,7 @@ Din cauza cuplării lejere a rezervărilor de proiect și a atribuirilor de acti
 
 Pentru fiecare membru al echipei numit, fila **Reconciliere** afișează rezervările și atribuirile până la atribuirea sarcinilor individuale. Acesta arată ore în celule, care pot reprezenta perioade de luni până la zile.
 
-În câmpul **Scală de timp** , aveți posibilitatea să selectați **Lună** , **Săptămână** sau **Zi**. **Săptămână** este selectat în mod implicit. Cu toate acestea, aveți posibilitatea să modificați valoarea implicită selectând butonul **Setări**. Când se deschide fila **Reconciliere** , aceasta afișează data curentă, dar se poate utiliza controlul calendarului pentru a avansa sau a merge înapoi în timp. Când un proiect are o dată de începere care se află în viitor, fila afișează acea dată când este deschisă. Controlul calendarului are, de asemenea, opțiuni care vă permit să mergeți la datele de început și de sfârșit ale proiectului.
+În câmpul **Scală de timp**, aveți posibilitatea să selectați **Lună**, **Săptămână** sau **Zi**. **Săptămână** este selectat în mod implicit. Cu toate acestea, aveți posibilitatea să modificați valoarea implicită selectând butonul **Setări**. Când se deschide fila **Reconciliere**, aceasta afișează data curentă, dar se poate utiliza controlul calendarului pentru a avansa sau a merge înapoi în timp. Când un proiect are o dată de începere care se află în viitor, fila afișează acea dată când este deschisă. Controlul calendarului are, de asemenea, opțiuni care vă permit să mergeți la datele de început și de sfârșit ale proiectului.
 
 Puteți utiliza controalele de extindere pentru fiecare resursă pentru a afișa detaliile rezervărilor acelei resurse. De asemenea, aveți posibilitatea să extindeți atribuirile fiecărei resurse la nivelul activității individuale.
 
@@ -47,9 +47,9 @@ Partea de jos a filei **Reconciliere** afișează un total net global pentru pro
 > [!NOTE]
 > Legenda pentru aceste condiții ar putea fi ascunsă pentru a lăsa mai mult spațiu pentru grilă. În acest caz, puteți face legenda vizibilă selectând butonul **Setări**.
 
-În unele cazuri, atunci când câmpul **Scală timp** este setat la un nivel care este mai mare decât **Zi** , diferențele pot fi calculate ca 0 (zero). De exemplu, la nivel de **Lună** , diferența netă pentru o resursă ar putea fi 0 (zero) pentru a indica faptul că rezervările sunt egale cu atribuirile. Cu toate acestea, dacă vă uitați la nivel de **Săptămână** , este posibil să vedeți că există atribuiri de 0 (zero) ore și rezervări de 40 ore în prima săptămână a lunii, și misiuni de 40 ore și rezervări de 0 (zero) ore în a doua săptămână a lunii. Deși totalul rezervărilor și atribuirile pentru lună sunt egale, acestea diferă prin săptămână.
+În unele cazuri, atunci când câmpul **Scală timp** este setat la un nivel care este mai mare decât **Zi**, diferențele pot fi calculate ca 0 (zero). De exemplu, la nivel de **Lună**, diferența netă pentru o resursă ar putea fi 0 (zero) pentru a indica faptul că rezervările sunt egale cu atribuirile. Cu toate acestea, dacă vă uitați la nivel de **Săptămână**, este posibil să vedeți că există atribuiri de 0 (zero) ore și rezervări de 40 ore în prima săptămână a lunii, și misiuni de 40 ore și rezervări de 0 (zero) ore în a doua săptămână a lunii. Deși totalul rezervărilor și atribuirile pentru lună sunt egale, acestea diferă prin săptămână.
 
-Când vizualizați niveluri mai mari de timp, fila **Reconciliere** afișează un indicator de celulă pentru a vă notifica că există diferențe la nivelurile mai mici de timp. De exemplu, în următoarea ilustrație, un indicator de celulă apare în celula pentru luna octombrie 2018 pentru resursa denumită Ileana Grasu. Prin urmare, puteți vedea că, chiar dacă rezervările și atribuirile resursei sunt egale atunci când acestea sunt agregate la nivel de **Lună** , ele nu se potrivesc la niveluri mai mici.
+Când vizualizați niveluri mai mari de timp, fila **Reconciliere** afișează un indicator de celulă pentru a vă notifica că există diferențe la nivelurile mai mici de timp. De exemplu, în următoarea ilustrație, un indicator de celulă apare în celula pentru luna octombrie 2018 pentru resursa denumită Ileana Grasu. Prin urmare, puteți vedea că, chiar dacă rezervările și atribuirile resursei sunt egale atunci când acestea sunt agregate la nivel de **Lună**, ele nu se potrivesc la niveluri mai mici.
 
 ![Rezervări și atribuiri nepotrivite la nivel lunar](media/reconcile-assignments-01.JPG)
 

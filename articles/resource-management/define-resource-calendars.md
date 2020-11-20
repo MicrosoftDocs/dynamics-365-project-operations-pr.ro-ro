@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082644"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123933"
 ---
 # <a name="define-resource-calendars"></a>Definirea calendarelor de resurse
 
@@ -26,9 +26,9 @@ Fiecare resursă rezervabilă care lucrează la un proiect trebuie să aibă un 
 
 ## <a name="define-a-resources-working-hours"></a>Definiți orele de lucru ale unei resurse
 
-1. Pe meniul **Resurse** , selectați **Resurse**.
+1. Pe meniul **Resurse**, selectați **Resurse**.
 2. Din vizualizarea grilă, selectați aplicația corespunzătoare **Resursă rezervabilă**.
-3. Pe pagina **Detalii despre resurse** , selectați fila **Ore de lucru**. În mod implicit, calendarul resurselor rezervabile implicit este programul de lucru al șablonului implicit de oră de lucru definit pentru organizație.
+3. Pe pagina **Detalii despre resurse**, selectați fila **Ore de lucru**. În mod implicit, calendarul resurselor rezervabile implicit este programul de lucru al șablonului implicit de oră de lucru definit pentru organizație.
 4. Pentru a actualiza programul de lucru, faceți clic dreapta pe data de începere a regulii calendaristice propuse care urmează să fie definită. Utilizați meniul regulii calendarului pentru a defini o regulă calendaristică pentru o anumită zi, restul seriei sau întregul calendar.
 5. După selectarea opțiunii, puteți defini:
 
@@ -39,7 +39,7 @@ Fiecare resursă rezervabilă care lucrează la un proiect trebuie să aibă un 
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Aplicarea unui șablon de calendare unei resurse
 
-1. Pe meniul **Resurse** , selectați **Resurse**.
+1. Pe meniul **Resurse**, selectați **Resurse**.
 2. Din vizualizarea grilă, selectați până la 25 de **Resurse rezervabile** pentru a actualiza.
 3. Selectați **Setați Calendar** și o fereastră de dialog vă va solicita cu o listă de șabloane de ore de lucru disponibile.
 4. Selectați șablonul pe care doriți să îl utilizați și apoi selectați **Aplicare**.

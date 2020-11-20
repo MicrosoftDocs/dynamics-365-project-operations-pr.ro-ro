@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082656"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123843"
 ---
 # <a name="approvals-overview"></a>Prezentare generală a aprobărilor
 
@@ -27,7 +27,7 @@ Când creați și trimiteți o înregistrare de timp sau cheltuială, se creeaz�
 ## <a name="approve-an-entry"></a>Aprobă o intrare
 Formularul **Aprobări** vă permite să comutați între diferite vizualizări, astfel încât să puteți vizualiza diferitele tipuri de aprobări.
   
-1. Accesați formularul **Aprobări** și selectați **Cheltuieli** , **Timp** , sau **Retrageri**.
+1. Accesați formularul **Aprobări** și selectați **Cheltuieli**, **Timp**, sau **Retrageri**.
 2. Examinați fiecare aprobare și selectați-le pe care doriți să le aprobați.
 3. Selectați **Aprobare** pentru a aproba intrările selectate.
 Sistemul va procesa aceste intrări și va crea date reale sau o rezervare.
@@ -47,7 +47,7 @@ La un moment dat, poate fi necesar să vă amintiți o intrare trimisă. Dacă �
 Fiecare proiect are un număr de membri ai echipei de proiect. Puteți specifica ce membri ai echipei sunt, de asemenea, aprobatori de proiect.
 
 1. Accesați formularul **Proiecte** și deschideți proiectul din listă.
-2. Pe fila **Echipă** , selectați membrul echipei care va fi aprobator de proiect și apoi selectați **Editați**.
+2. Pe fila **Echipă**, selectați membrul echipei care va fi aprobator de proiect și apoi selectați **Editați**.
 3. Configurați câmpul **Aprobator de proiect** la **Da**.
 4. Selectați **Salvare**.
 5. Repetați pașii 2-4 pentru a adăuga aprobatori de proiect adiționali.
@@ -55,7 +55,7 @@ Fiecare proiect are un număr de membri ai echipei de proiect. Puteți specifica
 ## <a name="configure-the-users-manager"></a>Configurați managerul utilizatorului
 
 1. Accesați **Setări** > **Securitate** > **Utilizatori**.
-2. Selectați utilizatorul căruia îi atribuiți un manager și în zona **Informații despre organizație** , selectați managerul din listă. 
+2. Selectați utilizatorul căruia îi atribuiți un manager și în zona **Informații despre organizație**, selectați managerul din listă. 
 3. Selectați **Salvare**.
 
 

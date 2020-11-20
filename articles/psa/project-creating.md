@@ -3,7 +3,7 @@ title: Planificări de proiect
 description: Acest subiect oferă informații despre cum să creați o planificare.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082831"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123257"
 ---
 # <a name="project-schedules"></a>Planificări de proiect 
 
@@ -83,12 +83,12 @@ Butoanele **Mutare în sus** și **Mutare în jos** modifică poziția unei acti
 
 Grila de **Planificare** este complet accesibilă și poate fi utilizată cu cititoare de ecran, ar fi Narator, JAWS sau NVDA. Aveți posibilitatea să mutați prin zona grilă utilizând tastele săgeată (ca în Microsoft Excel), puteți utiliza tasta Tab pentru a avansa prin elementele interactive UI și puteți utiliza tasta săgeată în jos, tasta Enter sau bara de spațiu pentru a selecta și invoca meniurile verticale. Anteturile coloanelor sunt, de asemenea, interactive. Aveți posibilitatea să ascundeți și să afișați coloane, să utilizați tasta Tab și tastele săgeți pentru a vă deplasa prin anteturile coloanelor și pentru a utiliza butoanele de acțiune de pe bara de instrumente. În plus, puteți utiliza următoarele comenzi rapide de la tastatură:
 
-- **Reîmprospătare** : ALT+SHIFT+F5
-- **Adăugare** : ALT+SHIFT+Insert
-- **Ștergere** : ALT+SHIFT+Delete
-- **Mutare în sus/jos** : ALT+SHIFT+Săgeți sus/jos
-- **Indentare/Indentare exterioară** : ALT_SHIFT + săgeți stânga/dreapta
-- **Extindere/restrângere ierarhii** : tastele ALT+SHIFT + Plus/Minus
+- **Reîmprospătare**: ALT+SHIFT+F5
+- **Adăugare**: ALT+SHIFT+Insert
+- **Ștergere**: ALT+SHIFT+Delete
+- **Mutare în sus/jos**: ALT+SHIFT+Săgeți sus/jos
+- **Indentare/Indentare exterioară**: ALT_SHIFT + săgeți stânga/dreapta
+- **Extindere/restrângere ierarhii**: tastele ALT+SHIFT + Plus/Minus
 
 ## <a name="task-attributes"></a>Atributele activității
 
@@ -98,25 +98,25 @@ Numele unei activități descrie lucrul care trebuie să fie finalizat. În PSA,
  
 ### <a name="schedule-attributes"></a>Planificare atribute
 
-Atributele **Efort** , **Dată de început** , **Dată de sfârșit** și **Durată** definesc planificarea pentru activitate.
+Atributele **Efort**, **Dată de început**, **Dată de sfârșit** și **Durată** definesc planificarea pentru activitate.
 
 Atributele de program suplimentare includ:
 
-- **Ore de efort** : introduceți o estimare a orelor necesare pentru finalizarea activității. 
-- **Durata** : specificați numărul de zile lucrătoare care sunt necesare pentru a finaliza activitatea.
-- **ID Planificare** : acest ID generat automat este utilizat pentru a comanda activități în ierarhie. Dependențele dintre activități gestionează ordinea efectivă în care sunt lucrate activitățile.
+- **Ore de efort**: introduceți o estimare a orelor necesare pentru finalizarea activității. 
+- **Durata**: specificați numărul de zile lucrătoare care sunt necesare pentru a finaliza activitatea.
+- **ID Planificare**: acest ID generat automat este utilizat pentru a comanda activități în ierarhie. Dependențele dintre activități gestionează ordinea efectivă în care sunt lucrate activitățile.
  
 ### <a name="staffing-attributes"></a>Atribute de personal
 
-Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să faceți clic pe **Creare** și în panoul **Creare rapidă** , adăugați un membru al echipei de proiect ca o resursă nouă.
+Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să faceți clic pe **Creare** și în panoul **Creare rapidă**, adăugați un membru al echipei de proiect ca o resursă nouă.
 
-Câmpurile **Rol** , **Unitate de resursă** și **Nume poziție** sunt utilizate pentru a descrie cerințele de personal pentru activitate. Aceste atribute de personal împreună cu planificarea de activitate sunt utilizate pentru a găsi resursele disponibile pentru a face această activitate.
+Câmpurile **Rol**, **Unitate de resursă** și **Nume poziție** sunt utilizate pentru a descrie cerințele de personal pentru activitate. Aceste atribute de personal împreună cu planificarea de activitate sunt utilizate pentru a găsi resursele disponibile pentru a face această activitate.
 
 **Rol** - specificați tipul de resursă care este necesar pentru a realiza activitatea.
 
-**Unitate resursă** - specificați unitatea de la care ar trebui să se atribuie resursele pentru activitate. Acest atribut afectează estimarea costurilor și vânzărilor pentru activitate dacă rata de cost și de facturare pentru resursă se setează pe baza unităților de resurse.
+**Unitate resursă**- specificați unitatea de la care ar trebui să se atribuie resursele pentru activitate. Acest atribut afectează estimarea costurilor și vânzărilor pentru activitate dacă rata de cost și de facturare pentru resursă se setează pe baza unităților de resurse.
 
-**Numele poziției** - introduceți un nume prietenos pentru resursa generică ce servește ca un substituent pentru resursa care va efectua lucrul în cele din urmă.
+**Numele poziției**- introduceți un nume prietenos pentru resursa generică ce servește ca un substituent pentru resursa care va efectua lucrul în cele din urmă.
 
 Câmpul **Resurse** deține numele de poziție al resursei generice sau al resursei numite atunci când se găsește unul.
 

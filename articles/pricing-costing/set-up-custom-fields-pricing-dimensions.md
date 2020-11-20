@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082791"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119433"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț
 
@@ -30,20 +30,20 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Înainte de a începe, acest subiect presupune că ați finalizat procedurile din subiectele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities-pricing-dimensions.md) și [Adăugarea de câmpuri necesare particularizate la configurarea prețului și entități tranzacționale](add-custom-fields-price-setup-transactional-entities.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest subiect. 
 
-Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate. Pe pagina **Parametri** , fila **Dimensiuni de preț pe baza sumei** , afișează înregistrările în entitățile de dimensiune a prețului. În mod implicit, există două rânduri în grilă pe această filă:
+Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate. Pe pagina **Parametri**, fila **Dimensiuni de preț pe baza sumei**, afișează înregistrările în entitățile de dimensiune a prețului. În mod implicit, există două rânduri în grilă pe această filă:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unitate organizatorică)
 
 > [!IMPORTANT]
-> Nu ștergeți aceste rânduri. Cu toate acestea, dacă nu aveți nevoie de ele, le puteți face să nu se aplice într-un anumit context prin stabilirea tuturor setărilor **Aplicabil la cost** , **Aplicabil la vânzări** și **Aplicabil la achiziție** la valoarea **Nu**. Setarea acestor valori de atribut la **Nu** are același efect ca nu a avea câmpul ca dimensiune de preț.
+> Nu ștergeți aceste rânduri. Cu toate acestea, dacă nu aveți nevoie de ele, le puteți face să nu se aplice într-un anumit context prin stabilirea tuturor setărilor **Aplicabil la cost**, **Aplicabil la vânzări** și **Aplicabil la achiziție** la valoarea **Nu**. Setarea acestor valori de atribut la **Nu** are același efect ca nu a avea câmpul ca dimensiune de preț.
 
 Pentru ca un câmp să devină o dimensiune de preț, trebuie să fie:
 
 - Creat ca un câmp în entitățile **Preț rol** și **Adaos preț rol**. Pentru mai multe informații despre cum se face acest lucru, consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale](add-custom-fields-price-setup-transactional-entities.md).
 - Creat ca rând în tabelul **Dimensiune preț**. De exemplu, adăugați rânduri de dimensiuni de preț așa cum se arată în graficul următor. 
 
-Observați că programul de lucru resurse ( **msdyn_resourceworkhours** ) este adăugat ca o dimensiune bazată pe adaos și a fost adăugat la grilă pe fila **Dimensiune de preț bazată pe adaos** .
+Observați că programul de lucru resurse (**msdyn_resourceworkhours**) este adăugat ca o dimensiune bazată pe adaos și a fost adăugat la grilă pe fila **Dimensiune de preț bazată pe adaos** .
 
 > [!IMPORTANT]
 > Orice modificare a datelor de dimensiune de preț în acest tabel, existente sau noi, este propagată în logica de business de tarifare numai după reîmprospătarea cache. Timpul de reîmprospătare a memoriei cache poate dura până la 10 minute. Permiteți acea perioadă de timp pentru a vedea modificările din logica de nerambursare a prețului care trebuie să rezulte din modificările datelor dimensiunii prețurilor.
@@ -53,13 +53,13 @@ Observați că programul de lucru resurse ( **msdyn_resourceworkhours** ) este a
 Următoarele secțiuni furnizează informații despre atributele diferite din tabelul **Dimensiuni preț**.
 
 ### <a name="pricing-dimension-name"></a>Nume dimensiune de preț
-Această valoare ar trebui să fie exact la fel ca numele schemei câmpului care este adăugat la tabelul de **Preț rol** pentru dimensiunile de prețuri particularizate. Pentru mai multe informații despre adăugarea câmpurilor la tabelul **Prețuri de rol** , consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și la entitățile tranzacționale](add-custom-fields-price-setup-transactional-entities.md).
+Această valoare ar trebui să fie exact la fel ca numele schemei câmpului care este adăugat la tabelul de **Preț rol** pentru dimensiunile de prețuri particularizate. Pentru mai multe informații despre adăugarea câmpurilor la tabelul **Prețuri de rol**, consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și la entitățile tranzacționale](add-custom-fields-price-setup-transactional-entities.md).
 
 ### <a name="type-of-dimension"></a>Tipul de dimensiune
 Există două tipuri de dimensiuni de preț:
   
-  - **Dimensiuni bazate pe sume** : Valorile de dimensiune din contextul de intrare sunt potrivite cu valorile de dimensiune din linia **Preț rol** , iar prețul/costul este implicit direct din tabelul **Preț rol**.
-  - **Dimensiuni bazate pe adaos** : Acestea sunt dimensiuni în care este utilizat următorul proces în trei pași pentru a obține prețul/costul:
+  - **Dimensiuni bazate pe sume**: Valorile de dimensiune din contextul de intrare sunt potrivite cu valorile de dimensiune din linia **Preț rol**, iar prețul/costul este implicit direct din tabelul **Preț rol**.
+  - **Dimensiuni bazate pe adaos**: Acestea sunt dimensiuni în care este utilizat următorul proces în trei pași pentru a obține prețul/costul:
  
     1. Valorile de dimensiune non-adaos din contextul de intrare sunt potrivite la linia de preț de rol pentru a obține rata de bază.
     2. Valorile de dimensiune non-adaos din contextul de intrare sunt potrivite la linia **Adaos preț rol** pentru a obține un procent de adaos.
@@ -77,16 +77,16 @@ Există două tipuri de dimensiuni de preț:
 Dacă o resursă de la Contoso India a cărei rată de bază este 100 USD lucrează la fața locului, și înregistrează 8 ore de timp regulat și 2 ore suplimentare pe înregistrarea de timp, motorul de tarifare va folosi rata de bază de 100 pentru 8 ore pentru a înregistra 800 USD. Pentru cele 2 ore suplimentare, se va aplica un adaos de 15% la rata de bază de 100 pentru a obține un preț unitar de 115 USD și va înregistra un cost total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicabil la cost 
-Dacă este setat la **Da** , asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea costului și a ratelor de adaos.
+Dacă este setat la **Da**, asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea costului și a ratelor de adaos.
 
 ### <a name="applicable-to-sales"></a>Aplicabil la vânzări
-Dacă este setat la **Da** , asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea facturii și a ratelor de adaos.
+Dacă este setat la **Da**, asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea facturii și a ratelor de adaos.
 
 ### <a name="applicable-to-purchase"></a>Aplicabil la achiziție
-Dacă este setat la **Da** , asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea prețului de achiziție. Scenariile de subcontractare nu sunt acceptate, deci acest câmp nu este utilizat. 
+Dacă este setat la **Da**, asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea prețului de achiziție. Scenariile de subcontractare nu sunt acceptate, deci acest câmp nu este utilizat. 
 
 ### <a name="priority"></a>Prioritate
 Setarea priorității de dimensiune ajută tarifarea să producă un preț chiar și atunci când nu poate găsi o potrivire exactă între valorile dimensiunilor de intrare și valorile din tabelele de **Preț rol** sau **Adaos preț rol**. În acest scenariu, valori nule sunt utilizate pentru valori de dimensiune fără potrivire prin cântărirea dimensiunilor în ordinea priorității lor.
 
-- **Prioritate cost** : Valoarea priorității costului unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de cost. Valoarea de **Prioritate cost** trebuie să fie unică între dimensiunile care sunt **Aplicabile costului**.
-- **Prioritate vânzări** : Valoarea priorității vânzărilor unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de vânzare sau a ratelor de facturare. Valoarea de **Prioritate vânzări** trebuie să fie unică între dimensiunile care sunt **Aplicabile vânzărilor**.
+- **Prioritate cost**: Valoarea priorității costului unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de cost. Valoarea de **Prioritate cost** trebuie să fie unică între dimensiunile care sunt **Aplicabile costului**.
+- **Prioritate vânzări**: Valoarea priorității vânzărilor unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de vânzare sau a ratelor de facturare. Valoarea de **Prioritate vânzări** trebuie să fie unică între dimensiunile care sunt **Aplicabile vânzărilor**.

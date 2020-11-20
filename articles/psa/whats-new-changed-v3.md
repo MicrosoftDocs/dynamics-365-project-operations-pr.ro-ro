@@ -2,7 +2,7 @@
 title: Ce este nou sau modificat în Project Service Automation versiunea 3
 description: Acest subiect oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082758"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120018"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Ce este nou sau modificat în Project Service Automation versiunea 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Estimările au fost împărțite în două file, **Atribuire de resurse** și **
 
 ![Fila Atribuiri resurse afișează estimările de efort și atribuirile de resurse pentru activități](media/resource-assignments-tab-02.png)
 
-Fila **Estimări** afișează sumele de cost și vânzări pentru atribuirile de resurse. Sumele sunt doar în citire. Costul și prețurile de vânzare sunt acum conduse din atribuirile membrului echipei pe planificare. Acest lucru înseamnă că, dacă aveți o activitate fără nici o atribuire, aceasta va apărea sub pachetul neatribuit. Acest lucru înseamnă, de asemenea, că fără **rol** , care este o dimensiune implicită de tarifare, nu va exista nici un cost estimat sau vânzări dacă aveți un client sau un contract/ofertă asociate cu proiectul. 
+Fila **Estimări** afișează sumele de cost și vânzări pentru atribuirile de resurse. Sumele sunt doar în citire. Costul și prețurile de vânzare sunt acum conduse din atribuirile membrului echipei pe planificare. Acest lucru înseamnă că, dacă aveți o activitate fără nici o atribuire, aceasta va apărea sub pachetul neatribuit. Acest lucru înseamnă, de asemenea, că fără **rol**, care este o dimensiune implicită de tarifare, nu va exista nici un cost estimat sau vânzări dacă aveți un client sau un contract/ofertă asociate cu proiectul. 
 
 ![Fila estimări afișează sumele de cost și de vânzări](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Estimările de cheltuieli pot fi introduse în grila de pe fila **Estimări de c
 ![Fila estimări de cheltuieli afișează grila cu estimări de cheltuieli](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gestionarea resurselor
-În Project Service Automation versiunea 3, cu noul utilizator Unified Client și modificări în relația dintre rezervări și atribuiri, echiparea cu personal a unui proiect cu resurse generice sau reale s-a schimbat dramatic de la versiunea 2 și versiunea 1. Cu toate acestea, conceptele de resurse care pot fi rezervate, atât **reale** , cât și **generice** rămân aceleași, la fel ca membrii echipei, cerințele, misiunile și rezervările.   
+În Project Service Automation versiunea 3, cu noul utilizator Unified Client și modificări în relația dintre rezervări și atribuiri, echiparea cu personal a unui proiect cu resurse generice sau reale s-a schimbat dramatic de la versiunea 2 și versiunea 1. Cu toate acestea, conceptele de resurse care pot fi rezervate, atât **reale**, cât și **generice** rămân aceleași, la fel ca membrii echipei, cerințele, misiunile și rezervările.   
 
 ![Utilizarea selectorului de resurse](media/resource-management-05.png)
 
@@ -158,7 +158,7 @@ Faceți clic pe **Nou** în panglică pentru a deschide o pagină de creare rapi
 Câmpurile căutare sunt susținute de vizualizări de sistem. De exemplu, după ce introduceți informații despre proiect, câmpul **Activitatea de proiect** este setată implicit la vizualizarea **Activitățile mele de proiect deschise**. Pentru a crea intrări de timp pentru activități care nu sunt atribuite utilizatorului, faceți clic pe **Modificare vizualizare** pe câmpul căutare și selectați **Toate activitățile active de proiect**. După ce intrarea de timp a fost creată și este afișatăîn grilă, aveți posibilitatea să editați orice valori de linie direct în grilă.  
 
 ### <a name="bulk-createcopy"></a>Creare/Copiere în bloc 
-După ce au fost create câteva înregistrări de timp, puteți utiliza funcționalitatea de copiere pentru a crea în bloc entități de timp adiționale. Faceți clic pe **Copiere** pentru a deschide dialogul **Copiere**. În **De la perioada: data de început** , setați intervalul de date din care trebuie copiate intervalele de timp. În **La perioadă: data de început** , specificați data pentru care trebuie create intrările de timp. Faceți clic pe **Copiere** pentru a copia intrările de timp în ziua corespunzătoare a săptămânii indicată în **La perioada**. De exemplu, înregistrarea de timp pentru luni de săptămâna trecută va fi copiată pentru lunea săptămânii indicate în **La perioada**. 
+După ce au fost create câteva înregistrări de timp, puteți utiliza funcționalitatea de copiere pentru a crea în bloc entități de timp adiționale. Faceți clic pe **Copiere** pentru a deschide dialogul **Copiere**. În **De la perioada: data de început**, setați intervalul de date din care trebuie copiate intervalele de timp. În **La perioadă: data de început**, specificați data pentru care trebuie create intrările de timp. Faceți clic pe **Copiere** pentru a copia intrările de timp în ziua corespunzătoare a săptămânii indicată în **La perioada**. De exemplu, înregistrarea de timp pentru luni de săptămâna trecută va fi copiată pentru lunea săptămânii indicate în **La perioada**. 
 
 ![Copiați intrările de timp în bloc](media/bulk-copy-time-entry-09.png)
  
@@ -192,7 +192,7 @@ Platforma Common Data Service nu acceptă ca un utilizator să se dea drept altu
 Particularizarea vă permite să adăugați **Resurse care pot fi rezervate** pentru a crea și edita experiențele, ceea ce va permite unui utilizator să acționeze ca delegat modificând **Resursa rezervare** la un alt utilizator pentru care intrările de timp și cheltuieli trebuie să fi înregistrate. Următorii pași acoperă delegarea de intrare de timp. Aceleași informații se aplică delegării de intrare de cheltuială. 
  
 1.  Asigurați-vă că utilizatorul delegat are acces de securitate global la proiecte și activități de proiect. 
-1.  Deoarece **Resursa care se poate rezerva** , care este un câmp în entitatea **Intrare de timp** nu este expusă pe pagina **Creare rapidă** , trebuie să o adăugați.
+1.  Deoarece **Resursa care se poate rezerva**, care este un câmp în entitatea **Intrare de timp** nu este expusă pe pagina **Creare rapidă**, trebuie să o adăugați.
 
     -sau-
 

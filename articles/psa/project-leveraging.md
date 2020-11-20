@@ -3,7 +3,7 @@ title: Estimări de vânzări și proiecte
 description: Acest subiect furnizează informații despre cum să profitați de planificare și de estimări în procesul de vânzări.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082814"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120693"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimări de vânzări și proiecte
 
@@ -51,4 +51,4 @@ Puteți defini efortul de lucru și estimările de planificare utilizând câmpu
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importarea estimărilor dintr-un proiect într-o ofertă
 
-După ce definiți estimările proiectului, aveți posibilitatea să le importați în linia de ofertă. În pagina **Detalii linie ofertă** , selectați **Importați din estimările** din panglică pentru a rezuma estimările de proiect după tipul de tranzacție, rol sau nivel de activitate.
+După ce definiți estimările proiectului, aveți posibilitatea să le importați în linia de ofertă. În pagina **Detalii linie ofertă**, selectați **Importați din estimările** din panglică pentru a rezuma estimările de proiect după tipul de tranzacție, rol sau nivel de activitate.

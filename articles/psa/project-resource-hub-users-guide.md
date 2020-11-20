@@ -3,7 +3,7 @@ title: Ghidul utilizatorului pentru Hubul resurse proiect
 description: Un ghid pentru utilizatorul final pentru hubul de resurse de proiect pentru Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082787"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123168"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Ghid de utilizator pentru hubul de resurse de proiect
 
@@ -66,7 +66,7 @@ Secțiunile Preferințe și Recent utilizate oferă acces rapid la înregistrăr
 
 - Pentru a accesa aceste secțiuni, atingeți **Meniu** ![butonul Meniu](media/MenuButton.png "Buton meniu") de pe bara de navigare, apoi atingeți butonul **Preferințe și recente** ![butonul Preferințe](media/FavButton.png "Buton Preferințe").
 
-- Pentru a fixa un element ca preferat, din lista de elemente **Utilizate recent** , apăsați piuneza. Aceasta va fixa și va muta elementul în Preferințe.
+- Pentru a fixa un element ca preferat, din lista de elemente **Utilizate recent**, apăsați piuneza. Aceasta va fixa și va muta elementul în Preferințe.
 
   ![Preferințe și elemente recente](media/Favs_3.png "Preferințe și elemente recente")
  
@@ -88,7 +88,7 @@ Introduceți cheltuielile cel puțin săptămânal - sau la frecvența solicitat
 
 1. Atingeți butonul Meniu ![butonul Meniu](media/MenuButton.png "Buton meniu") și **Cheltuieli**. Acest lucru vă afișează calendarul.
 
-2. Puteți comuta la vizualizarea **Zi** , **Săptămână** sau **Lună** sau naviga la perioada de timp anterioară sau următoare. 
+2. Puteți comuta la vizualizarea **Zi**, **Săptămână** sau **Lună** sau naviga la perioada de timp anterioară sau următoare. 
 
 3. Pentru a introduce cheltuielile, atingeți **Nou** pe bara de comenzi. 
 

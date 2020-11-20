@@ -3,7 +3,7 @@ title: Lucrul cu modelul de date Project Service Automation
 description: Acest subiect oferă informații despre modul de lucru cu modelul de date.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082981"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120288"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Lucrul cu modelul de date Project Service Automation
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation extinde alte entități ale aplicației 
 
 ## <a name="reporting-on-opportunities"></a>Raportarea oportunităților
 
-Project Service Automation extinde entitatea **Oportunitate** a Dynamics 365 Sales prin adăugarea de câmpuri care permit scenarii bazate pe proiect. Aceste câmpuri sunt identificate printr-un nume de schemă care este prefixat cu **msdyn\_**. Un câmp nou, care este important pentru raportarea pe oportunități PSA este **Tipul de comandă**. O valoare a acestui câmp de **Pe bază de lucru** indică faptul că oportunitatea este o oportunitate PSA. Alte câmpuri care au fost adăugate la entitate includ **Organizația contractantă** , care surprinde organizația care deține oportunitatea și **Managerul de cont** , care surprinde numele managerului de cont care este responsabil pentru oportunitate.
+Project Service Automation extinde entitatea **Oportunitate** a Dynamics 365 Sales prin adăugarea de câmpuri care permit scenarii bazate pe proiect. Aceste câmpuri sunt identificate printr-un nume de schemă care este prefixat cu **msdyn\_**. Un câmp nou, care este important pentru raportarea pe oportunități PSA este **Tipul de comandă**. O valoare a acestui câmp de **Pe bază de lucru** indică faptul că oportunitatea este o oportunitate PSA. Alte câmpuri care au fost adăugate la entitate includ **Organizația contractantă**, care surprinde organizația care deține oportunitatea și **Managerul de cont**, care surprinde numele managerului de cont care este responsabil pentru oportunitate.
 
 Entitatea **Linie de oportunitate** include, de asemenea, câmpuri care sunt legate de Project service. **Metoda de facturare** indică dacă linia de oportunitate trebuie facturată pe bază de timp și materiale sau pe bază de preț fix, iar **Proiect** surprinde numele proiectului care sprijină oportunitatea. Alte câmpuri pe care le puteți raporta captează costurile și sumele din bugetul clientului pentru articolul de linie.
 
 ## <a name="reporting-on-quotes"></a>Raportarea ofertelor
 
-PSA extinde entitatea **Ofertă** vânzări, adăugând câmpuri legate de proiect. **Tipul comenzii** distinge ofertele PSA de ofertele non-PSA. O valoare a acestui câmp de **Pe bază de lucru** indică faptul că oferta este o ofertă PSA. Alte câmpuri care pot fi relevante pentru raportarea ofertelor PSA includ câmpurile de valoare, precum **Costuri tarifabile** , **Costuri netarifabile** , **Marjă brută** , **Estimări** și **Buget**. Alte domenii utile indică dacă oferta este profitabilă, dacă aceasta va fi finalizată conform programării și dacă îndeplinește așteptările bugetului clientului.
+PSA extinde entitatea **Ofertă** vânzări, adăugând câmpuri legate de proiect. **Tipul comenzii** distinge ofertele PSA de ofertele non-PSA. O valoare a acestui câmp de **Pe bază de lucru** indică faptul că oferta este o ofertă PSA. Alte câmpuri care pot fi relevante pentru raportarea ofertelor PSA includ câmpurile de valoare, precum **Costuri tarifabile**, **Costuri netarifabile**, **Marjă brută**, **Estimări** și **Buget**. Alte domenii utile indică dacă oferta este profitabilă, dacă aceasta va fi finalizată conform programării și dacă îndeplinește așteptările bugetului clientului.
 
-PSA extinde, de asemenea entitatea **Linie ofertă** vânzări. Un câmp pe care PSA îl adaugă este **Metoda de facturare** , care indică modul în care va fi facturată linia de ofertă (timp și materiale sau preț fix). Alte câmpuri care au fost adăugate entității capturează proiectul corelat care sprijină linia de ofertă, facturarea, costul și bugetul.
+PSA extinde, de asemenea entitatea **Linie ofertă** vânzări. Un câmp pe care PSA îl adaugă este **Metoda de facturare**, care indică modul în care va fi facturată linia de ofertă (timp și materiale sau preț fix). Alte câmpuri care au fost adăugate entității capturează proiectul corelat care sprijină linia de ofertă, facturarea, costul și bugetul.
 
 PSA adaugă, de asemenea, noi entități legate de ofertă la modelul de date Dynamics 365. Iată câteva exemple:
 
@@ -50,13 +50,13 @@ PSA adaugă, de asemenea, noi entități legate de ofertă la modelul de date Dy
 - **Jalon linie de ofertă** – Această entitate conține jaloanele de facturare pentru liniile de ofertă cu preț fix.
 - **Defalcare analitică linie ofertă** – Această entitate conține detaliile financiare pentru linia de ofertă. Aceste detalii pot fi utile pentru raportarea vânzărilor din ofertă și a costurilor estimate după diverse dimensiuni.
 
-Alte entități pe care PSA adaugă la oferte sunt **Listă de prețuri proiect linie de ofertă** , **Categorie resurse linie de ofertă** și **Categorie tranzacție linie de ofertă**.
+Alte entități pe care PSA adaugă la oferte sunt **Listă de prețuri proiect linie de ofertă**, **Categorie resurse linie de ofertă** și **Categorie tranzacție linie de ofertă**.
 
 ![Diagrama care arată oferta, linia de ofertă și relațiile de proiect](media/PS-Reporting-image2.png "Diagrama care arată oferta, linia de ofertă și relațiile de proiect")
 
 ## <a name="reporting-on-project-contracts"></a>Raportarea contractelor de proiect
 
-PSA extinde entitatea **Comandă** de vânzări care se utilizează la înregistrarea contractelor de proiect. Se adaugă un câmp nou important, **Tip de comandă** , care identifică contractul ca un contract de proiect PSA în loc de o comandă de vânzare. O valoare a acestui câmp de **Pe bază de lucru** indică faptul că respectiva comandă este un contract de proiect PSA. Alte câmpuri noi care sunt adăugate la entitatea **Comandă** capturează detalii despre costuri, starea contractului PSA și organizația care deține contractul.
+PSA extinde entitatea **Comandă** de vânzări care se utilizează la înregistrarea contractelor de proiect. Se adaugă un câmp nou important, **Tip de comandă**, care identifică contractul ca un contract de proiect PSA în loc de o comandă de vânzare. O valoare a acestui câmp de **Pe bază de lucru** indică faptul că respectiva comandă este un contract de proiect PSA. Alte câmpuri noi care sunt adăugate la entitatea **Comandă** capturează detalii despre costuri, starea contractului PSA și organizația care deține contractul.
 
 PSA extinde, de asemenea entitatea **Linie ofertă vânzări**. Printre câmpurile pe care le adaugă sunt câmpuri care capturează metoda de facturare (timp și materiale sau preț fix), sumele din bugetul clientului și proiectul subiacent.
 
@@ -66,7 +66,7 @@ PSA adaugă, de asemenea, noi entități care sunt proiectate pentru contractele
 - **Program factură linie contract** – Această entitate conține programul de facturare generat pe baza frecvenței facturii care este asociată liniei de contract.
 - **Jalon contract** – Această entitate conține etapele de facturare pentru liniile de contract care au un termen de facturare cu preț fix.
 
-Alte entități pe care PSA le adaugă la contracte sunt **Listă de prețuri proiect linie pe proiect** , **Categorie resurse linie contract pe proiect** și **Categorie tranzacție linie contract pe proiect**.
+Alte entități pe care PSA le adaugă la contracte sunt **Listă de prețuri proiect linie pe proiect**, **Categorie resurse linie contract pe proiect** și **Categorie tranzacție linie contract pe proiect**.
 
 ![Diagrama care arată comanda, linia de comandă și relațiile de proiect](media/PS-Reporting-image3.png "Diagrama care arată comanda, linia de comandă și relațiile de proiect")
 
@@ -97,7 +97,7 @@ Resursele proiectului utilizează entitățile **Resursă care poate fi rezervat
 
 Când aprobați o foaie de pontaj sau o cheltuială sau când facturați un contract în PSA, tranzacția de business este capturată în entitatea **Valoare reală**. Această entitate poate servi drept bază pentru aproape toate rapoartele legate de finanțare în PSA. Entitatea **Valoare reală** surprinde tranzacțiile cost și vânzări pentru evenimentul de business. De asemenea, surprinde multe atribute relevante.
 
-Când lucrați cu entitatea **Valoare reală** , este important să înțelegeți ce tranzacție sau tranzacții sunt înregistrate în entitate și când sunt înregistrate tranzacțiile. Iată fluxul tipic atunci când lucrați cu înregistrări de timp (fluxul pentru înregistrările de cheltuieli este similar):
+Când lucrați cu entitatea **Valoare reală**, este important să înțelegeți ce tranzacție sau tranzacții sunt înregistrate în entitate și când sunt înregistrate tranzacțiile. Iată fluxul tipic atunci când lucrați cu înregistrări de timp (fluxul pentru înregistrările de cheltuieli este similar):
 
 1. Când se salvează înregistrarea de timp, nu sunt create înregistrări în entitatea **Valoare reală**.
 2. Când se remite înregistrarea de timp, nu sunt create înregistrări în entitatea **Valoare reală**.

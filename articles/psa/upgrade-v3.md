@@ -2,7 +2,7 @@
 title: Considerente legate de upgrade - Microsoft Dynamics 365 Project Service Automation versiunea 2.x sau 1.x la versiunea 3
 description: Acest subiect oferă informații despre lucrurile pe care trebuie să le luați în calcul atunci când faceți upgrade de la Project Service Automation versiunea 2. x sau 1. x la versiunea 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082876"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121728"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerente legate de upgrade - PSA versiunea 2.x sau 1.x la versiunea 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -56,7 +56,7 @@ Când faceți upgrade la versiunea 3, activitățile de linie sunt înlocuite cu
 
 ![Atribuiri de resurse](media/resource-assignment-v2-05.png)
 
-Deoarece estimările se bazează pe rolul implicit pentru resursă, estimările de vânzări și costuri se pot modifica. Rețineți că în graficul următor, nu mai vedeți rolul de **Dezvoltator** , deoarece rolul este acum luat din rolul implicit al resursei care se poate rezerva.
+Deoarece estimările se bazează pe rolul implicit pentru resursă, estimările de vânzări și costuri se pot modifica. Rețineți că în graficul următor, nu mai vedeți rolul de **Dezvoltator**, deoarece rolul este acum luat din rolul implicit al resursei care se poate rezerva.
 
 ![Estimările costurilor pentru rolurile implicite](media/resource-assignment-cost-estimate-06.png)
 ![Estimare vânzări pentru rolurile implicite](media/resource-assignment-sales-estimate-07.png)
@@ -77,7 +77,7 @@ Acest lucru este valabil și pentru activitățile de linie care au fost atribui
 
 Înainte de a începe upgrade-ul, vă recomandăm să re-generați echipa pentru fiecare proiect care are sarcini atribuite la resurse generice sau pentru care nu s-a rulat încă procesul de generare echipa.
 
-Pentru activități care sunt atribuite membrilor generici de echipă care au fost generate cu **Generare echipă** , actualizarea va lăsa resursa generică pe echipă și va lăsa atribuirea la acel membru generic de echipă. Vă recomandăm să generați cerința de resurse pentru membrul generic de echipă după actualizare, dar înainte de a rezerva sau remite o solicitare de resurse. Acest lucru va păstra toate atribuirile de unitate de organizație pe membrii generici ai echipei care sunt diferite de unitatea de organizație contractantă a proiectului.
+Pentru activități care sunt atribuite membrilor generici de echipă care au fost generate cu **Generare echipă**, actualizarea va lăsa resursa generică pe echipă și va lăsa atribuirea la acel membru generic de echipă. Vă recomandăm să generați cerința de resurse pentru membrul generic de echipă după actualizare, dar înainte de a rezerva sau remite o solicitare de resurse. Acest lucru va păstra toate atribuirile de unitate de organizație pe membrii generici ai echipei care sunt diferite de unitatea de organizație contractantă a proiectului.
 
 De exemplu, în proiectul Proiect Z, unitatea de organizație contractantă este Contoso US. În planul de proiect, pentru sarcinile de testare în faza de implementare a fost atribuit rolul consultant tehnic și unitatea de organizație atribuită este Contoso India.
 
