@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082673"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181827"
 ---
 # <a name="copy-project-based-quotes"></a>Copierea ofertelor bazate pe proiect
 
@@ -21,11 +21,11 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Puteți crea cu ușurință o nouă ofertă de proiect copiind una existentă. 
 
-- Pentru a copia o ofertă de proiect, pe pagina listei **Oferte de proiect** sau pagina de detalii **Oferta proiectului** , selectați oferta proiectului pe care doriți să o copiați, apoi selectați **Copiați**.
+- Pentru a copia o ofertă de proiect, pe pagina listei **Oferte de proiect** sau pagina de detalii **Oferta proiectului**, selectați oferta proiectului pe care doriți să o copiați, apoi selectați **Copiați**.
 
 Aceasta va deschide o pagină de dialog în care puteți introduce parametrii copiei. Următorul tabel listează câmpurile care sunt incluse în pagina de dialog. În funcție de valorile selectate, procesul de copiere se poate modifica.
 
-| **Câmp** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- |
 | Subiect | Introduceți subiectul relevant sau numele ofertei țintă. Când se deschide dialogul, sistemul îl va seta la subiectul ofertei sursă cu **-copie** anexat la acesta. | |
 | Client potențial | Trimitere la compania clientului sau la înregistrarea contului. Când se deschide caseta de dialog, sistemul îl va seta la contul din oferta sursă. | Acest câmp este clientul principal din ofertă. |

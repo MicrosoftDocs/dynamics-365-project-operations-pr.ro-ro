@@ -1,28 +1,28 @@
 ---
-title: Importarea estimărilor pentru un proiect pentru o linie de ofertă pe bază de proiect
+title: Importați estimări pentru un proiect pentru o linie de ofertă pe bază de proiect - simplificat
 description: Acest subiect oferă informații despre cum să importați estimările dintr-un proiect într-o linie de ofertă.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082698"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177751"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Importarea estimărilor pentru un proiect pentru o linie de ofertă pe bază de proiect
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importați estimări pentru un proiect pentru o linie de ofertă pe bază de proiect - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Dacă un proiect este creat în etapa de pre-vânzare, puteți alege să importați estimarea financiară din proiect în linia de ofertă bazată pe proiect.
 
 1. Asigurați-vă că linia de ofertă bazată pe proiect are informațiile despre proiect în câmpul **Proiect**.
-2. Pe fila **Detalii linie de ofertă** , selectați **Importați din estimarea de proiect**.
+2. Pe fila **Detalii linie de ofertă**, selectați **Importați din estimarea de proiect**.
 3. Când se deschide pagina casetei de dialog, selectați una dintre următoarele opțiuni de rezumat.
 
   - **Clasă de tranzacții**
@@ -30,7 +30,7 @@ Dacă un proiect este creat în etapa de pre-vânzare, puteți alege să importa
   - **Rol** 
   - **Activitate de proiect**
 
-Pe baza selecției dvs., estimarea din proiect pentru toate clasele de tranzacții incluse pe această linie de ofertă este copiată. Pentru a verifica ce clase de tranzacții sunt incluse, selectați fila **General** de pe linia de ofertă bazată pe proiect și verificați valorile pentru **Includeți timpul** , **Includeți cheltuielile** și **Includeți taxe**.  Pentru a verifica ce sarcini sunt incluse, selectați fila **Activități taxabile** de pe linia de ofertă.
+Pe baza selecției dvs., estimarea din proiect pentru toate clasele de tranzacții incluse pe această linie de ofertă este copiată. Pentru a verifica ce clase de tranzacții sunt incluse, selectați fila **General** de pe linia de ofertă bazată pe proiect și verificați valorile pentru **Includeți timpul**, **Includeți cheltuielile** și **Includeți taxe**.  Pentru a verifica ce sarcini sunt incluse, selectați fila **Activități taxabile** de pe linia de ofertă.
 
 În funcție de activitățile asociate și clasele de tranzacții incluse, estimările pentru acele combinații de activități și clase de tranzacții sunt importate pe linia de ofertă.
 

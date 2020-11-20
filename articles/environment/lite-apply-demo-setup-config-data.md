@@ -1,23 +1,30 @@
 ---
-title: Aplicarea datelor de instalare și configurare demonstrative
+title: Aplicarea datelor de instalare și configurare demonstrative - simplificat
 description: Acest subiect oferă informații despre cum se aplică datele de configurare și configurare demo pentru Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082661"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401278"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aplicați datele de configurare și configurare a demonstrației pentru implementarea Project Operations simplificat - de la tranzacție la factura proforma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicați date de configurare și instalare pentru Project Operations - simplificat 
 
 _**Implementare simplificată - facturare de la tranzacție la proforma_
+
+## <a name="prerequisites"></a>Cerințe preliminare
+
+Înainte de a începe configurarea, trebuie să aveți un mediu Common Data Service (CDS) asigurat pentru operațiunile din Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Instrucțiuni
 
 1. Descărcați [Pachetul de date master](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navigați la dosarul *ProjOpsDemoDataSetupAndMaster - CMT integrat* și rulați fișierul executabil, *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
 10. Importul va rula aproximativ două-zece minute, în funcție de viteza rețelei. După finalizare, ieșiți din CMT Wizard. 
 11. Verificați organizația pentru date în următoarele 20 de entități:
 
-- Monedă
-- Unitate organizațională
-- Contact
-- Grup fiscal
-- Grup de clienți
-- Unitate
-- Grup de unități
-- Listă de prețuri
-- Listă de prețuri parametru proiect
-- Frecvență factură
-- Detaliu frecvență factură
-- Categoria resursei ce se poate rezerva
-- Categorie tranzacție
-- Categorie de cheltuieli
-- Preț pentru rol
-- Preț pentru categoria de tranzacție
-- Caracteristică
-- Resursă ce se poate rezerva
-- Asociere categorie resursă care se poate rezerva
-- Caracteristică a resursei ce se poate rezerva
+-   Monedă
+-   Cont
+-   Unitate organizațională
+-   Contact
+-   Grup fiscal
+-   Grup de clienți
+-   Unitate
+-   Grup de unități
+-   Listă de prețuri
+-   Listă de prețuri parametru proiect 
+-   Frecvență factură
+-   Categoria resursei ce se poate rezerva
+-   Categorie tranzacție
+-   Categorie de cheltuieli
+-   Preț pentru rol
+-   Preț pentru categoria de tranzacție
+-   Caracteristică
+-   Resursă ce se poate rezerva
+-   Asociere categorie resursă care se poate rezerva
+-   Caracteristică a resursei ce se poate rezerva
 
 ![Finalizați importul](./media/6CompleteImport.png)

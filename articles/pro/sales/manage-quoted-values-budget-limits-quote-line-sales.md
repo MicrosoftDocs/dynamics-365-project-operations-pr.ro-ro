@@ -1,21 +1,21 @@
 ---
-title: Linii de oferte bazate pe proiect (Pro)
+title: Prezentare generală a liniilor de oferte bazate pe proiect - simplificat
 description: Acest subiect oferă informații despre utilizarea liniilor de ofertă bazate pe proiecte pentru lucrările de proiect. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082726"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181107"
 ---
-# <a name="project-based-quote-lines-pro"></a>Linii de oferte bazate pe proiect (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Prezentare generală a liniilor de oferte bazate pe proiect - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -31,7 +31,7 @@ Liniile de ofertă bazate pe proiect sunt concepute pentru a ajuta la estimarea 
 
 Următorul tabel oferă informații despre câmpurile de pe fila **General** a liniei de ofertă bazată pe proiect. Aceste câmpuri ajută la stabilirea bazei unei estimări detaliate, fundamentate pentru lucrările de proiect.
 
-| **Câmp** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- |
 | Nume | Numele liniei de cotație care ar trebui să vă ajute să identificați componenta discretă a cotației care este estimată. | Copiat pe linia contractului de proiect care este creată din această linie de cotație atunci când oferta este câștigată. |
 | Metodă de facturare | Pe o ofertă creată dintr-o oportunitate, această valoare este copiată din câmpul corespunzător de pe linia de oportunitate. Acest câmp include cele două modele principale de contractare acceptate de Dynamics 365 Project Operations:</br>- Preț fix</br>- Timp și material.| Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
@@ -49,15 +49,15 @@ Următorul tabel oferă informații despre câmpurile de pe fila **General** a l
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Reguli de validare pentru câmpurile din fila General a liniilor de ofertă bazate pe proiect
 
-**Regula 1** : Dacă câmpul **Sarcini incluse** este necompletat sau dacă este setat la **Toate sarcinile proiectului** , un proiect este inclus în linia de ofertă.
+**Regula 1**: Dacă câmpul **Sarcini incluse** este necompletat sau dacă este setat la **Toate sarcinile proiectului**, un proiect este inclus în linia de ofertă.
 
-**Regula 2** : Dacă câmpul **Sarcini incluse** este necompletat sau dacă este setat la **Toate sarcinile proiectului** , un proiect și o anumită clasă de tranzacții pot fi incluse numai pe o singură linie de ofertă bazată pe proiect.
+**Regula 2**: Dacă câmpul **Sarcini incluse** este necompletat sau dacă este setat la **Toate sarcinile proiectului**, un proiect și o anumită clasă de tranzacții pot fi incluse numai pe o singură linie de ofertă bazată pe proiect.
 
-**Regula 3** : Dacă câmpul **Sarcini incluse** este setat la **Doar activitățile de proiect selectate** , un proiect și o anumită clasă de tranzacții pot fi incluse numai pe o linie de ofertă multiplă bazată pe proiect.
+**Regula 3**: Dacă câmpul **Sarcini incluse** este setat la **Doar activitățile de proiect selectate**, un proiect și o anumită clasă de tranzacții pot fi incluse numai pe o linie de ofertă multiplă bazată pe proiect.
 
-**Regula 4** : Dacă o oportunitate are mai multe ghilimele, pot exista linii de ofertă din oferte diferite care fac referire la același proiect și includ aceeași clasă de tranzacții.
+**Regula 4**: Dacă o oportunitate are mai multe ghilimele, pot exista linii de ofertă din oferte diferite care fac referire la același proiect și includ aceeași clasă de tranzacții.
 
-**Regula 5** : Dacă ofertele nu aparțin aceleiași oportunități, nu pot include același proiect și aceeași clasă de tranzacții.
+**Regula 5**: Dacă ofertele nu aparțin aceleiași oportunități, nu pot include același proiect și aceeași clasă de tranzacții.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

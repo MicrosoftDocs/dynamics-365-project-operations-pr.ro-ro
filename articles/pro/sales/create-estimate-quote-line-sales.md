@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082700"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180387"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimarea unei linii de ofertă pe bază de proiect
 
@@ -30,9 +30,9 @@ Pentru a estima o linie de ofertă bazată pe proiect, pe linia de estimare baza
 
 Pentru a crea o ofertă pe o linie de ofertă bazată pe proiect, selectați fila **Detalii linie ofertă**. Elementul rând pe care îl creați în această filă va rezuma valoarea ofertată pentru acest rând de ofertă. 
 
-Pentru a crea detaliile liniei de ofertă, selectați **+ Detaliu linie nouă de ofertă** pe sub-grila **Detalii despre linia de ofertă**. Se va deschide un glisor de creare rapidă. Următoarele câmpuri de pe formularul **Linie ofertă** :
+Pentru a crea detalii despre linia de ofertă, selectați **+ Detaliu linie de ofertă nouă** pe subgrila **Detalii despre linia de ofertă**. Se va deschide un glisor de creare rapidă. Următoarele câmpuri de pe formularul **Linie ofertă**:
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Descriere | Creare rapidă | O descriere a estimării specifice. | Acest câmp implicit se referă la detaliile referitoare la linia de ofertă pentru costul creat automat. |
 | Clasă de tranzacții | Creare rapidă | Această listă derulantă oferă clasele de tranzacții care sunt incluse în fila **General** a liniei de ofertă bazată pe proiect.  | Acest câmp implicit se referă la detaliile referitoare la linia de ofertă pentru costul creat automat. |
@@ -50,11 +50,11 @@ Pentru a crea detaliile liniei de ofertă, selectați **+ Detaliu linie nouă de
 
 ## <a name="update-prices-on-quote-line-details"></a>Actualizați prețurile în detaliile liniei de ofertă
 
-Dacă ați modificat prețurile în lista de prețuri a proiectului care este atașată la ofertă sau în lista de prețuri a costului unității contractante, puteți selecta pagina **Recalculează** pe pagina **Ofertă** , pentru a reîmprospăta prețurile din detaliile liniei de ofertă individuale pentru a reflecta această modificare. Când selectați **Recalculează** , apare un avertisment care vă informează că prețurile din detaliile liniei de ofertă pentru toate liniile de ofertă din această ofertă vor fi resetate. Selectați **Da** , pentru a reîmprospăta prețurile atât pentru vânzări, cât și pentru detaliile liniei de ofertă.
+Dacă ați modificat prețurile în lista de prețuri a proiectului care este atașată la ofertă sau în lista de prețuri a costului unității contractante, puteți selecta pagina **Recalculează** pe pagina **Ofertă**, pentru a reîmprospăta prețurile din detaliile liniei de ofertă individuale pentru a reflecta această modificare. Când selectați **Recalculează**, apare un avertisment care vă informează că prețurile din detaliile liniei de ofertă pentru toate liniile de ofertă din această ofertă vor fi resetate. Selectați **Da**, pentru a reîmprospăta prețurile atât pentru vânzări, cât și pentru detaliile liniei de ofertă.
 
 ## <a name="access-quote-line-details-for-cost"></a>Accesați detaliile liniei de ofertă pentru cost
 
-Pe fila **Detalii despre linia de ofertă** , selectați un rând din grilă pentru a activa unele acțiuni pe bara de instrumente a grilei secundare. Prima acțiune pe bara de instrumente sub-grilă atunci când este selectat un detaliu al liniei de ofertă este **Deschideți detaliile costurilor**. Selectați **Deschideți detaliile costurilor** pentru a vedea rata de cost aferentă și suma pentru această linie de ofertă.
+Pe fila **Detalii despre linia de ofertă**, selectați un rând din grilă pentru a activa unele acțiuni pe bara de instrumente a subgrilei. Prima acțiune pe bara de instrumente subgrilă atunci când este selectat un detaliu al liniei de ofertă este **Deschideți detaliile costurilor**. Selectați **Deschideți detaliile costurilor** pentru a vedea rata de cost aferentă și suma pentru această linie de ofertă.
 
 > [!NOTE]
 > Modificarea valorilor unității de resurse, cantității, datele, rolul sau categoriile din detaliile liniei de ofertă pentru costuri vor modifica valorile corespunzătoare din detaliile liniei de ofertă pentru vânzări.

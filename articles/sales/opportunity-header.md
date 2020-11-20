@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082671"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181242"
 ---
-# <a name="opportunity-headersummary"></a>Antet/rezumat de oportunitate
+# <a name="opportunity-settings"></a>Setări de oportunitate
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
@@ -26,7 +26,7 @@ Oportunitățile bazate pe proiecte în Dynamics 365 Project Operations sunt ext
 
 Următorul tabel include câmpurile dintr-o oportunitate bazată pe proiect, care sunt fie unice pentru Project Operations, fie au unele modificări importante în comportament din oportunitățile în vânzări.
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Tip | Fila General (ascuns) | Acest câmp set de opțiuni are următoarele opțiuni:</br>- Bazat pe muncă (disponibil numai cu Project Operations)</br>- Pe bază de element (disponibil numai atunci când sunt instalate Project Operations și Vânzări)</br>- Serviciu bazat pe întreținere (disponibil când este instalat Field Service) | Când utilizați Project Operations, această valoare a câmpului este setată automat la **Bazat pe muncă** care clasifică oportunitatea ca fiind bazată pe proiect. O oportunitate ar trebui să fie bazată pe proiect pentru a permite toate extensiile și funcționalitățile specifice proiectului în procesul de vânzare din aval pentru această ofertă. |
 | Firmă proprietară | Fila General | Aceasta este compania sau entitatea juridică care va livra proiectul pentru client. | Aceste informații despre câmp vor fi copiate în câmpul corespunzător din Oferta de proiect care este creată din această oportunitate. |

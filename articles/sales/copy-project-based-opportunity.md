@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082735"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181694"
 ---
 # <a name="copy-project-based-opportunities"></a>Copierea oportunităților bazate pe proiect
 
-_**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 
 Oportunitățile de proiect pot fi copiate cu ușurință pentru a crea noi oportunități de proiect. 
@@ -25,7 +25,7 @@ Oportunitățile de proiect pot fi copiate cu ușurință pentru a crea noi opor
 1. Accesați lista de pagină **Oportunități de proiect** și selectați o oportunitate din listă. Sau deschideți pagina de detalii a unei anumite oportunități. 
 2. Din oricare dintre pagini, selectați **Copie**. Se va deschide o pagină de dialog care conține următoarele informații despre câmp. În funcție de valorile selectate în acest dialog, procesul de copiere se poate modifica.
 
-    | **Câmp** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+    | **Câmp** | **Descriere** | **Impactul din aval** |
     | --- | --- | --- |
     | Subiect | Introduceți subiectul relevant sau numele oportunității țintă. Când se deschide dialogul, sistemul îl va seta la subiectul ofertei de oportunitate cu **-copie** anexat la acesta. | Nu există niciun impact din aval pentru acest domeniu. |
     | Cont | Trimiteri la compania clientului sau la înregistrarea contului. Când se deschide caseta de dialog, sistemul îl va seta la contul din oportunitatea sursă. | Acest câmp este clientul principal din oportunitate. |

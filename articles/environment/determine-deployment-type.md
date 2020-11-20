@@ -3,17 +3,17 @@ title: Determinarea tipului de implementare
 description: Acest subiect oferă informații pentru a vă ajuta să determinați tipul corect de implementare a operațiunilor de proiect pentru compania dvs.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082800"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401233"
 ---
 # <a name="determine-your-deployment-type"></a>Determinarea tipului de implementare
 
@@ -25,11 +25,11 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clienții existenți ai Dynamics utilizând Dynamics 365 Project Service Automation
-Project Operations include capabilitățile livrate împreună cu Project Service Automation. O cale de actualizare va fi lansată pentru acești clienți în viitor.
+Project Operations include capabilitățile livrate împreună cu Project Service Automation. O cale de actualizare va fi lansată pentru acești clienți în versiunea 1 de lansare 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clienții existenți ai Dynamics 365 Finance care utilizează managementul proiectului și contabilitatea 
 
-Clienții existenți ai Finanțelor care utilizează funcționalitatea de gestionare a proiectelor și contabilitate pot utiliza în continuare acest lucru așa cum este. Consultați [Project Operations pentru scenarii cu stocuri/comenzi de producție](#pma).
+Clienții existenți ai Finanțelor care utilizează funcționalitatea de gestionare a proiectelor și contabilitate pot continua să o utilizeze așa cum este. Consultați [Project Operations pentru scenarii cu stocuri/comenzi de producție](#pma).
 
 
 ## <a name="deployment-types"></a>Tip de implementare
@@ -47,12 +47,13 @@ Project Operations acceptă scenarii de stocare/comandă de producție și scena
 
 Implementarea simplă include următoarele funcții:
 
+- Proces de vânzări pentru proiecte care extinde experiențele aplicației Dynamics 365 Sales
 - Planificarea proiectului utilizând Microsoft Project pentru web
 - Prețuri multidimensionale
 - Gestionare unificată a resurselor
 - Urmărirea timpului
 - Cheltuieli de bază
-- Propunere de factură
+- Facturare Proforma și orientată către clienți 
 
 #### <a name="deployment-steps"></a>Pași de implementare
 Determinați cel mai bun model de implementare a Project Operations utilizând [Chestionar de implementare](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Pentru această desfășurare, consultați [Înscrieți-vă pentru abonamente de
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations pentru resurse/scenarii fără stoc
 Project Operations pentru resurse/scenarii ne-stocate includ următoarele capacități:
-  
+ 
+- Proces de vânzări pentru proiecte care extinde aplicația Dynamics 365 Sales
 - Planificarea proiectului utilizând Microsoft Project pentru web
 - Prețuri multidimensionale
 - Gestionare unificată a resurselor
@@ -70,8 +72,8 @@ Project Operations pentru resurse/scenarii ne-stocate includ următoarele capaci
 - Cheltuieli de bază
 - Cheltuieli complete
 - Chitanță OCR
-- Facturare completă
-- Recunoașterea veniturilor
+- Facturare Proforma și orientată către clienți 
+- Recunoașterea veniturilor pentru proiecte
 
 #### <a name="deployment-steps"></a>Pași de implementare
 Determinați cel mai bun model de implementare a Project Operations utilizând [Chestionar de implementare](https://aka.ms/provisionprojectoperations).

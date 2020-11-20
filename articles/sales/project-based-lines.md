@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082657"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181962"
 ---
 # <a name="project-based-opportunity-lines"></a>Linii de proiect bazate pe oportunitate
 
@@ -26,7 +26,7 @@ Liniile de oportunitate bazate pe proiect sunt elementele rând care vor fi livr
 
 Mai jos sunt câmpurile de pe o linie de oportunități bazată pe proiecte:
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Tip produs | Fila General (ascuns) | Acesta este un câmp set de opțiuni. Dacă aveți Dynamics 365 Operations instalat, una dintre opțiunile disponibile este, **Serviciu bazat pe proiect**.  | Valoarea acestui câmp este setată la **Serviciu bazat pe proiect** atunci când creați linia de oportunitate bazată pe proiect din grila de linii bazate pe proiect din oportunitate. <br> Dacă modificați sau înlocuiți această valoare, funcționalitatea proiectului nu va fi activată pentru elementele rând bazate pe proiect. |
 | Oportunitate | Fila General | Acest câmp este doar în citire și face referire la înregistrarea de oportunitate principală căreia îi aparține acest element de linie. | Nu există niciun impact din aval al acestui domeniu. |

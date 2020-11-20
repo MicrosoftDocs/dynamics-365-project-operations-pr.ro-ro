@@ -1,21 +1,21 @@
 ---
-title: Prezentare generală a liniilor de contract bazate pe produs
+title: Prezentare generală a liniilor de contract bazate pe produs - simplificat
 description: Acest subiect oferă informații despre linii de contract pe bază de produs.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082723"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177886"
 ---
-# <a name="product-based-contract-lines-overview"></a>Prezentare generală a liniilor de contract bazate pe produs
+# <a name="product-based-contract-lines-overview---lite"></a>Prezentare generală a liniilor de contract bazate pe produs - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -43,6 +43,6 @@ Dacă o linie de contract se bazează pe un catalog de produse, aveți posibilit
 - **Înlocuire stabilire preț**
 - **Utilizați valoarea implicită**
 
-Dacă configurați câmpul **Prețuri** la **Înlocuire preț** , prețul implicit nu este configurat. Introduceți un preț pentru produsul de pe linia de contract. Dacă setați câmpul la **Utilizare implicit** , se folosește prețul de vânzare implicit și câmpul nu poate fi editat.
+Dacă configurați câmpul **Prețuri** la **Înlocuire preț**, prețul implicit nu este configurat. Introduceți un preț pentru produsul de pe linia de contract. Dacă setați câmpul la **Utilizare implicit**, se folosește prețul de vânzare implicit și câmpul nu poate fi editat.
 
 După ce instalați Project Operations, prețurile de vânzare implicite sunt introduse pe liniile bazate pe produs pe un contract. Câmpul **Stabilire preț** este atunci configurat la **Înlocuire preț** astfel încât puteți edita prețul implicit pe liniile de contract. Aceasta este o suprascriere specifică Project Operations la comportamentul liniilor bazate pe produse în Dynamics 365 Sales.

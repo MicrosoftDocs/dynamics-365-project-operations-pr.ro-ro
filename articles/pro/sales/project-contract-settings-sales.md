@@ -1,21 +1,21 @@
 ---
-title: Câmpurile și informațiile unui contract de proiect
+title: Setări pentru contracte de proiecte - simplificat
 description: Acest subiect oferă informații despre câmpuri care au impact asupra liniilor de contract și informații despre contract care sunt rezumate în toate elementele rând.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088062"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180934"
 ---
-# <a name="project-contract-fields-and-information"></a>Câmpurile și informațiile unui contract de proiect 
+# <a name="project-contract-settings---lite"></a>Setări pentru contracte de proiecte - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -23,7 +23,7 @@ Acest subiect oferă informații despre câmpurile care se aplică întregului c
 
 Următorul tabel listează câmpurile pe un contract de proiect care sunt unice pentru Dynamics 365 Project Operations sau care au unele modificări importante din comenzile de vânzări în Dynamics 365 Sales.
 
-| Câmp | Locație | Relevanță, scop și îndrumare | Impactul din aval |
+| Câmp | Locație | Descriere | Impactul din aval |
 | --- | --- | --- | --- |
 | Tip | Fila **Rezumat** (ascuns) | Acesta este un câmp de set de opțiuni cu următoarele opțiuni:</br>- **Pe bază de muncă** (disponibil numai când este instalat Project Operations)</br>- **Pe bază de element** (disponibil numai atunci când sunt instalate Project Operations și Vânzări)</br>- **Pe bază de serviciu de întreținere** (Disponibil când este instalat Dynamics 365 Field Service) | În Project Operations, valoarea acestui câmp este implicită **Bazat pe muncă** și clasifică contractul ca fiind un contract bazat pe proiecte. Un contract ar trebui să fie bazat pe proiect pentru a permite toate funcțiile și extensiile specifice proiectului. |
 | Client potențial | Fila **Rezumat** | Referința la compania clienților sau la înregistrarea contului. Când un contract este creat dintr-o ofertă, acest câmp este copiat din câmpul corespunzător de pe înregistrarea ofertei. | Moneda din oferta de proiectul este implicită în funcție de moneda clientului. Acest lucru se poate schimba înainte ca contractul să fie salvat. |
@@ -36,7 +36,7 @@ Următorul tabel listează câmpurile pe un contract de proiect care sunt unice 
 
 Următoarele KPI sunt disponibile pe fila **Executarea contractului** unui contract de proiect.
 
-| Câmp | Locație | Relevanță, scop și îndrumare |
+| Câmp | Locație | Descriere |
 | --- | --- | --- |
 | Valoare contract | Prezentarea generală a contractului | Valoarea totală a contractului de proiect. |
 | Volum facturat | Prezentarea generală a contractului | Suma sumelor de pe toate facturile aferente acestui contract. |

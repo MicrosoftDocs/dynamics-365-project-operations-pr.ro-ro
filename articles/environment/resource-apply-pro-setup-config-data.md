@@ -1,23 +1,33 @@
 ---
-title: Configurați și aplicați datele de configurare în Common Data Service pentru Project Operations
+title: Instalați și aplicați datele de configurare în Common Data Service
 description: Acest subiect furnizează informații despre configurare și aplicarea datelor de configurare în Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082669"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401143"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configurați și aplicați datele de configurare în Common Data Service pentru Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Instalați și aplicați datele de configurare în Common Data Service 
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
+
+## <a name="prerequisites"></a>Cerințe preliminare
+
+Înainte de a începe să configurați datele în Common Data Service (CDS), trebuie îndeplinite următoarele condiții prealabile:
+
+1.  Furnizați un mediu CDS și un mediu Dynamics 365 Finance pentru Project Operations.
+2.  Informații privind entitatea juridică de la Dynamics 365 Finance este partajat mediului CDS. Aceasta înseamnă că entitatea **Companie** din CDS are următoarele înregistrări ale companiei:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Instalați datele de instalare și configurare
 
@@ -79,11 +89,11 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 ![Resurse ce se pot rezerva](./media/8BookableResources.png)
 
-3. Pe fila **General** , selectați-vă utilizatorul de administrator. Verificați dacă fusul orar se potrivește cu cel în care vă aflați. 
+3. Pe fila **General**, selectați-vă utilizatorul de administrator. Verificați dacă fusul orar se potrivește cu cel în care vă aflați. 
 
 ![Resursă nouă care se poate rezerva](./media/9NewBookableResource.png)
 
-4. Pe fila **Planificare** , în câmpul **Companie** , alegeți compania **USPM** , apoi selectați **Salvare**. 
+4. Pe fila **Planificare**, în câmpul **Companie**, alegeți compania **USPM**, apoi selectați **Salvare**. 
 
 ![Filă de planificare](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
  
 12. Actualizați următoarele câmpuri:
 
- - **Companie implicită** : USPM
- - **Unitate organizațională implicită** : Contoso Robotics Global
- - **Frecvența facturii** : a șaptea și ultima zi
- - **Șablon de oră de lucru** : modificați șablonul pe care l-ați creat.
+ - **Companie implicită**: USPM
+ - **Unitate organizațională implicită**: Contoso Robotics Global
+ - **Frecvența facturii**: a șaptea și ultima zi
+ - **Șablon de oră de lucru**: modificați șablonul pe care l-ați creat.
 
 13. Selectați **Salvare**. 
 

@@ -1,74 +1,76 @@
 ---
-title: Crearea planificărilor de facturare pentru o linie de contract bazată pe proiect
-description: Acest subiect oferă informații despre crearea de programe de facturare și repere pe liniile de contract.
+title: Crearea planificărilor de facturare pentru o linie de contract bazată pe proiect - simplificat
+description: Acest subiect oferă informații despre crearea planificărilor și etapelor de facturare.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4083030"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180342"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Crearea planificărilor de facturare pentru o linie de contract bazată pe proiect
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Crearea planificărilor de facturare pentru o linie de contract bazată pe proiect - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
+Puteți atașa o planificare de factură la o linie de contract bazată pe proiect. Facturarea este permisă numai după câștigarea contractului pentru a crea un contract de proiect. Planificările facturilor permit crearea automată a proiectelor de facturi pentru o linie de contract bazată pe proiect. Dacă intenționați să creați întotdeauna facturi manual, puteți sări peste crearea programelor de facturare pe o linie de contract bazată pe proiect sau pe o linie de contract.
 
-Puteți atribui o planificare de facturare unei linii de contract bazată pe proiect. Facturarea este permisă numai după ce contractul este câștigat și creați un contract de proiect. Un program de facturare permite crearea automată a proiectelor de facturi pentru o linie de contract bazată pe proiect. Cu toate acestea, dacă creați numai facturi manual, puteți sări peste crearea planificărilor de facturare pe liniile contractuale.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Creați o planificare de facturare de timp și material pentru o linie de contract
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Creați o planificare de facturare de timp și materiale pentru o linie de contract bazată pe proiect
 
 Atunci când o linie de contract bazată pe proiect are o metodă de facturare de timp și material, puteți crea o planificare de facturare bazată pe date. Pentru a genera automat o planificare de facturare bazat pe date, parcurgeți pașii următori.
 
-1. Accesați **Setări** > **Frecvențe de facturare** și setați o frecvență de facturare.
-2. Accesați înregistrarea contractului de proiect și accesați fila **Rezumat** , în **Data de livrare solicitată** , selectați o dată.
-3. Deschideți linia de contract **Timp și material** pentru care faceți planificarea de factură bazată pe date. 
-4. Pe fila **Planificare de facturare** , selectați data de început pentru facturare și frecvența facturii.
-5. Pe sub-grilă, selectați **Generați planificarea facturilor**. Planificarea facturării este generat cu câmpurile **Data executării facturii** , **Data limită de tranzacție** și **Rulați starea** setate în felul următor:
+1. Accesați **Setări** > **Frecvențe factură** pentru a seta frecvența facturii.
+2. Deschideți contractul de proiect și pe fila **Rezumat**, setați data de livrare solicitată.
+3. Deschideți linia contractuală de timp și materiale pentru care doriți să creați o planificare de facturare bazată pe date. 
+4. Pe fila **Planificarea facturilor**, selectați o dată de începere a facturării și frecvența facturii. 
+5. Pe sub-grilă, selectați **Generați planificarea facturilor**.
 
-    - **Data executării facturii** : această dată este dictată pe baza frecvenței facturii.
-    - **Data limită a tranzacției** : ziua înaintea datei limite a facturii.
-    - **Rulați starea** : este setat automat la **Neexecutat**. Când operațiunea de creare automată a facturii rulează pentru o anumită dată de rulare a facturii, acest câmp este actualizat la **Rulare reușită** sau **Rularea nu a reușit**.
+    Sistemul generează planificarea de facturare cu următoarele informații de câmp:
 
+    - **Data executării facturii** este setată la dată pe baza frecvenței facturii.
+    - **Data limită de tranzacție** este setată cu o zi înainte de **Data executării facturii**.
+    - **Rulați starea** este setat automat la **Neexecutat**. Când operațiunea de creare automată a facturii rulează pentru o anumită **Dată de rulare a facturii**, acest câmp este actualizat la **Rulare reușită** sau **Rulare eșuată**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Creați o planificare de factură cu preț fix pentru o linie de contract
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Crearea unei planificări de facturare cu preț fix pentru o linie de contract bazată pe proiect
 
-Când o linie de contract are o metodă de facturare fixă, puteți crea o planificare de factură pe bază de reper. Parcurgeți pașii următori pentru a genera această planificare de facturare bazată pe repere pentru un set fix de repere distribuite în mod egal pentru perioada calendaristică.
+Atunci când o linie de contract bazată pe proiecte are o metodă de facturare cu preț fix, puteți crea o planificare de facturare bazat pe o etapă importantă. Parcurgeți pașii următori pentru a genera automat o planificare de facturare bazat pe un reper pentru un set fix de repere care se distribuie în mod egal pentru perioada calendaristică.
 
-1. Accesați **Setări** > **Frecvențe de facturare** și setați o frecvență de facturare.
-2. Accesați înregistrarea contractului de proiect și accesați fila **Rezumat** , în **Data de livrare solicitată** , selectați o dată.
-3. Deschideți linia de contract **Preț fix** pentru care creați planificarea de reper. Pe fila **Repere de facturare** , selectați data de început pentru facturare și frecvența facturii. 
-4. Pe sub-grilă, selectați **Generați date scadente periodice**. Programul facturilor este generat cu **Nume de reper** , **Data reperului** , și câmpurile **Suma de reper** setate după cum urmează:
+1. Accesați **Setări** > **Frecvențe factură** pentru a seta frecvența facturii.
+2. Deschideți contractul de proiect și pe fila **Rezumat**, setați data de livrare solicitată.
+3. Deschideți linia contractuală cu preț fix pe care trebuie să creați o planificare de etapă. 
+4. Pe fila **Planificarea facturilor (Jaloane de facturare)**, selectați o dată de începere a facturării și frecvența facturii. 
+5. Pe sub-grilă, selectați **Generați date scadente periodice**.
 
-    - **Numele reperului** : această dată este dictată pe baza frecvenței facturii.
-    - **Data reperului** : această dată este dictată pe baza frecvenței facturii.
-    - **Suma de reper** : această sumă este calculată prin împărțirea sumei de contract la linia de contract după numărul de repere așa cum este dictat de frecvență, începutul facturării și datele de livrare solicitate.
+    Sistemul generează planificarea de facturare cu următoarele informații de jaloane.
 
-    Dacă linia contractuală are o valoare în câmpul **Suma estimată a impozitului** , atunci acest câmp este, de asemenea, repartizat la fiecare etapă în mod egal atunci când se generează repere periodice.
+    - **Nume de jalon** este setat la data dictată pe baza frecvenței facturii.
+    - **Dată de jalon** este setată la data dictată pe baza frecvenței facturii.
+    - **Suma de jalon** se calculează prin împărțirea sumei contractului pe linia de contract bazată pe proiect la numărul de repere determinate de frecvență, începutul facturării și datele de livrare solicitate.
+    - Dacă linia contractuală are o valoare în câmpul **Suma estimată a impozitului**, acest câmp este, de asemenea, repartizat la fiecare etapă în mod egal atunci când se generează jaloane periodice.
 
-Etapele de facturare trebuie să fie egale cu valoarea contractată a liniei contractuale. Dacă nu, veți primi o eroare pe pagina **Linie de contract**. Puteți remedia eroarea verificând dacă etapele de facturare totalizează valoarea contractată a liniei prin crearea, editarea sau ștergerea unor repere. După efectuarea modificărilor, reîmprospătați pagina pentru a elimina eroarea.
+Jaloanele de facturare ar trebui să fie egale cu valoarea contractată a liniei de contract bazate pe proiect. Dacă nu sunt egale, apare o eroare. Puteți remedia acea eroare verificând dacă etapele de facturare totalizează valoarea contractată a liniei, fie prin crearea, editarea sau ștergerea etapelor de referință. După efectuarea modificărilor, reîmprospătați pagina.
 
 ### <a name="manually-create-milestones"></a>Creați manual date scadente
 
-Puteți genera prețuri fixe de repere manual atunci când nu sunt împărțite periodic. Parcurgeți pașii următori pentru a crea manual un nou reper.
+Etapele prețurilor fixe pot fi generate manual atunci când nu sunt împărțite periodic. Pentru a crea o etapă manuală, parcurgeți pașii următori.
 
-1. Deschideți linia contractuală cu preț fix pentru care creați o etapă de referință și pe fila **Planificarea facturilor** , pe subgrilă, selectați **+ Creați un reper nou al liniei Contract**. 
-2. Pe pagina **Creare de reper** , introduceți informațiile necesare pe baza tabelului următor.
+1. Deschideți linia contractuală cu preț fix pe care doriți să creați o etapă. 
+2. Pe fila **Planificarea facturii**, pe subgrilă, selectați **+ Creați o etapă nouă a liniei Contract**.
+3. Pe formularul **Creare de reper**, introduceți informațiile solicitate pe baza tabelului următor. 
 
-| Câmp | Locație | Relevanță, scop și îndrumare | Impactul din aval |
+| Câmp | Locație | Descriere | Impactul din aval |
 | --- | --- | --- | --- |
-| Nume jalon | Creare rapidă | Câmp text pentru numele etapei de referință. | Acest lucru este copiat la reperul datei scadente a liniei contractului de proiect și la factură. |
-| Activitate de proiect | Creare rapidă | Dacă data scadentă este legată de sarcina proiectului, puteți utiliza această referință pentru a adăuga o logică personalizată, pentru a seta starea datei scadente pe baza stării activității. | Aplicația nu are niciun impact în aval al acestei referințe la o activitate. |
-| Dată jalon | Creare rapidă | Setați data la care procesul automat de creare a facturilor ar trebui să caute starea acestei etape pentru a o lua în considerare la facturare. | Acest lucru este copiat la reperul datei scadente a liniei contractului de proiect și la factură. |
-| Stare factură | Creare rapidă | Când este creat un reper, această stare este mereu setată la **Nu este pregătit pentru facturare** sau **Nu a început**. | Acest lucru este copiat la reperul datei scadente a liniei contractului de proiect și la factură. |
-| Valoare linie | Creare rapidă | Suma sau valoarea jalonului care va fi facturat clientului. | Acest lucru este copiat la reperul datei scadente a liniei contractului de proiect și la factură. |
-| Taxe | Creare rapidă | Suma impozitului aplicată la reper. | Acest lucru este copiat la reperul datei scadente a liniei contractului de proiect și la factură. |
+| Nume jalon | Creare rapidă | Câmp text pentru numele etapei de referință. | Acest câmp este inclus în etapa de referință a liniei contractului de proiect și pe factură. |
+| Activitate de proiect | Creare rapidă | Dacă jalonul este legat de o activitate de proiect, utilizați această referință pentru a adăuga logică personalizată și setați starea jalonului pe baza stării activității. | Nu există un impact în aval al acestei referințe la o activitate. |
+| Dată jalon | Creare rapidă | Data la care procesul de creare automată a facturilor ar trebui să caute starea acestei etape pentru a o lua în considerare la facturare. | Acesta este inclus în etapa de referință a liniei contractului de proiect și pe factură. |
+| Stare factură | Creare rapidă | Când se creează jalonul, această stare este întotdeauna setată la **Nu este pregătit pentru facturare** sau **Nu a început**. | Acesta este inclus în etapa de referință a liniei contractului de proiect și pe factură. |
+| Valoare linie | Creare rapidă | Valoarea sau valoarea etapei care va fi facturată clientului. | Acest câmp este inclus în etapa de referință a liniei contractului de proiect și pe factură, |
+| Taxe | Creare rapidă | Suma impozitului aplicată la reper. | Acesta este inclus în etapa de referință a liniei contractului de proiect și pe factură. |
 
-3. Selectați **Salvare și închidere**.
-| Suma liniei | Crearea rapidă | Valoarea sau valoarea etapei care va fi facturată clientului | Acest lucru este propagat la linia contractuală a proiectului Etapa și la factură | | Impozit | Crearea rapidă | Suma de impozitare care va fi aplicată pentru Milestone | Acest lucru este propagat la linia contractuală a proiectului Etapa și la factură |
+4. Selectați **Salvare și închidere**.

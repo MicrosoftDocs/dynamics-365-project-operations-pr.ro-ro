@@ -3,10 +3,10 @@ title: Revizuirea resurselor propuse
 description: Acest subiect furnizează informații despre modul de propunere a resurselor de proiect.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082763"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401188"
 ---
 # <a name="review-proposed-resources"></a>Revizuirea resurselor propuse
 
@@ -31,11 +31,11 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 Managerii de resurse pot propune o resursă către managerul de proiect utilizând o solicitare de resurse.
 
 1. Din grila de solicitări sau din cererea în sine,selectați **Găsire resurse**.
-2. În pagina **Asistent planificare** , selectați resursa, apoi, în panoul **Creare rezervare resursă** , în câmpul **Stare rezervare** , selectați **Rezervare.**
+2. În pagina **Asistent planificare**, selectați resursa, apoi, în panoul **Creare rezervare resursă**, în câmpul **Stare rezervare**, selectați **Rezervare.**
 
 Apar următoarele actualizări de stare:
 
-- În pagina **Asistent programare** , indicatorii de stare sunt actualizați pentru a indica faptul că rezervarea este propusă, nu rezervată ferm.
+- În pagina **Asistent programare**, indicatorii de stare sunt actualizați pentru a indica faptul că rezervarea este propusă, nu rezervată ferm.
 - La solicitarea de resurse, starea se modifică la **Necesită revizuire**.
 - În fila **Echipă** a proiectului, valoarea de **Stare solicitare** a membrului generic al echipei este schimbată la **Necesită revizuire**.
 
@@ -47,35 +47,6 @@ Atunci când managerii de resurse procesează solicitările de resurse, pot util
 - Propun mai puține resurse decât sunt necesare. În acest scenariu, capacitatea de resurse propusă este mai mică decât orele necesare pe care le-a indicat solicitantul. Prin urmare, atunci când solicitantul acceptă resursele propuse, este creată o cerință de resursă neîndeplinită pentru a captura cererea rămasă.
 - Rezervă mai multe resurse pentru a satisface cererea dacă nu este disponibilă nicio resursă unică pentru a finaliza lucrarea.
 - Rezervă mai puține resurse decât sunt necesare. În acest scenariu, orele rezervate sunt mai puține decât orele necesare. Sistemul vă ghidează să propuneți resurse în loc de rezervări, astfel încât solicitantul să poată verifica și urmări cererea rămasă.
-
-## <a name="billable-utilization"></a>Utilizarea facturabilă
-
-Resursele pot avea o utilizare facturabilă țintă. Această utilizare țintă este fie definită ca un atribut al rolului implicit al unei resurse, fie setat pe înregistrarea resursei individuale care se poate rezerva. Calculele de utilizare se bazează pe orele efective pe care le-au raportat resursele utilizând intrările de timp aprobate.
-
-Următoarele formule sunt utilizate pentru a calcula utilizarea:
-
-- Utilizare facturabilă = Ore efective taxabile ÷  Capacitate resursă.
-- Utilizare non-facturabilă = Timp real cu ID-ul de facturare = non-exigibil, Complementar sau Indisponibil ÷ capacitate resursă
-- Intern = Timp real fără contract de vânzare ÷ Capacitate resursă
-- Capacitate resursă = Ore de lucru resursă – Absent de la birou – zile nelucrătoare
-
-Puteți găsi vizualizarea de **Utilizare resurse** în panoul **Resurse**.
-
-Fiecare celulă din grilă reprezintă procentul de utilizare facturabil al resursei într-o perioadă, cum ar fi o zi, o săptămână sau o lună. Următoarele formule sunt utilizate pentru a colora celulele:
-
-- **Verde:** Utilizare facturabilă \>= Utilizarea țintă a resursei.
-- **Galben:** Utilizare țintă – 20 \<= Utilizare facturabilă \< Utilizare țintă.
-- **Roșu:** Utilizare facturabilă \< utilizare țintă – 20.
-
-Deoarece vizualizarea **Utilizare resurse** se bazează pe tabloul de planificare, aveți posibilitatea să utilizați capacitățile de filtrare ale tabloului de planificare pentru a filtra rezultatele.
-
-Grila necesită să setați o utilizare țintă fie pe rol, fie pe resursa individuală. Pentru a face această configurare, accesați **Resurse**\> **Roluri resurse**.
-
-În plus, un rol implicit trebuie să fie atribuit fiecărei resurse care se poate rezerva. Accesați **Resurse**\> **Resurse**. În fila **Project Service** , verificați că este definit un rol de resursă și că câmpul **Este implicit** pentru acesta este setat la **Da**. Aveți posibilitatea să adăugați roluri suplimentare acolo unde **Este implicit = Nu**. Rolul în care **Este implicit = da** este utilizat pentru a evalua utilizarea resursei față de obiectivul pentru rolul respectiv.
-
-În fila **Project Service** , puteți seta, de asemenea, o utilizare țintă individuală pentru resursă. Calculul utilizării folosește apoi acea utilizare țintă pentru a evalua ținta resursei în locul țintei rolului implicit al resursei.
-
-Utilizarea este afișată pentru o resursă numai în cazul în care resursa are aprobat timp taxabil în perioada afișată în grilă.
 
 ## <a name="resource-availability"></a>Disponibilitatea resursei
 

@@ -1,21 +1,21 @@
 ---
-title: Antet de oportunitate
-description: Acest subiect oferă informații despre informații de ansamblu bazate pe proiecte și liniile de oportunitate bazate pe proiecte.
+title: Setări de oportunitate - simplificat
+description: Acest subiect oferă informații despre oferte bazate pe proiecte și liniile de oportunitate bazate pe proiecte.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082724"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181061"
 ---
-# <a name="opportunity-header"></a>Antet de oportunitate
+# <a name="opportunity-header---lite"></a>Antet de oportunitate - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -25,7 +25,7 @@ Oportunitățile bazate pe proiecte în Dynamics 365 Project Operations sunt ext
 
 Următorul tabel include câmpurile dintr-o oportunitate bazată pe proiect, care sunt fie unice pentru Project Operations, fie au unele modificări importante în comportament din oportunitățile în vânzări.
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Tip | Fila General (ascuns) | Acest câmp set de opțiuni are următoarele opțiuni:</br>- Bazat pe muncă (disponibil numai cu Project Operations)</br>- Pe bază de element (disponibil numai atunci când sunt instalate Project Operations și Vânzări)</br>- Serviciu bazat pe întreținere (disponibil când este instalat Field Service) | Când utilizați Project Operations, această valoare a câmpului este setată automat la **Bazat pe muncă** care clasifică oportunitatea ca fiind bazată pe proiect. O oportunitate ar trebui să fie bazată pe proiect pentru a permite toate extensiile și funcționalitățile specifice proiectului în procesul de vânzare din aval pentru această ofertă. |
 | Contact | Fila General | Trimitere la persoana de contact principală a clientului pentru această tranzacție. | |

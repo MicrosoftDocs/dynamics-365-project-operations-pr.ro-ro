@@ -1,21 +1,21 @@
 ---
-title: Concepte cheie pentru oferte de proiect
+title: Oferte - concepte cheie - simplificat
 description: Acest subiect furnizează informații despre utilizarea ofertelor de proiect în Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082720"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178021"
 ---
-# <a name="project-quote-key-concepts"></a>Concepte cheie pentru oferte de proiect
+# <a name="quotes---key-concepts---lite"></a>Oferte - concepte cheie - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -78,7 +78,7 @@ Se fac tranzacții cu mai mulți clienți atunci când există mai mulți clien�
 
 ## <a name="invoice-schedules"></a>Planificări factură
 
-Planificările facturilor sunt specifice fiecărei linii de ofertă și sunt, de asemenea, opționale. Planificările facturilor sunt create în funcție de anumite date de început și de terminare și de frecvența facturilor. Planificările facturilor sunt utilizate în etapa contractului atunci când procesul de creare automată a facturilor este configurat. În etapa ofertei, planificările sunt opționale. Când sunt create planuri de facturare în etapa **Ofertă** , acestea sunt copiate în contractul de proiect care este creat atunci când se câștigă o ofertă de proiect.
+Planificările facturilor sunt specifice fiecărei linii de ofertă și sunt, de asemenea, opționale. Planificările facturilor sunt create în funcție de anumite date de început și de terminare și de frecvența facturilor. Planificările facturilor sunt utilizate în etapa contractului atunci când procesul de creare automată a facturilor este configurat. În etapa ofertei, planificările sunt opționale. Când sunt create planuri de facturare în etapa **Ofertă**, acestea sunt copiate în contractul de proiect care este creat atunci când se câștigă o ofertă de proiect.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Modificările din oferta Dynamics 365 Sales:
 

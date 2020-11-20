@@ -1,33 +1,33 @@
 ---
-title: Configurarea tarifelor de cost pentru muncă
+title: Configurarea tarifelor de cost pentru muncă - simplificat
 description: Acest subiect oferă informații despre modul de configurare al ratei de cost pentru muncă în Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082707"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180744"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Configurarea tarifelor de cost pentru muncă 
+# <a name="set-up-labor-cost-rates---lite"></a>Configurarea tarifelor de cost pentru muncă - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Fiecare listă de prețuri are un set de rate ale forței de muncă (prețuri de rol) care se aliniază la conținutul și efectivitatea datei listei de prețuri.
 
-1. Creați o listă de prețuri și pe fila **Prețul rolului** , în sub-grilă, selectați **Rol nou**.
-2. Pe pagina **Creare rapidă** , selectați rolul și unitatea de organizare.
+1. Creați o listă de prețuri și pe fila **Prețul rolului**, în subgrilă, selectați **Rol nou**.
+2. Pe pagina **Creare rapidă**, selectați rolul și unitatea de organizare.
 3. Introduceți orice altă informație de câmp necesar.
 
 Tabelul următor include câteva dintre câmpurile care sunt importante atunci când se creează rate ale forței de muncă pe o listă de prețuri de cost.
 
-| Câmp | Locație | Relevanță, scop și îndrumare | Impactul din aval |
+| Câmp | Locație | Descriere | Impactul din aval |
 | --- | --- | --- | --- |
 | Rol | Fila **General** și pagini **Creare rapidă** | Selectați rolul căruia i se aplică rata de cost. | Rolul din estimarea de intrare sau real va fi asortat cu această linie pentru a stabili implicit costul rolului. |
 | Unitate de finanțare | Fila **General** și pagini **Creare rapidă** | Selectați unitatea organizațională sau divizia companiei din care va fi utilizat acest rol. De exemplu, un dezvoltator din divizia Robotics din Fabrikam India sau un dezvoltator din divizia Software din Fabrikam USA. | Unitatea de resurse din estimarea de intrare sau real va fi asortat cu această linie pentru a stabili implicit costul rolului. |

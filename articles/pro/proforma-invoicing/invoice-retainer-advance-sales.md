@@ -1,21 +1,21 @@
 ---
-title: Facturarea unui avans sau unui onorariu
+title: Facturarea unui avans sau unei rețineri - simplificat
 description: Acest subiect furnizează informații despre cum să facturați un onorariu sau un avans în Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088063"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180567"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Facturarea unui avans sau unui onorariu
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturarea unui avans sau unei rețineri - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations acceptă contracte bazate pe garanții și avans
 Parcurgeți pașii următori pentru a factura un onorariu sau un avans.
 
 1. Selectați **Vânzări** > **Facturare** > **Onorarii și avansuri**. 
-2. Pe pagina **Avansuri și onorarii** , utilizați filtrul pentru a selecta rețeaua specifică sau avansul pentru a factura și marcați-l ca **Gata de facturare**.
+2. Pe pagina **Avansuri și onorarii**, utilizați filtrul pentru a selecta rețeaua specifică sau avansul pentru a factura și marcați-l ca **Gata de facturare**.
 3. Creați o factură fie manual din lista **Contract de proiect** sau pagină de detalii. Deținătorul sau avansul este afișat pe proiectul de factură în secțiunea **Avansuri și onorarii** de pe pagina **Factură**.
 4. Confirmați factura. Acest lucru va face dispozitivul de reținere sau avansul disponibil pentru utilizare. Puteți verifica factura pe pagina listei **Onorarii și avansuri**. Pentru un avans sau onorariu facturat, în grilă este afișată suma disponibilă.
 
@@ -43,7 +43,7 @@ Pe fiecare factură generată pentru un contract de proiect care are facturi de 
 
 Acest lucru poate fi văzut în grila **Onorarii și avansuri aplicate** pe pagina **Factură**. Următorul tabel oferă informații despre câmpurile pe grila **Onorarii și avansuri aplicate** pe pagina **Factură de proiect**.
 
-| Câmp | Locație | Relevanță, scop și îndrumare | Impactul din aval |
+| Câmp | Locație | Descriere | Impactul din aval |
 | --- | --- | --- | --- |
 | Descriere | Grila **Onorarii și avansuri aplicate** pe pagina **Factură de proiect** |Acest câmp numai în citire oferă o descriere a onorariului sau avansului utilizat pe această factură. Această valoare nu poate fi modificată pe factură. Această valoare poate fi actualizată pe subgrila de pe pagina **Contract de proiect**. | Acest câmp poate fi afișat clientului pe factura tipărită pentru a indica care onorariu sau avans se aplică pe factură. |
 | Livrat la | Grila **Onorarii și avansuri aplicate** pe pagina **Factură de proiect**  | Acest câmp numai în citire oferă o dată de facturare a onorariului sau avansului utilizat pe această factură. Această valoare nu poate fi modificată pe factură. Această valoare poate fi actualizată pe subgrila de pe pagina **Contract de proiect**. | Acest câmp poate fi afișat clientului pe factura tipărită pentru a indica data la care onorariul sau avansul a fost facturat pentru prima oară clientului. |

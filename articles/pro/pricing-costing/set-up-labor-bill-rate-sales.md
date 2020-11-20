@@ -1,33 +1,33 @@
 ---
-title: Configurarea tarifelor de facturare pentru muncă
+title: Configurarea tarifelor facturii pentru muncă - simplificat
 description: Acest subiect oferă informații despre configurarea ratelor de facturare a costului pentru muncă în Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082858"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181197"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Stabilirea ratelor de facturare pentru facturarea ratei forței de muncă 
+# <a name="set-up-labor-bill-rates---lite"></a>Configurarea tarifelor facturii pentru muncă - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Fiecare listă de prețuri are un set de prețuri de roluri sau rate ale forței de muncă, care sunt eficiente pentru context și intră în vigoare la data inclusă pe antetul listei de prețuri. Tarifele de facturare pentru timp în Dynamics 365 Project Operations pot fi configurate într-o singură monedă, care este moneda din antetul listei de prețuri.
 
 1. Pentru a seta tarifele facturii forței de muncă pentru o listă de prețuri de vânzare, creați o listă de prețuri bazată pe antetul listei de prețuri. 
-2. Pe fila **Prețuri de roluri** , în subgrilă, selectați **+ Preț nou de rol**. 
-3. Pe panoul **Creare rapidă** , introduceți combinația de roluri și unități organizaționale pentru care trebuie să configurați rata facturării.
+2. Pe fila **Prețuri de roluri**, în subgrilă, selectați **+ Preț nou de rol**. 
+3. Pe panoul **Creare rapidă**, introduceți combinația de roluri și unități organizaționale pentru care trebuie să configurați rata facturării.
 
   Următorul tabel include câmpurile de pe fila **General** și panoul **Creare rapidă** dintr-o linie de preț de rol pe care trebuie să îl aveți în vedere atunci când creați prețuri de rol într-o listă de prețuri de vânzare:
 
-  | Câmp | Locație | Relevanță, scop și îndrumare | Impactul din aval |
+  | Câmp | Locație | Descriere | Impactul din aval |
   | --- | --- | --- | --- |
   | Rol | Fila **General** și panoul **Creare rapidă** | Selectați rolul pentru care setați rata facturii. | Rolul din estimarea de intrare sau real va fi asortat cu această linie pentru a stabili implicit rata de facturare. |
   | Unitate de finanțare | Fila **General** și panoul **Creare rapidă** | Selectați unitatea organizațională sau divizia companiei de unde este rolul. De exemplu, un dezvoltator din divizia Robotics din Fabrikam India sau un dezvoltator din divizia Software din Fabrikam USA. | Unitatea de resurse din estimarea de intrare sau real va fi asortat cu această linie pentru a stabili implicit rata de facturare a rolului. |

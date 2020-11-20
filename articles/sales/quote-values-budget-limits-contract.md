@@ -1,21 +1,21 @@
 ---
-title: Informații rezumative despre o ofertă de proiect
+title: Setări ofertă de proiect
 description: Acest subiect oferă informații despre informațiile și setările care se aplică și care au impact asupra ofertelor de proiect.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082642"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180252"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Informații rezumative despre o ofertă de proiect
+# <a name="project-quote-settings"></a>Setări ofertă de proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
@@ -24,7 +24,7 @@ Acest articol explică informațiile care se aplică unei estimări de proiect. 
 
 Următorul tabel listează câmpurile de informații rezumative dintr-o ofertă de proiect care sunt unice pentru Dynamics 365 Project Operations sau care au unele modificări importante în comportament din ofertele Dynamics 365 Sales.
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Tip | Fila Rezumat (ascuns) | Acest câmp hash de set de opțiuni are următoarele opțiuni:</br>- Pe bază de muncă (disponibil numai când este instalat Project Operations)</br>- Pe bază de element (disponibil numai atunci când sunt instalate Project Operations și Vânzări)</br>- Serviciu bazat pe întreținere (disponibil când este instalat Dynamics 365 Field Service) | Când utilizați aplicația Project Operations, valoarea câmpului este setată automat la **Bazat pe muncă**. Aceasta clasifică oferta ca fiind o ofertă bazată pe proiect. O ofertă ar trebui să fie bazată pe proiect pentru a permite toate funcțiile și extensiile specifice proiectului. |
 | Firmă proprietară | Rezumat | Entitatea juridică care va contabiliza costurile și veniturile care se acumulează din acest proiect sau din proiectele asociate cu această ofertă. Când o ofertă este creată dintr-o oportunitate, acest câmp este copiat din câmpul corespunzător de pe oportunitate. | Compania deținătoare echivalează cu conceptul de entitate juridică din modulul **Management de proiect și contabilitate** al Project Operations. Toate costurile și veniturile acumulate de acest proiect vor fi contabilizate în registrul general al companiei proprietar. |
@@ -38,7 +38,7 @@ Următorul tabel listează câmpurile de informații rezumative dintr-o ofertă 
 
 Mai jos sunt filele și KPI-urile disponibile pe o ofertă de proiect care sunt unice pentru operațiunile de proiect sau care au unele modificări importante în comportament din ofertele de vânzări:
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** |
+| **Câmp** | **Locaţie** | **Descriere** |
 | --- | --- | --- |
 | Analiza de profitabilitate | Filă pe ofertă | Fila afișează următoarele măsurători:</br>- Cost total aplicabil</br></br>- Cost total neaplicabil</br>- Venit total</br>- Venit total (de bază)</br>- Marjă brută</br>- Marjă brută ajustată|
 | Comparație cu așteptările clienților | Filă pe ofertă | Această filă afișează următoarele măsurători:</br>- Finalizare estimată</br>- Finalizare solicitată</br>- Buget client</br>- Valoare ofertă |

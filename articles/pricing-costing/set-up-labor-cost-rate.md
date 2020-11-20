@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082693"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180612"
 ---
 # <a name="set-up-labor-cost-rates"></a>Configurarea tarifelor de cost pentru muncă
 
@@ -22,13 +22,13 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Fiecare listă de prețuri are un set de rate ale forței de muncă (prețuri de rol) care se aliniază la conținutul și efectivitatea datei listei de prețuri.
 
-1. Creați o listă de prețuri și pe fila **Prețul rolului** , în sub-grilă, selectați **Rol nou**.
-2. Pe pagina **Creare rapidă** , selectați rolul și unitatea de organizare.
+1. Creați o listă de prețuri și pe fila **Prețul rolului**, în subgrilă, selectați **Rol nou**.
+2. Pe pagina **Creare rapidă**, selectați rolul și unitatea de organizare.
 3. Introduceți orice altă informație de câmp necesar.
 
 Tabelul următor include câteva dintre câmpurile care sunt importante atunci când se creează rate ale forței de muncă pe o listă de prețuri de cost.
 
-| Câmp | Locație | Relevanță, scop și îndrumare | Impactul din aval |
+| Câmp | Locație | Descriere | Impactul din aval |
 | --- | --- | --- | --- |
 | Rol | Fila **General** și pagini **Creare rapidă** | Selectați rolul căruia i se aplică rata de cost. | Rolul din estimarea de intrare sau real va fi asortat cu această linie pentru a stabili implicit costul rolului. |
 | Firmă de resurse | Fila **General** și pagini **Creare rapidă** | Selectați entitatea juridică căreia i se atribuie rolul. De exemplu, un dezvoltator din Fabrikam India sau un dezvoltator din Fabrikam SUA. | Firma de resurse din estimarea de intrare sau real va fi asortat cu această linie pentru a stabili implicit rata de cost a rolului. |

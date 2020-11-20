@@ -1,21 +1,21 @@
 ---
-title: Avansuri și contracte bazate pe garanții
+title: Avansuri și contracte bazate pe garanții - simplificat
 description: Acest subiect furnizează informații despre modele de contractare și avansuri pe bază de onorariu în Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088060"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180882"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Avansuri și contracte bazate pe garanții 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Avansuri și contracte bazate pe garanții - simplificat
 
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
@@ -33,7 +33,7 @@ Avantajul acestei metode constă în faptul că costurile clientului devin previ
 
 Sistemul de reținere din Project Operations nu este disponibil pentru utilizare până când nu este facturat clientului. Acest lucru este indicat de următoarele câmpuri de pe subgrilă pentru avansuri și onorarii.
 
-| Câmp | Relevanță, scop și îndrumare | Impactul din aval |
+| Câmp | Descriere | Impactul din aval |
 | --- | --- | --- |
 | Sumă disponibilă | Suma disponibilă pentru a fi utilizată în înregistrarea de onorariu sau avans. | Până când nu se facturează avansul sau onorariul, acesta nu este disponibil pentru a fi utilizat, ceea ce înseamnă că suma disponibilă va fi zero. |
 | Sumă utilizată | Suma care este deja utilizată pe onorariu sau avans. | Un avans sau un onorariu poate fi parțial împăcat pe o factură cu costurile efective care vor avea o parte marcată ca fiind deja utilizată sau consumată. Restul sumei avansului sau onorariului este disponibil pentru a se reconcilia pe o factură viitoare cu costurile reale. |

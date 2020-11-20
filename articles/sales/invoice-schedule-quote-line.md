@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082729"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180837"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificările de facturi pe linii de ofertă bazate pe proiect
 
@@ -28,11 +28,11 @@ O linie de ofertă bazată pe proiect oferă posibilitatea de a exprima o planif
 Atunci când metoda de facturare pentru o linie de ofertă bazată pe proiect este Timp și material, sistemul generează o planificare de facturare bazată pe date. Pentru a genera automat o planificare de facturare bazat pe date, parcurgeți pașii următori.
 
 1. Accesați **Setări** > **frecvențe de facturare** și setați o frecvență de facturare.
-2. Pe pagina **Oferte** , deschideți oferta proiectului și pe fila **Rezumat** , setați o dată de livrare solicitată.
+2. Pe pagina **Oferte**, deschideți oferta proiectului și pe fila **Rezumat**, setați o dată de livrare solicitată.
 3. Deschideți linia ofertă de timp și material pentru care aveți nevoie pentru a crea o planificare de facturare bazată pe date. 
-4. Pe fila **Planificarea facturilor** , selectați valori în câmpurile **Începutul facturării** și **Frecvența facturii**. 
-5. În sub-grilă, selectați **Generați planificarea facturilor**.
-6. Aplicația generează programul de facturare cu câmpurile **Data executării facturii** , **Data limită tranzacție** și **Rulați starea** setate în felul următor:
+4. Pe fila **Planificarea facturilor**, selectați valori în câmpurile **Începutul facturării** și **Frecvența facturii**. 
+5. Pe sub-grilă, selectați **Generați planificarea facturilor**.
+6. Aplicația generează programul de facturare cu câmpurile **Data executării facturii**, **Data limită tranzacție** și **Rulați starea** setate în felul următor:
 
     - **Data executării facturii** este setată la data dictată pe baza frecvenței facturii.
     - **Data limită a tranzacției** este setată cu o zi înainte de **Data executării facturii**.
@@ -40,12 +40,12 @@ Atunci când metoda de facturare pentru o linie de ofertă bazată pe proiect es
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Creați o planificare de factură cu preț fix pentru o linie de ofertă bazată pe proiect
 
-Când linia de ofertă bazată pe proiect are o metodă de facturare **Fixă** , sistemul creează o planificare de facturare bazată pe o dată scadentă. Parcurgeți pașii următori pentru a genera automat această planificare pentru un set fix de repere care sunt distribuite în mod egal pentru perioada calendaristică.
+Când linia de ofertă bazată pe proiect are o metodă de facturare **Fixă**, sistemul creează o planificare de facturare bazată pe o dată scadentă. Parcurgeți pașii următori pentru a genera automat această planificare pentru un set fix de repere care sunt distribuite în mod egal pentru perioada calendaristică.
 
 1. Accesați **Setări** > **frecvențe de facturare** și setați o frecvență de facturare.
-2. Pe pagina **Oferte** , deschideți oferta proiectului și pe fila **Rezumat** , setați o dată de livrare solicitată.
+2. Pe pagina **Oferte**, deschideți oferta proiectului și pe fila **Rezumat**, setați o dată de livrare solicitată.
 3. Deschideți linia de preț fix pentru care trebuie să creați o planificare de dată scadentă. 
-4. Pe fila **Planificarea facturilor** , selectați valori în câmpurile **Începutul facturării** și **Frecvența facturii**. 
+4. Pe fila **Planificarea facturilor**, selectați valori în câmpurile **Începutul facturării** și **Frecvența facturii**. 
 5. Pe sub-grilă, selectați **Generați date scadente periodice**.
 6. Aplicația generează planificarea facturilor cu un nume, o dată și o sumă.
 
@@ -58,9 +58,9 @@ Când linia de ofertă bazată pe proiect are o metodă de facturare **Fixă** ,
 
 Datele scadente ale prețurilor fixe pot fi, de asemenea, generate manual atunci când nu sunt împărțite periodic. Pentru a crea manual o dată scadentă:
 
-Deschideți linia de ofertă de preț fix unde trebuie să creați o dată scadentă. Pe fila **Planificarea facturilor** , pe sub-grilă, selectați **+ Creați o dată scadentă nouă pentru linia de ofertă** și introduceți informațiile solicitate pe baza tabelului următor.
+Deschideți linia de ofertă de preț fix unde trebuie să creați o dată scadentă. Pe fila **Planificarea facturilor**, pe subgrilă, selectați **+ Creați o etapă nouă pentru linia de ofertă** și introduceți informațiile solicitate pe baza tabelului următor.
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Nume dată scadentă | Creare rapidă | Numele datei scadente. | Acest lucru este propagat la datei scadente a liniei contractului de proiect și la factură |
 | Activitate de proiect | Creare rapidă | Dacă data scadentă este legată de sarcina proiectului, puteți utiliza această referință pentru a adăuga o logică personalizată, setați starea datei scadente pe baza stării activității. | Aplicația nu are niciun impact în aval al acestei referințe la o activitate. |

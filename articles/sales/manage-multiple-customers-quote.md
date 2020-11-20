@@ -1,21 +1,21 @@
 ---
-title: Gestionați mai mulți clienți în oferte de proiect
+title: Gestionarea mai multor clienți într-o ofertă de proiect
 description: Acest subiect furnizează informații despre lucrul la oferte care implică mai mulți clienți care vor finanța proiectul.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082650"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182007"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Gestionați mai mulți clienți în oferte de proiect
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Gestionarea mai multor clienți într-o ofertă de proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
@@ -29,13 +29,13 @@ Clienții de ofertă și clienții de linie de ofertă pot fi adăugați, actual
 
 Clientul listat pe fila **Rezumat** a ofertei de proiect drept client potențial este clientul principal al ofertei. Când încercați să ștergeți clientul principal din lista de clienți din ofertă, veți primi o eroare conform căreia înregistrarea unui client principal dintr-o ofertă nu poate fi ștearsă.
 
-Clientul principal nu ar trebui să fie actualizat din lista de clienți din ofertă. Cu toate acestea, puteți influența clientul principal schimbând clientul potențial pe fila **Rezumat** a ofertei. Când acest câmp este actualizat pe **Rezumat ofertă** , clientul potențial nou selectat este adăugat ca un nou client de ofertă cu setul de semnalizare **Primar**. Vechiul client potențial va rămâne în continuare client la ofertă.
+Clientul principal nu ar trebui să fie actualizat din lista de clienți din ofertă. Cu toate acestea, puteți influența clientul principal schimbând clientul potențial pe fila **Rezumat** a ofertei. Când acest câmp este actualizat pe **Rezumat ofertă**, clientul potențial nou selectat este adăugat ca un nou client de ofertă cu setul de semnalizare **Primar**. Vechiul client potențial va rămâne în continuare client la ofertă.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Creați, actualizați sau ștergeți o înregistrare de ofertă client
 
 Un client de ofertă poate fi creat, actualizat sau șters din fila **Clienți de ofertă** de pe pagina **Ofertă**. Câmpurile enumerate în tabelul următor sunt în evidența clienților de ofertă a unei oferte de proiect.
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Cont | Grilă editabilă pe fila **Clienți de ofertă** și formularele **Principal** și **Creare rapidă** pentru un client de ofertă. | Listează toate conturile active. Acest câmp este blocat după crearea înregistrării. Dacă doriți să o actualizați, ștergeți înregistrarea și recreați-o. Dacă ați înregistrat date reale sau dacă înregistrarea clientului de ofertă este un client principal, vi se va permite să ștergeți înregistrarea. | Clienții de ofertă sunt copiați peste drept clienți de linie de ofertă când este creată o linie de ofertă. Clienții de ofertă sunt copiați și peste clienții de contract de proiect când este câștigată o ofertă. |
 | Procent de divizare de factură | Grilă editabilă pe fila **Clienți de ofertă** și formularele **Principal** și **Creare rapidă** pentru un client de ofertă. | Reprezentați procentul din fiecare tranzacție de vânzare nefacturată care va fi atribuită acestui client de ofertă. | Copiat pe noi linii de ofertă create și pe clienții contractuali de proiect. |
@@ -50,4 +50,4 @@ Un client de ofertă poate fi creat, actualizat sau șters din fila **Clienți d
 
 Puteți modifica procentajele de împărțire a facturării utilizând experiența de editare a grilei în linie. Atunci când procentajele de împărțire a facturării nu totalizează 100%, va apărea o eroare. După actualizarea procentajelor de facturare, actualizați pagina pentru a elimina eroarea.
 
-De asemenea, puteți încerca să selectați **Distribuiți uniform** pe sub-grila clienților de ofertă. Această acțiune alocă împărțiri de facturare tuturor clienților de ofertă. Dacă există vreun factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții de cotare este întotdeauna etichetat drept client de rotunjire. Acest lucru înseamnă că înregistrarea clientului de ofertă are semnalizarea **Rotunjire** setată la **Da**. De obicei, acesta este clientul principal al ofertelor, dar acesta poate fi modificat.
+De asemenea, puteți încerca să selectați **Distribuiți uniform** pe subgrila clienților de cotare. Această acțiune alocă împărțiri de facturare tuturor clienților de ofertă. Dacă există vreun factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții de cotare este întotdeauna etichetat drept client de rotunjire. Acest lucru înseamnă că înregistrarea clientului de ofertă are semnalizarea **Rotunjire** setată la **Da**. De obicei, acesta este clientul principal al ofertelor, dar acesta poate fi modificat.

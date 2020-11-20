@@ -1,21 +1,21 @@
 ---
-title: Linii de oportunitate pe bază de proiect (Pro)
+title: Linii de proiect bazate pe oportunitate - simplificat
 description: Acest subiect oferă informații despre linii de oportunitate pe bază de proiect. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082721"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181029"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Linii de oportunitate pe bază de proiect (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Linii de proiect bazate pe oportunitate - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -25,7 +25,7 @@ Liniile de oportunitate bazate pe proiect sunt elementele rând care vor fi livr
 
 Mai jos sunt câmpurile de pe o linie de oportunități bazată pe proiecte:
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Tip produs | Fila General (ascuns) | Puteți selecta una dintre următoarele opţiuni:</br>- Serviciu bazat pe proiecte (disponibil numai atunci când este instalat Dynamics 365 Project Operations)</br>- Produs bazat pe proiecte (disponibil numai atunci când sunt instalate Project Operations și Dynamics 365 Sales) | Valoarea acestui câmp este setată la **Serviciu bazat pe proiect** atunci când creați o linie de oportunitate bazată pe proiect din grila de linii bazate pe proiect din Opportunity. <br> Dacă modificați sau înlocuiți această valoare, funcționalitatea proiectului nu va fi activată pentru elementele rând bazate pe proiect. |
 | Oportunitate | Fila General | Acest câmp este doar în citire și face referire la înregistrarea de oportunitate părinte căreia îi aparține acest element rând. | Nu există niciun impact din aval din acest domeniu. |

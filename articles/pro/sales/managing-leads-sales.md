@@ -1,21 +1,21 @@
 ---
-title: Gestionați clienți potențiali (Pro)
+title: Gestionarea clienților potențiali - simplificat
 description: Acest subiect furnizează informații despre gestionarea clienților potențiali pe bază de proiect (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082725"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180522"
 ---
-# <a name="manage-leads-pro"></a>Gestionați clienți potențiali (Pro)
+# <a name="manage-leads---lite"></a>Gestionarea clienților potențiali - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -23,7 +23,7 @@ Oportunitățile bazate pe proiect pot fi gestionate și calificate în Project 
 
 ## <a name="list-of-project-sales-leads"></a>Lista clienților potențiali în de Proiect
 
-În secțiunea **Vânzări** , în panoul de navigare din stânga, deschideți pagina listă **Clienți potențiali** pentru a vizualiza o listă cu toate înregistrările potențiale din sistem. Lista de clienți potențiali afișați este bazată pe muncă și alte tipuri de clienți potențiali care pot fi creați dacă aveți și Dynamics 365 Sales sau aplicații Dynamics 365 Field Service.
+În secțiunea **Vânzări**, în panoul de navigare din stânga, deschideți pagina listă **Clienți potențiali** pentru a vizualiza o listă cu toate înregistrările potențiale din sistem. Lista de clienți potențiali afișați este bazată pe muncă și alte tipuri de clienți potențiali care pot fi creați dacă aveți și Dynamics 365 Sales sau aplicații Dynamics 365 Field Service.
 
 Puteți crea o vizualizare filtrată pentru a vedea numai clienți potențiali bazate pe proiecte, creând un filtru pe valoarea **Tip**. De exemplu, puteți selecta să afișați numai clienți potențiali pe bază de muncă.
 
@@ -38,7 +38,7 @@ Pentru ca un potențial calificat să creeze automat o oportunitate, setați atr
 
 Tabelul următor include informații importante de câmp pentru un potențial și implicațiile din aval ale acestor câmpuri.
 
-| **Câmp** | **Locaţie** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
+| **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
 | Subiect | Fila General | Acest câmp text și ar trebui să conțină o scurtă descriere a tranzacției. | Subiectul clientului potențial va fi implicit ca subiect al oportunității și numele contractului de ofertă și proiect. |
 | Tip | Fila General | Acest câmp set de opțiuni are următoarele opțiuni:</br>- Pe bază de muncă (disponibil numai când este instalat Project Operations)</br>- Pe bază de element (disponibil numai atunci când sunt instalate Project Operations și Vânzări)</br>- Serviciu bazat pe întreținere (disponibil când este instalat Field Service) | Când valoarea acestui câmp este setată la **Pe bază de muncă** pe clientul potențial, acesta este calificat pentru a crea o oportunitate bazată pe proiect. O oportunitate pe bază de proiect este necesară pentru a permite toate extensiile și funcționalitățile specifice proiectului în procesul de vânzare din aval pentru această tranzacție. |

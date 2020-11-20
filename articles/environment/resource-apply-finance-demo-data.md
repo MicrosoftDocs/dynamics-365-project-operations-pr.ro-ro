@@ -1,21 +1,21 @@
 ---
-title: Aplicarea datelor demonstrative Project Operations la un mediu Finance găzduit în cloud
+title: Aplicarea datelor demonstrative unui mediu găzduit în Finance Cloud
 description: Acest subiect explică modul de aplicare a datelor demo din Project Operations la un mediu Dynamics 365 Finance găzduit în cloud.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096637"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365253"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicarea datelor demonstrative Project Operations la un mediu Finance găzduit în cloud
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicarea datelor demonstrative unui mediu găzduit în Finance Cloud
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
@@ -28,7 +28,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Primul set de acreditări evidențiate sunt acreditările contului local și conțin un hyperlink către conexiunea desktop la distanță. Acreditările includ numele de utilizator și parola administratorului mediului. Al doilea set de acreditări este utilizat pentru a vă conecta la SQL Server în acest mediu.
 
-2. conectați-vă la mediu prin hyperlink în **Conturi locale** , și utilizați **Acreditări de cont local** pentru a autentifica.
+2. conectați-vă la mediu prin hyperlink în **Conturi locale**, și utilizați **Acreditări de cont local** pentru a autentifica.
 3. Accesați **Servicii de informare pe internet** > **Grupuri de aplicații** > **Serviciul AOSS** și opriți serviciul. Opriți serviciul în acest moment, astfel încât să puteți continua să înlocuiți baza de date SQL.
 
 ![Stop AOS](./media/2StopAOS.png)
@@ -46,7 +46,7 @@ Primul set de acreditări evidențiate sunt acreditările contului local și con
 
 6. În Object Explorer, **Baze de date** și localizați **AXDB**. Veți înlocui baza de date cu o nouă bază de date care se află în [Centrul de descărcare](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Copiați fișierul zip în VM-ul în care sunteți îndepărtat și extrageți conținutul zip.
-8. În SQL Server Management Studio, faceți clic dreapta **AxDB** , apoi selectați **Sarcini** > **Restabili** > **Bază de date**.
+8. În SQL Server Management Studio, faceți clic dreapta **AxDB**, apoi selectați **Sarcini** > **Restabili** > **Bază de date**.
 
 ![Restaurați baza de date](./media/5RestoreDatabase.png)
 
@@ -54,7 +54,7 @@ Primul set de acreditări evidențiate sunt acreditările contului local și con
 
 ![Dispozitive sursă](./media/6SourceDevice.png)
 
-10. Selectați **Opțiuni** , apoi selectați **Suprascrieți baza de date existentă** și **Închideți conexiunile existente la baza de date destinație**. 
+10. Selectați **Opțiuni**, apoi selectați **Suprascrieți baza de date existentă** și **Închideți conexiunile existente la baza de date destinație**. 
 11. Selectați **OK**.
 
 ![Restaurați setări](./media/7RestoreSetting.png)
