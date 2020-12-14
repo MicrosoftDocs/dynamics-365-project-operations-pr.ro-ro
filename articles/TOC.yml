@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Noutăți
       items:
+        - name: Decembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Noiembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proiectarea unui proces de vânzări
@@ -87,7 +89,7 @@
                 - name: Gestionarea mai multor clienți în linii de oferte bazate pe proiect
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Configurarea componentelor tarifabile ale unei linii de ofertă de proiect
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Crearea de estimări într-o linie de ofertă
                   href: sales/create-estimate-quote-line.md
                 - name: Importul de estimări dintr-un proiect pentru o linie de ofertă pe bază de proiect
@@ -109,7 +111,7 @@
             - name: Gestionarea listelor de prețuri ale proiectelor din contractele de proiecte
               href: sales/contracts-manage-project-price-lists.md
             - name: Gestionarea mai multor clienți în contractele de proiect
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Linii de contract bazate pe proiect
               items:
                 - name: Prezentare generală a liniilor de contract bazate pe proiect
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Copierea unui contract de proiect
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Avansuri și garanții
+              items:
+                - name: Avansuri și contracte bazate pe garanții - simplificat
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Configurarea unei planificări de garanții - simplificat
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Crearea unui avans ad-hoc pentru un contract - simplificat
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prețuri și costuri
       items:
         - name: Configurarea listei de prețuri
@@ -158,10 +168,18 @@
           items:
             - name: Prezentare generală a dimensiunilor de preț
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Utilizarea câmpurilor existente ca dimensiuni de stabilire a prețurilor
+            - name: Crearea unei soluții pentru dimensiunile de preț particularizate
+              href: sales/create-solution-custompd.md
+            - name: Utilizarea câmpurilor existente ca dimensiuni de preț
               items:
                 - name: Câmpurile Project Operations ca dimensiuni de preț
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utilizarea unei resurse care se poate rezerva ca dimensiune de preț
+                  href: sales/use-br-as-pd.md
+                - name: Utilizarea categoriei de tranzacții ca dimensiune de preț
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Resursă rezervabilă cu mai multe roluri într-un proiect
+                  href: sales/br-playing-multiple-roles.md
             - name: Câmpuri particularizate ca dimensiuni de preț
               items:
                 - name: Crearea de entități și câmpuri particularizate ca dimensiuni de preț
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurarea câmpurilor particularizate ca dimensiuni de preț
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Actualizarea atributelor inserturilor pentru a include noi dimensiuni de preț
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Dezactivarea unei dimensiuni de preț
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gestionarea proiectelor
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrarea resurselor
           items:
+            - name: Crearea de resurse
+              href: resource-management/create-resources.md
             - name: Definirea abilităților și competențelor
               href: resource-management/define-skills-proficiencies.md
+            - name: Definirea rolurilor
+              href: resource-management/define-roles.md
             - name: Definirea calendarelor de resurse
               href: resource-management/define-resource-calendars.md
         - name: Metode de alocare a rezervărilor
           href: resource-management/booking-allocation-methods.md
+        - name: Stări de rezervare
+          href: resource-management/booking-status.md
         - name: Modele de abilități și competențe
           href: resource-management/skills-proficiency-models.md
         - name: Reconcilierea resurselor
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Gestionarea unei facturi proforma pentru proiect
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Facturarea unui avans sau a unei garanții
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confirmarea unei facturi proforma pentru proiect
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Configurarea automatizării facturii de proiect
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Jurnalul de integrare în Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Facturare între companii
+          items:
+            - name: Prezentare generală a facturării între companii
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurarea facturării între companii
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Crearea de facturi de client și furnizor între companii
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Crearea de tranzacții între companii
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Recunoașterea veniturilor
+      items:
+        - name: Prezentare generală a recunoașterii veniturilor
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Configurarea recunoașterii veniturilor
+          items:
+            - name: Configurarea tipurilor de perioade
+              href: project-accounting/period-types.md
+            - name: Configurarea șabloanelor de cost
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Gestionarea estimărilor de venituri
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Proiecte cu estimarea veniturilor cu preț fix
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Metode pentru costul de finalizare
+          href: revenue-recognition/cost-complete-methods.md
 - name: Implementare simplificată - facturare de la ofertă și până la proforma
   items:
     - name: Introducere
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
+        - name: Noutăți în decembrie 2020 - Implementare simplificată - facturare de la ofertă și până la proforma
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Noutăți în noiembrie 2020 - Implementare simplificată - facturare de la ofertă și până la proforma
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proiectarea unui proces de vânzări
@@ -538,10 +594,18 @@
           items:
             - name: Prezentare generală a dimensiunilor de preț
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Utilizarea câmpurilor existente ca dimensiuni de stabilire a prețurilor
+            - name: Crearea unei soluții pentru dimensiunile de preț particularizate
+              href: sales/create-solution-custompd.md
+            - name: Utilizarea câmpurilor existente ca dimensiuni de preț
               items:
-                - name: Utilizarea unui câmp existent ca dimensiune de stabilire a prețurilor
+                - name: Câmpurile Project Operations ca dimensiuni de preț
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utilizarea unei resurse care se poate rezerva ca dimensiune de preț
+                  href: sales/use-br-as-pd.md
+                - name: Utilizarea categoriei de tranzacții ca dimensiune de preț
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Resursă rezervabilă cu mai multe roluri într-un proiect
+                  href: sales/br-playing-multiple-roles.md
             - name: Câmpuri particularizate ca dimensiuni de preț
               items:
                 - name: Crearea de entități și câmpuri particularizate ca dimensiuni de preț
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurarea câmpurilor particularizate ca dimensiuni de preț
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Actualizarea atributelor inserturilor pentru a include noi dimensiuni de preț
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Dezactivarea unei dimensiuni de preț
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gestionarea proiectelor
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrarea resurselor
           items:
+            - name: Crearea de resurse
+              href: resource-management/create-resources.md
             - name: Definirea abilităților și competențelor
               href: resource-management/define-skills-proficiencies.md
+            - name: Definirea rolurilor
+              href: resource-management/define-roles.md
             - name: Definirea calendarelor de resurse
               href: resource-management/define-resource-calendars.md
         - name: Metode de alocare a rezervărilor
           href: resource-management/booking-allocation-methods.md
+        - name: Stări de rezervare
+          href: resource-management/booking-status.md
         - name: Modele de abilități și competențe
           href: resource-management/skills-proficiency-models.md
         - name: Reconcilierea resurselor
@@ -688,7 +760,7 @@
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Gestionarea unei facturi proforma pentru proiect
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
-        - name: Facturarea unui avans sau unei garanții
+        - name: Facturarea unui avans sau a unei garanții
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confirmarea unei facturi proforma pentru proiect
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
@@ -832,8 +904,10 @@
       href: psa/overview.md
     - name: Noutăți
       items:
-        - name: Actualizarea planificărilor de lansare pentru Project Service 3.x
+        - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 24, V3'
@@ -922,13 +996,13 @@
           items:
             - name: Pagină principală cu dimensiunile de preț și cost
               href: psa/pricing-costing-dimensions.md
-            - name: Crearea unei soluții pentru dimensiunile de tarifare particularizate
+            - name: Crearea unei soluții pentru dimensiunile de preț particularizate
               href: psa/custompricingdimensionssolution.md
             - name: Crearea câmpurilor și entităților particularizate
               href: psa/create-custom-fields-entities.md
-            - name: 'Adăugarea câmpurilor particularizate la configurarea prețurilor și la entitățile tranzacționale '
+            - name: Adăugarea câmpurilor particularizate la configurarea prețurilor și la entitățile tranzacționale
               href: psa/field-references.md
-            - name: 'Configurarea câmpurilor particularizate ca dimensiuni de preț '
+            - name: Configurarea câmpurilor particularizate ca dimensiuni de preț
               href: psa/set-up-pricing-dimensions.md
             - name: Actualizarea atributelor inserturilor pentru a include noi dimensiuni de preț
               href: psa/update-plug-in-attributes.md
