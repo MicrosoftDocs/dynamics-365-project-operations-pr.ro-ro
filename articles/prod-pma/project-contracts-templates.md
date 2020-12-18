@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082930"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642648"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați contractele de proiect și proiectele direct din Project Service Automation la Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Acest subiect descrie șablonul și activitățile de desfășurare care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct de la Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Următoarea ilustrație arată cum sunt sincronizate datele între Project Servi
 
 ## <a name="templates-and-tasks"></a>Șabloane și activtăți
 
-Pentru a accesa șabloanele disponibile, în centrul de administrare Microsoft Power Apps, selectați **Proiecte** , apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
+Pentru a accesa șabloanele disponibile, în centrul de administrare Microsoft Power Apps, selectați **Proiecte**, apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
 
 Următoarele șabloane și activități în desfășurare sunt utilizate pentru a sincroniza contracte de proiect și proiecte de la Project Service Automation la Finance:
 
@@ -133,9 +135,9 @@ Dacă trebuie să utilizați Power Query, urmați aceste recomandări:
 ## <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor
 
 > [!NOTE] 
-> Câmpurile **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** și **AddressZipCode** nu sunt incluse în maparea implicită pentru contractele de proiect. Puteți adăuga mapările dacă doriți ca aceste date să fie sincronizate pentru contractele de proiect.
+> Câmpurile **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** și **AddressZipCode** nu sunt incluse în maparea implicită pentru contractele de proiect. Puteți adăuga mapările dacă doriți ca aceste date să fie sincronizate pentru contractele de proiect.
 >
-> Câmpurile **Descriere** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** , and **ProjectType** nu sunt incluse în maparea implicită pentru proiecte. Puteți adăuga mapările dacă doriți ca aceste date să fie sincronizate pentru proiecte.
+> Câmpurile **Descriere**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber**, and **ProjectType** nu sunt incluse în maparea implicită pentru proiecte. Puteți adăuga mapările dacă doriți ca aceste date să fie sincronizate pentru proiecte.
 
 Următoarele ilustrații prezintă exemple de mapări ale sarcinilor șablon în Integrarea datelor. Maparea arată informațiile despre câmp care vor fi sincronizate de la Project Service Automation la Finance.
 

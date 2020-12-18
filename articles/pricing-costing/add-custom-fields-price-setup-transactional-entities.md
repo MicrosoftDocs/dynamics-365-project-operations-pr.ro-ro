@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130998"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590916"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Adăugarea câmpurilor solicitate particularizate la configurarea prețurilor și la entitățile tranzacționale
 
@@ -49,6 +49,8 @@ Atunci când o dimensiune de prețuri particularizată este bazată pe un set de
 > [!IMPORTANT]
 > Când adăugați un câmp la mai multe entități, utilizați același nume de câmp pentru toate entitățile. 
 
+> ![Se adaugă Locația de lucru resursă la Prețul de rol](media/RWL-Field.png)
+
 În fazele de vânzări și de estimare pentru un proiect, estimările efortului de lucru necesar pentru finalizarea lucrărilor **Locale** și **La fața locului**, în **Ore normale** și **Ore suplimentare** sunt utilizate pentru a estimarea valorii ofertei/proiectului. Câmpurile **Locația de lucru resursă** și **Ore de lucru resursă** vor fi adăugate la entități de estimare **Detaliu linie de ofertă**, **Detaliu linie de contract**, **Membru echipă de proiect** și **Linie estimată**.
 
 1. În Project Operations, selectați **Setări** > **Soluții** și apoi faceți clic dublu pe **\<your organization name> dimensiuni de prețuri**. 
@@ -58,6 +60,8 @@ Atunci când o dimensiune de prețuri particularizată este bazată pe un set de
 5. Selectați **Se utilizează un set de opțiuni existent** și **Locație de lucru resursă**, apoi selectați **Salvare**.
 6. Repetați pașii 1-5 pentru a adăuga acest câmp la **Detaliu linie contract pentru proiect**, **Membru echipă de proiect** și **Linie estimată**.
 7. Repetați pașii 1-6 pentru setul de opțiuni **Ore de lucru resursă**. 
+
+> ![Se adaugă Locația de lucru resursă la Linie estimată](media/RWL-Default-Value.png)
 
 Pentru livrare și facturare, lucrarea finalizată trebuie să fie evaluate cu exactitate pentru a selecta dacă a fost efectuată **Local** sau **La fața locului** și dacă a fost finalizată în timpul **Orelor obișnuite** sau în timpul **Orelor suplimentare** cu privire la Valorile reale ale proiectului. Câmpurile **Locația de lucru resursă** și **Ore de lucru resursă** ar trebui adăugate la entitățile **Intrare de timp**, **Real**, **Detaliu linie factură** și **Linie de jurnal**.
 
@@ -69,6 +73,8 @@ Pentru livrare și facturare, lucrarea finalizată trebuie să fie evaluate cu e
 6. Repetați pașii 1-5 pentru a adăuga acest câmp la entitățile **Real**, **Detaliu linie factură** și **Linie jurnal**.
 7. Repetați pașii 1-6 pentru setul de opțiuni **Ore de lucru resursă**. 
 
+> ![Se adaugă Locația de lucru resursă la Intrarea de timp](media/RWL-time-entry.png)
+
 Aceasta încheie modificările schemei necesare pentru dimensiunile particularizate bazate pe setul de opțiuni.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Dimensiuni tarifare particularizate bazate pe entitate
@@ -79,6 +85,8 @@ Când dimensiunea de tarifare particularizată este o entitate, veți adăuga re
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Entități > Titlu standard**.
 3. Extindeți entitatea **Titlu standard** și selectați **Relații 1: N**.
 4. Selectați **Nou** pentru a crea o relație nouă 1: N numită **Titlu standard pentru Resursă ce se poate rezerva**. Introduceți informațiile solicitate și apoi selectați **Salvare**.
+
+> ![Se adaugă Titlul standard drept câmp de referință la Resursă ce se poate rezerva](media/ST-BR.png)
 
 Titlul standard va trebui adăugat, de asemenea, la entitățile de preț, **Preț pentru rol** și **Adaos de preț pentru rol**. Acest lucru este finalizat, de asemenea, utilizând relațiile 1: N între entitățile **Titlul standard** și **Preț pentru rol** și **Titlul standard** și **Adaos de preț pentru rol**.
 
@@ -96,9 +104,13 @@ Titlul standard va trebui adăugat, de asemenea, la entitățile de preț, **Pre
 
 5. Repetați pașii 1-5 pentru a crea relații 1:N din **Titlul standard** la **Detaliu linie de ofertă**, **Detaliu linie contract pentru proiect**, **Membru echipă de proiect** și **Linie estimată**.
 
+> ![Se adaugă Titlul standard drept câmp de referință la Linie estimată](media/ST-Estimate-Line.png)
+
   În fazele de livrare și facturare, lucrarea este finalizată de fiecare titlul standard trebuie evaluată cu acuratețe cu privire la Valorile reale ale proiectului. Aceasta înseamnă că trebuie să existe relații 1:N de la **Titlul standard** la **Intrarea de timp**, **Valori reale**, **Detaliu linie factură** și **entități Linie de jurnal**.
 
 6. Repetați pașii 1-6 pentru a crea relații 1:N din **Titlul standard** la **Intrarea de timp**, **Valori reale**, **Detaliu linie factură** și **entități Linie de jurnal**.
+
+> ![Se adaugă Titlul standard drept câmp de referință la Intrarea de timp](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurați Valoarea de dimensiune la valoarea implicită utilizând caracteristicile mapărilor platformei
 Pentru Intrarea de timp, ar fi util să aveți setarea implicită de sistem Titlul standard la Intrarea de timp din Resursa ce se poate rezerva care este înregistrarea Intrării de timp. Utilizați pașii următori pentru a adăuga mapări de câmp la relația 1:N din **Resursa ce se poate rezerva** la **Intrarea de timp**.
@@ -107,6 +119,8 @@ Pentru Intrarea de timp, ar fi util să aveți setarea implicită de sistem Titl
 2. Extindeți entitatea **Titlu standard** și selectați **Relații 1: N**.
 3. Faceți dublu clic pe **Resursă ce se poate rezerva la Intrarea de timp**. Pe pagina **Relație**, selectați **Utilizați mapări de câmp**. 
 4. Selectați **Nou** pentru a crea o mapare de câmp între câmpul **Titlu standard** de pe entitatea **Resursă ce se poate rezerva** la câmpul de referință **Titlu standard** la entitatea **Intrare de timp**. 
+
+> ![Configurați mapări de câmp pentru a permite revenirea la implicit a Titlului standard de la Resursa ce se poate rezerva la Intrarea de timp](media/ST-Mapping2.png)
 
 Aceasta încheie modificările schemei necesare pentru dimensiunile particularizate bazate pe entitate.
 

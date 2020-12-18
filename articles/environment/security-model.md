@@ -1,6 +1,6 @@
 ---
 title: Model de securitate
-description: Acest subiect oferă informații despre modelul de securitate în Dynamics 365 Project Operations.
+description: Acest subiect oferă informații despre modelul de securitate din Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124383"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642918"
 ---
 # <a name="security-model"></a>Model de securitate
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Microsoft Dynamics 365 Project Operations conține un model de securitate unic, care permite un model de securitate de afaceri bazat pe roluri, care colaborează cu Microsoft Office Groups. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations conține un model unic de securitate care permite un model de securitate de afaceri bazat pe roluri, care colaborează cu Grupuri Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Roluri de securitate

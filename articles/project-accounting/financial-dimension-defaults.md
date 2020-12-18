@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aa6771ba5346fd4133b82c3e670badfa7655299f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131898"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642378"
 ---
 # <a name="financial-dimension-defaults"></a>Valori implicite pentru dimensiunile financiare
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Dynamics 365 Project Operations utilizează [Dimensiuni financiare](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) cadru în Dynamics 365 Finance pentru a oferi informații suplimentare cu privire la tranzacțiile cu contabilitate de proiect și contabilitate generală.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations utilizează cadrul [Dimensiuni financiare](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) în Dynamics 365 Finance pentru a furniza detalii suplimentare cu privire la tranzacțiile cu contabilitate de proiect și contabilitate generală.
 
 Dimensiunile financiare implicite pot fi stabilite pentru un client, o sursă de finanțare a proiectului, o etapă importantă, o linie de contract de proiect sau un proiect.
 

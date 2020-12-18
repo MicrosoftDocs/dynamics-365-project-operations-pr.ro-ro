@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121233"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642288"
 ---
 # <a name="currency"></a>Monedă
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Monedele stabilesc prețurile pentru produse în catalogul de produse și costul tranzacțiilor, de exemplu comenzi de vânzare. Dacă clienții dvs. se află în regiuni geografice diferite, adăugați monedele lor în pentru a vă gestiona tranzacțiile. Adăugați monedele cele mai potrivite pentru cerințele dvs. de business actuale și viitoare.  
 

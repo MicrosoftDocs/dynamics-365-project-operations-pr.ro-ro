@@ -2,8 +2,9 @@
 title: Actualizați planificarea de lansare pentru Project Service 3.x
 description: Acest subiect oferă informații despre versiunile disponibile și viitoare ale Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 11/01/2020
+ms.date: 12/07/2020
 ms.reviewer: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -23,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf1203884cb4e49e0982bffb3092730122b2be9c
-ms.sourcegitcommit: 2848a8a654df601911593da8e2f9b6ffd6adc702
+ms.openlocfilehash: 8e9a29b05e07bb59ade00c8f4acdf0275538d5bd
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "4404830"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689470"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Actualizați planificarea de lansare pentru Project Service 3.x
 
@@ -36,7 +37,7 @@ ms.locfileid: "4404830"
 
 | Soluție  | Cea mai recentă versiune |
 |-------|----|
-| Project Service Automation    | 3.10.43.76 |
+| Project Service Automation    | 3.10.44.59 |
 | Project Service Automation program de completare desktop                | 3.15          |
 
 Pentru informații despre actualizări la Project Service, consultați [Planuri de lansare Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -44,27 +45,27 @@ Pentru informații despre actualizări la Project Service, consultați [Planuri 
 | Stație  | Regiune | Versiunea curentă | Următoarea versiune |  Dată programată
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stația 1</strong> | |  |  | |
-| | <i>Prima apariție</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 20 noiembrie 2020
+| | <i>Prima apariție</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 8 ianuarie 2021
 |<strong>Stația 2</strong> | |  |  | |
-| | <i>America de Sud</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 noiembrie 2020
-| | <i>Canada</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 noiembrie 2020 
-| | <i>India</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 noiembrie 2020
-| | <i>Franța</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 noiembrie 2020
-| | <i>Emiratele Arabe Unite</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 noiembrie 2020
-| | <i>Africa de Sud</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 noiembrie 2020
-| | <i>Germania</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 noiembrie 2020
+| | <i>America de Sud</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 ianuarie 2021
+| | <i>Canada</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 ianuarie 2021
+| | <i>India</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 ianuarie 2021
+| | <i>Franța</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 ianuarie 2021
+| | <i>Emiratele Arabe Unite</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 ianuarie 2021
+| | <i>Africa de Sud</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 ianuarie 2021
+| | <i>Germania</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 ianuarie 2021
 |<strong>Stația 3</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 decembrie 2020
-| | <i>Asia Pacific</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 decembrie 2020
-| | <i>Regatul Unit</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 decembrie 2020
-| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 decembrie 2020
+| | <i>Japonia</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 decembrie 2020
+| | <i>Asia Pacific</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 decembrie 2020
+| | <i>Regatul Unit</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 decembrie 2020
+| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 decembrie 2020
 |<strong>Stația 4</strong> | |  |  | |
-| | <i>Europa</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 13 noiembrie 2020
+| | <i>Europa</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 18 decembrie 2020
 |<strong>Stația 5</strong> | |  |  | |
-| | <i>America de Nord</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 noiembrie 2020
+| | <i>America de Nord</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 ianuarie 2021
 |<strong>Stația 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 noiembrie 2020
-| | <i>Grupuri dedicate la scară</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 27 noiembrie 2020
+| | <i>Government Community Cloud</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 ianuarie 2021
+| | <i>Grupuri dedicate la scară</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 15 ianuarie 2021
 
 >[!Note]
 > - Datele din toate regiunile, cu excepția Cloud Community Community (CCG) indică calendarul următoarei actualizări automate. Datele din CCG indică disponibilitatea versiunii; în acest moment, nu există o actualizare automată pentru aceste regiuni.

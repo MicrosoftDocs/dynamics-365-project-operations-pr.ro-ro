@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180792"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513939"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Crearea unei planificări de facturare pentru o linie de contract bazată pe proiect 
 
@@ -49,7 +49,7 @@ Parcurgeți pașii următori pentru a genera această planificare de facturare b
 3. Deschideți linia de contract **Preț fix** pentru care creați planificarea de reper. Pe fila **Repere de facturare**, selectați data de început pentru facturare și frecvența facturii. 
 4. Pe sub-grilă, selectați **Generați date scadente periodice**. Programul facturilor este generat cu **Nume de reper**, **Data reperului**, și câmpurile **Suma de reper** setate după cum urmează:
 
-    - **Numele reperului**: această dată este dictată pe baza frecvenței facturii.
+    - **Nume de reper**: acest nume este dictat de frecvența facturii.
     - **Data reperului**: această dată este dictată pe baza frecvenței facturii.
     - **Suma de reper**: această sumă este calculată prin împărțirea sumei de contract la linia de contract după numărul de repere așa cum este dictat de frecvență, începutul facturării și datele de livrare solicitate.
 

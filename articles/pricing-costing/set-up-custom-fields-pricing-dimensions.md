@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119433"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650243"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț
 
@@ -41,9 +41,15 @@ Acest subiect oferă informații despre parametrizarea dimensiunilor de preț pa
 Pentru ca un câmp să devină o dimensiune de preț, trebuie să fie:
 
 - Creat ca un câmp în entitățile **Preț rol** și **Adaos preț rol**. Pentru mai multe informații despre cum se face acest lucru, consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale](add-custom-fields-price-setup-transactional-entities.md).
+
 - Creat ca rând în tabelul **Dimensiune preț**. De exemplu, adăugați rânduri de dimensiuni de preț așa cum se arată în graficul următor. 
 
+![Rânduri de dimensiuni de preț bazate pe sume](media/Amt-based-PD.png)
+
 Observați că programul de lucru resurse (**msdyn_resourceworkhours**) este adăugat ca o dimensiune bazată pe adaos și a fost adăugat la grilă pe fila **Dimensiune de preț bazată pe adaos** .
+
+![Rânduri de dimensiuni de preț bazate pe adaos](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Orice modificare a datelor de dimensiune de preț în acest tabel, existente sau noi, este propagată în logica de business de tarifare numai după reîmprospătarea cache. Timpul de reîmprospătare a memoriei cache poate dura până la 10 minute. Permiteți acea perioadă de timp pentru a vedea modificările din logica de nerambursare a prețului care trebuie să rezulte din modificările datelor dimensiunii prețurilor.

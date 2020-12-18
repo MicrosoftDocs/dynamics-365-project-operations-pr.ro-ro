@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130863"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672246"
 ---
 # <a name="override-project-sales-price-lists"></a>Înlocuirea listelor de prețuri de vânzare pentru proiect
 
@@ -27,7 +28,7 @@ Pentru a configura o listă de prețuri specifice proiectului pentru client, în
 
 1. Deschideți pagina listei **Conturi**.
 2. Găsiți și faceți dublu clic pe o înregistrare de client pentru a deschide pagina de detalii **Cont**.
-3. Pe fila **Liste de prețuri de proiect**, selectați **+ Listă de prețuri de proiect nou^^.
+3. Pe fila **Liste de prețuri de proiect**, selectați **+ Listă de prețuri de proiect nou**.
 4. Pe pagina **Lista de prețuri a proiectului nou**, selectați o listă de prețuri din meniul derulant. Numai listele de prețuri care au contextul setat la **Vânzări** și a căror monedă se potrivește cu moneda contului sunt incluse.
 5. Numiți asocierea și apoi selectați **Salvare**. Este creată o listă de prețuri de proiect specifică clientului. Această listă de prețuri va fi utilizată la prețurile implicite ale proiectului pentru ofertele de proiecte sau contractele create pentru acest client, atunci când data creată a contractului de ofertă sau a proiectului se încadrează în data efectivității listei de prețuri.
 

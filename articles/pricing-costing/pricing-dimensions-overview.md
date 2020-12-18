@@ -1,28 +1,20 @@
 ---
 title: Prezentare generală a dimensiunilor de preț
-description: Acest subiect furnizează informații despre dimensiunile de preț în Dynamics 365 Project Operations.
+description: Acest subiect oferă informații despre dimensiunile stabilirii prețurilor în Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128478"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650221"
 ---
 # <a name="pricing-dimensions-overview"></a>Prezentare generală a dimensiunilor de preț
 
@@ -40,9 +32,21 @@ Din acest motiv, există două tipuri de valori de dimensiune de preț disponibi
 
 ## <a name="pricing-dimensions"></a>Dimensiuni de preț
 
-Project Operations Dynamics 365 sunt livrate cu un set implicit de dimensiuni de preț. Puteți vizualiza aceste dimensiuni de preț accesând **Operațiuni de preț** > **Parametri**. În înregistrarea parametru, pe fila **Dimensiuni de preț bazate pe volum**, verificați că rolul **, msdyn_resourcecategory** și unitatea organizațională de obținere a resurselor **msdyn_organizationalunit** au câmpurile **Aplicabile vânzărilor** și **Aplicabile costurilor** setate la **Da**. Când sunt activate aceste câmpuri, puteți configura prețul și costul pentru fiecare rol și combinație de unitate organizatorică.
+Dynamics 365 Project Operations livrează cu un set implicit de dimensiuni de stabilire a prețurilor. Puteți vizualiza aceste dimensiuni de preț accesând **Operațiuni de preț** > **Parametri**. În înregistrarea parametru, pe fila **Dimensiuni de preț bazate pe volum**, verificați că rolul **, msdyn_resourcecategory** și unitatea organizațională de obținere a resurselor **msdyn_organizationalunit** au câmpurile **Aplicabile vânzărilor** și **Aplicabile costurilor** setate la **Da**. Când sunt activate aceste câmpuri, puteți configura prețul și costul pentru fiecare rol și combinație de unitate organizatorică.
 
-Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate.
+![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat](media/PS-OOB-parameters.png)
+
+Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru informații suplimentare, consultați următoarele subiecte. 
+  
+  > [!NOTE]
+  > Procedurile trebuie finalizate în ordinea în care sunt listate.
+
+1. [Crearea unei soluții pentru dimensiunile de tarifare particularizate](../sales/create-solution-custompd.md)
+2. [Crearea câmpurilor și entităților particularizate](create-custom-fields-entities-pricing-dimensions.md)
+3. [Adăugarea câmpurilor particularizate la configurarea prețurilor și la entitățile tranzacționale ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurarea câmpurilor particularizate ca dimensiuni de preț ](set-up-custom-fields-pricing-dimensions.md)
+5. [Actualizați atributele inserturilor pentru a include noi dimensiuni de tarifare](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Preț timp resurse umane
 Cum o organizație stabilește prețul timpul resurselor umane este adesea o considerație strategică importantă care afectează direct profitabilitatea organizației. Lucrați cu echipele de finanțe și cu șefii practicilor atunci când organizația este pregătită să identifice modul în care dorește să configureze ratele de factură și cost pentru timpul resurselor umane.

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129693"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642783"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilizarea programului de completare Project Service Automation pentru a vă planifica munca în Microsoft Project
 
@@ -92,7 +92,7 @@ Proiectul se va importa în [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagramă Gantt**   | Importurile în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Structura detaliată a proiectului**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Foaie de resurse** |   Importurile în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Membrii echipei de proiect**.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Folosirea utilizării**    |    Importurile în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estimări de proiect**.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Folosirea utilizării**    |    Importă în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estimări de proiect**.     |
 
 **Pentru a vă importa și a vă publica proiectul**  
 1. De pe fila **Project Service**, faceți clic pe **Publicare** > **Proiect nou Project Service Automation**.  
@@ -173,6 +173,59 @@ Proiectul se va importa în [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 4. Faceți clic pe **Publicare**.  
 
 Legarea fișierului Project la [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] face fișierul Project coordonator și stabilește structura detaliată a proiectului din șablonul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] drept doar în citire.  Pentru a face modificări în planul de proiect, trebuie să le efectuați în [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] și să le publicați ca actualizări la [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Citiți o planificare încărcată de resurse
+
+Când citiți un proiect din Project Service Automation, calendarul resursei nu este sincronizat cu clientul desktop. Dacă există diferențe în duratele sarcinii, efortul sau sfârșitul, probabil că resursele și clientul desktop nu au același calendar de șablon de oră de lucru aplicat proiectului.
+
+
+## <a name="data-synchronization"></a>Sincronizarea datelor
+
+Următorul tabel prezintă modul în care datele sunt sincronizate între Project Service Automation și programul de completare pentru desktop Microsoft Project.
+
+| **Entitate** | **Câmp** | **Microsoft Project la Project Service Automation** | **Project Service Automation la Microsoft Project** |
+| --- | --- | --- | --- |
+| Activitate de proiect | Data scadentă | ● | - |
+| Activitate de proiect | Efort estimat | ● | - |
+| Activitate de proiect | ID Client MS Project | ● | - |
+| Activitate de proiect | Activitate părinte | ● | - |
+| Activitate de proiect | Project | ● | - |
+| Activitate de proiect | Activitate de proiect | ● | - |
+| Activitate de proiect | Nume activitate de proiect | ● | - |
+| Activitate de proiect | Unitate de resursă (perimat în v3.0) | ● | - |
+| Activitate de proiect | Durată planificată | ● | - |
+| Activitate de proiect | Data de început | ● | - |
+| Activitate de proiect | ID WBS | ● | - |
+
+| **Entitate** | **Câmp** | **Microsoft Project la Project Service Automation** | **Project Service Automation la Microsoft Project** |
+| --- | --- | --- | --- |
+| Membru echipă | ID Client MS Project | ● | - |
+| Membru echipă | Nume poziție | ● | - |
+| Membru echipă | proiect | ● | ● |
+| Membru echipă | Echipă de proiect | ● | ● |
+| Membru echipă | Unitate de finanțare | - | ● |
+| Membru echipă | Rol | - | ● |
+| Membru echipă | Program de lucru | Nu este sincronizat | Nu este sincronizat |
+
+| **Entitate** | **Câmp** | **Microsoft Project la Project Service Automation** | **Project Service Automation la Microsoft Project** |
+| --- | --- | --- | --- |
+| Atribuire de resurse | De la data | ● | - |
+| Atribuire de resurse | Ore | ● | - |
+| Atribuire de resurse | ID Client MS Project | ● | - |
+| Atribuire de resurse | Lucru planificat | ● | - |
+| Atribuire de resurse | Project | ● | - |
+| Atribuire de resurse | Echipă de proiect | ● | - |
+| Atribuire de resurse | Atribuire de resurse | ● | - |
+| Atribuire de resurse | Activitate | ● | - |
+| Atribuire de resurse | Până în prezent | ● | - |
+
+| **Entitate** | **Câmp** | **Microsoft Project la Project Service Automation** | **Project Service Automation la Microsoft Project** |
+| --- | --- | --- | --- |
+| Dependențe de activitate proiect | Dependență de activitate proiect | ● | - |
+| Dependențe de activitate proiect | Tip link | ● | - |
+| Dependențe de activitate proiect | Activitate predecesoare | ● | - |
+| Dependențe de activitate proiect | Project | ● | - |
+| Dependențe de activitate proiect | Activitate succesoare | ● | - |
 
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)

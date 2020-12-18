@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181782"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513849"
 ---
 # <a name="manage-leads"></a>Gestionarea clienților potențiali
 
@@ -53,9 +53,9 @@ Clienții potențiali care au valoarea **Tip** setată la **Bazat pe muncă** su
 
 - Un cont care utilizează câmpul **Companie** din clientul potențial.
 - O înregistrare de contact asociată contului pe baza valorilor din **Prenume** și câmpurile **Nume de familie** pe clientul potențial.
-- O oportunitate bazată pe proiect care are câmpul **Tip** setat la **Bazat pe muncă**.
+- O oportunitate pe bază de proiect care are câmpul **Tip** setat la **Bazat pe muncă**.
 
-Pentru informații mai detaliate despre clienții potențiali de calificare, consultați[Calificați sau convertiți clienții potențiali](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Pentru informații mai detaliate despre calificarea clienților potențiali, consultați [Calificați sau convertiți clienții potențiali](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Calificare client potențial și informații despre entitatea juridică 
 

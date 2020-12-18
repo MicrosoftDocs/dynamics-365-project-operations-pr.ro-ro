@@ -1,5 +1,5 @@
 ---
-title: Crearea unui avans ad hoc pe un contract - simplificat
+title: Crearea unui avans ad-hoc pe un contract
 description: Acest subiect oferă informații despre crearea unui avans pe un contract, după cum este necesar.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181377"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596026"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Crearea unui avans ad hoc pe un contract - simplificat
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Crearea unui avans ad-hoc pe un contract
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Microsoft Dynamics 365 Project Operations acceptă scenarii de facturare care implică plăți în avans și avansuri. Procesul pentru utilizarea **Avansuri** în **Project Operations** este asemănător contractelor de **Onorariu**. 
 

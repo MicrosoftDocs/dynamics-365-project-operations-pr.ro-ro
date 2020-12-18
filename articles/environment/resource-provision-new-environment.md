@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121188"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643001"
 ---
 # <a name="provision-a-new-environment"></a>Asigurarea accesului pentru un nou mediu
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect oferă informații despre cum să provizioneze un nou mediu Dynamics 365 Project Operations pentru resurse/scenarii care nu sunt bazate pe stoc.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Acest subiect furnizează informații despre cum să furnizați un mediu nou Dynamics 365 Project Operations pentru scenarii bazate pe resurse/fără stoc.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activați pregătirea automată a Project Operations într-un proiect LCS
 
@@ -120,7 +122,7 @@ Salvarea și validarea pachetului ar putea dura aproximativ 15 minute.
 
 ![Aplicați soluții](./media/13ApplySolutions.png)
 
-5. Selectați ambele soluții, **Dynamics 365 Finance and Operations Harta entității cu scriere dublă** și **Hărți de entitate cu operații de scriere duală din Dynamics 365 Project Operations**, apoi selectați **Aplicare**.
+5. Selectați ambele soluții, **Dynamics 365 Finance and Operations Harta entității cu scriere dublă** și **Dynamics 365 Project Operations Hărți cu entități de scriere duală**, apoi selectați **Aplicare**.
 
 ![Confirmați soluțiile](./media/14ConfirmSolutions.png)
 
@@ -158,9 +160,10 @@ Reîmprospătarea va dura aproximativ 20 de minute. Veți primi o alertă când 
 
 | **Mapare entități** | **Reîmprospătați entitatea** | **Sincronizare inițială** | **Coordonator pentru sincronizarea inițială** | **Rulați cerințe preliminare** | **Cerințe preliminare sincronizare inițială** |
 | --- | --- | --- | --- | --- | --- |
-| **Roluri de resurse ale proiectului pentru toate companiile (bookableresourcecategories)** | Nicio | Da | Common Data Service | Nicio | N\A |
-| **Entități legale (cdm\_companii)** | Nicio | Da | Aplicații Finance and Operations | Nicio | N\A |
-| **Actualități de integrare a Project Operations (msdyn\_actuale)** | Nicio | Nicio | N\A | Da | Nicio |
+| **Roluri de resurse ale proiectului pentru toate companiile (bookableresourcecategories)** | No | Da | Common Data Service | No | N\A |
+| **Entități legale (cdm\_companii)** | No | Da | Aplicații Finance and Operations | No | N\A |
+| **Registru (msdyn_ledgers)** | No | Da | Aplicații Finance and Operations | Da | Da, aplicații Finance and Operations |
+| **Actualități de integrare a Project Operations (msdyn\_actuale)** | No | Nicio | N\A | Da | Nicio |
 | **Linii de contract de proiect (salesorderdetails)** | Nicio | Nicio | N\A | Nicio | Nicio |
 | **Entitate de integrare pentru relațiile de tranzacție ale proiectului (msdyn\_transactionconnections)** | Nicio | Nicio | N\A | Nicio | N\A |
 | **Integrare Project Operations etape linie de contract (msdyn\_contractlinesscheduleofvalues)** | Nicio | Nicio | N\A | Nicio | N\A |

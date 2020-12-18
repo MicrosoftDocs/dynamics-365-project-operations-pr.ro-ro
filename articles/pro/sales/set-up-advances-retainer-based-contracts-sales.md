@@ -1,5 +1,5 @@
 ---
-title: Avansuri și contracte bazate pe garanții - simplificat
+title: Avansuri și contracte bazate pe garanții
 description: Acest subiect furnizează informații despre modele de contractare și avansuri pe bază de onorariu în Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180882"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596117"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Avansuri și contracte bazate pe garanții - simplificat
+# <a name="advances-and-retainer-based-contracts"></a>Avansuri și contracte bazate pe garanții
 
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations acceptă contracte bazate pe onorarii. Un contract bazat pe onorariu este un set negociat de plăți distribuite în mod egal pentru care clientul va fi facturat pe toată durata unui proiect. Acest tip de contract este de obicei utilizat pentru modele de facturare bazate pe timp și materiale sau consum, în cazul în care este nevoie să ofere clientului o factură previzibilă și un program de plată. Veniturile efective acumulate în fiecare perioadă sunt reconciliate cu plata primită de la client la începutul perioadei. În conformitate cu conceptul modelului de facturare Timp și Material, valorile veniturilor acumulate în fiecare perioadă pot varia în funcție de costurile suportate. Dacă veniturile acumulate sunt mai mari decât suma primită la începutul perioadei, compania de livrare a proiectului ar putea:
+Dynamics 365 Project Operations asistă contractele bazate pe onorarii. Un contract bazat pe onorariu este un set negociat de plăți distribuite în mod egal pentru care clientul va fi facturat pe toată durata unui proiect. Acest tip de contract este de obicei utilizat pentru modele de facturare bazate pe timp și materiale sau consum, în cazul în care este nevoie să ofere clientului o factură previzibilă și un program de plată. Veniturile efective acumulate în fiecare perioadă sunt reconciliate cu plata primită de la client la începutul perioadei. În conformitate cu conceptul modelului de facturare Timp și Material, valorile veniturilor acumulate în fiecare perioadă pot varia în funcție de costurile suportate. Dacă veniturile acumulate sunt mai mari decât suma primită la începutul perioadei, compania de livrare a proiectului ar putea:
 
 - Facturați clientul numai pentru excedent 
 - Amânați reconcilierea veniturilor cu următoarea perioadă de facturare și efectuați o ultimă factură la sfârșitul proiectului pentru orice venit rămas neconciliat

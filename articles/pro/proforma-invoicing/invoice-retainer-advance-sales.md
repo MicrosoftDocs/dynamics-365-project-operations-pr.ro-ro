@@ -1,5 +1,5 @@
 ---
-title: Facturarea unui avans sau unei rețineri - simplificat
+title: Facturarea unui avans sau unui onorariu
 description: Acest subiect furnizează informații despre cum să facturați un onorariu sau un avans în Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180567"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596207"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Facturarea unui avans sau unei rețineri - simplificat
+# <a name="invoice-a-retainer-or-an-advance"></a>Facturarea unui avans sau unei garanții
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations acceptă contracte bazate pe garanții și avansuri unice. Într-un contract de proiect, puteți înregistra un o planificare de onorarii sau un avans unic. Cu toate acestea, înregistrarea la nivelul contractului de proiect nu pune imediat la dispoziție un onorariu sau un avans pentru utilizare. Pentru a utiliza o rețină sau un avans pe o factură care facturează efectiv clientul, onorariul sau avansul trebuie să fie facturate mai întâi.
+Dynamics 365 Project Operations acceptă contracte bazate pe onorarii și avansuri unice. Într-un contract de proiect, puteți înregistra un o planificare de onorarii sau un avans unic. Cu toate acestea, înregistrarea la nivelul contractului de proiect nu pune imediat la dispoziție un onorariu sau un avans pentru utilizare. Pentru a utiliza o rețină sau un avans pe o factură care facturează efectiv clientul, onorariul sau avansul trebuie să fie facturate mai întâi.
 
 Parcurgeți pașii următori pentru a factura un onorariu sau un avans.
 

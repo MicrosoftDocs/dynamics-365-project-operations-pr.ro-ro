@@ -1,5 +1,5 @@
 ---
-title: Configurarea unei planificări de garanții - simplificat
+title: Configurați o planificare pentru onorariu
 description: Acest subiect oferă informații despre cum să configurați o planificare de onorariu în Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181287"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596387"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Configurarea unei planificări de garanții - simplificat
+# <a name="set-up-a-retainer-schedule"></a>Configurați o planificare pentru onorariu
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Planificările de onorariu sunt configurate pe pagina **Contract de proiect** în Dynamics 365 Project Operations.
 

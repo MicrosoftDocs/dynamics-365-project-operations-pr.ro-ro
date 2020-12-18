@@ -8,20 +8,22 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401278"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642108"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicați date de configurare și instalare pentru Project Operations - simplificat 
 
 _**Implementare simplificată - facturare de la tranzacție la proforma_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 ## <a name="prerequisites"></a>Cerințe preliminare
 
-Înainte de a începe configurarea, trebuie să aveți un mediu Common Data Service (CDS) asigurat pentru operațiunile din Dynamics 365 Project Operations.
+Înainte să începeți configurarea, trebuie să aveți un mediu Common Data Service (CDS) furnizat pentru Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Instrucțiuni
