@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Aplicarea datelor demonstrative
           items:
-            - name: Aplicarea datelor demonstrative la un mediu Finance găzduit în cloud
-              href: environment/resource-apply-finance-demo-data.md
             - name: Aplicarea datelor de configurare în Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementarea mediilor
@@ -38,15 +36,19 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Noutăți
       items:
+        - name: Februarie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Ianuarie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: Decembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Noiembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proiectarea unui proces de vânzări
       items:
-        - name: Prezentare generală proiectării procesului de vânzări
+        - name: Prezentare generală a proiectării procesului de vânzări
           href: sales/sales-overview.md
-        - name: Configurarea
+        - name: Configurare
           items:
             - name: Produse
               href: sales/sales-products.md
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Avansuri și garanții
               items:
-                - name: Avansuri și contracte bazate pe garanții - simplificat
+                - name: Avansuri și contracte bazate pe garanții
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurarea unei planificări de garanții - simplificat
+                - name: Configurați o planificare pentru garanții
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Crearea unui avans ad-hoc pentru un contract - simplificat
+                - name: Crearea unui avans ad-hoc pentru un contract
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prețuri și costuri
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Planificarea structurii detaliate a proiectului
           items:
+            - name: Crearea unei structuri detaliate a proiectului
+              href: project-management/create-wbs.md
             - name: Crearea de atribuiri
               href: project-management/create-assignments.md
         - name: Estimarea proiectelor
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Menținerea membrilor echipei
               href: project-management/maintain-team-members.md
+        - name: Depanarea lucrului în grila de activități
+          href: project-management/projectplanningUIFAQ.md
         - name: Colaborare
           items:
             - name: Colaborarea cu Grupuri Office
@@ -262,9 +268,11 @@
               href: resource-management/book-project.md
             - name: Revizuirea resurselor propuse
               href: resource-management/review-proposed-resources.md
+            - name: Editarea rezervărilor
+              href: resource-management/edit-existing-bookings.md
         - name: Rezervarea descentralizată a resurselor (hibrid)
           items:
-            - name: Adăugarea membrilor echipei din grila de membri Echipă
+            - name: Adăugarea membrilor echipei din grila Membri echipă
               href: resource-management/add-team-members-grid.md
             - name: Îndeplinirea cerințelor de resurse generice
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Configurarea categoriilor de cheltuieli
                   href: expense/set-up-expense-categories.md
+            - name: Lucrul cu cheltuieli personale pe un raport de cheltuieli
+              href: expense/personal-expenses-expense-report.md
             - name: Crearea rapoartelor de cheltuieli
               items:
                 - name: Distribuții pe un raport de cheltuieli
@@ -370,22 +380,28 @@
           items:
             - name: Crearea și confirmarea jurnalelor de corecție
               href: actuals/create-confirm-correction-journals.md
-    - name: Facturare proforma
+    - name: Facturare
       items:
-        - name: Gestionarea jurnalului de așteptare pentru facturarea proiectului
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Gestionarea stării și validărilor care nu trebuie depășite
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Crearea unei facturi proforma manuale de proiect
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Gestionarea unei facturi proforma pentru proiect
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Facturarea unui avans sau a unei garanții
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Confirmarea unei facturi proforma pentru proiect
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Configurarea automatizării facturii de proiect
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Prezentare generală a procesului de facturare
+          href: invoicing/post-project-invoices.md
+        - name: Gestionarea propunerilor de facturi pentru proiect
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturare proforma
+          items:
+            - name: Gestionarea jurnalului de așteptare pentru facturarea proiectului
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Gestionarea stării și validărilor care nu trebuie depășite
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Crearea unei facturi proforma manuale de proiect
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Gestionarea unei facturi proforma pentru proiect
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Facturarea unui avans sau a unei garanții
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Confirmarea unei facturi proforma pentru proiect
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Configurarea automatizării facturii de proiect
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Contabilitatea proiectului
       items:
         - name: Valori implicite pentru dimensiunile financiare
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Configurarea facturării între companii
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Crearea de facturi de client și furnizor între companii
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Crearea de tranzacții între companii
               href: project-accounting/create-intercompany-transactions.md
+            - name: Crearea de facturi de client și furnizor între companii
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Recunoașterea veniturilor
       items:
         - name: Prezentare generală a recunoașterii veniturilor
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: Configurarea șabloanelor de cost
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Gestionarea estimărilor de venituri
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Proiecte cu estimarea veniturilor cu preț fix
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Metode pentru costul de finalizare
           href: revenue-recognition/cost-complete-methods.md
+        - name: Gestionarea estimărilor de venituri
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Implementare simplificată - facturare de la ofertă și până la proforma
   items:
     - name: Introducere
@@ -440,15 +456,19 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
-        - name: Noutăți în decembrie 2020 - Implementare simplificată - facturare de la ofertă și până la proforma
+        - name: Noutăți februarie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Noutăți ianuarie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Noutăți decembrie 2020 - implementare simplificată
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Noutăți în noiembrie 2020 - Implementare simplificată - facturare de la ofertă și până la proforma
+        - name: Noutăți noiembrie 2020 - implementare simplificată
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proiectarea unui proces de vânzări
       items:
-        - name: Prezentare generală proiectării procesului de vânzări
+        - name: Prezentare generală a proiectării procesului de vânzări
           href: sales/sales-overview.md
-        - name: Configurarea
+        - name: Configurare
           items:
             - name: Produse
               href: sales/sales-products.md
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Planificarea structurii detaliate a proiectului
           items:
+            - name: Crearea unei structuri detaliate a proiectului
+              href: project-management/create-wbs.md
             - name: Crearea de atribuiri
               href: project-management/create-assignments.md
         - name: Estimarea proiectelor
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Menținerea membrilor echipei
               href: project-management/maintain-team-members.md
+        - name: Depanarea lucrului în grila de activități
+          href: project-management/projectplanningUIFAQ.md
         - name: Colaborare
           items:
             - name: Colaborarea cu Grupuri Office
               href: project-management/collaboration-groups.md
+        - name: Note pentru dezvoltatori
+          items:
+            - name: Elaborarea șabloanelor de proiect cu Copiere proiect
+              href: project-management/dev-copy-project.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -684,9 +712,11 @@
               href: resource-management/book-project.md
             - name: Revizuirea resurselor propuse
               href: resource-management/review-proposed-resources.md
+            - name: Editarea rezervărilor
+              href: resource-management/edit-existing-bookings.md
         - name: Rezervarea descentralizată a resurselor (hibrid)
           items:
-            - name: Adăugarea membrilor echipei din grila de membri Echipă
+            - name: Adăugarea membrilor echipei din grila Membri echipă
               href: resource-management/add-team-members-grid.md
             - name: Îndeplinirea cerințelor de resurse generice
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -772,6 +802,10 @@
   items:
     - name: Noutăți
       items:
+        - name: Noutăți ianuarie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Noutăți decembrie 2020 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Noutăți noiembrie 2020 - Project Operations pentru scenarii bazate pe stocuri/producție
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Prezentare generală a implementării Project Operations pentru scenarii bazate pe stoc/producție
@@ -906,6 +940,14 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 28.5 remediere rapidă, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 27.5 remediere rapidă, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: Ce este nou sau schimbat în Project Service Automation V3.x etapa 1 2021
+          href: psa/whats-new-2021-wave1.md
         - name: Ce este nou sau schimbat în Project Service Automation V3.x etapa 1 2020
           href: psa/whats-new-v3-2020-wave1.md
         - name: Ce este nou sau modificat în Project Service Automation V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Setări proiect
               href: psa/project-settings.md
+            - name: Planificarea lucrului în Microsoft Project cu programul de completare Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: Dimensiuni de preț și cost
           items:
             - name: Pagină principală cu dimensiunile de preț și cost
