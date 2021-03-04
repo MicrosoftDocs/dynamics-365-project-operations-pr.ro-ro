@@ -74,3 +74,6 @@ Etapele prețurilor fixe pot fi generate manual atunci când nu sunt împărțit
 | Taxe | Creare rapidă | Suma impozitului aplicată la reper. | Acesta este inclus în etapa de referință a liniei contractului de proiect și pe factură. |
 
 4. Selectați **Salvare și închidere**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

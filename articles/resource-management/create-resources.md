@@ -20,3 +20,6 @@ ms.locfileid: "4514572"
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Puteți utiliza Dynamics 365 Field Service pentru a crea resurse care pot fi rezervate pe care să le utilizați în mediul Dynamics 365 Project Operations. Pentru a crea aceste resurse, consultați [Configurați resurse care pot fi rezervate](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

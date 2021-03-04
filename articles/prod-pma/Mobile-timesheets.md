@@ -62,3 +62,6 @@ Android va fi compatibil cu actualizarea platformei 16, când va deveni disponib
 13. Opțional: introduceți linii suplimentare de foaie de pontaj.
 
 14. După ce ați terminat de introdus liniile foii de pontaj, selectați **Flux de lucru**\> acțiunea **Trimiteți** pentru a vă trimite foaia de pontaj procesului de aprobare a fluxului de lucru.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

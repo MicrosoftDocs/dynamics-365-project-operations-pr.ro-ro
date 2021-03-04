@@ -91,3 +91,6 @@ Parcurgeți pașii următori pentru a rezerva dintr-o nouă cerință de resurse
 
 4. Acum, că resursa este rezervată, trebuie să atribuiți activități manual.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

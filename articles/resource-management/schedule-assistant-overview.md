@@ -57,3 +57,6 @@ Panoul de filtrare prezintă opțiuni legate de muncă, inclusiv:
 -   Firmă de resurse
 -   Tipuri de resursă
 -   Resurse preferate
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

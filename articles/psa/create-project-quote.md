@@ -55,3 +55,6 @@ Crearea unei oferte este similară cu crearea unei oportunități. Deși o oport
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de cont](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

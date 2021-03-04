@@ -44,3 +44,6 @@ Pentru informații suplimentare, consultați [Intrare cheltuială (simplificată
 
 ## <a name="determine-your-expense-deployment"></a>Determinarea Implementării de cheltuială
 Pentru a determina dacă executați implementarea de gestionare a cheltuielilor de bază, verificați dacă adresa URL se termină cu **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

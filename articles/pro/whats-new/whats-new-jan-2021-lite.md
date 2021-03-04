@@ -41,3 +41,6 @@ Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Proj
 | **Managementul oportunităților** | 2040713 | S-a remediat eroarea de script care apare la crearea unei facturi dintr-un contract și Field Service este instalat. |
 | **Planificarea și urmărirea proiectului** | 2090202 | Reguli comerciale marcate care nu mai sunt folosite ca **Depreciate**. |
 | **Timp și cheltuială** | 2091249 | Controale mai stricte pentru ca utilizatorii să poată modifica sarcina la o intrare de timp aprobată sau trimisă. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

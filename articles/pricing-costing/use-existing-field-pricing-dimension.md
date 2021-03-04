@@ -31,3 +31,6 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 Entitatea **Date reale** are multe câmpuri care pot fi utilizate ca dimensiuni de preț pentru prețurile bazate pe resurse. De exemplu, un câmp comun este **Resursă care se poate rezerva**. Companiile mai mici, care au mai puțin de 20-30 de resurse facturabile pot descoperi că este o abordare mai simplă să aibă rate de facturare și de cost specifice pentru fiecare resursă. Cu toate acestea, pe măsură ce forța de muncă facturabilă crește, ratele specifice resurselor ar putea deveni nerealiste de menținut. Costul resurselor și ratele facturilor încep să varieze pe măsură ce resursele sunt promovate, dobândesc mai multă experiență sau dobândesc un set diferit de abilități. 
 
 Un alt exemplu este acela al categoriei de tranzacții. Clienții și Implementatorii au utilizat categoria de tranzacții pentru a clasifica munca și pentru a folosi câmpul pentru preț și cost pe baza categoriei de lucru.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

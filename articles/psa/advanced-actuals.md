@@ -34,3 +34,6 @@ ms.locfileid: "5145733"
 Toate tranzacțiile financiare care au loc în timpul unui proiect sunt înregistrate. Aceste tranzacții sunt înregistrate ca **valori reale**. Tabelul următor arată diferitele tipuri de valori reale care sunt create, în funcție de faptul dacă proiectul este un proiect pe bază de timp și materiale, un proiect cu preț fix sau un proiect intern sau dacă este în etapa de prevânzare.
 
 > ![Tabel care arată cum sunt înregistrate valorile reale](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

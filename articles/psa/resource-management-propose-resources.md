@@ -113,3 +113,6 @@ Deoarece Dynamics 365 Project Service Automation utilizează motorul Universal R
 Pentru a vizualiza mai multe detalii despre o resursă individuală, faceți clic cu butonul din dreapta pe acesta pentru a deschide fișa resursei.
 
 ![Cardul de resurse](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

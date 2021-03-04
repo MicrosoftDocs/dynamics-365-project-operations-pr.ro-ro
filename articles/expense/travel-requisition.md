@@ -56,3 +56,6 @@ Selectați cerința de călătorie pe care doriți să o aprobați, apoi selecta
 
 > [!NOTE]
 > Când mapați un raport de cheltuieli la o cerere de călătorie aprobată, suma tranzacției nu poate fi mai mare decât suma autorizată. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

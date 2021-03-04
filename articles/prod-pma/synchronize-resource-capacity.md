@@ -49,3 +49,6 @@ Vă recomandăm să utilizați un lot. Opțiunile sunt disponibile în timpul si
     | Dată de sfârșit    | Introduceți data de încheiere pentru procesul de sincronizare pentru cumulările de capacitate a resurselor. |
 
 [![Proces de sincronizare](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

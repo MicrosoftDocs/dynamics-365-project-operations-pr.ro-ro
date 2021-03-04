@@ -48,3 +48,6 @@ Aptitudinile pentru resurse sunt apreciate în funcție de modelele de competen�
 > ![Evaluările minime și maxime definite](media/Resource-Management-image85.png)
 
 Aceste valori de evaluare sunt afișate în filtrele **Cerințele de resurse**, **Tablou planificare** și **Asistent planificare**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

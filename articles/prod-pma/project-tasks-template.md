@@ -83,3 +83,6 @@ Dacă trebuie să utilizați Power Query, urmați acest ghid:
 Următoarea ilustrație prezintă un exemplu de mapare a sarcinilor șablon în Integrarea datelor. Maparea arată informațiile despre câmp care vor fi sincronizate de la Project Service Automation la Finance.
 
 [![Maparea șabloanelor](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

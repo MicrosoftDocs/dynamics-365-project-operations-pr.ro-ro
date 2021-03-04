@@ -35,3 +35,6 @@ Un lucrător care este angajat de o entitate juridică într-o organizație ar p
 
 Înainte de a putea utiliza grupuri de impozite care sunt asociate cu persoana juridică care împrumută (sursă) în locul entității juridice împrumutate (de destinație) în raportul dvs. de cheltuieli, trebuie să activați funcționalitatea în secțiunea de configurare a impozitului pe vânzări din registrul general. Cand **Persoană juridică pentru înregistrarea impozitelor inter-companii** parametrul este setat la **Sursă** și **Aplicați regulile de impozitare a impozitului pe vânzări** este setat pe **Nu**, se utilizează o combinația de impozite pentru persoana juridică care împrumută. Când același parametru este setat la **Destinaţie**, va fi utilizată combinația fiscală pentru împrumutarea entității juridice. Pentru persoanele juridice din Statele Unite, când parametrul este setat la **Sursă**, câmpul **Impozit pe vânzări de primit** trebuie configurat și pe noua pagină **Grupuri de înregistrare a registrului**. Motorul contabil va utiliza informațiile din acest câmp pentru înregistrarea contabilă referitoare la impozite.   
 Comportamentul este consecvent pentru liniile de cheltuieli postate cu sau fără un proiect.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

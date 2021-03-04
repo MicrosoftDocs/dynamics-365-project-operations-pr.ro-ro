@@ -59,3 +59,6 @@ Introduceți cheltuielile cel puțin săptămânal - sau la frecvența solicitat
   
 ### <a name="see-also"></a>Consultați și  
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

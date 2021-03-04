@@ -38,3 +38,6 @@ Vânzări reale facturate care au o stare de **A nu depăși** de **Eșuat** nu 
 În cazul liniilor contractuale cu mai mulți clienți care au o metodă de facturare a timpului și a materialelor, atunci când timpul și cheltuielile sunt aprobate, se creează o vânzare reală nefacturată pentru fiecare client pe linia contractului în funcție de procentul de facturare împărțit definit pentru fiecare client pe linie contractuală. În vizualizarea **Restanțe de facturare de timp și materiale**, veți vedea aceste rezultate individuale de vânzări nefacturate specifice clienților. Fiecare dintre aceste înregistrări de vânzări nefacturate poate fi marcată ca **Gata de facturare** separat de această vizualizare.
 
 Date reale de vânzări negacturate pe o schiță de factură este afișată în această vizualizare cu o **Stare de facturare** de **Factura clientului a fost creată**. Când se confirmă schița de factură, starea de facturare din această înregistrare este actualizată la **Factura clientului a fost postată**. Actualizarea acestei valori de stare când se află în această stare prin utilizarea codului personalizat nu este recomandată. Project Operations nu vor funcționa corect când aceste valori de stare sunt actualizate cu cod personalizat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

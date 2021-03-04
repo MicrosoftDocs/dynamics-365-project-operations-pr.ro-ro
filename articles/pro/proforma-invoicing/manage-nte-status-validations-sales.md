@@ -73,3 +73,6 @@ Puteți efectua o reevaluare masivă a stării care nu trebuie depășită. Reev
 Pentru a reevalua starea care nu trebuie depășită, selectați una sau mai multe date reale din vizualizarea **Restanțe de facturare de timp și materiale** sau **Reale**, apoi selectați **Resetați starea de nedepășire**.
 
 Toate datele relevante selectate cu o limită de depășit vor fi evaluate în raport cu setarea limită de depășire. Informațiile care sunt relevante pentru reevaluarea stării care nu trebuie depășite sunt facturi de vânzare nefacturate care nu sunt deja facturate, nu sunt incluse într-o schiță de factură și sunt marcate drept facturabile. Orice alte elemente selectate selectate.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ După ce un raport de cheltuieli a fost aprobat și transferat în jurnalul gene
 Pentru a publicare un raport de cheltuieli, pe pagina **Rapoarte de cheltuieli aprobate**, selectați raportul de cheltuieli, apoi, în panoul de acțiuni, selectați **Publicare**.
 
 De asemenea, puteți publica toate rapoartele de cheltuieli în listă în același timp. Selectați toate rapoartele de cheltuieli, apoi selectați **Publicare**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

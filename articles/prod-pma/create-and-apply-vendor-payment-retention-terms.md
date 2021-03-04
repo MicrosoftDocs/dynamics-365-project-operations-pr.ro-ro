@@ -65,3 +65,6 @@ După ce creați termeni de retenție a furnizorului pentru un furnizor, puteți
 6. Dacă proiectul are, de asemenea, condiții cu plată la plată (PWP) stabilite pentru furnizor, introduceți procentul de prag pentru proiect în câmpul **Procentul de prag PWP**.
 
 Condițiile de retenție a furnizorului sunt, de asemenea, afișate pe comenzile de cumpărare pe care le creați pentru furnizor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Proprietățile **Nr. de utilizatori** și **Nr. de luni** pot fi marcate ca fac
 
 > ![Semnalizarea Nr. de utilizatori și Nr. de luni ca factori de calitate](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

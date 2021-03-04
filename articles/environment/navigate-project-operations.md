@@ -38,3 +38,6 @@ Selectați **Conectare** > **Conectați-vă la mediu** pentru a naviga la modulu
 
 > [!NOTE]
 > Puteți accesa Project Operations în Common Data Service și modulul **Management de proiect și contabilitate** direct utilizând adresele URL respective. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

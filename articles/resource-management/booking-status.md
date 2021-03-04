@@ -20,3 +20,6 @@ ms.locfileid: "4514573"
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Puteți utiliza funcționalitatea furnizată în Universal Resource Scheduling pentru Dynamics 365 Field Service pentru a configura stările de rezervare pentru organizația dvs. Pentru informații despre cum să finalizați această setare, consultați [Configurați stările rezervării](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

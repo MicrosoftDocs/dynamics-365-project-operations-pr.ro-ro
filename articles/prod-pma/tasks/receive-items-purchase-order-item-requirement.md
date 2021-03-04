@@ -56,3 +56,6 @@ Această sarcină utilizează setul de date USSI.
 21. În câmpul **Chitanță de produs** , tastați o valoare.
 22. Selectați **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

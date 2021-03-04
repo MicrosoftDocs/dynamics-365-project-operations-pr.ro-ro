@@ -144,3 +144,6 @@ Utilizați validările de insert pentru orice validări care necesită mai mult 
 
 ### <a name="copying-time-entries"></a>Copiere intrări de timp
 Utilizați vizualizarea **Copiere coloane intrări de timp** pentru a defini lista câmpurilor de copiat în timpul introducerii timpului. **Data** și **Durata** sunt câmpuri obligatorii și nu trebuie eliminate din vizualizare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

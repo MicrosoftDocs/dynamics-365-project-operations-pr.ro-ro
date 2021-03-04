@@ -89,3 +89,6 @@ Ofertele Project Operations sunt construite pe ofertele Dynamics 365 Sales. Cu t
 - Ofertele Project Operations au propriile lor elemente de formă și de interfață, reguli de afaceri, logică de afaceri în inserturi și scripturi de partea clientului care le fac unice din ofertele de vânzări.
 
 Din aceste motive, nu este recomandat să utilizați în mod interschimbabil o ofertă de vânzări și o ofertă de Project Operations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

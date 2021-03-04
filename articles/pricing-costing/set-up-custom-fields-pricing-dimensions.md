@@ -96,3 +96,6 @@ Setarea priorității de dimensiune ajută tarifarea să producă un preț chiar
 
 - **Prioritate cost**: Valoarea priorității costului unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de cost. Valoarea de **Prioritate cost** trebuie să fie unică între dimensiunile care sunt **Aplicabile costului**.
 - **Prioritate vânzări**: Valoarea priorității vânzărilor unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de vânzare sau a ratelor de facturare. Valoarea de **Prioritate vânzări** trebuie să fie unică între dimensiunile care sunt **Aplicabile vânzărilor**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

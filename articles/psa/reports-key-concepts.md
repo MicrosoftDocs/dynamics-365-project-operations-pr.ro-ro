@@ -48,3 +48,6 @@ Următorul tabel definește conceptele cheie care sunt utilizate în aplicația 
 | Contur                    | Activitate, cerință sau ore de atribuire conform defalcării într-o distribuție zilnică. De exemplu, o activitate de cinci zile, 40 de ore poate fi conturată în opt ore pe zi, timp de cinci zile. |
 | Vizualizare reconciliere        | O vizualizare care afișează rezervările și atribuirile pentru fiecare membru al echipei de proiect. Această vizualizare îi permite managerului de proiect să caute orice nepotrivire între rezervări și atribuiri și să ia măsuri corective dacă are loc o nepotrivire. |
 | Ore de lucru                 | O entitate care este utilizată pentru a identifica capacitatea de resurse și orele de lucru și non-lucru. Această entitate este denumită și calendarul resursei. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Dacă utilizați o versiune mai veche, pentru a vedea disponibilitatea resurselo
   
 ### <a name="additional-resources"></a>Resurse suplimentare  
  [Ghidul managerului de resurse](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

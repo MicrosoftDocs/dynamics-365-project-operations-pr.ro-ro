@@ -36,3 +36,6 @@ Pentru a utiliza expertul, urmați acești pași.
 1. Accesați **Gestionarea proiectului și contabilitate** > **Oferte** > **Oferte de proiect**.
 2. Selectați oferta pe care doriți să o transferați și pe fila **Urmărire** , în grupul **Modificare** , selectați **Transfer la proiect**.
 3. Urmați expertul **Transferați oferta la proiect** pentru a asocia și transfera oferta cu un proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

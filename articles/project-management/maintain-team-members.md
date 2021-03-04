@@ -42,3 +42,6 @@ Când faceți o alegere, resursa este adăugată la echipa de proiect și atribu
 Aveți posibilitatea să utilizați capacitatea Extindere rezervare a filei **Reconciliere** sau **Tablou de planificare** pentru a rezerva capacitatea resursei la proiect.
 
 După ce un membru al echipei este rezervat în cadrul proiectului dvs., aveți posibilitatea să utilizați **Mențineți rezervările** sau direct **Tablou de planificare** pentru a gestiona rezervările acestuia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

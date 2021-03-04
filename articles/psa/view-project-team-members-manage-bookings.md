@@ -57,3 +57,6 @@ Puteți vizualiza o listă cu membrii echipei proiectului dumneavoastră și, de
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

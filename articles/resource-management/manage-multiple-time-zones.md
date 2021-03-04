@@ -68,3 +68,6 @@ După ce funcționalitatea de rezervare extinsă a fost utilizată pentru fiecar
 Observați că o privire mai atentă asupra detaliilor rezervărilor arată diferențe în momentul începerii rezervărilor. Rezervările încep nu mai devreme de ora de începere a conturului de atribuire și nici mai devreme de ora de începere disponibilă a resursei.
 
 ![Rezervări noi ale resurselor din tabloul de bord](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

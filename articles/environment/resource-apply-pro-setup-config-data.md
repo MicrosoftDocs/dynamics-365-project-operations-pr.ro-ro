@@ -134,3 +134,6 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 13. Selectați **Salvare**. 
 
 ![Parametri de proiect actualizați](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

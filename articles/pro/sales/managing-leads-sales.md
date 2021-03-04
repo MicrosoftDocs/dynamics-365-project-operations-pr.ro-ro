@@ -72,3 +72,6 @@ Procesul de afaceri client la oportunitate susține următoarele etape:
 | Dezvoltare | Oportunitate | Dezvoltați oportunitatea de a adăuga mai multe informații despre activitatea implicată, părțile interesate cheie și concurența. |
 | Propunere | Oportunitate | Elaborați propunerea și obțineți aprobarea de la echipa de revizuire internă. |
 | Închideți | Oportunitate | Câștigați oportunitatea pentru a închide tranzacția. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

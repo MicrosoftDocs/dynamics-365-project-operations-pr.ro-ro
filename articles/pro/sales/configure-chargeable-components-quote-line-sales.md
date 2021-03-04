@@ -77,3 +77,6 @@ O estimare sau una reală creată pentru cheltuială va fi considerată taxabil�
 | Nicio | Da | Întregul proiect | Nu se poate seta | Netaxabil | Nu se poate seta | Facturare la un timp real: Nu este disponibil </br>Tipul de facturare pentru cheltuieli reale: Netaxabil |
 | Da | Nicio | Întregul proiect | Taxabil | Nu se poate seta | Nu se poate seta | Facturare la un timp real: Taxabil</br>Tipul de facturare pentru cheltuieli reale: Indisponibil |
 | Da | Nicio | Întregul proiect | Netaxabil | Nu se poate seta | Nu se poate seta | Facturare la un timp real: Netaxabil </br>Tipul de facturare pentru cheltuieli reale: Indisponibil |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

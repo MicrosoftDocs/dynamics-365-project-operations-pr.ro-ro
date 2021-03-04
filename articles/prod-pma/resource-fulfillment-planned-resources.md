@@ -40,3 +40,6 @@ Un manager de proiect poate planifica rolurile de resurse necesare pentru un pro
 7. Selectați un angajat, apoi selectați **Atribuire**.
 8. Verificați dacă linia pentru **Dezvoltator de software 1** a fost eliminată pentru proiectul **Proiect Faza 2 de upgrade XYZ**.
 9. Din fila **Echipa proiectului și planificare** , pentru proiectul **Faza 2 de upgrade XYZ** , verificați dacă angajatul pe care l-ați selectat în pasul anterior a fost adăugat ca **Dezvoltator de software**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

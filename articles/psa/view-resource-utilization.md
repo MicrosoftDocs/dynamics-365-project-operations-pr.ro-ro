@@ -43,3 +43,6 @@ Puteți verifica utilizarea resurselor, pentru a determina nivelurile de utiliza
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de resurse](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

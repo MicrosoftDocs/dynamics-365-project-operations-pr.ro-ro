@@ -89,3 +89,6 @@ Urmați pașii următori pentru a corecta una sau mai multe intrări de cheltuie
 8. În pagina proiectului, pe fila **Date reale**, treceți în revistă **Vizualizare asociată valori reale**. Sunt enumerate intrările originale și intrările corectate. Următorul grafic arată sumele de intrare pentru cheltuieli originale și sumele corespunzătoare de intrare ale cheltuielilor corectate. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

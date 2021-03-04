@@ -36,3 +36,6 @@ Când confirmați o factură rectificativă, valoarea reală a vânzărilor ini�
 
 - O valoare reală de vânzări facturate timp de șase ore.
 - O valoare reală de vânzări nefacturate pentru restul de două ore. Această tranzacție poate fi facturată ulterior sau poate fi marcată ca netaxabilă, în funcție de negocierile cu clientul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Categoriile de buget sunt utilizate pentru a calcula automat sumele de facturi p
 8. Opțional: atribuiți regula de facturare proiectelor suplimentare. Pe FastTab **Proiect** , în secțiunea **Proiecte disponibile** , selectați un proiect, apoi selectați butonul săgeată dreapta pentru a adăuga proiectul la secțiunea **Proiecte selectate**.
 9. Opțional: calculați suma procentuală pe care clientul o reține din plăți pe o factură. Pe FastTab **Condiții de plată a retenției** , selectați sursa de finanțare și apoi, în câmpul **Procentul de retenție** , introduceți procentul de retenție.
 10. Repetați acești pași pentru a crea reguli de facturare suplimentare pentru contractul de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

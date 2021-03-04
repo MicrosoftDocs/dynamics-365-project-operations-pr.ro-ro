@@ -23,3 +23,6 @@ Dynamics 365 Project Operations includ o logică de validare care asigură tranz
 
   - Toate rândurile de susținere sunt create în tabele corelate, cum ar fi jurnalele și actualitățile.
   - Aprobatorul este marcat ca **Aprobator de proiect** în proiect înainte de a continua.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

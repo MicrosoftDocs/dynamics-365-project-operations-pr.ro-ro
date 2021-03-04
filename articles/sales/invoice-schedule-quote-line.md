@@ -68,3 +68,6 @@ Deschideți linia de ofertă de preț fix unde trebuie să creați o dată scade
 | Stare factură | Creare rapidă | Când se creează o etapă de referință, această stare este întotdeauna setată la **Nu este pregătit pentru facturare**. | Acest lucru este propagat la datei scadente a liniei contractului de proiect și la factură. |
 | Valoare linie | Creare rapidă | Suma sau valoarea jalonului care va fi facturat clientului. | Acest lucru este propagat la datei scadente a liniei contractului de proiect și la factură. |
 | Taxe | Creare rapidă | Suma impozitului care va fi aplicată jalonului. | Acest lucru este propagat la datei scadente a liniei contractului de proiect și la factură. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

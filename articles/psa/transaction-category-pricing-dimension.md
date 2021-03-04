@@ -53,3 +53,6 @@ Următorul tabel este o listă cuprinzătoare a formularelor și vizualizărilor
 2. Pa pagina **Parametri**, pe fila **Dimensiuni prețuri bazate pe sumă**, observați că grila de pe filă afișează înregistrările din entitatea **Dimensiuni preț**.
 3. Adăugați **Categorie de tranzacții** la această listă și setați câmpurile **Aplicabil la cost** și **Aplicabil la vânzare** la **Da**.
 4. În câmpul **Tip dimensiune** selectați **Bazat pe sumă**, apoi selectați prioritatea pentru **Categoria de tranzacții** referitoare la cost și vânzări.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

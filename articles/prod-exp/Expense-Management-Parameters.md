@@ -89,3 +89,6 @@ Parametrii de control ai comportamentului general în gestionarea cheltuielilor.
 | <strong>Mesaj anticorupție pentru expeditor</strong> |                                                                                             Introduceți textul care va fi afișat angajatului la crearea unui nou raport de cheltuieli. Pentru a introduce text specific limbii care va fi afișat, pe baza limbii utilizatorului, faceți clic pe butonul <strong>Traduceri</strong>.                                                                                             |
 | <strong>Mesaj anticorupție pentru aprobator</strong>  |                                                                                             Introduceți textul care va fi afișat aprobatorului la crearea unui nou raport de cheltuieli. Pentru a introduce text specific limbii care va fi afișat, pe baza limbii utilizatorului, faceți clic pe butonul <strong>Traduceri</strong>.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

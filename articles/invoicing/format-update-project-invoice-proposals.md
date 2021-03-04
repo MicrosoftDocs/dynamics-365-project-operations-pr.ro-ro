@@ -143,3 +143,6 @@ Pentru a vizualiza factura înainte de înregistrare, debifați caseta de bifare
 Pe lângă pagina **Propunere de factură**, propunerile de facturare pot fi înregistrate și prin executarea operațiunii periodice, **Înregistrați propuneri de facturare**. Pentru a găsi această operațiune, accesați **Management de proiect și contabilitate** > **Periodic** > **Facturi de proiect** > **Înregistrați propuneri de facturare**.
 
 Această pagină afișează toate propunerile de facturare care sunt gata de înregistrare. Puteți programa înregistrarea propunerilor de facturare selectând **În serie**. Setați **Parametru de procesare în serie** pe **Da** și setați recurența procesării în serie selectând **Recurență**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

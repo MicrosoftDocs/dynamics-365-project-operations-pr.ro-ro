@@ -69,3 +69,6 @@ Când copiați pe linii de estimare proiect, listele de prețuri sunt actualizat
 ### <a name="copying-a-project-team"></a>Copierea unei echipe de proiect
 
 Când o echipă de proiect este copiată dintr-un șablon într-un proiect, resursele generice sunt copiate, împreună cu abilitățile și nivelurile de competență definite în șablon. Atribuirile de resurse generice sunt păstrate cum erau în șablonul de proiect. Resursele denumite nu sunt acceptate în șabloanele de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

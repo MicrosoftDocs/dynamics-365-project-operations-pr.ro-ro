@@ -35,3 +35,6 @@ Fazele proiectului pot servi drept ghid pentru ciclul de viață al proiectului.
 4. În listă, selectați faza predefinită sau definită de utilizator pe care doriți să o modificați. 
 5. În câmpul Fază proiect, introduceți numele nou.
 6. Faceţi clic pe Salvare.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

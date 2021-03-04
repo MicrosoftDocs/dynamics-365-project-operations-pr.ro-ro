@@ -32,3 +32,6 @@ Pentru rapoartele de cheltuieli, puteți trece de la o tranzacție la raportul o
 Pentru a detalia până la raportul original de cheltuieli în care a apărut o tranzacție, selectați tranzacția, apoi selectați **Document original**.
 
 Când vizualizați tranzacții individuale, puteți vizualiza orice date suplimentare atașate unei tranzacții. De exemplu, pentru o cheltuială de hotel detaliată, puteți vizualiza o listă detaliată a cheltuielilor, cum ar fi accesul la internet, apelurile telefonice și serviciul de cameră.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

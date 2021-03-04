@@ -96,3 +96,6 @@ Pentru a asigura o actualizare de succes, următoarele relații trebuie să fie 
 
 - Toate dependențele de activitate de proiect trebuie să fie corelate cu același proiect.
 - O activitate nu poate avea aceeași dependență la care se face referire de mai multe ori.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

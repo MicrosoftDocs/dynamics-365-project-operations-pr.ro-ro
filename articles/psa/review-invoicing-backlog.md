@@ -59,3 +59,6 @@ Fiecare linie de contract de proiect care are o metodă de facturare cu preț fi
 Pentru a revizui etapele de facturare, accesați **Vânzări** \> **Facturare** \> **Repere preț fix**. Selectați toate reperele care sunt pregătite pentru a fi facturate, apoi selectați **Gata de facturare**. Starea de facturare a acestor repere este modificată la **Gata de facturare**.
 
 ![Repere cu preț fix](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

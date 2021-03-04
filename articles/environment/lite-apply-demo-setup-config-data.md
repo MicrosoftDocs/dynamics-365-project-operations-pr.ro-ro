@@ -74,3 +74,6 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
     -   Caracteristică a resursei ce se poate rezerva
 
     ![Finalizați importul](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

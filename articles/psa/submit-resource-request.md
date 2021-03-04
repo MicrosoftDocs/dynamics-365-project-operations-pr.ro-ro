@@ -41,3 +41,6 @@ Aveți posibilitatea să trimiteți o cerință de resursă generată ca o solic
 Statutul de cerere al membrului generic de echipă se va schimba la **Remis**.
 
 După ce solicitarea este îndeplinită de managerul de resurse, resursa generică va fi înlocuită de o resursă numită dacă managerul de resurse îndeplinește solicitarea cu rezervarea unei resurse numite. În caz contrar, resursa generică va rămâne în echipă și starea solicitării se va modifica la **Necesită revizuire**, dacă managerul de resurse a propus o resursă numită.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

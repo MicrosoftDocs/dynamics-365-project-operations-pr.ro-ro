@@ -55,3 +55,6 @@ Atunci când această metodă de stabilire a prețurilor este selectată pe o li
 
 ### <a name="markup-over-cost"></a>Adaos peste cost
 Atunci când această metodă de stabilire a prețurilor este selectată pe o linie de preț a categoriei care este legată de o listă de prețuri de vânzare, prețurile implicite pentru combinația de categorii și unități, numai pentru o dată reală de cheltuială. De exemplu, cifrele reale de vânzare facturate pentru clasa tranzacției de cheltuieli. Acest preț unitar este stabilit pe vânzările nefacturate efective la o valoare calculată din prețul unitar pe costul efectiv pentru acea cheltuială după aplicarea procentului de majorare definit. Prețul implicit pe baza costului nu se face în estimările proiectului pentru cheltuieli sau pe linia de ofertă și detaliile liniei contractului pentru cheltuieli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

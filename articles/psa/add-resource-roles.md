@@ -47,3 +47,6 @@ Stabilți rate de utilizare țintă pentru fiecare rol. Aceste setări determin�
   
 ### <a name="see-also"></a>Consultați și  
  [Configurați resursele](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

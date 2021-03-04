@@ -63,3 +63,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
 **Sales**
 
 - Remediat: când intrările de timp sunt reaprobate (**Aprobare > Anulare >** aprobați din nou), este creat un duplicat real netarifabil.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

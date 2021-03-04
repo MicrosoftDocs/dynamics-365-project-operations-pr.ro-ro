@@ -96,3 +96,6 @@ Urmați acești pași pentru a crea o versiune particularizată a formularului *
     ```
 
 6. Salvați și apoi publicați particularizările.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

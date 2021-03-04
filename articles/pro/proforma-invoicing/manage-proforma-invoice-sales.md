@@ -144,3 +144,6 @@ Dacă aveți informații care au venit după crearea facturii, puteți include a
 În Project Operations, puteți crea linii de facturare pentru produsele care nu se aplică niciunui proiect sau pentru toate proiectele, împreună cu linii de facturare bazate pe proiect. Aceste linii de facturare sunt create ca linii de contract pe bază de produs și după ce sunt marcate ca fiind gata de facturare, sunt adăugate ca linii de facturare pe bază de produs.
 
 După ce ați adăugat linii de facturare bazate pe produse, acestea nu pot fi modificate. Cu toate acestea, acestea pot fi șterse din schița de factură proforma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Acest ghid vă oferă informațiile de care aveți nevoie pentru a crea și a ge
  [Ghidul Managerului de resurse](../psa/resource-manager-guide.md)   
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

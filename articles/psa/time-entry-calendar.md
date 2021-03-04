@@ -42,3 +42,6 @@ Calendarul nu acceptă acțiuni pe elemente de calendar individuale și nu pute�
 ## <a name="extensibility"></a>Extensibilitate
 
 În pagina **Intrări de timp** care are grila de introducere timp, aveți posibilitatea să adăugați câmpuri particularizate, să parametrizați câmpuri de căutare și să creați vizualizări particularizate. De asemenea, aveți posibilitatea să parametrizați logica de Business particularizată care se bazează pe valorile selectate sau introduse în câmpuri particularizate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

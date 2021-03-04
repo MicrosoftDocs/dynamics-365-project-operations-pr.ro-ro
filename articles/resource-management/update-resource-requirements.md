@@ -37,3 +37,5 @@ După ce o cerință de resursă este definită de acțiunea **Generați cerinț
 ## <a name="edit-resource-assignment-contours"></a>Editați contururile de alocare a resurselor
 
 În plus față de editarea detaliilor cerințelor de resurse, un manager de proiect poate actualiza contururile individuale ale cerinței de resurse folosind funcționalitatea **Specificați modelul**. Când este selectat **Specificați modelul**, se deschide o pagină și puteți vizualiza contururile la scara de zi, săptămână sau lună. Fiecare contur poate fi ajustat pentru ora de început, ora de sfârșit și efortul total într-o perioadă dată.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

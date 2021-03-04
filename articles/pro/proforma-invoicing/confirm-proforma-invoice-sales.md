@@ -273,3 +273,6 @@ O valoare reală de vânzări facturate pentru linia de produse cu cantitatea ș
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

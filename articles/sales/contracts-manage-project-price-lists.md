@@ -72,3 +72,6 @@ Puteți configura, de asemenea, liste de prețuri specifice proiectului pentru c
 ## <a name="custom-pricing-on-a-project-contract"></a>Prețuri personalizate pentru un contract de proiect
 
 După ce aveți liste de prețuri de proiect implicite organizaționale și specifice clientului, contractele dvs. de proiect vor fi create automat cu aceste asociații de liste de prețuri de proiect. Cu toate acestea, listele de prețuri ale proiectului dintr-un contract de proiect sunt întotdeauna copiate cu data și numele contractului anexate acestora. Managerii de cont și de proiect pot începe apoi să facă modificări la prețurile acestor copii. Aceste prețuri modificate vor fi aplicabile numai acestui contract de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

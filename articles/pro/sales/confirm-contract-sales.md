@@ -35,3 +35,6 @@ Dacă contractul de proiect închis ca pierdut face referire la un proiect pe li
 
 > [!NOTE]
 > În Dynamics 365 Project Operations, închiderea unui contract de proiect ca pierdut nu va avea impact asupra stării oportunității asociate. Oportunitatea va rămâne deschisă și trebuie închisă manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

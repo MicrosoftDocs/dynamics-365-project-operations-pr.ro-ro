@@ -43,3 +43,6 @@ Această implementare ar trebui să fie aleasă dacă așteptările dvs. de la P
 - Necesită un motor de impozitare pe vânzări și un curs de schimb pentru a genera facturi orientate către clienți pentru proiecte.
 - Un sistem de contabilitate a proiectelor și de recunoaștere a veniturilor conform standardelor internaționale de raportare financiară (IFRS).
 - Aplicații de finanțare sau de Supply Chain Management și integrarea tranzacțiilor bazate pe proiecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Pentru a crea o nouă structură detaliată a proiectului utilizând Microsoft P
 8.  Selectați **Calendar** pentru a fi folosit pentru resurse.
 
 11. Faceți clic pe **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

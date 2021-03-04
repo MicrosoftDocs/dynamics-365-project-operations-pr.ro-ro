@@ -37,3 +37,6 @@ Utilizați acest tip de implementare dacă așteptările dvs. de la Project Oper
 - Un sistem integrat care gestionează proiecte interne și facturabile pentru programe și situații financiare, de la vânzările de proiecte până la facturare.
 - O terță parte de planificare a resurselor întreprinderii (ERP/sistem de contabilitate financiară pentru a se integra cu Project Operations).
 - Un sistem terță parte pentru a lucra cu impozitele pe vânzări, ratele de schimb, rambursările cheltuielilor și cheltuielile non-proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

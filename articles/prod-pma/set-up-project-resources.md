@@ -75,3 +75,6 @@ După finalizarea sarcinilor precedente, puteți finaliza următoarele sarcini d
 - Completarea solicitărilor de resurse.
 - Solicitarea unei resurse de personal de la o WBS.
 - Rezervarea de resurse la un proiect fără a avea o solicitare pentru o resursă de personal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Pentru activitățile care sunt atribuite unui rol cu o unitate de organizație 
  
 Modificarea valorii implicite a diverselor unități organizaționale de resurse pe membrii echipei non-generați este motivul pentru care vă recomandăm să generați sau să generați din nou echipa pe fiecare proiect care conține resurse generice înainte de actualizare, astfel încât atribuirile unității organizaționale să nu se piardă.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

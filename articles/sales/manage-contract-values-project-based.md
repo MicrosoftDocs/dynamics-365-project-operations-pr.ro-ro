@@ -57,3 +57,6 @@ Regulă: un proiect și o anumită clasă de tranzacții pot fi incluse numai pe
 | C1       | CL2           | P1      | Nicio           | Da             | Nicio          | Valid           | Timpul și taxele pentru proiectul P1 sunt incluse pe CL1. Cheltuielile pentru proiectul P1 sunt incluse în CL2. </br>   Nu există suprapuneri în ceea ce este inclus pe fiecare linie contractuală și, prin urmare, este valabil.  |
 | C1       | CL1           | P1      | Da          | Da             | Da         | Nu este valid       | Încalcă regula. Timpul, cheltuielile și taxele pentru proiectul P1 sunt incluse pe liniile celor două contracte.                                                                                               |
 | CL2      | CL2           | P1      | Da          | Da             | Da         | Nu este valid       | Încalcă regula. Timpul, cheltuielile și taxele pentru proiectul P1 sunt incluse pe liniile celor două contracte.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

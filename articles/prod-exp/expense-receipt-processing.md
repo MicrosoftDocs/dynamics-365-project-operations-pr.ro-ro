@@ -95,3 +95,6 @@ Nu, Microsoft a construit un model general învățare programată pentru servic
 Finance va contacta serviciile cognitive pentru a extrage datele din câmp. Serviciile cognitive vor păstra o copie a chitanței dvs. timp de până la 24 de ore în timp ce are loc procesarea. După finalizarea procesării, Cognitive Services va elimina chitanța. Chitanțele sunt încă stocate în Finanțe.
 
 Pentru mai multe informații, consultați [Activați înțelegerea chitanței cu noua capacitate a Recunoscătorului de formulare](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

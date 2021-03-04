@@ -63,3 +63,6 @@ Când creați și trimiteți un raport de cheltuieli pentru avansul de numerar p
 ### <a name="example"></a>Exemplu
 Aveți de gând să faceți o deplasare de la Seattle la New York pentru o conferință. Creați o solicitare de avans de numerar pentru suma de 3000,00 USD pe baza costului estimat al biletului, zborurilor, hotelului, meselor și taxiurilor pentru conferință. Nu vi se va plăti decât dacă managerul dvs. aprobă această solicitare. După ce managerul dvs. aprobă, avansul de numerar solicitat este plătit ca 3000,00 USD în contul dvs. bancar. Apoi participați la conferință. După finalizarea călătoriei dvs., constatați că cheltuielile totale au fost doar de 2790,00 USD. Selectați **Numerar** în câmpul **Modalitate de plată** și trimiteți cheltuielile pentru suma de 2790,00 USD. Valoarea cheltuielilor trimise este ajustată automat în funcție de avansul în numerar al 3000,00 USD care v-a fost împrumutat. În acest moment aveți o datorie de 210,00 USD (3000,00 - 2790,00), pe care îl puteți restitui companiei folosind categoria de cheltuieli **Returnați numerar**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

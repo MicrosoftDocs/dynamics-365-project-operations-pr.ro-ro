@@ -65,3 +65,6 @@ De la 17 mai 2019, toate instanțele noi vor avea UCI ca client implicit. Pentru
 
 > [!NOTE]
 > Pentru cea mai bună experiență când utilizați versiunile mai vechi ale Field Service și ale aplicațiilor PSA, accesați pagina **Setări sistem** și, la câmpul **Utilizați numai noua Interfață unificată (recomandat)**, selectați **Nu**, deoarece aceste versiuni nu sunt proiectate să se încarce corect în UCI. După ce ați dezactivat UCI, aveți posibilitatea să deschideți și să executați aceste versiuni de Field Service și PSA utilizând vechiul client web. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

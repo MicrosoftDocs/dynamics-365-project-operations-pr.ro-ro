@@ -132,3 +132,6 @@ Ar trebui să utilizați validările de insert pentru orice validări care neces
 
 > [!IMPORTANT] 
 > În prezent, o problemă cunoscută pe paginile TBX împiedică utilizatorii să corecteze informațiile și să re-selecteze Efectuat atunci când o actualizare nu reușește o validare de insert. Ca o soluție, configurați validări de regulă de business pentru a preveni această situație cât mai mult posibil.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

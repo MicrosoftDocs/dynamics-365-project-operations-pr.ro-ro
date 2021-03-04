@@ -170,3 +170,6 @@ Următoarele ilustrații prezintă exemple de mapări ale sarcinilor șablon în
 [![Șablon de mapare a tranzacțiilor estimate pentru cheltuieli](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Șablon de mapare a estimărilor de cheltuieli](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

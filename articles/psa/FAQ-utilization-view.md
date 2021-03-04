@@ -101,3 +101,6 @@ Dacă nu vedeți utilizarea taxabilă, aici sunt câteva aspecte care pot fi ver
   - Rolul din linia contractului subadiacentă proiectului a fost setat pe non-taxabil.
   - Proiectul nu are o linie a contractului asociată.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

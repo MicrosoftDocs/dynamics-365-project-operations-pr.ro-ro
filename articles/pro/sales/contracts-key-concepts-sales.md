@@ -93,3 +93,6 @@ Contractele din Project Operations sunt construite pe contracte în Dynamics 365
 - Contractele Project Operations au propriile lor elemente de formă și de interfață, reguli de afaceri, logică de afaceri în inserturi și scripturi de partea clientului care le fac unice din contacte de vânzări.
 
 Din aceste motive, nu ar trebui să utilizați în mod interschimbabil un contact de vânzare și un contract de proiect.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

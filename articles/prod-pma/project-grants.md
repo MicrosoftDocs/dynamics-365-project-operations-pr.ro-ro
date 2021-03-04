@@ -79,3 +79,6 @@ Puteți crea o subvenție introducând toate detaliile într-o nouă înregistra
 2. Selectați grantul de modificat.
 3. În panoul de acțiuni, în fila **Grant** , în grupul **Menținere** , selectați **Editare**.
 4. Examinați detaliile grantului și efectuați modificările necesare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

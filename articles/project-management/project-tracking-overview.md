@@ -80,3 +80,6 @@ Urmărirea datelor din vizualizările de **Urmărire a efortului** și **Urmări
 Câmpul **Stare generală proiect** este un câmp editabil care afișează starea generală a proiectului. Acesta utilizează codificare pe culori, precum verde, galben și roșu, pentru a indica riscul în creștere. Câmpul **Comentarii** permite managerului de proiect să introducă comentarii specifice despre statut. Câmpul **Stare actualizată pe** nu este editabil și valoarea este un marcaj temporal care indică când a fost actualizată starea ultima dată.
 
 Câmpurile **Planificare performanță** și **Performanță de cost** sunt setate din data de urmărire. Atunci când varianța de planificare și cost pentru nodul rădăcină în vizualizarea de **Urmărire efort** sunt pozitive, puteți seta aceste câmpuri la **Avans.** Când programul și varianța costului pentru nodul rădăcină sunt negative, le puteți seta în **În urmă**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

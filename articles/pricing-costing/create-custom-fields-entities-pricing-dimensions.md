@@ -77,3 +77,6 @@ Aveți posibilitatea să creați manual date pentru dimensiunile bazate pe entit
 5. Repetați pașii 1-3 pentru a crea un alt titlu standard pentru „Inginer sisteme senior”.
 
 > ![Date eșantion pentru entitatea Titlu standard](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

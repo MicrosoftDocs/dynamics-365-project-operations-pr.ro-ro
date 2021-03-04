@@ -49,3 +49,6 @@ Fișele mele de pontaj (Optimizat pentru mobil) și Fișe de pontaj de revizuit 
 - [Project Time Entry]( project-time-entry-mobile-workspace.md)
 - [Foile de pontaj ale proiectului pe un dispozitiv mobil](Mobile-timesheets.md)
 - [Implementați câmpuri personalizate pentru aplicație mobilă Microsoft Dynamics 365 Project Timesheet pe iOS și Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Următoarele funcții sunt prezente pe pagina existentă, dar nu sunt încă pre
 - Flux de lucru la nivel de linie
 - Suport interimar pentru aprobare
 - Detaliere avansată
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

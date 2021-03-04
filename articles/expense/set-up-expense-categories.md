@@ -61,3 +61,6 @@ Când angajații creează rapoarte de cheltuieli, fiecare cheltuială pe care o 
 
     - Există vreuna dintre subcategoriile excluse din recuperarea impozitelor?
     - Care este grupul de taxe pe vânzări de articole din subcategorii?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

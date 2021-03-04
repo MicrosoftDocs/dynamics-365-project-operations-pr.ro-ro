@@ -83,3 +83,6 @@ Acest subiect descrie parametrii care controlează comportamentul general în Ge
 | Afișați atestarea anticorupție   | Selectați această opțiune pentru a afișa textul anticorupție atunci când este creat un raport de cheltuieli. Pot fi apoi activate categorii de cheltuieli specifice care vor necesita selectarea atestatului anticorupție în raportul de cheltuieli. De exemplu, o categorie de cadouri care are legătură cu o cheltuială oficială a guvernului ar putea cere angajatului să confirme că cheltuiala respectă politica companiei care este legată de oficialii guvernamentali. |
 | Mesaj anticorupție pentru expeditor | Introduceți textul care trebuie afișat unui angajat care creează un raport de cheltuieli. Pentru a introduce text specific limbii care va fi afișat, pe baza limbii utilizatorului, selectați **Traduceri**. |
 | Mesaj anticorupție pentru aprobator  | Introduceți textul care trebuie afișat unui aprobator când este creat un raport de cheltuieli. Pentru a introduce text specific limbii care va fi afișat, pe baza limbii utilizatorului, selectați **Traduceri**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

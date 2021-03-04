@@ -49,3 +49,6 @@ Pentru a crea o planificare de proiect, creați un șablon de calendar de proiec
 8. În caseta de dialog **Șablon de lucru**, introduceți un nume pentru șablonul de lucru și apoi selectați **Aplicați**. 
 
 Acum aveți posibilitatea să asociați șablonul de lucru cu un șablon de calendar de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

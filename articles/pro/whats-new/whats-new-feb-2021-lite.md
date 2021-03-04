@@ -38,3 +38,6 @@ Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Proj
 | **Planificarea și urmărirea proiectului** | 2164035 | S-au rezolvat problemele cu funcția **Copiați proiect**. |
 | **Intrare de timp** | 2129161 | Se aplică restricții mai stricte pentru a garanta că utilizatorii nu pot modifica și actualiza o intrare de timp care a fost trimisă sau aprobată. |
 | **Intrare de timp** | 2103572 | Aprobarea timpului pentru intrările de timp care nu fac parte din proiect nu trebuie să caute rolul de aprobator al proiectului. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Metoda Niciunul este disponibilă numai atunci când rezervați din fila **Echip
 - Distribuire uniformă a orelor
 
 Când utilizați una dintre aceste trei metode de alocare, nu veți fi notificat cu privire la faptul că resursa este suprarezervată. Pentru a corecta suprarezervarea trebuie să utilizați Tabloul de planificare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

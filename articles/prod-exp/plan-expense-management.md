@@ -160,3 +160,6 @@ Prin crearea politicilor de raportare a cheltuielilor, vă puteți ajuta organiz
 - Când expiră politica?
 - Care este regula politicii?
 - Care este rezultatul regulii politicii?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

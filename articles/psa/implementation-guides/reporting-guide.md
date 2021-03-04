@@ -41,3 +41,6 @@ Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutu
 
 > [!NOTE]
 > Acest subiect va fi eliminat într-o actualizare de documentație viitoare. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

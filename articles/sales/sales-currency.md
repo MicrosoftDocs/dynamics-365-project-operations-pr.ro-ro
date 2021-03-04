@@ -71,3 +71,6 @@ Monedele stabilesc prețurile pentru produse în catalogul de produse și costul
 
 > [!IMPORTANT]
 >  Nu puteți șterge monedele utilizate de alte înregistrări, puteți doar să le dezactivați. Dezactivarea înregistrărilor de monedă nu elimină informațiile de monedă stocate în înregistrările existente, cum ar fi oportunități sau comenzi. Cu toate acestea, nu veți putea selecta moneda dezactivată pentru tranzacții noi.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

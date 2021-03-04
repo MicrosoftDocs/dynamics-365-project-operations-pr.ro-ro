@@ -36,3 +36,6 @@ După rezolvarea unei liste de prețuri, câmpurile **Rol** și **Unitate de res
 Liniile de estimare pentru Cheltuială se referă la detaliile de ofertă și de linie de contract pentru cheltuieli și liniile de estimare a cheltuielilor unui proiect.
 
 După rezolvarea unei liste de prețuri de cost, sistemul folosește o combinație a câmpurilor **Categorie** și **Unitate** de pe linia de estimare a cheltuielilor pentru a se potrivi cu liniile **Preț categorie** din lista de prețuri rezolvate. Dacă sistemul găsește o linie de preț de categorie care are o rată de cost pentru combinația de câmp **Categorie** și **Unitate**, rata de cost este implicită. Dacă sistemul nu poate realiza potrivirea dintre valorile **Categorie** și **Unitate** sau dacă poate găsi o linie de preț de categorie potrivită, dar metoda de stabilire a prețurilor nu este **Preț pe unitate**, rata de cost este setată implicit la zero (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ S-au remediat următoarele probleme:
 - Atunci când selectați o linie bazată pe proiect în ofertă sau contract, butonul **Sugestie** ar trebui să fie vizibil numai atunci când selectați o linie bazată pe produs asociată unui produs existent.
 - Scindează privilegiul **Create_Product** din privilegiul **Create_ProjectContract**.
 - Ștergerea unei linii de facturare provoacă eșecul referinței nule pe **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

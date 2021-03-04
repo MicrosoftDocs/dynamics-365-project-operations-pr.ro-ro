@@ -48,3 +48,6 @@ Mai jos este un rezumat al câmpurilor care pot fi actualizate pe un proiect dup
 - **Starea generală a proiectului**: starea generală a proiectului oferită de managerul de proiect.
 - **Comentarii**: o narațiune privind starea actuală a proiectului oferită de managerul de proiect.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

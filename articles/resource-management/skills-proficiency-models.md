@@ -43,3 +43,5 @@ Adăugarea de caracteristici la cerințele de resurse vă permite să documenta�
 3. În subgrila **Aptitudini**, selectați **+Adăugați o nouă caracteristică de cerință.**
 4. În panoul de creare rapidă, găsiți și selectați caracteristicile necesare și adăugați o **Valoare de evaluare**.
 5. Selectați **Salvare și închidere**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

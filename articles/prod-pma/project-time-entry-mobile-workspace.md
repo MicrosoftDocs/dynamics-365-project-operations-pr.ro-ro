@@ -113,3 +113,6 @@ Descărcați și instalați aplicația mobilă Finance and Operations:
 11. Selectați proprietatea de linie.
 12. Opțional: introduceți orice comentarii interne și externe.
 13. Selectați **Terminat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

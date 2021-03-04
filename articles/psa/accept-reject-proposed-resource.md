@@ -45,3 +45,6 @@ Pentru a respinge propunerea, faceți clic pe **Respingere resursă**.
 ![Acceptarea unei propuneri de resurse](media/RM-how-to-20.png) 
 
 Similar cu îndeplinirea directă a unei solicitări de resurse generice cu o resursă denumită, resursa generică va fi înlocuită, iar sarcinile atribuite vor fi actualizate cu membrul echipei numit.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

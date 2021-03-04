@@ -81,3 +81,6 @@ Dacă utilizați prognozarea proiectului, puteți identifica modelele ca submode
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

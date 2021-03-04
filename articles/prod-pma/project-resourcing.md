@@ -55,3 +55,6 @@ Următoarele subiecte oferă informații despre sarcinile care trebuie finalizat
 - [Performanța planificării resurselor proiectului](project-scheduling-performance.md)
 - [Configurarea de roluri în șabloanele de structură detaliată a proiectului](set-up-roles-wbs-template.md)
 - [Completarea resurselor pentru resursele planificate](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

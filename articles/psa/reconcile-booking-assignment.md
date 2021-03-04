@@ -101,3 +101,6 @@ După ce funcționalitatea Extind Booking este executată pe fiecare resursă, r
 
 Cu toate acestea, o privire mai atentă la detaliile rezervărilor arată diferențe în ora de început a rezervărilor. Rezervările vor începe nu mai devreme decât ora de început a conturului misiunii și nu mai devreme decât ora de pornire disponibilă a resursei.
  ![Rezervări noi ale resurselor din tabloul de bord](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Resursele atribuite în acest mod sunt adăugate echipei fără rezervări. Aces
 
 3. Selectați resursa pe care doriți să o atribuiți activității.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

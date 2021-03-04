@@ -74,3 +74,6 @@ Când extindeți rândul înregistrării acelui membru al echipei, puteți vedea
 Când navigați la grila **Estimări**, veți observa că ambele activități pentru aceeași resursă au un preț diferit.
 Atribuirea pentru resursa din Activitatea A este evaluată cu ajutorul valorii atributului **Rol** al **Lider consultant**. Atribuirea pentru aceeași resursă din Activitatea A este evaluată cu ajutorul valorii atributului **Rol** pentru **Tehnician rețea**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

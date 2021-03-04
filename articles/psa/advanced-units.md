@@ -112,3 +112,6 @@ Nu. Estimarea planificării este momentan limitată la ore și nu poate fi schim
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Pot fi editate, șterse și adăugate unitățile și grupurile de unități?
 Da. Cu excepția grupului de unități **Timp** și a unității **Oră**, toate unitățile pot fi șterse sau editate, iar unitățile noi pot fi adăugate. În PSA, grupul de unități **Timp** și unitatea **Oră** nu pot fi șterse. Cu toate acestea, ele pot fi actualizate cu un text tradus pentru câmpul **Nume**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

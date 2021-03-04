@@ -32,3 +32,6 @@ Planificările de onorariu sunt configurate pe pagina **Contract de proiect** î
 | Număr de onorarii de creat | Când introduceți numărul de rețele de creat, sistemul folosește data și frecvența de începere pentru a crea numărul în acest câmp. | Când acest câmp este actualizat manual, sistemul ignoră valoarea din câmpul **Sfârșitul planificării de onorariu** și creează în schimb numărul specific de onorarii sau avansuri. |
 | Frecvență factură | Cât de des aplicația va crea elemente de onorarii și avansuri. | Această valoare influențează în mod direct numărul de elemente de onorarii și avansuri și datele create. |
 | Sumă totală | Suma totală este suma care este împărțită în onorariu individual sau plățile în avans care vor fi create. | Nu există niciun impact din aval pentru acest domeniu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

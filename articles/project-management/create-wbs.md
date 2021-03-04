@@ -116,3 +116,6 @@ Modul de activitate nu are niciun efect asupra actualizărilor efectuate la date
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Comenzi rapide de la tastatură și accesibilitate
 
 Grila de **Planificare** este complet accesibilă și poate fi utilizată cu cititoare de ecran, ar fi Narator, JAWS sau NVDA. Aveți posibilitatea să vă deplasați prin zona grilă utilizând tastele săgeată (ca în Microsoft Excel), puteți utiliza tasta Tab pentru a avansa printre elementele interfeței cu utilizatorul interactive și puteți utiliza tasta săgeată în jos, tasta Enter sau bara de spațiu pentru a selecta și a deschide meniurile verticale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

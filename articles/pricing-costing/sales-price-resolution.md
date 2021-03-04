@@ -54,3 +54,6 @@ După ce se rezolvă o listă de prețuri pentru vânzări, sistemul parcurge ur
     | &nbsp; | Adaos peste cost | Prin aplicarea unei majorări definite de linia de preț a categoriei pe rata de cost unitară a costului aferent real |
 
 4. Dacă sistemul nu este în măsură să se potrivească cu valorile de câmp **Categorie** și **Unitate**, rata de vânzare este implicită la zero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

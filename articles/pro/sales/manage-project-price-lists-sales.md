@@ -67,3 +67,6 @@ După ce aveți liste de prețuri implicite organizaționale și specifice clien
 
 1. Pe **Oferta de proiect**, pe fila **Lista de prețuri a proiectului**, verificați în subgrilă dacă nu este selectată nicio înregistrare specifică a listei de prețuri.
 2. Selectați **Creați prețuri particularizate**. Aceasta va face copii ale tuturor listelor de preț standard asociate în prezent cu oferta și va asocia aceste copii cu oferta. Asocierile existente la listele standard de prețuri vor fi eliminate. Agentul de vânzări poate începe apoi să editeze prețurile pe aceste copii. Aceste prețuri modificate vor fi aplicabile numai pentru această ofertă de proiect.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

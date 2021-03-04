@@ -124,3 +124,6 @@ De exemplu, dacă există următoarele proprietăți:
 - **Produs SKU** 
 
 Proprietățile **Nr. de utilizatori** și **Nr. de luni** pot fi marcate ca factori de cantitate prin editarea proprietăților de linie de produs. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

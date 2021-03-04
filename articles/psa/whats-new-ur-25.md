@@ -70,3 +70,6 @@ S-au remediat următoarele probleme:
 - Îmbunătățirea gestionării erorilor pentru a aborda excepțiile de referință nule generate de **Copiați proiectul: estimări HelperResource Management**.
 - **Nu este pregătit pentru facturare** pe o **Restanță de facturare de timp și materiale** nu șterge starea de facturare.
 - S-au corectat butoanele **Prețuri** etichetate greșit pe filele **Prețul rolului** și **Articole din catalog**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

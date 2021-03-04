@@ -34,3 +34,6 @@ Toate costurile, vânzările și prețurile de transfer pot fi configurate pentr
 1. Din pagina **Preț de vânzare (oră)** , selectați **Nou** , și introduceți o dată efectivă.
 2. În coloana **Rol** , selectați un rol.
 3. În coloana **Prețuri** , introduceți un preț pentru rolul de resursă selectat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

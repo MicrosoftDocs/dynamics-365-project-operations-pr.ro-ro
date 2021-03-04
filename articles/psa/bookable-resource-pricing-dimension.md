@@ -76,3 +76,6 @@ Acest lucru deschide pagina **Nume câmp dimensiune de tarifare nou** pentru **m
 5. Adăugați **msdyn_projectteam** la câmpul **Nume logic al entității** și **msdyn_bookableresourceid** la câmpul **Nume câmp**. Salvaţi înregistrarea.
 
  ![Formular pentru nume de câmpuri de dimensiune de tarifare noi](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

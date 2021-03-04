@@ -55,3 +55,6 @@ Numai următoarele atribute contabile pot fi actualizate în liniile jurnalului 
 Liniile jurnalului de integrare pot fi șterse, cu toate acestea, toate liniile neîncărcate vor fi inserate din nou în jurnal după ce ați relansat procesul periodic **Import din etapă**.
 
 Când postați jurnalul de integrare, se creează o tranzacție de contabilitate de proiect și contabilitate generală. Acestea sunt utilizate în facturarea clienților din aval, recunoașterea veniturilor și raportarea financiară.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

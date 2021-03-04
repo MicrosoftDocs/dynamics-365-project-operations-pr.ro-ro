@@ -73,3 +73,6 @@ Pentru informații despre actualizări la Project Service, consultați [Planuri 
 >[!Note]
 > - Datele din toate regiunile, cu excepția Cloud Community Community (CCG) indică calendarul următoarei actualizări automate. Datele din CCG indică disponibilitatea versiunii; în acest moment, nu există o actualizare automată pentru aceste regiuni.
 > - Pentru toate celelalte regiuni, în timp ce majoritatea actualizărilor ar trebui să fie finalizate în noaptea planificată, actualizările care necesită mai mult timp pot fi finalizate în orele inactive în weekendul indicat în coloana **Dată planificată**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

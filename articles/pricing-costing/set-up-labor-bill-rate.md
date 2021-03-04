@@ -55,3 +55,6 @@ De exemplu, un dezvoltator de la divizia de Robotică a Fabrikam India care lucr
     | Dezvoltator | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. Atașați lista de prețuri de vânzare, **Ratele de facturare ale Fabrikam US** la lista de prețuri a proiectului a contractului de proiect sau la un anumit cont.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

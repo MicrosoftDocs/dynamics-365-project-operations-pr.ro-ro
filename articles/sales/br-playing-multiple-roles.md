@@ -106,3 +106,6 @@ Când extindeți rândul pentru înregistrarea respectivă a membrilor echipei, 
 ### <a name="estimates-grid"></a>Grilă estimări 
 
 Pe grila **Estimări**, ambele atribuții pentru aceeași resursă au un preț diferit. Atribuirea pentru resursa din **Activitatea A** este evaluată cu ajutorul valorii atributului **Rol** al **Lider consultant**. Atribuirea pentru aceeași resursă din **Activitatea B** este evaluată cu ajutorul valorii atributului **Rol** pentru **Tehnician rețea**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

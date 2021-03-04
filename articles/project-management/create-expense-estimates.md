@@ -38,3 +38,6 @@ Următoarele atribute sunt definite pentru fiecare element rând de cheltuieli:
 - **Preț de cost unitar**: Prețul unitar utilizat pentru calcularea costului cheltuielilor.
 - **Preț unitar de vânzare**: Prețul unitar utilizat pentru calcularea prețurilor de vânzare a cheltuielilor.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Puteți utiliza aceeași metodă pentru a anula o rezervare fermă sau o rezerva
 Pentru a converti o resursă care este rezervată provizoriu în rezervată ferm pe fila **Echipă** a proiectului, selectați resursa și apoi selectați **Confirmare**.
 
 ![Confirmare comandă](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

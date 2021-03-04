@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119793"
 ---
 # <a name="resource-management-overview"></a>Prezentare generală a gestionării resurselor
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

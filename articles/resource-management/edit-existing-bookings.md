@@ -33,3 +33,6 @@ Din grila **Membru al echipei**, un manager de proiect poate evidenția o anumit
 ## <a name="schedule-board"></a>Tablou de planificare
 
 De la **Panou de planificare**, managerul de resurse dispune de o vizualizare a întreg portofoliului de rezervări dintr-o organizație. Din această vizualizare, managerul de resurse poate extinde, scurta sau muta rezervările existente în mod similar cu capacitățile oferite în **Mențineți rezervările**. De asemenea, managerul de resurse poate înlocui resursele existente alocate unei rezervări specifice făcând clic dreapta pe rezervare și selectând **Înlocuiți Resurse**. De asemenea, managerii de resurse pot edita caracteristicle rezervărilor existente făcând clic dreapta pe rezervare și selectând **Editați**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

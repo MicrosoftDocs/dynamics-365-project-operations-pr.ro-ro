@@ -64,3 +64,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
 
     -   Soluționat: Când utilizatorii trec de la 2.X la 3.X, proiectele cu o valoare NULL pentru numele proiectului vor fi permise.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

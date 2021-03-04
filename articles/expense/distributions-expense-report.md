@@ -30,3 +30,6 @@ Deoarece Constanța a lucrat la două proiecte separate în timp ce se afla la F
 | Tarif tren   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hotel        | EUR 725              | EUR 557                         | EUR 168                         |
 | Mese        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

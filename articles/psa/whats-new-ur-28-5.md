@@ -42,3 +42,6 @@ S-au remediat următoarele probleme:
 
 - Programați asistență de căutare pentru performanțe degradate
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

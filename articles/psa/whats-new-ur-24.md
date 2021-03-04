@@ -81,3 +81,6 @@ S-au remediat următoarele probleme:
 - Butonul **Actualizați datele reale** calculează incorect activitățile de rezumat.
 - Program de completare Microsoft Project: Remediați eroarea de referință nulă dacă un membru al echipei are o unitate de resurse goală.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

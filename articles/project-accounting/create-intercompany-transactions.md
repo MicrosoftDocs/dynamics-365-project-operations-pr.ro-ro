@@ -113,3 +113,6 @@ Molly Clark, dezvoltator angajat în GBPM, înregistrează 10 ore de muncă împ
     - Credit: Proiect - Venituri acumulate 120 USD
 
     Sistemul este acum gata să creeze o factură client între companii.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

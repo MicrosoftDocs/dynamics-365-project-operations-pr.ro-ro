@@ -44,3 +44,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
 - Soluționat: S-au adresat șabloanele de ore de lucru de 24 de ore ce adăugau inexact o zi suplimentară sarcinilor.
 - Soluționat: S-au adresat șabloanele de ore de lucru de +13 GMT ce schimbau inexact sarcinile cu o zi înainte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

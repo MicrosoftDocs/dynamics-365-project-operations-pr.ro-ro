@@ -150,3 +150,6 @@ Următorul tabel oferă o listă cuprinzătoare de formulare și vizualizări pr
 |  Real|• Informații<br>• Valori reale active|• Vizualizare asociată valori reale|
 
 Câmpurile particularizate pot fi, de asemenea, adăugate în reguli de business în funcție de ceea ce ați definit. Un exemplu predefinit este pentru regula de business **Editabilitatea intrării de timp bazate pe stare**. Această regulă definește câmpurile care trebuie blocate când Intrarea de timp este într-o stare non-editabilă, cum ar fi **Aprobat**. Adăugați câmpuri la această regulă de business, astfel încât câmpurile să fie blocate pentru editare atunci când Intrarea de timp este într-o altă stare decât **Schiță** sau **Returnat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

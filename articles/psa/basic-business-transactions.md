@@ -149,3 +149,6 @@ Următorul tabel afișează înregistrările din entitatea Conexiune de tranzac�
 | Corecție factură schiță       | GUID tranzacție linie factură | Înlocuire          | msdyn_invoicelinetransaction | GUID vânzări facturate            | Inițiale           | msdyn_actual       |
 | Confirmare corecție factură     | GUID inversare vânzări facturate    | Inversare          | msdyn_actual                 | GUID vânzări facturate            | Inițiale           | msdyn_actual       |
 | GUID nou valoare reală vânzări nefacturate | Înlocuire                     | msdyn_actual       | GUID vânzări facturate            | Inițiale                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

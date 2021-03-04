@@ -429,3 +429,6 @@ Introducerea unei categorii de proiect implicite la intrările din foaia de pont
 1. Aplicația încearcă să plaseze categoria implicită din resursa proiectului. Această categorie implicită este setată în metodele **getCurrentUserResource** și **getDelegatedResourcesForCurrentUser** în clasa **TSTimesheetSettingsService**.
 2. Dacă categoria implicită nu este furnizată la nivelul resurselor proiectului, aplicația încearcă să o retragă din activitatea proiectului. Această categorie implicită este setată în metoda **getActivitiesForProject** în clasa **TSTimesheetProjectService**.
 3. Dacă categoria implicită nu este furnizată la nivelul activității proiectului, categoria implicită a fost luată din parametrii proiectului. Această categorie implicită este setată în metoda **getProjectDetailsbyRule** în clasa **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Pentru a face o copie a listei de prețuri, parcurgeți pașii următori.
 1. Pe filele **Rol**, **Categorie** și filele **Element din lista de prețuri** unei liste de prețuri, puteți selecta **Actualizați prețurile** pentru a aplica un adaos pentru toate prețurile din subgrilă. 
 2. În pagina de dialog care se deschide, introduceți o marcare. De asemenea, puteți introduce un procent de majorare negativ pentru a reduce prețurile cu un anumit procent. 
 3. Selectați **OK** pe pagina de dialog și apoi verificați dacă prețurile din subgrilă reflectă modificările pe care le-ați făcut.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

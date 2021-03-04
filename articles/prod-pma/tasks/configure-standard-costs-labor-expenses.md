@@ -54,3 +54,6 @@ Acest subiect explică modul de stabilire a costurilor standard pentru forța de
 22. În câmpul **Preț** , introduceți un număr. Prețul real de vânzare, care se aplică atunci când un lucrător introduce tranzacții în jurnalul de cheltuieli, este prețul de vânzare cu cel mai înalt nivel de detaliere. De exemplu, dacă sunt stabilite atât un preț general de vânzare, cât și un preț de vânzare specific lucrătorului, se folosește prețul de vânzare specific lucrătorului.  
 23. Selectați **Salvare**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

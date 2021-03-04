@@ -66,3 +66,6 @@ Atunci când un manager de resurse trebuie să rezerve o resursă direct la un p
 
 > [!NOTE]
 > Această metodă nu creează nicio rezervare pentru resursă. În schimb, adaugă resursa la echipă. După ce membrul echipei a fost adăugat la proiect, managerul de proiect poate utiliza menținerea rezervărilor sau extinde rezervările pentru a adăuga rezervările necesare la resursă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

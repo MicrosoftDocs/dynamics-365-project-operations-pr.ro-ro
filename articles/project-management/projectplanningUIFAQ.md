@@ -106,3 +106,6 @@ Când se efectuează una sau mai multe actualizări la structura detaliată a pr
   - Sistem Project Operations
   - Sistemul proiectului
   - Sistemul de scriere dublă al Project Operations (Acest rol este necesar dacă implementați scenariul bazat pe resurse/ne-stocat al Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

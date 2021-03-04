@@ -59,3 +59,6 @@ Fiecare proiect are un număr de membri ai echipei de proiect. Puteți specifica
 3. Selectați **Salvare**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

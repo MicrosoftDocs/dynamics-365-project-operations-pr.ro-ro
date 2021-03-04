@@ -73,3 +73,6 @@ Faceți clic pe un link de mai jos pentru a afla mai multe despre ceea ce puteț
  [Ghidul Managerului de cont](../psa/account-manager-guide.md)   
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)   
  [Ghidul Managerului de resurse](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

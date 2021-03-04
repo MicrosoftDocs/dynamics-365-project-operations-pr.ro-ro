@@ -24,3 +24,6 @@ Oportunitățile proiectului pot fi închise drept câștigate sau pierdute. Cas
 Nu vi se va permite să închideți oportunitatea dacă există oferte active asociate cu aceasta. Puteți închide simultan toate ghidurile active și schițele asociate unei oportunități. Apoi vi se va permite să închideți oportunitatea.
 
 Pentru mai multe informații generale despre închiderea oportunităților, consultați [Închideți oportunitățile ca câștigate sau pierdute](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

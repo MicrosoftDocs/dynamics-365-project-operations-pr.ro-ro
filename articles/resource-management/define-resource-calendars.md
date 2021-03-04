@@ -43,3 +43,6 @@ Fiecare resursă rezervabilă care lucrează la un proiect trebuie să aibă un 
 2. Din vizualizarea grilă, selectați până la 25 de **Resurse rezervabile** pentru a actualiza.
 3. Selectați **Setați Calendar** și o fereastră de dialog vă va solicita cu o listă de șabloane de ore de lucru disponibile.
 4. Selectați șablonul pe care doriți să îl utilizați și apoi selectați **Aplicare**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

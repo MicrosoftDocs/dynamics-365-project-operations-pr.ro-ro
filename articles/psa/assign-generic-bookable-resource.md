@@ -59,3 +59,6 @@ De asemenea, puteți face clic pe linkul **Cerință resursă** din grila de ech
 
 ![Cerință resursă](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

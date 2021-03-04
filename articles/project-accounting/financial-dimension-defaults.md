@@ -62,3 +62,6 @@ Proiectele sunt create și menținute în CDS. Atributele contabile pentru proie
 4. Setați valorile implicite ale dimensiunii financiare. Observați că dimensiunile financiare sunt implicite din contul clientului. În cazul în care proiectul este asociat cu o linie contractuală cu mai mulți clienți contractuali ai proiectului, clientul principal este utilizat la dimensiunile financiare implicite.
 
 Dimensiunile financiare implicite ale proiectului sunt utilizate pentru a seta valorile implicite ale liniei jurnalului pentru tranzacțiile de timp, cheltuială și taxă din **Jurnal de integrare a operațiunilor de proiect** și pe liniile de facturare aferente proiectului.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

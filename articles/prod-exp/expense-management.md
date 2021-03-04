@@ -58,3 +58,6 @@ Ajutor suplimentar este disponibil ca ghiduri de sarcini. Pentru a accesa ghidur
 ### <a name="videos"></a>Videoclipuri
 
 Consultați videoclipurile cu instrucțiuni care sunt acum disponibile pe [Canalul YouTube al Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

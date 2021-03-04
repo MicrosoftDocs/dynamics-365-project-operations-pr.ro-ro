@@ -67,3 +67,6 @@ Pentru a seta parametrii de proiect:
 
 ### <a name="see-also"></a>Consultați și  
  [Configurați resursele](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

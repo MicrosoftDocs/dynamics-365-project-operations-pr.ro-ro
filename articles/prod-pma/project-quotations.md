@@ -41,3 +41,6 @@ Când clientul aprobă oferta de proiect, puteți copia informațiile din oferta
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Dacă ați aplicat date demonstrative mediului financiar, consultați [Configura
 
 
 Mediul dvs. Project Operations are acum asigurat accesul și este configurat. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

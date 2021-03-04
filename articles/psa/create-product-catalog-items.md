@@ -37,3 +37,6 @@ Dacă doriți să includeți produse, cum ar fi licențe software, în ofertele 
   
 ### <a name="see-also"></a>Consultați și  
  [Configurarea Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

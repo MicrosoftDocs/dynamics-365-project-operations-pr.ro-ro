@@ -69,3 +69,6 @@ Pentru a activa îmbunătățirea performanței planificării resurselor, parcur
 
 > [!NOTE]
 > Aceasta va distribui date generale către tabelul **ResRollup** pentru toate companiile din mediul dvs., astfel încât operațiunea de lot trebuie executată doar într-o singură persoană juridică. Această operațiune de lot este necesară pentru toate vizualizările **Disponibilitatea resurselor**. Dacă această operațiune de lot nu este rulată, **ResRollup** datele vor fi generate din mers, ceea ce poate dura timp.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

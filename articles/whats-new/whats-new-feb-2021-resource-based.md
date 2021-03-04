@@ -54,3 +54,6 @@ Pentru mai multe informații despre managementul proiectului și contabilitate �
 ## <a name="regulatory-updates"></a>Actualizări de reglementare
 
 Pentru informații despre actualizările de reglementare pentru aplicații Finance and Operations, vezi [Actualizări de reglementare](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). O altă modalitate de a afla despre actualizările de reglementare este să vă conectați la Lifecycle Services (LCS) și să vizualizați actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

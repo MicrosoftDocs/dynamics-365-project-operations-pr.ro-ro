@@ -68,3 +68,6 @@ Următorii pași vă explică procesul de înregistrare a inserturilor.
 
 9. Închideți instrumentul de înregistrare inserturi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Puteți crea mai multe facturi între companii în același timp pentru toate pe
 ## <a name="post-the-intercompany-vendor-invoice"></a>Înregistrați factura furnizorului între companii
 
 Un contabil de proiect din entitatea juridică care împrumută poate revizui facturile de la furnizori între companii neplătite când este publicată factura corespunzătoare de client între companii. În Finanțe, în entitatea juridică cu împrumut, accesați **Conturi furnizori** > **Facturi** > **Factură de furnizor în așteptare**. Numărul de factură în așteptare se va potrivi cu numărul de factură al clientului între companii. Verificați dacă factura este corectă și apoi postați factura. Înregistrarea facturii furnizorului între companii creează un cont de proiect și o tranzacție de contabilitate generală care reflectă costurile tranzacției în entitatea juridică care împrumută.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

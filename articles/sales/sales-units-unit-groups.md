@@ -46,3 +46,6 @@ Pentru a finaliza pașii din acest subiect, asigurați-vă că ați fost atribui
 3. În câmpul **Cantitate**, introduceți cantitatea pe care o va conține unitatea. De exemplu, dacă o cutie conține două bucăți, introduceți „2”. 
 4. În câmpul **Unitate de bază**, selectați o unitate de bază pentru a stabili cea mai mică unitate de măsură pentru unitate. De exemplu, puteți selecta „Bucată”.
 5. Selectați **Salvare**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

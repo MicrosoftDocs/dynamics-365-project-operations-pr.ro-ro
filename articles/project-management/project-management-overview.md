@@ -26,3 +26,6 @@ Instrumente de gestionare de proiect în Dynamics 365 Project Operations vă aju
 - Utilizați estimările proiectului în timpul procesului de vânzare.
 - Prognozați necesarul de resurse pentru proiectele sunt deschise în canal.
 - Livrați cu succes proiecte prin urmărirea progresului și a costului în curs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

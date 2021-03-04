@@ -152,3 +152,6 @@ Veți utiliza următoarele tipuri de activități atunci când creați structura
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul managerului de proiect](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

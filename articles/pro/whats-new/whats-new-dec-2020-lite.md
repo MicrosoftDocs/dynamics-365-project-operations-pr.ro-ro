@@ -57,3 +57,6 @@ Următorul tabel listează actualizările la Project Operations pe versiunea de 
 | Timp și cheltuieli | 2034882 | Butonul **Nou** se afișează de două ori pe bara de comandă pentru intrările de timp când Dynamics 365 Field Service este instalat. |
 | Timp și cheltuieli | 2056028 | Actualizați pagina **Editare de timp** pentru a include linia de timp. |
 | Timp și cheltuieli | 1983747 | Diagrama de introducere a timpului prezintă date suplimentare. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Când stabiliți contractul de proiect, sunteți de acord să facturați lunar c
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

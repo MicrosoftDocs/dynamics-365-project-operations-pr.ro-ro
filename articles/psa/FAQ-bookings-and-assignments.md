@@ -68,3 +68,6 @@ Deoarece rezervările atribuirile nu sunt strâns cuplate, este posibil să se r
 > [!NOTE]
 > Dacă mutați o activitate pe care ați conturat-o chiar dvs., aceste contururi nu sunt menținute. Contururile sunt generate din nou conform calendarului proiectului pentru a ține cont de modificările orelor de program și de sărbători. Acest lucru este proiectat întrucât sistemul nu cunoaște intenția conturului original și nu poate determina dacă are sens să păstreze acel contur într-un nou interval de timp. Întrucât rezervările și atribuirile sunt deconectate, rezervările păstrează contururile de rezervare originale. În acest caz, va trebui să anulați și să rezervați din nou la noul contur de atribuire.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

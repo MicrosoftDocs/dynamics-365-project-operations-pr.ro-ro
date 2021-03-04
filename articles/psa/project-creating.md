@@ -149,3 +149,6 @@ Când modul de activitate este configurat la **Planificat automat** pentru o act
 ### <a name="manual-scheduling"></a>Planificare manuală
 
 Dacă regulile planificării automate nu îndeplinesc cerințele dvs., aveți posibilitatea să setați modul de activitate pentru activitate la **Planificată manual**. Această setare oprește ca motorul de planificare să calculeze valorile celorlaltor atribute de planificare. Indiferent de modul de activitate, dacă setați predecesorii pe activități, afectați întotdeauna data de începere a activității dependente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

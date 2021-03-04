@@ -60,3 +60,6 @@ Aveți posibilitatea să analizați ofertele și să generați diagrame pentru a
 Analiza așteptărilor clienților cu privire la planificare se face comparând cea mai recentă dată de încheiere a detaliilor liniei de ofertă cu data de livrare solicitată în toate liniile de ofertă din ofertă.
 
 Analiza așteptărilor clienților cu privire la buget se face prin compararea sumei bugetului total al clienților cu valoarea ofertată în toate liniile de ofertă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

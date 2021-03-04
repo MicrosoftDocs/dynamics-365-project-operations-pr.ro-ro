@@ -440,3 +440,6 @@ După calcularea raportului, puteți vizualiza următoarele informații pe difer
 -   **Consum** - Informații despre consumul de ore, articole, cheltuieli și tranzacții de salarizare.
 -   **Factura** - Informații despre facturi și facturare pe cont.
 -   **Rata pe oră** - Tarifele orare pentru orele care sunt înregistrate în conturile de venituri și costuri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

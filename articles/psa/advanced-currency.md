@@ -105,3 +105,6 @@ Dynamics 365 gestionează automat cumulări de sume în monede diferite. Iată u
 | Cheltuială           | Vânzări nefacturate   | 17 iun. | Daniel  | Închirieri auto           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Pentru a calcula valoarea totală a vânzărilor nefacturate din proiect, aveți posibilitatea să creați un câmp de cumul pentru câmpul **Sumă** pe toate valorile reale de vânzări nefacturate corelate. Câmpul de cumul este o construcție a Dynamics 365 care permite formule rapide pe înregistrări corelate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Fiecare organizație trebuie să configureze aceste roluri pe pagina **Categorii
 ## <a name="price-lists"></a>Liste de prețuri
 
 Listele de prețuri vă permit să configurați costurile și prețurile de vânzări pentru rolurile de resurse, categoriile de cheltuieli, produse și alte elemente dintr-o organizație. Înainte să configurați estimări financiare pentru lucrul care trebuie livrat pentru un proiect, ar trebui să creați un cost de rezervă și o listă de prețuri de vânzări. În secțiunea parametri, ar trebui să configurați, de asemenea, un cost implicit și lista de prețuri de vânzări care se aplică tuturor proiectelor care sunt create în organizație. Pe pagina **Parametri proiect activi**, asigurați-vă că configurați un cost implicit și o listă de prețuri de vânzări.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

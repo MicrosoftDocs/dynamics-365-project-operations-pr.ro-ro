@@ -26,3 +26,5 @@ Cerințele de resurse sunt definite de managerul de proiect pentru a stabili res
 3.  Pe fila **Membrul echipei**, selectați membrul echipei și apoi selectați **Generați cerere**.
 
 Pentru informații despre modul de modificare a cerinței de resurse, consultați [Actualizați detaliile cerințelor de resurse](define-resource-requirements.md) pentru a modifica cerința de resurse.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

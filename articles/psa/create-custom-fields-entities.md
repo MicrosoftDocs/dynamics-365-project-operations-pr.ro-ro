@@ -73,3 +73,6 @@ Aveți posibilitatea să creați manual date pentru dimensiunile bazate pe entit
 > ![Date eșantion pentru entitatea Titlu standard ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

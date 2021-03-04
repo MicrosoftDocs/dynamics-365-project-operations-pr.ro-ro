@@ -77,3 +77,6 @@ Următorul exemplu arată ratele de facturare care sunt configurate pe baza rolu
 | ----------------|-------------|----------|----------:|----------|
 | company_Band1 a mea | Contoso US  |Hour | 145|USD     |
 | company_Band2 a mea | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

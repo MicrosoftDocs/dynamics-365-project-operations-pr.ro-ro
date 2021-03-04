@@ -37,3 +37,6 @@ Sistemul de reținere din Project Operations nu este disponibil pentru utilizare
 | --- | --- | --- |
 | Sumă disponibilă | Suma disponibilă pentru a fi utilizată în înregistrarea de onorariu sau avans. | Până când nu se facturează avansul sau onorariul, acesta nu este disponibil pentru a fi utilizat, ceea ce înseamnă că suma disponibilă va fi zero. |
 | Sumă utilizată | Suma care este deja utilizată pe onorariu sau avans. | Un avans sau un onorariu poate fi parțial împăcat pe o factură cu costurile efective care vor avea o parte marcată ca fiind deja utilizată sau consumată. Restul sumei avansului sau onorariului este disponibil pentru a se reconcilia pe o factură viitoare cu costurile reale. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

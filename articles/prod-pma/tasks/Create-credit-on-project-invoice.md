@@ -39,3 +39,6 @@ ms.locfileid: "4082773"
 10. Faceţi clic pe OK. 
 
 După acest pas, Nota de credit va fi disponibilă pentru Propunerea de factură.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Selectați **Rezervare** pentru resursa generică și apoi puteți folosi tablou
 Când resursa generică este îndeplinită cu o anumită resursă, resursa generică este scoasă din echipă și atribuirile de sarcini pentru resursa generică sunt atribuite resursei indicate care a îndeplinit cerința de resurse a resursei generice.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

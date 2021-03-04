@@ -52,3 +52,6 @@ Un client contract poate fi creat, actualizat sau șters din fila **Clienți** d
 Procentele de facturare împărțite pot fi editate utilizând experiența de editare la rând din grilă. Atunci când procentajele de împărțire a facturării nu totalizează 100%, veți primi o eroare. După ce editați procentele de facturare împărțite, reîmprospătați pagina pentru a îndepărta eroarea.
 
 De asemenea, puteți selecta **Distribuiți uniform** pe subgrila **Clienți contractuali** pentru a aloca fracțiuni de facturare în mod egal tuturor clienților contractuali. Dacă există un factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții contractului este întotdeauna etichetat ca client de **rotunjire**, ceea ce înseamnă că înregistrarea clientului contractului are marcajul de rotunjire setat la **Da**. De obicei, acesta este clientul principal al contractului, dar poate fi schimbat și el.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

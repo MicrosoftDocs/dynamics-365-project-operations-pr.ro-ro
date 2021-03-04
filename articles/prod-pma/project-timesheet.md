@@ -96,3 +96,6 @@ Clic **Trimitere** pentru a trimite foaia de pontaj la fluxul de lucru de aproba
 ## <a name="review-timesheets"></a>Examinați fișele de pontaj
 
 O listă a foilor de pontaj care trebuie revizuite este disponibilă în meniu. Această opțiune este disponibilă numai dacă ați fost desemnat ca aprobator al fluxului de lucru. Sunt acceptate atât aprobarea antetului, cât și a liniei. Aprobarea la nivel de linie oferă posibilitatea de a marca una sau mai multe linii pentru aprobare. După examinarea informațiilor din foaia de timp, faceți clic pe **Aprobare** , **Delegare** sau **Întoarcere** pentru a continua fluxul de lucru.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

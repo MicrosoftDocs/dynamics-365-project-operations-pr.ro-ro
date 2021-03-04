@@ -104,3 +104,6 @@ Pentru a ajuta managerii de proiect sau de resurse pentru drill down mai mult pe
 
 3. Selectați **Salvare** , apoi închideți pagina.
 4. Din fila **Competențe** , adăugați abilitatea **ProjectMgmt** și certificatul **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

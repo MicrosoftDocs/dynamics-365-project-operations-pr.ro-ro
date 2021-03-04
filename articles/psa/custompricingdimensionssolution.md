@@ -68,3 +68,6 @@ Va trebui să adăugați următoarele entități Project Service la soluția dvs
 > ![Nu includeți toate componentele corelate](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

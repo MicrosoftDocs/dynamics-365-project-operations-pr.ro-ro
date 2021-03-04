@@ -32,3 +32,6 @@ Orice proiect care nu este asociat cu un contract în Dynamics 365 Project Opera
 După ce tranzacțiile sunt înregistrate în proiect, dacă proiectul este asociat cu un contract de proiect, sistemul anulează toate tranzacțiile acumulate și creează noi tranzacții facturabile. Tranzacțiile facturabile respectă regulile contabile definite în costul proiectului respectiv și în profilul de venituri.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

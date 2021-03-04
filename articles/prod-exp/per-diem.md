@@ -28,3 +28,6 @@ ms.locfileid: "4960037"
 O *diurnă* este o indemnizație care se plătește unui lucrător care călătorește pentru muncă. În gestionarea cheltuielilor, puteți crea reguli pentru diurnă pentru diferite situații de călătorie. Tarifele diurnei se pot baza pe perioada anului, locația călătoriei sau ambele. Când creați o regulă de diurnă, puteți specifica că un procent din rata diemului va fi reținut dacă un lucrător primește mese sau servicii gratuite. De asemenea, puteți seta un număr minim și maxim de ore pe care le poate aplica tariful diurnei pentru călătoria unui lucrător.
 
 Calculul unei sume totale de diurnă se bazează pe datele de începere și de încheiere pe care le puteți seta pe pagina **Diurne**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

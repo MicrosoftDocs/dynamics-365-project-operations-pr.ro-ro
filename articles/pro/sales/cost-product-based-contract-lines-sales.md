@@ -30,3 +30,6 @@ Când se creează o linie contractuală bazată pe produs pentru un produs de ca
 Având un cost unitar pe o linie de contract bazată pe produse, vă permite a avea costuri diferite ale produsului pentru fiecare vânzare a unei unități. Deși nu sunt întotdeauna necesare, există anumite scenarii în care costul produsului poate fi redus pentru client de către furnizor. Luați în considerare următorul scenariu:
 
 Fabrikam Robotics instalează brațe robotizate pe liniile de asamblare ale Adatum Corporation. Fabrikam oferă servicii de instalare, dar brațele robotice provin de la Trey Research. Dacă instalarea brațelor robotizate la Adatum Corporation deschide o nouă verticală a industriei pentru brațele de la Trey Research, aceștia ar putea acorda Fabrikam o reducere specială pentru această ofertă. În acest caz, Fabrikam creează o linie contractuală bazată pe produse pentru Brațe robotice. Pentru acest contract se introduce un cost pe unitate. Costul este diferit de costul brațelor robotice de la Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Dacă oferta de proiect care este închisă ca Pierdută are un proiect la care 
 
 > [!NOTE]
 > În Project Operations, închiderea unei cotații ca Câștigat sau Pierdut nu va avea un impact asupra stării oportunității, care va rămâne deschisă până când va fi închisă manual.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

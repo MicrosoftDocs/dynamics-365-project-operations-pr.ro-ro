@@ -74,3 +74,6 @@ Puteți genera prețuri fixe de repere manual atunci când nu sunt împărțite 
 | Taxe | Creare rapidă | Suma impozitului aplicată la reper. | Acest lucru este copiat la reperul datei scadente a liniei contractului de proiect și la factură. |
 
 3. Selectați **Salvare și închidere**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

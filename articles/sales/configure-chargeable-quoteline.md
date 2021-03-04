@@ -53,3 +53,6 @@ O estimare sau o dată reală creată pentru o cheltuială va fi considerată fa
 | Nicio | Da | Nu se poate seta | Netaxabil | Facturare la un timp real: Nu este disponibil </br>Tipul de facturare pentru o cheltuială reală: Netaxabil |
 | Da | Nicio | Taxabil | Nu se poate seta | Facturare la un timp real: Taxabil </br>Tipul de facturare pentru o cheltuială reală: Indisponibil |
 | Da | Nicio | Netaxabil | Nu se poate seta | Facturare la un timp real: Netaxabil </br> Tipul de facturare pentru o cheltuială reală: Indisponibil |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

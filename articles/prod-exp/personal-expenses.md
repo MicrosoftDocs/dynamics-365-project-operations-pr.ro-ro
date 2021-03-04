@@ -33,3 +33,6 @@ Există două metode de gestionare a cheltuielilor personale ale unui lucrător:
 - **Plătit de companie** - Organizația dvs. plătește întreaga factură pentru cardul de credit al companiei și apoi debitează contul lucrătorului pentru cheltuielile personale.
 
 Puteți selecta metoda pe care organizația dvs. o folosește pe pagina **Parametrii de gestionare a cheltuielilor**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

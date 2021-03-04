@@ -52,3 +52,6 @@ Firma dumneavoastră organizează probabil afaceri de consultanță după geogra
   
 ### <a name="see-also"></a>Consultați și  
  [Configurați Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

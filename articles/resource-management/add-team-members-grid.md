@@ -200,3 +200,6 @@ Când vizualizați timpul la nivele mai înalte, celulele din fila **Reconcilier
 DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări pe formularul **Proiecte**, pe fila **Reconciliere**, selectați deficitul de rezervare și apoi selectați **Extindeți rezervarea**. Apare caseta de dialog **Extindere rezervare** și afișează rezervarea necesară pentru a aborda deficitul resursei. Caseta de dialog arată și rezervările existente ale resursei în toate proiectele sau alte entități care pot fi planificate. Dacă selectați **OK** pentru a crea rezervarea pentru resursă, indiferent de disponibilitatea acelei resurse, este posibil să cauzați o suprarezervare.
 
 Managerul de proiect sau managerul de resurse pot utiliza apoi Panoul de planificare pentru a gestiona orice situații în care o resursă este suprarezervată peste capacitate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Următoarele câmpuri pentru costurile și vânzările planificate, reale și r�
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

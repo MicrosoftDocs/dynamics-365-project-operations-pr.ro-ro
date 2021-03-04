@@ -49,3 +49,6 @@ Cu aplicația Project Finder Mobile de pe [!INCLUDE[tn_iphone](../includes/tn-ip
   
 ### <a name="see-also"></a>Consultați și  
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

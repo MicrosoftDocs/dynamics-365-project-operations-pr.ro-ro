@@ -52,3 +52,6 @@ Parcurgeți pașii următori pentru a actualiza și a înregistra din nou insert
 7. Selectați **OK** pentru a închide pagina, apoi selectați **Actualizare pas**.
 8. Repetați pașii 2-7 pentru al doilea insert, **PreOperationQuoteLineDetail**. Pentru acest insert, trebuie să actualizați pasul **Update of msdyn_quotelinetransaction**.
 9. Închideți **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

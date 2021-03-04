@@ -120,3 +120,6 @@ Ca și ratele de facturare, ratele de cost pentru resurse umane sunt, de asemene
     1. Lista de prețuri de cost care este atașată la unitatea organizațională.
     2. Lista de prețuri de cost care este atașată la parametrii Project Operations. Deoarece listele de prețuri de cost în mai multe monede diferite pot fi atașate la parametrii, o potrivire de monedă este finalizată între moneda unității organizaționale contractante a proiectului, contractului sau ofertei și moneda din lista de prețuri de cost.
     3. Pentru cheltuieli, metodele de tarifare la cost și de tarifare cu adaos peste cost nu se aplică listelor de prețuri de cost. Chiar dacă aceste metode de tarifare sunt utilizate pe linii de listă de prețuri de cost pentru a configura costurile categoriei de tranzacții, sistemul le ignoră și nu este introdus niciun preț de cost implicit.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

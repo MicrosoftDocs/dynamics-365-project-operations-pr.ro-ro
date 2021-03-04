@@ -62,3 +62,6 @@ S-au remediat următoarele probleme:
 - Listele **Preț cost unitate organizațională** permit suprapunerea efectivității datei.
 - Utilizatorii nu au voie să schimbe **OrgUnit** când tipul de comandă nu este bazat pe lucru, deoarece va duce la o eroare nulă de excepție de referință.
 - Când încercați să navigați din formularul **Detalii despre linie de ofertă**, înapoi la fila **Oferta**, formularul reîmprospătează și afișează fila **Rezumat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

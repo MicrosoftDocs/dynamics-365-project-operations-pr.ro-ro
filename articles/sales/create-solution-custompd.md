@@ -64,3 +64,6 @@ Adăugați următoarele entități Project Service la soluția dvs. de stabilire
 5.  Când vi se solicită să includeți entități dependente pentru entitățile selectate, selectați **Nu, nu includeți componentele necesare.**
 
     ![Inclusiv entități dependente](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

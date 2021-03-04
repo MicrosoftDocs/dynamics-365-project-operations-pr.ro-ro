@@ -60,3 +60,6 @@ Din grila membrilor echipei, pot fi întreprinse următoarele acțiuni:
 
 - **Nou**: Pe lângă adăugarea de resurse direct din planificare, managerii de proiect pot adăuga membrii echipei noi numiți sau generici din grila membrilor echipei.
 - **Șterge**: Prin selectarea unuia sau mai multor membri ai echipei, managerul de proiect poate șterge resursele care nu vor mai participa la proiect. Ștergerea unui membru al echipei va șterge, de asemenea, toate atribuirile de resurse asociate și va anula toate rezervările existente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

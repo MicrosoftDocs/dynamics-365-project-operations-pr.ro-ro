@@ -85,3 +85,6 @@ După ce au fost create câteva intrări de timp, utilizatorii pot crea mai mult
 
 ## <a name="import"></a>Import
 Același proces de bază este utilizat pentru importul din rezervări, misiuni și schimburi. Aveți posibilitatea să specificați intervalul de date din care sunt importate rezervările și apoi selectați în mod explicit rezervări care ar trebui copiate în intrări de timp schiță. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

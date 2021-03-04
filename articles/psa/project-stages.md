@@ -65,3 +65,6 @@ Când lucrarea pentru proiect este finalizată, managerul de proiect poate actua
 ## <a name="close"></a>Închidere
 
 Când toate tranzacțiile sunt înregistrate pentru proiect, managerul de proiect poate actualiza etapa la **Închidere**. În acel moment, nu pot fi înregistrate tranzacții, iar proiectul este setat la doar în citire.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Prețurile de vânzare se aplică o dată pe tranzacție. Ierarhia pentru lista 
 1. Organizație
 2. Client
 3. Ofertă/contract
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

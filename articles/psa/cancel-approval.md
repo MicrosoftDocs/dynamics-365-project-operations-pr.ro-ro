@@ -62,3 +62,6 @@ Un proiect este, de asemenea, afectat financiar atunci când o aprobare este anu
 Apoi, intrările de inversare sunt create în tabelul Valori reale. Pentru a crea intrări de inversare, sistemul copiază peste valorile câmpului din valorile reale inițiale. Singurele valori peste care nu se copiază sunt valorile cantitative. Aceste valori sunt inversate în schimb. Valori reale inversate sunt create atât pentru valorile reale **Cost**, cât și **Vânzări nefacturate**. Câmpul **Stare ajustare** din valorile reale inversate este setat la **Neajustabil**, iar starea de facturare este setată la **Anulat**.
 
 După efectuarea acestor modificări, suma înregistrată ca fiind cheltuită pe proiect și restanțele de venituri de pe proiect nu vor mai totaliza sumele pe care le reprezintă aceste date reale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

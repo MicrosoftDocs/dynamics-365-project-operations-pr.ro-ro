@@ -98,3 +98,6 @@ Când procesați sumele bugetare rămase, puteți crea tranzacții în registrul
 5. Pentru fiecare proiect pe care doriți să îl procesați, selectați opțiunea de la începutul liniei pentru proiect. 
 6. Selectați **Proces** pentru a transfera sumele bugetare rămase pentru proiectele selectate în exercițiu financiar selectat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

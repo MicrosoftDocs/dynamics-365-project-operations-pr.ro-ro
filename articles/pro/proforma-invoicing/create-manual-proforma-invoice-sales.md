@@ -35,3 +35,6 @@ Toate facturile de proiect create sunt disponibile pe pagina **Factură fiscală
 O factură proformă poate fi creată și din pagina de detalii a **Contract de proiect**. Sistemul verifică dacă contractul de proiect are un registru **Gata de facturat** cu dată anterioară celei de azi. Din aceste contracte, sistemul creează proiecte de facturi proforma pe baza numărului de clienți de pe fiecare linie de contract.
 
 Când este creată o singură factură proforma, se deschide pagina **Factura fiscala**. În cazul în care sunt create mai multe facturi pentru respectivul contract de proiect, se deschide pagina care conține lista de **Facturi** pentru a afișa toate facturile create.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

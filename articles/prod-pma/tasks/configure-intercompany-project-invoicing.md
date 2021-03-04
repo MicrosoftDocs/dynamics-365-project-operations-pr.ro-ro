@@ -64,3 +64,6 @@ Acest subiect arată cum să configurați facturarea proiectului între două co
 32. În câmpul **Preț** , introduceți un număr.
 33. Selectați **Salvare**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

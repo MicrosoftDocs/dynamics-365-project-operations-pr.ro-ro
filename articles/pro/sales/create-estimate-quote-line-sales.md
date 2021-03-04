@@ -67,3 +67,6 @@ Moneda din detaliul liniei de ofertă pentru valorile implicite de cost din list
 Calculele de rentabilitate convertesc suma din detaliile liniei de ofertă pentru costuri și vânzări în moneda de bază a mediului pentru a raporta marja generală estimată la ofertă.
 
 Acest lucru ar putea duce la erori de rotunjire a valutei și la modificarea marjelor din cauza lipsei ratelor de schimb efective de dată. Utilizați aceste calcule în cotațiile proiectului doar ca aproximări și nu raportări statutare sau de altă natură care necesită o precizie mai mare a rotunjirii și conștientizarea efectivității datei pentru ratele de schimb.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

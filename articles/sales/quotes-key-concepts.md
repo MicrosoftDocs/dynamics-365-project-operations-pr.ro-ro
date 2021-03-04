@@ -128,3 +128,6 @@ Pentru o linie de ofertă cu preț fix, aveți posibilitatea să utilizați gril
 - Pentru a crea jaloane de facturare care sunt împărțite în mod egal, selectați o frecvență a facturilor, introduceți data de începere a facturării pe linia de ofertă și selectați **Dată de finalizare solicitată** pentru ofertă în secțiunea **Rezumat** a antetului de ofertă. Apoi selectați **Generare jaloane periodice** pentru a crea jaloane divizate în mod egal pe baza frecvenței selectate a facturilor. 
 - Pentru a crea un jalon de facturare cu sumă forfetară, creați un jalon, apoi introduceți valoarea liniei de ofertă ca sumă a jalonului.
 - Pentru a crea jaloane de facturare care se bazează pe anumite activități din planul de proiect, creați un jalon și mapați-l la elementul de planificare al proiectului în IU pentru jaloanele de facturare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

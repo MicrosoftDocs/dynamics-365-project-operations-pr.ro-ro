@@ -63,3 +63,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
   - Remediat: Nu mai primiți un mesaj de eroare **Cercetare proiect** în formularul **Linie de ofertă** când există mai mult de 1000 de proiecte.
   - Remediat: gria **Estimări** pentru estimările forței de muncă și estimările cheltuielilor afișează acum simbolul corect al monedei.
   - Remediat: După ce o organizație actualizează PSA de la Update Release 14 la Update Release 15, fila **Planificare** nu mai apare la fel de goală pe formularul **Proiect**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

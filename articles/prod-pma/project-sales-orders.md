@@ -41,3 +41,6 @@ Puteți crea comenzi de vânzare bazate pe proiecte în două moduri:
 - Accesați proiectul în sine. În panoul de acțiuni, selectați **Gestionați > Sarcini articol > Comandă de vânzare**. Informațiile despre proiect vor fi implicite pentru comanda de vânzare din proiect. Dacă contractul de proiect are mai multe surse de finanțare, va trebui să selectați sursa de finanțare pentru a seta clientul pentru comanda de vânzare. Dacă există o singură sursă de finanțare pentru proiect, clientul va fi setat automat.
 - Accesați pagina de listă **Comanda toate vânzările** și creați o nouă comandă de vânzări. Va trebui să selectați proiectul pentru comanda de vânzare. După selectarea proiectului, clientul va fi setat din sursa de finanțare sau va trebui să selectați sursa de finanțare dacă contractul de proiect are mai multe surse de finanțare.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

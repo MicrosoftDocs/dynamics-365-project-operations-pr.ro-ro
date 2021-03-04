@@ -36,3 +36,6 @@ Utilizați Lifecycle Services (LCS) pentru a vă gestiona mediile Dynamics 365 P
 
 Utilizați acest proiect LCS pentru a vă implementa mediul Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

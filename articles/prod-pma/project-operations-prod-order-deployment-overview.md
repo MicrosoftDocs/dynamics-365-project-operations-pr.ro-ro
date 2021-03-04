@@ -43,3 +43,6 @@ Selectați acest tip de implementare pentru a utiliza Dynamics 365 Project Opera
 - Un motor de impozitare pe vânzări și un curs de schimb pentru a genera facturi orientate către clienți pentru proiecte.
 - Un sistem de contabilitate a proiectelor și de recunoaștere a veniturilor conform standardelor internaționale de raportare financiară (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

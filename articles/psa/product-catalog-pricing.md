@@ -64,3 +64,6 @@ Entitățile de oportunitate, ofertă și contract de proiect utilizează următ
 În mod implicit, câmpul **Produs** din linia de ofertă listează toate produsele active din lista de prețuri de produs a ofertei. Dacă un produs a fost inactivat sau dacă este o schiță de produs, aceasta nu este listată, chiar dacă este în lista de prețuri. 
 
 Linii de catalog de produse sunt adăugate ca linii de factură pe prima factură care este creat pentru un contract de proiect. Pe o schiță de factură, aceste linii de factură pot fi șterse. În acest caz, liniile vor apărea pe o factură ulterioară până când sunt facturate sau până când factura este trimisă clientului. În PSA, nu se poate factura o cantitate parțială a unei linii de factură de produs. Când liniile de produs din contractul de proiect sunt facturate, se creează date reale. Cu toate acestea, aceste date reale nu sunt legate de entitatea de proiect corelată. Cu alte cuvinte, liniile de contract de proiect bazate pe produse sunt independente de orice utilizare bazată pe proiect. PSA nu urmărește consumul de materiale pe proiecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

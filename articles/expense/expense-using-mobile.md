@@ -236,3 +236,6 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 22. Selectați **Remitere**.
 23. Introduceți orice comentariu pentru aprobator.
 24. Selectați **Terminat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

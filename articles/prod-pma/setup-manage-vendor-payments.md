@@ -80,3 +80,6 @@ Atunci când un furnizor își finalizează lucrările la un proiect și vă tri
 2. Pe pagina **Facturile furnizorului cu plată la plată** , în câmpul de căutare, introduceți valori pentru a găsi factura furnizorului pe care doriți să o examinați, apoi selectați **Căutare**.
 3. Pe FastTab **Linii de facturare a furnizorului** , selectați liniile pe care doriți să le modificați.
 4. Dacă condițiile **Plătește când este plătit** sunt îndeplinite pentru linia de facturare, selectați **Eliberați plata furnizorului**. Opțiunea **Plătește când este plătit** este ștearsă, iar valoarea câmpului **Gata pentru plată** este schimbată în **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

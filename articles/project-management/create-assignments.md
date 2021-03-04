@@ -42,3 +42,6 @@ Puteți utiliza caseta de căutare în **Selector de resurse** pentru a căuta t
 1. Din grila de activități, tablă sau cronologie, navigați la celula **Atribuit la**.
 2. În caseta de căutare, începeți să tastați un nume. Rezultatele căutării sunt afișate în **Selectorul de resurse** în **Alte resurse**.
 3. Selectați resursa pe care doriți să o alocați sarcinii sau selectați numele resursei de mai jos sub **Alte resurse ale echipei**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

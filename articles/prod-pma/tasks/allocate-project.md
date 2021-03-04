@@ -44,3 +44,6 @@ După ce a fost alocat un buget sau o revizuire a bugetului, puteți revizui sum
 10. Când alocarea este așa cum doriți, faceți clic pe Trimiteți în pagina Buget proiect pentru a trimite bugetul sau revizuirile bugetului la fluxul de lucru de aprobare.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

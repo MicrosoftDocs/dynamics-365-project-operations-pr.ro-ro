@@ -344,3 +344,6 @@ DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări pe pa
 ![Caseta de dialog extindere rezervare](media/Resource-Management-image58.png)
 
 Managerul de proiect sau managerul de resurse pot utiliza apoi Panoul de planificare pentru a gestiona orice situații în care o resursă este suprarezervată peste capacitate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

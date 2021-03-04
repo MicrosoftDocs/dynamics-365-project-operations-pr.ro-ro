@@ -70,3 +70,6 @@ Aveți posibilitatea să importați date din rezervările și activitățile de 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Grupați după, sortați, căutați și filtrați capacități
 
 Aveți posibilitatea să grupați și să filtrați intrările de timp după dimensiunile specificate în coloane. În câmpul **Grupare după**, selectați dimensiunea de utilizat pentru filtrarea intrărilor de timp. De asemenea, aveți posibilitatea să sortați înregistrările de intrări de timp în ordine crescătoare sau descrescătoare utilizând săgeata de sortare de pe titlurile coloanelor. În plus, aveți posibilitatea să afișați sau să ascundeți intrările selectând butonul **Filtru** de pe titlurile coloanelor, apoi, în caseta **Căutare**, introduceți textul care ar trebui utilizat pentru a căuta intrările de timp după numele proiectului, activitatea proiectului, intrarea de timp sau resursă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

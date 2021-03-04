@@ -36,3 +36,6 @@ Există două modalități prin care un manager de proiect poate reproiecta efor
 - Suprascrie procentul progresului implicit cu o nouă estimare a progresului real asupra activității.
 
 Fiecare dintre aceste abordări cauzează o recalculare a activității ETC, estimarea la realizare (EAC) și procentajul de progres, precum și varianța de efort proiectată pentru o activitate. EAC, ETC, și procentul de progres cu privire la activitățile de sinteză sunt recalculate, și produce o nouă proiecție a varianței efortului.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

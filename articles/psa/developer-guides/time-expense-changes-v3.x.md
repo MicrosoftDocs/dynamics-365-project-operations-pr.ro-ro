@@ -32,3 +32,6 @@ ms.locfileid: "5148613"
 Anterior, calendarul și grila de vizualizări pentru timp și cheltuieli au fost implementate drept controale DHTMLX. Artefactele legate de faptul că punerea în aplicare a vizualizărilor de calendar și grilă sunt acum învechite (perimate).
 
 Pentru lista completă a resurselor perimate, consultați [Resurse web perimate în Project Service Automation 3. x.](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

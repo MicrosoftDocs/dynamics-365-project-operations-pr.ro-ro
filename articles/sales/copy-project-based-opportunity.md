@@ -34,3 +34,6 @@ Oportunitățile de proiect pot fi copiate cu ușurință pentru a crea noi opor
     | Copiați prețul | O valoare Da/Nu care indică dacă prețul oportunității ar trebui copiat din oportunitatea sursă. | Dacă **Da** este selectat, listele de prețuri sunt copiate de la sursă la oportunitatea țintă. Dacă **Nu** este selectat, listele de prețuri sunt setate implicit pe baza celor mai recente liste de prețuri care au fost configurate. |
 
 3. Selectați **OK**. Sistemul creează o copie a oportunității de proiect pe baza parametrilor selectați și noua oportunitate de proiect este deschisă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

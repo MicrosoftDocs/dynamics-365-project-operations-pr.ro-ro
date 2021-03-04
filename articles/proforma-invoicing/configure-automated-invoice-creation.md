@@ -45,3 +45,6 @@ Lucrarea proces de lot pentru crearea facturilor este o lucrare recurentă. Dac�
 
 > [!NOTE]
 > Facturarea în serie se execută numai pentru liniile de contract ale proiectului care sunt configurate de planurile de facturare. O linie de contract cu o metodă de facturare a prețurilor fixe trebuie să aibă configurate repere. O linie de contract de proiect cu o metodă de facturare a timpului și a materialului va avea nevoie de o planificare a facturilor pe bază de date. Același lucru este valabil și pentru o linie de contract bazată pe proiect.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

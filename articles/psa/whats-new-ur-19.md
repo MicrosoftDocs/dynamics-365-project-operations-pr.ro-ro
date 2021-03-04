@@ -66,3 +66,6 @@ S-au remediat următoarele probleme:
 - Clienții pot experimenta performanțe degradate atunci când creează un proiect deoarece **GetBookableResourceIdFromUser** preia toate coloanele de resurse rezervabile în loc de doar ID-ul primar.
 - Entitatea **TransactionType** de unde lipsește insertul de actualizare a pre-validării pentru a împiedica accesul utilizatorilor **Unități** și **UnitGroups** care nu sunt valabile pentru tipurile de tranzacții.
 - Pasul **Elimină** nu funcționează pentru importul de intrare în timp.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

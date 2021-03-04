@@ -231,3 +231,6 @@ Următorul tabel prezintă modul în care datele sunt sincronizate între Projec
 
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ O listă cu toate contractele de proiect poate fi văzută pe pagina listei **Co
 2. Selectați **Vizualizare comutator** (săgeata în jos de lângă numele vizualizării) pentru a selecta alte vizualizări filtrate. Vă puteți crea propriile vizualizări cu criterii de filtrare personalizate.
 
 Contractele pot fi create sau șterse din această pagină de listă sau pagini de detalii.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

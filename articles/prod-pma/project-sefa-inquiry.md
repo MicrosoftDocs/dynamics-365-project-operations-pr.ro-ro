@@ -104,3 +104,6 @@ Ancheta privind planificarea cheltuielilor pentru Federal Awards include următo
 - Catalogul asistenței interne federale
 - Chitanțe
 - Cheltuieli
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

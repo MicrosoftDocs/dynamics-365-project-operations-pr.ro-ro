@@ -123,3 +123,6 @@ Când lucrați cu entitatea **Valoare reală**, este important să înțelegeți
 Entitatea **Origine tranzacție** înregistrează originea înregistrării **Valoare reală** și entitatea **Conexiune tranzacție** înregistrează înregistrările corelate pentru înregistrarea **Valoare reală**. În plus, înregistrarea **Valoare reală** conține referințe la proiect, contractul de proiect (comanda), resursa care se poate rezerva și client.
 
 ![Diagrama care arată conexiunea tranzacției, originea și relațiile reale](media/PS-Reporting-image6.png "Diagrama care arată conexiunea tranzacției, originea și relațiile reale")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

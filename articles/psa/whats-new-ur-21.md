@@ -77,3 +77,6 @@ S-au remediat următoarele probleme:
 - Logica **Rezolvare listă prețuri de vânzare** gestionează în mod necorespunzător zonele orare, rezultând în selecția incorectă a listelor de prețuri.
 - **Costul real total** al unui proiect poate fi decalat cu o sumă fracționată după aprobarea unei singure intrări.
 - Logica **Rezoluția prețurilor** nu oferă un mesaj de eroare ușor de utilizat dacă **Preluare RolePrice** nu are valori în câmpurile **„Unitate primară”** și **„Preț în unitatea primară”**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

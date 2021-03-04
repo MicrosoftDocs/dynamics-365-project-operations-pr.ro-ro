@@ -51,3 +51,6 @@ Frecvențele de facturare [!INCLUDE[pn_project_service_auto](../includes/pn-proj
   
 ### <a name="see-also"></a>Consultați și  
  [Configurarea Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

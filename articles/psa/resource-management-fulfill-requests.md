@@ -46,3 +46,6 @@ Asistentul de planificare apare și este filtrat după cerințe. Selectați resu
 > ![Resursa selectată](media/Resource-Management-image61.png)
 
 Membrul de echipă generic este înlocuit cu resursa numită rezervată ferm în echipa de proiect și în atribuirile de activități din planificarea proiectului.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

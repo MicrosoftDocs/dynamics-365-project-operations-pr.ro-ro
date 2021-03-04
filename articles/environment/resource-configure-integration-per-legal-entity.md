@@ -51,3 +51,6 @@ Fiecare persoană juridică care folosește Project Operations pe Dynamics 365 C
   - **Tip implicit de facturare**: Project Operations utilizează un set fix de valori implicite de tip facturare care trebuie mapate la proprietățile liniei Finanțare. Creați o înregistrare pentru fiecare tip de facturare: **Nespecificat**, **Taxabil**, **Netaxabil**, **Gratuit**, și **Nu e disponibil**.
   - **Categorii de proiecte implicite**: Selectați categoriile implicite de proiect care vor fi utilizate pentru fiecare tip de tranzacție. Aceste valori implicite vor fi utilizate în **Jurnal de integrare a Project Operations** și în estimări în care nu este specificată nicio categorie de tranzacții pentru proiectul real.
   - **Prognoze**: Selectați modelul de prognoză care va fi utilizat pentru estimări de timp și cheltuieli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

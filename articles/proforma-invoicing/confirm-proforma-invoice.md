@@ -198,3 +198,6 @@ O vânzare facturată efectivă pentru suma de jalon de pe jalonul original de p
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

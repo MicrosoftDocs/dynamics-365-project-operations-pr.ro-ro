@@ -77,3 +77,6 @@ Datele de lansare vizate pot fi modificate. Pentru informații suplimentare, con
 | --- | --- |
 | 10.0.17 | 19 martie 2021 |
 | 10.0.18 | 16 aprilie 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

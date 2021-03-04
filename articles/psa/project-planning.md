@@ -52,3 +52,6 @@ Următoarele subiecte furnizează informații care vor ajuta managerii de proiec
 - [Șabloane de proiect](project-templates.md)
 - [Etape de proiect](project-stages.md)
 - [Setări de proiect](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

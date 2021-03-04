@@ -48,3 +48,6 @@ Capacitățile [!INCLUDE[pn_project_service_auto](../includes/pn-project-service
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)   
  [Ghidul Managerului de resurse](../psa/resource-manager-guide.md)   
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

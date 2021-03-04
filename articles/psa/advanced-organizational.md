@@ -167,3 +167,6 @@ Dacă compania dumneavoastră operează ca o singură unitate care are o listă 
 Când un proiect este creat pe cont propriu, unitatea contractantă implicită a proiectului se bazează pe utilizatorul care îl creează. Acest utilizator este, de asemenea, managerul de proiect implicit. Dacă proiectul este mapat la o entitate de vânzări, cum ar fi o ofertă sau un contract de proiect, unitatea contractantă din proiect se bazează în schimb pe entitatea de vânzări. În acest caz, estimările proiectului pot fi recalculate, deoarece lista de prețuri de cost este utilizată pentru a calcula modificările costului estimat dacă unitatea contractantă este schimbată. Lista de prețuri de vânzări este utilizată pentru a calcula estimările de vânzări care vor fi modificate astfel încât să fie sincronizate cu lista de prețuri a proiectului din ofertă.
 
 Câmpurile **Unitate contractantă** și **Monedă** din proiect sunt blocate pentru editare, deoarece acestea trebuie să fie sincronizate cu valorile din entitatea de vânzări (ofertă sau contract de proiect) la care este mapat proiectul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

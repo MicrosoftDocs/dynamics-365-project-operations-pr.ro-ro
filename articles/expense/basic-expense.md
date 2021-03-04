@@ -55,3 +55,6 @@ Cheltuielile care nu au fost încă trimise pot fi șterse. Pentru a șterge o c
 ## <a name="see-also"></a>Consultați și
 
 - [Prezentare generală a aprobărilor](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

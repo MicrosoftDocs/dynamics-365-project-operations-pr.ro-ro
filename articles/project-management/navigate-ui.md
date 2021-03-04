@@ -102,3 +102,6 @@ Următorul este o scurtă prezentare generală a controalelor tipice găsite în
 **Adăugați coloană**: Permite utilizatorului să definească coloanele vizibile din grilă. Doar coloanele care nu sunt disponibile pot fi adăugate la grilele din formularul **Planificarea proiectului**.
 
 ![Adăugați buton de coloană](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

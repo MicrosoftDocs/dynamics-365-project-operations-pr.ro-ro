@@ -61,3 +61,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
     - Remediat: ID-uri de duplicare ale obiectului găsite pe formularul **Contract principal**.
     - Remediat: Logica a fost actualizată pentru a face vizibilă fila **Analiza ofertelor**, astfel încât să afișeze configurația de metadate a filei.
     - Remediat: data contabilității înregistrării efective vine acum de la data intrării timpului/cheltuielilor și nu a datei aprobării.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

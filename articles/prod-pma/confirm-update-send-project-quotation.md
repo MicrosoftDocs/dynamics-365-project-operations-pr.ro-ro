@@ -57,3 +57,6 @@ Pentru a modifica o ofertă de proiect existentă, starea ofertelor trebuie să 
 
 > [!NOTE]
 > Nu puteți modifica o ofertă de proiect după ce starea este schimbată în **Trimis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

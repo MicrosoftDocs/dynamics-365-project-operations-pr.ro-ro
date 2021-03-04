@@ -107,3 +107,6 @@ Opțiuni suplimentare au fost adăugate în WBS pentru a utiliza mai bine funcț
     > Nu primiți un avertisment că resursa specificată este acum 2, deoarece numărul de resurse rămâne 1.
 
 14. Din pagina **Structură detaliată a proiectului** , validați atribuirea resurselor pe WBS, apoi selectați **Salvare**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

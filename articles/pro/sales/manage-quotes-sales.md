@@ -33,3 +33,6 @@ O listă cu toate citatele proiectului poate fi văzută din pagina listei **Ofe
 2. Utilizați **Vizualizați comutatorul** pentru a selecta alte vizualizări filtrate ale ofertelor. Folosind criterii de filtrare personalizate, vă puteți configura propriile vizualizări și opțiuni de navigare.
 
 Cotațiile pot fi create sau șterse din această pagină de listă sau pagini de detalii.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

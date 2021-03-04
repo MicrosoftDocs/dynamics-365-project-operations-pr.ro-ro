@@ -257,3 +257,6 @@ Următorul grafic apare după crearea de liste de prețuri particularizate.
 
 > [!NOTE]
 > Este posibil să apară un decalaj scurt între momentul în care faceți clic pe **Creați prețuri particularizate** și cel la care se creează lista de prețuri particularizate. Recomandăm reîmprospătarea grilei în loc să faceți clic de mai multe ori. S-a creat o listă de prețuri particularizată dacă numele listei de prețuri asociate are numele ofertei sau numele contractului de proiect anexat la acesta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

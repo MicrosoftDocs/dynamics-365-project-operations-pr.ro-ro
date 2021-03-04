@@ -67,3 +67,6 @@ S-au remediat următoarele probleme:
 S-au remediat următoarele probleme:
 
 - **Preluați toate categoriile de tranzacții** la dublu clic creează mai multe linii.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

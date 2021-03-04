@@ -39,3 +39,6 @@ Dacă este activată cheia de gestionare a caracteristicilor **Activați pagina 
 Un delegat poate filtra și căuta rapid rapoartele de cheltuieli existente care le-au fost delegate. De asemenea, delegatul poate crea rapid un nou raport de cheltuieli pentru alți utilizatori, selectând **Nou raport de cheltuieli**.
 
 Delegații pot crea și gestiona rapoarte de cheltuieli pentru alți angajați accesând **Managementul cheltuielilor** > **Cheltuielile mele** > **Rapoarte de cheltuieli** și selectarea **Deschideți cheltuielile altor utilizatori**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

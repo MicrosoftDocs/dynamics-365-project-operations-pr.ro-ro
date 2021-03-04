@@ -90,3 +90,6 @@ Estimarea schimbă starea la **Eliminat**.
 Utilizați această pagină pentru a inversa toate eliminările cu o dată estimată specificată și cu o stare estimată de **Eliminat**. Starea tranzacției se schimbă după ce selectați câmpurile corespunzătoare.
 
 De asemenea, acest lucru schimbă automat starea proiectului în **În curs** dacă etapa proiectului este setată la finalizată. Starea estimată a perioadei proiectului revine la **Postat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

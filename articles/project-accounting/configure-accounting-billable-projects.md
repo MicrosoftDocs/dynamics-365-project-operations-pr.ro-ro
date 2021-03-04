@@ -125,3 +125,6 @@ Preț fix - finalizare procentuală
 Regulile privind profilul și veniturile proiectului determină profilul și costul proiectului care trebuie utilizate la procesarea oricăror tranzacții facturabile. Definiți regulile mergând la **Management de proiect și contabilitate** \> **Configurare** \> **Publicare** \> **Costul proiectului și regulile profilului veniturilor**.
 
 Regulile pot fi definite de contractul de proiect, grupul de proiect sau de un anumit proiect. Sistemul va alege întotdeauna cea mai mare regulă de granularitate mai întâi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Parcurgeți pașii următori pentru a configura facturarea între companii pentr
           - **Firmă de resurse** = **Contoso Robotics UK**
           - **Rata de facturare** = **200 USD**
       9. Accesați **Vânzări** > **Contracte de proiect** și atașați lista de prețuri **Ratele facturilor Adventure Works** la lista de prețuri a proiectului Adventure Works din contractul de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

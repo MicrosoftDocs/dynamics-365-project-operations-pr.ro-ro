@@ -55,3 +55,6 @@ ms.locfileid: "5150323"
   
 ### <a name="see-also"></a>Consultați și  
  [Configurarea Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

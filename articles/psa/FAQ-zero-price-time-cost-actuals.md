@@ -66,3 +66,6 @@ Dacă nu vedeți în continuare un preț valid pe costurile de timp reale după 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

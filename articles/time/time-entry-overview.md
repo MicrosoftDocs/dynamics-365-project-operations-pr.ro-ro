@@ -27,3 +27,6 @@ Membrii echipei de proiect creează și trimit înregistrări de timp pentru apr
 
 Pentru informații despre cum să creați, să trimiteți sau să revocați o intrare și alte instrumente care vă vor ajuta să finalizați raportarea, consultați [Intrarea în timp a comportamentului utilizatorului](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

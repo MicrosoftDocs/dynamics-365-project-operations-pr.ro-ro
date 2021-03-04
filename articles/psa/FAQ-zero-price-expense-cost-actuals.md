@@ -38,3 +38,6 @@ Acest FAQ se aplică cheltuielilor efective în cazul în care clasa de tranzac�
 Mergeți la intrarea pentru cheltuieli conexă și asigurați-vă că există o valoare în câmpul de intrare pentru cheltuieli. Dacă intrarea de cheltuieli inițială nu avea câmpul sumă completat, atunci ați izolat problema.
  
 Pentru a rezolva această problemă, recreați intrarea cheltuieli cu o valoare validă și aprobați-o.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

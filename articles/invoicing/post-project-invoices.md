@@ -30,3 +30,6 @@ Managerul de proiect poate revizui tranzacțiile de vânzare nefacturate folosin
 Puteți [crea manual o factură proformă](../proforma-invoicing/create-manual-proforma-invoice.md) sau să folosiți un [proces periodic](../proforma-invoicing/configure-automated-invoice-creation.md). Managerul de proiect poate [realiza o schiță a unei facturi proforme](../proforma-invoicing/manage-proforma-invoice.md) după cum este necesar și apoi să o confirme.
 
 Factura proformă confirmată este trimisă către modulul **Management de proiect și contabilitate** în Finanțe. Contabilul de proiect formatează și actualizează propunerea de facturare a proiectului, apoi postează și tipărește documentul. Facturile de proiect postate sunt înregistrate în registrul general, precum și în registrele secundare ale clientului și ale proiectului.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ Următoarele actualizări ale privilegiilor de securitate pentru entități sunt
  
  ![Sincronizarea hărții registrului](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

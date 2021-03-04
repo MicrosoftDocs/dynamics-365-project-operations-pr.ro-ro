@@ -53,3 +53,6 @@ Puteți să vă populați proiectul cu o echipă de resurse generice sau numite 
 - [Rezervați resurse numite din cerințele de resurse](book-named-resource.md)
 - [Remiteți o solicitare de resurse](submit-resource-request.md)
 - [Acceptați sau respingeți o resursă de proiect propusă dintr-o solicitare de resursă](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

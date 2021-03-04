@@ -43,3 +43,6 @@ Pentru a crea oferte și facturi pentru clienții dvs. din [!INCLUDE[pn_project_
   
 ### <a name="see-also"></a>Consultați și  
  [Configurarea Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

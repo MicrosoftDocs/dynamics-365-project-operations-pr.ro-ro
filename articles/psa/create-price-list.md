@@ -71,3 +71,6 @@ Listele de prețuri se bazează pe roluri și categorii de cheltuieli, așadar, 
   
 ### <a name="see-also"></a>Consultați și  
  [Configurați Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Pentru a revizui proiectele de estimare a veniturilor cu preț fix, parcurgeți 
 
   Costul proiectului, profilul veniturilor, șablonul de cost și codul perioadei pot fi setate manual. Dacă nu sunt setate manual, valorile sunt implicite în timpul primului calcul estimativ pentru proiect utilizând regulile configurate pentru profilurile de cost și venituri ale proiectului.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

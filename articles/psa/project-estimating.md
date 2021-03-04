@@ -97,3 +97,6 @@ Atât în vizualizarea grilă cât și în vizualizarea pe etape, aveți posibil
 ## <a name="expense-estimates"></a>Estimări de cheltuieli
 
 Butonul **Adăugați o nouă estimare de cheltuieli** în vizualizarea grilă vă permite să înregistrați orice cheltuieli care sunt achitate în proiect, dar care nu sunt direct legate de muncă. Aveți posibilitatea să înregistrați estimările de cheltuieli pentru o anumită activitate sau pentru întregul proiect. Selectați categoriile de cheltuieli și data orientativă atunci când vă așteptați să achite cheltuielile. Dacă lista de prețuri de cost și lista de prețuri de vânzări au prețuri implicite (sau dacă procentele de adaos sunt definite pentru categorii de cheltuială), sunt introduse automat pe linia de estimare când are loc asocierea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

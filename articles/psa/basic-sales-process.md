@@ -93,3 +93,6 @@ Deși procesul de vânzări în PSA utilizează capacitățile de bază ale proc
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Urmărirea comentariilor și aprobărilor de oferte și contracte de proiect
 Puteți gestiona revizuirea și aprobarea ofertelor și a contractelor de proiect utilizând peretele de înregistrări și postările. Organizația dvs. poate crea fluxuri de lucru și inserturi particularizate pentru a atribui, redirecționa, escalada și gestiona notificările de elemente de lucru de revizuire și aprobare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

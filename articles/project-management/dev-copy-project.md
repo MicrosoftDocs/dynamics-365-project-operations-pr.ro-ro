@@ -112,3 +112,6 @@ Următorul exemplu arată cum să apelați acțiunea personalizată **CopiațiPr
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

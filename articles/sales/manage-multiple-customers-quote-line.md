@@ -44,3 +44,6 @@ Tabelul următor arată câmpurile pe înregistrarea de client de linie de ofert
 Puteți modifica procentele de facturare împărțite în linie. Atunci când procentajele de împărțire a facturării nu totalizează 100%, apare o eroare. După editare procentajelor de facturare, actualizați pagina de linie de ofertă pentru a elimina eroarea.
 
 Utilizați acțiunea de distribuire uniformă pe subgrila clienților liniei de ofertă pentru a aloca împărțiri de facturare tuturor clienților din linia de ofertă. Dacă există un factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții liniei de ofertă este întotdeauna etichetat ca client de rotunjire, ceea ce înseamnă că înregistrarea clientului de linie de ofertă are marcajul de rotunjire setat la **Da**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

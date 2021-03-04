@@ -81,3 +81,6 @@ Orice cheltuială care va fi suportată în cadrul proiectului care nu este dire
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

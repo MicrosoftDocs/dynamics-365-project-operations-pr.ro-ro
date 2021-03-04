@@ -41,3 +41,6 @@ Resursele sunt cel mai important activ al unei organizații bazate pe servicii. 
 - [Cerințe de rezervare provizorie](resource-management-softbook-requirements.md)
 - [Modele abilități și competență](resource-management-skills-proficiency.md)
 - [Întrebări frecvente de gestionarea resurselor](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

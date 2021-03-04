@@ -98,3 +98,6 @@ Urmați îndrumările din subiect, [Furnizarea accesului la un mediu nou](resour
 
 Instalați datele de configurare și configurare CDS așa cum este descris în subiect, [Configurați și aplicați datele de configurare în Common Data Service](resource-apply-pro-setup-config-data.md).
 Finalizați acest pas numai după ce mediul de demonstrație Finance este implementat și datele demo din FO sunt gata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

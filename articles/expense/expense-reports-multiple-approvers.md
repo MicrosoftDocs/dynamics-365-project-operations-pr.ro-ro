@@ -41,3 +41,6 @@ Dacă decideți să solicitați mai mulți aprobatori de rapoarte de cheltuieli,
 
     1. Managerul angajatului aprobă raportul de cheltuieli.
     2. Proprietarul bugetului aprobă raportul de cheltuieli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

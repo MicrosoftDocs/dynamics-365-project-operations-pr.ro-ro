@@ -39,3 +39,6 @@ Parcurgeți pașii următori pentru a factura clientului un avans.
     | **Stare factură** | Aceasta este o opțiune care indică dacă acest avans este adăugat la o schiță de factură pentru acest client. Valorile posibile sunt:</br>- **Nu este gata de facturat**</br>- **Gata de facturat** | Când un avans sau plata în avans este marcat ca **Gata de facturare**, este adăugat ca timp de linie pe un proiect de factură. Doar un avans complet facturat poate fi utilizat pentru a se concilia cu costurile proiectului pentru următoarea perioadă de facturare. |
 
 4. Selectați **Salvați și închideți** pe dialogul de creare rapidă pentru a înregistra avansul sau plata în avans.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

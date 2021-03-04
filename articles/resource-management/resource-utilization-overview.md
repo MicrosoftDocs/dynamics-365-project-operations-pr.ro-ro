@@ -45,3 +45,6 @@ Grila necesită să setați o utilizare țintă fie pe rol, fie pe resursa indiv
 În fila **Project Service**, puteți seta, de asemenea, o utilizare țintă individuală pentru resursă. Calculul utilizării folosește apoi acea utilizare țintă pentru a evalua ținta resursei în locul țintei rolului implicit al resursei.
 
 Utilizarea este afișată numai pentru o resursă numai în cazul în care resursa are aprobat timp facturabil în perioada afișată în grilă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

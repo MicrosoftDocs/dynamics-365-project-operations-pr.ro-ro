@@ -45,3 +45,6 @@ Odată ce ați creat un șablon de ore de muncă, va trebuie să-l alocați resu
   
 ### <a name="see-also"></a>Consultați și  
  [Configurați resursele](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

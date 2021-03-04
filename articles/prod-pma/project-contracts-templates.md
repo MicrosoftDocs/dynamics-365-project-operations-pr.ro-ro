@@ -153,3 +153,6 @@ Următoarele ilustrații prezintă exemple de mapări ale sarcinilor șablon în
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Maparea jalonului de linie contract de proiect în proiectele și contractele (PSA 3.x la Dynamics) - șablonul v2:
 
 [![Maparea șablonului de jalon de linie de contract de proiect cu versiunea a doua a șablonului](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

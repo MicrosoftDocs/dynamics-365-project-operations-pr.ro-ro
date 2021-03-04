@@ -26,3 +26,6 @@ Grupurile Office vă permit să partajați un proiect cu alți membri ai echipei
 > [!NOTE] 
 > Utilizatorii sunt adăugați la grup numai dacă apăsați **Grupuri** și adăugați-le. Acest lucru este diferit de comportamentul proiectului pentru web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

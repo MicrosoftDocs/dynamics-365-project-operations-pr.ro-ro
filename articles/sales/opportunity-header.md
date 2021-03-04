@@ -36,3 +36,6 @@ Următorul tabel include câmpurile dintr-o oportunitate bazată pe proiect, car
 | Unitate contractantă | Fila General | Unitatea organizației care este responsabilă pentru livrarea proiectului sau proiectelor asociate acestei tranzacții. | Unitatea contractantă este divizia companiei care va finaliza proiectele după încheierea tranzacției. Fiecare unitate contractantă are o monedă, iar această monedă este utilizată pentru a raporta costurile estimate și reale suportate în timpul proiectului. |
 
 Pentru toate celelalte câmpuri și secțiuni de pe fila **Rezumat** a oportunității, consultați [Creați sau editați oportunități (Vânzări și Hub de vânzări)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

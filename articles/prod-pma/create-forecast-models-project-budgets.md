@@ -57,3 +57,6 @@ Acest subiect descrie cum să creați un model de prognoză pentru bugetele răm
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ S-au remediat următoarele probleme:
 - O excepție de referință nulă este generată atunci când insertul **ObținețiEstimăriPentruProiect** este invocat.
 - Comanda **Marcați gata de facturare** pe grila de repere actualizează doar parțial atributele, cu excepția atributului **Stare factură**, care este actualizat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

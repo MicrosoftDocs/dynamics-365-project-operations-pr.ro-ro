@@ -43,3 +43,6 @@ Configurați categoriile de tranzacții pentru a defini un superset de categorii
   
 ### <a name="see-also"></a>Consultați și  
  [Configurarea Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Proceul de Oportunitate de vânzări în Project Operations este o extensie a pr
 > Dacă afacerea dvs. bazată pe proiect a început cu o oportunitate, procesul de vânzări de oportunitate de vânzări are prioritate.
 
 Puteți edita produsul flux de business sau puteți crea propriile fluxuri de procese de afaceri pentru a vă urmări procesul de vânzare, după cum este necesar. Pentru mai multe informații despre fluxul de business, consultați [Prezentare generală a fluxurilor de business](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

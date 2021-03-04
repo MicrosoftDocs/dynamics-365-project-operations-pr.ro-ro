@@ -62,3 +62,6 @@ Următoarea procedură explică cum se creează o echipă de proiect.
 ## <a name="monitor-project-teams"></a>Monitorizarea echipelor de proiect
 1. Din pagina **Toate proiectele** , selectați linkul **ID proiect** pentru proiectul **Faza 2 de upgrade XYZ**.
 2. Din fila rapidă **Echipa proiectului și planificarea** , verificați dacă resursele proiectului ce sunt listate sunt corecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

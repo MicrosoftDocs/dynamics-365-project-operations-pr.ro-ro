@@ -47,3 +47,6 @@ Acum că ați câștigat oferta pentru proiectul dvs, este timpul să creați un
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de cont](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

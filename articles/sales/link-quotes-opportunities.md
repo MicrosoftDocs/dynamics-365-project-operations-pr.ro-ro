@@ -56,3 +56,6 @@ O ofertă existentă poate fi legată de o oportunitate. Parcurgeți pașii urm�
    Când mutați o oportunitate în această etapă, puteți selecta această ofertă dintr-o listă de oferte asociate acestei oportunități. Selectarea acestei oferte indică faptul că mergeți mai departe cu ea.
 
    Toate celelalte oferte asociate cu oportunitatea vor fi disponibile și active până când una dintre ele va fi câștigată. Puteți muta procesul de vânzare înapoi la etapa anterioară **Calificare** și alegeți o altă ofertă pentru a merge mai departe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

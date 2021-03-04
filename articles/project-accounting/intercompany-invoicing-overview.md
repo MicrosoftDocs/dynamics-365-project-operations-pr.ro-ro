@@ -43,3 +43,6 @@ Următoarea diagramă ilustrează facturarea între companii, în ceea ce prive�
 - [Configurarea facturării între companii](configure-intercompany-invoicing.md)
 - [Înregistrarea tranzacțiilor între companii](create-intercompany-transactions.md)
 - [Crearea de facturi de client și furnizor între companii](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

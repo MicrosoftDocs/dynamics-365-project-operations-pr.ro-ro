@@ -55,3 +55,6 @@ Oportunitățile sunt clienți potențiali imediați de la clienții care sunt i
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de cont](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

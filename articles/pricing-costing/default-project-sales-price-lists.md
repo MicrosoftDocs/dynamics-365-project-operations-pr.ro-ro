@@ -57,3 +57,6 @@ Listele de prețuri de cost nu sunt implicite pentru nicio entitate din Project 
 5. Apoi, sistemul analizează data efectivității listelor de prețuri care se potrivesc cu data estimării primite sau a liniei reale. 
 6. Dacă există mai multe liste de prețuri care sunt valabile pentru data de pe estimarea primită sau reală, este selectată lista de prețuri creată cel mai recent.
 7. Dacă nu există liste de prețuri de cost atașate parametrilor proiectului care să corespundă monedei și datei efective, sistemul face implicită rata de cost la zero (0) pe estimarea de intrare sau pe linia reală.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

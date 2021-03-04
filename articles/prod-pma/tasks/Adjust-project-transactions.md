@@ -44,3 +44,6 @@ Acest ghid de activitate vă arată cum să ajustați o tranzacție pe un proiec
 13. În listă, marcați rândul selectat. 
 14. În câmpul Preț de cost, introduceți un număr. 
 15. Faceți clic pe Postați. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

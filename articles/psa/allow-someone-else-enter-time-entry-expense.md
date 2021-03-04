@@ -93,3 +93,6 @@ Configurați o delegare pentru a permite altcuiva să facă intrări de timp sau
   
 ### <a name="see-also"></a>Consultați și  
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

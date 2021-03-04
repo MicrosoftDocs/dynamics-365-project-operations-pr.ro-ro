@@ -53,3 +53,6 @@ Pentru a configura competențe pentru un angajat, puteți utiliza fie pagina lis
 5. În câmpul **Dată nivel** , selectați **1-/14/2014**.
 6. În câmpul **Ani de experiență** , introduceți **10**.
 7. Selectați **Salvare** , apoi închideți pagina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

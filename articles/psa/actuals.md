@@ -330,3 +330,6 @@ PSA înregistrează tranzacțiile financiare care apar în timpul unui proiect. 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

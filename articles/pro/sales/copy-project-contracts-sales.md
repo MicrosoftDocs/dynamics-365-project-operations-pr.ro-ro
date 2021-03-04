@@ -45,3 +45,6 @@ Următoarele informații nu sunt copiate de la **Sursa** la **Contractul țintă
   - Informații despre bugetul clienților
 
 Deoarece aceste informații sunt specifice fiecărui contract, aceste câmpuri și înregistrări nu sunt copiate. Se copiază liniile de contract pentru proiecte și produse, estimările privind detaliile liniei de contract și valorile care nu trebuie depășite la nivelul contractului. Prețul și costul implicit depind de selecția din câmpul **Preț copiere** de pe pagina de dialog **Copiați parametrii**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

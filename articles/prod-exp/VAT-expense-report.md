@@ -72,3 +72,6 @@ Când Arnie este gata să trimită datele raportului de cheltuieli furnizorului 
 Arnie trebuie să verifice dacă tranzacțiile raportului de cheltuieli sunt eligibile pentru recuperarea TVA și că chitanțele digitale sunt atașate rapoartelor. Pentru a începe procesarea cheltuielilor eligibile pentru recuperarea internă, Arnie deschide pagina **Recuperarea cheltuielilor fiscale** și selectează raportul de cheltuieli care necesită verificare. El verifică dacă chitanțele sunt în numele companiei în locul angajatului. Pentru recuperarea TVA, chitanțele trebuie să fie pe numele companiei. Arnie confirmă apoi că s-au aplicat codurile corecte de impozitare pe vânzări și grupul de taxe pe vânzări.
 
 Când Arnie primește chitanțele pe hârtie, el schimbă starea raportului de cheltuieli în **Gata pentru recuperare**. Apoi poate depune declarația la autoritatea fiscală competentă. În acest caz, autoritatea fiscală corespunzătoare din SUA este Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

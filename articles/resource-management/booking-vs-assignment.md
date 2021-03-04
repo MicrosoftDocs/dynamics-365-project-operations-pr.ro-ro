@@ -26,3 +26,6 @@ Spre deosebire de rezervări, atribuirile sunt angajamentul resurselor la activi
 De obicei, suma rezervărilor pentru o resursă va fi egală cu suma atribuțiilor resursei pentru una sau mai multe sarcini. Cu toate acestea, Project Operations nu pune în aplicare acest acord. Vizualizarea **Reconciliere** arată managerului de proiect unde rezervările unei resurse și atribuirile nu sunt de acord.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

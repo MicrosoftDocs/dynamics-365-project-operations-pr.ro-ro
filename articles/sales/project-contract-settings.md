@@ -58,3 +58,6 @@ Următoarele KPI sunt disponibile pe fila **Executarea contractului** unui contr
 | Cost achitat | Linii bazate pe produs | Suma tuturor costurilor reale înregistrate pentru linia de contract bazată pe produs. |
 | Marjă brută | Linii bazate pe proiect | Suma facturată - Cost suportat până în prezent / Suma facturată |
 | Marjă estimată | Linii bazate pe produs | (Valoarea liniei contractului - Costuri estimate pentru linia contractului) / Valoarea liniei contractului |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

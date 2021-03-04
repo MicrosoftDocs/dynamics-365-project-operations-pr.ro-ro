@@ -45,3 +45,6 @@ Pentru a crea factori de cantitate din proprietățile produsului, urmați aceș
 6. Salvați și închideți formulatul. Repetați acești pași pentru toate proprietățile de utilizat pentru calcularea cantității pentru linia de cotare bazată pe produs.
 
 Când creați o linie de ofertă bazată pe produs pentru un produs, cantitatea liniei de ofertă va fi blocată. Cantitatea va fi calculată ca produs al valorilor proprietății pe care le introduceți pentru acea linie de ofertă.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

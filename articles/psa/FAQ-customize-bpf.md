@@ -107,3 +107,6 @@ Pentru a vă crea propriul flux de business pentru entitatea de proiect, faceți
 
    ![Captură de ecran cu modificarea vizualizărilor pe entitatea proiectului](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

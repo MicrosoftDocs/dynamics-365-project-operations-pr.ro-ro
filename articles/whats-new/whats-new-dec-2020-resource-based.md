@@ -109,3 +109,6 @@ Următoarele caracteristici sunt incluse în această versiune:
 
 ### <a name="regulatory-updates"></a>Actualizări de reglementare
 Pentru informații despre actualizările de reglementare pentru aplicații Finance and Operations, vezi [Actualizări de reglementare](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

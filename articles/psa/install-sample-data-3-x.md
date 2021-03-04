@@ -297,3 +297,6 @@ Selectați un utilizator (de exemplu, Spencer Low) și schimbați orele de lucru
 
 > [!div class="mx-imgBorder"]
 > ![Captură de ecran cu resurse active ce se pot rezerva](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

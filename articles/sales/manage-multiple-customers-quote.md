@@ -51,3 +51,6 @@ Un client de ofertă poate fi creat, actualizat sau șters din fila **Clienți d
 Puteți modifica procentajele de împărțire a facturării utilizând experiența de editare a grilei în linie. Atunci când procentajele de împărțire a facturării nu totalizează 100%, va apărea o eroare. După actualizarea procentajelor de facturare, actualizați pagina pentru a elimina eroarea.
 
 De asemenea, puteți încerca să selectați **Distribuiți uniform** pe subgrila clienților de cotare. Această acțiune alocă împărțiri de facturare tuturor clienților de ofertă. Dacă există vreun factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții de cotare este întotdeauna etichetat drept client de rotunjire. Acest lucru înseamnă că înregistrarea clientului de ofertă are semnalizarea **Rotunjire** setată la **Da**. De obicei, acesta este clientul principal al ofertelor, dar acesta poate fi modificat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

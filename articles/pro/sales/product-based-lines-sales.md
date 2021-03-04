@@ -28,3 +28,6 @@ Liniile bazate pe produse pot fi articole din catalog sau produse înscrise. Cea
 
 Când metoda veniturilor din rezumatul de oportunității este **Calculată de sistem**, valorile bugetului pentru un client de-a lungul liniilor de oportunitate sunt sintetizate pentru a calcula venitul estimat. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Aceste cărți albe sunt concepute pentru a oferi informații detaliate pentru [
 
 ### <a name="see-also"></a>Consultați și
  [Prezentare generală a Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

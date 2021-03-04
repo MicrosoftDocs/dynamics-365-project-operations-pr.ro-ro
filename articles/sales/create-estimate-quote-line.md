@@ -88,3 +88,6 @@ Dacă ați adăugat un câmp particularizat în detaliul liniei de ofertă și d
 7. Selectați **OK** pentru a închide caseta de dialog, apoi selectați **Actualizați pasul**.
 8. Repetați pașii de la 1 la 7 pentru al doilea insert.
 9. Închideți PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

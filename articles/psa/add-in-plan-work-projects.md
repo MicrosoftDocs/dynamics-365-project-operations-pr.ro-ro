@@ -242,3 +242,6 @@ Următorul tabel prezintă modul în care datele din entitatea de Dependențe sa
 
 ### <a name="additional-resources"></a>Resurse suplimentare
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

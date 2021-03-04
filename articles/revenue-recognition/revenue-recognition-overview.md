@@ -60,3 +60,6 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 [Gestionarea estimărilor de venituri](rev-rec-completed-contract-method.md)
 
 [Metode pentru costul de finalizare](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

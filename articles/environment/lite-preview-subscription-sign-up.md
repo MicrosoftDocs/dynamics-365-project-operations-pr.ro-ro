@@ -91,3 +91,6 @@ Repetați aceiași pași ca la primul cod de ofertă. Asigurați-vă că adăuga
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalați o configurare CDS și instalați date demonstrative
 
 Instalați configurația CDS și configurați datele demo urmând instrucțiunile din subiect, [Aplicați datele de instalare și configurare demonstrative](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

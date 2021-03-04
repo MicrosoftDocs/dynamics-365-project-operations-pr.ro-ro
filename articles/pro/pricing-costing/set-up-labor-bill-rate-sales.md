@@ -55,3 +55,6 @@ De exemplu, un dezvoltator din Fabrikam India care lucrează la un proiect din S
     | Dezvoltator | Fabrikam US | $150 |
 
 3. Atașați lista de prețuri de vânzare, **Tarifele facturilor americane Fabrikam** la lista de prețuri a proiectului a contractului de proiect sau la un anumit cont.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

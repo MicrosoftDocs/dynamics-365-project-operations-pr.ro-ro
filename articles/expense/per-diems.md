@@ -31,3 +31,6 @@ O diurnă este o indemnizație care se plătește unui lucrător care călătore
     
 ## <a name="submit-expenses-using-per-diem"></a>Trimiteți cheltuielile folosind diurna
 Pentru a trimite cheltuieli cu diurnele, utilizați categoria de cheltuieli **Diurnă** atunci când creați un raport de cheltuieli. Introduceți **Diurnă data de la**, **Diurnă data până la**, și **Locație diurnă**. Suma va fi calculată pe baza ratelor diurnei pentru locația selectată, iar reducerea mesei va fi calculată pe baza nivelurilor tarifelor diurne.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

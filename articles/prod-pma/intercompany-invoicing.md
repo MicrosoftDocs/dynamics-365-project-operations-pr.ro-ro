@@ -113,3 +113,6 @@ Atunci când entitatea juridică de creditare, USSI, înregistrează factura cli
 Pentru mai multe informații, consultați [Configurați facturarea proiectelor între companii](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

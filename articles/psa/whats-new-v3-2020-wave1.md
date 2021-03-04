@@ -43,3 +43,6 @@ Utilizatorilor care necesită capacitatea de a înregistra timp ar trebui să li
 
 ### <a name="currently-extended-time-entry-changes"></a>Modificările de intrare de timp extinse în prezent
 Pentru a reduce impactul asupra utilizatorilor actuali de intrare în timp, această modificare a rolului este singura cerință esențială necesară pentru a continua utilizarea intrării în timp. Dacă ați creat vizualizări personalizate sau experiențe de intrare în timp separate, trebuie să setați câmpurile **Setare intrare timp** la valoarea corectă PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

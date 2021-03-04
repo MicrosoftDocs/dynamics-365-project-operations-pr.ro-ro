@@ -52,3 +52,6 @@ Puteți utiliza fiecare dintre aceste liste de prețuri și puteți actualiza pr
 Pe un contract de proiect, prețul proiectului este întotdeauna implicit ca o listă de prețuri personalizată cu numele contractului și ștampila de dată și oră creată atașată la nume. Acest lucru este adevărat dacă contractul a fost creat atunci când a fost câștigată oferta sau dacă contractul a fost creat de la zero. Dacă este necesar, puteți elimina această asociere în lista de prețuri personalizată și, în schimb, să asociați o listă de preț standard contractului de proiect.
 
 Când asociați o listă de prețuri standard cu listele de prețuri ale proiectului la ofertă sau contract, orice modificare adusă prețurilor din lista de prețuri va avea impact asupra tuturor ofertelor și contractelor care utilizează lista de prețuri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Programele de facturare sunt specifice fiecărei linii de contract și sunt nece
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Modificările din comenzile Dynamics 365 Sales
 
 Contractele în Project Operations sunt construite pe comenzi în Dynamics 365 Sales. Cu toate acestea, există abateri importante și diferențe de funcționalitate. Contractele au propriile lor elemente de formă și de interfață, reguli de afaceri, logică de afaceri în inserturi și scripturi de partea clientului care le fac unice din Comenzi. Din aceste motive, nu utilizați în mod interschimbabil o Comandă de vânzare și un contract Project Operations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

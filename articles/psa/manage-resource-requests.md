@@ -51,3 +51,6 @@ Managerii de conturi și managerii de proiect solicită în mod regulat resurse 
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de resurse](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Următorul proces este un exemplu al fluxului de lucru de gestionare a cheltuiel
 După verificarea acestor cerințe, raportul de cheltuieli este postat.
 
 După postarea raportului de cheltuieli, plata este autorizată pentru raportul de cheltuieli, iar angajatul este rambursat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

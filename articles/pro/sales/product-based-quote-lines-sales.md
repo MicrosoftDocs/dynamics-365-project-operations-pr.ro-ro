@@ -46,3 +46,6 @@ Când o linie de ofertă se bazează pe un catalog de produse, aveți posibilita
 Dacă selectați **Înlocuiți prețurile**, prețul implicit nu este setat. În schimb, trebuie să introduceți un preț pentru produs în linia de ofertă. Dacă selectați **Utilizare implicit**, se folosește prețul de vânzare implicit și câmpul este blocat pentru editare.
 
 Prețurile de vânzare implicite sunt introduse pe liniile bazate pe produs ale unei oferte. Câmpul **Stabilire preț** este atunci configurat la **Înlocuire preț** astfel încât puteți edita prețul implicit pe liniile de ofertă. Aceasta este o suprascriere specifică Project Operations la comportamentul liniilor bazate pe produs în Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

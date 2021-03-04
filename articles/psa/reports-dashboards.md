@@ -40,3 +40,6 @@ Tabloul de bord **Manager de practică** le oferă managerilor de practică o ex
 ## <a name="resource-manager"></a>Manager resurse 
 
 Tabloul de bord **Manager resurse** le oferă managerilor de resurse o experiență grafică de tablou de bord pentru monitorizarea cererilor de resurse, și cererea și utilizarea resurselor. De asemenea, le permite managerilor de resurse să împartă informațiile monitorizate pe diferite dimensiuni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Rezervați o resursă direct unui proiect:
 Rezervați o resursă dintr-o cerință de resurse:
 - [Atribuirea de resurse generice care se pot rezerva unei activități și generarea cerințelor de resurse](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Rezervarea anumitor resurse din cerințele de resurse](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

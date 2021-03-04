@@ -43,3 +43,6 @@ Mai jos sunt filele și KPI-urile disponibile pe o ofertă de proiect care sunt 
 | Analiza de profitabilitate | Filă pe ofertă | Fila afișează următoarele măsurători:</br>- Cost total aplicabil</br></br>- Cost total neaplicabil</br>- Venit total</br>- Venit total (de bază)</br>- Marjă brută</br>- Marjă brută ajustată|
 | Comparație cu așteptările clienților | Filă pe ofertă | Această filă afișează următoarele măsurători:</br>- Finalizare estimată</br>- Finalizare solicitată</br>- Buget client</br>- Valoare ofertă |
 | Analiză de ofertă | Filă pe ofertă | Această filă rezumă următoarele KPI-uri de top pentru o ofertă de proiect</br>- Comparație cu așteptările clienților pentru buget și planificare</br>- Marjă brută</br>- Marjă brută ajustată |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

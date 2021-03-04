@@ -68,3 +68,6 @@ Calculele de rentabilitate convertesc sumele pentru detaliile liniei contractulu
 
 > [!NOTE]
 > Erorile de rotunjire a valutei și modificarea marjelor ar putea apărea din cauza lipsei ratelor de schimb efective la dată. Utilizați aceste calcule pentru contractele de proiect doar ca aproximări și nu pentru raportarea legală sau de altă natură care necesită o precizie mai mare a rotunjirii și conștientizarea efectivității datei pentru ratele de schimb.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

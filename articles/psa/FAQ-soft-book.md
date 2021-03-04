@@ -67,3 +67,6 @@ Când sunteți gata să modificați o resursă de membru echipă rezervat proviz
 2. Faceți clic dreapta pe rezervare și la **Modificare stare**, selectați **Rezervare fermă** \> **Ferm**. Starea rezervării este acum **Ferm**.
 3. După închiderea taboului de planificare, reveniți la proiect și deschideți fila **Echipă**, și veți vedea că orele pentru resursă s-au mutat din coloana **Ore rezervate provizoriu** în **Ore rezervate ferm** pe grila filei **Echipă** când vă uitați la vizualizarea **Membri echipă numiți**. Dacă resursa a fost atribuită la sarcini, acestea nu vor mai prezenta un deficit de rezervare pe fila **Reconciliere** deoarece rezervările lor sunt acum ferme.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

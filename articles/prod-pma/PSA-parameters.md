@@ -47,3 +47,6 @@ Pentru a deschide pagina **Parametrii de integrare a Project Service Automation*
 | Tip implicit de facturare  | Tip de facturare         | Clic **Nou** pentru a adăuga un rând în care puteți selecta tipul de facturare pentru care setați linia implicită de proprietate. Un anumit tip de facturare poate fi selectat o singură dată în configurație. |
 |                        | Proprietate de linie        | Selectați linia de proprietate implcită pentru tipul de facturare selectat. Atunci când estimările orelor noi, estimările cheltuielilor noi sau noile date reale sunt sincronizate din Project Service Automation, câmpul **Proprietate de linie** este setat la valoarea implicită pentru tipul de facturare. |
 | Blocarea funcționalității  | Nu se aplică       | Selectați funcționalitatea de dezactivat în Finanțe pentru proiecte și contracte care au provenit din Project Service Automation. De exemplu, puteți dezactiva capacitatea de a edita contracte și proiecte, de a crea structuri de repartizare a lucrărilor și de a introduce fișe de timp în Finanțe. Câmpurile legate de contabilitate vor continua să fie activate, chiar dacă acestea nu sunt disponibile prin setarea parametrilor. În mod implicit, toate funcționalitățile sunt activate. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

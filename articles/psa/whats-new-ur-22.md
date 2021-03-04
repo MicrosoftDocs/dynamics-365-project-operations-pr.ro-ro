@@ -72,3 +72,6 @@ S-au remediat următoarele probleme:
 - Închiderea ofertei ca câștigată nu navighează la contractul creat dacă un BPF atașat la ofertă se află în etapa finală.
 - Reversul **Vânzări fără factură** este legat de costul inițial atunci când este înregistrată o intrare în timp.
 - După selectarea butonului **Confirmare**, starea facturii nu se modifică la **Confirmat** cu excepția cazului în care factura este actualizată.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

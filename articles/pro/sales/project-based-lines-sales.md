@@ -32,3 +32,6 @@ Mai jos sunt câmpurile de pe o linie de oportunități bazată pe proiecte:
 | Nume | Fila General | Acest câmp text modificabil poate fi utilizat pentru a da o scurtă identitate elementului rând. | Această valoare este reportată la linia de cotație atunci când creați o cotație din această oportunitate. |
 | Buget client | Fila General | Acest câmp valutar editabil poate fi utilizat pentru a urmări suma pe care clientul este dispus să o cheltuiască pentru acest element rând. | Această valoare este reportată la câmpul corespondent pe linia de ofertă atunci când creați o ofertă din această oportunitate. |
 | Metodă de facturare | Fila General | Acest câmp editabil are următoarele valori:</br>- Timp și material</br>- Preț fix | Această valoare este reportată la câmpul corespondent pe linia de ofertă atunci când creați o ofertă din această oportunitate. După crearea liniei de ofertă, câmpul este blocat și nu poate fi schimbat. Atribuiți această valoare câmpului cât mai exact posibil. Dacă trebuie să modificați valoarea acestui câmp pe linia de ofertă, ștergeți și recreați linia de ofertă. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

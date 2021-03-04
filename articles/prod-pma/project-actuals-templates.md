@@ -140,3 +140,6 @@ Următoarele ilustrații prezintă exemple de mapări ale sarcinilor șablon în
 [![Maparea șabloanelor - Actualizare Date reale](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Maparea șabloanelor - Actualizare Tranzacție](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

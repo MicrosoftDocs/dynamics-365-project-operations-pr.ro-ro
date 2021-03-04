@@ -35,3 +35,6 @@ Resursele sunt cel mai important activ al unei organizații bazate pe servicii. 
 
 
 Puteți să vă populați proiectul cu o echipă de resurse generice sau numite în Project Operations. Puteți utiliza diverse metode pentru a adăuga și atribui membri ai echipei și pentru a gestiona rezervările și atribuirile lor. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

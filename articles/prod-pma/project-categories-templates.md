@@ -124,3 +124,6 @@ Următoarea ilustrație prezintă un exemplu de mapare a sarcinilor șablon în 
 > Maparea arată informațiile despre câmp care vor fi sincronizate de la Project Service Automation la Finance.
 
 [![Maparea șablonului Project Service Automation la Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

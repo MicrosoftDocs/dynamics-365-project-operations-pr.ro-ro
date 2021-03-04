@@ -70,3 +70,6 @@ Autorizația este acum completă.
 Ați conectat cu succes abonamentul Azure. Acum puteți implementa medii găzduite în cloud Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

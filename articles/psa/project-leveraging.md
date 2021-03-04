@@ -54,3 +54,6 @@ Puteți defini efortul de lucru și estimările de planificare utilizând câmpu
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importarea estimărilor dintr-un proiect într-o ofertă
 
 După ce definiți estimările proiectului, aveți posibilitatea să le importați în linia de ofertă. În pagina **Detalii linie ofertă**, selectați **Importați din estimările** din panglică pentru a rezuma estimările de proiect după tipul de tranzacție, rol sau nivel de activitate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Aveți posibilitatea să utilizați capacitatea Extindere rezervare a filei **Re
 ![Extinderea rezervărilor pentru un membru al echipei în fila reconciliere resurse](media/RM-how-to-7.png)
 
 După ce un membru al echipei este rezervat în cadrul proiectului dvs., aveți posibilitatea să utilizați Menține rezervările sau să utilizați direct Tabloul de planificare pentru a gestiona rezervările acestuia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

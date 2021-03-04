@@ -135,3 +135,6 @@ Dacă aveți informații care au venit după crearea facturii, puteți include a
 2. Deschideți proiectul de factură proforma și, pe panglica **Acțiuni**, faceți clic pe **Reîmprospătați tranzacțiile pe linie de factură**.
 
   Acest lucru creează detalii despre linia de facturare pentru orice date efective care sunt date și marcate ca **Gata de facturare**; dar nu este inclus în factură.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

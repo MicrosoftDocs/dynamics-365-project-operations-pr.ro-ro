@@ -34,3 +34,6 @@ Pentru a crea și a lucra cu tipuri de perioadă, parcurgeți următorii pași:
 4. Selectați înregistrarea tipului de perioadă și apoi selectați **Generați perioade** pentru a crea perioade pentru tipul perioadei. Pe baza frecvenței de perioadă pe care ați selectat-o, este posibil să aveți opțiunea de a specifica o dată de începere sau numărul de perioade de generat.
 5. Selectați **Perioade** pentru a revizui perioadele generate.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

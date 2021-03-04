@@ -64,3 +64,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
      - Remediat: prețul total de vânzare nu este calculat până când utilizatorul introduce și un preț de cost pentru estimările cheltuielilor la un proiect.
      - Remediat: Închiderea unei oferte ca **Câștigată** eșuează dacă contractul de proiect asociat nu se află într-o stare de **Schiță**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

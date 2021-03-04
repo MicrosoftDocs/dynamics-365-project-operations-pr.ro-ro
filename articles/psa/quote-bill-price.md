@@ -44,3 +44,6 @@ Următoarele subiecte furnizează mai multe informații despre funcționalitatea
 - [Unități și grupuri de unități](advanced-units.md)
 - [Monedă multi-unitate](advanced-currency.md)
 - [Date reale de înregistrare](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

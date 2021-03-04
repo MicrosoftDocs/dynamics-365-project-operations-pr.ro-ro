@@ -76,3 +76,6 @@ Puteți utiliza una dintre următoarele metode pentru a crea o comandă de achiz
 
 Pentru mai multe informații, consultați [Primiți articole din comanda de achiziție din cerința articolului](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

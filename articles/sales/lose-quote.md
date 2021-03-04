@@ -45,3 +45,6 @@ Când selectați **OK** pe pagina de dialog, sistemul creează o copie a ofertei
 > - Referința proiectului pe liniile de ofertă bazate pe proiect - Informații despre bugetul clienților
 >
 >Deoarece aceste informații sunt foarte specifice fiecărei oferte, aceste câmpuri și înregistrări nu sunt copiate. Se copiază liniile de ofertă pentru proiecte și produse, estimările privind detaliile liniei de ofertă și valorile care nu trebuie depășite la nivelul ofertelor. Valoarea implicită a prețului și a costului depinde de opțiunea **Preț copiere** selectată pe pagina de dialog **Copiați parametrii**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

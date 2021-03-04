@@ -72,3 +72,6 @@ Dacă setarea de preț pentru categoria de cheltuieli nu este validă, atunci a�
 Dacă nu vedeți în continuare un preț valid pe cheltuielile reale de vânzare după ce ați efectuat cele trei verificări de mai sus, solicitați un tichet de asistență.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

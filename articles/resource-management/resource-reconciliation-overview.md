@@ -48,3 +48,6 @@ DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări, sele
 Rezervările care sunt create prin acțiunea **Extindeți rezervarea** sunt asociate cu cerința principală a proiectului. Când este inițiată o extensie, cerința specifică care trebuie extinsă nu poate fi determinată, deoarece resursa ar putea fi asociată cu mai mult de o cerință pentru proiect.
 
 Managerul de proiect sau managerul de resurse poate utiliza apoi Panoul de planificare pentru a gestiona orice situații în care o resursă este suprarezervată peste capacitate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

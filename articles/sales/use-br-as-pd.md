@@ -78,3 +78,6 @@ Pentru o resursă care poate fi rezervată, entitatea **Membrii echipei de proie
 5. Adăugați  **msdyn_bookableresourceid** la **Nume de câmp**.
 
  ![Formular pentru nume de câmpuri de dimensiune de tarifare noi](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

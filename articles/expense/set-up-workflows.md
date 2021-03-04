@@ -48,3 +48,6 @@ Următorul tabel listează tipurile de fluxuri de lucru în care puteți crea **
 |       <strong>Cerere de călătorie</strong>       |          Creați fluxuri de lucru de aprobare pentru cererile de călătorie.           |
 |      <strong>Solicitare de avans în numerar</strong>      |         Creați fluxuri de lucru de aprobare pentru solicitări de avans în numerar.          |
 |        <strong>Recuperarea impozitului TVA</strong>        | Creați fluxuri de lucru de aprobare pentru recuperarea taxei pe valoarea adăugată (TVA).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Aceasta este experiența mai optimă pentru dezasocierea activităților din lin
 4. În pagina de dialog care se deschide, selectați o linie de contract din meniul derulant.
 5. Bifați caseta de selectare pentru a indica dacă asocierea ar trebui să fie eliminată din alte activități secundare ale activităților selectate. Bifând caseta va dezasocia, de asemenea, activitățile secundare ale activităților selectate din linia de contract.
 6. Selectați **OK**. Un mesaj de avertizare indică faptul că eliminarea acestei asocieri ar putea duce la inversarea oricăror date înregistrate anterior pe activitate. Selectați **OK** în caseta de avertizare pentru a elimina asocierea dintre activitate și linia de contract bazată pe proiect.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

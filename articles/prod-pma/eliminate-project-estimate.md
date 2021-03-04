@@ -51,3 +51,6 @@ Pentru a elimina un proiect de estimare, acesta trebuie să fie complet. Următo
 5. După finalizarea procesului de eliminare, proiectul estimat eliminat este afișat cu o valoare negativă. 
 
 Dacă nu ați intenționat să eliminați o estimare, puteți selecta estimarea eliminată și selectați **Eliminare inversă**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Deoarece Dynamics 365 Project Operations utilizează motorul Universal Resource 
 
 Pentru a vizualiza mai multe detalii despre o resursă individuală, faceți clic cu butonul din dreapta pe acesta pentru a deschide fișa resursei.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

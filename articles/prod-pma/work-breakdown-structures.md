@@ -316,3 +316,6 @@ Alternativ, puteți corecta erorile de planificare individual făcând clic pe p
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

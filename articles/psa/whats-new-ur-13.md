@@ -59,3 +59,6 @@ Acest subiect listează caracteristicile și corecțiile care sunt noi sau modif
      - Reparat: butoane suplimentare pentru **Oportunitate nouă**, **Ofertă**, **Linie de comandă** și **Adăugați produs** sunt vizibile în comenzile pentru Oportunități, Oferte, Produse de comandă și subgrila Linii bazate pe proiecte.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Puteți dezasocia sarcinile proiectului pentru a oferta linii din fila **Activit
 
 >[!NOTE]
 > Această procedură nu șterge activtiatea din proiect. Elimină doar asocierea activității din linia de ofertă bazată pe proiect.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

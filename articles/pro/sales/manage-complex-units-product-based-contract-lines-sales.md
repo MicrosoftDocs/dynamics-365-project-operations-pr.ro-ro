@@ -46,3 +46,6 @@ Pentru a crea factori de cantitate din proprietățile produsului, parcurgeți p
 7. Repetați pașii 2-6 pentru toate proprietățile care împreună vor constitui cantitatea pentru linia contractuală bazată pe produs.
 
 Cu setarea factorilor de cantitate, atunci când utilizatorul creează o linie contractuală pentru acest produs, cantitatea liniei contractuale este blocată. Cantitatea este apoi calculată ca produs al valorilor proprietății pentru acea linie contractuală.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Există două metode pe care le puteți utiliza pentru a lucra cu cheltuielile p
   - **Plătit de companie**: Organizația dvs. plătește factura completă pentru cardul de credit corporativ și apoi debitează contul angajatului pentru cheltuielile personale.
 
 Puteți selecta metoda pe care organizația dvs. o folosește pe pagina **Parametrii de gestionare a cheltuielilor**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

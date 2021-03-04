@@ -57,3 +57,6 @@ Dacă nu există niciun rând în grila de preț rol pentru dimensiunile de stab
 
 Dacă nu vedeți în continuare un preț valid pe timpul de vânzare real după ce ați efectuat cele trei verificări de mai sus, vă rugăm să solicitați un tichet de asistență. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Iată câteva sugestii care vă pot ajuta atunci când creați noi politici pent
 ## <a name="when-to-evaluate-policies"></a>Când se evaluează politicile
 
 În parametrii de gestionare a cheltuielilor, există opțiunea ca fie să evaluați politicile de gestionare a cheltuielilor atunci când este salvată o linie, sau când este trimis un raport de cheltuieli. Dacă alegeți să evaluați când este salvată o linie, aceasta asigură că utilizatorii vor avea o vizibilitate mai timpurie a ceea ce trebuie să facă pentru a completa raportul de cheltuieli dintr-o dată. În caz contrar, puteți întârzia evaluarea politicii și puteți economisi timp dacă aveți validare la final, în timpul trimiterii la fluxul de lucru.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

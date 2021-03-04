@@ -37,3 +37,6 @@ Următorul tabel listează actualizările la Project Operations pe versiunea de 
 | Intrare de timp și cheltuială rapidă | 2047499          | Butonul **Nou** de pe pagina de introducere a timpului deschide pagina **Semnătură de e-mail nouă**.                                                                                               |
 | Intrare de timp și cheltuială rapidă | 2059859          | Fereastra pop-up neașteptată se deschide la crearea unei intrări de cheltuieli.                                                                                                                         |
 | Altceva                        | 2044181          | [Dezinstalare PO] - Eroarea „Înregistrarea nu este disponibilă” apare atunci când încercați să dezinstalați   **msdyn_ProjectServiceCore_Patch** și soluțiile de bază ale serviciului MSDYN Project Service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

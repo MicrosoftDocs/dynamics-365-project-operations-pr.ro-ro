@@ -52,3 +52,6 @@ Pentru mai multe informații despre raportarea în PSA, consultați următoarele
 - [Lucrul cu modelul de date Project Service Automation](reports-working-project-service-data-model.md)
 - [Tablouri de bord](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

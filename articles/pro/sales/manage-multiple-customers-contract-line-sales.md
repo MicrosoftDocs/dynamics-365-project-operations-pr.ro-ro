@@ -43,3 +43,6 @@ Mai jos sunt câmpurile de pe înregistrarea de client a liniei **Contract** a u
 Procentele de facturare împărțite pot fi editate în grilă. Atunci când procentajele de împărțire a facturării nu totalizează 100%, va apărea o eroare. După ce editați procentele de facturare împărțite, reîmprospătați pagina pentru a elimina eroarea.
 
 Puteți selecta și **Distribuire uniformă** pe subgrila liniei de contract a clientului. Această acțiune alocă în mod uniform împărțiri de facturare tuturor clienților din linia contractuală. Dacă există vreun factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Un client de linie contractuală este întotdeauna etichetat drept client de **Rotunjire** cu semnalizator **Rotunjire** setat la **Da**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

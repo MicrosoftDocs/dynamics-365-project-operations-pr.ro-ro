@@ -87,3 +87,6 @@ Când sunteți gata să modificați o resursă de membru echipă rezervat proviz
 2. Atunci când tabloul de planificare se deschide, extindeți resursa pentru a arăta rezervările. Veți vedea rezervarea marcată ca Provizorie.
 3. Faceți clic dreapta pe rezervare, sub Modificare stare, selectați Rezervare fermă și apoi Ferm. Starea rezervării este acum Fermă.
 4. După închiderea tabloului de planificare, veți vedea că orele pentru resurse s-au modificat de la Provizoriu la Ferm pe grila de membru de echipă. Acum puteți atribui resursa sarcinilor (cu condiția să existe aliniere între orele rezervate ferm și orele de efort ale sarcinii pentru atribuire). Rețineți că, dacă urmați pașii generici de procesare a resurselor de la punctul #3 de mai sus, atunci când schimbați starea resurselor care se pot rezerva de la provizoriu la ferm, membrul echipei generice este eliminat din echipă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

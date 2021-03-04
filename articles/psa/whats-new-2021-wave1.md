@@ -43,3 +43,6 @@ S-au remediat următoarele probleme:
 
 - Datele de încheiere se completează automat când se creează o intrare de timp dacă durata este nulă.
 - Utilizatorii pot modifica sarcina la o intrare de timp care a fost aprobată sau trimisă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Pentru a crea șabloane de cost, urmați acești pași:
 7. Pe fila **Categorii**, selectați categoriile de proiecte care vor fi incluse pe linia șablonului de cost.
 8. Pe fila **General**, selectați dacă această linie va fi inclusă în procentul de calcul de finalizare.
 9. Selectați metoda costului de finalizat care va fi utilizată la calcularea procentului de finalizare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

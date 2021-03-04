@@ -53,3 +53,6 @@ Pe lângă rezervarea resurselor într-un proiect din cadrul unui proiect, aveț
 Cerința este îndeplinită utilizând resursa selectată. În panoul **Cerințe de rezervare**, observați că cerința a fost actualizată și că resursa este afișată ca rezervată pe proiect.
 
 ![Resursă rezervată pe proiect](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

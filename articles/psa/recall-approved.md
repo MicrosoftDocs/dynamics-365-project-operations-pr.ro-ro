@@ -107,3 +107,6 @@ Următoarea ilustrație arată modificările care apar pentru înregistrările d
 Următoarea ilustrație arată modificările care apar pentru înregistrările de cheltuieli aprobate atunci când sunt retrase.
 
 ![Tranziții de stare Înregistrare cheltuieli](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Este posibil ca organizația dvs. să solicite transmiterea unei cereri de depla
 Cererile de călătorie și politicile pot fi utilizate pentru a ajuta la controlarea bugetului. De exemplu, dacă organizația dvs. lucrează la un proiect cu preț fix care necesită călătorie, cheltuielile de călătorie ale membrilor echipei proiectului trebuie să se încadreze în bugetul pentru proiectul. Solicitând aprobarea cheltuielilor de călătorie înainte de a fi suportate, organizația se poate asigura că proiectul rămâne în limita bugetului.
 
 Puteți configura politici pentru cererile de călătorie din pagina **Cerere de călătorie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
