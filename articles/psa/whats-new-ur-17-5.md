@@ -17,28 +17,30 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 235a27d45b3c82303d4ef5434c779b3c11421586
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cd4142176258820f4718f457ca8610f19f584a32
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118803"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143763"
 ---
-# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="15607-103">Project Service Automation, versiunea actualizată 17.5, V3</span><span class="sxs-lookup"><span data-stu-id="15607-103">Project Service Automation Update Release 17.5, V3</span></span>
+# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="b8e8b-103">Project Service Automation, versiunea actualizată 17.5, V3</span><span class="sxs-lookup"><span data-stu-id="b8e8b-103">Project Service Automation Update Release 17.5, V3</span></span>
 
-<span data-ttu-id="15607-104">Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="15607-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="15607-105">Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității.</span><span class="sxs-lookup"><span data-stu-id="15607-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="15607-106">Această versiune este compatibilă cu Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="15607-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="15607-107">Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365 online, pagina cu soluții pentru a instala actualizarea.</span><span class="sxs-lookup"><span data-stu-id="15607-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="15607-108">Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="15607-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="15607-109">Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru V3, versiunea actualizată 17.5.</span><span class="sxs-lookup"><span data-stu-id="15607-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="15607-110">Această versiune are un număr de V3.10.7.32 și este, în general, disponibilă printr-o auto-actualizare în martie 2020.</span><span class="sxs-lookup"><span data-stu-id="15607-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
+<span data-ttu-id="b8e8b-104">Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="b8e8b-105">Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="b8e8b-106">Această versiune este compatibilă cu Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="b8e8b-107">Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365 online, pagina cu soluții pentru a instala actualizarea.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="b8e8b-108">Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="b8e8b-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-
-## <a name="update-release-175"></a><span data-ttu-id="15607-111">Lansarea de actualizări 17.5</span><span class="sxs-lookup"><span data-stu-id="15607-111">Update Release 17.5</span></span>
-
-### <a name="bug-fixes"></a><span data-ttu-id="15607-112">Remedieri de erori</span><span class="sxs-lookup"><span data-stu-id="15607-112">Bug fixes</span></span>
+<span data-ttu-id="b8e8b-109">Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru V3, versiunea actualizată 17.5.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="b8e8b-110">Această versiune are un număr de V3.10.7.32 și este, în general, disponibilă printr-o auto-actualizare în martie 2020.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
 
 
-<span data-ttu-id="15607-113">**Gestionare de proiect**</span><span class="sxs-lookup"><span data-stu-id="15607-113">**Project Management**</span></span>
+## <a name="update-release-175"></a><span data-ttu-id="b8e8b-111">Lansarea de actualizări 17.5</span><span class="sxs-lookup"><span data-stu-id="b8e8b-111">Update Release 17.5</span></span>
 
-- <span data-ttu-id="15607-114">Soluționat: S-au adresat problemele de sincronizare la nivelul serverului care apar cu sarcini de durată lungă.</span><span class="sxs-lookup"><span data-stu-id="15607-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
-- <span data-ttu-id="15607-115">Soluționat: S-au adresat șabloanele de ore de lucru de 24 de ore ce adăugau inexact o zi suplimentară sarcinilor.</span><span class="sxs-lookup"><span data-stu-id="15607-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
-- <span data-ttu-id="15607-116">Soluționat: S-au adresat șabloanele de ore de lucru de +13 GMT ce schimbau inexact sarcinile cu o zi înainte.</span><span class="sxs-lookup"><span data-stu-id="15607-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="b8e8b-112">Remedieri de erori</span><span class="sxs-lookup"><span data-stu-id="b8e8b-112">Bug fixes</span></span>
+
+
+<span data-ttu-id="b8e8b-113">**Gestionare de proiect**</span><span class="sxs-lookup"><span data-stu-id="b8e8b-113">**Project Management**</span></span>
+
+- <span data-ttu-id="b8e8b-114">Soluționat: S-au adresat problemele de sincronizare la nivelul serverului care apar cu sarcini de durată lungă.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
+- <span data-ttu-id="b8e8b-115">Soluționat: S-au adresat șabloanele de ore de lucru de 24 de ore ce adăugau inexact o zi suplimentară sarcinilor.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
+- <span data-ttu-id="b8e8b-116">Soluționat: S-au adresat șabloanele de ore de lucru de +13 GMT ce schimbau inexact sarcinile cu o zi înainte.</span><span class="sxs-lookup"><span data-stu-id="b8e8b-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
 
