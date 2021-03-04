@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082987"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148658"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Modificări în gestionarea resurselor (Project Service Automation) 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Secțiunile acestui subiect furnizează informații despre modificările efectuate în zona de gestionare a resurselor din Dynamics 365 Project Service Automation versiunea 3. x.
 
 ## <a name="project-estimates"></a>Estimări de proiect
 
-În loc să se bazeze pe entitatea **msdyn\_projecttask** ( **Activitate proiect** ), estimările proiectului se bazează pe entitatea **msdyn\_resourceassignment** ( **Atribuire resurse** ). Atribuirile de resurse au devenit „sursa adevărului" pentru programarea și prețul sarcinilor.
+În loc să se bazeze pe entitatea **msdyn\_projecttask** (**Activitate proiect**), estimările proiectului se bazează pe entitatea **msdyn\_resourceassignment** (**Atribuire resurse**). Atribuirile de resurse au devenit „sursa adevărului" pentru programarea și prețul sarcinilor.
 
 ## <a name="line-tasks"></a>Activități de linie
 
@@ -65,7 +67,7 @@ Următorul exemplu arată cum este atribuită o activitate denumită „Activita
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Programarea câmpurilor din entitatea Activitate proiect
 
-Câmpurile din entitatea **msdyn\_projecttask** au fost perimate sau mutate la entitatea **msdyn\_resourceassignment** , sau acum se face referire la ele din entitatea **msdyn\_projectteam** ( **Membru echipă proiect** ).
+Câmpurile din entitatea **msdyn\_projecttask** au fost perimate sau mutate la entitatea **msdyn\_resourceassignment**, sau acum se face referire la ele din entitatea **msdyn\_projectteam** (**Membru echipă proiect**).
 
 | Câmp perimat pe msdyn\_proiecttask (Activitate proiect) | Câmp nou pe msdyn\_resourarmistialocare (Atribuire resurse) | Comentariu |
 |---|---|---|
@@ -77,7 +79,7 @@ Câmpurile din entitatea **msdyn\_projecttask** au fost perimate sau mutate la e
 
 ## <a name="schedule-contour"></a>Contur planificare
 
-Conturul de planificare este stocat în câmpul **Lucrări planificate** ( **msdyn\_plannedwork** ) din fiecare entitate de **Atribuire resurse** ( **msdyn\_resourceassignment** ).
+Conturul de planificare este stocat în câmpul **Lucrări planificate** (**msdyn\_plannedwork**) din fiecare entitate de **Atribuire resurse** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Structură
 
@@ -139,7 +141,7 @@ Unitatea de atribuire a fost perimată în PSA 3.x. Orele de efort de activitate
 
 ## <a name="pricing-dimensions"></a>Dimensiuni de preț
 
-În PSA 3.x, câmpurile de dimensiune a prețului specifice resurselor (cum ar fi **Rol** și **Unitate organizațională** ) au fost eliminate din entitatea **msdyn\_projecttask**. Aceste câmpuri pot fi preluate de la membrul echipei de proiect corespunzător ( **msdyn\_proiectteam** ) al atribuirii resursei **(msdyn\_resourceassignment** ) când sunt generate estimările de proiect. Un câmp nou, **msdyn\_organizationalunit** , a fost adăugat la entitatea **msdyn\_projectteam** .
+În PSA 3.x, câmpurile de dimensiune a prețului specifice resurselor (cum ar fi **Rol** și **Unitate organizațională**) au fost eliminate din entitatea **msdyn\_projecttask**. Aceste câmpuri pot fi preluate de la membrul echipei de proiect corespunzător (**msdyn\_proiectteam**) al atribuirii resursei **(msdyn\_resourceassignment**) când sunt generate estimările de proiect. Un câmp nou, **msdyn\_organizationalunit**, a fost adăugat la entitatea **msdyn\_projectteam** .
 
 | Câmp perimat pe msdyn\_proiecttask (Activitate proiect) | Câmp din msdyn\_projectteam (membru al echipei de proiect) care este utilizat în schimb |
 |---|---|
@@ -155,12 +157,12 @@ Câmpurile de contur de stabilire și de estimare a prețurilor au fost perimate
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Următoarele câmpuri au fost adăugate la entitatea **msdyn\_resourceassignment** :
+Următoarele câmpuri au fost adăugate la entitatea **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Următoarele câmpuri pentru costurile și vânzările planificate, reale și rămase sunt neschimbate pe entitatea de **msdyn\_projecttask** :
+Următoarele câmpuri pentru costurile și vânzările planificate, reale și rămase sunt neschimbate pe entitatea de **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

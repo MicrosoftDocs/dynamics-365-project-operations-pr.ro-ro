@@ -17,24 +17,26 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083011"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150368"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Înainte de a începe, acest subiect presupune că ați finalizat procedurile din subiectele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities.md) și [Adăugarea de câmpuri particularizate la parametrizare preț și entități tranzacționale](field-references.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest subiect. 
 
-Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate. În interfața Web Project Service, pe pagina **Parametri** , fila **Dimensiuni prețuri bazate pe sumă** afișează înregistrările din entitățile dimensiune de preț. În mod implicit, instalarea Project Service creează 2 rânduri în grilă în această filă:
+Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate. În interfața Web Project Service, pe pagina **Parametri**, fila **Dimensiuni prețuri bazate pe sumă** afișează înregistrările din entitățile dimensiune de preț. În mod implicit, instalarea Project Service creează 2 rânduri în grilă în această filă:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unitate organizatorică)
 
 > [!IMPORTANT]
-> Nu ștergeți aceste rânduri. Cu toate acestea, dacă nu aveți nevoie de ele, le puteți face să nu se aplice într-un anumit context prin stabilirea tuturor setărilor **Aplicabil la cost** , **Aplicabil la vânzări** și **Aplicabil la achiziție** la valoarea **Nu**. Setarea acestor valori de atribut la **Nu** are același efect ca nu a avea câmpul ca dimensiune de preț.
+> Nu ștergeți aceste rânduri. Cu toate acestea, dacă nu aveți nevoie de ele, le puteți face să nu se aplice într-un anumit context prin stabilirea tuturor setărilor **Aplicabil la cost**, **Aplicabil la vânzări** și **Aplicabil la achiziție** la valoarea **Nu**. Setarea acestor valori de atribut la **Nu** are același efect ca nu a avea câmpul ca dimensiune de preț.
 
 Pentru ca un câmp să devină o dimensiune de preț, trebuie să fie:
 
@@ -43,7 +45,7 @@ Pentru ca un câmp să devină o dimensiune de preț, trebuie să fie:
 
 ![Rânduri de dimensiuni de preț bazate pe sume](media/Amt-based-PD.png)
 
-Observați că programul de lucru resurse ( **msdyn_resourceworkhours** ) a fost adăugat ca o dimensiune bazată pe adaos și a fost adăugat la grilă pe fila **Dimensiune de preț bazată pe adaos** .
+Observați că programul de lucru resurse (**msdyn_resourceworkhours**) a fost adăugat ca o dimensiune bazată pe adaos și a fost adăugat la grilă pe fila **Dimensiune de preț bazată pe adaos** .
 
 ![Rânduri de dimensiuni de preț bazate pe adaos](media/Markup-based-PD.png)
 
@@ -55,13 +57,13 @@ Observați că programul de lucru resurse ( **msdyn_resourceworkhours** ) a fost
 Următoarele secțiuni furnizează informații despre atributele diferite din tabelul **Dimensiuni preț**.
 
 ### <a name="pricing-dimension-name"></a>Nume dimensiune de preț
-Această valoare ar trebui să fie exact la fel ca numele schemei câmpului care este adăugat la tabelul de **Preț rol** pentru dimensiunile de prețuri particularizate. Pentru mai multe informații despre adăugarea câmpurilor la tabelul **Prețuri de rol** , consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și la entitățile tranzacționale](field-references.md).
+Această valoare ar trebui să fie exact la fel ca numele schemei câmpului care este adăugat la tabelul de **Preț rol** pentru dimensiunile de prețuri particularizate. Pentru mai multe informații despre adăugarea câmpurilor la tabelul **Prețuri de rol**, consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și la entitățile tranzacționale](field-references.md).
 
 ### <a name="type-of-dimension"></a>Tipul de dimensiune
 Există două tipuri de dimensiuni de preț:
   
-  - **Dimensiuni bazate pe sume** : Valorile de dimensiune din contextul de intrare sunt potrivite cu valorile de dimensiune din linia **Preț rol** , iar prețul/costul este implicit direct din tabelul **Preț rol**.
-  - **Dimensiuni bazate pe adaos** : Acestea sunt dimensiuni în care Project Service va adopta următorul proces în 3 pași pentru a obține prețul/costul
+  - **Dimensiuni bazate pe sume**: Valorile de dimensiune din contextul de intrare sunt potrivite cu valorile de dimensiune din linia **Preț rol**, iar prețul/costul este implicit direct din tabelul **Preț rol**.
+  - **Dimensiuni bazate pe adaos**: Acestea sunt dimensiuni în care Project Service va adopta următorul proces în 3 pași pentru a obține prețul/costul
  
     1. Project service potrivește valorile de dimensiune non-adaos din contextul de intrare la linia de preț de rol pentru a obține rata de bază.
     2. Project service potrivește toate valorile de dimensiune non-adaos din contextul de intrare la linia **Adaos preț rol** pentru a obține un procent de adaos.
@@ -79,16 +81,16 @@ Există două tipuri de dimensiuni de preț:
 Dacă o resursă de la Contoso India a cărei rată de bază este 100 USD lucrează la fața locului, și înregistrează 8 ore de timp regulat și 2 ore suplimentare pe înregistrarea de timp, motorul de tarifare Project Service va folosi rata de bază de 100 pentru 8 ore pentru a înregistra 800 USD. Pentru cele 2 ore suplimentare, se va aplica un adaos de 15% la rata de bază de 100 pentru a obține un preț unitar de 115 USD și va înregistra un cost total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicabil la cost 
-Dacă este setat la **Da** , asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea costului și a ratelor de adaos.
+Dacă este setat la **Da**, asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea costului și a ratelor de adaos.
 
 ### <a name="applicable-to-sales"></a>Aplicabil la vânzări
-Dacă este setat la **Da** , asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea facturii și a ratelor de adaos.
+Dacă este setat la **Da**, asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea facturii și a ratelor de adaos.
 
 ### <a name="applicable-to-purchase"></a>Aplicabil la achiziție
-Dacă este setat la **Da** , asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea prețului de achiziție. În prezent Project Service nu acceptă scenarii de subcontractare, astfel încât acest câmp nu este utilizat. 
+Dacă este setat la **Da**, asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea prețului de achiziție. În prezent Project Service nu acceptă scenarii de subcontractare, astfel încât acest câmp nu este utilizat. 
 
 ### <a name="priority"></a>Prioritate
 Setarea priorității de dimensiune ajută tarifarea Project Service să producă un preț chiar și atunci când nu poate găsi o potrivire exactă între valorile dimensiunilor de intrare și valorile din tabelele de **Preț rol** sau **Adaos preț rol**. În acest scenariu, Project Service va utiliza valori Null pentru valori de dimensiune fără potrivire prin cântărirea dimensiunilor în ordinea priorității lor.
 
-- **Prioritate cost** : Valoarea priorității costului unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de cost. Valoarea de **Prioritate cost** trebuie să fie unică între dimensiunile care sunt **Aplicabile costului**.
-- **Prioritate vânzări** : Valoarea priorității vânzărilor unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de vânzare sau a ratelor de facturare. Valoarea de **Prioritate vânzări** trebuie să fie unică între dimensiunile care sunt **Aplicabile vânzărilor**.
+- **Prioritate cost**: Valoarea priorității costului unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de cost. Valoarea de **Prioritate cost** trebuie să fie unică între dimensiunile care sunt **Aplicabile costului**.
+- **Prioritate vânzări**: Valoarea priorității vânzărilor unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de vânzare sau a ratelor de facturare. Valoarea de **Prioritate vânzări** trebuie să fie unică între dimensiunile care sunt **Aplicabile vânzărilor**.

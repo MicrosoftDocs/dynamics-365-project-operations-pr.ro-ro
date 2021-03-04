@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121818"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149558"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considerente de actualizare pentru structura detaliată a proiectului
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Acest subiect oferă informații despre actualizarea structurii detaliate a proiectului de la Project Service Automation 2.x la 3.x. Acest subiect definește starea de sănătate a unui proiect în Project Service Automation (PSA) care este necesar pentru o actualizare de succes. Există, de asemenea, informații despre condițiile comune de blocare care vor duce la eșuarea actualizării. Pentru mai multe informații despre definirea activităților de proiect și a funcțiilor lor în cadrul unei planificări de proiect, consultați [Planificări de proiect](project-creating.md).
 
 ## <a name="key-entities"></a>Entități-cheie
