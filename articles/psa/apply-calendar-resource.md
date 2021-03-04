@@ -18,28 +18,30 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4878d806dc2633bd2585b943133128bc8485587e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 94c646db684525cdc71bd935643a3b7ee2d40ea7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130143"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145508"
 ---
-# <a name="apply-a-calendar-to-a-resource-project-service"></a><span data-ttu-id="32f20-103">Aplicați un calendar la o resursă (Project Service)</span><span class="sxs-lookup"><span data-stu-id="32f20-103">Apply a calendar to a resource (Project Service)</span></span>
+# <a name="apply-a-calendar-to-a-resource-project-service"></a><span data-ttu-id="a9c99-103">Aplicați un calendar la o resursă (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a9c99-103">Apply a calendar to a resource (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="32f20-104">Odată ce ați creat un șablon de ore de muncă, va trebuie să-l alocați resurselor astfel încât calendarele lor să reflecte orele de lucru specificate în șablon.</span><span class="sxs-lookup"><span data-stu-id="32f20-104">Once you’ve created a work hours template, you need to assign it to resources so their calendars reflect the working hours specified in the template.</span></span>  
+<span data-ttu-id="a9c99-104">Odată ce ați creat un șablon de ore de muncă, va trebuie să-l alocați resurselor astfel încât calendarele lor să reflecte orele de lucru specificate în șablon.</span><span class="sxs-lookup"><span data-stu-id="a9c99-104">Once you’ve created a work hours template, you need to assign it to resources so their calendars reflect the working hours specified in the template.</span></span>  
   
-1.  <span data-ttu-id="32f20-105">Accesați **Project Service > Resurse**.</span><span class="sxs-lookup"><span data-stu-id="32f20-105">Go to **Project Service > Resources**.</span></span>  
+1.  <span data-ttu-id="a9c99-105">Accesați **Project Service > Resurse**.</span><span class="sxs-lookup"><span data-stu-id="a9c99-105">Go to **Project Service > Resources**.</span></span>  
   
-2.  <span data-ttu-id="32f20-106">Selectați resursa pentru care doriți să setați calendarul.</span><span class="sxs-lookup"><span data-stu-id="32f20-106">Select the resource you want to set the calendar for.</span></span> <span data-ttu-id="32f20-107">Puteți selecta mai multe resurse.</span><span class="sxs-lookup"><span data-stu-id="32f20-107">You can select more than one resource.</span></span>  
+2.  <span data-ttu-id="a9c99-106">Selectați resursa pentru care doriți să setați calendarul.</span><span class="sxs-lookup"><span data-stu-id="a9c99-106">Select the resource you want to set the calendar for.</span></span> <span data-ttu-id="a9c99-107">Puteți selecta mai multe resurse.</span><span class="sxs-lookup"><span data-stu-id="a9c99-107">You can select more than one resource.</span></span>  
   
-3.  <span data-ttu-id="32f20-108">Faceți clic pe **Setare calendar**.</span><span class="sxs-lookup"><span data-stu-id="32f20-108">Click **Set Calendar**.</span></span>  
+3.  <span data-ttu-id="a9c99-108">Faceți clic pe **Setare calendar**.</span><span class="sxs-lookup"><span data-stu-id="a9c99-108">Click **Set Calendar**.</span></span>  
   
-4.  <span data-ttu-id="32f20-109">Alegeți șablonul de ore de muncă pe care doriți să-l aplicați.</span><span class="sxs-lookup"><span data-stu-id="32f20-109">Choose the work hours template you want to apply.</span></span>  
+4.  <span data-ttu-id="a9c99-109">Alegeți șablonul de ore de muncă pe care doriți să-l aplicați.</span><span class="sxs-lookup"><span data-stu-id="a9c99-109">Choose the work hours template you want to apply.</span></span>  
   
-5.  <span data-ttu-id="32f20-110">Faceți clic pe **Se aplică**.</span><span class="sxs-lookup"><span data-stu-id="32f20-110">Click **Apply**.</span></span>  
+5.  <span data-ttu-id="a9c99-110">Faceți clic pe **Se aplică**.</span><span class="sxs-lookup"><span data-stu-id="a9c99-110">Click **Apply**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="32f20-111">Consultați și</span><span class="sxs-lookup"><span data-stu-id="32f20-111">See Also</span></span>  
- [<span data-ttu-id="32f20-112">Configurați resursele</span><span class="sxs-lookup"><span data-stu-id="32f20-112">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="a9c99-111">Consultați și</span><span class="sxs-lookup"><span data-stu-id="a9c99-111">See Also</span></span>  
+ [<span data-ttu-id="a9c99-112">Configurați resursele</span><span class="sxs-lookup"><span data-stu-id="a9c99-112">Set up resources</span></span>](../psa/set-up-resources.md)
