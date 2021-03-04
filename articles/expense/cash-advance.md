@@ -3,19 +3,19 @@ title: Avans în numerar
 description: Acest subiect oferă informații despre avansuri de numerar.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122764"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098899"
 ---
 # <a name="cash-advance"></a>Avans în numerar
 
@@ -24,8 +24,9 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 Un avans în numerar permite angajaților să împrumute bani de la compania lor înainte de a suporta cheltuieli. Atunci când un avans de numerar solicitat este aprobat și plătit, angajatul poate folosi banii pentru cheltuielile de afaceri pe care ar putea să le suporte. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Creați și trimiteți o cerere de avans în numerar
+Pentru a crea un nou avans de numerar și a trimite o solicitare de avans în numerar, procedați în felul următor: 
 
-1. Sub **Cheltuielile mele**, selectați **Avansuri de numerar** > **Nou** pentru a crea un nou avans de numerar. 
+1. La secțiunea **Cheltuielile mele**, selectați **Avansuri de numerar** > **Nou**. 
 2. Pe pagina **Nouă solicitare de avans în numerar**, introduceți scopul cheltuielilor și selectați locația în care va fi efectuată cheltuiala.
 3. Introduceți suma și moneda solicitate, apoi selectați **Salvare**. 
 4. Când sunteți gata să depuneți cererea de avans în numerar, pe pagina **Cerere de avans în numerar**, selectați **Flux de lucru** > **Trimite**.
@@ -34,7 +35,7 @@ Un avans în numerar permite angajaților să împrumute bani de la compania lor
 
 Puteți modifica o solicitare de avans în numerar dacă nu a fost trimisă spre aprobare.
 
-1. Sub **Cheltuielile mele: avansuri în numerar** localizați și selectați avansul de numerar pe care doriți să îl modificați.
+1. La secțiunea **Cheltuielile mele: avansuri de numerar** localizați și selectați avansul de numerar pe care doriți să îl editați.
 2. Selectați **Editați** și faceți modificările necesare la solicitarea de avans în numerar. 
 3. Selectați **Salvați și închideți**.
 
@@ -57,7 +58,8 @@ Următoarea procedură este de obicei finalizată de un contabil sau un utilizat
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Trimiteți un raport de cheltuieli cu un avans de numerar plătit 
 
-Când creați și trimiteți un raport de cheltuieli pentru avansul în numerar pe care l-ați primit deja, cheltuielile vor fi ajustate automat în funcție de acel avans. Dacă avansul dvs. de numerar este mai mare decât suma cheltuită, trebuie să returnați soldul companiei utilizând categoria de cheltuieli **Returnează numerar**. Dacă avansul în numerar plătit de companie este mai mic decât suma pe care ați cheltuit-o, compania trebuie să vă ramburseze soldul. 
+Când creați și trimiteți un raport de cheltuieli pentru avansul de numerar pe care l-ați primit deja, cheltuielile vor fi ajustate automat în funcție de acel avans. Dacă avansul dvs. de numerar este mai mare decât suma cheltuită, trebuie să returnați soldul companiei utilizând categoria de cheltuieli **Returnează numerar**. Dacă avansul de numerar plătit de companie este mai mic decât suma pe care ați cheltuit-o, compania trebuie să vă ramburseze soldul. 
 
 ### <a name="example"></a>Exemplu
-Aveți de gând să călătoriți pentru o conferință de la Seattle la New York. Creați o solicitare de avans în numerar pentru 3000,00 USD, deoarece ați estimat că costul biletului de conferință, zborurilor, hotelului, meselor și taxiului va fi aproximativ această sumă. Nu veți fi plătit decât dacă managerul dvs. a aprobat această solicitare. După ce managerul dvs. aprobă, avansul de numerar solicitat este plătit ca 3000,00 USD în contul dvs. bancar. Apoi participați la conferință. După finalizarea călătoriei dvs., constatați că cheltuielile totale au fost doar de 2790,00 USD. Selectați **Numerar** în câmpul **Modalitate de plată** și vă trimite cheltuiala pentru 2790,00 USD. Valoarea cheltuielilor trimise este ajustată automat în funcție de avansul în numerar al 3000,00 USD care v-a fost împrumutat. Acum datorați companiei un sold de 210,00 USD (3000,00-2790,00), pe care îl puteți restitui companiei folosind categoria de cheltuieli **Returnează numerar**. 
+Aveți de gând să faceți o deplasare de la Seattle la New York pentru o conferință. Creați o solicitare de avans de numerar pentru suma de 3000,00 USD pe baza costului estimat al biletului, zborurilor, hotelului, meselor și taxiurilor pentru conferință. Nu vi se va plăti decât dacă managerul dvs. aprobă această solicitare. După ce managerul dvs. aprobă, avansul de numerar solicitat este plătit ca 3000,00 USD în contul dvs. bancar. Apoi participați la conferință. După finalizarea călătoriei dvs., constatați că cheltuielile totale au fost doar de 2790,00 USD. Selectați **Numerar** în câmpul **Modalitate de plată** și trimiteți cheltuielile pentru suma de 2790,00 USD. Valoarea cheltuielilor trimise este ajustată automat în funcție de avansul în numerar al 3000,00 USD care v-a fost împrumutat. În acest moment aveți o datorie de 210,00 USD (3000,00 - 2790,00), pe care îl puteți restitui companiei folosind categoria de cheltuieli **Returnați numerar**.
+

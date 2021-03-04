@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082955"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960487"
 ---
 # <a name="expense-management-mobile-workspace"></a>Spațiu de lucru mobil pentru gestionarea cheltuielilor
-
-[!include [banner](../includes/banner.md)]
 
 Acest subiect oferă informații despre spațiul de lucru mobil pentru **Gestionarea cheltuielii**. Acest spațiu de lucru permite utilizatorilor să captureze și să încarce o chitanță, astfel încât să o poată atașa la un raport de cheltuieli ulterior. De asemenea, utilizatorii pot crea rapid o linie de cheltuieli utilizând o chitanță atașată și pot crea și gestiona rapoartele de cheltuieli. În plus, aprobatorii pot utiliza spațiul de lucru mobil **Gestionarea cheltuielilor** pentru a vizualiza rapoartele de cheltuieli care le sunt atribuite și pentru a aproba sau respinge rapoartele de cheltuieli respective.
 
@@ -115,12 +113,12 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 3. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
 4. Urmați unul dintre acești pași:
 
-    - Dacă ați selectat **Faceți o fotografie** , urmați acești pași:
+    - Dacă ați selectat **Faceți o fotografie**, urmați acești pași:
 
         1. Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
         2. Opțional: introduceți un nume pentru fotografie și introduceți orice notă.
 
-    - Dacă ați selectat **Alegeți imagine** , urmați acești pași:
+    - Dacă ați selectat **Alegeți imagine**, urmați acești pași:
 
         1. Selectaţi o imagine din listă.
         2. Opțional: introduceți un nume pentru imagine și introduceți orice notă.
@@ -138,8 +136,8 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 8. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
 9. Urmați unul dintre acești pași:
 
-    - Dacă ați selectat **Faceți fotografie** , sunteți conduși la camera de pe dispozitivul mobil, astfel încât puteți face o fotografie a chitanței. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
-    - Dacă ați selectat **Alegeți imaginea** , selectați o imagine din listă.
+    - Dacă ați selectat **Faceți fotografie**, sunteți conduși la camera de pe dispozitivul mobil, astfel încât puteți face o fotografie a chitanței. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
+    - Dacă ați selectat **Alegeți imaginea**, selectați o imagine din listă.
 
 10. Selectați **Terminat**.
 
@@ -151,7 +149,7 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
     
 3. Selectați un raport de cheltuieli pentru a vizualiza detaliile cheltuielilor pentru acesta.
 4. Selectați o cheltuială pentru a vizualiza detaliile pentru acesta. Informațiile afișate pentru o cheltuială includ orice chitanță, invitat și detalii de detaliere.
-5. Înapoi pe pagina **Raport de cheltuieli** , selectați pentru a aproba sau respinge raportul de cheltuieli.
+5. Înapoi pe pagina **Raport de cheltuieli**, selectați pentru a aproba sau respinge raportul de cheltuieli.
 6. Introduceți orice comentariu pentru acțiunea de aprobare.
 7. Selectați **Terminat**.
 
@@ -172,53 +170,53 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 14. Selectați moneda cheltuielii. Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după monedă sau comutați la căutare după nume.
 15. Selectați **Terminat**.
 16. Pentru a adăuga mai multe detalii la cheltuială, selectați **Adăugați mai multe detalii**. Câmpurile disponibile depind de configurația gestionării cheltuielilor pentru compania dvs.
-17. Dacă politica companiei necesită o chitanță pentru cheltuială, selectați **Chitanțe** , apoi urmați acești pași:
+17. Dacă politica companiei necesită o chitanță pentru cheltuială, selectați **Chitanțe**, apoi urmați acești pași:
 
     1. Selectați **Captură chitanță** sau **Atașați chitanța**.
     2. Urmați unul dintre acești pași:
 
-        - Dacă ați selectat **Capturați chitanță** , urmați acești pași:
+        - Dacă ați selectat **Capturați chitanță**, urmați acești pași:
 
             1. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
             2. Urmați unul dintre acești pași:
 
-                - Dacă ați selectat **Faceți o fotografie** , urmați acești pași:
+                - Dacă ați selectat **Faceți o fotografie**, urmați acești pași:
 
                     1. Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
                     2. Opțional: introduceți un nume pentru fotografie și introduceți orice notă.
 
-                - Dacă ați selectat **Alegeți imagine** , urmați acești pași:
+                - Dacă ați selectat **Alegeți imagine**, urmați acești pași:
 
                     1. Selectaţi o imagine din listă.
                     2. Opțional: introduceți un nume pentru imagine și introduceți orice notă.
 
             3.  Selectați **Terminat**.
 
-        - Dacă ați selectat **Atașați chitanța** , urmați acești pași:
+        - Dacă ați selectat **Atașați chitanța**, urmați acești pași:
 
             1.  Selectați una sau mai multe imagini în listă.
             2.  Selectați **Terminat**.
 
     3. Selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.
 
-18. Dacă politica companiei cere invitaților cheltuiala, selectați **Invitați** , apoi urmați acești pași:
+18. Dacă politica companiei cere invitaților cheltuiala, selectați **Invitați**, apoi urmați acești pași:
 
-    1. Selectați **Invitat** , **Invitați anteriori** , sau **Colegi de muncă**.
+    1. Selectați **Invitat**, **Invitați anteriori**, sau **Colegi de muncă**.
     2. Urmați unul dintre acești pași:
 
-        - Dacă ați selectat **Invitat** , urmați acești pași:
+        - Dacă ați selectat **Invitat**, urmați acești pași:
 
             1. Introduceţi numele invitatului.
             2. Opțional: introduceți organizația și/sau țara oaspetelui.
             3. Opțional: introduceți titlul invitatului.
             4. Selectați **Terminat**.
 
-        - Dacă ați selectat **Oaspeți anteriori** , urmați acești pași:
+        - Dacă ați selectat **Oaspeți anteriori**, urmați acești pași:
 
             1. Selectați unul sau mai mulți oaspeți anteriori din listă. Vedeți o listă de invitați anteriori pe care i-ați adăugat la rapoartele de cheltuieli anterioare care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Dacă invitatul dvs. anterior nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după organizație, țară sau titlu.
             2. Selectați **Terminat**.
 
-        - Dacă ați selectat **Colegi** , urmați acești pași:
+        - Dacă ați selectat **Colegi**, urmați acești pași:
 
             1. Selectați unul sau mai mulți colegi din listă. Vedeți o listă de colegi care sunt încărcați în aplicația dvs. pentru a fi utilizați offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Dacă colegul dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după companie sau titlu.
             2. Selectați **Terminat**.

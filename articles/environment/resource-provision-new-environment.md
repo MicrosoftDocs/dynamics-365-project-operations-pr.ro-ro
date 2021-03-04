@@ -3,17 +3,18 @@ title: Asigurarea accesului pentru un nou mediu
 description: Acest subiect furnizează informații despre ucm să provizionați un nou mediu Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643001"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727805"
 ---
 # <a name="provision-a-new-environment"></a>Asigurarea accesului pentru un nou mediu
 
@@ -60,17 +61,15 @@ Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pen
 
 ![Acord de implementare](./media/2DeploymentConsent.png)
 
-7. Completați câmpurile obligatorii rămase în expert și confirmați implementarea. Timpul de pregătire a mediului variază în funcție de tipul de mediu. Pregătirea poate dura până la șase ore.
+7. Opțional - Aplicați date demonstrative pentru mediu. Mergi la **Setări avansate**, Selectați **Personalizați configurația bazei de date SQL**, și setați **Specificați un set de date pentru baza de date a aplicației** la **Demonstrativ**.
+
+8. Completați câmpurile obligatorii rămase în expert și confirmați implementarea. Timpul de aprovizionare a mediului variază în funcție de tipul de mediu. Pregătirea poate dura până la șase ore.
 
   După ce implementarea se finalizează cu succes, mediul se va afișa ca **Implementat**.
 
-8. Pentru a confirma că mediul s-a implementat cu succes, selectați **Autentificare** și conectați-vă la mediu pentru a confirma.
+9. Pentru a confirma că mediul a fost implementat cu succes, selectați **Autentificare** și conectați-vă la mediu pentru a confirma.
 
-![Detalii despre mediul ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplicați datele demo Project Operations Finance (pas opțional)
-
-Aplicați datele demo de Project Operations Finance la versiunea de servicii 10.0.13 Cloud Hosted Environment, așa cum este descris în [acest articol](resource-apply-finance-demo-data.md).
+![Detalii despre mediu](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicați actualizările la mediul de finanțe
 
@@ -151,6 +150,21 @@ După aplicarea entităților, toate mapările disponibile sunt listate în medi
 Reîmprospătarea va dura aproximativ 20 de minute. Veți primi o alertă când aceasta este completă.
 
 ![Reîmprospătare confirmare](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Actualizați setările de securitate pentru Project Operations pe Dataverse
+
+1. Mergeți la Project Operations pe mediul dvs. Dataverse. 
+2. Accesați **Setări** > **Securitate** > **Roluri de securitate**. 
+3. Pe pagina **Roluri de securitate**, în lista de roluri, selectați **utilizator de aplicație cu scriere duală** și selectați fila **Entități personalizate**.  
+4. Verificați dacă rolul are permisiunile **Citit** și **Adăuga la** pentru:
+      
+      - **Tipul cursului de schimb valutar**
+      - **Plan de conturi**
+      - **Calendar fiscal**
+      - **Registru**
+
+5. După actualizarea rolului de securitate, accesați **Setări** > **Securitate** > **Echipe** și selectați echipa implicită în vizualizarea de echipă **Proprietar de afaceri locale**.
+6. Selectați **Gestionați rolurile** și verificați dacă privilegiul de securitate **utilizator de aplicație cu scriere duală** este aplicabil pentru această echipă.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Rulare hărți Project Operations Dual Write
 

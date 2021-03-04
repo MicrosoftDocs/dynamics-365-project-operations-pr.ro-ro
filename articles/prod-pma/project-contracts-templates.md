@@ -1,9 +1,9 @@
 ---
-title: Sincronizați contractele de proiect și proiectele direct din Project Service Automation la Finance and Operations
+title: Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe
 description: Acest subiect descrie șablonul și activitățile de desfășurare care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642648"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764834"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați contractele de proiect și proiectele direct din Project Service Automation la Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Pentru a accesa șabloanele disponibile, în centrul de administrare Microsoft P
 Următoarele șabloane și activități în desfășurare sunt utilizate pentru a sincroniza contracte de proiect și proiecte de la Project Service Automation la Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrarea cu Dynamics 365 Project Service Automation v2.x
-- **Numele șablonului în Integrarea datelor:** Proiecte și contracte (PSA la Fin și Ops)
+- **Numele șablonului din Integrarea datelor:** Proiecte și contracte (Project Service Automation în Finanțe)
 - **Numele sarcinilor din proiect:**
 
-    - Proiectul contractează PSA către Fin și Ops
-    - Proiectele contractează PSA către Fin și Ops
-    - Linii de contract de proiect PSA către Fin și Ops
-    - Jaloane de linie de contract PSA la Fin și Ops
+    - Contract de proiect Project Service Automation în Finanțe
+    - Proiecte Project Service Automation în Finanțe
+    - Linii contract de proiect Project Service Automation în Finanțe
+    - Repere linii contract de proiect Project Service Automation în Finanțe
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integrarea cu Dynamics 365 Project Service Automation v3.x
 Există o schimbare de schemă în Project Service Automation care afectează șablonul de referință al liniei de contract Project și este necesară utilizarea versiunii v2 a șablonului pentru a integra Project Service Automation v3.x cu Dynamics 365.
 
-- **Numele șablonului în Integrarea datelor:** Proiecte și contracte (PSA 3.x la Fin și Ops) - v2
+- **Numele șablonului din Integrarea datelor:** Proiecte și Contracte (Project Service Automation 3.x în Finanțe) - v2
 - **Numele sarcinilor din proiect:**
 
-    - Proiectul contractează PSA către Fin și Ops
-    - Proiectele contractează PSA către Fin și Ops
-    - Linii de contract de proiect PSA către Fin și Ops
-    - Jaloane de linie de contract PSA la Fin și Ops
+    - Contract de proiect Project Service Automation în Finanțe
+    - Proiecte Project Service Automation în Finanțe
+    - Linii contract de proiect Project Service Automation în Finanțe
+    - Repere linii contract de proiect Project Service Automation în Finanțe
 
 Înainte să poată avea loc sincronizarea de contracte de proiecte și proiecte, trebuie să sincronizați conturile.
 
@@ -87,7 +87,8 @@ Există o schimbare de schemă în Project Service Automation care afectează ș
 
 Contractele de proiect sunt gestionate în Project Service Automation și sunt sincronizate cu Finance ca și contracte de proiect. Ca parte a șablonului de integrare, puteți seta sursa de integrare în Finance pentru contractul de proiect.
 
-Proiectul de timp și material și proiectele cu preț fix sunt gestionate în Project Service Automation și sunt sincronizate la Finance ca proiecte. Ca parte a integrării de șablon, puteți seta sursa de integrare în Finance pentru proiect.
+Proiectele de timp, materiale și cu prețuri fixe sunt gestionate în Project Service Automation și sincronizate cu Finanțele ca proiecte. Ca parte a integrării șablonului, puteți seta sursa de integrare pentru proiect în Finanțe. În prezent, sunt acceptate doar proiecte de timp și materiale și cu prețuri fixe.
+
 
 Liniile de contract de proiect sunt gestionate în Project Service Automation și sunt sincronizate cu Finance ca și reguli de facturare de contract. Dacă metoda de facturare diferă de tipul de proiect implicit, sincronizarea actualizează tipul de proiect pentru proiectul liniei de contract și grupul de proiecte.
 
@@ -122,7 +123,7 @@ Când se aplică soluția de integrare Project Service Automation to Finance, un
 
 ## <a name="power-query"></a>Power Query
 
-Trebuie să utilizați Microsoft Power Query pentru Excel pentru a filtra datele dacă sunt îndeplinite următoarele condiții:
+Utilizați Microsoft Power Query pentru Excel pentru a filtra datele dacă sunt îndeplinite următoarele condiții:
 
 - Aveți comenzi de vânzări în Dynamics 365 Sales.
 - Aveți mai multe unități organizaționale în Project Service Automation, iar aceste unități organizaționale vor fi mapate la mai multe entități juridice din Finance.
@@ -130,7 +131,7 @@ Trebuie să utilizați Microsoft Power Query pentru Excel pentru a filtra datele
 Dacă trebuie să utilizați Power Query, urmați aceste recomandări:
 
 - Șablonul Proiecte și contracte (PSA to Fin și Ops) are un filtru implicit care include numai comenzile de vânzare ale tipului **Element de lucru (msdyn\_ordertype = 192350001)**. Acest filtru ajută la garantarea faptului că nu se creează contracte de proiect pentru comenzile de vânzare din Finance. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru.
-- Trebuie să creați un filtru Power Query care să includă numai organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. De exemplu, contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso SUA ar trebui sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso Global ar trebui sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
+- Creați un filtru Power Query care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. De exemplu, contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso SUA ar trebui sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso Global ar trebui sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
 
 ## <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor
 

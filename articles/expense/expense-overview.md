@@ -5,30 +5,31 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122852"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764924"
 ---
 # <a name="expense-home-page"></a>Pagina principală a cheltuielilor
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 
-Dynamics 365 Project Operations acceptă capacitatea de a procesa cheltuieli. Procesarea cheltuielilor are loc cu sau fără proiecte utilizând un flux de lucru personalizabil de politici, categorii de tranzacții și aprobări.
+Dynamics 365 Project Operations sprijină capacitatea de procesare a cheltuielilor. Procesarea cheltuielilor are loc cu sau fără proiecte utilizând un flux de lucru personalizabil de politici, categorii de tranzacții și aprobări.
 
 În Project Operations, există două modele de implementare acceptate pentru cheltuieli: 
 
-- **Complet**: Implementarea completă este disponibilă pentru **Project operations pentru resurse/scenarii bazate pe stoc** sau **Project Operations pentru scenarii bazate pe comenzi de producție**.
+- **Completă**: Implementarea completă este disponibilă pentru **Project Operations pentru resurse/scenarii care nu sunt bazate pe stoc** sau **Project Operations pentru scenarii bazate pe comenzi de producție**.
 - **De bază**: Implementarea de bază este disponibilă pentru **Project Operations pentru resurse/scenarii bazate pe stoc** și **Implementare simplă - gestionați facturarea proforma**.
 
 ## <a name="full"></a>Integral 
-Implementarea cheltuielilor complete oferă o aplicare completă a politicilor, care include posibilitatea de a crea politici, cum ar fi:
+Implementarea completă a cheltuielilor oferă o aplicare completă a politicilor care include posibilitatea de a crea politici, cum ar fi:
 
   - Limite de categorii de cheltuieli
   - Călătorie

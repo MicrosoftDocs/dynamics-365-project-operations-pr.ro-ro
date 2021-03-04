@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082941"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960082"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Vizualizați un raport de cheltuieli din registrul general sau Achiziții și aprovizionare
-
-[!include [banner](../includes/banner.md)]
 
 Când executați o interogare pentru a vizualiza tranzacții în contabilitate generală sau Achiziții și aprovizionare, interogarea ar putea returna prea multe informații. Prin urmare, vă recomandăm să vă restrângeți căutarea. Pentru a obține informațiile de care aveți nevoie, puteți defila într-o tranzacție pentru a vedea raportul de cheltuieli pe care a apărut.
 

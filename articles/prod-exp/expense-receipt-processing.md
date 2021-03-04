@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082954"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960307"
 ---
 # <a name="expense-receipt-processing"></a>Procesarea chitanțelor de cheltuieli
-
-[!include [banner](../includes/banner.md)]
 
 Introducerea cheltuielilor a fost îmbunătățită prin introducerea procesării de recunoaștere optică a caracterelor (OCR) pentru chitanțe. Această caracteristică este concepută pentru a îmbunătăți experiența utilizatorului când sunt create rapoarte de cheltuieli.
 
@@ -39,17 +37,17 @@ Introducerea cheltuielilor a fost îmbunătățită prin introducerea procesări
 Pentru a atașa automat chitanțe care includ tranzacții cu cardul de credit atunci când este creat un raport de cheltuieli, parcurgeți pașii următori:
 
   1. Deschideți spațiul de lucru **Gestionarea cheltuielilor**.
-  2. Pe fila **Chitanțe** , verificați dacă există chitanțe neatașate. De asemenea, puteți încărca chitanțe pe fila **Chitanțe**.
-  3. Pe fila **Cheltuieli** , verificați dacă există cheltuieli neatașate. De obicei, administratorul cheltuielilor importă aceste cheltuieli de la furnizorul cardului de credit.
+  2. Pe fila **Chitanțe**, verificați dacă există chitanțe neatașate. De asemenea, puteți încărca chitanțe pe fila **Chitanțe**.
+  3. Pe fila **Cheltuieli**, verificați dacă există cheltuieli neatașate. De obicei, administratorul cheltuielilor importă aceste cheltuieli de la furnizorul cardului de credit.
   4. Selectați **Nou raport de cheltuieli**. Observați că puteți include cheltuieli și chitanțe și acum, atunci când creați un raport de cheltuieli. Dacă adăugați atât cheltuieli, cât și chitanțe, se declanșează corelarea automată a chitanțelor cu cheltuielile.
 
 Pentru a crea o cheltuială sau pentru a potrivi o cheltuială dintr-o chitanță, parcurgeți pașii următori:
 
-  1. Pe un raport de cheltuieli, pe fila **Chitanțe** , atașați o chitanță selectând **Adăugați chitanțe**.
+  1. Pe un raport de cheltuieli, pe fila **Chitanțe**, atașați o chitanță selectând **Adăugați chitanțe**.
   2. Sub imaginea încărcată a chitanței, observați opțiunile **Creare** și **Potrivire**.
 
       - Selectați **Creare** pentru a crea o tranzacție de cheltuieli introdusă manual și pentru a completa valorile care sunt extrase din chitanță.
-      - Dacă selectați sistemul **Potrivire** , sistemul încearcă să potrivească o cheltuială existentă cu chitanța.
+      - Dacă selectați sistemul **Potrivire**, sistemul încearcă să potrivească o cheltuială existentă cu chitanța.
 
 ## <a name="installation"></a>Instalare
 
@@ -59,13 +57,13 @@ Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați progra
 
 1. Conectați-vă la LCS și deschideți mediul dorit.
 2. Accesați **Toate detaliile**.
-3. Selectați **Menţine** , sau derulați în jos la FastTab **Programe de completare de mediu**.
+3. Selectați **Menţine**, sau derulați în jos la FastTab **Programe de completare de mediu**.
 4. Selectați **Instalați un nou program de completare**.
 5. Selectați **Serviciu gestionare cheltuieli**.
 6. Urmați ghidul de instalare și acceptați termenii și condițiile.
 7. Selectați **Instalare**.
 
-În spațiul de lucru **Managementul caracteristicilor** , activați următoarele caracteristici:
+În spațiul de lucru **Managementul caracteristicilor**, activați următoarele caracteristici:
 
 - Rapoarte de cheltuieli reimaginate
 - Potriviți automat și creați cheltuieli de la primire

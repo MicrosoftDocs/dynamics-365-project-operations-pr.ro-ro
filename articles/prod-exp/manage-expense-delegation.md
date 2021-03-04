@@ -1,6 +1,6 @@
 ---
 title: Gestionarea delegării cheltuielilor
-description: Un utilizator delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli în numele altui angajat din organizație.
+description: Un utilizator delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli pentru un alt angajat din organizație.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082948"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960802"
 ---
 # <a name="manage-expense-delegation"></a>Gestionarea delegării cheltuielilor
 
-[!include [banner](../includes/banner.md)]
+Un delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli pentru un alt angajat.
 
-Un utilizator delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli în numele altui angajat din organizație.
+## <a name="configure-expense-delegation"></a>Configurarea delegării cheltuielilor
 
-## <a name="configuring-expense-delegation"></a>Configurarea delegării cheltuielilor
+1. Pentru a configura un utilizator ca delegat de cheltuieli, accesați **Gestionarea cheltuielilor > Configurare > General > Delegați**.
+2. Pe pagina **Delegați**, selectați **Nou**.
+3. Selectați angajatul care va avea un delegat definit. 
+4. Introduceți aliasul utilizatorului delegat și data de început și sfârșit pentru perioada de delegare.
 
-Pentru a configura un utilizator ca delegat de cheltuieli, accesați **Gestionarea cheltuielilor > Configurare > General > Delegați** pentru a deschide pagina **Delegați**. Selectați **Nou** și apoi selectați angajatul care va avea un delegat definit. Introduceți aliasul utilizatorului delegat și data de început și sfârșit pentru perioada de delegare.
+## <a name="manage-expense-delegation-for-another-employee"></a>Gestionați delegarea cheltuielilor pentru un alt angajat
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Gestionați cheltuielile de delegare în numele altui angajat
+Când cheia de gestionare a caracteristicilor **Activați pagina cu lista delegaților de cheltuieli** este activată, pagina listei **Cheltuieli care mi-au fost delegate** va fi disponibilă. Accesați **Gestionarea cheltuielilor** > **Cheltuielile mele** > **Cheltuieli care mi-au fost delegate**.
 
-Dacă cheia de gestionare a caracteristicilor **Activați pagina cu lista delegaților de cheltuieli** este activat, fișierul **Cheltuieli care mi-au fost delegate** pagina listei va fi disponibilă navigând la **Managementul cheltuielilor > Cheltuielile mele > Cheltuielile care mi-au fost delegate**.
+Un utilizator delegat poate filtra și căuta rapid rapoartele de cheltuieli existente care le-au fost delegate. De asemenea, pot crea un nou raport de cheltuieli pentru alți utilizatori selectând **Raport de cheltuieli nou**.
 
-Un utilizator delegat poate filtra și căuta rapid rapoartele de cheltuieli existente care au fost delegate utilizatorului. De asemenea, utilizatorul poate crea rapid un nou raport de cheltuieli în numele altor utilizatori, făcând clic pe **Nou raport de cheltuieli**.
-
-Utilizatorii delegați pot, de asemenea, crea și gestiona rapoarte de cheltuieli în numele altor angajați navigân la **Gestionarea cheltuielilor > Cheltuielile mele > Rapoarte de cheltuieli** și făcând clic pe butonul **Deschideți cheltuielile altui utilizator**.
+Utilizatorii delegați pot crea și gestiona rapoarte de cheltuieli pentru alți angajați accesând **Managementul cheltuielilor** > **Cheltuielile mele** > **Rapoarte de cheltuieli** și selectând **Deschideți cheltuielile altor utilizatori**.
