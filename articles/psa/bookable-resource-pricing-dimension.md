@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082895"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145013"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizați resursa care se poate rezerva ca dimensiune de tarifare
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Acest subiect furnizează informații despre utilizarea unei resurse rezervabile ca dimensiune de tarifare. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din subiectul [Creare câmpuri și entități particularizate](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adăugați o resursă rezervabilă la formulare și vizualizări
@@ -48,18 +51,18 @@ Deschideți exploratorul de soluții pentru soluția de dimensiune de tarifare �
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Configurați resursa care se poate rezerva ca dimensiune de tarifare
 
-1. În interfața web, accesați **Project Service** > **Setări** > **Parametri**. Pa pagina **Parametri** , în fila **Dimensiuni de tarifare bazate pe sumă** , observați că grila de pe filă afișează înregistrările din entitatea Dimensiuni de tarifare. 
+1. În interfața web, accesați **Project Service** > **Setări** > **Parametri**. Pa pagina **Parametri**, în fila **Dimensiuni de tarifare bazate pe sumă**, observați că grila de pe filă afișează înregistrările din entitatea Dimensiuni de tarifare. 
 2. Adăugați **Resursă rezervabilă** la această listă de dimensiuni de tarifare ca **msdyn_bookableresource**. 
 3. Indicați contextul în care resursa care se poate rezerva funcționează ca dimensiune de tarifare și setați valorile **Aplicabilă costurilor** și **Aplicabilă vânzărilor**.
-4. În câmpul **Tip dimensiune** , selectați **Pe bază de sumă**. 
-5. Selectați prioritatea de cost și de vânzări pentru resursa care se poate rezerva. De obicei, atunci când este inclusă ca o dimensiune de tarifare, o resursă care se poate rezerva are cea mai mare prioritate, așa că setarea acesteia la **1** (sau **0** , în funcție de modul în care numerotați prioritatea) ar asigura acel comportament.
+4. În câmpul **Tip dimensiune**, selectați **Pe bază de sumă**. 
+5. Selectați prioritatea de cost și de vânzări pentru resursa care se poate rezerva. De obicei, atunci când este inclusă ca o dimensiune de tarifare, o resursă care se poate rezerva are cea mai mare prioritate, așa că setarea acesteia la **1** (sau **0**, în funcție de modul în care numerotați prioritatea) ar asigura acel comportament.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Configurați numele de câmpuri pentru dimensiunea de tarifare
 
 Când numele câmpului unei dimensiuni de tarifare din tabelul **Preț pentru rol** este diferit de numele său de câmp în oricare dintre celelalte entități unde trebuie să funcționeze valoarea implicită a prețului, înregistrarea dimensiunii de tarifare trebuie să fie informată cu privire la numele diferite.    
-Pentru resursa care poate fi rezervată, entitatea **Membri echipă de proiect** are un nume de câmp ușor diferit ( **msdyn_bookableresourceid** ) față de denumirea din entitatea **Preț pentru rol** ( **msdyn_ bookableresource** ). Înregistrarea dimensiunii de tarifare pentru **msydn_bookableresource** trebuie să fie informată despre acest lucru. 
+Pentru resursa care poate fi rezervată, entitatea **Membri echipă de proiect** are un nume de câmp ușor diferit (**msdyn_bookableresourceid**) față de denumirea din entitatea **Preț pentru rol** (**msdyn_ bookableresource**). Înregistrarea dimensiunii de tarifare pentru **msydn_bookableresource** trebuie să fie informată despre acest lucru. 
 1. Pentru aceasta, faceți dublu clic pe rândul din grila de **Dimensiuni de tarifare** pentru a deschide pagina de dimensiuni a **msdyn_bookableresource**.
-2. Pe pagina de dimensiuni, în fila **Corelate** , faceți clic pe **Nume câmpuri de dimensiune de tarifare**.
+2. Pe pagina de dimensiuni, în fila **Corelate**, faceți clic pe **Nume câmpuri de dimensiune de tarifare**.
 
  ![Fila Nume câmpuri de dimensiune de tarifare](media/PD-fieldname.png)
 

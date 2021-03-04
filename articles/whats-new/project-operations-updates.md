@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: acafb97b2bb20deaf12db12cd9238cf5ad0817a9
-ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
+ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
+ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689425"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141222"
 ---
 # <a name="project-operations-updates"></a>Actualizări Project Operations
 
@@ -26,36 +26,40 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/non-sto
 
 Dynamics 365 Project Operations este format din două componente:
 
-- Project Operations pe mediul Common Data Service (CDS) acoperă capabilitățile facturării de la oportunitate la facturarea proforma. CDS este utilizat în implementarea simplă și implementarea scenariilor de resurse/ne-stocate ale Project Operations.
+- Project Operations pe mediul Dataverse acoperă capabilitățile de la oportunitate la emiterea facturii proforme. Dataverse este utilizat în implementarea simplă și implementarea scenariilor de resurse/ne-stocate ale Project Operations.
 - Proiect management și contabilitate în mediul Dynamics 365 Finance acoperă capabilități de gestionare a cheltuielilor, contabilitate de proiect și recunoașterea veniturilor. Mediul de aplicație Finance and Operations este utilizat în Project Operations pentru scenarii resursă/non-stoc și Project Operations pentru scenarii stocat/pe bază de producție.
 
 ## <a name="project-operations-latest-version"></a>Ultima versiune Project Operations
 
-| Project Operations pe mediu CDS | Management de proiect și contabilitate în medii de aplicații Finance and Operations |
+| Project Operations pe mediu Dataverse | Management de proiect și contabilitate în medii de aplicații Finance and Operations |
 | --- | --- |
-| 4.5.0.134 | 10.0.15 |
+| 4.7.0.95 | 10.0.16 |
 
-Note de lansare ale Project Operations decembrie 2020 pentru [Resursă/fără stoc](whats-new-dec-2020-resource-based.md).
+Note de lansare pentru Project Operations ianuarie 2021 pentru scenarii [Resursă/ne-stocate](whats-new-feb-2021-resource-based.md), [Implementare simplificată](../pro/whats-new/whats-new-feb-2021-lite.md) și [Stocat/producție](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
 
-## <a name="release-schedule-for-project-operations-on-cds-environment"></a>Planificare de lansare pentru Project Operations pe mediul CDS
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificare de lansare pentru Project Operations pe mediul Dataverse
 
-Actualizări pentru Project Operations pe mediul CDS sunt disponibile lunar. 
+Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lunar. 
 
-| Stație   | Regiune        | Versiunea curentă | Următoarea versiune | General disponibilă |
+| Stație   | Regiunea        | Versiunea curentă | Următoarea versiune | General disponibilă |
 |-----------|---------------|-----------------|--------------|---------------------|
+| Stația 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | Prima apariție |  4.7.0.95       | TBD     | 19-Feb-21           |
 | Stația 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | America de Sud |  4.5.0.134       | TBD     | 08-Ian-21           |
-|    &nbsp; | Canada        |  4.5.0.134       | TBD     | 08-Ian-21          |
-|   &nbsp;  | India         |  4.5.0.134       | TBD     | 08-Ian-21           |
+|   &nbsp;  | America de Sud |  4.7.0.95       | TBD     | 19-Feb-21           |
+|    &nbsp; | Canada        |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | India         |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | Franța         |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | Emiratele Arabe Unite         |  4.7.0.95       | TBD     | 19-Feb-21           |
 | Stația 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonia         |  4.5.0.134       | TBD     | 15-Ian-21           |
-|   &nbsp;  | Asia Pacific  |  4.5.0.134       | TBD     | 15-Ian-21           |
-|   &nbsp;  | Regatul Unit |  4.5.0.134       | TBD     | 15-Ian-21           |
-|   &nbsp;  | Oceania       |  4.5.0.134       | TBD     | 15-Ian-21           |
+|   &nbsp;  | Japonia         |  4.7.0.95       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Asia Pacific  |  4.7.0.95       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Regatul Unit |  4.7.0.95       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Oceania       |  4.7.0.95       | TBD     | 26-Feb-21           |
 | Stația 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.4.0.70       | 4.5.0.134     | 11-Dec-20           |
+|   &nbsp;  | Europa        |  4.6.0.161       | 4.7.0.95     | 12-Feb-21           |
 | Stația 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | America de Nord |  4.4.0.70       | 4.5.0.134     | 18-Dec-20           |
+|   &nbsp;  | America de Nord |  4.6.0.161       | 4.7.0.95     | 19-Feb-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificare de lansare pentru managementul de proiect și contabilitate în mediul de aplicații Finance and Operations
 
@@ -63,13 +67,13 @@ Actualizările pentru managementul de proiect și contabilitate sunt publicate d
 
 | Lansare acceptată | Disponibil în general (auto-actualizare) |
 | --- | --- |
+| 10.0.16 | 22 ianuarie 2021 |
 | 10.0.15 | 4 decembrie 2020 |
-| 10.0.14 | 23 Octombrie 2020 |
+
 
 Datele de lansare vizate pot fi modificate. Pentru informații suplimentare, consultați [Disponibilitate actualizare de serviciu](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Data de lansare vizată | Disponibil în general (auto-actualizat) |
 | --- | --- |
-| 10.0.16 | 22 ianuarie 2021 |
-| 10.0.17 | 1 februarie 2021 |
-
+| 10.0.17 | 19 martie 2021 |
+| 10.0.18 | 16 aprilie 2021 |

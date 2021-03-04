@@ -11,14 +11,16 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132438"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144518"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalarea datelor eșantion pentru aplicația Project Service
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Pentru a vă ajuta să creați propriile medii demonstartive, Microsoft furnizează pachete de date eșantion descărcabile ce evidențiază capacitățile aplicațiilor dvs. Există două tipuri de pachete de date eșantion:
 - referință/configurare date

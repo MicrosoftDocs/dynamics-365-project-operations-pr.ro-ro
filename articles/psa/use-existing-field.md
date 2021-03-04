@@ -17,15 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 415e346f88e60cb064f3327bfb35e21bd1c89014
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8bc3a1df7669dac43b45d781448ed5c795a65be4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082874"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144187"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Utilizați un câmp existent în Project Service ca dimensiune de tarifare
 
-Project Service Automation (PSA) are multe câmpuri pe entitatea **Date reale** , care pot fi utilizate ca dimensiuni de tarifare pentru prețuri bazate pe resurse în organizațiile de proiect. De exemplu, un câmp comun este **Resursă care se poate rezerva**. Companiile mai mici, care au mai puțin de 20-30 de resurse facturabile pot descoperi că este o abordare mai simplă să aibă rate de facturare și de cost specifice pentru fiecare resursă. Cu toate acestea, pe măsură ce forța de muncă facturabilă crește, acest lucru ar putea deveni nerealist de susținut, deoarece ratele de cost de facturare ale resurselor încep să varieze pe măsură ce resursele sunt promovate, capătă mai multă experiență sau dobândesc un set de abilități diferite. Deoarece această abordare încă funcționează pentru companii de o anumită dimensiune, consultați subiectul, [Utilizarea unei resurse care poate fi rezervată ca dimensiune de preț](bookable-resource-pricing-dimension.md) pentru a înțelege cum poate fi utilizat un câmp Project Service existent ca dimensiune de preț.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Project Service Automation (PSA) are multe câmpuri pe entitatea **Date reale**, care pot fi utilizate ca dimensiuni de tarifare pentru prețuri bazate pe resurse în organizațiile de proiect. De exemplu, un câmp comun este **Resursă care se poate rezerva**. Companiile mai mici, care au mai puțin de 20-30 de resurse facturabile pot descoperi că este o abordare mai simplă să aibă rate de facturare și de cost specifice pentru fiecare resursă. Cu toate acestea, pe măsură ce forța de muncă care lucrează pe bază de onorarii crește, menținerea tarifelor specifice ar putea deveni nerealistă pe măsură ce costul resurselor și sumele facturilor încep să varieze pe măsură ce resursele sunt promovate, câștigă mai multă experiență sau dobândesc un alt set de abilități. Deoarece această abordare funcționează în continuare pentru companii de o anumită dimensiune, consultați [Utilizați o resursă care poate fi rezervată ca dimensiune pentru stabilirea prețului](bookable-resource-pricing-dimension.md) pentru a înțelege modul în care un câmp existent în Project Service poate fi folosit ca dimensiune de stabilire a prețurilor.
 
 Un alt exemplu este acela al categoriei de tranzacții. Clienții și Implementatorii au utilizat categoria de tranzacții în PSA pentru a clasifica munca și pentru a folosi câmpul pentru preț și cost pe baza categoriei de lucru. Pentru mai multe informații, consultați [Utilizarea categoriei de tranzacții ca dimensiune de preț](transaction-category-pricing-dimension.md).

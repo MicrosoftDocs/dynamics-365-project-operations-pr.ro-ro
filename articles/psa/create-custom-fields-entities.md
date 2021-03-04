@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082865"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144878"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crearea câmpurilor și entităților particularizate 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Parcurgeți pașii următori în orice moment în care doriți să creați un set de opțiuni sau o entitate particularizat(ă) pe platforma Power Apps.  
 Procedurile din acest subiect trebuie parcurse folosind interfața web a Project Service Automation (PSA).
@@ -63,8 +65,8 @@ Aveți posibilitatea să creați două dimensiuni bazate pe seturi de opțiuni. 
 
 Aveți posibilitatea să creați manual date pentru dimensiunile bazate pe entități sau utilizând apelurile de import sau de service Microsoft Excel. Utilizați pașii din această procedură pentru a crea două titluri standard, **Inginer sisteme** și **Inginer sisteme senior** din dimensiunea bazată pe entitate **Titlu standard**. Dacă datele pe care doriți să le creați sunt mici, ca în exemplul următor, aveți posibilitatea să utilizați un formular standard.
 
-1. În PSA, faceți clic pe **Găsire complexă**. Selectați entitatea **Titlu standard** , apoi faceți clic pe **Rezultate**. Toate rândurile din entitatea **Titlu standard** vor fi afișate.
-2. Faceți clic pe **Nou**. În câmpul **Nume** , introduceți „Inginer sisteme” și apoi faceți clic pe **Salvare**.
+1. În PSA, faceți clic pe **Găsire complexă**. Selectați entitatea **Titlu standard**, apoi faceți clic pe **Rezultate**. Toate rândurile din entitatea **Titlu standard** vor fi afișate.
+2. Faceți clic pe **Nou**. În câmpul **Nume**, introduceți „Inginer sisteme” și apoi faceți clic pe **Salvare**.
 3. Închideţi formularul. 
 4. Repetați pașii 1-3 pentru a crea un alt titlu standard pentru „Inginer sisteme senior”.
 

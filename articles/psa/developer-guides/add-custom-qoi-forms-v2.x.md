@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082990"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144608"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Adăugarea de noi formulare de entități particularizate (Project Service Automation 2. x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Tip de câmp 
 
-Dynamics 365 Project Service Automation se bazează pe câmpul **Tip** ( **msdyn\_tipcomandă** ) al entităților Oportunitate, Ofertă, Comandă și Factură pentru a distinge versiunile **bazate pe activități** ale acestor entități de versiunile **bazate pe articole** și **bazate pe servicii**. Versiunile bazate pe activități ale acestor entități sunt gestionate de PSA. O mare parte din logica de afaceri pe partea de client și pe partea de server a soluției depinde de câmpul **Tip**. De aceea, este important ca câmpul să fie inițializat cu o valoare corectă atunci când entitățile sunt create. O valoare incorectă poate provoca comportamente incorecte și o parte din logica de afaceri ar putea să nu ruleze corect.
+Dynamics 365 Project Service Automation se bazează pe câmpul **Tip** (**msdyn\_tipcomandă**) al entităților Oportunitate, Ofertă, Comandă și Factură pentru a distinge versiunile **bazate pe activități** ale acestor entități de versiunile **bazate pe articole** și **bazate pe servicii**. Versiunile bazate pe activități ale acestor entități sunt gestionate de PSA. O mare parte din logica de afaceri pe partea de client și pe partea de server a soluției depinde de câmpul **Tip**. De aceea, este important ca câmpul să fie inițializat cu o valoare corectă atunci când entitățile sunt create. O valoare incorectă poate provoca comportamente incorecte și o parte din logica de afaceri ar putea să nu ruleze corect.
 
 ## <a name="automatic-form-switching"></a>Comutare automată a formularului
 
@@ -37,7 +39,7 @@ Logica de comutare automată a formularului se bazează pe maparea dintre valoar
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Adăugarea formularelor particularizate și activarea logicii de comutare a formularului
 
-Următorul exemplu arată cum să adăugați un formular particularizat, **Informațiile mele de proiect** , astfel încât să funcționeze cu oportunități bazate pe activități. Același proces este utilizat pentru a adăuga formulare particularizate, astfel încât acestea să funcționeze cu oferte, comenzi și facturi.
+Următorul exemplu arată cum să adăugați un formular particularizat, **Informațiile mele de proiect**, astfel încât să funcționeze cu oportunități bazate pe activități. Același proces este utilizat pentru a adăuga formulare particularizate, astfel încât acestea să funcționeze cu oferte, comenzi și facturi.
 
 Urmați acești pași pentru a crea o versiune particularizată a formularului **Informații proiect**.
 
@@ -47,7 +49,7 @@ Urmați acești pași pentru a crea o versiune particularizată a formularului *
     > [!IMPORTANT]
     > Nu eliminați scripturile. În caz contrar, unele date pot fi inițializate incorect.
 
-3. Verificați că câmpul **Tip** ( **msdyn\_tipcomandă** ) este prezent în formular. 
+3. Verificați că câmpul **Tip** (**msdyn\_tipcomandă**) este prezent în formular. 
 
     > [!IMPORTANT]
     > Nu eliminați acest câmp. În caz contrar, scripturile de inițializare vor eșua.

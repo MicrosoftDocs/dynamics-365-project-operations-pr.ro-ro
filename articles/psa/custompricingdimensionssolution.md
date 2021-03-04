@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082805"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144654"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Creare soluții particularizate pentru dimensiunile de tarifare
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Toate modificările dimensiunii de preț personalizate ar trebui să fie într-o soluție separată. Această bună practică importantă oferă flexibilitate în viitor pentru a actualiza sau elimina modificările după este necesar, va ajuta la reutilizarea activității dvs. și facilitează portarea acestor modificări într-o altă instanță. După ce faceți modificările necesare, exportați această soluție ca **Soluție gestionată** și importați-o în alte instanțe pentru a reutiliza configurația dvs. de tarifare.
 
-1. Selectați **Setări** > **Soluții** , apoi selectați **Nou**. 
-2. Denumiți soluția, **\<your organization name> dimensiunile de preț** , introduceți informațiile necesare rămase și apoi selectați **Salvați**.
+1. Selectați **Setări** > **Soluții**, apoi selectați **Nou**. 
+2. Denumiți soluția, **\<your organization name> dimensiunile de preț**, introduceți informațiile necesare rămase și apoi selectați **Salvați**.
 
 > ![Crearea unei soluții particularizate pentru dimensiunile de tarifare](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
@@ -39,7 +41,7 @@ Va trebui să adăugați următoarele entități Project Service la soluția dvs
 
 1. Selectați **Setări** > **Soluții** și apoi faceți clic dublu pe **\<your organization name> dimensiuni de preț**. 
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Adăugare existentă** > **Entități**.
-3. În caseta de dialog **Componente soluție** , selectați următoarele entități:
+3. În caseta de dialog **Componente soluție**, selectați următoarele entități:
 
 - Real
 - Resursă ce se poate rezerva

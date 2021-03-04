@@ -2,6 +2,7 @@
 title: Considerente legate de upgrade - Microsoft Dynamics 365 Project Service Automation versiunea 2.x sau 1.x la versiunea 3
 description: Acest subiect oferă informații despre lucrurile pe care trebuie să le luați în calcul atunci când faceți upgrade de la Project Service Automation versiunea 2. x sau 1. x la versiunea 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121728"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144192"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerente legate de upgrade - PSA versiunea 2.x sau 1.x la versiunea 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation și Field Service
-Atât Dynamics 365 Project Service Automation, cât și Dynamics 365 Field Service utilizați soluția URS (Universal Resourcing Scheduling Scheduling) pentru planificarea resurselor. Dacă aveți atât Project Service Automation, cât și Field Service în instanța dvs., ar trebui să planificați să actualizați ambele soluții la cea mai recentă versiune (versiunea 3.x pentru Project Service Automation, versiunea 8.x pentru Field Service). Actualizarea Project Service Automation sau Field Service va instala cea mai recentă versiune de URS, ceea ce înseamnă că este posibil comportamentul inconsecvent dacă ambele soluții Project Service Automation și Field Service din aceeași instanță nu sunt actualizate la cea mai recentă versiune.
+Atât Dynamics 365 Project Service Automation, cât și Dynamics 365 Field Service utilizați soluția URS (Universal Resourcing Scheduling Scheduling) pentru planificarea resurselor. Dacă aveți Project Service Automation și Field Service în instanța dvs., actualizați ambele soluțiile pentru a avea ultima versiune. Pentru Project Service Automation, aceasta este versiunea 3.x. Pentru Field Service, este versiunea 8.x. Actualizarea Project Service Automation sau Field Service va instala cea mai recentă versiune a URS. Dacă atât soluția Project Service Automation, cât și soluțiile Field Service din aceeași instanță nu sunt actualizate la cea mai recentă versiune, s-ar putea genera un comportament inconsecvent.
 
 ## <a name="resource-assignments"></a>Atribuiri de resurse
 În Project Service Automation versiunea 2 și versiunea 1, atribuirile de activități au fost stocate ca activități fiu (denumite și activități de linie) în **Entitatea activitate** și legate indirect de entitatea de **Atribuire resurse** . Activitatea de linie a fost vizibilă în fereastra pop-up de atribuire pe structura detaliată a proiectului (WBS).
@@ -40,9 +44,9 @@ Atât Dynamics 365 Project Service Automation, cât și Dynamics 365 Field Servi
 Aceste modificări au impact asupra actualizării oricăror proiecte existente care au atribuiri de resurse pentru resurse care pot fi rezervate și resurse generice într-o echipă de proiect. Acest subiect oferă considerentele pe care va trebui să le luați în considerare pentru proiectele dumneavoastră atunci când faceți upgrade la versiunea 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Sarcini atribuite la resursele numite.
-Utilizarea entității de activitate subordonată în versiunea 2 și versiunea 1 le-au permis membrilor echipei să portretizeze un alt rol decât rolul implicit definit. De exemplu, Vera Cuza, căreia îi este atribuit implicit rolul de manager de program, ar putea fi atribuită la o sarcină cu rolul de Dezvoltator. În versiunea 3, rolul unui membru al echipei numit este întotdeauna implicit, astfel încât orice sarcină care îi este atribuită verei Cuza îi utilizează rolul implicit de manager de program.
+Utilizarea entității de activitate subordonată în versiunea 2 și versiunea 1 le-au permis membrilor echipei să portretizeze un alt rol decât rolul implicit definit. De exemplu, Vera Cuza, căreia îi este atribuit implicit rolul de manager de program, ar putea fi atribuită la o sarcină cu rolul de Dezvoltator. În versiunea 3, rolul unui membru numit al echipei este întotdeauna implicit, astfel încât orice sarcină care îi este atribuită Verei Cuza utilizează rolul implicit de manager de program al Verei.
 
-Dacă ați atribuit o resursă unei activități în afara rolului său implicit în versiunea 2 și versiunea 1, atunci când faceți upgrade, resursei denumite îi va fi atribuit rolul implicit pentru toate atribuirile de activități, indiferent de atribuirea rolului în versiunea 2. Aceasta va duce la diferențe în estimările calculate de la versiunea 2 sau versiunea 1 la versiunea 3, deoarece estimările sunt calculate pe baza rolului resursei și nu a atribuirii activității de linie. De exemplu, în versiunea 2, două sarcini au fost atribuite la Maria Bușcan. Rolul de pe activitatea de linie pentru activitatea 1 este Dezvoltator și pentru sarcina 2, Manager de program. Maria Bușcan are rolul implicit de manager de program.
+Dacă ați atribuit o resursă unei activități în afara rolului său implicit în versiunea 2 și versiunea 1, atunci când faceți upgrade, resursei denumite îi va fi atribuit rolul implicit pentru toate atribuirile de activități, indiferent de atribuirea rolului în versiunea 2. Alocarea va genera diferențe în estimările calculate de la versiunea 2 sau versiunea 1 la versiunea 3, deoarece estimările sunt calculate pe baza rolului resursei și nu a atribuirii activității de linie. De exemplu, în versiunea 2, două sarcini au fost atribuite la Maria Bușcan. Rolul de pe activitatea de linie pentru activitatea 1 este Dezvoltator și pentru sarcina 2, Manager de program. Maria Bușcan are rolul implicit de manager de program.
 
 ![Roluri multiple atribuite unei resurse](media/upgrade-multiple-roles-02.png)
 
@@ -56,7 +60,7 @@ Când faceți upgrade la versiunea 3, activitățile de linie sunt înlocuite cu
 
 ![Atribuiri de resurse](media/resource-assignment-v2-05.png)
 
-Deoarece estimările se bazează pe rolul implicit pentru resursă, estimările de vânzări și costuri se pot modifica. Rețineți că în graficul următor, nu mai vedeți rolul de **Dezvoltator**, deoarece rolul este acum luat din rolul implicit al resursei care se poate rezerva.
+Deoarece estimările se bazează pe rolul implicit pentru resursă, estimările de vânzări și costuri se pot modifica. În graficul următor, nu mai vedeți rolul de **Dezvoltator**, deoarece rolul este acum luat din rolul implicit al resursei care poate fi rezervată.
 
 ![Estimările costurilor pentru rolurile implicite](media/resource-assignment-cost-estimate-06.png)
 ![Estimare vânzări pentru rolurile implicite](media/resource-assignment-sales-estimate-07.png)
@@ -75,7 +79,7 @@ Acest lucru este valabil și pentru activitățile de linie care au fost atribui
 - Activități cu roluri și unități de organizație setate, dar nu s-a generat nicio atribuire de resurse afiliate.
 - Activități cu atribuiri de resurse generice de membri ai echipei care au fost atribuite prin crearea de resurse generice utilizând caracteristica **Generare echipă**.
 
-Înainte de a începe upgrade-ul, vă recomandăm să re-generați echipa pentru fiecare proiect care are sarcini atribuite la resurse generice sau pentru care nu s-a rulat încă procesul de generare echipa.
+Înainte de a începe upgrade-ul, vă recomandăm să generați din nou echipa pentru fiecare proiect care are sarcini atribuite la resurse generice sau pentru care nu s-a rulat încă procesul de generare echipa.
 
 Pentru activități care sunt atribuite membrilor generici de echipă care au fost generate cu **Generare echipă**, actualizarea va lăsa resursa generică pe echipă și va lăsa atribuirea la acel membru generic de echipă. Vă recomandăm să generați cerința de resurse pentru membrul generic de echipă după actualizare, dar înainte de a rezerva sau remite o solicitare de resurse. Acest lucru va păstra toate atribuirile de unitate de organizație pe membrii generici ai echipei care sunt diferite de unitatea de organizație contractantă a proiectului.
 
@@ -100,9 +104,9 @@ Puteți vedea unitatea de organizație în vizualizarea estimări.
 
 ![Estimări ale unităților de organizație](media/org-unit-estimates-view-13.png)
  
-Când upgrade-ul este complet, unitatea de organizație de pe linia de activitate care corespunde cu membrul de echipă generic este adăugată la membrul de echipă generic și activitatea de linie este eliminată. Din acest motiv, vă recomandăm ca, înainte de actualizare, să generați sau să re-generați echipa pe fiecare proiect care conține resurse generice.
+Când upgrade-ul este complet, unitatea de organizație de pe linia de activitate care corespunde cu membrul de echipă generic este adăugată la membrul de echipă generic și activitatea de linie este eliminată. Din acest motiv, vă recomandăm ca, înainte de actualizare, să generați sau să generați din nou echipa pe fiecare proiect care conține resurse generice.
 
-Pentru activitățile care sunt atribuite unui rol cu o unitate de organizație care diferă de unitatea de organizație a proiectului contractant și o echipă nu a fost generată, actualizarea va crea un membru de echipă generic pentru rol, dar va utiliza unitatea contractantă a proiectului pentru unitatea de organizație a membrului echipei. Referindu-ne la exemplul cu Proiect Z, aceasta înseamnă că pentru unitatea de organizație contractantă Contoso US, precum și pentru sarcinile de testare a planului de proiect în faza de implementare au fost atribuite rolul de consultant tehnic cu unitatea de organizație atribuită la Contoso India. Sarcinii de testare a integrării încheiată după faza de Implementare i se atribuie rolul de consultant tehnic. Unitatea de organizație este Contoso US și nu a fost generată o echipă. Actualizarea va crea un membru generic de echipă, un consultant tehnic care are orele atribuite pe toate cele trei sarcini, și o unitate de organizație Contoso US, unitatea de organizație contractantă a proiectului.   
+Pentru activitățile care sunt atribuite unui rol cu o unitate de organizație care diferă de unitatea de organizație a proiectului contractant și o echipă nu a fost generată, actualizarea va crea un membru de echipă generic pentru rol, dar va utiliza unitatea contractantă a proiectului pentru unitatea de organizație a membrului echipei. Referindu-ne la exemplul cu Proiectul Z, unității organizaționale contractante Contoso US, precum și sarcinilor de testare a planului de proiect în faza de implementare le-au fost atribuite rolul de consultant tehnic cu unitatea organizațională atribuite companiei Contoso India. Sarcinii de testare a integrării încheiată după faza de Implementare i se atribuie rolul de consultant tehnic. Unitatea de organizație este Contoso US și nu a fost generată o echipă. Actualizarea va crea un membru generic de echipă, un consultant tehnic care are orele atribuite pe toate cele trei sarcini, și o unitate de organizație Contoso US, unitatea de organizație contractantă a proiectului.   
  
-Modificarea valorii implicite a diverselor unități de organizație de resurse pe membrii echipei non-generați este motivul pentru care vă recomandăm să generați sau să re-generați echipa pe fiecare proiect care conține resurse generice înainte de actualizare, astfel încât atribuirile unității de organizație să nu se piardă.
+Modificarea valorii implicite a diverselor unități organizaționale de resurse pe membrii echipei non-generați este motivul pentru care vă recomandăm să generați sau să generați din nou echipa pe fiecare proiect care conține resurse generice înainte de actualizare, astfel încât atribuirile unității organizaționale să nu se piardă.
 
