@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bce13430f56b4c72453c90a259e3ffb3a63d8a3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 90b66560e64d0aad32f3c18e71858537263267ef
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129557"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145778"
 ---
 # <a name="administrator-guide-project-service"></a>Ghidul administratorului (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -47,6 +49,6 @@ Acest ghid vă îndrumă prin procesul de instalare și configurare:
   
 ### <a name="see-also"></a>Consultați și  
  [Prezentare generală a Project Service Automation](../psa/overview.md)    
- [Ghidul Manager de cont](../psa/account-manager-guide.md)[Ghidul Manager de proiect](../psa/project-manager-guide.md)   
+ [Ghidul Manager de cont](../psa/account-manager-guide.md) [Ghidul Manager de proiect](../psa/project-manager-guide.md)   
  [Ghidul Managerului de resurse](../psa/resource-manager-guide.md)   
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)

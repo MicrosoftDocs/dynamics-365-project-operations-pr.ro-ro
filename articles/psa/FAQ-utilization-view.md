@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4516c562e7eaf35c5fef638183967eef5a033b11
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122178"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146408"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Vizualizați utilizarea taxabilă pentru o resursă
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Vizualizarea utilizării** pe pagina **Utilizarea resurselor Project Service** afișează utilizarea taxabilă pentru fiecare resursă care se poate rezerva. Întrucât vizualizarea se bazează pe tabloul de planificare, astfel încât veți găsi multe din aceleași funcții.
 
@@ -44,7 +46,7 @@ Utilizarea țintă poate fi setată fie pe rolul implicit al resursei, fie pe re
 
 ## <a name="set-target-on-a-resource"></a>Setați țintă pe o resursă
 
-1. Accesați **Resurse**\> **Resurse**. 
+1. Accesați **Resurse** \> **Resurse**. 
 2. Selectați o resursă pentru a deschide înregistrarea. 
 3. În fila **Project Service**, puteți seta utilizarea țintă a resursei.
 
@@ -81,7 +83,7 @@ Rolurile de resursă trebuie setate pentru a avea un tip de facturare **Taxabil*
  
 Resursa trebuie să aibă ore de lucru pentru capacitatea de calcul. 
 
-1. Accesați **Resurse**\> **Resurse**. 
+1. Accesați **Resurse** \> **Resurse**. 
 2. Selectați o resursă pentru a deschide înregistrarea, apoi selectați **Afișați orele de lucru**. 
 3. Puteți actualiza în bloc lista de resurse aplicând un **șablon de ore de lucru** din vizualizarea **Listă de resurse**.
 

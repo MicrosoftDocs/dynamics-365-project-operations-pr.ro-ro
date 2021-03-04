@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1a645b157c56066e56b22ea8cf0324fbc1ddd2c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120333"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147713"
 ---
 # <a name="reporting-home-page"></a>Pagina de pornire raportare
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -41,7 +43,7 @@ Dacă afacerea dumneavoastră necesită un raport specific care nu poate fi crea
 
 ## <a name="power-bi-insights-apps"></a>aplicații Insights Power BI
 
-Împreună, Microsoft Power BI și Dynamics 365 vă oferă o modalitate puternică de lucru cu datele dvs., sub formă de aplicații Insights. Pentru informații despre disponibilitatea aplicațiilor Insights, consultați [Pagina de aplicații Insights Power BI](https://powerbi.microsoft.com/power-bi-insights-apps/).
+Împreună, Microsoft Power BI și Dynamics 365 vă oferă o modalitate puternică de lucru cu datele dvs., sub formă de aplicații Insights. Pentru informații despre disponibilitatea aplicațiilor de informații, consultați [Power BI pagina de aplicații de informații](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>Resurse suplimentare

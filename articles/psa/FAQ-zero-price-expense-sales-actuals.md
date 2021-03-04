@@ -3,6 +3,7 @@ title: De ce prețul pentru cheltuielile reale de vânzare revine la zero?
 description: Următoarele trei verificări vă vor ajuta să detectați motivul pentru care prețul este setat implicit pe 0 pe cheltuieli reale de vânzare.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122088"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146318"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>De ce prețul pentru cheltuielile reale de vânzare revine la zero?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Acest FAQ se aplică cheltuielilor reale în cazul în care clasa de tranzacție
 
 Găsiți proiectul din domeniul proiectului efectiv și mergeți la pagina proiectului. Apoi, mergeți la fila Vânzări. Pe grila de linii de contract proiect, faceți clic pe legătură în câmpul Contractul proiectului. Pagina Contractul proiectului se va deschide. Pe pagina Contractul proiectului, mergeți la fila Liste de prețuri proiect. Verificați dacă există cel puțin o listă de prețuri atașată aici.
 
-În cazul în care nu este atașată nicio listă de prețuri în grila de liste de prețuri proiect a contractului proiectului, procedați după cum urmează:
+În cazul în care nu este atașată nicio listă de prețuri în grila de liste de prețuri a contractului de proiect:
 
 - Atașați o listă de prețuri la grila de liste de prețuri a proiectului. Listele de prețuri care sunt autorizate să fie atașate aici ar trebui să aibă câmpul context setat pe Vânzări și câmpul monedă din lista de prețuri trebuie să corespundă cu câmpul monedă din contractul de proiect. Odată ce ați făcut remedierile necesare, recreați o intrare de cheltuieli, aprobați-o și verificați dacă vânzările nefacturate afișează efectiv un preț valid.
 - Dacă aveți una sau mai multe liste de prețuri atașate în grila listei de prețuri a proiectului din contractul proiectului, mergeți la Verificarea 2.
@@ -47,7 +50,7 @@ Pentru ca Project Service să ia în considerare o listă de prețuri pentru pre
 - Începeți prin a verifica dacă datele de început și de sfârșit din fila generală pentru listele de prețuri atașate nu sunt necompletate. În cazul în care datele de început și de sfârșit de pe listele de prețuri identificate anterior sunt necompletate, ați izolat problema. 
 - Faceți o notă în câmpul dată de început pe cheltuielile reale de vânzare și verificați dacă oricare dintre listele de prețuri identificate se aplică pentru această dată. De exemplu, data de cheltuieli reale ar trebui să se încadrează între data de început și data de sfârșit pe lista de prețuri. 
     - În cazul în care nu există nicio listă de prețuri care să acopere data pe cheltuielile reale de vânzare, ați izolat problema. Modificați datele de început și de sfârșit din lista de prețuri pentru a vă asigura că lista de prețuri cuprinde data cheltuielii efective. 
-    - În cazul în care există mai mult de o listă de prețuri care să acopere data pe cheltuielile reale de vânzare, ați izolat problema. Puteți remedia acest lucru prin editarea datelor de început și sfârșit din listele de prețuri, astfel încât să existe doar o listă de prețuri, care să acopere data de cheltuieli reale. 
+    - În cazul în care există mai mult de o listă de prețuri care să acopere data pe cheltuielile reale de vânzare, ați izolat problema. Editați datele de început și sfârșit din listele de prețuri, astfel încât să existe doar o listă de prețuri, care să acopere data de cheltuieli reale. 
     - În cazul în care există doar o listă de prețuri, care să acopere data cheltuielilor reale, treceți la Verificarea 3.
 Odată ce ați făcut remedierile necesare, recreați o intrare de cheltuieli, aprobați-o și verificați dacă vânzările nefacturate afișează efectiv un preț valid.
 
@@ -55,7 +58,7 @@ Odată ce ați făcut remedierile necesare, recreați o intrare de cheltuieli, a
 
 În cazul în care ați finalizat cu succes a Verificările 1 și 2, ar trebui să aveți acum doar o singură listă de prețuri proiect, care se aplică pentru data cheltuielilor reale de vânzare. Deschideți lista de prețuri proiect și mergeți la fila Prețuri categorie. Asigurați-vă că există un rând în grilă pentru categoria de cheltuieli specifice pe Cheltuiala efectivă.
  
-- În cazul în care nu există niciun rând, ați izolat problema. Creați un rând în grila de preț categorie pentru categoria din cheltuiala dvs. reală. Odată ce ați făcut remedierile necesare, recreați o intrare de cheltuieli, aprobați-o și verificați dacă vânzările nefacturate afișează efectiv un preț valid. 
+- În cazul în care nu există niciun rând, ați izolat problema. Creați un rând în grila de preț categorie pentru categoria din cheltuiala dvs. reală. Apoi, recreați o intrare de cheltuieli, aprobați-o și verificați dacă vânzările nefacturate afișează efectiv un preț valid. 
 - În cazul în care există un rând pentru categoria de cheltuieli în grila de prețuri categorie, verificați dacă acesta are un preț valid.
 
 Pentru a înțelege ce este un preț valid, utilizați aceste metode:
@@ -66,6 +69,6 @@ Pentru a înțelege ce este un preț valid, utilizați aceste metode:
 
 Dacă setarea de preț pentru categoria de cheltuieli nu este validă, atunci ați izolat problema. Soluția este de a edita linia de preț categorie cu un preț valid pentru categoria de cheltuieli în conformitate cu regulile de mai sus. Odată ce ați făcut remedierile necesare, recreați o intrare de cheltuieli, aprobați-o și apoi verificați dacă vânzările nefacturate obțin efectiv un preț valid.
 
-Dacă nu vedeți în continuare un preț valid pe cheltuielile reale de vânzare după ce ați efectuat cele trei verificări de mai sus, vă rugăm să solicitați un tichet de asistență.
+Dacă nu vedeți în continuare un preț valid pe cheltuielile reale de vânzare după ce ați efectuat cele trei verificări de mai sus, solicitați un tichet de asistență.
 
 

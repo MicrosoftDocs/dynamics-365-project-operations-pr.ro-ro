@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124113"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147398"
 ---
 # <a name="soft-book-requirements"></a>Cerințe de rezervare provizorie
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 O cerință de resurse poate fi rezervată ferm. O rezervare fermă creează o propunere care consumă capacitatea unei resurse. Propunerea este apoi trimisă înapoi solicitantului spre aprobare. O rezervare provizorie adaugă temporar o resursă la o echipă de proiect și are o stare diferită în panoul de planificare, dar nu consumă capacitatea resursei. Pentru a rezerva provizoriu o resursă din tabloul de planificare, setați câmpul **stare rezervare** la **Provizoriu**.
 
