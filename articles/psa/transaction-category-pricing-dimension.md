@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082880"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150773"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilizarea categoriei de tranzacții ca dimensiune de preț
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Acest subiect arată cum se utilizează o categorie de tranzacții ca dimensiune de preț. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din subiectul [Creare câmpuri și entități particularizate](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Adăugați o categorie de tranzacții la formulare și vizualizări
@@ -47,6 +50,6 @@ Următorul tabel este o listă cuprinzătoare a formularelor și vizualizărilor
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Configurarea categoriei de tranzacții ca dimensiune de preț
 
 1. În interfața web, accesați **Project Service** > **Setări** > **Parametri**. 
-2. Pa pagina **Parametri** , pe fila **Dimensiuni prețuri bazate pe sumă** , observați că grila de pe filă afișează înregistrările din entitatea **Dimensiuni preț**.
+2. Pa pagina **Parametri**, pe fila **Dimensiuni prețuri bazate pe sumă**, observați că grila de pe filă afișează înregistrările din entitatea **Dimensiuni preț**.
 3. Adăugați **Categorie de tranzacții** la această listă și setați câmpurile **Aplicabil la cost** și **Aplicabil la vânzare** la **Da**.
-4. În câmpul **Tip dimensiune** selectați **Bazat pe sumă** , apoi selectați prioritatea pentru **Categoria de tranzacții** referitoare la cost și vânzări.
+4. În câmpul **Tip dimensiune** selectați **Bazat pe sumă**, apoi selectați prioritatea pentru **Categoria de tranzacții** referitoare la cost și vânzări.

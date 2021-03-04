@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082860"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151403"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturare în Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,11 +46,11 @@ Facturile de proiect pot fi create pe rând sau în bloc. Aveți posibilitatea s
 
 ### <a name="manually-create-project-invoices-in-psa"></a>Creați manual facturi de proiect în PSA
 
-Din pagina listei **Contracte proiect** , aveți posibilitatea să creați facturi de proiect separat pentru fiecare contract de proiect sau să creați facturi în vrac pentru mai multe contracte de proiect.
+Din pagina listei **Contracte proiect**, aveți posibilitatea să creați facturi de proiect separat pentru fiecare contract de proiect sau să creați facturi în vrac pentru mai multe contracte de proiect.
 
 Urmați acest pas pentru a crea o factură pentru un anumit contract de proiect.
 
-- Pe pagina de listă **Contracte de proiect** , deschideți un contract de proiect și apoi selectați **Creare factură**.
+- Pe pagina de listă **Contracte de proiect**, deschideți un contract de proiect și apoi selectați **Creare factură**.
 
     ![Crearea facturilor de proiect pentru un anumit contract de proiect](media/CreateProjectInvoicesOneByOne.png)
 
@@ -56,7 +58,7 @@ Urmați acest pas pentru a crea o factură pentru un anumit contract de proiect.
 
 Parcurgeți acești pași pentru a crea facturi în vrac.
 
-1. Pe pagina de listă **Contracte de proiect** , selectați unul sau mai multe contracte de proiect pentru care trebuie să creați o factură, apoi selectați **Creați facturi de proiect**.
+1. Pe pagina de listă **Contracte de proiect**, selectați unul sau mai multe contracte de proiect pentru care trebuie să creați o factură, apoi selectați **Creați facturi de proiect**.
 
     ![Se creează facturi de proiect în vrac](media/CreateProjectInvoicesBulk.png)
 
@@ -74,21 +76,21 @@ Parcurgeți acești pași pentru a configura o rulare factură automată în PSA
 
 1. Accesați **Project Service** \> **Setări** \> **Lucrări pe roluri**.
 2. Creați o lucrare pe loturi și denumiți-o **Creare facturi PSA**. Numele lucrării pe loturi trebuie să includă termenul „Creare facturi”.
-3. În câmpul **Tip lucrare** , selectați **Niciuna.** În mod implicit, opțiunile **Frecvența zilnică** și **Este activ** sunt setate la **Da**.
-4. Selectați **Rulați fluxul de lucru**. În caseta de dialog **Căutare înregistrare** , veți vedea trei fluxuri de lucru:
+3. În câmpul **Tip lucrare**, selectați **Niciuna.** În mod implicit, opțiunile **Frecvența zilnică** și **Este activ** sunt setate la **Da**.
+4. Selectați **Rulați fluxul de lucru**. În caseta de dialog **Căutare înregistrare**, veți vedea trei fluxuri de lucru:
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Selectați **ProcessRunCaller** , apoi selectați **Adăugare**.
+5. Selectați **ProcessRunCaller**, apoi selectați **Adăugare**.
 6. În următoarea casetă de dialog, selectați **OK**. Un flux de lucru **Stare de repaus** este urmat de un fux de lucru **Proces**.
 
-    De asemenea, puteți selecta **ProcessRunner** în pasul 5. Apoi, când selectați **OK** , un flux de lucru **Proces** este urmat de un flux de lucru **Stare de repaus**.
+    De asemenea, puteți selecta **ProcessRunner** în pasul 5. Apoi, când selectați **OK**, un flux de lucru **Proces** este urmat de un flux de lucru **Stare de repaus**.
 
 Fluxurile de lucru **ProcessRunCaller** și **ProcessRunner** creează facturi. **ProcessRunCaller** apelează **ProcessRunner**. **ProcessRunner** este fluxul de lucru care creează de fapt facturile. Trece prin toate liniile de contract pentru care trebuie create facturile și creează facturi pentru acele linii. Pentru a determina liniile de contract pentru care trebuie create facturile, lucrarea analizează datele de rulare a facturii pentru liniile de contract. Dacă liniile de contract care aparțin unui contract au aceeași dată de rulare a facturii, tranzacțiile sunt combinate într-o singură factură care are două linii de factură. Dacă nu există tranzacții pentru care să fie create facturi, lucrarea ignoră crearea facturii.
 
-După ce **ProcessRunner** a terminat să ruleze, apelează **ProcessRunCaller** , oferă ora de sfârșit și este închis. **ProcessRunCaller** pornește apoi un cronometru care rulează timp de 24 de ore de la ora de sfârșit specificată. La sfârșitul cronometru, **ProcessRunCaller** este închis.
+După ce **ProcessRunner** a terminat să ruleze, apelează **ProcessRunCaller**, oferă ora de sfârșit și este închis. **ProcessRunCaller** pornește apoi un cronometru care rulează timp de 24 de ore de la ora de sfârșit specificată. La sfârșitul cronometru, **ProcessRunCaller** este închis.
 
 Lucrarea proces de lot pentru crearea facturilor este o lucrare recurentă. Dacă acest proces de lot rulează de mai multe ori, sunt create mai multe instanțe ale lucrării și cauzează erori. De aceea, ar trebui să porniți procesul de lot doar o singură dată și ar trebui să îl reporniți numai dacă se oprește rularea.
 
@@ -103,7 +105,7 @@ Atunci când creați o factură de proiect schiță, toate tranzacțiile de vân
 - Editați și ajustați cantitatea și tipul de facturare.
 - Adăugați direct timp, cheltuieli și taxe ca tranzacții pe factură. Puteți utiliza această caracteristică dacă linia de facturare este mapată la o linie de contract care permite aceste clase de tranzacții.
 
-Selectați **Confirmați** pentru a confirma o factură. Acțiunea Confirmați este o acțiune într-o direcție. Când selectați **Confirmați** , sistemul face factura doar în citire și creează valori reale de vânzări facturate din fiecare detaliu de linie de factură pentru fiecare linie de factură. Dacă detaliul de linie pentru factură face referire la o valoare reală de vânzări nefacturate, sistemul inversează, de asemenea, valoarea reală de vânzări nefacturate. (Orice detaliu al liniei de factură care a fost creat dintr-o intrare de timp sau cheltuieli va face referire la o valoare reală de vânzări nefacturate.) Sistemele de integrare ale registrului general pot utiliza această inversare pentru a inversa proiectul în curs (WIP) în scopuri contabile.
+Selectați **Confirmați** pentru a confirma o factură. Acțiunea Confirmați este o acțiune într-o direcție. Când selectați **Confirmați**, sistemul face factura doar în citire și creează valori reale de vânzări facturate din fiecare detaliu de linie de factură pentru fiecare linie de factură. Dacă detaliul de linie pentru factură face referire la o valoare reală de vânzări nefacturate, sistemul inversează, de asemenea, valoarea reală de vânzări nefacturate. (Orice detaliu al liniei de factură care a fost creat dintr-o intrare de timp sau cheltuieli va face referire la o valoare reală de vânzări nefacturate.) Sistemele de integrare ale registrului general pot utiliza această inversare pentru a inversa proiectul în curs (WIP) în scopuri contabile.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Corectați o factură PSA confirmată
 
