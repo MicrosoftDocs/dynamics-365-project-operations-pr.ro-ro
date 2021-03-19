@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283293"
 ---
-# <a name="reporting-home-page"></a>Pagina de pornire raportare
+# <a name="reporting-home-page"></a>Pagina de pornire pentru raportare
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation le permite organizațiilor bazate pe proiecte să-și gestioneze eficient operațiunile activității. În orice proiect, membrii echipei trebuie să gestioneze oportunitatea, să oferteze și să planifice activitatea, să stabilească resurse proiectele, să gestioneze lucrările conform planului, să factureze lucrările și apoi să realizeze lucrările pentru finalizarea proiectului. Capacitatea de a raporta operațiunile este esențială pentru determinarea stării de sănătate a organizației și pentru luarea oricărei acțiuni corective necesare. PSA utilizează metode și tehnologii de raportare Microsoft Dynamics 365 pentru toate rapoartele. Pentru mai multe informații despre opțiunile de raportare, consultați [Ghid de scriere a raportului pentru Dynamics 365 Customer Engagement (on-premises), versiunea 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation le permite organizațiilor bazate pe proiecte să-și gestioneze eficient operațiunile activității lor de business. În orice proiect, membrii echipei trebuie să gestioneze oportunitatea, să oferteze și să planifice activitatea, să stabilească resurse proiectele, să gestioneze lucrările conform planului, să factureze lucrările și apoi să realizeze lucrările pentru finalizarea proiectului. Capacitatea de a raporta operațiunile este esențială pentru determinarea stării de sănătate a organizației și pentru luarea oricărei acțiuni corective necesare. PSA utilizează metode și tehnologii de raportare Microsoft Dynamics 365 pentru toate rapoartele. Pentru mai multe informații despre opțiunile de raportare, consultați [Ghid de scriere a raportului pentru Dynamics 365 Customer Engagement (on-premises), versiunea 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Asistent raport
 
@@ -43,7 +43,7 @@ Dacă afacerea dumneavoastră necesită un raport specific care nu poate fi crea
 
 ## <a name="power-bi-insights-apps"></a>aplicații Insights Power BI
 
-Împreună, Microsoft Power BI și Dynamics 365 vă oferă o modalitate puternică de lucru cu datele dvs., sub formă de aplicații Insights. Pentru informații despre disponibilitatea aplicațiilor de informații, consultați [Power BI pagina de aplicații de informații](https://powerbi.microsoft.com/power-bi-insights-apps/).
+Împreună, Microsoft Power BI și Dynamics 365 vă oferă o modalitate puternică de a lucra cu datele dvs., sub formă de aplicații Insights. Pentru informații despre disponibilitatea aplicațiilor de informații, consultați [Power BI pagina de aplicații de informații](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>Resurse suplimentare

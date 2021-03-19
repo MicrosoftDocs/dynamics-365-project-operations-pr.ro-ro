@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147128"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280683"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, versiunea actualizată 20, V3
 
@@ -42,7 +42,7 @@ S-au remediat următoarele probleme:
 
 - Importarea membrilor echipei de proiect cu o metodă de alocare care necesită ore are ca rezultat un mesaj de eroare neclar atunci când orele specificate sunt zero.
 - Utilizatorii primesc o eroare incorectă atunci când numărul maxim de caractere a fost introdus în câmpul **Descriere** pentru o sarcină de proiect.
-- Pagina **Microsoft Dynamics 365 Project Service Automation descărcare program de completare** redirecționează către pagina de descărcare în engleză atunci când setările de limbă ale utilizatorului sunt setate pe japoneză.
+- Pagina **Microsoft Dynamics 365 Project Service Automation de descărcare a programului de completare** redirecționează către pagina de descărcare în limba engleză atunci când setările de limbă ale utilizatorului sunt setate la japoneză.
 - Când apare o eroare de server, eticheta de sincronizare de pe fila **Planificare** din formularul **Proiecte** rămâne uneori.
 - Actualizările de sarcini redundante sunt trimise serverului atunci când o sarcină este modificată.
 

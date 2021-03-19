@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121548"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280098"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Adăugarea membrilor echipei din grila de membri Echipă
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations include un tablou de bord de manager de resurse care furnizează o privire de ansamblu de element vizual a cererii de resursă și utilizare în întreaga organizație. Puteți utiliza diagramele de pe acest tablou de bord pentru a vizualiza următoarele informații:
+Dynamics 365 Project Operations include un tablou de bord al managerului de resurse care oferă o prezentare vizuală a cererii și utilizării resurselor în întreaga organizație. Puteți utiliza diagramele de pe acest tablou de bord pentru a vizualiza următoarele informații:
 
 - **Cerere resursă**: diagrama **Solicitare de resursă activă** afișează resursele care au fost remise. Resursele sunt agregate după fiecare rol sau proiect.
 - **Cerere de resurse neremise**: diagrama **Cerere de resurse neatribuite** afișează toate cerințele de resurse care nu au fost remise. Această diagramă ajută managerii de resurse să vizualizeze cererea care nu este fermă și poate fi remisă printr-o solicitare de resurse.
