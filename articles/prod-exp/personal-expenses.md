@@ -16,20 +16,23 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6b9d4fa0f69b4b0fe4bd1786958d22e5580a321
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: cf6bfc714751fa64914e684f67d37552b2df162e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960892"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271413"
 ---
-# <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="81603-103">Cheltuieli personale pe un raport de cheltuieli</span><span class="sxs-lookup"><span data-stu-id="81603-103">Personal expenses on an expense report</span></span>
+# <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="2ef32-103">Cheltuieli personale pe un raport de cheltuieli</span><span class="sxs-lookup"><span data-stu-id="2ef32-103">Personal expenses on an expense report</span></span>
 
-<span data-ttu-id="81603-104">În timpul călătoriilor de afaceri, lucrătorii pot percepe uneori cheltuieli personale pe cardurile de credit ale companiei.</span><span class="sxs-lookup"><span data-stu-id="81603-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="81603-105">Dacă nu definiți un proces de gestionare a cheltuielilor personale, procesul de aprobare pentru rapoartele de cheltuieli ar putea fi întrerupt atunci când lucrătorii prezintă rapoartele de cheltuieli detaliate.</span><span class="sxs-lookup"><span data-stu-id="81603-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
+<span data-ttu-id="2ef32-104">În timpul călătoriilor de afaceri, lucrătorii pot percepe uneori cheltuieli personale pe cardurile de credit ale companiei.</span><span class="sxs-lookup"><span data-stu-id="2ef32-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="2ef32-105">Dacă nu definiți un proces de gestionare a cheltuielilor personale, procesul de aprobare pentru rapoartele de cheltuieli ar putea fi întrerupt atunci când lucrătorii prezintă rapoartele de cheltuieli detaliate.</span><span class="sxs-lookup"><span data-stu-id="2ef32-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
 
-<span data-ttu-id="81603-106">Există două metode de gestionare a cheltuielilor personale ale unui lucrător:</span><span class="sxs-lookup"><span data-stu-id="81603-106">There are two methods for handling a worker's personal expenses:</span></span>
+<span data-ttu-id="2ef32-106">Există două metode de gestionare a cheltuielilor personale ale unui lucrător:</span><span class="sxs-lookup"><span data-stu-id="2ef32-106">There are two methods for handling a worker's personal expenses:</span></span>
 
-- <span data-ttu-id="81603-107">**Plătit de angajat** - Organizația dvs. nu plătește cheltuielile personale care apar pe factură pentru cardul de credit al companiei.</span><span class="sxs-lookup"><span data-stu-id="81603-107">**Paid by employee** – Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="81603-108">În schimb, creează un raport care arată cheltuielile personale împreună cu cheltuielile de afaceri care au fost taxate pe cardul de credit al companiei.</span><span class="sxs-lookup"><span data-stu-id="81603-108">Instead, it creates a report that shows personal expenses together with the corporate expenses that were charged to the corporate credit card.</span></span>
-- <span data-ttu-id="81603-109">**Plătit de companie** - Organizația dvs. plătește întreaga factură pentru cardul de credit al companiei și apoi debitează contul lucrătorului pentru cheltuielile personale.</span><span class="sxs-lookup"><span data-stu-id="81603-109">**Paid by company** – Your organization pays the whole bill for the corporate credit card and then debits the worker's account for the personal expenses.</span></span>
+- <span data-ttu-id="2ef32-107">**Plătit de angajat** - Organizația dvs. nu plătește cheltuielile personale care apar pe factură pentru cardul de credit al companiei.</span><span class="sxs-lookup"><span data-stu-id="2ef32-107">**Paid by employee** – Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="2ef32-108">În schimb, creează un raport care arată cheltuielile personale împreună cu cheltuielile de afaceri care au fost taxate pe cardul de credit al companiei.</span><span class="sxs-lookup"><span data-stu-id="2ef32-108">Instead, it creates a report that shows personal expenses together with the corporate expenses that were charged to the corporate credit card.</span></span>
+- <span data-ttu-id="2ef32-109">**Plătit de companie** - Organizația dvs. plătește întreaga factură pentru cardul de credit al companiei și apoi debitează contul lucrătorului pentru cheltuielile personale.</span><span class="sxs-lookup"><span data-stu-id="2ef32-109">**Paid by company** – Your organization pays the whole bill for the corporate credit card and then debits the worker's account for the personal expenses.</span></span>
 
-<span data-ttu-id="81603-110">Puteți selecta metoda pe care organizația dvs. o folosește pe pagina **Parametrii de gestionare a cheltuielilor**.</span><span class="sxs-lookup"><span data-stu-id="81603-110">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
+<span data-ttu-id="2ef32-110">Puteți selecta metoda pe care organizația dvs. o folosește pe pagina **Parametrii de gestionare a cheltuielilor**.</span><span class="sxs-lookup"><span data-stu-id="2ef32-110">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
