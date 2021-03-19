@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841388"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287028"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -92,6 +92,8 @@ Următorul tabel prezintă atribute de programare suplimentare.
 | Start | Data și ora de începere. |
 | Nume | Numele sarcinii. |
 | ID | ID-ul sarcinii din structura detaliată a proiectului. |
+
+În calitate de administrator, puteți defini câmpuri personalizate pe entitatea sarcină. Cu toate acestea, câmpurile nu pot fi afișate în grila de programare. Pentru a vedea câmpurile personalizate, adăugați-le la pagina de detalii pentru **Sarcina proiectului**.
 
 ## <a name="staffing-attributes"></a>Atribute de personal
 

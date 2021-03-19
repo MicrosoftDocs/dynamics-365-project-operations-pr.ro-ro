@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a estimării proiectelor
-description: Acest subiect oferă informații despre estimări în Project Operations Dynamics 365.
+description: Acest subiect oferă informații despre estimări în Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131583"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286893"
 ---
 # <a name="estimate-projects-overview"></a>Prezentare generală a estimării proiectelor
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Pe o ofertă bazată pe proiect, aveți posibilitatea să utilizați entitatea **Detaliu linie de ofertă** pentru a estima activitatea necesară pentru livrarea unui proiect. Apoi puteți partaja această estimare cu clientul.
 
-Liniile de ofertă bazate pe proiect pot avea zero sau mai multe detalii de linie de ofertă. Detaliile liniei de ofertă sunt utilizate pentru estimarea timpului, a cheltuielilor sau a taxelor. Microsoft Dynamics 365 Project Operations nu permit estimarea materialelor privind detaliile liniei de ofertă. Acestea sunt numite clase de tranzacții. Sumele estimate de impozit pot fi, de asemenea, introduse într-o clasă de tranzacții.
+Liniile de ofertă bazate pe proiect pot avea zero sau mai multe detalii de linie de ofertă. Detaliile liniei de ofertă sunt utilizate pentru estimarea timpului, a cheltuielilor sau a taxelor. Microsoft Dynamics 365 Project Operations nu permite estimarea materialelor la detaliile liniei de ofertă. Acestea sunt numite clase de tranzacții. Sumele estimate de impozit pot fi, de asemenea, introduse într-o clasă de tranzacții.
 
 Pe lângă clasele de tranzacții, detaliile liniei de ofertă au un tip de tranzacție. Două tipuri de tranzacții sunt acceptate pentru detaliile liniei de ofertă: **Cost** și **Contract de proiect**.
 

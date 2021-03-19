@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131988"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287658"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurați contabilitatea pentru proiectele facturabile
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations acceptă diverse opțiuni de contabilitate pentru proiectele facturabile care includ tranzacții de timp și materiale și cu preț fix.
+Dynamics 365 Project Operations acceptă diverse opțiuni contabile pentru proiectele facturabile care includ tranzacții de timp și materiale și cu preț fix.
 
 - **Timp și tranzacții materiale**: Aceste tranzacții sunt facturate pe măsură ce lucrările progresează pe baza consumului de ore, cheltuieli, articole sau taxe din proiect. Aceste costuri de tranzacție pot fi corelate cu veniturile din fiecare tranzacție, iar proiectul este facturat pe măsură ce lucrările progresează. Veniturile proiectului se pot acumula și în momentul în care are loc tranzacția. În timpul facturării, veniturile sunt recunoscute și, dacă este cazul, veniturile acumulate sunt inversate.
 - **Tranzacții cu preț fix**: aceste tranzacții sunt facturate conform unui program de facturare care se bazează pe contractul de proiect. Veniturile pentru tranzacțiile cu preț fix pot fi recunoscute la facturare sau calculate și înregistrate periodic, conform metodelor **Contract finalizat** sau **Procent finalizat**.

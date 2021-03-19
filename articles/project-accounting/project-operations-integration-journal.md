@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133421"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287253"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnalul de integrare în Project Operations
 
@@ -28,9 +28,9 @@ Intrări de timp și cheltuieli creează tranzacții **Reale** care reprezintă 
 Înregistrările din jurnalul de integrare a Project Operations sunt create utilizând un proces periodic, **Importați din tabelul de etapizare**. Puteți rula acest proces accesând **Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Periodic** > **Integrarea Project Operations** > **Importați din tabelul de etapizare**. Puteți rula procesul interactiv sau configura procesul pentru a rula în fundal, după cum este necesar.
 
 Când rulează procesul periodic, sunt găsite toate datele care nu sunt încă adăugate în jurnalul de integrare a Project Operations. Se creează o linie jurnal pentru fiecare tranzacție reală.
-Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (**Finanțe** > **Management de proiect și contabilitate** > **Configurare** > **Managementul proiectului și parametrii contabili**, **Project Operations Dynamics 365 Customer Engagement** _ fila). Valorile posibile pentru acest câmp includ:
+Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (**Finanțe** > **Management de proiect și contabilitate** > **Configurare** > **Managementul proiectului și parametrii contabili**, fila **Project Operations Dynamics 365 Customer Engagement**). Valorile posibile pentru acest câmp includ:
 
-  - _*Zile** : datele reale sunt grupate după data tranzacției. Se creează un jurnal separat pentru fiecare zi.
+  - **Zile**: datele reale sunt grupate după data tranzacției. Se creează un jurnal separat pentru fiecare zi.
   - **Luni**: datele reale sunt grupate după luna calendaristică. Se creează un jurnal separat pentru fiecare lună.
   - **Ani**: datele reale sunt grupate după anul calendaristic. Se creează un jurnal separat pentru fiecare an.
   - **Toate**: Toate tranzacțiile efective sunt incluse în același jurnal de integrare. Dacă jurnalul nu este disponibil când rulează procesul periodic, de exemplu dacă jurnalul este în proces de înregistrare a tranzacțiilor, se creează un jurnal nou.
