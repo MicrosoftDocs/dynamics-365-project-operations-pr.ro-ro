@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181061"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272718"
 ---
 # <a name="opportunity-header---lite"></a>Antet de oportunitate - simplificat
 
@@ -21,7 +21,7 @@ _**Se aplică la:** implementare simplificată - facturare de la tranzacție la 
 
 Antetul de oportunitate captează informațiile generale despre o afacere bazată pe proiect care se aplică tuturor liniilor oportunității bazate pe proiect.
 
-Oportunitățile bazate pe proiecte în Dynamics 365 Project Operations sunt extensii de oportunități în Dynamics 365 Sales. Aceste extensii oferă funcționalități suplimentare specifice și necesare pentru oportunități bazate pe proiecte. Aceste extensii pot include câmpuri noi și acțiuni panglică disponibile în oportunități bazate pe proiecte. Este posibil să găsiți câteva câmpuri, funcționalitate și logică implicită care sunt disponibile în Vânzări nu sunt disponibile în Project Operations.
+Oportunități bazate pe proiecte în Dynamics 365 Project Operations sunt extensii de oportunități în Dynamics 365 Sales. Aceste extensii oferă funcționalități suplimentare specifice și necesare pentru oportunități bazate pe proiecte. Aceste extensii pot include câmpuri noi și acțiuni panglică disponibile în oportunități bazate pe proiecte. Este posibil să găsiți câteva câmpuri, funcționalitate și logică implicită care sunt disponibile în Vânzări nu sunt disponibile în Project Operations.
 
 Următorul tabel include câmpurile dintr-o oportunitate bazată pe proiect, care sunt fie unice pentru Project Operations, fie au unele modificări importante în comportament din oportunitățile în vânzări.
 

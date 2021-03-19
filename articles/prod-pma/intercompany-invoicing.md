@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082822"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270783"
 ---
 # <a name="intercompany-invoicing"></a>Facturare între companii
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082822"
 
 Acest articol oferă informații și exemple despre facturarea între companii pentru proiecte.
 
-Organizația dvs. ar putea avea mai multe divizii, filiale și alte entități juridice care își transferă produse și servicii reciproc pentru proiecte. Persoana juridică care furnizează serviciul sau produsul se numește *persoană juridică de creditare* , iar entitatea juridică care primește serviciul sau produsul se numește *persoana juridică care împrumută*. 
+Organizația dvs. ar putea avea mai multe divizii, filiale și alte entități juridice care își transferă produse și servicii reciproc pentru proiecte. Persoana juridică care furnizează serviciul sau produsul se numește *persoană juridică de creditare*, iar entitatea juridică care primește serviciul sau produsul se numește *persoana juridică care împrumută*. 
 
 Următoarea ilustrație prezintă un scenariu tipic în care două entități juridice, SI FR (entitatea juridică care împrumută) și SI SUA (entitatea juridică care împrumută) împart resurse pentru a livra un proiect pentru clientul A. Pentru acest scenariu, SI FR este contractată pentru livrarea lucrului la clientul A. 
 
@@ -65,7 +65,7 @@ Pentru acest exemplu, FRSI trebuie să fie un client al entității juridice USS
    |  C   |                                  În FRSI, deschideți înregistrarea furnizorului pe care tocmai l-ați creat.                                  | În panoul de acțiuni, în fila <strong>General</strong>, în grupul <strong>Configurați</strong>, faceți clic pe <strong>Între companii</strong>. Pe pagina <strong>Între companii</strong>, pe fila <strong>Relația comercială</strong>, setați glisorul <strong>Activ</strong> la <strong>Da</strong>. În câmpul <strong>Compania clientului</strong>, selectați înregistrarea clientului pe care ați creat-o la pasul A. |
 
 
-2. Clic **Management de proiect și contabilitate** &gt; **Configurare** &gt; **Parametrii contabili ai managementului de proiect** , apoi faceți clic pe fila **Între companii**. Modul în care configurați parametrii depinde dacă sunteți persoana juridică împrumutată sau persoana juridică care împrumută.
+2. Clic **Management de proiect și contabilitate** &gt; **Configurare** &gt; **Parametrii contabili ai managementului de proiect**, apoi faceți clic pe fila **Între companii**. Modul în care configurați parametrii depinde dacă sunteți persoana juridică împrumutată sau persoana juridică care împrumută.
    -   Dacă sunteți persoana juridică împrumutată, selectați categoria de achiziții care ar trebui utilizată pentru a se potrivi cu facturile furnizorului, care sunt generate automat.
    -   Dacă sunteți entitatea juridică care împrumută, pentru fiecare entitate împrumutată, selectați o categorie implicită de proiect pentru fiecare tip de tranzacție. Categoriile de proiecte sunt utilizate pentru configurarea impozitului atunci când categoria facturată în tranzacțiile între companii există doar la entitatea juridică împrumutată. Puteți alege să acumulați venituri pentru tranzacții între companii. Această acumulare se face atunci când sunt înregistrate tranzacțiile și este apoi inversată atunci când este înregistrată factura intercompaniilor.
 
@@ -78,7 +78,7 @@ USSI, entitatea juridică care împrumută, trebuie să creeze și să posteze f
 
 | Pas | Punct de intrare                                                                       | Descriere                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Management de proiect și contabilitate** &gt; **Foi de pontaj** &gt; **Toate foile de pontaj** | Crearea unei noi foi de pontaj. Pe linia foii de pontaj, în câmpul **Entitate legală** , selectați **FRSI**. În **ID-ul proiectului** , selectați proiectul în FRSI. Introduceți orele pentru fiecare zi a săptămânii. |
+| A    | **Management de proiect și contabilitate** &gt; **Foi de pontaj** &gt; **Toate foile de pontaj** | Crearea unei noi foi de pontaj. Pe linia foii de pontaj, în câmpul **Entitate legală**, selectați **FRSI**. În **ID-ul proiectului**, selectați proiectul în FRSI. Introduceți orele pentru fiecare zi a săptămânii. |
 | A    | Pagina **Foaia de pontaj**                                                                | După executarea fluxului de lucru, postați foaia de pontaj și notați numărul voucherului.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Exemplul 3: creați și postați factura furnizorului între companii
@@ -87,7 +87,7 @@ USSI, entitatea juridică care împrumută, trebuie să creeze și să posteze f
 | Pas | Punct de intrare                                                                                      | Descriere                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Conturi furnizori** &gt; **Facturi** &gt; **Deschideți facturile furnizorului** &gt; **Nouă factură de la furnizor** | Creați o nouă factură de furnizor și introduceți serviciile achiziționate în numele proiectului FRSI.                                                                                                                                                                                  |
-| A    | Pagina **Factura furnizorului**                                                                      | Introduceți linii care reprezintă serviciile externalizate în numele FRSI. Pe fila rapidă **Detalii despre linie** , pe fila **Proiect** pentru linia de facturare, în câmpul **Companie de proiect** , introduceți **FRSI**. Introduceți proiectul și informațiile corespunzătoare. Apoi publicați factura furnizorului. |
+| A    | Pagina **Factura furnizorului**                                                                      | Introduceți linii care reprezintă serviciile externalizate în numele FRSI. Pe fila rapidă **Detalii despre linie**, pe fila **Proiect** pentru linia de facturare, în câmpul **Companie de proiect**, introduceți **FRSI**. Introduceți proiectul și informațiile corespunzătoare. Apoi publicați factura furnizorului. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Exemplul 4: creați și postați factura între companii
 USSI, entitatea juridică de creditare, trebuie să creeze și să înregistreze factura intercompaniilor. Există două puncte de intrare pentru pașii necesari pentru această sarcină.
@@ -95,7 +95,7 @@ USSI, entitatea juridică de creditare, trebuie să creeze și să înregistreze
 | Pas | Punct de intrare                                                                                             | Descriere                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Management de proiect și contabilitate** &gt; **Facturi de proiect** &gt; **Factura clientului între companii**  | faceți clic pe **Nou** pentru a deschide pagina **Creați factură între companii**.                                                                                  |
-| A    | **Management de proiect și contabilitate** &gt; **Facturi de proiect** &gt; **Facturile clientului între companii** | Pe pagina **Creați factură între companii** , introduceți entitatea juridică, specificați tranzacția care ar trebui inclusă, apoi faceți clic pe **Căutare**. |
+| A    | **Management de proiect și contabilitate** &gt; **Facturi de proiect** &gt; **Facturile clientului între companii** | Pe pagina **Creați factură între companii**, introduceți entitatea juridică, specificați tranzacția care ar trebui inclusă, apoi faceți clic pe **Căutare**. |
 | C    | **Management de proiect și contabilitate** &gt; **Facturi de proiect** &gt; **Facturile clientului între companii** | Selectați tranzacțiile de facturat sau faceți clic pe **Selectați tot** pentru a factura toate tranzacțiile din listă, apoi faceți clic pe **OK**.                  |
 | D    | Pagina **Factura între companii**                                                                       | Se afișează propunerea de facturare pentru clienți între companii.                                                                                             |
 | E    | Pagina **Factura între companii**                                                                       | Faceți clic pe **Postați**.                                                                                                                                  |

@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124788"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279693"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definirea abilităților și competențelor
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Abilitățile sunt caracteristici de resursă care sunt partajate între Dynamics 365 Project Operations și dacă sunt prezente, Dynamics 365 Field Service. 
+Aptitudinile sunt caracteristici de resurse care sunt partajate între Dynamics 365 Project Operations și, dacă există, Dynamics 365 Field Service. 
 
 - Pentru a întreține depozitul de competențe în Project Operations, accesați **Resurse** \> **Abilități resurse**. 
 

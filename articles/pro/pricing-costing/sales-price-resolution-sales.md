@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176761"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274518"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Rezolvarea prețurilor de vânzări pentru estimări și date reale - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Atunci când prețurile de vânzare pentru estimări și valori reale sunt rezolvate în Dynamics 365 Project Operations, sistemul folosește mai întâi data și moneda ofertei sau contractului aferent proiectului pentru a rezolva lista prețurilor de vânzare. După rezolvarea listei de prețuri de vânzare, sistemul rezolvă rata vânzărilor sau a facturilor.
+Când prețurile de vânzare pentru estimări și valori reale sunt rezolvate în Dynamics 365 Project Operations, sistemul folosește mai întâi data și moneda ofertei sau contractului aferent proiectului pentru a rezolva lista de prețuri de vânzare. După rezolvarea listei de prețuri de vânzare, sistemul rezolvă rata vânzărilor sau a facturilor.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Rezolvați ratele de vânzare pe datele reale și estimate pentru timp
 

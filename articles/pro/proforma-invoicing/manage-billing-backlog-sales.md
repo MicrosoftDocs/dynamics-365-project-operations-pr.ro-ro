@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176986"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274113"
 ---
 # <a name="manage-the-billing-backlog---lite"></a>Gestionarea restanțelor de facturare - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Dynamics 365 Project Operations are vederi dedicate pentru a ajuta la gestionarea restantei de facturare. Pentru a gestiona restanțele de facturare, selectați linkurile din zona **Vânzări**, sub **Facturare**. 
+Dynamics 365 Project Operations are vizualizări dedicate pentru a ajuta la gestionarea vânzărilor nefacturate. Pentru a gestiona restanțele de facturare, selectați linkurile din zona **Vânzări**, sub **Facturare**. 
 
 Sunt disponibile următoarele vizualizări:
 

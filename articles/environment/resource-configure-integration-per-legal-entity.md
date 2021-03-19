@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122898"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276993"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurarea integrării Project Operations per entitate juridică 
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect vă prezintă pașii necesari pentru configurarea Dynamics 365 Project Operations pe entitate juridică.
+Acest subiect vă prezintă pașii necesari pentru configurarea Dynamics 365 Project Operations per persoană juridică.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Activați tastele de caracteristică în Dynamics 365 Finance
 

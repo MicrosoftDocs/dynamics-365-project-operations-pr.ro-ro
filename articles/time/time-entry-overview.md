@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală de timp
-description: Acest subiect oferă informații despre funcționalitatea Timp în Dynamics 365 Project Operations.
+description: Acest subiect oferă informații despre funcționalitatea Timp din Dynamics 365 Project Operations.
 author: stsporen
 manager: AnnBe
 ms.date: 10/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277128"
 ---
 # <a name="time-overview"></a>Prezentare generală de timp
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Intrarea de timp este procesul de înregistrare a timpului efectiv consumat de o resursă. Intrările de timp în Dynamics 365 Project Operations permit ca costul și prețurilor de vânzare să fie calculate pe măsură ce progresează activitățile. Aceste intrări îl ajută pe managerul de proiect să țină pasul cu proiectele și sarcinile. Înregistrările de timp notifică, de asemenea, managerii de resurse cu privire la eventualele vacanțe sau absențe care apar pe tabloul de programare ca **Din**. Aceste notificări permit managerilor de resurse să planifice în jurul acelor evenimente.
+Intrarea de timp este procesul de înregistrare a timpului efectiv consumat de o resursă. Intrările de timp în Dynamics 365 Project Operations permit calcularea costurilor și a prețurilor de vânzare pe măsură ce sarcinile progresează. Aceste intrări îl ajută pe managerul de proiect să țină pasul cu proiectele și sarcinile. Înregistrările de timp notifică, de asemenea, managerii de resurse cu privire la eventualele vacanțe sau absențe care apar pe tabloul de programare ca **Din**. Aceste notificări permit managerilor de resurse să planifice în jurul acelor evenimente.
 
 Atunci când înregistrează timpul în Project Operations, utilizatorii pot urmări orice nivel din proiect. Aceasta include sarcina, rezumatul sau nivelul proiectului.
 

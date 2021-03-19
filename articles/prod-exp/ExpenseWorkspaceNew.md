@@ -1,6 +1,6 @@
 ---
 title: Rapoarte de cheltuieli reproiectate
-description: Acest subiect oferă informații despre experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli în Microsoft Dynamics 365 Finance. Noua experiență simplifică procesul de completare a rapoartelor de cheltuieli și scade timpul necesar.
+description: Acest subiect oferă informații despre experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960262"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271998"
 ---
 # <a name="redesigned-expense-reports"></a>Rapoarte de cheltuieli reproiectate
 
@@ -40,12 +40,6 @@ Pentru a activa noua experiență, utilizați spațiul de lucru **Managementul c
 - Se adaugă un nou element de meniu pentru vizibilitatea câmpului de cheltuieli.
 - Nu sunt eliminate elemente de meniu existente pentru rapoartele de cheltuieli (pagina existentă) sau câmpurile pentru rapoarte de cheltuieli.
 - Fluxurile de lucru și orice aprobări vă duc în continuare la pagina de rapoarte de cheltuieli existente.
-
-## <a name="getting-started-video-for-new-users"></a>Video de început pentru noii utilizatori
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Experiența de cheltuieli în videoclipul Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prezentat mai sus) este inclus în [Finance and Operations playlistul](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibil pe YouTube.
 
 ## <a name="new-features"></a>Caracteristici noi
 

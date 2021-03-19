@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126408"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278388"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importul unei estimări într-o linie de contract bazată pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-În Dynamics 365 Project Operations, puteți importa estimări dintr-un proiect într-o linie de contract bazată pe proiect.
+În Dynamics 365 Project Operations, puteți importa estimări dintr-un proiect pentru o linie de contract bazată pe proiect.
 
 1. Verificați dacă este completat câmpul **Proiect** de pe linia de contract bazată pe proiect.
 2. Pe fila **Detalii linie contract**, pe subgrilă, selectați **Importați din estimarea de proiect**. Se deschide o pagină de dialog cu opțiuni de rezumare. Opțiunile de rezumare disponibile sunt, **Clasa tranzacției**, **Categorie**, **Rol**, și **Activitatea de proiect**. Pe baza selecțiilor pentru rezumare, estimările din proiect pentru toate clasele de tranzacții incluse pe această linie de contract sunt copiate. 

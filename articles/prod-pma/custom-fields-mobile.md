@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082850"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271008"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementați câmpuri personalizate pentru aplicație mobilă Microsoft Dynamics 365 Project Timesheet pe iOS și Android
 
@@ -61,11 +61,11 @@ Proprietatea **FieldBaseType** pe obiectul **TsTimesheetCustom** determină tipu
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Dacă proprietatea **stringOptions** nu este furnizată pe obiectul **TSTimesheetCustomField** , un câmp de text liber este furnizat utilizatorului.
+- Dacă proprietatea **stringOptions** nu este furnizată pe obiectul **TSTimesheetCustomField**, un câmp de text liber este furnizat utilizatorului.
 
     Proprietatea **stringLength** poate fi utilizată pentru a seta lungimea maximă a șirului pe care utilizatorii o pot introduce.
 
-- Dacă proprietatea **stringOptions** este furnizată pe obiectul **TSTimesheetCustomField** , acele elemente de listă sunt singurele valori pe care utilizatorii le pot selecta folosind butoanele de opțiune (butoanele radio).
+- Dacă proprietatea **stringOptions** este furnizată pe obiectul **TSTimesheetCustomField**, acele elemente de listă sunt singurele valori pe care utilizatorii le pot selecta folosind butoanele de opțiune (butoanele radio).
 
     În acest caz, câmpul șir poate acționa ca o valoare enum în scopul intrării utilizatorului. Pentru a salva valoarea în baza de date ca o enumerare, mapați manual valoarea șirului înapoi la valoarea enumerată înainte de a salva în baza de date utilizând lanțul de comandă (consultați secțiunea „Utilizați lanțul de comandă din clasa TSTimesheetEntryService pentru a salva o intrare din foaia de pontaj din aplicație înapoi în baza de date" de mai târziu din acest subiect pentru o exemplificare).
 
@@ -125,31 +125,31 @@ Această proprietate controlează ordinea în care câmpurile personalizate sunt
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Pentru câmpurile de tipul **Boolean** , această proprietate trece valoarea booleană a câmpului dintre server și aplicație.
+Pentru câmpurile de tipul **Boolean**, această proprietate trece valoarea booleană a câmpului dintre server și aplicație.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Pentru câmpurile de tipul **GUID** , această proprietate trece valoarea identificator unic global (GUID) a câmpului dintre server și aplicație.
+Pentru câmpurile de tipul **GUID**, această proprietate trece valoarea identificator unic global (GUID) a câmpului dintre server și aplicație.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Pentru câmpurile de tipul **Int64** , această proprietate trece valoarea Int64 a câmpului dintre server și aplicație.
+Pentru câmpurile de tipul **Int64**, această proprietate trece valoarea Int64 a câmpului dintre server și aplicație.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Pentru câmpurile de tipul **Int** , această proprietate trece valoarea Int a câmpului dintre server și aplicație.
+Pentru câmpurile de tipul **Int**, această proprietate trece valoarea Int a câmpului dintre server și aplicație.
 
 ### <a name="realvalue-real"></a>realValue (reală)
 
-Pentru câmpurile de tipul **Reală** , această proprietate trece valoarea reală a câmpului dintre server și aplicație.
+Pentru câmpurile de tipul **Reală**, această proprietate trece valoarea reală a câmpului dintre server și aplicație.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Pentru câmpurile de tipul **Șir** , această proprietate trece valoarea șirului câmpului dintre server și aplicație. Este, de asemenea, utilizat pentru câmpurile de tipul **Real** care sunt formatate ca monedă. Pentru acele câmpuri, proprietatea este utilizată pentru a transmite codul monedei aplicației.
+Pentru câmpurile de tipul **Șir**, această proprietate trece valoarea șirului câmpului dintre server și aplicație. Este, de asemenea, utilizat pentru câmpurile de tipul **Real** care sunt formatate ca monedă. Pentru acele câmpuri, proprietatea este utilizată pentru a transmite codul monedei aplicației.
 
 ### <a name="datevalue-date"></a>dateValue (data)
 
-Pentru câmpurile de tipul **Data** , această proprietate trece valoarea datei câmpului dintre server și aplicație.
+Pentru câmpurile de tipul **Data**, această proprietate trece valoarea datei câmpului dintre server și aplicație.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Afișați și salvați un câmp personalizat în secțiunea de introducere a foii de pontaj
 
@@ -179,9 +179,9 @@ Mai jos este o captură de ecran din Visual Studio din arborele obiectelor aplic
 
 Acest cod controlează setările de afișare pentru câmpul din aplicație. De exemplu, controlează tipul de câmp, eticheta, dacă câmpul este obligatoriu și în ce secțiune apare câmpul.
 
-Următorul exemplu arată un câmp șir la intrările de timp. Acest câmp are două opțiuni, **Prima opțiune** și **A doua opțiune** , care sunt disponibile prin intermediul butoanelor de opțiune (butoane radio). Câmpul din aplicație este asociat cu câmpul **TestLineString** care este adăugat la tabelul TSTimesheetLine.
+Următorul exemplu arată un câmp șir la intrările de timp. Acest câmp are două opțiuni, **Prima opțiune** și **A doua opțiune**, care sunt disponibile prin intermediul butoanelor de opțiune (butoane radio). Câmpul din aplicație este asociat cu câmpul **TestLineString** care este adăugat la tabelul TSTimesheetLine.
 
-Rețineți utilizarea metodei **TSTimesheetCustomField::newFromMetatdata()** pentru simplificarea inițializării proprietăților câmpului personalizat: **fieldBaseType** , **tableName** , **fieldname** , **eticheta** , **isEditable** , **isMandatory** , **stringLength** și **numberOfDecimals**. De asemenea, puteți seta acești parametri manual, după cum doriți.
+Rețineți utilizarea metodei **TSTimesheetCustomField::newFromMetatdata()** pentru simplificarea inițializării proprietăților câmpului personalizat: **fieldBaseType**, **tableName**, **fieldname**, **eticheta**, **isEditable**, **isMandatory**, **stringLength** și **numberOfDecimals**. De asemenea, puteți seta acești parametri manual, după cum doriți.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Pentru a salva un câmp personalizat înapoi în baza de date în utilizarea obi
 - Metoda **populateTimesheetWeekFromEntry** poate fi extinsă și în cazul în care câmpul personalizat care este mapat la obiectul **TSTimesheetEntry** trebuie să proceseze datele în tabelul bazei de date TSTimesheetLineweek.
 
 > [!NOTE]
-> Următorul exemplu salvează valoarea **firstOption** sau **secondOption** pe care utilizatorul o selectează în baza de date ca valoare brută a șirului. Dacă câmpul bazei de date este un câmp de tipul **Enum** , acele valori pot fi mapate manual la o valoare enum și apoi salvate într-un câmp enum de pe tabelul bazei de date.
+> Următorul exemplu salvează valoarea **firstOption** sau **secondOption** pe care utilizatorul o selectează în baza de date ca valoare brută a șirului. Dacă câmpul bazei de date este un câmp de tipul **Enum**, acele valori pot fi mapate manual la o valoare enum și apoi salvate într-un câmp enum de pe tabelul bazei de date.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Logica existentă pentru funcționalitatea foii de pontaj la nivelul bazei de da
 
 - Dacă **validateWrite** în tabelul TSTimesheetLine returnează **fals** în timpul unei operații de salvare pentru o linie de foaie de pontaj, un mesaj de eroare este afișat în aplicația mobilă.
 - Dacă **validateSubmit** în tabelul TSTimesheetTable returnează **fals** în timpul trimiterii foii de pontaj în aplicație, un mesaj de eroare este afișat în aplicația mobilă.
-- Logica care completează câmpuri (de exemplu, **Linia de proprietate** ) în timpul metodei **inserare** de pe tabelul TSTimesheetLine va rula în continuare.
+- Logica care completează câmpuri (de exemplu, **Linia de proprietate**) în timpul metodei **inserare** de pe tabelul TSTimesheetLine va rula în continuare.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Ascunderea și marcarea câmpurilor predefinite ca doar citire prin configurare
 

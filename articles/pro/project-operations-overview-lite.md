@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365593"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273978"
 ---
 # <a name="lite-deployment-overview"></a>Prezentare generală a implementării simplificate
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Tipul de implementare simplificat al Dynamics 365 Project Operations are următoarele funcții pentru companiile bazate pe proiecte:
+Tip de implementare simplificată a Dynamics 365 Project Operations are următoarele funcții pentru companiile bazate pe proiecte:
 
 - Planificarea proiectului utilizând Microsoft Project pentru web
 - Prețuri și costuri multidimensionale pentru resursele de muncă

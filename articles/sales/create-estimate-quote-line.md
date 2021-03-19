@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122943"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278478"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Crearea de estimări într-o linie de ofertă
 
@@ -30,7 +30,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Pe o ofertă bazată pe proiect, aveți posibilitatea să utilizați entitatea Detaliu linie de ofertă pentru a estima activitatea necesară pentru livrarea unui proiect. Apoi puteți partaja această estimare cu clientul.
 
-Liniile de ofertă bazate pe proiect nu trebuie să aibă detalii despre linia de ofertă. Alternativ, ele pot avea multe detalii despre linia de ofertă. Detaliile liniei de ofertă sunt utilizate pentru estimarea timpului, a cheltuielilor sau a taxelor. Project Operations Dynamics 365 nu permite estimarea materialelor privind detaliile liniei de ofertă. Acestea sunt numite clase de tranzacții. Sumele estimate de impozit pot fi, de asemenea, introduse într-o clasă de tranzacții.
+Liniile de ofertă bazate pe proiect nu trebuie să aibă detalii despre linia de ofertă. Alternativ, ele pot avea multe detalii despre linia de ofertă. Detaliile liniei de ofertă sunt utilizate pentru estimarea timpului, a cheltuielilor sau a taxelor. Dynamics 365 Project Operations nu permite estimarea materialelor privind detaliile liniei de ofertă. Acestea sunt numite clase de tranzacții. Sumele estimate de impozit pot fi, de asemenea, introduse într-o clasă de tranzacții.
 
 Pe lângă clasele de tranzacții, detaliile liniei de ofertă au un tip de tranzacție. Sunt două tipuri de tranzacții pentru detaliile liniei de ofertă, **Cost** și **Contract de proiect**.
 

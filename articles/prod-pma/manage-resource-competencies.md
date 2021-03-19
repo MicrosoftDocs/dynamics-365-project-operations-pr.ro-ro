@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082821"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270648"
 ---
 # <a name="manage-resource-competencies"></a>Gestionarea competențelor de resurse
 
@@ -39,20 +39,20 @@ Pentru a configura competențe pentru un angajat, puteți utiliza fie pagina lis
 
 ## <a name="set-up-competencies-certificates"></a>Configurare competențe: certificate
 
-1. Din pagina listei **Angajați** , selectați linia pentru care angajatul va adăuga informații despre certificat.
-2. În panoul de acțiuni, în fila **Angajat** , în grupul **Competențe** , selectați **Certificate**.
-3. Selectați **Nou** , și apoi din câmpul **Tip certificat** , selectați **PMP**.
-4. În câmpul **Dată de început** , selectați **10/1/2015** , și selectați **Salvare**.
+1. Din pagina listei **Angajați**, selectați linia pentru care angajatul va adăuga informații despre certificat.
+2. În panoul de acțiuni, în fila **Angajat**, în grupul **Competențe**, selectați **Certificate**.
+3. Selectați **Nou**, și apoi din câmpul **Tip certificat**, selectați **PMP**.
+4. În câmpul **Dată de început**, selectați **10/1/2015**, și selectați **Salvare**.
 
 ## <a name="set-up-competencies-skills"></a>Configurare competențe: abilități
 
-1. În pagina listei **Angajați** , asigurați-vă că angajatul pe care l-ați folosit în procedura anterioară este încă selectat. Apoi, în panoul de acțiuni, în fila **Angajat** , în grupul **Competențe** , selectați **Abilități**.
+1. În pagina listei **Angajați**, asigurați-vă că angajatul pe care l-ați folosit în procedura anterioară este încă selectat. Apoi, în panoul de acțiuni, în fila **Angajat**, în grupul **Competențe**, selectați **Abilități**.
 2. Selectați **Nou**.
-3. În câmpul **Abilitate** , selectați **Management de proiect**.
-4. În câmpul **Nivel** , selectați **5 Expert**.
-5. În câmpul **Dată nivel** , selectați **1-/14/2014**.
-6. În câmpul **Ani de experiență** , introduceți **10**.
-7. Selectați **Salvare** , apoi închideți pagina.
+3. În câmpul **Abilitate**, selectați **Management de proiect**.
+4. În câmpul **Nivel**, selectați **5 Expert**.
+5. În câmpul **Dată nivel**, selectați **1-/14/2014**.
+6. În câmpul **Ani de experiență**, introduceți **10**.
+7. Selectați **Salvare**, apoi închideți pagina.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

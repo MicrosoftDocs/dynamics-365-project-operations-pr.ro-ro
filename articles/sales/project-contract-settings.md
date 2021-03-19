@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181153"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277623"
 ---
 # <a name="project-contract-settings"></a>Setări pentru contracte de proiecte
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Acest subiect oferă informații despre câmpurile care se aplică întregului contract de proiect, inclusiv setările care au impact asupra tuturor liniilor contractuale. Sunt incluse, de asemenea, informații despre contract care sunt rezumate pe toate elementele rând pentru a genera KPI-urile contractului de proiect.
 
-Următorul tabel listează câmpurile pe un contract de proiect care sunt unice pentru Dynamics 365 Project Operations sau care au unele modificări importante din comenzile de vânzări în Dynamics 365 Sales.
+Următorul tabel listează câmpurile unui contract de proiect care sunt unice pentru Dynamics 365 Project Operations sau au unele schimbări importante în comportament de la comenzile de vânzări în Dynamics 365 Sales.
 
 | Câmp | Locație | Descriere | Impactul din aval |
 | --- | --- | --- | --- |

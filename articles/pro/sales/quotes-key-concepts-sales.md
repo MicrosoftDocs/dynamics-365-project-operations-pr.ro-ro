@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178021"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272403"
 ---
 # <a name="quotes---key-concepts---lite"></a>Oferte - concepte cheie - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 
-Următoarele sunt concepte cheie pe care trebuie să le cunoașteți înainte de a începe să utilizați ghilimele de proiect în Dynamics 365 Project Operations:
+Următoarele elemente sunt concepte cheie de care trebuie să fiți conștient înainte de a începe să utilizați ofertele de proiect în Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unitate contractantă
 

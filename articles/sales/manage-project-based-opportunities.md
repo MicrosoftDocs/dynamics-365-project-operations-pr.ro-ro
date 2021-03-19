@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118488"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277848"
 ---
 # <a name="manage-project-based-opportunities"></a>Gestionați oportunitățile bazate pe proiecte
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Companiile bazate pe proiecte își desfășoară de obicei operațiunile de livrare răspândite în mai multe țări și geografii. Costul execuției și livrării proiectului poate varia în funcție de geografie sau divizie care gestionează livrarea. La rândul său, acest lucru poate afecta marjele tranzacției. Furnizarea de servicii bazate pe proiecte implică de obicei cantități mari de timp pentru resurse umane, cheltuieli considerabile pentru călătorie, costuri materiale și alte cheltuieli.
 
-Oportunitățile bazate pe proiecte în Dynamics 365 Project Operations sunt proiectate cu extensii în Dynamics 365 Sales. Subiectul oferă detalii despre diferitele câmpuri și logica de afaceri incluse în funcționalitatea suplimentară necesară companiilor bazate pe proiecte pentru a gestiona oportunitățile bazate pe proiecte.
+Oportunități bazate pe proiecte în Dynamics 365 Project Operations sunt proiectate cu extensii la Dynamics 365 Sales. Subiectul oferă detalii despre diferitele câmpuri și logica de afaceri incluse în funcționalitatea suplimentară necesară companiilor bazate pe proiecte pentru a gestiona oportunitățile bazate pe proiecte.
 
 ## <a name="view-all-project-based-opportunities"></a>Vizualizați toate oportunitățile bazate pe proiecte
 

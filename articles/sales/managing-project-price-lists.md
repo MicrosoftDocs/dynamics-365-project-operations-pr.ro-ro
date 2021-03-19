@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177211"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277758"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Gestionarea listelor de prețuri ale proiectelor dintr-o ofertă
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations extind entitatea listă de prețuri din Dynamics 365 Sales. 
+Dynamics 365 Project Operations extinde entitatea Listă de prețuri în Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entități-cheie
 

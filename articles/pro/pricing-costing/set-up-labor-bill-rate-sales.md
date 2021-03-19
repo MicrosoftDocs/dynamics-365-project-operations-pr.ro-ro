@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181197"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274428"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Configurarea tarifelor facturii pentru muncă - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Fiecare listă de prețuri are un set de prețuri de roluri sau rate ale forței de muncă, care sunt eficiente pentru context și intră în vigoare la data inclusă pe antetul listei de prețuri. Tarifele de facturare pentru timp în Dynamics 365 Project Operations pot fi configurate într-o singură monedă, care este moneda din antetul listei de prețuri.
+Fiecare listă de prețuri are un set de prețuri de roluri sau rate ale forței de muncă, care sunt eficiente pentru context și intră în vigoare la data inclusă pe antetul listei de prețuri. Tarifele facturilor pentru timp în Dynamics 365 Project Operations pot fi configurate într-o singură monedă, care este moneda din antetul listei de prețuri.
 
 1. Pentru a seta tarifele facturii forței de muncă pentru o listă de prețuri de vânzare, creați o listă de prețuri bazată pe antetul listei de prețuri. 
 2. Pe fila **Prețuri de roluri**, în subgrilă, selectați **+ Preț nou de rol**. 

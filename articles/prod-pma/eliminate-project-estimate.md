@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082849"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270693"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminarea unei estimări de proiect
 
@@ -34,18 +34,18 @@ Estimările proiectului furnizează perspectiva financiară a lucrului estimat �
 Pentru a elimina un proiect de estimare, acesta trebuie să fie complet. Următorii pași explică modul de eliminare a unei estimări.
 
 1. Accesați **Gestionarea proiectului și contabilitate** > **Toate proiectele** și deschideți proiectul. 
-2. Pe fila **Administrați** , selectați **Estimări** , și pe pagina **Estimare** selectați **Eliminare**.
-3. Pe pagina **Eliminați estimarea** pe fila **General** , setați următoarele opțiuni:
+2. Pe fila **Administrați**, selectați **Estimări**, și pe pagina **Estimare** selectați **Eliminare**.
+3. Pe pagina **Eliminați estimarea** pe fila **General**, setați următoarele opțiuni:
 
-   - **Codul perioadei** : Selectați codul perioadei pentru a alege proiectele estimate corespunzătoare. 
-   - **Data estimării** : Selectați data estimativă adecvată pentru eliminare.
-   - **Eliminați cu avertismente WIP** : Activați această opțiune pentru a furniza notificări atunci când va fi eliminată o estimare asociată cu o lucrare în curs (WIP). Când această opțiune nu este activată, eliminarea nu poate continua dacă există tranzacții care nu sunt estimate. 
+   - **Codul perioadei**: Selectați codul perioadei pentru a alege proiectele estimate corespunzătoare. 
+   - **Data estimării**: Selectați data estimativă adecvată pentru eliminare.
+   - **Eliminați cu avertismente WIP**: Activați această opțiune pentru a furniza notificări atunci când va fi eliminată o estimare asociată cu o lucrare în curs (WIP). Când această opțiune nu este activată, eliminarea nu poate continua dacă există tranzacții care nu sunt estimate. 
    > [!NOTE]
-   > Această opțiune este disponibilă numai atunci când eliminarea este aplicată unui proiect estimativ. Nu este disponibil dacă utilizați postări periodice. Această setare funcționează cu setările de pe fila **Estimare** de pe pagina **Parametrii proiectului** , în câmpul de grup **Permiteți eliminarea atunci când există tranzacții care nu sunt estimate**.
+   > Această opțiune este disponibilă numai atunci când eliminarea este aplicată unui proiect estimativ. Nu este disponibil dacă utilizați postări periodice. Această setare funcționează cu setările de pe fila **Estimare** de pe pagina **Parametrii proiectului**, în câmpul de grup **Permiteți eliminarea atunci când există tranzacții care nu sunt estimate**.
    - **Puneți seta la Finalizat** : Activați această opțiune pentru a seta etapa proiectului estimativ la **Terminat** după ce executați eliminarea.
-   - **Imprimați lista estimărilor** : Selectați informațiile care urmează să fie incluse la imprimarea listei estimative.
-   - **Afișați Infolog** : Activați această opțiune pentru a afișa Infolog.
-   - **Data postării** : Alegeți data de înregistrare a registrului estimativ.
+   - **Imprimați lista estimărilor**: Selectați informațiile care urmează să fie incluse la imprimarea listei estimative.
+   - **Afișați Infolog**: Activați această opțiune pentru a afișa Infolog.
+   - **Data postării**: Alegeți data de înregistrare a registrului estimativ.
 
 4.  Selectați **OK**.
 5. După finalizarea procesului de eliminare, proiectul estimat eliminat este afișat cu o valoare negativă. 

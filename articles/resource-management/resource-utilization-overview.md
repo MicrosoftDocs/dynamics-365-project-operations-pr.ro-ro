@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401391"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279333"
 ---
 # <a name="resource-utilization-overview"></a>Prezentare generală a utilizării resurselor
 
@@ -23,7 +23,7 @@ Resursele pot avea o utilizare facturabilă țintă. Această utilizare țintă 
 
 Următoarele formule sunt utilizate pentru a calcula utilizarea:
 
-  - Utilizare facturabilă = Ore efective taxabile ÷  Capacitate resursă.
+  - Utilizare facturabilă = Ore efective taxabile ÷ Capacitate resursă.
   - Utilizare non-facturabilă = Timp real cu ID-ul de facturare = non-exigibil, Complementar sau Indisponibil ÷ capacitate resursă
   - Intern = Timp real fără contract de vânzare ÷ Capacitate resursă
   - Capacitate resursă = Ore de lucru resursă – Absent de la birou – zile nelucrătoare

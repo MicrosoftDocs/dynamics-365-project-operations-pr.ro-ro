@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274338"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Configurarea creării automate a facturilor - simplificat
  
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Puteți configura crearea automată a facturilor în Dynamics 365 Project Operations. Sistemul creează o schiță de factură proforma pe baza programului de facturare pentru fiecare contract de proiect și linie de contract. Programările facturilor sunt configurate la nivelul liniei contractului. Fiecare linie dintr-un contract poate avea un program de facturare distinct sau același program de facturare poate fi inclus pe fiecare linie a contractului.
+Puteți configura funcția de creare automată a facturilor în Dynamics 365 Project Operations. Sistemul creează o schiță de factură proforma pe baza programului de facturare pentru fiecare contract de proiect și linie de contract. Programările facturilor sunt configurate la nivelul liniei contractului. Fiecare linie dintr-un contract poate avea un program de facturare distinct sau același program de facturare poate fi inclus pe fiecare linie a contractului.
 
 Când creați o factură, sistemul creează întotdeauna cel puțin o factură per contract de proiect. În unele cazuri, pot exista mai multe facturi create.
 

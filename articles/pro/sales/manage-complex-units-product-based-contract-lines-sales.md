@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177391"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273348"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Gestionarea unităților complexe pentru liniile de contract bazate pe produse - simplificat
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270738"
 ---
 # <a name="create-a-new-project"></a>Creați un nou proiect
 
@@ -31,7 +31,7 @@ ms.locfileid: "4082931"
 
 Parcurgeți pașii următori pentru a crea un nou proiect.
 
-1. În pagina **Management de proiect** , selectați **Proiect nou** , și introduceți următoarele valori:
+1. În pagina **Management de proiect**, selectați **Proiect nou**, și introduceți următoarele valori:
 
     - **Tipul proiectului:** Timp și material
     - **Denumirea proiectului:** Faza 2 de upgrade XYZ
@@ -42,10 +42,10 @@ Parcurgeți pașii următori pentru a crea un nou proiect.
 
 ## <a name="assign-a-resource-to-a-project"></a>Atribuirea unei resurse unui proiect
 
-1. Din pagina **Angajați** , în lista **Angajați** , selectați înregistrarea pentru angajatul pentru care ați configurat anterior competențele, și deschideți înregistrarea angajatului.
-2. În panoul de acțiuni, în fila **Proiect** , în grupul **Configurare** , selectați **Atribuire proiecte**.
-3. Din pagina **Validarea resurselor pentru atribuiri în proiect** , din fila **Proiecte** , în câmpul **Adăugați proiectul la proiectele selectate** , filtrați pentru proiectul **Faza 2 de upgrade XYZ**.
-4. În panoul **Proiecte rămase** , selectați un proiect, apoi selectați butonul săgeată pentru a-l adăuga la panoul **Proiecte selectate**.
+1. Din pagina **Angajați**, în lista **Angajați**, selectați înregistrarea pentru angajatul pentru care ați configurat anterior competențele, și deschideți înregistrarea angajatului.
+2. În panoul de acțiuni, în fila **Proiect**, în grupul **Configurare**, selectați **Atribuire proiecte**.
+3. Din pagina **Validarea resurselor pentru atribuiri în proiect**, din fila **Proiecte**, în câmpul **Adăugați proiectul la proiectele selectate**, filtrați pentru proiectul **Faza 2 de upgrade XYZ**.
+4. În panoul **Proiecte rămase**, selectați un proiect, apoi selectați butonul săgeată pentru a-l adăuga la panoul **Proiecte selectate**.
 
 De asemenea, puteți atribui categorii pentru o resursă după cum doriți. Tipul categoriei este fie **Cost** fie **Venit**. Tipul categoriei este determinat de organizația dvs. Dacă nu sunt alocate categorii pentru o resursă, Finanțele caută categoria implicită a prețurilor orare pentru costuri și venituri.
 
@@ -59,26 +59,26 @@ Un manager de proiect poate utiliza funcționalitatea de alocare de resurse proi
 
 Următorii pași arată modul în care managerul de resurse poate configura rolul de manager de proiect senior și poate asocia caracteristicile resursei acestuia. Ulterior, rolul poate fi folosit pentru a căuta resursele disponibile care corespund competențelor necesare pentru resursă.
 
-1. În pagina **Configurare roluri** , selectați **Nou** , și introduceți următoarele valori:
+1. În pagina **Configurare roluri**, selectați **Nou**, și introduceți următoarele valori:
 
     - **ID rol:** Manager de proiect senior
     - **Descriere:** Manager de proiect senior
 
 2. Selectați **Creare**.
-3. Selectați rolul **Manager de proiect senior** , apoi selectați **Configurare caracteristici**.
-4. În câmpul **Tip caracteristici** , selectați **Abilitate**.
-5. În câmpul **Caracteristici disponibile** , introduceți abilitatea de căutat.
-6. În câmpul **Tip caracteristică** , selectați **Certificat**.
-7. În câmpul **Caracteristici disponibile** , introduceți tipul de certificat de căutat.
+3. Selectați rolul **Manager de proiect senior**, apoi selectați **Configurare caracteristici**.
+4. În câmpul **Tip caracteristici**, selectați **Abilitate**.
+5. În câmpul **Caracteristici disponibile**, introduceți abilitatea de căutat.
+6. În câmpul **Tip caracteristică**, selectați **Certificat**.
+7. În câmpul **Caracteristici disponibile**, introduceți tipul de certificat de căutat.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Atribuirea unei resurse de proiect unui proiect
 
-1. Din pagina **Toate proiectele** , selectați proiectul **Faza 2 de upgrade XYZ**.
-2. Din fila **Echipa proiectului și planificarea** , selectați **Adăugare**.
-3. În câmpul **Rol** , selectați **Membru al echipei**.
+1. Din pagina **Toate proiectele**, selectați proiectul **Faza 2 de upgrade XYZ**.
+2. Din fila **Echipa proiectului și planificarea**, selectați **Adăugare**.
+3. În câmpul **Rol**, selectați **Membru al echipei**.
 4. Selectați **Rezervare din calendar**.
-5. Din pagina **Disponibilitate resurse** , selectați **Vizualizare setări**.
-6. În pagina **Reglați setările de vizualizare** , introduceți următoarele valori:
+5. Din pagina **Disponibilitate resurse**, selectați **Vizualizare setări**.
+6. În pagina **Reglați setările de vizualizare**, introduceți următoarele valori:
 
     - **Format pentru vizualizarea intervalului de dată:** Zi
     - **Afișați descrierile disponibilității:** Da
@@ -95,15 +95,15 @@ Pentru a ajuta managerii de proiect sau de resurse pentru drill down mai mult pe
 
 **Scenariu:** A început un proiect aprobat, iar rolul Manager de proiect senior a fost rezervat ca resursă planificată în etapa de planificare a proiectului. Managerul de resurse a achiziționat acum o resursă pentru a îndeplini rolul de manager de proiect senior.
 
-1. Din pagina **Lista resurselor** , selectați **Daniel Goldschmidt**.
-2. În pagina **Rol resursă** , selectați **Nou** , și introduceți următoarele valori:
+1. Din pagina **Lista resurselor**, selectați **Daniel Goldschmidt**.
+2. În pagina **Rol resursă**, selectați **Nou**, și introduceți următoarele valori:
 
     - **În vigoare:** Introduceți data curentă.
     - **Expirare:** introduceți **Niciodată**.
     - **Rol:** introduceți **Manager de proiect senior**.
 
-3. Selectați **Salvare** , apoi închideți pagina.
-4. Din fila **Competențe** , adăugați abilitatea **ProjectMgmt** și certificatul **PMP**.
+3. Selectați **Salvare**, apoi închideți pagina.
+4. Din fila **Competențe**, adăugați abilitatea **ProjectMgmt** și certificatul **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

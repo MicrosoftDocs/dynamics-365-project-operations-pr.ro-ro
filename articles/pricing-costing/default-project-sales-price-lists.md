@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130953"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275598"
 ---
 # <a name="default-price-lists"></a>Liste de prețuri implicite
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 ## <a name="sales-price-lists"></a>Liste de prețuri de vânzări
 
-Fiecare ofertă și contract de proiect din Dynamics 365 Project Operations conține o listă de prețuri de vânzare implicită. 
+Fiecare ofertă de proiect și contract din Dynamics 365 Project Operations conține o listă de prețuri de vânzare implicită. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Listă de prețuri implicită pentru ofertele proiectului
 Sistemul finalizează următorul proces pentru a determina ce listă de prețuri va fi implicită pentru o ofertă de proiect:

@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121323"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277533"
 ---
 # <a name="quotes---key-concepts"></a>Oferte - Concepte cheie
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-În Project Operations Dynamics 365, există două tipuri de cotații, proiect și vânzări. Cele două tipuri de oferte diferă în următoarele moduri:
+În Dynamics 365 Project Operations, există două tipuri de oferte, de proiect și oferte de vânzări. Cele două tipuri de oferte diferă în următoarele moduri:
 
 - **GGrile pentru elemente de linie**: într-o ofertă de vânzări, există o singură grilă pentru elementele de linie. Pe o ofertă de proiect sunt două grile pentru elemente de linie. O grilă este pentru liniile de proiect și cealaltă este pentru liniile de produse.
 - **Activare și revizuiri**: cotațiile de vânzări acceptă activarea și revizuirea. Aceste procese nu sunt acceptate pe o ofertă de proiect.

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123888"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279513"
 ---
 # <a name="resource-management-key-concepts"></a>Conceptele cheie de gestionare a resurselor
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Resursele sunt cel mai important activ al unei organizații bazate pe servicii. Capacitatea de a găsi și rezerva resursele potrivite la momentul potrivit, de a rezerva respectivele resurse pe proiecte și de a le menține utilizate, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. Aveți posibilitatea să utilizați funcționalitatea de resurse de proiect în Dynamics 365 Project Operations pentru a face următoarele activități:
+Resursele sunt cel mai important activ al unei organizații bazate pe servicii. Capacitatea de a găsi și rezerva resursele potrivite la momentul potrivit, de a rezerva respectivele resurse pe proiecte și de a le menține utilizate, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. Aveți posibilitatea să utilizați funcționalitatea de resurse de proiect în Dynamics 365 Project Operations pentru a realiza următoarele sarcini:
 
 - Formați echipe de proiect prin rezervarea de resurse disponibile și calificate.
 - Creați înregistrări de membru generic al echipei și definiți-le rolurile și unitatea organizației de resurse.

@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082936"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270918"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametri de integrare Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Pe pagina **Parametrii de integrare a Project Service Automation** , puteți configura modul în care sunt introduse datele implicite când integrați Dynamics 365 Project Service Automation cu Dynamics 365 Finance. Pentru ca proiectele să fie sincronizate cu succes de la Project Service Automation la Finance, trebuie să configurați următoarele câmpuri.
+Pe pagina **Parametrii de integrare a Project Service Automation**, puteți configura modul în care sunt introduse datele implicite când integrați Dynamics 365 Project Service Automation cu Dynamics 365 Finance. Pentru ca proiectele să fie sincronizate cu succes de la Project Service Automation la Finance, trebuie să configurați următoarele câmpuri.
 
-Pentru a deschide pagina **Parametrii de integrare a Project Service Automation** , accesați **Management de proiect și contabilitate** \> **Configurare** \> **Dynamics 365 for Project Service Automation parametri de integrare**. 
+Pentru a deschide pagina **Parametrii de integrare a Project Service Automation**, accesați **Management de proiect și contabilitate** \> **Configurare** \> **Dynamics 365 for Project Service Automation parametri de integrare**. 
 
 > [!NOTE]
 > - Integrarea sarcinilor proiectului, categoriile tranzacțiilor de cheltuieli, estimările orelor, estimările cheltuielilor și blocarea funcționalității sunt disponibile în versiunea 8.0.

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273033"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gestionarea listelor de prețuri ale proiectelor din ofertele de proiecte - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Cotațiile proiectului sunt concepute pentru a susține listele de prețuri de vânzare eficiente cu mai multe date. Cu Dynamics 365 Project Operations, este adăugată o nouă entitate asociată numită **Listele de prețuri ale proiectului**. Această entitate are o relație de la 1 la mulți cu o ofertă de proiect.
+Cotațiile proiectului sunt concepute pentru a susține listele de prețuri de vânzare eficiente cu mai multe date. Cu Dynamics 365 Project Operations, s-a adăugat o nouă entitate asociată denumită **Listele de prețuri ale proiectului**. Această entitate are o relație de la 1 la mulți cu o ofertă de proiect.
 
 Listele de prețuri ale proiectului sunt folosite pentru a stabili prețurile pentru tranzacțiile de timp și cheltuieli ale unui proiect. Atunci când o ofertă are una sau mai multe liste de prețuri pentru proiecte, aceste liste de prețuri sunt folosite pentru a stabili prețurile și estimările cheltuielilor și actualele pentru proiectele care sunt asociate cu oferta prin linia de ofertă.
 
