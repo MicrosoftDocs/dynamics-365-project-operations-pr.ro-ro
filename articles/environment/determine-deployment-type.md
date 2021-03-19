@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401233"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479579"
 ---
 # <a name="determine-your-deployment-type"></a>Determinarea tipului de implementare
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 > [!IMPORTANT]
-> După ce ați achiziționat licența, începeți aici pentru a determina cel mai bun model de implementare a operațiunilor de proiect Dynamics 365 Project Operations folosind [Flux de instalare ghidat](https://aka.ms/provisionprojectoperations).
+> După ce ați achiziționat licența, începeți aici pentru a determina cel mai bun model de implementare a Dynamics 365 Project Operations folosind [Flux de instalare ghidat](https://aka.ms/provisionprojectoperations).
 > După ce ați terminat fluxul de instalare ghidat, veți fi direcționat către portalul de management corect pentru a finaliza instalarea. Consultați detaliile de implementare pentru a finaliza instalarea.
 
 
@@ -31,6 +31,9 @@ Project Operations include capabilitățile livrate împreună cu Project Servic
 
 Clienții existenți ai Finanțelor care utilizează funcționalitatea de gestionare a proiectelor și contabilitate pot continua să o utilizeze așa cum este. Consultați [Project Operations pentru scenarii cu stocuri/comenzi de producție](#pma).
 
+
+## <a name="deployment-regions"></a>Regiuni de implementare
+Pentru a determina ce regiuni acceptă implementarea Project Operations, consultați [Raport de disponibilitate geografică pentru Dynamics 365 și Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Selectați **Vizualizați raportul**, și extindeți **Dynamics 365> Aplicații pentru operațiuni > Dynamics 365 Project Operations** pentru a vizualiza regiunile acceptate.
 
 ## <a name="deployment-types"></a>Tip de implementare
 Project Operations acceptă mai multe opțiuni de implementare pentru a se potrivi cerințelor dvs. Indiferent dacă sunteți un client Dynamics 365 nou sau existent, Project Operations vă poate sprijini nevoile.

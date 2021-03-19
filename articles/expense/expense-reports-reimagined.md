@@ -1,9 +1,9 @@
 ---
 title: Rapoartele de cheltuieli reinventate
-description: Acest subiect oferă informații despre experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
+description: Acest subiect explică experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122814"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499731"
 ---
 # <a name="expense-reports-reimagined"></a>Rapoartele de cheltuieli reinventate
 
@@ -59,25 +59,22 @@ Pentru a activa noua experiență, utilizați spațiul de lucru **Managementul c
 | Reducerea mesajelor din bara de mesaje| Numărul de mesaje Infolog a scăzut și s-a făcut un efort pentru a preveni apariția mesajelor duplicate în multe cazuri. |
 | Grupate împreună acțiuni comune | Interfața a fost curățată cu adăugarea unui nou buton de acțiuni pentru majoritatea acțiunilor comune la nivel de linie și adăugarea unui buton de punctă de suspensie (...) pentru antet și alte acțiuni mai puțin frecvente. |
 | Nou spațiu de lucru pentru a crește vizibilitatea | Un nou spațiu de lucru unifică caracteristicile și linkurile care permit utilizatorilor să se mute în diferite zone. |
-| Adăugați cheltuielile și încasările existente în timpul creării cheltuielilor | Când creați rapoarte de cheltuieli, puteți adăuga toate cheltuielile și chitanțele selectate sau selectate. |
+| Adăugați cheltuielile și încasările existente în timpul creării cheltuielilor | Când creați rapoarte de cheltuieli, puteți adăuga toate cheltuielile sau puteți selecta cheltuieli neanexate. Cheltuielile neanexate sunt cheltuieli care au fost importate din fluxul de card de credit al companiei sau cheltuieli care au fost create manual de utilizator, dar care nu au fost anexate la un raport de cheltuieli.|
 | Calculator de curs valutar | Se adaugă un calculator al cursului valutar, care vă permite să calculați rata de schimb pentru tranzacțiile din mai multe buzunare. |
 | Salvați și adăugați noi linii de cheltuieli | Butoanele **Salvați** și **Nou** sunt disponibile atunci când sunt introduse noi cheltuieli, pentru a vă ajuta să introduceți rapid liniile de cheltuieli. |
 | O vizibilitate mai bună în linii separate și detaliate | Liniile detaliate și împărțite sunt adăugate direct la lista cheltuielilor pentru a crește vizibilitatea și a vă ajuta să determinați cu ușurință dacă există erori. |
 | Afișați chitanțele în timpul detalierii | Chitanțele pot fi afișate în timpul detalierii. |
+| Selecție de avans în numerar | Selectați unul sau mai multe avansuri de numerar pentru realizarea unei singure tranzacții de cheltuieli. |
+| Sold avans în numerar | Examinați soldul avansului de numerar în timp real atunci când creați o înregistrare a cheltuielilor comparativ cu avansurile de numerar aprobate și plătite. |
 
 Versiunea inițială este axată pe scenarii de intrare a cheltuielilor. Orice scenariu de revizuire sau aprobare a raportului de cheltuieli va continua să folosească pagina de introducere a cheltuielilor existente.
 
-Următoarele funcții sunt prezente pe pagina existentă, dar nu sunt încă prezente pe pagina nouă. Aceste caracteristici vor fi reintroduse în următoarele câteva versiuni:
+Următoarele funcții nu sunt acceptate în spațiul de lucru pentru cheltuieli reinventate:
 
-- Aprobări
-- Aprobarea conturilor de plătit și posibilitatea de a edita contabilitatea
-- Puncte multiple de intrare
 - Integrarea cererii de călătorie
-- Entitate de date pentru vizibilitatea câmpului de cheltuieli
-- Intrare pentru cheltuieli diurne
-- Flux de lucru la nivel de linie
+- Intrare cheltuială cu diurna
 - Suport interimar pentru aprobare
-- Detaliere avansată
+- Posibilitatea de a vizualiza istoricul fluxului de lucru
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
