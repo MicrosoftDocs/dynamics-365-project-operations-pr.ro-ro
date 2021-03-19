@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082939"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289789"
 ---
 # <a name="project-management-and-accounting-overview"></a>Management de proiect și prezentare generală a contabilității
 
@@ -205,7 +205,7 @@ Puteți comanda articole din inventarul companiei pentru consum pe un proiect. A
 
 Modul în care comandați articole depinde de unde le comandați:
 
--   Pentru a comanda articole din inventarul companiei, trebuie să introduceți comanda ca cerință de articol. Dacă utilizați pagina **Cerințele articolului** , puteți configura cerința, astfel încât să primiți articole ca livrări parțiale.Prin urmare, puteți amâna consumul unei cantități de articole până când articolele sunt necesare.
+-   Pentru a comanda articole din inventarul companiei, trebuie să introduceți comanda ca cerință de articol. Dacă utilizați pagina **Cerințele articolului**, puteți configura cerința, astfel încât să primiți articole ca livrări parțiale. Prin urmare, puteți amâna consumul unei cantități de articole până când articolele sunt necesare.
 -   Pentru a comanda articole de la un furnizor extern, trebuie să creați comanda ca comandă de cumpărare pe pagina **Comandă de achiziție**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Pentru mai multe informații despre modul de procesare a facturilor de proiect, 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calculați costul pentru finalizarea unui proiect
 
-Când creați o estimare, puteți alege metoda care este utilizată pentru a calcula costul pentru finalizarea proiectului. Selectați o metodă în câmpul **Metoda costului de finalizare** pe pagina **Creați o estimare**. Metoda pe care o alegeți se aplică separat fiecărei linii de cost din estimarea costurilor. În timp ce o linie are un statut de **Creată** , puteți schimba metoda care i se aplică pe pagina **Cost estimat**. 
+Când creați o estimare, puteți alege metoda care este utilizată pentru a calcula costul pentru finalizarea proiectului. Selectați o metodă în câmpul **Metoda costului de finalizare** pe pagina **Creați o estimare**. Metoda pe care o alegeți se aplică separat fiecărei linii de cost din estimarea costurilor. În timp ce o linie are un statut de **Creată**, puteți schimba metoda care i se aplică pe pagina **Cost estimat**. 
 
 Tabelul următor descrie metodele de calcul ale costului pentru finalizarea unui proiect.
 
@@ -300,12 +300,12 @@ Pe baza configurării dvs., puteți prognoza intrările de numerar pentru un pro
 -   **Data proiectului:** 5 martie 2012.
 -   **Data facturii:** 31 martie 2012. Această dată este stabilită pe baza frecvenței facturii. Pentru acest exemplu, setați frecvența facturii la luna curentă. Prin urmare, toate tranzacțiile înregistrate în luna martie sunt facturate în ultima zi a lunii.
 -   **Data scadentă:** 14 aprilie 2012. Această dată este stabilită pe baza condițiilor de plată stabilite pentru proiect. Pentru acest exemplu, ați selectat condiții de plată de 14 zile. Prin urmare, se adaugă 14 zile la data facturii pentru a ajunge la o dată scadentă din 14 aprilie 2012.
--   **Data estimată a plății pentru vânzări:** 27 aprilie 2012. Această dată se calculează prin adăugarea numărului de zile în câmpul **Zile de amortizare generale** pe pagina **Managementul proiectului și parametrii contabili**  cu numărul de zile din câmpul **Zile de amortizare individuale** pe pagina **Contracte de proiect** , apoi adăugând totalul la numărul de zile din câmpul **Data scadentă**. Pentru acest exemplu, ați introdus **3** în câmpul **Zile de amortizare generale** și **10** în câmpul **Zile de amortizare individuale**. Prin urmare, se adaugă 13 zile la data scadenței pentru a ajunge la o dată așteptată de plată a vânzărilor din 27 aprilie 2012.
+-   **Data estimată a plății pentru vânzări:** 27 aprilie 2012. Această dată se calculează prin adăugarea numărului de zile în câmpul **Zile de amortizare generale** pe pagina **Managementul proiectului și parametrii contabili** cu numărul de zile din câmpul **Zile de amortizare individuale** pe pagina **Contracte de proiect**, apoi adăugând totalul la numărul de zile din câmpul **Data scadentă**. Pentru acest exemplu, ați introdus **3** în câmpul **Zile de amortizare generale** și **10** în câmpul **Zile de amortizare individuale**. Prin urmare, se adaugă 13 zile la data scadenței pentru a ajunge la o dată așteptată de plată a vânzărilor din 27 aprilie 2012.
 
 Zilele de amortizare generale pot fie să înlocuiască zilele de amortizare individuale, fie să fie adăugate zilelor de amortizare individuale:
 
 -   Pentru a utiliza zilele de amortizare generale ca înlocuitor pentru zilele de amortizare individuale, introduceți numărul mediu de zile dintre data scadenței și data efectivă de plată pentru clienți.
--   Pentru a adăuga zilele de amortizare generale la zilele de amortizare individuale, în câmpul **Zile de amortizare generale** , introduceți estimarea pentru numărul de zile dintre ziua în care clientul trimite plata și ziua în care organizația dvs. primește plata.
+-   Pentru a adăuga zilele de amortizare generale la zilele de amortizare individuale, în câmpul **Zile de amortizare generale**, introduceți estimarea pentru numărul de zile dintre ziua în care clientul trimite plata și ziua în care organizația dvs. primește plata.
 
 Configurați zile de amortizare individuale în contractul proiectului. Zilele sunt calculate atât pe baza scadenței facturii de vânzare, cât și a experienței organizației dvs. cu modelul de plată al unui client.
 
@@ -323,9 +323,9 @@ Pe baza zilelor definite, data plății costurilor poate diferi de data proiectu
 
 De exemplu, data proiectului tranzacției este 5 martie 2012 și sunt stabilite următoarele condiții de plată:
 
--   **Ore:** Luna curentă ( **M** )
--   **Cheltuieli:** 14 zile ( **D14** )
--   **Articole:** 30 de zile ( **D30** )
+-   **Ore:** Luna curentă (**M**)
+-   **Cheltuieli:** 14 zile (**D14**)
+-   **Articole:** 30 de zile (**D30**)
 
 Pe baza acestor setări, iată data plății costurilor pentru fiecare tip de tranzacție:
 
@@ -364,14 +364,14 @@ Puteți monitoriza costurile pe care le suportă organizația dvs. în timpul un
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Vizualizarea sumelor bugetate rămase
 
-Dacă **Buget rămas** este selectat ca metodă de control al costurilor pe pagina **Managementul proiectului și parametrii contabili** , pagina **Controlul costurilor** calculează costurile care nu au fost înregistrate ca reale sau marcate ca asumate. Mai exact, sumele de pe fila **General** din panoul inferior al paginii **Controlul costurilor** sunt calculate în următoarele moduri:
+Dacă **Buget rămas** este selectat ca metodă de control al costurilor pe pagina **Managementul proiectului și parametrii contabili**, pagina **Controlul costurilor** calculează costurile care nu au fost înregistrate ca reale sau marcate ca asumate. Mai exact, sumele de pe fila **General** din panoul inferior al paginii **Controlul costurilor** sunt calculate în următoarele moduri:
 
 -   **Costul actual** - Suma totală care a fost cheltuită pentru proiect pentru linia de cost selectată. Valoarea costului real este calculată pe pagina **Actualizări majore**.
 -   **Cost asumat** - Suma suplimentară a cheltuielilor pe care persoana juridică s-a angajat să le plătească. Sumele specifice ale costurilor angajate sunt calculate pe pagina **Costuri asumate**.
 -   **Buget rămas** - Valoarea sumei bugetate inițiale care este încă disponibilă pentru linia de cost selectată. Suma bugetară rămasă este calculată pe pagina **Previzualizare registru general**.
 -   **Cost total** - Suma costului real, a costului asumat și a sumelor bugetare rămase.
 
-Pe pagina **Controlul costurilor** , pe fila **Deviere** , puteți vizualiza o comparație a costului total așteptat cu bugetul inițial. Această comparație arată orice diferență între aceste sume. Prin urmare, puteți vedea unde datele nu se potrivesc. Sumele abaterii sunt calculate în următoarele moduri:
+Pe pagina **Controlul costurilor**, pe fila **Deviere**, puteți vizualiza o comparație a costului total așteptat cu bugetul inițial. Această comparație arată orice diferență între aceste sume. Prin urmare, puteți vedea unde datele nu se potrivesc. Sumele abaterii sunt calculate în următoarele moduri:
 
 -   **Bugetul original** - Suma care a fost inițial bugetată pentru linia de cost selectată. Suma bugetară originală este calculată pe pagina **Previzualizare registru general**.
 -   **Cost total** - Suma costului real, a costului asumat și a bugetului rămas, după cum este raportat în fila **General**.
@@ -381,14 +381,14 @@ Pe pagina **Controlul costurilor** , pe fila **Deviere** , puteți vizualiza o c
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Vizualizarea sumelor bugetate totale
 
-Dacă **Buget total** este selectat ca metodă de control al costurilor pe pagina **Managementul proiectului și parametrii contabili** , pagina **Controlul costurilor** calculează costurile reale și costurile totale ale proiectului pentru a vă ajuta să detectați orice diferență între cele două. Mai exact, pe pagina **Controlul costurilor** sumele din coloanele din panoul inferior din fila **General** sunt calculate în următoarele moduri:
+Dacă **Buget total** este selectat ca metodă de control al costurilor pe pagina **Managementul proiectului și parametrii contabili**, pagina **Controlul costurilor** calculează costurile reale și costurile totale ale proiectului pentru a vă ajuta să detectați orice diferență între cele două. Mai exact, pe pagina **Controlul costurilor** sumele din coloanele din panoul inferior din fila **General** sunt calculate în următoarele moduri:
 
 -   **Costul total bugetat** - Suma totală bugetată pentru linia de cost selectată.
 -   **Costul actual** - Suma totală a costurilor suportate până în prezent pentru proiect pentru liniile de cost selectate.
 -   **Costul asumat** - Suma totală care a fost asumată pentru linia de cost selectată.
 -   **Variația** - Diferența dintre suma costurilor reale și cele asumate și costul total. Variația arată dacă trebuie specificate costuri suplimentare pentru bugetul total.
 
-Pe pagina **Controlul costurilor** , pe fila **Deviere** , puteți vedea diferența dintre bugetul total și bugetul inițial, urmărind următoarele câmpuri:
+Pe pagina **Controlul costurilor**, pe fila **Deviere**, puteți vedea diferența dintre bugetul total și bugetul inițial, urmărind următoarele câmpuri:
 
 -   **Bugetul original** - Suma care a fost inițial bugetată pentru linia de cost. Bugetul original este calculat pe pagina **Previzualizare registru general**.
 -   **Costul total bugetat** - Costul total care a fost inițial bugetat pentru linia de cost. Costul total bugetat este calculat pe pagina **Previzualizare registru general**.
@@ -414,7 +414,7 @@ Calculați ratele de utilizare pe pagina **Utilizarea orelor**. Calculele se baz
 -   **Conform proprietății de linie** - Proprietățile liniei unei anumite tranzacții orare determină dacă orele sunt luate în considerare pentru utilizarea facturabilă sau eficiență.
 -   **Nu este inclus** - Orele nu sunt luate în considerare în calculul facturării sau al utilizării eficienței.
 
-Pe pagina **Utilizarea orelor** , pe lângă procentul global al ratei de utilizare pentru un lucrător sau un proiect, puteți vizualiza numărul de ore care au fost utilizate pentru calculele ratei de utilizare pentru fiecare dintre următoarele tipuri de ore:
+Pe pagina **Utilizarea orelor**, pe lângă procentul global al ratei de utilizare pentru un lucrător sau un proiect, puteți vizualiza numărul de ore care au fost utilizate pentru calculele ratei de utilizare pentru fiecare dintre următoarele tipuri de ore:
 
 -   **Ore neincluse** - Aceste ore nu sunt incluse în rata de utilizare a orelor.
 -   **Orele incluse** - Aceste ore sunt calculate prin adăugarea orelor de utilizare și a orelor cu inconveniente. Aceste ore sunt incluse în rata de utilizare.
@@ -432,7 +432,7 @@ Puteți crea o declarație de proiect pentru a vizualiza un instantaneu rapid al
 -   Data proiectului/data registrului
 -   Date
 
-După calcularea raportului, puteți vizualiza următoarele informații pe diferitele file de pe pagina **Declarații de proiect** :
+După calcularea raportului, puteți vizualiza următoarele informații pe diferitele file de pe pagina **Declarații de proiect**:
 
 -   **General** - Informații generale despre profitul de bază și structura de pierderi a proiectului.
 -   **Profit și pierdere** - Informații despre veniturile acumulate.

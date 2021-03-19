@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287793"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Creați manual o factură proforma
 
@@ -30,7 +30,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Facturarea le oferă managerilor de proiect un al doilea nivel de aprobare înainte de a crea facturi pentru clienți. Primul nivel de aprobare se finalizează când se aprobă intrările de timp și cheltuieli pe care le transmit membrii echipei de proiect.
 
-Project Operations Dynamics 365 nu este proiectat pentru a genera facturi orientate spre client, din următoarele motive:
+Dynamics 365 Project Operations nu este proiectat pentru a genera facturi orientate spre client, din următoarele motive:
 
 - Nu conține informații fiscale.
 - Nu poate converti alte valute în valuta de facturare utilizând ratele de schimb corect configurate.

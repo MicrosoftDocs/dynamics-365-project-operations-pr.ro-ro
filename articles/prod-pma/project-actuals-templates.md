@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082928"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289699"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizarea datelor reale ale proiectului direct din Project Service Automation la jurnalul de integrare a proiectului pentru postare în Finance and Operations
 
@@ -50,7 +50,7 @@ Următoarea ilustrație arată cum sunt sincronizate datele între Project Servi
 
 ### <a name="template-and-tasks"></a>Șabloane și sarcini
 
-Pentru a accesa șabloanele disponibile, în centrul de administrare Microsoft Power Apps, selectați **Proiecte** , apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
+Pentru a accesa șabloanele disponibile, în centrul de administrare Microsoft Power Apps, selectați **Proiecte**, apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
 
 Următorul șablon și sarcinile de desfășurare sunt utilizate pentru a sincroniza datele reale ale proiectului de la Project Service Automation la Finance:
 
@@ -88,8 +88,8 @@ Datele reale ale proiectului sunt gestionate în Project Service Automation și 
 #### <a name="contract-organizational-unit"></a>Unitate organizațională contract
 Pentru a actualiza coloana condițională inserată în șablon, faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectați linkul **Interogare și filtrare avansate** pentru a deschide Power Query.
 
-- Dacă utilizați șablonul implicit Date reale ale proiectului (PSA la Fin și Ops), în Power Query, selectați ultima **Condiție inserată** din secțiunea **Pași aplicați**. În intrarea **Funcție** , înlocuiți **USSI** cu numele persoanei juridice care ar trebui folosită cu integrarea. Adăugați condiții suplimentare la intrarea **Funcție** după cum doriți și actualizați condiția **else** din **USMF** la persoana juridică corectă.
-- Când creați un șablon nou, trebuie să adăugați coloana pentru a accepta timpul și cheltuielile între companii. Selectați **Adăugare coloană condițională** , și introduceți un nume pentru coloană, cum ar fi **LegalEntity**. Introduceți o condiție pentru coloană, unde, dacă **msdyn\_contractorganizationalunitid.msdyn\_name** este \<organizational unit\>, atunci \<enter the legal entity\>; altfel este nul.
+- Dacă utilizați șablonul implicit Date reale ale proiectului (PSA la Fin și Ops), în Power Query, selectați ultima **Condiție inserată** din secțiunea **Pași aplicați**. În intrarea **Funcție**, înlocuiți **USSI** cu numele persoanei juridice care ar trebui folosită cu integrarea. Adăugați condiții suplimentare la intrarea **Funcție** după cum doriți și actualizați condiția **else** din **USMF** la persoana juridică corectă.
+- Când creați un șablon nou, trebuie să adăugați coloana pentru a accepta timpul și cheltuielile între companii. Selectați **Adăugare coloană condițională**, și introduceți un nume pentru coloană, cum ar fi **LegalEntity**. Introduceți o condiție pentru coloană, unde, dacă **msdyn\_contractorganizationalunitid.msdyn\_name** este \<organizational unit\>, atunci \<enter the legal entity\>; altfel este nul.
 
 ### <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor
 

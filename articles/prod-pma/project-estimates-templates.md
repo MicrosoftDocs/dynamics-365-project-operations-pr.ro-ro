@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289474"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați estimările proiectului direct din Project Service Automation în Finance and Operations
 
@@ -46,7 +46,7 @@ Următoarea ilustrație arată cum sunt sincronizate datele între Project Servi
 
 ### <a name="template-and-tasks"></a>Șabloane și sarcini
 
-Pentru a accesa șabloanele disponibile, în centrul de administrare Microsoft Power Apps, selectați **Proiecte** , apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
+Pentru a accesa șabloanele disponibile, în centrul de administrare Microsoft Power Apps, selectați **Proiecte**, apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
 
 Următorul șablon și sarcinile de desfășurare sunt utilizate pentru a sincroniza estimările orare ale proiectului de la Project Service Automation la Finance:
 
@@ -82,8 +82,8 @@ Estimările orare ale proiectului sunt gestionate în Project Service Automation
 
 Pentru a actualiza ID-ul de model de prognoză implicit în șablon, faceți clic pe săgeata **Mapare** pentru a deschide maparea. Apoi selectați linkul **Interogare și filtrare avansate**.
 
-- Dacă utilizați șablonul implicit estimări orare ale proiectului (PSA la Fin și Ops), selectați **Condiția inserată** în lista de **Pași aplicați**. În intrarea **Funcție** , înlocuiți **O\_forecast** cu numele de ID model prognoză care ar trebui folosit cu integrarea. Șablonul implicit are un ID de model de prognoză din datele demonstrative.
-- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, selectați **Adăugare coloană condițională** , și introduceți un nume pentru coloana nouă, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă activitatea Project nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
+- Dacă utilizați șablonul implicit estimări orare ale proiectului (PSA la Fin și Ops), selectați **Condiția inserată** în lista de **Pași aplicați**. În intrarea **Funcție**, înlocuiți **O\_forecast** cu numele de ID model prognoză care ar trebui folosit cu integrarea. Șablonul implicit are un ID de model de prognoză din datele demonstrative.
+- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, selectați **Adăugare coloană condițională**, și introduceți un nume pentru coloana nouă, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă activitatea Project nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrați înregistrările specifice resurselor
 
@@ -137,14 +137,14 @@ Estimările cheltuielilor proiectului sunt gestionate în Project Service Automa
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtrați pentru a include numai liniile de estimări de cheltuieli
 
-Șablonul de estimare a cheltuielilor proiectului (PSA la Fin și Ops) are un filtru implicit care include numai liniile de cheltuieli în integrare. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru. Selectați sarcina **Relații de tranzacție** , apoi faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectați linkul **Interogare și filtrare avansate**. Filtrați coloana **msdyn\_transactiontype1** astfel încât să includă numai **msdyn\_estimateline**.
+Șablonul de estimare a cheltuielilor proiectului (PSA la Fin și Ops) are un filtru implicit care include numai liniile de cheltuieli în integrare. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru. Selectați sarcina **Relații de tranzacție**, apoi faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectați linkul **Interogare și filtrare avansate**. Filtrați coloana **msdyn\_transactiontype1** astfel încât să includă numai **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Setați ID-ul modelului de prognoză implicit
 
-Pentru a actualiza ID-ul de model de prognoză implicit în șablon, selectați sarcina **Estimări de cheltuieli** , și apoi faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectați linkul **Interogare și filtrare avansate**.
+Pentru a actualiza ID-ul de model de prognoză implicit în șablon, selectați sarcina **Estimări de cheltuieli**, și apoi faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectați linkul **Interogare și filtrare avansate**.
 
-- Dacă utilizați șablonul implicit estimările cheltuielilor proiectului (PSA la Fin și Ops), în Power Query, selectați prima **Condiție inserată** din secțiunea **Pași aplicați**. În intrarea **Funcție** , înlocuiți **O\_forecast** cu numele de ID model prognoză care ar trebui folosit cu integrarea. Șablonul implicit are un ID de model de prognoză din datele demonstrative.
-- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, selectați **Adăugare coloană condițională** , și introduceți un nume pentru coloana nouă, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă ID-ul liniei Estimate nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
+- Dacă utilizați șablonul implicit estimările cheltuielilor proiectului (PSA la Fin și Ops), în Power Query, selectați prima **Condiție inserată** din secțiunea **Pași aplicați**. În intrarea **Funcție**, înlocuiți **O\_forecast** cu numele de ID model prognoză care ar trebui folosit cu integrarea. Șablonul implicit are un ID de model de prognoză din datele demonstrative.
+- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, selectați **Adăugare coloană condițională**, și introduceți un nume pentru coloana nouă, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă ID-ul liniei Estimate nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
 
 #### <a name="transform-the-billing-types"></a>Transformați tipurile de facturare
 

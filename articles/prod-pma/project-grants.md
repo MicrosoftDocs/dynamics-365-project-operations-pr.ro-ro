@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082977"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289384"
 ---
 # <a name="project-grants"></a>Granturi de proiecte
 
@@ -42,9 +42,9 @@ Puteți crea o subvenție introducând toate detaliile într-o nouă înregistra
 
 1. Accesați **Gestionarea proiectului și contabilitate** \> **Granturi** \> **Granturi**.
 2. Selectați **Nou** \> **Grant**.
-3. Pe pagina de detalii a grantului, pe FastTab **General** , în câmpul **ID grant** , introduceți un identificator alfanumeric pentru grant.
-4. În câmpul **Nume grant** , introduceți un nume pentru grant.
-5. În câmpul **Descriere** , adăugați detalii despre noul grant.
+3. Pe pagina de detalii a grantului, pe FastTab **General**, în câmpul **ID grant**, introduceți un identificator alfanumeric pentru grant.
+4. În câmpul **Nume grant**, introduceți un nume pentru grant.
+5. În câmpul **Descriere**, adăugați detalii despre noul grant.
 
     Majoritatea celorlalte câmpuri de pe pagină sunt opționale și puteți introduce informațiile pe care le doriți.
 
@@ -59,7 +59,7 @@ Puteți crea o subvenție introducând toate detaliile într-o nouă înregistra
         - **Adăugați contractul de proiect** - Adăugați sau actualizați informațiile contractului de proiect.
         - **Adăugați un proiect** - Adăugați sau actualizați detaliile proiectului.
 
-    - **Înființat** - Introduceți detalii despre fondurile potrivite, dacă aceste informații sunt necesare. Multe organizații care acordă granturi necesită ca destinatarii să cheltuiască o anumită sumă din proprii bani sau resurse, pentru a se potrivi cu suma acordată în grant. În câmpul **Proiect local sau cod de urmărire** , puteți introduce un identificator care diferă de identificatorul proiectului.
+    - **Înființat** - Introduceți detalii despre fondurile potrivite, dacă aceste informații sunt necesare. Multe organizații care acordă granturi necesită ca destinatarii să cheltuiască o anumită sumă din proprii bani sau resurse, pentru a se potrivi cu suma acordată în grant. În câmpul **Proiect local sau cod de urmărire**, puteți introduce un identificator care diferă de identificatorul proiectului.
 
         > [!NOTE]
         > Dacă o parte din grant va fi acordată unei alte organizații, setați opțiunea **Sub-acordator** pentru **Da**. Pentru subvențiile acordate în Statele Unite, puteți specifica dacă un grant va fi acordată în temeiul unui mandat de stat sau al unui mandat federal.
@@ -77,7 +77,7 @@ Puteți crea o subvenție introducând toate detaliile într-o nouă înregistra
 
 1. Accesați **Gestionarea proiectului și contabilitate** \> **Granturi** \> **Granturi**.
 2. Selectați grantul de modificat.
-3. În panoul de acțiuni, în fila **Grant** , în grupul **Menținere** , selectați **Editare**.
+3. În panoul de acțiuni, în fila **Grant**, în grupul **Menținere**, selectați **Editare**.
 4. Examinați detaliile grantului și efectuați modificările necesare.
 
 

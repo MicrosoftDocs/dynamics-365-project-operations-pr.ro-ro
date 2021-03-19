@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082857"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289339"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrare Microsoft Project Client
 
@@ -39,10 +39,10 @@ Pentru a permite integrarea cu Microsoft Project Client, a Microsoft Dynamics 36
 
 •   Faceți clic pe **Configurați programul de completare pentru clientul de proiect** din la secțiunea **Linkuri** > **Configurare** a spațiului de lucru.
 
-•   Faceți clic pe **Deschidere** , apoi apăsați **Rulare** când vi se solicită.
+•   Faceți clic pe **Deschidere**, apoi apăsați **Rulare** când vi se solicită.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Deschideți și editați o structură detaliată a proiectului existentă în Microsoft Project Client
-Dacă un proiect în Dynamics 365 Finance are deja creată o structură detaliată a proiectului, structura detaliată a proiectului poate fi deschisă în aplicația Microsoft Project Client dacă structura detaliată a proiectului este în starea de schiță. Pentru a deschide din pagina **Proiect** , faceți clic pe linkul **Deschideți în Microsoft Project** din fila **Plan**. Această pagină poate fi deschisă și din aplicația Microsoft Project Client făcând clic pe **Deschidere** în fila **Microsoft Dynamics 365**. Selectați **Entitate legală** și **Proiect** din listă.
+Dacă un proiect în Dynamics 365 Finance are deja creată o structură detaliată a proiectului, structura detaliată a proiectului poate fi deschisă în aplicația Microsoft Project Client dacă structura detaliată a proiectului este în starea de schiță. Pentru a deschide din pagina **Proiect**, faceți clic pe linkul **Deschideți în Microsoft Project** din fila **Plan**. Această pagină poate fi deschisă și din aplicația Microsoft Project Client făcând clic pe **Deschidere** în fila **Microsoft Dynamics 365**. Selectați **Entitate legală** și **Proiect** din listă.
 
 > [!NOTE]
 > Dacă folosiți Internet Explorer ca browser, va trebui să faceți clic pe **Salvare** pentru a deschide manual din locația în care este descărcat fișierul. Sau faceți clic pe **Salvare și deschidere** pentru a deschide fișierul în Microsoft Project Client. Nu redenumiți numele fișierului atunci când salvați.
@@ -82,7 +82,7 @@ Pentru a crea o nouă structură detaliată a proiectului utilizând Microsoft P
 
 1.  Deschideți Microsoft Project Client.
 
-2.  În fila **Microsoft Dynamics 365** , faceți clic pe **Deschidere**.
+2.  În fila **Microsoft Dynamics 365**, faceți clic pe **Deschidere**.
 
 3.  Selectați **Entitatea legală** pentru proiect.
 
@@ -99,7 +99,7 @@ Pentru a crea o nouă structură detaliată a proiectului utilizând Microsoft P
 
 2.  Creați planificarea în Microsoft Project Client.
 
-3.  Din fila **Microsoft Dynamics 365** , faceți clic pe **Salvare modificări** > **Înlocuire proiect existent**.
+3.  Din fila **Microsoft Dynamics 365**, faceți clic pe **Salvare modificări** > **Înlocuire proiect existent**.
 
 4.  Selectați **Entitatea legală** pentru proiect.
 
@@ -114,15 +114,15 @@ Pentru a crea o nouă structură detaliată a proiectului utilizând Microsoft P
 
 2.  Creați planificarea în Microsoft Project Client.
 
-3.  Din fila **Microsoft Dynamics 365** , faceți clic pe **Salvare modificări** > **Salvare ca proiect nou**.
+3.  Din fila **Microsoft Dynamics 365**, faceți clic pe **Salvare modificări** > **Salvare ca proiect nou**.
 
 4.  Selectați **Entitatea legală** pentru proiect.
 
-5.  Introduceți **ID-ul proiectului** , dacă este necesar.
+5.  Introduceți **ID-ul proiectului**, dacă este necesar.
 
 6.  Introduceți **Numele proiectului**.
 
-7.  Selectați **Tipul proiectului** , **Grup de proiect** și **ID-ul contractului de proiect**. Alternativ, puteți crea un nou contract de proiect făcând clic pe **Nou**.
+7.  Selectați **Tipul proiectului**, **Grup de proiect** și **ID-ul contractului de proiect**. Alternativ, puteți crea un nou contract de proiect făcând clic pe **Nou**.
 
 8.  Selectați **Calendar** pentru a fi folosit pentru resurse.
 

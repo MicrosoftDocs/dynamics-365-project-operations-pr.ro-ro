@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287748"
 ---
 # <a name="manage-the-billing-backlog"></a>Gestionarea restanțelor de facturare
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations are două vizualizări dedicate pentru a vă ajuta să lucrați și să gestionați restanțele de facturare. Sunt **Repere cu preț fix** și **Restanțe de facturare de timp și materiale** Pentru a selecta o vizualizare, în zona **Vânzări** a Project Operations, în pagina de navigare din stânga, selectați **Facturare**. Acolo sunt stocate linkurile către restanțele de facturare.
+Dynamics 365 Project Operations are două vizualizări dedicate pentru vă ajuta să gestionați și să lucrați cu vânzările nefacturate. Sunt **Repere cu preț fix** și **Restanțe de facturare de timp și materiale** Pentru a selecta o vizualizare, în zona **Vânzări** a Project Operations, în pagina de navigare din stânga, selectați **Facturare**. Acolo sunt stocate linkurile către restanțele de facturare.
 
 ## <a name="fixed-price-milestones"></a>Repere cu preț fix
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082969"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288844"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicație mobilă pentru foaia de pontaj a proiectului
 
@@ -68,21 +68,21 @@ Puteți introduce informații despre proiect făcând clic pe acțiunea **Adăug
 
 Informațiile despre proiect care sunt afișate depind de parametrii mobili pe care i-ați definit pe pagina **Managementul proiectului și parametrii contabili**.
 
-În câmpul **Entitate legală** , selectați entitatea juridică pentru care ați efectuat lucrări de proiect. Câmpul **Entitate legală** este disponibil numai dacă suportul pentru foaia de pontaj între companii este activat pentru entitatea dvs. juridică.
+În câmpul **Entitate legală**, selectați entitatea juridică pentru care ați efectuat lucrări de proiect. Câmpul **Entitate legală** este disponibil numai dacă suportul pentru foaia de pontaj între companii este activat pentru entitatea dvs. juridică.
 
 Selectați clientul care este asociat cu proiectul pentru foaia de pontaj. Pentru lansarea inițială pe Android, intrarea de către client nu este acceptată, deoarece trebuie să selectați mai întâi proiectul. Dacă ați selectat proiectul mai întâi, câmpul **Client** este completat automat.
 
-În câmpul **Proiect** , proiectul pentru care introduceți timpul. Câmpul **Client** este completat automat.
+În câmpul **Proiect**, proiectul pentru care introduceți timpul. Câmpul **Client** este completat automat.
 
 Căutările de clienți și proiecte permit căutarea atât în clienți, cât și în proiecte.
 
-Selectați informații în câmpurile **Categorie** , **Activitate** , **Proprietate de linie** , **Grup de impozite pe vânzări** și **Grup de taxe pe vânzări de articole** , după cum este necesar. Aceste câmpuri pot fi suprascrise.
+Selectați informații în câmpurile **Categorie**, **Activitate**, **Proprietate de linie**, **Grup de impozite pe vânzări** și **Grup de taxe pe vânzări de articole** , după cum este necesar. Aceste câmpuri pot fi suprascrise.
 
 Câmpul **Proprietate de linie** va fi setat la o valoare implicită, pe baza parametrilor de management și contabilitate a proiectului. Când parametrii proiectului/categoriei și categoriei/resurselor sunt activate, valoarea **Proprietate de linie** va fi setată la valoarea implicită pe care ați definit-o pentru această validare. Când parametrii proiectului/categoriei și categoriei/resurselor nu sunt activați, fișierul **Proprietate de linie** valoarea va fi implicită conform câmpului **Activați proprietatea implicită a liniei** pe pagina **Managementul proiectului și parametrii contabili**. Valoarea **Proprietate de linie** poate fi suprascrisă.
 
 Selectați o zi pentru a adăuga timp. Introduceți numărul de ore pe care le-ați lucrat în fiecare zi.
 
-Pentru a adăuga comentarii despre orele pe care le introduceți, faceți clic pe **Adaugă comentarii** , apoi introduceți comentarii pentru un public intern, un public de clienți sau ambele.
+Pentru a adăuga comentarii despre orele pe care le introduceți, faceți clic pe **Adaugă comentarii**, apoi introduceți comentarii pentru un public intern, un public de clienți sau ambele.
 Comentariile interne pot fi vizualizate de managerii de proiect. Comentariile clienților sunt incluse pe facturi.
 
 Pentru a salva linia ca favorit, bifați caseta de selectare, apoi faceți clic pe **Salvați ca favorit**.
@@ -95,7 +95,7 @@ Clic **Trimitere** pentru a trimite foaia de pontaj la fluxul de lucru de aproba
 
 ## <a name="review-timesheets"></a>Examinați fișele de pontaj
 
-O listă a foilor de pontaj care trebuie revizuite este disponibilă în meniu. Această opțiune este disponibilă numai dacă ați fost desemnat ca aprobator al fluxului de lucru. Sunt acceptate atât aprobarea antetului, cât și a liniei. Aprobarea la nivel de linie oferă posibilitatea de a marca una sau mai multe linii pentru aprobare. După examinarea informațiilor din foaia de timp, faceți clic pe **Aprobare** , **Delegare** sau **Întoarcere** pentru a continua fluxul de lucru.
+O listă a foilor de pontaj care trebuie revizuite este disponibilă în meniu. Această opțiune este disponibilă numai dacă ați fost desemnat ca aprobator al fluxului de lucru. Sunt acceptate atât aprobarea antetului, cât și a liniei. Aprobarea la nivel de linie oferă posibilitatea de a marca una sau mai multe linii pentru aprobare. După examinarea informațiilor din foaia de timp, faceți clic pe **Aprobare**, **Delegare** sau **Întoarcere** pentru a continua fluxul de lucru.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082771"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287973"
 ---
 # <a name="work-breakdown-structures-overview"></a>Prezentare generală a structurilor detaliate ale proiectului
 
@@ -49,8 +49,8 @@ Pentru a crea un WBS, trebuie să puteți crea un program de lucru și să estim
 Pentru a utiliza capacitățile complete de programare ale caracteristicilor WBS, finalizați următoarea configurare:
 
 1.  Configurați un calendar implicit și un calendar de proiect:
-    1.  Faceți clic pe **Gestionarea proiectului și contabilitate** &gt; **Configurare** &gt; **Gestionarea proiectului și parametri de contabilitate** &gt; **Planificare**. În câmpul **Calendar de lucru implicit** , specificați un calendar implicit. Acesta va fi calendarul de lucru implicit pentru orice proiect nou creat.
-    2.  Puteți modifica calendarul implicit pentru un anumit proiect. Faceți clic pe pagina de detalii a proiectului și apoi pe FastTab **Echipa proiectului și planificare** , actualizați câmpul **Calendarul de planificare** selectând un alt calendar.
+    1.  Faceți clic pe **Gestionarea proiectului și contabilitate** &gt; **Configurare** &gt; **Gestionarea proiectului și parametri de contabilitate** &gt; **Planificare**. În câmpul **Calendar de lucru implicit**, specificați un calendar implicit. Acesta va fi calendarul de lucru implicit pentru orice proiect nou creat.
+    2.  Puteți modifica calendarul implicit pentru un anumit proiect. Faceți clic pe pagina de detalii a proiectului și apoi pe FastTab **Echipa proiectului și planificare**, actualizați câmpul **Calendarul de planificare** selectând un alt calendar.
 
 2.  Configurați zilele și orele de lucru standard. Calendarul pe care l-ați setat ca calendar de lucru pentru proiectul dvs. va fi utilizat în WBS pentru a determina următoarele informații:
 
@@ -98,7 +98,7 @@ Puteți finaliza următoarele operațiuni ierarhice pentru a permite crearea une
 
 **Activitate de identare negativă** Când identați negativ o activitate, nu mai este o activitate de membru a părintelui său. Numărul WBS al acestei activități este recalculat automat pentru a reflecta noul nivel al activității în ierarhie. Efortul, costul și datele activității părinte anterioare sunt recalculate astfel încât să excludă această activitate. 
 
-**Mutați în sus și Mutați în jos** Când faceți clic pe **Mutați în sus** și **Mutați în jos** , schimbați poziția unei sarcini în ierarhia părintelui acesteia. Poziția unei activități nu afectează efortul activității, costul, datele sau durata. Cu toate acestea, numărul WBS al acestei activități este recalculat automat pentru a reflecta noua poziție a activității.
+**Mutați în sus și Mutați în jos** Când faceți clic pe **Mutați în sus** și **Mutați în jos**, schimbați poziția unei sarcini în ierarhia părintelui acesteia. Poziția unei activități nu afectează efortul activității, costul, datele sau durata. Cu toate acestea, numărul WBS al acestei activități este recalculat automat pentru a reflecta noua poziție a activității.
 
 ### <a name="schedule-estimation"></a>Estimarea planificării
 

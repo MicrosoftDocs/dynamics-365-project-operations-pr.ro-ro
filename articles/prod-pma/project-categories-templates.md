@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082935"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289654"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizați categoriile de cheltuieli ale proiectului între Finance and Operations și Project Service Automation
 
@@ -64,7 +64,7 @@ Următoarea ilustrație arată cum sunt sincronizate datele între Project Servi
 
 ### <a name="template-and-task"></a>Șablon și sarcină
 
-Pentru a accesa șablonul, în centrul de administrare Microsoft Power Apps, selectați **Proiecte** , apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
+Pentru a accesa șablonul, în centrul de administrare Microsoft Power Apps, selectați **Proiecte**, apoi, în colțul din dreapta sus, selectați **Proiect nou** pentru a selecta șabloanele publice.
 
 Următorul șablon și sarcina de desfășurare sunt utilizate pentru a sincroniza categoriile cheltuielilor proiectului de la Finance la Project Service Automation:
 

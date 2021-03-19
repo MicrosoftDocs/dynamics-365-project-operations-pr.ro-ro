@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288664"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurarea de roluri în șabloanele de structură detaliată a proiectului
 
@@ -33,7 +33,7 @@ Managerii de proiect pot configura șabloanele structurii detaliate a proiectulu
 
 1. Selectați **Gestionarea proiectului și contabilitate** > **Configurare** > **Proiecte** > **Șabloanee structurii detaliate a proiectului**.
 2. Selectați **Detalii** pentru un șablon WBS selectat.
-3. Selectați o sarcină din listă și apoi în câmpul **Rol** , selectați un rol pe care să îl atribuiți sarcinii.
+3. Selectați o sarcină din listă și apoi în câmpul **Rol**, selectați un rol pe care să îl atribuiți sarcinii.
 
 ## <a name="work-with-a-wbs"></a>Lucrul cu un WBS
 
@@ -79,7 +79,7 @@ Opțiuni suplimentare au fost adăugate în WBS pentru a utiliza mai bine funcț
 </tbody>
 </table>
 
-1. Din pagina **Toate proiectele** , selectați proiectul **Faza 2 de upgrade XYZ**.
+1. Din pagina **Toate proiectele**, selectați proiectul **Faza 2 de upgrade XYZ**.
 2. Selectați **Plan** > **Activități** > **Structură detaliată a proiectului**.
 3. Selectați **Nou** pentru a adăuga la WBS următoarele activități de nivel unu:
 
@@ -93,20 +93,20 @@ Opțiuni suplimentare au fost adăugate în WBS pentru a utiliza mai bine funcț
 
     [![Stabilirea datelor și efortului](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Selectați linia de sarcină **Inițiere** și apoi în câmpul **Rol** , selectați **Manager de proiect senior**.
+5. Selectați linia de sarcină **Inițiere** și apoi în câmpul **Rol**, selectați **Manager de proiect senior**.
 6. Selectați **Publicare**.
-7. Pe aceeași linie, în câmpul **Resursă** , selectați **Daniel Goldschmidt** , apoi selectați **Accept**.
-8. Selectați linia de sarcină **Planificare** și apoi în câmpul **Rol** , selectați **Analist de afaceri**.
-9. Selectați **Publicare** , apoi selectați **Generarea automată a echipei**.
+7. Pe aceeași linie, în câmpul **Resursă**, selectați **Daniel Goldschmidt**, apoi selectați **Accept**.
+8. Selectați linia de sarcină **Planificare** și apoi în câmpul **Rol**, selectați **Analist de afaceri**.
+9. Selectați **Publicare**, apoi selectați **Generarea automată a echipei**.
 10. În caseta de mesaj care apare, selectați **Da**.
-11. În câmpul **Resursă** , verificați dacă valoarea este **Analist de afaceri 1**.
-12. Pentru resursa **Analist de afaceri 1** , deschideți căutarea și selectați **Lansare atribuiri de resurse**. Apoi selectați un angajat pentru sarcină.
+11. În câmpul **Resursă**, verificați dacă valoarea este **Analist de afaceri 1**.
+12. Pentru resursa **Analist de afaceri 1**, deschideți căutarea și selectați **Lansare atribuiri de resurse**. Apoi selectați un angajat pentru sarcină.
 13. Selectați **Atribuire provizorie** &gt; **Capacitate completă**.
 
     > [!NOTE] 
     > Nu primiți un avertisment că resursa specificată este acum 2, deoarece numărul de resurse rămâne 1.
 
-14. Din pagina **Structură detaliată a proiectului** , validați atribuirea resurselor pe WBS, apoi selectați **Salvare**.
+14. Din pagina **Structură detaliată a proiectului**, validați atribuirea resurselor pe WBS, apoi selectați **Salvare**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

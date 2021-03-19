@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287703"
 ---
 # <a name="manage-a-proforma-invoice"></a>Gestionarea unei facturi proforma
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-În Operațiunile de proiect Dynamics 365, facturile proforma sunt construite ca o extensie a facturilor în Dynamics 365 Sales. Cu toate acestea, există multe diferențe în procesul de facturare între vânzări și Sales Operations atunci când vine vorba de facturare. De exemplu, nu este posibil să creați o nouă factură din **Lista facturilor** în Project Operations, dar este posibil să faceți acest lucru în Vânzări. Aceste diferențe și extensii sunt în vigoare pentru a sprijini procesele de facturare pentru proiecte care sunt diferite de o factură tipică pentru o comandă de vânzare.
+În Dynamics 365 Project Operations, facturile proforma sunt construite ca o extensie a facturilor din Dynamics 365 Sales. Cu toate acestea, există multe diferențe în procesul de facturare între vânzări și Sales Operations atunci când vine vorba de facturare. De exemplu, nu este posibil să creați o nouă factură din **Lista facturilor** în Project Operations, dar este posibil să faceți acest lucru în Vânzări. Aceste diferențe și extensii sunt în vigoare pentru a sprijini procesele de facturare pentru proiecte care sunt diferite de o factură tipică pentru o comandă de vânzare.
 
 > [!IMPORTANT]
 > Din cauza diferențelor, nu utilizați facturi în Vânzări și Project Operations în mod interschimbabil.
