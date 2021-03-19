@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175906"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290059"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Înscrieți-vă pentru un abonament de previzualizare - simplificat 
 
-Acest subiect explică cum să vă abonați la oferta de previzualizare de partener și să implementați Dynamics 365 Project Operations implementare simplificată - facturare de la tranzacție la proforma.
+Acest subiect explică modul de abonare la oferta partenerului de previzualizare și de implementare a implementării simplificate Dynamics 365 Project Operations - gestionare la facturarea proforma.
 
 > [!NOTE]
 > Acest proces se va schimba în versiunile viitoare ale Project Operations.
@@ -32,17 +32,17 @@ Acest subiect explică cum să vă abonați la oferta de previzualizare de parte
 
 Când primiți o aprobare de [cerere de previzualizare](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), veți primi două oferte de la Microsoft prin e-mail. Aceste oferte vă permit să implementați previzualizarea Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – previzualizare versiune de încercare
+- Dynamics 365 Project Operations (CRM) - Previzualizare versiune de încercare
 - Office 365 Project Operations - Previzualizare versiune de încercare
 
 > [!IMPORTANT]
 > O singură persoană, administratorul entității găzduite, dintr-o organizație trebuie să îndeplinească această sarcină. Dacă nu sunteți abonatul la această versiune, așteptați până când organizația dvs. a fost înregistrată și ați primit acreditările dvs. de utilizator.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – previzualizare versiune de încercare 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Previzualizare versiune de încercare 
 
 Înainte de a începe, asigurați-vă că sunteți conectat la un browser cu contul de lucru al utilizatorului în chiriașul în care doriți previzualizarea Project Operations.
 
-1. Valorificați primul cod de ofertă, **Dynamics 365 Project Operations (CRM) - Previzualizare versiune de încercare** lipindu-l în URL-ul browserului.
+1. Valorificați primul cod de ofertă, **Dynamics 365 Project Operations (CRM) - Previzualizare încercare** lipindu-l în URL-ul browserului.
 
 ![Valorificați oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Repetați aceiași pași ca la primul cod de ofertă. Asigurați-vă că adăuga
 
 ![Atribuiți licențe](./media/15AssignLicenses.png)
 
-3. Verificați ca licențele **Dynamics 365 Project Operations (CRM) Previzualizare** și **Office 365 Project Operations - Previzualizare** să fie selectate. 
+3. Verificați dacă licențele **Dynamics 365 Project Operations (CRM) Previzualizare** și **Office 365 Project Operations - Previzualizare** sunt selectate. 
 4. Selectați **Salvați modificările**.
 
 ## <a name="create-a-new-cds-environment"></a>Creați un nou mediu CDS

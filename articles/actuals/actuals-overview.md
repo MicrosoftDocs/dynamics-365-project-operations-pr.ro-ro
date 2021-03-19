@@ -1,6 +1,6 @@
 ---
 title: Date reale
-description: Acest subiect oferă informații despre cum să lucrați cu date reale în Microsoft Dynamics 365 Project Operations.
+description: Acest subiect oferă informații despre cum să lucrați cu cifrele reale în Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291814"
 ---
 # <a name="actuals"></a>Date reale 
 
@@ -70,7 +70,7 @@ Intrarea pe categorii a unor prețuri implicite per unitate pe intrările de che
 Puteți utiliza intrările de jurnal pentru a înregistra costul sau venitul în material, tarif, timp, cheltuieli sau clase de taxe de tranzacții. Jurnalele pot fi utilizate în următoarele scopuri:
 
 - Înregistrați costul real al materialelor și vânzărilor pe un proiect.
-- Mutați valorile reale ale tranzacțiile din alt sistem la Microsoft Dynamics 365 Project Operations.
+- Mutați valorile reale privind tranzacțiile dintr-un alt sistem în Microsoft Dynamics 365 Project Operations.
 - Înregistrați costurile care au avut loc într-un alt sistem. Aceste costuri pot include costuri de achiziție sau subcontractare.
 
 > [!IMPORTANT]
