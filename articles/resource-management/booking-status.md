@@ -8,15 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4e14f55e05a20990394f7645d0f276ea99deb626
-ms.sourcegitcommit: 454b0ec941cca06852236771bc77dc1651f94e48
+ms.openlocfilehash: 07a68cdedd095b7aecdc02e58df251ed34a4e769
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279963"
 ---
-# <a name="booking-statuses"></a><span data-ttu-id="b4485-103">Stări de rezervare</span><span class="sxs-lookup"><span data-stu-id="b4485-103">Booking statuses</span></span>
+# <a name="booking-statuses"></a><span data-ttu-id="fc9bf-103">Stări de rezervare</span><span class="sxs-lookup"><span data-stu-id="fc9bf-103">Booking statuses</span></span>
 
-<span data-ttu-id="b4485-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="b4485-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="fc9bf-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="fc9bf-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="b4485-105">Puteți utiliza funcționalitatea furnizată în Universal Resource Scheduling pentru Dynamics 365 Field Service pentru a configura stările de rezervare pentru organizația dvs.</span><span class="sxs-lookup"><span data-stu-id="b4485-105">You can use the functionality provided in Universal Resource Scheduling for Dynamics 365 Field Service to set up booking statuses for your organization.</span></span> <span data-ttu-id="b4485-106">Pentru informații despre cum să finalizați această setare, consultați [Configurați stările rezervării](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span><span class="sxs-lookup"><span data-stu-id="b4485-106">For information on how to complete this set up, see [Set up booking statuses](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span></span>
+<span data-ttu-id="fc9bf-105">Puteți utiliza funcționalitatea furnizată în Universal Resource Scheduling pentru Dynamics 365 Field Service pentru a configura stările de rezervare pentru organizația dvs.</span><span class="sxs-lookup"><span data-stu-id="fc9bf-105">You can use the functionality provided in Universal Resource Scheduling for Dynamics 365 Field Service to set up booking statuses for your organization.</span></span> <span data-ttu-id="fc9bf-106">Pentru informații despre cum să finalizați această setare, consultați [Configurați stările rezervării](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span><span class="sxs-lookup"><span data-stu-id="fc9bf-106">For information on how to complete this set up, see [Set up booking statuses](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
