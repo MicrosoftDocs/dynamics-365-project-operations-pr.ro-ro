@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Noutăți
       items:
+        - name: Aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Martie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Februarie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -64,7 +66,7 @@
           items:
             - name: Prezentare generală a gestionării oportunităților de proiecte
               href: sales/manage-project-based-opportunities.md
-            - name: Setările de oportunități bazate pe proiect
+            - name: Detalii antet pentru oportunități bazate pe proiect
               href: sales/opportunity-header.md
             - name: Linii de oportunitate bazate pe proiect
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Prezentare generală a gestionării ofertelor de proiecte
               href: pro/sales/manage-quotes-sales.md
-            - name: Concepte pentru oferte de proiect
+            - name: Concepte unice pentru ofertele bazate pe proiecte
               href: sales/quotes-key-concepts.md
-            - name: Setările ofertelor de proiect
+            - name: Detalii antet pentru oferte bazate pe proiect
               href: sales/quote-values-budget-limits-contract.md
             - name: Gestionarea mai multor clienți într-o ofertă de proiect
               href: sales/manage-multiple-customers-quote.md
             - name: Gestionarea listelor de prețuri ale proiectelor dintr-o ofertă
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Linii de oferte bazate pe proiect
               items:
                 - name: Prezentare generală a liniilor de oferte bazate pe proiect
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Gestionarea mai multor clienți în linii de oferte bazate pe proiect
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Maparea proiectelor și activităților la linii de ofertă bazate pe proiect
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Configurarea componentelor tarifabile pentru linii de ofertă bazate pe proiect
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Configurarea componentelor tarifabile ale unei linii de ofertă de proiect
                   href: sales/configure-chargeable-quoteline.md
-                - name: Crearea de estimări într-o linie de ofertă
+                - name: Estimarea unei linii de ofertă de proiect
                   href: sales/create-estimate-quote-line.md
                 - name: Importul de estimări dintr-un proiect pentru o linie de ofertă pe bază de proiect
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Prezentare generală a gestionării contractelor de proiecte
               href: pro/sales/manage-contracts-sales.md
-            - name: Concepte pentru contracte de proiect
+            - name: Concepte unice pentru contractele bazate pe proiecte
               href: sales/contracts-key-concepts.md
-            - name: Setări pentru contracte de proiecte
+            - name: Detalii antet pentru contractele bazate pe proiect
               href: sales/project-contract-settings.md
             - name: Gestionarea listelor de prețuri ale proiectelor din contractele de proiecte
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Linii de contract bazate pe proiect
               items:
                 - name: Prezentare generală a liniilor de contract bazate pe proiect
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Gestionarea mai multor clienți în linii de contract bazate pe proiect
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Configurarea componentelor tarifabile ale unei linii de contract bazate pe proiect
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Estimarea unei linii de contract bazate pe proiect
+                - name: Maparea proiectelor și activităților la o linie de contract de proiect
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Configurarea componentelor tarifabile pentru o linie de contract de proiect
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Estimarea unei linii de contract pentru proiect
                   href: sales/create-estimate-contract-line.md
                 - name: Importul de estimări dintr-un proiect pentru o linie de contract bazată pe proiect
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Confirmarea unui contract de proiect
               href: pro/sales/confirm-contract-sales.md
-            - name: Copierea unui contract de proiect
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Avansuri și garanții
               items:
                 - name: Avansuri și contracte bazate pe garanții
@@ -146,16 +152,16 @@
       items:
         - name: Configurarea listei de prețuri
           items:
-            - name: Configurarea listelor de prețuri
+            - name: Definiția listei de prețuri
               href: pricing-costing/price-list-setup.md
-            - name: Liste de prețuri pentru produse
-              href: pricing-costing/product-price-list.md
             - name: Configurarea tarifelor facturii pentru muncă
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Configurarea tarifelor de cost pentru muncă
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Configurarea tarifelor de cost și de vânzare pentru cheltuieli
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Configurarea tarifelor de cost și de vânzare pentru materiale
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Valori implicite și înlocuiri
           items:
             - name: Liste de prețuri implicite
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Copierea listelor de prețuri
               href: pricing-costing/copy-price-lists.md
+            - name: Dezactivarea listelor de prețuri
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensiuni de preț
           items:
             - name: Prezentare generală a dimensiunilor de preț
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Crearea de atribuiri
               href: project-management/create-assignments.md
-        - name: Estimarea proiectelor
+        - name: Estimări financiare pentru proiecte
           items:
-            - name: Prezentare generală a estimării proiectelor
+            - name: Concepte de estimare financiară
               href: project-management/estimating-projects-overview.md
-            - name: Estimări de resurse
+            - name: Estimări financiare pentru timpul alocat resurselor în proiecte
               href: project-management/resource-estimates.md
-            - name: Crearea estimărilor de cheltuieli
+            - name: Estimări financiare pentru cheltuieli în proiecte
               href: project-management/create-expense-estimates.md
+            - name: Estimări financiare pentru materiale în proiecte
+              href: project-management/create-material-estimate.md
         - name: Urmărirea proiectelor
           items:
-            - name: Prezentare generală a urmăririi proiectelor
+            - name: Urmărirea efortului în proiecte
               href: project-management/project-tracking-overview.md
+            - name: Urmărirea costurilor cu forța de muncă în proiecte
+              href: project-management/project-cost-tracking.md
+            - name: Urmărirea veniturilor cu forța de muncă în proiecte
+              href: project-management/project-sales-tracking.md
             - name: Actualizarea costului estimat la finalizare
               href: project-management/update-completed-estimate.md
         - name: Membrii echipei de proiect
@@ -248,6 +262,8 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
+            - name: Utilizarea API-urilor de planificare (versiune preliminară publică)
+              href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -366,6 +382,10 @@
           items:
             - name: Recuperarea TVA
               href: expense/vat-recovery.md
+    - name: Utilizare materiale
+      items:
+        - name: Înregistrarea utilizării materialelor pentru proiecte și activitățile proiectului
+          href: material/material-usage-log.md
     - name: Aprobări
       items:
         - name: Prezentare generală a aprobărilor
@@ -376,8 +396,10 @@
               href: approvals/dev-notes-approvals.md
     - name: Date reale
       items:
-        - name: Prezentarea datelor reale
+        - name: Prezentare generală a datelor reale
           href: actuals/actuals-overview.md
+        - name: Conectarea datelor reale la înregistrările originale
+          href: actuals/linkingactuals.md
         - name: Jurnale de corecție
           items:
             - name: Crearea și confirmarea jurnalelor de corecție
@@ -390,21 +412,23 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturare proforma
           items:
-            - name: Gestionarea jurnalului de așteptare pentru facturarea proiectului
+            - name: Gestionarea jurnalului de așteptare pentru facturarea bazată pe proiect
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Gestionarea stării și validărilor care nu trebuie depășite
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Crearea unei facturi proforma manuale de proiect
+            - name: Facturi proforma bazate pe proiect
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Gestionarea unei facturi proforma pentru proiect
+            - name: Gestionarea unei facturi proforma bazate pe proiect
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Facturarea unui avans sau a unei garanții
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Confirmarea unei facturi proforma pentru proiect
+            - name: Confirmarea unei facturi proforma bazate pe proiect
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Configurarea automatizării facturii de proiect
+            - name: Crearea de facturi corective bazate pe proiect
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Configurarea automatizării facturilor bazate pe proiect
               href: proforma-invoicing/configure-automated-invoice-creation.md
-    - name: Contabilitatea proiectului
+    - name: Contabilitatea proiectelor
       items:
         - name: Valori implicite pentru dimensiunile financiare
           href: project-accounting/financial-dimension-defaults.md
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
+        - name: Noutăți aprilie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Noutăți martie 2021 - implementare simplificată
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Noutăți februarie 2021 - implementare simplificată
@@ -486,7 +512,7 @@
           items:
             - name: Prezentare generală a oportunităților de proiecte
               href: sales/manage-project-based-opportunities.md
-            - name: Setările oportunităților de proiect
+            - name: Detalii antet pentru oportunități de proiect
               href: pro/sales/opportunity-header-sales.md
             - name: Gestionarea liniilor de oportunitate bazate pe produs
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Prezentare generală a ofertelor bazate pe proiect
               href: pro/sales/manage-quotes-sales.md
-            - name: Concepte pentru oferte de proiect
+            - name: Concepte unice pentru ofertele de proiecte
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Setările ofertelor de proiect
+            - name: Detalii antet pentru oferte de proiect
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Clienți multipli în oferte de proiect
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Prezentare generală a contractelor bazate pe proiect
               href: pro/sales/manage-contracts-sales.md
-            - name: Concepte pentru contracte de proiect
+            - name: Concepte unice pentru contractele de proiect
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Setări pentru contracte de proiecte
+            - name: Detalii antet pentru contractele de proiect
               href: pro/sales/project-contract-settings-sales.md
             - name: Clienți multipli în contractele de proiect
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Configurarea listei de prețuri
           items:
-            - name: Configurarea listelor de prețuri
+            - name: Definiția listei de prețuri
               href: pricing-costing/price-list-setup.md
-            - name: Configurarea listei de prețuri pentru vânzare
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Configurarea tarifelor facturii pentru muncă - simplificat
+            - name: Configurarea listelor de prețuri pentru produse
+              href: pricing-costing/product-price-list.md
+            - name: Configurarea tarifelor de facturare pentru forță de muncă
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Configurarea tarifelor de cost pentru muncă - simplificat
+            - name: Configurarea tarifelor de cost pentru forță de muncă
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Configurarea tarifelor de cost și de vânzare pentru produsele din catalog - simplificat
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Configurarea tarifelor de cost și de vânzare pentru cheltuieli
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Configurarea tarifelor de cost și de vânzare pentru materiale
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Valori implicite și înlocuiri
           items:
             - name: Liste de prețuri implicite
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Înlocuirea listelor de prețuri de vânzare pentru proiect
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Rezolvarea prețurilor de cost pentru estimări și date reale - simplificat
+            - name: Rezolvarea prețurilor de cost pentru estimări de proiect și date reale
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Rezolvarea prețurilor de vânzări pentru estimări și date reale - simplificat
+            - name: Rezolvarea prețurilor de vânzări pentru estimări de proiect și date reale
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Copierea listelor de prețuri
               href: pricing-costing/copy-price-lists.md
+            - name: Dezactivarea listelor de prețuri pentru proiecte
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensiuni de preț
           items:
             - name: Prezentare generală a dimensiunilor de preț
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Crearea de atribuiri
               href: project-management/create-assignments.md
-        - name: Estimarea proiectelor
+        - name: Estimări financiare pentru proiecte
           items:
-            - name: Prezentare generală a estimării proiectelor
+            - name: Concepte de estimare financiară
               href: project-management/estimating-projects-overview.md
-            - name: Estimări de resurse
+            - name: Estimări financiare pentru timpul alocat resurselor în proiecte
               href: project-management/resource-estimates.md
-            - name: Crearea estimărilor de cheltuieli
+            - name: Estimări financiare pentru cheltuieli în proiecte
               href: project-management/create-expense-estimates.md
+            - name: Estimări financiare pentru materiale în proiecte
+              href: project-management/create-material-estimate.md
         - name: Urmărirea proiectelor
           items:
-            - name: Prezentare generală a urmăririi proiectelor
+            - name: Urmărirea efortului în proiecte
               href: project-management/project-tracking-overview.md
+            - name: Urmărirea costurilor cu forța de muncă în proiecte
+              href: project-management/project-cost-tracking.md
+            - name: Urmărirea veniturilor cu forța de muncă în proiecte
+              href: project-management/project-sales-tracking.md
             - name: Actualizarea costului estimat la finalizare
               href: project-management/update-completed-estimate.md
         - name: Membrii echipei de proiect
@@ -694,6 +728,8 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
+            - name: Utilizarea API-urilor de planificare (versiune preliminară publică)
+              href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Intrare cheltuieli (simplificată)
           href: expense/basic-expense.md
+    - name: Utilizare materiale
+      items:
+        - name: Înregistrarea utilizării materialelor pentru proiecte și activitățile proiectului
+          href: material/material-usage-log.md
     - name: Aprobări
       items:
         - name: Prezentare generală a aprobărilor
@@ -778,8 +818,10 @@
               href: approvals/dev-notes-approvals.md
     - name: Date reale
       items:
-        - name: Prezentarea datelor reale
+        - name: Prezentare generală a datelor reale
           href: actuals/actuals-overview.md
+        - name: Conectarea datelor reale la înregistrările originale
+          href: actuals/linkingactuals.md
         - name: Jurnale de corecție
           items:
             - name: Crearea și confirmarea jurnalelor de corecție
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Gestionarea stării și validărilor care nu trebuie depășite
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Crearea unei facturi proforma manuale de proiect
+        - name: Facturi proforma de proiect
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Gestionarea unei facturi proforma pentru proiect
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Noutăți
       items:
+        - name: Noutăți martie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Noutăți ianuarie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: Noutăți decembrie 2020 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Facturarea proiectelor
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Performanța propunerilor de facturi pentru proiect
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Contracte de proiect
       href: prod-pma/project-contracts.md
     - name: Crearea de contracte avansate pentru facturare pe baza progresului
@@ -952,6 +998,10 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 29.5 remediere rapidă, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 28.6 remediere rapidă, V3'
