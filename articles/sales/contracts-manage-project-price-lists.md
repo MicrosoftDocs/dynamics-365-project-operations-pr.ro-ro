@@ -3,17 +3,17 @@ title: Gestionarea listelor de prețuri ale proiectelor din contractele de proie
 description: Acest subiect oferă informații despre gestionarea listelor de prețuri de proiecte pe contractele de proiecte.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278613"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858578"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Gestionarea listelor de prețuri ale proiectelor din contractele de proiecte
 
@@ -21,13 +21,13 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Contractele de proiect din Dynamics 365 Project Operations sunt concepute pentru a accepta listele de prețuri de vânzare efective cu mai multe date dintr-un contract. În Project Operations există o nouă entitate asociată numită **Listele de prețuri ale proiectului**. Această entitate are o relație unu-la-mulți cu un contract de proiect.
 
-Listele de prețuri ale proiectului sunt folosite pentru a stabili prețurile pentru tranzacțiile de timp și cheltuieli ale unui proiect. Atunci când un contract are una sau mai multe liste de prețuri ale proiectelor, aceste liste de prețuri sunt utilizate pentru a stabili prețuri pentru estimări de timp și cheltuieli și efective pentru proiectele care sunt asociate contractului prin linia contractului.
+Listele de prețuri ale proiectului sunt folosite pentru a stabili prețurile pentru tranzacții de timp, materiale și cheltuieli pentru un proiect. Atunci când un contract are una sau mai multe liste de prețuri ale proiectelor, aceste liste de prețuri sunt utilizate pentru a stabili prețul pentru timp, materiale, estimări ale cheltuielilor și valori reale pentru proiectele care sunt asociate cu contractul prin linia de contract.
 
-Când nu există liste de prețuri ale proiectului pe un contract de proiect, veți vedea un mesaj de avertizare că nu există liste de prețuri ale proiectului, iar estimările, lucrările efective ale proiectului și cheltuielile nu vor fi evaluate. Nu va exista preț pentru valorile vânzărilor.
+Când nu există liste de prețuri ale proiectului pe un contract de proiect, veți vedea un mesaj de avertizare că nu există liste de prețuri ale proiectului, iar estimările dvs., lucrările efective ale proiectului, materialele și cheltuielile înregistrate nu vor fi evaluate. Nu va exista preț pentru valorile vânzărilor.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Asociați sau anulați o listă de prețuri a proiectului într-un contract de proiect
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Creați sau asociați o listă de prețuri specifică pentru estimarea lucrărilor și a cheltuielilor bazate pe proiecte
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Creați sau asociați o listă de prețuri specifică pentru estimarea lucrărilor, materialelor și cheltuielilor bazate pe proiecte
 
 1. În contractul de proiect, selectați fila **Listele de prețuri ale proiectului**.
 2. În subgrilă, selectați **+ Adăugați o listă de prețuri de proiect nou**.
@@ -52,7 +52,7 @@ Când nu există liste de prețuri ale proiectului pe un contract de proiect, ve
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Configurați implicit automat listele de prețuri ale proiectului într-un contract
 
-O listă de prețuri a proiectului poate fi configurată ca listă implicită a unui contract de proiect. Această configurare vă poate asigura că toate contractele din organizația dvs. încep întotdeauna cu o listă de preț standard pentru perioada respectivă de preț.
+O listă de prețuri a proiectului poate fi configurată ca listă de prețuri implicită a proiectului. Această configurare asigură faptul că toate contractele din organizația dvs. încep întotdeauna cu o listă de prețuri standard a proiectului pentru perioada respectivă de preț.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Configurați implicit organizațional pentru listele de prețuri ale proiectului
 

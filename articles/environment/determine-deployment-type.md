@@ -3,17 +3,17 @@ title: Determinarea tipului de implementare
 description: Acest subiect oferă informații pentru a vă ajuta să determinați tipul corect de implementare a operațiunilor de proiect pentru compania dvs.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479579"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663609"
 ---
 # <a name="determine-your-deployment-type"></a>Determinarea tipului de implementare
 
@@ -44,7 +44,7 @@ Project Operations acceptă mai multe opțiuni de implementare pentru a se potri
 - [Project Operations pentru resurse/scenarii fără stoc](#integrated)
 - [Project Operations pentru scenarii cu stocuri/comenzi de producție](#pma)
 
-Project Operations acceptă scenarii de stocare/comandă de producție și scenarii ne-stocate/bazate pe resurse în același mediu prin configurații la nivel de entitate juridică. De exemplu, Contoso poate utiliza capacitățile de stocare/comandă de producție în unitatea lor de producție din SUA (entitate juridică = Contoso Manufacturing United States). Contoso poate utiliza capabilitățile non-stocate/bazate pe resurse în unitatea lor de service Contoso Robotics Arms din Regatul Unit (entitate juridică = Contoso Robotics Regatul Unit).
+Project Operations acceptă scenarii de stocare/comandă de producție și scenarii ne-stocate/bazate pe resurse în același mediu prin configurații la nivel de entitate juridică. De exemplu, cei de la Contoso pot utiliza capacitățile de comandă de stocare/producție în fabrica lor din SUA (entitate juridică =Contoso Manufacturing United States). Contoso poate utiliza capacitățile non-stocate/bazate pe resurse în facilitatea de service Contoso Robotics Arms din Regatul Unit (entitate juridică = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementare simplificată - facturare de la ofertă și până la proforma
 
@@ -56,7 +56,7 @@ Implementarea simplă include următoarele funcții:
 - Gestionare unificată a resurselor
 - Urmărirea timpului
 - Cheltuieli de bază
-- Facturare Proforma și orientată către clienți 
+- Facturare proformă pentru revizuirea și modificările managerului de proiect 
 
 #### <a name="deployment-steps"></a>Pași de implementare
 Determinați cel mai bun model de implementare a Project Operations utilizând [Chestionar de implementare](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ Pentru această desfășurare, consultați [Înscrieți-vă pentru abonamente de
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations pentru scenarii cu stocuri/comenzi de producție
 
 - Planificarea proiectelor utilizând WBS
-- Gestionarea de resurse
+- Gestionarea resurselor
 - Urmărirea timpului
 - Cheltuieli complete
 - Chitanță OCR
 - Facturare completă
 - Recunoașterea veniturilor
 - Comenzi de producție
-- Materiale de asistență
+- Suport material stocat cu inventar
 
 #### <a name="deployment-steps"></a>Pași de implementare
 Determinați cel mai bun model de implementare a Project Operations utilizând [Chestionar de implementare](https://aka.ms/provisionprojectoperations).

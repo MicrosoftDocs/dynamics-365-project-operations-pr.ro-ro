@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277713"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664104"
 ---
-# <a name="opportunity-settings"></a>Setări de oportunitate
+# <a name="header-details-for-project-based-opportunities"></a>Detalii antet pentru oportunități bazate pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 

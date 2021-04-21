@@ -3,17 +3,17 @@ title: Configurați contabilitatea pentru proiectele facturabile
 description: Acest subiect furnizează informații despre opțiunile contabile pentru proiectele facturabile.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287658"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858668"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurați contabilitatea pentru proiectele facturabile
 
@@ -58,13 +58,25 @@ Parcurgeți pașii următori pentru a crea un nou profil de cost și venit al pr
 
          - **Sold**: La postarea jurnalului de integrare a operațiunilor de proiect, costul tranzacției de cheltuieli va fi debitat în tipul de cont Registru *WIP - Valoarea costului* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și creditat în contul offset de pe linia jurnalului. Conturile compensate implicite pentru cheltuieli sunt definite în **Management de proiect și contabilitate** > **Configurat** \> **Publicare** \> **Cont de compensare implicit pentru cheltuieli**. Contabilul va utiliza funcția **Publicare costuri** pentru a muta periodic acest cost dintr-un cont de sold într-un cont de profit și pierderi.
         - **Profit și pierdere**: La publicarea jurnalului de integrare a operațiunilor de proiect, costul tranzacției de cheltuieli va fi debitat în tipul de cont Registru *WIP - Valoarea costului* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și creditat în contul offset de pe linia jurnalului. Conturile compensate implicite pentru cheltuieli sunt definite în **Management de proiect și contabilitate** \> **Configurare** \> **Publicare** \> **Cont de decalaj implicit pentru cheltuieli**.
+      
+    - **Costuri poștale - articol**:
+
+         - **Sold**: La postarea jurnalului de integrare Project Operations, costul tranzacției articolului va fi debitat în tipul de cont Registru *WIP - Valoarea costului - articol* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și va fi creditat la următoarele:
+    
+              - Pentru utilizarea tipului de document: cont **Cost - articol** pe **Configurare înregistrare contabilitate**.  
+              - Pentru tipul de document achiziție: **Cont de integrare a achizițiilor** pe **Managementul proiectelor și parametrii contabili**.
+           Contabilul va utiliza funcția **Publicare costuri** pentru a muta periodic acest cost dintr-un cont de sold într-un cont de profit și pierderi.
+        - **Profit și pierdere**: La postarea jurnalului de integrare Project Operations, costul tranzacției articolului va fi debitat în tipul de cont Registru *Cost* așa cum este definit pe fila **Cost** de pe pagina **Configurare înregistrare contabilitate** și va fi creditat la următoarele:
+         
+             - Pentru utilizarea tipului de document: cont **Cost - articol** pe **Configurare înregistrare contabilitate**.  
+             - Pentru tipul de document achiziție: **Cont de integrare a achizițiilor** pe **Managementul proiectelor și parametrii contabili**.
        
     - **Despre facturarea contului**:
 
         - **Sold**: La publicarea propunerii de facturare a proiectului, o tranzacție pe cont (etapă de facturare) va fi creditată în tipul de cont Registru *WIP facturat - pe cont* așa cum este definit pe fila **Venituri** de pe pagina **Configurare înregistrare contabilitate** și debitat în contul de sold al clienților.
          - **Profit și pierdere**: La publicarea propunerii de facturare a proiectului, o tranzacție pe cont (etapă de facturare) va fi creditată în tipul de cont Registru *Venit facturat - pe cont* așa cum este definit pe fila **Venituri** de pe pagina **Configurare înregistrare contabilitate** și debitat în contul de sold al clienților. Conturile de sold ale clienților sunt definite în **Conturi clienți** \> **Configurare** \> **Profiluri de publicare ale clienților**.
 
-   Când definiți profilurile de înregistrare pentru metodele de facturare în timp și materiale, aveți opțiunea de a acumula venituri pe tip de tranzacție (oră, cheltuială și taxă). Dacă opțiunea **Venituri acumulate** este setată la **Da**, tranzacțiile de vânzare necotificate în jurnalul de integrare a operațiunilor de proiect vor fi înregistrate în registrul general. Valoarea vânzărilor este debitată către **WIP - cont de valoare pentru vânzări** și creditat în contul **Venituri acumulate - valoarea vânzărilor** care a fost creat pe pagina **Configurare înregistrare contabilitate**, pe fila **Venituri**. 
+   Când definiți profilurile de postare pentru metodele de facturare pentru timp și materiale, aveți opțiunea de a acumula venituri pe tip de tranzacție (oră, cheltuială, articol și taxă). Dacă opțiunea **Venituri acumulate** este setată la **Da**, tranzacțiile de vânzare necotificate în jurnalul de integrare a operațiunilor de proiect vor fi înregistrate în registrul general. Valoarea vânzărilor este debitată către **WIP - cont de valoare pentru vânzări** și creditat în contul **Venituri acumulate - valoarea vânzărilor** care a fost creat pe pagina **Configurare înregistrare contabilitate**, pe fila **Venituri**. 
   
   > [!NOTE]
   > Optiunea, **Acumulați venituri** este disponibilă numai atunci când tipul respectiv de tranzacție **Cost** este înregistrat în contul de profit și pierdere.

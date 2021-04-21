@@ -3,17 +3,17 @@ title: Configurarea tarifelor facturii pentru muncă
 description: Acest subiect oferă informații despre cum să configurați ratele de facturare a costului pentru muncă în Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274833"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877415"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurarea tarifelor facturii pentru muncă
 
@@ -21,8 +21,8 @@ _ **Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără
 
 Fiecare listă de prețuri are un set de prețuri de roluri sau rate ale forței de muncă, care sunt eficiente pentru context și intră în vigoare la data inclusă pe antetul listei de prețuri. Tarifele facturilor pentru timp în Dynamics 365 Project Operations pot fi configurate într-o singură monedă, care este moneda din antetul listei de prețuri.
 
-1. Pentru a seta tarifele facturii forței de muncă pentru o listă de prețuri de vânzare, creați o listă de prețuri bazată pe antetul listei de prețuri. 
-2. Pe fila **Prețuri de roluri**, în subgrilă, selectați **+ Preț nou de rol**. 
+1. Pentru a seta ratele facturii forței de muncă pentru o listă de prețuri de vânzare, accesați **Vânzări** > **Clienți** > **Liste de prețuri** și selectați **Nou** pentru a crea o nouă listă de prețuri. 
+2. Pe fila **Prețuri de roluri**, în subgrilă, selectați **Preț nou de rol**. 
 3. Pe panoul **Creare rapidă**, introduceți combinația de roluri și unități organizaționale pentru care trebuie să configurați rata facturării.
 
    Următorul tabel include câmpurile de pe fila **General** și panoul **Creare rapidă** dintr-o linie de preț de rol pe care trebuie să îl aveți în vedere atunci când creați prețuri de rol într-o listă de prețuri de vânzare:

@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272718"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663834"
 ---
-# <a name="opportunity-header---lite"></a>Antet de oportunitate - simplificat
+# <a name="header-details-for-project-opportunities"></a>Detalii antet pentru oportunități de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 

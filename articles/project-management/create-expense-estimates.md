@@ -1,28 +1,24 @@
 ---
-title: Estimări de cheltuieli
+title: Estimări financiare pentru cheltuieli în proiecte
 description: Acest subiect furnizează informații despre definirea sau estimarea cheltuielilor bazate pe proiecte.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287073"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701797"
 ---
-# <a name="expense-estimates"></a>Estimări de cheltuieli
+# <a name="financial-estimates-for-expenses-on-projects"></a>Estimări financiare pentru cheltuieli în proiecte
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Împreună cu definirea estimărilor bazate pe resurse, Dynamics 365 Project Operations permite managerilor de proiect să definească cheltuielile bazate pe proiect pentru fiecare proiect. Fiecare articol de cheltuială poate fi asociat cu o anumită activitate de proiect sau categorie de cheltuieli. Categoriile de cheltuieli sunt de obicei definite la nivel organizațional. Prețurile pentru fiecare categorie de cheltuieli sunt de obicei definite în următoarea ierarhie:
-
-- Organizație
-- Client
-- Ofertă/contract
+Dynamics 365 Project Operations le permite managerilor de proiect să definească cheltuielile bazate pe proiect pentru fiecare proiect sau pentru o sarcină. Fiecare element de cheltuieli poate fi asociat cu o sarcină specifică a proiectului. Cheltuielile sunt clasificate în diferite categorii de cheltuieli, care sunt definite la nivel organizațional. Prețurile și costurile pentru fiecare categorie de cheltuieli sunt definite în lista de prețuri. 
 
 Parcurgeți pașii următori pentru a vizualiza, adăuga sau șterge o cheltuială a proiectului.
 
@@ -30,14 +26,20 @@ Parcurgeți pașii următori pentru a vizualiza, adăuga sau șterge o cheltuial
 2. Selectați fila **Estimări ale proiectului** și vizualizați lista cheltuielilor proiectului.
 3. Selectați **Cheltuieli noi** pentru a adăuga o cheltuială. Sau selectați o cheltuială de șters, apoi selectați **Ștergeți cheltuiala**.
 
-Următoarele atribute sunt definite pentru fiecare element rând de cheltuieli:
+Următorul tabel oferă informații despre câmpurile de pe pagina **Linie de estimare cheltuieli** de pe un proiect. 
 
-- **Categorie**: Grupările comune utilizate pentru a descrie toate cheltuielile suportate pentru un proiect.
-- **Data de început**: Data la care se estimează că va fi efectuată cheltuiala.
-- **Cantitate**: Numărul estimat de articole de cheltuieli pentru o anumită categorie.
-- **Preț de cost unitar**: Prețul unitar utilizat pentru calcularea costului cheltuielilor.
-- **Preț unitar de vânzare**: Prețul unitar utilizat pentru calcularea prețurilor de vânzare a cheltuielilor.
-
+| **Câmp** | **Descriere** | **Impactul din aval** |
+| --- | --- | --- |
+| Activitate | O listă a sarcinilor din proiect. Aceasta include sarcini de rezumat de nod frunză. | Selectarea unei sarcini pentru o linie estimativă de cheltuieli va avea un impact asupra costului estimat al cheltuielilor și al vânzărilor estimate ale cheltuielilor pentru o sarcină. Dacă acest câmp este lăsat necompletat, estimatul de cheltuieli este urmărit și sintetizat numai la nivel de proiect. |
+| Categorie | O listă a categoriilor de tranzacții care au legate categorii de cheltuieli în aplicație. | Selectarea unei categorii determină stabilirea prețurilor și a costurilor pe linia de estimare a cheltuielilor. |
+| Dată de început | Data prognozată la care va avea loc cheltuiala. | Nu există niciun impact în aval pentru acest câmp. |
+| Grup de unități | Valoarea implicită din acest câmp provine din grupul de unități configurat ca implicit pentru categoria selectată. Puteți actualiza acest câmp pentru a selecta un alt grup de unități. | Nu există niciun impact în aval pentru acest câmp. |
+| Unitate | Valoarea din acest câmp devine implicit unitatea implicită a categoriei selectate. Puteți actualiza acest câmp pentru a selecta o altă unitate. | Schimbarea unității are ca rezultat un preț unitar și un cost implicit diferit. |
+| Cantitate | Cantitatea cheltuielii estimate pe care o veți suporta. | Nu există niciun impact în aval pentru acest câmp. |
+| Cost unitar | Costul unitar al categoriei selectate și combinația de unități, așa cum este stabilit în lista de prețuri de cost aplicabilă | Costul unitar este întotdeauna afișat în moneda costului proiectului. |
+| Preț unitar | Prețul produsului selectat și categoria și combinația de unități, așa cum este configurat în lista de prețuri de vânzare aplicabilă. | Prețul unitar este întotdeauna afișat în moneda de vânzare a proiectului. |
+| Cost total | Valoarea costului care este calculată ca un \*cost unitar al cantității.| Valoarea costului este întotdeauna afișat în moneda costului proiectului. |
+| Total vânzări | Valoarea de vânzări calculată ca un \* preț unitar al cantității. | Valoarea vânzărilor este întotdeauna afișată în moneda de vânzare a proiectului. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

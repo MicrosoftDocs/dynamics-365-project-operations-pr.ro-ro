@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 711255ab66f84fe46d0f16fa72e5a10fe0360394
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
+ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499686"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664658"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Ce este nou sau schimbat în Project Service Automation versiunea actualizată 29, V3
 
@@ -30,7 +30,7 @@ ms.locfileid: "5499686"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea actualizată 29. Această versiune are numărul de versiune V3.10.45.98 și este în general disponibilă printr-o actualizare automată în februarie 2021.
+Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea actualizată 29. Această versiune are numărul de versiune V3.10.47.7 și este în general disponibilă printr-o actualizare automată în februarie 2021.
 
 ## <a name="update-release-29"></a>Lansarea de actualizări 29
 

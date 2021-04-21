@@ -3,17 +3,17 @@ title: Estimați o linie de contract pe bază de proiect - simplificat
 description: Acest subiect oferă informații despre estimarea unei linii de contract bazate pe proiect.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273552"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858114"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Estimați o linie de contract pe bază de proiect - simplificat
 
@@ -28,28 +28,33 @@ Pentru a estima o linie de contract bazată pe proiect, accesați fila **Detaliu
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Creați o estimare direct pe o linie de contract bazată pe proiect
 
+Pentru a crea o estimare direct pe o linie de contract bazată pe proiect, urmați acești pași:
+
 1. Accesați linia de și selectați fila **Detaliu linie contract**. Liniile pe care le creați în această filă sunt rezumate și afișate ca **Valoarea contractată** pentru această **Linie de contract**. 
-2. În subgrila **Detalii linie contract**, selectați **+ Detaliu linie contract nouă**. Se deschide un glisor de creare rapidă. Următoarele câmpuri sunt disponibile pe formularul **Detalii linie contract**:
+2. În subgrila **Detalii linie contract**, selectați **Detaliu linie contract nouă**. Se deschide un glisor de creare rapidă. Următoarele câmpuri sunt disponibile pe pagina **Detalii linie contract**.
 
 | Câmp | Locație | Descriere | Impactul din aval |
 | --- | --- | --- | --- |
-| **Descriere** | **Creare rapidă** | O descriere a estimării specifice. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Clasă de tranzacții** | **Creare rapidă** | Această listă derulantă este o listă a claselor de tranzacții incluse în fila **General** a liniei de contract bazate pe proiect. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Rol** | **Creare rapidă** | Rolul persoanei care efectuează această lucrare sau suportă această cheltuială. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Categorie** | **Creare rapidă** | Categoria de lucru sau cheltuială. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Dată de început** | **Creare rapidă** | Data de început a lucrului. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Dată de sfârşit** | **Creare rapidă** | Data de final a lucrului. | Acest câmp implicit este detaliul liniei contractului aferent pentru costul creat automat. |
-| **Unitate de finanțare** | **Creare rapidă** | Unitatea de resurse care suportă acest cost și furnizează resursa pentru a lucra la acesta. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. Acest câmp este, de asemenea, utilizat în recuperarea prețurilor de cost. |
-| **Planificare unitate** | **Creare rapidă** | Grupul unitar al lucrului sau cheltuielilor. Unitățile aparțin unei planificări de unitate sau unui grup de unități. De exemplu, *mile* și *kilometri (Kms)* sunt unități care aparțin unui grup de unități care descriu distanța. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Unitate** | **Creare rapidă** | Unitatea de lucru sau cheltuială. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Cantitate** | **Creare rapidă** | Cantitatea de lucru sau cheltuială. | Acest câmp implicit este detaliul liniei contractului aferent pentru costurile care sunt create automat. |
-| **Preț unitar** | **Creare rapidă** | Rata facturii rolului care efectuează lucrarea sau prețul de vânzare al categoriei de cheltuieli. Acest câmp implicit pentru **Timp** se bazează pe rolul și combinația de unități de resurse din lista de prețuri a proiectului care este efectivă pentru data de începere. Pentru cheltuieli, valoarea implicită a acestui câmp este de la setarea prețului pentru categoria de tranzacții din lista de prețuri a proiectului, care este valabilă pentru data de începere. Dacă metoda de stabilire a prețurilor pentru categoria tranzacției nu este **prețul pe unitate**, nu există nicio valoare implicită și acest câmp este lăsat necompletat. | Rata costului rolului care efectuează lucrarea sau costul pe unitate al categoriei de cheltuieli. Acest câmp implicit pentru **Timp bazat pe rol** și combinația de unități de resurse pe linia de preț de rol din lista de prețuri de cost atașată unității contractante în vigoare pentru data de începere. Pentru cheltuieli, valoarea implicită a acestui câmp pe categoria de linie de preț a listei de prețuri de cost atașată la unitatea contractoare care este valabilă pentru data de începere. Dacă metoda de stabilire a prețurilor pentru categoria tranzacției nu este prețul pe unitate, nu există nicio valoare implicită și acest câmp este lăsat necompletat. |
-| **Impozit estimat** | **Creare rapidă** | Impozitul estimat pentru această lucrare sau cheltuială ca intrare de către utilizator. | Impozitul estimat pentru această lucrare sau cheltuială ca intrare de către utilizator. |
-| **Valoare** | **Creare rapidă** | Această valoare din acest câmp poate fi adăugată de utilizator dacă câmpurile **Cantitate** și **Preț** sunt lăsate necompletate. Dacă **Cantitate** și **Preț** sunt completate, câmpul **Cantitate** este numai în citire și este calculat ca **(Cantitate \* Preț unitar) + Taxe**. | &nbsp; |
+| **Descriere** | **Creați rapid** | O descriere a estimării specifice. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Clasă de tranzacții** | **Creați rapid** | Aceasta este o listă a claselor de tranzacții incluse în fila **General** a liniei de contract bazate pe proiect. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Selectare produs** | **Creare rapidă** | Se aplică atunci când clasa tranzacției este **Material**. Puteți specifica dacă această linie estimativă este pentru un produs (de catalog) **Existent** sau un produs **Din afara catalogului**. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Produs** | **Creare rapidă** | ID-ul produsului din catalogul de produse. Acest câmp este activat numai atunci când selectați **Produs existent** în câmpul **Selectare Produs**. ID-ul este utilizat pentru a prelua prețul de vânzare din lista de prețuri a proiectului de pe contract. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Produs din afara catalogului** | **Creare rapidă** | Un câmp text pentru a introduce numele produsului. Acest câmp este activat numai atunci când selectați **Din afara catalogului** în câmpul **Selectare Produs**.| Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Rol** | **Creați rapid** | Rolul persoanei care efectuează această lucrare sau suportă această cheltuială. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat.|
+| **Categorie** | **Creați rapid** | Categoria de lucru sau cheltuială. |Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat.|
+| **Data de început** | **Creați rapid** | Data de început a lucrului. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Dată de sfârşit** | **Creați rapid** | Data de final a lucrului. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Unitate de resurse** | **Creați rapid** | Unitatea de resurse care suportă acest cost și care oferă resursa pentru a se lucra pe ea. |Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat și este utilizată în preluarea prețului de cost. |
+| **Planificare unitate** | **Creare rapidă** | Grupul de unitate pentru activitate, produs sau cheltuială. Unitățile aparțin unei planificări de unitate sau unui grup de unități. De exemplu, *mile* și *kilometri (km)* sunt unități care aparțin unui grup de unități care descriu distanța. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Unitate** | **Creați rapid** | Unitatea de activitate, produs sau cheltuială. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Cantitate** | **Creați rapid** | Cantitatea de activitate, produs sau cheltuială. | Această valoare este setată implicit la detaliul liniei de contract aferente pentru costul creat automat. |
+| **Preț unitar** | **Creați rapid** | Rata de facturare a rolului care efectuează lucrarea, prețul pe unitate al produsului sau prețul de vânzare al produsului sau categoriei de cheltuieli. Acest câmp ia valoarea implicită pentru **Timp** pe baza combinației valorilor de dimensiune de stabilire a prețurilor de pe linia de preț a rolului din lista de prețuri a proiectului, care este în vigoare la data de începere. Pentru **Cheltuieli**, valoarea implicită a acestui câmp este de la setarea prețului pentru categoria de tranzacții din lista de prețuri a proiectului, care este valabilă pentru data de începere. Dacă metoda de stabilire a prețurilor pentru categoria tranzacției nu este **prețul pe unitate**, nu există nicio valoare implicită și acest câmp este lăsat necompletat. Pentru produse, valoarea implicită a acestui câmp se bazează pe linia **Articol din lista de prețuri** din lista de prețuri a proiectului care este în vigoare la data de începere.| Rata de cost a rolului care efectuează lucrarea sau costul pe unitate din categoria de cheltuieli sau costul unitar al produsului. Acest câmp ia valoarea implicită pentru **Timp** pe baza combinației valorilor de dimensiune de stabilire a prețurilor de pe linia de preț a rolului din lista de prețuri de cost atașată unității contractante, în vigoare la data de începere. Pentru cheltuieli, valoarea implicită a acestui câmp pe categoria de linie de preț a listei de prețuri de cost atașată la unitatea contractoare care este valabilă pentru data de începere. Dacă metoda de stabilire a prețurilor pentru categoria tranzacției nu este prețul pe unitate, nu există nicio valoare implicită și acest câmp este lăsat necompletat. Pentru produse, valoarea implicită a acestui câmp se bazează pe linia **Element listă de preț** din lista de prețuri de cost atașată unității contractante, în vigoare la data de începere.|
+| **Impozit estimat** | **Creați rapid** | Impozitul estimat pentru această lucrare sau cheltuială. | Impozitul estimat pentru această lucrare sau cheltuială. |
+| **Sumă** | **Creați rapid** | Puteți adăuga valoarea în acest câmp în cazul în care câmpurile **Cantitate** și **Preț** sunt lăsate necompletate. Dacă **Cantitate** și **Preț** sunt completate, câmpul **Valoare** este numai în citire și este calculat ca **(Cantitate \* Preț unitar) + Taxe**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Actualizați prețurile în detaliile liniei contractului
 
-Dacă modificați prețurile din lista de prețuri a proiectului care este atașată contractului sau lista de prețuri a costului unității contractante, puteți actualiza prețurile din detaliile liniei contractuale individuale pentru a reflecta modificarea. Pe pagina **Contract**, selecta'i **Recalculare**. Se deschide un avertisment pentru a vă informa că prețurile pentru toate liniile contractuale din acest contract sunt resetate. Selectați **Da** pentru a reîmprospăta prețurile atât pentru detaliile liniei contractului de vânzare, cât și pentru cele de cost.
+Dacă modificați prețurile din lista de prețuri a proiectului care este atașată contractului sau lista de prețuri a costului unității contractante, puteți actualiza prețurile din detaliile liniei contractuale individuale pentru a reflecta modificarea. Pe pagina **Contract**, selecta'i **Recalculare**. Apare un avertisment pentru a vă informa că prețurile pentru toate liniile contractuale din acest contract sunt resetate. Selectați **Da** pentru a reîmprospăta prețurile atât pentru detaliile liniei contractului de vânzare, cât și pentru cele de cost.
 
 ## <a name="access-contract-line-details-for-cost"></a>Accesați detaliile liniei contractului pentru cost
 
@@ -67,7 +72,7 @@ Detaliul liniei de contract pentru **Cost** seetează moneda implicită din list
 Calculele de rentabilitate convertesc sumele pentru detaliile liniei contractului pentru **Cost** și **Vânzări** în moneda de bază a mediului pentru a raporta marjele reale reale și estimate pe contract.
 
 > [!NOTE]
-> Erorile de rotunjire a valutei și modificarea marjelor ar putea apărea din cauza lipsei ratelor de schimb efective la dată. Utilizați aceste calcule pentru contractele de proiect doar ca aproximări și nu pentru raportarea legală sau de altă natură care necesită o precizie mai mare a rotunjirii și conștientizarea efectivității datei pentru ratele de schimb.
+> Erorile de rotunjire a valutei și modificarea marjelor ar putea apărea din cauza lipsei ratelor de schimb efective la dată. Utilizați aceste calcule numai la contractele proiectului, deoarece acestea sunt aproximări și nu sunt pentru raportări legale sau de altă natură care necesită o precizie mai mare a rotunjirii și conștientizarea aplicabilității datei pentru ratele de schimb.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

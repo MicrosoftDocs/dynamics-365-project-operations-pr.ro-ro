@@ -1,22 +1,22 @@
 ---
-title: Rezolvarea prețurilor de cost pentru estimări și date reale - simplificat
-description: Acest subiect oferă informații despre modul în care sunt rezolvate prețurile de cost pe estimări și realități.
+title: Rezolvarea prețurilor de cost pentru estimări de proiect și date reale
+description: Acest subiect oferă informații despre cum sunt rezolvate prețurile de cost pe estimările și valorile reale ale proiectului.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274564"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877280"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Rezolvarea prețurilor de cost pentru estimări și date reale - simplificat
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Rezolvarea prețurilor de cost pentru estimări de proiect și date reale 
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -36,6 +36,12 @@ După rezolvarea unei liste de prețuri, câmpurile **Rol** și **Unitate de res
 Liniile de estimare pentru Cheltuială se referă la detaliile de ofertă și de linie de contract pentru cheltuieli și liniile de estimare a cheltuielilor unui proiect.
 
 După rezolvarea unei liste de prețuri de cost, sistemul folosește o combinație a câmpurilor **Categorie** și **Unitate** de pe linia de estimare a cheltuielilor pentru a se potrivi cu liniile **Preț categorie** din lista de prețuri rezolvate. Dacă sistemul găsește o linie de preț de categorie care are o rată de cost pentru combinația de câmp **Categorie** și **Unitate**, rata de cost este implicită. Dacă sistemul nu poate realiza potrivirea dintre valorile **Categorie** și **Unitate** sau dacă poate găsi o linie de preț de categorie potrivită, dar metoda de stabilire a prețurilor nu este **Preț pe unitate**, rata de cost este setată implicit la zero (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rezolvarea ratelor de costuri pe liniile de valori reale și estimate pentru Materiale
+
+Liniile de estimare pentru Materiale se referă la detaliile liniei de ofertă și a liniei de contract pentru materiale și la liniile de estimare pentru un proiect.
+
+După rezolvarea unei liste de prețuri de cost, sistemul folosește o combinație a câmpurilor **Produs** și **Unitate** de pe linia de estimare pentru o estimare a materialelor, de potrivit cu liniile **Articole din lista de prețuri** din lista de prețuri rezolvate. Dacă sistemul găsește o linie de preț de produs care are o rată de cost pentru combinația de câmpuri **Produs** și **Unitate**, rata de cost revine la valoarea implicită. Dacă sistemul nu se potrivește cu valorile de **Produs** și **Unitate**, sau dacă poate să găsească o listă de articole corespunzătoare din lista de prețuri, dar metoda de stabilire a prețurilor se bazează pe Cost standard sau Cost curent și niciuna dintre acestea nu este definită pe produs, costul unitar primește valoarea implicită zero.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Prezentare generală a urmăririi proiectelor
-description: Acest subiect furnizează informații despre să urmăriți progresul proiectului și consumul de costuri.
+title: Urmărirea efortului în proiecte
+description: Acest subiect furnizează informații despre să urmăriți efortul proiectului și progresul lucrului.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286623"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710955"
 ---
-# <a name="project-tracking-overview"></a>Prezentare generală a urmăririi proiectelor
+# <a name="project-effort-tracking"></a>Urmărirea efortului în proiecte
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
@@ -26,50 +26,28 @@ Necesitatea de a urmări progresele în raport cu o planificare variază în fun
 Vizualizarea **Urmărirea efortului** urmărește progresul activităților din planificare prin compararea orelor de efort efective petrecute pe o activitate cu orele de efort planificate ale activității. Dynamics 365 Project Operations utilizează următoarele formule pentru a calcula măsurătorile de urmărire:
 
 - **Procent progres**: efortul real petrecut până în prezent ÷ cost estimat la finalizare (EAC) 
-- **Estimare pentru a finaliza (ETC)**: efort planificat – efortul real petrecut până în prezent 
+- **Efort rămas**: efort estimat la realizare - efort real petrecut până în prezent 
 - **EAC**: efortul rămas + efortul real depus până în prezent 
 - **Varianța preconizată a efortului**: efort planificat – EAC
 
 Project Operations prezintă o proiecție a varianței efortului pe activitate. În cazul în care EAC este mai mult decât efortul planificat, activitatea este proiectată să dureze mai mult timp decât a fost planificat inițial și este în urmă. În cazul în care EAC este mai puțin decât efortul planificat, activitatea este proiectată să dureze mai puțin timp decât a fost planificat inițial și este înainte.
 
-## <a name="reprojecting-effort"></a>Reproiectarea efortului
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Reproiectarea efortului asupra sarcinilor nodului frunze
 
-Adesea managerii de proiect revizuiesc estimările inițiale ale unei activități. Reproiectările proiectului reprezintă percepția estimativă a unui manager de proiect, dat fiind starea actuală a proiectului. Cu toate acestea, nu recomandăm ca managerii de proiect să schimbe numerele de bază. Aceasta pentru că referința proiectului reprezintă sursa stabilită de adevăr pentru planificarea proiectului și estimarea de cost și toți participanții direct interesați ai proiectului s-au pus de acord în această privință.
+Adesea managerii de proiect revizuiesc estimările inițiale ale unei activități. Reproiectările proiectului reprezintă percepția estimativă a unui manager de proiect, dat fiind starea actuală a proiectului. Cu toate acestea, nu recomandăm ca managerii de proiect să schimbe numerele de efort planificate. Acest lucru se datorează faptului că efortul planificat al proiectului reprezintă sursa stabilită a adevărului pentru calendarul proiectului și estimarea costurilor, iar toate părțile interesate din proiect au fost de acord cu acesta.
 
-Există două modalități prin care un manager de proiect poate reproiecta efortul asupra activităților:
-
-- Suprascrie ETC-ul implicit cu o nouă estimare a efortului efectiv rămase pe activitate. 
-- Suprascrie procentul progresului implicit cu o nouă estimare a progresului real asupra activității.
-
-Fiecare dintre aceste abordări cauzează o recalculare a activității ETC, EAC și procentajul de progres și varianța de efort proiectată pentru o activitate. EAC, ETC, și procentul de progres cu privire la activitățile de sinteză sunt, de asemenea, recalculate, și produce o nouă proiecție a varianței efortului.
+Un manager de proiect poate reproiecta efortul asupra sarcinilor prin actualizarea valorii implicite **Efort rămas** cu o nouă estimare a sarcinii. Această actualizare cauzează o recalculare a estimării activității (EAC) la finalizare, procentajul de progres, precum și varianța de efort proiectată pentru o activitate. EAC, ETC, și procentul de progres cu privire la activitățile de sinteză sunt, de asemenea, recalculate, și produce o nouă proiecție a varianței efortului.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Reproiectarea efortului asupra activităților rezumat
 
-Efortul pe sarcini rezumat sau sarcini container poate fi reproiectat. Indiferent dacă utilizatorul reproiectează utilizând efortul rămas sau procentul de progres pe activitățile rezumat, începe următorul set de calculări:
+Efortul pe sarcini rezumat sau sarcini container poate fi reproiectat. Managerii de proiect pot actualiza efortul rămas cu privire la sarcinile de rezumat. Actualizarea efortului rămas declanșează următorul set de calcule din aplicație:
 
-- Se calculează EAC, ETC. și procentajul de progres al activității.
+- Se calculează EAC și procentajul de progres al activității.
 - Noul EAC este distribuit în jos, activităților secundare în aceeași proporție cum a fost EAC-ul original pe activitate.
 - Se calculează noul EAC pe fiecare dintre activitățile individuale până la activitățile de nod frunză. 
-- Activitățile secundare afectate până la nodurile frunză au ETC și procentajul de progres recalculate pe baza valorii EAC. Acest lucru duce la o nouă proiecție pentru varianța efortului de activitate. 
+- Activitățile secundare afectate până la nodurile frunză au efortul rămas și procentajul de progres recalculate pe baza valorii EAC. Acest lucru duce la o nouă proiecție pentru varianța efortului de activitate. 
 - Sunt recalculate EAC-uri de sarcini rezumat până la nodul rădăcină.
 
-### <a name="cost-tracking-view"></a>Vizualizare urmărire cost 
-
-Vizualizarea **Urmărirea costurilor** compară costul real care a fost cheltuit pe o activitate cu costul planificat pentru o activitate. 
-
-> [!NOTE]
-> Această vizualizare afișează numai costurile cu munca și nu include costurile din estimările de cheltuieli. Project Operations utilizează următoarele formule pentru a calcula măsurătorile de urmărire:
-
-- **Procent din costul consumat**: ost real cheltuit până în prezent ÷ costul estimat la finalizare
-- **Cost pentru a finaliza (CTC)**: cost planificat – cost real cheltuit până în prezent
-- **EAC**: cost rămas + cost real cheltuit până acum
-- **Varianța costurilor proiectate**: cost planificat – EAC
-
-Pe activitate este afișată o proiecție a variației de cost. În cazul în care EAC este mai mult decât costul planificat, activitatea este proiectată să coste mai mult timp decât a fost planificat inițial. Prin urmare, este în tendință peste buget. În cazul în care EAC este mai puțin decât costul planificat, activitatea este proiectată să coste mai puțin decât a fost planificat inițial. Prin urmare, este în tendință sub buget.
-
-## <a name="project-managers-reprojection-of-cost"></a>Reproiectarea costului pentru managerul de proiect
-
-Când efortul este reproiectat, CTC, EAC, procentul de cost consumat și varianța costurilor proiectate sunt recalculate în vizualizarea **Urmărirea costurilor**.
 
 ## <a name="project-status-summary"></a>Rezumat stare de proiect
 

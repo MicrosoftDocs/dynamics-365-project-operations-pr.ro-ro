@@ -1,26 +1,26 @@
 ---
-title: Confirmarea unei facturi proforma - simplificat
-description: Acest subiect furnizează informații despre confirmarea facturilor proforma în Project Operations.
+title: Confirmarea unei facturi proforma pentru proiect
+description: Acest subiect oferă informații despre confirmarea facturilor de proiect proforme în Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274293"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867101"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Confirmarea unei facturi proforma - simplificat
+# <a name="confirm-a-proforma-project-invoice"></a>Confirmarea unei facturi proforma pentru proiect 
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 
-După confirmarea unei facturi proforma, starea facturii proiectului se actualizează la **Confirmat**. Când o factură este confirmată, aceasta devine doar în citire. În continuare, factura poate fi corectată numai dacă există corecții sau credite inițiate de clienți sau dacă factura este marcată ca plătită.
+După confirmarea unei facturi proforma, starea facturii proiectului se actualizează la **Confirmat**. Când o factură este confirmată, aceasta devine doar în citire. În continuare, factura poate fi corectată numai dacă există corecții sau credite inițiate de client.
 
 Următorul tabel listează datele efective create de sistem. Aceste date reale sunt create atunci când anumite operațiuni sunt efectuate pe schița facturii proiectului înainte de a fi confirmată.
 
@@ -225,6 +225,70 @@ O inversare a vânzărilor nefacturate pentru cantitatea și suma conform aprob�
             <td width="408" valign="top">
                 <p>
 O nouă valoare reală a vânzărilor nefacturate care se taxează pentru orele și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate reale și o facturare echivalentă efectivă. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturarea unei tranzacții de materiale fără nicio modificare pe proiectul de factură.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare de vânzări nefacturate pentru cantitatea și suma din detaliile aprobării inițiale de utilizare a materialelor.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O valoare reală de vânzări facturată pentru cantitatea și suma din detaliile aprobării inițiale de utilizare a materialelor.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Facturarea unei tranzacții de materiale care a fost editată pentru a reduce cantitatea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare de vânzări nefacturate pentru cantitatea și suma din detaliile aprobării inițiale de timp.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care se taxează pentru orele și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă valoare reală a vânzărilor nefacturate care nu se taxează pentru cantitatea rămasă și suma după deducerea cifrelor corectate din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate reale și un echivalent al vânzărilor facturate efective.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Facturarea unei tranzacții de materiale care a fost editată pentru a crește cantitatea.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+O inversare de vânzări nefacturate pentru cantitatea și suma din detaliile aprobării inițiale de utilizare a materialelor.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+O nouă vânzare nefacturată efectivă care se taxează pentru orele și suma din detaliile modificate ale liniei de facturare, o inversare a vânzărilor nefacturate efective și o facturare echivalentă efectivă.
                 </p>
             </td>
         </tr>

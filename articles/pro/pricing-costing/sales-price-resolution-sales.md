@@ -1,21 +1,21 @@
 ---
-title: Rezolvarea prețurilor de vânzări pentru estimări și date reale - simplificat
-description: Acest subiect oferă informații despre rezolvarea prețurilor de vânzări pe estimări și date reale.
+title: Rezolvarea prețurilor de vânzări pentru estimări de proiect și date reale
+description: Acest subiect oferă informații despre rezolvarea prețurilor de vânzare pe estimările și realitățile proiectului.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274518"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877371"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Rezolvarea prețurilor de vânzări pentru estimări și date reale - simplificat
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Rezolvarea prețurilor de vânzări pentru estimări de proiect și date reale
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -55,5 +55,14 @@ După ce se rezolvă o listă de prețuri pentru vânzări, sistemul parcurge ur
 
 4. Dacă sistemul nu este în măsură să se potrivească cu valorile de câmp **Categorie** și **Unitate**, rata de vânzare este implicită la zero (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Rezolvarea ratelor de vânzări pe liniile reale și estimări pentru material
+
+În Project Operations, liniile de estimare pentru material sunt utilizate pentru a indica detaliile liniei de ofertă și a liniei de contract pentru materiale și liniile de estimare a materialului din proiect.
+
+După ce se rezolvă o listă de prețuri pentru vânzări, sistemul parcurge următorii pași pentru a stabili implicit prețul de vânzare pe unitate.
+
+1. Sistemul utilizează combinația de câmpuri **Produs** și **Unitate** pe linia estimativă pentru material pentru a se potrivi cu liniile de articole din lista de prețuri din lista de prețuri care a fost rezolvată.
+2. Dacă sistemul găsește o listă de articole din lista de prețuri care are o rată de vânzare pentru combinația de câmp **Produs** și **Unitate** și metoda de stabilire a prețurilor este **Suma monedei**, se folosește prețul de vânzare specificat pe linia listei de prețuri.
+3. Dacă valorile de câmp **Produs** și **Unitate** nu se potrivesc, rata de vânzare este implicită la zero.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

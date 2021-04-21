@@ -1,27 +1,27 @@
 ---
-title: Gestionarea listelor de prețuri ale proiectelor din ofertele de proiecte - simplificat
-description: Acest subiect oferă informații despre lucrul cu liste de prețuri de proiect pe oferte. (Sales)
+title: Gestionarea listelor de prețuri ale proiectelor din ofertele de proiecte
+description: Acest subiect oferă informații despre lucrul cu liste de prețuri de proiect pe oferte.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273033"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858623"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gestionarea listelor de prețuri ale proiectelor din ofertele de proiecte - simplificat
+# <a name="manage-project-price-lists-on-project-quotes"></a>Gestionarea listelor de prețuri ale proiectelor din ofertele de proiecte 
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Cotațiile proiectului sunt concepute pentru a susține listele de prețuri de vânzare eficiente cu mai multe date. Cu Dynamics 365 Project Operations, s-a adăugat o nouă entitate asociată denumită **Listele de prețuri ale proiectului**. Această entitate are o relație de la 1 la mulți cu o ofertă de proiect.
 
-Listele de prețuri ale proiectului sunt folosite pentru a stabili prețurile pentru tranzacțiile de timp și cheltuieli ale unui proiect. Atunci când o ofertă are una sau mai multe liste de prețuri pentru proiecte, aceste liste de prețuri sunt folosite pentru a stabili prețurile și estimările cheltuielilor și actualele pentru proiectele care sunt asociate cu oferta prin linia de ofertă.
+Listele de prețuri ale proiectului sunt folosite pentru a stabili prețurile pentru tranzacții de timp, materiale și cheltuieli pentru un proiect. Atunci când o ofertă are una sau mai multe liste de prețuri ale proiectelor, aceste liste de prețuri sunt utilizate pentru a stabili prețul pentru timp, materiale, estimări ale cheltuielilor și valori reale pentru proiectele care sunt asociate cu oferta prin linia de ofertă.
 
 Când nu există liste de prețuri ale proiectului pe o ofertă de proiect, veți primi un mesaj de avertizare. Mesajul afirmă că, deoarece nu există liste de prețuri ale proiectului, lucrările și cheltuielile estimate și reale ale proiectului nu vor fi evaluate. În schimb, vor avea un preț zero (0) pentru valorile vânzărilor.
 

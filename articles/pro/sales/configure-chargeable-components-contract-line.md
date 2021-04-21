@@ -1,5 +1,5 @@
 ---
-title: Configurarea componentelor tarifabile ale unei linii de contract bazate pe proiect - simplificat
+title: Configurarea componentelor tarifabile ale unei linii de contract bazate pe proiect
 description: Acest subiect oferă informații despre cum să adăugați componente taxabile la liniile contractuale în Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273933"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858488"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurarea componentelor tarifabile ale unei linii de contract bazate pe proiect - simplificat
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurarea componentelor tarifabile ale unei linii de contract bazate pe proiect
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Implementare Lite - tratarea facturării proforma, Project Operations pentru resurse/scenarii bazate pe altceva decât stocuri_
 
 O linie de contract bazată pe proiecte are componente *incluse* și componente *taxabile*.
 
@@ -62,23 +62,582 @@ Tipul de facturare al unei tranzacții poate fi configurat pe fila **Categorii t
 
 ### <a name="resolve-chargeability"></a>Rezolvați taxarea
 
-O estimare sau una reală creată pentru timp va fi considerată taxabilă dacă **Timp** este inclus pe linia contractului și dacă **Sarcina** și **Rol** sunt configurate ca taxabile pe linia contractului.
+O estimare sau o valoare reală creată pentru timp este considerată taxabilă numai dacă:
 
-O estimare sau una reală creată pentru cheltuială este considerată taxabilă dacă **Cheltuiala** este inclusă pe linia contractului și dacă categoriile **Sarcina** și **Tranzacție** sunt configurate ca taxabile pe linia contractului.
+   - **Timp** este inclus pe linia de contract.
+   - **Rol** este configurat ca taxabil pe linia de contract.
+   - **Sarcini incluse** este setat la **Sarcini selectate** pe linia de contract.
+ 
+ Dacă aceste trei lucruri sunt adevărate, sarcina este și ea configurată ca taxabilă. 
+
+O estimare sau o valoare reală creată pentru cheltuieli este considerată taxabilă numai dacă:
+
+   - **Cheltuieli** este inclus pe linia de contract
+   - **Categoria tranzacției** este configurat ca taxabil pe linia de contract
+   - **Sarcini incluse** este setat la **Sarcină selectată** pe linia de contract
+  
+ Dacă aceste trei lucruri sunt adevărate, **Sarcină** este și ea configurată ca taxabilă. 
+
+O estimare sau o valoare reală creată pentru materiale este considerată taxabilă numai dacă:
+
+   - **Materiale** este inclus pe linia de contract
+   - **Sarcini incluse** este setat la **Sarcini selectate** pe linia de contract
+
+Dacă aceste două lucruri sunt adevărate, **Sarcină** este și ea configurată ca taxabilă. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Include timpul</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Include cheltuielile</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Includere Materiale</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Activități incluse</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rol</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Categorie</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Activitate</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impactul taxării</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Întregul proiect </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Taxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pe cheltuieli reale: <strong>Taxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pe materialul real: <strong>Taxabil</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Numai activități selectate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Taxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pe cheltuieli reale: <strong>Taxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pe materialul real: <strong>Taxabil</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Numai activități selectate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pentru cheltuieli reale: Taxabil </p>
+                <p>
+Tipul de facturare pentru materialul real: Taxabil </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Numai activități selectate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tip de facturare pe cheltuieli reale: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tip de facturare pe materiale reale: <strong>Netaxabil</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Numai activități selectate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tip de facturare pe cheltuieli reale: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tip de facturare pe materiale reale: <strong>Netaxabil</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Numai activități selectate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tip de facturare pe cheltuieli reale: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pentru materialul real: Taxabil </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Întregul proiect </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Taxabil</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare pe un timp real: <strong>Indisponibil</strong>
+                </p>
+                <p>
+Tipul de facturare pentru cheltuieli reale: Taxabil </p>
+                <p>
+Tipul de facturare pentru materialul real: Taxabil </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Întregul proiect </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare pe un timp real: <strong>Indisponibil</strong>
+                </p>
+                <p>
+Tip de facturare pe cheltuieli reale: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pentru materialul real: Taxabil </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Întregul proiect </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: Taxabil </p>
+                <p>
+Tipul de facturare pe cheltuieli reale:<strong> Indisponibil</strong>
+                </p>
+                <p>
+Tipul de facturare pentru materialul real: Taxabil </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Întregul proiect </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pe cheltuieli reale:<strong> Indisponibil</strong>
+                </p>
+                <p>
+Tipul de facturare pentru materialul real: Taxabil </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Întregul proiect </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Taxabil </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: Taxabil </p>
+                <p>
+Tipul de facturare pentru cheltuieli reale: Taxabil </p>
+                <p>
+Tipul de facturare pe materiale reale:<strong> Indisponibil</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Întregul proiect </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Netaxabil</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nu se poate seta </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturare la un timp real: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tip de facturare pe cheltuieli reale: <strong>Netaxabil</strong>
+                </p>
+                <p>
+Tipul de facturare pe materiale reale:<strong> Indisponibil</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Include timpul | Include cheltuielile | Include activități | Rol           | Categorie       | Activitate                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Da           | Da              | Întregul proiect | Taxabil     | Taxabil     | Facturare la un timp real: **Taxabil** </br> Tipul de facturare pentru cheltuieli reale: **Taxabil**           |
-| Da           | Da              | Activități selectate | Taxabil     | Taxabil     | Facturare la un timp real: **Taxabil** </br> Tipul de facturare pentru cheltuieli reale: **Taxabil**           |
-| Da           | Da              | Activități selectate | Netaxabil | Taxabil     | Facturare la un timp real: **Netaxabil** </br> Tipul de facturare pentru cheltuieli reale: **Taxabil**       |
-| Da           | Da              | Activități selectate | Taxabil     | Taxabil     | Facturare la un timp real: **Netaxabil** </br> Tipul de facturare pentru cheltuieli reale: **Netaxabil** |
-| Da           | Da              | Activități selectate | Netaxabil | Taxabil     | Facturare la un timp real: **Netaxabil** </br> Tipul de facturare pentru cheltuieli reale: **Netaxabil** |
-| Da           | Da              | Activități selectate | Netaxabil | Netaxabil | Facturare la un timp real: **Netaxabil** </br> Tipul de facturare pentru cheltuieli reale: **Netaxabil** |
-| Nicio            | Da              | Întregul proiect | Nu se poate seta   | Taxabil     | Facturare la un timp real: **Nu este disponibil**</br>Tipul de facturare pentru cheltuieli reale: **Taxabil**          |
-| Nicio            | Da              | Întregul proiect | Nu se poate seta   | Netaxabil | Facturare la un timp real: **Nu este disponibil**</br> Tipul de facturare pentru cheltuieli reale: **Netaxabil**     |
-| Da           | Nicio               | Întregul proiect | Taxabil     | Nu se poate seta   | Facturare la un timp real: **Taxabil** </br> Tipul de facturare pentru cheltuieli reale: **Indisponibil**        |
-| Da           | Nicio               | Întregul proiect | Netaxabil | Nu se poate seta   | Facturare la un timp real: **Netaxabil** </br>Tipul de facturare pentru cheltuieli reale: **Indisponibil**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

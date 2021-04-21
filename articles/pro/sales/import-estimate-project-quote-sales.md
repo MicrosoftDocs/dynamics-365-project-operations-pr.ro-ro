@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273438"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858263"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importați estimări pentru un proiect pentru o linie de ofertă pe bază de proiect - simplificat
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importați estimări pentru un proiect pentru o linie de ofertă pe bază de proiect 
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Implementare Lite - tratarea facturării proforma, Project Operations pentru resurse/scenarii bazate pe altceva decât stocuri_
 
 Dacă un proiect este creat în etapa de pre-vânzare, puteți alege să importați estimarea financiară din proiect în linia de ofertă bazată pe proiect.
 
@@ -30,7 +30,7 @@ Dacă un proiect este creat în etapa de pre-vânzare, puteți alege să importa
   - **Rol** 
   - **Activitate de proiect**
 
-Pe baza selecției dvs., estimarea din proiect pentru toate clasele de tranzacții incluse pe această linie de ofertă este copiată. Pentru a verifica ce clase de tranzacții sunt incluse, selectați fila **General** de pe linia de ofertă bazată pe proiect și verificați valorile pentru **Includeți timpul**, **Includeți cheltuielile** și **Includeți taxe**.  Pentru a verifica ce sarcini sunt incluse, selectați fila **Activități taxabile** de pe linia de ofertă.
+Pe baza selecției dvs., estimarea din proiect pentru toate clasele de tranzacții incluse pe această linie de ofertă este copiată. Pentru a verifica ce clase de tranzacții sunt incluse, selectați fila **General** de pe linia de ofertă bazată pe proiect și verificați valorile pentru **Includere timp**, **Includere cheltuieli**, **Includere materiale** și **Includere taxe**.  Pentru a verifica ce sarcini sunt incluse, selectați fila **Activități taxabile** de pe linia de ofertă.
 
 În funcție de activitățile asociate și clasele de tranzacții incluse, estimările pentru acele combinații de activități și clase de tranzacții sunt importate pe linia de ofertă.
 
