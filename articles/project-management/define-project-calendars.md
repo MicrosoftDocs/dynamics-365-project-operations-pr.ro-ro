@@ -1,9 +1,9 @@
 ---
 title: Definirea calendarelor de proiect
-description: Acest subiect oferă informații despre utilizarea unui calendar de proiect pentru a urmări planificarea proiectului.
+description: Acest subiect oferă informații despre cum se aplică un șablon de calendar unui proiect pentru a urmări planificarea proiectului.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286983"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981315"
 ---
 # <a name="define-project-calendars"></a>Definirea calendarelor de proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Pentru a crea o planificare de proiect, creați un șablon de calendar de proiect care definește numărul de ore de lucru pe zi și orice închideri de firmă. Pentru a crea un șablon de calendar de proiect, asociați un șablon de lucru cu câmpul **Șablon de calendar** pentru proiect. Urmați acești pași pentru a crea un șablon de lucru.
+Pentru a crea și gestiona un proiect, trebuie să aplicați un șablon de calendar de proiect. Șablonul de calendar definește următoarele atribute de proiect:
 
-1. În panoul de navigare din stânga, selectați **Resurse**. 
-2. Pe pagina listei **Resurse**, deschideți o înregistrare de utilizator și apoi selectați **Afișați ore de lucru**.
+- Programul de lucru, inclusiv ora de început și sfârșit
+- Zile de lucru
+- Excepții din calendar, cum ar fi zilele nelucrătoare
 
-  > [!NOTE]
-  > Asigurați-vă că permiteți ferestrele pop-up pe pagina browserului. Acest lucru vă permite să vedeți orele de lucru setate pentru resursă.
-  
-3. Pe fila **Vizualizare lunară**, selectați **Configurați**. Apare o listă cu trei opțiuni: 
+Șablonul de calendar aplicat unui proiect este o copie a șablonului calendarului definit în setările organizației dvs.
 
-  - Planificare săptămânală nouă
-  - Planificare lucru pentru o zi
-  - Indisponibilitate
+> [!NOTE]
+> Dacă modificați șablonul de calendar, aceste modificări nu se propagă la planificarea de lucru a proiectului. Pentru a schimba planificarea de lucru a proiectului, trebuie aplicat un nou șablon.
 
-4. Selectați **Programul săptămânal nou**, apoi setați opțiunile pentru această planificare de resurse. Puteți seta o planificare săptămânală recurentă, parametri de oră pe zi, închideri de afaceri și multe altele.
-5. Setați intervalul de date, selectați **Salvare**, apoi selectați **Închidere**. 
-6. Reveniți la pagina listă **Resurse** și selectați resursa pentru care setați orele de lucru. 
-7. Selectați **Configurați calendarul ca** pentru a seta șablonul de lucru. 
-8. În caseta de dialog **Șablon de lucru**, introduceți un nume pentru șablonul de lucru și apoi selectați **Aplicați**. 
+Pentru a crea un șablon de calendar pentru organizația dvs., există două cerințe principale:
+
+- Definiți orele de lucru dorite ale șablonului utilizând o resursă rezervabilă nouă sau existentă.
+- Creați un nou șablon de calendar și asociați șablonul cu resursa rezervabilă.
+
+**Definiți orele de lucru ale șablonului**
+
+1. Accesați **Resurse** \> **Resurse**.
+2. Creați o nouă resursă pentru a face referință în șablonul calendarului sau selectați o resursă existentă.
+3. Selectați fila **Ore de lucru** a resursei și completați instrucțiunile din [Setarea orelor de lucru pentru o resursă](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) pentru a configura regulile calendarului.
+
+**Creați un șablon nou de calendar**
+
+1. Accesați **Setări** \> **Șabloane de calendar**.
+2. Selectați **Nou** și introduceți un nume, o descriere și o resursă șablon.
+
+> [!NOTE]
+> Când se face referire la o resursă într-un șablon de calendar, o copie a calendarului resursei este asociată cu șablonul de calendar. Dacă modificați orele de lucru ale șablonului copiat, aceste modificări nu se propagă în șablonul de calendar.
 
 Acum aveți posibilitatea să asociați șablonul de lucru cu un șablon de calendar de proiect.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
