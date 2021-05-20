@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Configurarea integrării Project Operations per entitate juridică
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Configurarea integrării cu scrierea duală
+          items:
+            - name: Prezentare generală a integrării cu scrierea duală
+              href: environment/resource-dual-write-overview.md
+            - name: Versiuni de mapare pentru scriere duală Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Configurarea Project Operations și integrarea datelor de configurare
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Estimări de proiecte și integrarea datelor reale
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integrarea facturilor de proiect
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integrarea managementului cheltuielilor
+              href: environment/resource-dual-write-expense.md
+            - name: Integrarea facturilor de furnizori
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Noutăți
       items:
         - name: Aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Definirea calendarelor de proiect
           href: project-management/define-project-calendars.md
+        - name: Moduri de programare
+          href: project-management/scheduling-modes.md
         - name: Actualizarea unui proiect
           href: project-management/update-project.md
         - name: Copierea unui proiect
@@ -404,6 +422,12 @@
           items:
             - name: Crearea și confirmarea jurnalelor de corecție
               href: actuals/create-confirm-correction-journals.md
+    - name: Achiziții
+      items:
+        - name: Configurați materialele care nu sunt pe stoc și facturile de vânzător în așteptare
+          href: procurement/configure-materials-nonstocked.md
+        - name: Achiziționați pentru proiecte materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
+          href: procurement/pending-vendor-invoices.md
     - name: Facturare
       items:
         - name: Prezentare generală a procesului de facturare
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurarea automatizării facturilor bazate pe proiect
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Gestionarea propunerilor de facturi pentru proiect
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Contabilitatea proiectelor
       items:
         - name: Valori implicite pentru dimensiunile financiare
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Definirea calendarelor de proiect
           href: project-management/define-project-calendars.md
+        - name: Moduri de programare
+          hreF: project-management/scheduling-modes.md
         - name: Actualizarea unui proiect
           href: project-management/update-project.md
         - name: Copierea unui proiect
@@ -848,6 +876,8 @@
   items:
     - name: Noutăți
       items:
+        - name: Noutăți aprilie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Noutăți martie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Noutăți ianuarie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -871,9 +901,9 @@
     - name: Configurarea și utilizarea plăților de la furnizor cu plată la plată
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Acumularea costurilor proiectului pe chitanțele de cumpărare
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Facturarea proiectelor
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Performanța propunerilor de facturi pentru proiect
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Contracte de proiect
@@ -998,6 +1028,8 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 29.5 remediere rapidă, V3'
@@ -1327,7 +1359,7 @@
             - name: Vizualizarea utilizării unei resurse
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Ghidul managerului de proiect
           items:
             - name: Ghidul managerului de proiect (Project Service)
