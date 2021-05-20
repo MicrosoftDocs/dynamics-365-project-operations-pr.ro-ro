@@ -1,6 +1,6 @@
 ---
-title: Creați un șablon de ore de lucru
-description: Cum să creați un șablon de ore de lucru în Project Service
+title: Crearea unui șablon de ore de lucru
+description: Acest subiect descrie cum să creați un șablon de ore de lucru în Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285048"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981270"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Creați un șablon de ore de lucru (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Înainte de a crea planificări de proiecte, trebuie să configurați un calendar de proiect care să definească numărul de ore de lucru pe zi din planificare și din orice închideri de firmă. Aceasta se realizează cu un șablon de ore de lucru, care conține detalii despre orele lucru zilnice, zilele libere și orice alte închideri de firmă.  
-  
- Atunci când creați un proiect, asociați un șablon de lucru la calendarul proiectului pentru a aplica planificarea pentru proiect.  
-  
- Există două modalități de a crea un șablon de ore de lucru:  
-  
--   Creați un șablon de ore de lucru bazat pe un calendar de resurse.  
-  
--   Creați un șablon de ore de lucru nou.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Pentru a crea un șablon de ore de lucru bazat pe un calendar de resurse  
-  
-1.  Accesați **Project Service > Resurse**.  
-  
-2.  Selectați resursa pe care doriți să se bazeze orele de lucru.  
-  
-3.  Faceți clic pe **Salvare calendar ca**, introduceți un nume pentru șablonul de ore de lucru, apoi faceți clic pe **Salvare**.  
-  
-4.  Când ați terminat de modificat opțiunile, faceți clic pe **Salvare și închidere**.  
-  
-5.  Faceți clic pe butonul **Salvare** colțul din dreapta jos al ecranului.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Pentru a crea un șablon de ore de lucru nou  
-  
-1.  Accesați **Project Service > Șabloane de ore de lucru**.  
-  
-2.  Faceți clic pe **Nou**.  
-  
-3.  Introduceți un nume pentru șablonul de ore de lucru.  
-  
-4.  Selectați o resursă pe care să se bazeze orele de lucru, apoi faceți clic pe **Salvare**.  
-  
+Pentru a crea și gestiona un proiect, trebuie să aplicați un șablon de calendar de proiect. Șablonul de calendar definește următoarele atribute de proiect:
+
+- Programul de lucru, inclusiv ora de început și sfârșit
+- Zile de lucru
+- Excepții din calendar, cum ar fi zilele nelucrătoare
+
+Șablonul de calendar aplicat unui proiect este o copie a șablonului calendarului definit în setările organizației dvs.
+
+> [!NOTE]
+> Dacă modificați șablonul de calendar, aceste modificări nu se propagă la planificarea de lucru a proiectului. Pentru a schimba planificarea de lucru a proiectului, trebuie aplicat un nou șablon.
+
+Pentru a crea un șablon de calendar pentru organizația dvs., există două cerințe principale:
+
+- Definiți orele de lucru dorite ale șablonului utilizând o resursă rezervabilă nouă sau existentă.
+- Creați un nou șablon de calendar și asociați șablonul cu resursa rezervabilă.
+
+**Definiți orele de lucru ale șablonului**
+
+1. Accesați **Resurse** \> **Resurse**.
+2. Creați o nouă resursă pentru a face referință în șablonul calendarului sau selectați o resursă existentă.
+3. Selectați fila **Ore de lucru** a resursei și completați instrucțiunile din [Setarea orelor de lucru pentru o resursă](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) pentru a configura regulile calendarului.
+
+**Creați un șablon nou de calendar**
+
+1. Accesați **Setări** \> **Șabloane de calendar**.
+2. Selectați **Nou** și introduceți un nume, o descriere și o resursă șablon.
+
+
+> [!NOTE]
+> Când se face referire la o resursă într-un șablon de calendar, o copie a calendarului resursei este asociată cu șablonul de calendar. Dacă modificați orele de lucru ale șablonului copiat, aceste modificări nu se propagă în șablonul de calendar.
+
+
 ### <a name="see-also"></a>Consultați și  
- [Configurați resursele](../psa/set-up-resources.md)
+ [Configurarea resurselor](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

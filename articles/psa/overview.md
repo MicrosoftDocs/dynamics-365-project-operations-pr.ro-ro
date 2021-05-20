@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284193"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949649"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Ce este Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Aplicația Project Service Automation (PSA) ajută organizațiile să urmăreasc
 ## <a name="whats-new-in-psa"></a>Ce este nou în PSA
 Echipa este încântată să anunțe cele mai noi actualizări! De la îmbunătățiri la interfața cu utilizatorul, remedierea erorilor și adăugarea de noi funcții și capacități importante. Dvs. ați solicitat și noi am ascultat.
 
-Examinați [notele de lansare din octombrie 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) pentru a vedea cele mai noi îmbunătățiri și completări.
+Examinați [notele de lansare din octombrie 2019](/dynamics365-release-plan/2019wave2/index) pentru a vedea cele mai noi îmbunătățiri și completări.
 
 ### <a name="in-development"></a>În curs de dezvoltare
-Pentru a vedea ce am planificat pentru viitorul apropiat, mergeți la [Dynamics 365: planul 1 al valului de lansare 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Pentru a vedea ce am planificat pentru viitorul apropiat, mergeți la [Dynamics 365: planul 1 al valului de lansare 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obțineți ajutor cu PSa versiunea 3.x
 Căutați resurse pentru a vă ajuta să vă planificați implementarea? Consultați aceste ghiduri descărcabile.

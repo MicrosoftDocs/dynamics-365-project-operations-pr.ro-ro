@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272853"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949739"
 ---
 # <a name="manage-leads---lite"></a>Gestionarea clienților potențiali - simplificat
 
@@ -55,7 +55,7 @@ Clienții potențiali care au valoarea **Tip** setată la **Bazat pe muncă** su
 - O înregistrare de contact asociată contului pe baza valorilor din **Prenume** și câmpurile **Nume de familie** pe clientul potențial.
 - O oportunitate pe bază de proiect care are câmpul **Tip** setat la **Bazat pe muncă**.
 
-Pentru informații mai detaliate despre calificarea clienților potențiali, consultați [Calificați sau convertiți clienții potențiali](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Pentru informații mai detaliate despre calificarea clienților potențiali, consultați [Calificați sau convertiți clienții potențiali](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Flux de business pentru oferte bazate pe proiecte
 

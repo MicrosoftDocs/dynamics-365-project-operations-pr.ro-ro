@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282303"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951404"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Conectați-vă la Project Service Automation
 
@@ -39,7 +39,7 @@ Când vă conectați la aplicațiile Dynamics 365, trebuie să aveți următoare
   
 - Parola dvs.  
   
-  Ați primit probabil aceste informații într-un e-mail de la administratorul dumneavoastră. Dacă nu aveți toate aceste informații sau dacă aveți probleme de conectare, [Găsiți-vă administratorul sau persoana care se ocupă de asistență](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Ați primit probabil aceste informații într-un e-mail de la administratorul dumneavoastră. Dacă nu aveți toate aceste informații sau dacă aveți probleme de conectare, [Găsiți-vă administratorul sau persoana care se ocupă de asistență](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Setați opțiunile personale pentru a permite e-mailul  
  Trebuie să vă configurați setările de e-mail pentru a permite altor persoane să trimită e-mail în numele dumneavoastră, astfel încât [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] să poată trimite notificări de e-mail pentru dvs. atunci când aveți timp și cheltuieli pentru a aproba sau a vă înscrie pentru proiecte.  

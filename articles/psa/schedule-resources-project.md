@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282663"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951449"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planificați resurse pentru un proiect (Project Service)
 
@@ -35,7 +35,7 @@ Puteți verifica disponibilitatea resurselor pentru a obține o imagine de ansam
   
 Tabloul de planificare arată lista de resurse și disponibilitatea acestora. Selectați un mod de vizualizare pentru a arăta disponibilitatea după **Ore**, **Zile**, **Săptămâni** sau **Luni**.  
   
-Înainte de a utiliza panoul de planificare, este important să-l configurați. Pentru informații suplimentare, consultați [Configurați tabloul de planificare (Field Service sau Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Înainte de a utiliza panoul de planificare, este important să-l configurați. Pentru informații suplimentare, consultați [Configurați tabloul de planificare (Field Service sau Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Dacă utilizați o versiune mai veche, pentru a vedea disponibilitatea resurselor, consultați [Vedeți disponibilitatea resurselor](../psa/view-resource-availability.md).  
 

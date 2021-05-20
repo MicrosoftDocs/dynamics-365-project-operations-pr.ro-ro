@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276813"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951224"
 ---
 # <a name="security-model"></a>Model de securitate
 
@@ -58,7 +58,7 @@ Grupurile permit ca permisiunile proiectului și sprijinirea artefactelor de col
 
 Project Operations nu creează un grup prin acțiune implicită și face acest lucru doar prin acțiunea explicită a apăsării grupurilor.
 
-Căutarea membrilor grupului în dialogul **Managementul grupului**, este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Căutarea membrilor grupului în dialogul **Managementul grupului**, este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](/power-platform/admin/control-user-access).
 
 ![Mod grup](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Căutarea membrilor grupului în dialogul **Managementul grupului**, este limita
 ## <a name="deployment-recommendation"></a>Implementarea recomandării
 Pe măsură ce modelul de colaborare în grup Office evoluează, funcționalitatea va fi adăugată pentru a oferi un control mai detaliat în timp. Clienții care desfășoară Project Operations astăzi sunt încurajați să se concentreze pe un model de securitate tradițional Microsoft Dynamics 365.
 
-Pentru mai multe informații consultați [Securitate în Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Pentru mai multe informații consultați [Securitate în Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations și securitate Microsoft Dynamics 365 Finance
 Project Operations include următoarele roluri:
@@ -78,7 +78,7 @@ Project Operations include următoarele roluri:
 - Manager de proiect
 - Contabil de proiect
 
-Pentru mai multe informații despre rolurile de securitate în finanțe, consultați [Securitate pe bază de rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Pentru mai multe informații despre rolurile de securitate în finanțe, consultați [Securitate pe bază de rol](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279468"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949964"
 ---
 # <a name="resource-management-modes-overview"></a>Prezentare generală a modurilor de gestionare a resurselor
 
@@ -29,11 +29,11 @@ Pentru organizațiile care centralizează alocarea resurselor pentru proiecte, m
 
 Pentru a gestiona resursele cu modul Central, consultați:
 
-- [Atribuirea de resurse generice care se pot rezerva unei activități și generarea cerințelor de resurse](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervarea anumitor resurse din cerințele de resurse](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Remiterea unei solicitări de resursă](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Îndepliniți o solicitare de resurse](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Acceptați sau respingeți o resursă de proiect propusă dintr-o solicitare de resursă](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Atribuirea de resurse generice care se pot rezerva unei activități și generarea cerințelor de resurse](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervarea anumitor resurse din cerințele de resurse](/dynamics365/project-service/book-named-resource)
+- [Remiterea unei solicitări de resursă](/dynamics365/project-service/submit-resource-request)
+- [Îndepliniți o solicitare de resurse](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Acceptați sau respingeți o resursă de proiect propusă dintr-o solicitare de resursă](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Mod hibrid
 Pentru organizațiile care necesită flexibilitate în alocarea resurselor, modul hibrid permite atât managerilor de proiect, cât și managerilor de resurse capacitatea de a rezerva resurse.
@@ -43,11 +43,11 @@ Pentru organizațiile care necesită flexibilitate în alocarea resurselor, modu
 În plus față de procesul de modul central acceptat, consultați următoarele subiecte pentru a gestiona toate celelalte fluxuri de rezervare acceptate în modul hibrid:
 
 Rezervați o resursă direct unui proiect:
-- [Rezervați resurse rezervabile numite la o echipă de proiect și atribuiți sarcini](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Rezervați resurse rezervabile numite la o echipă de proiect și atribuiți sarcini](/dynamics365/project-service/assign-named-bookable-resource)
 
 Rezervați o resursă dintr-o cerință de resurse:
-- [Atribuirea de resurse generice care se pot rezerva unei activități și generarea cerințelor de resurse](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervarea anumitor resurse din cerințele de resurse](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Atribuirea de resurse generice care se pot rezerva unei activități și generarea cerințelor de resurse](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervarea anumitor resurse din cerințele de resurse](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

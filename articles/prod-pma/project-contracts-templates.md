@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289609"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950414"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe 
 
@@ -109,8 +109,8 @@ Când se aplică soluția de integrare Project Service Automation to Finance, un
 ## <a name="prerequisites-and-mapping-setup"></a>Cerințe preliminare și configurare a mapării
 
 - Înainte să poată avea loc sincronizarea de contracte de proiecte și proiecte, trebuie să sincronizați conturile.
-- În setul de conexiuni, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_organizationalunits** la **msdyn\_name \[Name\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- În setul dvs. de conexiune, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- În setul de conexiuni, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_organizationalunits** la **msdyn\_name \[Name\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](/powerapps/administrator/data-integrator).
+- În setul dvs. de conexiune, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](/powerapps/administrator/data-integrator).
 - **SourceDataID** pentru contractele de proiecte și proiectele pot fi actualizate la o valoare diferită sau eliminate din mapare. Valoarea implicită a șablonului este **Project Service Automation**.
 - Maparea **Termeni de plată** trebuie să fie actualizată astfel încât să reflecte condiții de plată valabile în Finance. De asemenea, puteți elimina maparea din sarcina proiectului. Harta valorilor implicite are valori implicite pentru datele demonstrative. Următorul tabel prezintă valorile din Project Service Automation.
 
@@ -131,7 +131,7 @@ Utilizați Microsoft Power Query pentru Excel pentru a filtra datele dacă sunt 
 Dacă trebuie să utilizați Power Query, urmați aceste recomandări:
 
 - Șablonul Proiecte și contracte (PSA to Fin și Ops) are un filtru implicit care include numai comenzile de vânzare ale tipului **Element de lucru (msdyn\_ordertype = 192350001)**. Acest filtru ajută la garantarea faptului că nu se creează contracte de proiect pentru comenzile de vânzare din Finance. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru.
-- Creați un filtru Power Query care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. De exemplu, contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso SUA ar trebui sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso Global ar trebui sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
+- Creați un filtru Power Query care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. Contractele de proiecte pe care le aveți, de exemplu, cu unitatea organizațională de contract Contoso SUA ar trebui să fie sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizațională de contract Contoso Global ar trebui să fie sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
 
 ## <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor
 

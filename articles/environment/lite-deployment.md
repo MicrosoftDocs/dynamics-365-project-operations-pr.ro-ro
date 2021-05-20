@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290104"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950279"
 ---
 # <a name="deploy-project-operations---lite"></a>Implementați Project Operations - simplificat
 
@@ -34,14 +34,14 @@ Operațiunile de proiect acceptă mai multe modele de implementare. Pentru a det
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Instalați Project Operations într-un mediu CDS nou
 
-1. Drept [Administrator global sau de Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) cu un permis de Project Operations, creați un mediu CDS nou în [Centrul de administrare PowerPlatform](https://admin.powerplatform.com). Asigurați-vă că sunt activate **Baza de date CDS** și **Aplicații Dynamics 365**. Pentru informații suplimentare, consultați [Creați și gestionați medii în centrul de administrare Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Drept [Administrator global sau de Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) cu un permis de Project Operations, creați un mediu CDS nou în [Centrul de administrare PowerPlatform](https://admin.powerplatform.com). Asigurați-vă că sunt activate **Baza de date CDS** și **Aplicații Dynamics 365**. Pentru informații suplimentare, consultați [Creați și gestionați medii în centrul de administrare Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Selectați **Microsoft Dynamics 365 Project Operations** din lista de implementare a aplicațiilor Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Instalați Project Operations într-un mediu CDS existent
 
-1. În calitate de [Administrator global sau de Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) cu o licență Project Operations, localizați mediul în [Centrul de administrare PowerPlatform](https://admin.powerplatform.com) unde puteți instala Project Operations.
-2. Instalați **Microsoft Dynamics 365 Project Operations** din lista de implementare a aplicațiilor Dynamics 365. Pentru informații suplimentare, consultați [aplicații Gestionați Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. În calitate de [Administrator global sau de Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) cu o licență Project Operations, localizați mediul în [Centrul de administrare PowerPlatform](https://admin.powerplatform.com) unde puteți instala Project Operations.
+2. Instalați **Microsoft Dynamics 365 Project Operations** din lista de implementare a aplicațiilor Dynamics 365. Pentru informații suplimentare, consultați [aplicații Gestionați Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

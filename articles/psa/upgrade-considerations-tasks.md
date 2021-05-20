@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281763"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951359"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considerente de actualizare pentru structura detaliată a proiectului
 
@@ -34,20 +34,20 @@ Acest subiect oferă informații despre actualizarea structurii detaliate a proi
 ## <a name="key-entities"></a>Entități-cheie
 Pentru o structură detaliată a proiectului deja încărcată cu resurse, sunt necesare următoarele entități:
 
-- [Proiect](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Echipă de proiect](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Sarcina proiectului](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Atribuiri de resurse](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Dependența sarcinii proiectului](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Resurse ce se pot rezerva](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Proiect](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Echipă de proiect](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Sarcina proiectului](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Atribuiri de resurse](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Dependența sarcinii proiectului](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Resurse ce se pot rezerva](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Pentru a defini o resursă încărcată în structura detaliată a proiectului, trebuie să parcurgeți următorii pași:
 
-1. Creați un nou proiect. Pentru mai multe informații despre modul de creare a unui proiect nou, consultați [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Creați una sau mai multe activități. Pentru mai multe informații despre modul de creare a unei activități, consultați [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definiți dependențele de activitate. Pentru informații suplimentare, consultați [Dependența sarcinilor de proiect](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Atribuiți membri de echipă de proiect la proiect. Pentru mai multe informații, consultați [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Atribuiți membri de echipă de proiect la activități. Pentru mai multe informații, consultați [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Creați un nou proiect. Pentru mai multe informații despre modul de creare a unui proiect nou, consultați [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Creați una sau mai multe activități. Pentru mai multe informații despre modul de creare a unei activități, consultați [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definiți dependențele de activitate. Pentru informații suplimentare, consultați [Dependența sarcinilor de proiect](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Atribuiți membri de echipă de proiect la proiect. Pentru mai multe informații, consultați [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Atribuiți membri de echipă de proiect la activități. Pentru mai multe informații, consultați [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Relații echipă de proiect
 

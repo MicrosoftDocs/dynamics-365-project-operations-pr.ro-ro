@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9eb58bf4d25062d3cc37d2e8bcce7efe2e826954
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8ce1277344cadcc708cbe7f2333f55626a0e06a6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279873"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950054"
 ---
 # <a name="create-resources"></a>Crearea de resurse
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Puteți utiliza Dynamics 365 Field Service pentru a crea resurse care pot fi rezervate pe care să le utilizați în mediul Dynamics 365 Project Operations. Pentru a crea aceste resurse, consultați [Configurați resurse care pot fi rezervate](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+Puteți utiliza Dynamics 365 Field Service pentru a crea resurse care pot fi rezervate pe care să le utilizați în mediul Dynamics 365 Project Operations. Pentru a crea aceste resurse, consultați [Configurați resurse care pot fi rezervate](/dynamics365/field-service/set-up-bookable-resources).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

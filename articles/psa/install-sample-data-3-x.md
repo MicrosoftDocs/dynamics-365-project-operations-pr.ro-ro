@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275103"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950594"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalarea datelor eșantion pentru aplicația Project Service
 
@@ -136,7 +136,7 @@ Pachetul de date demonstrative necesită șase utilizatori. Pentru instalarea co
     - Utilizator Fullname="Molly Clark" ca Manager de cont   
     - Utilizator Fullname="Spencer Low" ca Manager de practică și Manager de proiect  
     - Utilizator Fullname="Veronica Quek" ca Membru echipă   
-    - Utilizator Fullname="William Contoso"
+    - Nume complet utilizator=„William Contoso”
   
 2. Pentru a importa datele demonstrative, atribuiți cei șase utilizatori deasupra rolului de Administrator, astfel încât înregistrările eșantion să fie importate corect. 
 
@@ -149,7 +149,7 @@ Pachetul de date demonstrative necesită șase utilizatori. Pentru instalarea co
 
 5. Primul calendar al utilizatorului (în eticheta **userstocreateandconfigure**) este folosit pentru a popula orele de lucru pentru toate resursele care se pot rezerva la importul de date demonstrative. Navigați la **Setări** > **Securitate** > **Utilizatori**, găsiți utilizatorul "Spencer Low" și deschideți opțiunea „Ore de lucru”. Editați orele de lucru existente, selectând opțiunea **Planificare săptămânală recurentă în totalitate de la început la sfârșit**. Asigurați-vă că **Orele de lucru sunt setate pentru 08:00-17:00 (9 ore), de luni până vineri și cu fusul orar stabilit la ora Pacificului (SUA și Canada)**. Acest lucru este necesar pentru a garanta că panoul de Proiect și Planificare este conform așteptărilor.
 
-**Recomandare:** luați în considerare crearea unei copii backup a organizației dvs. acum, în cazul în care trebuie să reveniți la punctul de plecare dacă ceva nu merge bine în timpul instalării datelor eșantion. Pentru informații suplimentare, consultați [Backupul și restaurarea instanțelor](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomandare:** luați în considerare crearea unei copii backup a organizației dvs. acum, în cazul în care trebuie să reveniți la punctul de plecare dacă ceva nu merge bine în timpul instalării datelor eșantion. Pentru informații suplimentare, consultați [Backupul și restaurarea instanțelor](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Rulați Package Deployer
 

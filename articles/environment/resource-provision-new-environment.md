@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276903"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950549"
 ---
 # <a name="provision-a-new-environment"></a>Asigurarea accesului pentru un nou mediu
 
@@ -36,7 +36,7 @@ Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pen
 
 ## <a name="provision-a-project-operations-environment"></a>Furnizarea unui mediu de Project Operations
 
-1. Deschideți un nou Dynamics 365 Finance [mediul demonstrativ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) sau o implementare [sandbox/ mediu de producție](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Deschideți un nou Dynamics 365 Finance [mediul demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) sau o implementare [sandbox/ mediu de producție](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Vom arăta expertul **Pregătirea mediului**. 
 
 > [!IMPORTANT]

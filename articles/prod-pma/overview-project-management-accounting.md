@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289789"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950459"
 ---
 # <a name="project-management-and-accounting-overview"></a>Management de proiect și prezentare generală a contabilității
 
@@ -227,7 +227,7 @@ Tipul proiectului determină procedura de facturare care trebuie aplicată. Doar
 Înainte de a crea o factură de client pentru un proiect, puteți crea o factură preliminară sau o propunere de factură. Într-o propunere de factură, puteți selecta tranzacțiile de proiect pentru a le include într-o factură de proiect. Apoi puteți revizui detaliile facturii înainte de a posta factura proiectului și de a o trimite clientului sau altei surse de finanțare. 
 
 
-Pentru mai multe informații despre modul de procesare a facturilor de proiect, consultați [Facturarea proiectelor](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Pentru mai multe informații despre modul de procesare a facturilor de proiect, consultați [Facturarea proiectelor](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calculați costul pentru finalizarea unui proiect

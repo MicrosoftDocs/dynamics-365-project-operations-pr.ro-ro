@@ -3,17 +3,17 @@ title: Gestionarea propunerilor de facturare pentru proiect
 description: Acest subiect oferă o detalii despre procesarea facturilor trimise la client cu Project Operations pentru scenarii bazate pe resurse/ne-stocate.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275868"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950729"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gestionarea propunerilor de facturare pentru proiect
 
@@ -80,7 +80,8 @@ Valorile **Grup de impozitare pe vânzări** și **Grup de impozitare pe vânză
     - **Client**: Va rezulta întotdeauna în mod implicit la grupul de impozitare pe vânzări facturate din proiect de la client.
     - **Căutare** va căuta prin toate entitățile din această listă și va selecta prima valoare disponibilă. Căutarea începe cu entitatea **Proiect**, apoi cu entitatea **Contract de proiect** entitate, și apoi entitatea **Client**.
 
-- Funcția **Reper preț fix pentru grup de impozite pe vânzări articole** este folosită pentru a seta valoarea în mod implicit la câmpul **Grup de impozitare pe vânzări de articole**.
+- **Grup de taxe pe vânzări de articole de referință cu preț fix** este utilizat ca valoare implicită în câmpului **Grup de taxe pe vânzări de articole** pentru etapa de facturare. Contabilul poate revizui și modifica această valoare pe pagina **Tranzacții în cont**. Sistemul folosește valoarea din tranzacția în cont atunci când creează o linie de propunere de factură de proiect.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensiuni financiare
 
@@ -132,7 +133,7 @@ Pagina **Formatați propunerile de facturare** permite ca tranzacțiile de grupa
 
 Gestionarea imprimării utilizează diferite fișiere de rapoarte pentru a imprima, specifica destinații și a personaliza textul de subsol pentru factură. Gestionarea imprimării poate fi configurată la nivelul modulului, însă aceste setări pot fi anulate pentru un anumit client, contract sau propunere de facturare. Pentru a accesa această funcție de pe paguna **Propunere de facturare pentru proiect**, selectați **Imprimare** > **Managementul imprimării**.
 
-Configurarea gestionării tipăririi este afișată ca o vizualizare de tip arbore, unde fiecare nivel de nod afișează documentele disponibile pentru ajustare. Puteți atribui imprimări personalizate la nivel de modul, client, contract sau propunere de facturare. Pentru a modifica imprimarea documentului original, extindeți nodul dorit și selectați **Element original**. În câmpul **Format raport**, selectați formatul raportului care va fi utilizat pentru imprimare. Puteți utiliza formate de raport personalizate utilizând [Cadrul de gestionare a documentelor de afaceri](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Configurarea gestionării tipăririi este afișată ca o vizualizare de tip arbore, unde fiecare nivel de nod afișează documentele disponibile pentru ajustare. Puteți atribui imprimări personalizate la nivel de modul, client, contract sau propunere de facturare. Pentru a modifica imprimarea documentului original, extindeți nodul dorit și selectați **Element original**. În câmpul **Format raport**, selectați formatul raportului care va fi utilizat pentru imprimare. Puteți utiliza formate de raport personalizate utilizând [Cadrul de gestionare a documentelor de afaceri](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Înregistrați propuneri de facturare
 
