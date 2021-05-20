@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287253"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948345"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnalul de integrare în Project Operations
 
@@ -38,7 +38,7 @@ Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selec
 Liniile de jurnalul sunt create pe baza realității proiectului. Următoarea listă include unele dintre cele mai notabile reguli implicite și de transformare:
 
   - Fiecare tranzacție reală a proiectului are o linie în jurnalul de integrare a Project Operations. Costul și tranzacțiile de vânzare nefacturate pentru timpul și tipul de facturare materială sunt afișate pe linii separate.
-  - Câmpul **Date** reprezintă data tranzacției. Câmpul **Data de contabilitate** reprezintă data la care tranzacția este înregistrată în registru. Dacă data contabilă se află într-o [perioadă financiară închisă](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) și parametrul **Setați automat data contabilă pentru a deschide perioada contabilă** este setat pe fila **Financiar** din pagina **Managementul proiectului și parametrii contabili**, sistemul va ajusta data contabilă a tranzacției la prima dată în următoarea perioadă de registru deschis.
+  - Câmpul **Date** reprezintă data tranzacției. Câmpul **Data de contabilitate** reprezintă data la care tranzacția este înregistrată în registru. Dacă data contabilă se află într-o [perioadă financiară închisă](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) și parametrul **Setați automat data contabilă pentru a deschide perioada contabilă** este setat pe fila **Financiar** din pagina **Managementul proiectului și parametrii contabili**, sistemul va ajusta data contabilă a tranzacției la prima dată în următoarea perioadă de registru deschis.
   - Câmpul **Voucher** afișează numărul voucherului pentru fiecare tranzacție reală. Secvența numerelor de voucher este definită pe fila **Secvențe numerice**, pe pagina **Managementul proiectului și parametrii contabili**. Fiecărei linii i se atribuie un număr nou. După afișarea voucherului, puteți vedea modul în care sunt legate costurile și tranzacțiile de vânzare nefacturate selectând **Vouchere corelate** pe pagina **Tranzacție voucher**.
   - Câmpul **Categorie** reprezintă o tranzacție a proiectului și valorile implicite se bazează pe categoria de tranzacții pentru proiectul real.
     - Dacă **Categoria tranzacției** este setat în Proiectul real și un **Categoria proiectului** corelat există într-o anumită entitate juridică, categoria este implicită la această categorie de proiect.

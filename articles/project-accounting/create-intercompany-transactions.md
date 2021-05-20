@@ -3,17 +3,17 @@ title: Crearea de tranzacții între companii
 description: Acest subiect oferă informații despre cum să creați tranzacții între companii.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287433"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880463"
 ---
 # <a name="create-intercompany-transactions"></a>Crearea de tranzacții între companii
 
@@ -62,7 +62,7 @@ Molly Clark, dezvoltator angajat în GBPM, înregistrează 10 ore de muncă împ
     4. Setați moneda la **USD**.
     5. Salvaţi înregistrarea.
 3. Accesați **Vânzări** > **Contracte de proiect** și creați un nou contract de proiect pentru Adventure Works.
-    1. Setați compania deținătoare la **USPM** iar unitatea contractantă la **Contoso Robotics SUA**.
+    1. Setați firma proprietară la **USPM** iar unitatea contractantă la **Contoso Robotics SUA**.
     2. Selectați Adventure Works drept client.
     3. Selectați o listă de prețuri a produselor și salvați înregistrarea.
     4. Pe fila **Linii de contract**, creați o nouă linie de contract. Setați orice nume și selectați **Timp și materiale** ca metodă de facturare.
@@ -94,7 +94,7 @@ Molly Clark, dezvoltator angajat în GBPM, înregistrează 10 ore de muncă împ
     Această vânzare fără facturare este acum pregătită pentru facturare. Factura pentru clientul Adventure Works poate fi înregistrată financiar la nevoie.
 
 10. Conectați-vă drept contabil **GBPM**. Deschideți instanța de finanțare a Project Operations și deschideți compania **GBPM**. 
-11. Accesați **Management de proiect și contabilitate** > **Periodic** > **Project Operations pentru Customer Engagement** > **Import din etapă** și rulați procesul periodic pentru a completa jurnalul de integrare Project Operations.
+11. Accesați **Management de proiect și contabilitate** > **Periodic** > **Integrarea Project Operations** > **Importați din tabelul de etapizare** și rulați procesul periodic pentru a completa Jurnalul de integrare Project Operations.
 12. Accesați **Management de proiect și contabilitate** > **Jurnale** > **Jurnal de integrare a Project Operations** și revizuiți liniile. Sistemul creează următoarele linii.
 
     | **Tip de tranzacție** | **Preț** | **Monedă de tranzacționare** | **Valoare** |

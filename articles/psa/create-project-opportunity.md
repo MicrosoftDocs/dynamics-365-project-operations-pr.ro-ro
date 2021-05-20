@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285228"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948209"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Crearea unei oportunități de proiect (Project Service)
 
@@ -39,7 +39,7 @@ Oportunitățile sunt clienți potențiali imediați de la clienții care sunt i
   
 3.  În zona **Rezumat**, introduceți firma oportunității și alte informații.  
   
-4.  Adăugați orice note și activități (de exemplu, apeluri telefonice sau mesaje de e-mail) referitoare la acest client potențial. Pentru a afla mai multe despre adăugarea notelor și activităților, consultați [Urmăriți note, sarcini, apeluri sau mesaje de e-mail cu activități](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Adăugați orice note și activități (de exemplu, apeluri telefonice sau mesaje de e-mail) referitoare la acest client potențial. Pentru a afla mai multe despre adăugarea notelor și activităților, consultați [Urmăriți note, sarcini, apeluri sau mesaje de e-mail cu activități](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Pentru a adăuga participanți direct interesați, în zona **Participanți direct interesați**, faceți clic pe **+**.  
   

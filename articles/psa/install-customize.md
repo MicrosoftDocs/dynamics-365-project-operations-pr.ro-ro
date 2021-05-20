@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284328"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947939"
 ---
 # <a name="install-and-customize-project-service"></a>Instalați și personalizați (Project Service)
 
@@ -34,20 +34,20 @@ Capabilitățile [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Instalarea Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] este o soluție preferată. Există mai multe modalități de a cumpăra soluția. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrarea utilizatorilor în organizație](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] este o soluție preferată. Există mai multe modalități de a cumpăra soluția. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrarea utilizatorilor în organizație](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Particularizarea formularelor și rapoartelor [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Dacă doriți să personalizați oricare dintre formularele, tablourile de bord sau rapoartele portalului [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], puteți găsi mai multe informații în următoarele linkuri:  
   
-- [Introducere în crearea și particularizarea aplicațiilor](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Introducere în crearea și particularizarea aplicațiilor](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Creați și proiectați formulare](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Creați și proiectați formulare](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Crearea și editarea tablourilor de bord](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Crearea și editarea tablourilor de bord](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Crearea și editarea proceselor](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Crearea și editarea proceselor](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Introducere în raportare și analiză](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Introducere în raportare și analiză](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul administratorului](../psa/admin-guide.md)   

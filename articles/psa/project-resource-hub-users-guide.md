@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283788"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948163"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Ghid de utilizator pentru hubul de resurse de proiect
 
@@ -48,7 +48,7 @@ Există două tipuri de [!INCLUDE[pn_dyn_365_project_service_auto](../includes/p
 ## <a name="install-the-mobile-app"></a>Instalați aplicația pentru dispozitive mobile
 Înainte de a începe să utilizați aplicația Hub resurse proiect, trebuie să instalați aplicația mobilă pe dispozitivul dvs. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalați Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instalați Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Navigare de bază
 1.  Atunci când vă conectați la aplicația mobilă, veți vedea pagina MyApps cu o listă de aplicații la care aveți acces. 
@@ -99,7 +99,7 @@ Introduceți cheltuielile cel puțin săptămânal - sau la frecvența solicitat
 5. Continuați să introduceți cheltuielile pentru săptămână. Când ați terminat și totul arată corect, atingeți **Remitere**. Un manager va examina și aproba cheltuielile dvs.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Informații generale despre cum să utilizați aplicația mobilă 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Noțiuni de bază despre mobil](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Noțiuni de bază despre mobil](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Consultați și  
  [Prezentare generală a Project Service](../psa/overview.md)   

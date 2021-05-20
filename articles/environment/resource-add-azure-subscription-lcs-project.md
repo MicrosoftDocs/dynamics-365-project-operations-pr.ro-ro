@@ -3,17 +3,17 @@ title: Adăugarea unui abonament Azure unui proiectul LCS
 description: Acest subiect oferă informații despre cum să vă conectați abonamentul Azure la un proiect LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289924"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880553"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adăugarea unui abonament Azure unui proiectul LCS
 
@@ -62,7 +62,7 @@ Autorizația este acum completă.
 3. În câmpul **Configurați pentru a utiliza Azure Resource Manager**, selectați **Da**.
 4. Asigurați-vă că Abonamentul Azure AAD Domeniu entitate găzduită se potrivește cu abonamentul Azure deținut de domeniu pe care îl utilizați și selectați **Următorul**.
 5. Pe ecranul **Microsoft Azure Instalare** ecran, selectați **Următorul** pentru a confirma. Dacă primiți o eroare pe acest ecran, reveniți la secțiunea [Oferiți acces la serviciile de implementare dinamică la abonamentul Azure](#provide) în acest subiect și asigurați-vă că ați parcurs toți pașii.
-6. Descărcați certificatul de gestionare Azure într-un folder local de pe computer, apoi încărcați-l în Azure Management Portal accesând **Setări** > **Certificate de management**. Acest certificat va permite LCS să comunice cu Azure în numele dvs. Puteți sări peste acest pas dacă utilizatorul dvs. are acces la abonament.
+6. Descărcați certificatul Azure Management într-un folder local de pe computer. Solicitați administratorului dvs. de abonament Azure să încarce certificatul în portalul Azure Management selectând abonamentul și accesând **Setări** > **Certificate de management**. Acest certificat permite LCS să comunice cu Azure în numele dvs. Puteți sări peste acest pas dacă utilizatorul dvs. are acces la abonament.
 7. Selectați  **Următorul**.
 8. Selectați regiunea Azure în care să implementați și selectați un centru de date care este aproape de locul în care intenționați să utilizați acest sistem.
 9.  Selectați  **Conectare**.

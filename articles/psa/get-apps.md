@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284463"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947984"
 ---
 # <a name="get-the-apps-project-service"></a>Descărcați aplicațiile (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284463"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Dacă doriți să introduceți ora și cheltuielile pe dispozitivul mobil, [Obțineți și instalați Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Dacă doriți să introduceți ora și cheltuielile pe dispozitivul mobil, [Obțineți și instalați Dynamics 365 for phones and tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  De asemenea, puteți să utilizați aplicația Project Finder Mobile de pe telefon pentru a găsi un nou proiect la care să lucrați și să aplicați pentru acesta. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Găsiți-vă următorul proiect cu aplicația Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md) 
   
