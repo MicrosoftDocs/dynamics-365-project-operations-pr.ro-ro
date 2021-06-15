@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Noutăți
       items:
+        - name: Mai 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Martie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Configurarea categoriilor de cheltuieli
               href: expense/set-up-expense-categories.md
+            - name: Configurarea kilometrajului utilizând nivelurile de rată a kilometrajului
+              href: expense/set-up-mileage.md
         - name: Cheltuieli personale
           href: expense/personal-expenses-expense-report.md
         - name: Cheltuieli între companii
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
+        - name: Noutăți mai 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Noutăți aprilie 2021 - implementare simplificată
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Noutăți martie 2021 - implementare simplificată
@@ -1028,6 +1034,8 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Particularizarea intrărilor de timp săptămânale
               href: psa/time-entry-extensibility-v3.md
+            - name: Seturi de aprobare
+              href: psa/approval-set.md
     - name: Întrebări frecvente și depanare (3.x)
       items:
         - name: De ce prețul pentru cheltuielile reale de costuri are valoarea implicită zero?
