@@ -2,8 +2,6 @@
 title: Noutăți sau modificări la versiunea actualizată 27.6 Hotfix, V3 în Project Service Automation
 description: Acest subiect listează caracteristicile și corecțiile disponibile în versiunea actualizată 27.6 Hotfix, V3 pentru Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/17/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 829f0941f255aab11a37cacd90c0dca6f99bc2d2
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 58cb82701e5cb8c549250ce5e3397d5939ec1ea1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948749"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996896"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-276-v3"></a>Ce este nou sau schimbat în Project Service Automation versiunea actualizată 27.6, V3
 

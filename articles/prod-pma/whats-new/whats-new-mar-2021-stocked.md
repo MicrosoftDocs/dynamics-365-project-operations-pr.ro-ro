@@ -2,19 +2,17 @@
 title: Ce este nou sau modificat în Project Operations, martie 2021 - pentru scenarii bazate pe stocuri/producție
 description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea din martie 2021 a Project Operations pentru scenarii stocate/bazate pe producție.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701965"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997031"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Ce este nou sau modificat în Project Operations, martie 2021 - pentru scenarii bazate pe stocuri/producție
 
@@ -123,7 +121,7 @@ Următoarele caracteristici sunt incluse în această versiune:
 | Management de proiect și contabilitate | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Metoda de clasă a structurii vechi de repartizare a lucrărilor (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** este perimată.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizări de reglementare
-Pentru informații despre actualizările de reglementare pentru aplicații Finance and Operations, vezi [Actualizări de reglementare](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru aplicații Finance and Operations, vezi [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates.md). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

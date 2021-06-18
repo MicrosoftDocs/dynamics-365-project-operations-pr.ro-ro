@@ -2,18 +2,16 @@
 title: Aplicarea datelor de instalare și configurare demonstrative - simplificat
 description: Acest subiect oferă informații despre cum se aplică datele de configurare și configurare demo pentru Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290149"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997166"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicați date de configurare și instalare pentru Project Operations - simplificat 
 
@@ -28,8 +26,8 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
 
 ## <a name="instructions"></a>Instrucțiuni
 
-1. Descărcați [Pachetul de date master](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Navigați la dosarul *ProjOpsDemoDataSetupAndMaster - CMT integrat* și rulați fișierul executabil, *DataMigrationUtility*.
+1. Descărcați [Pachetul de date master](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Navigați la dosar *ProjOpsSampleSetupData - CE numai CMT* și rulați fișierul executabil, *DataMigrationUtility*.
 3. Pe pagina 1 din Common Data Service Expertul Migrare configurare (CMT), selectați **Importați date** și apoi selectați **Continuare**.
 
     ![Migrarea configurării](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
    ![Conectare de configurare](./media/2ConfigurationSignin.png)
 
 7. Pe pagina 3, din lista Organizațiilor de pe entitatea găzduită, selectați în ce organizație doriți să importați datele demo și apoi selectați **Autentificare**.
-8. La pagina 4, selectați fișierul zip, *MasterAndSetupData* din folderul despachetat, *ProjOpsDemoDataSetupAndMaster - CMT integrat*.
+8. La pagina 4, selectați fișierul zip, *SampleSetupAndConfigData* din folderul despachetat, *ProjOpsSampleSetupData - CMT numai CE*.
 
    ![Fișier zip](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
    ![Importați date](./media/5ImportData.png)
 
 10. Importul va rula aproximativ două-zece minute, în funcție de viteza rețelei. După finalizare, ieșiți din CMT Wizard. 
-11. Verificați organizația pentru date în următoarele 20 de entități:
+11. Verificați organizația pentru date în următoarele 18 de entități:
 
     -   Monedă
     -   Cont

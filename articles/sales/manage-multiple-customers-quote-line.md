@@ -2,18 +2,16 @@
 title: Gestionați mai mulți clienți în linii de oferte bazate pe proiect
 description: Acest subiect oferă informații despre cum să gestionați mai mulți clienți pe linii de ofertă pe bază de proiect.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4fa0adc877797d782173f29690b33d38ba7f8dcd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6bb675a6e0b71e88a8176bee2f91152faa53997f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277938"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996401"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gestionați mai mulți clienți în linii de oferte bazate pe proiect
 

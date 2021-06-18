@@ -2,8 +2,6 @@
 title: Estimări de vânzări și proiecte
 description: Acest subiect furnizează informații despre cum să profitați de planificare și de estimări în procesul de vânzări.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87dc72b76ec4f88684ef2c702718e1ab631ff936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283923"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998426"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimări de vânzări și proiecte
 

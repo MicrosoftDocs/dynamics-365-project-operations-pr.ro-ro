@@ -2,19 +2,17 @@
 title: Conectarea datelor reale la înregistrările originale
 description: Acest subiect explică cum să legați datele reale la înregistrările originale, cum ar fi introducerea timpului, introducerea cheltuielilor sau jurnalele de utilizare a materialelor.
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852604"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996761"
 ---
 # <a name="link-actuals-to-original-records"></a>Conectarea datelor reale la înregistrările originale
 
