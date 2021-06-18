@@ -2,11 +2,9 @@
 title: Comenzi de achiziție pentru un proiect
 description: Acest articol descrie diferitele metode pe care le puteți utiliza pentru a crea comenzi de achiziție pentru un proiect. Metoda pe care o utilizați depinde de scopul comenzii de cumpărare, și de când sunt consumate și taxate într-un proiect articolele achiziționate.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c3ce2d0c0fb3cecf22157db5cb37eb744027d0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289204"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999371"
 ---
 # <a name="purchase-orders-for-a-project"></a>Comenzi de achiziție pentru un proiect
 

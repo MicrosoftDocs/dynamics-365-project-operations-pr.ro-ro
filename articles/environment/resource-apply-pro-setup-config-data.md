@@ -2,18 +2,16 @@
 title: Instalați și aplicați datele de configurare în Common Data Service
 description: Acest subiect furnizează informații despre configurare și aplicarea datelor de configurare în Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289834"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001306"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Instalați și aplicați datele de configurare în Common Data Service 
 
@@ -33,7 +31,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 ## <a name="install-setup-and-configuration-data"></a>Instalați datele de instalare și configurare
 
-1. Descărcați, deblocați și dezarhivați fișierul [Setare și configurare pachet de date](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Descărcați, deblocați și dezarhivați fișierul [Setare și configurare pachet de date](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Navigați la dosarul dezarhivat și rulați fișierul executabil, *DataMigrationUtility*.
 3. Pe pagina 1 din Common Data Service Expertul Migrare configurare (CMT), selectați **Importați date** și apoi selectați **Continuare**.
 
@@ -57,13 +55,20 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 ![Import date](./media/5ImportData.png)
 
 10. Importul va rula aproximativ două-zece minute, în funcție de viteza rețelei. După ce se termină importarea, ieșiți din expertul CMT. 
-11. Verificați organizația pentru date în următoarele 19 de entități:
+11. Verificați organizația pentru date în următoarele 26 de entități:
 
   - Monedă
+  - Diagramă de conturi
+  - Calendar fiscal
+  - Tipuri de rate de curs valutar
+  - Zi de plată
+  - Planificare de plată
+  - Termen de plată
   - Unitate organizațională
   - Contact
   - Grup fiscal
   - Grup de clienți
+  - Grup de distribuitori
   - Unitate
   - Grup de unități
   - Listă de prețuri
@@ -127,7 +132,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 12. Actualizați următoarele câmpuri:
 
  - **Companie implicită**: USPM
- - **Unitate organizațională implicită**: Contoso Robotics Global
+ - **Unitate organizatorică implicită**: Contoso Robotics Global
  - **Frecvența facturii**: a șaptea și ultima zi
  - **Șablon de oră de lucru**: modificați șablonul pe care l-ați creat.
 
