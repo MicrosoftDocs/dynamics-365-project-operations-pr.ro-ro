@@ -2,19 +2,17 @@
 title: Configurarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate
 description: Acest subiect explică modul de activare a materialelor care nu există pe stoc și a facturilor de la furnizori neachitate.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880677"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993926"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate
 
@@ -61,11 +59,11 @@ Dacă utilizați date demo standard, poate fi necesar de asemenea să opriți ș
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Activați fluxul de lucru pentru a crea conturi bazate pe entitatea furnizorului
 
-Soluția de orchestrare cu scriere duală oferă [Integrarea principală a furnizorilor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Ca o condiție prealabilă pentru această caracteristică, datele furnizorului trebuie create în entitatea **Conturi**. Activați un proces privind fluxul de lucru tip șablon pentru a crea furnizori în tabelul **Conturi** așa cum este descris în [Comutați între proiectele furnizorilor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Soluția de orchestrare cu scriere duală oferă [Integrarea principală a furnizorilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Ca o condiție prealabilă pentru această caracteristică, datele furnizorului trebuie create în entitatea **Conturi**. Activați un proces privind fluxul de lucru tip șablon pentru a crea furnizori în tabelul **Conturi** așa cum este descris în [Comutați între proiectele furnizorilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Setați ca produsele să fie create ca active
 
-Materialele care nu există pe stoc trebuie să fie configurate ca **Produse lansate** în Finanțe. Soluția de orchestrare cu scriere duală oferă o [Integrare a produselor lansate în Catalogul de produse Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) neconvențională. În mod implicit, produsele de la Finanțe sunt sincronizate cu Dataverse sub formă de schiță. Pentru a sincroniza produsul la o stare activă, astfel încât să poată fi utilizat direct în documentele de utilizare a materialelor sau în facturile de la furnizori neachitate, accesați **Sistem** > **Administrare** > **Administrarea sistemului** > **Setările sistemului** și pe fila **Vânzări**, setați **Creați produse în starea activă** la **Da**.
+Materialele care nu există pe stoc trebuie să fie configurate ca **Produse lansate** în Finanțe. Soluția de orchestrare cu scriere duală oferă o [Integrare a produselor lansate în Catalogul de produse Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) neconvențională. În mod implicit, produsele de la Finanțe sunt sincronizate cu Dataverse sub formă de schiță. Pentru a sincroniza produsul la o stare activă, astfel încât să poată fi utilizat direct în documentele de utilizare a materialelor sau în facturile de la furnizori neachitate, accesați **Sistem** > **Administrare** > **Administrarea sistemului** > **Setările sistemului** și pe fila **Vânzări**, setați **Creați produse în starea activă** la **Da**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurarea cerințelor preliminare în Finanțe
 

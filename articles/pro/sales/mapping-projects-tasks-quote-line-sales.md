@@ -2,18 +2,16 @@
 title: Maparea proiectelor și activităților într-o linie de ofertă bazată pe proiect
 description: Acest subiect oferă informații despre cum să mapați proiectele și sarcinile la o linie de activități bazată pe proiecte.
 author: rumant
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d714304f408050babae1a6ba74268979e0b6ea4b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d1c98d6a903393a0afc0e94d7f9859d55b9dc1f7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272763"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994601"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Maparea proiectelor și activităților într-o linie de ofertă bazată pe proiect
 
