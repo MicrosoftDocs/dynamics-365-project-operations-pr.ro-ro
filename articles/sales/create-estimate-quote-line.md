@@ -2,11 +2,9 @@
 title: Crearea de estimări într-o linie de ofertă
 description: Acest subiect oferă informații despre cum să creați o estimare pe o linie de ofertă pentru un proiect.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4010f7599b66c9ad9e49943c1c0d7d165493d60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278478"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010306"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Crearea de estimări într-o linie de ofertă
 

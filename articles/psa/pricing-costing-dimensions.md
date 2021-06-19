@@ -2,12 +2,10 @@
 title: Pagină principală prețuri și dimensiuni de cost
 description: Acest subiect oferă o prezentare generală a dimensiunilor prețurilor.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284148"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009271"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pagină principală prețuri și dimensiuni de cost
 
@@ -67,16 +65,16 @@ Următorul exemplu arată ratele de facturare care sunt configurate pe baza rolu
 
 | Rol        | Unitate organizațională    |Unitate      |Preț      |Monedă  |
 | ------------|-------------|----------|----------:|----------|
-| Dezvoltator   | Contoso US  |Hour | 200|USD     |
-| Dezvoltator   | Contoso India |Hour|   112|USD     |
+| Dezvoltator   | Contoso SUA  |Oră | 200|USD     |
+| Dezvoltator   | Contoso India |Oră|   112|USD     |
 
 
 **Eșantion de rate de cost**
 
 | Bandă de salariu     | Unitate organizațională    |Unitate      |Preț      |Monedă  |
 | ----------------|-------------|----------|----------:|----------|
-| company_Band1 a mea | Contoso US  |Hour | 145|USD     |
-| company_Band2 a mea | Contoso India |Hour|   67|USD     |
+| company_Band1 a mea | Contoso SUA  |Oră | 145|USD     |
+| company_Band2 a mea | Contoso India |Oră|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

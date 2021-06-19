@@ -2,8 +2,6 @@
 title: Unități organizaționale
 description: Acest subiect oferă informații despre unitățile organizaționale din Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291679"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009631"
 ---
 # <a name="organizational-units"></a>Unități organizaționale 
 
@@ -79,14 +77,14 @@ Atunci când implementați Dynamics 365, optimizați autorizarea de securitate p
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemplu de unități organizaționale și unități de business
 
-Contoso, Ltd. are o practică înfloritoare de tehnologie Microsoft. Daniel și Vera sunt amândoi dezvoltatori C\#, dar Vera este în Statele Unite, în timp ce Daniel este în India. Cele mai multe dintre angajamentele de proiect necesită resurse de la Contoso India și Contoso SUA, iar Daniel și Vera au nevoie de același nivel de acces de securitate la proiecte din acest domeniu de activitate. Cu toate acestea, costul dezvoltatorilor din Contoso India diferă în mod semnificativ de costul dezvoltatorilor din Contoso SUA.
+Contoso, Ltd. are o practică înfloritoare de tehnologie Microsoft. Daniel și Vera sunt amândoi dezvoltatori C\#, dar Vera este în Statele Unite, în timp ce Daniel este în India. Cele mai multe dintre angajamentele de proiect necesită resurse de la Contoso India și Contoso US și Daniel și Vera au nevoie de același nivel de acces de securitate la proiecte din acest domeniu de activitate. Cu toate acestea, costul dezvoltatorilor Contoso India diferă în mod semnificativ de costul dezvoltatorilor din Contoso SUA.
 
 Iată o modalitate optimă de a concepe acest scenariu utilizând Dynamics 365 și PSA.
 
 1. Creați practica tehnologiei Microsoft ca unitate de business și asociați-i pe Daniel și Vera cu ea. În acest fel, veți contribui la garantarea faptului că ambii angajați au același nivel de acces de securitate la orice proiecte din acest domeniu de activitate. Ambii vor putea să verifice progresul și să raporteze timpul, cheltuielile și actualizările sarcinilor. 
 2. Creați două unități organizaționale pentru a contribui la garantarea faptului că costul proiectului este reflectat corect. 
 3. Asociați-o pe Vera cu Contoso SUA și asociați-l pe Daniel cu Contoso India.
-4. Atribuiți listele de prețuri corespunzătoare ambelor unități organizaționale. TÎn în acest fel, contribuiți la garantarea faptului că costurile care sunt înregistrate în proiect pentru Daniel și Vera reflectă cu exactitate diferența de costuri dintre Contoso SUA și Contoso India.
+4. Atribuiți listele de prețuri corespunzătoare ambelor unități organizaționale. În acest fel, contribuiți la garantarea faptului că costurile care sunt înregistrate în proiect pentru Daniel și Vera reflectă cu exactitate diferența de costuri dintre Contoso SUA și Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Sunt unitățile organizaționale legate de teritoriile de vânzări în Dynamics 365?
 
@@ -124,7 +122,7 @@ Nu. În actuala versiune a PSA, unitățile organizaționale nu sunt ierarhice. 
 Când aveți o ierarhie complexă a centrelor de cost, diviziilor, birourilor de facturare etc., configurați nodurile frunză din ierarhia respectivă ca unități organizaționale distincte.
 Următorul exemplu arată o ierarhie tipică:
 
-**Contoso India**
+**ContosoIndia**
 
   - Practică SAP 
 
@@ -136,7 +134,7 @@ Următorul exemplu arată o ierarhie tipică:
     - Consultanți tehnici
     - Consultanți funcționali 
     
-**Contoso US**
+**Contoso SUA**
 
  - Practică SAP 
 

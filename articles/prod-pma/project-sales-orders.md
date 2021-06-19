@@ -2,11 +2,9 @@
 title: Comenzi de vânzare pentru proiecte de timp și materiale
 description: Acest subiect explică cum să creați comenzi de vânzare bazate pe proiecte pentru proiecte de timp și materiale.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 74a90ea0bdb8f760273c0f6b1c61bffcb70b6c8d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dec9bc700d18f71ec7c9e976b38cb8cbb41f21b5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289069"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009676"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Comenzi de vânzare pentru proiecte de timp și materiale
 

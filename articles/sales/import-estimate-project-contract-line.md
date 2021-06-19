@@ -2,18 +2,16 @@
 title: Importul unei estimări într-o linie de contract bazată pe proiect
 description: Acest subiect oferă informații despre cum să importați estimările dintr-un proiect într-o linie de contract.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f8d9637e4a8bd09664c43ccc2b02514dc825997e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278388"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010261"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Importul unei estimări într-o linie de contract bazată pe proiect
 
