@@ -2,18 +2,16 @@
 title: Prezentare generală a facturării între companii
 description: Acest subiect oferă informații și exemple despre facturarea între companii pentru proiecte.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287343"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002656"
 ---
 # <a name="intercompany-invoicing-overview"></a>Prezentare generală a facturării între companii
 
@@ -21,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Organizația dvs. ar putea avea mai multe divizii, filiale și alte entități juridice care își transferă produse și servicii reciproc pentru proiecte. Entitatea juridică care furnizează serviciul sau produsul se numește *entitate juridică de creditare*. Entitatea juridică care primește serviciul sau produsul se numește *entitate juridică de împrumut*.
 
-Următoarea ilustrație prezintă un scenariu tipic în care două entități juridice, Contoso Robotics USA (entitatea juridică care împrumută) și Contoso Robotics UK (entitatea juridică care împrumută) împart resurse pentru a livra un proiect pentru client, Adventure works. Pentru acest scenariu, Contoso Robotics SUA este contractat pentru livrarea lucrărilor către Adventure Works.
+Următoarea ilustrație prezintă un scenariu tipic în care două persoane juridice, Contoso Robotics SUA (entitatea juridică care împrumută) și Contoso Robotics UK (entitatea juridică care împrumută) împarte resurse pentru a livra un proiect pentru client, Adventure works. Pentru acest scenariu, Contoso Robotics SUA este contractat pentru livrarea lucrărilor către Adventure Works.
 
 ![Facturare între companii](./media/IntercompanyScenario.png) 
 

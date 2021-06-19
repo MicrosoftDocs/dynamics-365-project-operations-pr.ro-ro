@@ -2,18 +2,16 @@
 title: Editați rezervările
 description: Acest subiect oferă informații despre cum să actualizați și să modificați rezervările.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4960792358194d071ba7a34c87b74fe2ce4457fd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 89e6b6ea258dff4ae2e592c58d6e0a61bf7d8e35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279648"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002413"
 ---
 # <a name="edit-bookings"></a>Editați rezervările
 

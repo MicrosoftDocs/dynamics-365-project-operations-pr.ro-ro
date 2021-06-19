@@ -2,18 +2,16 @@
 title: Intrare cheltuieli (simplificată)
 description: Acest subiect oferă informații despre cum să lucrați cu intrarea cheltuielilor într-o implementare simplificată.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 539d0ba6be6f49a6f0509595a0776ef67135496d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e75a61c25be06a9db121e8165e8ccd25d4719d08
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276768"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002206"
 ---
 # <a name="expense-entry-lite"></a>Intrare cheltuieli (simplificată)
 

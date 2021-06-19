@@ -2,20 +2,18 @@
 title: Avans în numerar
 description: Acest subiect oferă informații despre avansuri de numerar.
 author: suvaidya
-manager: AnnBe
 ms.date: 03/25/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
-ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
+ms.openlocfilehash: c610fdda8f337e0c16fe5010770aca678201c328
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5715575"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002161"
 ---
 # <a name="cash-advance"></a>Avans în numerar
 
