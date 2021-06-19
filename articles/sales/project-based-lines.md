@@ -2,18 +2,16 @@
 title: Linii de proiect bazate pe oportunitate
 description: Acest subiect oferă informații despre lucrul cu linii de oportunitate pe bază de proiect.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91c53c917846a2b4e4fd64c14bb91782e9d05d66
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cb44f10e2ce02ce57a44252fd99ce769f20d5cb7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277668"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011386"
 ---
 # <a name="project-based-opportunity-lines"></a>Linii de proiect bazate pe oportunitate
 

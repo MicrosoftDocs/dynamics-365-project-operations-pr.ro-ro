@@ -2,18 +2,16 @@
 title: Gestionarea unei facturi proforma bazate pe proiect
 description: Acest subiect oferă informații despre gestionarea și lucrul cu facturile proforma bazate pe proiect.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fd357648f8166cbcbe91ca1922739585f9fcfa9
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: b1b0f70f25d157e1d7e2d14dc011a048d698d299
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867236"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012556"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>Gestionarea unei facturi proforma bazate pe proiect
 
