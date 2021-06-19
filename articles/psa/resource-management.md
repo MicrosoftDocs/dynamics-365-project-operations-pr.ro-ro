@@ -2,8 +2,6 @@
 title: Pagina de primire proiecte resursă
 description: Acest subiect oferă informații despre capacitățile de gestionare a resurselor în Project Service Automation (PSA) for Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,41 +16,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b806b111e579609092239518ebae14b1355941e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282888"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008641"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="d0260-103">Pagina de primire proiecte resursă</span><span class="sxs-lookup"><span data-stu-id="d0260-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="1bda5-103">Pagina de primire proiecte resursă</span><span class="sxs-lookup"><span data-stu-id="1bda5-103">Resourcing projects home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="d0260-104">Resursele sunt cel mai important activ al unei organizații bazate pe servicii.</span><span class="sxs-lookup"><span data-stu-id="d0260-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="d0260-105">Capacitatea de a găsi și rezerva resursele potrivite la momentul potrivit, de a rezerva respectivele resurse pe proiecte și de a le menține utilizate, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților.</span><span class="sxs-lookup"><span data-stu-id="d0260-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="d0260-106">Aveți posibilitatea să utilizați funcționalitatea de resurse de proiect în Project Service Automation (PSA) pentru a face următoarele:</span><span class="sxs-lookup"><span data-stu-id="d0260-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="1bda5-104">Resursele sunt cel mai important activ al unei organizații bazate pe servicii.</span><span class="sxs-lookup"><span data-stu-id="1bda5-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="1bda5-105">Capacitatea de a găsi și rezerva resursele potrivite la momentul potrivit, de a rezerva respectivele resurse pe proiecte și de a le menține utilizate, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților.</span><span class="sxs-lookup"><span data-stu-id="1bda5-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="1bda5-106">Aveți posibilitatea să utilizați funcționalitatea de resurse de proiect în Project Service Automation (PSA) pentru a face următoarele:</span><span class="sxs-lookup"><span data-stu-id="1bda5-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="d0260-107">Formați echipe de proiect prin rezervarea de resurse disponibile și calificate.</span><span class="sxs-lookup"><span data-stu-id="d0260-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="d0260-108">Creați înregistrări de membru generic al echipei și definiți-le rolurile și unitatea organizației de resurse.</span><span class="sxs-lookup"><span data-stu-id="d0260-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="d0260-109">Generați cerințe de resurse pentru membrii generici de echipă din atribuirile lor de activități.</span><span class="sxs-lookup"><span data-stu-id="d0260-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="d0260-110">Potriviți abilitățile prin identificarea competențelor definite în cererea de resurse comparativ cu abilitățile resurselor disponibile.</span><span class="sxs-lookup"><span data-stu-id="d0260-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="d0260-111">Înlocuiți resurse.</span><span class="sxs-lookup"><span data-stu-id="d0260-111">Substitute resources.</span></span>
-- <span data-ttu-id="d0260-112">Aliniați atribuirile de planificare de proiect și rezervările de resurse.</span><span class="sxs-lookup"><span data-stu-id="d0260-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="d0260-113">Reconciliați diferențele între rezervări și atribuiri.</span><span class="sxs-lookup"><span data-stu-id="d0260-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="d0260-114">Modificați rezervările de resurse ca răspuns la starea Absent de la birou.</span><span class="sxs-lookup"><span data-stu-id="d0260-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="d0260-115">Colaborați între managerii de proiect și managerii de resurse.</span><span class="sxs-lookup"><span data-stu-id="d0260-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="d0260-116">Vizualizați istoricul utilizării resurselor pentru o țintă, inclusiv o defalcare a modului în care a fost utilizat timpul resurselor.</span><span class="sxs-lookup"><span data-stu-id="d0260-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="d0260-117">Mențineți un depozit de abilități și competență.</span><span class="sxs-lookup"><span data-stu-id="d0260-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="1bda5-107">Formați echipe de proiect prin rezervarea de resurse disponibile și calificate.</span><span class="sxs-lookup"><span data-stu-id="1bda5-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="1bda5-108">Creați înregistrări de membru generic al echipei și definiți-le rolurile și unitatea organizației de resurse.</span><span class="sxs-lookup"><span data-stu-id="1bda5-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="1bda5-109">Generați cerințe de resurse pentru membrii generici de echipă din atribuirile lor de activități.</span><span class="sxs-lookup"><span data-stu-id="1bda5-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="1bda5-110">Potriviți abilitățile prin identificarea competențelor definite în cererea de resurse comparativ cu abilitățile resurselor disponibile.</span><span class="sxs-lookup"><span data-stu-id="1bda5-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="1bda5-111">Înlocuiți resurse.</span><span class="sxs-lookup"><span data-stu-id="1bda5-111">Substitute resources.</span></span>
+- <span data-ttu-id="1bda5-112">Aliniați atribuirile de planificare de proiect și rezervările de resurse.</span><span class="sxs-lookup"><span data-stu-id="1bda5-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="1bda5-113">Reconciliați diferențele între rezervări și atribuiri.</span><span class="sxs-lookup"><span data-stu-id="1bda5-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="1bda5-114">Modificați rezervările de resurse ca răspuns la starea Absent de la birou.</span><span class="sxs-lookup"><span data-stu-id="1bda5-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="1bda5-115">Colaborați între managerii de proiect și managerii de resurse.</span><span class="sxs-lookup"><span data-stu-id="1bda5-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="1bda5-116">Vizualizați istoricul utilizării resurselor pentru o țintă, inclusiv o defalcare a modului în care a fost utilizat timpul resurselor.</span><span class="sxs-lookup"><span data-stu-id="1bda5-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="1bda5-117">Mențineți un depozit de abilități și competență.</span><span class="sxs-lookup"><span data-stu-id="1bda5-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="d0260-118">Puteți să vă populați proiectul cu o echipă de resurse generice sau numite în PSA.</span><span class="sxs-lookup"><span data-stu-id="d0260-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="d0260-119">Puteți utiliza diverse metode pentru a adăuga și atribui membri ai echipei și pentru a gestiona rezervările și atribuirile lor.</span><span class="sxs-lookup"><span data-stu-id="d0260-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="d0260-120">Pentru informații suplimentare, consultați următoarele subiecte:</span><span class="sxs-lookup"><span data-stu-id="d0260-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="1bda5-118">Puteți să vă populați proiectul cu o echipă de resurse generice sau numite în PSA.</span><span class="sxs-lookup"><span data-stu-id="1bda5-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="1bda5-119">Puteți utiliza diverse metode pentru a adăuga și atribui membri ai echipei și pentru a gestiona rezervările și atribuirile lor.</span><span class="sxs-lookup"><span data-stu-id="1bda5-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="1bda5-120">Pentru informații suplimentare, consultați următoarele subiecte:</span><span class="sxs-lookup"><span data-stu-id="1bda5-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="d0260-121">Rezervați anumite resurse care se pot rezerva la o echipă de proiect și atribuirea de sarcini către acestea</span><span class="sxs-lookup"><span data-stu-id="d0260-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="d0260-122">Atribuiți resurse generice care se pot rezerva unei activități și generați cerințe de resurse</span><span class="sxs-lookup"><span data-stu-id="d0260-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="d0260-123">Rezervați resurse numite din cerințele de resurse</span><span class="sxs-lookup"><span data-stu-id="d0260-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="d0260-124">Remiteți o solicitare de resurse</span><span class="sxs-lookup"><span data-stu-id="d0260-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="d0260-125">Acceptați sau respingeți o resursă de proiect propusă dintr-o solicitare de resursă</span><span class="sxs-lookup"><span data-stu-id="d0260-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="1bda5-121">Rezervați anumite resurse care se pot rezerva la o echipă de proiect și atribuirea de sarcini către acestea</span><span class="sxs-lookup"><span data-stu-id="1bda5-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="1bda5-122">Atribuiți resurse generice care se pot rezerva unei activități și generați cerințe de resurse</span><span class="sxs-lookup"><span data-stu-id="1bda5-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="1bda5-123">Rezervați resurse numite din cerințele de resurse</span><span class="sxs-lookup"><span data-stu-id="1bda5-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="1bda5-124">Remiteți o solicitare de resurse</span><span class="sxs-lookup"><span data-stu-id="1bda5-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="1bda5-125">Acceptați sau respingeți o resursă de proiect propusă dintr-o solicitare de resursă</span><span class="sxs-lookup"><span data-stu-id="1bda5-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

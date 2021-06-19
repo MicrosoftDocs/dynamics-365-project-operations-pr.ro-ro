@@ -2,8 +2,6 @@
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 29, V3
 description: Acest subiect listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea actualizată 29, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
 ms.topic: article
@@ -17,44 +15,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2ac47974b9cc8386c7446136faf48724de73efce
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 320f4f74cb5997e42e2dc9e1d8c8a5ab95ae6647
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948670"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010486"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a><span data-ttu-id="10d9d-103">Ce este nou sau schimbat în Project Service Automation versiunea actualizată 29, V3</span><span class="sxs-lookup"><span data-stu-id="10d9d-103">What's new or changed in Project Service Automation Update Release 29, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a><span data-ttu-id="9fcda-103">Ce este nou sau schimbat în Project Service Automation versiunea actualizată 29, V3</span><span class="sxs-lookup"><span data-stu-id="9fcda-103">What's new or changed in Project Service Automation Update Release 29, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="10d9d-104">Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="10d9d-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="10d9d-105">Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității.</span><span class="sxs-lookup"><span data-stu-id="10d9d-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="10d9d-106">Această versiune este compatibilă cu Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="10d9d-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="10d9d-107">Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea.</span><span class="sxs-lookup"><span data-stu-id="10d9d-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="10d9d-108">Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="10d9d-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="9fcda-104">Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="9fcda-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="9fcda-105">Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității.</span><span class="sxs-lookup"><span data-stu-id="9fcda-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9fcda-106">Această versiune este compatibilă cu Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="9fcda-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9fcda-107">Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea.</span><span class="sxs-lookup"><span data-stu-id="9fcda-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="9fcda-108">Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="9fcda-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="10d9d-109">Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea actualizată 29.</span><span class="sxs-lookup"><span data-stu-id="10d9d-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 29.</span></span> <span data-ttu-id="10d9d-110">Această versiune are numărul de versiune V3.10.47.7 și este în general disponibilă printr-o actualizare automată în februarie 2021.</span><span class="sxs-lookup"><span data-stu-id="10d9d-110">This version has a build number of V3.10.47.7 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="9fcda-109">Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea actualizată 29.</span><span class="sxs-lookup"><span data-stu-id="9fcda-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 29.</span></span> <span data-ttu-id="9fcda-110">Această versiune are numărul de versiune V3.10.47.7 și este în general disponibilă printr-o actualizare automată în februarie 2021.</span><span class="sxs-lookup"><span data-stu-id="9fcda-110">This version has a build number of V3.10.47.7 and is generally available through a self-update in February 2021.</span></span>
 
-## <a name="update-release-29"></a><span data-ttu-id="10d9d-111">Lansarea de actualizări 29</span><span class="sxs-lookup"><span data-stu-id="10d9d-111">Update Release 29</span></span>
+## <a name="update-release-29"></a><span data-ttu-id="9fcda-111">Lansarea de actualizări 29</span><span class="sxs-lookup"><span data-stu-id="9fcda-111">Update Release 29</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="10d9d-112">Remedieri de erori</span><span class="sxs-lookup"><span data-stu-id="10d9d-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="9fcda-112">Remedieri de erori</span><span class="sxs-lookup"><span data-stu-id="9fcda-112">Bug fixes</span></span>
 
-<span data-ttu-id="10d9d-113">**Timp și cheltuială**</span><span class="sxs-lookup"><span data-stu-id="10d9d-113">**Time and Expense**</span></span>
+<span data-ttu-id="9fcda-113">**Timp și cheltuială**</span><span class="sxs-lookup"><span data-stu-id="9fcda-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="10d9d-114">S-au remediat următoarele probleme:</span><span class="sxs-lookup"><span data-stu-id="10d9d-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="9fcda-114">S-au remediat următoarele probleme:</span><span class="sxs-lookup"><span data-stu-id="9fcda-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="10d9d-115">Utilizatorii nu pot vizualiza orele de lucru înregistrate în zilele nelucrătoare în grila de introducere a timpului.</span><span class="sxs-lookup"><span data-stu-id="10d9d-115">Users can't see working hours logged on non-working days in the time entry grid.</span></span>
-- <span data-ttu-id="10d9d-116">Intrările de cheltuieli aprobate pot fi editate în grilă.</span><span class="sxs-lookup"><span data-stu-id="10d9d-116">Approved expense entries can be edited on the grid.</span></span>
+- <span data-ttu-id="9fcda-115">Utilizatorii nu pot vizualiza orele de lucru înregistrate în zilele nelucrătoare în grila de introducere a timpului.</span><span class="sxs-lookup"><span data-stu-id="9fcda-115">Users can't see working hours logged on non-working days in the time entry grid.</span></span>
+- <span data-ttu-id="9fcda-116">Intrările de cheltuieli aprobate pot fi editate în grilă.</span><span class="sxs-lookup"><span data-stu-id="9fcda-116">Approved expense entries can be edited on the grid.</span></span>
 
-<span data-ttu-id="10d9d-117">**Gestionare de proiect**</span><span class="sxs-lookup"><span data-stu-id="10d9d-117">**Project Management**</span></span>
+<span data-ttu-id="9fcda-117">**Gestionare de proiect**</span><span class="sxs-lookup"><span data-stu-id="9fcda-117">**Project Management**</span></span>
 
-<span data-ttu-id="10d9d-118">S-au remediat următoarele probleme:</span><span class="sxs-lookup"><span data-stu-id="10d9d-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="9fcda-118">S-au remediat următoarele probleme:</span><span class="sxs-lookup"><span data-stu-id="9fcda-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="10d9d-119">Lipsa logicii de validare pentru a asigura orele de efort de atribuire a resurselor nu poate fi negativă.</span><span class="sxs-lookup"><span data-stu-id="10d9d-119">Missing validation logic to ensure resource assignment effort hours can't be negative.</span></span>
-- <span data-ttu-id="10d9d-120">Acțiunea personalizată, **AtribuireResursePentruSarcină** actualizează toate câmpurile în loc să actualizeze doar câmpurile modificate.</span><span class="sxs-lookup"><span data-stu-id="10d9d-120">The custom action, **AssignResourcesForTask** updates all fields instead of only changed fields.</span></span>
-- <span data-ttu-id="10d9d-121">Când copiați un proiect într-un mediu cu inserturi sau fluxuri de lucru înregistrate pe evenimentul **CreațiProiect**, atributul **msdyn_bulkgenerationstatus** nu este actualizat dacă **CopiațiWBSLaProiect** eșuează.</span><span class="sxs-lookup"><span data-stu-id="10d9d-121">When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attribute isn't updated if the **CopyWBSToProject** fails.</span></span>
-- <span data-ttu-id="10d9d-122">Când extindeți calendarul proiectului, zilele lucrătoare nu sunt sortate în ordine crescătoare, cauzând eșecul unor actualizări ale sarcinilor proiectului.</span><span class="sxs-lookup"><span data-stu-id="10d9d-122">When you expand the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.</span></span>
-- <span data-ttu-id="10d9d-123">Schimbarea managerului de proiect pe un proiect existent declanșează logica implicită a unității organizaționale.</span><span class="sxs-lookup"><span data-stu-id="10d9d-123">Changing the Project Manager on an existing project triggers the organizational unit defaulting logic.</span></span>
+- <span data-ttu-id="9fcda-119">Lipsa logicii de validare pentru a asigura orele de efort de atribuire a resurselor nu poate fi negativă.</span><span class="sxs-lookup"><span data-stu-id="9fcda-119">Missing validation logic to ensure resource assignment effort hours can't be negative.</span></span>
+- <span data-ttu-id="9fcda-120">Acțiunea personalizată, **AtribuireResursePentruSarcină** actualizează toate câmpurile în loc să actualizeze doar câmpurile modificate.</span><span class="sxs-lookup"><span data-stu-id="9fcda-120">The custom action, **AssignResourcesForTask** updates all fields instead of only changed fields.</span></span>
+- <span data-ttu-id="9fcda-121">Când copiați un proiect într-un mediu cu inserturi sau fluxuri de lucru înregistrate pe evenimentul **CreațiProiect**, atributul **msdyn_bulkgenerationstatus** nu este actualizat dacă **CopiațiWBSLaProiect** eșuează.</span><span class="sxs-lookup"><span data-stu-id="9fcda-121">When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attribute isn't updated if the **CopyWBSToProject** fails.</span></span>
+- <span data-ttu-id="9fcda-122">Când extindeți calendarul proiectului, zilele lucrătoare nu sunt sortate în ordine crescătoare, cauzând eșecul unor actualizări ale sarcinilor proiectului.</span><span class="sxs-lookup"><span data-stu-id="9fcda-122">When you expand the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.</span></span>
+- <span data-ttu-id="9fcda-123">Schimbarea managerului de proiect pe un proiect existent declanșează logica implicită a unității organizaționale.</span><span class="sxs-lookup"><span data-stu-id="9fcda-123">Changing the Project Manager on an existing project triggers the organizational unit defaulting logic.</span></span>
 
-<span data-ttu-id="10d9d-124">**Vânzări**</span><span class="sxs-lookup"><span data-stu-id="10d9d-124">**Sales**</span></span>
+<span data-ttu-id="9fcda-124">**Vânzări**</span><span class="sxs-lookup"><span data-stu-id="9fcda-124">**Sales**</span></span>
 
-<span data-ttu-id="10d9d-125">S-au remediat următoarele probleme:</span><span class="sxs-lookup"><span data-stu-id="10d9d-125">The following issues have been fixed:</span></span>
+<span data-ttu-id="9fcda-125">S-au remediat următoarele probleme:</span><span class="sxs-lookup"><span data-stu-id="9fcda-125">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="10d9d-126">Fila **Executarea contractului** de pe pagina **Contract** eșuează în mod silențios în timpul inițializării când nu există linii de contract.</span><span class="sxs-lookup"><span data-stu-id="10d9d-126">The **Contract Performance** tab on the **Contract** page fails silently during initialization when no contract lines are present.</span></span>
+- <span data-ttu-id="9fcda-126">Fila **Executarea contractului** de pe pagina **Contract** eșuează în mod silențios în timpul inițializării când nu există linii de contract.</span><span class="sxs-lookup"><span data-stu-id="9fcda-126">The **Contract Performance** tab on the **Contract** page fails silently during initialization when no contract lines are present.</span></span>
