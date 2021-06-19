@@ -1,9 +1,7 @@
 ---
 title: Considerații privind upgrade-ul - Microsoft Dynamics 365 Project Service Automation versiunea 2.x or 1.x la versiunea 3
 description: Acest subiect oferă informații despre lucrurile pe care trebuie să le luați în calcul atunci când faceți upgrade de la Project Service Automation versiunea 2. x sau 1. x la versiunea 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281673"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014903"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerente legate de upgrade - PSA versiunea 2.x sau 1.x la versiunea 3
 
@@ -83,15 +81,15 @@ Acest lucru este valabil și pentru activitățile de linie care au fost atribui
 
 Pentru activități care sunt atribuite membrilor generici de echipă care au fost generate cu **Generare echipă**, actualizarea va lăsa resursa generică pe echipă și va lăsa atribuirea la acel membru generic de echipă. Vă recomandăm să generați cerința de resurse pentru membrul generic de echipă după actualizare, dar înainte de a rezerva sau remite o solicitare de resurse. Acest lucru va păstra toate atribuirile de unitate de organizație pe membrii generici ai echipei care sunt diferite de unitatea de organizație contractantă a proiectului.
 
-De exemplu, în proiectul Proiect Z, unitatea de organizație contractantă este Contoso US. În planul de proiect, pentru sarcinile de testare în faza de implementare a fost atribuit rolul consultant tehnic și unitatea de organizație atribuită este Contoso India.
+De exemplu, în proiectul Proiect Z, unitatea de organizație contractantă este Contoso SUA. În planul de proiect, pentru sarcinile de testare în faza de implementare a fost atribuit rolul consultant tehnic și unitatea de organizație atribuită este Contoso India.
 
 ![Alocarea organizației, faza de implementare](media/org-unit-assignment-09.png)
 
-După faza de implementare, sarcina de testare a integrării este atribuită rolului de consultant tehnic, dar organizația este setată la Contoso US.  
+După faza de implementare, sarcina de testare a integrării este atribuită rolului de consultant tehnic, dar organizația este setată la Contoso SUA.  
 
 ![Test integrare alocare sarcini organizație](media/org-unit-generate-team-10.png)
 
-Când generați o echipă pentru proiect, sunt creați doi membri generici de echipă din cauza diferitelor unități de organizație de pe activități. Consultantului tehnic 1 îi vor fi atribuite sarcinile Contoso India, iar consultantul tehnic 2 va avea sarcinile Contoso US.  
+Când generați o echipă pentru proiect, sunt creați doi membri generici de echipă din cauza diferitelor unități de organizație de pe activități. Consultantului tehnic 1 îi vor fi atribuite sarcinile Contoso India iar consultantul tehnic 2 va avea sarcinile Contoso SUA.  
 
 ![Membri de echipă generici generați](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -106,7 +104,7 @@ Puteți vedea unitatea de organizație în vizualizarea estimări.
  
 Când upgrade-ul este complet, unitatea de organizație de pe linia de activitate care corespunde cu membrul de echipă generic este adăugată la membrul de echipă generic și activitatea de linie este eliminată. Din acest motiv, vă recomandăm ca, înainte de actualizare, să generați sau să generați din nou echipa pe fiecare proiect care conține resurse generice.
 
-Pentru activitățile care sunt atribuite unui rol cu o unitate de organizație care diferă de unitatea de organizație a proiectului contractant și o echipă nu a fost generată, actualizarea va crea un membru de echipă generic pentru rol, dar va utiliza unitatea contractantă a proiectului pentru unitatea de organizație a membrului echipei. Referindu-ne la exemplul cu Proiectul Z, unității organizaționale contractante Contoso US, precum și sarcinilor de testare a planului de proiect în faza de implementare le-au fost atribuite rolul de consultant tehnic cu unitatea organizațională atribuite companiei Contoso India. Sarcinii de testare a integrării încheiată după faza de Implementare i se atribuie rolul de consultant tehnic. Unitatea de organizație este Contoso US și nu a fost generată o echipă. Actualizarea va crea un membru generic de echipă, un consultant tehnic care are orele atribuite pe toate cele trei sarcini, și o unitate de organizație Contoso US, unitatea de organizație contractantă a proiectului.   
+Pentru activitățile care sunt atribuite unui rol cu o unitate de organizație care diferă de unitatea de organizație a proiectului contractant și o echipă nu a fost generată, actualizarea va crea un membru de echipă generic pentru rol, dar va utiliza unitatea contractantă a proiectului pentru unitatea de organizație a membrului echipei. Referindu-ne la exemplul cu Proiect Z, unitatea de organizație contractantă Contoso SUA, precum și pentru sarcinile de testare a planului de proiect în faza de implementare au fost atribuite rolul de consultant tehnic cu unitatea de organizație atribuită Contoso India. Sarcinii de testare a integrării încheiată după faza de Implementare i se atribuie rolul de consultant tehnic. Unitatea de organizație Contoso SUA și o echipă nu a fost generată. ctualizarea va crea un membru generic de echipă, un consultant tehnic care are orele atribuite pe toate cele trei sarcini, și o unitate de organizație Contoso SUA, unitatea de organizație contractantă a proiectului.   
  
 Modificarea valorii implicite a diverselor unități organizaționale de resurse pe membrii echipei non-generați este motivul pentru care vă recomandăm să generați sau să generați din nou echipa pe fiecare proiect care conține resurse generice înainte de actualizare, astfel încât atribuirile unității organizaționale să nu se piardă.
 
