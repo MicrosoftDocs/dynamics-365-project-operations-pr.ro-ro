@@ -2,56 +2,54 @@
 title: Elaborarea șabloanelor de proiect cu Copiere proiect
 description: Acest subiect oferă informații despre cum să creați șabloane de proiect utilizând acțiunea personalizată Copiere proiect.
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7a1f602e789e07014fd6c742940f52341ce6c672
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949829"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005671"
 ---
-# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="fed1f-103">Elaborarea șabloanelor de proiect cu Copiere proiect</span><span class="sxs-lookup"><span data-stu-id="fed1f-103">Develop project templates with Copy Project</span></span>
+# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="53972-103">Elaborarea șabloanelor de proiect cu Copiere proiect</span><span class="sxs-lookup"><span data-stu-id="53972-103">Develop project templates with Copy Project</span></span>
 
-<span data-ttu-id="fed1f-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="fed1f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="53972-104">_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_</span><span class="sxs-lookup"><span data-stu-id="53972-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="fed1f-105">Dynamics 365 Project Operations acceptă capacitatea de a copia un proiect și de a reveni la orice resurse în resursele generice care reprezintă rolul.</span><span class="sxs-lookup"><span data-stu-id="fed1f-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="fed1f-106">Clienții pot utiliza această funcționalitate pentru a crea șabloane de bază de proiect.</span><span class="sxs-lookup"><span data-stu-id="fed1f-106">Customers can use this functionality to build basic project templates.</span></span>
+<span data-ttu-id="53972-105">Dynamics 365 Project Operations acceptă capacitatea de a copia un proiect și de a reveni la orice resurse în resursele generice care reprezintă rolul.</span><span class="sxs-lookup"><span data-stu-id="53972-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="53972-106">Clienții pot utiliza această funcționalitate pentru a crea șabloane de bază de proiect.</span><span class="sxs-lookup"><span data-stu-id="53972-106">Customers can use this functionality to build basic project templates.</span></span>
 
-<span data-ttu-id="fed1f-107">Când selectați **Copie proiect**, starea proiectului țintă este actualizată.</span><span class="sxs-lookup"><span data-stu-id="fed1f-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="fed1f-108">Utilizați **Motiv stare** pentru a determina când este finalizată acțiunea de copiere.</span><span class="sxs-lookup"><span data-stu-id="fed1f-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="fed1f-109">Selectarea **Copie proiect** actualizează, de asemenea, și data de începere a proiectului la data de început curentă dacă nu este detectată nicio dată țintă în entitatea proiectului țintă.</span><span class="sxs-lookup"><span data-stu-id="fed1f-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
+<span data-ttu-id="53972-107">Când selectați **Copie proiect**, starea proiectului țintă este actualizată.</span><span class="sxs-lookup"><span data-stu-id="53972-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="53972-108">Utilizați **Motiv stare** pentru a determina când este finalizată acțiunea de copiere.</span><span class="sxs-lookup"><span data-stu-id="53972-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="53972-109">Selectarea **Copie proiect** actualizează, de asemenea, și data de începere a proiectului la data de început curentă dacă nu este detectată nicio dată țintă în entitatea proiectului țintă.</span><span class="sxs-lookup"><span data-stu-id="53972-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
 
-## <a name="copy-project-custom-action"></a><span data-ttu-id="fed1f-110">Copiați acțiunea personalizată a proiectului</span><span class="sxs-lookup"><span data-stu-id="fed1f-110">Copy Project custom action</span></span> 
+## <a name="copy-project-custom-action"></a><span data-ttu-id="53972-110">Copiați acțiunea personalizată a proiectului</span><span class="sxs-lookup"><span data-stu-id="53972-110">Copy Project custom action</span></span> 
 
-### <a name="name"></a><span data-ttu-id="fed1f-111">Nume</span><span class="sxs-lookup"><span data-stu-id="fed1f-111">Name</span></span> 
+### <a name="name"></a><span data-ttu-id="53972-111">Nume</span><span class="sxs-lookup"><span data-stu-id="53972-111">Name</span></span> 
 
-<span data-ttu-id="fed1f-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="fed1f-112">**msdyn_CopyProjectV2**</span></span>
+<span data-ttu-id="53972-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="53972-112">**msdyn_CopyProjectV2**</span></span>
 
-### <a name="input-parameters"></a><span data-ttu-id="fed1f-113">Parametri de intrare</span><span class="sxs-lookup"><span data-stu-id="fed1f-113">Input parameters</span></span>
-<span data-ttu-id="fed1f-114">Există trei parametri de intrare:</span><span class="sxs-lookup"><span data-stu-id="fed1f-114">There are three input parameters:</span></span>
+### <a name="input-parameters"></a><span data-ttu-id="53972-113">Parametri de intrare</span><span class="sxs-lookup"><span data-stu-id="53972-113">Input parameters</span></span>
+<span data-ttu-id="53972-114">Există trei parametri de intrare:</span><span class="sxs-lookup"><span data-stu-id="53972-114">There are three input parameters:</span></span>
 
-| <span data-ttu-id="fed1f-115">Parametru</span><span class="sxs-lookup"><span data-stu-id="fed1f-115">Parameter</span></span>          | <span data-ttu-id="fed1f-116">Tip</span><span class="sxs-lookup"><span data-stu-id="fed1f-116">Type</span></span>   | <span data-ttu-id="fed1f-117">Valori</span><span class="sxs-lookup"><span data-stu-id="fed1f-117">Values</span></span>                                                   | 
+| <span data-ttu-id="53972-115">Parametru</span><span class="sxs-lookup"><span data-stu-id="53972-115">Parameter</span></span>          | <span data-ttu-id="53972-116">Tip</span><span class="sxs-lookup"><span data-stu-id="53972-116">Type</span></span>   | <span data-ttu-id="53972-117">Valori</span><span class="sxs-lookup"><span data-stu-id="53972-117">Values</span></span>                                                   | 
 |--------------------|--------|----------------------------------------------------------|
-| <span data-ttu-id="fed1f-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="fed1f-118">ProjectCopyOption</span></span>  | <span data-ttu-id="fed1f-119">Șir</span><span class="sxs-lookup"><span data-stu-id="fed1f-119">String</span></span> | <span data-ttu-id="fed1f-120">**{"removeNamedResources":true}** sau **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="fed1f-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
-| <span data-ttu-id="fed1f-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="fed1f-121">SourceProject</span></span>      | <span data-ttu-id="fed1f-122">Referință de entitate</span><span class="sxs-lookup"><span data-stu-id="fed1f-122">Entity Reference</span></span> | <span data-ttu-id="fed1f-123">Proiectul sursă</span><span class="sxs-lookup"><span data-stu-id="fed1f-123">Source Project</span></span> |
-| <span data-ttu-id="fed1f-124">Țintă</span><span class="sxs-lookup"><span data-stu-id="fed1f-124">Target</span></span>             | <span data-ttu-id="fed1f-125">Referință de entitate</span><span class="sxs-lookup"><span data-stu-id="fed1f-125">Entity Reference</span></span> | <span data-ttu-id="fed1f-126">Proiect țintă</span><span class="sxs-lookup"><span data-stu-id="fed1f-126">Target Project</span></span> |
+| <span data-ttu-id="53972-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="53972-118">ProjectCopyOption</span></span>  | <span data-ttu-id="53972-119">Șir</span><span class="sxs-lookup"><span data-stu-id="53972-119">String</span></span> | <span data-ttu-id="53972-120">**{"removeNamedResources":true}** sau **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="53972-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
+| <span data-ttu-id="53972-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="53972-121">SourceProject</span></span>      | <span data-ttu-id="53972-122">Referință de entitate</span><span class="sxs-lookup"><span data-stu-id="53972-122">Entity Reference</span></span> | <span data-ttu-id="53972-123">Proiectul sursă</span><span class="sxs-lookup"><span data-stu-id="53972-123">Source Project</span></span> |
+| <span data-ttu-id="53972-124">Țintă</span><span class="sxs-lookup"><span data-stu-id="53972-124">Target</span></span>             | <span data-ttu-id="53972-125">Referință de entitate</span><span class="sxs-lookup"><span data-stu-id="53972-125">Entity Reference</span></span> | <span data-ttu-id="53972-126">Proiect țintă</span><span class="sxs-lookup"><span data-stu-id="53972-126">Target Project</span></span> |
 
 
-- <span data-ttu-id="fed1f-127">**{"clearTeamsAndAssignments":true}**: Comportamentul implicit pentru proiectul pentru web și va elimina toate sarcinile și membrii echipei.</span><span class="sxs-lookup"><span data-stu-id="fed1f-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
-- <span data-ttu-id="fed1f-128">**{"removeNamedResources":true}** Comportamentul implicit pentru Project Operations și va reveni la atribuirea resurselor generice.</span><span class="sxs-lookup"><span data-stu-id="fed1f-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
+- <span data-ttu-id="53972-127">**{"clearTeamsAndAssignments":true}**: Comportamentul implicit pentru proiectul pentru web și va elimina toate sarcinile și membrii echipei.</span><span class="sxs-lookup"><span data-stu-id="53972-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
+- <span data-ttu-id="53972-128">**{"removeNamedResources":true}** Comportamentul implicit pentru Project Operations și va reveni la atribuirea resurselor generice.</span><span class="sxs-lookup"><span data-stu-id="53972-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
 
-<span data-ttu-id="fed1f-129">Pentru mai multe valori implicite privind acțiunile, consultați [Utilizați acțiuni Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="fed1f-129">For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
+<span data-ttu-id="53972-129">Pentru mai multe valori implicite privind acțiunile, consultați [Utilizați acțiuni Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="53972-129">For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
 
-## <a name="specify-fields-to-copy"></a><span data-ttu-id="fed1f-130">Specificați câmpurile de copiat</span><span class="sxs-lookup"><span data-stu-id="fed1f-130">Specify fields to copy</span></span> 
-<span data-ttu-id="fed1f-131">Când este apelată acțiunea, **Copie proiect** va analiza vizualizarea proiectului **Copiere coloane de proiecte** pentru a determina ce câmpuri să fie copiate la copierea proiectului.</span><span class="sxs-lookup"><span data-stu-id="fed1f-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
+## <a name="specify-fields-to-copy"></a><span data-ttu-id="53972-130">Specificați câmpurile de copiat</span><span class="sxs-lookup"><span data-stu-id="53972-130">Specify fields to copy</span></span> 
+<span data-ttu-id="53972-131">Când este apelată acțiunea, **Copie proiect** va analiza vizualizarea proiectului **Copiere coloane de proiecte** pentru a determina ce câmpuri să fie copiate la copierea proiectului.</span><span class="sxs-lookup"><span data-stu-id="53972-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
 
 
-### <a name="example"></a><span data-ttu-id="fed1f-132">Exemplu</span><span class="sxs-lookup"><span data-stu-id="fed1f-132">Example</span></span>
-<span data-ttu-id="fed1f-133">Următorul exemplu arată cum să apelați acțiunea personalizată **CopiațiProiect** cu setul de parametri **EliminațiResurseNumite**.</span><span class="sxs-lookup"><span data-stu-id="fed1f-133">The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.</span></span>
+### <a name="example"></a><span data-ttu-id="53972-132">Exemplu</span><span class="sxs-lookup"><span data-stu-id="53972-132">Example</span></span>
+<span data-ttu-id="53972-133">Următorul exemplu arată cum să apelați acțiunea personalizată **CopiațiProiect** cu setul de parametri **EliminațiResurseNumite**.</span><span class="sxs-lookup"><span data-stu-id="53972-133">The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.</span></span>
 ```C#
 {
     using System;
