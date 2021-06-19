@@ -2,11 +2,9 @@
 title: Creați un nou proiect
 description: Acest subiect oferă informații despre cum să creați un proiect nou.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270738"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006256"
 ---
 # <a name="create-a-new-project"></a>Creați un nou proiect
 
@@ -55,7 +53,7 @@ Un manager de proiect poate utiliza funcționalitatea de alocare de resurse proi
 
 [![Exemplu de rol](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenariu:** Contoso a fost angajat pentru a finaliza un proiect de timp și materiale care are o cartă de proiect aprobată. Managerul de proiect junior continuă să finalizeze domeniul de aplicare al proiectului. Managerul de resurse identifică în prezent resursele specifice care vor fi rezervate pentru a lucra la noul proiect. Datorită naturii critice a proiectului, sponsorul proiectului a solicitat managerul de proiect senior ca unul dintre roluri. Managerul de resurse trebuie să dobândească noua resursă și să definească rolul în sistem în cazul în care managerul de proiect junior are nevoie de informații despre resurse în timpul planificării proiectului.
+**Scenariu:** Contoso a fost angajat pentru a finaliza un proiect de timp și materiale care are o diagramă de proiect aprobată. Managerul de proiect junior continuă să finalizeze domeniul de aplicare al proiectului. Managerul de resurse identifică în prezent resursele specifice care vor fi rezervate pentru a lucra la noul proiect. Datorită naturii critice a proiectului, sponsorul proiectului a solicitat managerul de proiect senior ca unul dintre roluri. Managerul de resurse trebuie să dobândească noua resursă și să definească rolul în sistem în cazul în care managerul de proiect junior are nevoie de informații despre resurse în timpul planificării proiectului.
 
 Următorii pași arată modul în care managerul de resurse poate configura rolul de manager de proiect senior și poate asocia caracteristicile resursei acestuia. Ulterior, rolul poate fi folosit pentru a căuta resursele disponibile care corespund competențelor necesare pentru resursă.
 

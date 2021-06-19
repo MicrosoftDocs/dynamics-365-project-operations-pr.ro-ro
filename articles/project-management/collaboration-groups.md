@@ -2,18 +2,16 @@
 title: Colaborarea cu Grupuri Office
 description: Grupurile Office vă permit să partajați un proiect cu alți membri ai echipei din interiorul Common Data Service.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6cf481c3c68ecc76000ef23fd0d1eef0da49dce9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b39d370eade27ebb256a6fbaa24ca9f268eca2c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287187"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007066"
 ---
 # <a name="collaboration-with-office-groups"></a>Colaborarea cu Grupuri Office
 

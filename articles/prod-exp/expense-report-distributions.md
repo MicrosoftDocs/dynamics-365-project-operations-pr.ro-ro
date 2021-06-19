@@ -2,11 +2,9 @@
 title: Distribuțiile raportului de cheltuieli
 description: Când introduceți cheltuieli într-un raport de cheltuieli, puteți distribui cheltuielile în mai multe proiecte, persoane juridice sau conturi din organizația dvs.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857573c0c2ffaf1ce4bdeaf109a20c6c777b2288
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: df0d9eaa6727ab1bca5b9d966b610e37c9c9b913
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271773"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005311"
 ---
 # <a name="expense-report-distributions"></a>Distribuțiile raportului de cheltuieli
 
