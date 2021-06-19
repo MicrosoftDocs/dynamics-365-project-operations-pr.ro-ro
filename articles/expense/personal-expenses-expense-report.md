@@ -2,19 +2,17 @@
 title: Lucrul cu cheltuieli personale pe un raport de cheltuieli
 description: Acest subiect oferă informații despre cum să lucrați cu cheltuielile personale suportate de angajați în timp efectuează deplasări în interes de serviciu.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276246"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025699"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Lucrul cu cheltuieli personale pe un raport de cheltuieli
 
@@ -28,6 +26,15 @@ Există două metode pe care le puteți utiliza pentru a lucra cu cheltuielile p
   - **Plătit de companie**: Organizația dvs. plătește factura completă pentru cardul de credit corporativ și apoi debitează contul angajatului pentru cheltuielile personale.
 
 Puteți selecta metoda pe care organizația dvs. o folosește pe pagina **Parametrii de gestionare a cheltuielilor**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Activați funcția de cheltuială divizată atunci când câmpul cu sumă personală are valoarea definită
+
+Caracteristica, **Activați funcția de cheltuială divizată atunci când câmpul cu sumă personală are valoarea definită** se aplică numai rapoartelor de cheltuieli care sunt aprobate utilizând un flux de lucru la nivel de linie. Rapoartele sunt aprobate accesând **Procesați rapoarte de cheltuieli** > **Rapoarte de cheltuieli care mi-au fost atribuite** > **Raport de cheltuieli deschis**. 
+
+Pentru a activa această caracteristică, accesați **Spații de lucru** > **Managementul caracteristicilor**, selectați **Activați funcția de cheltuială divizată atunci când câmpul cu sumă personală are valoarea definită**, apoi selectați **Activați acum**. 
+
+Când funcția este activată, liniile de cheltuieli care utilizează această funcționalitate generează două linii atunci când raportul este trimis. Sunt generate două linii, astfel încât aprobatorul să poată aproba fiecare linie separat.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

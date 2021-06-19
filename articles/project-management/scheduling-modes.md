@@ -2,18 +2,16 @@
 title: Moduri de planificare
 description: Acest subiect oferă informații despre moduri de planificare.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981450"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116722"
 ---
 # <a name="scheduling-modes"></a>Moduri de planificare
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations oferă capacitatea organizațiilor de a defini m
 Există trei moduri de planificare disponibile în Project Operations:
 
   - Durată fixă (acesta este modul implicit)
-  - Lucru fix
+  - Efort fix (*Lucru*)
   - Unități fixe
 
 Valorile afectate de definiția unui mod de planificare specific sunt determinate de următoarea formulă:
 
-  Efort (*Muncă*) = Durată x Unități
+  Efort = Durată x Unități
 
 Când definiți modul de planificare al unui proiect, setați una dintre aceste valori, care apoi nu poate fi modificată. Păstrarea acestei valori ca constantă acordă o prioritate acelei valori, care notifică sistemul astfel încât să nu o modifice atunci când se schimbă celelalte două valori. Tabelul următor oferă informații despre impactul selectării unui mod specific.
 

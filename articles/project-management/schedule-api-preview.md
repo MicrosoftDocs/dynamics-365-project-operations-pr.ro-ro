@@ -2,18 +2,16 @@
 title: Utilizați API-uri de Planificare pentru a realiza operațiuni cu entități de Planificare
 description: Acest subiect oferă informații și exemple pentru utilizarea API-urilor de Planificare.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950819"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116812"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizați API-uri de Planificare pentru a realiza operațiuni cu entități de Planificare
 
@@ -268,7 +266,6 @@ Următoarea este o listă de limitări și probleme cunoscute:
 - Fiecare utilizator poate avea doar un maximum de 10 **OperationSets**.
 - Project Operations acceptă în prezent maximum 500 de sarcini totale pe un proiect.
 - **OperationSet** starea de eroare și jurnalele de erori nu sunt disponibile momentan.
-- Planificarea API-urilor sunt în versiune preliminară publică. Utilizarea acestor API-uri într-un mediu de producție nu este acceptată de Microsoft.
 - [Limite și restricții pentru proiecte și sarcini](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Eroare de tratare
