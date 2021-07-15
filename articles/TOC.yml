@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementarea mediilor
           items:
+            - name: Implementarea manuală a aplicației Dataverse Project Operations cu suport pentru scriere duală
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Asigurarea accesului pentru un nou mediu
               href: environment/resource-provision-new-environment.md
             - name: Model de securitate
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Noutăți
       items:
+        - name: Iulie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Iunie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Mai 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -282,7 +288,7 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor de planificare (versiune preliminară publică)
+            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
               href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
@@ -430,14 +436,12 @@
       items:
         - name: Configurați materialele care nu sunt pe stoc și facturile de vânzător în așteptare
           href: procurement/configure-materials-nonstocked.md
-        - name: Achiziționați pentru proiecte materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
+        - name: Achiziționarea pentru proiecte a unor materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
           href: procurement/pending-vendor-invoices.md
     - name: Facturare
       items:
         - name: Prezentare generală a procesului de facturare
           href: invoicing/post-project-invoices.md
-        - name: Gestionarea propunerilor de facturi pentru proiect
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturare proforma
           items:
             - name: Gestionarea jurnalului de așteptare pentru facturarea bazată pe proiect
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurarea automatizării facturilor bazate pe proiect
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Gestionarea propunerilor de facturi pentru proiect
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturare client
+          items:
+            - name: Gestionarea propunerilor de facturi pentru proiect
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Facturare între companii
+          items:
+            - name: Prezentare generală a facturării între companii
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurarea facturării între companii
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Crearea de tranzacții între companii
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Crearea de facturi de client și furnizor între companii
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Contabilitatea proiectelor
       items:
         - name: Valori implicite pentru dimensiunile financiare
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Jurnalul de integrare în Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Facturare între companii
-          items:
-            - name: Prezentare generală a facturării între companii
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Configurarea facturării între companii
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Crearea de tranzacții între companii
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Crearea de facturi de client și furnizor între companii
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Recunoașterea veniturilor
       items:
         - name: Prezentare generală a recunoașterii veniturilor
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
+        - name: Noutăți iulie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Noutăți iunie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Noutăți mai 2021 - implementare simplificată
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Noutăți aprilie 2021 - implementare simplificată
@@ -762,7 +774,7 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor de planificare (versiune preliminară publică)
+            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
               href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Noutăți
       items:
+        - name: Noutăți iulie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Noutăți mai 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Noutăți aprilie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Noutăți martie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -1034,6 +1050,10 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 31, V3'
