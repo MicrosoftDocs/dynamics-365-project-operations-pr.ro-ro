@@ -1,19 +1,19 @@
 ---
-title: Utilizați API-uri de Planificare pentru a realiza operațiuni cu entități de Planificare
-description: Acest subiect oferă informații și exemple pentru utilizarea API-urilor de Planificare.
+title: Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
+description: Acest subiect oferă informații și exemple pentru utilizarea API-urilor de planificare a proiectului.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116812"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293242"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizați API-uri de Planificare pentru a realiza operațiuni cu entități de Planificare
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
@@ -22,9 +22,9 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 ## <a name="scheduling-entities"></a>Entități de planificare
 
-API-urile de programare oferă posibilitatea de a efectua operațiuni de creare, actualizare și ștergere cu **Entități de planificare**. Aceste entități sunt gestionate prin intermediul motorului de planificare în Proiect pentru web. Creați, actualizați și ștergeți operațiuni cu **Entități de planificare** au fost restricționate în versiuni mai timpurii ale Dynamics 365 Project Operations.
+API-urile de planificare a proiectului oferă posibilitatea de a efectua operațiuni de creare, actualizare și ștergere pentru **Planificarea entităților**. Aceste entități sunt gestionate prin intermediul motorului de planificare în Proiect pentru web. Creați, actualizați și ștergeți operațiuni cu **Entități de planificare** au fost restricționate în versiuni mai timpurii ale Dynamics 365 Project Operations.
 
-Următorul tabel oferă o listă completă a **Entităților de planificare**.
+Următorul tabel oferă o listă completă a entităților de planificare a proiectului.
 
 | Nume de entitate  | Numele logic al entității |
 | --- | --- |
@@ -39,19 +39,19 @@ Următorul tabel oferă o listă completă a **Entităților de planificare**.
 
 OperationSet este un model de unitate de lucru care poate fi utilizat atunci când mai multe cereri care afectează planificarea trebuie procesate în cadrul unei tranzacții.
 
-## <a name="schedule-apis"></a>Planificați API-urile
+## <a name="project-schedule-apis"></a>API planificări de proiect
 
-Următoarea este o listă a API-urilor curente de planificare.
+În continuare este o listă a API-urilor curente de planificare a proiectului.
 
 - **msdyn_CreateProjectV1**: Acest API poate fi folosit pentru a crea un proiect. Proiectul și pachetul de proiect implicit sunt create imediat.
 - **msdyn_CreateTeamMemberV1**: Acest API poate fi utilizat pentru a crea un membru al echipei de proiect. Înregistrarea membrilor echipei este creată imediat.
 - **msdyn_CreateOperationSetV1**: Acest API poate fi utilizat pentru a programa mai multe solicitări care trebuie efectuate în cadrul unei tranzacții.
-- **msdyn_PSSCreateV1**: Acest API poate fi utilizat pentru a crea o entitate. Entitatea poate fi oricare dintre entitățile de planificare care susțin operațiunea de creare.
-- **msdyn_PSSUpdateV1**: acest API poate fi utilizat pentru a actualiza o entitate. Entitatea poate fi oricare dintre entitățile de planificare care susțin operațiunea de actualizare.
-- **msdyn_PSSDeleteV1**: acest API poate fi utilizat pentru a șterge o entitate. Entitatea poate fi oricare dintre entitățile de planificare care susțin operațiunea de ștergere.
+- **msdyn_PSSCreateV1**: Acest API poate fi utilizat pentru a crea o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de creare.
+- **msdyn_PSSUpdateV1**: acest API poate fi utilizat pentru a actualiza o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de actualizare.
+- **msdyn_PSSDeleteV1**: acest API poate fi utilizat pentru a șterge o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de ștergere.
 - **msdyn_ExecuteOperationSetV1**: Acest API este utilizat pentru a executa toate operațiunile din cadrul setului de operații date.
 
-## <a name="using-schedule-apis-with-operationset"></a>Utilizarea API-urilor de programare cu OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Utilizarea API-urilor de planificare a proiectelor cu OperationSet
 
 Pentru că înregistrează cu amândouă **CreateProjectV1** și **CreateTeamMemberV1** sunt create imediat, aceste API-uri nu pot fi utilizate în **OperationSet** direct. Cu toate acestea, puteți utiliza API-ul pentru a crea înregistrări necesare, pentru a crea un **OperationSet**, și apoi utilizați aceste înregistrări pre-create în **OperationSet**.
 
@@ -257,7 +257,7 @@ Următoarele tabele definesc câmpurile care sunt restricționate din **Creare**
 ## <a name="limitations-and-known-issues"></a>Limitări și probleme cunoscute
 Următoarea este o listă de limitări și probleme cunoscute:
 
-- API-urile de programare pot fi utilizate numai de **Utilizatori cu licență Microsoft Project.** Nu pot fi utilizate de:
+- API-urile de planificare a proiectelor pot fi utilizate numai de **Utilizatori cu licență Microsoft Project.** Nu pot fi utilizate de:
     - Utilizatori aplicație
     - Utilizatori de sistem
     - Utilizatori de integrare
@@ -271,7 +271,7 @@ Următoarea este o listă de limitări și probleme cunoscute:
 ## <a name="error-handling"></a>Eroare de tratare
 
    - Pentru a revizui erorile generate din seturile de operații, accesați **Setări** \> **Integrarea planificării** \> **Seturi de operații**.
-   - Pentru a examina erorile generate de serviciul de planificare a proiectelor, accesați **Setări** \> **Integrarea planificării** \> **Jurnalele de erori PSS**.
+   - Pentru a examina erorile generate de serviciul de planificare a proiectului, accesați **Setări** \> **Integrarea programului** \> **Jurnalele de erori PSS**.
 
 ## <a name="sample-scenario"></a>Eșantion de scenariu
 

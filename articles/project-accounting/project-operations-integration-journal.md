@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007156"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304271"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnalul de integrare în Project Operations
 
@@ -26,7 +26,7 @@ Intrări de timp și cheltuieli creează tranzacții **Reale** care reprezintă 
 Înregistrările din jurnalul de integrare a Project Operations sunt create utilizând un proces periodic, **Importați din tabelul de etapizare**. Puteți rula acest proces accesând **Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Periodic** > **Integrarea Project Operations** > **Importați din tabelul de etapizare**. Puteți rula procesul interactiv sau configura procesul pentru a rula în fundal, după cum este necesar.
 
 Când rulează procesul periodic, sunt găsite toate datele care nu sunt încă adăugate în jurnalul de integrare a Project Operations. Se creează o linie jurnal pentru fiecare tranzacție reală.
-Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (**Finanțe** > **Management de proiect și contabilitate** > **Configurare** > **Managementul proiectului și parametrii contabili**, fila **Project Operations Dynamics 365 Customer Engagement**). Valorile posibile pentru acest câmp includ:
+Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (**Finance** > **Management de proiect și contabilitate** > **Configurarea** > **Managementul proiectului și parametrii contabili**, fila **Project Operations Dynamics 365 Customer Engagement**). Valorile posibile pentru acest câmp includ:
 
   - **Zile**: datele reale sunt grupate după data tranzacției. Se creează un jurnal separat pentru fiecare zi.
   - **Luni**: datele reale sunt grupate după luna calendaristică. Se creează un jurnal separat pentru fiecare lună.

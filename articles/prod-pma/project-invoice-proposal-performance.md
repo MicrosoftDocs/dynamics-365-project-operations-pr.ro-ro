@@ -2,7 +2,7 @@
 title: Performanța propunerilor de facturi pentru proiect
 description: Acest subiect oferă informații despre îmbunătățirile de performanță pentru propunerile de facturi ale proiectului.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999506"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269805"
 ---
 # <a name="project-invoice-proposal-performance"></a>Performanța propunerilor de facturi pentru proiect
 
@@ -44,4 +44,6 @@ Terminați următorii pași pentru a dezactiva îmbunătățirea performanței p
 3.  Reîmprospătați browserul.
 
 > [!NOTE]
-> Performanța propunerii de factură nu poate fi aplicată atunci când regulile de facturare sunt activate sau se execută procese de lot.
+> Performanța propunerilor de factură nu poate fi aplicată atunci când regulile de facturare sunt activate.
+> 
+> În timpul procesului pe lot pentru a crea propuneri de facturare, numărul de sarcini secundare va împărți sarcinile la un număr maxim, pe baza numărului de contracte cu tranzacții facturabile, indiferent de ceea ce ați introdus. De exemplu, dacă introduceți **3** pentru numărul de subactivități pentru crearea de propuneri de facturi în lot și există doar două contracte cu tranzacții facturabile, sunt create doar două subactivități.

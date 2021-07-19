@@ -2,7 +2,7 @@
 title: Integrare Microsoft Project Client
 description: Planificarea și menținerea unui plan de proiect pot fi complexe, astfel încât managerii de proiect trebuie să utilizeze instrumente care îi ajută să gestioneze această sarcină. Integrarea cu Microsoft Project Client oferă suport pentru deschiderea și gestionarea unei structuri detaliate a proiectului.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999461"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269850"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrare Microsoft Project Client
 
@@ -126,5 +126,12 @@ Pentru a crea o nouă structură detaliată a proiectului utilizând Microsoft P
 
 11. Faceți clic pe **OK**.
 
+> [!NOTE]
+> Programul de completare Project Client nu acceptă următoarele caractere în formatul ID proiect:
+> 
+>   - Caracter de subliniere
+>   - Perioadă
+>   - Spațiu
+>   - Bară oblică
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
