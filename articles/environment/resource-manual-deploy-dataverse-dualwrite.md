@@ -1,0 +1,65 @@
+---
+title: Implementarea manuală a aplicației Project Operations Dataverse cu suport pentru scriere duală
+description: Acest subiect explică cum să implementați manual aplicația Project Operations Dataverse pentru a suporta scrierea duală.
+author: stsporen
+ms.date: 06/18/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: stsporen
+ms.openlocfilehash: 2ad147da542fc9e7a2705da7a834d1a6512907e5
+ms.sourcegitcommit: 205a94ab4168de25b102f31d00a691c8205ba63e
+ms.translationtype: HT
+ms.contentlocale: ro-RO
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "6274023"
+---
+# <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a><span data-ttu-id="e18fc-103">Implementarea manuală a aplicației Project Operations Dataverse cu suport pentru scriere duală</span><span class="sxs-lookup"><span data-stu-id="e18fc-103">Manually deploy the Project Operations Dataverse app with dual-write support</span></span>
+
+<span data-ttu-id="e18fc-104">_**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_</span><span class="sxs-lookup"><span data-stu-id="e18fc-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="e18fc-105">Acest subiect explică cum să implementați manual Microsoft Dynamics 365 Project Operations în Microsoft Dataverse pentru a suporta scrierea duală.</span><span class="sxs-lookup"><span data-stu-id="e18fc-105">This topic explains how to manually deploy Microsoft Dynamics 365 Project Operations in Microsoft Dataverse so that it supports dual-write.</span></span> <span data-ttu-id="e18fc-106">Project Operations detectează configurația mediului și adaugă suport suplimentar pentru scrierea duală dacă sunt îndeplinite condițiile prealabile.</span><span class="sxs-lookup"><span data-stu-id="e18fc-106">Project Operations detects the environment's configuration and adds additional support for dual-write if the prerequisites are met.</span></span>
+
+<span data-ttu-id="e18fc-107">În timpul implementarii prin Microsoft Dynamics Lifecycle Services (LCS), dacă ați urmat instrucțiunile din acest subiect, puteți sări peste implementarea integrării Microsoft Power Platform (cunoscută anterior sub numele de mediu Common Data Service).</span><span class="sxs-lookup"><span data-stu-id="e18fc-107">During deployment through Microsoft Dynamics Lifecycle Services (LCS), if you've followed the instructions in this topic, you can skip the deployment of the Microsoft Power Platform integration (previously known as the Common Data Service environment).</span></span>
+
+<span data-ttu-id="e18fc-108">Procesul de implementare a Project Operations în Dataverse, astfel încât să accepte scrierea duală, are patru pași principali:</span><span class="sxs-lookup"><span data-stu-id="e18fc-108">The process of deploying Project Operations in Dataverse so that it supports dual-write has four main steps:</span></span>
+
+1. <span data-ttu-id="e18fc-109">[Creați un mediu nou în Dataverse care acceptă scrierea duală](#create).</span><span class="sxs-lookup"><span data-stu-id="e18fc-109">[Create a new environment in Dataverse that supports dual-write](#create).</span></span>
+2. <span data-ttu-id="e18fc-110">[Adăugați condiții preliminare pentru scriere duală la mediu](#prerequisites).</span><span class="sxs-lookup"><span data-stu-id="e18fc-110">[Add dual-write prerequisites to the environment](#prerequisites).</span></span>
+3. <span data-ttu-id="e18fc-111">[Adăugați aplicația Project Operations Dataverse](#dataverse).</span><span class="sxs-lookup"><span data-stu-id="e18fc-111">[Add the Project Operations Dataverse app](#dataverse).</span></span>
+4. <span data-ttu-id="e18fc-112">[Legați mediile](#link).</span><span class="sxs-lookup"><span data-stu-id="e18fc-112">[Link your environments](#link).</span></span>
+
+## <a name="create-a-new-environment-in-dataverse-that-supports-dual-write"></a><a name="create"></a><span data-ttu-id="e18fc-113">Creați un mediu nou în Dataverse care acceptă scrierea duală</span><span class="sxs-lookup"><span data-stu-id="e18fc-113">Create a new environment in Dataverse that supports dual-write</span></span>
+
+<span data-ttu-id="e18fc-114">Pentru a finaliza această procedură, trebuie să vă conectați ca administrator.</span><span class="sxs-lookup"><span data-stu-id="e18fc-114">To complete this procedure, you must sign in as an administrator.</span></span>
+
+1. <span data-ttu-id="e18fc-115">Deschideți [Centrul de administrare Power Platform](https://admin.powerplatform.com) și conectați-vă ca administrator.</span><span class="sxs-lookup"><span data-stu-id="e18fc-115">Open the [Power Platform admin center](https://admin.powerplatform.com), and sign in as an administrator.</span></span>
+2. <span data-ttu-id="e18fc-116">Creați un mediu nou și numiți-l.</span><span class="sxs-lookup"><span data-stu-id="e18fc-116">Create a new environment, and name it.</span></span>
+3. <span data-ttu-id="e18fc-117">Selectați tipul de mediu.</span><span class="sxs-lookup"><span data-stu-id="e18fc-117">Select the environment type.</span></span> <span data-ttu-id="e18fc-118">Dacă v-ați înscris pentru oferta de versiune de încercare, selectați **Versiune de încercare (bazată pe abonament)**.</span><span class="sxs-lookup"><span data-stu-id="e18fc-118">If you signed up for the trial offer, select **Trial (subscription-based)**.</span></span>
+4. <span data-ttu-id="e18fc-119">Confirmați regiunea de implementare.</span><span class="sxs-lookup"><span data-stu-id="e18fc-119">Confirm the deployment region.</span></span>
+5. <span data-ttu-id="e18fc-120">Activați opțiunea **Creați o bază de date pentru acest mediu**.</span><span class="sxs-lookup"><span data-stu-id="e18fc-120">Enable the **Create a database for this environment** option.</span></span> 
+6. <span data-ttu-id="e18fc-121">Confirmați limba, apoi confirmați că moneda se potrivește cu moneda pentru aplicațiile dvs. Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e18fc-121">Confirm the language, and then confirm that the currency matches the currency for your Finance and Operations apps.</span></span>
+7. <span data-ttu-id="e18fc-122">Activați opțiunea **Aplicații Dynamics 365** și confirmați că câmpul **Implementați automat aceste aplicații** este setat la **Niciuna**.</span><span class="sxs-lookup"><span data-stu-id="e18fc-122">Enable the **Dynamics 365 apps** option, and confirm that the **Automatically deploy these apps** field is set to **None**.</span></span>
+8. <span data-ttu-id="e18fc-123">Adăugați un grup de securitate, dacă este necesar un grup de securitate.</span><span class="sxs-lookup"><span data-stu-id="e18fc-123">Add a security group, if a security group is required.</span></span>
+9. <span data-ttu-id="e18fc-124">Selectați **Salvare** pentru a crea mediul.</span><span class="sxs-lookup"><span data-stu-id="e18fc-124">Select **Save** to create the environment.</span></span>
+10. <span data-ttu-id="e18fc-125">Așteptați până când implementarea este finalizată și mediul ajunge la starea **Gata**.</span><span class="sxs-lookup"><span data-stu-id="e18fc-125">Wait until the deployment is completed and the environment reaches the **Ready** state.</span></span>
+
+## <a name="add-dual-write-prerequisites-to-the-environment"></a><a name="prerequisites"></a><span data-ttu-id="e18fc-126">Adăugați condiții preliminare pentru scriere duală la mediu</span><span class="sxs-lookup"><span data-stu-id="e18fc-126">Add dual-write prerequisites to the environment</span></span>
+
+<span data-ttu-id="e18fc-127">Suportul pentru scriere duală include câmpuri suplimentare care sunt adăugate la entități cheie, cum ar fi entitatea **Companie**.</span><span class="sxs-lookup"><span data-stu-id="e18fc-127">Dual-write support includes additional fields that are added to key entities, such as the **Company** entity.</span></span> <span data-ttu-id="e18fc-128">Dacă adăugați suport de scriere duală la un mediu existent, este posibil să trebuiască să actualizați datele pentru a activa asistența.</span><span class="sxs-lookup"><span data-stu-id="e18fc-128">If you're adding dual-write support to an existing environment, you might have to update the data to enable the support.</span></span> <span data-ttu-id="e18fc-129">Pentru informații despre cum să faceți bootstrap pentru date, consultați [Bootstrap Date companie](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span><span class="sxs-lookup"><span data-stu-id="e18fc-129">For information about how to bootstrap the data, see [Bootstrap company data](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span></span> <span data-ttu-id="e18fc-130">Pentru mai multe informații despre scrierea duală, consultați [Cerințe de sistem pentru scrierea duală](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span><span class="sxs-lookup"><span data-stu-id="e18fc-130">For more information about dual-write, see [Dual-write system requirements](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span></span>
+
+<span data-ttu-id="e18fc-131">Finalizați această procedură pentru a adăuga condițiile preliminare pentru scrierea duală în mediul dvs.</span><span class="sxs-lookup"><span data-stu-id="e18fc-131">Complete this procedure to add the dual-write prerequisites to your environment.</span></span>
+
+1. <span data-ttu-id="e18fc-132">Deschideți mediul pe care tocmai l-ați creat și apoi accesați **Resursă** \> **Aplicații Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="e18fc-132">Open the environment that you just created, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="e18fc-133">Selectați **Soluție de bază scriere duală** în lista de aplicații și instalați-o.</span><span class="sxs-lookup"><span data-stu-id="e18fc-133">Select **Dual-write core solution** in the app list, and install it.</span></span>
+3. <span data-ttu-id="e18fc-134">Așteptați până la finalizarea instalării.</span><span class="sxs-lookup"><span data-stu-id="e18fc-134">Wait until the installation is completed.</span></span> <span data-ttu-id="e18fc-135">Apoi selectați **Soluție orchestrare aplicație scriere duală** în lista de aplicații și instalați-o.</span><span class="sxs-lookup"><span data-stu-id="e18fc-135">Then select **Dual-write application orchestration solution** in the app list, and install it.</span></span>
+
+## <a name="add-the-project-operations-dataverse-app"></a><a name="dataverse"></a><span data-ttu-id="e18fc-136">Adăugați aplicația Project Operations Dataverse</span><span class="sxs-lookup"><span data-stu-id="e18fc-136">Add the Project Operations Dataverse app</span></span>
+
+<span data-ttu-id="e18fc-137">Puteți finaliza această procedură numai dacă ați finalizat procedurile anterioare înainte de a instala Project Operations.</span><span class="sxs-lookup"><span data-stu-id="e18fc-137">You can complete this procedure only if you completed the previous procedures before you installed Project Operations.</span></span> <span data-ttu-id="e18fc-138">În timpul instalării, sistemul analizează configurația mediului și adaugă suport pentru scrierea duală, dacă este necesar.</span><span class="sxs-lookup"><span data-stu-id="e18fc-138">During installation, the system analyzes the environment configuration and adds support for dual-write if it's required.</span></span>
+
+1. <span data-ttu-id="e18fc-139">Deschideți mediul pe care tocmai l-ați creat mai devreme și apoi accesați **Resursă** \> **Aplicații Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="e18fc-139">Open the environment that you created earlier, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="e18fc-140">Selectați **Microsoft Dynamics 365 Project Operations** în lista de aplicații și instalați-l.</span><span class="sxs-lookup"><span data-stu-id="e18fc-140">Select **Microsoft Dynamics 365 Project Operations** in the app list, and install it.</span></span>
+
+## <a name="link-your-environments"></a><a name="link"></a><span data-ttu-id="e18fc-141">Legați mediile</span><span class="sxs-lookup"><span data-stu-id="e18fc-141">Link your environments</span></span>
+
+<span data-ttu-id="e18fc-142">După ce este implementat mediul Dataverse, puteți configura legătura în aplicațiile Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e18fc-142">After the Dataverse environment is deployed, you can set up the link in your Finance and Operations apps.</span></span> <span data-ttu-id="e18fc-143">Urmați pașii din [Utilizați expertul cu scriere duală pentru a vă conecta mediile](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span><span class="sxs-lookup"><span data-stu-id="e18fc-143">Follow the steps in [Use the dual-write wizard to link your environments](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span></span>
