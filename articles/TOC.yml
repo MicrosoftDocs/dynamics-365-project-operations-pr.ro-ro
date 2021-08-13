@@ -12,7 +12,7 @@
       items:
         - name: Prezentare generală a implementării Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: environment/project-operations-integrated-deployment-overview.md
-        - name: Înscrieți-vă pentru un abonament de previzualizare
+        - name: Înscrieți-vă pentru un abonament în versiune preliminară
           href: environment/resource-sign-up-preview-subscription.md
         - name: Navigarea în Project Operations
           href: environment/navigate-project-operations.md
@@ -348,7 +348,7 @@
               href: resource-management/resource-utilization-overview.md
     - name: Timp
       items:
-        - name: Prezentare generală de timp
+        - name: Prezentare generală a timpului
           href: time/time-entry-overview.md
         - name: Crearea intrărilor de timp
           items:
@@ -510,7 +510,7 @@
       items:
         - name: Prezentare generală a implementării simplificate
           href: pro/project-operations-overview-lite.md
-        - name: Înscrierea pentru un abonament de previzualizare - simplificat
+        - name: Înscrierea pentru un abonament în versiune preliminară - simplificat
           href: environment/lite-preview-subscription-sign-up.md
         - name: Implementarea Project Operations - simplificată
           href: environment/lite-deployment.md
@@ -832,9 +832,19 @@
           items:
             - name: Prezentare generală a utilizării resurselor
               href: resource-management/resource-utilization-overview.md
+    - name: Subcontractarea gestionării în Project Operations
+      items:
+        - name: Prezentare generală a gestionării subcontractărilor
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Concepte cheie în subcontractare
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gestionarea furnizorilor și a listelor de prețuri ale proiectelor
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontractanții ca resurse ce se pot rezerva
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Timp
       items:
-        - name: Prezentare generală de timp
+        - name: Prezentare generală a timpului
           href: time/time-entry-overview.md
         - name: Crearea intrărilor de timp
           items:
@@ -1050,6 +1060,8 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 32.5, V3'
