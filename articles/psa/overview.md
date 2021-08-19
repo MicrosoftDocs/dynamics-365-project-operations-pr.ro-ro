@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee6fda5da83e4cb3c4910af49c33243f39fc73d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368941"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000276"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Ce este Dynamics 365 Project Service Automation?
 
@@ -82,7 +82,7 @@ Căutați resurse pentru a vă ajuta să vă planificați implementarea? Consult
  [Note pentru dezvoltatori (versiunea 2.x a aplicației)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Urmăriți un videoclip de prezentare generală de 2 minute
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
 

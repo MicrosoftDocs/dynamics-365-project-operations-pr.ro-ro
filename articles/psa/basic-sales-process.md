@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014221"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000546"
 ---
 # <a name="sales-processes"></a>Procese vânzări
 
@@ -39,7 +39,7 @@ Procesele de vânzări care sunt utilizate într-o organizație bazată pe proie
 
 Următoarea ilustrație arată un proces tipic de vânzări într-o organizație bazată pe proiecte.
 
-> ![Procesul de vânzări într-o organizație bazată pe proiecte](media/basic-guide-1.png)
+> ![Procesul de vânzări într-o organizație bazată pe proiecte.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Estimarea unei vânzări
 Valoarea unei vânzări poate fi estimată pe baza proiectelor care au fost livrate anterior și a complexității proiectelor. Pentru proiectele care implică extensii la proiecte anterioare sau proiectele în care expertiza furnizorului este mare și sunt utilizate șabloane de lucru bine cunoscute, puteți utiliza un proces de estimare mai simplu. Proiectele mai complexe au de obicei un proces de achiziție mai lung. Prin urmare, există mai multe etape în procesul de estimare a vânzărilor. La începutul procesului, echipa de vânzări utilizează contribuția administratorilor de cont și a experților în materie (EM) pentru a începe să creeze o estimare la nivel înalt pentru fiecare componentă distinctă a lucrărilor care este ofertată. Aceste componente ale lucrărilor sunt reprezentate prin linii de ofertă. 
@@ -50,7 +50,7 @@ Aveți posibilitatea să creați mai multe oferte pentru un proiect și să le g
 
 De asemenea, aveți posibilitatea să creați oferte alternative sub un tip de entitate oportunitate sau să configurați sistemul astfel încât să se creeze un contract de proiect atunci când se câștigă o ofertă. În acest caz, aveți posibilitatea să atașați un document Word care reprezintă SL la înregistrarea de contract de proiect.
 
-![Închiderea unei oferte pentru a crea un contract de proiect](media/basic-guide-2.png)
+![Închiderea unei oferte pentru a crea un contract de proiect.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Configurarea procesului de vânzări
 Aveți posibilitatea să utilizați fluxurile de business (FB) în Microsoft Dynamics 365 pentru a configura procesul de vânzări. FB-urile oferă personalului dvs. de vânzări o interfață vizuală ghidată pe care acesta o poate folosi pentru a face tranzacțiile să avanseze prin etapele care sunt tipice pentru compania dvs.
@@ -66,7 +66,7 @@ De exemplu, compania dvs. poate avea următoarele șase etape în procesul de v�
 
 Aceste șase etape sunt reprezentate de ghilimelele unghiulare (\>) pe care le selectați pentru a extinde în fiecare oportunitate tipul de entitate pe care îl creați.
 
-![Configurarea proceselor comerciale în Dynamics 365](media/basic-guide-3.png)
+![Configurarea proceselor comerciale în Dynamics 365.](media/basic-guide-3.png)
  
 Organizația dvs. poate utiliza entități diferite pentru a reprezenta aceeași tranzacție, pe măsură ce aceasta evoluează. La începutul procesului de vânzări, o tranzacție este reprezentată de entitatea Oportunitate. Pe măsură ce trece timpul și apar mai multe detalii, este posibil să utilizați estimări de nivel înalt pentru a crea una sau mai multe oferte. Dacă una dintre aceste oferte este revizuită de către participanții direct interesați interni și ai clienților, entitatea Ofertă reprezintă tranzacția. După ce clientul acceptă oferta, un contract de proiect sau o SL reprezintă tranzacția. Pentru a sprijini acest comportament, FB-urile sunt structurate astfel încât fiecare etapă din proces este legată la un tabel de baze de date diferit.
 
@@ -77,7 +77,7 @@ Pe măsură ce faceți tranzacțiile să avanseze prin etape, vi se solicită s�
 > [!NOTE]
 > PSA are anumite pagini pentru entitățile Oportunitate, Ofertă, Comandă și Factură. Trebuie să creați oportunități de servicii de proiecte, oferte, comenzi și facturi utilizând paginile de informații ale proiectului pentru aceste entități. Dacă utilizați o altă pagină pentru a crea o înregistrare, nu veți putea deschide înregistrarea din pagina **Informații proiect**. Dacă doriți să deschideți o înregistrare din pagina **Informații proiect**, trebuie să ștergeți înregistrarea și să o recreați utilizând pagina **Informații proiect**. În pagina **Informații proiect**, logica de business pentru fiecare dintre aceste tipuri de entități asigură faptul că câmpul **Tip** al înregistrării este setat corect și toate conceptele obligatorii sunt inițializate corect.
 
-> ![Informații despre proiect pentru o nouă comandă](media/basic-guide-4.png)
+> ![Informații despre proiect pentru o nouă comandă.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Diferențele dintre Project Service Automation și Sales
 Deși procesul de vânzări în PSA utilizează capacitățile de bază ale procesului de vânzări din Sales, acesta prezintă unele diferențe cheie din cauza variațiilor în practicile de afaceri ale organizațiilor bazate pe proiecte. Iată câteva exemple:

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000501"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezervați resurse denumite din cerințele de resurse
 
@@ -35,33 +35,33 @@ Aveți posibilitatea să rezervați o resursă denumită pentru a înlocui resur
 2. Selectați resursa generică care are o cerință de resurse din listă și apoi faceți clic pe **Rezervare**. Sau, deschideți cerința de resurse și apoi faceți clic pe **Rezervare**.
 
 
-![Rezervarea unui membru generic al echipei](media/RM-how-to-14.png)
+![Rezervarea unui membru generic al echipei.](media/RM-how-to-14.png)
 
 
 3. În pagina **Asistent de planificare**, selectați o resursă denumită pentru a rezerva în echipa de proiect și apoi faceți clic pe **Rezervare**.
 
-![Rezervarea unui membru generic al echipei folosind Asistentul de planificare](media/RM-how-to-15.png)
+![Rezervarea unui membru generic al echipei folosind Asistentul de planificare.](media/RM-how-to-15.png)
 
 Când rezervarea este finalizată și îndeplinită de o resursă denumită, resursa generică este înlocuită cu resursa denumită.
 
-![Membru al echipei denumit înlocuind un membru generic al echipei](media/RM-how-to-16.png)
+![Membru al echipei denumit înlocuind un membru generic al echipei.](media/RM-how-to-16.png)
 
 Atribuirile din planificare sunt actualizate și cu resursa denumită.
 
-![Membru al echipei denumit atribuit la activități de proiect](media/RM-how-to-17.png)
+![Membru al echipei denumit atribuit la activități de proiect.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Îndeplinirea unei resurse generice cu mai multe resurse denumite
 Îndeplinirea unei cerințe pentru o resursă generică cu mai multe resurse denumite este similară cu atribuirea unei singure resurse denumite. De exemplu, există o activitate cu o durată de cinci zile și 120 de ore de efort. Această activitate nu poate fi finalizată de către o singură resursă care lucrează o zi tipică de opt ore, cinci zile pe săptămână. 
 
-![O activitate care are nevoie de 120 de ore de efort de peste cinci zile](media/RM-how-to-21.png)
+![O activitate care are nevoie de 120 de ore de efort de peste cinci zile.](media/RM-how-to-21.png)
 
 Cerința este de 120 de ore de inginerie robotică timp de cinci zile, ceea ce înseamnă 24 de ore pe zi.
 
-![Cerință pe zi](media/RM-how-to-22.png)
+![Cerință pe zi.](media/RM-how-to-22.png)
 
 Acesta este un exemplu de moment în care sunt necesare mai multe resurse denumite pentru a îndeplini o solicitare de resurse generice. Va trebui să rezervați mai multe resurse pentru a îndeplini cerința.
 
-![Rezervarea mai multor resurse pentru a îndeplini cerința](media/RM-how-to-23.png)
+![Rezervarea mai multor resurse pentru a îndeplini cerința.](media/RM-how-to-23.png)
 
 Diferența principală în acest scenariu este că resursa generică rămâne pe echipa atribuită activității și membrii echipei de resurse denumiți rezervați nu sunt atribuiți ca parte a poziției. Managerul de proiect poate atribui lucrul după cum este adecvat către resursele denumite. Vizualizarea **Reconciliere** poate ajuta un manager de proiect la defalcarea rezervărilor în mai multe resurse pentru atribuiri de activități. Acest lucru nu se face în mod automat, deoarece în orice scenariu mai complicat decât exemplul simplu de mai sus, cum ar fi în cazul în care aveți un pachet de activități care alcătuiesc cerința, intenția modului în care managerul de proiect vrea să atribuie trebuie să fie asumată de sistem. Deoarece sistemul nu poate înțelege intenția, sunt șanse ca ipotezele să fie diferite de cele preconizate și să se producă un rezultat incorect sau imprevizibil. Rezultatul previzibil este că resursa generică rămâne atribuită până când managerul de proiect creează în mod deliberat atribuiri, utilizând vizualizarea **Reconciliere**.
 

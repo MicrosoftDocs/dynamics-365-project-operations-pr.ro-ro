@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009226"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000186"
 ---
 # <a name="product-catalog-pricing"></a>Tarifare pentru Catalog de produse 
 
@@ -44,7 +44,7 @@ Puteți adăuga produse dintr-un catalog de produse la diferite liste de prețur
 
 PSA acceptă diverse opțiuni de rotunjire atunci când prețurile sunt configurate ca o funcție a prețului de listă, costului standard sau costului curent. În plus față de a profita de mai multe metode de stabilire a prețurilor și opțiuni de rotunjire, puteți asocia liste de reduceri cu elemente de listă de prețuri. 
 
-> ![Adăugarea produselor dintr-un catalog la liste de prețuri diferite](media/basic-guide-16.png)
+> ![Adăugarea produselor dintr-un catalog la liste de prețuri diferite.](media/basic-guide-16.png)
 
 Atunci când creați o nouă listă de prețuri particularizate pentru o ofertă selectând **Creați prețuri particularizate** pe pagina **Ofertă de proiect**, PSA face o copie a listei de prețuri și câmpul **Entitate** pe antetul noii liste de prețuri este setată la **Entitate de vânzări**. Numele listei de prețuri noi este anexat cu numele ofertei și cu un marcaj temporal. De asemenea, puteți utiliza numele listei de prețuri noi și numele ofertei în fluxuri de lucru particularizate pentru a declanșa revizuire suplimentară și aprobări pentru ofertele care utilizează prețuri particularizate.
 
