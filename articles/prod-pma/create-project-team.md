@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005811"
 ---
 # <a name="create-a-project-team"></a>Crearea unei echipe de proiect
 
@@ -33,7 +33,7 @@ Setările de vizualizare pot fi, de asemenea, personalizate pentru a oferi o ima
 
 Managerul de proiect poate selecta un rol pe pagină și apoi, dacă există o resursă disponibilă care se potrivește cerinței, selectează să rezerve o resursă pentru a ocupa rolul. Rețineți că resursele nu trebuie rezervate în acest moment în etapa de planificare. Când creați un WBS, puteți înlocui rolurile cu resurse de personal pentru proiect. Dacă rolurile sunt înlocuite cu resurse de personal în WBS, configurarea resurselor actualizează automat lista și programarea echipei de proiect.
 
-[![Listarea echipei de proiect care include atât roluri, cât și resurse reale](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Listarea echipei de proiect care include atât roluri, cât și resurse reale.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Managerul de proiect are diverse opțiuni pentru rezervarea unei resurse pentru un proiect, cum ar fi **Capacitate rămasă**, **Capacitate completă**, **Procent de capacitate**, și **Specificare ore**. Aceste opțiuni de rezervare pot fi anulate în orice moment în cazul în care se schimbă atribuirea resurselor. Sunt acceptate două tipuri de rezervări:
 

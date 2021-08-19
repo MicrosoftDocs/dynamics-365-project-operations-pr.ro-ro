@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999056"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007431"
 ---
 # <a name="manage-resource-competencies"></a>Gestionarea competențelor de resurse
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999056"
 
 Competențele de resurse sunt o parte esențială a gestionării resurselor. Competențele pot fi utilizate ca bază pentru a determina resursele care au echilibrul corect de abilități, educație, certificare și experiență în proiect. Ar trebui să configurați aceste informații pentru fiecare resursă și să le actualizați în mod regulat. În acest fel, puteți maximiza capacitățile atunci când competențele specifice resurselor sunt potrivite în timpul alocării resurselor proiectului.
 
-[![Exemple de abilități, certificări, educație și experiență în proiect](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Exemple de abilități, certificări, educație și experiență în proiect.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Următoarele proceduri explică modul de configurare a unor competențe pentru o resursă.
 

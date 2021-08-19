@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369706"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007521"
 ---
 # <a name="project-management-and-accounting-overview"></a>Management de proiect și prezentare generală a contabilității
 
@@ -34,14 +34,14 @@ Un proiect este un grup de activități care este conceput pentru a oferi un ser
 ## <a name="projects-across-industries"></a>Proiecte între industrii
 Funcționalitatea de gestionare a proiectelor și contabilitate poate fi utilizată în mai multe industrii, așa cum se arată în ilustrația următoare.
 
-[![Proiecte între industrii](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proiecte între diverse industrii.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Într-un centru de apel, un bilet poate fi utilizat pentru a descrie setul de acțiuni necesare pentru rezolvarea unui apel. Companiile de consultanță, cum ar fi organizațiile de management sau consultanță tehnică sau agențiile de publicitate, se referă la activitățile lor ca proiecte. În marketing, o campanie reprezintă un set de comenzi care trebuie finalizate. În producția bazată pe proiecte, o comandă de producție se referă la diferitele lucrări care trebuie făcute pentru a produce unele produse finite. Indiferent de denumirea utilizată pentru acestea, aceste proiecte implică resurse, planificări și costuri, iar funcționalitatea de management și contabilitate a proiectului poate ajuta la planificarea, execuția și analiza acestor proiecte.
 
 ## <a name="project-phases"></a>Fazele proiectului
 Deși următorul flux de proces este destinat proiectelor externe sau proiectelor care sunt finalizate pentru unul sau mai mulți clienți, funcționalitatea se aplică și proiectelor interne, numai pe bază de costuri. 
 
-![3 etape ale unui proiect](./media/3-stages-of-a-project.png) 
+![3 etape ale unui proiect.](./media/3-stages-of-a-project.png) 
 
 După cum se arată în ilustrația precedentă, managementul proiectului și contabilitatea pot fi împărțite în trei etape:
 
@@ -50,7 +50,7 @@ După cum se arată în ilustrația precedentă, managementul proiectului și co
 3.  Analizare
 
 ## <a name="initiate-the-project"></a>Inițiază proiectul
-În timpul inițierii proiectului, apar mai multe procese cheie. Puteți utiliza o ofertă de proiect pentru a comunica clientului forța de muncă, cheltuielile și materialele estimate. Puteți înregistra termenii, limitele și acordurile de facturare într-un contract de proiect. Puteți utiliza o structură detaliată a proiectului (WBS) pentru a planifica și estima lucrarea. Puteți configura prognoze și bugete pentru a ghida execuția proiectului. Următoarea ilustrație arată structura unui proiect.[![structura proiectului](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+În timpul inițierii proiectului, apar mai multe procese cheie. Puteți utiliza o ofertă de proiect pentru a comunica clientului forța de muncă, cheltuielile și materialele estimate. Puteți înregistra termenii, limitele și acordurile de facturare într-un contract de proiect. Puteți utiliza o structură detaliată a proiectului (WBS) pentru a planifica și estima lucrarea. Puteți configura prognoze și bugete pentru a ghida execuția proiectului. Următoarea ilustrație arată structura unui proiect.[![structura proiectului.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Crearea de oferte de proiect
 

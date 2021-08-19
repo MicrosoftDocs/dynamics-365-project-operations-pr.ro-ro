@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003060"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005766"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementați câmpuri personalizate pentru aplicație mobilă Microsoft Dynamics 365 Project Timesheet pe iOS și Android
 
@@ -153,13 +153,13 @@ Pentru câmpurile de tipul **Data**, această proprietate trece valoarea datei c
 
 Mai jos este o captură de ecran din aplicația mobilă a unei creații de intrare a foii de pontaj. Afișează câmpurile predefinite și un câmp personalizat în secțiunea „Intrare pontaj” numită „Șir de testare”, cu o valoare enum de „A doua opțiune” deja setată.
 
-![Testați câmpul personalizat al șirului în aplicație](media/timesheet-entry.jpg)
+![Testați câmpul personalizat al șirului în aplicație.](media/timesheet-entry.jpg)
 
 
 
 Mai jos este o captură de ecran din aplicația mobilă a utilizatorului care selectează una dintre opțiunile de enum disponibile pentru câmpul personalizat „Șir de testare”.  Cele două opțiuni sunt „Prima opțiune” și „A doua opțiune” afișate ca butoane radio. În prezent, este selectată a doua opțiune.
 
-![Butoane de opțiune (butoane radio) pentru câmpul personalizat Șir de testare](media/enum-option.jpg)
+![Butoane de opțiune (butoane radio) pentru câmpul personalizat Șir de testare.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Rețineți că câmpurile personalizate nu trebuie să aibă nicio înregistrare
 
 Mai jos este o captură de ecran din Visual Studio din arborele obiectelor aplicației. Afișează o extensie a tabelului TSTimesheetLine cu câmpul TestLineString adăugat ca un câmp personalizat.
 
-![Șir de linie](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Șir de linie.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Utilizați lanțul de comandă pe metoda buildCustomFieldList a clasei TSTimesheetSettings pentru a afișa un câmp în secțiunea de intrare a foii de pontaj
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Mai jos este o captură de ecran din aplicația mobilă a unui utilizator care vizualizează o foaie de pontaj. Butonul „Mai multe informații” a fost selectat în colțul din dreapta sus pentru a afișa opțiunea „Vizualizați mai multe detalii”.  
 
-![Afișați mai multe detalii de comandă](media/show-more.png)
+![Afișați mai multe detalii de comandă.](media/show-more.png)
 
 Mai jos este o captură de ecran din aplicația mobilă care arată secțiunea „Mai multe” a unei foi de pontaj. Un câmp personalizat numit „Rata de utilizare a acestei foi de pontaj (câmp personalizat calculat)” a fost adăugat la secțiunea de antet a foii de pontaj. O valoare de numai în citire „0.667” este setată în câmpul personalizat.
 
-![Mai multe secțiuni](media/more-section.jpg)
+![Mai multe secțiuni.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Extindeți tabelul TSTimesheetTable astfel încât să aibă un câmp personalizat
 
@@ -414,7 +414,7 @@ Logica existentă pentru funcționalitatea foii de pontaj la nivelul bazei de da
 
 Din parametrii proiectului, puteți crea câmpuri predefinite doar în citire sau ascunse în aplicația mobilă. Setați opțiunile din secțiunea **Fișe de pontaj mobile** de pe fila **Fișă de pontaj** din pagina **Managementul proiectului și parametrii contabili**.
 
-![Parametrii proiect](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parametri proiect.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Schimbarea activităților disponibile pentru selectare prin extensii
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369481"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007341"
 ---
 # <a name="project-resourcing-home-page"></a>Pagina de pornire a resurselor de proiect
 
@@ -38,7 +38,7 @@ O provocare pentru managerii de proiect și managerii de resurse în etapa de pl
 - Estimarea numărului de resurse necesare pentru întregul ciclu de viață al unui proiect.
 - Elaborarea structurii detaliate a proiectului (WBS) utilizând atribuirile inițiale de resurse.
 
-[![Ciclul de viață al proiectului](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Ciclul de viață al proiectului.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Pe măsură ce planificarea proiectului continuă, resursele planificate pot fi înlocuite cu resurse de personal. Managerul de proiect poate, de asemenea, să revină și să actualizeze rezervările de resurse în orice etapă a proiectului.
 
