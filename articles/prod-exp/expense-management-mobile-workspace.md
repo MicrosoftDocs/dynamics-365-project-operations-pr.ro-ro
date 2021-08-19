@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993656"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001491"
 ---
 # <a name="expense-management-mobile-workspace"></a>Spațiu de lucru mobil pentru gestionarea cheltuielilor
 
@@ -100,7 +100,7 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 5. După ce vă conectați, sunt afișate spațiile de lucru disponibile pentru compania dvs. Rețineți că, dacă administratorul de sistem publică mai târziu un spațiu de lucru nou, va trebui să reîmprospătați lista spațiilor de lucru mobile.
 
 
-[![Trageți pentru a reîmprospăta](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Trageți pentru a reîmprospăta.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Capturați o chitanță utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008326"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002346"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț 
 
@@ -41,11 +41,11 @@ Pentru ca un câmp să devină o dimensiune de preț, trebuie să fie:
 - Creat ca un câmp în entitățile **Preț rol** și **Adaos preț rol**. Pentru mai multe informații despre cum se face acest lucru, consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale](field-references.md).
 - Creat ca rând în tabelul **Dimensiune preț**. De exemplu, adăugați rânduri de dimensiuni de preț așa cum se arată în graficul următor. 
 
-![Rânduri de dimensiuni de preț bazate pe sume](media/Amt-based-PD.png)
+![Rânduri de dimensiuni de preț bazate pe sume.](media/Amt-based-PD.png)
 
 Observați că programul de lucru resurse (**msdyn_resourceworkhours**) a fost adăugat ca o dimensiune bazată pe adaos și a fost adăugat la grilă pe fila **Dimensiune de preț bazată pe adaos** .
 
-![Rânduri de dimensiuni de preț bazate pe adaos](media/Markup-based-PD.png)
+![Rânduri de dimensiuni de preț bazate pe adaos.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Orice modificare a datelor de dimensiune de preț în acest tabel, existente sau noi, este propagată în logica de business de tarifare Project Service numai după reîmprospătarea cache. Timpul de reîmprospătare a memoriei cache poate dura până la 10 minute. Permiteți acea perioadă de timp pentru a vedea modificările din logica de nerambursare a prețului care trebuie să rezulte din modificările datelor dimensiunii prețurilor.

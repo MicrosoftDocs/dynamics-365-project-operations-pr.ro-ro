@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009181"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002571"
 ---
 # <a name="project-costs-and-revenue"></a>Costuri și venit de proiect
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009181"
 
 Estimările proiectului furnizează perspectiva financiară a lucrului estimat și planificat în planificarea proiectului. Fila **Estimări** de pe pagina **Proiecte** proiecte afișează impactul costurilor și veniturilor lucrului pe care îl planificați. De asemenea, oferă informații despre multe dimensiuni predefinite. 
 
-> ![Fila Estimări](media/project-5.png)
+> ![Fila Estimări.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Costul și valoarea de vânzărilor a proiectului
 
@@ -66,13 +66,13 @@ Dacă sistemul nu găsește un preț pentru rol, prețul de vânzări al liniei 
 
 Fila **Estimări** are o vizualizare grilă care afișează linii de estimare. Grila include coloanele pentru unitate, prețul total de cost și prețul total de vânzare, așa se arată în ilustrația următoare. 
 
-> ![Vizualizare grilă pe fila Estimări](media/project-6.png)
+> ![Vizualizare grilă pe fila Estimări.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vizualizarea pe etape a estimărilor proiectului
 
 Vizualizarea pe etape a estimărilor de proiect arată datele estimate din vizualizarea grilă din cronologie, într-o scală de timp selectată. În mod implicit, datele estimate sunt pivotate pe dimensiunea **Rolului**.
 
-> ![Vizualizarea pe etape pentru estimările proiectului](media/project-7.png)
+> ![Vizualizarea pe etape pentru estimările proiectului.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alocarea efortului estimat pe baza modului de activitate
 

@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368491"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001986"
 ---
 # <a name="pricing-dimensions-overview"></a>Prezentare generală a dimensiunilor de preț
 
@@ -33,7 +33,7 @@ Din acest motiv, există două tipuri de valori de dimensiune de preț disponibi
 
 Dynamics 365 Project Operations livrează cu un set implicit de dimensiuni de stabilire a prețurilor. Puteți vizualiza aceste dimensiuni de preț accesând **Operațiuni de preț** > **Parametri**. În înregistrarea parametru, pe fila **Dimensiuni de preț bazate pe volum**, verificați că rolul **, msdyn_resourcecategory** și unitatea organizațională de obținere a resurselor **msdyn_organizationalunit** au câmpurile **Aplicabile vânzărilor** și **Aplicabile costurilor** setate la **Da**. Când sunt activate aceste câmpuri, puteți configura prețul și costul pentru fiecare rol și combinație de unitate organizatorică.
 
-![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat](media/PS-OOB-parameters.png)
+![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat.](media/PS-OOB-parameters.png)
 
 Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru informații suplimentare, consultați următoarele subiecte. 
   

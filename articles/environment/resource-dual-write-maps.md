@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025789"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003831"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versiuni de hartă Project Operations cu scriere duală
 
@@ -32,7 +32,7 @@ Următoarele hărți sunt condiții preliminare necesare pentru soluția Project
 
 1. Din lista de hărți, selectați harta Registru **(msdyn\_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. În câmpul **Coordonator pentru sincronizarea inițială**, selectați **aplicații Finance and Operations** atât pentru harta contabilă, cât și pentru toate hărțile preliminare necesare. Selectare rând **Rulare**.
 
-![Sincronizarea hărții registrului](media/DW6.png)
+![Sincronizarea hărții registrului contabil.](media/DW6.png)
 
 2. Urmați aceiași pași pentru toate hărțile de tabel rămase enumerate în tabelul de mai sus. Nu selectați caseta de selectare **Sincronizare inițială** atunci când rulați acele hărți.
 
@@ -65,7 +65,7 @@ Parcurgeți următorii pași pentru a rula hărțile listate.
 
 1. Activați rolurile de resurse ale proiectului pentru harta tabelului **toate companiile (bookableresourcecategories)** deoarece această hartă necesită sincronizarea inițială. În câmpul **Coordonator pentru sincronizarea inițială** selectați **Common Data Service**. 
 
- ![Sincronizarea hărții tabelului de rol de resursă](media/6ResourceInitialSync.jpg)
+ ![Sincronizarea hărții tabelului de rol de resursă.](media/6ResourceInitialSync.jpg)
 
  Așteptați până când starea hărții este **Rulare** înainte de a trece la pasul următor.
 

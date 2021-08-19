@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009631"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005091"
 ---
 # <a name="organizational-units"></a>Unități organizaționale 
 
@@ -53,7 +53,7 @@ Unitatea organizațională joacă două roluri în PSA:
 - **Unitate contractantă** – unitatea organizațională care reprezintă grupul de firme sau divizia care este principalul responsabil cu câștigarea vânzării și cu gestionarea livrării de lucrări și servicii către client. Unitatea contractantă este identificată de câmpul **Unitate contractantă** din secțiunea antet a paginilor **Oportunitate**, **Ofertă**, **Contract de proiect** și **Proiect**.
 - **Unitate resursă** – unitatea organizațională căreia îi aparține sau îi este atribuită o resursă. Această unitate organizațională poate furniza resursele sale pentru unele roluri pe specificațiile de lucru (SL) și proiecte care sunt deținute de unitatea contractantă.
 
-> ![Unități contractante și unități de resurse](media/advanced-1.png)
+> ![Unități contractante și unități de resurse.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Întrebări frecvente despre unitatea organizațională
 

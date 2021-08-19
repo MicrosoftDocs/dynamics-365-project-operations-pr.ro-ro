@@ -1,8 +1,8 @@
 ---
 title: Cheltuieli între companii
 description: Acest subiect oferă informații despre modul de utilizare a cheltuielilor inter-companii pentru a aloca cheltuielile unui lucrător persoanei juridice pentru care a fost efectuată munca.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005086"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001221"
 ---
 # <a name="intercompany-expenses"></a>Cheltuieli între companii
 
@@ -34,5 +34,17 @@ Un lucrător care este angajat de o entitate juridică într-o organizație ar p
 Înainte de a putea utiliza grupuri de impozite care sunt asociate cu persoana juridică care împrumută (sursă) în locul entității juridice împrumutate (de destinație) în raportul dvs. de cheltuieli, trebuie să activați funcționalitatea în secțiunea de configurare a impozitului pe vânzări din registrul general. Cand **Persoană juridică pentru înregistrarea impozitelor inter-companii** parametrul este setat la **Sursă** și **Aplicați regulile de impozitare a impozitului pe vânzări** este setat pe **Nu**, se utilizează o combinația de impozite pentru persoana juridică care împrumută. Când același parametru este setat la **Destinaţie**, va fi utilizată combinația fiscală pentru împrumutarea entității juridice. Pentru persoanele juridice din Statele Unite, când parametrul este setat la **Sursă**, câmpul **Impozit pe vânzări de primit** trebuie configurat și pe noua pagină **Grupuri de înregistrare a registrului**. Motorul contabil va utiliza informațiile din acest câmp pentru înregistrarea contabilă referitoare la impozite.   
 Comportamentul este consecvent pentru liniile de cheltuieli postate cu sau fără un proiect.  
 
+## <a name="new-expense-expression-builder"></a>Nou constructor de expresii de cheltuieli
+
+Noul constructor de expresii de cheltuieli abordează probleme cu scenariile de cheltuieli între companii care utilizează proiecte. Această caracteristică asigură faptul că, atunci când creați o cheltuială între companii, politica de cheltuieli este corect validată în raport cu proiectul selectat pe linia de cheltuieli și că raportul de cheltuieli poate fi trimis cu succes.
+
+Pentru ca funcția constructor de expresii de cheltuieli să funcționeze, trebuie să fie activată. În plus, ar trebui configurată politica de cheltuieli care are un ID de proiect.
+
+Dacă ați configurat deja politici care validează ID-ul proiectului pe linia de cheltuieli, aceste politici trebuie să fie retrase. Apoi puteți activa caracteristica și să reconfigurați politicile.
+
+Pentru a activa caracteristica, urmați pașii de mai jos.
+
+1. Accesați **Spații de lucru** \> **Gestionare caracteristică**.
+2. În listă, selectați **Noul constructor de expresii de cheltuieli pentru a aborda probleme cu scenariile de cheltuieli inter-companii care utilizează proiecte**. Selectați apoi **Activați acum**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
