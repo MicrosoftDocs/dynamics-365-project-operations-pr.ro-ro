@@ -6,12 +6,12 @@ ms.date: 01/07/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005716"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998746"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -83,7 +83,7 @@ Următorul tabel prezintă atribute de programare suplimentare.
 | Efort finalizat (ore) | Volumul total de muncă finalizat pentru sarcină în ore. |
 | Durată | Afișează durata pentru sarcină în zile. |
 | Efort total | Volumul total de muncă pentru sarcină în ore. |
-| Terminați | Data și ora de finalizare |
+| Terminați | Data și ora de finalizare. |
 | % finalizat | Procentul din sarcină care este finalizat. |
 | Pachet de proiect | Panoul de activități poate fi grupat după pachet, astfel încât fiecare pachet să aibă propria coloană. |
 | Efort rămas (ore) | Volumul total de lucru rămas pentru sarcină în ore. |

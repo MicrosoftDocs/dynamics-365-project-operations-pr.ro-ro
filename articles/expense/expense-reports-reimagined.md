@@ -2,7 +2,7 @@
 title: Rapoartele de cheltuieli reinventate
 description: Acest subiect explică experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997846"
 ---
 # <a name="expense-reports-reimagined"></a>Rapoartele de cheltuieli reinventate
 
@@ -57,12 +57,13 @@ Pentru a activa noua experiență, utilizați spațiu de lucru **Gestionarea car
 | Calculator de curs valutar | Se adaugă un calculator al cursului valutar, care vă permite să calculați rata de schimb pentru tranzacțiile din mai multe buzunare. |
 | Salvați și adăugați noi linii de cheltuieli | Butoanele **Salvați** și **Nou** sunt disponibile atunci când sunt introduse noi cheltuieli, pentru a vă ajuta să introduceți rapid liniile de cheltuieli. |
 | O vizibilitate mai bună în linii separate și detaliate | Liniile detaliate și împărțite sunt adăugate direct la lista cheltuielilor pentru a crește vizibilitatea și a vă ajuta să determinați cu ușurință dacă există erori. |
-| Vizualizați detaliile subcategoriei în rânduri detaliate | Liniile detaliate ale unei cheltuieli părinte afișează etichetele subcategoriei în raportul de cheltuieli, ceea ce vă ajută să revedeți detaliile granulare dintr-o privire.|
+| Vizualizați detaliile subcategoriei în rânduri detaliate | Liniile detaliate ale unei cheltuieli părinte prezintă etichetele subcategoriei pe raportul de cheltuieli. Detalierea vă permite să revizuiți detaliile granulare dintr-o privire.|
 | Afișați chitanțele în timpul detalierii | Chitanțele pot fi afișate în timpul detalierii. |
 | Selecție de avans în numerar | Selectați unul sau mai multe avansuri de numerar pentru realizarea unei singure tranzacții de cheltuieli. |
 | Sold avans în numerar | Examinați soldul avansului de numerar în timp real atunci când creați o înregistrare a cheltuielilor comparativ cu avansurile de numerar aprobate și plătite. |
 
 Versiunea inițială este axată pe scenarii de intrare a cheltuielilor. Orice scenariu de revizuire sau aprobare a raportului de cheltuieli va continua să folosească pagina de introducere a cheltuielilor existente.
+
 
 Următoarele caracteristici nu sunt acceptate în spațiul de lucru nou Rapoarte de cheltuieli, dar sunt planificate pentru lansări viitoare: 
 

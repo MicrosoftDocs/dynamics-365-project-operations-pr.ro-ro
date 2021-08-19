@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995186"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997126"
 ---
 # <a name="configure-project-categories"></a>Configurarea categoriilor de proiecte
 
@@ -23,7 +23,7 @@ Următoarea diagramă ilustrează corelația dintre categoriile de tranzacții, 
 
 Categoriile de tranzacții sunt gruparea de bază pentru tranzacțiile proiectului. În cadrul grupării respective, există un set de categorii partajate care pot fi partajate între aplicații și module. Intrând și mai în detaliu, categoriile de proiecte sunt cel mai granular nivel de categorii. Categoriile de proiecte sunt specifice entității juridice, modulului și aplicației.
 
-![Corelația dintre categoriile de tranzacții, categoriile partajate și categoriile de proiecte](media/project-categories.png)
+![Corelația dintre categoriile de tranzacții, categoriile partajate și categoriile de proiecte.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Categorii de tranzacții
 

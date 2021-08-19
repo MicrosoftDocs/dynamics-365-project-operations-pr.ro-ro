@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998476"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pagină principală prețuri și dimensiuni de cost
 
@@ -41,7 +41,7 @@ Având în vedere natura tipică a acestor atribute de lucru și persoanele nece
 
 PSA livrează cu un set implicit de dimensiuni de stabilire a prețurilor. Le puteți vizualiza accesând **Project Service** > **Parametri**. În înregistrarea parametru, pe fila **Dimensiuni de preț bazate pe volum**, verificați că rolul **, msdyn_resourcecategory** și unitatea organizațională de obținere a resurselor **msdyn_organizationalunit** au câmpurile **Aplicabile vânzărilor** și **Aplicabile costurilor** setate la **Da**. Acest lucru vă va permite să configurați prețul și costul pentru fiecare rol și combinație de unitate organizatorică.
 
-![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat](media/PS-OOB-parameters.png)
+![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Dacă ați utilizat câmpurile predefinite de unitate de rol și organizaționale ca dimensiuni ale prețurilor la versiunea 3 a PSA, nu va exista nicio modificare observabilă. Puteți continua să utilizați Project Service ca de obicei. 

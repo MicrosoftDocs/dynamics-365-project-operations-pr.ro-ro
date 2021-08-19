@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998341"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Retragerea înregistrărilor aprobate de timp sau cheltuieli
 
@@ -62,7 +62,7 @@ Urmați acești pași pentru a aproba sau respinge o solicitare de retragere.
 1. Accesați **Proiecte** \> **Lucrul meu** \> **Aprobări**.
 2. Pe pagina cu lista **Aprobări**, modificați vizualizarea la **Cereri de retragere de aprobat**. Este afișată o listă de solicitări de retragere trimise.
 3. Selectați una sau mai multe înregistrări, apoi selectați fie **Aprobare**, fie **Respingere**.
-4. Dacă ați selectat **Aprobare**, primiți un mesaj de avertizare care explică impactul aprobării. Selectați **OK** pentru a confirma operațiunea. Solicitarea de retragere este aprobată
+4. Dacă ați selectat **Aprobare**, primiți un mesaj de avertizare care explică impactul aprobării. Selectați **OK** pentru a confirma operațiunea. Solicitarea de retragere este aprobată.
 
     -sau-
 
@@ -98,13 +98,13 @@ Dacă o cerere de retragere este respinsă, nu există niciun impact financiar a
 
 Următoarea ilustrație arată modificările care apar pentru înregistrările de timp aprobate atunci când sunt retrase.
 
-![Tranziții de stare Înregistrare timp](media/TimeEntryStateTransitions.png)
+![Tranziții de stare Înregistrare timp.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Modificări la înregistrări de înregistrări de cheltuieli
 
 Următoarea ilustrație arată modificările care apar pentru înregistrările de cheltuieli aprobate atunci când sunt retrase.
 
-![Tranziții de stare Înregistrare cheltuieli](media/ExpenseEntryStateTransitions.png)
+![Tranziții de stare Înregistrare cheltuieli.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

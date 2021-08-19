@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996856"
 ---
 # <a name="fulfilling-resource-requests"></a>Solicitări de realizare resurse
 
@@ -33,15 +33,15 @@ Cerințele de resurse pot fi trimise ca solicitări de resurse către managerul 
 
 Solicitările de resurse sunt afișate ca o listă în vizualizarea **Solicitări active de resurse**.
 
-> ![Lista de solicitări de resurse](media/Resource-Management-image59.png)
+> ![Lista de solicitări de resurse.](media/Resource-Management-image59.png)
 
 Pentru a îndeplini o solicitare, selectați-o în listă, apoi selectați **Găsire resurse**. Alternativ, faceți dublu clic pe un rând pentru a deschide solicitarea. Apoi puteți selecta fila **Cerință resursă** pentru a vizualiza cerințele pentru solicitarea respectivă. Pentru a începe să îndepliniți solicitarea, selectați **Găsire resurse**.
 
-> ![Detalii solicitare resursă](media/Resource-Management-image60.png)
+> ![Detalii solicitare resursă.](media/Resource-Management-image60.png)
 
 Asistentul de planificare apare și este filtrat după cerințe. Selectați resursa, apoi selectați **Rezervare**.
 
-> ![Resursa selectată](media/Resource-Management-image61.png)
+> ![Resursa selectată.](media/Resource-Management-image61.png)
 
 Membrul de echipă generic este înlocuit cu resursa numită rezervată ferm în echipa de proiect și în atribuirile de activități din planificarea proiectului.
 
