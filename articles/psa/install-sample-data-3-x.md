@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007291"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985561"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalarea datelor eșantion pentru aplicația Project Service
 
@@ -86,7 +86,7 @@ Ar trebui să planificați ca acel computer să rămână conectat la o rețea, 
 Computerul trebuie să aibă dezactivată funcția Economizor de ecran. În caz contrar, acreditările de sesiune pentru instalare se pot pierde atunci când economizorul de ecran se angajează (cu excepția cazului în care păstrați sesiunea activă).
 
 > [!div class="mx-imgBorder"]
-> ![Captură de ecran a setărilor de economizor de ecran, cu economizorul de ecran oprit](media/sample-data-1.png)
+> ![Captură de ecran a setărilor de economizor de ecran, cu economizorul de ecran oprit.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Descărcați și dezarhivați
 
@@ -142,7 +142,7 @@ Pachetul de date demonstrative necesită șase utilizatori. Pentru instalarea co
 3. Deschideți **PkgFolder**, iar apoi găsiți și deschideți **ImportUserMapFile.xml**. Actualizați câmpurile **Nou=** la adresele de e-mail ale utilizatorilor corespunzători din sistemul dvs.
 
    > [!div class="mx-imgBorder"]
-   > ![Captură de ecran a UserMapFile](media/sample-data-7.png)
+   > ![Captură de ecran a UserMapFile.](media/sample-data-7.png)
 
 4. În cazul în care numele complet "Spencer Low" al utilizatorului are un ID de utilizator diferit de **"spencerl"**, trebuie să actualizați un fișier suplimentar. Deschideți **DemoDataPreImportConfig.xml** și găsiți eticheta **userstocreateandconfigure**. Actualizați eticheta **\<login\>** cu Id conectare (sensibil la litere mari și mici). 
 
@@ -154,7 +154,7 @@ Pachetul de date demonstrative necesită șase utilizatori. Pentru instalarea co
 
 1. Găsiți și rulați **PackageDeployer.exe** în folderul **v902FPSMasterData** SAU **PackageDeployer_FPSDemoData**.
 
-2. Acceptați termenii și condițiile
+2. Acceptați termenii și condițiile.
 
 3. În fereastra următoare:
 
@@ -172,7 +172,7 @@ Pachetul de date demonstrative necesită șase utilizatori. Pentru instalarea co
 5. Selectați **Următorul** până când vedeți caseta de dialog **Configurare date demonstrative**.
 
    > [!div class="mx-imgBorder"]
-   > ![Captură de ecran a ferestrei de stare a instalatorului de date demonstrative](media/sample-data-3.png)
+   > ![Captură de ecran a ferestrei de stare a instalatorului de date demonstrative.](media/sample-data-3.png)
 
 6. Înainte de a continua, rețineți că instalarea datelor eșantion ar putea dura până la o oră (în mod normal, durează cam 10 minute). Va trebui să vă asigurați că rămâne pornit și conectat la o rețea computerul în timpul procesului de instalare și că sesiunea rămâne activă.   
 
@@ -191,10 +191,10 @@ După încărcarea completă a datelor eșantion, conectați-vă ca utilizatorul
 - Dacă este instalată aplicația Field Service, accesați **Project Service** > **Setări** > **Liste de prețuri**. Confirmați că tarifele și costurile există. Accesați **Field Service** > **Setări** > **Liste de prețuri** și verificați dacă sumele de facturare și costurile există, cu moneda corespunzătoare, pentru fiecare țară/regiune din setul de date.
 
   > [!div class="mx-imgBorder"]
-  > ![Captură de ecran cu listele de prețuri active](media/sample-data-4.png)
+  > ![Captură de ecran cu listele de prețuri active.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Captură de ecran cu unitățile organizaționale active](media/sample-data-5.png)
+  > ![Captură de ecran cu unitățile organizaționale active.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Note tehnice
 
@@ -295,7 +295,7 @@ Pachetul **Date demonstrative** instalează aproximativ 179 de comenzi de lucru,
 Selectați un utilizator (de exemplu, Spencer Low) și schimbați orele de lucru ale lui Spencer în orele pe care doriți să le aplicați pentru mai mulți utilizatori. Accesați **Universal Resource Scheduling** > **Setări** > **Șabloane de ore de lucru** și editați înregistrarea **Șablon implicit de lucru**. În câmpul **Resursă șablon**, selectați un utilizator cu orele de lucru pe care doriți să le aplicați la alte resurse. Accesați **Universal Resource Scheduling** > **Programare** > **Resurse** > **Resurse active ce se pot rezerva**. Selectați resursele pe care doriți să le modificați, apoi selectați **Setare calendar**. În lista verticală **Șablon de lucru**, selectați șablonul **Ore de lucru implicite** sau un alt șablo cu resursa de șablon corectă. Când accesați panoul de planificare, ar trebui să vedeți că resursele au acum ore de lucru actualizate.
 
 > [!div class="mx-imgBorder"]
-> ![Captură de ecran cu resurse active ce se pot rezerva](media/sample-data-6.png)
+> ![Captură de ecran cu resurse active ce se pot rezerva.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

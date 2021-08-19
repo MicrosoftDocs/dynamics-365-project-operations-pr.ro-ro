@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995501"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988576"
 ---
 # <a name="provision-a-new-environment"></a>Asigurarea accesului pentru un nou mediu
 
@@ -52,12 +52,12 @@ Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pen
 
 6. Selectați tipul de mediu pentru implementarea dvs. O versiune de probă bazată pe abonament vă va permite să implementați un mediu CDS timp de 30 de zile. 
 
-![Setări de implementare](./media/1DeploymentSettings.png)
+![Setări de implementare.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Selectați **De acord** pentru a confirma condițiile de utilizare și apoi selectați **Terminat** pentru a reveni la setările de implementare.
 
-![Acord de implementare](./media/2DeploymentConsent.png)
+![Acord de implementare.](./media/2DeploymentConsent.png)
 
 7. Opțional - Aplicați date demonstrative pentru mediu. Mergi la **Setări avansate**, Selectați **Personalizați configurația bazei de date SQL**, și setați **Specificați un set de date pentru baza de date a aplicației** la **Demonstrativ**.
 
@@ -67,7 +67,7 @@ Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pen
 
 9. Pentru a confirma că mediul a fost implementat cu succes, selectați **Autentificare** și conectați-vă la mediu pentru a confirma.
 
-![Detalii despre mediu](./media/3EnvironmentDetails.png)
+![Detalii despre mediu.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicați actualizările la mediul de finanțe
 
@@ -77,19 +77,19 @@ Este posibil să trebuiască să aplicați actualizări de calitate mediului dvs
 
 1. În LCS, pe pagina **Detalii despre mediu**, în secțiunea **Actualizări disponibile**, selectați **Vizualizare actualizare**.
 
-![Vizualizare actualizări](./media/5ViewUpdates.png)
+![Vizualizare actualizări.](./media/5ViewUpdates.png)
 
 2. Pe pagina **Actualizări binare**, selectați **Salvați pachetul.**
 
-![Salvați pachetul](./media/6SavePackage.png)
+![Salvați pachetul.](./media/6SavePackage.png)
 
 3. Faceți clic pe **Selectați tot** și apoi selectați **Salvați pachetul**.
 
-![Revizuiți și salvați actualizările](./media/7ReviewAndSaveUpdates.png)
+![Revizuiți și salvați actualizările.](./media/7ReviewAndSaveUpdates.png)
 
 4. Introduceți un nume și o descriere a pachetului, apoi selectați **Salvați**. În funcție de conexiunea la internet, acest proces poate dura ceva timp.
 
-![Încărcați pachetul în Biblioteca de active](./media/8UploadPackageToAssetsLibrary.png)
+![Încărcați pachetul în Biblioteca de active.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. După salvarea pachetului, selectați **Terminat** și salvați acest pachet în biblioteca Active din proiectul dvs. LCS.
 
@@ -97,15 +97,15 @@ Salvarea și validarea pachetului ar putea dura aproximativ 15 minute.
 
 6. Pentru a aplica actualizarea, navigați la pagina **Detalii despre mediu** în LCS și selectați **Menţine** > **Aplicați actualizări**.
 
-![Mențineți mediile](./media/9MaintainEnvironment.png)
+![Mențineți mediile.](./media/9MaintainEnvironment.png)
 
 7. În lista de actualizări, selectați pachetul pe care l-ați creat și selectați **Aplicare**.
 
-![Aplicați actualizări](./media/10ApplyUpdates.png)
+![Aplicați actualizări.](./media/10ApplyUpdates.png)
 
 Întreținerea mediului va dura ceva timp. După ce este complet, mediul va reveni la o stare implementată.
 
-![Mediu implementat](./media/11EnvironmentDeployed.png)
+![Mediu implementat.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Stabiliți o conexiune Dual Write 
 
@@ -113,41 +113,41 @@ Salvarea și validarea pachetului ar putea dura aproximativ 15 minute.
 2. Sub **Common Data Service Informații despre mediu**, selectați **Link către CDS pentru aplicații**.
 3. După ce linkul este complet, selectați din nou **Link către CDS pentru aplicații**. Veți fi redirecționat către Dual Write în Finanțe.
 
-![Link la CDS](./media/12LinktoCDS.png)
+![Link la CDS.](./media/12LinktoCDS.png)
 
 4. Selectați **Aplicați soluția** pentru a accesa entitățile care vor fi mapate în integrare.
 
-![Aplicați soluții](./media/13ApplySolutions.png)
+![Aplicați soluții.](./media/13ApplySolutions.png)
 
 5. Selectați ambele soluții, **Dynamics 365 Finance and Operations Harta entității cu scriere dublă** și **Dynamics 365 Project Operations Hărți cu entități de scriere duală**, apoi selectați **Aplicare**.
 
-![Confirmați soluțiile](./media/14ConfirmSolutions.png)
+![Confirmați soluțiile.](./media/14ConfirmSolutions.png)
 
 După aplicarea soluțiilor, entitățile Dual Write sunt aplicate mediului.
 
-![Aplicarea soluțiilor](./media/15ApplyingSolutions.png)
+![Aplicarea soluțiilor.](./media/15ApplyingSolutions.png)
 
 După aplicarea entităților, toate mapările disponibile sunt listate în mediu.
 
-![Hărți Dual Write](./media/15DWMappings.png)
+![Hărți Dual Write.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Reîmprospătați entitățile de date după actualizare
 
 1. În Finanțe, accesați spațiul de lucru **Gestionarea datelor**..
 
-![Spațiul de lucru pentru gestionarea datelor](./media/16DataManagement.png)
+![Spațiul de lucru pentru gestionarea datelor.](./media/16DataManagement.png)
 
 2. Selectați dala **Parametrii cadru**.
 
-![Parametrii de cadru](./media/17FrameworkParameters.png)
+![Parametrii de cadru.](./media/17FrameworkParameters.png)
 
 3. Pe pagina **Setări entitate**, selectați **Reîmprospătați lista entităților**.
 
-![Reîmprospătare listă entitate](./media/18RefreshEntityList.png)
+![Reîmprospătare listă entitate.](./media/18RefreshEntityList.png)
 
 Reîmprospătarea va dura aproximativ 20 de minute. Veți primi o alertă când aceasta este completă.
 
-![Reîmprospătare confirmare](./media/19RefreshConfirmation.png)
+![Reîmprospătare confirmare.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Actualizați setările de securitate pentru Project Operations pe Dataverse
 
@@ -188,17 +188,17 @@ Reîmprospătarea va dura aproximativ 20 de minute. Veți primi o alertă când 
 4. Pentru a reîmprospăta entitatea, selectați numele hărții, apoi selectați **Reîmprospătați entități**. 
 
 
-![Reîmprospătați harta](./media/20RefreshMapping.png)
+![Reîmprospătați harta.](./media/20RefreshMapping.png)
 
 5. După finalizarea reîmprospătării, rulați harta. Înainte de a activa următoarea hartă, verificați dacă harta din tabel se află în starea **Rulării**. Rularea hărților cu un număr mai mare de condiții prealabile ar putea dura ceva timp.
 
 Pentru a rula o hartă cu condiții prealabile, activați comutarea **Afișați hărți de entități corelate**. Dacă tabelul indică **Sincronizare inițială preliminară** este **Nu**, verificați dacă semnalizarea **Sincronizare inițială** este **Dezactivat** în toate hărțile premise înainte de a-l rula.
 
-![Rulați Harta](./media/21RunMap.png)
+![Rulați Harta.](./media/21RunMap.png)
 
 6. Validați toate hărțile legate de proiect sunt în starea de rulare.
 
-![Toate hărțile rulează](./media/22AllMapsRunning.png)
+![Toate hărțile rulează.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplicarea datelor de configurare în CDS pentru Project Operations (opțional)

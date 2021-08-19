@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304271"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987946"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnalul de integrare în Project Operations
 
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Intrări de timp și cheltuieli creează tranzacții **Reale** care reprezintă vizualizarea operațională a lucrului realizat într-un proiect. Dynamics 365 Project Operations oferă contabililor un instrument pentru a revizui tranzacțiile și a ajusta atributele contabile după cum este necesar. După finalizarea revizuirii și ajustărilor, tranzacțiile sunt înregistrate în contabilitatea proiectului și registrul general. Un contabil poate efectua aceste activități folosind jurnalul **Integrarea Project Operations** (**Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Jurnale** > **Integrarea Project Operations**.
 
-![Fluxul jurnalului de integrare](./media/IntegrationJournal.png)
+![Fluxul jurnalului de integrare.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Creați înregistrări în jurnalul Project Operations de integrare
 

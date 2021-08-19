@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015076"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985516"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturare în Project Service Automation
 
@@ -50,7 +50,7 @@ Urmați acest pas pentru a crea o factură pentru un anumit contract de proiect.
 
 - Pe pagina de listă **Contracte de proiect**, deschideți un contract de proiect și apoi selectați **Creare factură**.
 
-    ![Crearea facturilor de proiect pentru un anumit contract de proiect](media/CreateProjectInvoicesOneByOne.png)
+    ![Crearea facturilor de proiect pentru un anumit contract de proiect.](media/CreateProjectInvoicesOneByOne.png)
 
     O factură este generată pentru toate tranzacțiile pentru contractul de proiect selectat care au starea **Gata de facturat**. Aceste tranzacții includ timp, cheltuieli, jaloane și linii de contract bazate pe produse.
 
@@ -58,7 +58,7 @@ Parcurgeți acești pași pentru a crea facturi în vrac.
 
 1. Pe pagina de listă **Contracte de proiect**, selectați unul sau mai multe contracte de proiect pentru care trebuie să creați o factură, apoi selectați **Creați facturi de proiect**.
 
-    ![Se creează facturi de proiect în vrac](media/CreateProjectInvoicesBulk.png)
+    ![Se creează facturi de proiect în vrac.](media/CreateProjectInvoicesBulk.png)
 
     Un mesaj de avertizare vă informează că este posibil să existe o întârziere înainte de crearea facturilor. Procesul este, de asemenea, afișat.
 

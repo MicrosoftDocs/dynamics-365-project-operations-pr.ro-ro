@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997751"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988711"
 ---
 # <a name="manage-time-zones"></a>Gestionarea fusurilor orare
 
@@ -32,13 +32,13 @@ Pentru rezultate precise și predictibile atunci când se utilizează **Extinde�
 
 - Utilizatorul trebuie să configureze fusul orar al dispozitivului său pentru a se potrivi cu fusul orar definit în **Setările de personalizare** ale sistemului.
  
-  ![Setările fusului orar în Windows 10](media/reconcile-assignments-03.png)
+  ![Setările fusului orar în Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Setările fusului orar în setările de personalizare](media/reconcile-assignments-04.png)
+  ![Setările fusului orar în setările de personalizare.](media/reconcile-assignments-04.png)
  
 - Resursa care poate fi rezervată trebuie să aibă cel puțin un minut de timp de lucru care se suprapune contururilor utilizate pentru a defini extensia solicitată. De exemplu, următoarele resurse cu program de lucru care se încadrează între orele 9:00 și 19:00. 
 
-  ![Comparația contururilor resurselor](media/reconcile-assignments-05.png)
+  ![Comparația contururilor resurselor.](media/reconcile-assignments-05.png)
 
 Tabelul următor afișează:
 
@@ -47,25 +47,25 @@ Tabelul următor afișează:
 - Resursa B: această resursă se află într-un alt fus orar decât proiectul și începe la ora 7:00 în fusul orar al acestora. Cu toate acestea, rezervările vor începe la ora 9:00, deoarece aceasta este cea mai timpurie perioadă de începere a conturului misiunii.
 - Resursele C și D: resursele sunt situate în diferite fusuri orare, ambele diferite între ele și de proiect, iar rezervările lor încep nu mai devreme decât orele lor de început disponibile.
 
-|Entitate  |Calendar  |
+|Entity  |Calendar   |
 |-|-|
-|Șablon de calendar de proiect   | ![calendarul proiectului](media/reconcile-assignments-06.png) |
-|Resursă A  | ![Calendar resursa A](media/reconcile-assignments-06.png) |
-|Resursă B  |  ![Calendar resursa B](media/reconcile-assignments-07.png) |
-|Resursă C  |  ![Calendar resursa C](media/reconcile-assignments-08.png) |
-|Resursă D  | ![Calendar resursa D](media/reconcile-assignments-09.png)  |
+|Șablon de calendar de proiect   | ![calendarul proiectului.](media/reconcile-assignments-06.png) |
+|Resursă A  | ![Calendar resursa A.](media/reconcile-assignments-06.png) |
+|Resursă B  |  ![Calendar resursa B.](media/reconcile-assignments-07.png) |
+|Resursă C  |  ![Calendar resursa C.](media/reconcile-assignments-08.png) |
+|Resursă D  | ![Calendar resursa D.](media/reconcile-assignments-09.png)  |
  
 Când navigați la vizualizarea **Reconciliere**, sunt afișate alocările de resurse și lipsa de rezervare asociată.
 
-![Vedere de reconciliere înainte de extensie](media/reconcile-assignments-10.png)
+![Vedere de reconciliere înainte de extensie.](media/reconcile-assignments-10.png)
 
 După ce funcționalitatea de rezervare extinsă a fost utilizată pentru fiecare resursă, rezervările sunt extinse cu succes pentru fiecare resursă, deoarece orele de lucru ale fiecărei resurse s-au suprapus cu contururile deficitului.
 
-![Vizualizare de reconciliere după extinderea rezervării](media/reconcile-assignments-11.png) 
+![Vizualizare de reconciliere după extinderea rezervării.](media/reconcile-assignments-11.png) 
 
 Observați că o privire mai atentă asupra detaliilor rezervărilor arată diferențe în momentul începerii rezervărilor. Rezervările încep nu mai devreme de ora de începere a conturului de atribuire și nici mai devreme de ora de începere disponibilă a resursei.
 
-![Rezervări noi ale resurselor din tabloul de bord](media/reconcile-assignments-12.png)
+![Rezervări noi ale resurselor din tabloul de bord.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

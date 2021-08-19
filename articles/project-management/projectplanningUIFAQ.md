@@ -2,17 +2,17 @@
 title: Depanare de funcționare în grila de activități
 description: Acest subiect oferă informații legate de depanare necesare atunci când lucrați în grila de activități.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213415"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989116"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Depanare de funcționare în grila de activități 
 
@@ -24,7 +24,7 @@ Acest subiect descrie cum să remediați problemele care ar putea apărea în ti
 
 Project Operations are nevoie ca modulele cookie de la terți să fie activate pentru a reda structura detaliată a proiectului. Când modulele cookie de terță parte nu sunt activate, în loc să vedeți sarcini, veți vedea o pagină goală când selectați fila **Sarcini** de pe pagina **Proiect**.
 
-![Fila goală când modulele cookie de terță parte nu sunt activate](media/blankschedule.png)
+![Fila goală când modulele cookie de terță parte nu sunt activate.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Soluție
@@ -52,11 +52,22 @@ Pentru browser-ele Microsoft Edge sau Google Chrome, următoarele proceduri desc
 Project Operations necesită ca un parametru de proiect să facă referire la punctul final PEX. Acest punct final este necesar pentru a comunica cu serviciul utilizat pentru a reda structura detaliată a proiectului. Dacă parametrul nu este activat, veți primi eroarea „Parametrul proiectului nu este valid”. 
 
 ### <a name="workaround"></a>Soluție
- ![Câmpul punct final PEX în parametrul proiectului](media/projectparameter.png)
 
 1. Adăugați câmpul **Punct final PEX** pe pagina **Parametrii proiectului**.
-2. Actualizați câmpul cu următoarea valoare: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Eliminați câmpul de pe pagina **Parametrii proiectului**.
+2. Identificați tipul de produs pe care îl utilizați. Această valoare este utilizată atunci când este setat punctul final PEX. După regăsire, tipul de produs este deja definit în punctul final PEX. Păstrați această valoare. 
+   
+    ![Câmpul punct final PEX în parametrul proiectului.](media/pex-endpoint.png)
+
+3. Actualizați câmpul cu următoarea valoare: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tip produs                         | Parametru tip |
+   |--------------------------------------|----------------|
+   | Project for the Web pe organizație implicită   | tip=0         |
+   | Project for the Web pe organizație numită CDS | tip=1         |
+   | Project Operations                   | tip=2         |
+   
+4. Eliminați câmpul de pe pagina **Parametrii proiectului**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegii de proiect pentru Web
 
@@ -67,7 +78,7 @@ Project Operations se bazează pe un serviciu de planificare externă. Serviciul
 
 1. Accesați vizualizarea **Setări > Securitate > Utilizatori > Utilizatorii aplicației**.  
 
-   ![Cititor aplicație](media/applicationuser.jpg)
+   ![Cititor aplicație.](media/applicationuser.jpg)
    
 2. Faceți dublu clic pe înregistrarea utilizatorului aplicației pentru a verifica următoarele:
 
@@ -76,7 +87,7 @@ Project Operations se bazează pe un serviciu de planificare externă. Serviciul
  
 3. Dacă acest utilizator nu există deja, puteți crea o nouă înregistrare de utilizator. Selectați **Utilizatori noi**. Schimbați formularul de înregistrare în **Utilizator de aplicație**, apoi adăugați **ID-ul aplicației**.
 
-   ![Detalii utilizator aplicație](media/applicationuserdetails.jpg)
+   ![Detalii utilizator aplicație.](media/applicationuserdetails.jpg)
 
 4. Verificați dacă utilizatorului i s-a atribuit licența corectă și că serviciul este activat în detaliile abonamentelor de servicii ale licenței.
 5. Verificați dacă utilizatorul poate deschide project.microsoft.com.

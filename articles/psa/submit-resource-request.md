@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013186"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985021"
 ---
 # <a name="submitting-a-resource-request"></a>Remiterea unei solicitări de resurse
 
@@ -34,7 +34,7 @@ Aveți posibilitatea să trimiteți o cerință de resursă generată ca o solic
 1. În Project Service Automation (PSA), pe pagina **Proiecte**, faceți clic pe fila **Echipă** pentru a vizualiza o listă de resurse care pot fi rezervate. 
 2. Selectați resursa generică care are o cerință de resurse din listă și apoi faceți clic pe **Remitere cerere**.
 
-![Remiterea unei solicitări de resurse](media/RM-how-to-18.png)
+![Remiterea unei solicitări de resurse.](media/RM-how-to-18.png)
 
 Statutul de cerere al membrului generic de echipă se va schimba la **Remis**.
 

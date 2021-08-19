@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012106"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988981"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizați resursa care se poate rezerva ca dimensiune de tarifare
 
@@ -62,18 +62,18 @@ Pentru resursa care poate fi rezervată, entitatea **Membri echipă de proiect**
 1. Pentru aceasta, faceți dublu clic pe rândul din grila de **Dimensiuni de tarifare** pentru a deschide pagina de dimensiuni a **msdyn_bookableresource**.
 2. Pe pagina de dimensiuni, în fila **Corelate**, faceți clic pe **Nume câmpuri de dimensiune de tarifare**.
 
- ![Fila Nume câmpuri de dimensiune de tarifare](media/PD-fieldname.png)
+ ![Fila Nume câmpuri de dimensiune de tarifare.](media/PD-fieldname.png)
 
 4. În vizualizarea asociată care se deschide, faceți clic pe **Adăugare nume câmp dimensiune de tarifare nou**.
 
- ![Adăugați nume de câmpuri de dimensiune de tarifare noi](media/Add-NewPD-fieldname.png)
+ ![Adăugați nume de câmpuri de dimensiune de tarifare noi.](media/Add-NewPD-fieldname.png)
 
 
 Acest lucru deschide pagina **Nume câmp dimensiune de tarifare nou** pentru **msdyn_bookableresource**. 
 
 5. Adăugați **msdyn_projectteam** la câmpul **Nume logic al entității** și **msdyn_bookableresourceid** la câmpul **Nume câmp**. Salvaţi înregistrarea.
 
- ![Formular pentru nume de câmpuri de dimensiune de tarifare noi](media/PD-fieldname-Added.png)
+ ![Formular pentru nume de câmpuri de dimensiune de tarifare noi.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

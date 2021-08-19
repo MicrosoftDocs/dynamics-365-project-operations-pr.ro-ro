@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002295"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986506"
 ---
 # <a name="vendor-invoice-integration"></a>Integrarea de facturi pentru furnizor
 
@@ -36,7 +36,7 @@ Achizițiile aferente proiectului în Dynamics 365 Project Operations pot fi în
 
 Subregistrul de impozit, subregistrul furnizorului și alte înregistrări financiare sunt înregistrate după caz, în Dynamics 365 Finance când se postează factura de furnizor.
 
-![Integrarea de facturi pentru furnizor](media/DW7VendorInvoice.png)
+![Integrarea facturilor pentru furnizor.](media/DW7VendorInvoice.png)
 
 Când înregistrările sunt scrise către o entitate **Factura de furnizor** în Dataverse începe un proces automat de aprobare a înregistrărilor. Dacă este necesar, starea procesului de aprobare automată poate fi revizuită în Dataverse accesând **Setări avansate** > **Sistem** > **Procese de sistem**. După finalizarea aprobării, sistemul creează înregistrări de clase de tranzacții materiale în entitatea **Actualități**.
 

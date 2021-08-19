@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992981"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987631"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crearea unei rezervări de proiect din Panoul de planificare
 
@@ -43,7 +43,7 @@ Aveți posibilitatea să generați o cerință de resursă generică și să îi
 
 1.  Pe tabloul de planificare, această resursă va apărea pe fila **Deschidere cerințe**. Este posibil să trebuiască să utilizați filtre de coloană pe grilă dacă aveți multe cerințele deschise. 
 
-    ![Deschideți fila Cerințe pe panoul Planificare](media/FAQ-Project-Booking-Schedule-Board-1.png "Captură de ecran tablou rezervări și atribuiri")
+    ![Deschideți fila Cerințe pe panoul Planificare.](media/FAQ-Project-Booking-Schedule-Board-1.png "Captură de ecran tablou rezervări și atribuiri")
 
 2. Selectați cerința. Fila **Găsiți disponibilitatea** va apărea în partea de sus a rândului selectat.
  
@@ -53,7 +53,7 @@ Aveți posibilitatea să generați o cerință de resursă generică și să îi
 
     Selectând **Rezervare** se rezervă resursa pe echipa de proiect.
 
-![Panoul Creare rezervare resursă](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panoul Creare rezervare resursă.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervare de la Cerința principală
@@ -62,7 +62,7 @@ Crearea unui proiect în Project Service creează automat o cerință de resurse
 
 1. Pentru a rezerva o cerință cu Cerința principală, pe tabloul de planificare, selectați fila **Proiect**. Este posibil să fie nevoie să utilizați filtrul de coloană pe coloana **Proiect** dacă aveți multe proiecte.
 
-   ![Filtre de coloană pe panoul de planificare](media/FAQ-Project-Booking-Schedule-Board-2.png "Captură de ecran tablou rezervări și atribuiri")
+   ![Filtre de coloană pe panoul de planificare.](media/FAQ-Project-Booking-Schedule-Board-2.png "Captură de ecran tablou rezervări și atribuiri")
 
 2. Selectați cerința care are doar numele proiectului ca denumire și are o durată de zero (0).
 

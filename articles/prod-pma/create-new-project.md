@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006256"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985966"
 ---
 # <a name="create-a-new-project"></a>Creați un nou proiect
 
@@ -51,7 +51,7 @@ De asemenea, puteți atribui categorii pentru o resursă după cum doriți. Tipu
 
 Un manager de proiect poate utiliza funcționalitatea de alocare de resurse proiectului pentru a crea rolurile necesare pentru proiect. Rolurile pot fi utilizate dacă resursele confirmate sunt încă necunoscute atunci când resursele sunt rezervate. Rolurile pot fi rezervate temporar ca resurse planificate, astfel încât să puteți continua etapele de planificare a proiectului.
 
-[![Exemplu de rol](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Exemplu de rol.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenariu:** Contoso a fost angajat pentru a finaliza un proiect de timp și materiale care are o diagramă de proiect aprobată. Managerul de proiect junior continuă să finalizeze domeniul de aplicare al proiectului. Managerul de resurse identifică în prezent resursele specifice care vor fi rezervate pentru a lucra la noul proiect. Datorită naturii critice a proiectului, sponsorul proiectului a solicitat managerul de proiect senior ca unul dintre roluri. Managerul de resurse trebuie să dobândească noua resursă și să definească rolul în sistem în cazul în care managerul de proiect junior are nevoie de informații despre resurse în timpul planificării proiectului.
 

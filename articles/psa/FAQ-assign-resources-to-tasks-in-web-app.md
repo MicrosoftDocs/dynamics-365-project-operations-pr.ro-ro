@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993323"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987721"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Cum atribui o resursă care se poate rezerva unei sarcină în aplicația web (aplicația Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Cu această metodă adăugați o resursă la echipa proiectului și apoi atribui
 3.  Selectați datele **De la** și **Până la**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captura de ecran a adăugării membrilor echipei](media/FAQ-Resources-to-Tasks2-1.png "Captura de ecran a adăugării membrilor echipei")
+    > ![Captura de ecran a adăugării unui membru echipei.](media/FAQ-Resources-to-Tasks2-1.png "Captura de ecran a adăugării membrilor echipei")
  
 4.  Selectați una dintre următoarele metode de alocare pentru a rezerva resursa:
     - **Capacitate completă** rezervă întreaga capacitate a resursei pentru datele de pornire și finalizare indicate.
@@ -63,12 +63,12 @@ Cu această metodă adăugați o resursă la echipa proiectului și apoi atribui
     3. Selectați **OK**. Membrul echipei este acum atribuit la sarcină.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot de adăugare a resurselor cu WBS](media/FAQ-Resources-to-Tasks2-2.png "Screenshot de adăugare a resurselor cu WBS")
+    > ![Screenshot de adăugare a resurselor cu WBS.](media/FAQ-Resources-to-Tasks2-2.png "Screenshot de adăugare a resurselor cu WBS")
  
 Pe grila de membru echipă, veți vedea totalul orelor atribuite ale resursei, sub Ore alocate. Acesta va fi mai mic sau egal cu orele rezervate pentru resursă. 
 
 > [!div class="mx-imgBorder"] 
-> ![Captură de ecran cu ore alocate pentru o resursă](media/FAQ-Resources-to-Tasks2-3.png "Captură de ecran cu ore alocate pentru o resursă")
+> ![Captură de ecran cu ore atribuite la o resursă.](media/FAQ-Resources-to-Tasks2-3.png "Captură de ecran cu ore alocate pentru o resursă")
  
 În cazul în care sarcina pe care încercați să o atribuiți resursei începe după data de sfârșit a rezervărilor pentru de resursă, resursa nu va apărea în lista derulantă.
 
@@ -92,22 +92,22 @@ Această metodă asigură că resursele au suficiente rezervări pentru sarcini.
 4. Selectați **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Captură de ecran a utilizării WBS pentru a adăuga o resursă](media/FAQ-Resources-to-Tasks2-4.png "Captură de ecran a utilizării WBS pentru a adăuga o resursă")
+    > ![Captură de ecran a utilizării WBS pentru a adăuga o resursă.](media/FAQ-Resources-to-Tasks2-4.png "Captură de ecran a utilizării WBS pentru a adăuga o resursă")
  
 Odată ce ați completat atribuirea de roluri la sarcini în WBS, selectați **Generare echipă de proiect**. Project Service creează numărul minim de membri ai echipei generice pe baza rolurilor, a unităților organizaționale din care provin resursele și a calendarului de proiect prin agregarea atribuirilor de sarcini.
 
 > [!div class="mx-imgBorder"] 
-> ![Captură de ecran a echipei de generare a proiectului](media/FAQ-Resources-to-Tasks2-5.png "Captură de ecran a echipei de generare a proiectului")
+> ![Captură de ecran a echipei de generare a proiectului.](media/FAQ-Resources-to-Tasks2-5.png "Captură de ecran a echipei de generare a proiectului")
  
 Pr grila de Membru al echipei, veți vedea resursele de tip Resursă generică cu rolul și numele poziției. În cazul în care sunt necesare două resurse pentru un rol pentru a finaliza lucrările, caracteristica Generare echipă creează doi membri ai echipei și utilizează numele poziției pentru a-i diferenția.
 
 > [!div class="mx-imgBorder"] 
-> ![Captură de ecran cu adăugarea a două resurse generice](media/FAQ-Resources-to-Tasks2-6.png "Captură de ecran cu adăugarea a două resurse generice")
+> ![Captură de ecran cu adăugarea a două resurse generice.](media/FAQ-Resources-to-Tasks2-6.png "Captură de ecran cu adăugarea a două resurse generice")
  
 Puteți deschide cerința de resurse subiacente pentru membrul generic de echipă prin selectarea link-ul de la Cerință de resurse.
 
 > [!div class="mx-imgBorder"] 
-> ![Captură de ecran cu cerința de deschidere de resurse subiacente](media/FAQ-Resources-to-Tasks2-7.png "Captură de ecran cu cerința de deschidere de resurse subiacente")
+> ![Captură de ecran cu cerința de deschidere de resurse subiacente.](media/FAQ-Resources-to-Tasks2-7.png "Captură de ecran cu cerința de deschidere de resurse subiacente")
 
 Selectați **Rezervare** pentru resursa generică și apoi puteți folosi tabloul de planificare pentru a găsi și rezerva o resursă reală. Puteți trimite solicitarea de realizare de către un manager de resurse, selectând **Remite solicitare**.
 

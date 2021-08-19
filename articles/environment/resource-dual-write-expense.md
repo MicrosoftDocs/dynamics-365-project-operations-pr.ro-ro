@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986596"
 ---
 # <a name="expense-management-integration"></a>Integrarea gestionării cheltuielilor
 
@@ -28,7 +28,7 @@ Acest subiect oferă informații despre integrarea rapoartelor de cheltuieli în
 2. În Finanțe, accesați **Gestionarea cheltuielilor** > **Configurare** > **Categorii partajate** și selectați o categorie partajată cu o clasă de tranzacție **Cheltuieli**. Setați parametrul **Poate fi folosit în Cheltuieli** la **True** și definiți tipul de cheltuială de utilizat.
 3. Folosind această înregistrare de categorie partajată, creați o nouă categorie de cheltuieli accesând **Gestionarea cheltuielilor** > **Configurare** > **Categorii de cheltuieli** și selectând **Nou**. Când înregistrarea este salvată, scrierea duală utilizează harta tabelului, **Entitatea privind exportul categoriilor de cheltuieli în proiectul de integrare Project Operations (msdyn\_expensecategories)** pentru a sincroniza această înregistrare cu Dataverse.
 
-  ![Integrarea categoriilor de cheltuieli](./media/DW6ExpenseCategories.png)
+  ![Integrarea categoriilor de cheltuieli.](./media/DW6ExpenseCategories.png)
 
 Categorii de cheltuieli în aplicațiile Finance and Operations sunt specifice companiei sau entității juridice. Există înregistrări separate, corespunzătoare, specifice entității juridice Dataverse. Atunci când un manager de proiect estimează cheltuielile, nu poate selecta categoriile de cheltuieli care au fost create pentru un proiect care este deținut de o companie diferită de compania care deține proiectul la care lucrează. 
 
@@ -40,7 +40,7 @@ Rapoartele de cheltuieli sunt create și aprobate în aplicații Finance and Ope
   - Scrierea duală se sincronizează la Dataverse folosind harta de tabel **Entitatea privind exportul de cheltuieli în proiectul de integrare Project Operations (msdyn\_expenses)**.
   - Subregistrul de impozit, subregistrul furnizorului și alte înregistrări financiare sunt înregistrate după caz, în momentul înregistrării raportului de cheltuieli.
 
-  ![Integrarea rapoartelor de cheltuieli](./media/DW6ExpenseReports.png)
+  ![Integrarea rapoartelor de cheltuieli.](./media/DW6ExpenseReports.png)
 
 Când o înregistrare este scrisă în entitatea **Cheltuieli** în Dataverse, sistemul declanșează procesul automatizat de aprobare a înregistrării. Dacă este necesar, starea procesului de aprobare automată poate fi revizuită în Dataverse accesând **Setări avansate** > **Sistem** > **Procese de sistem**. După finalizarea aprobării, înregistrările clasei tranzacțiilor de cheltuieli sunt create în entitatea **Actualități**.
 
