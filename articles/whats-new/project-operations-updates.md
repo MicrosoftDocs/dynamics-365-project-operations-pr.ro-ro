@@ -2,17 +2,17 @@
 title: Actualizări Project Operations
 description: Acest subiect oferă informații despre dimensiunile versiunile lansate de Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433578"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024798"
 ---
 # <a name="project-operations-updates"></a>Actualizări Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations este format din două componente:
 
 | Project Operations pe mediu Dataverse | Management de proiect și contabilitate în medii de aplicații Finance and Operations | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 Pentru scenariul ne-stocat Project Operations, vă recomandăm să utilizați versiunea de orchestrare cu scriere duală 2.2.2.83 sau o versiune ulterioară.
 
@@ -45,27 +45,29 @@ Pentru scenariul ne-stocat Project Operations, vă recomandăm să utilizați ve
 Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lunar. 
 
 | Stație | Regiunea | Numărul versiunii curente | Actualizări automate pentru implementarea Lite | Actualizări automate pentru implementare de resurse/nestocate | Următorul număr de versiune | Următoarea versiune este disponibilă în general |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| Stația 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima apariție         |  4.12.0.148     | Terminată     | 09 iulie 21          | TBD                 | 06-August-21        |
-| Stația 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Sud         |  4.12.0.148     | 09 iulie 21   | 16 iulie 21          | TBD                 | 06-August-21        |
-|    &nbsp; | Canada                |  4.12.0.148     | 09 iulie 21   | 16 iulie 21          | TBD                 | 06-August-21        |
-|   &nbsp;  | India                 |  4.12.0.148     | 09 iulie 21   | 16 iulie 21          | TBD                 | 06-August-21        |
-|   &nbsp;  | Franța                |  4.12.0.148     | 09 iulie 21   | 16 iulie 21          | TBD                 | 06-August-21        |
-|   &nbsp;  | Emiratele Arabe Unite  |  4.12.0.148     | 09 iulie 21   | 16 iulie 21          | TBD                 | 06-August-21        |
-|   &nbsp;  | Africa de Sud          |  4.12.0.148     | 09 iulie 21   | 16 iulie 21          | TBD                 | 06-August-21        |
-| Stația 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.11.0.164     | Terminată     | Terminată            | 4.12.0.148          | 09 iulie 21          |
-|   &nbsp;  | Asia Pacific          |  4.11.0.164     | Terminată     | Terminată            | 4.12.0.148          | 09 iulie 21          |
-|   &nbsp;  | Regatul Unit         |  4.11.0.164     | Terminată     | Terminată            | 4.12.0.148          | 09 iulie 21          |
-|   &nbsp;  | Oceania               |  4.11.0.164     | Terminată     | Terminată            | 4.12.0.148          | 09 iulie 21          |
-| Stația 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.11.0.164     | Terminată     | Terminată            | 4.12.0.148          | 16 iulie 21          |
-| Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Nord         |  4.11.0.164     | Terminată     | 09 iulie 21          | 4.12.0.148          | 23 iulie 21          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| Stația 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Prima apariție         |  4.13.0.152     | Finalizați           | 13 august, 2021     | TBD                 | 27 august, 2021     |
+| Stația 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | America de Sud         |  4.13.0.152     | 13 august, 2021    | 20 august, 2021     | TBD                 | 27 august, 2021     |
+|    &nbsp; | Canada                |  4.13.0.152     | 13 august, 2021    | 20 august, 2021     | TBD                 | 27 august, 2021     |
+|   &nbsp;  | India                 |  4.13.0.152     | 13 august, 2021    | 20 august, 2021     | TBD                 | 27 august, 2021     |
+|   &nbsp;  | Franța                |  4.13.0.152     | 13 august, 2021    | 20 august, 2021     | TBD                 | 27 august, 2021     |
+|   &nbsp;  | Emiratele Arabe Unite  |  4.13.0.152     | 13 august, 2021    | 20 august, 2021     | TBD                 | 27 august, 2021     |
+|   &nbsp;  | Africa de Sud          |  4.13.0.152     | 13 august, 2021    | 20 august, 2021     | TBD                 | 27 august, 2021     |
+| Stația 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japonia                 |  4.12.0.152     | Finalizare*          | Finalizați            | 4.13.0.152          | 13 august, 2021     |
+|   &nbsp;  | Asia Pacific          |  4.12.0.152     | Finalizare*          | Finalizați            | 4.13.0.152          | 13 august, 2021     |
+|   &nbsp;  | Regatul Unit         |  4.12.0.152     | Finalizare*          | Finalizați            | 4.13.0.152          | 13 august, 2021     |
+|   &nbsp;  | Oceania               |  4.12.0.152     | Finalizare*          | Finalizați            | 4.13.0.152          | 13 august, 2021     |
+| Stația 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europa                |  4.12.0.152     | Finalizați           | Finalizați            | 4.13.0.152          | 20 august, 2021     |
+| Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | America de Nord         |  4.12.0.152     | 13 august, 2021    | 20 august, 2021     | 4.13.0.152          | 27 august, 2021     |
 
 
+> [!NOTE]
+> Implementarea automată este finalizată pentru versiunea 4.12.0.148. Nu este planificată nicio implementare automată pentru versiunea actualizată a versiunii din iulie 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificare de lansare pentru managementul de proiect și contabilitate în mediul de aplicații Finance and Operations
 
@@ -73,16 +75,16 @@ Actualizările pentru managementul de proiect și contabilitate sunt publicate d
 
 |          Versiune acceptată          | Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         28 mai 2021        |           16 iulie 2021           |                             30 iulie 2021                             |  22 Octombrie 2021  |
 |          10.0.19          |        23 aprilie 2021       |            18 iunie 2021           |                             2 iulie 2021                             | 17 septembrie 2021 |
-|          10.0.18          |        5 martie 2021        |           16 aprilie 2021          |                            30 aprilie 2021                            |    16 iulie 2021   |
+
 
 
 Datele de lansare vizate pot fi modificate. Pentru informații suplimentare, consultați [Disponibilitate actualizare de serviciu](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Versiune țintă          | Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28 mai 2021        |           16 iulie 2021           |                             30 iulie 2021                             |  22 Octombrie 2021  |
 |          10.0.21          |         02 august, 2021     |           17 septembrie 2021      |                             1 Octombrie 2021                           |  10 decembrie 2021  |
-
+|          10.0.22          |      3 septembrie 2021      |          22 Octombrie 2021         |                           5 noiembrie 2021                           |  14 ianuarie 2022  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

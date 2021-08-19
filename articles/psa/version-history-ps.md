@@ -2,7 +2,7 @@
 title: Actualizați planificarea de lansare pentru Project Service 3.x
 description: Acest subiect oferă informații despre versiunile disponibile și viitoare ale Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334887"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024843"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Actualizați planificarea de lansare pentru Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334887"
 
 | Soluție  | Cea mai recentă versiune |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | Project Service Automation program de completare desktop                | 3.15          |
 
 Pentru informații despre actualizări la Project Service, consultați [Planuri de lansare Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Pentru informații despre actualizări la Project Service, consultați [Planuri 
 | Stație  | Regiune | Versiunea curentă | Următoarea versiune |  Dată programată
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stația 1</strong> | |  |  | |
-| | <i>Prima apariție</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | 28 iulie 2021
+| | <i>Prima apariție</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 27 august, 2021
 |<strong>Stația 2</strong> | |  |  | |
-| | <i>America de Sud</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
-| | <i>Canada</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
-| | <i>India</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
-| | <i>Franța</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
-| | <i>Emiratele Arabe Unite</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
-| | <i>Africa de Sud</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
-| | <i>Germania</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
-| | <i>Elveția</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 iulie 2021
+| | <i>America de Sud</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
+| | <i>Canada</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
+| | <i>India</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
+| | <i>Franța</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
+| | <i>Emiratele Arabe Unite</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
+| | <i>Africa de Sud</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
+| | <i>Germania</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
+| | <i>Elveția</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 septembrie 2021
 |<strong>Stația 3</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 iulie 2021
-| | <i>Asia Pacific</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 iulie 2021
-| | <i>Regatul Unit</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 iulie 2021
-| | <i>Oceana</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 iulie 2021
+| | <i>Japonia</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 august, 2021
+| | <i>Asia Pacific</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 august, 2021
+| | <i>Regatul Unit</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 august, 2021
+| | <i>Oceana</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 august, 2021
 |<strong>Stația 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23 iulie 2021
+| | <i>Europa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20 august, 2021
 |<strong>Stația 5</strong> | |  |  | |
-| | <i>America de Nord</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 iulie 2021
+| | <i>America de Nord</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 august, 2021
 |<strong>Stația 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 iulie 2021
-| | <i>Grupuri dedicate la scară</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06 august, 2021
+| | <i>Government Community Cloud</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 august, 2021
+| | <i>Grupuri dedicate la scară</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03 septembrie 2021
 
 >[!Note]
 > - Datele din toate regiunile, cu excepția Cloud Community Community (CCG) indică calendarul următoarei actualizări automate. Datele din CCG indică disponibilitatea versiunii; în acest moment, nu există o actualizare automată pentru aceste regiuni.
