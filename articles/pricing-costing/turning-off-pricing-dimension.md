@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004546"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994516"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Dezactivarea unei dimensiuni de preț
 
@@ -32,7 +32,7 @@ Dezactivarea unei dimensiuni de tarifare, indiferent dacă este predefinită sau
 
 Cu toate acestea, atunci când faceți acest lucru, este posibil să primiți mesajul de eroare, **Dimensiunea prețurilor nu poate fi actualizată sau ștearsă dacă există înregistrări de preț asociate.**
 
-![Eroare de proces de business probabil atunci când dezactivați o dimensiune de tarifare](media/Business-Process-Error.png)
+![Eroare de proces de business probabil atunci când dezactivați o dimensiune de tarifare.](media/Business-Process-Error.png)
 
 Acest mesaj de eroare indică faptul că există înregistrări de preț care au fost parametrizate anterior pentru dimensiunea care este dezactivată. Toate înregistrările **Preț rol** și **Adaos preț rol** care se referă la o dimensiune trebuie șterse înainte ca aplicabilitatea dimensiunii să fie setată la **Nu**. Această regulă se aplică atât dimensiunilor de tarifare predefinite, cât și oricăror dimensiuni de preț particularizate pe care le-ați creat. Motivul pentru această validare este pentru că înregistrarea **Rol de preț** trebuie să aibă o combinație unică de dimensiuni. De exemplu, pe o listă de prețuri numită **Rate de cost SUA 2018**, aveți următoarele rânduri de **Preț rol**. 
 

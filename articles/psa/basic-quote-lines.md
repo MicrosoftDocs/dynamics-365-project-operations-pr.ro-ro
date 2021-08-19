@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014940"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995461"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferte și linii de ofertă
 
@@ -84,7 +84,7 @@ Organizațiile profesionale de servicii de obicei își ofertează și factureaz
 
 Una sau mai multe dintre aceste clasificări de tranzacții pot fi asociate cu fiecare linie de ofertă. După ce se câștigă o ofertă, maparea dintre clasificarea tranzacțiilor și linia de ofertă este transferată la linia de contract.
  
-> ![Captură de ecran a mapării tipurilor de tranzacții la ofertă și linii de contract](media/basic-guide-5.png)
+> ![Captură de ecran a mapării tipurilor de tranzacții la ofertă și linii de contract.](media/basic-guide-5.png)
   
 De exemplu, o ofertă poate conține următoarele două linii de ofertă: 
 - Activitate de consultanță care utilizează o metodă de facturare Timp și materiale, în cadrul căreia se aplică clasificări de tranzacții timp și taxă. De exemplu, toate tranzacțiile de timp și taxă pentru proiectul de exemplificare **Implementare Dynamics AX** sunt facturate clientului pe baza orei și materialelor care sunt utilizate. 
