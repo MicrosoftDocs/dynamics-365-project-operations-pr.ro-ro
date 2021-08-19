@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997166"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993301"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicați date de configurare și instalare pentru Project Operations - simplificat 
 
@@ -30,24 +30,24 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
 2. Navigați la dosar *ProjOpsSampleSetupData - CE numai CMT* și rulați fișierul executabil, *DataMigrationUtility*.
 3. Pe pagina 1 din Common Data Service Expertul Migrare configurare (CMT), selectați **Importați date** și apoi selectați **Continuare**.
 
-    ![Migrarea configurării](./media/1ConfigurationMigration.png)
+    ![Migrare configurare.](./media/1ConfigurationMigration.png)
 
 4. Pe pagina 2 a expertului CMT, selectați **Microsoft 365** ca **Tip de implementare**.
 5. Selectați **Afișați o listă a organizațiilor disponibile** și casetele de selectare **Afișați avansat**.
 6. Selectați regiunea chiriașului, introduceți acreditările, apoi selectați **Autentificare**.
 
-   ![Conectare de configurare](./media/2ConfigurationSignin.png)
+   ![Conectare de configurare.](./media/2ConfigurationSignin.png)
 
 7. Pe pagina 3, din lista Organizațiilor de pe entitatea găzduită, selectați în ce organizație doriți să importați datele demo și apoi selectați **Autentificare**.
 8. La pagina 4, selectați fișierul zip, *SampleSetupAndConfigData* din folderul despachetat, *ProjOpsSampleSetupData - CMT numai CE*.
 
-   ![Fișier zip](./media/3ZipFile.png)
+   ![Fișier zip.](./media/3ZipFile.png)
 
-   ![Selectați un fișier](./media/4SelectAFile.png)
+   ![Selectați un fișier.](./media/4SelectAFile.png)
 
 9. După selectarea fișierului zip, selectați **Importați date**.
 
-   ![Importați date](./media/5ImportData.png)
+   ![Importul datelor.](./media/5ImportData.png)
 
 10. Importul va rula aproximativ două-zece minute, în funcție de viteza rețelei. După finalizare, ieșiți din CMT Wizard. 
 11. Verificați organizația pentru date în următoarele 18 de entități:
@@ -71,7 +71,7 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
     -   Asociere categorie resursă care se poate rezerva
     -   Caracteristică a resursei ce se poate rezerva
 
-    ![Finalizați importul](./media/6CompleteImport.png)
+    ![Finalizați importul.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012601"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991050"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurați contabilitatea pentru proiectele facturabile
 
@@ -101,23 +101,23 @@ Parcurgeți pașii următori pentru a crea un nou profil de cost și venit al pr
 
 Timp și materiale - fără WIP
 
-![Profil de costuri și venituri: Timp și materiale - fără WIP](media/time-material-no-wip.png)
+![Profil de costuri și venituri: Timp și materiale - fără WIP.](media/time-material-no-wip.png)
 
 Timp și materiale - WIP (venit)
 
-![Profil de costuri și venituri: Timp și materiale - WIP](media/time-material-with-wip.png)
+![Profil de costuri și venituri: Timp și materiale - WIP.](media/time-material-with-wip.png)
 
 Preț fix - fără WIP
 
-![Profil de cost și venituri: preț fix - fără WIP](media/fixed-price-no-wip.png)
+![Profil de cost și venituri: preț fix - fără WIP.](media/fixed-price-no-wip.png)
 
 Preț fix - contract finalizat
 
-![Profil de cost și venituri: preț fix - contract finalizat](media/fixed-price-completed-contract.png)
+![Profil de cost și venituri: preț fix - contract finalizat.](media/fixed-price-completed-contract.png)
 
 Preț fix - finalizare procentuală
 
-![Profil de cost și venituri: preț fix - finalizare procentuală](media/fixed-price-completed-percentage.png)
+![Profil de cost și venituri: preț fix - finalizare procentuală.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Exemple de eveniment de contabilitate pentru pentru profilurile de eșantion de cost și venituri ale proiectului.

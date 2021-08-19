@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992401"
 ---
 # <a name="estimates"></a>Estimări
 
@@ -83,24 +83,24 @@ Dacă ați adăugat un câmp particularizat în detaliul liniei de ofertă și d
 1. Deschideți PluginRegistrationTool și conectați-vă la instanța dvs. online.
 2. Selectați **Căutare** și căutați insertul pentru actualizare.
 
-    ![Caseta de dialog Căutare structură](media/basic-guide-19.png)
+    ![Caseta de dialog Căutare arbore.](media/basic-guide-19.png)
 
 3. Selectați insertul, apoi, în pagina principală, selectați **Selectare**.
 4. Selectați pasul insertului pentru a actualiza, faceți clic dreapta, iar apoi selectați **Actualizare**.
 
-    ![Selectarea unui pas în insert](media/basic-guide-20.png)
+    ![Selectarea unui pas în insert.](media/basic-guide-20.png)
 
 5. În caseta de dialog **Actualizarea pasului existent**, în câmpul **Filtrarea atributelor**, selectați butonul puncte de suspensie (**...**):
  
-    ![Actualizați caseta de dialog Pas existent](media/basic-guide-21.png)
+    ![Actualizați caseta de dialog Pas existent.](media/basic-guide-21.png)
 
 6. În caseta de dialog **Selectare atribute**, bifați casetele de selectare pentru atributele particularizate.
 
-    ![Selectați caseta de dialog Atribute](media/basic-guide-22.png)
+    ![Selectați caseta de dialog Atribute.](media/basic-guide-22.png)
 
 7. Selectați **OK** pentru a închide caseta de dialog, apoi selectați **Actualizați pasul**.
  
-    ![Buton Actualizați pasul](media/basic-guide-23.png)
+    ![Buton Actualizați pasul.](media/basic-guide-23.png)
 
 8. Repetați pașii de la 1 la 7 pentru al doilea insert.
 9. Închideți PluginRegistrationTool.

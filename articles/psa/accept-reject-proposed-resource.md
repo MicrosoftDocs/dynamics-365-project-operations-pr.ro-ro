@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011611"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992536"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Acceptarea sau respingerea unei resurse de proiect propuse
 
@@ -33,14 +33,14 @@ Acest subiect furnizează informații despre modul de acceptare sau respingere a
 
 Când un manager de resurse propune o resursă denumită pentru a completa solicitarea de resurse generice pentru un proiect, câmpul **Stare solicitare** pentru membrul de echipă generic va fi actualizat la **Necesită revizuire**. Solicitarea va fi trimisă managerului de proiect pentru aprobare sau respingere.
 
-![Membru al echipei generice cu o propunere](media/RM-how-to-19.png)
+![Membru al echipei generice cu o propunere.](media/RM-how-to-19.png)
 
 Grila din fila **Resurse propuse** din pagina **Membru echipă de proiect** afișează rezervările curente ale resursei propuse. După acceptarea propunerii, grila este actualizată pentru a reflecta această rezervare. 
 
 Pentru a accepta resursa propusă și pentru a rezerva resursa respectivă în echipă, faceți clic pe **Acceptare propuneri**.  
 Pentru a respinge propunerea, faceți clic pe **Respingere resursă**.
 
-![Acceptarea unei propuneri de resurse](media/RM-how-to-20.png) 
+![Acceptarea unei propuneri de resursă.](media/RM-how-to-20.png) 
 
 Similar cu îndeplinirea directă a unei solicitări de resurse generice cu o resursă denumită, resursa generică va fi înlocuită, iar sarcinile atribuite vor fi actualizate cu membrul echipei numit.
 

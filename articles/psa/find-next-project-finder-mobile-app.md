@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990805"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Găsiți-vă următorul proiect cu aplicația Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Cu aplicația Project Finder Mobile de pe [!INCLUDE[tn_iphone](../includes/tn-ip
   
  Atingeți săgeata din dreapta proiectului care vă interesează pentru a vedea mai multe detalii și a vă înscrie.  
   
- ![Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile")  
+ ![Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Actualizați-vă abilitățile  
  Atingeți butonul de profil din partea dreaptă jos a ecranului pentru a vă actualiza abilitățile și nivelurile de competență.  
   
- ![Buton de profil în aplicația Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Buton de profil în aplicația Project Finder Mobile")  
+ ![Buton de profil în aplicația Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Buton de profil în aplicația Project Finder Mobile")  
   
 ### <a name="see-also"></a>Consultați și  
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
