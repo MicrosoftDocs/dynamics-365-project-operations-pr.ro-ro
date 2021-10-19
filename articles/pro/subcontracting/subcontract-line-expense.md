@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323836"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506114"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Linii de subcontract pentru categoriile de cheltuieli
 
@@ -29,23 +29,23 @@ Parcurgeți pașii următori pentru a crea o linie de subcontract pentru categor
 
 Următorul tabel oferă informații despre câmpurile de pe pagina de detalii pentru **Linia de subcontract** și pagina **Creare rapidă**.
 
-| **Câmp** |  **Descriere** |
-| ----------| ---------------- |
-| Nume | Numele liniei de subcontract. |
-| Descriere | O scurtă descriere a serviciilor sau produselor care sunt achiziționate în linia de subcontract. |
-| Tip linie | Acest câmp are valoarea implicită **Bazat pe cantitate**.  |
-| Metodă de facturare | Metoda de facturare a liniei de subcontract. Pe baza metodei de facturare a liniei, este disponibil un program de facturare bazat pe jaloane pentru metoda de facturare cu preț fix.  |
-| Clasă de tranzacții | Acest câmp are valoarea implicită **Timp**. Pentru a crea linii de subcontract pentru achiziționarea de produse, setați câmpul **Clasa tranzacției** la **Cheltuială**. Această valoare de câmp indică faptul că linia de subcontract este utilizată pentru a înregistra o achiziție de categorie de produse sau servicii de utilizat în proiecte. |
-| Categorie tranzacție | Selectați categoria de tranzacție. |
-| Început solicitat | Data la care categoriile de achiziții trebuie să fie disponibile de la furnizor. Data solicitată este utilizată pentru a alege o listă de prețuri a proiectelor din listele de prețuri ale proiectului atașate subcontractului. Costul categoriei pe linia de subcontract capătă apoi valoarea implicită din lista de prețuri respectivă. |
-| Sfârșit solicitat | Data la care categoriile de achiziții nu mai sunt necesare. Această dată apelează un avertisment atunci când un manager de proiect asociază această linie de subcontract cu estimări de cheltuieli specifice pentru proiectele care sunt datate după această dată. |
-| Cantitate comandată | Cantitatea de categorie achiziționată de la furnizor. Când un manager de proiect ia prea mult din cantitatea achiziționată, va apărea un avertisment.  |
-| Grup de unități | Valoarea implicită a acestui câmp se bazează pe grupul de unități implicit configurat pentru categoria selectată. |
-| Unitate | Valoarea implicită a acestui câmp se bazează pe grupul de unități implicit configurat pentru categoria selectată. Combinația de categorie și unitate este utilizată pentru a seta implicit prețul unitar pe linia de subcontract. |
-| Preț unitar | Valoarea de câmp pentru prețul unitar preia valoarea implicită din combinația de categorie și unitate din prețurile categoriilor aferente listei de prețuri a proiectului, aplicabile pentru data de început solicitată din linia de subcontract.  |
-| Subtotal | Acest câmp numai în citire este calculat automat ca preț unitar al cantității dacă sunt introduse atât valorile cantității, cât și prețul unitar. Dacă oricare dintre câmpuri sau ambele câmpuri sunt goale, puteți introduce manual o valoare în acest câmp.  |
-| Impozit pe vânzări | Introduceți valoarea impozitului pe vânzări.  |
-| Sumă totală | Valoarea totală a liniei de subcontract, inclusiv taxele. Acest câmp este calculat ca subtotal + impozit pe vânzări.  |
+| **Câmp** | **Descriere** | **Impact funcțional** |
+| --- | --- | --- |
+| Nume | Numele liniei de subcontractare pentru identificare. | Aceasta va fi afișată ca prima coloană din toate căutările bazate pe reperele liniilor de subcontractare. |
+| Descriere | O scurtă descriere a categoriilor de cheltuieli care sunt achiziționate pe linia de subcontractare. | Fără |
+|Tip linie | Acest câmp are valoarea implicită de  **Bazat pe cantitate**. |Fără |
+| Metodă de facturare | Acesta este un set de opțiuni care reprezintă cele două modele principale de contractare susținute de Project Operations: **Preț fix** și **Timp și material**. | O planificare de facturare bazat pe o etapă importantă este pusă la dispoziție pentru liniile de subcontractare dacă este selectată metoda de facturare cu Preț fix. |
+| Clasă de tranzacții | Acest câmp are valoarea implicită de  **Timp**. Pentru a crea linii de subcontract pentru achiziționarea de produse, setați câmpul  **Clasa tranzacției**  la  **Cheltuială**.  | Acest lucru indică faptul că linia de subcontractare este utilizată pentru a înregistra achiziția unei categorii de cheltuieli care urmează să fie utilizate în proiecte. |
+| Categorie tranzacție | Afișează o listă a categoriilor de tranzacții active din sistem. |Fără |
+| Început solicitat | Introduceți data la care categoriile de achiziții trebuie să fie disponibile de la furnizor. | Începutul solicitat este utilizat pentru a alege o listă de prețuri a proiectelor din listele de prețuri ale proiectului atașate subcontractului. Costul categoriei de pe linia de subcontractare provine din acea listă de prețuri. |
+| Final solicitat | Introduceți data la care categoriile de achiziții nu ar mai fi necesare. | Aceasta va fi utilizată pentru a afișa avertismente atunci când un manager de proiect asociază această linie de subcontractare cu estimări specifice de cheltuieli ale proiectului care sunt necesare după această dată. |
+| Cantitate comandată | Cantitatea categoriei achiziționate de la furnizor. | Aceasta va fi utilizată pentru a afișa avertismente atunci când un manager de proiect trage în exces din această cantitate.|
+| Grup de unități | Valoarea implicită se bazează pe grupul de unități implicit care este configurat pentru categoria selectată. |Fără |
+| Unitate | Implicitul se bazează pe unitatea implicită configurată pentru categoria selectată.  | Combinația dintre **Categorie** și **Unitate** va fi folosit ca implicit sau calculat pentru prețul unitar pentru linia de subcontractare.  |
+| Preț unitar | Valoarea implicită folosește combinația dintre **Categorie** și **Unitate** din categoria prețuri aferente listei de prețuri a proiectului, care este aplicabilă pentru începutul solicitat al liniei de subcontractare. |Fără |
+| Subtotal | Acesta este un câmp de numai citire care este calculat ca Cantitate X Preț unitar, dacă sunt introduse atât cantitatea, cât și prețul unitar. Dacă unul sau ambele câmpuri sunt necompletate, puteți introduce o valoare în acest câmp. |Fără |
+| Impozit pe vânzări | Introduceți valoarea impozitului pe vânzări. |Fără |
+| Sumă totală | Valoarea totală a liniei de subcontract, inclusiv taxele. Acest câmp este calculat ca Subtotal + Impozit pe vânzări. |Fără |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

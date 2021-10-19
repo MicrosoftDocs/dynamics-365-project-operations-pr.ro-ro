@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323881"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547259"
 ---
 # <a name="subcontract-lines-for-time"></a>Linii de subcontract pentru timp
 
@@ -30,23 +30,22 @@ Parcurgeți pașii următori pentru a crea o linie de subcontract pentru timp î
 
   Următorul tabel oferă informații despre câmpurile de pe pagina **Linie de subcontract** și pagina **Creare rapidă**.
 
-| **Câmp** | **Descriere** |
-| --- | --- |
-| Nume | Numele liniei de subcontract. |
-| Descriere | O scurtă descriere a serviciilor care sunt achiziționate pe linia de subcontract. | 
-| Tip linie | Acest câmp este o valoare implicită.  |
-| Metodă de facturare | Selectați metoda de facturare. Pe baza metodei de facturare a liniei de subcontract la care se face referire, este pus la dispoziție un program de facturare bazat pe jaloane pentru metoda de facturare cu preț fix. |
-| Clasă de tranzacții | Acest câmp este o valoare implicită care indică dacă linia de subcontract este utilizată pentru a înregistra o achiziție de timp de la subcontractant. |
-| Rol | Rolul resurselor din subcontract al căror timp este achiziționat. Rolul atribuit resurselor din subcontract determină costul achiziției. |
-| Început solicitat | Data la trebuie să înceapă să lucreze resursele subcontractantului. Data solicitată este utilizată pentru a alege o listă de prețuri a proiectelor din listele de prețuri ale proiectului atașate subcontractului. Costul rolului de pe linia de subcontract capătă apoi valoarea implicită din lista de prețuri respectivă. |
-| Sfârșit solicitat | Data la care se încheie alocarea resurselor subcontractantului. Această dată este utilizată pentru a afișa avertismente atunci când un manager de proiect trage din această capacitate pentru cerințele de resurse care apar după această dată. |
-| Cantitate comandată | Numărul de ore de roluri achiziționate de la furnizor. Această valoare este utilizată pentru a afișa avertismente atunci când un manager de proiect trage prea mult din această capacitate pentru cerințele de resurse. |
-| Grup de unități | Această valoare a câmpului este în mod implicit grupul de unități de timp și nu poate fi modificată.  |
-| Unitate | Acest câmp este în mod implicit unitatea de bază de ore din grupul de unități de timp. Puteți modifica această valoare pentru a cumpăra orice unitate din grupul de unități de timp, cum ar fi ziua sau săptămâna. Combinația de rol și unitate este folosită pentru a calcula prețul unitar pentru linia de subcontract. |
-| Preț unitar | Prețul unitar este implicit și derivă din utilizând combinația de rol și unitate din lista de prețuri a proiectului aplicabilă pentru data de livrare solicitată din linia de subcontract. Când lista de prețuri aplicabilă a proiectului are prețul stabilit într-o unitate diferită de unitatea de pe linia de subcontract, sistemul folosește conversia de unități pentru a calcula prețul unitar. |
-| Subtotal | Acest câmp numai în citire este calculat automat drept **Cantitate x Preț unitar** dacă sunt introduse atât valorile pentru cantitate, cât și pentru prețul unitar. Dacă fie câmpul Cantitate, fie câmpul Preț unitar, sau ambele sunt goale, puteți introduce o valoare în câmp. |
-| Impozit pe vânzări |  Introduceți valoarea impozitului pe vânzări. |
-| Sumă totală | Valoarea totală a liniei de subcontract, după includerea taxelor. |
-
+| **Câmp** | **Descriere** | **Impact funcțional** |
+| --- | --- | --- |
+| Nume | Numele liniei de subcontractare pentru identificare. | Aceasta va fi afișată ca prima coloană din toate căutările bazate pe reperele liniilor de subcontractare. |
+| Descriere | O scurtă descriere a serviciilor care sunt achiziționate pe linia de subcontract. |Fără |
+| Tip linie |   Acest câmp are valoarea implicită **Bazat pe cantitate**.| Fără |
+| Metodă de facturare | Acesta este un set de opțiuni care reprezintă cele două modele principale de contractare susținute de Project Operations: **Preț fix** și **Timp și material**. | Pe baza metodei de facturare selectate, o planificare de facturare bazat pe o etapă importantă este pus la dispoziție pentru liniile de subcontractare cu metoda de facturare cu Preț fix. |
+| Clasă de tranzacții | Valoarea implicită este **Timp**. | Acest lucru indică faptul că linia de subcontractare este utilizată pentru a înregistra o achiziție de timp subcontractant. |
+| Rol | Selectați rolul resurselor de subcontractare al căror timp este achiziționat. | Rolul îndeplinit de resursele subcontractului determină costul achiziției. |
+| Început solicitat | Introduceți data la care resursele subcontractorului sunt necesare pentru a începe să funcționeze. | Acesta este utilizat pentru a alege o listă de prețuri a proiectelor din listele de prețuri ale proiectului atașate subcontractului. Costul rolului de pe linia de subcontractare provine din acea listă de prețuri. |
+| Final solicitat | Introduceți data la care se termină atribuirea resursei subcontractorului. | Aceasta va fi utilizată pentru a afișa avertismente atunci când un manager de proiect trage din capacitatea pentru cerințele de resurse care apar după această dată. |
+| Cantitate comandată | Introduceți numărul de ore pentru rolul achiziționat de la furnizor. | Aceasta va fi utilizată pentru a afișa avertismente atunci când un manager de proiect trage în exces din capacitatea pentru cerințele de resurse. |
+| Grup de unități | Valoarea implicită este **Grupul de unități de timp**, care nu poate fi modificat. | Fără|
+| Unitate | Valoarea implicită pentru acest câmp este unitatea de bază a orelor de la **Grupul de unități de timp**. Puteți modifica această valoare pentru a cumpăra orice unitate din **Grup de unități de timp**, precum ziua sau săptămâna. | Combinația dintre **Rol** și **Unitate** va fi folosit ca implicit sau calculat pentru prețul unitar pentru linia de subcontractare. |
+| Preț unitar | Prețul unitar implicit utilizează combinația dintre **Rol** și **Unitate** din lista de prețuri a proiectului pentru data **Început solicitat** a liniei de subcontractare. | Când lista de prețuri aplicabilă a proiectului are prețul stabilit într-o unitate diferită de unitatea de pe linia de subcontract, sistemul folosește conversia de unități pentru a calcula prețul unitar. |
+| Subtotal |    Acesta este un câmp de numai citire care este calculat ca Cantitate x Preț unitar, dacă sunt introduse atât cantitatea, cât și prețul unitar. Dacă fie câmpul Cantitate, fie câmpul Preț unitar, sau ambele sunt goale, puteți introduce o valoare în câmp. | Fără|
+| Impozit pe vânzări |   Introduceți valoarea impozitului pe vânzări. |Fără |
+| Sumă totală | Valoarea totală a liniei de subcontract, inclusiv taxele. Acest câmp este calculat ca Subtotal + Impozit pe vânzări.|Fără |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,17 +2,17 @@
 title: Actualizări Project Operations
 description: Acest subiect oferă informații despre dimensiunile versiunile lansate de Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 08/09/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
-ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
+ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
+ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474520"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "7623375"
 ---
 # <a name="project-operations-updates"></a>Actualizări Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations este format din două componente:
 - Proiect management și contabilitate în mediul Dynamics 365 Finance acoperă capabilități de gestionare a cheltuielilor, contabilitate de proiect și recunoașterea veniturilor. Mediul de aplicație Finance and Operations este utilizat în Project Operations pentru scenarii resursă/non-stoc și Project Operations pentru scenarii stocat/pe bază de producție.
 
 ## <a name="project-operations-release-notes"></a>Note de lansare pentru Project Operations
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Resursă/non-stoc](whats-new-august-2021-resource-based.md).
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Implementare simplificată](../pro/whats-new/whats-new-august-2021-lite.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Resursă/non-stoc](whats-new-oct-2021-resource-based.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Implementare simplificată](../pro/whats-new/whats-new-oct-2021-lite.md).
 - Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [stocate/producție](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Ultima versiune Project Operations
 
 | Project Operations pe mediu Dataverse | Management de proiect și contabilitate în medii de aplicații Finance and Operations | 
 | --- | --- |
-| 4.14.0.99 | 10.0.20 |
+| 4.25.0.91 | 10.0.20 |
 
 Pentru scenariul ne-stocat Project Operations, vă recomandăm să utilizați versiunea de orchestrare cu scriere duală 2.2.2.83 sau o versiune ulterioară.
 
@@ -47,41 +47,39 @@ Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lu
 | Stație | Regiunea | Numărul versiunii curente | Actualizări automate pentru implementarea Lite | Actualizări automate pentru implementare de resurse/nestocate | Următorul număr de versiune | Următoarea versiune este disponibilă în general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stația 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima apariție         |  4.14.0.99      | Finalizați           | 10 septembrie 2021  | TBD                 | 01 Octombrie 2021    |
+|   &nbsp;  | Prima apariție         |  4.25.0.91      | Finalizați           | Finalizați            | TBD                 | 29 Octombrie 2021    |
 | Stația 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Sud         |  4.14.0.152     | 10 septembrie 2021 | 17 septembrie 2021  | TBD                 | 01 Octombrie 2021    |
-|    &nbsp; | Canada                |  4.14.0.152     | 10 septembrie 2021 | 17 septembrie 2021  | TBD                 | 01 Octombrie 2021    |
-|   &nbsp;  | India                 |  4.14.0.152     | 10 septembrie 2021 | 17 septembrie 2021  | TBD                 | 01 Octombrie 2021    |
-|   &nbsp;  | Franța                |  4.14.0.152     | 10 septembrie 2021 | 17 septembrie 2021  | TBD                 | 01 Octombrie 2021    |
-|   &nbsp;  | Emiratele Arabe Unite  |  4.14.0.152     | 10 septembrie 2021 | 17 septembrie 2021  | TBD                 | 01 Octombrie 2021    |
-|   &nbsp;  | Africa de Sud          |  4.14.0.152     | 10 septembrie 2021 | 17 septembrie 2021  | TBD                 | 01 Octombrie 2021    |
+|   &nbsp;  | America de Sud         |  4.25.0.91      | Finalizați           | 15 Octombrie 2021    | TBD                 | 29 Octombrie 2021    |
+|   &nbsp;  | Canada                |  4.25.0.91      | Finalizați           | 15 Octombrie 2021    | TBD                 | 29 Octombrie 2021    |
+|   &nbsp;  | India                 |  4.25.0.91      | Finalizați           | 15 Octombrie 2021    | TBD                 | 29 Octombrie 2021    |
+|   &nbsp;  | Franța                |  4.25.0.91      | Finalizați           | 15 Octombrie 2021    | TBD                 | 29 Octombrie 2021    |
+|   &nbsp;  | Africa de Sud          |  4.25.0.91      | Finalizați           | 15 Octombrie 2021    | TBD                 | 29 Octombrie 2021    |
 | Stația 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.13.0.152     | Finalizați           | Finalizați            | 4.14.0.152          | 10 septembrie 2021  |
-|   &nbsp;  | Asia Pacific          |  4.13.0.152     | Finalizați           | Finalizați            | 4.14.0.152          | 10 septembrie 2021  |
-|   &nbsp;  | Regatul Unit         |  4.13.0.152     | Finalizați           | Finalizați            | 4.14.0.152          | 10 septembrie 2021  |
-|   &nbsp;  | Oceania               |  4.13.0.152     | Finalizați           | Finalizați            | 4.14.0.152          | 10 septembrie 2021  |
+|   &nbsp;  | Japonia                 |  4.25.0.91      | 15 Octombrie 2021   | 22 Octombrie 2021    | TBD                 | 05 noiembrie 2021   |
+|   &nbsp;  | Asia Pacific          |  4.25.0.91      | 15 Octombrie 2021   | 22 Octombrie 2021    | TBD                 | 05 noiembrie 2021   |
+|   &nbsp;  | Regatul Unit         |  4.25.0.91      | 15 Octombrie 2021   | 22 Octombrie 2021    | TBD                 | 05 noiembrie 2021   |
+|   &nbsp;  | Oceania               |  4.25.0.91      | 15 Octombrie 2021   | 22 Octombrie 2021    | TBD                 | 05 noiembrie 2021   |
+|   &nbsp;  | Emiratele Arabe Unite  |  4.25.0.91      | 15 Octombrie 2021   | 22 Octombrie 2021    | TBD                 | 05 noiembrie 2021   |
 | Stația 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.13.0.152     | Finalizați           | 03 septembrie 2021  | 4.14.0.152          | 17 septembrie 2021  |
+|   &nbsp;  | Europa                |  4.14.0.99      | Finalizați           | Finalizați            | 4.25.0.91           | 15 Octombrie 2021    |
 | Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Nord         |  4.13.0.152     | 03 septembrie 2021 | 10 septembrie 2021  | 4.14.0.152          | 24 septembrie 2021  |
+|   &nbsp;  | America de Nord         |  4.14.0.99      | Finalizați           | 08 Octombrie 2021    | 4.25.0.91           | 22 Octombrie 2021    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificare de lansare pentru managementul de proiect și contabilitate în mediul de aplicații Finance and Operations
 
 Actualizările pentru managementul de proiect și contabilitate sunt publicate de opt ori pe an.
 
-|          Versiune acceptată          | Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28 mai 2021        |           16 iulie 2021           |                             30 iulie 2021                             |  22 Octombrie 2021  |
-|          10.0.19          |        23 aprilie 2021       |            18 iunie 2021           |                             2 iulie 2021                             | 17 septembrie 2021 |
-
-
+|Versiune acceptată| Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|    10.0.21      |         02 august, 2021     |           17 septembrie 2021      |                             1 Octombrie 2021                          |  10 decembrie 2021 |
+|    10.0.20      |         28 mai 2021        |           16 iulie 2021           |                             30 iulie 2021                            |  22 Octombrie 2021  |
 
 Datele de lansare vizate pot fi modificate. Pentru informații suplimentare, consultați [Disponibilitate actualizare de serviciu](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|          Versiune țintă          | Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.21          |         02 august, 2021     |           17 septembrie 2021      |                             1 Octombrie 2021                           |  10 decembrie 2021  |
-|          10.0.22          |      3 septembrie 2021      |          22 Octombrie 2021         |                           5 noiembrie 2021                           |  14 ianuarie 2022  |
+|Versiune țintă | Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3 septembrie 2021      |          22 Octombrie 2021         |                           5 noiembrie 2021                           |  14 ianuarie 2022  |
+|     10.0.23     |      15 Octombrie 2021       |        10 decembrie 2021          |                          31 decembrie 2021                           | 18 martie 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

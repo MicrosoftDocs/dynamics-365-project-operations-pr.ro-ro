@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000951"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487655"
 ---
 # <a name="define-project-calendars"></a>Definirea calendarelor de proiect
 
@@ -46,7 +46,7 @@ Pentru a crea un șablon de calendar pentru organizația dvs., există două cer
 
 1. Accesați **Resurse** \> **Resurse**.
 2. Creați o nouă resursă pentru a face referință în șablonul calendarului sau selectați o resursă existentă.
-3. Selectați fila **Ore de lucru** a resursei și completați instrucțiunile din [Setarea orelor de lucru pentru o resursă](/dynamics365/field-service/set-work-hours-resource.md) pentru a configura regulile calendarului.
+3. Selectați fila **Ore de lucru** a resursei și completați instrucțiunile din [Setarea orelor de lucru pentru o resursă](/dynamics365/field-service/set-work-hours-resource) pentru a configura regulile calendarului.
 
 **Creați un șablon nou de calendar**
 

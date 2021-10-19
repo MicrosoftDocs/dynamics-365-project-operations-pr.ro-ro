@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Noutăți
       items:
+        - name: Octombrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Septembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: August 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Iulie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -292,7 +296,7 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
+            - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Achiziționarea pentru proiecte a unor materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
           href: procurement/pending-vendor-invoices.md
+        - name: 'Comandarea unor materiale care nu sunt pe stoc pentru proiecte, folosind ordine de achiziție pentru proiecte'
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Reținerea furnizorilor
+          items:
+            - name: Prezentare generală a reținerii furnizorilor
+              href: procurement/vendor-retention-overview.md
+            - name: Configurarea reținerii furnizorilor
+              href: procurement/set-up-vendor-retention.md
     - name: Facturare
       items:
         - name: Prezentare generală a procesului de facturare
@@ -528,6 +540,10 @@
       items:
         - name: Noutăți 2021 - valul 2 de acces timpuriu - implementare simplificată
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Noutăți octombrie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Noutăți septembrie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Noutăți august 2021 - implementare simplificată
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Noutăți iulie 2021 - implementare simplificată
@@ -784,7 +800,7 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
+            - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
@@ -856,11 +872,11 @@
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
         - name: Detalii de antet pentru subcontracte
           href: pro/subcontracting/subcontract-header-details.md
-        - name: Linii de subcontract pentru timp
+        - name: Linii de subcontractare pentru timp
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Linii de subcontract pentru cheltuieli
+        - name: Linii de subcontractare pentru categoriile de cheltuieli
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Linii de subcontract pentru produse
+        - name: Linii de subcontractare pentru produse
           href: pro/subcontracting/subcontract-line-products.md
         - name: Resursele de linie de subcontractare
           href: pro/subcontracting/subcontract-line-resources.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 34, V3'

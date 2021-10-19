@@ -2,16 +2,16 @@
 title: Detalii antet pentru subcontracte
 description: Acest subiect explică funcționalitatea oferită pe antetul subcontractului în Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323656"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501341"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalii antet pentru subcontracte
 
@@ -28,26 +28,24 @@ Pentru a crea un subcontract, parcurgeți pașii următori.
 1. În panoul de navigare, selectați **Subcontracte** iar pe pagina **Subcontract** selectați **Nou**.
 2. Introduceți informațiile solicitate și apoi selectați **Salvare**.
 
-    Următorul tabel oferă informații despre câmpurile din pagina antetului Subcontract.
+    Următorul tabel oferă informații despre câmpurile din pagina **Antet subcontract**.
 
-    | **Câmp** | **Descriere** |
-    | --- | --- | 
-    | Nume | Numele subcontractului. |
-    | Descriere | O scurtă descriere a serviciilor și produselor care sunt achiziționate în subcontract. |
-    | Furnizor | Numele companiei de la care sunt achiziționate produsele și serviciile. Această înregistrare de cont are un tip de relație **Vânzător** sau **Furnizor**. |
-    | Dată subcontract | Data creării subcontractului. |
-    | Motiv stare | Starea subcontractului. |
-    | Monedă | Moneda în care sunt achiziționate produsele și serviciile. Valoarea din acest câmp este implicită din contul furnizorului, dar poate fi modificată. Listele de prețuri ale proiectelor sunt utilizate pentru stabilirea prețurilor produselor și serviciilor din subcontract trebuie să fie în această monedă. Listele de prețuri în orice altă monedă nu pot fi asociate subcontractului. Costul produselor și serviciilor suportate pentru acest subcontract va fi înregistrat pe proiect în această monedă. |
-    | Unitate contractantă | Diviziunea companiei care încheie un contract de cumpărare sau un subcontract cu furnizorul. |
-    | Termeni de plată | Condițiile de plată pentru facturile furnizorului care sunt emise pe acest subcontract. Valoarea din acest câmp este implicită din înregistrarea din contul furnizorului. |
-    | Adresă de plată | Adresa la care se trimite plata facturilor furnizorului. Valoarea din acest câmp este implicită din înregistrarea din contul furnizorului. |
-    | Nume Facturare către | Numele persoanei sau diviziei din compania furnizorului care va trimite factura. Valoarea din acest câmp este implicită din înregistrarea contului furnizorului și va fi utilizată ca numele contactului principal pe facturile furnizorului create pentru acest subcontract. |
-    | Adresă de facturare | Adresa utilizată pe facturile de la acest furnizor. Valoarea din acest câmp este implicită din înregistrarea din contul furnizorului. Această adresă este, de asemenea, utilizată ca adresa de facturare de pe facturile furnizorului create pentru acest subcontract. |
-    | Subtotal | Dacă un subcontract nu are linii, introduceți o valoare în acest câmp care denotă subtotalul comenzii înainte de impozite. Dacă subcontractul are linii, acest câmp este numai în citire. Suma afișată este valoarea subtotalului din toate liniile din subcontract. |
-    | Impozit total | Dacă un subcontract nu are linii, introduceți o valoare în acest câmp care să indice taxele din acest subcontract. Dacă subcontractul are linii, acest câmp este numai în citire. Valoarea afișată este valoarea suma taxelor din toate liniile din subcontract. |
-    | Sumă totală |  Acest câmp calculat arată valoarea totală a subcontractului după includerea taxelor.  |
-    | Data confirmării | Data la care s-a confirmat subcontractul.  |
-    | Solicitat de | Valoarea din acest câmp este în mod implicit numele utilizatorului care creează subcontractul. Această valoare poate fi modificată de către creatorul subcontractului pentru a indica persoana în numele căreia creează subcontractul.  |
-    | Manager cont distribuitor | Numele persoanei de contact principale pentru contul furnizorului. Valoarea din acest câmp este implicită din înregistrarea din contul furnizorului. Această valoare a câmpului poate fi modificată de utilizator pentru a selecta un contact diferit ca manager de cont furnizor pentru subcontract. Alertele prin e-mail și negocierile de preț pot fi configurate și trimise de acest contact. |
-
-
+    | Câmp | Descriere |Impact funcțional |
+    |---|------|---| 
+    | Nume | Numele subcontractului. | În toate listele derulante de subcontractare, numele subcontractului este listat în prima coloană pentru a vă ajuta să identificați subcontractul. | 
+    | Descriere | O scurtă descriere a serviciilor și produselor care sunt achiziționate în subcontract. | Fără |
+    | Furnizor | Numele companiei de la care sunt achiziționate produsele și serviciile. Această înregistrare de cont are un tip de relație **Vânzător** sau **Furnizor**. | Pe baza furnizorului selectat, valorile implicite sunt introduse automat pentru următoarele câmpuri:<br/> **• Monedă** </br> **• Liste de prețuri** </br> **• Termeni de plată**</br> **• Adresă de plată**</br> **• Adresă de facturare**</br> **• Nume Facturare către** </br>**• Manager cont distribuitor**|
+    | Dată subcontract | Data la care este creat subcontractul. | Data subcontractării este utilizată pentru a selecta lista corectă de prețuri de achiziție, fie din listele de prețuri atașate furnizorului aferent, fie din parametrii proiectului. |
+    | Motiv stare | Starea subcontractului. | Starea determină unde se află subcontractul în procesul de afaceri și dacă poate fi editat. <br/>Valorile includ:<br>• **Schiță**: Subcontractul poate fi editat. Puteți edita doar subcontractele cu starea **Schiță**.<br/>• **Confirmat**: Negocierea cu furnizorul este completă și subcontractul este aprobat pentru livrare. <br/>• **Închis**: Livrarea subcontractului este finalizată.<br/>• **Anulat**: Subcontractul a fost anulat și nu este planificată nicio livrare.  | 
+    | Monedă | Moneda în care sunt achiziționate produsele și serviciile. Valoarea implicită este introdusă automat din contul furnizorului, dar poate fi modificată. | Moneda subcontractului este utilizată pentru a corecta lista corectă de prețuri de achiziție, fie din listele de prețuri atașate furnizorului aferent, fie din parametrii proiectului. Listele de prețuri într-o altă monedă nu pot fi asociate cu subcontractul. Costul timpului, cheltuielilor și materialelor pe care resursele furnizorilor le livrează din acest subcontract sunt înregistrate în această monedă pe proiect. După salvarea înregistrării subcontractului, moneda subcontractului nu poate fi modificată.|
+    | Unitate contractantă | Diviziunea companiei care încheie un contract de cumpărare sau un subcontract cu furnizorul. | Fără |
+    | Termeni de plată | Condițiile de plată pentru facturile furnizorului care sunt emise pe acest subcontract. Valoarea implicită este introdusă automat din contul furnizorului. | Condițiile de plată din subcontract sunt copiate la toate facturile furnizorului care sunt legate de acest subcontract. Termenii de plată pot fi actualizați dacă subcontractul are statutul de **Schiță**. | 
+    | Adresă de plată | Adresa furnizorului către care trebuie trimise plățile. Valoarea implicită este introdusă automat din contul furnizorului. | Adresa de plată din subcontract este copiată ca adresă de plată în toate facturile furnizorului care sunt create pentru acest subcontract. Adresa de plată poate fi actualizată dacă subcontractul are statutul de **Schiță**.|
+    | Nume Facturare către | Numele persoanei sau diviziei din compania furnizorului care va trimite factura. Valoarea implicită este introdusă automat din contul furnizorului. | Valoarea **Nume Facturare la** din subcontract este copiată la toate facturile furnizorului care sunt legate de acest subcontract. Acest câmp poate fi actualizat dacă subcontractul are statutul de **Schiță**.|
+    | Adresă de facturare | Adresa utilizată pe facturile de la furnizor. Valoarea implicită este introdusă automat din contul furnizorului. | Această adresă este adresa „factură de la” de pe facturile furnizorului care sunt create pentru acest subcontract. |
+    | Subtotal | Dacă un subcontract nu are linii, introduceți subtotalul comenzii înainte de impozite. Dacă subcontractul are linii, acest câmp este numai în citire. Suma afișată este suma subtotală din toate liniile din subcontract. | Fără |
+    | Impozit total | Dacă un subcontract nu are linii, introduceți totalul impozitelor pe acest subcontract. Dacă subcontractul are linii, acest câmp este numai în citire. Suma care este afișată este suma impozitelor din toate liniile de pe subcontract. | Fără |
+    | Sumă totală | Acest câmp calculat arată valoarea totală a subcontractului după includerea taxelor. | Fără |
+    | Data confirmării | Data la care a fost confirmat subcontractul. | Fără |
+    | Solicitat de | În mod implicit, acest câmp este setat la numele utilizatorului care creează subcontractul. Cu toate acestea, creatorul subcontractului poate modifica valoarea pentru a indica persoana căreia creează subcontractul în numele. | Fără |
+    | Manager cont distribuitor | Numele persoanei de contact principale pentru contul furnizorului. Valoarea implicită este introdusă automat din contul furnizorului. Puteți selecta un contact diferit ca manager de cont furnizor al subcontractului. | Puteți configura alerte prin e-mail pentru a notifica contactul atunci când sunt aduse modificări subcontractului ca urmare a negocierilor de preț. |

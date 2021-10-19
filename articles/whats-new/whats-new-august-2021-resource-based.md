@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323476"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501386"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Noutăți august 2021 - Project Operations pentru scenarii bazate pe resurse/fără stocuri
 
@@ -31,7 +31,7 @@ Următoarele caracteristici sunt incluse în această versiune:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizări de hărți Project Operations cu scriere duală
 
-Nu există actualizări la hărțile cu dublă scriere Project Operations în această versiune. 
+Nu există actualizări pentru hărțile cu dublă scriere Project Operations în această versiune.
 
 Pentru o listă actuală și versiuni ale hărților cu scriere duală Project Operations, consultați [Versiuni de hartă cu scriere duală Project Operations](../environment/resource-dual-write-maps.md).
 

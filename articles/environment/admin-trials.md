@@ -2,16 +2,16 @@
 title: Înregistrați-vă pentru versiunile de încercare Project Operations
 description: Acest subiect oferă informații despre modul de implementare a unei versiuni de încercare a Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418472"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599228"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Înregistrați-vă pentru versiunile de încercare Project Operations 
 
@@ -85,15 +85,9 @@ Pentru a implementa o versiune de încercare a Dynamics 365 Project Operations, 
 
    După începerea pregătirii, sunteți redirecționat către lista de medii din centrul de administrare Power Platform. În timp ce pregătirea este în curs, starea mediului dvs. este **PreparingInstance**.
  
-  După finalizarea pregătirii, starea mediului dvs. este **Pregătit**.
+  Când pregătirea este completă, starea mediului dvs. este **Pregătit**. Pregătirea mediului include implementarea datelor demo.
  
-4.  Când pregătirea este finalizată, selectați URL-ul Microsoft Dataverse respectiv și URL-urile de aplicații Finance and Operations pentru validarea implementării.
-
-## <a name="demo-data-installation"></a>Instalare date demo
-
-Utilizați următoarele linkuri pentru a accesa pachetele de date demo atât pentru materialele fără stoc, cât și pentru scenariile de implementare lite. 
-- [Date demo materiale fără stoc](resource-apply-pro-setup-config-data.md)
-- [Date demo lite](lite-apply-demo-setup-config-data.md)
+4.  Selectați respectivul URL Microsoft Dataverse și adresele URL ale aplicațiilor Finance and Operations pentru validarea implementării.
 
 ## <a name="configuring-dual-write"></a>Configurare scriere duală
 Doar pentru implementări de materiale fără stoc, configurați mapările cu scriere duală. Pentru mai multe informații, consultați [versiuni mapări cu scriere duală Project Operations](resource-dual-write-maps.md).

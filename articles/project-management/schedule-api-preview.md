@@ -2,23 +2,22 @@
 title: Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
 description: Acest subiect oferă informații și exemple pentru utilizarea API-urilor de planificare a proiectului.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008781"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487700"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-> [!IMPORTANT] 
-> O parte sau toate funcționalitățile notate în acest subiect sunt disponibile ca parte a ediției de previzualizare. Conținutul și funcționalitățile pot fi modificate. 
+
 
 ## <a name="scheduling-entities"></a>Entități de planificare
 
