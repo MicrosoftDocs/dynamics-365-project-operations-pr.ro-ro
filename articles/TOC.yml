@@ -50,10 +50,12 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integrarea facturilor de proiect
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integrarea managementului cheltuielilor
+            - name: Integrarea gestionării cheltuielilor
               href: environment/resource-dual-write-expense.md
-            - name: Integrarea facturilor de furnizori
+            - name: Integrarea facturilor pentru furnizori
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dezinstalarea Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Noutăți
       items:
         - name: Octombrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
+            - name: Performanța API-ului de planificare a proiectelor
+              href: project-management/project-schedule-api-performance.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
+            - name: Performanța API-ului de planificare a proiectelor
+              href: project-management/project-schedule-api-performance.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -1100,8 +1106,10 @@
       href: psa/overview.md
     - name: Noutăți
       items:
-        - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
+        - name: Actualizați planificările de lansare pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 35, V3'

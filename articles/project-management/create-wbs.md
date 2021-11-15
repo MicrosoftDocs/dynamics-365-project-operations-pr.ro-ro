@@ -2,16 +2,16 @@
 title: Crearea unei structuri detaliate a proiectului
 description: Acest subiect explică cum să creați o structură detaliată a proiectului (WBS) incluzând comenzile de bază în noua interfață de planificare.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998746"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655432"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -117,5 +117,26 @@ Modul de activitate nu are niciun efect asupra actualizărilor efectuate la date
 
 Grila de **Planificare** este complet accesibilă și poate fi utilizată cu cititoare de ecran, ar fi Narator, JAWS sau NVDA. Aveți posibilitatea să vă deplasați prin zona grilă utilizând tastele săgeată (ca în Microsoft Excel), puteți utiliza tasta Tab pentru a avansa printre elementele interfeței cu utilizatorul interactive și puteți utiliza tasta săgeată în jos, tasta Enter sau bara de spațiu pentru a selecta și a deschide meniurile verticale.
 
+## <a name="project-limitations"></a>Limitări de proiect 
+Ar trebui să fiți conștient de următoarele limitări dacă utilizați structura de defalcare a lucrărilor în Project Operations. Aceste limite se aplică proiectelor și activităților. Pentru mai multe informații, consultați [Limite pentru Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Câmp**                                          |  **Limită**           |
+|----------------------------------------------------|----------------------|
+| Total maxim activități pentru un proiect                  | 500                  |
+| Total maxim durată pentru un proiect               | 3650 de zile (10 ani) |
+| Total maxim resurse pentru un proiect              | 150                  |
+| Numărul maxim de legături (numai succesoare) pentru un proiect | 600                  |
+| Total maxim de câmpuri particularizate pentru un proiect          | 10                   |
+
+**Limitări activitate**
+
+| **Câmp**                               |   **Limită**           |
+|-----------------------------------------|-----------------------|
+| Nivelul ierarhic maxim                 | 10 niveluri             |
+| Legături maxime (succesor + predecesor) | 20                    |
+| Durata maximă a sarcinii frunzelor           | 1250 de zile             |
+| Durata maximă a unei sarcini rezumative      | 3650 de zile (10 ani)  |
+| Maximul de resurse atribuit unei activități    | 20 de resurse          |
+| Interval de date acceptat pentru o activitate         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

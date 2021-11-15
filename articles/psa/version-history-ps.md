@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ed9cb4615ba45c6b42154caffbd16806d30a8e7
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
-ms.translationtype: HT
+ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
+ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623358"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "7773613"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Actualizați planificarea de lansare pentru Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7623358"
 
 | Soluție  | Cea mai recentă versiune |
 |-------|----|
-| Project Service Automation    | 3.10.57.152 |
+| Project Service Automation    | 3.10.58.120 |
 | Project Service Automation program de completare desktop                | 3.15          |
 
 Pentru informații despre actualizări la Project Service, consultați [Planuri de lansare Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,29 @@ Pentru informații despre actualizări la Project Service, consultați [Planuri 
 | Stație  | Regiune | Versiunea curentă | Următoarea versiune |  Dată programată
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stația 1</strong> | |  |  | |
-| | <i>Prima apariție</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 29 Octombrie 2021
+| | <i>Prima apariție</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 03 decembrie 2021
 |<strong>Stația 2</strong> | |  |  | |
-| | <i>America de Sud</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 noiembrie 2021
-| | <i>Canada</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 noiembrie 2021
-| | <i>India</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 noiembrie 2021
-| | <i>Franța</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 noiembrie 2021
-| | <i>Africa de Sud</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 noiembrie 2021
-| | <i>Germania</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 noiembrie 2021
-| | <i>Elveția</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 noiembrie 2021
+| | <i>America de Sud</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
+| | <i>Canada</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
+| | <i>India</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
+| | <i>Franța</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
+| | <i>Africa de Sud</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
+| | <i>Germania</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
+| | <i>Elveția</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
 |<strong>Stația 3</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 Octombrie 2021
-| | <i>Asia Pacific</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 Octombrie 2021
-| | <i>Regatul Unit</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 Octombrie 2021
-| | <i>Oceana</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 Octombrie 2021
-| | <i>Emiratele Arabe Unite</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 Octombrie 2021
+| | <i>Japonia</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 noiembrie 2021
+| | <i>Asia Pacific</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 noiembrie 2021
+| | <i>Regatul Unit</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 noiembrie 2021
+| | <i>Oceana</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 noiembrie 2021
+| | <i>Emiratele Arabe Unite</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 noiembrie 2021
 |<strong>Stația 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 22 Octombrie 2021
+| | <i>Europa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 noiembrie 2021
 |<strong>Stația 5</strong> | |  |  | |
-| | <i>America de Nord</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29 Octombrie 2021
+| | <i>America de Nord</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 decembrie 2021
 |<strong>Stația 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29 Octombrie 2021
-| | <i>Grupuri dedicate la scară</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 05 noiembrie 2021
+| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 decembrie 2021
+| | <i>Grupuri dedicate la scară</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 decembrie 2021
+
 
 
 >[!Note]

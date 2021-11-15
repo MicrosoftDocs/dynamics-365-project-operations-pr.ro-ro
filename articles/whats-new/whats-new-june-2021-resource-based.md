@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003876"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679224"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Noutăți iunie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
 
@@ -30,6 +30,7 @@ Următoarele caracteristici sunt incluse în această versiune:
 - Abilitatea de a șterge [Linii de propunere de factură de proiect pentru scenarii de ajustare](../invoicing/correct-project-invoice-proposals.md).
 - Liniile de cheltuieli detaliate reflectă numele subcategoriilor în raportul de cheltuieli [Rapoarte de cheltuieli reinventate - caracteristici noi](../expense/expense-reports-reimagined.md#new-features).
 - Metoda de plată este disponibilă în noul panou de cheltuieli atunci când creați o nouă cheltuială.
+- Disponibilitatea generală a API-urilor de planificare proiect. Această nouă funcționalitate permite clienților să efectueze în mod programatic operațiuni de creare, actualizare și ștergere pe sarcini de proiect, alocări de resurse, dependențe de sarcini și înregistrări ale membrilor echipei de proiect. Pentru mai multe informații, consultați [Utilizați API-urile de planificare a proiectului pentru a efectua operațiuni cu entitățile de planificare](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizări de hărți Project Operations cu scriere duală
 
