@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Noutăți
       items:
+        - name: Noiembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Octombrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Septembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Performanța API-ului de planificare a proiectelor
               href: project-management/project-schedule-api-performance.md
+            - name: Jurnalele de planificare a proiectelor
+              href: project-management/schedule-api-logs.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -544,6 +548,8 @@
       items:
         - name: Noutăți 2021 - valul 2 de acces timpuriu - implementare simplificată
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Noutăți noiembrie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Noutăți octombrie 2021 - implementare simplificată
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Noutăți septembrie 2021 - implementare simplificată
@@ -952,6 +958,10 @@
   items:
     - name: Noutăți
       items:
+        - name: Noutăți octombrie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Noutăți septembrie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Noutăți iulie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Noutăți mai 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -1106,8 +1116,10 @@
       href: psa/overview.md
     - name: Noutăți
       items:
-        - name: Actualizați planificările de lansare pentru Project Service 3.x
+        - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 36, V3'

@@ -1,18 +1,18 @@
 ---
 title: Actualizări Project Operations
-description: Acest subiect oferă informații despre dimensiunile versiunile lansate de Dynamics 365 Project Operations.
+description: Acest subiect oferă informații despre versiunile lansate ale Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783438"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892217"
 ---
 # <a name="project-operations-updates"></a>Actualizări Project Operations
 
@@ -22,51 +22,51 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/non-sto
 
 ## <a name="project-operations-components"></a>Componente Project Operations
 
-Dynamics 365 Project Operations este format din două componente:
+Dynamics 365 Project Operations constă din două componente:
 
-- Project Operations pe mediul Dataverse acoperă capabilitățile de la oportunitate la emiterea facturii proforme. Dataverse este utilizat în implementarea simplă și implementarea scenariilor de resurse/ne-stocate ale Project Operations.
-- Proiect management și contabilitate în mediul Dynamics 365 Finance acoperă capabilități de gestionare a cheltuielilor, contabilitate de proiect și recunoașterea veniturilor. Mediul de aplicație Finance and Operations este utilizat în Project Operations pentru scenarii resursă/non-stoc și Project Operations pentru scenarii stocat/pe bază de producție.
+- Operațiunile de proiect în mediul Dataverse acoperă capabilități de la oportunitate până la facturarea proforma. Dataverse este utilizat în implementarea simplă și implementarea scenariilor de resurse/ne-stocitate a operațiunilor de proiect.
+- Managementul proiectelor și contabilitatea în mediul Dynamics 365 Finance acoperă capabilitățile de gestionare a cheltuielilor, contabilitatea proiectelor și recunoașterea veniturilor. Mediul aplicației Finanțe și operațiuni este utilizat în Operațiuni de proiect pentru scenarii bazate pe resurse/ne-aprovizionate și Operațiuni de proiect pentru scenarii bazate pe stoc/producție.
 
 ## <a name="project-operations-release-notes"></a>Note de lansare pentru Project Operations
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Resursă/non-stoc](whats-new-oct-2021-resource-based.md).
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Implementare simplificată](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [stocate/producție](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Resursă/non-stoc](whats-new-nov-2021-resource-based.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Implementare simplificată](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [stocate/producție](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Ultima versiune Project Operations
 
-| Project Operations pe mediu Dataverse | Management de proiect și contabilitate în medii de aplicații Finance and Operations | 
+| Operațiuni de proiect în mediul Dataverse | Management de proiect și contabilitate în mediile aplicațiilor de finanțe și operațiuni | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Pentru scenariul ne-stocat Project Operations, vă recomandăm să utilizați versiunea de orchestrare cu scriere duală 2.2.2.83 sau o versiune ulterioară.
+Pentru scenariul de resurse de operațiuni de proiect/ne-aprovizionat, vă recomandăm să utilizați versiunea orchestrației cu scriere duală 2.3.1.15 sau o versiune superioară.
 
-## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificare de lansare pentru Project Operations pe mediul Dataverse
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Programul de lansare pentru operațiunile de proiect în mediul Dataverse
 
-Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lunar. 
+Actualizări pentru operațiunile de proiect în mediul Dataverse sunt disponibile lunar. 
 
 | Stație | Regiunea | Numărul versiunii curente | Actualizări automate pentru implementarea Lite | Actualizări automate pentru implementare de resurse/nestocate | Următorul număr de versiune | Următoarea versiune este disponibilă în general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stația 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima apariție         |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 03 decembrie 2021   |
+|   &nbsp;  | Prima apariție         |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 06 decembrie 2021   |
 | Stația 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Sud         |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 03 decembrie 2021   |
-|   &nbsp;  | Canada                |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 03 decembrie 2021   |
-|   &nbsp;  | India                 |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 03 decembrie 2021   |
-|   &nbsp;  | Franța                |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 03 decembrie 2021   |
-|   &nbsp;  | Africa de Sud          |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 03 decembrie 2021   |
+|   &nbsp;  | America de Sud         |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 06 decembrie 2021   |
+|   &nbsp;  | Canada                |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 06 decembrie 2021   |
+|   &nbsp;  | India                 |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 06 decembrie 2021   |
+|   &nbsp;  | Franța                |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 06 decembrie 2021   |
+|   &nbsp;  | Africa de Sud          |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 06 decembrie 2021   |
 | Stația 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 10 decembrie 2021   |
-|   &nbsp;  | Asia Pacific          |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 10 decembrie 2021   |
-|   &nbsp;  | Regatul Unit         |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 10 decembrie 2021   |
-|   &nbsp;  | Oceania               |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 10 decembrie 2021   |
-|   &nbsp;  | Emiratele Arabe Unite  |  4.26.0.145     | 12 noiembrie 2021  | 19 noiembrie 2021   | TBD                 | 10 decembrie 2021   |
+|   &nbsp;  | Japonia                 |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 10 decembrie 2021   |
+|   &nbsp;  | Asia Pacific          |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 10 decembrie 2021   |
+|   &nbsp;  | Regatul Unit         |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 10 decembrie 2021   |
+|   &nbsp;  | Oceania               |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 10 decembrie 2021   |
+|   &nbsp;  | Emiratele Arabe Unite  |  4.26.0.150     | Finalizați           | Finalizați            | TBD                 | 10 decembrie 2021   |
 | Stația 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.25.0.91      | Finalizați           | Finalizați            | 4.26.0.145          | 12 noiembrie 2021   |
+|   &nbsp;  | Europa                |  4.26.0.150     | Finalizați           | 10 decembrie 2021   | TBD                 | 17 decembrie 2021   |
 | Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Nord         |  4.25.0.91      | Finalizați           | Finalizați            | 4.26.0.145          | 19 noiembrie 2021   |
+|   &nbsp;  | America de Nord         |  4.26.0.150     | 10 decembrie 2021  | 17 decembrie 2021   | TBD                 | 07 ianuarie 2022    |
 
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificare de lansare pentru managementul de proiect și contabilitate în mediul de aplicații Finance and Operations
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programul de lansare pentru managementul proiectelor și contabilitate în mediul aplicațiilor Finanțe și operațiuni
 
 Actualizările pentru managementul de proiect și contabilitate sunt publicate de opt ori pe an.
 
