@@ -1,8 +1,8 @@
 ---
-title: Rapoartele de cheltuieli reinventate
+title: Rapoartele de cheltuieli reimaginate (conțin videoclip)
 description: Acest subiect explică experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997846"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941057"
 ---
 # <a name="expense-reports-reimagined"></a>Rapoartele de cheltuieli reinventate
 
@@ -58,6 +58,7 @@ Pentru a activa noua experiență, utilizați spațiu de lucru **Gestionarea car
 | Salvați și adăugați noi linii de cheltuieli | Butoanele **Salvați** și **Nou** sunt disponibile atunci când sunt introduse noi cheltuieli, pentru a vă ajuta să introduceți rapid liniile de cheltuieli. |
 | O vizibilitate mai bună în linii separate și detaliate | Liniile detaliate și împărțite sunt adăugate direct la lista cheltuielilor pentru a crește vizibilitatea și a vă ajuta să determinați cu ușurință dacă există erori. |
 | Vizualizați detaliile subcategoriei în rânduri detaliate | Liniile detaliate ale unei cheltuieli părinte prezintă etichetele subcategoriei pe raportul de cheltuieli. Detalierea vă permite să revizuiți detaliile granulare dintr-o privire.|
+|Detaliați rapid cheltuielile recurente | Spațiul de lucru pentru cheltuieli reimaginat oferă posibilitatea de a detalia rapid cheltuielile recurente adăugând subcategoria, data de începere și cantitatea. Cantitatea se referă la numărul de ori în care încărcarea este repetată pe o perioadă continuă. |
 | Afișați chitanțele în timpul detalierii | Chitanțele pot fi afișate în timpul detalierii. |
 | Selecție de avans în numerar | Selectați unul sau mai multe avansuri de numerar pentru realizarea unei singure tranzacții de cheltuieli. |
 | Sold avans în numerar | Examinați soldul avansului de numerar în timp real atunci când creați o înregistrare a cheltuielilor comparativ cu avansurile de numerar aprobate și plătite. |

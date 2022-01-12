@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892208"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940949"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Actualizați planificarea de lansare pentru Project Service 3.x
 
@@ -37,36 +37,36 @@ ms.locfileid: "7892208"
 
 | Soluție  | Cea mai recentă versiune |
 |-------|----|
-| Project Service Automation    | 3.10.58.130 |
-| Project Service Automation program de completare desktop                | 3.15          |
+| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation program de completare desktop                | 3.60          |
 
 Pentru informații despre actualizări la Project Service, consultați [Planuri de lansare Dynamics 365](/dynamics365/release-plans/). 
 
 | Stație  | Regiune | Versiunea curentă | Următoarea versiune |  Dată programată
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stația 1</strong> | |  |  | |
-| | <i>Prima apariție</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 03 decembrie 2021
+| | <i>Prima apariție</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 14 ianuarie 2022
 |<strong>Stația 2</strong> | |  |  | |
-| | <i>America de Sud</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
-| | <i>Canada</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
-| | <i>India</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
-| | <i>Franța</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
-| | <i>Africa de Sud</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
-| | <i>Germania</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
-| | <i>Elveția</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 decembrie 2021
+| | <i>America de Sud</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 ianuarie 2022
+| | <i>Canada</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 ianuarie 2022
+| | <i>India</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 ianuarie 2022
+| | <i>Franța</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 ianuarie 2022
+| | <i>Africa de Sud</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 ianuarie 2022
+| | <i>Germania</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 ianuarie 2022
+| | <i>Elveția</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21 ianuarie 2022
 |<strong>Stația 3</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 decembrie 2021
-| | <i>Asia Pacific</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 decembrie 2021
-| | <i>Regatul Unit</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 decembrie 2021
-| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 decembrie 2021
-| | <i>Emiratele Arabe Unite</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 decembrie 2021
+| | <i>Japonia</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 ianuarie 2022
+| | <i>Asia Pacific</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 ianuarie 2022
+| | <i>Regatul Unit</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 ianuarie 2022
+| | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 ianuarie 2022
+| | <i>Emiratele Arabe Unite</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28 ianuarie 2022
 |<strong>Stația 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 07 ianuarie 2022
+| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07 ianuarie 2022
 |<strong>Stația 5</strong> | |  |  | |
-| | <i>America de Nord</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 ianuarie 2022
+| | <i>America de Nord</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 ianuarie 2022
 |<strong>Stația 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 ianuarie 2022
-| | <i>Grupuri dedicate la scară</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 decembrie 2021
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14 ianuarie 2022
+| | <i>Grupuri dedicate la scară</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21 ianuarie 2022
 
 
 

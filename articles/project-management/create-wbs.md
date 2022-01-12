@@ -2,16 +2,16 @@
 title: Crearea unei structuri detaliate a proiectului
 description: Acest subiect explică cum să creați o structură detaliată a proiectului (WBS) incluzând comenzile de bază în noua interfață de planificare.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655432"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928630"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -95,11 +95,11 @@ Următorul tabel prezintă atribute de programare suplimentare.
 
 ## <a name="staffing-attributes"></a>Atribute de personal
 
-Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să selectați **Creare** și în panoul **Creare rapidă** să adăugați un membru al echipei de proiect ca o resursă nouă.
+Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să selectați **Creare** și în panoul **Creare rapidă** să adăugați un membru al echipei de proiect ca o resursă nouă.  Când căutați o resursă folosind selectorul de resurse din grila de activități, vizualizarea panoului sau gantt, căutarea returnează fie membri existenți ai echipei de proiect, fie resurse active care pot fi rezervate.
 
 Câmpurile **Rol**, **Unitate de resursă** și **Nume poziție** sunt utilizate pentru a descrie cerințele de personal pentru activitate. Aceste atribute de personal, împreună cu planificarea sarcinii, sunt utilizate pentru a găsi resursele disponibile pentru a realiza această sarcină.
 
-   - **Rol**: Specificați tipul de resursă care este necesar pentru a realiza sarcina.
+   - **Rol** : Specificați tipul de resursă care este necesară pentru realizarea sarcinii.,
    - **Unitate resursă**: Specificați unitatea de la care ar trebui să se atribuie resursele pentru sarcină. Acest atribut afectează estimarea costurilor și vânzărilor pentru activitate dacă rata de cost și de facturare pentru resursă se setează pe baza unităților de resurse.
    - **Numele poziției**: Introduceți un nume pentru resursa generică ce servește ca un substituent pentru resursa care în cele din urmă va efectua activitatea.
 
@@ -127,6 +127,7 @@ Ar trebui să fiți conștient de următoarele limitări dacă utilizați struct
 | Total maxim resurse pentru un proiect              | 150                  |
 | Numărul maxim de legături (numai succesoare) pentru un proiect | 600                  |
 | Total maxim de câmpuri particularizate pentru un proiect          | 10                   |
+| Numărul maxim de elemente din lista de verificare pe sarcină                   | 20                   |
 
 **Limitări activitate**
 
