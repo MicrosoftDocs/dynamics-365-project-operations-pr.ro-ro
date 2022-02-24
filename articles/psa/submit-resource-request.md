@@ -1,6 +1,8 @@
 ---
 title: Remiterea unei solicitări de resurse
 description: Acest subiect furnizează informații despre remiterea unei solicitări pentru o resursă de proiect.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985021"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149738"
 ---
 # <a name="submitting-a-resource-request"></a>Remiterea unei solicitări de resurse
 
@@ -34,11 +36,8 @@ Aveți posibilitatea să trimiteți o cerință de resursă generată ca o solic
 1. În Project Service Automation (PSA), pe pagina **Proiecte**, faceți clic pe fila **Echipă** pentru a vizualiza o listă de resurse care pot fi rezervate. 
 2. Selectați resursa generică care are o cerință de resurse din listă și apoi faceți clic pe **Remitere cerere**.
 
-![Remiterea unei solicitări de resurse.](media/RM-how-to-18.png)
+![Remiterea unei solicitări de resurse](media/RM-how-to-18.png)
 
 Statutul de cerere al membrului generic de echipă se va schimba la **Remis**.
 
 După ce solicitarea este îndeplinită de managerul de resurse, resursa generică va fi înlocuită de o resursă numită dacă managerul de resurse îndeplinește solicitarea cu rezervarea unei resurse numite. În caz contrar, resursa generică va rămâne în echipă și starea solicitării se va modifica la **Necesită revizuire**, dacă managerul de resurse a propus o resursă numită.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

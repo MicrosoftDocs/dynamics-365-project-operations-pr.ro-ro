@@ -2,9 +2,11 @@
 title: Aplicația Cheltuieli mobile
 description: Acest subiect oferă informații despre spațiul de lucru mobil pentru gestionarea cheltuielii.
 author: suvaidya
-ms.date: 11/15/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
-ms.translationtype: MT
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818198"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499911"
 ---
 # <a name="mobile-expense-app"></a>Aplicația Cheltuieli mobile
 
@@ -47,14 +49,47 @@ De asemenea, aveţi posibilitatea să utilizaţi aceste caracteristici:
 - Trimiteți un raport de cheltuieli pentru aprobare și rambursare.
 - Aprobați sau respingeți rapoartele de cheltuieli pentru care sunteți aprobator desemnat.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Cerințe preliminare dacă utilizați Dynamics 365 Finance
+## <a name="prerequisites"></a>Cerințe preliminare
+Cerințele preliminare variază, în funcție de versiunea care a fost implementată pentru organizația dvs.
 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Condiții preliminare dacă utilizați Dynamics 365 Finance 
 Dacă Finanța a fost implementată pentru organizația dvs., administratorul de sistem trebuie să publice fișierul spațiu de lucru mobil **Gestionarea cheltuielii**. 
+
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Condiții preliminare dacă utilizați versiunea 1611 cu platforma de 3 actualizare sau o versiune ulterioară
+Dacă versiunea 1611 cu actualizarea platformei 3 sau o versiune ulterioară a fost implementată pentru organizația dvs., administratorul de sistem trebuie să îndeplinească următoarele condiții prealabile. 
+
+<table>
+<thead>
+<tr class="header">
+<th>Cerințe preliminare</th>
+<th>Rol</th>
+<th>Descriere</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Implementați KB 4019015.</td>
+<td>Administrator de sistem</td>
+<td>KB 4019015 este o actualizare X++ sau metadate remediere rapidă care conține spațiu de lucru mobil <strong>Gestionarea cheltuielii</strong>. Pentru a implementa KB 4019015, administratorul de sistem trebuie să urmeze acești pași.
+<ol>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descărcați actualizările din Lifecycle Services</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalați remedierea rapidă a metadatelor</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creați un pachet implementabil</a> care conține modele <strong>ApplicationSuite</strong> și <strong>ExpenseMobile</strong> și apoi încărcați pachetul implementabil la LCS.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicați pachetul implementabil</a>.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>Publicați fișierul spațiu de lucru mobil <strong>Gestionarea cheltuielilor</strong>.</td>
+<td>Administrator de sistem</td>
+<td>Consultați <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicați un spațiu de lucru mobil</a>.</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops
 Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
-- [Pentru telefoanele Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Pentru telefoane Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pentru telefoane iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Conectați-vă la aplicația mobilă
@@ -70,11 +105,11 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 3. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
 4. Urmați unul dintre acești pași:
 
-    - Dacă ați selectat **Faceți o fotografie**, urmați acești pași:
+   - Dacă ați selectat **Faceți o fotografie**, urmați acești pași:
 
-        1. Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței. 
-        2. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
-        3. Opțional: introduceți un nume pentru fotografie și introduceți orice notă.
+      1. Sunteți condus la camera de pe dispozitivul dvs. mobil, astfel încât să puteți face o fotografie a chitanței. 
+      2. După ce ați terminat de făcut o fotografie, selectați **OK** pentru a accepta fotografia.
+      3. Opțional: introduceți un nume pentru fotografie și introduceți orice notă.
 
     - Dacă ați selectat **Alegeți imagine**, urmați acești pași:
 
@@ -87,11 +122,11 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
 1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
 2. Selectați **Intrare rapidă a cheltuielilor**.
-3. Selectați categoria de cheltuială. Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.
+3. Selectați categoria de cheltuială. Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.
 4. Introduceți data tranzacției pentru cheltuială.
 5. Opțional: introduceți comerciantul pentru cheltuială.
 6. Introduceţi valoarea monetară a cheltuielii.
-7. Selectați moneda cheltuielii. Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după monedă sau comutați la căutare după nume.
+7. Selectați moneda cheltuielii. Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după monedă sau comutați la căutare după nume.
 8. Selectați **Faceți o fotografie** sau **Alegeți imaginea**.
 9. Urmați unul dintre acești pași:
 
@@ -100,20 +135,20 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
 10. Selectați **Terminat**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Aprobați un raport de cheltuieli utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Aprobați un raport de cheltuieli utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor (dacă utilizați actualizarea din iulie 2017)
 
 1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
 2. **Aprobări de cheltuieli** afișează numărul de rapoarte de cheltuieli care vi se atribuie spre aprobare. Numărul este actualizat aproximativ la fiecare 30 de minute. Selectați **Aprobări de cheltuieli**.
 
     Este afișată lista de rapoarte de cheltuieli care vi se atribuie spre aprobare.
-
+    
 3. Selectați un raport de cheltuieli pentru a vizualiza detaliile cheltuielilor pentru acesta.
 4. Selectați o cheltuială pentru a vizualiza detaliile pentru acesta. Informațiile afișate pentru o cheltuială includ orice chitanță, invitat și detalii de detaliere.
 5. Înapoi pe pagina **Raport de cheltuieli**, selectați pentru a aproba sau respinge raportul de cheltuieli.
 6. Introduceți orice comentariu pentru acțiunea de aprobare.
 7. Selectați **Terminat**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Creați un nou raport de cheltuieli și trimiteți-l spre aprobare utilizând spațiul de lucru mobil pentru Gestionarea cheltuielilor
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Creați un nou raport de cheltuieli și trimiteți-l pentru aprobare utilizând spațiul de lucru mobil de gestionare a cheltuielilor (dacă utilizați actualizarea din 2017)
 
 1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
 2. Selectați **Introducere de cheltuieli**.
@@ -124,11 +159,11 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 7. Selectați una sau mai multe cheltuieli în listă.
 8. Selectați **Terminat**.
 9. Pentru a adăuga o nouă cheltuială la raportul de cheltuieli, selectați **Cheltuială nouă**.
-10. Selectați categoria pentru cheltuială. Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.
+10. Selectați categoria pentru cheltuială. Vedeți o listă de categorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă categoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după categoria de cheltuială sau comutați la căutarea după tipul de cheltuială.
 11. Opțional: introduceți comerciantul pentru cheltuială.
 12. Introduceți data tranzacției pentru cheltuială.
 13. Introduceţi valoarea monetară a cheltuielii.
-14. Selectați moneda cheltuielii. Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după monedă sau comutați la căutare după nume.
+14. Selectați moneda cheltuielii. Vedeți o listă de coduri de monede care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 400 de monede, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă moneda dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după monedă sau comutați la căutare după nume.
 15. Selectați **Terminat**.
 16. Pentru a adăuga mai multe detalii la cheltuială, selectați **Adăugați mai multe detalii**. Câmpurile disponibile depind de configurația gestionării cheltuielilor pentru compania dvs.
 17. Dacă politica companiei necesită o chitanță pentru cheltuială, selectați **Chitanțe**, apoi urmați acești pași:
@@ -151,12 +186,12 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
                     1. Selectaţi o imagine din listă.
                     2. Opțional: introduceți un nume pentru imagine și introduceți orice notă.
 
-            3. Selectați **Terminat**.
+            3.  Selectați **Terminat**.
 
         - Dacă ați selectat **Atașați chitanța**, urmați acești pași:
 
-            1. Selectați una sau mai multe imagini în listă.
-            2. Selectați **Terminat**.
+            1.  Selectați una sau mai multe imagini în listă.
+            2.  Selectați **Terminat**.
 
     3. Selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.
 
@@ -174,12 +209,12 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
         - Dacă ați selectat **Oaspeți anteriori**, urmați acești pași:
 
-            1. Selectați unul sau mai mulți oaspeți anteriori din listă. Vedeți o listă de invitați anteriori pe care i-ați adăugat la rapoartele de cheltuieli anterioare care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă invitatul dvs. anterior nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după organizație, țară sau titlu.
+            1. Selectați unul sau mai mulți oaspeți anteriori din listă. Vedeți o listă de invitați anteriori pe care i-ați adăugat la rapoartele de cheltuieli anterioare care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă invitatul dvs. anterior nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după organizație, țară sau titlu.
             2. Selectați **Terminat**.
 
         - Dacă ați selectat **Colegi**, urmați acești pași:
 
-            1. Selectați unul sau mai mulți colegi din listă. Vedeți o listă de colegi care sunt încărcați în aplicația dvs. pentru a fi utilizați offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă colegul dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după companie sau titlu.
+            1. Selectați unul sau mai mulți colegi din listă. Vedeți o listă de colegi care sunt încărcați în aplicația dvs. pentru a fi utilizați offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă colegul dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutați după nume sau comutați la căutare după companie sau titlu.
             2. Selectați **Terminat**.
 
     3. Selectați butonul **Înapoi** pentru a reveni la detaliile cheltuielilor.
@@ -188,7 +223,7 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
     1. Selectați prima dată pe care doriți să o detaliați.
     2. Selectați **Adăugați detalii**.
-    3. Selectați subcategoria pentru detalierea cheltuielii. Vedeți o listă de subcategorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă subcategoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutare după numele subcategorii cheltuieli.
+    3. Selectați subcategoria pentru detalierea cheltuielii. Vedeți o listă de subcategorii de cheltuieli care sunt încărcate în aplicația dvs. pentru a fi utilizate offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, dezvoltatorii ar trebui să consulte [Platforma mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Dacă subcategoria dvs. nu se află în listă, selectați **Căutare** pentru a face o căutare online. Căutare după numele subcategorii cheltuieli.
     4. Introduceți suma tranzacției pentru detaliere.
     5. Modificați data tranzacției dacă este necesară.
     6. Selectați **Terminat**.
@@ -202,30 +237,5 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 23. Introduceți orice comentariu pentru aprobator.
 24. Selectați **Terminat**.
 
-## <a name="frequently-asked-questions"></a>Întrebări frecvente
-
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>De ce aplicația mobilă Expense nu introduce implicit metoda de plată?
-
-Organizațiile pot personaliza **Metodă de plată prestabilită** setare pentru fiecare categorie de cheltuieli așa cum este creată. În plus, atunci când configurați metode de plată, puteți seta **Metodă de plată prestabilită** câmp la **Numai import**.
-
-Cand **Doar import** este activată pentru o metodă de plată, metoda de plată nu este introdusă în mod implicit. Acesta va fi necompletat în categoriile de cheltuieli în care este configurată această metodă de plată. Acest comportament este consecvent atât în experiența web, cât și în cea mobilă.
-    
-Cand **Numai import** nu este activată pentru o metodă de plată, valoarea setată este introdusă în mod implicit pentru categoriile de cheltuieli în care este configurată această metodă de plată. Cu toate acestea, există o problemă cunoscută în care valoarea implicită nu este introdusă în aplicația mobilă Cheltuieli. Pentru a rezolva această problemă, selectați manual o metodă de plată înainte de a salva raportul de cheltuieli. 
-
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>De ce nu pot adăuga sau edita dimensiuni financiare în aplicația mobilă Cheltuieli?
-
-Introducerea dimensiunilor și distribuțiilor nu este acceptată. Pentru a evita această limitare, puteți stabili aceste câmpuri în mod implicit în aplicația mobilă, setând dimensiunile financiare implicite pentru fiecare proiect sau angajat.
-
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>De ce văd uneori o eroare de sincronizare în aplicația mobilă Expense?
-
-Dacă liniile de cheltuieli nu îndeplinesc cerințele politicii, iar utilizatorul trimite raportul de cheltuieli fără a adresa avertismentul de politică, datele mobile nu sunt sincronizate cu serverul și are loc o eroare de sincronizare. Toate rapoartele de cheltuieli care sunt trimise după producerea unei erori de sincronizare vor rămâne într-o stare de eșec și vor cauza mai multe erori de sincronizare. Singura modalitate de a remedia această situație este să ștergeți manual notificările de sincronizare. Această problemă a fost rezolvată prin oprirea trimiterii rapoartelor de cheltuieli atunci când avertismentele de politică nu au fost abordate, astfel încât erorile de sincronizare să fie evitate.
-
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>De ce nu se reflectă corect validarea proiectelor și a categoriilor în aplicația mobilă Expense?
-
-Această validare nu este acceptată în prezent. Cu toate acestea, suportul ar putea fi adăugat în viitor. 
-
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Ce tipuri de documente sunt acceptate în aplicația mobilă Expense?
-
-Aplicația mobilă Expense acceptă numai imagini. În prezent, nu acceptă PDF-uri sau alte documente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

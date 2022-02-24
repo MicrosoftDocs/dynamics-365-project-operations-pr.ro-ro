@@ -2,17 +2,19 @@
 title: Conectarea datelor reale la înregistrările originale
 description: Acest subiect explică cum să legați datele reale la înregistrările originale, cum ar fi introducerea timpului, introducerea cheltuielilor sau jurnalele de utilizare a materialelor.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991771"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852604"
 ---
 # <a name="link-actuals-to-original-records"></a>Conectarea datelor reale la înregistrările originale
 
@@ -77,7 +79,7 @@ Clasa de tranzacții reprezintă diferitele tipuri de costuri suportate pentru p
 
 Următorul exemplu arată procesarea tipică a intrărilor de timp într-un ciclu de viață al proiectului în Project Operations.
 
-> ![Procesarea intrărilor de timp dintr-un ciclu de viață Project Service.](media/basic-guide-17.png)
+> ![Procesarea intrărilor de timp dintr-un ciclu de viață Project Service](media/basic-guide-17.png)
  
 1. O remitere de intrare de timp creează două linii de jurnal: o linie pentru cost și o linie pentru vânzările nefacturate.
 2. Aprobarea finală a intrării de timp creează a două valori reale: una pentru cost și una pentru vânzările nefacturate.

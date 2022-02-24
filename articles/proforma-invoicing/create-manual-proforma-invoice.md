@@ -1,25 +1,42 @@
 ---
-title: Facturi proforme
-description: Acest subiect oferă informații despre facturile proforma în Project Operations.
+title: Creați manual o factură proforma
+description: Acest subiect oferă informații despre crearea unei facturi proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995641"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128073"
 ---
-# <a name="proforma-invoices"></a>Facturi proforme
+# <a name="create-a-manual-proforma-invoice"></a>Creați manual o factură proforma
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Facturarea prin proformă este utilă deoarece le oferă managerilor de proiect un al doilea nivel de aprobare înainte de a crea facturi pentru clienți. Primul nivel de aprobare se finalizează când se aprobă intrările de timp, cheltuieli și materiale pe care le transmit membrii echipei de proiect. Facturile proforme confirmate sunt disponibile în modulul de contabilitate a proiectelor din Project Operations. Contabilii de proiect pot efectua actualizări suplimentare, cum ar fi impozitul pe vânzări, contabilitatea și aspectul facturilor.
+Facturarea le oferă managerilor de proiect un al doilea nivel de aprobare înainte de a crea facturi pentru clienți. Primul nivel de aprobare se finalizează când se aprobă intrările de timp și cheltuieli pe care le transmit membrii echipei de proiect.
 
+Project Operations Dynamics 365 nu este proiectat pentru a genera facturi orientate spre client, din următoarele motive:
+
+- Nu conține informații fiscale.
+- Nu poate converti alte valute în valuta de facturare utilizând ratele de schimb corect configurate.
+- Nu se pot formata corect facturi, astfel încât să poată fi imprimate.
+
+În schimb, aveți posibilitatea să utilizați un sistem financiar sau contabil pentru a crea facturi orientate spre client care utilizează informațiile din propunerile de factură generate.
 
 ## <a name="creating-project-invoices"></a>Se creează facturi de proiect
 
@@ -33,7 +50,7 @@ Urmați acest pas pentru a crea o factură pentru un anumit contract de proiect.
 
 - Pe pagina de listă **Contracte de proiect**, deschideți un contract de proiect și apoi selectați **Creare factură**.
 
-    O factură este generată pentru toate tranzacțiile pentru contractul de proiect selectat care au starea **Gata de facturat**. Aceste tranzacții includ linii de jurnal cu privire la timp, cheltuieli, materiale, repere și alte linii de jurnal de vânzări nefacturate.
+    O factură este generată pentru toate tranzacțiile pentru contractul de proiect selectat care au starea **Gata de facturat**. Aceste tranzacții includ timp, cheltuieli, jaloane și linii de contract bazate pe produse.
 
 Parcurgeți acești pași pentru a crea facturi în vrac.
 
@@ -43,7 +60,7 @@ Parcurgeți acești pași pentru a crea facturi în vrac.
 
 2. Selectați **OK** pentru a închide caseta de mesaj.
 
-    O factură este generată pentru toate tranzacțiile pe o linie de contract care au o stare **Gata de facturat**. Aceste tranzacții includ linii de jurnal cu privire la timp, cheltuieli, materiale, repere și alte linii de jurnal de vânzări nefacturate.
+    O factură este generată pentru toate tranzacțiile pe o linie de contract care au o stare **Gata de facturat**. Aceste tranzacții includ timp, cheltuieli, jaloane și linii de contract bazate pe produse.
 
 3. Pentru a vizualiza facturile care sunt generate, accesați **Vânzări** \> **Facturare** \> **Facturi**. Veți vedea o factură pentru fiecare contract de proiect.
 
@@ -76,10 +93,11 @@ Lucrarea proces de lot pentru crearea facturilor este o lucrare recurentă. Dac�
  
 ### <a name="edit-a-draft-invoice"></a>Editați o schiță de factură
 
-Atunci când creați o factură de proiect schiță, toate tranzacțiile de vânzări nefacturate care au fost create atunci când intrările de timp, cheltuieli și utilizare de materiale au fost aprobate și sunt introduse pe factură. Aveți posibilitatea să efectuați următoarele ajustări în timp ce factura este încă într-o fază schiță:
+Atunci când creați o factură de proiect schiță, toate tranzacțiile de vânzări nefacturate care au fost create atunci când intrările de timp și cheltuieli care au fost aprobate sunt compilate pe factură. Aveți posibilitatea să efectuați următoarele ajustări în timp ce factura este încă într-o fază schiță:
 
 - Ștergeți sau editați detaliile liniei de facturare.
 - Editați și ajustați cantitatea și tipul de facturare.
+- Adăugați direct timp, cheltuieli și taxe ca tranzacții pe factură. Puteți utiliza această caracteristică dacă linia de facturare este mapată la o linie de contract care permite aceste clase de tranzacții.
 
 Selectați **Confirmați** pentru a confirma o factură. Acțiunea Confirmați este o acțiune într-o direcție. Când selectați **Confirmați**, sistemul face factura doar în citire și creează valori reale de vânzări facturate din fiecare detaliu de linie de factură pentru fiecare linie de factură. Dacă detaliul de linie pentru factură face referire la o valoare reală de vânzări nefacturate, sistemul inversează, de asemenea, valoarea reală de vânzări nefacturate. (Orice detaliu al liniei de factură care a fost creat dintr-o intrare de timp sau cheltuieli va face referire la o valoare reală de vânzări nefacturate.) Sistemele de integrare ale registrului general pot utiliza această inversare pentru a inversa proiectul în curs (WIP) în scopuri contabile.
 
@@ -93,6 +111,3 @@ Când confirmați o factură rectificativă, valoarea reală a vânzărilor ini�
 
 - O valoare reală de vânzări facturate timp de șase ore.
 - O valoare reală de vânzări nefacturate pentru restul de două ore. Această tranzacție poate fi facturată ulterior sau poate fi marcată ca netaxabilă, în funcție de negocierile cu clientul.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

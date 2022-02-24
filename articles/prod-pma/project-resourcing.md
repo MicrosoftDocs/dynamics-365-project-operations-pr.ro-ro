@@ -2,26 +2,28 @@
 title: Pagina de pornire a resurselor de proiect
 description: Acest subiect oferă informații despre alocarea de resurse proiectului.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082782"
 ---
 # <a name="project-resourcing-home-page"></a>Pagina de pornire a resurselor de proiect
 
@@ -38,7 +40,7 @@ O provocare pentru managerii de proiect și managerii de resurse în etapa de pl
 - Estimarea numărului de resurse necesare pentru întregul ciclu de viață al unui proiect.
 - Elaborarea structurii detaliate a proiectului (WBS) utilizând atribuirile inițiale de resurse.
 
-[![Ciclul de viață al proiectului.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Ciclul de viață al proiectului](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Pe măsură ce planificarea proiectului continuă, resursele planificate pot fi înlocuite cu resurse de personal. Managerul de proiect poate, de asemenea, să revină și să actualizeze rezervările de resurse în orice etapă a proiectului.
 
@@ -53,6 +55,3 @@ Următoarele subiecte oferă informații despre sarcinile care trebuie finalizat
 - [Performanța planificării resurselor proiectului](project-scheduling-performance.md)
 - [Configurarea de roluri în șabloanele de structură detaliată a proiectului](set-up-roles-wbs-template.md)
 - [Completarea resurselor pentru resursele planificate](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

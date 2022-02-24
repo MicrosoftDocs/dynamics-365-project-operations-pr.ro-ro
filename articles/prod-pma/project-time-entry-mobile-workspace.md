@@ -2,9 +2,11 @@
 title: Spațiul de lucru mobil pentru intrarea de timp a proiectului
 description: Acest subiect oferă informații despre spațiul de lucru mobil pentru intrarea de timp a proiectului. Acest spațiu de lucru permite utilizatorilor să intre și să economisească timp pentru un proiect utilizând dispozitivul mobil.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082777"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Spațiul de lucru mobil pentru intrarea de timp a proiectului
 
@@ -46,7 +48,7 @@ Mai exact, în spațiul de lucru mobil **Intrarea în timp a proiectului**, util
 Cerințele preliminare diferă, în funcție de versiunea de Microsoft Dynamics 365 care a fost implementat pentru organizația dvs.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Condiții preliminare dacă utilizați Dynamics 365 Finance
-Dacă Finanța a fost implementată pentru organizația dvs., administratorul de sistem trebuie să publice fișierul spațiu de lucru mobil **Intrarea în timp a proiectului**. Pentru instrucțiuni, consultați [Publicați un spațiu de lucru mobil](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Dacă Finanța a fost implementată pentru organizația dvs., administratorul de sistem trebuie să publice fișierul spațiu de lucru mobil **Intrarea în timp a proiectului**. Pentru instrucțiuni, consultați [Publicați un spațiu de lucru mobil](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Condiții preliminare dacă utilizați versiunea 1611 cu platforma 3 actualizare sau o versiune ulterioară
 Dacă versiunea 1611 cu actualizarea platformei 3 sau o versiune ulterioară a fost implementată pentru organizația dvs., administratorul de sistem trebuie să îndeplinească următoarele condiții prealabile. 
@@ -66,17 +68,17 @@ Dacă versiunea 1611 cu actualizarea platformei 3 sau o versiune ulterioară a f
 <td>Administrator de sistem</td>
 <td>KB 4018050 este o actualizare X++ sau metadate remediere rapidă care conține spațiu de lucru mobil <strong>Intrarea în timp a proiectului</strong>. Pentru a implementa KB 4018050, administratorul de sistem trebuie să urmeze acești pași.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descărcați remedierea rapidă a metadatelor de la Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalați remedierea rapidă a metadatelor</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creați un pachet implementabil</a> care conține modele <strong>ApplicationSuite</strong> și <strong>ProjectMobile</strong> și apoi încărcați pachetul implementabil la LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicați pachetul implementabil</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Descărcați remedierea rapidă a metadatelor de la Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalați remedierea rapidă a metadatelor</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creați un pachet implementabil</a> care conține modele <strong>ApplicationSuite</strong> și <strong>ProjectMobile</strong> și apoi încărcați pachetul implementabil la LCS.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicați pachetul implementabil</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicați spațiul de lucru mobil <strong>Proiect de intrare de timp</strong>.</td>
 <td>Administrator de sistem</td>
-<td>Consultați <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicați un spațiu de lucru mobil</a>.</td>
+<td>Consultați <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicați un spațiu de lucru mobil</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -94,23 +96,20 @@ Descărcați și instalați aplicația mobilă Finance and Operations:
 3.  Prima dată când vă conectați, vi se solicită numele de utilizator și parola. Introduceți acreditările.
 4.  După ce vă conectați, sunt afișate spațiile de lucru disponibile pentru compania dvs. Rețineți că, dacă administratorul de sistem publică mai târziu un spațiu de lucru nou, va trebui să reîmprospătați lista spațiilor de lucru mobile.
 
-[![Trageți pentru a reîmprospăta.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Trageți pentru a reîmprospăta](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Introduceți ora utilizând spațiul de lucru mobil pentru introducerea timpului proiectului
 1.  Pe dispozitivul dvs. mobil, selectați spațiul de lucru **Intrarea în timp a proiectului**.
 2.  Selectați **Intrare de timp**. Sunt afișate datele calendaristice pentru săptămâna curentă.
 3.  Pentru o dată selectată, selectați **Acțiuni** &gt; **Intrare nouă**.
 4.  Introduceți numărul de ore de înregistrat.
-5.  Selectați proiectul pentru intrarea în timp. O listă arată proiectele care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, consultați [Platformă mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Selectați proiectul pentru intrarea în timp. O listă arată proiectele care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, consultați [Platformă mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Dacă proiectul dvs. nu se află în listă, selectați **Căutare**. Căutați după nume sau comutați la căutare după numele proiectului sau client.
-7.  Selectați o categorie. O listă arată categoriile care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, consultați [Platformă mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Selectați o categorie. O listă arată categoriile care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, consultați [Platformă mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Dacă categoria dvs. nu se află în listă, selectați **Căutare**. Căutați după categorie sau comutați la căutare după numele categoriei.
-9.  Selectați o activitate. O listă arată activitățile care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, consultați [Platformă mobilă](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Selectați o activitate. O listă arată activitățile care sunt încărcate în aplicația dvs. pentru utilizare offline. În mod implicit, sunt încărcate 50 de articole, dar un dezvoltator poate schimba acest număr. Pentru informații suplimentare, consultați [Platformă mobilă](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Dacă activitatea dvs. nu se află în listă, selectați **Căutare**. Căutați după numărul de activitate sau comutați la căutare după scop.
 
 11. Selectați proprietatea de linie.
 12. Opțional: introduceți orice comentarii interne și externe.
 13. Selectați **Terminat**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

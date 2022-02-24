@@ -2,10 +2,12 @@
 title: Crearea câmpurilor și entităților particularizate
 description: Acest subiect explică modul de creare a seturilor de opțiuni și a entităților în soluția proprie în platforma Power Apps platform.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992446"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144878"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crearea câmpurilor și entităților particularizate 
 
@@ -43,7 +45,7 @@ O dimensiune de tarifare poate fi un set de opțiuni sau o entitate. Ambele treb
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Entități**.
 3. Faceți clic pe **Nou** pentru a crea o nouă entitate denumită **Titlu standard**. Introduceți restul de informații solicitate și apoi faceți clic pe **Salvare**.
 
-> ![Definiție entitate titlu standard.](media/Standard-Title-entity-definition.png)
+> ![Definiție entitate titlu standard](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensiuni bazate pe seturi de opțiuni 
@@ -54,9 +56,9 @@ Aveți posibilitatea să creați două dimensiuni bazate pe seturi de opțiuni. 
 2. În Explorator soluții, în panoul de navigare din stânga, selectați **Seturi de opțiuni**. 
 3. Faceți clic pe **Nou** pentru a crea un set de opțiuni nou, introduceți restul de informații solicitate, apoi faceți clic pe **Salvare**.
 
-> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Locația de lucru resursă.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Locația de lucru resursă ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Ore de lucru resursă.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Ore de lucru resursă ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Crearea de date pentru dimensiunile bazate pe entități
@@ -68,9 +70,6 @@ Aveți posibilitatea să creați manual date pentru dimensiunile bazate pe entit
 3. Închideţi formularul. 
 4. Repetați pașii 1-3 pentru a crea un alt titlu standard pentru „Inginer sisteme senior”.
 
-> ![Date eșantion pentru entitatea Titlu standard.](media/ST-data.png)
+> ![Date eșantion pentru entitatea Titlu standard ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

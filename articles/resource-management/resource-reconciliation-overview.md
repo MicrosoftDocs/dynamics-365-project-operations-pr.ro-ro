@@ -2,25 +2,27 @@
 title: Prezentare generală a reconcilierii resurselor
 description: Acest subiect oferă informații care vă vor ajuta să vă asigurați că rezervările de resurse și alocările pentru proiecte sunt armonizate.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994786"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849639"
 ---
 # <a name="resource-reconciliation-overview"></a>Prezentare generală a reconcilierii resurselor
 
@@ -46,6 +48,3 @@ DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări, sele
 Rezervările care sunt create prin acțiunea **Extindeți rezervarea** sunt asociate cu cerința principală a proiectului. Când este inițiată o extensie, cerința specifică care trebuie extinsă nu poate fi determinată, deoarece resursa ar putea fi asociată cu mai mult de o cerință pentru proiect.
 
 Managerul de proiect sau managerul de resurse poate utiliza apoi Panoul de planificare pentru a gestiona orice situații în care o resursă este suprarezervată peste capacitate.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

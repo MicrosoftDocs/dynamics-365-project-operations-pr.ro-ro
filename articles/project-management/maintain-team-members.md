@@ -2,16 +2,18 @@
 title: Menținerea membrilor echipei
 description: Acest subiect oferă informații despre rezervarea resurselor numite pentru echipe de proiect și atribuirea lor către activități.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997081"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131538"
 ---
 # <a name="maintain-team-members"></a>Menținerea membrilor echipei
 
@@ -19,7 +21,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Puteți adăuga o resursă numită echipei dvs. de proiect, rezervând-o direct echipei.
 
-1. În Dynamics 365 Project Operations, accesați **Proiecte** și selectați și deschideți proiectul pentru care faceți rezervarea.
+1. Ăn Dynamics 365 Project Operations, accesați **Proiecte** și selectați să deschideți proiectul pentru care faceți rezervarea.
 2. Pe pagina **Proiect**, în fila **Echipă**, selectați **Nou**. 
 3. În caseta de dialog **Creare rapidă membru echipă proiect**, selectați resursa care se poate rezerva. Câmpul **Rol** se va popula cu rolul implicit al resursei, dacă aceasta are unul atribuit. Aveţi posibilitatea de a schimba rolul. 
 4. Selectați datele de la și până la care resursa va fi necesară și selectați metoda de alocare a capacității resursei. 
@@ -40,6 +42,3 @@ Când faceți o alegere, resursa este adăugată la echipa de proiect și atribu
 Aveți posibilitatea să utilizați capacitatea Extindere rezervare a filei **Reconciliere** sau **Tablou de planificare** pentru a rezerva capacitatea resursei la proiect.
 
 După ce un membru al echipei este rezervat în cadrul proiectului dvs., aveți posibilitatea să utilizați **Mențineți rezervările** sau direct **Tablou de planificare** pentru a gestiona rezervările acestuia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Configurarea categoriilor de proiecte
 description: Acest subiect furnizează informații despre configurarea categoriilor de proiect.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997126"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131943"
 ---
 # <a name="configure-project-categories"></a>Configurarea categoriilor de proiecte
 
@@ -23,7 +25,7 @@ Următoarea diagramă ilustrează corelația dintre categoriile de tranzacții, 
 
 Categoriile de tranzacții sunt gruparea de bază pentru tranzacțiile proiectului. În cadrul grupării respective, există un set de categorii partajate care pot fi partajate între aplicații și module. Intrând și mai în detaliu, categoriile de proiecte sunt cel mai granular nivel de categorii. Categoriile de proiecte sunt specifice entității juridice, modulului și aplicației.
 
-![Corelația dintre categoriile de tranzacții, categoriile partajate și categoriile de proiecte.](media/project-categories.png)
+![Corelația dintre categoriile de tranzacții, categoriile partajate și categoriile de proiecte](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Categorii de tranzacții
 
@@ -35,7 +37,7 @@ Categoriile de tranzacții sunt definite în modulul Project Operations.
 
 ## <a name="shared-categories"></a>Categorii partajate
 
-Dynamics 365 folosește conceptul de categorii partajate pentru a clasifica cheltuielile în diferite aplicații, cum ar fi Dynamics 365 Finance, Dynamics 365 Supply Chain și Dynamics 365 Project Operations. Pentru fiecare categorie de tranzacții creată, Project Operationst creează automat patru categorii comune partajate: Ore, Cheltuieli, Taxe și Articol. Puteți examina și ajusta categoriile partajate accesând **Management de proiect și contabilitate** \> **Configurare** \> **Categorii** \> **Categorii partajate**.
+Dynamics 365 utilizează conceptul de categorii partajate pentru a clasifica cheltuielile în diferite aplicații, cum ar fi Dynamics 365 Finance, Gestionarea lanțului de distribuție Dynamics 365 și Dynamics 365 Project Operations. Pentru fiecare categorie de tranzacții creată, Project Operationst creează automat patru categorii comune partajate: Ore, Cheltuieli, Taxe și Articol. Puteți examina și ajusta categoriile partajate accesând **Management de proiect și contabilitate** \> **Configurare** \> **Categorii** \> **Categorii partajate**.
 
 ## <a name="project-categories"></a>Categorii de proiecte
 
@@ -51,6 +53,3 @@ Categoriile de proiecte reprezintă cel mai granular nivel de configurare a cate
 Grupurile de categorii sunt folosite pentru a partaja proprietăți, în principal postarea profilurilor, între categoriile de proiecte conexe. Trebuie să existe cel puțin un grup de categorii pentru fiecare tip de tranzacție și fiecărei categorii de proiect i se atribuie un grup.
 
 Specificațiile de înregistrare din Project Operations sunt definite de regulile profilului de cost și de venit al proiectului, categoriile de proiecte și grupurile de categorii. Puteți configura grupuri de categorii accesând **Management de proiect și contabilitate** \> **Configurare** \> **Categorii** \> **Grupuri de categorii**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

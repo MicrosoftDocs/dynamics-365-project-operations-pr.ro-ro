@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070106"
 ---
 Dacă activați aplicația Project Finder Mobile, le oferiți utilizatorilor din organizație vizibilitate asupra muncii la proiect și abilitatea de a se înregistra pentru lucru. Utilizatorii pot utiliza aplicația Project Finder și pentru a vizualiza și a-și actualiza abilitățile. Aplicația Project Finder Mobile este activată prin setarea Parametri Project Service, prin setarea valorii cerințelor Resurse vizibile resurselor și setarea opțiunii Se permite actualizarea abilităților de către atributele resurse la Da. Modificarea valorii acestor atribute la Nu dezactivează această funcționalitate.  
   

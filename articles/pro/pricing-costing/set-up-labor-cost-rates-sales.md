@@ -2,16 +2,18 @@
 title: Configurarea tarifelor de cost pentru muncă - simplificat
 description: Acest subiect oferă informații despre modul de configurare al ratei de cost pentru muncă în Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006126"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180744"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Configurarea tarifelor de cost pentru muncă - simplificat
 
@@ -80,6 +82,3 @@ Un dezvoltator de la Fabrikam India-Robotics taxează 5000 INR când este împru
 | Dezvoltator | Fabrikam UK | 115 GBP |
 
 Lista prețurilor de cost poate oferi rate ale forței de muncă în mai multe valute. Atunci când se generează o estimare a costului proiectului, Project Operations vor converti aceste rate de cost în moneda proiectului și le vor afișa utilizatorului. Când se aprobă o înregistrare temporală și se creează un cost real, costul real este evaluat în moneda liniei de preț de rol corespunzătoare din lista de prețuri de cost. Costurile reale pentru timpul unui singur proiect pot fi înregistrate în mai multe valute. Cu toate acestea, atunci când rulați sau rezumați costurile reale ale forței de muncă la nivelul proiectului, Operațiunile proiectului vor converti toate sumele costurilor forței de muncă în moneda proiectului pe care utilizatorul o poate vedea.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

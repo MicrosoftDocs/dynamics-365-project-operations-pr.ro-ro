@@ -2,17 +2,19 @@
 title: Actualizări Project Operations
 description: Acest subiect oferă informații despre dimensiunile versiunile lansate de Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 11/15/2021
+manager: Annbe
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5e37bc90a74e6bc9f1bf3d3820a34c3f4c3496d
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
-ms.translationtype: MT
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942854"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948254"
 ---
 # <a name="project-operations-updates"></a>Actualizări Project Operations
 
@@ -28,62 +30,60 @@ Dynamics 365 Project Operations este format din două componente:
 - Proiect management și contabilitate în mediul Dynamics 365 Finance acoperă capabilități de gestionare a cheltuielilor, contabilitate de proiect și recunoașterea veniturilor. Mediul de aplicație Finance and Operations este utilizat în Project Operations pentru scenarii resursă/non-stoc și Project Operations pentru scenarii stocat/pe bază de producție.
 
 ## <a name="project-operations-release-notes"></a>Note de lansare pentru Project Operations
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Resursă/non-stoc](whats-new-dec-2021-resource-based.md).
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Implementare simplificată](../pro/whats-new/whats-new-dec-2021-lite.md).
-- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [stocate/producție](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Resursă/non-stoc](whats-new-apr-2021-resource-based.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Implementare simplificată](../pro/whats-new/whats-new-apr-2021-lite.md).
+- Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [stocate/producție](../prod-pma/whats-new/whats-new-mar-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Ultima versiune Project Operations
 
 | Project Operations pe mediu Dataverse | Management de proiect și contabilitate în medii de aplicații Finance and Operations | 
 | --- | --- |
-| 4.27.0.242 | 10.0.23 |
+| 4.9.0.221 | 10.0.17 |
 
-Pentru Resursă de operațiuni de proiect/scenariu fără stoc, vă recomandăm să utilizați versiunea orchestrației cu scriere duală 2.3.1.15 sau o versiune superioară.
+Pentru scenariul ne-stocat Project Operations, vă recomandăm să utilizați versiunea de orchestrare cu scriere duală 2.2.2.50 sau o versiune ulterioară.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificare de lansare pentru Project Operations pe mediul Dataverse
 
 Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lunar. 
 
-| Stație | Regiunea | Numărul versiunii curente | Actualizări automate pentru implementarea Lite | Actualizări automate pentru implementare de resurse/nestocate | Următorul număr de versiune | Următoarea versiune este disponibilă în general |
-|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
-| Stația 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima apariție         |  4.27.0.242     | Finalizare*          | Finalizare*           | TBD                 | 14 ianuarie 2022    |
-| Stația 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Sud         |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 14 ianuarie 2022    |
-|   &nbsp;  | Canada                |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 14 ianuarie 2022    |
-|   &nbsp;  | India                 |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 14 ianuarie 2022    |
-|   &nbsp;  | Franța                |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 14 ianuarie 2022    |
-|   &nbsp;  | Africa de Sud          |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 14 ianuarie 2022    |
-| Stația 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 21 ianuarie 2022    |
-|   &nbsp;  | Asia Pacific          |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 21 ianuarie 2022    |
-|   &nbsp;  | Regatul Unit         |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 21 ianuarie 2022    |
-|   &nbsp;  | Oceania               |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 21 ianuarie 2022    |
-|   &nbsp;  | Emiratele Arabe Unite  |  4.27.0.242     | Finalizați           | 07 ianuarie 2022    | TBD                 | 21 ianuarie 2022    |
-| Stația 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.26.0.155     | Finalizați           | 07 ianuarie 2022    | 4.27.0.242          | 10 ianuarie 2022    |
-| Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Nord         |  4.26.0.155     | 07 ianuarie 2022   | 14 ianuarie 2022    | 4.27.0.242          | 17 ianuarie 2022    |
-
->[!Note]
-> - Complete* - Actualizări automate finalizate cu versiunea 4.27.0.195.
-
+| Stație   | Regiunea        | Versiunea curentă | Următoarea versiune | General disponibilă |
+|-----------|---------------|-----------------|--------------|---------------------|
+| Stația 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | Prima apariție |  4.9.0.221       | TBD     | 30-Apr-21           |
+| Stația 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | America de Sud |  4.9.0.221       | TBD     | 30-Apr-21           |
+|    &nbsp; | Canada        |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | India         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | Franța         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | Emiratele Arabe Unite         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | Africa de Sud         |  4.9.0.221       | TBD     | 30-Apr-21           |
+| Stația 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
+|   &nbsp;  | Japonia         |  4.9.0.221       | TBD     | 07 Mai 2021           |
+|   &nbsp;  | Asia Pacific  |  4.9.0.221       | TBD     | 07 Mai 2021           |
+|   &nbsp;  | Regatul Unit |  4.9.0.221       | TBD     | 07 Mai 2021           |
+|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 07 Mai 2021           |
+| Stația 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
+|   &nbsp;  | Europa        |  4.9.0.221       | TBD     | 14 Mai 2021           |
+| Stația 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
+|   &nbsp;  | America de Nord |  4.9.0.221       | TBD     | 21 Mai 2021           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificare de lansare pentru managementul de proiect și contabilitate în mediul de aplicații Finance and Operations
 
 Actualizările pentru managementul de proiect și contabilitate sunt publicate de opt ori pe an.
 
-|Versiune acceptată| Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.23     |      15 Octombrie 2021       |        10 decembrie 2021          |                          31 decembrie 2021                           | 18 martie 2022     |
-|     10.0.22     |      3 septembrie 2021      |        22 Octombrie 2021           |                          5 noiembrie 2021                            | 14 ianuarie 2022   |
+| Lansare acceptată | Disponibil în general (auto-actualizare) |
+| --- | --- |
+| 10.0.18 | 16 aprilie 2021 |
+| 10.0.17 | 19 martie 2021 |
+| 10.0.16 | 22 ianuarie 2021 |
 
 
 Datele de lansare vizate pot fi modificate. Pentru informații suplimentare, consultați [Disponibilitate actualizare de serviciu](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Versiune țintă | Disponibilitate versiune preliminară (PEAP) | Disponibil în general (auto-actualizare) | Data de începere a producției programului de actualizare automată (prin setările de actualizare LCS) |   Sfârșit de serviciu   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.24     |      3 decembrie 2021       |        14 ianuarie 2022           |                          4 februarie 2022                            | 15 aprilie 2022     |
-|     10.0.25     |      31 ianuarie 2022       |        18 martie 2022             |                          1 aprilie 2022                               | 10 iunie 2022      |
+| Data de lansare vizată | Disponibil în general (auto-actualizat) |
+| --- | --- |
+| 10.0.19 | 18 iunie 2021 |
+| 10.0.20 | 16 iulie 2021 |
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Gestionarea delegării
 description: Acest subiect furnizează informații despre modul în care un delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli pentru un alt angajat.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997801"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122718"
 ---
 # <a name="manage-delegation"></a>Gestionarea delegării
 Un delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli pentru un alt angajat.
@@ -37,6 +39,3 @@ Dacă este activată cheia de gestionare a caracteristicilor **Activați pagina 
 Un delegat poate filtra și căuta rapid rapoartele de cheltuieli existente care le-au fost delegate. De asemenea, delegatul poate crea rapid un nou raport de cheltuieli pentru alți utilizatori, selectând **Nou raport de cheltuieli**.
 
 Delegații pot crea și gestiona rapoarte de cheltuieli pentru alți angajați accesând **Managementul cheltuielilor** > **Cheltuielile mele** > **Rapoarte de cheltuieli** și selectarea **Deschideți cheltuielile altor utilizatori**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

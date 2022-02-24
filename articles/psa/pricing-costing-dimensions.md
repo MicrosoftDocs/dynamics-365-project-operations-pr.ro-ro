@@ -2,11 +2,12 @@
 title: Pagină principală prețuri și dimensiuni de cost
 description: Acest subiect oferă o prezentare generală a dimensiunilor prețurilor.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998476"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151313"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pagină principală prețuri și dimensiuni de cost
 
@@ -41,7 +42,7 @@ Având în vedere natura tipică a acestor atribute de lucru și persoanele nece
 
 PSA livrează cu un set implicit de dimensiuni de stabilire a prețurilor. Le puteți vizualiza accesând **Project Service** > **Parametri**. În înregistrarea parametru, pe fila **Dimensiuni de preț bazate pe volum**, verificați că rolul **, msdyn_resourcecategory** și unitatea organizațională de obținere a resurselor **msdyn_organizationalunit** au câmpurile **Aplicabile vânzărilor** și **Aplicabile costurilor** setate la **Da**. Acest lucru vă va permite să configurați prețul și costul pentru fiecare rol și combinație de unitate organizatorică.
 
-![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat.](media/PS-OOB-parameters.png)
+![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Dacă ați utilizat câmpurile predefinite de unitate de rol și organizaționale ca dimensiuni ale prețurilor la versiunea 3 a PSA, nu va exista nicio modificare observabilă. Puteți continua să utilizați Project Service ca de obicei. 
@@ -66,16 +67,13 @@ Următorul exemplu arată ratele de facturare care sunt configurate pe baza rolu
 
 | Rol        | Unitate organizațională    |Unitate      |Preț      |Monedă  |
 | ------------|-------------|----------|----------:|----------|
-| Dezvoltator   | Contoso SUA  |Oră | 200|USD     |
-| Dezvoltator   | Contoso India |Oră|   112|USD     |
+| Dezvoltator   | Contoso US  |Hour | 200|USD     |
+| Dezvoltator   | Contoso India |Hour|   112|USD     |
 
 
 **Eșantion de rate de cost**
 
 | Bandă de salariu     | Unitate organizațională    |Unitate      |Preț      |Monedă  |
 | ----------------|-------------|----------|----------:|----------|
-| company_Band1 a mea | Contoso SUA  |Oră | 145|USD     |
-| company_Band2 a mea | Contoso India |Oră|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| company_Band1 a mea | Contoso US  |Hour | 145|USD     |
+| company_Band2 a mea | Contoso India |Hour|   67|USD     |

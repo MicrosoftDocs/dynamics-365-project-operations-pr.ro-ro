@@ -2,9 +2,11 @@
 title: Definiți politicile de cheltuieli
 description: Puteți defini politicile de cheltuieli pe care lucrătorii dvs. trebuie să le urmeze atunci când introduc și depun rapoarte de cheltuieli și cereri de călătorie.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986371"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128433"
 ---
 # <a name="define-expense-policies"></a>Definiți politicile de cheltuieli
 
@@ -51,6 +53,3 @@ Iată câteva sugestii care vă pot ajuta atunci când creați noi politici pent
 ## <a name="when-to-evaluate-policies"></a>Când se evaluează politicile
 
 În parametrii de gestionare a cheltuielilor, puteți selecta să evaluați politicile de gestionare a cheltuielilor atunci când este salvată o linie sau când este trimis un raport de cheltuieli. Dacă alegeți să evaluați când este salvată o linie, utilizatorii vor avea o vizibilitate mai timpurie a ceea ce trebuie să facă pentru a completa raportul de cheltuieli dintr-o dată. În caz contrar, puteți întârzia evaluarea politicii și puteți economisi timp validând la final, în timpul trimiterii la fluxul de lucru.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

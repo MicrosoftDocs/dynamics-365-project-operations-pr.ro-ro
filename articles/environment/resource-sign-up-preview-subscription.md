@@ -2,16 +2,18 @@
 title: Înscrieți-vă pentru abonamente de previzualizare a Project Operations pentru resurse/scenarii ne-stocate
 description: Acest subiect oferă informații despre cum să aboneze și implementeze Project Operations pentru resurse/scenarii care nu sunt bazate pe stoc.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323431"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948479"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Înscrieți-vă pentru abonamente de previzualizare a Project Operations pentru resurse/scenarii ne-stocate
 
@@ -19,30 +21,48 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Acest subiect explică cum să vă abonați la oferta de încercare și să implementați mediul Project Operations pentru scenarii bazate pe resurse/nebazate pe stoc.
+Acest subiect explică cum să vă abonați la oferta de previzualizare/parteneriat și să implementați mediul Project Operations pentru resurse/scenarii bazate pe stoc.
 
 ## <a name="prerequisites"></a>Cerințe preliminare
-- Utilizatorul care implementează previzualizarea trebuie să aibă drepturi de administrator global entitate găzduită Azure. Puteți crea o entitate găzduită în timpul primei răscumpărări a ofertei. 
-- Implementarea unui mediu financiar necesită un abonament Azure valid care va fi facturat pe mediu. Puteți utiliza abonamentul existent al organizațiilor dvs. sau puteți utiliza o [versiune de încercare Azureal](https://azure.microsoft.com/free/) pentru a începe. Mediul CDS va fi furnizat gratuit pentru o perioadă limitată de 30 de zile.
+
+- Veți primi un e-mail care vă invită să participați la previzualizare. Puteți solicita o previzualizare pe [Site-ul web al Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- Utilizatorul care implementează previzualizarea trebuie să aibă drepturi de administrator global entitate găzduită Azure.
+- Implementarea unui mediu financiar necesită un abonament Azure valid care va fi facturat pe mediu. Puteți utiliza abonamentul existent al organizațiilor dvs. sau puteți utiliza o [versiune de încercare Azureal](https://azure.microsoft.com/en-us/free/) pentru a începe. Mediul CDS va fi furnizat gratuit pentru o perioadă limitată de 30 de zile.
+
+## <a name="subscribe"></a>Abonare
+
+Când [cerere de previzualizare](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) este aprobată, veți primi trei oferte de la Microsoft prin e-mail. Aceste oferte vă permit să implementați previzualizarea Project Operations:
+
+- Dynamics 365 Project Operations (CRM) - Previzualizare versiune de încercare
+- Office 365 Project Operations - Previzualizare versiune de încercare
+- Dynamics 365 Finance - previzualizare versiune de încercare
 
 > [!IMPORTANT]
 > O singură persoană, administratorul entității găzduite, dintr-o organizație trebuie să îndeplinească această sarcină. Dacă nu sunteți abonatul la această versiune, așteptați până când organizația dvs. a fost înregistrată și ați primit acreditările dvs. de utilizator.
-> 
-> Încercările sunt de unică folosință în entitate găzduită. Puteți rula o versiune de încercare o singură dată. Vă recomandăm să creați o nouă entitate găzduită în scopul versiunii de încercare.
 
-
-### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - versiune preliminară de încercare 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Previzualizare versiune de încercare 
 
 Înainte de a începe, asigurați-vă că sunteți conectat la un browser cu contul de lucru al utilizatorului în chiriașul în care doriți previzualizarea Project Operations.
 
-1. Valorificați primul cod de ofertă, **Dynamics 365 Project Operations** aici [Project Operations versiune de încercare](https://aka.ms/try-po).
+1. Valorificați primul cod de ofertă, **Dynamics 365 Project Operations (CRM) - Previzualizare încercare** lipindu-l în URL-ul browserului.
+
+![Valorificați oferta](./media/16RedeemFirstOfferNew.png)
+
 2. Confirmați comanda.
 
-  Veți vedea că oferta de confirmare a fost valorificată cu succes.
+![Confirmați comanda](./media/17ConfirmOrderNew.png)
+
+Veți vedea că oferta de confirmare a fost valorificată cu succes.
+
+![Confirmare](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Previzualizare versiune de încercare
+
+Repetați aceiași pași ca la primul cod de ofertă. Asigurați-vă că adăugați al doilea cod de ofertă utilizând același cont de utilizator care a fost utilizat cu primul cod de ofertă.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance previzualizare versiune de încercare
 
-Accesați [Dynamics 365 for Finance versiune prekiminară de încercare](https://aka.ms/trypoche) și repetați pașii din secțiunea anterioară cu oferta, Înscrieți-vă în mediul găzduit în cloud.  
+Repetați aceiași pași cu ultima ofertă din e-mailul de bun venit.
 
 ## <a name="assign-licenses"></a>Atribuiți licențe
 
@@ -51,9 +71,13 @@ Accesați [Dynamics 365 for Finance versiune prekiminară de încercare](https:/
 
 1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 
+![Pagina principală a centrului de administrare](./media/14AdminPortal.png)
+
 2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
 
-3. Verificați dacă licența **Dynamics 365 Project Operations** a fost selectată și selectați **Salvați modificările**.
+![Atribuiți licențe](./media/15AssignLicenses.png)
+
+3. Verificați dacă **Dynamics 365 Project Operations (CRM) Previzualizare** și licența **Office 365 Operațiuni de proiect - Previzualizare** au fost selectate și selectați **Salvare modificări**.
 
 > [!NOTE]
 > Oferta de încercare finanțe nu trebuie să fie atribuită unui utilizator.
@@ -73,7 +97,7 @@ Urmați îndrumările din subiect, [Furnizarea accesului la un mediu nou](resour
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalați datele de instalare și configurare CDS
 
 Instalați datele de configurare și configurare CDS așa cum este descris în subiect, [Configurați și aplicați datele de configurare în Common Data Service](resource-apply-pro-setup-config-data.md).
-Finalizați acest pas numai după ce mediul de demonstrație Finance este implementat și datele demonstrative sunt gata.
+Finalizați acest pas numai după ce mediul de demonstrație Finance este implementat și datele demo din FO sunt gata.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

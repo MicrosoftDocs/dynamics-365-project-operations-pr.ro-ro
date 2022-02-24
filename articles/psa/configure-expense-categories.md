@@ -2,6 +2,8 @@
 title: Configurați categoriile de cheltuieli
 description: Cum să configurați categoriile de cheltuieli în Project Service
 author: revathiMuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c363b712fceda93c45e58eea4d5e711ef8405252e252061022590bdc506691c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 802da28a9079ae348aae14e260f280ef17f346f5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008736"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151538"
 ---
 # <a name="configure-expense-categories-project-service"></a>Configurați categoriile de cheltuieli (Project Service)
 
@@ -53,6 +55,3 @@ Fiecare categorie de cheltuieli poate avea propriul grup de unități și unită
   
 ### <a name="see-also"></a>Consultați și  
  [Configurați Project Service Automation](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Unități și grupuri de unități
 description: Acest subiect oferă informații despre unități și grupuri de unități.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987586"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145598"
 ---
 # <a name="unit-groups-and-units"></a>Unități și grupuri de unități
 
@@ -44,7 +46,7 @@ De exemplu, într-un grup de unități **Timp**, dacă configurați **Oră** ca 
 
 Următoarea imagine afișează un exemplu de configurare pentru unitatea **Zi**, unde câmpul **Cantitate** afișează numărul de ore dintr-o zi, și pentru **Săptămână**, unde câmpul **Cantitate** afișează numărul de zile care sunt într-o săptămână.
 
-> ![Grup de unități: Pagina de informații.](media/advanced-2.png)
+> ![Grup de unități: Pagina de informații](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Utilizarea unităților și grupurilor de unități
 
@@ -86,7 +88,7 @@ Următorul exemplu arată modul în care PSA utilizează grupul de unități, un
 
 | Rol      | Grup de unități | Unitate | Unitate organizațională | Preț   |
 |-----------|------------|------|---------------------|---------|
-| Dezvoltator | Timp       | Ziua  | Contoso Regatul Unit          | 800 GBP |
+| Dezvoltator | Time       | Day  | Contoso Regatul Unit          | 800 GBP |
 
 ### <a name="time-entry"></a>Intrare de timp
 
@@ -110,6 +112,3 @@ Nu. Estimarea planificării este momentan limitată la ore și nu poate fi schim
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Pot fi editate, șterse și adăugate unitățile și grupurile de unități?
 Da. Cu excepția grupului de unități **Timp** și a unității **Oră**, toate unitățile pot fi șterse sau editate, iar unitățile noi pot fi adăugate. În PSA, grupul de unități **Timp** și unitatea **Oră** nu pot fi șterse. Cu toate acestea, ele pot fi actualizate cu un text tradus pentru câmpul **Nume**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

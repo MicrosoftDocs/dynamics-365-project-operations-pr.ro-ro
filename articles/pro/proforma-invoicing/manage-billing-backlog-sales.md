@@ -1,23 +1,25 @@
 ---
-title: Gestionarea jurnalului de așteptare pentru facturarea proiectului
-description: Acest subiect oferă informații despre diferitele vizualizări disponibile de utilizat atunci când gestionați restanțele de facturare pentru proiecte.
+title: Gestionarea restanțelor de facturare - simplificat
+description: Acest subiect oferă informații despre diferitele vizualizări disponibile pentru a fi utilizate la gestionarea restantei de facturare.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988306"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176986"
 ---
-# <a name="manage-project-billing-backlog"></a>Gestionarea jurnalului de așteptare pentru facturarea proiectului 
+# <a name="manage-the-billing-backlog---lite"></a>Gestionarea restanțelor de facturare - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Dynamics 365 Project Operations are vizualizări dedicate pentru a ajuta la gestionarea vânzărilor nefacturate. Pentru a gestiona restanțele de facturare, selectați linkurile din zona **Vânzări**, sub **Facturare**. 
+Dynamics 365 Project Operations are vederi dedicate pentru a ajuta la gestionarea restantei de facturare. Pentru a gestiona restanțele de facturare, selectați linkurile din zona **Vânzări**, sub **Facturare**. 
 
 Sunt disponibile următoarele vizualizări:
 
@@ -58,6 +60,3 @@ Vânzări reale facturate cu o stare **A nu depăși** la **Eșuat** nu poate fi
 În cazul în care liniile contractuale cu mai mulți clienți au o metodă de facturare a timpului și a materialelor, atunci când timpul și cheltuielile sunt aprobate, se creează o vânzare reală nefacturată pentru fiecare client de pe linia contractului în funcție de procentul de facturare împărțit definit pentru fiecare dintre clienți. În vizualizarea **Restanțe de facturare de timp și materiale**, veți vedea aceste rezultate individuale ale vânzărilor nefacturate specifice fiecărui client. Fiecare dintre aceste înregistrări de vânzări nefacturate poate fi marcată ca **Gata de facturare** separat de această vizualizare.
 
 O vânzare nefacturată care este pe o schiță de factură este afișată în această vizualizare cu o stare de facturare de **Factura clientului a fost creată**. Când se confirmă schița de factură, starea de facturare din această înregistrare este actualizată la **Factura clientului a fost postată**. Nu actualizați această valoare de stare utilizând cod particularizat. Project Operations nu funcționează corect atunci când aceste valori de stare sunt actualizate cu cod particularizat.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

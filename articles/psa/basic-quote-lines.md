@@ -2,6 +2,8 @@
 title: Oferte și linii de ofertă
 description: Acest subiect oferă informații despre oferte și linii de ofertă.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995461"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145148"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferte și linii de ofertă
 
@@ -84,7 +86,7 @@ Organizațiile profesionale de servicii de obicei își ofertează și factureaz
 
 Una sau mai multe dintre aceste clasificări de tranzacții pot fi asociate cu fiecare linie de ofertă. După ce se câștigă o ofertă, maparea dintre clasificarea tranzacțiilor și linia de ofertă este transferată la linia de contract.
  
-> ![Captură de ecran a mapării tipurilor de tranzacții la ofertă și linii de contract.](media/basic-guide-5.png)
+> ![Captură de ecran a mapării tipurilor de tranzacții la ofertă și linii de contract](media/basic-guide-5.png)
   
 De exemplu, o ofertă poate conține următoarele două linii de ofertă: 
 - Activitate de consultanță care utilizează o metodă de facturare Timp și materiale, în cadrul căreia se aplică clasificări de tranzacții timp și taxă. De exemplu, toate tranzacțiile de timp și taxă pentru proiectul de exemplificare **Implementare Dynamics AX** sunt facturate clientului pe baza orei și materialelor care sunt utilizate. 
@@ -129,6 +131,3 @@ Pentru o linie de ofertă cu preț fix, aveți posibilitatea să utilizați gril
 - Pentru a crea jaloane de facturare care sunt împărțite în mod egal, selectați o frecvență a facturilor, introduceți data de începere a facturării pe linia de ofertă și selectați **Dată de finalizare solicitată** pentru ofertă în secțiunea **Rezumat** a antetului de ofertă. Apoi selectați **Generare jaloane periodice** pentru a crea jaloane divizate în mod egal pe baza frecvenței selectate a facturilor. 
 - Pentru a crea un jalon de facturare cu sumă forfetară, creați un jalon, apoi introduceți valoarea liniei de ofertă ca sumă a jalonului.
 - Pentru a crea jaloane de facturare care se bazează pe anumite activități din planul de proiect, creați un jalon și mapați-l la elementul de planificare al proiectului în IU pentru jaloanele de facturare.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

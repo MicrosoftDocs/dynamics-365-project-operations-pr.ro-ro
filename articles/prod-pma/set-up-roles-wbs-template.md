@@ -2,9 +2,11 @@
 title: Configurarea de roluri în șabloanele de structură detaliată a proiectului
 description: Acest subiect oferă informații despre configurarea informațiilor despre roluri pe șabloanele structurii de defalcare a lucrului.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008916"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082776"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurarea de roluri în șabloanele de structură detaliată a proiectului
 
@@ -89,7 +91,7 @@ Opțiuni suplimentare au fost adăugate în WBS pentru a utiliza mai bine funcț
 
 4. Setați datele și efortul (orele), așa cum se arată în ilustrația următoare.
 
-    [![Stabilirea datelor și efortului.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Stabilirea datelor și efortului](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Selectați linia de sarcină **Inițiere** și apoi în câmpul **Rol**, selectați **Manager de proiect senior**.
 6. Selectați **Publicare**.
@@ -105,6 +107,3 @@ Opțiuni suplimentare au fost adăugate în WBS pentru a utiliza mai bine funcț
     > Nu primiți un avertisment că resursa specificată este acum 2, deoarece numărul de resurse rămâne 1.
 
 14. Din pagina **Structură detaliată a proiectului**, validați atribuirea resurselor pe WBS, apoi selectați **Salvare**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Tipuri de perioade
 description: Acest subiect oferă informații despre modul de configurare a tipurilor de perioadă pentru estimarea veniturilor.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998791"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531527"
 ---
 # <a name="period-types"></a>Tipuri de perioade
 
@@ -32,6 +34,3 @@ Pentru a crea și a lucra cu tipuri de perioadă, parcurgeți următorii pași:
 4. Selectați înregistrarea tipului de perioadă și apoi selectați **Generați perioade** pentru a crea perioade pentru tipul perioadei. Pe baza frecvenței de perioadă pe care ați selectat-o, este posibil să aveți opțiunea de a specifica o dată de începere sau numărul de perioade de generat.
 5. Selectați **Perioade** pentru a revizui perioadele generate.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

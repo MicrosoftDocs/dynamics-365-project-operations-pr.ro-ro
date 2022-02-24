@@ -2,17 +2,18 @@
 title: Membrii echipei de proiect
 description: Acest subiect oferă informații despre cum să lucrați cu informațiile, atributele și planificarea membrilor echipei de proiect.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994021"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127443"
 ---
 # <a name="project-team-members"></a>Membrii echipei de proiect
 
@@ -59,6 +60,3 @@ Din grila membrilor echipei, pot fi întreprinse următoarele acțiuni:
 
 - **Nou**: Pe lângă adăugarea de resurse direct din planificare, managerii de proiect pot adăuga membrii echipei noi numiți sau generici din grila membrilor echipei.
 - **Șterge**: Prin selectarea unuia sau mai multor membri ai echipei, managerul de proiect poate șterge resursele care nu vor mai participa la proiect. Ștergerea unui membru al echipei va șterge, de asemenea, toate atribuirile de resurse asociate și va anula toate rezervările existente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

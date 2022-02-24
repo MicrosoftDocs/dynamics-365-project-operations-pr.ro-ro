@@ -2,9 +2,11 @@
 title: Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe
 description: Acest subiect descrie șablonul și activitățile de desfășurare care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001086"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764834"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe 
 
@@ -42,7 +44,7 @@ Soluția de integrare Project Service Automation la Finance utilizează funcția
 
 Următoarea ilustrație arată cum sunt sincronizate datele între Project Service Automation și Finance.
 
-[![Fluxul de date pentru integrarea Project Service Automation cu Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Fluxul de date pentru integrarea Project Service Automation cu Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Șabloane și activtăți
 
@@ -107,8 +109,8 @@ Când se aplică soluția de integrare Project Service Automation to Finance, un
 ## <a name="prerequisites-and-mapping-setup"></a>Cerințe preliminare și configurare a mapării
 
 - Înainte să poată avea loc sincronizarea de contracte de proiecte și proiecte, trebuie să sincronizați conturile.
-- În setul de conexiuni, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_organizationalunits** la **msdyn\_name \[Name\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](/powerapps/administrator/data-integrator).
-- În setul dvs. de conexiune, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](/powerapps/administrator/data-integrator).
+- În setul de conexiuni, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_organizationalunits** la **msdyn\_name \[Name\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- În setul dvs. de conexiune, adăugați o mapare a câmpului cheii de integrare pentru **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. Este posibil să fie necesar mai întâi să adăugați un proiect la setul de conexiuni. Pentru mai multe informații, consultați [Integrați datele în Common Data Service pentru aplicații](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** pentru contractele de proiecte și proiectele pot fi actualizate la o valoare diferită sau eliminate din mapare. Valoarea implicită a șablonului este **Project Service Automation**.
 - Maparea **Termeni de plată** trebuie să fie actualizată astfel încât să reflecte condiții de plată valabile în Finance. De asemenea, puteți elimina maparea din sarcina proiectului. Harta valorilor implicite are valori implicite pentru datele demonstrative. Următorul tabel prezintă valorile din Project Service Automation.
 
@@ -129,7 +131,7 @@ Utilizați Microsoft Power Query pentru Excel pentru a filtra datele dacă sunt 
 Dacă trebuie să utilizați Power Query, urmați aceste recomandări:
 
 - Șablonul Proiecte și contracte (PSA to Fin și Ops) are un filtru implicit care include numai comenzile de vânzare ale tipului **Element de lucru (msdyn\_ordertype = 192350001)**. Acest filtru ajută la garantarea faptului că nu se creează contracte de proiect pentru comenzile de vânzare din Finance. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru.
-- Creați un filtru Power Query care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. Contractele de proiecte pe care le aveți, de exemplu, cu unitatea organizațională de contract Contoso SUA ar trebui să fie sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizațională de contract Contoso Global ar trebui să fie sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
+- Creați un filtru Power Query care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. De exemplu, contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso SUA ar trebui sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso Global ar trebui sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
 
 ## <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor
 
@@ -140,17 +142,14 @@ Dacă trebuie să utilizați Power Query, urmați aceste recomandări:
 
 Următoarele ilustrații prezintă exemple de mapări ale sarcinilor șablon în Integrarea datelor. Maparea arată informațiile despre câmp care vor fi sincronizate de la Project Service Automation la Finance.
 
-[![Maparea șablonului de contract de proiect.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Maparea șablonului de contract de proiect](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Maparea șablonului de contract.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Maparea șablonului de contract](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Maparea șablonului de linii contract de proiect.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Maparea șablonului de linii contract de proiect](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Maparea șablonului de jalon de linie de contract de proiect.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Maparea șablonului de jalon de linie de contract de proiect](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Maparea jalonului de linie contract de proiect în proiectele și contractele (PSA 3.x la Dynamics) - șablonul v2:
 
-[![Maparea șablonului de jalon de linie de contract de proiect cu versiunea a doua a șablonului.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Maparea șablonului de jalon de linie de contract de proiect cu versiunea a doua a șablonului](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

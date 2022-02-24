@@ -2,6 +2,8 @@
 title: Analiza ofertelor de proiect
 description: Acest subiect oferă informații despre analiza ofertelor de proiect.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002841"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145238"
 ---
 # <a name="analysis-of-project-quotes"></a>Analiza ofertelor de proiect
 
@@ -58,6 +60,3 @@ Aveți posibilitatea să analizați ofertele și să generați diagrame pentru a
 Analiza așteptărilor clienților cu privire la planificare se face comparând cea mai recentă dată de încheiere a detaliilor liniei de ofertă cu data de livrare solicitată în toate liniile de ofertă din ofertă.
 
 Analiza așteptărilor clienților cu privire la buget se face prin compararea sumei bugetului total al clienților cu valoarea ofertată în toate liniile de ofertă.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

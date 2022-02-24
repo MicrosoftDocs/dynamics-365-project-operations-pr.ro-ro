@@ -2,9 +2,11 @@
 title: Crearea de estimări într-o linie de ofertă
 description: Acest subiect oferă informații despre cum să creați o estimare pe o linie de ofertă pentru un proiect.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996451"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122943"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Crearea de estimări într-o linie de ofertă
 
@@ -28,7 +30,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Pe o ofertă bazată pe proiect, aveți posibilitatea să utilizați entitatea Detaliu linie de ofertă pentru a estima activitatea necesară pentru livrarea unui proiect. Apoi puteți partaja această estimare cu clientul.
 
-Liniile de ofertă bazate pe proiect nu trebuie să aibă detalii despre linia de ofertă. Alternativ, ele pot avea multe detalii despre linia de ofertă. Detaliile liniei de ofertă sunt utilizate pentru estimarea timpului, a cheltuielilor sau a taxelor. Dynamics 365 Project Operations nu permite estimarea materialelor privind detaliile liniei de ofertă. Acestea sunt numite clase de tranzacții. Sumele estimate de impozit pot fi, de asemenea, introduse într-o clasă de tranzacții.
+Liniile de ofertă bazate pe proiect nu trebuie să aibă detalii despre linia de ofertă. Alternativ, ele pot avea multe detalii despre linia de ofertă. Detaliile liniei de ofertă sunt utilizate pentru estimarea timpului, a cheltuielilor sau a taxelor. Project Operations Dynamics 365 nu permite estimarea materialelor privind detaliile liniei de ofertă. Acestea sunt numite clase de tranzacții. Sumele estimate de impozit pot fi, de asemenea, introduse într-o clasă de tranzacții.
 
 Pe lângă clasele de tranzacții, detaliile liniei de ofertă au un tip de tranzacție. Sunt două tipuri de tranzacții pentru detaliile liniei de ofertă, **Cost** și **Contract de proiect**.
 
@@ -86,6 +88,3 @@ Dacă ați adăugat un câmp particularizat în detaliul liniei de ofertă și d
 7. Selectați **OK** pentru a închide caseta de dialog, apoi selectați **Actualizați pasul**.
 8. Repetați pașii de la 1 la 7 pentru al doilea insert.
 9. Închideți PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

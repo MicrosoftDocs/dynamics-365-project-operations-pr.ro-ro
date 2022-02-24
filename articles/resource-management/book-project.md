@@ -2,16 +2,18 @@
 title: Rezervarea pentru un proiect
 description: Acest subiect furnizează informații despre rezervarea unei resurse la un proiect.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994921"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131088"
 ---
 # <a name="book-to-a-project"></a>Rezervarea pentru un proiect
 
@@ -64,6 +66,3 @@ Atunci când un manager de resurse trebuie să rezerve o resursă direct la un p
 
 > [!NOTE]
 > Această metodă nu creează nicio rezervare pentru resursă. În schimb, adaugă resursa la echipă. După ce membrul echipei a fost adăugat la proiect, managerul de proiect poate utiliza menținerea rezervărilor sau extinde rezervările pentru a adăuga rezervările necesare la resursă.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

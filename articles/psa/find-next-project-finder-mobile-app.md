@@ -2,6 +2,8 @@
 title: Găsiți-vă următorul proiect cu aplicația Project Finder Mobile
 description: Cum să găsiți următorul proiect cu aplicația Project Finder Mobile pentru Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990805"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149288"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Găsiți-vă următorul proiect cu aplicația Project Finder Mobile (Project Service)
 
@@ -38,15 +40,12 @@ Cu aplicația Project Finder Mobile de pe [!INCLUDE[tn_iphone](../includes/tn-ip
   
  Atingeți săgeata din dreapta proiectului care vă interesează pentru a vedea mai multe detalii și a vă înscrie.  
   
- ![Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile")  
+ ![Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Lista proiectelor cu abilitățile potrivite în aplicația Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Actualizați-vă abilitățile  
  Atingeți butonul de profil din partea dreaptă jos a ecranului pentru a vă actualiza abilitățile și nivelurile de competență.  
   
- ![Buton de profil în aplicația Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Buton de profil în aplicația Project Finder Mobile")  
+ ![Buton de profil în aplicația Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Buton de profil în aplicația Project Finder Mobile")  
   
 ### <a name="see-also"></a>Consultați și  
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

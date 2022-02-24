@@ -2,10 +2,12 @@
 title: Creare soluții particularizate pentru dimensiunile de tarifare
 description: Acest subiect explică cum să creați o soluție personalizată atunci când creați dimensiuni de tarifare personalizate.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995281"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144654"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Creare soluții particularizate pentru dimensiunile de tarifare
 
@@ -32,7 +34,7 @@ ms.locfileid: "6995281"
 1. Selectați **Setări** > **Soluții**, apoi selectați **Nou**. 
 2. Denumiți soluția, **\<your organization name> dimensiunile de preț**, introduceți informațiile necesare rămase și apoi selectați **Salvați**.
 
-> ![Crearea unei soluții particularizate pentru dimensiunile de tarifare.](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Crearea unei soluții particularizate pentru dimensiunile de tarifare](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Adăugați toate entitățile necesare și componentele corelate la Soluția de dimensiune de preț
 Va trebui să adăugați următoarele entități Project Service la soluția dvs. de tarifare. Completați pașii din această procedură pentru a face unele modificări importante ale schemei în soluția de tarifare, astfel încât entitățile să devină conștiente de noile dimensiuni de tarifare.
@@ -54,18 +56,15 @@ Va trebui să adăugați următoarele entități Project Service la soluția dvs
 - Preț pentru rol 
 - Intrare de timp 
 
-> ![Adăugați entități existente la soluția de dimensiuni de tarifare.](media/Existing-entities-to-PD-solution.png)
+> ![Adăugați entități existente la soluția de dimensiuni de tarifare](media/Existing-entities-to-PD-solution.png)
 
-> ![Selectare componente soluție.](media/Dimension-Components.png)
+> ![Selectare componente soluție](media/Dimension-Components.png)
 
 > [!NOTE]
 > Asigurați-vă că includeți toate formularele și vizualizările pentru fiecare dintre entitățile selectate.
 
 4. Când vi se solicită să includeți orice entități dependente pentru entitățile selectate, selectați **Nu**.
 
-> ![Nu includeți toate componentele corelate.](media/Do-not-include-required.png)
+> ![Nu includeți toate componentele corelate](media/Do-not-include-required.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

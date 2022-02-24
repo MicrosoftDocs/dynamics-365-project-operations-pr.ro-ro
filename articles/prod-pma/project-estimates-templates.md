@@ -2,9 +2,11 @@
 title: Sincronizați estimările proiectului direct din Project Service Automation în Finance and Operations
 description: Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza estimările orare ale proiectului și estimările cheltuielilor proiectului direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988216"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082924"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați estimările proiectului direct din Project Service Automation în Finance and Operations
 
@@ -38,7 +40,7 @@ Soluția de integrare Project Service Automation la Finance utilizează funcția
 
 Următoarea ilustrație arată cum sunt sincronizate datele între Project Service Automation și Finance.
 
-[![Fluxul de date pentru integrarea Project Service Automation cu Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Fluxul de date pentru integrarea Project Service Automation cu Finance](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Estimări orare de proiect
 
@@ -95,7 +97,7 @@ Trebuie să adăugați un filtru pentru a elimina toate rândurile care au categ
 
 Următoarea ilustrație prezintă un exemplu de mapare a sarcinilor șablon în Integrarea datelor. Maparea arată informațiile despre câmp care vor fi sincronizate de la Project Service Automation la Finance.
 
-[![Activitate de mapare a șabloanelor în integrarea datelor.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Activitate de mapare a șabloanelor în integrarea datelor](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Estimări de cheltuieli proiect
 
@@ -165,9 +167,6 @@ altfel **null**
 
 Următoarele ilustrații prezintă exemple de mapări ale sarcinilor șablon în Integrarea datelor. Maparea arată informațiile despre câmp care vor fi sincronizate de la Project Service Automation la Finance.
 
-[![Șablon de mapare a tranzacțiilor estimate pentru cheltuieli.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Șablon de mapare a tranzacțiilor estimate pentru cheltuieli](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Șablon de mapare a estimărilor de cheltuieli.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Șablon de mapare a estimărilor de cheltuieli](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)

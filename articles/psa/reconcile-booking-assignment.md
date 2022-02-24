@@ -2,6 +2,8 @@
 title: Reconciliați rezervări și atribuiri
 description: Acest subiect oferă informații despre valorile reale.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995146"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147938"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Reconciliați rezervări și atribuiri
 
@@ -51,11 +53,11 @@ Partea de jos a filei **Reconciliere** afișează un total net global pentru pro
 
 Când vizualizați niveluri mai mari de timp, fila **Reconciliere** afișează un indicator de celulă pentru a vă notifica că există diferențe la nivelurile mai mici de timp. De exemplu, în următoarea ilustrație, un indicator de celulă apare în celula pentru luna octombrie 2018 pentru resursa denumită Ileana Grasu. Prin urmare, puteți vedea că, chiar dacă rezervările și atribuirile resursei sunt egale atunci când acestea sunt agregate la nivel de **Lună**, ele nu se potrivesc la niveluri mai mici.
 
-![Rezervări și atribuiri nepotrivite la nivel lunar.](media/reconcile-assignments-01.JPG)
+![Rezervări și atribuiri nepotrivite la nivel lunar](media/reconcile-assignments-01.JPG)
 
 Faceți dublu clic pe o celulă pentru a mări la următorul nivel inferior și a vedea diferența. De exemplu, dacă faceți dublu clic pe diferența din octombrie 2018 pentru Ileana Grasu, detaliați până la nivel de **Săptămână**. Puteți vedea apoi că resursa are rezervări de 16 ore, dar nu atribuiri în primele două săptămâni din octombrie, și 16 de ore de atribuiri, dar nu rezervări în a treia săptămână a lui octombrie.
 
-![Rezervări și atribuiri nepotrivite la nivel săptămânal.](media/reconcile-assignments-02.JPG)
+![Rezervări și atribuiri nepotrivite la nivel săptămânal](media/reconcile-assignments-02.JPG)
 
 Aveți posibilitatea să faceți clic dreapta pe o celulă pentru a micșora următorul nivel superior. De asemenea, puteți dezactiva indicatorul celulei selectând butonul **Setări**. 
 
@@ -68,13 +70,13 @@ Pentru a asigura rezultate precise și previzibile atunci când utilizați Exten
 
 - Utilizatorul trebuie să configureze fusul orar al dispozitivului pentru a se potrivi cu fusul orar definit în Setările de personalizare ale sistemului.
  
-  ![Setările fusului orar în Windows 10.](media/reconcile-assignments-03.png)
+  ![Setările fusului orar în Windows 10](media/reconcile-assignments-03.png)
 
-  ![Setările fusului orar în setările de personalizare.](media/reconcile-assignments-04.png)
+  ![Setările fusului orar în setările de personalizare](media/reconcile-assignments-04.png)
  
 - Resursa rezervabilă trebuie să aibă cel puțin un minut de timp de lucru care se suprapune contururilor utilizate pentru a defini extensia solicitată. De exemplu, următorul exemplu arată resursele de revizuire cu ore de lucru care se încadrează între 9:00 AM și 19:00. 
 
-  ![Comparația contururilor resurselor.](media/reconcile-assignments-05.png)
+  ![Comparația contururilor resurselor](media/reconcile-assignments-05.png)
 
 Tabelul următor afișează:
 
@@ -83,22 +85,19 @@ Tabelul următor afișează:
 - Resurse B: Această resursă este localizată într-un alt fus orar decât proiectul și, prin urmare, începe la ora 7:00 în fusul lor orar. Cu toate acestea, rezervările vor începe la ora 9:00, deoarece aceasta este cea mai timpurie perioadă de începere a conturului misiunii.
 - Resurse C și D: Resursele sunt, de asemenea, amplasate în zone de timp diferite, ambele diferite între ele și proiect, iar rezervările lor încep nu mai devreme decât orele de pornire disponibile.
 
-|Entity  |Calendar   |
+|Entitate  |Calendar  |
 |-|-|
-|Șablon de calendar de proiect   | ![calendarul proiectului.](media/reconcile-assignments-06.png) |
-|Resursă A  | ![Calendar resursa A.](media/reconcile-assignments-06.png) |
-|Resursă B  |  ![Calendar resursa B.](media/reconcile-assignments-07.png) |
-|Resursă C  |  ![Calendar resursa C.](media/reconcile-assignments-08.png) |
-|Resursă D  | ![Calendar resursa D.](media/reconcile-assignments-09.png)  |
+|Șablon de calendar de proiect   | ![calendarul proiectului](media/reconcile-assignments-06.png) |
+|Resursă A  | ![Calendar resursa A](media/reconcile-assignments-06.png) |
+|Resursă B  |  ![Calendar resursa B](media/reconcile-assignments-07.png) |
+|Resursă C  |  ![Calendar resursa C](media/reconcile-assignments-08.png) |
+|Resursă D  | ![Calendar resursa D](media/reconcile-assignments-09.png)  |
  
 Când navigați la vizualizarea de reconciliere, vor fi afișate alocările de resurse și deficiențele de rezervare asociate.
- ![Vedere de reconciliere înainte de extensie.](media/reconcile-assignments-10.png)
+ ![Vedere de reconciliere înainte de extensie](media/reconcile-assignments-10.png)
 
 După ce funcționalitatea Extind Booking este executată pe fiecare resursă, rezervările sunt extinse cu succes pentru fiecare resursă. Acest lucru se datorează faptului că orele de lucru ale fiecărei resurse s-au suprapus cu contururile deficitului.
- ![Vizualizare de reconciliere după extinderea rezervării.](media/reconcile-assignments-11.png) 
+ ![Vizualizare de reconciliere după extinderea rezervării](media/reconcile-assignments-11.png) 
 
 Cu toate acestea, o privire mai atentă la detaliile rezervărilor arată diferențe în ora de început a rezervărilor. Rezervările vor începe nu mai devreme decât ora de început a conturului misiunii și nu mai devreme decât ora de pornire disponibilă a resursei.
- ![Rezervări noi ale resurselor din tabloul de bord.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Rezervări noi ale resurselor din tabloul de bord](media/reconcile-assignments-12.png)

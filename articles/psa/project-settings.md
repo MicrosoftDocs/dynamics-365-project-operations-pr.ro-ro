@@ -2,6 +2,8 @@
 title: Setări de proiect
 description: Acest subiect furnizează informații despre setările de management de proiect.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996946"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148163"
 ---
 # <a name="project-settings"></a>Setări de proiect
 
@@ -45,9 +47,9 @@ Pentru a crea o planificare de proiect, creați un șablon de calendar de proiec
 
   - Planificare săptămânală nouă
   - Planificare lucru pentru o zi
-  - Indisponibilitate
+  - Întrerupere
 
-> ![Configurați opțiuni.](media/project-13.png)
+> ![Configurați opțiuni](media/project-13.png)
 
 4. Selectați **Programul săptămânal nou**, apoi setați opțiunile pentru această planificare de resurse. Puteți seta o planificare săptămânală recurentă, parametri de oră pe zi, închideri de afaceri și multe altele.
 5. Setați intervalul de date, selectați **Salvare**, apoi faceți clic pe **Închidere**. 
@@ -66,6 +68,3 @@ Fiecare organizație trebuie să configureze aceste roluri pe pagina **Categorii
 ## <a name="price-lists"></a>Liste de prețuri
 
 Listele de prețuri vă permit să configurați costurile și prețurile de vânzări pentru rolurile de resurse, categoriile de cheltuieli, produse și alte elemente dintr-o organizație. Înainte să configurați estimări financiare pentru lucrul care trebuie livrat pentru un proiect, ar trebui să creați un cost de rezervă și o listă de prețuri de vânzări. În secțiunea parametri, ar trebui să configurați, de asemenea, un cost implicit și lista de prețuri de vânzări care se aplică tuturor proiectelor care sunt create în organizație. Pe pagina **Parametri proiect activi**, asigurați-vă că configurați un cost implicit și o listă de prețuri de vânzări.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

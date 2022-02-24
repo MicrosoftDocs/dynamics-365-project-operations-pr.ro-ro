@@ -2,9 +2,11 @@
 title: Crearea de entități și câmpuri particularizate ca dimensiuni de preț
 description: Acest subiect oferă informații despre cum să creați seturi de opțiuni personalizate sau entități.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003651"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642828"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Crearea de entități și câmpuri particularizate ca dimensiuni de preț
 
@@ -44,7 +46,7 @@ Pentru a crea dimensiuni bazate pe entități, urmați acești pași:
 3. Selectați **Nou** pentru a crea o nouă entitate denumită **Titlu standard**. 
 4. Introduceți restul de informații solicitate și apoi selectați **Salvare**.
 
-> ![Definiție entitate titlu standard.](media/Standard-Title-entity-definition.png)
+> ![Definiție entitate titlu standard](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensiuni bazate pe seturi de opțiuni 
 Aveți posibilitatea să creați două dimensiuni bazate pe seturi de opțiuni. 
@@ -54,11 +56,11 @@ Aveți posibilitatea să creați două dimensiuni bazate pe seturi de opțiuni.
 
 Următorul grafic oferă o vizualizare a dimensiunii **Locația de lucru a resurselor**. 
 
-> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Locația de lucru resursă.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Locația de lucru resursă](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Următorul grafic oferă o vizualizare a dimensiunii **Ore de lucru resursă**. 
 
-> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Ore de lucru resursă.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Dimensiunea de tarifare bazată pe set de opțiuni denumită Ore de lucru resursă](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Accesați **Setări** > **Soluții**, apoi faceți dublu clic pe  **\<your organization name> dimensiunile prețurilor**. 
 2. În Explorator soluții, în panoul de navigare din stânga, selectați  **Seturi de opțiuni**. 
@@ -74,7 +76,4 @@ Aveți posibilitatea să creați manual date pentru dimensiunile bazate pe entit
 4. Închideți pagina. 
 5. Repetați pașii 1-3 pentru a crea un alt titlu standard pentru „Inginer sisteme senior”.
 
-> ![Date eșantion pentru entitatea Titlu standard.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Date eșantion pentru entitatea Titlu standard](media/ST-data.png)

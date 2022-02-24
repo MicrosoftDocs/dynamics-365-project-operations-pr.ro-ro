@@ -1,6 +1,8 @@
 ---
 title: Ce este nou sau modificat în Project Service Automation versiunea 3
 description: Acest subiect oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987091"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150683"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Ce este nou sau modificat în Project Service Automation versiunea 3
 
@@ -36,7 +38,7 @@ Acest subiect oferă informații despre modificările la interfața cu utilizato
 ## <a name="project-scheduling"></a>Planificarea proiectelor
 Planificarea de proiect, care a fost cunoscută sub numele de structura detaliată a proiectului (WBS) în versiunile anterioare, a fost redenumit Planificare și este accesat făcând clic pe fila **Planificare**. 
 
-![Planificarea proiectului.](media/psa-schedule-01.png)
+![Planificarea proiectului](media/psa-schedule-01.png)
 
 Planificarea are acum o nouă suprafață de interacțiune care este atât modernă cât și accesibilă. Cu toate acestea, motorul de planificare de bază Project Service Automation nu s-a schimbat. Butoanele de control din panglica grila de planificare vă permit să interacționați cu planificarea similară cu versiunea anterioară de Project Service Automation. Modificările suplimentare ale planificării includ:
 
@@ -95,22 +97,22 @@ Când mutați planificarea de proiect existent înainte, se întâmplă următoa
 ## <a name="estimates"></a>Estimări
 Estimările au fost împărțite în două file, **Atribuire de resurse** și **Estimări**. Fila **Atribuire resurse** conține estimările efortului și afișează atribuirile de resurse pentru activități într-o vizualizare pe etape. Puteți edita estimările pe baza a ceea ce a generat motorul de planificare.
 
-![Fila Atribuiri resurse afișează estimările de efort și atribuirile de resurse pentru activități.](media/resource-assignments-tab-02.png)
+![Fila Atribuiri resurse afișează estimările de efort și atribuirile de resurse pentru activități](media/resource-assignments-tab-02.png)
 
 Fila **Estimări** afișează sumele de cost și vânzări pentru atribuirile de resurse. Sumele sunt doar în citire. Costul și prețurile de vânzare sunt acum conduse din atribuirile membrului echipei pe planificare. Acest lucru înseamnă că, dacă aveți o activitate fără nici o atribuire, aceasta va apărea sub pachetul neatribuit. Acest lucru înseamnă, de asemenea, că fără **rol**, care este o dimensiune implicită de tarifare, nu va exista nici un cost estimat sau vânzări dacă aveți un client sau un contract/ofertă asociate cu proiectul. 
 
-![Fila estimări afișează sumele de cost și de vânzări.](media/estimates-tab-03.png)
+![Fila estimări afișează sumele de cost și de vânzări](media/estimates-tab-03.png)
   
 Categorie este, de asemenea, acceptată pe activități în vizualizarea de planificare. Gruparea după categorie în vizualizarea treptată a estimărilor va oferi o experiență mai bună, în special atunci când aveți, de asemenea, estimări ale cheltuielilor în proiect. Estimările de cheltuieli sunt introduse utilizând o grilă pe o filă separată. 
 
 Estimările de cheltuieli pot fi introduse în grila de pe fila **Estimări de cheltuieli**. 
 
-![Fila estimări de cheltuieli afișează grila cu estimări de cheltuieli.](media/expense-estimates-tab-04.png)
+![Fila estimări de cheltuieli afișează grila cu estimări de cheltuieli](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gestionarea resurselor
 În Project Service Automation versiunea 3, cu noul utilizator Unified Client și modificări în relația dintre rezervări și atribuiri, echiparea cu personal a unui proiect cu resurse generice sau reale s-a schimbat dramatic de la versiunea 2 și versiunea 1. Cu toate acestea, conceptele de resurse care pot fi rezervate, atât **reale**, cât și **generice** rămân aceleași, la fel ca membrii echipei, cerințele, misiunile și rezervările.   
 
-![Utilizarea selectorului de resurse.](media/resource-management-05.png)
+![Utilizarea selectorului de resurse](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Atribuiți o resursă reală care se poate rezerva 
 În versiunea 3 de Project Service Automation, rezervările și sarcinile de sarcini nu sunt la fel de strâns legate între versiunile anterioare ale Project Service Automation. Puteți utiliza grila de echipă pentru a rezerva un membru **real** al echipei, similar cu cel de pe piață.
@@ -151,21 +153,21 @@ Această secțiune furnizează informații despre modificările în timp, cheltu
 ### <a name="landing-page"></a>Pagină de destinație
 Experiența de intrare de timp particularizată non-extensibilă a fost perimată în versiunea 3. În schimb, există acum o experiență de rețea extensibilă și accesibilă. Puteți accesa funcționalitatea de intrare în timp utilizând harta site-ului din stânga. Cu această modificare, nu veți mai putea să introduceți ora pentru o săptămână la rând. În schimb, va trebui să creați o intrare de timp pentru fiecare zi în grilă. După ce au fost create câteva intrări de timp, utilizatorii pot crea în bloc intrările de timp cu funcția **Copiere** explicată mai târziu în acest subiect. 
 
-![Pagina de destinație a intrării de timp.](media/time-entry-landing-page-07.png)
+![Pagina de destinație a intrării de timp](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Creați noi intrări de timp 
 Faceți clic pe **Nou** în panglică pentru a deschide o pagină de creare rapidă pentru intrarea de timp unde introduceți durata în minute, ore sau zile. Pentru a face acest lucru, începeți să tastați o, m sau z împreună cu cantitatea.  
 
-![Creare rapidă intrare de timp.](media/quick-create-time-entry-08.png)
+![Creare rapidă intrare de timp](media/quick-create-time-entry-08.png)
 
 Câmpurile căutare sunt susținute de vizualizări de sistem. De exemplu, după ce introduceți informații despre proiect, câmpul **Activitatea de proiect** este setată implicit la vizualizarea **Activitățile mele de proiect deschise**. Pentru a crea intrări de timp pentru activități care nu sunt atribuite utilizatorului, faceți clic pe **Modificare vizualizare** pe câmpul căutare și selectați **Toate activitățile active de proiect**. După ce intrarea de timp a fost creată și este afișatăîn grilă, aveți posibilitatea să editați orice valori de linie direct în grilă.  
 
 ### <a name="bulk-createcopy"></a>Creare/Copiere în bloc 
 După ce au fost create câteva înregistrări de timp, puteți utiliza funcționalitatea de copiere pentru a crea în bloc entități de timp adiționale. Faceți clic pe **Copiere** pentru a deschide dialogul **Copiere**. În **De la perioada: data de început**, setați intervalul de date din care trebuie copiate intervalele de timp. În **La perioadă: data de început**, specificați data pentru care trebuie create intrările de timp. Faceți clic pe **Copiere** pentru a copia intrările de timp în ziua corespunzătoare a săptămânii indicată în **La perioada**. De exemplu, înregistrarea de timp pentru luni de săptămâna trecută va fi copiată pentru lunea săptămânii indicate în **La perioada**. 
 
-![Copiați intrările de timp în bloc.](media/bulk-copy-time-entry-09.png)
+![Copiați intrările de timp în bloc](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Importare date 
+### <a name="import-data"></a>Importați date 
 Atribuirile și schimbul urmează același model UI, care permite utilizatorului să precizeze intervalul de date de la momentul în care rezervările trebuie importate. Apoi trebuie să alegeți explicit rezervările care ar trebui copiate în intrările de timp **Schiță**. În versiunea 3, nu mai puteți vedea modelul de intrări de timp **Sugerat** pe grilă și calendar.  
 
 ### <a name="change-in-calendar-control"></a>Modificarea controlului calendarului
@@ -179,7 +181,7 @@ Atribuirile și schimbul urmează același model UI, care permite utilizatorului
 
 **Capturați date pe câmpuri particularizate în intrarea de timp și cheltuieli și propagați-le prin entități care acceptă fluxul de trimitere și aprobare** - procesarea tipică a intrărilor de timp este afișată în diagrama următoare.
 
-![Procesarea fluxului de intrare de timp.](media/process-time-entries-10.png)
+![Procesarea fluxului de intrare de timp](media/process-time-entries-10.png)
 
 Dacă cerințele de afaceri stipulează că entitățile de timp și cheltuieli trebuie să captureze dimensiunile de preț particularizate și să propagați valorile care sunt setate de o resursă de marcă de timp și de intrare în dimensiunea de preț particularizat prin toate entitățile din graficul anterior, consultați [Configurați câmpuri particularizate ca dimensiuni de preț](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ Pentru clienții de Project Service Automation care doresc să continue să util
 
 Începând cu versiunea 3, configurarea opțiunilor de posibilitate de tarifare după rol și categorie de cheltuială se va face la nivel de ofertă sau linie de contract. Configurarea prețurilor este separată de configurarea posibilității de tarifare. Veți putea găsi **Roluri taxabile** și **Categorii taxabile** ca file pe **Linia de ofertă** și paginile  **Linie de contract** fără a fi nevoie să utilizați navigarea de sus.
 
-![Roluri tarifabile.](media/chargeable-12.png)
+![Roluri tarifabile](media/chargeable-12.png)
  
 Configurarea Rolurilor taxabile și a Categoriilor de taxare utilizează, de asemenea, controlul de grilă editabil predefinit. Pentru fiecare rol și categorie, opțiunile acceptate pentru tipul de facturare în timpul fazei de ofertare și contractare rămân neschimbate față de versiunile anterioare ca **Tarifabil** și **Netarifabil**. **Gratuitate** nu este un tip acceptat în timpul fazei de ofertare sau de contractare. **Gratuitate** este acceptată numai în timpul aprobării de timp sau cheltuială.  
  
@@ -247,14 +249,11 @@ Configurarea Rolurilor taxabile și a Categoriilor de taxare utilizează, de ase
   
 Următorul grafic este înainte de crearea de liste de prețuri particularizate.
 
-![Înainte de liste de prețuri particularizate.](media/before-custom-price-lists-13.png)
+![Înainte de liste de prețuri particularizate](media/before-custom-price-lists-13.png)
 
 Următorul grafic apare după crearea de liste de prețuri particularizate.
 
-![După liste de prețuri particularizate.](media/after-custom-price-lists-14.png)
+![După liste de prețuri particularizate](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Este posibil să apară un decalaj scurt între momentul în care faceți clic pe **Creați prețuri particularizate** și cel la care se creează lista de prețuri particularizate. Recomandăm reîmprospătarea grilei în loc să faceți clic de mai multe ori. S-a creat o listă de prețuri particularizată dacă numele listei de prețuri asociate are numele ofertei sau numele contractului de proiect anexat la acesta.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

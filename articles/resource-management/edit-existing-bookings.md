@@ -2,16 +2,18 @@
 title: Editați rezervările
 description: Acest subiect oferă informații despre cum să actualizați și să modificați rezervările.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008331"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841387"
 ---
 # <a name="edit-bookings"></a>Editați rezervările
 
@@ -31,6 +33,3 @@ Din grila **Membru al echipei**, un manager de proiect poate evidenția o anumit
 ## <a name="schedule-board"></a>Tablou de planificare
 
 De la **Panou de planificare**, managerul de resurse dispune de o vizualizare a întreg portofoliului de rezervări dintr-o organizație. Din această vizualizare, managerul de resurse poate extinde, scurta sau muta rezervările existente în mod similar cu capacitățile oferite în **Mențineți rezervările**. De asemenea, managerul de resurse poate înlocui resursele existente alocate unei rezervări specifice făcând clic dreapta pe rezervare și selectând **Înlocuiți Resurse**. De asemenea, managerii de resurse pot edita caracteristicle rezervărilor existente făcând clic dreapta pe rezervare și selectând **Editați**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

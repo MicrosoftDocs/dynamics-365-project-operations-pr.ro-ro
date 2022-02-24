@@ -2,8 +2,10 @@
 title: Corecții în bloc ale datelor reale create prin intrări de timp și cheltuieli aprobate
 description: Acest subiect explică modul în care un administrator poate efectua corecții unice sau în bloc la intrările de timp sau cheltuieli aprobate anterior dacă facturarea nu este finalizată.
 author: rumant
+manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +18,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995416"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144968"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Corecții în bloc ale datelor reale create prin intrări de timp și cheltuieli aprobate
 
@@ -62,7 +64,7 @@ Urmați pașii următori pentru a corecta intrările de timp unice sau multiple 
 
 De exemplu, în graficul următor, există două elemente linie cu o cantitate de 8,00 care au debite listate în coloana Sumă. În plus, există două elemente linie cu o cantitate de -8,00 care arată sumele creditate în coloana Sumă. Aceste corecții aduc cantitatea la zero.
 
-![Listă vizualizare asociată valori reale.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Listă vizualizare asociată valori reale](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Intrări de cheltuieli aprobate corect
 
@@ -87,7 +89,4 @@ Urmați pașii următori pentru a corecta una sau mai multe intrări de cheltuie
 
 8. În pagina proiectului, pe fila **Date reale**, treceți în revistă **Vizualizare asociată valori reale**. Sunt enumerate intrările originale și intrările corectate. Următorul grafic arată sumele de intrare pentru cheltuieli originale și sumele corespunzătoare de intrare ale cheltuielilor corectate. 
 
-![Date reale cheltuieli.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Date reale cheltuieli](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)

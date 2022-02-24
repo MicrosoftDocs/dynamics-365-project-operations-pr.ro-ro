@@ -1,23 +1,23 @@
 ---
-title: Creați și actualizați un proiect
+title: Actualizarea unui proiect
 description: Acest subiect furnizează informații despre actualizarea proiectelor în Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
-ms.translationtype: MT
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678364"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993386"
 ---
-# <a name="create-and-update-a-project"></a>Creați și actualizați un proiect
+# <a name="update-a-project"></a>Actualizarea unui proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Următorul este un rezumat al câmpurilor care pot fi actualizate pe un proiect după ce acesta a fost creat. Aceasta include, de asemenea, orice implicații aplicabile bazate pe aceste actualizări.
+Mai jos este un rezumat al câmpurilor care pot fi actualizate pe un proiect după ce a fost creat și orice implicații aplicabile ale actualizărilor.
 
 ## <a name="project-detail-fields"></a>Câmpuri de detaliu ale proiectului
 
@@ -25,8 +25,8 @@ Următorul este un rezumat al câmpurilor care pot fi actualizate pe un proiect 
 - **Descriere**: o prezentare generală a proiectului.
 - **Client**: Compania căreia îi va fi livrat proiectul.
 - **Șablon de calendar**: orele de lucru ale proiectului. Când câmpul este schimbat, întreaga planificare este recalculată.
-- **Monedă**: moneda pentru proiect. Valoarea implicită pentru acest câmp se bazează pe moneda definită în unitatea contractantă. Când unitatea contractantă este actualizată, câmpul este, de asemenea, actualizat.
-- **Unitate contractantă**: unitatea organizațională care reprezintă grupul de firme sau divizia care este principalul responsabil cu câștigarea vânzării și cu gestionarea livrării de lucrări și servicii către client.  Când unitatea organizațională a managerului de proiect nu este definită, acest câmp este implicit la valoarea definită în parametrii proiectului.
+- **Monedă**: moneda pentru proiect. Acest câmp implicit se bazează pe moneda definită în unitatea contractantă. Când unitatea contractantă este actualizată, câmpul este, de asemenea, actualizat.
+- **Unitate contractantă**: unitatea organizațională care reprezintă grupul de firme sau divizia care este principalul responsabil cu câștigarea vânzării și cu gestionarea livrării de lucrări și servicii către client. 
 - **Manager de proiect**: membru al echipei de proiect care are autoritatea de a revizui și aproba intrările și cheltuielile de timp.
 
 ## <a name="estimate-fields"></a>Câmpuri de estimare

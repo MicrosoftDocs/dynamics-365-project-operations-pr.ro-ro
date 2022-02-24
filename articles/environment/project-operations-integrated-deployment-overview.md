@@ -2,23 +2,24 @@
 title: Prezentare generală a implementării Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 description: Acest subiect oferă informații despre tipul de implementare, Project Operations pentru scenarii bazate pe resursă/nestocate.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009726"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365587"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Prezentare generală a implementării Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Tipul de implementare, Dynamics 365 Project Operations pentru scenarii bazate pe resurse/non-stoc, are următoarele capacități pentru companiile bazate pe proiecte:
+Tipul de implementare, Dynamics 365 Project Operations pentru scenarii bazate pe resurse/scenarii nebazate pe stoc, are următoarele capacități pentru companiile bazate pe proiecte:
 
 - Planificarea proiectului utilizând Microsoft Project pentru web
 - Prețuri și costuri multidimensionale pentru resursele de muncă
@@ -42,6 +43,3 @@ Această implementare ar trebui să fie aleasă dacă așteptările dvs. de la P
 - Necesită un motor de impozitare pe vânzări și un curs de schimb pentru a genera facturi orientate către clienți pentru proiecte.
 - Un sistem de contabilitate a proiectelor și de recunoaștere a veniturilor conform standardelor internaționale de raportare financiară (IFRS).
 - Aplicații de finanțare sau de Supply Chain Management și integrarea tranzacțiilor bazate pe proiecte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Extinderea intrărilor de timp
 description: Acest subiect oferă informații despre modul în care dezvoltatorii pot extinde controlul introducerii de timp.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993346"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124653"
 ---
 # <a name="extending-time-entries"></a>Extinderea intrărilor de timp
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations include un control personalizat pentru introducerea timpului extensibil. Acest control include următoarele caracteristici:
+Dynamics 365 Project Operations includ un control personalizat pentru introducerea timpului extensibil. Acest control include următoarele caracteristici:
 
 - Introduceți orizontal timp de o săptămână
 - Totaluri pe zi, rând sau săptămână
@@ -142,6 +144,3 @@ Utilizați validările de insert pentru orice validări care necesită mai mult 
 
 ### <a name="copying-time-entries"></a>Copiere intrări de timp
 Utilizați vizualizarea **Copiere coloane intrări de timp** pentru a defini lista câmpurilor de copiat în timpul introducerii timpului. **Data** și **Durata** sunt câmpuri obligatorii și nu trebuie eliminate din vizualizare.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Actualizați Project Operations în mediul dvs. de Finanțe
 description: Acest subiect oferă informații despre cum să actualizați Project Operations în mediul Dynamics 365 Finance.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986776"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816640"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualizați Project Operations în mediul dvs. de Finanțe
 
@@ -33,7 +35,7 @@ Acest subiect oferă informații despre cum să actualizați Dynamics 365 Projec
 4. Verificați dacă mediul rulează. Dacă nu este pornit, porniți mediul.
 5. În secțiunea **Noua versiune**, la **Actualizări disponibile**, selectați **Vizualizați actualizarea** pentru 10.0.15.
 
-![Vizualizați butonul de actualizare.](media/view-update.png)
+![Vizualizați buton de actualizare](media/view-update.png)
 
 6. Pe pagina **Actualizări binare**, selectați **Salvați pachetul**.
 7. Pe pagina **Revizuiți și salvați actualizări**, selectați **Salvați pachetul**.
@@ -47,11 +49,11 @@ Acest subiect oferă informații despre cum să actualizați Dynamics 365 Projec
 2. Din listă, selectați pachetul pe care l-ați salvat mai devreme, apoi selectați **Aplicați**.
 3. Selectați **Da** pentru a confirma că doriți să implementați pachetul.
 
-![Casetă de dialog de confirmare a implementării pachetului.](media/confirm-package-deployment.png)
+![Casetă de dialog de confirmare a implementării pachetului](media/confirm-package-deployment.png)
 
 4. Selectați **Da** pentru a confirma că doriți să actualizați aplicația.
 
-![Casetă de dialog de confirmare a actualizării aplicației.](media/confirm-application-update.png)
+![Casetă de dialog de confirmare a actualizării aplicației](media/confirm-application-update.png)
 
 Implementarea și actualizarea aplicației vor începe. 
 
@@ -84,7 +86,7 @@ Următoarele actualizări ale privilegiilor de securitate pentru entități sunt
 
 1. In mediul dvs. Dataverse, accesați **Setări**, iar în grupul **Sistem**, selectați **Securitate**.
 
-![Setări de mediu Dataverse.](media/Picture21.png)
+![Setări ale mediului Dataverse](media/Picture21.png)
 
 2. Selectare **roluri de securitate**.
 3. Din lista de roluri, selectați **utilizator de aplicație cu scriere duală** și selectați fila **Entități personalizate**. 
@@ -121,8 +123,5 @@ Următoarele actualizări ale privilegiilor de securitate pentru entități sunt
 6. Din lista de hărți, selectați harta **Registru (msdyn_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. 
 7. În câmpul **Master pentru sincronizarea inițială**, selectați **aplicațiile Finance and Operations** și apoi selectați **Rulare**.
  
- ![Sincronizarea hărții registrului contabil.](media/DW6.png)
+ ![Sincronizarea hărții registrului](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

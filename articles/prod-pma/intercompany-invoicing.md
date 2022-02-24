@@ -2,9 +2,11 @@
 title: Facturare între companii
 description: Acest articol oferă informații și exemple despre facturarea între companii pentru proiecte.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995821"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270783"
 ---
 # <a name="intercompany-invoicing"></a>Facturare între companii
 
@@ -33,7 +35,7 @@ Organizația dvs. ar putea avea mai multe divizii, filiale și alte entități j
 
 Următoarea ilustrație prezintă un scenariu tipic în care două entități juridice, SI FR (entitatea juridică care împrumută) și SI SUA (entitatea juridică care împrumută) împart resurse pentru a livra un proiect pentru clientul A. Pentru acest scenariu, SI FR este contractată pentru livrarea lucrului la clientul A. 
 
-[![Exemplu de facturare între companii.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Exemplu de facturare între companii](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Scopul este de a face controlul costurilor, recunoașterea veniturilor, impozitelor și prețul de transfer pentru tranzacțiile de proiecte inter-companii mai flexibil și mai puternic. În plus, sunt furnizate următoarele funcții:
 

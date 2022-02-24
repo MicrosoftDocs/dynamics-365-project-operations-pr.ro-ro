@@ -2,17 +2,19 @@
 title: Linii de contract bazate pe produs de cost - simplificat
 description: Acest subiect oferă informații despre creare
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997351"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764474"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Linii de contract bazate pe produs de cost - simplificat
 
@@ -28,6 +30,3 @@ Când se creează o linie contractuală bazată pe produs pentru un produs de ca
 Având un cost unitar pe o linie de contract bazată pe produse, vă permite a avea costuri diferite ale produsului pentru fiecare vânzare a unei unități. Deși nu sunt întotdeauna necesare, există anumite scenarii în care costul produsului poate fi redus pentru client de către furnizor. Luați în considerare următorul scenariu:
 
 Fabrikam Robotics instalează brațe robotizate pe liniile de asamblare ale Adatum Corporation. Fabrikam oferă servicii de instalare, dar brațele robotice provin de la Trey Research. Dacă instalarea brațelor robotizate la Adatum Corporation deschide o nouă verticală a industriei pentru brațele de la Trey Research, aceștia ar putea acorda Fabrikam o reducere specială pentru această ofertă. În acest caz, Fabrikam creează o linie contractuală bazată pe produse pentru Brațe robotice. Pentru acest contract se introduce un cost pe unitate. Costul este diferit de costul brațelor robotice de la Trey Research.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Ghidul utilizatorului pentru Hubul resurse proiect
 description: Un ghid pentru utilizatorul final pentru hubul de resurse de proiect pentru Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987271"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948163"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Ghid de utilizator pentru hubul de resurse de proiect
 
@@ -52,28 +54,28 @@ Există două tipuri de [!INCLUDE[pn_dyn_365_project_service_auto](../includes/p
 1.  Atunci când vă conectați la aplicația mobilă, veți vedea pagina MyApps cu o listă de aplicații la care aveți acces. 
 2.  Selectați **Hub resursă proiect**.
 
-![Alegeți o aplicație.](media/chooseApp_1.png "Alegeți o aplicație")
+![Alegeți o aplicație](media/chooseApp_1.png "Alegeți o aplicație")
 
 **Bara de navigare**
 
-Utilizați bara de navigare pentru a ajunge la zona de lucru, a crea o nouă înregistrare, a căuta sau a face alte activități. Pentru a accesa mai multe comenzi, atingeți ![Butonul mai multe.](media/MoreButton.png "Buton Mai multe")
+Utilizați bara de navigare pentru a ajunge la zona de lucru, a crea o nouă înregistrare, a căuta sau a face alte activități. Pentru a accesa mai multe comenzi, atingeți ![Butonul mai multe](media/MoreButton.png "Buton Mai multe")
 
-![Bara de navigare.](media/NavBar_2.png "Bara de navigare")
+![Bara de navigare](media/NavBar_2.png "Bara de navigare")
 
 **Preferințe și înregistrări recent utilizate**
 
 Secțiunile Preferințe și Recent utilizate oferă acces rapid la înregistrările, vizualizările și tablourile dvs. de bord. 
 
-- Pentru a accesa aceste secțiuni, atingeți **Meniu** ![Butonul Meniu.](media/MenuButton.png "Buton meniu") pe bara de navigare, apoi atingeți butonul **Favorite și recente** ![Butonul Fav](media/FavButton.png "Buton Preferințe") .
+- Pentru a accesa aceste secțiuni, atingeți **Meniu** ![butonul Meniu](media/MenuButton.png "Buton meniu") de pe bara de navigare, apoi atingeți butonul **Preferințe și recente** ![butonul Preferințe](media/FavButton.png "Buton Preferințe").
 
 - Pentru a fixa un element ca preferat, din lista de elemente **Utilizate recent**, apăsați piuneza. Aceasta va fixa și va muta elementul în Preferințe.
 
-  ![Preferințe și elemente recente.](media/Favs_3.png "Preferințe și elemente recente")
+  ![Preferințe și elemente recente](media/Favs_3.png "Preferințe și elemente recente")
  
-## <a name="enter-time"></a>Introducerea timpului
+## <a name="enter-time"></a>Introduceți timpul
 Introduceți orele cel puțin săptămânal - sau la frecvența solicitată de managerii dumneavoastră - pentru a vă asigura că clienții dumneavoastră sunt facturați și că sunteți creditat corect.
 
-1. Atingeți meniul ![Butonul Meniu.](media/MenuButton.png "Buton meniu") și apoi atingeți **Intrări de timp**. Acest lucru vă afișează calendarul.
+1. Atingeți butonul Meniu ![butonul Meniu](media/MenuButton.png "Buton meniu") și **Intrări de timp**. Acest lucru vă afișează calendarul.
 
 2. Ca să vedeți calendarul pentru săptămâna anterioară sau viitoare, atingeți butonul **Anteriorul** sau **Următorul**. Atingeți **Astăzi** pentru a reveni la săptămâna curentă.
 

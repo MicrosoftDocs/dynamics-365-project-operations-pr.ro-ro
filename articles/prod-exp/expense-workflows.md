@@ -2,9 +2,11 @@
 title: Configurați fluxuri de lucru de gestionare a cheltuielilor
 description: Puteți configura un proces de flux de lucru pentru a revizui și aproba documentele de călătorie și cheltuieli.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36ab1edc4769013684fa9248e6c5eac025637bbd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001266"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271638"
 ---
 # <a name="set-up-expense-management-workflows"></a>Configurați fluxuri de lucru de gestionare a cheltuielilor
 

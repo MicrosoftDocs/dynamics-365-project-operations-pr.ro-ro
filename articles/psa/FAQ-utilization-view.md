@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007161"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992849"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Vizualizați utilizarea taxabilă pentru o resursă
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007161"
  
 **Vizualizarea utilizării** pe pagina **Utilizarea resurselor Project Service** afișează utilizarea taxabilă pentru fiecare resursă care se poate rezerva. Întrucât vizualizarea se bazează pe tabloul de planificare, astfel încât veți găsi multe din aceleași funcții.
 
-> ![Captură ecran pentru Vizualizarea utilizării.](media/FAQ-utilization-1.png)
+> ![Captură ecran pentru Vizualizarea utilizării](media/FAQ-utilization-1.png)
  
 
 Calculul de utilizare taxabilă funcționează după cum urmează:
@@ -48,7 +48,7 @@ Utilizarea țintă poate fi setată fie pe rolul implicit al resursei, fie pe re
 2. Selectați o resursă pentru a deschide înregistrarea. 
 3. În fila **Project Service**, puteți seta utilizarea țintă a resursei.
 
-> ![Captură de ecran a utilizării filei Project Service pentru a seta utilizarea țintă.](media/FAQ-utilization-2.png)
+> ![Captură de ecran a utilizării filei Project Service pentru a seta utilizarea țintă](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Setați utilizarea țintă pe un rol
 
@@ -56,7 +56,7 @@ Utilizarea țintă poate fi setată fie pe rolul implicit al resursei, fie pe re
 2. Selectați un rol și deschideți înregistrarea. 
 3. Setați utilizarea țintei pentru rol.
 
-> ![Captură de ecran a utilizării Rolurilor resursei pentru a seta utilizarea țintă.](media/FAQ-utilization-3.png)
+> ![Captură de ecran a utilizării Rolurilor resursei pentru a seta utilizarea țintă](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calculați utilizarea taxabilă pentru o resursă
 

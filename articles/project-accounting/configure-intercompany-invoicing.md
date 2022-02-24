@@ -2,16 +2,18 @@
 title: Configurarea facturării între companii
 description: Acest subiect oferă informații și exemple despre configurarea facturării între companii pentru proiecte.
 author: sigitac
-ms.date: 04/12/2021
+manager: tfehr
+ms.date: 11/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994066"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595538"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurarea facturării între companii
 
@@ -21,9 +23,9 @@ Parcurgeți pașii următori pentru a configura facturarea între companii pentr
 
 ## <a name="example-configure-intercompany-invoicing"></a>Exemplu: Configurarea facturării între companii
 
-În exemplul următor, Contoso Robotics SUA (USPM) este persoana juridică care împrumută și Contoso Robotics UK (GBPM) este entitatea juridică de creditare. 
+În exemplul următor, Contoso Robotics SUA (USPM) este entitatea juridică care ia împrumutul, iar Contoso Robotics UK (GBPM) este entitatea juridică care împrumută. 
 
-1. **Configurați contabilitatea între companii între entități juridice**. Fiecare pereche de persoane juridice care iau cu împrumut și împrumută trebuie să fie configurată pe pagina registrului general [Contabilitate între companii](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Configurați contabilitatea între companii între entități juridice**. Fiecare pereche de persoane juridice care iau cu împrumut și împrumută trebuie să fie configurată pe pagina registrului general [Contabilitate între companii](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. În Dynamics 365 Finance, accesați **Registrul general** > **Configurarea postării** > **Contabilitate între companii**. Creați o înregistrare cu următoarele informații:
 
@@ -35,17 +37,17 @@ Parcurgeți pașii următori pentru a configura facturarea între companii pentr
      1. În Finanțe, selectați entitatea juridică **GBPM**.
      2. Accesați **Conturi clienți** > **Client** > **Toți clienții**. Creați o nouă înregistrare pentru entitatea juridică, **USPM**.
      3. Extindeți **Nume**, filtrați înregistrările după **Tip** și selectați **Entități legale**. 
-     4. Găsiți și selectați registrul clienți pentru **Contoso Robotics SUA (USPM)**.
+     4. Găsiți și selectați înregistrarea clientului pentru **Contoso Robotics SUA (USPM)**.
      5. Selectați **Folosiți potrivirea**. 
-     6. Selectați grupul de clienți **50 - Clienți între companii** și apoi salvați înregistrarea.
+     6. Selectați grupul de clienți și apoi salvați înregistrarea.
      7. Selectați entitatea juridică **USPM**.
      8. Accesați **Conturi furnizori** > **Furnizori** > **Toți furnizorii**. Creați o nouă înregistrare pentru entitatea juridică, **GBPM**.
      9. Extindeți **Nume**, filtrați înregistrările după **Tip** și selectați **Entități juridice**. 
-     10. Găsiți și selectați registrul clienți pentru **Contoso Robotics UK (GBPM)**.
+     10. Găsiți și selectați înregistrarea clientului pentru **Contoso Robotics UK (USPM)**.
      11. Selectați **Folosiți potrivirea**, selectați grupul de furnizori, apoi salvați înregistrarea.
      12. În înregistrarea furnizorului, selectați **General** > **Configurare** > **Între firme**.
      13. Pe fila **Relația comercială**, set **Activ** la **Da**.
-     14. Setați câmpul **Compania client** la **GBPM** iar la **Registrul contului meu**, selectați registrul clienți pe care l-ați creat anterior în timpul procedurii.
+     14. Selectați compania furnizor **GBPM** și în **Înregistrarea contului meu**, selectați înregistrarea clientului pe care ați creat-o mai devreme în procedură.
 
 3. **Configurați setările între companii în gestionarea proiectelor și parametrii contabili**. 
 
@@ -57,7 +59,7 @@ Parcurgeți pașii următori pentru a configura facturarea între companii pentr
     6. În grupul **La împrumutarea resurselor**, selectați **...** > **Nou**. 
     7. În grilă, selectați informațiile următoare:
 
-          - **Împrumutul entității juridice** = **USPM**
+          - **Împrumutul entității juridice** = **GBPM**
           - **Acumulați venituri** = **Da**
           - **Categorie implicită a foii de timp** = **Implicit - Oră**
           - **Categorie de cheltuieli implicite** = **Implicit - cheltuială**
@@ -69,36 +71,33 @@ Parcurgeți pașii următori pentru a configura facturarea între companii pentr
      3. Pe fila **Conturi de cost**, în **Tip de cont de registru**, selectați **Costul între companii**. Creați o înregistrare nouă cu următoarele informații:
       
         - **Entitate juridică de împrumut** = **GBPM**
-        - **Cont principal** = Selectați contul principal pentru costul între companii. Această configurare este obligatorie. Configurarea este utilizată pentru fluxurile intercompaniilor din Finanțe, dar nu și pentru fluxurile intercompaniilor legate de proiect. Această selecție nu are impact în aval. 
+        - **Cont principal** = Selectați contul principal pentru costul între companii
         
      4. Selectați entitatea juridică de împrumut, **GBPM**. 
      5. Accesați **Management de proiect și contabilitate** > **Configurat** > **Postare** > **Configurare înregistrare registru**. 
      6. Pe fila **Conturi de venit**, în **Tip de cont de registru**, selectați **Venitul între companii**. Creați o înregistrare nouă cu următoarele informații:
 
         - **Împrumutul entității juridice** = **USPM**
-        - **Contul principal** = Selectați contul principal pentru venitul între companii. Această configurare este obligatorie. Configurarea este utilizată pentru fluxurile intercompaniilor din Finanțe, dar nu și pentru fluxurile intercompaniilor legate de proiect. Această selecție nu are impact în aval. 
+        - **Cont principal** = Selectați contul principal pentru venitul între companii 
 
 5. **Configurați prețurile de transfer pentru forța de muncă**. Prețurile de transfer între companii sunt configurate în Project Operations pe Dataverse. Configurați [ratele costului forței de muncă](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) și [ratele facturii muncii](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) pentru facturare între companii. Prețurile de transfer nu sunt acceptate pentru tranzacțiile de cheltuieli între companii. Prețul de vânzare unitar între organizații va fi întotdeauna stabilit la aceeași valoare ca și prețul de cost al unității de resurse.
 
-      Costul resurselor dezvoltatorului în cazul Contoso Robotics UK este de 88 GBP pe oră. ContosoRobotics UK va factura Contoso Robotics USA 120 USD pentru fiecare oră în care această resursă a lucrat la proiecte din SUA. Contoso Robotics USA va factura clientului Adventure Works 200 USD pentru activitatea efectuată de resursa dezvoltatorului Contoso Robotics UK. 
+      Costul resurselor dezvoltatorului în Contoso Robotics UK este de 88 GBP pe oră. Contoso Robotics UK va factura Contoso Robotics SUA 120 USD pentru fiecare oră în care această resursă a lucrat la proiecte din SUA. Contoso Robotics SUA va factura clientului Adventure Works 200 USD pentru munca depusă de resursa dezvoltatorului Contoso Robotics UK.
 
-      1. În Project Operations pe Dataverse, accesați la **Vânzare** > **Liste de prețuri**. Creați o nouă listă de prețuri numită **Tarifele Contoso Robotics UK.** 
+      1. În Project Operations pe Dataverse, accesați la **Vânzare** > **Liste de prețuri**. Creați o nouă listă de prețuri de cost numită **Tarifele de cost ale Contoso Robotics UK.** 
       2. În lista de prețuri de cost, creați o înregistrare cu următoarele informații:
          - **Rol** = **Dezvoltator**
          - **Cost** = **88 GBP**
       3. Accesați **Setări** > **Unități organizatorice** și atașați această listă de prețuri la unitatea organizațională **Contoso Robotics UK**.
-      4. Accesați **Vânzări** > **Liste de prețuri**. Creați o listă de prețuri numită **Tarifele Contoso Robotics SUA**. 
+      4. Accesați **Vânzări** > **Liste de prețuri**. Creați o nouă listă de prețuri de cost numită **Rate de cost ale Contoso Robotics SUA**. 
       5. În lista de prețuri de cost, creați o înregistrare cu următoarele informații:
           - **Rol** = **Dezvoltator**
           - **Firmă de resurse** = **Contoso Robotics UK**
           - **Cost** = **120 USD**
-      6. Accesați **Setări** > **Unități organizatorice** și atașați lista de prețuri **Tarifele Contoso Robotics SUA** la unitatea organizațională **Contoso Robotics UK**.
+      6. Accesați **Setări** > **Unități organizaționale** și atașați lista cu prețuri de cost **Ratele de cost Contoso Robotics USA** la unitatea organizațională **Contoso Robotics USA**.
       7. Accesați **Vânzări** > **Liste de prețuri**. Creați o listă de prețuri de vânzare numită **Ratele facturilor Adventure Works**. 
       8. În lista de prețuri de vânzare, creați o înregistrare cu următoarele informații:
           - **Rol** = **Dezvoltator**
           - **Firmă de resurse** = **Contoso Robotics UK**
           - **Rata de facturare** = **200 USD**
       9. Accesați **Vânzări** > **Contracte de proiect** și atașați lista de prețuri **Ratele facturilor Adventure Works** la lista de prețuri a proiectului Adventure Works din contractul de proiect.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Conectați-vă la Project Service Automation
 description: Cum să vă conectați la Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990466"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150278"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Conectați-vă la Project Service Automation
 
@@ -37,7 +39,7 @@ Când vă conectați la aplicațiile Dynamics 365, trebuie să aveți următoare
   
 - Parola dvs.  
   
-  Ați primit probabil aceste informații într-un e-mail de la administratorul dumneavoastră. Dacă nu aveți toate aceste informații sau dacă aveți probleme de conectare, [Găsiți-vă administratorul sau persoana care se ocupă de asistență](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Ați primit probabil aceste informații într-un e-mail de la administratorul dumneavoastră. Dacă nu aveți toate aceste informații sau dacă aveți probleme de conectare, [Găsiți-vă administratorul sau persoana care se ocupă de asistență](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Setați opțiunile personale pentru a permite e-mailul  
  Trebuie să vă configurați setările de e-mail pentru a permite altor persoane să trimită e-mail în numele dumneavoastră, astfel încât [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] să poată trimite notificări de e-mail pentru dvs. atunci când aveți timp și cheltuieli pentru a aproba sau a vă înscrie pentru proiecte.  
@@ -54,6 +56,3 @@ Când vă conectați la aplicațiile Dynamics 365, trebuie să aveți următoare
   
 ### <a name="see-also"></a>Consultați și  
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

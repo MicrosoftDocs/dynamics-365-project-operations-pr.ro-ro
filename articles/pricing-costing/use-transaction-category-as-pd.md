@@ -2,16 +2,18 @@
 title: Utilizarea categoriei de tranzacții ca dimensiune de preț
 description: Acest subiect furnizează informații despre cum să utilizați câmpul Categorie de tranzacție ca dimensiune de preț.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996136"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514016"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilizarea categoriei de tranzacții ca dimensiune de preț
 
@@ -48,6 +50,3 @@ Următorul tabel listează toate formularele și vizualizările predefinite, dup
 2. Pa pagina **Parametri**, pe fila **Dimensiuni prețuri bazate pe sumă**, verificați ca grila de pe filă afișează înregistrările din entitatea **Dimensiuni preț**.
 3. Adăugați **Categorie de tranzacții** la această listă și setați câmpurile **Aplicabil la cost** și **Aplicabil la vânzare** la **Da**.
 4. În câmpul **Tip dimensiune** selectați **Bazat pe sumă**, apoi selectați prioritatea pentru **Categoria de tranzacții** întrucât se referă la cost și vânzări.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Modele abilități și competență
 description: Acest subiect oferă informații despre modul de utilizare a modelelor de abilități și competență.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990511"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147488"
 ---
 # <a name="skills-and-proficiency-models"></a>Modele abilități și competență
 
@@ -33,7 +35,7 @@ Aptitudinile sunt caracteristici de resurse care sunt partajate între Dynamics 
 
 Pentru a întreține depozitul de competențe în Project Service Automation, accesați **Resurse** \> **Abilități resurse**. 
 
-> ![Abilități resursă.](media/Resource-Management-image84.png)
+> ![Abilități resursă](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Utilizați modele de competență pentru a evalua resursele
 
@@ -43,9 +45,6 @@ Aptitudinile pentru resurse sunt apreciate în funcție de modelele de competen�
 2. În noul model de evaluare, indicați valoarea minimă de evaluare, valoarea maximă de evaluare și entitatea care este evaluată.
 3. În subgrila **Valori evaluare**, puteți defini diferitele valori de evaluare, de la minimum la maximum.
 
-> ![Evaluările minime și maxime definite.](media/Resource-Management-image85.png)
+> ![Evaluările minime și maxime definite](media/Resource-Management-image85.png)
 
 Aceste valori de evaluare sunt afișate în filtrele **Cerințele de resurse**, **Tablou planificare** și **Asistent planificare**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

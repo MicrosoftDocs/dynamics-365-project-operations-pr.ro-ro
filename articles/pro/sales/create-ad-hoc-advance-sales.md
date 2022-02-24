@@ -2,16 +2,18 @@
 title: Crearea unui avans ad-hoc pe un contract
 description: Acest subiect oferă informații despre crearea unui avans pe un contract, după cum este necesar.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999151"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596026"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Crearea unui avans ad-hoc pe un contract
 
@@ -37,6 +39,3 @@ Parcurgeți pașii următori pentru a factura clientului un avans.
     | **Stare factură** | Aceasta este o opțiune care indică dacă acest avans este adăugat la o schiță de factură pentru acest client. Valorile posibile sunt:</br>- **Nu este gata de facturat**</br>- **Gata de facturat** | Când un avans sau plata în avans este marcat ca **Gata de facturare**, este adăugat ca timp de linie pe un proiect de factură. Doar un avans complet facturat poate fi utilizat pentru a se concilia cu costurile proiectului pentru următoarea perioadă de facturare. |
 
 4. Selectați **Salvați și închideți** pe dialogul de creare rapidă pentru a înregistra avansul sau plata în avans.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Vizualizați disponibilitatea resurselor
 description: Cum să vizualizați disponibilitatea resurselor în Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c61523bbda814d14e4cb4999a710f652eb77cc77848d9b0246bd6ebde258dd7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af05506481d96193c01c063c00e044242f786f5e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000051"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143888"
 ---
 # <a name="view-resource-availability-project-service"></a>Vizualizați disponibilitatea resurselor (Project Service)
 
@@ -46,6 +48,3 @@ Puteți verifica disponibilitatea resurselor pentru a obține o imagine de ansam
 
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de resurse](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

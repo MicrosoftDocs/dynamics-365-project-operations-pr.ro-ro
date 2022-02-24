@@ -2,16 +2,18 @@
 title: Lucrul cu linii de contract bazate pe proiect
 description: Acest subiect oferă informații despre linii de contract bazate pe proiect.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990061"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181736"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Lucrul cu linii de contract bazate pe proiect
 
@@ -55,6 +57,3 @@ Regulă: un proiect și o anumită clasă de tranzacții pot fi incluse numai pe
 | C1       | CL2           | P1      | Nicio           | Da             | Nicio          | Valid           | Timpul și taxele pentru proiectul P1 sunt incluse pe CL1. Cheltuielile pentru proiectul P1 sunt incluse în CL2. </br>   Nu există suprapuneri în ceea ce este inclus pe fiecare linie contractuală și, prin urmare, este valabil.  |
 | C1       | CL1           | P1      | Da          | Da             | Da         | Nu este valid       | Încalcă regula. Timpul, cheltuielile și taxele pentru proiectul P1 sunt incluse pe liniile celor două contracte.                                                                                               |
 | CL2      | CL2           | P1      | Da          | Da             | Da         | Nu este valid       | Încalcă regula. Timpul, cheltuielile și taxele pentru proiectul P1 sunt incluse pe liniile celor două contracte.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

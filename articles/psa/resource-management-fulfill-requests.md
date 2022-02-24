@@ -2,6 +2,8 @@
 title: Îndeplinirea de cerințe de resurse
 description: Acest subiect oferă informații despre modul de îndeplinire a cerințelor de resurse.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996856"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147623"
 ---
 # <a name="fulfilling-resource-requests"></a>Solicitări de realizare resurse
 
@@ -33,17 +35,14 @@ Cerințele de resurse pot fi trimise ca solicitări de resurse către managerul 
 
 Solicitările de resurse sunt afișate ca o listă în vizualizarea **Solicitări active de resurse**.
 
-> ![Lista de solicitări de resurse.](media/Resource-Management-image59.png)
+> ![Lista de solicitări de resurse](media/Resource-Management-image59.png)
 
 Pentru a îndeplini o solicitare, selectați-o în listă, apoi selectați **Găsire resurse**. Alternativ, faceți dublu clic pe un rând pentru a deschide solicitarea. Apoi puteți selecta fila **Cerință resursă** pentru a vizualiza cerințele pentru solicitarea respectivă. Pentru a începe să îndepliniți solicitarea, selectați **Găsire resurse**.
 
-> ![Detalii solicitare resursă.](media/Resource-Management-image60.png)
+> ![Detalii solicitare resursă](media/Resource-Management-image60.png)
 
 Asistentul de planificare apare și este filtrat după cerințe. Selectați resursa, apoi selectați **Rezervare**.
 
-> ![Resursa selectată.](media/Resource-Management-image61.png)
+> ![Resursa selectată](media/Resource-Management-image61.png)
 
 Membrul de echipă generic este înlocuit cu resursa numită rezervată ferm în echipa de proiect și în atribuirile de activități din planificarea proiectului.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

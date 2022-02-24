@@ -2,9 +2,11 @@
 title: Capturați o chitanță utilizând OCR
 description: Acest subiect oferă informații despre procesarea recunoașterii optice a caracterelor (OCR) pentru chitanțe.
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
-ms.translationtype: MT
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798055"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499866"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturați o chitanță utilizând OCR
 
@@ -52,7 +54,7 @@ Pentru a crea o cheltuială sau pentru a potrivi o cheltuială dintr-o chitanț�
 
 ## <a name="installation"></a>Instalare
 
-Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Expense Management Service pentru Microsoft Dynamics 365 Finance și activați funcțiile în instanța dvs. Puteți accesa suplimentul din proiectul dvs. în Microsoft Dynamics Lifecycle Services (LCS).
+Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Serviciul de gestionare a cheltuielilor pentru Microsoft Dynamics 365 Finance și activați funcțiile din instanța dvs. Puteți accesa programul de completare din proiectul dvs. din Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Conectați-vă la LCS și deschideți mediul dorit.
 2. Accesați **Toate detaliile**.
@@ -73,7 +75,7 @@ Când activați aceste funcții, au loc următoarele acțiuni:
 - Se adaugă un nou element de meniu pentru vizibilitatea câmpului de cheltuieli.
 - Puteți deschide încă fosta pagină **Rapoarte de cheltuieli** accesând **Gestionarea cheltuielilor > Cheltuielile mele > Rapoarte de cheltuieli**.
 - Fluxurile de lucru și orice aprobări vă duc în continuare la pagina de rapoarte de cheltuieli existente.
-- Chitațiile vor fi procesate prin Microsoft Azure Cognitive Services, iar metadatele vor fi extrase și adăugate.
+- Chitanțele vor fi procesate prin Microsoft Azure Cognitive Services și metadatele vor fi extrase și adăugate.
 - Se adaugă o opțiune care vă permite să creați un raport de cheltuieli care include chitanțe neatașate potrivite.
 - O opțiune care este adăugată la rapoartele de cheltuieli vă permite să creați o linie de cheltuieli dintr-o chitanță sau să încercați să potriviți o chitanță existentă cu o linie de cheltuieli existentă.
 
@@ -85,18 +87,7 @@ Nu, Microsoft a construit un model general învățare programată pentru servic
 
 **Unde este disponibilă și procesată această caracteristică?**
 
-Disponibilitatea acestei caracteristici în diferite regiuni este listată în tabelul următor. Dacă regiunea dvs. nu este acceptată în prezent, trimiteți o solicitare pentru a acorda prioritate disponibilității serviciului OCR în regiunea dvs. 
-
-| Regiunea | Acceptat                         |
-|--------|-----------------------------------|
-| Statele Unite ale Americii    | Da                               |
-| CAN    | Da                               |
-| Regatul Unit     | Da                               |
-| AUS    | Da                               |
-| eu     | Parţial. Numai chitanțe în limba engleză. |
-| Asia   | No                                |
-| Japonia  | No                                |
-| Africa | No                                |
+În prezent, Statele Unite sunt acceptate.
 
 **Unde merg chitanțele mele?**
 

@@ -2,9 +2,11 @@
 title: Sincronizați categoriile de cheltuieli ale proiectului între Finance and Operations și Project Service Automation
 description: Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectului între Microsoft Dynamics 365 Finance și Dynamics 365 Project Service Automation.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082935"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizați categoriile de cheltuieli ale proiectului între Finance and Operations și Project Service Automation
 
@@ -56,7 +58,7 @@ Când categoriile de cheltuieli ale proiectului sunt stăpânite în Project Ser
 
 Următoarea ilustrație arată cum sunt sincronizate datele între Project Service Automation și Finance.
 
-[![Fluxul de date pentru integrarea Project Service Automation cu Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Fluxul de date pentru integrarea Project Service Automation cu Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Sincronizare categorii de cheltuieli ale proiectului între Finance și Project Service Automation
 
@@ -93,7 +95,7 @@ Când vă sincronizați cu Project Service Automation, trebuie să utilizați Mi
 
 Următoarea ilustrație prezintă un exemplu de mapare a sarcinilor șablon în Integrarea datelor. Maparea arată informațiile despre câmp care vor fi sincronizate de la Finance la Project Service Automation.
 
-[![Maparea categoriei de cheltuieli ale proiectului la șablonul Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Maparea categoriei de cheltuieli ale proiectului la șablonul Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Sincronizare categorii de cheltuieli ale proiectului între Project Service Automation și Finance
 
@@ -121,7 +123,4 @@ Următoarea ilustrație prezintă un exemplu de mapare a sarcinilor șablon în 
 > [!NOTE]
 > Maparea arată informațiile despre câmp care vor fi sincronizate de la Project Service Automation la Finance.
 
-[![Maparea șablonului Project Service Automation la Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Maparea șablonului Project Service Automation la Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)

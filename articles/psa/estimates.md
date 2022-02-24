@@ -2,6 +2,8 @@
 title: Estimări
 description: Acest subiect oferă informații despre estimări în Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992401"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151448"
 ---
 # <a name="estimates"></a>Estimări
 
@@ -83,27 +85,24 @@ Dacă ați adăugat un câmp particularizat în detaliul liniei de ofertă și d
 1. Deschideți PluginRegistrationTool și conectați-vă la instanța dvs. online.
 2. Selectați **Căutare** și căutați insertul pentru actualizare.
 
-    ![Caseta de dialog Căutare arbore.](media/basic-guide-19.png)
+    ![Caseta de dialog Căutare structură](media/basic-guide-19.png)
 
 3. Selectați insertul, apoi, în pagina principală, selectați **Selectare**.
 4. Selectați pasul insertului pentru a actualiza, faceți clic dreapta, iar apoi selectați **Actualizare**.
 
-    ![Selectarea unui pas în insert.](media/basic-guide-20.png)
+    ![Selectarea unui pas în insert](media/basic-guide-20.png)
 
 5. În caseta de dialog **Actualizarea pasului existent**, în câmpul **Filtrarea atributelor**, selectați butonul puncte de suspensie (**...**):
  
-    ![Actualizați caseta de dialog Pas existent.](media/basic-guide-21.png)
+    ![Actualizați caseta de dialog Pas existent](media/basic-guide-21.png)
 
 6. În caseta de dialog **Selectare atribute**, bifați casetele de selectare pentru atributele particularizate.
 
-    ![Selectați caseta de dialog Atribute.](media/basic-guide-22.png)
+    ![Selectați caseta de dialog Atribute](media/basic-guide-22.png)
 
 7. Selectați **OK** pentru a închide caseta de dialog, apoi selectați **Actualizați pasul**.
  
-    ![Buton Actualizați pasul.](media/basic-guide-23.png)
+    ![Buton Actualizați pasul](media/basic-guide-23.png)
 
 8. Repetați pașii de la 1 la 7 pentru al doilea insert.
 9. Închideți PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

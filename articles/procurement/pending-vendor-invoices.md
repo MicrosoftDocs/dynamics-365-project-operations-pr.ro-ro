@@ -2,17 +2,17 @@
 title: Achiziții de materiale care nu există pe stoc utilizând o factură de vânzător neachitată
 description: Acest subiect explică modul de înregistrare a facturilor neachitate de la furnizor.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547304"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993823"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Achiziții de materiale care nu există pe stoc utilizând o factură de vânzător neachitată
 
@@ -20,7 +20,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Deoarece o companie cumpără materiale care nu sunt stocate pentru un proiect, costurile pot fi înregistrate imediat în raport cu proiectul. 
 
-De exemplu, Contoso Robotics SUA realizează un proiect de reînnoire a echipamentelor și are nevoie de licențe software. Aceste licențe sunt achiziționate de la un furnizor terță parte.  Folosind Dynamics 365 Finance, funcționarul de conturi furnizori înregistrează un document de factură neachitată a furnizorului și atribuie costurile licenței direct proiectului de reînnoire a echipamentului. 
+De exemplu, Contoso Robotics SUA realizează un proiect de reînnoire a echipamentelor și are nevoie de licențe de software. Aceste licențe sunt achiziționate de la un furnizor terță parte.  Folosind Dynamics 365 Finance, funcționarul de conturi furnizori înregistrează un document de factură neachitată a furnizorului și atribuie costurile licenței direct proiectului de reînnoire a echipamentului. 
 
 > [!IMPORTANT]
 > Înainte de a utiliza funcționalitatea descrisă în acest subiect, revizuiți și aplicați configurațiile necesare. Pentru mai multe informații, consultați [Activarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate](configure-materials-nonstocked.md). 
@@ -45,5 +45,4 @@ Facturile neachitate de la vânzător pot fi înregistrate pe pagina **Facturi d
     - Valoarea soldului furnizorului.
     - Valoare impozit pe vânzări.
     - Costul aferent proiectului este înregistrat în contul de integrare a achizițiilor.
-    - Tranzacția costului real al proiectului în Dataverse.  Această tranzacție este procesată în continuare folosind [Jurnalul de integrare Project Operations](../project-accounting/project-operations-integration-journal.md). Postarea acestui jurnal mută suma din contul de integrare a achizițiilor în contul de cost de proiect. 
-    - Achizițiile care sunt facturate către clientul proiectului utilizând metoda de facturare a timpului și a materialelor. În plus, sunt create tranzacții de vânzare necotificate pentru achizițiile din Dataverse. Lista de prețuri a produsului în Dataverse este utilizat pentru prețurile și sumele de vânzare pentru tranzacțiile de vânzare nefacturate.
+    - Tranzacția efectivă a proiectului în Dataverse. Această tranzacție este procesată în continuare folosind [Jurnalul de integrare Project Operations](../project-accounting/project-operations-integration-journal.md). Postarea acestui jurnal mută suma din contul de integrare a achizițiilor în contul de cost de proiect.

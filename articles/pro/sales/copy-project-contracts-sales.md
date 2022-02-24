@@ -2,16 +2,18 @@
 title: Copierea contractelor de proiect - simplificat
 description: Acest subiect furnizează informații despre copierea contractelor de proiect în Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006036"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181422"
 ---
 # <a name="copy-project-contracts---lite"></a>Copierea contractelor de proiect - simplificat
 
@@ -43,6 +45,3 @@ Următoarele informații nu sunt copiate de la **Sursa** la **Contractul țintă
   - Informații despre bugetul clienților
 
 Deoarece aceste informații sunt specifice fiecărui contract, aceste câmpuri și înregistrări nu sunt copiate. Se copiază liniile de contract pentru proiecte și produse, estimările privind detaliile liniei de contract și valorile care nu trebuie depășite la nivelul contractului. Prețul și costul implicit depind de selecția din câmpul **Preț copiere** de pe pagina de dialog **Copiați parametrii**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

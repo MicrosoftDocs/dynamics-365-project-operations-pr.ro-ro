@@ -2,16 +2,18 @@
 title: Gestionarea mai multor clienți în contractele de proiect
 description: Acest subiect oferă informații despre cum să gestionați mai mulți clienți pe un contract de proiect.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992086"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643188"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gestionarea mai multor clienți în contractele de proiect
 
@@ -45,6 +47,3 @@ Puteți crea, actualiza sau șterge un client de contract din fila **Clienți de
 Puteți edita procentele de facturare împărțite editând în grilă. Atunci când procentajele de împărțire a facturării nu totalizează 100%, apare o eroare. După ce editați un procent de facturare împărțit, reîmprospătați pagina **Contract de proiect** pentru a elimina eroarea.
 
 Puteți selecta și **Distribuire uniformă** pe subgrila clienților de contract de proiect. Împărțirile de facturare sunt alocate uniform tuturor clienților de pe contractul de proiect. Dacă există vreun factor de rotunjire, factorul va fi adăugat clientului de rotunjire. Unul dintre clienții contractului are întotdeauna marcajul **Rotunjire** setat la **Da**. Clientul respectiv este clientul de rotunjire. De obicei, clientul de rotunjire este, de asemenea, clientul principal al contractului, dar acest lucru nu este necesar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

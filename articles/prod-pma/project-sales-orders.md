@@ -2,9 +2,11 @@
 title: Comenzi de vânzare pentru proiecte de timp și materiale
 description: Acest subiect explică cum să creați comenzi de vânzare bazate pe proiecte pentru proiecte de timp și materiale.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082781"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Comenzi de vânzare pentru proiecte de timp și materiale
 
@@ -39,6 +41,3 @@ Puteți crea comenzi de vânzare bazate pe proiecte în două moduri:
 - Accesați proiectul în sine. În panoul de acțiuni, selectați **Gestionați > Sarcini articol > Comandă de vânzare**. Informațiile despre proiect vor fi implicite pentru comanda de vânzare din proiect. Dacă contractul de proiect are mai multe surse de finanțare, va trebui să selectați sursa de finanțare pentru a seta clientul pentru comanda de vânzare. Dacă există o singură sursă de finanțare pentru proiect, clientul va fi setat automat.
 - Accesați pagina de listă **Comanda toate vânzările** și creați o nouă comandă de vânzări. Va trebui să selectați proiectul pentru comanda de vânzare. După selectarea proiectului, clientul va fi setat din sursa de finanțare sau va trebui să selectați sursa de finanțare dacă contractul de proiect are mai multe surse de finanțare.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Comenzi de achiziție pentru un proiect
 description: Acest articol descrie diferitele metode pe care le puteți utiliza pentru a crea comenzi de achiziție pentru un proiect. Metoda pe care o utilizați depinde de scopul comenzii de cumpărare, și de când sunt consumate și taxate într-un proiect articolele achiziționate.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009006"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082784"
 ---
 # <a name="purchase-orders-for-a-project"></a>Comenzi de achiziție pentru un proiect
 
@@ -74,6 +76,3 @@ Puteți utiliza una dintre următoarele metode pentru a crea o comandă de achiz
 
 Pentru mai multe informații, consultați [Primiți articole din comanda de achiziție din cerința articolului](tasks/receive-items-purchase-order-item-requirement.md).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

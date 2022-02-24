@@ -2,16 +2,18 @@
 title: Configurarea tarifelor de cost și de vânzare pentru materiale
 description: Acest subiect oferă informații despre cum să setați costurile și ratele de vânzare pentru materialele utilizate în proiecte.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 05abefcec5c64632d00e2317107fe7a84ded4908
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999196"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877802"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Configurarea tarifelor de cost și de vânzare pentru materiale
 
@@ -25,6 +27,6 @@ Pentru a configura costurile și ratele de vânzare pentru produse, parcurgeți 
 2. Pe **Articole din lista de prețuri**, din meniul subgrilă, selectați **Articol nou din lista de prețuri**. 
 3. Pe pagina **Creare rapidă**, introduceți produsul și unitatea pentru care creați noul preț.
 
-Pentru mai multe informații despre cum să definiți prețurile pentru articolele din catalog, consultați [Configurarea prețurilor pentru produse](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) și [Precizie zecimală în valută și prețuri](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Pentru mai multe informații despre cum să definiți prețurile pentru articolele din catalog, consultați [Configurarea prețurilor pentru produse](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) și [Precizie zecimală în valută și prețuri](https://docs.microsoft.com/dynamics365/sales-enterprise/decimal-precision-currency-pricing).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

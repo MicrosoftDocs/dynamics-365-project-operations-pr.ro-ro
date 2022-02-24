@@ -2,6 +2,8 @@
 title: Folosiți tabloul de planificare pentru a rezerva o resursă de proiect
 description: Acest subiect oferă informații despre modul de rezervare a resurselor.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998251"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144428"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Folosiți tabloul de planificare pentru a rezerva o resursă de proiect
 
@@ -34,23 +36,20 @@ Pe lângă rezervarea resurselor într-un proiect din cadrul unui proiect, aveț
 1. Dacă panoul **Cerințe de rezervare** din partea de jos a paginii este restrâns, selectați controlul Extindere pentru a-l extinde.
 2. În panoul **Cerințe de rezervare**, în fila **Proiect**, selectați cerința de rezervare.
 
-    ![Cerință selectată în fila Proiect.](media/Resource-Management-image73.png)
+    ![Cerință selectată în fila Project](media/Resource-Management-image73.png)
 
 3. Selectați **Găsire disponibilitate** pentru a filtra resursele care se pot rezerva și pentru a vizualiza resursele disponibile. 
 4. Selectați una sau mai multe resurse din Tabloul de planificare. 
 5. În panoul **Creare rezervare resurse** din partea dreaptă a paginii, introduceți informațiile de rezervare, apoi selectați **Rezervare și ieșire.**
 
-    ![Creare panou rezervare resurse pentru resursa care se poate rezerva selectată.](media/Resource-Management-image74.png)
+    ![Creare panou rezervare resurse pentru resursa care se poate rezerva selectată](media/Resource-Management-image74.png)
 
 6. În timp ce cerința este selectată în panoul **Creare rezervare resursă**, selectați una sau mai multe celule ale unei resurse pentru a crea rezervarea.
 
-    ![Mai multe celule selectate pentru o resursă.](media/Resource-Management-image75.png)
+    ![Mai multe celule selectate pentru o resursă](media/Resource-Management-image75.png)
 
 7. Selectați **Rezervare**.
 
 Cerința este îndeplinită utilizând resursa selectată. În panoul **Cerințe de rezervare**, observați că cerința a fost actualizată și că resursa este afișată ca rezervată pe proiect.
 
-![Resursă rezervată pe proiect.](media/Resource-Management-image76.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Resursă rezervată pe proiect](media/Resource-Management-image76.png)

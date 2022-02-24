@@ -2,6 +2,8 @@
 title: Planificați resurse pentru un proiect
 description: Cum se planifică resurse pentru un proiect în Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998161"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150458"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planificați resurse pentru un proiect (Project Service)
 
@@ -33,7 +35,7 @@ Puteți verifica disponibilitatea resurselor pentru a obține o imagine de ansam
   
 Tabloul de planificare arată lista de resurse și disponibilitatea acestora. Selectați un mod de vizualizare pentru a arăta disponibilitatea după **Ore**, **Zile**, **Săptămâni** sau **Luni**.  
   
-Înainte de a utiliza panoul de planificare, este important să-l configurați. Pentru informații suplimentare, consultați [Configurați tabloul de planificare (Field Service sau Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Înainte de a utiliza panoul de planificare, este important să-l configurați. Pentru informații suplimentare, consultați [Configurați tabloul de planificare (Field Service sau Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Dacă utilizați o versiune mai veche, pentru a vedea disponibilitatea resurselor, consultați [Vedeți disponibilitatea resurselor](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Dacă utilizați o versiune mai veche, pentru a vedea disponibilitatea resurselo
   
 ### <a name="additional-resources"></a>Resurse suplimentare  
  [Ghidul managerului de resurse](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

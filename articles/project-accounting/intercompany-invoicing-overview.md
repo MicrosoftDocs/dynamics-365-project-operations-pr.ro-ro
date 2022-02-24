@@ -2,17 +2,18 @@
 title: Prezentare generală a facturării între companii
 description: Acest subiect oferă informații și exemple despre facturarea între companii pentru proiecte.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005406"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595535"
 ---
 # <a name="intercompany-invoicing-overview"></a>Prezentare generală a facturării între companii
 
@@ -20,9 +21,9 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Organizația dvs. ar putea avea mai multe divizii, filiale și alte entități juridice care își transferă produse și servicii reciproc pentru proiecte. Entitatea juridică care furnizează serviciul sau produsul se numește *entitate juridică de creditare*. Entitatea juridică care primește serviciul sau produsul se numește *entitate juridică de împrumut*.
 
-Următoarea ilustrație prezintă un scenariu tipic în care două persoane juridice, Contoso Robotics SUA (entitatea juridică care împrumută) și Contoso Robotics UK (entitatea juridică care împrumută) împarte resurse pentru a livra un proiect pentru client, Adventure works. Pentru acest scenariu, Contoso Robotics SUA este contractat pentru livrarea lucrărilor către Adventure Works.
+Următoarea ilustrație prezintă un scenariu tipic în care două entități juridice, Contoso Robotics USA (entitatea juridică care împrumută) și Contoso Robotics UK (entitatea juridică care împrumută) împart resurse pentru a livra un proiect pentru client, Adventure works. Pentru acest scenariu, Contoso Robotics SUA este contractat pentru livrarea lucrărilor către Adventure Works.
 
-![Facturare între companii.](./media/IntercompanyScenario.png) 
+![Facturare între companii](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations utilizează următorul flux pentru a procesa tranzacții între companii:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations utilizează următorul flux pentru a procesa tra
 
 Următoarea diagramă ilustrează facturarea între companii, în ceea ce privește evenimentele contabile și înregistrările preconizate în registrul general.
 
-![Flux între companii.](./media/IntercompanyFlow.png)
+![Flux între companii](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Resurse suplimentare
 
 - [Configurarea facturării între companii](configure-intercompany-invoicing.md)
 - [Înregistrarea tranzacțiilor între companii](create-intercompany-transactions.md)
 - [Crearea de facturi de client și furnizor între companii](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

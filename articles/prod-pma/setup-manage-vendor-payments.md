@@ -2,9 +2,11 @@
 title: Configurarea și utilizarea plăților de la furnizor cu plată la plată
 description: Acest subiect explică cum să creați termeni de plată atunci când plătiți (PWP), astfel încât să puteți elibera plăți parțiale de la furnizor, pe baza plăților clienților.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082775"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configurarea și utilizarea plăților de la furnizor cu plată la plată
 
@@ -78,6 +80,3 @@ Atunci când un furnizor își finalizează lucrările la un proiect și vă tri
 2. Pe pagina **Facturile furnizorului cu plată la plată**, în câmpul de căutare, introduceți valori pentru a găsi factura furnizorului pe care doriți să o examinați, apoi selectați **Căutare**.
 3. Pe FastTab **Linii de facturare a furnizorului**, selectați liniile pe care doriți să le modificați.
 4. Dacă condițiile **Plătește când este plătit** sunt îndeplinite pentru linia de facturare, selectați **Eliberați plata furnizorului**. Opțiunea **Plătește când este plătit** este ștearsă, iar valoarea câmpului **Gata pentru plată** este schimbată în **Da**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

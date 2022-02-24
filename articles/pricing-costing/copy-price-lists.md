@@ -2,16 +2,18 @@
 title: Copierea listelor de prețuri
 description: Acest subiect furnizează informații despre cum să copiați listele de prețuri în Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003741"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181512"
 ---
 # <a name="copy-price-lists"></a>Copierea listelor de prețuri
 
@@ -41,6 +43,3 @@ Pentru a face o copie a listei de prețuri, parcurgeți pașii următori.
 1. Pe filele **Rol**, **Categorie** și filele **Element din lista de prețuri** unei liste de prețuri, puteți selecta **Actualizați prețurile** pentru a aplica un adaos pentru toate prețurile din subgrilă. 
 2. În pagina de dialog care se deschide, introduceți o marcare. De asemenea, puteți introduce un procent de majorare negativ pentru a reduce prețurile cu un anumit procent. 
 3. Selectați **OK** pe pagina de dialog și apoi verificați dacă prețurile din subgrilă reflectă modificările pe care le-ați făcut.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

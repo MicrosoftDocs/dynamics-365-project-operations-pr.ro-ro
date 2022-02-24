@@ -2,6 +2,8 @@
 title: Revizuiți jurnalul de așteptare de facturare pe proiecte și contracte de proiect
 description: Acest subiect oferă informații despre cum se revizuiesc jurnalele de așteptare de timp, cheltuieli și produs și cum se marchează ca fiind pregătite pentru facturare.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006981"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150503"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revizuiți jurnalul de așteptare de facturare pe proiecte și contracte de proiect
 
@@ -40,7 +42,7 @@ Vânzările reale nefacturate reprezintă jurnalul de așteptare de facturare, i
 
 Pentru a revizui jurnalele de așteptare de facturare pentru timp și materiale, accesați **Vânzări** \> **Facturare** \> **Jurnale de așteptare de facturare timp și materiale**. Selectați toate vânzările reale nefacturate care sunt pregătite pentru a fi facturate, apoi selectați **Gata de facturare**. Starea de facturare a acestor date reale este modificată la **Gata de facturare**.
 
-![Jurnal de așteptare pentru facturarea timpului și a materialelor.](media/TMBacklog.png)
+![Jurnale de așteptare de facturare timp și materiale](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Vizualizați jurnalul de așteptare pentru facturarea produselor
 
@@ -48,7 +50,7 @@ Pentru a revizui jurnalele de așteptare de facturare pentru timp și materiale,
 
 Pentru a revizui jurnalele de așteptare facturare pentru produse, accesați **Vânzări** \> **Facturare** \> **Jurnal de așteptare facturare produs**. Selectați toate liniile de contract pe bază de produs care sunt pregătite pentru a fi facturate, apoi selectați **Gata de facturare**. Starea de facturare a acestor linii este modificată la **Gata de facturare**.
 
-![Jurnal de așteptare pentru facturarea produselor.](media/ProductBacklog.png)
+![Jurnal de așteptare pentru facturarea produselor](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Revizuiți etapele de facturare pentru contractele cu preț fix
 
@@ -56,7 +58,4 @@ Fiecare linie de contract de proiect care are o metodă de facturare cu preț fi
 
 Pentru a revizui etapele de facturare, accesați **Vânzări** \> **Facturare** \> **Repere preț fix**. Selectați toate reperele care sunt pregătite pentru a fi facturate, apoi selectați **Gata de facturare**. Starea de facturare a acestor repere este modificată la **Gata de facturare**.
 
-![Repere cu preț fix.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Repere cu preț fix](media/FPBacklog.png)

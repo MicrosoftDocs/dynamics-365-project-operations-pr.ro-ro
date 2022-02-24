@@ -2,29 +2,30 @@
 title: Copierea unui proiect
 description: Acest subiect furnizează informații despre copierea proiectelor în Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+manager: AnnBe
+ms.date: 02/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007206"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479534"
 ---
 # <a name="copy-a-project"></a>Copierea unui proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Cu Dynamics 365 Project Operations, puteți construi rapid proiecte noi selectând opțiunea **Copiați proiect** de pe formularul **Proiecte**. Pentru a copia un proiect, deschideți proiectul pe care doriți să îl copiați, apoi selectați **Copiați proiectul**. Acțiunea va copia următoarele:
+Cu Dynamics 365 Project Operations, puteți construi rapid proiecte noi selectând opțiunea **Copiați proiect** de pe formularul **Proiecte**. Pentru a copia un proiect, deschideți proiectul pe care doriți să îl copiați, apoi selectați **Copiați proiectul**. Acțiunea va copia:
 
-- Proprietăți de proiect 
-- Structură detaliată a proiectului
+- Proprietățile proiectului (Data estimată de începere este copiată din proiectul sursă)
+- Structura detaliată a proiectului
 - Membrii echipei de proiect
 - Estimări de proiect
 - Estimări de cheltuieli proiect
-- Estimări material de proiect
 
 ## <a name="project-properties"></a>Proprietăți de proiect
 
@@ -41,15 +42,11 @@ Când proiectul este copiat, valorile din următoarele câmpuri sunt copiate:
 - Stare generală proiect
 - Comentarii
 - Estimări
-- Data estimată de început: Aceasta este data la care proiectul este creat din copie.
-- Data estimată de finalizare: această dată este ajustată pe baza datei de începere a noului proiect care a fost realizat din copie.
+- Dată pornire estimată
+- Data de terminare
 - Efort (ore)
 - Cost estimat cu munca
 - Cheltuieli estimate
-- Cost estimat materiale
-
-> [!NOTE]
-> Proiectul de copiere este o operațiune de lungă durată. Înregistrările proiectului, atributele relevante ale acestora și multe entități conexe sunt, de asemenea, copiate. Datorită naturii de funcționare îndelungată a operațiunii, după începerea copierii, pagina proiectului țintă este blocată pentru editare până la finalizarea operațiunii de copiere.
 
 ## <a name="work-breakdown-structure"></a>Structură detaliată a proiectului
 
@@ -61,7 +58,7 @@ Când o echipă de proiect este copiată din proiectul sursă, resursele generic
 
 ## <a name="estimates"></a>Estimări
 
-Când proiectul este copiat, resursele, cheltuielile și liniile de estimare a materialului sunt copiate din proiectul sursă. 
+Când proiectul este copiat, ambele linii de estimare a resurselor și a cheltuielilor sunt copiate din proiectul sursă. 
 
 Pentru informații despre cum să accesați programul Copiere proiect, consultați [Elaborați șabloane de proiect cu Copiere proiect](dev-copy-project.md).
 

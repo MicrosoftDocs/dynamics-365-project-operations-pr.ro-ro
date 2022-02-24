@@ -2,6 +2,8 @@
 title: Propuneți resurse de proiect
 description: Acest subiect furnizează informații despre propunerea resurselor de proiect.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995056"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147533"
 ---
 # <a name="propose-project-resources"></a>Propuneți resurse de proiect
 
@@ -38,7 +40,7 @@ Apar următoarele actualizări de stare:
 
 - În pagina **Asistent programare**, indicatorii de stare sunt actualizați pentru a indica faptul că rezervarea este propusă, nu rezervată ferm.
 
-    ![Indicatori de stare pentru rezervarea propusă pe pagina Asistent programări.](media/Resource-Management-image63.png)
+    ![Indicatori de stare pentru rezervarea propusă pe pagina Asistent programări](media/Resource-Management-image63.png)
 
 - La solicitarea de resurse, starea se modifică la **Necesită revizuire**.
 
@@ -70,7 +72,7 @@ Următoarele formule sunt utilizate pentru a calcula utilizarea:
 
 Puteți găsi vizualizarea de **Utilizare resurse** în panoul **Resurse**.
 
-![Vizualizarea utilizării unei resurse.](media/Resource-Management-image65.png)
+![Vizualizarea utilizării resurselor](media/Resource-Management-image65.png)
 
 Fiecare celulă din grilă reprezintă procentul de utilizare facturabil al resursei într-o perioadă, cum ar fi o zi, o săptămână sau o lună. Următoarele formule sunt utilizate pentru a colora celulele:
 
@@ -84,7 +86,7 @@ Grila necesită să setați o utilizare țintă fie pe rol, fie pe resursa indiv
 
 În plus, un rol implicit trebuie să fie atribuit fiecărei resurse care se poate rezerva. Accesați **Resurse** \> **Resurse**. În fila **Project Service**, verificați că este definit un rol de resursă și că câmpul **Este implicit** pentru acesta este setat la **Da**. Aveți posibilitatea să adăugați roluri suplimentare acolo unde **Este implicit = Nu**. Rolul în care **Este implicit = da** este utilizat pentru a evalua utilizarea resursei față de obiectivul pentru rolul respectiv.
 
-![Set de roluri implicite.](media/Resource-Management-image67.png)
+![Set de roluri implicite](media/Resource-Management-image67.png)
 
 În fila **Project Service**, puteți seta, de asemenea, o utilizare țintă individuală pentru resursă. Calculul utilizării folosește apoi acea utilizare țintă pentru a evalua ținta resursei în locul țintei rolului implicit al resursei.
 
@@ -96,21 +98,18 @@ Este esențial ca managerii de resurse să poată vizualiza disponibilitatea res
 
 Programul de lucru al resurselor se utilizează ca bază pentru calcularea disponibilității unei resurse. Rezervările de resurse consumă capacitatea resurselor.
 
-![Panou de planificare.](media/Resource-Management-image68.png)
+![Bord de planificare](media/Resource-Management-image68.png)
 
 Consiliul de planificare utilizează culori și umbrire pentru a afișa rezervările, disponibilitatea și rezervările excedentare și, de asemenea, starea rezervărilor. O setare din setările panoului de planificare vă permite să afișați o legendă.
 
 În cazul în care o săgeată orientată spre dreapta apare lângă o resursă individuală care se poate rezerva în tabloul de planificare, resursa poate fi extinsă pentru a afișa detalii despre activitatea pe care este rezervată resursa.
 
-![Resursă care poate fi rezervată extinsă în panoul de planificare.](media/Resource-Management-image69.png)
+![Resursă care poate fi rezervată extinsă în panoul de planificare](media/Resource-Management-image69.png)
 
 Deoarece Dynamics 365 Project Service Automation utilizează motorul Universal Resource Scheduling, dacă aveți instalat și Dynamics 365 Field Service, puteți vizualiza detaliile rezervărilor de resurse pentru proiecte, comenzi de lucru și orice alte entități la care ați extins programarea.
 
-![Detalii privind rezervările de resurse pentru proiecte și comenzi de lucru.](media/Resource-Management-image70.png)
+![Detalii privind rezervările de resurse pentru proiecte și comenzi de lucru](media/Resource-Management-image70.png)
 
 Pentru a vizualiza mai multe detalii despre o resursă individuală, faceți clic cu butonul din dreapta pe acesta pentru a deschide fișa resursei.
 
-![Cardul de resurse.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Cardul de resurse](media/Resource-Management-image71.png)
