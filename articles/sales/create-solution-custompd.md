@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 3e3f688b0147974ef252a0ee00be20c4669d7165
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514015"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278433"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Crearea unei soluții pentru dimensiunile de tarifare particularizate
 
@@ -64,3 +64,6 @@ Adăugați următoarele entități Project Service la soluția dvs. de stabilire
 5.  Când vi se solicită să includeți entități dependente pentru entitățile selectate, selectați **Nu, nu includeți componentele necesare.**
 
     ![Inclusiv entități dependente](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

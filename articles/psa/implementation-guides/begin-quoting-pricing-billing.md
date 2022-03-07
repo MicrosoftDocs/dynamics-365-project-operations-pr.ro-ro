@@ -2,8 +2,6 @@
 title: Ghid de bază pentru ofertare, tarifare și facturare
 description: Acest subiect oferă linkuri la informații despre ofertarea, tarifarea și facturarea de bază în Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149153"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985606"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Ghid de bază pentru ofertare, tarifare și facturare
 
@@ -52,3 +50,6 @@ Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutu
 
 > [!NOTE]
 > Acest subiect va fi eliminat într-o actualizare de documentație viitoare. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

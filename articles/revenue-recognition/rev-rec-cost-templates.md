@@ -2,18 +2,16 @@
 title: Configurarea șabloanelor de cost
 description: Acest subiect oferă informații despre cum să creați și să utilizați șabloanele de cost în Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: f4a515db31a31028af4a60927ab360be6c261a3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642738"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013906"
 ---
 # <a name="set-up-cost-templates"></a>Configurarea șabloanelor de cost
 
@@ -79,3 +77,6 @@ Pentru a crea șabloane de cost, urmați acești pași:
 7. Pe fila **Categorii**, selectați categoriile de proiecte care vor fi incluse pe linia șablonului de cost.
 8. Pe fila **General**, selectați dacă această linie va fi inclusă în procentul de calcul de finalizare.
 9. Selectați metoda costului de finalizat care va fi utilizată la calcularea procentului de finalizare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

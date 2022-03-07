@@ -2,8 +2,6 @@
 title: Unități și grupuri de unități
 description: Acest subiect oferă informații despre unități și grupuri de unități.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145598"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009586"
 ---
 # <a name="unit-groups-and-units"></a>Unități și grupuri de unități
 
@@ -88,7 +86,7 @@ Următorul exemplu arată modul în care PSA utilizează grupul de unități, un
 
 | Rol      | Grup de unități | Unitate | Unitate organizațională | Preț   |
 |-----------|------------|------|---------------------|---------|
-| Dezvoltator | Time       | Day  | Contoso Regatul Unit          | 800 GBP |
+| Dezvoltator | Timp       | Ziua  | Contoso Regatul Unit          | 800 GBP |
 
 ### <a name="time-entry"></a>Intrare de timp
 
@@ -112,3 +110,6 @@ Nu. Estimarea planificării este momentan limitată la ore și nu poate fi schim
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Pot fi editate, șterse și adăugate unitățile și grupurile de unități?
 Da. Cu excepția grupului de unități **Timp** și a unității **Oră**, toate unitățile pot fi șterse sau editate, iar unitățile noi pot fi adăugate. În PSA, grupul de unități **Timp** și unitatea **Oră** nu pot fi șterse. Cu toate acestea, ele pot fi actualizate cu un text tradus pentru câmpul **Nume**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

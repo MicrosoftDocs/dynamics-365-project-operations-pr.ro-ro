@@ -2,18 +2,16 @@
 title: Navigați Project Operations
 description: Acest subiect oferă informații despre cum să accesați Project Operations din Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994606"
 ---
 # <a name="navigate-project-operations"></a>Navigați Project Operations
 
@@ -30,11 +28,14 @@ După ce furnizați Project Operations așa cum este descris în acest subiect, 
 
 Utilizați numele mediului în secțiune, **Common Data Service Numele mediului** pentru a naviga la Project Operations pe un mediu CDS. 
 
-  ![Numele mediului Common Data Service](./media/environment-name.PNG)
+  ![Nume mediu Common Data Service.](./media/environment-name.PNG)
 
 Selectați **Conectare** > **Conectați-vă la mediu** pentru a naviga la modulul **Management de proiect și contabilitate** în Finanțe.  
 
-   ![Conectați-vă la Finanțe](./media/environment-login.PNG)
+   ![Conectați-vă la Finanțe.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Puteți accesa Project Operations în Common Data Service și modulul **Management de proiect și contabilitate** direct utilizând adresele URL respective. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

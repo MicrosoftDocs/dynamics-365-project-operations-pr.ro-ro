@@ -2,11 +2,9 @@
 title: Eliminarea unei estimări de proiect
 description: Acest subiect oferă informații despre eliminarea unei estimări de proiect după finalizarea acestuia.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: a7c9f5a03e3b5e9ad43e23c6174a820088025dc8419ae4f80d247d69e80c8038
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270693"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994111"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminarea unei estimări de proiect
 

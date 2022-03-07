@@ -2,18 +2,16 @@
 title: Gestionarea mai multor clienți în linii de contract bazate pe proiect
 description: Acest subiect oferă informații despre lucrul cu liniile contractuale și contractele care conțin mai mulți clienți.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992131"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Gestionarea mai multor clienți în linii de contract bazate pe proiect
 
@@ -44,3 +42,6 @@ Mai jos sunt câmpurile de pe înregistrarea de client a liniei Contract a unei 
 Procentele de facturare împărțite pot fi editate în grilă. Atunci când procentajele de împărțire a facturării nu totalizează 100%, va apărea o eroare. După ce editați procentele de facturare împărțite, reîmprospătați pagina pentru a elimina eroarea.
 
 Puteți încerca și să selectați **Distribuire uniformă** pe subgrila liniei de contract a clientului. Această acțiune alocă în mod uniform împărțiri de facturare tuturor clienților din linia contractuală. Dacă există vreun factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Un client de linie contractuală este întotdeauna etichetat drept client de **Rotunjire** cu semnalizator **Rotunjire** setat la **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

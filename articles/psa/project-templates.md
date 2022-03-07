@@ -2,8 +2,6 @@
 title: Șabloane de proiect
 description: Acest subiect furnizează informații despre modul de utilizare a șabloanelor de proiect pentru configurarea rapidă a proiectului.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148073"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002526"
 ---
 # <a name="project-templates"></a>Șabloane de proiect 
 
@@ -49,7 +47,7 @@ Există mai multe modalități de a crea un proiect dintr-un șablon de proiect:
 
 - Când creați un proiect dintr-o ofertă, puteți selecta un șablon de proiect în caseta de dialog **Creare rapidă: proiect**.
 
-> ![Creare rapidă: casetă de dialog proiect](media/project-11.png)
+> ![Creare rapidă: casetă de dialog proiect.](media/project-11.png)
 
 - Când creați un proiect selectând **Proiect nou**, pagina **Proiect** apare înainte ca înregistrarea să fie salvată. În câmpul **Alegeți un șablon**, selectați unul dintre șabloanele de proiect predefinite din organizație.
 - Utilizați **Creare proiect dintr-un șablon** de pe pagina **Entitate șablon**.
@@ -69,3 +67,6 @@ Când copiați pe linii de estimare proiect, listele de prețuri sunt actualizat
 ### <a name="copying-a-project-team"></a>Copierea unei echipe de proiect
 
 Când o echipă de proiect este copiată dintr-un șablon într-un proiect, resursele generice sunt copiate, împreună cu abilitățile și nivelurile de competență definite în șablon. Atribuirile de resurse generice sunt păstrate cum erau în șablonul de proiect. Resursele denumite nu sunt acceptate în șabloanele de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,10 @@
 title: Configurarea câmpurilor particularizate ca dimensiuni de preț
 description: Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150368"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002346"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț 
 
@@ -43,11 +41,11 @@ Pentru ca un câmp să devină o dimensiune de preț, trebuie să fie:
 - Creat ca un câmp în entitățile **Preț rol** și **Adaos preț rol**. Pentru mai multe informații despre cum se face acest lucru, consultați [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale](field-references.md).
 - Creat ca rând în tabelul **Dimensiune preț**. De exemplu, adăugați rânduri de dimensiuni de preț așa cum se arată în graficul următor. 
 
-![Rânduri de dimensiuni de preț bazate pe sume](media/Amt-based-PD.png)
+![Rânduri de dimensiuni de preț bazate pe sume.](media/Amt-based-PD.png)
 
 Observați că programul de lucru resurse (**msdyn_resourceworkhours**) a fost adăugat ca o dimensiune bazată pe adaos și a fost adăugat la grilă pe fila **Dimensiune de preț bazată pe adaos** .
 
-![Rânduri de dimensiuni de preț bazate pe adaos](media/Markup-based-PD.png)
+![Rânduri de dimensiuni de preț bazate pe adaos.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Orice modificare a datelor de dimensiune de preț în acest tabel, existente sau noi, este propagată în logica de business de tarifare Project Service numai după reîmprospătarea cache. Timpul de reîmprospătare a memoriei cache poate dura până la 10 minute. Permiteți acea perioadă de timp pentru a vedea modificările din logica de nerambursare a prețului care trebuie să rezulte din modificările datelor dimensiunii prețurilor.
@@ -75,7 +73,7 @@ Există două tipuri de dimensiuni de preț:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Local            |                    |Ore suplimentare                 |15     |
 |             | Contoso India|Local             |                    |Ore suplimentare                 |10     |
-|             | Contoso US   |Local             |                    |Ore suplimentare                 |20     |
+|             | Contoso SUA   |Local             |                    |Ore suplimentare                 |20     |
 
 
 Dacă o resursă de la Contoso India a cărei rată de bază este 100 USD lucrează la fața locului, și înregistrează 8 ore de timp regulat și 2 ore suplimentare pe înregistrarea de timp, motorul de tarifare Project Service va folosi rata de bază de 100 pentru 8 ore pentru a înregistra 800 USD. Pentru cele 2 ore suplimentare, se va aplica un adaos de 15% la rata de bază de 100 pentru a obține un preț unitar de 115 USD și va înregistra un cost total de 230 USD.
@@ -94,3 +92,6 @@ Setarea priorității de dimensiune ajută tarifarea Project Service să produc�
 
 - **Prioritate cost**: Valoarea priorității costului unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de cost. Valoarea de **Prioritate cost** trebuie să fie unică între dimensiunile care sunt **Aplicabile costului**.
 - **Prioritate vânzări**: Valoarea priorității vânzărilor unei dimensiuni va indica ponderea acelei dimensiuni atunci când se potrivește cu parametrizarea prețurilor de vânzare sau a ratelor de facturare. Valoarea de **Prioritate vânzări** trebuie să fie unică între dimensiunile care sunt **Aplicabile vânzărilor**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,25 @@
 ---
-title: Gestionarea unei facturi proforma - simplificată
-description: Acest subiect oferă informații despre lucrul cu facturi proforme.
+title: Gestionarea unei facturi proforma pentru proiect
+description: Acest subiect oferă informații despre lucrul cu facturile de proiect proforma în Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181557"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866921"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Gestionarea unei facturi proforma - simplificată
+# <a name="manage-a-proforma-project-invoice"></a>Gestionarea unei facturi proforma pentru proiect 
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-În Operațiunile de proiect Dynamics 365, facturile proforma sunt construite ca o extensie a facturilor în Dynamics 365 Sales. Cu toate acestea, există multe diferențe în procesul de facturare între vânzări și Sales Operations atunci când vine vorba de facturare. De exemplu, nu este posibil să creați o nouă factură din **Lista facturilor** în Project Operations, dar este posibil să faceți acest lucru în Vânzări. Aceste diferențe și extensii sunt în vigoare pentru a sprijini procesele de facturare pentru proiecte care sunt diferite de o factură tipică pentru o comandă de vânzare.
+În Dynamics 365 Project Operations, facturile proforma sunt construite ca o extensie a facturilor din Dynamics 365 Sales. Cu toate acestea, există multe diferențe în procesul de facturare între vânzări și Sales Operations atunci când vine vorba de facturare. De exemplu, nu este posibil să creați o nouă factură din **Lista facturilor** în Project Operations, dar este posibil să faceți acest lucru în Vânzări. Aceste diferențe și extensii sunt în vigoare pentru a sprijini procesele de facturare pentru proiecte care sunt diferite de o factură tipică pentru o comandă de vânzare.
 
 > [!IMPORTANT]
 > Din cauza diferențelor, nu utilizați facturi în Vânzări și Project Operations în mod interschimbabil.
@@ -69,9 +69,9 @@ Următoarele informații sunt disponibile pe un antet de factură proforma în P
 
 Fiecare linie de factură dintr-o factură de proiect include detalii despre linia de facturare. Aceste detalii despre linie sunt legate de cifrele reale de vânzare și de etapele de referință care se referă la linia de contract la care face referire linia de facturare. Toate aceste tranzacții sunt marcate **Gata de facturare**.
 
-Pentru linia **Timp și factură de material**, detaliile liniei facturii sunt grupate în **Facturabil**, **Nefacturabil** și **Gratuit** pe pagina **Linie de factură**. Detaliile de **Linie facturabilă de factură** se adaugă la totalul liniei de facturare. **Gratuitate** și **Costuri netarifabile reale** nu se adaugă la totalul liniei de facturare.
+Pentru o linie **Factură timp și material**, detaliile liniei de factură sunt grupate în **Taxabil**, **Netaxabil** și **Gratuit** pe pagina **Linie de factură**. Detaliile de **Linie facturabilă de factură** se adaugă la totalul liniei de facturare. **Gratuit** și **Valori reale netaxabile** nu se adaugă la totalul liniei de facturare.
 
-Pentru linia **Factură cu preț fix**, detaliile liniei facturii sunt create din repere marcate ca **Gata de facturare** pe linia contractuală corelată. După ce detaliile liniei de facturare sunt create dintr-o etapă de referință, starea de facturare a etapei de actualizare se actualizează la **Factura clientului a fost creată**.
+Pentru o linie **Factură cu preț fix**, detaliile liniei de factură sunt create din repere marcate ca **Gata de facturare** pe linia contractuală aferentă. După ce detaliile liniei de facturare sunt create dintr-o etapă de referință, starea de facturare a etapei de actualizare se actualizează la **Factura clientului a fost creată**.
 
 ### <a name="edit-invoice-line-details"></a>Editați detaliile liniei de factură
 
@@ -98,8 +98,12 @@ Următoarele câmpuri sunt disponibile pe un deetaliu al liniei de facturare, ca
 | **Impozit** | Setați implicit din sursa reală. Câmpul poate fi editat de utilizator | Câmpul poate fi editat de utilizator atunci când creează un nou detaliu de linie de factură fără o copie de siguranță reală. |
 | **Valoare extinsă** | Un câmp calculat, calculat ca **Sumă + Impozit**. Un câmp numai pentru citire care este blocat de la editare. | &nbsp; |
 | **Tip de facturare** | Setați implicit din sursa reală. Câmpul poate fi editat de utilizator. | Selectarea **Taxabil** adaugă linia la totalul liniei de facturare. **Gratuit** și **Neimpozabil** îl va exclude din totalul liniei de facturare. |
+| **Selectare produs** | Setat implicit din sursa reală, acesta este un câmp numai pentru citire. | Când creați un nou detaliu de linie de facturare fără un suport real, acest câmp poate fi editat. |
+| **Produs** | Setat implicit din sursa reală, acesta este un câmp numai pentru citire. | Când creați un nou detaliu de linie de facturare fără un suport real, acest câmp poate fi editat dacă câmpul **Selectare Produs** este setat la **Produs existent**. |
+| **Nume produs** | Setat implicit din sursa reală, acesta este un câmp numai pentru citire. | Pe un nou detaliu al liniei de facturare, unde ID-ul produsului este selectat din catalog, acest câmp este setat la numele produsului. Pentru o scriere în produs, câmpul este setat la scriere în nume. |
+| **Descriere din afara catalogului** | Setat implicit din sursa reală, acest câmp numai pentru citire. | Când creați un nou detaliu de linie de factură fără un suport real, puteți adăuga o descriere a produsului din afara catalogului. |
 | **Tip de tranzacție** | Setați implicit din sursa reală. Un câmp numai pentru citire care este blocat de la editare. | Setați implicit la **Vânzări facturate** și blocat la crearea unui nou **Detaliu linie factură** fără un suport real.  |
-| **Clasă de tranzacții** | Setați implicit din sursa reală. Un câmp numai pentru citire care este blocat de la editare. | Setați implicit în funcție de faptul dacă utilizatorul alege să creeze un detaliu de linie de facturare **Timp**, **Cheltuieli**, sau **Taxă** creând în același timp un nou **Detaliu linie factură** fără un suport propriu-zis. Blocat pentru editare. |
+| **Clasă de tranzacții** | Setați implicit din sursa reală. Un câmp numai pentru citire care este blocat de la editare. | Setat implicit în funcție dacă utilizatorul alege să creeze un detaliu de linie de factură **Timp**, **Cheltuieli**, **Materiale** sau **Taxă**, creând în același timp un nou **Detaliu linie factură** fără un suport real. Blocat pentru editare. |
 
 Următoarele câmpuri sunt disponibile pe un detaliu al liniei de facturare, care sunt susținute de o etapă:
 
@@ -144,3 +148,6 @@ Dacă aveți informații care au venit după crearea facturii, puteți include a
 În Project Operations, puteți crea linii de facturare pentru produsele care nu se aplică niciunui proiect sau pentru toate proiectele, împreună cu linii de facturare bazate pe proiect. Aceste linii de facturare sunt create ca linii de contract pe bază de produs și după ce sunt marcate ca fiind gata de facturare, sunt adăugate ca linii de facturare pe bază de produs.
 
 După ce ați adăugat linii de facturare bazate pe produse, acestea nu pot fi modificate. Cu toate acestea, acestea pot fi șterse din schița de factură proforma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

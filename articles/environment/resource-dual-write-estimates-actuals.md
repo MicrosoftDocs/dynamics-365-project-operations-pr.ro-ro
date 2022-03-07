@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006306"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000046"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Estimări de proiect și integrarea reală
 
@@ -30,7 +30,7 @@ Crearea estimărilor necesită o configurație contabilă validă de proiect. Pr
 
 Estimările de forță de muncă sunt create de managerul de proiect sau de managerul de resurse care atribuie, de asemenea, o resursă generică sau denumită sarcinii proiectului. Înregistrările de alocare a resurselor pot fi revizuite pe fila **Atribuiri de resurse** de pe pagina **detaliile proiectului** în Dataverse. Înregistrările de alocare a resurselor în Dataverse creează înregistrări de estimări orare în aplicații Finance and Operations folosind **Entitate de integrare Project Operations pentru estimări orare (msdyn\_resourceassignments)**.
 
-   ![Integrarea estimărilor de manoperă.](./Media/DW4LaborEstimates.png)
+   ![Munca estimează integrarea](./Media/DW4LaborEstimates.png)
 
 Scrierea duală sincronizează înregistrările de alocare a resurselor la tabelul de etapizare (**ProjCDSEstimateHoursImport**) și apoi folosește logica de business pentru a crea și actualiza înregistrările de estimări orare (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Contabilul de proiect analizează înregistrările estimărilor orare create în
 
 Estimările cheltuielilor sunt create de managerul de proiect pe fila **Estimări de cheltuieli** de pe pagina **Detalii proiect** în Dataverse. Înregistrările de estimare a cheltuielilor sunt stocate în entitatea **Linie estimată** în Dataverse. Aceste înregistrări estimative au clasa de tranzacție **Cheltuieli** și sunt sincronizate cu înregistrările de estimare a cheltuielilor în aplicații Finance and Operations utilizând **Entitate de integrare Project Operations pentru estimări de cheltuieli (msdyn\_estimatelines)**.
 
-   ![Integrarea estimărilor cheltuielilor.](./Media/DW4ExpenseEstimates.png)
+   ![Integrarea estimărilor cheltuielilor](./Media/DW4ExpenseEstimates.png)
 
 Scrierea duală sincronizează înregistrările de estimări ale cheltuielilor la tabelul de etapizare, **ProjCDSEstimateExpenseImport** și apoi folosește logica de business pentru a crea și actualiza înregistrările de estimări de cheltuieli (**ProjForecastCost**). Liniile estimate estimează vânzările și înregistrările de estimări ale costurilor separat. Logica de afaceri în aplicații Finance and Operations completează o singură înregistrare de estimare a cheltuielilor utilizând acest detaliu în tabelul de etapizare.
 
@@ -50,7 +50,7 @@ Contabilul de proiect poate analiza înregistrările de cheltuieli orare create 
 
 Estimările materiale sunt create de managerul de proiect pe fila **Estimări de materiale** de pe pagina **Detalii proiect** în Dataverse. Înregistrările de estimare a materialelor sunt stocate în entitatea **Linie estimată** în Dataverse. Aceste înregistrări estimative au clasa de tranzacție **Material** și sunt sincronizate cu înregistrările de estimare a elementelor în aplicații Finance and Operations utilizând **Tabelul de integrare de proiect pentru estimări de materiale (msdyn\_estimatelines)**.
 
-   ![Integrarea estimărilor de material.](./Media/DW4MaterialEstimates.png)
+   ![Integrarea estimărilor de material](./Media/DW4MaterialEstimates.png)
 
 Scrierea duală sincronizează înregistrările de estimări de materiale la tabelul de etapizare **ProjForecastSalesImpor**, și apoi folosește logica de business pentru a crea și actualiza înregistrările de estimări de elemente (**ForecastSales**). Liniile estimate estimează vânzările și înregistrările de estimări ale costurilor separat. Logica de afaceri în aplicații Finance and Operations completează o singură înregistrare de estimare de elemente utilizând acest detaliu în tabelul de etapizare.
 
@@ -60,7 +60,7 @@ Contabilul de proiect poate analiza înregistrările de elemente orare create î
 
 Datele reale de proiect sunt create în Dataverse, pe baza timpului, cheltuielilor, materialului și activității de facturare. Toate atributele operaționale ale acestor tranzacții, inclusiv cantitatea, prețul de cost, prețul de vânzare și proiectul sunt capturate în această entitate Dataverse. Pentru mai multe informații, [Date reale](../actuals/actuals-overview.md). Înregistrările reale sunt sincronizate cu aplicații Finance and Operations folosind harta de tabel cu scriere duală **Integrare valori reale Project Operations (msdyn\_actuals)** pentru contabilitatea din aval.
 
-   ![Integrarea valorilor reale.](./Media/DW4Actuals.png)
+   ![Integrarea de valori reale](./Media/DW4Actuals.png)
 
 Harta de tabel **Integrare valori reale Project Operations** sincronizează toate înregistrările din entitatea **Date reale** în Dataverse, cu atributul **Omitere sincronizare (numai pentru un intern)** setat la **Fals**. Această valoare a atributului este setată automat în Dataverse la crearea înregistrării. Exemple în care acest atribut este setat la **True** sunt:
 

@@ -2,6 +2,8 @@
 title: Crearea unei rezervări de proiect din Panoul de planificare
 description: Acest subiect oferă informații despre modul de a crea o rezervare de proiect de la tabloul de planificare.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992981"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146543"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crearea unei rezervări de proiect din Panoul de planificare
 
@@ -89,6 +91,3 @@ Parcurgeți pașii următori pentru a rezerva dintr-o nouă cerință de resurse
 
 4. Acum, că resursa este rezervată, trebuie să atribuiți activități manual.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

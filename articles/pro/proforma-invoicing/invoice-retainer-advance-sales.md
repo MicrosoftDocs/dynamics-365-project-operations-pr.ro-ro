@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: c1c53e39a8c6fb27deff5e7a05d5cca3a4215466
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274158"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturarea unui avans sau unei garanții
 
@@ -51,3 +51,6 @@ Acest lucru poate fi văzut în grila **Onorarii și avansuri aplicate** pe pagi
 | Sumă utilizată | Grila **Onorarii și avansuri aplicate** pe pagina **Factură de proiect**  | Acest câmp de numai citire oferă valoarea calculată care rezumă cât din onorariu sau avans a fost utilizat. | Acest câmp poate fi afișat clientului pe factura tipărită pentru a indica suma din acest onorariu sau avansului care a fost deja utilizat. |
 | Valoare extinsă | Grila **Onorarii și avansuri aplicate** pe pagina **Factură de proiect**  | Acest câmp editabil furnizează suma onorariului sau avansului care este utilizat pe această factură de proiect. Această sumă nu poate fi mai mare decât cea disponibilă în avans. Sistemul calculează automat acest lucru ca diferență între câmpurile **Sumă** și **Suma utilizată** de pe grilă. Puteți reduce această sumă pentru a utiliza mai puțin decât ceea ce este disponibil, dar nu puteți crește suma pentru a utiliza mai mult decât ceea ce este disponibil. | Acest câmp poate fi afișat clientului pe factura tipărită pentru a indica suma din acest onorariu sau avansului care era utilizat pe factură. |
 | Sumă onorariu sold. | Grila **Onorarii și avansuri aplicate** pe pagina **Factură de proiect**  | Acest câmp numai în citire oferă valoarea cât de mult din onorariu sau avans va rămâne după confirmarea facturii. | Acest câmp poate fi afișat clientului pe factura imprimată pentru a indica suma care va rămâne din acest onorariu sau avans după ce factura este confirmată și plătită. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Planificarea de cheltuieli al anchetei Federal Awards
 description: Acest subiect oferă informații despre ancheta privind planificarea de cheltuieli al Federal Awards.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082780"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007251"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Planificarea de cheltuieli al anchetei Federal Awards
 
@@ -62,7 +60,7 @@ Trebuie să configurați numerele CFDA care pot fi adăugate granturile și incl
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Configurați granturi pentru a raporta pentru ancheta privind planificarea de cheltuieli al Federal Awards
 
 1. Accesați **Management de proiect și contabilitate \> granturi \> granturi** și selectați o subvenție existentă.
-2. Pe FastTab **Configurare**, în câmpul **Catalogul asistenței interne federale**, atribuiți numărul CFDA. Numărul CFDA al grantului determină clusterul CFDA pentru raportare.
+2. Pe FilaRapidă **Configurare**, în câmpul **Catalogul asistenței interne federale**, atribuiți numărul CFDA. Numărul CFDA al grantului determină clusterul CFDA pentru raportare.
 3. Pe FastTab **Informații de contact**, introduceți informațiile despre concedent urmând acești pași:
 
     1. În câmpul **Client de grant**, introduceți clientul care este responsabil pentru grant. Pentru un grant existent, aceste informații ar putea fi deja introduse.
@@ -79,8 +77,8 @@ Guvernul federal a finanțat un proiect de infrastructură pentru un stat. Guver
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Excludeți subvențiile din raportarea SEFA pe baza tipului de subvenție
 
-1. Accesați **Gestionarea proiectului și contabilitate \> Configurare \> granturi \> Tipuri de granturi**.
-2. Pe FastTab **Informații implicite**, selectați caseta de bifat **Excludeți din planificarea de cheltuieli al Federal Awards**.
+1. Accesați **Gestionarea proiectului și contabilitate \> Configurare \> Granturi \> Tipuri de granturi**.
+2. Pe FilaRapidă **Informații implicite**, selectați caseta de bifat **Excludeți din planificarea de cheltuieli Granturile federale**.
 3. Selectați **Salvare** pentru a vă salva modificările.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Rulați Planificarea de cheltuieli al anchetei Federal Awards
@@ -104,3 +102,6 @@ Ancheta privind planificarea cheltuielilor pentru Federal Awards include următo
 - Catalogul asistenței interne federale
 - Chitanțe
 - Cheltuieli
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

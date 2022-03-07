@@ -2,8 +2,6 @@
 title: Tarifare proiect
 description: Acest subiect oferă informații despre modul în care funcționează tarifarea în Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148928"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000591"
 ---
 # <a name="project-pricing"></a>Tarifare proiect 
 
@@ -48,7 +46,7 @@ Entitatea Listă de prețuri are trei tabele corelate care stochează prețurile
   - **Preț pentru categoria de tranzacție** – acest tabel stochează prețurile după categoria de tranzacții și este utilizat pentru a configura prețurile categoriilor de cheltuieli.
   - **Elemente de listă de prețuri** – acest tabel stochează prețurile pentru produsele din catalog.
 
-> ![Configurarea prețurilor utilizând o listă de prețuri](media/basic-guide-12.png)
+> ![Configurarea prețurilor utilizând o listă de prețuri.](media/basic-guide-12.png)
  
 Lista de prețuri este o grilă tarifară. O grilă tarifară este o combinație a entității Listă de prețuri și a rândurilor corelate din tabelele Preț de rol, Preț categorie tranzacție și Elemente de listă de prețuri.
 
@@ -60,7 +58,7 @@ Timpul de resurse umane este, de obicei, ofertat pe baza rolului pe care o resur
 
 Grupul de unități **Timp** este creat atunci când este instalată PSA. Acesta are o unitate implicită de **Oră.** Nu aveți posibilitatea să ștergeți, să redenumiți sau să editați atributele pentru grupul de unități **Timp** sau pentru unitatea **Oră**. Cu toate acestea, puteți adăuga alte unități la grupul de unități **Timp**. Dacă încercați să ștergeți fie grupul de unități **Timp**, fie unitatea **Oră**, s-ar putea să provocați erori în logica de afaceri PSA.
 
-> ![Configurarea prețurilor după rol](media/basic-guide-13.png)
+> ![Configurarea prețurilor după rol.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categoriile de tranzacții și categoriile de cheltuieli
 
@@ -70,7 +68,7 @@ Cheltuielile de deplasare și alte cheltuieli pe care consultanții de proiect l
 - **Procent adaos** – procentul din costul real este facturat clientului. 
 - **Preț unitar** – un preț de facturare este setat pentru fiecare unitate din categoria de cheltuieli. Suma facturată clientului se calculează pe baza numărului de unități de cheltuieli pe care le raportează consultantul. Kilometraj utilizează metoda de tarifare preț pe unitate. De exemplu, categoria de cheltuieli kilometraj poate fi configurată pentru 30 de dolari SUA (USD) pe zi sau 2 USD pe kilometru. Atunci când un consultant raportează kilometrajul pe un proiect, suma de facturat se calculează în funcție de numărul de kilometri raportat de consultant.
 
-> ![Configurarea tarifării pentru categoriile de cheltuieli](media/basic-guide-14.png)
+> ![Configurarea tarifării pentru categoriile de cheltuieli.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Tarifarea vânzărilor de proiect și suprascrieri
 
@@ -116,7 +114,7 @@ Cu toate acestea, pe o ofertă, aveți posibilitatea să utilizați o listă de 
 
 Atunci când creați o listă de prețuri de proiect particularizată, numai componentele proiectului din lista de prețuri sunt copiate. Cu alte cuvinte, o nouă listă de prețuri este creată ca o copie a listei de prețuri existente a proiectului care este atașată la ofertă și această nouă listă de prețuri are numai prețuri de rol corelate și prețuri pentru categoriile de tranzacții.
 
-> ![Vizualizarea și configurarea prețurilor particularizate pentru un contract de proiect](media/basic-guide-15.png)
+> ![Vizualizarea și configurarea prețurilor particularizate pentru un contract de proiect.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Costuri urmărire
 
@@ -131,3 +129,6 @@ Ca și ratele de facturare, ratele de cost pentru resurse umane sunt, de asemene
     1. Lista de prețuri de cost care este atașată la unitatea organizațională.
     2. Lista de prețuri de cost care este atașată la parametrii Project Service. Deoarece listele de prețuri de cost în mai multe monede diferite pot fi atașate la parametrii Project Service, PSA corelează moneda unității organizaționale contractante a proiectului, contractului sau ofertei și moneda din lista de prețuri de cost.
     3. Pentru cheltuieli, metodele de tarifare la cost și de tarifare cu adaos peste cost nu se aplică listelor de prețuri de cost. Chiar dacă aceste metode de tarifare sunt utilizate pe linii de listă de prețuri de cost pentru a configura costurile categoriei de tranzacții, sistemul le ignoră și nu este introdus niciun preț de cost implicit.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

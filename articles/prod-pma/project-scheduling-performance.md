@@ -2,11 +2,9 @@
 title: Performanța planificării resurselor proiectului
 description: Acest subiect oferă informații despre cum să îmbunătățim performanța planificării resurselor pentru un număr mare de proiecte.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082779"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007296"
 ---
 # <a name="project-resource-scheduling-performance"></a>Performanța planificării resurselor proiectului
 
@@ -69,3 +67,6 @@ Pentru a activa îmbunătățirea performanței planificării resurselor, parcur
 
 > [!NOTE]
 > Aceasta va distribui date generale către tabelul **ResRollup** pentru toate companiile din mediul dvs., astfel încât operațiunea de lot trebuie executată doar într-o singură persoană juridică. Această operațiune de lot este necesară pentru toate vizualizările **Disponibilitatea resurselor**. Dacă această operațiune de lot nu este rulată, **ResRollup** datele vor fi generate din mers, ceea ce poate dura timp.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

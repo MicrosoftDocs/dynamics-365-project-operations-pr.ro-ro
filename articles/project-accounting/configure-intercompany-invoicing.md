@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287568"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurarea facturării între companii
 
@@ -101,3 +101,6 @@ Parcurgeți pașii următori pentru a configura facturarea între companii pentr
           - **Firmă de resurse** = **Contoso Robotics UK**
           - **Rata de facturare** = **200 USD**
       9. Accesați **Vânzări** > **Contracte de proiect** și atașați lista de prețuri **Ratele facturilor Adventure Works** la lista de prețuri a proiectului Adventure Works din contractul de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

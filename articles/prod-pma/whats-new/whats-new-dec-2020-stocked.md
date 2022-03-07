@@ -2,19 +2,17 @@
 title: Noutăți decembrie 2020 - Project Operations pentru scenarii bazate pe stocuri/producție
 description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea din decembrie 2020 a Project Operations pentru scenarii bazate pe stocuri/producție.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4728008"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008826"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Noutăți sau modificări în Project Operations, decembrie 2020 pentru scenarii bazate pe stocuri/producție
 
@@ -141,4 +139,7 @@ Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Proj
 
 ## <a name="regulatory-updates"></a>Actualizări de reglementare
 
-Pentru informații despre actualizările de reglementare pentru Dynamics 365 Finance, consultați [Actualizări de reglementare](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). O altă modalitate de a afla despre actualizările de reglementare este să vă conectați la Lifecycle Services (LCS) și să vizualizați actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru Dynamics 365 Finance, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). O altă modalitate de a afla despre actualizările de reglementare este să vă conectați la Lifecycle Services (LCS) și să vizualizați actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

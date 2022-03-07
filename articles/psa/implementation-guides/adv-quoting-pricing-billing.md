@@ -3,7 +3,7 @@ title: Ofertarea, tarifarea și facturarea avansată
 description: Acest subiect oferă informații despre ofertarea, facturarea și tarifarea în Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ef2698b52bd5a89a10ff0be6aff3d98e6917e95c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 80d16c0ee9e79d31a52f0b47e59d1b7603f117a5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149198"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082898"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Prețul avansat, prețul și ghidul de facturare
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 

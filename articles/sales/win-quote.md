@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277263"
 ---
 # <a name="close-a-quote"></a>Închideți o ofertă
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-O ofertă de proiect poate fi închisă drept câștigată sau pierdută. Deoarece funcțiile Activare și Revizuire nu sunt acceptate pe ghilimele din Microsoft Dynamics 365 Project Operations, puteți închide o versiune preliminară.
+O ofertă de proiect poate fi închisă drept câștigată sau pierdută. Deoarece funcțiile de activare și revizuire a cotațiilor nu sunt acceptate în Microsoft Dynamics 365 Project Operations, puteți închide ciorna unei oferte.
 
 ## <a name="close-a-quote-as-won"></a>Închideți o ofertă drept Câștigată
 
@@ -43,3 +43,6 @@ Dacă oferta de proiect care este închisă ca Pierdută are un proiect la care 
 
 > [!NOTE]
 > În Project Operations, închiderea unei cotații ca Câștigat sau Pierdut nu va avea un impact asupra stării oportunității, care va rămâne deschisă până când va fi închisă manual.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

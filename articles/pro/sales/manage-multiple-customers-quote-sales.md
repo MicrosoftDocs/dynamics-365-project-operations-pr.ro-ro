@@ -2,18 +2,16 @@
 title: Gestionarea mai multor clienți în oferte de proiect - simplificat
 description: Acest subiect furnizează informații despre lucrul la oferte cu mai mulți clienți care vor finanța proiectul. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181647"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440792"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gestionarea mai multor clienți în oferte de proiect - simplificat
 
@@ -39,7 +37,7 @@ Un client de ofertă poate fi creat, actualizat sau șters din fila **Clienți d
 
 | **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
-| Cont | Grilă editabilă pe fila **Clienți de ofertă** și formularele **Principal** și **Creare rapidă** pentru un client de ofertă. | Listează toate conturile active. Acest câmp este blocat după crearea înregistrării. Dacă doriți să o actualizați, ștergeți înregistrarea și recreați-o. Dacă ați înregistrat date reale sau dacă înregistrarea clientului de ofertă este un client principal, vi se va permite să ștergeți înregistrarea. | Clienții de ofertă sunt copiați peste drept clienți de linie de ofertă când este creată o linie de ofertă. Clienții de ofertă sunt copiați și peste clienții de contract de proiect când este câștigată o ofertă. |
+| Cont | Grilă editabilă pe fila **Clienți de ofertă** și formularele **Principal** și **Creare rapidă** pentru un client de ofertă. | Listează toate conturile active. Acest câmp este blocat după crearea înregistrării. Dacă doriți să o actualizați, ștergeți înregistrarea și recreați-o. Dacă ați înregistrat date reale sau dacă înregistrarea clientului pentru ofertă este un client principal, nu vi se va permite să ștergeți înregistrarea. | Clienții de ofertă sunt copiați peste drept clienți de linie de ofertă când este creată o linie de ofertă. Clienții de ofertă sunt copiați și peste clienții de contract de proiect când este câștigată o ofertă. |
 | Procent de divizare de factură | Grilă editabilă pe fila **Clienți de ofertă** și formularele **Principal** și **Creare rapidă** pentru un client de ofertă. | Reprezentați procentul din fiecare tranzacție de vânzare nefacturată care va fi atribuită acestui client de ofertă. | Copiat pe noi linii de ofertă și pe clienții contractuali de proiect. |
 | Facturare către nume persoană de contact | Grilă editabilă pe fila **Clienți de ofertă** și formularele **Principal** și **Creare rapidă** pentru un client de ofertă. | Acesta este un câmp text și trebuie utilizat pentru a identifica persoana de contact cu factura pentru acest client. Acestea sunt implicite din înregistrarea contului aferent | Copiat peste clienții contractului de proiect atunci când se câștigă o ofertă și, la rândul său, la câmpul Numele facturii către contract de pe factura generată pentru acest client. |
 | Facturare către nume | Grilă editabilă pe fila **Clienți de ofertă** și formularele **Principal** și **Creare rapidă** pentru un client de ofertă. | Acest câmp text ar trebui utilizat pentru a identifica persoana de contact cu factura pentru acest client. | Copiat clienților contractului de proiect atunci când se câștigă o ofertă și, la rândul său, la câmpul **Numele facturii către contract** de pe factura generată pentru acest client. |
@@ -52,3 +50,6 @@ Un client de ofertă poate fi creat, actualizat sau șters din fila **Clienți d
 Puteți modifica procentajele de împărțire a facturării utilizând experiența de editare a grilei în linie. Atunci când procentajele de împărțire a facturării nu totalizează 100%, va apărea o eroare. După actualizarea procentajelor de facturare, actualizați pagina pentru a elimina eroarea.
 
 De asemenea, puteți încerca să selectați **Distribuiți uniform** pe subgrila clienților de cotare. Această acțiune alocă împărțiri de facturare tuturor clienților de ofertă. Dacă există vreun factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții de cotare este întotdeauna etichetat drept client de rotunjire. Acest lucru înseamnă că înregistrarea clientului de ofertă are semnalizarea **Rotunjire** setată la **Da**. De obicei, acesta este clientul principal al ofertelor, dar acesta poate fi modificat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

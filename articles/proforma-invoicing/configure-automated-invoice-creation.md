@@ -2,18 +2,16 @@
 title: Configurarea creării automate a facturilor
 description: Acest subiect oferă informații despre cum să configurați sistemul pentru a genera facturi automat.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122448"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992671"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Configurarea creării automate a facturilor
 
@@ -45,3 +43,6 @@ Lucrarea proces de lot pentru crearea facturilor este o lucrare recurentă. Dac�
 
 > [!NOTE]
 > Facturarea în serie se execută numai pentru liniile de contract ale proiectului care sunt configurate de planurile de facturare. O linie de contract cu o metodă de facturare a prețurilor fixe trebuie să aibă configurate repere. O linie de contract de proiect cu o metodă de facturare a timpului și a materialului va avea nevoie de o planificare a facturilor pe bază de date. Același lucru este valabil și pentru o linie de contract bazată pe proiect.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

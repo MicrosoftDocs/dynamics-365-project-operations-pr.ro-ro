@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0f779cf7e247157d6cae2ae7c4c5644201cb7714
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145058"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291004"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimează vânzările și costurile proiectului atunci când o resursă care poate fi rezervată îndeplinește mai multe roluri pentru un proiect 
 
@@ -74,3 +74,6 @@ Când extindeți rândul înregistrării acelui membru al echipei, puteți vedea
 Când navigați la grila **Estimări**, veți observa că ambele activități pentru aceeași resursă au un preț diferit.
 Atribuirea pentru resursa din Activitatea A este evaluată cu ajutorul valorii atributului **Rol** al **Lider consultant**. Atribuirea pentru aceeași resursă din Activitatea A este evaluată cu ajutorul valorii atributului **Rol** pentru **Tehnician rețea**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

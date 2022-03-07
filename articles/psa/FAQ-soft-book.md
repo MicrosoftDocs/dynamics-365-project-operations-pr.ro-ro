@@ -10,12 +10,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 36246dadb1c4ba0234ae1042ba9e78c96f9d2bd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: cf67769fef39f95785320ae38055f0a3359b3a82d996b740bdb5d51e864f3d56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992932"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005361"
 ---
 # <a name="soft-book-a-resource"></a>Rezervarea provizorie a unei resurse
 
@@ -57,7 +57,7 @@ Pentru a utiliza această metodă, parcurgeți următorii pași.
 8. După închiderea taboului de planificare, veți vedea că orele pentru resursă s-au mutat din coloana **Ore rezervate ferm** în **Ore rezervate provizoriu** pe grila filei **Echipă** când vă uitați la vizualizarea **Membri echipă numiți**.
 
 > [!NOTE]
-> Când utilizați **Menținere rezervări** pentru a modifica starea din **Ferm** în **Provizoriu**, dacă rezervați ferm o resursă pe echipă și apoi le atribuiți activități în resursă, atribuirile de activități pentru resursă sunt menținute. Cu toate acestea, pe fila **Reconciliere**, resursa va avea un deficit de rezervare deoarece doar rezervările ferme sunt luate în calcul atunci când sunt reconciliate rezervările față de atribuiri. Puteți utiliza caracteristica **Extindere rezervări** pe fila **Reconciliere** pentru a rezerva ferm resursa pentru eliminarea deficitului de rezervări ferme în raport cu atribuirile de resurse Va trebui să anulați rezervarea provizorie pentru resursă utilizând **Menține rezervările**.
+> Când utilizați **Menținere rezervări** pentru a modifica starea din **Ferm** în **Provizoriu**, dacă rezervați ferm o resursă pe echipă și apoi le atribuiți activități în resursă, atribuirile de activități pentru resursă sunt menținute. Cu toate acestea, pe fila **Reconciliere**, resursa va avea un deficit de rezervare deoarece doar rezervările ferme sunt luate în calcul atunci când sunt reconciliate rezervările față de atribuiri. Puteți utiliza caracteristica **Extindere rezervări** pe fila **Reconciliere** pentru a rezerva ferm resursa pentru eliminarea deficitului de rezervări ferme în raport cu atribuirile de resurse. Va trebui să anulați rezervarea provizorie pentru resursă utilizând **Menține rezervările**.
 
 Când sunteți gata să modificați o resursă de membru echipă rezervat provizoriu la un membru echipă rezervat ferm, efectuați următoarele:
 

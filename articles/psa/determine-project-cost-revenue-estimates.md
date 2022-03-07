@@ -2,9 +2,7 @@
 title: Determinați costurile de proiect și estimările de venituri
 description: Cum să determinați costurile de proiect și estimările de venituri în Project Service
 author: ruhercul
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a81214baafc2017b3d67e6b8bb5b2de19025b10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148838"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015256"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Determinați costurile de proiect și estimările de venituri 
 
@@ -81,3 +79,6 @@ Orice cheltuială care va fi suportată în cadrul proiectului care nu este dire
   
 ### <a name="see-also"></a>Consultați și  
  [Ghidul Managerului de proiect](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

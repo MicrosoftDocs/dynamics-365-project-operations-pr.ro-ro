@@ -2,18 +2,16 @@
 title: Definirea calendarelor de resurse
 description: Acest subiect furnizează informații despre cum să definiți calendarele orelor de lucru pentru resurse în Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123933"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990331"
 ---
 # <a name="define-resource-calendars"></a>Definirea calendarelor de resurse
 
@@ -43,3 +41,6 @@ Fiecare resursă rezervabilă care lucrează la un proiect trebuie să aibă un 
 2. Din vizualizarea grilă, selectați până la 25 de **Resurse rezervabile** pentru a actualiza.
 3. Selectați **Setați Calendar** și o fereastră de dialog vă va solicita cu o listă de șabloane de ore de lucru disponibile.
 4. Selectați șablonul pe care doriți să îl utilizați și apoi selectați **Aplicare**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

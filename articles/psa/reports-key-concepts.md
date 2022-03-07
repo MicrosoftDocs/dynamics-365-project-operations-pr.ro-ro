@@ -2,8 +2,6 @@
 title: Concepte-cheie
 description: Acest subiect oferă informații despre conceptele-cheie pentru gestionarea resurselor în Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147758"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995101"
 ---
 # <a name="key-concepts"></a>Concepte-cheie
 
@@ -48,3 +46,6 @@ Următorul tabel definește conceptele cheie care sunt utilizate în aplicația 
 | Contur                    | Activitate, cerință sau ore de atribuire conform defalcării într-o distribuție zilnică. De exemplu, o activitate de cinci zile, 40 de ore poate fi conturată în opt ore pe zi, timp de cinci zile. |
 | Vizualizare reconciliere        | O vizualizare care afișează rezervările și atribuirile pentru fiecare membru al echipei de proiect. Această vizualizare îi permite managerului de proiect să caute orice nepotrivire între rezervări și atribuiri și să ia măsuri corective dacă are loc o nepotrivire. |
 | Ore de lucru                 | O entitate care este utilizată pentru a identifica capacitatea de resurse și orele de lucru și non-lucru. Această entitate este denumită și calendarul resursei. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

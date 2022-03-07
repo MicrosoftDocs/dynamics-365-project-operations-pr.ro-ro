@@ -2,18 +2,16 @@
 title: Liste de prețuri implicite
 description: Acest subiect furnizează informații despre vânzările implicite și listele de prețuri de cost în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130953"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989881"
 ---
 # <a name="default-price-lists"></a>Liste de prețuri implicite
 
@@ -21,7 +19,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 ## <a name="sales-price-lists"></a>Liste de prețuri de vânzări
 
-Fiecare ofertă și contract de proiect din Dynamics 365 Project Operations conține o listă de prețuri de vânzare implicită. 
+Fiecare ofertă de proiect și contract din Dynamics 365 Project Operations conține o listă de prețuri de vânzare implicită. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Listă de prețuri implicită pentru ofertele proiectului
 Sistemul finalizează următorul proces pentru a determina ce listă de prețuri va fi implicită pentru o ofertă de proiect:
@@ -57,3 +55,6 @@ Listele de prețuri de cost nu sunt implicite pentru nicio entitate din Project 
 5. Apoi, sistemul analizează data efectivității listelor de prețuri care se potrivesc cu data estimării primite sau a liniei reale. 
 6. Dacă există mai multe liste de prețuri care sunt valabile pentru data de pe estimarea primită sau reală, este selectată lista de prețuri creată cel mai recent.
 7. Dacă nu există liste de prețuri de cost atașate parametrilor proiectului care să corespundă monedei și datei efective, sistemul face implicită rata de cost la zero (0) pe estimarea de intrare sau pe linia reală.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

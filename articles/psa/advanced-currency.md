@@ -2,8 +2,6 @@
 title: Scenarii multivalută (versiunea 3. x)
 description: Acest subiect furnizează informații despre scenariile multivalută.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145688"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005136"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarii multivalută
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 are două concepte de valute:
 - **Moneda tranzacției** – valuta în care are loc o tranzacție. 
 - **Moneda de bază** – valuta instanței Dynamics 365. Această monedă este configurată atunci când o instanță Dynamics 365 este furnizată. Aceasta nu poate fi modificată.
 
-De exemplu, Contoso US a vândut 100 de tricouri unui client din Regatul Unit pentru 15 lire sterline (GBP) fiecare. Următorul tabel arată modul în care această tranzacție este înregistrată în entitatea Produs comandă.
+De exemplu, Contoso SUA a vândut 100 de tricouri unui client din Regatul Unit pentru 15 lire sterline (GBP) fiecare. Următorul tabel arată modul în care această tranzacție este înregistrată în entitatea Produs comandă.
 
 | Produs | Cantitate | Preț unitar | Monedă | Valoare | Curs de schimb | Preț unitar (de bază)| Volum (de bază)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA extinde conceptul de monedă de tranzacționare pentru cost și vânzări î
 
 ## <a name="multiple-currency-scenario"></a>Scenariu multivalută
 
-Această secțiune descrie un exemplu de proiect pe care Contoso UK îl livrează pentru un client denumit Fabrikam, Japonia. Iată cum a fost configurat scenariul:
+Această secțiune descrie un exemplu de proiect pe care Contoso Regatul Unit îl livrează pentru un client denumit Fabrikam, Japonia. Iată cum a fost configurat scenariul:
 
 1. GBP și yenul japonez (JPY) sunt configurate în **Setări** \> **Gestionare firmă** \> **Monede**. 
 2. Un cont de client denumit **Fabrikam – Japonia** este configurat, iar JPY este selectat ca monedă pe cont.
 3. O unitate organizațională denumită **Contoso UK** este configurată și GBP este selectată ca monedă.
-4. Este creat un contract de proiect, în care **Contoso UK** este specificată ca unitatea contractantă și **Fabrikam – Japonia** este specificată drept client.
+4. Este creat un contract de proiect, în care **Contoso Regatul Unit** este specificată ca unitatea contractantă **Fabrikam – Japonia** este specificată drept client.
 5. Se creează linii de contract de proiect, pe baza acordurilor de facturare pentru diversele clase de tranzacții din proiect, cum ar fi facturarea pentru timp versus facturarea pentru cheltuieli.
-6. Este creat un proiect, în care **Contoso UK** este specificată ca unitatea contractantă. Acest proiect este creat și mapat la liniile de contract de proiect.
+6. Este creat un proiect în care **Contoso Regatul Unit** este specificată ca unitatea contractantă. Acest proiect este creat și mapat la liniile de contract de proiect.
 
 
 În timpul estimării care utilizează detaliile liniei de ofertă, detaliile liniei de contract de proiect sau pe linia de estimare a planificării, sunt întotdeauna create două înregistrări în entitate. O înregistrare este pentru cost, iar cealaltă înregistrare este pentru vânzări.
@@ -105,3 +103,6 @@ Dynamics 365 gestionează automat cumulări de sume în monede diferite. Iată u
 | Cheltuială           | Vânzări nefacturate   | 17 iun. | Daniel  | Închirieri auto           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Pentru a calcula valoarea totală a vânzărilor nefacturate din proiect, aveți posibilitatea să creați un câmp de cumul pentru câmpul **Sumă** pe toate valorile reale de vânzări nefacturate corelate. Câmpul de cumul este o construcție a Dynamics 365 care permite formule rapide pe înregistrări corelate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

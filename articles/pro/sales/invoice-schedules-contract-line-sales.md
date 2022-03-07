@@ -2,18 +2,16 @@
 title: Crearea planificărilor de facturare pentru o linie de contract bazată pe proiect - simplificat
 description: Acest subiect oferă informații despre crearea planificărilor și etapelor de facturare.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180342"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006081"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Crearea planificărilor de facturare pentru o linie de contract bazată pe proiect - simplificat
 
@@ -74,3 +72,6 @@ Etapele prețurilor fixe pot fi generate manual atunci când nu sunt împărțit
 | Taxe | Creare rapidă | Suma impozitului aplicată la reper. | Acesta este inclus în etapa de referință a liniei contractului de proiect și pe factură. |
 
 4. Selectați **Salvare și închidere**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

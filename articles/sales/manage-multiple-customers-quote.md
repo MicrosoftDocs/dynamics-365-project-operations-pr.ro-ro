@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277893"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Gestionarea mai multor clienți într-o ofertă de proiect
 
@@ -23,7 +23,7 @@ Cotațiile proiectului susțin scenariul în care propunerea implică mai mulți
 
 Toți clienții de ofertă de pe fila **Clienți** din oferta de proiect implicită ca clienți de linie de ofertă pe orice linii **noi** de ofertă bazate pe proiect create pentru ofertă. Orice linie de ofertă existentă bazată pe proiect nu va moșteni înregistrările noi ale clienților de ofertă create după acestea.
 
-Clienții de ofertă și clienții de linie de ofertă pot fi adăugați, actualizați sau șterse în orice moment înainte de a câștiga oferta. Un client valid din ofertă trebuie să fie înființat ca client în compania deținătoare sau entitate juridică de pe pagina **Clienți**. Persoanele juridice sunt înființate în modulul **Management de proiect și contabilitate** a Dynamics 365 Project Operations și sunt disponibile drept companii în module **Vânzare și livrare de proiecte** de Project Operations.
+Clienții de ofertă și clienții de linie de ofertă pot fi adăugați, actualizați sau șterse în orice moment înainte de a câștiga oferta. Un client valid din ofertă trebuie să fie înființat ca client în compania deținătoare sau entitate juridică de pe pagina **Clienți**. Persoanele juridice sunt configurate în modulul **Management de proiect și contabilitate** al Dynamics 365 Project Operations și sunt puse la dispoziție drept Companii în modulele **Vânzări de proiect și Livrare** din Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Conceptul de client principal
 
@@ -51,3 +51,6 @@ Un client de ofertă poate fi creat, actualizat sau șters din fila **Clienți d
 Puteți modifica procentajele de împărțire a facturării utilizând experiența de editare a grilei în linie. Atunci când procentajele de împărțire a facturării nu totalizează 100%, va apărea o eroare. După actualizarea procentajelor de facturare, actualizați pagina pentru a elimina eroarea.
 
 De asemenea, puteți încerca să selectați **Distribuiți uniform** pe subgrila clienților de cotare. Această acțiune alocă împărțiri de facturare tuturor clienților de ofertă. Dacă există vreun factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții de cotare este întotdeauna etichetat drept client de rotunjire. Acest lucru înseamnă că înregistrarea clientului de ofertă are semnalizarea **Rotunjire** setată la **Da**. De obicei, acesta este clientul principal al ofertelor, dar acesta poate fi modificat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

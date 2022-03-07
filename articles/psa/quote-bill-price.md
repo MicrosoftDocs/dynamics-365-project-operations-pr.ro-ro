@@ -3,10 +3,9 @@ title: Pagina de primire pentru ofertare, prețuri și facturare
 description: Acest subiect oferă informații despre ofertare, prețuri și facturare.
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004776"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Pagina de primire pentru ofertare, prețuri și facturare
 
@@ -44,3 +43,6 @@ Următoarele subiecte furnizează mai multe informații despre funcționalitatea
 - [Unități și grupuri de unități](advanced-units.md)
 - [Monedă multi-unitate](advanced-currency.md)
 - [Date reale de înregistrare](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Înregistrați-vă pentru versiunile de încercare Project Operations
 description: Acest subiect oferă informații despre modul de implementare a unei versiuni de încercare a Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901632"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599228"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Înregistrați-vă pentru versiunile de încercare Project Operations 
 
@@ -90,8 +90,7 @@ Pentru a implementa o versiune de încercare a Dynamics 365 Project Operations, 
 4.  Selectați respectivul URL Microsoft Dataverse și adresele URL ale aplicațiilor Finance and Operations pentru validarea implementării.
 
 ## <a name="configuring-dual-write"></a>Configurare scriere duală
-- Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizați setările de securitate pentru Operațiuni de proiect în Dataverse](resource-provision-new-environment.md).
-- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu scriere duală pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+Doar pentru implementări de materiale fără stoc, configurați mapările cu scriere duală. Pentru mai multe informații, consultați [versiuni mapări cu scriere duală Project Operations](resource-dual-write-maps.md).
 
 ## <a name="assign-licenses"></a>Atribuirea de licențe
 

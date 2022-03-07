@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c15be8d9884c31298f996477c732c542fce65fcc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275283"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Găsiți-vă următorul proiect cu aplicația Project Finder Mobile (Project Service)
 
@@ -49,3 +49,6 @@ Cu aplicația Project Finder Mobile de pe [!INCLUDE[tn_iphone](../includes/tn-ip
   
 ### <a name="see-also"></a>Consultați și  
  [Timp, cheltuieli și ghid de colaborare](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

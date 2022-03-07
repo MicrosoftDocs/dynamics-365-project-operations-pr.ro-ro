@@ -2,18 +2,17 @@
 title: Prezentare generală a procesului de facturare
 description: Acest subiect oferă o prezentare generală a procesului de facturare în Project Operations pentru scenarii bazate pe resurse/ne-stocate.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089289"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369031"
 ---
 # <a name="invoicing-process-overview"></a>Prezentare generală a procesului de facturare
 
@@ -30,3 +29,6 @@ Managerul de proiect poate revizui tranzacțiile de vânzare nefacturate folosin
 Puteți [crea manual o factură proformă](../proforma-invoicing/create-manual-proforma-invoice.md) sau să folosiți un [proces periodic](../proforma-invoicing/configure-automated-invoice-creation.md). Managerul de proiect poate [realiza o schiță a unei facturi proforme](../proforma-invoicing/manage-proforma-invoice.md) după cum este necesar și apoi să o confirme.
 
 Factura proformă confirmată este trimisă către modulul **Management de proiect și contabilitate** în Finanțe. Contabilul de proiect formatează și actualizează propunerea de facturare a proiectului, apoi postează și tipărește documentul. Facturile de proiect postate sunt înregistrate în registrul general, precum și în registrele secundare ale clientului și ale proiectului.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: Configurarea integrării Project Operations per entitate juridică
 description: Acest subiect furnizează informații despre configurarea integrării după entitatea juridică în Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122898"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999421"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurarea integrării Project Operations per entitate juridică 
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect vă prezintă pașii necesari pentru configurarea Dynamics 365 Project Operations pe entitate juridică.
+Acest subiect vă prezintă pașii necesari pentru configurarea Dynamics 365 Project Operations per persoană juridică.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Activați tastele de caracteristică în Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Fiecare persoană juridică care folosește Project Operations pe Dynamics 365 C
   - **Tip implicit de facturare**: Project Operations utilizează un set fix de valori implicite de tip facturare care trebuie mapate la proprietățile liniei Finanțare. Creați o înregistrare pentru fiecare tip de facturare: **Nespecificat**, **Taxabil**, **Netaxabil**, **Gratuit**, și **Nu e disponibil**.
   - **Categorii de proiecte implicite**: Selectați categoriile implicite de proiect care vor fi utilizate pentru fiecare tip de tranzacție. Aceste valori implicite vor fi utilizate în **Jurnal de integrare a Project Operations** și în estimări în care nu este specificată nicio categorie de tranzacții pentru proiectul real.
   - **Prognoze**: Selectați modelul de prognoză care va fi utilizat pentru estimări de timp și cheltuieli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

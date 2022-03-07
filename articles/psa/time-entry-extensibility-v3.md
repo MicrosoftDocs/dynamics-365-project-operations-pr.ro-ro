@@ -2,8 +2,6 @@
 title: Particularizarea înregistrării săptămânale de timp
 description: Acest subiect furnizează informații despre cum să implementați reguli de business particularizate care susțin practicile unei organizații.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,14 +16,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149648"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002301"
 ---
-# <a name="customize-weekly-time-entry"></a>Particularizarea înregistrării săptămânale de timp 
+# <a name="customize-weekly-time-entry"></a>Particularizarea intrărilor de timp săptămânale 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -132,3 +130,6 @@ Ar trebui să utilizați validările de insert pentru orice validări care neces
 
 > [!IMPORTANT] 
 > În prezent, o problemă cunoscută pe paginile TBX împiedică utilizatorii să corecteze informațiile și să re-selecteze Efectuat atunci când o actualizare nu reușește o validare de insert. Ca o soluție, configurați validări de regulă de business pentru a preveni această situație cât mai mult posibil.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

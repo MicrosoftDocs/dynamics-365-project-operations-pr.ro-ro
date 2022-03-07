@@ -2,18 +2,16 @@
 title: Crearea ofertelor de proiecte din oportunități
 description: Acest subiect oferă informații despre crearea unei oferte de proiect dintr-o oportunitate.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118128"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999646"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Crearea ofertelor de proiecte din oportunități
 
@@ -56,3 +54,6 @@ O ofertă existentă poate fi legată de o oportunitate. Parcurgeți pașii urm�
    Când mutați o oportunitate în această etapă, puteți selecta această ofertă dintr-o listă de oferte asociate acestei oportunități. Selectarea acestei oferte indică faptul că mergeți mai departe cu ea.
 
    Toate celelalte oferte asociate cu oportunitatea vor fi disponibile și active până când una dintre ele va fi câștigată. Puteți muta procesul de vânzare înapoi la etapa anterioară **Calificare** și alegeți o altă ofertă pentru a merge mai departe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

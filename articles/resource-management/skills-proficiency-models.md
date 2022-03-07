@@ -2,18 +2,16 @@
 title: Abilități și certificări
 description: Acest subiect oferă informații despre adăugarea de calități și caracteristici de certificare la resurse.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128883"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990196"
 ---
 # <a name="skills-and-certifications"></a>Abilități și certificări
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
@@ -43,3 +41,5 @@ Adăugarea de caracteristici la cerințele de resurse vă permite să documenta�
 3. În subgrila **Aptitudini**, selectați **+Adăugați o nouă caracteristică de cerință.**
 4. În panoul de creare rapidă, găsiți și selectați caracteristicile necesare și adăugați o **Valoare de evaluare**.
 5. Selectați **Salvare și închidere**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

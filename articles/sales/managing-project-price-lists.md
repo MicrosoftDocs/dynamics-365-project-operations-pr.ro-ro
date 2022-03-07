@@ -2,11 +2,9 @@
 title: Gestionarea listelor de prețuri ale proiectelor dintr-o ofertă
 description: Acest subiect oferă informații despre entitatea proiect listă de prețuri.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003921"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Gestionarea listelor de prețuri ale proiectelor dintr-o ofertă
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations extind entitatea listă de prețuri din Dynamics 365 Sales. 
+Dynamics 365 Project Operations extinde entitatea Listă de prețuri în Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entități-cheie
 
@@ -120,3 +118,6 @@ Ca și ratele de facturare, ratele de cost pentru resurse umane sunt, de asemene
     1. Lista de prețuri de cost care este atașată la unitatea organizațională.
     2. Lista de prețuri de cost care este atașată la parametrii Project Operations. Deoarece listele de prețuri de cost în mai multe monede diferite pot fi atașate la parametrii, o potrivire de monedă este finalizată între moneda unității organizaționale contractante a proiectului, contractului sau ofertei și moneda din lista de prețuri de cost.
     3. Pentru cheltuieli, metodele de tarifare la cost și de tarifare cu adaos peste cost nu se aplică listelor de prețuri de cost. Chiar dacă aceste metode de tarifare sunt utilizate pe linii de listă de prețuri de cost pentru a configura costurile categoriei de tranzacții, sistemul le ignoră și nu este introdus niciun preț de cost implicit.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

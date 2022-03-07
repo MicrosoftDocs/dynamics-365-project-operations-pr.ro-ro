@@ -2,8 +2,6 @@
 title: Costuri și venit de proiect
 description: Acest subiect furnizează informații despre estimarea costurilor și veniturilor proiectului.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148343"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002571"
 ---
 # <a name="project-costs-and-revenue"></a>Costuri și venit de proiect
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148343"
 
 Estimările proiectului furnizează perspectiva financiară a lucrului estimat și planificat în planificarea proiectului. Fila **Estimări** de pe pagina **Proiecte** proiecte afișează impactul costurilor și veniturilor lucrului pe care îl planificați. De asemenea, oferă informații despre multe dimensiuni predefinite. 
 
-> ![Fila Estimări](media/project-5.png)
+> ![Fila Estimări.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Costul și valoarea de vânzărilor a proiectului
 
@@ -68,13 +66,13 @@ Dacă sistemul nu găsește un preț pentru rol, prețul de vânzări al liniei 
 
 Fila **Estimări** are o vizualizare grilă care afișează linii de estimare. Grila include coloanele pentru unitate, prețul total de cost și prețul total de vânzare, așa se arată în ilustrația următoare. 
 
-> ![Vizualizare grilă pe fila Estimări](media/project-6.png)
+> ![Vizualizare grilă pe fila Estimări.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Vizualizarea pe etape a estimărilor proiectului
 
 Vizualizarea pe etape a estimărilor de proiect arată datele estimate din vizualizarea grilă din cronologie, într-o scală de timp selectată. În mod implicit, datele estimate sunt pivotate pe dimensiunea **Rolului**.
 
-> ![Vizualizarea pe etape pentru estimările proiectului](media/project-7.png)
+> ![Vizualizarea pe etape pentru estimările proiectului.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alocarea efortului estimat pe baza modului de activitate
 
@@ -97,3 +95,6 @@ Atât în vizualizarea grilă cât și în vizualizarea pe etape, aveți posibil
 ## <a name="expense-estimates"></a>Estimări de cheltuieli
 
 Butonul **Adăugați o nouă estimare de cheltuieli** în vizualizarea grilă vă permite să înregistrați orice cheltuieli care sunt achitate în proiect, dar care nu sunt direct legate de muncă. Aveți posibilitatea să înregistrați estimările de cheltuieli pentru o anumită activitate sau pentru întregul proiect. Selectați categoriile de cheltuieli și data orientativă atunci când vă așteptați să achite cheltuielile. Dacă lista de prețuri de cost și lista de prețuri de vânzări au prețuri implicite (sau dacă procentele de adaos sunt definite pentru categorii de cheltuială), sunt introduse automat pe linia de estimare când are loc asocierea.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

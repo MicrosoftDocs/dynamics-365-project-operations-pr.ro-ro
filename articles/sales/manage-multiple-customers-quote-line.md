@@ -2,18 +2,16 @@
 title: Gestionați mai mulți clienți în linii de oferte bazate pe proiect
 description: Acest subiect oferă informații despre cum să gestionați mai mulți clienți pe linii de ofertă pe bază de proiect.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118578"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992041"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gestionați mai mulți clienți în linii de oferte bazate pe proiect
 
@@ -44,3 +42,6 @@ Tabelul următor arată câmpurile pe înregistrarea de client de linie de ofert
 Puteți modifica procentele de facturare împărțite în linie. Atunci când procentajele de împărțire a facturării nu totalizează 100%, apare o eroare. După editare procentajelor de facturare, actualizați pagina de linie de ofertă pentru a elimina eroarea.
 
 Utilizați acțiunea de distribuire uniformă pe subgrila clienților liniei de ofertă pentru a aloca împărțiri de facturare tuturor clienților din linia de ofertă. Dacă există un factor de rotunjire, acesta va fi adăugat clientului de rotunjire. Unul dintre clienții liniei de ofertă este întotdeauna etichetat ca client de rotunjire, ceea ce înseamnă că înregistrarea clientului de linie de ofertă are marcajul de rotunjire setat la **Da**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

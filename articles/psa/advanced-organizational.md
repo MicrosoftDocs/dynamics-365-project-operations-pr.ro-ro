@@ -2,8 +2,6 @@
 title: Unități organizaționale
 description: Acest subiect oferă informații despre unitățile organizaționale din Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145644"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005091"
 ---
 # <a name="organizational-units"></a>Unități organizaționale 
 
@@ -55,7 +53,7 @@ Unitatea organizațională joacă două roluri în PSA:
 - **Unitate contractantă** – unitatea organizațională care reprezintă grupul de firme sau divizia care este principalul responsabil cu câștigarea vânzării și cu gestionarea livrării de lucrări și servicii către client. Unitatea contractantă este identificată de câmpul **Unitate contractantă** din secțiunea antet a paginilor **Oportunitate**, **Ofertă**, **Contract de proiect** și **Proiect**.
 - **Unitate resursă** – unitatea organizațională căreia îi aparține sau îi este atribuită o resursă. Această unitate organizațională poate furniza resursele sale pentru unele roluri pe specificațiile de lucru (SL) și proiecte care sunt deținute de unitatea contractantă.
 
-> ![Unități contractante și unități de resurse](media/advanced-1.png)
+> ![Unități contractante și unități de resurse.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Întrebări frecvente despre unitatea organizațională
 
@@ -79,14 +77,14 @@ Atunci când implementați Dynamics 365, optimizați autorizarea de securitate p
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemplu de unități organizaționale și unități de business
 
-Contoso, Ltd. are o practică înfloritoare de tehnologie Microsoft. Daniel și Vera sunt amândoi dezvoltatori C\#, dar Vera este în Statele Unite, în timp ce Daniel este în India. Cele mai multe dintre angajamentele de proiect necesită resurse de la Contoso India și Contoso SUA, iar Daniel și Vera au nevoie de același nivel de acces de securitate la proiecte din acest domeniu de activitate. Cu toate acestea, costul dezvoltatorilor din Contoso India diferă în mod semnificativ de costul dezvoltatorilor din Contoso SUA.
+Contoso, Ltd. are o practică înfloritoare de tehnologie Microsoft. Daniel și Vera sunt amândoi dezvoltatori C\#, dar Vera este în Statele Unite, în timp ce Daniel este în India. Cele mai multe dintre angajamentele de proiect necesită resurse de la Contoso India și Contoso US și Daniel și Vera au nevoie de același nivel de acces de securitate la proiecte din acest domeniu de activitate. Cu toate acestea, costul dezvoltatorilor Contoso India diferă în mod semnificativ de costul dezvoltatorilor din Contoso SUA.
 
 Iată o modalitate optimă de a concepe acest scenariu utilizând Dynamics 365 și PSA.
 
 1. Creați practica tehnologiei Microsoft ca unitate de business și asociați-i pe Daniel și Vera cu ea. În acest fel, veți contribui la garantarea faptului că ambii angajați au același nivel de acces de securitate la orice proiecte din acest domeniu de activitate. Ambii vor putea să verifice progresul și să raporteze timpul, cheltuielile și actualizările sarcinilor. 
 2. Creați două unități organizaționale pentru a contribui la garantarea faptului că costul proiectului este reflectat corect. 
 3. Asociați-o pe Vera cu Contoso SUA și asociați-l pe Daniel cu Contoso India.
-4. Atribuiți listele de prețuri corespunzătoare ambelor unități organizaționale. TÎn în acest fel, contribuiți la garantarea faptului că costurile care sunt înregistrate în proiect pentru Daniel și Vera reflectă cu exactitate diferența de costuri dintre Contoso SUA și Contoso India.
+4. Atribuiți listele de prețuri corespunzătoare ambelor unități organizaționale. În acest fel, contribuiți la garantarea faptului că costurile care sunt înregistrate în proiect pentru Daniel și Vera reflectă cu exactitate diferența de costuri dintre Contoso SUA și Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Sunt unitățile organizaționale legate de teritoriile de vânzări în Dynamics 365?
 
@@ -124,7 +122,7 @@ Nu. În actuala versiune a PSA, unitățile organizaționale nu sunt ierarhice. 
 Când aveți o ierarhie complexă a centrelor de cost, diviziilor, birourilor de facturare etc., configurați nodurile frunză din ierarhia respectivă ca unități organizaționale distincte.
 Următorul exemplu arată o ierarhie tipică:
 
-**Contoso India**
+**ContosoIndia**
 
   - Practică SAP 
 
@@ -136,7 +134,7 @@ Următorul exemplu arată o ierarhie tipică:
     - Consultanți tehnici
     - Consultanți funcționali 
     
-**Contoso US**
+**Contoso SUA**
 
  - Practică SAP 
 
@@ -167,3 +165,6 @@ Dacă compania dumneavoastră operează ca o singură unitate care are o listă 
 Când un proiect este creat pe cont propriu, unitatea contractantă implicită a proiectului se bazează pe utilizatorul care îl creează. Acest utilizator este, de asemenea, managerul de proiect implicit. Dacă proiectul este mapat la o entitate de vânzări, cum ar fi o ofertă sau un contract de proiect, unitatea contractantă din proiect se bazează în schimb pe entitatea de vânzări. În acest caz, estimările proiectului pot fi recalculate, deoarece lista de prețuri de cost este utilizată pentru a calcula modificările costului estimat dacă unitatea contractantă este schimbată. Lista de prețuri de vânzări este utilizată pentru a calcula estimările de vânzări care vor fi modificate astfel încât să fie sincronizate cu lista de prețuri a proiectului din ofertă.
 
 Câmpurile **Unitate contractantă** și **Monedă** din proiect sunt blocate pentru editare, deoarece acestea trebuie să fie sincronizate cu valorile din entitatea de vânzări (ofertă sau contract de proiect) la care este mapat proiectul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

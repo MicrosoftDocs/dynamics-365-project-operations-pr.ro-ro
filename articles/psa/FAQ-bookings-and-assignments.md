@@ -2,6 +2,8 @@
 title: Rezervări resurse și care este legătura sa cu atribuirile sarcinilor
 description: Acest subiect oferă informații despre modul în care se gestionează resursele denumite, rezervările de resurse și atribuirile de activități și modul în care acestea se asociază între ele.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0e4eea87bfb059a3c0be8ccbd2914a4d6c3cf46b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993206"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149963"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Rezervări resurse și care este legătura sa cu atribuirile sarcinilor
 
@@ -66,6 +68,3 @@ Deoarece rezervările atribuirile nu sunt strâns cuplate, este posibil să se r
 > [!NOTE]
 > Dacă mutați o activitate pe care ați conturat-o chiar dvs., aceste contururi nu sunt menținute. Contururile sunt generate din nou conform calendarului proiectului pentru a ține cont de modificările orelor de program și de sărbători. Acest lucru este proiectat întrucât sistemul nu cunoaște intenția conturului original și nu poate determina dacă are sens să păstreze acel contur într-un nou interval de timp. Întrucât rezervările și atribuirile sunt deconectate, rezervările păstrează contururile de rezervare originale. În acest caz, va trebui să anulați și să rezervați din nou la noul contur de atribuire.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

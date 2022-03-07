@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642378"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287388"
 ---
 # <a name="financial-dimension-defaults"></a>Valori implicite pentru dimensiunile financiare
 
@@ -62,3 +62,6 @@ Proiectele sunt create și menținute în CDS. Atributele contabile pentru proie
 4. Setați valorile implicite ale dimensiunii financiare. Observați că dimensiunile financiare sunt implicite din contul clientului. În cazul în care proiectul este asociat cu o linie contractuală cu mai mulți clienți contractuali ai proiectului, clientul principal este utilizat la dimensiunile financiare implicite.
 
 Dimensiunile financiare implicite ale proiectului sunt utilizate pentru a seta valorile implicite ale liniei jurnalului pentru tranzacțiile de timp, cheltuială și taxă din **Jurnal de integrare a operațiunilor de proiect** și pe liniile de facturare aferente proiectului.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

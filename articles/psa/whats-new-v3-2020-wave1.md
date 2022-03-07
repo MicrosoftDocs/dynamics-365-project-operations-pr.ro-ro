@@ -1,8 +1,6 @@
 ---
 title: Ce este nou sau modificat în Project Service Automation versiunea 3.x etapa 1 2020
 description: Acest subiect oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea 3 etapa 1 2020.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150953"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002121"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Ce este nou sau modificat în Project Service Automation versiunea 3 etapa 1 2020
 
@@ -43,3 +41,6 @@ Utilizatorilor care necesită capacitatea de a înregistra timp ar trebui să li
 
 ### <a name="currently-extended-time-entry-changes"></a>Modificările de intrare de timp extinse în prezent
 Pentru a reduce impactul asupra utilizatorilor actuali de intrare în timp, această modificare a rolului este singura cerință esențială necesară pentru a continua utilizarea intrării în timp. Dacă ați creat vizualizări personalizate sau experiențe de intrare în timp separate, trebuie să setați câmpurile **Setare intrare timp** la valoarea corectă PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

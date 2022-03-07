@@ -2,8 +2,6 @@
 title: Tarifare pentru Catalog de produse
 description: Acest subiect furnizează informații despre modul în care funcționează prețul din catalogul de produse în Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151223"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000186"
 ---
 # <a name="product-catalog-pricing"></a>Tarifare pentru Catalog de produse 
 
@@ -46,7 +44,7 @@ Puteți adăuga produse dintr-un catalog de produse la diferite liste de prețur
 
 PSA acceptă diverse opțiuni de rotunjire atunci când prețurile sunt configurate ca o funcție a prețului de listă, costului standard sau costului curent. În plus față de a profita de mai multe metode de stabilire a prețurilor și opțiuni de rotunjire, puteți asocia liste de reduceri cu elemente de listă de prețuri. 
 
-> ![Adăugarea produselor dintr-un catalog la liste de prețuri diferite](media/basic-guide-16.png)
+> ![Adăugarea produselor dintr-un catalog la liste de prețuri diferite.](media/basic-guide-16.png)
 
 Atunci când creați o nouă listă de prețuri particularizate pentru o ofertă selectând **Creați prețuri particularizate** pe pagina **Ofertă de proiect**, PSA face o copie a listei de prețuri și câmpul **Entitate** pe antetul noii liste de prețuri este setată la **Entitate de vânzări**. Numele listei de prețuri noi este anexat cu numele ofertei și cu un marcaj temporal. De asemenea, puteți utiliza numele listei de prețuri noi și numele ofertei în fluxuri de lucru particularizate pentru a declanșa revizuire suplimentară și aprobări pentru ofertele care utilizează prețuri particularizate.
 
@@ -64,3 +62,6 @@ Entitățile de oportunitate, ofertă și contract de proiect utilizează următ
 În mod implicit, câmpul **Produs** din linia de ofertă listează toate produsele active din lista de prețuri de produs a ofertei. Dacă un produs a fost inactivat sau dacă este o schiță de produs, aceasta nu este listată, chiar dacă este în lista de prețuri. 
 
 Linii de catalog de produse sunt adăugate ca linii de factură pe prima factură care este creat pentru un contract de proiect. Pe o schiță de factură, aceste linii de factură pot fi șterse. În acest caz, liniile vor apărea pe o factură ulterioară până când sunt facturate sau până când factura este trimisă clientului. În PSA, nu se poate factura o cantitate parțială a unei linii de factură de produs. Când liniile de produs din contractul de proiect sunt facturate, se creează date reale. Cu toate acestea, aceste date reale nu sunt legate de entitatea de proiect corelată. Cu alte cuvinte, liniile de contract de proiect bazate pe produse sunt independente de orice utilizare bazată pe proiect. PSA nu urmărește consumul de materiale pe proiecte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

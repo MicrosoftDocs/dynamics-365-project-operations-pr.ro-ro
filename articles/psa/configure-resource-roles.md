@@ -18,22 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: deaff0977ebb50382a28494fba2a1c34ed5cc9b4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144923"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129153"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurați roluri de resurse (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Rolurile sunt o parte importantă în planificarea proiectului, atunci când se stabilesc cerințele de resurse sau costurile unui proiect. Pentru fiecare rol de care au nevoie proiectele dumneavoastră, trebuie să creați un rol de resurse și să asociați abilități și competențe la acel rol. De exemplu, ați putea dori să creați roluri pentru dezvoltator, manager de proiect sau tester de joc. De asemenea, veți seta aptitudini și niveluri de competență necesare pentru rol.  
   
- Configurați roluri de resurse pentru a asigura o estimare eficientă a proiectului pentru organizația dvs.  De asemenea, asigurați-vă că ați stabilit cu precizie tipul de facturare. Un element setat cu un tip de facturare fără plată nu se afișează în liniile de contract sau de ofertă.  
+ Configurați roluri de resurse pentru a asigura o estimare eficientă a proiectului pentru organizația dvs.  De asemenea, asigurați-vă că ați stabilit cu precizie tipul de facturare.  Un element setat cu un tip de facturare fără plată nu se afișează în liniile de contract sau de ofertă.  
   
  Odată ce ați configurat roluri de resurse, puteți configura prețuri de costuri și vânzări cu o listă de prețuri.  
   

@@ -2,18 +2,16 @@
 title: Setări pentru contracte de proiecte - simplificat
 description: Acest subiect oferă informații despre câmpuri care au impact asupra liniilor de contract și informații despre contract care sunt rezumate în toate elementele rând.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
-ms.translationtype: HT
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663924"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995956"
 ---
 # <a name="header-details-for-project-contracts"></a>Detalii antet pentru contractele de proiect
 

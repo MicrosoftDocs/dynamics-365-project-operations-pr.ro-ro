@@ -3,17 +3,17 @@ title: Gestionarea stării și validărilor care nu trebuie depășite
 description: Acest subiect oferă informații despre verificările limită de nedepășit efectuate în Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130008"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866742"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Gestionarea stării și validărilor care nu trebuie depășite 
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 ## <a name="not-to-exceed-on-approvals"></a>Nu trebuie depășit la aprobări
 
-Când este trimisă o înregistrare de timp sau cheltuială, se creează o înregistrare de aprobare. Dacă aprobarea se plătește și se asociază unei linii contractuale de timp și materiale, sistemul finalizează o verificare de validare care nu trebuie depășită la următoarele niveluri:
+Când se trimite o intrare de timp, cheltuială sau utilizare a materialului, se creează o înregistrare de aprobare. Dacă aprobarea se plătește și se asociază unei linii contractuale de timp și materiale, sistemul finalizează o verificare de validare care nu trebuie depășită la următoarele niveluri:
 
   - Verificați limita stabilită pentru client pe linia contractului de proiect
   - Verificați limita stabilită pe linia de contract
@@ -34,11 +34,11 @@ Dacă verificarea trece, aprobării i se acordă un statut de validare de **Succ
 
 Dacă verificarea eșuează, aprobării i se acordă un statut de validare de **Eșuat**. Detaliile de validare care nu trebuie depășite vor informa utilizatorul la ce nivel de validare nu a reușit.
 
-Atunci când înregistrarea de timp sau cheltuială trimisă este considerată nefacturabilă, starea de validare care nu trebuie depășită este setată la **Nu se aplică** cu detaliul validării egal cu **Nu se aplică**.
+Când intrarea de timp, cheltuială sau utilizare a materialului trimisă este considerată netaxabilă, starea de validare care nu trebuie depășită este setată la **Nu se aplică** cu detaliul de validare egal cu **Nu se aplică**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Nu trebuie depășit pentru vânzările reale facturate
 
-Atunci când este aprobată o înregistrare de timp sau cheltuială, se creează înregistrări reale ale costurilor și ale vânzărilor nefacturate. Dacă vânzările reale nefacturate create sunt facturabile și mapate la o linie de contract de timp și materiale, aplicația realizează o validare care nu trebuie depășită la următoarele niveluri:
+Atunci când este aprobată o înregistrare de timp, cheltuială sau utilizare a materialului, se creează înregistrări reale ale costurilor și ale vânzărilor nefacturate. Dacă vânzările reale nefacturate create sunt facturabile și mapate la o linie de contract de timp și materiale, aplicația realizează o validare care nu trebuie depășită la următoarele niveluri:
 
   - Verificați limita stabilită pentru client pe linia contractului de proiect
   - Verificați limita stabilită pe linia de contract
@@ -55,9 +55,9 @@ Când vânzările reale facturate sunt considerate neimpozabile sau gratuite, da
 
 ## <a name="reset-the-not-to-exceed-status"></a>Resetați starea de nedepășire
 
-Puteți efectua o resetare masivă a stării nu trebuie depășit. Acest lucru permite managerilor de proiect să ajusteze validarea care nu trebuie depășită pentru a prioritiza facturarea unui anumit corp de muncă, timp sau cheltuieli față de altele care sunt deja angajate din suma disponibilă pentru a nu depăși.
+Puteți efectua o resetare masivă a stării nu trebuie depășit. Managerii de proiect pot ajusta validarea „nu depășește” pentru a prioritiza facturarea unui anumit corp de muncă, timp, cheltuială sau utilizare de materiale față de altele care sunt deja angajate din suma disponibilă care nu trebuie depășită.
 
-După ce starea de depășit este resetată pentru vânzările nefacturate, suma angajată este redusă. Managerul de proiect poate selecta un alt corp de muncă, timp sau cheltuieli care nu au reușit anterior validării care nu trebuie depășite și le poate reevalua. Odată cu reducerea sumei angajate, aceste efective vor trece acum validarea. Acest lucru ajută managerul de proiect să exercite o mai mare influență și control asupra tranzacțiilor facturabile pentru acea perioadă.
+După ce starea de depășit este resetată pentru vânzările nefacturate, suma angajată este redusă. Managerul de proiect poate selecta un alt corp de muncă, timp, cheltuială sau intrare de utilizare a materialului care nu a reușit anterior validarea de nedepășire și să o reevalueze. Odată cu reducerea sumei angajate, aceste date reale trec acum de validare, ceea ce îl ajută pe managerul de proiect să exercite o mai mare influență și control asupra tranzacțiilor facturabile pentru perioada respectivă.
 
 Pentru a reseta starea care nu trebuie depășită, selectați una sau mai multe date reale din vizualizarea **Restanțe de facturare de timp și materiale** sau **Reale**, apoi selectați **Resetați starea de nedepășire**.
 
@@ -73,3 +73,6 @@ Puteți efectua o reevaluare masivă a stării care nu trebuie depășită. Reev
 Pentru a reevalua starea care nu trebuie depășită, selectați una sau mai multe date reale din vizualizarea **Restanțe de facturare de timp și materiale** sau **Reale**, apoi selectați **Resetați starea de nedepășire**.
 
 Toate datele relevante selectate cu o limită de depășit vor fi evaluate în raport cu setarea limită de depășire. Informațiile care sunt relevante pentru reevaluarea stării care nu trebuie depășite sunt facturi de vânzare nefacturate care nu sunt deja facturate, nu sunt incluse într-o schiță de factură și sunt marcate drept facturabile. Orice alte elemente selectate selectate.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

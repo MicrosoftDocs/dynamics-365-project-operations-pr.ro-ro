@@ -2,18 +2,16 @@
 title: Configurarea parametrilor de gestionare a cheltuielilor
 description: Acest subiect descrie parametrii care controlează comportamentul general în Gestionarea cheltuielilor.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007791"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurarea parametrilor de gestionare a cheltuielilor
 
@@ -83,3 +81,6 @@ Acest subiect descrie parametrii care controlează comportamentul general în Ge
 | Afișați atestarea anticorupție   | Selectați această opțiune pentru a afișa textul anticorupție atunci când este creat un raport de cheltuieli. Pot fi apoi activate categorii de cheltuieli specifice care vor necesita selectarea atestatului anticorupție în raportul de cheltuieli. De exemplu, o categorie de cadouri care are legătură cu o cheltuială oficială a guvernului ar putea cere angajatului să confirme că cheltuiala respectă politica companiei care este legată de oficialii guvernamentali. |
 | Mesaj anticorupție pentru expeditor | Introduceți textul care trebuie afișat unui angajat care creează un raport de cheltuieli. Pentru a introduce text specific limbii care va fi afișat, pe baza limbii utilizatorului, selectați **Traduceri**. |
 | Mesaj anticorupție pentru aprobator  | Introduceți textul care trebuie afișat unui aprobator când este creat un raport de cheltuieli. Pentru a introduce text specific limbii care va fi afișat, pe baza limbii utilizatorului, selectați **Traduceri**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

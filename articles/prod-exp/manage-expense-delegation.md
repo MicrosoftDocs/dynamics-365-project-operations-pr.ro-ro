@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e3504a89f598c9acf3925e8b27930724ef2d3a5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271503"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960802"
 ---
 # <a name="manage-expense-delegation"></a>Gestionarea delegării cheltuielilor
 
@@ -41,6 +41,3 @@ Când cheia de gestionare a caracteristicilor **Activați pagina cu lista delega
 Un utilizator delegat poate filtra și căuta rapid rapoartele de cheltuieli existente care le-au fost delegate. De asemenea, pot crea un nou raport de cheltuieli pentru alți utilizatori selectând **Raport de cheltuieli nou**.
 
 Utilizatorii delegați pot crea și gestiona rapoarte de cheltuieli pentru alți angajați accesând **Managementul cheltuielilor** > **Cheltuielile mele** > **Rapoarte de cheltuieli** și selectând **Deschideți cheltuielile altor utilizatori**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

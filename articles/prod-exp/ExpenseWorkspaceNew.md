@@ -1,26 +1,29 @@
 ---
 title: Rapoarte de cheltuieli reproiectate
-description: Acest subiect oferă informații despre experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
+description: Acest subiect oferă informații despre experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli în Microsoft Dynamics 365 Finance. Noua experiență simplifică procesul de completare a rapoartelor de cheltuieli și scade timpul necesar.
 author: ryansandness
+manager: AnnBe
 ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bd334d3404e9baae4f8314173834d9fbb708d574
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993706"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082839"
 ---
 # <a name="redesigned-expense-reports"></a>Rapoarte de cheltuieli reproiectate
+[!include[banner](../includes/banner.md)]
 
 Intrarea raportului de cheltuieli a fost reproiectată pentru a simplifica procesul de completare a rapoartelor de cheltuieli și pentru a reduce timpul necesar. Iată componentele majore ale noii experiențe de cheltuieli:
 
@@ -38,6 +41,12 @@ Pentru a activa noua experiență, utilizați spațiul de lucru **Managementul c
 - Se adaugă un nou element de meniu pentru vizibilitatea câmpului de cheltuieli.
 - Nu sunt eliminate elemente de meniu existente pentru rapoartele de cheltuieli (pagina existentă) sau câmpurile pentru rapoarte de cheltuieli.
 - Fluxurile de lucru și orice aprobări vă duc în continuare la pagina de rapoarte de cheltuieli existente.
+
+## <a name="getting-started-video-for-new-users"></a>Video de început pentru noii utilizatori
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
+
+[Experiența de cheltuieli în videoclipul Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prezentat mai sus) este inclus în [Finance and Operations playlistul](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibil pe YouTube.
 
 ## <a name="new-features"></a>Caracteristici noi
 
@@ -70,6 +79,3 @@ Următoarele funcții sunt prezente pe pagina existentă, dar nu sunt încă pre
 - Flux de lucru la nivel de linie
 - Suport interimar pentru aprobare
 - Detaliere avansată
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

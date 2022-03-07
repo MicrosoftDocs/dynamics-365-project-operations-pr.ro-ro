@@ -2,11 +2,9 @@
 title: Integrare Microsoft Project Client
 description: Planificarea și menținerea unui plan de proiect pot fi complexe, astfel încât managerii de proiect trebuie să utilizeze instrumente care îi ajută să gestioneze această sarcină. Integrarea cu Microsoft Project Client oferă suport pentru deschiderea și gestionarea unei structuri detaliate a proiectului.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082857"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988036"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrare Microsoft Project Client
 
@@ -127,3 +125,13 @@ Pentru a crea o nouă structură detaliată a proiectului utilizând Microsoft P
 8.  Selectați **Calendar** pentru a fi folosit pentru resurse.
 
 11. Faceți clic pe **OK**.
+
+> [!NOTE]
+> Programul de completare Project Client nu acceptă următoarele caractere în formatul ID proiect:
+> 
+>   - Caracter de subliniere
+>   - Perioadă
+>   - Spațiu
+>   - Bară oblică
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

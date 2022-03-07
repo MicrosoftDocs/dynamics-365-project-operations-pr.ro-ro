@@ -2,18 +2,16 @@
 title: Rezervări versus atribuiri
 description: Acest subiect furnizează informații despre diferențele dintre rezervările de resurse și atribuirile de resurse.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
-ms.translationtype: HT
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008466"
 ---
 # <a name="bookings-vs-assignments"></a>Rezervări versus atribuiri
 
@@ -26,3 +24,6 @@ Spre deosebire de rezervări, atribuirile sunt angajamentul resurselor la activi
 De obicei, suma rezervărilor pentru o resursă va fi egală cu suma atribuțiilor resursei pentru una sau mai multe sarcini. Cu toate acestea, Project Operations nu pune în aplicare acest acord. Vizualizarea **Reconciliere** arată managerului de proiect unde rezervările unei resurse și atribuirile nu sunt de acord.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

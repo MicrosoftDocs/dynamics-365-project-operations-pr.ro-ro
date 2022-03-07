@@ -2,28 +2,26 @@
 title: Management de proiect și prezentare generală a contabilității
 description: Funcționalitatea de gestionare a proiectelor și contabilitate poate fi utilizată în mai multe industrii pentru a furniza un serviciu, a produce un produs sau a obține un rezultat.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007521"
 ---
 # <a name="project-management-and-accounting-overview"></a>Management de proiect și prezentare generală a contabilității
 
@@ -36,14 +34,14 @@ Un proiect este un grup de activități care este conceput pentru a oferi un ser
 ## <a name="projects-across-industries"></a>Proiecte între industrii
 Funcționalitatea de gestionare a proiectelor și contabilitate poate fi utilizată în mai multe industrii, așa cum se arată în ilustrația următoare.
 
-[![Proiecte între industrii](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proiecte între diverse industrii.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Într-un centru de apel, un bilet poate fi utilizat pentru a descrie setul de acțiuni necesare pentru rezolvarea unui apel. Companiile de consultanță, cum ar fi organizațiile de management sau consultanță tehnică sau agențiile de publicitate, se referă la activitățile lor ca proiecte. În marketing, o campanie reprezintă un set de comenzi care trebuie finalizate. În producția bazată pe proiecte, o comandă de producție se referă la diferitele lucrări care trebuie făcute pentru a produce unele produse finite. Indiferent de denumirea utilizată pentru acestea, aceste proiecte implică resurse, planificări și costuri, iar funcționalitatea de management și contabilitate a proiectului poate ajuta la planificarea, execuția și analiza acestor proiecte.
 
 ## <a name="project-phases"></a>Fazele proiectului
 Deși următorul flux de proces este destinat proiectelor externe sau proiectelor care sunt finalizate pentru unul sau mai mulți clienți, funcționalitatea se aplică și proiectelor interne, numai pe bază de costuri. 
 
-![3 etape ale unui proiect](./media/3-stages-of-a-project.png) 
+![3 etape ale unui proiect.](./media/3-stages-of-a-project.png) 
 
 După cum se arată în ilustrația precedentă, managementul proiectului și contabilitatea pot fi împărțite în trei etape:
 
@@ -52,7 +50,7 @@ După cum se arată în ilustrația precedentă, managementul proiectului și co
 3.  Analizare
 
 ## <a name="initiate-the-project"></a>Inițiază proiectul
-În timpul inițierii proiectului, apar mai multe procese cheie. Puteți utiliza o ofertă de proiect pentru a comunica clientului forța de muncă, cheltuielile și materialele estimate. Puteți înregistra termenii, limitele și acordurile de facturare într-un contract de proiect. Puteți utiliza o structură detaliată a proiectului (WBS) pentru a planifica și estima lucrarea. Puteți configura prognoze și bugete pentru a ghida execuția proiectului. Următoarea ilustrație arată structura unui proiect.[![structura proiectului](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+În timpul inițierii proiectului, apar mai multe procese cheie. Puteți utiliza o ofertă de proiect pentru a comunica clientului forța de muncă, cheltuielile și materialele estimate. Puteți înregistra termenii, limitele și acordurile de facturare într-un contract de proiect. Puteți utiliza o structură detaliată a proiectului (WBS) pentru a planifica și estima lucrarea. Puteți configura prognoze și bugete pentru a ghida execuția proiectului. Următoarea ilustrație arată structura unui proiect.[![structura proiectului.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Crearea de oferte de proiect
 
@@ -205,7 +203,7 @@ Puteți comanda articole din inventarul companiei pentru consum pe un proiect. A
 
 Modul în care comandați articole depinde de unde le comandați:
 
--   Pentru a comanda articole din inventarul companiei, trebuie să introduceți comanda ca cerință de articol. Dacă utilizați pagina **Cerințele articolului**, puteți configura cerința, astfel încât să primiți articole ca livrări parțiale.Prin urmare, puteți amâna consumul unei cantități de articole până când articolele sunt necesare.
+-   Pentru a comanda articole din inventarul companiei, trebuie să introduceți comanda ca cerință de articol. Dacă utilizați pagina **Cerințele articolului**, puteți configura cerința, astfel încât să primiți articole ca livrări parțiale. Prin urmare, puteți amâna consumul unei cantități de articole până când articolele sunt necesare.
 -   Pentru a comanda articole de la un furnizor extern, trebuie să creați comanda ca comandă de cumpărare pe pagina **Comandă de achiziție**.
 
 > [!NOTE] 
@@ -227,7 +225,7 @@ Tipul proiectului determină procedura de facturare care trebuie aplicată. Doar
 Înainte de a crea o factură de client pentru un proiect, puteți crea o factură preliminară sau o propunere de factură. Într-o propunere de factură, puteți selecta tranzacțiile de proiect pentru a le include într-o factură de proiect. Apoi puteți revizui detaliile facturii înainte de a posta factura proiectului și de a o trimite clientului sau altei surse de finanțare. 
 
 
-Pentru mai multe informații despre modul de procesare a facturilor de proiect, consultați [Facturarea proiectelor](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Pentru mai multe informații despre modul de procesare a facturilor de proiect, consultați [Facturarea proiectelor](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calculați costul pentru finalizarea unui proiect
@@ -300,7 +298,7 @@ Pe baza configurării dvs., puteți prognoza intrările de numerar pentru un pro
 -   **Data proiectului:** 5 martie 2012.
 -   **Data facturii:** 31 martie 2012. Această dată este stabilită pe baza frecvenței facturii. Pentru acest exemplu, setați frecvența facturii la luna curentă. Prin urmare, toate tranzacțiile înregistrate în luna martie sunt facturate în ultima zi a lunii.
 -   **Data scadentă:** 14 aprilie 2012. Această dată este stabilită pe baza condițiilor de plată stabilite pentru proiect. Pentru acest exemplu, ați selectat condiții de plată de 14 zile. Prin urmare, se adaugă 14 zile la data facturii pentru a ajunge la o dată scadentă din 14 aprilie 2012.
--   **Data estimată a plății pentru vânzări:** 27 aprilie 2012. Această dată se calculează prin adăugarea numărului de zile în câmpul **Zile de amortizare generale** pe pagina **Managementul proiectului și parametrii contabili**  cu numărul de zile din câmpul **Zile de amortizare individuale** pe pagina **Contracte de proiect**, apoi adăugând totalul la numărul de zile din câmpul **Data scadentă**. Pentru acest exemplu, ați introdus **3** în câmpul **Zile de amortizare generale** și **10** în câmpul **Zile de amortizare individuale**. Prin urmare, se adaugă 13 zile la data scadenței pentru a ajunge la o dată așteptată de plată a vânzărilor din 27 aprilie 2012.
+-   **Data estimată a plății pentru vânzări:** 27 aprilie 2012. Această dată se calculează prin adăugarea numărului de zile în câmpul **Zile de amortizare generale** pe pagina **Managementul proiectului și parametrii contabili** cu numărul de zile din câmpul **Zile de amortizare individuale** pe pagina **Contracte de proiect**, apoi adăugând totalul la numărul de zile din câmpul **Data scadentă**. Pentru acest exemplu, ați introdus **3** în câmpul **Zile de amortizare generale** și **10** în câmpul **Zile de amortizare individuale**. Prin urmare, se adaugă 13 zile la data scadenței pentru a ajunge la o dată așteptată de plată a vânzărilor din 27 aprilie 2012.
 
 Zilele de amortizare generale pot fie să înlocuiască zilele de amortizare individuale, fie să fie adăugate zilelor de amortizare individuale:
 
@@ -440,3 +438,6 @@ După calcularea raportului, puteți vizualiza următoarele informații pe difer
 -   **Consum** - Informații despre consumul de ore, articole, cheltuieli și tranzacții de salarizare.
 -   **Factura** - Informații despre facturi și facturare pe cont.
 -   **Rata pe oră** - Tarifele orare pentru orele care sunt înregistrate în conturile de venituri și costuri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

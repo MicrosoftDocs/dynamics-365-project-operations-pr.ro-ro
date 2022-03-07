@@ -2,18 +2,16 @@
 title: Estimează vânzările și costurile proiectului atunci când o resursă care poate fi rezervată îndeplinește mai multe roluri într-un proiect
 description: Acest subiect explică modul de utilizare a dimensiunilor de stabilire a prețurilor pentru a sprijini estimarea prețurilor și a costurilor pentru o resursă care îndeplinește mai multe roluri într-un proiect.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 7ef9765b7db1c6650fb0599bf5fb4b4b6304be69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531529"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013681"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimează vânzările și costurile proiectului atunci când o resursă care poate fi rezervată îndeplinește mai multe roluri într-un proiect 
 
@@ -106,3 +104,6 @@ Când extindeți rândul pentru înregistrarea respectivă a membrilor echipei, 
 ### <a name="estimates-grid"></a>Grilă estimări 
 
 Pe grila **Estimări**, ambele atribuții pentru aceeași resursă au un preț diferit. Atribuirea pentru resursa din **Activitatea A** este evaluată cu ajutorul valorii atributului **Rol** al **Lider consultant**. Atribuirea pentru aceeași resursă din **Activitatea B** este evaluată cu ajutorul valorii atributului **Rol** pentru **Tehnician rețea**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

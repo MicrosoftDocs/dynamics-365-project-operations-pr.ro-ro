@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147533"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120198"
 ---
 # <a name="propose-project-resources"></a>Propuneți resurse de proiect
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Managerii de resurse pot propune o resursă către managerul de proiect utilizând o solicitare de resurse.
 
@@ -65,7 +63,7 @@ Resursele pot avea o utilizare facturabilă țintă. Această utilizare țintă 
 
 Următoarele formule sunt utilizate pentru a calcula utilizarea:
 
-- Utilizare facturabilă = Ore efective taxabile ÷ Capacitate resursă.
+- Utilizare facturabilă = Ore efective taxabile ÷  Capacitate resursă.
 - Utilizare non-facturabilă = Timp real cu ID-ul de facturare = non-exigibil, Complementar sau Indisponibil ÷ capacitate resursă
 - Intern = Timp real fără contract de vânzare ÷ Capacitate resursă
 - Capacitate resursă = Ore de lucru resursă – Absent de la birou – zile nelucrătoare
@@ -82,9 +80,9 @@ Fiecare celulă din grilă reprezintă procentul de utilizare facturabil al resu
 
 Deoarece vizualizarea **Utilizare resurse** se bazează pe tabloul de planificare, aveți posibilitatea să utilizați capacitățile de filtrare ale tabloului de planificare pentru a filtra rezultatele.
 
-Grila necesită să setați o utilizare țintă fie pe rol, fie pe resursa individuală. Pentru a face această configurare, accesați **Resurse** \> **Roluri resurse**.
+Grila necesită să setați o utilizare țintă fie pe rol, fie pe resursa individuală. Pentru a face această configurare, accesați **Resurse**\> **Roluri resurse**.
 
-În plus, un rol implicit trebuie să fie atribuit fiecărei resurse care se poate rezerva. Accesați **Resurse** \> **Resurse**. În fila **Project Service**, verificați că este definit un rol de resursă și că câmpul **Este implicit** pentru acesta este setat la **Da**. Aveți posibilitatea să adăugați roluri suplimentare acolo unde **Este implicit = Nu**. Rolul în care **Este implicit = da** este utilizat pentru a evalua utilizarea resursei față de obiectivul pentru rolul respectiv.
+În plus, un rol implicit trebuie să fie atribuit fiecărei resurse care se poate rezerva. Accesați **Resurse**\> **Resurse**. În fila **Project Service**, verificați că este definit un rol de resursă și că câmpul **Este implicit** pentru acesta este setat la **Da**. Aveți posibilitatea să adăugați roluri suplimentare acolo unde **Este implicit = Nu**. Rolul în care **Este implicit = da** este utilizat pentru a evalua utilizarea resursei față de obiectivul pentru rolul respectiv.
 
 ![Set de roluri implicite](media/Resource-Management-image67.png)
 

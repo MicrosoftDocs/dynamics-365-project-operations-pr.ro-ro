@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002976"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Cum particularizez fluxul de business Fazele proiectului?
 
@@ -60,11 +60,11 @@ Dacă actualizarea nu este posibilă, aveți posibilitatea să particularizați 
 1. Adăugați faze suplimentare la configurația implicită, păstrând numele de fază în limba engleză pentru **Quote** (ofertă), **Plan** (planificare) și **Close** (închidere).
 
 
-![Captură de ecran cu adăugarea de faze la configurația implicită](media/FAQ-Customize-BPF-1.png)
+![Captură de ecran cu adăugarea de faze la configurația implicită.](media/FAQ-Customize-BPF-1.png)
  
 2. Creați-vă propriul flux de business și faceți din acesta fluxul de business principal pentru entitatea de proiect, lucru care vă permite să aveți orice nume de fază doriți. Cu toate acestea, dacă doriți să utilizați aceleași faze de proiect standard **Ofertă**, **Planificare** și **Închidere**, trebuie să faceți unele particularizări care sunt implicate de numele de fază personalizate. Logica mai complexă se află la închiderea proiectului, pe care îl puteți încă declanșa prin simpla dezactivare a înregistrării proiectului.
 
-![Particularizare BPF](media/FAQ-Customize-BPF-2.png)
+![Particularizare BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Considerente suplimentare pentru aplicația Project Service versiunea 2.4.4.30 sau mai veche pe platforma 9.0
 
@@ -80,11 +80,11 @@ Pentru a vă crea propriul flux de business pentru entitatea de proiect, faceți
 
 1. Accesați **Setări** > **Centru procese**. Nu copiați fluxul de business Faze proiect deoarece acest lucru copiază și logica de business a Project Service.
 
-  ![Creare proces](media/FAQ-Customize-BPF-3.png)
+  ![Creare proces.](media/FAQ-Customize-BPF-3.png)
 
 2. Utilizați Proiectantul de procese pentru a crea numele de fază pe care le doriți. Dacă doriți aceeași funcționalitate cu fazele implicite pentru **Ofertă**, **Planificare** și **Închidere**, va trebui să creați acest lucru pe baza numelor de fază ale fluxului dvs. de business personalizat.
 
-   ![Captură de ecran cu Proiectantul de Procese utilizat pentru personalizarea BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Captură de ecran cu Proiectantul de Procese utilizat pentru personalizarea BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. În Proiectantul de procese, faceți clic pe **Ordonare fluxuri de proces** pentru a face ca fluxul de business personalizat să fie fluxul de business primar pentru entitatea proiectului, mutându-l deasupra fluxului de business Faze proiect în partea de sus a listei.
 
@@ -95,15 +95,15 @@ Pentru a vă crea propriul flux de business pentru entitatea de proiect, faceți
 
 4. Adăugați un câmp nou personalizat la entitatea de proiect pentru a capta fazele personalizate în fluxul dvs. de business personalizat. Veți avea nevoie să adăugați logica de business (plugin/flux de lucru) pentru a actualiza acest câmp atunci când se actualizează faza pe fluxul de business personalizat.
 
-   ![Captură de ecran cu personalizarea entității Proiect](media/FAQ-Customize-BPF-6-720.png)
+   ![Captură de ecran cu personalizarea entității Proiect.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modificați diagrama **Proiect după fază** pentru a vă utiliza noul câmp personalizat pentru faze.
 
-   ![Captură de ecran cu utilizarea diagramei Proiect după fază](media/FAQ-Customize-BPF-7-720.png)
+   ![Captură de ecran cu utilizarea diagramei Proiect după fază.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modificați orice vizualizări pentru entitatea de proiect, astfel încât să includă noul dumneavoastră câmp personalizat pentru faze.
 
-   ![Captură de ecran cu modificarea vizualizărilor pe entitatea proiectului](media/FAQ-Customize-BPF-8-720.png)
+   ![Captură de ecran cu modificarea vizualizărilor pe entitatea proiectului.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

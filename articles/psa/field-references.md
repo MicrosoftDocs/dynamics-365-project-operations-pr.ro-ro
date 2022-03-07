@@ -2,12 +2,10 @@
 title: Adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale
 description: Acest subiect furnizează informații despre adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0eebafe8b4ce54c6ad6ca64200caea8fa414f6cf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148478"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007561"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale 
 
@@ -150,3 +148,6 @@ Următorul tabel oferă o listă cuprinzătoare de formulare și vizualizări pr
 |  Real|• Informații<br>• Valori reale active|• Vizualizare asociată valori reale|
 
 Câmpurile particularizate pot fi, de asemenea, adăugate în reguli de business în funcție de ceea ce ați definit. Un exemplu predefinit este pentru regula de business **Editabilitatea intrării de timp bazate pe stare**. Această regulă definește câmpurile care trebuie blocate când Intrarea de timp este într-o stare non-editabilă, cum ar fi **Aprobat**. Adăugați câmpuri la această regulă de business, astfel încât câmpurile să fie blocate pentru editare atunci când Intrarea de timp este într-o altă stare decât **Schiță** sau **Returnat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

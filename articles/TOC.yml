@@ -4,6 +4,8 @@
   items:
     - name: Determinarea tipului de implementare
       href: environment/determine-deployment-type.md
+    - name: Înscrierea pentru versiuni de încercare Project Operations
+      href: environment/admin-trials.md
     - name: Actualizări Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -12,7 +14,7 @@
       items:
         - name: Prezentare generală a implementării Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: environment/project-operations-integrated-deployment-overview.md
-        - name: Înscrieți-vă pentru un abonament de previzualizare
+        - name: Înscrieți-vă pentru un abonament în versiune preliminară
           href: environment/resource-sign-up-preview-subscription.md
         - name: Navigarea în Project Operations
           href: environment/navigate-project-operations.md
@@ -28,6 +30,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Implementarea mediilor
           items:
+            - name: Implementarea manuală a aplicației Dataverse Project Operations cu suport pentru scriere duală
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Asigurarea accesului pentru un nou mediu
               href: environment/resource-provision-new-environment.md
             - name: Model de securitate
@@ -52,6 +56,14 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Noutăți
       items:
+        - name: August 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: Iulie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Iunie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: Mai 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Martie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -280,7 +292,7 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor de planificare (versiune preliminară publică)
+            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
               href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
@@ -340,11 +352,11 @@
               href: resource-management/resource-utilization-overview.md
     - name: Timp
       items:
-        - name: Prezentare generală de timp
+        - name: Prezentare generală a timpului
           href: time/time-entry-overview.md
         - name: Crearea intrărilor de timp
           items:
-            - name: Interfața cu utilizatorul pentru introducerea de timp
+            - name: Interfața cu utilizatorul pentru intrările de timp
               href: time/ui-behavior-time.md
         - name: Note pentru dezvoltatori
           items:
@@ -374,6 +386,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Configurarea categoriilor de cheltuieli
               href: expense/set-up-expense-categories.md
+            - name: Configurarea kilometrajului utilizând nivelurile de rată a kilometrajului
+              href: expense/set-up-mileage.md
         - name: Cheltuieli personale
           href: expense/personal-expenses-expense-report.md
         - name: Cheltuieli între companii
@@ -408,6 +422,8 @@
       items:
         - name: Prezentare generală a aprobărilor
           href: approvals/approvals-overview.md
+        - name: Seturi de aprobări
+          href: approvals/approval-sets.md
         - name: Note pentru dezvoltatori
           items:
             - name: Note pentru dezvoltatori pentru aprobări
@@ -426,14 +442,12 @@
       items:
         - name: Configurați materialele care nu sunt pe stoc și facturile de vânzător în așteptare
           href: procurement/configure-materials-nonstocked.md
-        - name: Achiziționați pentru proiecte materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
+        - name: Achiziționarea pentru proiecte a unor materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
           href: procurement/pending-vendor-invoices.md
     - name: Facturare
       items:
         - name: Prezentare generală a procesului de facturare
           href: invoicing/post-project-invoices.md
-        - name: Gestionarea propunerilor de facturi pentru proiect
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Facturare proforma
           items:
             - name: Gestionarea jurnalului de așteptare pentru facturarea bazată pe proiect
@@ -452,8 +466,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurarea automatizării facturilor bazate pe proiect
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Gestionarea propunerilor de facturi pentru proiect
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Facturare client
+          items:
+            - name: Gestionarea propunerilor de facturi pentru proiect
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Facturare între companii
+          items:
+            - name: Prezentare generală a facturării între companii
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurarea facturării între companii
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Crearea de tranzacții între companii
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Crearea de facturi de client și furnizor între companii
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Contabilitatea proiectelor
       items:
         - name: Valori implicite pentru dimensiunile financiare
@@ -466,16 +494,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Jurnalul de integrare în Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Facturare între companii
-          items:
-            - name: Prezentare generală a facturării între companii
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Configurarea facturării între companii
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Crearea de tranzacții între companii
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Crearea de facturi de client și furnizor între companii
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Recunoașterea veniturilor
       items:
         - name: Prezentare generală a recunoașterii veniturilor
@@ -498,7 +516,7 @@
       items:
         - name: Prezentare generală a implementării simplificate
           href: pro/project-operations-overview-lite.md
-        - name: Înscrierea pentru un abonament de previzualizare - simplificat
+        - name: Înscrierea pentru un abonament în versiune preliminară - simplificat
           href: environment/lite-preview-subscription-sign-up.md
         - name: Implementarea Project Operations - simplificată
           href: environment/lite-deployment.md
@@ -508,6 +526,16 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
+        - name: Noutăți 2021 - valul 2 de acces timpuriu - implementare simplificată
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Noutăți august 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: Noutăți iulie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Noutăți iunie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: Noutăți mai 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Noutăți aprilie 2021 - implementare simplificată
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Noutăți martie 2021 - implementare simplificată
@@ -756,7 +784,7 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor de planificare (versiune preliminară publică)
+            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
               href: project-management/schedule-api-preview.md
     - name: Gestionarea resurselor
       items:
@@ -814,13 +842,37 @@
           items:
             - name: Prezentare generală a utilizării resurselor
               href: resource-management/resource-utilization-overview.md
+    - name: Subcontractarea gestionării în Project Operations
+      items:
+        - name: Subcontractarea gestionării în Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Subcontractarea în octombrie 2021 - acces timpuriu
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Concepte cheie în subcontractare
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gestionarea furnizorilor și a listelor de prețuri ale proiectelor
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontractanții ca resurse ce se pot rezerva
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalii de antet pentru subcontracte
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Linii de subcontract pentru timp
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Linii de subcontract pentru cheltuieli
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Linii de subcontract pentru produse
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Resursele de linie de subcontractare
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Jaloanele de linie de subcontractare
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Timp
       items:
-        - name: Prezentare generală de timp
+        - name: Prezentare generală a timpului
           href: time/time-entry-overview.md
         - name: Crearea intrărilor de timp
           items:
-            - name: Interfața cu utilizatorul pentru introducerea de timp
+            - name: Interfața cu utilizatorul pentru intrările de timp
               href: time/ui-behavior-time.md
         - name: Note pentru dezvoltatori
           items:
@@ -840,6 +892,8 @@
       items:
         - name: Prezentare generală a aprobărilor
           href: approvals/approvals-overview.md
+        - name: Seturi de aprobări
+          href: approvals/approval-sets.md
         - name: Note pentru dezvoltatori
           items:
             - name: Note pentru dezvoltatori pentru aprobări
@@ -876,6 +930,10 @@
   items:
     - name: Noutăți
       items:
+        - name: Noutăți iulie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Noutăți mai 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Noutăți aprilie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Noutăți martie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -1028,6 +1086,16 @@
       items:
         - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 35, V3'
+          href: psa/whats-new-ur-35.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 34, V3'
+          href: psa/whats-new-ur-34.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 30, V3'
@@ -1262,10 +1330,12 @@
           items:
             - name: Crearea intrărilor de timp
               href: psa/time-entries.md
-            - name: Calendar cu intrări de timp
+            - name: Calendarul cu intrări de timp
               href: psa/time-entry-calendar.md
             - name: Particularizarea intrărilor de timp săptămânale
               href: psa/time-entry-extensibility-v3.md
+            - name: Seturi de aprobări în Project Service Automation
+              href: psa/approval-set.md
     - name: Întrebări frecvente și depanare (3.x)
       items:
         - name: De ce prețul pentru cheltuielile reale de costuri are valoarea implicită zero?

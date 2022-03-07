@@ -2,11 +2,9 @@
 title: Granturi de proiecte
 description: Acest subiect explică modul de creare sau modificare a unei subvenții.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: c58a051b8129cadbde491751a946b75a75cb85118c7f0c7d25a06d322ffea596
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082977"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995776"
 ---
 # <a name="project-grants"></a>Granturi de proiecte
 
@@ -79,3 +77,6 @@ Puteți crea o subvenție introducând toate detaliile într-o nouă înregistra
 2. Selectați grantul de modificat.
 3. În panoul de acțiuni, în fila **Grant**, în grupul **Menținere**, selectați **Editare**.
 4. Examinați detaliile grantului și efectuați modificările necesare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

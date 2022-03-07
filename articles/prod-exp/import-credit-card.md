@@ -2,11 +2,9 @@
 title: Importul și menținerea tranzacțiilor cu cardul de credit
 description: Acest subiect explică cum să importați și să mențineți tranzacțiile cu cardul de credit legate de cheltuieli. Aceste tranzacții pot fi configurate astfel încât să fie importate automat într-o planificare recurentă sau să poată fi importate manual, după cum sunt necesare.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271593"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995866"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importul și menținerea tranzacțiilor cu cardul de credit
 
 Tranzacțiile legate de cheltuieli cu cardul de credit pot fi configurate astfel încât să fie importate automat într-un program recurent. Alternativ, tranzacțiile pot fi importate manual, după cum sunt necesare. Tranzacțiile cu cardul de credit sunt importate prin intermediul entității de date privind tranzacțiile cu cardul de credit.
 
-Pentru mai multe informații despre entitățile de date, consultați [Entități de date](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Pentru mai multe informații despre entitățile de date, consultați [Entități de date](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Importați tranzacții cu cardul de credit
 

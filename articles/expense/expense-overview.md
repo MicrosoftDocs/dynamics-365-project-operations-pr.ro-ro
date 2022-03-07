@@ -2,19 +2,18 @@
 title: Prezentare generală a cheltuielilor
 description: Acest subiect oferă informații despre lucrul cu funcționalitatea cheltuieli în Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.custom: intro-internal
+ms.openlocfilehash: 921df6fa8f1eb33bd01792c0b7c787fc74604adf
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764924"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368581"
 ---
 # <a name="expense-home-page"></a>Pagina principală a cheltuielilor
 
@@ -44,3 +43,6 @@ Pentru informații suplimentare, consultați [Intrare cheltuială (simplificată
 
 ## <a name="determine-your-expense-deployment"></a>Determinarea Implementării de cheltuială
 Pentru a determina dacă executați implementarea de gestionare a cheltuielilor de bază, verificați dacă adresa URL se termină cu **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

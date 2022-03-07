@@ -1,21 +1,21 @@
 ---
-title: Prezentare generală a liniilor de oferte ale proiectului
-description: Acest subiect oferă informații despre utilizarea de linii de ofertă de proiect pentru lucrul la un proiect.
+title: Linii de oferte bazate pe proiect
+description: Acest subiect oferă informații despre utilizarea liniilor de ofertă bazate pe proiecte pentru lucrările de proiect.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858047"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082663"
 ---
-# <a name="project-quote-lines-overview"></a>Prezentare generală a liniilor de oferte ale proiectului
+# <a name="project-based-quote-lines"></a>Linii de oferte bazate pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
@@ -31,7 +31,7 @@ Liniile de ofertă bazate pe proiect sunt concepute pentru a ajuta la estimarea 
 
 Următorul tabel oferă informații despre câmpurile de pe fila **General** a liniei de ofertă bazată pe proiect. Aceste câmpuri ajută la stabilirea bazei unei estimări detaliate, fundamentate pentru lucrările de proiect.
 
-| **Câmp** | **Descriere** | **Impactul din aval** |
+| **Câmp** | **Relevanță, scop și îndrumare** | **Impactul din aval** |
 | --- | --- | --- |
 | Nume | Numele liniei de cotație care ar trebui să vă ajute să identificați componenta discretă a cotației care este estimată. | Copiat pe linia contractului de proiect care este creată din această linie de cotație atunci când oferta este câștigată. |
 | Metodă de facturare | Pe o ofertă creată dintr-o oportunitate, această valoare este copiată din câmpul corespunzător de pe linia de oportunitate. Acest câmp include cele două modele principale de contractare acceptate de Dynamics 365 Project Operations:</br>- Preț fix</br>- Timp și material.| Această valoare de câmp este copiată pe linia de contract de proiect care este creată din această linie de ofertă atunci când oferta este câștigată. |
@@ -635,6 +635,3 @@ Nu este valid </p>
     </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

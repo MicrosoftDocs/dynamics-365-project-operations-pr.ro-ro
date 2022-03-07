@@ -1,5 +1,5 @@
 ---
-title: Seturi de aprobări în Project Service Automation
+title: Seturi de aprobări
 description: Acest subiect oferă informații despre setul de aprobări, cereri și subseturile acelor operațiuni.
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: e57944b3031ff8b6da163125bb6668875ae77bd06f23a5b8c4ef06f396210e4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323566"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995506"
 ---
-# <a name="approval-sets-in-project-service-automation"></a>Seturi de aprobări în Project Service Automation
+# <a name="approval-sets"></a>Seturi de aprobări
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

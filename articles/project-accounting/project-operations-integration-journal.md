@@ -2,18 +2,16 @@
 title: Jurnalul de integrare în Project Operations
 description: Acest subiect oferă informații despre lucrul cu jurnalul de integrare în Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948345"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987946"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnalul de integrare în Project Operations
 
@@ -21,14 +19,14 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Intrări de timp și cheltuieli creează tranzacții **Reale** care reprezintă vizualizarea operațională a lucrului realizat într-un proiect. Dynamics 365 Project Operations oferă contabililor un instrument pentru a revizui tranzacțiile și a ajusta atributele contabile după cum este necesar. După finalizarea revizuirii și ajustărilor, tranzacțiile sunt înregistrate în contabilitatea proiectului și registrul general. Un contabil poate efectua aceste activități folosind jurnalul **Integrarea Project Operations** (**Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Jurnale** > **Integrarea Project Operations**.
 
-![Fluxul jurnalului de integrare](./media/IntegrationJournal.png)
+![Fluxul jurnalului de integrare.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Creați înregistrări în jurnalul Project Operations de integrare
 
 Înregistrările din jurnalul de integrare a Project Operations sunt create utilizând un proces periodic, **Importați din tabelul de etapizare**. Puteți rula acest proces accesând **Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Periodic** > **Integrarea Project Operations** > **Importați din tabelul de etapizare**. Puteți rula procesul interactiv sau configura procesul pentru a rula în fundal, după cum este necesar.
 
 Când rulează procesul periodic, sunt găsite toate datele care nu sunt încă adăugate în jurnalul de integrare a Project Operations. Se creează o linie jurnal pentru fiecare tranzacție reală.
-Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (**Finanțe** > **Management de proiect și contabilitate** > **Configurare** > **Managementul proiectului și parametrii contabili**, fila **Project Operations Dynamics 365 Customer Engagement**). Valorile posibile pentru acest câmp includ:
+Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (**Finance** > **Management de proiect și contabilitate** > **Configurarea** > **Managementul proiectului și parametrii contabili**, fila **Project Operations Dynamics 365 Customer Engagement**). Valorile posibile pentru acest câmp includ:
 
   - **Zile**: datele reale sunt grupate după data tranzacției. Se creează un jurnal separat pentru fiecare zi.
   - **Luni**: datele reale sunt grupate după luna calendaristică. Se creează un jurnal separat pentru fiecare lună.

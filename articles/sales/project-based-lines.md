@@ -2,18 +2,16 @@
 title: Linii de proiect bazate pe oportunitate
 description: Acest subiect oferă informații despre lucrul cu linii de oportunitate pe bază de proiect.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181962"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996361"
 ---
 # <a name="project-based-opportunity-lines"></a>Linii de proiect bazate pe oportunitate
 
@@ -33,3 +31,6 @@ Mai jos sunt câmpurile de pe o linie de oportunități bazată pe proiecte:
 | Nume | Fila General | Acesta este un câmp de text editabil care poate fi utilizat pentru a da o identitate scurtă a acestui element de linie | Această valoare este reportată la linia de ofertă atunci când creați o ofertă din această oportunitate |
 | Buget client | Fila General | Acest câmp valutar editabil poate fi utilizat pentru a urmări suma pe care clientul este dispus să o cheltuiască pentru acest element rând. | Această valoare este reportată la câmpul corespondent pe linia de ofertă atunci când creați o ofertă din această oportunitate |
 | Metodă de facturare | Fila General | Acest câmp editabil are următoarele valori:</br>- Timp și material</br>- Preț fix | Această valoare este reportată la câmpul corespondent pe linia de ofertă atunci când creați o ofertă din această oportunitate. După crearea liniei de ofertă, câmpul este blocat și nu poate fi schimbat. Atribuiți această valoare câmpului cât mai exact posibil. Dacă trebuie să modificați valoarea acestui câmp pe linia de ofertă, ștergeți și recreați linia de ofertă. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,25 @@
 ---
-title: Prezentare generală a liniilor de contract bazate pe produs - simplificat
+title: Prezentare generală a liniilor de contract bazate pe produs
 description: Acest subiect oferă informații despre linii de contract pe bază de produs.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272673"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082723"
 ---
-# <a name="product-based-contract-lines-overview---lite"></a>Prezentare generală a liniilor de contract bazate pe produs - simplificat
+# <a name="product-based-contract-lines-overview"></a>Prezentare generală a liniilor de contract bazate pe produs
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Aveți posibilitatea să creați linii de contract bazate pe produse în Dynamics 365 Project Operations. Liniile de contract bazate pe produse pot fi linii create manual sau pot fi elemente din catalogul de produse.
+Puteți crea linii de contract pe bază de produs în Dynamics 365 Project Operations. Liniile de contract bazate pe produse pot fi linii create manual sau pot fi elemente din catalogul de produse.
 
 ## <a name="product-catalog"></a>Catalog de produse
 
@@ -46,6 +46,3 @@ Dacă o linie de contract se bazează pe un catalog de produse, aveți posibilit
 Dacă configurați câmpul **Prețuri** la **Înlocuire preț**, prețul implicit nu este configurat. Introduceți un preț pentru produsul de pe linia de contract. Dacă setați câmpul la **Utilizare implicit**, se folosește prețul de vânzare implicit și câmpul nu poate fi editat.
 
 După ce instalați Project Operations, prețurile de vânzare implicite sunt introduse pe liniile bazate pe produs pe un contract. Câmpul **Stabilire preț** este atunci configurat la **Înlocuire preț** astfel încât puteți edita prețul implicit pe liniile de contract. Aceasta este o suprascriere specifică Project Operations la comportamentul liniilor bazate pe produse în Dynamics 365 Sales.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

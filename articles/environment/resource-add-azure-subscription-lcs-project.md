@@ -2,18 +2,16 @@
 title: Adăugarea unui abonament Azure unui proiectul LCS
 description: Acest subiect oferă informații despre cum să vă conectați abonamentul Azure la un proiect LCS.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
-ms.translationtype: HT
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986686"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adăugarea unui abonament Azure unui proiectul LCS
 
@@ -25,35 +23,35 @@ Mediile găzduite în cloud trebuie să fie implementate utilizând un abonament
 
 1. În proiectul dvs. LCS, în secțiunea **Medii**, selectați **Microsoft Azure setări**.
 
-![Setările Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Setări Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Pe pagina **Setările proiectului**, pe fila **Conectori Azure**, selectați **Autorizare**. Acest lucru permite implementarea mediilor în acest proiect.
 
-![Conectori Azure](./media/2AzureConnectors.png)
+![Conectori Azure.](./media/2AzureConnectors.png)
 
 3. Selectați **Autorizare** din nou pentru a furniza consimțământul administratorului.
 
-![Acordați consimțământul administratorului](./media/3GrantAdminConsent.png)
+![Acordă consimțământul de administrator.](./media/3GrantAdminConsent.png)
 
 4. Acceptați solicitarea de permisiuni.
 
-![Acceptați solicitarea de permisiune](./media/4AcceptPermissionRequest.png)
+![Acceptați solicitarea de permisiune.](./media/4AcceptPermissionRequest.png)
 
 Autorizația este acum completă. 
 
-![Autorizarea a reușit](./media/5AuthorizationComplete.png)
+![Autorizarea a reușit.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Oferiți acces la serviciile de implementare dinamică la abonamentul dvs. Azure
 
 1. Accesați [Microsoft Azure facturare](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) și selectați-vă abonamentul. Dynamics Deployment Services trebuie să acceseze acest abonament pentru a putea implementa medii.
 
-![Detalii abonament Azure](./media/6AzureSubscription.png)
+![Detalii abonament Azure.](./media/6AzureSubscription.png)
 
 2. Selectați **Control acces (IAM)** în panoul de navigare, apoi selectați **Adăugați atribuirea de roluri**.
 3. În glisorul din partea dreaptă, selectați **Rol de colaborator**, și în lista furnizată, găsiți și selectați **Dynamics Deployment Services**. 
 4. Selectați **Salvare**.
 
-![Acces abonamente](./media/7SubscriptionAccess.png)
+![Acces abonament.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Adăugați un conector de abonament la un proiect LCS
 

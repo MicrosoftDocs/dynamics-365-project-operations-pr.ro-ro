@@ -2,8 +2,6 @@
 title: Configurați setările parametrilor suplimentari
 description: Cum să configurați setările de parametru suplimentare în Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73264845808e12950a48eea2b79e54c393d9c024
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fb23569db5136cd1b8b7d2f5735de8a91b441b76ab7e027d27087b3785f4636e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000456"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurarea setărilor de parametru suplimentare (Project Service)
 
@@ -67,3 +65,6 @@ Pentru a seta parametrii de proiect:
 
 ### <a name="see-also"></a>Consultați și  
  [Configurați resursele](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

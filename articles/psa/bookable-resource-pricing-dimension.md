@@ -17,17 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082895"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizați resursa care se poate rezerva ca dimensiune de tarifare
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 Acest subiect furnizează informații despre utilizarea unei resurse rezervabile ca dimensiune de tarifare. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din subiectul [Creare câmpuri și entități particularizate](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adăugați o resursă rezervabilă la formulare și vizualizări

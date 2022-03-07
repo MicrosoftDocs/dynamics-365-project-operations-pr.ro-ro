@@ -3,7 +3,7 @@ title: Vizualizați și trimiteți facturi
 description: Cum să vizualizați și să trimiteți facturi în Project Service
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f67254267e1d6f5db3a1cdf4b9c0f4d44226a4f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4082868"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Vizualizați și trimiteți facturi (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

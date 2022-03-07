@@ -2,17 +2,17 @@
 title: Configurarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate
 description: Acest subiect explică modul de activare a materialelor care nu există pe stoc și a facturilor de la furnizori neachitate.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993926"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003246"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate
 
@@ -59,11 +59,11 @@ Dacă utilizați date demo standard, poate fi necesar de asemenea să opriți ș
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Activați fluxul de lucru pentru a crea conturi bazate pe entitatea furnizorului
 
-Soluția de orchestrare cu scriere duală oferă [Integrarea principală a furnizorilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Ca o condiție prealabilă pentru această caracteristică, datele furnizorului trebuie create în entitatea **Conturi**. Activați un proces privind fluxul de lucru tip șablon pentru a crea furnizori în tabelul **Conturi** așa cum este descris în [Comutați între proiectele furnizorilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Soluția de orchestrare cu scriere duală oferă [Integrarea principală a furnizorilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Ca o condiție prealabilă pentru această caracteristică, datele furnizorului trebuie create în entitatea **Conturi**. Activați un proces privind fluxul de lucru tip șablon pentru a crea furnizori în tabelul **Conturi** așa cum este descris în [Comutați între proiectele furnizorilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Setați ca produsele să fie create ca active
 
-Materialele care nu există pe stoc trebuie să fie configurate ca **Produse lansate** în Finanțe. Soluția de orchestrare cu scriere duală oferă o [Integrare a produselor lansate în Catalogul de produse Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) neconvențională. În mod implicit, produsele de la Finanțe sunt sincronizate cu Dataverse sub formă de schiță. Pentru a sincroniza produsul la o stare activă, astfel încât să poată fi utilizat direct în documentele de utilizare a materialelor sau în facturile de la furnizori neachitate, accesați **Sistem** > **Administrare** > **Administrarea sistemului** > **Setările sistemului** și pe fila **Vânzări**, setați **Creați produse în starea activă** la **Da**.
+Materialele care nu există pe stoc trebuie să fie configurate ca **Produse lansate** în Finanțe. Soluția de orchestrare cu scriere duală oferă o [Integrare a produselor lansate în Catalogul de produse Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) neconvențională. În mod implicit, produsele de la Finanțe sunt sincronizate cu Dataverse sub formă de schiță. Pentru a sincroniza produsul la o stare activă, astfel încât să poată fi utilizat direct în documentele de utilizare a materialelor sau în facturile de la furnizori neachitate, accesați **Sistem** > **Administrare** > **Administrarea sistemului** > **Setările sistemului** și pe fila **Vânzări**, setați **Creați produse în starea activă** la **Da**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Configurarea cerințelor preliminare în Finanțe
 
@@ -88,7 +88,7 @@ Revizuiți costurile proiectului și profilurile veniturilor și configurați se
 2. În câmpul **Tip produs**, selectați **Articol** și în câmpul **Subtipul produsului**, selectați **Produs**.
 3. Introduceți numărul produsului (WRITEIN) și numele produsului (Produs din afara catalogului).
 4. Selectați grupul cu modele de articole. Asigurați-vă că grupul cu modele de articole pe care îl selectați are câmpul **Politica de inventar privind Produsul stocat** setat la **Fals**.
-5. Selectați valorile din câmpurile **Grupul cu articole**, **Grupul privind dimensiunea de stocare** și **Grupul privind dimensiunea de urmărire**. Folosiți numai **Dimensiunea de stocare** pentru **Site** și nu setați nicio dimensiune de urmărire.
+5. Selectați valorile din câmpurile **Grupul cu articole**, **Grupul privind dimensiunea de stocare** și **Grupul privind dimensiunea de urmărire**. Utilizați **Dimensiunea de stocare** numai pentru **Site** și în câmpul **Dimensiuni de urmărire**, selectați **Nici unul**.
 6. Selectați valorile din câmpul **Unitate de inventar**, **Unitate de achiziții** și **Unitate de vânzări**, apoi salvați-vă modificările.
 7. În fila **Plan**, setați setările implicite ale comenzii și pe fila **Inventar**, setați site-ul și depozitul implicit.
 8. Accesați **Management de proiect și contabilitate** > **Configurare** > **Management de proiect și parametrii contabili** și deschideți **Project Operations pe Dynamics 365 Dataverse**. 

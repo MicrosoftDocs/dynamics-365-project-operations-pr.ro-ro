@@ -2,11 +2,9 @@
 title: Configurați fluxuri de lucru pentru gestionarea cheltuielilor
 description: Puteți configura un proces de flux de lucru care este utilizat pentru a revizui și aproba documentele de călătorie și cheltuieli.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127713"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997756"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Configurați fluxuri de lucru pentru gestionarea cheltuielilor
 
@@ -48,3 +46,6 @@ Următorul tabel listează tipurile de fluxuri de lucru în care puteți crea **
 |       <strong>Cerere de călătorie</strong>       |          Creați fluxuri de lucru de aprobare pentru cererile de călătorie.           |
 |      <strong>Solicitare de avans în numerar</strong>      |         Creați fluxuri de lucru de aprobare pentru solicitări de avans în numerar.          |
 |        <strong>Recuperarea impozitului TVA</strong>        | Creați fluxuri de lucru de aprobare pentru recuperarea taxei pe valoarea adăugată (TVA).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

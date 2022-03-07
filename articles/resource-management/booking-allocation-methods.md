@@ -2,11 +2,9 @@
 title: Metode de alocare a rezervării
 description: Acest subiect oferă informații despre cum funcționează metodele de alocare a rezervării în Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 839ef1f1d35c7d900794c0af36e6bc9ea640c497
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121503"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998786"
 ---
 # <a name="booking-allocation-methods"></a>Metode de alocare a rezervării
 
@@ -81,3 +79,6 @@ Metoda Niciunul este disponibilă numai atunci când rezervați din fila **Echip
 - Distribuire uniformă a orelor
 
 Când utilizați una dintre aceste trei metode de alocare, nu veți fi notificat cu privire la faptul că resursa este suprarezervată. Pentru a corecta suprarezervarea trebuie să utilizați Tabloul de planificare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

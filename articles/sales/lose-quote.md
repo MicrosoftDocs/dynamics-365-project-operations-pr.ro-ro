@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b1ce6c2b644319f2d822010a34c57c591f82edc9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181827"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278163"
 ---
 # <a name="copy-project-based-quotes"></a>Copierea ofertelor bazate pe proiect
 
@@ -45,3 +45,6 @@ Când selectați **OK** pe pagina de dialog, sistemul creează o copie a ofertei
 > - Referința proiectului pe liniile de ofertă bazate pe proiect - Informații despre bugetul clienților
 >
 >Deoarece aceste informații sunt foarte specifice fiecărei oferte, aceste câmpuri și înregistrări nu sunt copiate. Se copiază liniile de ofertă pentru proiecte și produse, estimările privind detaliile liniei de ofertă și valorile care nu trebuie depășite la nivelul ofertelor. Valoarea implicită a prețului și a costului depinde de opțiunea **Preț copiere** selectată pe pagina de dialog **Copiați parametrii**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

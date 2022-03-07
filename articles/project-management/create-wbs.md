@@ -2,18 +2,16 @@
 title: Crearea unei structuri detaliate a proiectului
 description: Acest subiect explică cum să creați o structură detaliată a proiectului (WBS) incluzând comenzile de bază în noua interfață de planificare.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841388"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005716"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -93,6 +91,8 @@ Următorul tabel prezintă atribute de programare suplimentare.
 | Nume | Numele sarcinii. |
 | ID | ID-ul sarcinii din structura detaliată a proiectului. |
 
+În calitate de administrator, puteți defini câmpuri personalizate pe entitatea sarcină. Cu toate acestea, câmpurile nu pot fi afișate în grila de programare. Pentru a vedea câmpurile personalizate, adăugați-le la pagina de detalii pentru **Sarcina proiectului**.
+
 ## <a name="staffing-attributes"></a>Atribute de personal
 
 Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să selectați **Creare** și în panoul **Creare rapidă** să adăugați un membru al echipei de proiect ca o resursă nouă.
@@ -116,3 +116,6 @@ Modul de activitate nu are niciun efect asupra actualizărilor efectuate la date
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Comenzi rapide de la tastatură și accesibilitate
 
 Grila de **Planificare** este complet accesibilă și poate fi utilizată cu cititoare de ecran, ar fi Narator, JAWS sau NVDA. Aveți posibilitatea să vă deplasați prin zona grilă utilizând tastele săgeată (ca în Microsoft Excel), puteți utiliza tasta Tab pentru a avansa printre elementele interfeței cu utilizatorul interactive și puteți utiliza tasta săgeată în jos, tasta Enter sau bara de spațiu pentru a selecta și a deschide meniurile verticale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: Configurarea tarifelor facturii pentru muncă - simplificat
 description: Acest subiect oferă informații despre configurarea ratelor de facturare a costului pentru muncă în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007611"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Configurarea tarifelor facturii pentru muncă - simplificat
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Fiecare listă de prețuri are un set de prețuri de roluri sau rate ale forței de muncă, care sunt eficiente pentru context și intră în vigoare la data inclusă pe antetul listei de prețuri. Tarifele de facturare pentru timp în Dynamics 365 Project Operations pot fi configurate într-o singură monedă, care este moneda din antetul listei de prețuri.
+Fiecare listă de prețuri are un set de prețuri de roluri sau rate ale forței de muncă, care sunt eficiente pentru context și intră în vigoare la data inclusă pe antetul listei de prețuri. Tarifele facturilor pentru timp în Dynamics 365 Project Operations pot fi configurate într-o singură monedă, care este moneda din antetul listei de prețuri.
 
 1. Pentru a seta tarifele facturii forței de muncă pentru o listă de prețuri de vânzare, creați o listă de prețuri bazată pe antetul listei de prețuri. 
 2. Pe fila **Prețuri de roluri**, în subgrilă, selectați **+ Preț nou de rol**. 
@@ -55,3 +53,6 @@ De exemplu, un dezvoltator din Fabrikam India care lucrează la un proiect din S
     | Dezvoltator | Fabrikam US | $150 |
 
 3. Atașați lista de prețuri de vânzare, **Tarifele facturilor americane Fabrikam** la lista de prețuri a proiectului a contractului de proiect sau la un anumit cont.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

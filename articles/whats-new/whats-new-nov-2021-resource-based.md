@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
-ms.translationtype: MT
+ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
+ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942900"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7827341"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în noiembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -20,20 +20,20 @@ ms.locfileid: "7942900"
 
 Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
-- Operațiuni de proiect în a Dataverse versiunea de mediu 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Management de proiect si contabilitate in a Dynamics 365 Finance versiunea de mediu 10.0.22
+- Operațiuni de proiect într-o versiune de mediu Dataverse 4.26.0.145, 4.26.0.148, sau 4.26.0.150
+- Management de proiect și contabilitate într-un mediu Dynamics 365 Finance versiunea 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
 Următoarele caracteristici sunt incluse în această versiune:
 
-- Interfețele de programare a aplicațiilor (API) pentru programarea proiectelor acceptă acum capacitatea de a crea și șterge compartimente de proiect.
+- Interfețele de programare a aplicațiilor (API) pentru planificarea proiectelor acceptă acum capacitatea de a crea și șterge compartimente de proiect.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizări de hărți Project Operations cu scriere duală
 
 Nu există actualizări pentru hărțile cu dublă scriere Project Operations în această versiune. Pentru o listă actuală și versiuni ale hărților cu scriere duală Project Operations, consultați [Versiuni de hartă cu scriere duală Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel asociate pe măsură ce actualizați operațiunile de proiect Dataverse soluție și versiunea soluției financiare. Este posibil ca unele funcții și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vizualiza versiunea activă a hărții în coloana **Versiune** de pe pagina **Scriere duală**. Pentru a activa o nouă versiune a hărții selectați **Versiuni ale hărții cu tabele**, selectați cea mai recentă versiune și apoi salvați versiunea selectată. Dacă ați personalizat o hartă a tabelului out-of-box, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel asociate pe măsură ce vă actualizați soluția pentru Operațiuni de proiect Dataverse și versiunea soluției de finanțare. Este posibil ca unele funcții și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vizualiza versiunea activă a hărții în coloana **Versiune** de pe pagina **Scriere duală**. Pentru a activa o nouă versiune a hărții selectați **Versiuni ale hărții cu tabele**, selectați cea mai recentă versiune și apoi salvați versiunea selectată. Dacă ați personalizat o hartă a tabelului out-of-box, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile din [Problemă cu coloanele din tabel lipsă pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) secțiunea din ghidul de depanare cu scriere duală.
 
@@ -51,7 +51,7 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | Facturarea și stabilirea prețurilor | 2448623 | Permiteți actualizarea listelor de prețuri după ce sunt asociate cu o unitate organizațională. |
 | Timp și cheltuială | 2460396 | Permiteți ștergerea unei intrări de timp prin ștergerea celulei. |
 | Facturarea și stabilirea prețurilor | 2467386 | Permiteți ștergerea unui proiect care are o sarcină, chiar și atunci când sarcina este asociată cu o cotație câștigată. |
-| Timp și cheltuială | 2461744 | The **Aprobarea mea eșuată** vizualizarea conține numai aprobări de proiect în **Trimis** etapă. |
+| Timp și cheltuială | 2461744 | The **Aprobarea mea eșuată** vizualizarea conține doar aprobări de proiect în **Trimis** etapă. |
 | Timp și cheltuială | 2464082 | Eliminați legătura de la aprobările de proiect la setul de aprobare atunci când se potrivește o stare țintă. |
 | Timp și cheltuială | 2468108 | Lucrarea de programare nu trebuie să seteze a **Prelucrare** starea setului de aprobare. |
 | Timp și cheltuială | 2471503 | Ștergeți seturile de aprobare vechi de șapte zile. |

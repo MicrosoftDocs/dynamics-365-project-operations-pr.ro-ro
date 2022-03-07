@@ -2,11 +2,9 @@
 title: Monedă
 description: Acest subiect oferă informații despre cum să adăugați și să eliminați tipurile de monedă în Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642288"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999601"
 ---
 # <a name="currency"></a>Monedă
 
@@ -71,3 +69,6 @@ Monedele stabilesc prețurile pentru produse în catalogul de produse și costul
 
 > [!IMPORTANT]
 >  Nu puteți șterge monedele utilizate de alte înregistrări, puteți doar să le dezactivați. Dezactivarea înregistrărilor de monedă nu elimină informațiile de monedă stocate în înregistrările existente, cum ar fi oportunități sau comenzi. Cu toate acestea, nu veți putea selecta moneda dezactivată pentru tranzacții noi.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e0cf24a9916f7ceedee0e9d6fa9399a88c3e4b91
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119838"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279558"
 ---
 # <a name="manage-time-zones"></a>Gestionarea fusurilor orare
 
@@ -68,3 +68,6 @@ După ce funcționalitatea de rezervare extinsă a fost utilizată pentru fiecar
 Observați că o privire mai atentă asupra detaliilor rezervărilor arată diferențe în momentul începerii rezervărilor. Rezervările încep nu mai devreme de ora de începere a conturului de atribuire și nici mai devreme de ora de începere disponibilă a resursei.
 
 ![Rezervări noi ale resurselor din tabloul de bord](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

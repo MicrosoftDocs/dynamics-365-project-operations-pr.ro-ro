@@ -2,11 +2,9 @@
 title: Crearea de contracte avansate pentru facturare pe baza progresului
 description: Acest subiect explică modul de creare a contractelor de proiect, astfel încât să puteți genera facturi pentru clienți, pe baza unui procent din lucrările finalizate.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082925"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000996"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Crearea de contracte avansate pentru facturare pe baza progresului
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Categoriile de buget sunt utilizate pentru a calcula automat sumele de facturi p
 8. Opțional: atribuiți regula de facturare proiectelor suplimentare. Pe FastTab **Proiect**, în secțiunea **Proiecte disponibile**, selectați un proiect, apoi selectați butonul săgeată dreapta pentru a adăuga proiectul la secțiunea **Proiecte selectate**.
 9. Opțional: calculați suma procentuală pe care clientul o reține din plăți pe o factură. Pe FastTab **Condiții de plată a retenției**, selectați sursa de finanțare și apoi, în câmpul **Procentul de retenție**, introduceți procentul de retenție.
 10. Repetați acești pași pentru a crea reguli de facturare suplimentare pentru contractul de proiect.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

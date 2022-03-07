@@ -2,18 +2,16 @@
 title: Comportamentul interfeței de utilizare a intrării în timp
 description: Acest subiect oferă informații despre comportamentul intrării de timp a interfeței de utilizator.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
-ms.translationtype: HT
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499629"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999466"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamentul interfeței de utilizare a intrării în timp
 
@@ -25,7 +23,7 @@ Grila **Intrare de timp săptămânală** este un control particularizat care ar
 ## <a name="keyboard-shortcuts"></a>Comenzi rapide de la tastatură
 | Acțiune        | Comandă rapidă                  |
 |------------   |------------------------   |
-| Noi           | Alt + Shift + n           |
+| Creați           | Alt + Shift + n           |
 | Copiați rândul      | Alt + Shift + c           |
 | Editați intrarea    | Alt + Shift + e           |
 | Editați rândul      | Alt + Shift + Ctrl + e    |

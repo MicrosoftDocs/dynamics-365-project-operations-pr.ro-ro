@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008061"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433533"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Noutăți iulie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
 
@@ -20,7 +20,7 @@ ms.locfileid: "7008061"
 
 Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
-   - Project Operations în mediul Microsoft Dataverse versiunea 4.12.0.148 sau 4.12.0.152.
+   - Project Operations în mediul Microsoft Dataverse versiunea 4.12.0.148.
    - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
@@ -79,7 +79,7 @@ Dacă întâmpinați o problemă în lansarea hărții, urmați instrucțiunile 
 | General                       | 2296857              | Urmărirea progresului pentru operațiuni lungi în curs.                                                                                                                                                                        |
 | General                       | 2253682              | Soluția de scriere duală Project Operations nu ar trebui instalată atunci când nucleul de scriere duală este instalat într-un mediu fără soluția de orchestrare cu scriere duală.                                                |
 | General                       | 2316420              | Asigurarea accesului de bază la Project Service eșuează dacă se schimbă unitatea de business a utilizatorului aplicației.                                                                                                                     |
-| General                       | 2376405              | S-a remediat problema de actualizare bazată pe editor (Actualizarea de calitate este disponibilă în versiunea 4.12.0.152)                                                                                                                     |
+
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate pe Dynamics 365 Finance
 
 | Zonă de caracteristici                      | Număr de referință | Actualizare de calitate                                                                                                                                                                                                                                                                                                                |

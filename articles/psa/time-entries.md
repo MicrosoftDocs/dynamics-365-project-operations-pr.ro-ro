@@ -2,8 +2,6 @@
 title: Creare intrări de timp
 description: Acest subiect oferă informații despre modul de creare a intrărilor de timp.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bc8e52fef0aa02505e412c746343ce1410c40ac3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149693"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999281"
 ---
 # <a name="create-time-entries"></a>Creare intrări de timp
 
@@ -70,3 +68,6 @@ Aveți posibilitatea să importați date din rezervările și activitățile de 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Grupați după, sortați, căutați și filtrați capacități
 
 Aveți posibilitatea să grupați și să filtrați intrările de timp după dimensiunile specificate în coloane. În câmpul **Grupare după**, selectați dimensiunea de utilizat pentru filtrarea intrărilor de timp. De asemenea, aveți posibilitatea să sortați înregistrările de intrări de timp în ordine crescătoare sau descrescătoare utilizând săgeata de sortare de pe titlurile coloanelor. În plus, aveți posibilitatea să afișați sau să ascundeți intrările selectând butonul **Filtru** de pe titlurile coloanelor, apoi, în caseta **Căutare**, introduceți textul care ar trebui utilizat pentru a căuta intrările de timp după numele proiectului, activitatea proiectului, intrarea de timp sau resursă.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
