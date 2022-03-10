@@ -2,16 +2,16 @@
 title: Crearea unei structuri detaliate a proiectului
 description: Acest subiect explică cum să creați o structură detaliată a proiectului (WBS) incluzând comenzile de bază în noua interfață de planificare.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005716"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928630"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -83,7 +83,7 @@ Următorul tabel prezintă atribute de programare suplimentare.
 | Efort finalizat (ore) | Volumul total de muncă finalizat pentru sarcină în ore. |
 | Durată | Afișează durata pentru sarcină în zile. |
 | Efort total | Volumul total de muncă pentru sarcină în ore. |
-| Terminați | Data și ora de finalizare |
+| Terminați | Data și ora de finalizare. |
 | % finalizat | Procentul din sarcină care este finalizat. |
 | Pachet de proiect | Panoul de activități poate fi grupat după pachet, astfel încât fiecare pachet să aibă propria coloană. |
 | Efort rămas (ore) | Volumul total de lucru rămas pentru sarcină în ore. |
@@ -95,11 +95,11 @@ Următorul tabel prezintă atribute de programare suplimentare.
 
 ## <a name="staffing-attributes"></a>Atribute de personal
 
-Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să selectați **Creare** și în panoul **Creare rapidă** să adăugați un membru al echipei de proiect ca o resursă nouă.
+Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să selectați **Creare** și în panoul **Creare rapidă** să adăugați un membru al echipei de proiect ca o resursă nouă.  Când căutați o resursă folosind selectorul de resurse din grila de activități, vizualizarea panoului sau gantt, căutarea returnează fie membri existenți ai echipei de proiect, fie resurse active care pot fi rezervate.
 
 Câmpurile **Rol**, **Unitate de resursă** și **Nume poziție** sunt utilizate pentru a descrie cerințele de personal pentru activitate. Aceste atribute de personal, împreună cu planificarea sarcinii, sunt utilizate pentru a găsi resursele disponibile pentru a realiza această sarcină.
 
-   - **Rol**: Specificați tipul de resursă care este necesar pentru a realiza sarcina.
+   - **Rol** : Specificați tipul de resursă care este necesară pentru realizarea sarcinii.,
    - **Unitate resursă**: Specificați unitatea de la care ar trebui să se atribuie resursele pentru sarcină. Acest atribut afectează estimarea costurilor și vânzărilor pentru activitate dacă rata de cost și de facturare pentru resursă se setează pe baza unităților de resurse.
    - **Numele poziției**: Introduceți un nume pentru resursa generică ce servește ca un substituent pentru resursa care în cele din urmă va efectua activitatea.
 
@@ -117,5 +117,27 @@ Modul de activitate nu are niciun efect asupra actualizărilor efectuate la date
 
 Grila de **Planificare** este complet accesibilă și poate fi utilizată cu cititoare de ecran, ar fi Narator, JAWS sau NVDA. Aveți posibilitatea să vă deplasați prin zona grilă utilizând tastele săgeată (ca în Microsoft Excel), puteți utiliza tasta Tab pentru a avansa printre elementele interfeței cu utilizatorul interactive și puteți utiliza tasta săgeată în jos, tasta Enter sau bara de spațiu pentru a selecta și a deschide meniurile verticale.
 
+## <a name="project-limitations"></a>Limitări de proiect 
+Ar trebui să fiți conștient de următoarele limitări dacă utilizați structura de defalcare a lucrărilor în Project Operations. Aceste limite se aplică proiectelor și activităților. Pentru mai multe informații, consultați [Limite pentru Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Câmp**                                          |  **Limită**           |
+|----------------------------------------------------|----------------------|
+| Total maxim activități pentru un proiect                  | 500                  |
+| Total maxim durată pentru un proiect               | 3650 de zile (10 ani) |
+| Total maxim resurse pentru un proiect              | 150                  |
+| Numărul maxim de legături (numai succesoare) pentru un proiect | 600                  |
+| Total maxim de câmpuri particularizate pentru un proiect          | 10                   |
+| Numărul maxim de elemente din lista de verificare pe sarcină                   | 20                   |
+
+**Limitări activitate**
+
+| **Câmp**                               |   **Limită**           |
+|-----------------------------------------|-----------------------|
+| Nivelul ierarhic maxim                 | 10 niveluri             |
+| Legături maxime (succesor + predecesor) | 20                    |
+| Durata maximă a sarcinii frunzelor           | 1250 de zile             |
+| Durata maximă a unei sarcini rezumative      | 3650 de zile (10 ani)  |
+| Maximul de resurse atribuit unei activități    | 20 de resurse          |
+| Interval de date acceptat pentru o activitate         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

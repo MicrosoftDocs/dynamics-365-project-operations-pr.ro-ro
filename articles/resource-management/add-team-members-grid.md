@@ -2,24 +2,22 @@
 title: Adăugarea membrilor echipei din grila de membri Echipă
 description: Acest subiect oferă informații despre cum puteți gestiona resursele membrului echipei.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082674"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008421"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Adăugarea membrilor echipei din grila de membri Echipă
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Dynamics 365 Project Operations include un tablou de bord de manager de resurse care furnizează o privire de ansamblu de element vizual a cererii de resursă și utilizare în întreaga organizație. Puteți utiliza diagramele de pe acest tablou de bord pentru a vizualiza următoarele informații:
+Dynamics 365 Project Operations include un tablou de bord al managerului de resurse care oferă o prezentare vizuală a cererii și utilizării resurselor în întreaga organizație. Puteți utiliza diagramele de pe acest tablou de bord pentru a vizualiza următoarele informații:
 
 - **Cerere resursă**: diagrama **Solicitare de resursă activă** afișează resursele care au fost remise. Resursele sunt agregate după fiecare rol sau proiect.
 - **Cerere de resurse neremise**: diagrama **Cerere de resurse neatribuite** afișează toate cerințele de resurse care nu au fost remise. Această diagramă ajută managerii de resurse să vizualizeze cererea care nu este fermă și poate fi remisă printr-o solicitare de resurse.
@@ -200,3 +198,6 @@ Când vizualizați timpul la nivele mai înalte, celulele din fila **Reconcilier
 DAcă aveți atribuiri de activități pentru o resursă dar nu rezervări pe formularul **Proiecte**, pe fila **Reconciliere**, selectați deficitul de rezervare și apoi selectați **Extindeți rezervarea**. Apare caseta de dialog **Extindere rezervare** și afișează rezervarea necesară pentru a aborda deficitul resursei. Caseta de dialog arată și rezervările existente ale resursei în toate proiectele sau alte entități care pot fi planificate. Dacă selectați **OK** pentru a crea rezervarea pentru resursă, indiferent de disponibilitatea acelei resurse, este posibil să cauzați o suprarezervare.
 
 Managerul de proiect sau managerul de resurse pot utiliza apoi Panoul de planificare pentru a gestiona orice situații în care o resursă este suprarezervată peste capacitate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

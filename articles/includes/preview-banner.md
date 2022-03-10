@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 3935c8a3dbc56967c88b683317f8214f2cd01e03
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bcdeda244fb0db21c4f51a07ab770b17469c6c589db62b6184c78245c4ba2ca5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4070096"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996181"
 ---
 > [!IMPORTANT]
-> Funcționalitățile din acest articol sunt disponibile pentru utilizatorii vizați ca parte a unei versiuni de previzualizare. Conținutul și funcționalitățile pot fi modificate. Pentru mai multe informații despre lansările de previzualizare, consultați [Întrebări frecvente despre actualizările de serviciu la o versiune](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+> Funcționalitățile din acest articol sunt disponibile pentru utilizatorii vizați ca parte a unei versiuni preliminare. Conținutul și funcționalitățile pot fi modificate. Pentru mai multe informații despre lansările preliminare, consultați [Întrebări frecvente despre actualizările de serviciu la o versiune](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).

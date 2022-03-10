@@ -2,11 +2,9 @@
 title: Configurați costurile standard pentru forța de muncă și cheltuieli
 description: Acest subiect explică modul de stabilire a costurilor standard pentru forța de muncă și pentru cheltuielile unui proiect.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082853"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987991"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurați costurile standard pentru forța de muncă și cheltuieli
 
@@ -54,3 +52,6 @@ Acest subiect explică modul de stabilire a costurilor standard pentru forța de
 22. În câmpul **Preț**, introduceți un număr. Prețul real de vânzare, care se aplică atunci când un lucrător introduce tranzacții în jurnalul de cheltuieli, este prețul de vânzare cu cel mai înalt nivel de detaliere. De exemplu, dacă sunt stabilite atât un preț general de vânzare, cât și un preț de vânzare specific lucrătorului, se folosește prețul de vânzare specific lucrătorului.  
 23. Selectați **Salvare**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

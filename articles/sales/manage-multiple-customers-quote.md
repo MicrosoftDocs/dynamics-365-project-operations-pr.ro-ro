@@ -2,18 +2,16 @@
 title: Gestionarea mai multor clienți într-o ofertă de proiect
 description: Acest subiect furnizează informații despre lucrul la oferte care implică mai mulți clienți care vor finanța proiectul.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277893"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991996"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Gestionarea mai multor clienți într-o ofertă de proiect
 

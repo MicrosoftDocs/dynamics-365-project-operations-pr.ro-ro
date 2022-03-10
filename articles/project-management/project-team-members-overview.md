@@ -2,18 +2,17 @@
 title: Membrii echipei de proiect
 description: Acest subiect oferă informații despre cum să lucrați cu informațiile, atributele și planificarea membrilor echipei de proiect.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3526c5e2c968bdaa4d957592aed8d1b21c64b799
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286668"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994021"
 ---
 # <a name="project-team-members"></a>Membrii echipei de proiect
 

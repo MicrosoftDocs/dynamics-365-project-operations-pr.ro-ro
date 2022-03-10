@@ -2,24 +2,24 @@
 title: Contracte de proiect - concepte cheie - simplificat
 description: Acest subiect oferă informații despre conceptele cheie ale contractelor de proiect.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177076"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991456"
 ---
-# <a name="project-contracts---key-concepts---lite"></a>Contracte de proiect - concepte cheie - simplificat
+# <a name="concepts-unique-to-project-contracts"></a>Concepte unice pentru contractele de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest subiect oferă conceptele cheie pe care trebuie să le cunoașteți înainte de a începe să utilizați contracte de proiect în Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Acest subiect oferă conceptele cheie de care trebuie să fiți conștient înainte de a începe să utilizați contractele de proiect în Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unitate contractantă
 
@@ -91,3 +91,6 @@ Contractele din Project Operations sunt construite pe contracte în Dynamics 365
 - Contractele Project Operations au propriile lor elemente de formă și de interfață, reguli de afaceri, logică de afaceri în inserturi și scripturi de partea clientului care le fac unice din contacte de vânzări.
 
 Din aceste motive, nu ar trebui să utilizați în mod interschimbabil un contact de vânzare și un contract de proiect.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

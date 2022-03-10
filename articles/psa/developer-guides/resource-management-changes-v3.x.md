@@ -2,12 +2,10 @@
 title: Modificări în gestionarea resurselor (Project Service Automation) 3.x
 description: Acest subiect furnizează informații despre modificările din zona de gestionare a resurselor.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f88d7309a5e1171629a72e749bfc01abb64c62a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: bc293e7686b7fd7d50d232cb8b26bfc03eb29c8911b52536d2b0a3a4929730c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284778"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000321"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Modificări în gestionarea resurselor (Project Service Automation) 3.x
 

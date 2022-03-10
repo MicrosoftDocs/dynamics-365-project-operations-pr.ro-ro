@@ -2,18 +2,16 @@
 title: Configurarea listelor de prețuri
 description: Acest subiect oferă informații despre cum să configurați listele de de prețuri de cost și vânzare.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180207"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009501"
 ---
 # <a name="set-up-price-lists"></a>Configurarea listelor de prețuri
 
@@ -40,3 +38,6 @@ Următorul tabel include câmpurile de pe fila **General** a unei liste de preț
 | Monedă | Fila **General** și formulare **Creare rapidă** | Acest câmp este utilizat pentru a seta moneda implicită pentru fiecare rol, categorie sau linie de articole din lista de prețuri aferentă acestei liste de prețuri. | Pe listele de prețuri **Vânzări**, rolurile, categoriile sau liniile de articole din lista de prețuri nu pot fi create în altă monedă decât această monedă. Pe listele de prețuri de **Cost**, puteți crea o linie de preț rol în orice monedă. Moneda definită aici este utilizată ca implicită. Configurarea utilizatorului care are legătură cu prețurile de rol poate anula această valoare pentru a permite configurarea ratei costului forței de muncă în orice monedă. Tarifele de cost ale categoriilor și costurile articolelor din lista de prețuri pot fi setate numai în moneda definită aici. |
 | Unitate de timp | Fila **General** și formulare **Creare rapidă** | Acest câmp este utilizat pentru a seta unitatea de timp implicită pentru fiecare rol, aferentă acestei liste de prețuri. | Această valoare a câmpului este utilizată numai la configurarea prețului rolului asociat. Pe listele de prețuri **Cost** și **Vânzări**, puteți crea o linie de preț de rol în orice unitate de timp. Unitatea de timp definită aici este utilizată ca implicită. Configurarea utilizatorului care are legătură cu prețurile de rol poate anula această valoare pentru a permite configurarea ratei de facturare în orice unitate de timp. |
 | Descriere | Fila **General** și formulare **Creare rapidă** | Acesta este un câmp text și vă permite să furnizați o descriere pe mai multe linii a listei de prețuri. | Acest câmp este afișat în vizualizări **Asociate** pe lista de prețuri din diferite entități care au liste de prețuri conexe. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

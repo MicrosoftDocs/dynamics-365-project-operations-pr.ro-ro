@@ -6,12 +6,13 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002656"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005406"
 ---
 # <a name="intercompany-invoicing-overview"></a>Prezentare generală a facturării între companii
 
@@ -21,7 +22,7 @@ Organizația dvs. ar putea avea mai multe divizii, filiale și alte entități j
 
 Următoarea ilustrație prezintă un scenariu tipic în care două persoane juridice, Contoso Robotics SUA (entitatea juridică care împrumută) și Contoso Robotics UK (entitatea juridică care împrumută) împarte resurse pentru a livra un proiect pentru client, Adventure works. Pentru acest scenariu, Contoso Robotics SUA este contractat pentru livrarea lucrărilor către Adventure Works.
 
-![Facturare între companii](./media/IntercompanyScenario.png) 
+![Facturare între companii.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations utilizează următorul flux pentru a procesa tranzacții între companii:
 
@@ -34,7 +35,7 @@ Dynamics 365 Project Operations utilizează următorul flux pentru a procesa tra
 
 Următoarea diagramă ilustrează facturarea între companii, în ceea ce privește evenimentele contabile și înregistrările preconizate în registrul general.
 
-![Flux între companii](./media/IntercompanyFlow.png)
+![Flux între companii.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Resurse suplimentare
 

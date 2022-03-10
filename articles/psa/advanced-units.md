@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987586"
 ---
 # <a name="unit-groups-and-units"></a>Unități și grupuri de unități
 
@@ -44,7 +44,7 @@ De exemplu, într-un grup de unități **Timp**, dacă configurați **Oră** ca 
 
 Următoarea imagine afișează un exemplu de configurare pentru unitatea **Zi**, unde câmpul **Cantitate** afișează numărul de ore dintr-o zi, și pentru **Săptămână**, unde câmpul **Cantitate** afișează numărul de zile care sunt într-o săptămână.
 
-> ![Grup de unități: Pagina de informații](media/advanced-2.png)
+> ![Grup de unități: Pagina de informații.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Utilizarea unităților și grupurilor de unități
 

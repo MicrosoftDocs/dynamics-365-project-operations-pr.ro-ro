@@ -2,12 +2,10 @@
 title: Utilizați resursa care se poate rezerva ca dimensiune de tarifare
 description: Acest subiect furnizează informații despre utilizarea unei resurse rezervabile ca dimensiune de tarifare.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082895"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988981"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizați resursa care se poate rezerva ca dimensiune de tarifare
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Acest subiect furnizează informații despre utilizarea unei resurse rezervabile ca dimensiune de tarifare. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din subiectul [Creare câmpuri și entități particularizate](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adăugați o resursă rezervabilă la formulare și vizualizări
@@ -61,15 +62,18 @@ Pentru resursa care poate fi rezervată, entitatea **Membri echipă de proiect**
 1. Pentru aceasta, faceți dublu clic pe rândul din grila de **Dimensiuni de tarifare** pentru a deschide pagina de dimensiuni a **msdyn_bookableresource**.
 2. Pe pagina de dimensiuni, în fila **Corelate**, faceți clic pe **Nume câmpuri de dimensiune de tarifare**.
 
- ![Fila Nume câmpuri de dimensiune de tarifare](media/PD-fieldname.png)
+ ![Fila Nume câmpuri de dimensiune de tarifare.](media/PD-fieldname.png)
 
 4. În vizualizarea asociată care se deschide, faceți clic pe **Adăugare nume câmp dimensiune de tarifare nou**.
 
- ![Adăugați nume de câmpuri de dimensiune de tarifare noi](media/Add-NewPD-fieldname.png)
+ ![Adăugați nume de câmpuri de dimensiune de tarifare noi.](media/Add-NewPD-fieldname.png)
 
 
 Acest lucru deschide pagina **Nume câmp dimensiune de tarifare nou** pentru **msdyn_bookableresource**. 
 
 5. Adăugați **msdyn_projectteam** la câmpul **Nume logic al entității** și **msdyn_bookableresourceid** la câmpul **Nume câmp**. Salvaţi înregistrarea.
 
- ![Formular pentru nume de câmpuri de dimensiune de tarifare noi](media/PD-fieldname-Added.png)
+ ![Formular pentru nume de câmpuri de dimensiune de tarifare noi.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

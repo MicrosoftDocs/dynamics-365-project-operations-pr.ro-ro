@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323791"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558517"
 ---
 # <a name="subcontract-line-milestones"></a>Jaloane linie de subcontract
 
@@ -50,15 +50,15 @@ Jaloanele cu preț fix de pe o linie de subcontract pot fi generate manual atunc
 3. Pe fila **Jaloane linie de subcontract**, pe sub-grila secundară, selectați **+ Nou jalon linie subcontract**.
 4. Pe pagina **Nou jalon linie subcontract**, introduceți informațiile necesare pe baza tabelului următor.
 
-    | Câmp | Descriere |
-    | --- | --- |
-    | Nume jalon | Numele datei scadente. |
-    | Descriere | O descriere a jalonului.  |
-    | Dată jalon | Data la care procesul automat de creare a facturilor ar trebui să caute starea acestui jalon pentru a o lua în considerare la facturare. Această valoare este inclusă pe linia de facturare a furnizorului la facturarea acestui subcontract. |
-    | Sumă | Valoarea sau valoarea etapei care va fi facturată clientului. Această valoare este inclusă pe linia de facturare a furnizorului la facturarea acestui subcontract. |
-    | Taxe | Suma impozitului aplicată la reper. Această valoare este inclusă pe linia de facturare a furnizorului la facturarea acestui subcontract. |
-    | Valoare după taxe | Acest câmp de numai citire, care este calculat ca Valoare + Taxă. Această valoare este inclusă pe linia de facturare a furnizorului la facturarea acestui subcontract. |
-    | Stare factură | Când se creează jalonul, această stare este întotdeauna setată la **Nu este pregătit pentru facturare**.  Când starea este **Gata de facturare**, crearea facturii furnizorului include acest jalon pe factura furnizorului. |
+    | Câmp | Descriere |Impact funcțional|
+    | --- | --- |----------------------|
+    | Nume jalon | Numele datei scadente. |Aceasta va fi afișată ca prima coloană din toate căutările bazate pe reperele liniei de subcontractare. Linia de facturare a furnizorului care se creează pe baza acestei etape va utiliza, de asemenea, numele liniei de referință a subcontractului ca nume implicit al liniei de facturare a furnizorului.|
+    | Descriere | O descriere a jalonului. |Linia de facturare a furnizorului care se creează pe baza acestei etape va utiliza, de asemenea, descrierea liniei de referință a subcontractului ca descriere implicită a liniei de facturare a furnizorului.|
+    | Dată jalon | Data la care procesul automat de creare a facturilor ar trebui să caute starea acestui jalon pentru a o lua în considerare la facturare.| Această valoare va fi utilizată ca dată implicită a liniei de facturare a furnizorului la facturarea pentru această linie de subcontractare. |
+    | Sumă | Valoarea sau valoarea etapei care va fi facturată clientului. |Această valoare este utilizată ca sumă implicită a liniei de facturare a furnizorului la facturarea pentru această linie de subcontractare. |
+    | Taxe | Suma impozitului aplicată la reper.| Această valoare este utilizată ca sumă implicită a impozitului pe linia de facturare a furnizorului la facturarea pentru această linie de subcontractare. |
+    | Valoare după taxe | Acest câmp numai în citire este calculat ca Sumă + Impozit.|Această valoare este utilizată ca implicită pe linia de facturare a furnizorului la facturarea pentru această linie de subcontractare. |
+    | Stare factură | Când se creează jalonul, această stare este întotdeauna setată la **Nu este pregătit pentru facturare**.|  Când starea este **Gata de facturare**, crearea facturii furnizorului include acest jalon pe factura furnizorului. |
 
 5. Selectați **Salvare și închidere**.
 

@@ -2,19 +2,17 @@
 title: Ce este nou în aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea din aprilie 2021 a Project Operations pentru scenarii bazate pe resurse/fără stoc.
 author: sigitac
-manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
-ms.translationtype: HT
+ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868008"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008151"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -33,8 +31,26 @@ Următoarele caracteristici sunt incluse în această versiune:
   - Estimarea și prețul materialelor ne-stocate în timpul ciclului de vânzări pentru un proiect. Pentru mai multe informații, consultați [Configurați rate de cost și vânzări pentru produse de catalog - simplificat](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Urmărirea utilizării materialelor ne-stocate în timpul livrării proiectului. Pentru informații suplimentare, consultați [Înregistrarea utilizării materialelor pentru proiecte și activitățile proiectului](../material/material-usage-log.md).
   - Facturarea costurilor materiale ne stocate utilizate. Pentru mai multe informații, consultați [Gestionați restanțele de facturare](../proforma-invoicing/manage-billing-backlog.md).
+  - Pentru informații despre cum să configurați această caracteristică, consultați [Configurați materialele care nu sunt stocate și facturile de vânzător în așteptare](../procurement/configure-materials-nonstocked.md)
 - Facturare bazată pe sarcini: s-a adăugat capacitatea de a asocia sarcinile proiectului cu liniile contractuale ale proiectului, supunându-le astfel aceleiași metode de facturare, frecvența facturării și clienților ca cele de pe linia contractului. Această asociație asigură facturarea, contabilitatea, estimarea veniturilor și recunoașterea corecte pentru a funcționa în conformitate cu această configurare a sarcinilor proiectului.
 - API-uri noi în Dynamics 365 Dataverse permite crearea, actualizarea și ștergerea operațiunilor cu **Planificarea entităților**. Pentru mai multe informații, consultați [Utilizați API-uri de programare pentru a efectua operațiuni cu entități de planificare](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Actualizări de hărți Project Operations cu scriere duală
+
+Următoarea listă prezintă hărțile cu scriere duală care au fost modificate sau adăugate în Project Operations, versiunea aprilie 2021.
+
+| **Maparea entității** | **Versiune actualizată** | **Comentarii** |
+| --- | --- | --- |
+| Actualități de integrare a Project Operations (msdyn\_actuale) | 1.0.0.14 | Harta modificată pentru a sincroniza valorile reale de materiale proiect. |
+| Entitate de integrare a Project Operations pentru estimări de cheltuieli (msdyn\_estimateslines) | 1.0.0.2 | S-a adăugat sincronizarea liniei contractului de proiect la aplicații Finance and Operations pentru asistență de facturare pe bază de activitate. |
+| Entitate de integrare a Project Operations pentru estimări orare (msdyn\_resourceassignments) | 1.0.0.5 | S-a adăugat sincronizarea liniei contractului de proiect la aplicații Finance and Operations pentru asistență de facturare pe bază de activitate. |
+| Tabel de integrare a Project Operations pentru estimări de materiale (msdyn\_estimatelines) | 1.0.0.0 | Harta nouă a tabelelor pentru a sincroniza estimarea materialelor din Dataverse la aplicații Finance and Operations. |
+| Entitatea privind exportul facturilor de la furnizori în proiectul de integrare Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Harta nouă a tabelelor pentru a sincroniza anteturi de facturare ale furnizorului din aplicații Finance and Operations pentru Dataverse. |
+| Entitatea privind exportul liniilor de factură de la furnizori în proiectul de integrare Project operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Harta nouă a tabelelor pentru a sincroniza liniile de facturare ale furnizorului din aplicații Finance and Operations pentru Dataverse. |
+
+Ar trebui să rulați întotdeauna cea mai recentă versiune a hărții din mediul dvs. și să activați toate hărțile de tabel aferente pe măsură ce vă actualizați soluția dvs. Project Operations Dataverse și versiunea soluției Finance and Operations. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții în coloana **Versiune** de pe pagina **Scriere duală**. Puteți activa o nouă versiune a hărții selectând **Versiuni de hărții cu tabele**, selectând cea mai recentă versiune și apoi salvând versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Dacă întâmpinați o problemă la pornirea hărții, urmați instrucțiunile din secțiunea [Problema coloanelor lipsă din tabel, pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) a ghidului de depanare Dual Write.
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 
@@ -67,7 +83,7 @@ Următoarele caracteristici sunt incluse în această versiune:
 
 | **Zonă de caracteristici** | **Număr de referință** | **Actualizare de calitate** |
 | --- | --- | --- |
-| Management de proiect și contabilitate | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminarea inversă a estimării nu funcționează în **Periodic**.  |
+| Management de proiect și contabilitate | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminarea inversă a estimării nu funcționează în secțiunea **Periodic**.  |
 | Management de proiect și contabilitate | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Caracteristica **Ajustare contabilă** creează o problemă cu conturile de registru care au **Nu permiteți introducerea manuală** selectată. |
 | Management de proiect și contabilitate | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | S-a adăugat logica de afaceri pentru procesarea facturilor de corecție, inclusiv suma de rezervă sau suma de rezervă aplicată. |
 | Management de proiect și contabilitate | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP-înregistrarea valorii vânzărilor în facturarea proiectelor inter-companii alege un cont neașteptat. |

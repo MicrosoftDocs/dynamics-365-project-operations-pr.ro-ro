@@ -2,10 +2,9 @@
 title: Pagina de start planificarea proiectului
 description: Acest subiect oferă informații despre planificarea proiectului.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6544381f611a6caa24e4d470a659ca0b869f3e63
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990601"
 ---
 # <a name="project-planning-home-page"></a>Pagina de start planificarea proiectului
 

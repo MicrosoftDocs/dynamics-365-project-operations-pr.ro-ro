@@ -2,18 +2,16 @@
 title: Planificările de facturi pe linii de ofertă bazate pe proiect
 description: Acest subiect oferă informații despre crearea de programe de facturare și repere pentru liniile de ofertă.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180837"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988621"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificările de facturi pe linii de ofertă bazate pe proiect
 
@@ -68,3 +66,6 @@ Deschideți linia de ofertă de preț fix unde trebuie să creați o dată scade
 | Stare factură | Creare rapidă | Când se creează o etapă de referință, această stare este întotdeauna setată la **Nu este pregătit pentru facturare**. | Acest lucru este propagat la datei scadente a liniei contractului de proiect și la factură. |
 | Valoare linie | Creare rapidă | Suma sau valoarea jalonului care va fi facturat clientului. | Acest lucru este propagat la datei scadente a liniei contractului de proiect și la factură. |
 | Taxe | Creare rapidă | Suma impozitului care va fi aplicată jalonului. | Acest lucru este propagat la datei scadente a liniei contractului de proiect și la factură. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Cereri de călătorie
 description: Acest subiect oferă informații despre cereri de călătorie.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123753"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994561"
 ---
 # <a name="travel-requisitions"></a>Cereri de călătorie
 
@@ -56,3 +54,6 @@ Selectați cerința de călătorie pe care doriți să o aprobați, apoi selecta
 
 > [!NOTE]
 > Când mapați un raport de cheltuieli la o cerere de călătorie aprobată, suma tranzacției nu poate fi mai mare decât suma autorizată. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

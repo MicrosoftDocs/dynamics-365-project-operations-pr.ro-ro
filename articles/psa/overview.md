@@ -2,10 +2,9 @@
 title: Ce este Dynamics 365 Project Service Automation?
 description: Introducere și prezentare generală a Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128028"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000276"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Ce este Dynamics 365 Project Service Automation?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
@@ -45,10 +46,10 @@ Aplicația Project Service Automation (PSA) ajută organizațiile să urmăreasc
 ## <a name="whats-new-in-psa"></a>Ce este nou în PSA
 Echipa este încântată să anunțe cele mai noi actualizări! De la îmbunătățiri la interfața cu utilizatorul, remedierea erorilor și adăugarea de noi funcții și capacități importante. Dvs. ați solicitat și noi am ascultat.
 
-Examinați [notele de lansare din octombrie 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) pentru a vedea cele mai noi îmbunătățiri și completări.
+Examinați [notele de lansare din octombrie 2019](/dynamics365-release-plan/2019wave2/index) pentru a vedea cele mai noi îmbunătățiri și completări.
 
 ### <a name="in-development"></a>În curs de dezvoltare
-Pentru a vedea ce am planificat pentru viitorul apropiat, mergeți la [Dynamics 365: planul 1 al valului de lansare 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Pentru a vedea ce am planificat pentru viitorul apropiat, mergeți la [Dynamics 365: planul 1 al valului de lansare 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obțineți ajutor cu PSa versiunea 3.x
 Căutați resurse pentru a vă ajuta să vă planificați implementarea? Consultați aceste ghiduri descărcabile.
@@ -81,6 +82,9 @@ Căutați resurse pentru a vă ajuta să vă planificați implementarea? Consult
  [Note pentru dezvoltatori (versiunea 2.x a aplicației)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Urmăriți un videoclip de prezentare generală de 2 minute
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

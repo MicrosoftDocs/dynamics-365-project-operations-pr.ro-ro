@@ -2,18 +2,16 @@
 title: Gestionarea stării și validărilor care nu trebuie depășite
 description: Acest subiect oferă informații despre verificările limită de nedepășit efectuate în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
-ms.translationtype: HT
+ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866742"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003516"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Gestionarea stării și validărilor care nu trebuie depășite 
 

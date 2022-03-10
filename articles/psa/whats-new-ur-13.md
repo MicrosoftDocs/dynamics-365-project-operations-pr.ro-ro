@@ -2,8 +2,6 @@
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 13, V3
 description: Acest subiect oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea 13, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a4ebc2e6ca3f6be0a05a7240d762d7a8cf92d81b
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 3a20cf32e578bc818f3ef6ed916784c32b559c3342162bcb7857f5e9cc520d9c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949469"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006710"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation, versiunea actualizată 13, V3
 

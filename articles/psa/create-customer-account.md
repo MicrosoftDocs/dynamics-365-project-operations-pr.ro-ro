@@ -2,8 +2,6 @@
 title: Creați un cont de client
 description: Cum să creați un cont de client în Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 13d309ac8200c114624cec69fa124d6af766cba8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1d622dd2eb936611015fedd43925296313221435b9183c6d94bc6e6538518770
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290513"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002751"
 ---
 # <a name="create-a-customer-account-project-service"></a>Creați un cont de client (Project Service)
 

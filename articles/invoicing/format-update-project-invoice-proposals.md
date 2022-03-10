@@ -2,18 +2,16 @@
 title: Gestionarea propunerilor de facturare pentru proiect
 description: Acest subiect oferă o detalii despre procesarea facturilor trimise la client cu Project Operations pentru scenarii bazate pe resurse/ne-stocate.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950729"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989926"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gestionarea propunerilor de facturare pentru proiect
 

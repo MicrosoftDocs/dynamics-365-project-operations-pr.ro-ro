@@ -1,25 +1,25 @@
 ---
-title: Concepte cheie - contracte de proiect
+title: Contracte de proiect - concepte cheie
 description: Acest subiect furnizează informații despre conceptele cheie ale contractelor de proiect în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986956"
 ---
-# <a name="key-concepts---project-contracts"></a>Concepte cheie - contracte de proiect
+# <a name="concepts-unique-to-project-based-contracts"></a>Concepte unice pentru contractele bazate pe proiecte
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect oferă conceptele cheie pe care trebuie să le cunoașteți înainte de a începe să utilizați contracte de proiect în Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Acest subiect oferă conceptele cheie de care trebuie să fiți conștient înainte de a începe să utilizați contractele de proiect în Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Firmă proprietară
 
@@ -86,3 +86,6 @@ Programele de facturare sunt specifice fiecărei linii de contract și sunt nece
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Modificările din comenzile Dynamics 365 Sales
 
 Contractele în Project Operations sunt construite pe comenzi în Dynamics 365 Sales. Cu toate acestea, există abateri importante și diferențe de funcționalitate. Contractele au propriile lor elemente de formă și de interfață, reguli de afaceri, logică de afaceri în inserturi și scripturi de partea clientului care le fac unice din Comenzi. Din aceste motive, nu utilizați în mod interschimbabil o Comandă de vânzare și un contract Project Operations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

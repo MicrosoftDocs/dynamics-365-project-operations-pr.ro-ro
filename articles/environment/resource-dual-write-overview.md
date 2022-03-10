@@ -5,15 +5,15 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d9d6a7c367872219b4aca32aecb15d6837ebe296
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.custom: intro-internal
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955673"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007926"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Prezentare generală pentru Integrare cu scriere duală a Project Operations
 
@@ -23,7 +23,7 @@ Utilizările Project Operations [capacități de scriere duală](/dynamics365/fi
 
 Următoarea ilustrație arată cum sunt sincronizate datele ca parte a acestei integrări între Dataverse și Finanțe.
 
-![Prezentare generală a fluxurilor de date Project Operations](./media/ProjectOperationsFlows.jpg)
+![Prezentare generală a fluxurilor de date Project Operations.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations pe Dataverse oferă o interfață de utilizator modernă (UI) și o extensibilitate ușoară fără cod/cod scăzut folosind capacități Power Platform . Managerii de proiect, managerii de resurse, membrii echipei de proiect și alte persoane din front-office își desfășoară activitățile în Project Operations pe Dataverse.
 

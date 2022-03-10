@@ -2,18 +2,16 @@
 title: Configurați tarifelor de cost și de vânzare pentru cheltuieli
 description: Acest subiect oferă informații despre modul de configurare al costului și ratele de vânzări pentru categorii de tranzacție și cheltuieli.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274923"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986236"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurați tarifelor de cost și de vânzare pentru cheltuieli
 
@@ -23,9 +21,10 @@ Puteți configura costuri și prețuri de vânzare pentru categoriile de tranzac
 
 Pentru a configura costurile și ratele de vânzare pentru categoriile de tranzacții, parcurgeți pașii următori. 
 
-1. Creați o listă de prețuri pe baza antetului listei de prețuri. 
-2. Pe **Prețuri categorii**, din meniul subgrilă, selectați **+ Preț categorie nouă**. 
-3. Pe pagina **Creare rapidă**, introduceți categoria tranzacției și unitatea pentru care creați noul preț.
+1. Accesați **Vânzări** > **Clienți** > **Liste de prețuri**.
+2. Selectați **Nou** pentru a crea o nouă listă de prețuri. 
+3. Pe **Prețuri categorii**, din meniul subgrilă, selectați **Preț categorie nouă**. 
+4. Pe pagina **Creare rapidă**, introduceți categoria tranzacției și unitatea pentru care creați noul preț.
 
 Următorul tabel listează câmpurile pe fila **General** și pagina **Creare rapidă** a unei linii de preț de categorie pe care ar trebui să-l aveți în vedere atunci când creați prețuri de categorie pe o listă de vânzări sau de prețuri de cost.
 

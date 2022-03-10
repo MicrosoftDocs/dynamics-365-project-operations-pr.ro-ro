@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323701"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558562"
 ---
 # <a name="subcontract-lines-for-products"></a>Linii de subcontract pentru produse
 
@@ -30,25 +30,25 @@ Parcurgeți pașii următori pentru a crea o linie de subcontract pentru produse
 
 Următorul tabel oferă informații despre câmpurile de pe pagina **Detaliile liniei de subcontract** și pagina **Creare rapidă**, deoarece acestea sunt relevante pentru achiziționarea de produse.
 
-| Câmp | Descriere |
-| ----- | ----------- |
-| Nume | Numele liniei de subcontract. |
-| Descriere | O scurtă descriere a produselor care sunt comandate pe linia de subcontract. |
-| Tip linie | Valoarea implicită a acestui câmp este **Bazat pe cantitate**. |
-| Metodă de facturare |  Metoda de facturare a liniei de subcontract. Pentru metodele de facturare cu preț fix este disponibil un program de facturare bazat pe jaloane. |
-| Clasă de tranzacții | Valoarea implicită a acestui câmp este **Timp**. Pentru a crea linii de subcontract pentru achiziționarea de produse, în câmpul **Clasa tranzacției** selectați **Material**. Această selecție indică faptul că linia de subcontract este utilizată pentru a înregistra o achiziție de produse de utilizat în proiecte. |
-| Selectare produs | Selectați dacă produsul achiziționat este ținut în catalogul de produse sau este un produs din afara catalogului. |
-| Produs | Selectați un produs activ din catalog. Acest câmp este disponibil numai când **Selectare produs** este setat la **Existent**. |
-| Produs din afara catalogului | Introduceți numele produsului din afara catalogului. Acest câmp este disponibil numai când **Selectare produs** este setat la **Din afara catalogului**.  |
-| Dată de livrare solicitată | Selectați data de livrare necesară pentru produse. Această dată este, de asemenea, utilizată pentru a alege o listă de prețuri a proiectelor din listele de prețuri ale proiectului atașate subcontractului. Costul produsului pe linia de subcontract capătă apoi valoarea implicită din lista de prețuri respectivă. |
-| Data de livrare contractată | Selectați data la care s-a convenit contractual livrarea produselor.  |
-| Cantitate comandată | Introduceți cantitatea de produs achiziționată de la furnizor. Dacă un manager de proiect ia prea mult din această cantitate, va apărea un avertisment. |
-| Grup de unități | Această valoare este implicită numai pentru produsele din catalog. Când sunt selectate atât **Produs**, cât și **Data de livrare solicitată**, sistemul alege lista de prețuri aplicabilă în funcție de data livrării. Sunt interogate articolele aferente din lista de prețuri pentru produsul care se potrivește. Valorile pentru unitate și pentru grupul de unități primesc valori implicite din înregistrarea articolului din lista de prețuri. |
-| Unitate | Această valoare este setată implicit la setarea unității din înregistrarea articolului din lista de prețuri. Puteți schimba acest lucru cu o altă unitate, după cum este necesar. Combinația de produs și unitate este utilizată pentru a seta implicit prețul unitar pe linia de subcontract pentru produsele din catalog existente. |
-| Preț unitar | Prețul unitar este implicit, utilizând combinația de produs și unitate din articolele din lista de prețuri, aferente listei de prețuri a proiectului aplicabile pentru data de livrare solicitată din linia de subcontract.  |
-| Subtotal | Acest câmp numai citire este calculat drept Cantitate x Preț unitar dacă ambele câmpuri au valori introduse. Dacă fie câmpul **Cantitate**, fie câmpul **Preț unitar**, sau ambele sunt goale, puteți introduce manual o valoare.  |
-| Impozit pe vânzări | Introduceți valoarea impozitului pe vânzări. |
-| Sumă totală | Acest câmp calculat arată valoarea totală din linia de subcontract după includerea taxelor. Valoarea din acest câmp este calculată ca subtotal + taxă. |
+| Câmp | Descriere | Impact funcțional|
+| ----- | ----------- | ----------- |
+| Nume | Numele liniei de subcontractare pentru identificare. |Aceasta va fi afișată ca prima coloană din toate căutările bazate pe reperele liniilor de subcontractare.
+| Descriere | O scurtă descriere a produselor care sunt comandate pe linia de subcontract. | Fără |
+| Tip linie | Acest câmp are valoarea implicită **Bazat pe cantitate**. |Fără |
+| Metodă de facturare | Acesta este un set de opțiuni care reprezintă cele două modele principale de contractare susținute de Project Operations: **Preț fix** și **Timp și material**. | Pe baza metodei de facturare selectate, o planificare de facturare bazat pe o etapă importantă este pus la dispoziție pentru liniile de subcontractare cu metoda de facturare cu Preț fix. |
+| Clasă de tranzacții |Acest câmp are valoarea implicită de  **Timp**. Pentru a crea linii de subcontractare pentru achiziționarea de produse, setați câmpul  **Clasa tranzacției**  la  **Material**.  | Acest lucru indică faptul că linia de subcontractare este utilizată pentru a înregistra achiziția de produse care urmează să fie utilizate în proiecte. |
+| Selectare produs | Selectați dacă produsul achiziționat este ținut în catalogul de produse sau este un produs din afara catalogului. |Fără |
+| Produs | Selectați un produs activ din catalog. Acest câmp este disponibil numai când **Selectare produs** este setat la **Existent**. |Combinația dintre **Produs** și **Unitate** va fi folosit ca implicit sau calculat pentru prețul unitar pentru linia de subcontractare.
+| Produs din afara catalogului | Introduceți numele produsului din afara catalogului. Acest câmp este disponibil numai când **Selectare produs** este setat la **Din afara catalogului**.  |Prețul de achiziție nu va fi completat automat pentru produsele în afara catalogului.|
+| Dată de livrare solicitată | Introduceți data de livrare necesară pentru produse.| Această dată este, de asemenea, utilizată pentru a alege o listă de prețuri a proiectelor din listele de prețuri ale proiectului atașate subcontractului. Costul produsului pe linia de subcontract capătă apoi valoarea implicită din lista de prețuri respectivă. |
+| Data de livrare contractată | Introduceți data la care produsele sunt convenite contractual să fie livrate.  |Fără|
+| Cantitate comandată | Introduceți cantitatea de produs achiziționată de la furnizor.| Aceasta va fi utilizată pentru a afișa avertismente atunci când un manager de proiect trage în exces din această cantitate.|
+| Grup de unități | Această valoare este implicită numai pentru produsele din catalog. |Când sunt selectate atât **Produs**, cât și **Data de livrare solicitată**, sistemul alege lista de prețuri aplicabilă în funcție de data livrării. Sunt interogate articolele aferente din lista de prețuri pentru produsul care se potrivește. Valorile pentru unitate și pentru grupul de unități primesc valori implicite din înregistrarea articolului din lista de prețuri. |
+| Unitate | Această valoare implicită este unitatea configurată în înregistrarea elementului din lista de prețuri. Puteți schimba acest lucru cu o altă unitate, după cum este necesar.| Combinația de produs și unitate este utilizată pentru a seta implicit prețul unitar pe linia de subcontract pentru produsele din catalog existente. |
+| Preț unitar | Prețul unitar este implicit, utilizând combinația de produs și unitate din articolele din lista de prețuri, aferente listei de prețuri a proiectului aplicabile pentru data de livrare solicitată din linia de subcontract.  |Fără |
+| Subtotal | Acest câmp numai citire este calculat drept Cantitate x Preț unitar dacă ambele câmpuri au valori introduse. Dacă fie câmpul **Cantitate**, fie câmpul **Preț unitar**, sau ambele sunt goale, puteți introduce manual o valoare.  |Fără |
+| Impozit pe vânzări | Introduceți valoarea impozitului pe vânzări. |Fără |
+| Sumă totală | Acest câmp calculat arată valoarea totală din linia de subcontract după includerea taxelor. Valoarea din acest câmp este calculată ca Subtotal + impozit. |Fără |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

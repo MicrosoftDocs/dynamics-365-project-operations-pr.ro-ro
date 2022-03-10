@@ -10,18 +10,18 @@ ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009721"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007341"
 ---
 # <a name="project-resourcing-home-page"></a>Pagina de pornire a resurselor de proiect
 
@@ -38,7 +38,7 @@ O provocare pentru managerii de proiect și managerii de resurse în etapa de pl
 - Estimarea numărului de resurse necesare pentru întregul ciclu de viață al unui proiect.
 - Elaborarea structurii detaliate a proiectului (WBS) utilizând atribuirile inițiale de resurse.
 
-[![Ciclul de viață al proiectului](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Ciclul de viață al proiectului.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Pe măsură ce planificarea proiectului continuă, resursele planificate pot fi înlocuite cu resurse de personal. Managerul de proiect poate, de asemenea, să revină și să actualizeze rezervările de resurse în orice etapă a proiectului.
 

@@ -2,18 +2,16 @@
 title: Valori implicite pentru dimensiunile financiare
 description: Acest subiect oferă informații despre cum să configurați valorile implicite ale dimensiunii financiare.
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287388"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922953"
 ---
 # <a name="financial-dimension-defaults"></a>Valori implicite pentru dimensiunile financiare
 
@@ -21,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations utilizează cadrul [Dimensiuni financiare](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) în Dynamics 365 Finance pentru a furniza detalii suplimentare cu privire la tranzacțiile cu contabilitate de proiect și contabilitate generală.
+Dynamics 365 Project Operations utilizează cadrul [Dimensiuni financiare](/dynamics365/finance/general-ledger/financial-dimensions) în Dynamics 365 Finance pentru a furniza detalii suplimentare cu privire la tranzacțiile cu contabilitate de proiect și contabilitate generală.
 
 Dimensiunile financiare implicite pot fi stabilite pentru un client, o sursă de finanțare a proiectului, o etapă importantă, o linie de contract de proiect sau un proiect.
 
@@ -62,6 +60,15 @@ Proiectele sunt create și menținute în CDS. Atributele contabile pentru proie
 4. Setați valorile implicite ale dimensiunii financiare. Observați că dimensiunile financiare sunt implicite din contul clientului. În cazul în care proiectul este asociat cu o linie contractuală cu mai mulți clienți contractuali ai proiectului, clientul principal este utilizat la dimensiunile financiare implicite.
 
 Dimensiunile financiare implicite ale proiectului sunt utilizate pentru a seta valorile implicite ale liniei jurnalului pentru tranzacțiile de timp, cheltuială și taxă din **Jurnal de integrare a operațiunilor de proiect** și pe liniile de facturare aferente proiectului.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplicați dimensiuni financiare pentru înregistrările de timp ale proiectului
+Pentru a aplica dimensiuni financiare pentru intrările de timp ale proiectului, rețineți că valoarea implicită a dimensiunii se bazează pe următoarea ordine:
+
+1. Resursă
+2. Project
+3. Sursă de finanțare
+
+De exemplu, dacă dimensiunea implicită este specificată pe o resursă, aceasta va fi aplicată peste o dimensiune implicită care este specificată în proiect. În mod similar, o dimensiune implicită de proiect va fi aplicată peste valoarea implicită care este specificată în sursa de finanțare.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

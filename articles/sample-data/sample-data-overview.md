@@ -8,19 +8,19 @@ ms.prod: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 973a8e45237c8326f4e2e259c1598c857199c121
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: e50eabc7f27fa89c19221a18a937da7c586e4a292761c9582c92b6b5fd494ac4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993391"
 ---
 # <a name="sample-data-home-page"></a>Pagina principală date eșantion
 

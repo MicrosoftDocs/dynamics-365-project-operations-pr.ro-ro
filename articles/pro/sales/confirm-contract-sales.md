@@ -2,24 +2,22 @@
 title: Confirmarea unui contract de proiect
 description: Acest subiect oferă informații despre cum să confirmați un contract în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082916"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989836"
 ---
 # <a name="confirm-a-project-contract"></a>Confirmarea unui contract de proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Un contract de proiect în Dynamics 365 Project Operations poate fi activ cu un motiv de **Confirmat**, sau închis cu un motiv de **Pierdut**. Când confirmați un contract de proiect, starea se actualizează de la **Schiță** la **Activ** iar motivul de stare este **Confirmat**. Un contract activ sau închis nu poate fi editat sau redeschis. 
+Un contract de proiect în Dynamics 365 Project Operations poate fi activ cu motivul **Confirmat**, sau închis cu motivul **Pierdut**. Când confirmați un contract de proiect, starea se actualizează de la **Schiță** la **Activ** iar motivul de stare este **Confirmat**. Un contract activ sau închis nu poate fi editat sau redeschis. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Impactul financiar al confirmării unui contract de proiect
 
@@ -35,3 +33,6 @@ Dacă contractul de proiect închis ca pierdut face referire la un proiect pe li
 
 > [!NOTE]
 > În Dynamics 365 Project Operations, închiderea unui contract de proiect ca pierdut nu va avea impact asupra stării oportunității asociate. Oportunitatea va rămâne deschisă și trebuie închisă manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

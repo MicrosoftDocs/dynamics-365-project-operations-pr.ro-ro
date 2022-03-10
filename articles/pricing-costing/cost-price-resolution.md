@@ -2,18 +2,16 @@
 title: Rezolvarea prețurilor de cost pentru estimări și date reale
 description: Acest subiect oferă informații despre modul în care sunt rezolvate prețurile de cost pentru estimări și realități.
 author: rumant
-manager: Annbe
 ms.date: 04/09/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 13903acc22e765ddc5bc1b87428ef3565f2b0a44
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
-ms.translationtype: HT
+ms.openlocfilehash: f9a6c3236c1d523a967155d3f1fdbe05aa00001bcc36b38afd86270c4cd1d7cc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877327"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003696"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Rezolvarea prețurilor de cost pentru estimări și date reale
 

@@ -2,20 +2,18 @@
 title: Setări pentru contracte de proiecte
 description: Acest subiect oferă informații despre câmpurile care au impact asupra liniilor de contract și informații despre contract care sunt rezumate în toate elementele rând.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277623"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996316"
 ---
-# <a name="project-contract-settings"></a>Setări pentru contracte de proiecte
+# <a name="header-details-for-project-based-contracts"></a>Detalii antet pentru contractele bazate pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 

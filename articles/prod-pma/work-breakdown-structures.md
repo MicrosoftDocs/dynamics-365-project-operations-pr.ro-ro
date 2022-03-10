@@ -2,28 +2,26 @@
 title: Prezentare generală a structurilor detaliate ale proiectului
 description: O structură detaliată a proiectului (WBS) este o descriere a lucrului care va fi făcut pentru un proiect. Este o ierarhie a sarcinilor care reprezintă înțelegerea echipei de proiect cu privire la compoziția muncii și la dimensiunea, costul și durata fiecărei componente sau sarcini.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287973"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998836"
 ---
 # <a name="work-breakdown-structures-overview"></a>Prezentare generală a structurilor detaliate ale proiectului
 

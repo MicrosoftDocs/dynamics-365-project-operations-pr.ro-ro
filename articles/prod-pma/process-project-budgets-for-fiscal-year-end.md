@@ -2,11 +2,9 @@
 title: Transferarea bugetelor proiectului la sfârșitul unui exercițiu financiar
 description: Acest articol oferă informații despre cum să transferați sumele bugetare rămase în anii următori și să creați detalii despre registrul bugetului.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289744"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007386"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Transferarea bugetelor proiectului la sfârșitul unui exercițiu financiar
 

@@ -2,8 +2,6 @@
 title: Crearea unei rezervări de proiect din Panoul de planificare
 description: Acest subiect oferă informații despre modul de a crea o rezervare de proiect de la tabloul de planificare.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146543"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987631"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Crearea unei rezervări de proiect din Panoul de planificare
 
@@ -45,7 +43,7 @@ Aveți posibilitatea să generați o cerință de resursă generică și să îi
 
 1.  Pe tabloul de planificare, această resursă va apărea pe fila **Deschidere cerințe**. Este posibil să trebuiască să utilizați filtre de coloană pe grilă dacă aveți multe cerințele deschise. 
 
-    ![Deschideți fila Cerințe pe panoul Planificare](media/FAQ-Project-Booking-Schedule-Board-1.png "Captură de ecran tablou rezervări și atribuiri")
+    ![Deschideți fila Cerințe pe panoul Planificare.](media/FAQ-Project-Booking-Schedule-Board-1.png "Captură de ecran tablou rezervări și atribuiri")
 
 2. Selectați cerința. Fila **Găsiți disponibilitatea** va apărea în partea de sus a rândului selectat.
  
@@ -55,7 +53,7 @@ Aveți posibilitatea să generați o cerință de resursă generică și să îi
 
     Selectând **Rezervare** se rezervă resursa pe echipa de proiect.
 
-![Panoul Creare rezervare resursă](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panoul Creare rezervare resursă.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervare de la Cerința principală
@@ -64,7 +62,7 @@ Crearea unui proiect în Project Service creează automat o cerință de resurse
 
 1. Pentru a rezerva o cerință cu Cerința principală, pe tabloul de planificare, selectați fila **Proiect**. Este posibil să fie nevoie să utilizați filtrul de coloană pe coloana **Proiect** dacă aveți multe proiecte.
 
-   ![Filtre de coloană pe panoul de planificare](media/FAQ-Project-Booking-Schedule-Board-2.png "Captură de ecran tablou rezervări și atribuiri")
+   ![Filtre de coloană pe panoul de planificare.](media/FAQ-Project-Booking-Schedule-Board-2.png "Captură de ecran tablou rezervări și atribuiri")
 
 2. Selectați cerința care are doar numele proiectului ca denumire și are o durată de zero (0).
 
@@ -91,3 +89,6 @@ Parcurgeți pașii următori pentru a rezerva dintr-o nouă cerință de resurse
 
 4. Acum, că resursa este rezervată, trebuie să atribuiți activități manual.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

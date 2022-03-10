@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
-ms.translationtype: HT
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433668"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009231"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Noutăți în iulie 2021 - implementare simplificată Project Operations
 
@@ -20,7 +20,7 @@ _Se aplică pentru: implementare simplificată - înțelegere la emiterea factur
 
 Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
-  - Project Operations pe mediul Dataverse versiunea 4.12.0.148.
+  - Project Operations în mediul Dataverse versiunea 4.12.0.148 sau 4.12.0.152.
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 | **Zonă de caracteristici**              | **Număr de referință** | **Actualizare de calitate**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Proj
 | General                       | 2296857              | Urmărirea progresului pentru operațiuni lungi în curs.                                                                                                                                                                        |
 | General                       | 2253682              | Soluția de scriere duală Project Operations nu ar trebui instalată atunci când nucleul de scriere duală este instalat într-un mediu fără soluția de orchestrare cu scriere duală.                                                |
 | General                       | 2316420              | Asigurarea accesului de bază la Project Service eșuează dacă se schimbă unitatea de business a utilizatorului aplicației.                                                                                                                     |
+| General                       | 2376405              | S-a remediat problema de actualizare bazată pe editor (Actualizarea de calitate este disponibilă în versiunea 4.12.0.152)                                                                                                                     |

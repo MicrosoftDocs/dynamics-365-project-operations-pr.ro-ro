@@ -2,24 +2,23 @@
 title: Prezentare generală a procesului de vânzări
 description: Acest subiect oferă informații despre procese de vânzări de bază.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177616"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991861"
 ---
 # <a name="sales-process-overview"></a>Prezentare generală a procesului de vânzări
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Procesele de vânzări care sunt utilizate într-o organizație bazată pe proiecte diferă de procesele de vânzări care sunt utilizate într-o organizație bazată pe produse. Aceasta deoarece ciclurile de vânzări pentru organizațiile bazate pe proiecte sunt mai lungi și necesită tehnici de estimare particularizate pentru a analiza și a crea oferte pentru fiecare tranzacție. Dynamics 365 Project Operations utilizează una dintre următoarele funcționalități care este utilizată într-un proces de vânări:
+Procesele de vânzări care sunt utilizate într-o organizație bazată pe proiecte diferă de procesele de vânzări care sunt utilizate într-o organizație bazată pe produse. Aceasta deoarece ciclurile de vânzări pentru organizațiile bazate pe proiecte sunt mai lungi și necesită tehnici de estimare particularizate pentru a analiza și a crea oferte pentru fiecare tranzacție. Dynamics 365 Project Operations folosește unele dintre următoarele funcționalități care sunt utilizate în cadrul unui proces de vânzare:
 
 - O înregistrare de client potențial este utilizată pentru a urmări procesul de vânzări.
 - Clienții potențiali care se califică sunt urmăriți ca oportunități.
@@ -63,3 +62,6 @@ Pe măsură ce faceți tranzacțiile să avanseze prin etape, vi se solicită s�
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Urmăriți comentariile și aprobările de oferte și contracte de proiect
 Puteți gestiona revizuirea și aprobarea ofertelor și a contractelor de proiect utilizând peretele de înregistrări și postările. Organizația dvs. poate crea fluxuri de lucru și inserturi particularizate pentru a atribui, redirecționa, escalada și gestiona notificările de elemente de lucru de revizuire și aprobare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Configurați roluri de resurse
 description: Cum să configurați roluri de resurse în Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,20 +16,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: d57f843b681760c214d1f66fb4e3c748d0c8b659ab844189f24c682f42d309f0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129153"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002796"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurați roluri de resurse (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Rolurile sunt o parte importantă în planificarea proiectului, atunci când se stabilesc cerințele de resurse sau costurile unui proiect. Pentru fiecare rol de care au nevoie proiectele dumneavoastră, trebuie să creați un rol de resurse și să asociați abilități și competențe la acel rol. De exemplu, ați putea dori să creați roluri pentru dezvoltator, manager de proiect sau tester de joc. De asemenea, veți seta aptitudini și niveluri de competență necesare pentru rol.  
   
- Configurați roluri de resurse pentru a asigura o estimare eficientă a proiectului pentru organizația dvs.  De asemenea, asigurați-vă că ați stabilit cu precizie tipul de facturare.  Un element setat cu un tip de facturare fără plată nu se afișează în liniile de contract sau de ofertă.  
+ Configurați roluri de resurse pentru a asigura o estimare eficientă a proiectului pentru organizația dvs.  De asemenea, asigurați-vă că ați stabilit cu precizie tipul de facturare. Un element setat cu un tip de facturare fără plată nu se afișează în liniile de contract sau de ofertă.  
   
  Odată ce ați configurat roluri de resurse, puteți configura prețuri de costuri și vânzări cu o listă de prețuri.  
   
@@ -57,3 +57,6 @@ Rolurile sunt o parte importantă în planificarea proiectului, atunci când se 
   
 ### <a name="see-also"></a>Consultați și  
  [Configurați resursele](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

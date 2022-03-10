@@ -2,8 +2,6 @@
 title: Ofertarea, tarifarea și facturarea avansată
 description: Acest subiect oferă informații despre ofertarea, facturarea și tarifarea în Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 80d16c0ee9e79d31a52f0b47e59d1b7603f117a5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 4e589c83b8d9b0946f331b5ad03f4946fcddf6813a1529fb65d9b86f8ebf3a07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082898"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985651"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Prețul avansat, prețul și ghidul de facturare
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -50,3 +50,6 @@ Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutu
 
 > [!NOTE]
 > Acest subiect va fi eliminat într-o actualizare de documentație viitoare. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

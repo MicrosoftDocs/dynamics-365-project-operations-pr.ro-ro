@@ -2,18 +2,16 @@
 title: Gestionarea unei facturi proforma pentru proiect
 description: Acest subiect oferă informații despre lucrul cu facturile de proiect proforma în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
-ms.translationtype: HT
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997441"
 ---
 # <a name="manage-a-proforma-project-invoice"></a>Gestionarea unei facturi proforma pentru proiect 
 

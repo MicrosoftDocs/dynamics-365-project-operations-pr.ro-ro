@@ -2,19 +2,17 @@
 title: Noutăți aprilie 2021 - implementare simplificată Project Operations
 description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea din aprilie 2021 a implementării simplificate Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bd6fbe8d75fbe9157a97d2edd38d40a97395c924
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
-ms.translationtype: HT
+ms.openlocfilehash: 8c85e0230840753bc1d28a46b065bce002446f5d8c62da9666d58bc9d2a68af8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009411"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>Noutăți aprilie 2021 - implementare simplificată Project Operations
 

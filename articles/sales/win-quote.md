@@ -2,18 +2,16 @@
 title: Închideți o ofertă
 description: Acest subiect furnizează informații despre închiderea ofertelor în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277263"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993436"
 ---
 # <a name="close-a-quote"></a>Închideți o ofertă
 

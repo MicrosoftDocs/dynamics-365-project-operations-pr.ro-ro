@@ -2,8 +2,6 @@
 title: Configurați modele de competență
 description: Cum se configurează modelele de competență în Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 779255971ed4f48bc9410fee76d6591ca13383b9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: f8eca6fc162c4bae2b5e8e977b2a504a75f0535c36c58f376a7948e619f15fa2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282438"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006891"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Configurarea modelelor de competență (Project Service)
 

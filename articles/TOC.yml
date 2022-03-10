@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Actualizări Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Caracteristici eliminate sau perimate
+      items:
+        - name: Caracteristici eliminate sau perimate în Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
   items:
     - name: Introducere
@@ -50,12 +54,22 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integrarea facturilor de proiect
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integrarea managementului cheltuielilor
+            - name: Integrarea gestionării cheltuielilor
               href: environment/resource-dual-write-expense.md
-            - name: Integrarea facturilor de furnizori
+            - name: Integrarea facturilor pentru furnizori
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dezinstalarea Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Noutăți
       items:
+        - name: Decembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: Noiembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: Octombrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Septembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: August 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Iulie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -292,8 +306,12 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
+            - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
+            - name: Performanța API-ului de planificare a proiectelor
+              href: project-management/project-schedule-api-performance.md
+            - name: Jurnalele de planificare a proiectelor
+              href: project-management/schedule-api-logs.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -388,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Configurarea kilometrajului utilizând nivelurile de rată a kilometrajului
               href: expense/set-up-mileage.md
+        - name: Detalierea cheltuielilor
+          href: prod-exp/expense-itemization.md
         - name: Cheltuieli personale
           href: expense/personal-expenses-expense-report.md
         - name: Cheltuieli între companii
@@ -444,6 +464,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Achiziționarea pentru proiecte a unor materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
           href: procurement/pending-vendor-invoices.md
+        - name: 'Comandarea unor materiale care nu sunt pe stoc pentru proiecte, folosind ordine de achiziție pentru proiecte'
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Reținerea furnizorilor
+          items:
+            - name: Prezentare generală a reținerii furnizorilor
+              href: procurement/vendor-retention-overview.md
+            - name: Configurarea reținerii furnizorilor
+              href: procurement/set-up-vendor-retention.md
     - name: Facturare
       items:
         - name: Prezentare generală a procesului de facturare
@@ -510,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gestionarea estimărilor de venituri
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Depanare
+      items:
+        - name: Proiectarea unui proces de vânzări
+          items:
+            - name: 'Eroare de nepotrivire a monedei la crearea unui proiect, a unui contract, a unei oferte sau a unei resurse rezervabile'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Implementare simplificată - facturare de la ofertă și până la proforma
   items:
     - name: Introducere
@@ -528,6 +562,14 @@
       items:
         - name: Noutăți 2021 - valul 2 de acces timpuriu - implementare simplificată
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Noutăți decembrie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: Noutăți noiembrie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: Noutăți octombrie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Noutăți septembrie 2021 - implementare simplificată
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Noutăți august 2021 - implementare simplificată
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Noutăți iulie 2021 - implementare simplificată
@@ -784,8 +826,10 @@
           items:
             - name: Elaborarea șabloanelor de proiect cu Copiere proiect
               href: project-management/dev-copy-project.md
-            - name: Utilizarea API-urilor planificare Project (versiune preliminară publică)
+            - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
+            - name: Performanța API-ului de planificare a proiectelor
+              href: project-management/project-schedule-api-performance.md
     - name: Gestionarea resurselor
       items:
         - name: Concepte cheie
@@ -856,16 +900,30 @@
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
         - name: Detalii de antet pentru subcontracte
           href: pro/subcontracting/subcontract-header-details.md
-        - name: Linii de subcontract pentru timp
+        - name: Linii de subcontractare pentru timp
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Linii de subcontract pentru cheltuieli
+        - name: Linii de subcontractare pentru categoriile de cheltuieli
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Linii de subcontract pentru produse
+        - name: Linii de subcontractare pentru produse
           href: pro/subcontracting/subcontract-line-products.md
         - name: Resursele de linie de subcontractare
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Jaloanele de linie de subcontractare
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontractarea membrilor echipei de proiect
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opțiuni de subcontractare pentru membrii echipei de proiect
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimarea costurilor pentru atribuirile de resurse subcontractate
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurarea Tabloului de planificare pentru a afișa lucrătorii contractuali și capacitatea subcontractată
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Atribuirea de personal pentru un proiect cu lucrători contractuali și capacitate subcontractată
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Înregistrarea timpului, cheltuielilor și utilizării materialelor pentru componentele subcontractate'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Tranziții de stare pe un subcontract
+          href: pro/subcontracting/subcon-states.md
     - name: Timp
       items:
         - name: Prezentare generală a timpului
@@ -930,6 +988,10 @@
   items:
     - name: Noutăți
       items:
+        - name: Noutăți octombrie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Noutăți septembrie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Noutăți iulie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Noutăți mai 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -1084,8 +1146,16 @@
       href: psa/overview.md
     - name: Noutăți
       items:
-        - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
+        - name: Actualizarea planificărilor de lansare pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 38, V3'
+          href: psa/whats-new-ur-38.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 37, V3'
+          href: psa/whats-new-ur-37.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 34, V3'
@@ -1162,11 +1232,13 @@
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
         - name: 'Ghid avansat pentru ofertare, stabilirea prețurilor și facturare'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
-        - name: Ghidul de gestionare a resurselor
+        - name: Ghid pentru gestionarea resurselor
           href: psa/implementation-guides/resource-management-guide.md
-        - name: Ghidul de raportare
+        - name: Ghid de raportare
           href: psa/implementation-guides/reporting-guide.md
-    - name: Actualizare Project Service Automation (aplicație versiunea 3.x)
+    - name: Upgrade de la Project Service Automation la Project Operations - simplificat
+      href: psa/upgrade-project-operations-non-stocked.md
+    - name: Upgrade-ul Project Service Automation (aplicație versiunea 3.x)
       items:
         - name: Upgrade-ul Project Service Automation
           href: psa/upgrade-psa-home-page.md

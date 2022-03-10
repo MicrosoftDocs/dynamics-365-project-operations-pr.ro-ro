@@ -2,26 +2,24 @@
 title: Informații rezumative despre o ofertă de proiect - simplificat
 description: Acest subiect oferă informații despre informațiile și setările care se aplică și care au impact asupra ofertelor de proiect. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180971"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989656"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>Informații rezumative despre o ofertă de proiect - simplificat
+# <a name="header-details-for-project-quotes"></a>Detalii antet pentru oferte de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Acest articol explică informațiile care se aplică unei estimări de proiect. Aceasta include setările care au impact asupra tuturor liniilor de ofertă și informații despre ofertă care sunt rezumate pe toate elementele rând pentru a conduce KPI-urile ofertei proiectului.
 
-Următorul tabel listează câmpurile de informații rezumative dintr-o ofertă de proiect care sunt unice pentru Dynamics 365 Project Operations sau care au unele modificări importante în comportament din ofertele Dynamics 365 Sales.
+Următorul tabel listează câmpurile de informații sintetizate ale unei oferte de proiect care sunt unice pentru Dynamics 365 Project Operations sau au unele schimbări importante în comportament de la ofertele din Dynamics 365 Sales.
 
 | **Câmp** | **Locaţie** | **Descriere** | **Impactul din aval** |
 | --- | --- | --- | --- |
@@ -41,3 +39,6 @@ Mai jos sunt filele și KPI-urile disponibile pe o ofertă de proiect care sunt 
 | Analiza de profitabilitate | Filă pe ofertă | Fila afișează următoarele măsurători:</br>- Cost total aplicabil</br></br>- Cost total neaplicabil</br>- Venit total</br>- Venit total (de bază)</br>- Marjă brută</br>- Marjă brută ajustată|
 | Comparație cu așteptările clienților | Filă pe ofertă | Această filă afișează următoarele măsurători:</br>- Finalizare estimată</br>- Finalizare solicitată</br>- Buget client</br>- Valoare ofertă |
 | Analiză de ofertă | Filă pe ofertă | Această filă rezumă următoarele KPI-uri de top pentru o ofertă de proiect</br>- Comparație cu așteptările clienților pentru buget și planificare</br>- Marjă brută</br>- Marjă brută ajustată |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

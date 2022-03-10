@@ -2,18 +2,16 @@
 title: Utilizarea unei resurse care se poate rezerva ca dimensiune de preț
 description: Acest subiect furnizează informații despre cum să utilizați o resursă care se poate rezerva ca dimensiune de tarifare.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b9fb7732f677a04272a556238b6c2acc1dcdfb9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277308"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996271"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Utilizarea unei resurse care se poate rezerva ca dimensiune de preț
 
@@ -66,18 +64,18 @@ Pentru o resursă care poate fi rezervată, entitatea **Membrii echipei de proie
 1. Faceți dublu clic pe rândul din grila de **Dimensiuni de tarifare** pentru a deschide pagina de dimensiuni a **msdyn_bookableresource**.
 2. Pe pagina de dimensiuni, în fila **Corelate**, selectați **Nume câmpuri de dimensiune de tarifare**.
 
-  ![Fila Nume câmpuri de dimensiune de tarifare](media/PD-fieldname.png)
+  ![Fila Nume câmpuri de dimensiune de tarifare.](media/PD-fieldname.png)
 
 3. În vizualizarea asociată care se deschide, selectați **Adăugare nume câmp dimensiune de tarifare nou**.
 
-  ![Adăugați nume de câmpuri de dimensiune de tarifare noi](media/Add-NewPD-fieldname.png)
+  ![Adăugați nume de câmpuri de dimensiune de tarifare noi.](media/Add-NewPD-fieldname.png)
 
   Acest lucru deschide pagina **Nume câmp dimensiune de tarifare nou** pentru **msdyn_bookableresource**. 
 
 4. Pe pagina **Nume câmp dimensiune dimensiune nouă**, adăugați **msdyn_projectteam** la **Nume logic al entității**.
 5. Adăugați  **msdyn_bookableresourceid** la **Nume de câmp**.
 
- ![Formular pentru nume de câmpuri de dimensiune de tarifare noi](media/PD-fieldname-Added.png)
+ ![Formular pentru nume de câmpuri de dimensiune de tarifare noi.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

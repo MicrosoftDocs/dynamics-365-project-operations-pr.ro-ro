@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008821"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002436"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Lucrul cu modelul de date Project Service Automation
 
@@ -53,7 +53,7 @@ PSA adaugă, de asemenea, noi entități legate de ofertă la modelul de date Dy
 
 Alte entități pe care PSA adaugă la oferte sunt **Listă de prețuri proiect linie de ofertă**, **Categorie resurse linie de ofertă** și **Categorie tranzacție linie de ofertă**.
 
-![Diagrama care arată oferta, linia de ofertă și relațiile de proiect](media/PS-Reporting-image2.png "Diagrama care arată oferta, linia de ofertă și relațiile de proiect")
+![Diagrama care arată oferta, linia de ofertă și relațiile între proiecte.](media/PS-Reporting-image2.png "Diagrama care arată oferta, linia de ofertă și relațiile de proiect")
 
 ## <a name="reporting-on-project-contracts"></a>Raportarea contractelor de proiect
 
@@ -69,7 +69,7 @@ PSA adaugă, de asemenea, noi entități care sunt proiectate pentru contractele
 
 Alte entități pe care PSA le adaugă la contracte sunt **Listă de prețuri proiect linie pe proiect**, **Categorie resurse linie contract pe proiect** și **Categorie tranzacție linie contract pe proiect**.
 
-![Diagrama care arată comanda, linia de comandă și relațiile de proiect](media/PS-Reporting-image3.png "Diagrama care arată comanda, linia de comandă și relațiile de proiect")
+![Diagrama care arată comanda, linia de comandă și relațiile între proiecte.](media/PS-Reporting-image3.png "Diagrama care arată comanda, linia de comandă și relațiile de proiect")
 
 ## <a name="reporting-on-projects"></a>Raportarea pe proiecte
 
@@ -81,7 +81,7 @@ Entitatea **Proiecte** și entitățile asociate sunt exclusive pentru PSA. **Pr
 - **Cerință resursă** – Această entitate conține cerințele pentru orice membri generici ai echipei de resurse.
 - **Estimare** și **Linie estimare** -Aceste entități au o relație antet/linie și conțin estimări de cheltuieli pentru proiect. Estimările de activitate sunt stocate pe entitatea **Estimare resursă**.
 
-![Diagrama care arată cerința de resurse și relațiile de proiect](media/PS-Reporting-image4.png "Diagrama care arată cerința de resurse și relațiile de proiect")
+![Diagrama care arată cerința de resurse și relațiile între proiecte.](media/PS-Reporting-image4.png "Diagrama care arată cerința de resurse și relațiile de proiect")
 
 ## <a name="reporting-on-resources"></a>Raportarea resurselor
 
@@ -92,7 +92,7 @@ Resursele proiectului utilizează entitățile **Resursă care poate fi rezervat
 - **Categoria resursei care poate fi rezervate** – Această entitate reprezintă rolul resursei care poate fi rezervată.
 - **Rezervările de resurse care pot fi rezervate** – Această entitate reprezintă timpul rezervat pe proiecte pentru resursă. Fiecare rezervare are atât o entitate antet, cât și entități de linie, iar fiecare linie are o stare care reprezintă starea rezervării.
 
-![Diagrama care prezintă relațiile cu caracteristicile resurselor rezervabile](media/PS-Reporting-image5.png "Diagrama care prezintă relațiile cu caracteristicile resurselor rezervabile")
+![Diagrama care prezintă relațiile cu caracteristicile resurselor ce se pot rezerva.](media/PS-Reporting-image5.png "Diagrama care prezintă relațiile cu caracteristicile resurselor rezervabile")
 
 ## <a name="reporting-on-actual-transactions"></a>Raportarea tranzacțiilor efective
 
@@ -120,7 +120,7 @@ Când lucrați cu entitatea **Valoare reală**, este important să înțelegeți
 
 Entitatea **Origine tranzacție** înregistrează originea înregistrării **Valoare reală** și entitatea **Conexiune tranzacție** înregistrează înregistrările corelate pentru înregistrarea **Valoare reală**. În plus, înregistrarea **Valoare reală** conține referințe la proiect, contractul de proiect (comanda), resursa care se poate rezerva și client.
 
-![Diagrama care arată conexiunea tranzacției, originea și relațiile reale](media/PS-Reporting-image6.png "Diagrama care arată conexiunea tranzacției, originea și relațiile reale")
+![Diagrama care arată conexiunea tranzacțiilor, originea și relațiile reale.](media/PS-Reporting-image6.png "Diagrama care arată conexiunea tranzacției, originea și relațiile reale")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

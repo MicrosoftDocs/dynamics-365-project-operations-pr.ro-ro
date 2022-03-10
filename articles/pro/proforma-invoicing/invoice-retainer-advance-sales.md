@@ -2,18 +2,16 @@
 title: Facturarea unui avans sau unui onorariu
 description: Acest subiect furnizează informații despre cum să facturați un onorariu sau un avans în Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c53e39a8c6fb27deff5e7a05d5cca3a4215466
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274158"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997486"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Facturarea unui avans sau unei garanții
 

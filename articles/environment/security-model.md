@@ -1,25 +1,25 @@
 ---
 title: Model de securitate
-description: Acest subiect oferă informații despre modelul de securitate în Dynamics 365 Project Operations.
+description: Acest subiect oferă informații despre modelul de securitate din Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4082681"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991501"
 ---
 # <a name="security-model"></a>Model de securitate
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Microsoft Dynamics 365 Project Operations conține un model de securitate unic, care permite un model de securitate de afaceri bazat pe roluri, care colaborează cu Microsoft Office Groups. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations conține un model unic de securitate care permite un model de securitate de afaceri bazat pe roluri, care colaborează cu Grupuri Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Roluri de securitate
@@ -56,9 +56,9 @@ Grupurile permit ca permisiunile proiectului și sprijinirea artefactelor de col
 
 Project Operations nu creează un grup prin acțiune implicită și face acest lucru doar prin acțiunea explicită a apăsării grupurilor.
 
-Căutarea membrilor grupului în dialogul **Managementul grupului**, este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Căutarea membrilor grupului în dialogul **Managementul grupului**, este limitat la cei care sunt setați ca parte a grupului de securitate al mediului. Pentru mai multe informații, consultați [Controlul accesului utilizatorilor la medii: grupuri de securitate și licențe](/power-platform/admin/control-user-access).
 
-![Mod grup](./media/groupsmode.png)
+![Mod grup.](./media/groupsmode.png)
 
 1. Proiectul este creat și deținut de utilizatorul care a creat.
 2. Proprietarul proiectului este actualizat echipei.
@@ -68,7 +68,7 @@ Căutarea membrilor grupului în dialogul **Managementul grupului**, este limita
 ## <a name="deployment-recommendation"></a>Implementarea recomandării
 Pe măsură ce modelul de colaborare în grup Office evoluează, funcționalitatea va fi adăugată pentru a oferi un control mai detaliat în timp. Clienții care desfășoară Project Operations astăzi sunt încurajați să se concentreze pe un model de securitate tradițional Microsoft Dynamics 365.
 
-Pentru mai multe informații consultați [Securitate în Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Pentru mai multe informații consultați [Securitate în Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations și securitate Microsoft Dynamics 365 Finance
 Project Operations include următoarele roluri:
@@ -76,6 +76,9 @@ Project Operations include următoarele roluri:
 - Manager de proiect
 - Contabil de proiect
 
-Pentru mai multe informații despre rolurile de securitate în finanțe, consultați [Securitate pe bază de rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Pentru mai multe informații despre rolurile de securitate în finanțe, consultați [Securitate pe bază de rol](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
