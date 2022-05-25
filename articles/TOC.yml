@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Noutăți
       items:
+        - name: Mai 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Aprilie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Martie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Februarie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Decembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Noiembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -90,9 +98,9 @@
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Noiembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
           href: whats-new/whats-new-nov-2020-resource-based.md
-    - name: Proiectarea unui proces de vânzări
+    - name: Procesul de vânzări al unui proiect
       items:
-        - name: Prezentare generală a proiectării procesului de vânzări
+        - name: Prezentare generală a procesului de vânzări de proiecte
           href: sales/sales-overview.md
         - name: Configurare
           items:
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Monedă
               href: sales/sales-currency.md
+            - name: Unități organizaționale
+              href: sales/OrgUnits.md
         - name: Gestionarea clienților potențiali pentru proiecte
           href: sales/manage-leads.md
         - name: Gestionarea oportunităților de proiecte
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Urmărirea veniturilor cu forța de muncă în proiecte
               href: project-management/project-sales-tracking.md
-            - name: Actualizarea costului estimat la finalizare
-              href: project-management/update-completed-estimate.md
         - name: Membrii echipei de proiect
           items:
             - name: Prezentare generală a membrilor echipei de proiect
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
+            - name: Utilizarea API-urilor de planificare a proiectelor cu Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Performanța API-ului de planificare a proiectelor
               href: project-management/project-schedule-api-performance.md
             - name: Jurnalele de planificare a proiectelor
@@ -426,17 +436,17 @@
           href: expense/travel-requisition.md
         - name: Avans în numerar
           href: expense/cash-advance.md
-        - name: Diurne
-          href: expense/per-diems.md
+        - name: Cheltuieli diurne
+          href: expense/per-diem-expenses.md
         - name: Aplicația Cheltuieli mobile
           href: expense/expense-using-mobile.md
         - name: Gestiune financiară
           items:
             - name: Recuperarea TVA
               href: expense/vat-recovery.md
-    - name: Utilizare materiale
+    - name: Consumul de materiale
       items:
-        - name: Înregistrarea utilizării materialelor pentru proiecte și activitățile proiectului
+        - name: Înregistrarea consumului de materiale pentru proiecte și activitățile proiectului
           href: material/material-usage-log.md
     - name: Aprobări
       items:
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Seturi de aprobări
           href: approvals/approval-sets.md
+        - name: Anularea aprobării pentru intrări aprobate anterior
+          href: approvals/cancelapproval.md
+        - name: Retragerea intrărilor aprobate anterior
+          href: approvals/recall-cancel.md
         - name: Note pentru dezvoltatori
           items:
             - name: Note pentru dezvoltatori pentru aprobări
               href: approvals/dev-notes-approvals.md
     - name: Date reale
       items:
+        - name: Tranzacții de business în Project Operations
+          href: actuals/businesstransactions.md
         - name: Prezentare generală a datelor reale
           href: actuals/actuals-overview.md
-        - name: Conectarea datelor reale la înregistrările originale
+        - name: Originile tranzacțiilor - Conectarea datelor reale la sursă
           href: actuals/linkingactuals.md
-        - name: Jurnale de corecție
+        - name: Conexiunile tranzacțiilor - Conectarea datelor reale ale diferitelor tipuri de tranzacții
+          href: actuals/connectingactuals.md
+        - name: Jurnale
           items:
+            - name: Crearea și confirmarea jurnalelor de intrări
+              href: actuals/create-confirm-entry-journals.md
             - name: Crearea și confirmarea jurnalelor de corecție
               href: actuals/create-confirm-correction-journals.md
     - name: Achiziții
       items:
-        - name: Configurați materialele care nu sunt pe stoc și facturile de vânzător în așteptare
+        - name: Configurarea materialelor care nu sunt pe stoc și facturilor de furnizor în așteptare
           href: procurement/configure-materials-nonstocked.md
-        - name: Achiziționarea pentru proiecte a unor materiale care nu sunt pe stoc folosind facturi de furnizor în așteptare
+        - name: Configurarea categoriilor de achiziții pentru proiecte
+          href: procurement/configure-procurement-categories.md
+        - name: Achiziționarea pentru proiecte a unor bunuri și servicii folosind facturi de furnizor în așteptare
           href: procurement/pending-vendor-invoices.md
-        - name: 'Comandarea unor materiale care nu sunt pe stoc pentru proiecte, folosind ordine de achiziție pentru proiecte'
+        - name: Comandarea pentru proiecte a unor bunuri și servicii folosind comenzi de achiziție pentru proiecte
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Reținerea furnizorilor
           items:
@@ -500,7 +522,7 @@
               href: invoicing/format-update-project-invoice-proposals.md
             - name: Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
               href: invoicing/correct-project-invoice-proposals.md
-        - name: Facturare între companii
+        - name: Facturarea între companii
           items:
             - name: Prezentare generală a facturării între companii
               href: project-accounting/intercompany-invoicing-overview.md
@@ -538,9 +560,21 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gestionarea estimărilor de venituri
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Depanare
+    - name: Configurație complexă
       items:
-        - name: Proiectarea unui proces de vânzări
+        - name: Migrarea jaloanelor de facturare complet facturate în timpul tranziției
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Upgrade
+      items:
+        - name: Considerații privind upgrade-ul pentru aprobările moderne
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplicații Project Operations
+      items:
+        - name: Aplicația Membru echipă Project Operations
+          href: team-member/project-operations-team-member.md
+    - name: Depanarea
+      items:
+        - name: Procesul de vânzări al unui proiect
           items:
             - name: 'Eroare de nepotrivire a monedei la crearea unui proiect, a unui contract, a unei oferte sau a unei resurse rezervabile'
               href: troubleshooting/project-sales-process/currency-mismatch-error.md
@@ -562,6 +596,14 @@
       items:
         - name: Noutăți 2021 - valul 2 de acces timpuriu - implementare simplificată
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Noutăți mai 2022 - implementare simplificată
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Noutăți aprilie 2022 - implementare simplificată
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Noutăți martie 2022 - implementare simplificată
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Noutăți februarie 2022 - implementare simplificată
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Noutăți decembrie 2021 - implementare simplificată
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Noutăți noiembrie 2021 - implementare simplificată
@@ -590,9 +632,9 @@
           href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Noutăți noiembrie 2020 - implementare simplificată
           href: pro/whats-new/whats-new-nov-2020-lite.md
-    - name: Proiectarea unui proces de vânzări
+    - name: Procesul de vânzări al unui proiect
       items:
-        - name: Prezentare generală a proiectării procesului de vânzări
+        - name: Prezentare generală a procesului de vânzări de proiecte
           href: sales/sales-overview.md
         - name: Configurare
           items:
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Monedă
               href: sales/sales-currency.md
+            - name: Unități organizaționale
+              href: sales/OrgUnits.md
         - name: Gestionarea clienților potențiali pentru proiecte
           href: pro/sales/managing-leads-sales.md
         - name: Gestionarea oportunităților de proiecte
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Urmărirea veniturilor cu forța de muncă în proiecte
               href: project-management/project-sales-tracking.md
-            - name: Actualizarea costului estimat la finalizare
-              href: project-management/update-completed-estimate.md
         - name: Membrii echipei de proiect
           items:
             - name: Prezentare generală a membrilor echipei de proiect
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Utilizarea API-urilor de planificare a proiectelor
               href: project-management/schedule-api-preview.md
+            - name: Utilizarea API-urilor de planificare a proiectelor cu Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Performanța API-ului de planificare a proiectelor
               href: project-management/project-schedule-api-performance.md
     - name: Gestionarea resurselor
@@ -886,12 +930,10 @@
           items:
             - name: Prezentare generală a utilizării resurselor
               href: resource-management/resource-utilization-overview.md
-    - name: Subcontractarea gestionării în Project Operations
+    - name: Gestionarea subcontractării
       items:
-        - name: Subcontractarea gestionării în Project Operations
+        - name: Gestionarea subcontractării în Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Subcontractarea în octombrie 2021 - acces timpuriu
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Concepte cheie în subcontractare
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Gestionarea furnizorilor și a listelor de prețuri ale proiectelor
@@ -920,10 +962,32 @@
           href: pro/subcontracting/configure-sb-subcon.md
         - name: Atribuirea de personal pentru un proiect cu lucrători contractuali și capacitate subcontractată
           href: pro/subcontracting/staffing-cw.md
-        - name: 'Înregistrarea timpului, cheltuielilor și utilizării materialelor pentru componentele subcontractate'
+        - name: 'Înregistrarea timpului, cheltuielilor și consumului materialelor pentru componentele subcontractate'
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Tranziții de stare pe un subcontract
           href: pro/subcontracting/subcon-states.md
+    - name: Facturi de furnizori pentru proiect
+      items:
+        - name: Facturare furnizori - Concepere și creare
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Detaliile din antet pentru facturile de furnizori
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Liniile de factură furnizor pentru timp
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Liniile de factură furnizor pentru produse
+          href: pro/subcontracting/vi-line-material.md
+        - name: Liniile de factură furnizor pentru jaloane
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Liniile de factură furnizor pentru categoriile de cheltuieli
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Verificarea facturilor de furnizori cu datele reale aprobate
+          href: pro/subcontracting/VI-Verification.md
+        - name: Anularea unei facturi de furnizor pentru proiect
+          href: pro/subcontracting/cancel-vi.md
+        - name: Confirmarea unei facturi de furnizor pentru proiect
+          href: pro/subcontracting/confirm-vi.md
+        - name: Tranziții de stare pe o factură de furnizor
+          href: pro/subcontracting/vi-state-model.md
     - name: Timp
       items:
         - name: Prezentare generală a timpului
@@ -942,9 +1006,9 @@
           href: expense/expense-overview.md
         - name: Intrare cheltuieli (simplificată)
           href: expense/basic-expense.md
-    - name: Utilizare materiale
+    - name: Consumul de materiale
       items:
-        - name: Înregistrarea utilizării materialelor pentru proiecte și activitățile proiectului
+        - name: Înregistrarea consumului de materiale pentru proiecte și activitățile proiectului
           href: material/material-usage-log.md
     - name: Aprobări
       items:
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Seturi de aprobări
           href: approvals/approval-sets.md
+        - name: Anularea aprobării pentru intrări aprobate anterior
+          href: approvals/cancelapproval.md
+        - name: Retragerea intrărilor aprobate anterior
+          href: approvals/recall-cancel.md
         - name: Note pentru dezvoltatori
           items:
             - name: Note pentru dezvoltatori pentru aprobări
               href: approvals/dev-notes-approvals.md
     - name: Date reale
       items:
+        - name: Tranzacții de business în Project Operations
+          href: actuals/businesstransactions.md
         - name: Prezentare generală a datelor reale
           href: actuals/actuals-overview.md
-        - name: Conectarea datelor reale la înregistrările originale
+        - name: Originile tranzacțiilor - Conectarea datelor reale la sursă
           href: actuals/linkingactuals.md
-        - name: Jurnale de corecție
+        - name: Conexiunile tranzacțiilor - Conectarea datelor reale ale diferitelor tipuri de tranzacții
+          href: actuals/connectingactuals.md
+        - name: Jurnale
           items:
+            - name: Crearea și confirmarea jurnalelor de intrări
+              href: actuals/create-confirm-entry-journals.md
             - name: Crearea și confirmarea jurnalelor de corecție
               href: actuals/create-confirm-correction-journals.md
     - name: Facturare proforma
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurarea automatizării facturii de proiect
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Upgrade
+      items:
+        - name: Considerații privind upgrade-ul pentru aprobările moderne
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplicații Project Operations
+      items:
+        - name: Aplicația Membru echipă Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations pentru scenarii bazate pe stocuri/producție
   items:
     - name: Noutăți
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Management de proiect și prezentare generală a contabilității
       href: prod-pma/overview-project-management-accounting.md
-    - name: Facturare între companii
-      href: prod-pma/intercompany-invoicing.md
-    - name: Configurarea facturării proiectelor între companii
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Configurarea costurilor standard pentru forța de muncă și cheltuieli
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Crearea și aplicarea condițiilor de reținere a plăților către furnizor
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Configurarea și utilizarea plăților de la furnizor cu plată la plată
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Acumularea costurilor proiectului pe chitanțele de cumpărare
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Facturarea proiectelor
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Performanța propunerilor de facturi pentru proiect
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Contracte de proiect
-      href: prod-pma/project-contracts.md
-    - name: Crearea de contracte avansate pentru facturare pe baza progresului
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Prognoze și bugete de proiect
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Crearea unor modele de prognoză pentru bugetele proiectului
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Transferarea bugetelor proiectului la sfârșitul unui exercițiu financiar
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Comenzi de vânzări pentru proiect
-      href: prod-pma/project-sales-orders.md
-    - name: Comenzi de achiziție pentru un proiect
-      href: prod-pma/project-purchase-orders.md
-    - name: Oferte de proiect
-      href: prod-pma/project-quotations.md
-    - name: 'Confirmarea, actualizarea și trimiterea unei oferte de proiect'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Transferul unei oferte către un proiect
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Alocarea de resurse unui proiect
+    - name: Procesul de vânzări al unui proiect
+      items:
+        - name: Oferte de proiect
+          href: prod-pma/project-quotations.md
+        - name: 'Confirmarea, actualizarea și trimiterea unei oferte de proiect'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Transferul unei oferte către un proiect
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Contracte de proiect
+          href: prod-pma/project-contracts.md
+        - name: Granturi de proiecte
+          href: prod-pma/project-grants.md
+    - name: Prețuri și costuri
+      items:
+        - name: Configurarea costurilor standard pentru manoperă și cheltuieli
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Gestionarea proiectelor
+      items:
+        - name: Prezentare generală a structurilor detaliate ale proiectului
+          href: prod-pma/work-breakdown-structures.md
+        - name: Integrarea Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Prezentare generală a aplicațiilor Project mobile
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Spațiul de lucru mobil pentru intrarea de timp a proiectului
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Aplicația mobilă Cronologie proiect
+          href: prod-pma/project-timesheet.md
+        - name: Foile de pontaj ale proiectului pe un dispozitiv mobil
+          href: prod-pma/mobile-timesheets.md
+        - name: Implementarea câmpurilor particularizate pentru aplicația mobilă Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: Gestionarea resurselor
       items:
         - name: Prezentare generală a alocării resurselor pentru proiecte
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Completarea resurselor pentru resursele planificate
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Primirea de articole din comanda de achiziție din cerința articolului
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Structuri detaliate ale proiectului
+    - name: Prognoze și bugete de proiect
       items:
-        - name: Prezentare generală a structurilor detaliate ale proiectului
-          href: prod-pma/work-breakdown-structures.md
-        - name: Integrare Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Prezentare generală a aplicațiilor Project mobile
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Spațiul de lucru mobil pentru intrarea de timp a proiectului
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Aplicația mobilă Cronologie proiect
-          href: prod-pma/project-timesheet.md
-        - name: Foile de pontaj ale proiectului pe un dispozitiv mobil
-          href: prod-pma/mobile-timesheets.md
-        - name: Implementarea câmpurilor particularizate pentru aplicația mobilă Cronologie proiect
-          href: prod-pma/custom-fields-mobile.md
-    - name: Granturi de proiecte
-      href: prod-pma/project-grants.md
-    - name: Eliminarea unei estimări de proiect
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Prognoze și bugete de proiect
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Crearea unor modele de prognoză pentru bugetele de proiect
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Transferarea bugetelor de proiect la sfârșitul unui exercițiu financiar
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Timp
+      items:
+        - name: Valori implicite pentru dimensiunile financiare pentru înregistrările de timp ale proiectului
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Cheltuială
+      items:
+        - name: Prezentare generală a cheltuielilor
+          href: expense/expense-overview.md
+        - name: Experiența nouă pentru cheltuieli
+          items:
+            - name: Rapoartele de cheltuieli reinventate
+              href: expense/expense-reports-reimagined.md
+            - name: Capturați o chitanță utilizând OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Configurarea și instalarea
+          items:
+            - name: Configurarea politicilor
+              href: expense/set-up-policies.md
+            - name: Configurarea fluxurilor de lucru
+              href: expense/set-up-workflows.md
+            - name: Gestionarea delegării
+              href: expense/manage-delegation.md
+            - name: Configurarea parametrilor de gestionare a cheltuielilor
+              href: expense/configure-expense-management-parameters.md
+            - name: Configurarea integrării cardului de credit
+              href: expense/set-up-credit-card-integration.md
+            - name: Configurarea categoriilor de cheltuieli
+              href: expense/set-up-expense-categories.md
+            - name: Configurarea kilometrajului utilizând nivelurile de rată a kilometrajului
+              href: expense/set-up-mileage.md
+        - name: Detalierea cheltuielilor
+          href: prod-exp/expense-itemization.md
+        - name: Cheltuieli personale
+          href: expense/personal-expenses-expense-report.md
+        - name: Cheltuieli între companii
+          href: prod-exp/intercompany-expense.md
+        - name: Crearea rapoartelor de cheltuieli
+          items:
+            - name: Distribuții pe un raport de cheltuieli
+              href: expense/distributions-expense-report.md
+        - name: Aprobarea rapoartelor de cheltuieli
+          items:
+            - name: Rapoarte de cheltuieli și mai mulți aprobatori
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Postarea rapoartelor de cheltuieli
+          href: expense/posting-expense-reports.md
+        - name: Cerere de călătorie
+          href: expense/travel-requisition.md
+        - name: Avans în numerar
+          href: expense/cash-advance.md
+        - name: Cheltuieli diurne
+          href: expense/per-diem-expenses.md
+        - name: Aplicația Cheltuieli mobile
+          href: expense/expense-using-mobile.md
+        - name: Gestiune financiară
+          items:
+            - name: Recuperarea TVA
+              href: expense/vat-recovery.md
+    - name: Achiziții
+      items:
+        - name: Comenzi de achiziție pentru un proiect
+          href: prod-pma/project-purchase-orders.md
+        - name: Acumularea costurilor proiectului pe chitanțele de cumpărare
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Primirea de articole pe comanda de achiziție din cerința articolului
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Configurarea și utilizarea plăților de la furnizor cu plată la plată
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Crearea și aplicarea condițiilor de reținere a plăților către furnizor
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Facturarea proiectelor
+      items:
+        - name: Facturarea proiectelor
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Performanța propunerilor de facturi pentru proiect
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Crearea de contracte avansate pentru facturare pe baza progresului
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Comenzi de vânzări pentru proiect
+          href: prod-pma/project-sales-orders.md
+        - name: Cerințe de articole pentru contractele de proiect cu mai multe surse de finanțare
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Facturarea între companii
+      items:
+        - name: Facturarea între companii
+          href: prod-pma/intercompany-invoicing.md
+        - name: Configurarea facturării proiectelor între companii
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Recunoașterea veniturilor
+      items:
+        - name: Eliminarea unei estimări de proiect
+          href: prod-pma/eliminate-project-estimate.md
 - name: Gestionarea cheltuielilor
   items:
     - name: Prezentare generală a gestionării cheltuielilor
@@ -1146,8 +1302,18 @@
       href: psa/overview.md
     - name: Noutăți
       items:
-        - name: Actualizarea planificărilor de lansare pentru Project Service 3.x
+        - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 37.5, V3'
@@ -1238,7 +1404,9 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Upgrade de la Project Service Automation la Project Operations - simplificat
       href: psa/upgrade-project-operations-non-stocked.md
-    - name: Upgrade-ul Project Service Automation (aplicație versiunea 3.x)
+    - name: Modificări de caracteristici de la Project Service Automation la Project Operations
+      href: psa/psa-project-operations-changes.md
+    - name: Upgrade-ul Project Service Automation (versiunea 3.x a aplicației)
       items:
         - name: Upgrade-ul Project Service Automation
           href: psa/upgrade-psa-home-page.md
