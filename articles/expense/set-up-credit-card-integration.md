@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826271"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577068"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurarea integrării cardului de credit
 
@@ -44,7 +44,7 @@ Pentru a importa tranzacții cu cardul de credit, urmați acești pași:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Reatribuiți tranzacțiile cu cardul de credit pentru angajații reziliați
 
-După ce o înregistrare a angajatului este încheiată, contul de servicii de domeniu Active Directory (AD DS) al angajatului este dezactivat. Cu toate acestea, ar putea exista tranzacții active cu cardul de credit care trebuie în continuare cheltuite și rambursate. Pe pagina **Tranzacții cu cardul de credit**, puteți reatribui angajatul pentru orice tranzacție cu cardul de credit în cazul în care angajatul asociat a fost reziliat.
+După ce o înregistrare a angajatului este încheiată, contul Active Directory Domain Services (AD DS) al angajatului este dezactivat. Cu toate acestea, ar putea exista tranzacții active cu cardul de credit care trebuie în continuare cheltuite și rambursate. Pe pagina **Tranzacții cu cardul de credit**, puteți reatribui angajatul pentru orice tranzacție cu cardul de credit în cazul în care angajatul asociat a fost reziliat.
 
 Selectați una sau mai multe tranzacții cu cardul de credit, apoi selectați **Reatribuiți tranzacțiile**. Apoi puteți selecta un alt angajat căruia să îi atribuiți tranzacțiile cu cardul de credit. După ce tranzacțiile cu cardul de credit au fost realocate, acestea pot fi selectate pentru un raport de cheltuieli și plătite prin procesul obișnuit de rambursare a raportului de cheltuieli.
 
@@ -62,6 +62,6 @@ Sunt disponibile trei opțiuni pentru stocarea numerelor de card de credit. Nume
 
 - **Preveniți introducerea numărului de card** – Numerele cardurilor de credit nu sunt stocate.
 - **Numere de card hash (stocareazã ultimele patru cifre)** – Ultimele patru cifre ale numerelor cardului de credit sunt stocate într-un format criptat.
-- **Păstrați numere de card** – Numerele cardurilor de credit sunt stocate într-un format necriptat. Această opțiune nu respectă standardul de securitate a datelor (DSS) pentru industria cardurilor de plată (PCI). Prin urmare, pentru a menține organizația în conformitate cu reglementările PCI DSS, administratorii organizației ar trebui să aleagă fie să nu stocheze numerele de card de credit, fie să stocheze numerele de card hash.
+- **Păstrați numere de card** – Numerele cardurilor de credit sunt stocate într-un format necriptat. Această opțiune nu respectă standardul de securitate a datelor (DSS) pentru industria cardurilor de plată (PCI). Prin urmare, pentru a menține organizația în conformitate cu reglementările PCI DSS, administratorii organizației ar trebui să aleagă fie să nu stocheze numerele cardurilor de credit, fie să stocheze numerele de card hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818326"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576055"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Ce este nou sau schimbat în Operațiunile de proiect, octombrie 2021 pentru scenariile stocate/bazate pe producție
 
@@ -30,7 +30,7 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Management de proiect și contabilitate | [558232](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558232) | The **Preveniți închiderea proiectului dacă există tranzacții deschise** funcționalitatea nu funcționează. |
 | Management de proiect și contabilitate | [559271](https://fix.lcs.dynamics.com/Issue/Details/?bugId=559271) | Clasificarea de facturare pe o factură cu text liber nu completează automat dimensiunile din proiecte atunci când această funcționalitate este activată. |
 | Management de proiect și contabilitate | [574013](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574013) | În scenariile non-intercompany, WIP și sumele veniturilor acumulate nu sunt inversate corect atunci când factura de proiect este înregistrată. |
-| Management de proiect și contabilitate | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Valorile de debit și de credit sunt schimbate atunci când suplimentul Microsoft Excel este utilizat cu jurnalul de cheltuieli ale proiectului și **Tip de cont compensat** câmpul este setat la **Proiect**. |
+| Management de proiect și contabilitate | [577857](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577857) | Valorile de debit și credit sunt schimbate atunci când Microsoft Excel add-in-ul este utilizat cu jurnalul de cheltuieli ale proiectului și **Tip de cont compensat** câmpul este setat la **Proiect**. |
 | Management de proiect și contabilitate | [577972](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577972) | Suma care este înregistrată în tranzacțiile de proiect este supraevaluată pe o comandă de achiziție de proiect care include articole stocate și care are sume de taxe nedeductibile atunci când **UseTax** este marcat. |
 | Management de proiect și contabilitate | [581216](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581216) | Sistemul împarte suma între rapoartele de profit și pierdere ale proiectului și rapoartele WIP ale proiectului. |
 | Management de proiect și contabilitate | [582065](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582065) | Inventarul disponibil este incorect după ce o cerință de articol returnat parțial este ajustată. |
@@ -50,7 +50,7 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Management de proiect și contabilitate | [597679](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597679) | Apare o eroare când încercați să aprobați o foaie de pontaj de la **TSLine** flux de lucru și există o politică de pontaj pentru sâmbătă și duminică. |
 | Management de proiect și contabilitate | [597801](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597801) | Tipul de articol al proiectului soldului de început este exclus din **Rezumatele tranzacțiilor pentru propunerea de factură** când se calculează totalul facturii propunerii de factură. |
 | Management de proiect și contabilitate | [597886](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597886) | Dacă costul de consum pe o comandă de producție de proiect este 0 (zero), atunci când încercați să estimați, apare următoarea eroare: „S-a încercat împărțirea la zero”. |
-| Management de proiect și contabilitate | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | Aplicația Project Timesheet Mobile pentru Android nu mai răspunde. Problema este legată de **TimeEntryDataManager ArgumentNullException**. |
+| Management de proiect și contabilitate | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | Aplicația mobilă Project Timesheet pentru Android nu mai răspunde. Problema este legată de **TimeEntryDataManager ArgumentNullException**. |
 | Management de proiect și contabilitate | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Jurnalul de integrare Project Operations eșuează atunci când îl publicați, deoarece unui cont îi lipsesc dimensiuni. Cu toate acestea, contul căruia îi lipsesc parametrii nu este contul în care postați. |
 | Management de proiect și contabilitate | [598929](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598929) | The **La zi** filtrul în căutări nu este șters când este eliminat din **Selectați** caseta de dialog pe **Cost post** pagină. |
 | Management de proiect și contabilitate | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Resetați toată distribuția** eșuează și afișează o eroare pentru foile de pontaj care sunt create pentru un proiect al **Numai timp** tip. |
@@ -80,6 +80,6 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 
 ### <a name="regulatory-updates"></a>Actualizări de reglementare
 
-Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, puteți să vă conectați la Microsoft Dynamics Lifecycle Services (LCS) și să utilizați instrumentul de căutare a problemelor pentru a vedea actualizările de reglementare planificate. Căutarea problemelor vă permite să căutați după țară sau regiune, tip de caracteristică și versiune.
+Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la Microsoft Dynamics Lifecycle Services (LCS) și utilizați instrumentul de căutare a problemelor pentru a vedea actualizările de reglementare planificate. Căutarea problemelor vă permite să căutați după țară sau regiune, tip de caracteristică și versiune.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

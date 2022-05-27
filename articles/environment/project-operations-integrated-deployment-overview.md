@@ -3,16 +3,15 @@ title: Prezentare generală a implementării Project Operations pentru scenarii 
 description: Acest subiect oferă informații despre tipul de implementare, Project Operations pentru scenarii bazate pe resursă/nestocate.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009726"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575136"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Prezentare generală a implementării Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -32,7 +31,7 @@ Tipul de implementare, Dynamics 365 Project Operations pentru scenarii bazate pe
 - Recunoașterea veniturilor din proiecte
 - Extensibilitatea prin Power Platform
 
-Acest tip de implementare oferă o extensie la funcționalitatea oferită de aplicațiile Dynamics 365 Finance și Dynamics 365 Supply Chain Management.
+Acest tip de implementare oferă o extensie a funcționalității oferite de Dynamics 365 Finance și Dynamics 365 Supply Chain Management aplicatii.
 
 Această implementare ar trebui să fie aleasă dacă așteptările dvs. de la Project Operations este să utilizați ciclul de viață complet al proiectului care include următoarele cerințe:
 

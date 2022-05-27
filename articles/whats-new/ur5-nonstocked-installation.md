@@ -1,25 +1,25 @@
 ---
 title: Actualizați Project Operations în mediul dvs. de Finanțe
-description: Acest subiect oferă informații despre cum să actualizați Project Operations în mediul Dynamics 365 Finance.
+description: Acest subiect oferă informații despre cum să actualizați Operațiunile de proiect în mediul dvs. Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986776"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579961"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualizați Project Operations în mediul dvs. de Finanțe
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 
-Acest subiect oferă informații despre cum să actualizați Dynamics 365 Project Operations în mediul Dynamics 365 Finance. Există trei proceduri care sunt necesare pentru a actualiza Project Operations la Actualizarea 5 (UR5):
+Acest subiect oferă informații despre cum să actualizați Dynamics 365 Project Operations în mediul tău Dynamics 365 Finance. Există trei proceduri care sunt necesare pentru a actualiza Project Operations la Actualizarea 5 (UR5):
 
 - [Importați pachetul în proiectul dvs. de previzualizare](#import)
 - [Aplicați actualizarea](#apply)
@@ -119,7 +119,7 @@ Următoarele actualizări ale privilegiilor de securitate pentru entități sunt
 4. Pe pagina **Versiunea hărții tabelului**, aplicați o nouă versiune a hărții fiecăreia dintre cele trei entități.
 5. Pe pagina **Scriere duală**, selectați rulare pentru a reporni hărțile.
 6. Din lista de hărți, selectați harta **Registru (msdyn_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. 
-7. În câmpul **Master pentru sincronizarea inițială**, selectați **aplicațiile Finance and Operations** și apoi selectați **Rulare**.
+7. În **Master pentru sincronizarea inițială** câmp, selectați **Aplicații de finanțe și operațiuni** și apoi selectați **Alerga**.
  
  ![Sincronizarea hărții registrului contabil.](media/DW6.png)
  

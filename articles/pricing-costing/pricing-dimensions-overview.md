@@ -3,17 +3,16 @@ title: Prezentare generală a dimensiunilor de preț
 description: Acest subiect oferă informații despre dimensiunile stabilirii prețurilor în Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001986"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579275"
 ---
 # <a name="pricing-dimensions-overview"></a>Prezentare generală a dimensiunilor de preț
 
@@ -60,16 +59,16 @@ Următorul exemplu arată ratele de facturare care sunt configurate pe baza rolu
 
 | Rol        | Unitate organizațională    |Unitate      |Preț      |Monedă  |
 | ------------|-------------|----------|----------:|----------|
-| Dezvoltator   | Contoso SUA  |Oră | 200|USD     |
-| Dezvoltator   | Contoso India |Oră|   112|USD     |
+| Dezvoltator   | Contoso US  |Hour | 200|USD     |
+| Dezvoltator   | Contoso India |Hour|   112|USD     |
 
 
 **Eșantion de rate de cost**
 
 | Bandă de salariu     | Unitate organizațională    |Unitate      |Preț      |Monedă  |
 | ----------------|-------------|----------|----------:|----------|
-| company_Band1 a mea | Contoso SUA  |Oră | 145|USD     |
-| company_Band2 a mea | Contoso India |Oră|   67|USD     |
+| company_Band1 a mea | Contoso US  |Hour | 145|USD     |
+| company_Band2 a mea | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

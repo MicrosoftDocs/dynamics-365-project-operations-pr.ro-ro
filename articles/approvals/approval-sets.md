@@ -2,18 +2,16 @@
 title: Seturi de aprobare
 description: Acest subiect explică modul de lucru cu seturile de aprobare, cererile și subseturile acestor operațiuni.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323251"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576239"
 ---
 # <a name="approval-sets"></a>Seturi de aprobare
 
@@ -27,6 +25,18 @@ Seturile de aprobare indică starea generală de procesare a înregistrărilor l
 Aprobările aflate în coadă pentru procesare sunt vizibile în vizualizarea **Procesarea aprobărilor**. Sistemul procesează toate înregistrările asincron de mai multe ori, inclusiv reîncercarea unei aprobări dacă încercările anterioare au eșuat.
 
 Câmpul **Durata de viață a setului de aprobare** înregistrează numărul de încercări rămase de procesare a setului înainte ca acesta să fie marcat ca eșuat.
+
+Seturile de aprobare sunt procesate prin activarea periodică pe baza a **Cloud Flow** numit **Serviciu de proiect - Programează în mod recurent seturi de aprobare a proiectelor**. Aceasta se găsește în **Soluţie** numit **Operațiuni de proiect**. 
+
+Asigurați-vă că fluxul este activat parcurgând următorii pași.
+
+1. În calitate de administrator, conectați-vă la [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. În colțul din dreapta sus, comutați la mediul pentru care utilizați Dynamics 365 Project Operations.
+3. Selectați **Soluții** pentru a enumera soluțiile care sunt instalate în mediu.
+4. În lista de soluții, selectați **Operațiuni de proiect**.
+5. Schimbați filtrul de la **Toate** la **Cloud Flows**.
+6. Verificați că **Serviciu de proiect – Programează în mod recurent seturi de aprobare a proiectelor** fluxul este setat la **Pe**. Dacă nu este, selectați fluxul, apoi selectați **Aprinde**.
+7. Verificați dacă procesarea are loc la fiecare cinci minute, examinând **Joburi de sistem** lista în **Setări** zona din cadrul operațiunilor dvs. de proiect Dataverse mediu inconjurator.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Aprobări eșuate și seturi de aprobare
 Vizualizarea **Aprobări nereușite** listează toate aprobările care necesită intervenția utilizatorului. Deschideți jurnalele de seturi de aprobare asociate pentru a identifica cauza eșecului.

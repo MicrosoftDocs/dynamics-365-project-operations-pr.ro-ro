@@ -4,20 +4,20 @@ description: Acest subiect oferă informații despre cum să aboneze și impleme
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323431"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575825"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Înscrieți-vă pentru abonamente de previzualizare a Project Operations pentru resurse/scenarii ne-stocate
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Acest subiect explică cum să vă abonați la oferta de încercare și să implementați mediul Project Operations pentru scenarii bazate pe resurse/nebazate pe stoc.
 
@@ -40,7 +40,7 @@ Acest subiect explică cum să vă abonați la oferta de încercare și să impl
 
   Veți vedea că oferta de confirmare a fost valorificată cu succes.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance previzualizare versiune de încercare
+### <a name="dynamics-365-finance-preview-trial"></a>Probă de previzualizare Dynamics 365 Finance
 
 Accesați [Dynamics 365 for Finance versiune prekiminară de încercare](https://aka.ms/trypoche) și repetați pașii din secțiunea anterioară cu oferta, Înscrieți-vă în mediul găzduit în cloud.  
 
@@ -49,7 +49,7 @@ Accesați [Dynamics 365 for Finance versiune prekiminară de încercare](https:/
 > [!IMPORTANT]
 > Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
 
-1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
+1. Mergi la [Microsoft 365 centru de administrare](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 
 2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
 

@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988981"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576423"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizați resursa care se poate rezerva ca dimensiune de tarifare
 

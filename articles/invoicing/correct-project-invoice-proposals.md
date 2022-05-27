@@ -2,16 +2,16 @@
 title: Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
 description: Acest subiect explică modul de ajustare a informațiilor referitoare la contabilitate pe un proiect de propunere de factură.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999331"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575089"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
 
@@ -27,12 +27,21 @@ Grupurile de taxe de vânzare și facturile implicite de facturare pot fi ajusta
 
 ## <a name="adjust-financial-dimensions"></a>Ajustați dimensiunile financiare
 
+### <a name="header-dimensions"></a>Dimensiunile antetului
+
+În mod implicit, dimensiunile financiare ale facturii sunt derivate din înregistrările tranzacțiilor de proiect nefacturate care sunt facturate. Cu toate acestea, setările de sistem vă permit să utilizați dimensiunile financiare din antetul propunerilor de factură de proiect pentru a posta soldurile clienților. Pentru a activa această funcționalitate, selectați **Permite actualizări ale dimensiunilor proiectului pentru conturile de încasat** pe **Financiare** fila din **Management de proiect și parametri contabili** pagină.
+
+Dimensiunile financiare de pe anteturile facturii pot fi editate înainte ca o factură să fie postată. Pe **Propunere de factura de proiect** pagina, comutați la **Antet** vizualizați și apoi editați valorile din **Dimensiunile financiare** fila.
+
+The **Antet** vizualizarea este disponibilă numai după ce administratorul de sistem activează **Utilizați formularele de propunere de factură de proiect și jurnal de factură cu vizualizarea Antet și linii** caracteristică în **Managementul caracteristicilor** spațiu de lucru. Această caracteristică necesită actualizarea financiară 10.0.25 sau o versiune ulterioară.
+
+### <a name="line-dimensions"></a>Dimensiunile liniei
+
 Dimensiunile financiare nu pot fi editate direct pe o linie de propunere de factură de proiect. În schimb, urmați acești pași pentru a ajusta dimensiunile financiare pe o propunere de factură a proiectului.
 
 1. În propunerea de facturare a proiectului, selectați **Ștergeți tot** pentru a elimina liniile de propunere de facturare a proiectului.
 
-    > [!NOTE]
-    > Butonul **Ștergeți tot** este disponibil numai după ce administratorul de sistem activează caracteristica **Ștergeți liniile de propunere de factură atunci când utilizați Project Operations pentru scenarii bazate pe resurse/nebazate pe stoc** în spațiu de lucru **Gestionarea caracteristicilor**.
+    Butonul **Ștergeți tot** este disponibil numai după ce administratorul de sistem activează caracteristica **Ștergeți liniile de propunere de factură atunci când utilizați Project Operations pentru scenarii bazate pe resurse/nebazate pe stoc** în spațiu de lucru **Gestionarea caracteristicilor**.
 
 2. Ajustați dimensiunile financiare:
 

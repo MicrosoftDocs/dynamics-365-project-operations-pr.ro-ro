@@ -4,14 +4,14 @@ description: Acest subiect explică cum să detaliezi cheltuielile utilizând sp
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944157"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574537"
 ---
 # <a name="expense-itemization"></a>Detalierea cheltuielilor
 
@@ -32,7 +32,7 @@ Puteți folosi **Abilitatea de a detalia rapid cheltuielile recurente** caracter
 
 ## <a name="itemization-grid"></a>Grila de detalizare 
 
-Dacă o categorie de cheltuieli are subcategorii sau componente diferite care alcătuiesc acea cheltuială, atunci aceasta poate fi detaliată. Pentru a detalia o cheltuială, selectați linia de cheltuieli din raportul de cheltuieli și în **Detalii cheltuieli** panou, selectați **Acțiuni** > **Detaliază**. The **Detalizare** glisorul dezvăluie o grilă cu câmpuri. Următorul tabel oferă un exemplu pentru fiecare câmp din grilă și modul în care este redat câmpul în raportul de cheltuieli. 
+Dacă o categorie de cheltuieli are subcategorii sau componente diferite care alcătuiesc acea cheltuială, atunci aceasta poate fi detaliată. Pentru a detalia o cheltuială, selectați linia de cheltuieli în raportul de cheltuieli și în **Detalii cheltuieli** panou, selectați **Acțiuni** > **Detaliază**. The **Detalizare** glisorul dezvăluie o grilă cu câmpuri. Următorul tabel oferă un exemplu pentru fiecare câmp din grilă și modul în care este redat câmpul în raportul de cheltuieli. 
 
 |     Câmp          |     Descriere                                                                                  |     Exemplu              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
