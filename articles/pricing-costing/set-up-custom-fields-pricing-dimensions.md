@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003606"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599423"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț
 
@@ -75,10 +75,10 @@ Există două tipuri de dimensiuni de preț:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Local            |                    |Ore suplimentare                 |15     |
 |             | Contoso India|Local             |                    |Ore suplimentare                 |10     |
-|             | Contoso SUA   |Local             |                    |Ore suplimentare                 |20     |
+|             | Contoso US   |Local             |                    |Ore suplimentare                 |20     |
 
 
-Dacă o resursă din Contoso India a cărei rată de bază este 100 USD lucrează la fața locului, și înregistrează 8 ore de timp regulat și 2 ore suplimentare pe înregistrarea de timp, motorul de tarifare va folosi rata de bază de 100 pentru 8 ore pentru a înregistra 800 USD. Pentru cele 2 ore suplimentare, se va aplica un adaos de 15% la rata de bază de 100 pentru a obține un preț unitar de 115 USD și va înregistra un cost total de 230 USD.
+Dacă o resursă de la Contoso India a cărei rată de bază este 100 USD lucrează la fața locului, și înregistrează 8 ore de timp regulat și 2 ore suplimentare pe înregistrarea de timp, motorul de tarifare va folosi rata de bază de 100 pentru 8 ore pentru a înregistra 800 USD. Pentru cele 2 ore suplimentare, se va aplica un adaos de 15% la rata de bază de 100 pentru a obține un preț unitar de 115 USD și va înregistra un cost total de 230 USD.
 
 ### <a name="applicable-to-cost"></a>Aplicabil la cost 
 Dacă este setat la **Da**, asta indică faptul că valoarea de dimensiune din contextul de intrare ar trebui să se potrivească cu **Preț rol** și **Adaos preț rol** la obținerea costului și a ratelor de adaos.

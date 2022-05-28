@@ -2,17 +2,17 @@
 title: Depanare de funcționare în grila de activități
 description: Acest subiect oferă informații legate de depanare necesare atunci când lucrați în grila de activități.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547214"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596433"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Depanare de funcționare în grila de activități 
 
@@ -70,6 +70,9 @@ Project Operations necesită ca un parametru de proiect să facă referire la pu
       | Project Operations                   | tip=2             |
 
 4. Eliminați câmpul de pe pagina **Parametrii proiectului**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Atenuare 3: conectați-vă la project.microsoft.com
+În dumneavoastră Microsoft Edge browser, deschideți o filă nouă, accesați project.microsoft.com și conectați-vă utilizând rolul de utilizator pe care îl utilizați pentru a accesa Operațiunile de proiect.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problemă: Proiectul nu se încarcă, iar interfața de utilizare este blocată pe spinner
 

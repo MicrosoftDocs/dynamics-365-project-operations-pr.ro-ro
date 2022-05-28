@@ -4,14 +4,14 @@ description: Acest subiect explică cum să creați o structură detaliată a pr
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928630"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597813"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -124,10 +124,10 @@ Ar trebui să fiți conștient de următoarele limitări dacă utilizați struct
 |----------------------------------------------------|----------------------|
 | Total maxim activități pentru un proiect                  | 500                  |
 | Total maxim durată pentru un proiect               | 3650 de zile (10 ani) |
-| Total maxim resurse pentru un proiect              | 150                  |
+| Total maxim resurse pentru un proiect              | 300                  |
 | Numărul maxim de legături (numai succesoare) pentru un proiect | 600                  |
 | Total maxim de câmpuri particularizate pentru un proiect          | 10                   |
-| Numărul maxim de elemente din lista de verificare pe sarcină                   | 20                   |
+| Numărul maxim de elemente din lista de verificare per sarcină                   | 20                   |
 
 **Limitări activitate**
 

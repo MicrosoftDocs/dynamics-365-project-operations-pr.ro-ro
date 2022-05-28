@@ -2,17 +2,16 @@
 title: Urmărirea efortului în proiecte
 description: Acest subiect furnizează informații despre să urmăriți efortul proiectului și progresul lucrului.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993976"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593811"
 ---
 # <a name="project-effort-tracking"></a>Urmărirea efortului în proiecte
 
@@ -46,7 +45,8 @@ Efortul pe sarcini rezumat sau sarcini container poate fi reproiectat. Managerii
 - Se calculează noul EAC pe fiecare dintre activitățile individuale până la activitățile de nod frunză. 
 - Activitățile secundare afectate până la nodurile frunză au efortul rămas și procentajul de progres recalculate pe baza valorii EAC. Acest lucru duce la o nouă proiecție pentru varianța efortului de activitate. 
 - Sunt recalculate EAC-uri de sarcini rezumat până la nodul rădăcină.
-
+- Efortul aprobat pentru o sarcină rezumată este suma efortului aprobat pentru toate sarcinile copil plus efortul aprobat pentru sarcina rezumată.
+- Efortul rămas pentru sarcina rezumată este suma efortului rămas pentru toate sarcinile copil minus efortul aprobat pentru sarcina rezumată.
 
 ## <a name="project-status-summary"></a>Rezumat stare de proiect
 

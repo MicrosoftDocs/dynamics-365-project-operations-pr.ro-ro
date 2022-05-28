@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798055"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596295"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturați o chitanță utilizând OCR
 
@@ -52,7 +52,7 @@ Pentru a crea o cheltuială sau pentru a potrivi o cheltuială dintr-o chitanț�
 
 ## <a name="installation"></a>Instalare
 
-Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Expense Management Service pentru Microsoft Dynamics 365 Finance și activați funcțiile în instanța dvs. Puteți accesa suplimentul din proiectul dvs. în Microsoft Dynamics Lifecycle Services (LCS).
+Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Expense Management Service pentru Microsoft Dynamics 365 Finance și activați funcțiile din instanța dvs. Puteți accesa programul de completare din proiectul dvs. din Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Conectați-vă la LCS și deschideți mediul dorit.
 2. Accesați **Toate detaliile**.
@@ -73,7 +73,7 @@ Când activați aceste funcții, au loc următoarele acțiuni:
 - Se adaugă un nou element de meniu pentru vizibilitatea câmpului de cheltuieli.
 - Puteți deschide încă fosta pagină **Rapoarte de cheltuieli** accesând **Gestionarea cheltuielilor > Cheltuielile mele > Rapoarte de cheltuieli**.
 - Fluxurile de lucru și orice aprobări vă duc în continuare la pagina de rapoarte de cheltuieli existente.
-- Chitațiile vor fi procesate prin Microsoft Azure Cognitive Services, iar metadatele vor fi extrase și adăugate.
+- Chitanțele vor fi procesate prin Microsoft Azure Cognitive Services și metadatele vor fi extrase și adăugate.
 - Se adaugă o opțiune care vă permite să creați un raport de cheltuieli care include chitanțe neatașate potrivite.
 - O opțiune care este adăugată la rapoartele de cheltuieli vă permite să creați o linie de cheltuieli dintr-o chitanță sau să încercați să potriviți o chitanță existentă cu o linie de cheltuieli existentă.
 
@@ -89,7 +89,7 @@ Disponibilitatea acestei caracteristici în diferite regiuni este listată în t
 
 | Regiunea | Acceptat                         |
 |--------|-----------------------------------|
-| Statele Unite ale Americii    | Da                               |
+| STATELE UNITE ALE AMERICII    | Da                               |
 | CAN    | Da                               |
 | Regatul Unit     | Da                               |
 | AUS    | Da                               |

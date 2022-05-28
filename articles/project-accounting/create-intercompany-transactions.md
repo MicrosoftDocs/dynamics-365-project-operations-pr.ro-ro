@@ -4,14 +4,14 @@ description: Acest subiect oferă informații despre cum să creați tranzacții
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005496"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600005"
 ---
 # <a name="create-intercompany-transactions"></a>Crearea de tranzacții între companii
 
@@ -30,14 +30,14 @@ Când se aprobă o tranzacție între companii, se creează următoarele tranzac
 
 Costul, costul unitar al resurselor și prețurile tranzacțiilor de vânzare ale unităților inter-organizaționale și moneda sunt determinate de **unitate organizațională**. Acest lucru este important de reținut atunci când decideți cum să structurați companiile și unitățile organizaționale în implementarea dvs.
 
-Când creați oportunități, cotații, contract de proiect și înregistrări de proiect, sistemul verifică dacă moneda unității contractante se potrivește cu moneda contabilă a companiei contractante. Când nu sunt la fel, aceste înregistrări nu pot fi create. Moneda unității organizaționale este definită în Dynamics 365 Project Operations accesând **Dataverse** > **Setări** > **Unități organizaționale**. Moneda contabilă a unei companii este definită în Dynamics 365 Finance accesând **Registrul general** > **Configurare registru** > **Registru**. Moneda este sincronizată cu mediul dvs. Dataverse folosind harta Ledgers Dual Write.
+Când creați oportunități, cotații, contract de proiect și înregistrări de proiect, sistemul verifică dacă moneda unității contractante se potrivește cu moneda contabilă a companiei contractante. Când nu sunt la fel, aceste înregistrări nu pot fi create. Moneda unității organizaționale este definită în Dynamics 365 Project Operations accesând **Dataverse** > **Setări** > **Unități organizaționale**. Moneda contabilă a unei companii este definită în Dynamics 365 Finance accesând **Registrul general** > **Configurare registru** > **Registrul mare**. Moneda este sincronizată cu mediul dvs. Dataverse folosind harta Ledgers Dual Write.
 
 Sistemul creează costuri unitare de resurse și rezultate ale vânzărilor de unități interorganizaționale în următoarele situații:
 
   - Când unitatea de resurse diferă de unitatea contractantă
   - Când compania de resurse diferă de compania contractantă
 
-Cu toate acestea, numai tranzacțiile care au o companie de resurse diferită de firma contractantă vor fi transferate către mediul Dynamics 365 Finance pentru contabilitate suplimentară.
+Cu toate acestea, doar tranzacțiile care au o companie de resurse diferită de compania contractantă vor fi transferate în mediul Dynamics 365 Finance pentru contabilitate suplimentară.
 
 Contabilitatea realității proiectului este înregistrată în jurnalul de integrare a Project Operations din Finanțe. Sistemul creează următoarele linii de jurnal.
 
@@ -60,7 +60,7 @@ Molly Clark, dezvoltator angajat în GBPM, înregistrează 10 ore de muncă împ
     4. Setați moneda la **USD**.
     5. Salvaţi înregistrarea.
 3. Accesați **Vânzări** > **Contracte de proiect** și creați un nou contract de proiect pentru Adventure Works.
-    1. Setați firma proprietară la **USPM** iar unitatea contractantă la **Contoso Robotics SUA**.
+    1. Setați compania deținătoare la **USPM** iar unitatea contractantă la **Contoso Robotics SUA**.
     2. Selectați Adventure Works drept client.
     3. Selectați o listă de prețuri a produselor și salvați înregistrarea.
     4. Pe fila **Linii de contract**, creați o nouă linie de contract. Setați orice nume și selectați **Timp și materiale** ca metodă de facturare.

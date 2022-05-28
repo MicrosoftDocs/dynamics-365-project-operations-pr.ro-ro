@@ -4,27 +4,27 @@ description: Acest subiect furnizează informații despre configurare și aplica
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986641"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594731"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Instalați și aplicați datele de configurare în Common Data Service 
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Cerințe preliminare
 
 Înainte de a începe să configurați datele în Common Data Service (CDS), trebuie îndeplinite următoarele condiții prealabile:
 
-1.  Furnizați un mediu CDS și un mediu Dynamics 365 Finance pentru Project Operations.
-2.  Informații privind entitatea juridică de la Dynamics 365 Finance este partajat mediului CDS. Aceasta înseamnă că entitatea **Companie** din CDS are următoarele înregistrări ale companiei:
+1.  Furnizați un mediu CDS și un mediu Dynamics 365 Finance pentru operațiunile de proiect.
+2.  Informațiile despre entitate juridică de la Dynamics 365 Finance sunt partajate mediului CDS. Aceasta înseamnă că entitatea **Companie** din CDS are următoarele înregistrări ale companiei:
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 ![Migrare configurare.](./media/1ConfigurationMigration.png)
 
-4. Pe pagina 2 a expertului CMT, selectați **Microsoft 365** ca **Tip de implementare**.
+4. Pe pagina 2 a Expertului CMT, selectați **Microsoft 365** după **Tipul de implementare**.
 5. Selectați **Afișați o listă a organizațiilor disponibile** și casetele de selectare **Afișați avansat**.
 6. Selectați regiunea entității dvs. găzduite, introduceți acreditările, apoi selectați **Conectare**.
 
@@ -132,7 +132,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 12. Actualizați următoarele câmpuri:
 
  - **Companie implicită**: USPM
- - **Unitate organizatorică implicită**: Contoso Robotics Global
+ - **Unitate organizațională implicită**: Contoso Robotics Global
  - **Frecvența facturii**: a șaptea și ultima zi
  - **Șablon de oră de lucru**: modificați șablonul pe care l-ați creat.
 

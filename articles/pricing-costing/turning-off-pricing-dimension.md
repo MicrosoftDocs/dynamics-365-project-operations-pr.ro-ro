@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994516"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600343"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Dezactivarea unei dimensiuni de preț
 
@@ -38,11 +38,11 @@ Acest mesaj de eroare indică faptul că există înregistrări de preț care au
 
 | Titlu standard         | Unitate organizațională    |Unitate   |Preț  |Monedă  |
 | -----------------------|-------------|-------|-------|----------|
-| Inginer sisteme|Contoso SUA|Oră| 100|USD|
-| Inginer sisteme senior|Contoso SUA|Oră| 150| USD|
+| Inginer sisteme|Contoso US|Hour| 100|USD|
+| Inginer sisteme senior|Contoso US|Hour| 150| USD|
 
 
-Când dezactivați **Titlu standard** ca dimensiunea de tarifare, iar motorul de tarifare caută un preț, acesta va utiliza numai valoarea **Unității organizaționale** din contextul de intrare. Dacă **Unitatea organizațională** din contextul de intrare este „Contoso US”, rezultatul va fi non-determinist, deoarece ambele rânduri se vor potrivi. Pentru a evita acest scenariu, atunci când creați înregistrări de **Preț de rol**, sistemul validează unicitatea combinației de dimensiuni. Dacă dimensiunea este dezactivată după crearea înregistrărilor de **Preț de rol**, această restricție poate fi încălcată. Prin urmare, este necesar ca înainte de a dezactiva o dimensiune să ștergeți toate rândurile **Preț rol** și **Adaos preț rol** care au această valoare de dimensiune populată.
+Când dezactivați **Titlu standard** ca dimensiunea de tarifare, iar motorul de tarifare caută un preț, acesta va utiliza numai valoarea **Unității organizaționale** din contextul de intrare. Dacă **Unitatea organizațională** din contextul de intrare este „Contoso US", rezultatul va fi non-determinist, deoarece ambele rânduri se vor potrivi. Pentru a evita acest scenariu, atunci când creați înregistrări de **Preț de rol**, sistemul validează unicitatea combinației de dimensiuni. Dacă dimensiunea este dezactivată după crearea înregistrărilor de **Preț de rol**, această restricție poate fi încălcată. Prin urmare, este necesar ca înainte de a dezactiva o dimensiune să ștergeți toate rândurile **Preț rol** și **Adaos preț rol** care au această valoare de dimensiune populată.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
-title: Timpul de înregistrare, cheltuielile și utilizarea materialelor pentru componentele subcontractate
+title: Înregistrarea timpului, cheltuielilor și utilizării materialelor pentru componentele subcontractate
 description: Acest subiect explică modul în care timpul, cheltuielile și utilizarea materialelor înregistrate pe proiecte din componentele subcontractate este urmărită de Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 04c78dd48367c3720b8f5ad5d924ed106da6a128
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903744"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599239"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Înregistrarea timpului, a cheltuielilor și a utilizării materialelor pe proiecte pentru componentele subcontractate
 

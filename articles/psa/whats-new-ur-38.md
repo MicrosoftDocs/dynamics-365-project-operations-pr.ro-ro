@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5175b12c9e06962888bf09c8e07119b9505dda
-ms.sourcegitcommit: 2aba2082d50b20b596ee86735045644cd647c2b0
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7901516"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598733"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Ce este nou sau schimbat în Project Service Automation versiunea actualizată 38, V3
 
@@ -47,7 +48,7 @@ S-au remediat următoarele probleme.
 
 - Contururile nu sunt afișate corect în alocări de resurse pentru UTC(+09:30) și UTC(+10:00) când începe ora de vară.
 - The **Coloană suplimentară** câmpul pentru structurile de defalcare a muncii este ascuns în unele locații.
-- Selectorul de date pentru controlul calendarului în **Sarcina proiectului** grila nu este localizată corect pentru chineză.
+- Selectorul de date pentru controlul calendarului din **Sarcina proiectului** grila nu este localizată corect pentru chineză.
 
 **Vânzări**
 

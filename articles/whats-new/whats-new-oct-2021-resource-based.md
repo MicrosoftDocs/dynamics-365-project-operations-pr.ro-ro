@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753307"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598503"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în Octombrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753307"
 Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
    - Project Operations în mediul Microsoft Dataverse versiunea 4.25.0.91
-   - Management de proiect și contabilitate în Dynamics 365 Finance versiunea mediului 10.0.21
+   - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 

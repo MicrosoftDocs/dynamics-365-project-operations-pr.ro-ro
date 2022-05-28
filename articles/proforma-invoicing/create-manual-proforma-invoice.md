@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995641"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600067"
 ---
 # <a name="proforma-invoices"></a>Facturi proforme
 
@@ -82,6 +82,9 @@ Atunci când creați o factură de proiect schiță, toate tranzacțiile de vân
 - Editați și ajustați cantitatea și tipul de facturare.
 
 Selectați **Confirmați** pentru a confirma o factură. Acțiunea Confirmați este o acțiune într-o direcție. Când selectați **Confirmați**, sistemul face factura doar în citire și creează valori reale de vânzări facturate din fiecare detaliu de linie de factură pentru fiecare linie de factură. Dacă detaliul de linie pentru factură face referire la o valoare reală de vânzări nefacturate, sistemul inversează, de asemenea, valoarea reală de vânzări nefacturate. (Orice detaliu al liniei de factură care a fost creat dintr-o intrare de timp sau cheltuieli va face referire la o valoare reală de vânzări nefacturate.) Sistemele de integrare ale registrului general pot utiliza această inversare pentru a inversa proiectul în curs (WIP) în scopuri contabile.
+
+> [!NOTE]
+> Facturile proforma confirmate și înregistrările aferente, cum ar fi liniile de factură și detaliile liniei de factură, nu pot fi editate sau șterse. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Corectați o factură confirmată
 
