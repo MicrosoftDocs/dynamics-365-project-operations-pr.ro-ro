@@ -4,14 +4,14 @@ description: Acest subiect oferă informații despre cum să vă abonați și s�
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991546"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588015"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Înscrierea pentru un abonament de previzualizare - simplificat 
 
@@ -43,7 +43,7 @@ Acest subiect explică modul de abonare la oferta de încercare și de implement
 > Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
 
 
-1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
+1. Mergi la [Microsoft 365 centru de administrare](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
 3. Verificați dacă este selectată licența **Dynamics 365 Project Operations**. 
 4. Selectați **Salvați modificările**.

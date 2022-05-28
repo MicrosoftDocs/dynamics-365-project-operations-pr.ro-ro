@@ -4,20 +4,20 @@ description: Acest subiect oferă informații despre cum se aplică datele de co
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993301"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587003"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicați date de configurare și instalare pentru Project Operations - simplificat 
 
 _**Implementare simplificată - facturare de la tranzacție la proforma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Cerințe preliminare
 
@@ -32,7 +32,7 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
 
     ![Migrare configurare.](./media/1ConfigurationMigration.png)
 
-4. Pe pagina 2 a expertului CMT, selectați **Microsoft 365** ca **Tip de implementare**.
+4. Pe pagina 2 a Expertului CMT, selectați **Microsoft 365** după **Tipul de implementare**.
 5. Selectați **Afișați o listă a organizațiilor disponibile** și casetele de selectare **Afișați avansat**.
 6. Selectați regiunea chiriașului, introduceți acreditările, apoi selectați **Autentificare**.
 

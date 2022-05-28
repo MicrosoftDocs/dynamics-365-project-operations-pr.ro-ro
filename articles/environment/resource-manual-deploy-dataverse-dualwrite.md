@@ -4,14 +4,14 @@ description: Acest subiect explică cum să implementați manual aplicația Proj
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986461"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591235"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implementarea manuală a aplicației Project Operations Dataverse cu suport pentru scriere duală
 
@@ -37,7 +37,7 @@ Pentru a finaliza această procedură, trebuie să vă conectați ca administrat
 3. Selectați tipul de mediu. Dacă v-ați înscris pentru oferta de versiune de încercare, selectați **Versiune de încercare (bazată pe abonament)**.
 4. Confirmați regiunea de implementare.
 5. Activați opțiunea **Creați o bază de date pentru acest mediu**. 
-6. Confirmați limba, apoi confirmați că moneda se potrivește cu moneda pentru aplicațiile dvs. Finance and Operations.
+6. Confirmați limba, apoi confirmați că moneda se potrivește cu moneda aplicațiilor dvs. Finanțe și Operațiuni.
 7. Activați opțiunea **Aplicații Dynamics 365** și confirmați că câmpul **Implementați automat aceste aplicații** este setat la **Niciuna**.
 8. Adăugați un grup de securitate, dacă este necesar un grup de securitate.
 9. Selectați **Salvare** pentru a crea mediul.
@@ -62,4 +62,4 @@ Puteți finaliza această procedură numai dacă ați finalizat procedurile ante
 
 ## <a name="link-your-environments"></a><a name="link"></a>Legați mediile
 
-După ce este implementat mediul Dataverse, puteți configura legătura în aplicațiile Finance and Operations. Urmați pașii din [Utilizați expertul cu scriere duală pentru a vă conecta mediile](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+După Dataverse mediu este implementat, puteți configura linkul în aplicațiile dvs. Finanțe și Operațiuni. Urmați pașii din [Utilizați expertul cu scriere duală pentru a vă conecta mediile](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

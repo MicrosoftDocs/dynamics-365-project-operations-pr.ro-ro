@@ -3,15 +3,15 @@ title: Gestionarea subcontractelor în Project Operations
 description: Acest subiect oferă o prezentare generală a procesului tipic integral de gestionare a subcontractelor în organizațiile pe bază de proiect.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323611"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593029"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Subcontractarea gestionării în Project Operations
 
@@ -46,7 +46,7 @@ O linie de subcontract se poate baza pe cantitate sau pe muncă.
 
 Când o linie de subcontract este **bazată pe cantitate**, cantitatea achiziționată pe linia de subcontract pentru timp, cheltuială sau material poate fi utilizată în orice proiect.
 
-Când o linie de subcontract este **bazată pe muncă**, linia de subcontract se mapează la un volum de lucru reprezentat de un nod în planul de proiect. Valoarea liniei de subcontract este suma tuturor componentelor necesare pentru a livra volumul de lucru respectiv. Acestea sunt modelate ca detalii ale liniei de subcontract și pot fi o colecție de timp, cheltuieli sau materiale. Pentru o linie de subcontract bazată pe muncă, linia de subcontract este, de asemenea, dedicată unui singur proiect.
+Când o linie de subcontract este **bazată pe muncă**, linia de subcontract se mapează la un volum de lucru reprezentat de un nod în planul de proiect. Valoarea liniei de subcontract este suma tuturor componentelor necesare pentru a livra volumul de lucru respectiv. Acestea sunt modelate ca detalii ale liniei de subcontract și pot fi o colecție de timp, cheltuieli sau materiale. Pentru o linie de subcontract bazată pe muncă, linia de subcontract este, de asemenea, dedicată unui singur proiect. Aceste tipuri de subcontracte nu sunt suportate în prezent de Operațiunile de Proiect.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -4,14 +4,14 @@ description: Acest subiect oferă informații despre cum să creați facturi de 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989282"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591511"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Crearea de facturi de client și furnizor între companii
 
@@ -27,7 +27,7 @@ Utilizați această procedură pentru a crea manual o factură de client între 
 
 Următorii pași trebuie să fie efectuați în entitatea juridică de creditare. 
 
-1. În Dynamics 365 Finance, accesați **Management de proiect și contabilitate** > **Facturi de proiect** > **Facturi de clienți între companii**. Pe pagina listă **Facturi clienți între companii**, în panoul de acțiuni, selectați **Nou.**
+1. În Dynamics 365 Finance, accesați **Management de proiect si contabilitate** > **Facturi de proiect** > **Facturi clienți intercompanii**. Pe pagina listă **Facturi clienți între companii**, în panoul de acțiuni, selectați **Nou.**
 2. Pe pagina **Creați factură între companii**, în câmpul **Entitate legală**, selectați o entitate juridică care împrumută.
 3. Opțional: introduceți un anumit contract de proiect și un număr de proiect.
 4. Limitați căutarea selectând un interval de date. Introduceți date specifice în câmpurile **Data de început** și **Data de încheiere**. Numai tranzacțiile între companii care sunt înregistrate în acest interval de date sunt afișate în rezultatele căutării.

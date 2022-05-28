@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996721"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593397"
 ---
 # <a name="track-a-projects-status-project-service"></a>Urmărirea stării unui proiect (Project Service)
 
@@ -33,14 +34,13 @@ Utilizați [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-pro
 
 Pe măsură ce angajamentul progreseaz, etapele proiectului se actualizează pentru a reflecta etapa angajamentului:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nou**    | Când creați un proiect, faza este setată la **Nou**. Dacă ați creat proiectul dintr-un șablon, în această fază, proiectul ar putea avea o planificare, estimări și date de echipă. În caz contrar, aceasta va fi schița proiectului și va trebui să introduceți manual restul de componente ale proiectului. |
-|  **Ofertă**   |      Când asociați un proiect la o ofertă sau creați unul de la o ofertă, faza proiectului este setată la **Ofertă** și datele de început și de sfârșit estimate sunt actualizate, de asemenea. Atunci proiectul este în faza de ofertă, detaliile ofertei se afișează pe fila **Vânzări** din pagina **Proiect**.      |
-|   **Plan**   |                                     Atunci când câștigați o ofertă asociată cu un proiect și atunci când angajamentul progresează la faza de contractul, faza proiectului se actualizează la **Plan**. Detaliile contractului se afișează în fila **Vânzări** din pagina **Proiect**.                                      |
-| **Terminată** |                    Când proiectul este terminat, puteți comuta faza la **Terminată**. Când faza de proiect este setată la Terminată, se înțelege că munca este 100% completă, dar proiectul este menținut deschis pentru orice timp de așteptare sau intrări de cheltuieli ce se vor înregistra.                     |
-|  **Închidere**   |           Atunci când au fost înregistrate toate tranzacțiile pentru proiect și nu vă așteptați să mai fie și altele înregistrate, puteți seta manual etapa la **Închidere**. Când proiectul este setat la **Închidere**, nu mai puteți înregistra tranzacții în proiect și proiectul va fi doar în citire.           |
+| Activitate | Descriere | 
+|------------|----------|
+| **New** | Când creați un proiect, faza este setată la **Nou**. Dacă ați creat proiectul dintr-un șablon, în această fază, proiectul ar putea avea o planificare, estimări și date de echipă. În caz contrar, aceasta va fi schița proiectului și va trebui să introduceți manual restul de componente ale proiectului. |
+| **Ofertă** |  Când asociați un proiect la o ofertă sau îl creați dintr-o ofertă, etapa de proiect este setată la **Citat**, iar datele estimate de început și de încheiere sunt de asemenea actualizate. Atunci proiectul este în faza de ofertă, detaliile ofertei se afișează pe fila **Vânzări** din pagina **Proiect**. |
+| **Plan** |  Atunci când câștigați o ofertă asociată cu un proiect și atunci când angajamentul progresează la faza de contractul, faza proiectului se actualizează la **Plan**. Detaliile contractului se afișează în fila **Vânzări** din pagina **Proiect**. |
+| **Terminată** | Când proiectul este terminat, puteți comuta faza la **Terminată**. Când faza de proiect este setată la Terminată, se înțelege că munca este 100% completă, dar proiectul este menținut deschis pentru orice timp de așteptare sau intrări de cheltuieli ce se vor înregistra. |
+| **Închidere** | Atunci când au fost înregistrate toate tranzacțiile pentru proiect și nu vă așteptați să mai fie și altele înregistrate, puteți seta manual etapa la **Închidere**. Când proiectul este setat la **Închidere**, nu mai puteți înregistra tranzacții în proiect și proiectul va fi doar în citire. |
 
 ## <a name="to-track-a-projects-status"></a>Pentru a urmări starea unui proiect  
 

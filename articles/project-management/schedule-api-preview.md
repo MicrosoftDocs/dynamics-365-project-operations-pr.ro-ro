@@ -2,16 +2,16 @@
 title: Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
 description: Acest subiect oferă informații și exemple pentru utilizarea API-urilor de planificare a proiectului.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
-ms.translationtype: HT
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487700"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592063"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
 
@@ -42,7 +42,7 @@ OperationSet este un model de unitate de lucru care poate fi utilizat atunci câ
 
 În continuare este o listă a API-urilor curente de planificare a proiectului.
 
-- **msdyn_CreateProjectV1**: Acest API poate fi folosit pentru a crea un proiect. Proiectul și pachetul de proiect implicit sunt create imediat.
+- **msdyn_CreateProjectV1**: Acest API poate fi folosit pentru a crea un proiect. Proiectul și compartimentul implicit de proiect sunt create imediat.
 - **msdyn_CreateTeamMemberV1**: Acest API poate fi utilizat pentru a crea un membru al echipei de proiect. Înregistrarea membrilor echipei este creată imediat.
 - **msdyn_CreateOperationSetV1**: Acest API poate fi utilizat pentru a programa mai multe solicitări care trebuie efectuate în cadrul unei tranzacții.
 - **msdyn_PSSCreateV1**: Acest API poate fi utilizat pentru a crea o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de creare.
@@ -58,12 +58,12 @@ Pentru că înregistrează cu amândouă **CreateProjectV1** și **CreateTeamMem
 
 | Entitate de planificare | Creați | Actualizați | Delete | Considerații importante |
 | --- | --- | --- | --- | --- |
-Activitate de proiect | Da | Da | Da | Fără |
-| Dependență de activitate proiect | Da | Da | | Înregistrările de dependență ale sarcinii de proiect nu sunt actualizate. În schimb, o înregistrare veche poate fi ștearsă și o nouă înregistrare poate fi creată. |
-| Atribuire de resurse | Da | Da | | Operațiile cu următoarele câmpuri nu sunt acceptate: **BookableResourceID**, **Efort**, **EfortCompletat**, **EfortRămânând**, și **PlannedWork**. Înregistrările de alocare a resurselor nu sunt actualizate. În schimb, înregistrarea veche poate fi ștearsă și o nouă înregistrare poate fi creată. |
-| Pachet de proiect | Nedisponibil | Nedisponibil | Nedisponibil | Pachetul implicit este creat folosind API **CreateProjectV1**. |
+Activitate de proiect | Da | Da | Da | The **Progres**, **finalizat**, și **Efort Rămân** câmpurile pot fi editate în Project for the Web, dar nu pot fi editate în Project Operations.  |
+| Dependență de activitate proiect | Da |  | Da | Înregistrările de dependență ale sarcinii de proiect nu sunt actualizate. În schimb, o înregistrare veche poate fi ștearsă și poate fi creată o înregistrare nouă. |
+| Atribuire de resurse | Da | Da | | Operațiile cu următoarele câmpuri nu sunt acceptate: **BookableResourceID**, **Efort**, **EfortCompletat**, **EfortRămânând**, și **PlannedWork**. Înregistrările de alocare a resurselor nu sunt actualizate. În schimb, vechea înregistrare poate fi ștearsă și poate fi creată o nouă înregistrare. |
+| Pachet de proiect | Da | Da | Da | Bucket-ul implicit este creat utilizând **CreateProjectV1** API. Asistența pentru crearea și ștergerea compartimentelor de proiecte a fost adăugată în Actualizarea Versiunea 16. |
 | Membru echipă de proiect | Da | Da | Da | Pentru operația de creare, utilizați API **CreateTeamMemberV1**. |
-| Project | Da | Da | Nedisponibil | Operațiunile cu următoarele câmpuri nu sunt acceptate: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Efort**, **EfortCompletat**, **EfortRămânând**, **Progres**, **Finalizare**, **TaskEarliestStart** și **Durată**. |
+| Project | Da | Da |  | Operațiunile cu următoarele câmpuri nu sunt acceptate: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Efort**, **EfortCompletat**, **EfortRămânând**, **Progres**, **Finalizare**, **TaskEarliestStart** și **Durată**. |
 
 Aceste API-uri pot fi apelate cu obiecte de entitate care includ câmpuri personalizate.
 
@@ -71,196 +71,207 @@ Proprietatea ID este opțională. Dacă este furnizat, sistemul încearcă să-l
 
 ## <a name="restricted-fields"></a>Câmpuri restricționate
 
-Următoarele tabele definesc câmpurile care sunt restricționate din **Creare** și **Editare.**
+Următoarele tabele definesc câmpurile de la care sunt restricționate **Crea** și **Editați | ×**.
 
 ### <a name="project-task"></a>Activitate de proiect
 
-| **Nume logic**                       | **Poate crea** | **Poate edita**     |
+| Nume logic                           | Poate crea     | Poate edita         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | nu             | nu               |
-| msdyn_actualcost_base                  | nu             | nu               |
-| msdyn_actualend                        | nu             | nu               |
-| msdyn_actualsales                      | nu             | nu               |
-| msdyn_actualsales_base                 | nu             | nu               |
-| msdyn_actualstart                      | nu             | nu               |
-| msdyn_costatcompleteestimate           | nu             | nu               |
-| msdyn_costatcompleteestimate_base      | nu             | nu               |
-| msdyn_costconsumptionpercentage        | nu             | nu               |
-| msdyn_effortcompleted                  | nu             | nu               |
-| msdyn_effortestimateatcomplete         | nu             | nu               |
-| msdyn_iscritical                       | nu             | nu               |
-| msdyn_iscriticalname                   | nu             | nu               |
-| msdyn_ismanual                         | nu             | nu               |
-| msdyn_ismanualname                     | nu             | nu               |
-| msdyn_ismilestone                      | nu             | nu               |
-| msdyn_ismilestonename                  | nu             | nu               |
-| msdyn_LinkStatus                       | nu             | nu               |
-| msdyn_linkstatusname                   | nu             | nu               |
-| msdyn_msprojectclientid                | nu             | nu               |
-| msdyn_plannedcost                      | nu             | nu               |
-| msdyn_plannedcost_base                 | nu             | nu               |
-| msdyn_plannedsales                     | nu             | nu               |
-| msdyn_plannedsales_base                | nu             | nu               |
-| msdyn_pluginprocessingdata             | nu             | nu               |
-| msdyn_progress                         | nu             | nu (da pentru P4W) |
-| msdyn_remainingcost                    | nu             | nu               |
-| msdyn_remainingcost_base               | nu             | nu               |
-| msdyn_remainingsales                   | nu             | nu               |
-| msdyn_remainingsales_base              | nu             | nu               |
-| msdyn_requestedhours                   | nu             | nu               |
-| msdyn_resourcecategory                 | nu             | nu               |
-| msdyn_resourcecategoryname             | nu             | nu               |
-| msdyn_resourceorganizationalunitid     | nu             | nu               |
-| msdyn_resourceorganizationalunitidname | nu             | nu               |
-| msdyn_salesconsumptionpercentage       | nu             | nu               |
-| msdyn_salesestimateatcomplete          | nu             | nu               |
-| msdyn_salesestimateatcomplete_base     | nu             | nu               |
-| msdyn_salesvariance                    | nu             | nu               |
-| msdyn_salesvariance_base               | nu             | nu               |
-| msdyn_scheduleddurationminutes         | nu             | nu               |
-| msdyn_scheduledend                     | nu             | nu               |
-| msdyn_scheduledstart                   | nu             | nu               |
-| msdyn_schedulevariance                 | nu             | nu               |
-| msdyn_skipupdateestimateline           | nu             | nu               |
-| msdyn_skipupdateestimatelinename       | nu             | nu               |
-| msdyn_summary                          | nu             | nu               |
-| msdyn_varianceofcost                   | nu             | nu               |
-| msdyn_varianceofcost_base              | nu             | nu               |
+| msdyn_actualcost                       | No             | No               |
+| msdyn_actualcost_base                  | No             | No               |
+| msdyn_actualend                        | No             | No               |
+| msdyn_actualsales                      | No             | No               |
+| msdyn_actualsales_base                 | No             | No               |
+| msdyn_actualstart                      | No             | No               |
+| msdyn_costatcompleteestimate           | No             | No               |
+| msdyn_costatcompleteestimate_base      | No             | No               |
+| msdyn_costconsumptionpercentage        | No             | No               |
+| msdyn_effortcompleted                  | Nu (da pentru proiect)             | Nu (da pentru proiect)               |
+| msdyn_effortremaining                  | Nu (da pentru proiect)              | Nu (da pentru proiect)                |
+| msdyn_effortestimateatcomplete         | No             | No               |
+| msdyn_iscritical                       | No             | No               |
+| msdyn_iscriticalname                   | No             | No               |
+| msdyn_ismanual                         | No             | No               |
+| msdyn_ismanualname                     | No             | No               |
+| msdyn_ismilestone                      | No             | No               |
+| msdyn_ismilestonename                  | No             | No               |
+| msdyn_LinkStatus                       | No             | No               |
+| msdyn_linkstatusname                   | No             | No               |
+| msdyn_msprojectclientid                | No             | No               |
+| msdyn_plannedcost                      | No             | No               |
+| msdyn_plannedcost_base                 | No             | No               |
+| msdyn_plannedsales                     | No             | No               |
+| msdyn_plannedsales_base                | No             | No               |
+| msdyn_pluginprocessingdata             | No             | No               |
+| msdyn_progress                         | Nu (da pentru proiect)             | Nu (da pentru proiect) |
+| msdyn_remainingcost                    | No             | No               |
+| msdyn_remainingcost_base               | No             | No               |
+| msdyn_remainingsales                   | No             | No               |
+| msdyn_remainingsales_base              | No             | No               |
+| msdyn_requestedhours                   | No             | No               |
+| msdyn_resourcecategory                 | No             | No               |
+| msdyn_resourcecategoryname             | No             | No               |
+| msdyn_resourceorganizationalunitid     | No             | No               |
+| msdyn_resourceorganizationalunitidname | No             | No               |
+| msdyn_salesconsumptionpercentage       | No             | No               |
+| msdyn_salesestimateatcomplete          | No             | No               |
+| msdyn_salesestimateatcomplete_base     | No             | No               |
+| msdyn_salesvariance                    | No             | No               |
+| msdyn_salesvariance_base               | No             | No               |
+| msdyn_scheduleddurationminutes         | No             | No               |
+| msdyn_scheduledend                     | No             | No               |
+| msdyn_scheduledstart                   | No             | No               |
+| msdyn_schedulevariance                 | No             | No               |
+| msdyn_skipupdateestimateline           | No             | No               |
+| msdyn_skipupdateestimatelinename       | No             | No               |
+| msdyn_summary                          | No             | No               |
+| msdyn_varianceofcost                   | No             | No               |
+| msdyn_varianceofcost_base              | No             | No               |
 
 ### <a name="project-task-dependency"></a>Dependență de activitate proiect
 
-| **Nume logic**              | **Poate crea** | **Poate edita** |
+| Nume logic                  | Poate crea     | Poate edita     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | nu             | nu           |
-| msdyn_linktypename            | nu             | nu           |
-| msdyn_predecessortask         | da            | nu           |
-| msdyn_predecessortaskname     | da            | nu           |
-| msdyn_project                 | da            | nu           |
-| msdyn_projectname             | da            | nu           |
-| msdyn_projecttaskdependencyid | da            | nu           |
-| msdyn_successortask           | da            | nu           |
-| msdyn_successortaskname       | da            | nu           |
+| msdyn_linktype                | No             | No           |
+| msdyn_linktypename            | No             | No           |
+| msdyn_predecessortask         | Da            | No           |
+| msdyn_predecessortaskname     | Da            | No           |
+| msdyn_project                 | Da            | No           |
+| msdyn_projectname             | Da            | No           |
+| msdyn_projecttaskdependencyid | Da            | No           |
+| msdyn_successortask           | Da            | No           |
+| msdyn_successortaskname       | Da            | No           |
 
 ### <a name="resource-assignment"></a>Atribuire de resurse
 
-| **Nume logic**             | **Poate crea** | **Poate edita** |
+| Nume logic                 | Poate crea     | Poate edita     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | da            | nu           |
-| msdyn_bookableresourceidname | da            | nu           |
-| msdyn_bookingstatusid        | nu             | nu           |
-| msdyn_bookingstatusidname    | nu             | nu           |
-| msdyn_committype             | nu             | nu           |
-| msdyn_committypename         | nu             | nu           |
-| msdyn_effort                 | nu             | nu           |
-| msdyn_effortcompleted        | nu             | nu           |
-| msdyn_effortremaining        | nu             | nu           |
-| msdyn_finish                 | nu             | nu           |
-| msdyn_plannedcost            | nu             | nu           |
-| msdyn_plannedcost_base       | nu             | nu           |
-| msdyn_plannedcostcontour     | nu             | nu           |
-| msdyn_plannedsales           | nu             | nu           |
-| msdyn_plannedsales_base      | nu             | nu           |
-| msdyn_plannedsalescontour    | nu             | nu           |
-| msdyn_plannedwork            | nu             | nu           |
-| msdyn_projectid              | da            | nu           |
-| msdyn_projectidname          | nu             | nu           |
-| msdyn_projectteamid          | nu             | nu           |
-| msdyn_projectteamidname      | nu             | nu           |
-| msdyn_start                  | nu             | nu           |
-| msdyn_taskid                 | nu             | nu           |
-| msdyn_taskidname             | nu             | nu           |
-| msdyn_userresourceid         | nu             | nu           |
+| msdyn_bookableresourceid     | Da            | No           |
+| msdyn_bookableresourceidname | Da            | No           |
+| msdyn_bookingstatusid        | No             | No           |
+| msdyn_bookingstatusidname    | No             | No           |
+| msdyn_committype             | No             | No           |
+| msdyn_committypename         | No             | No           |
+| msdyn_effort                 | No             | No           |
+| msdyn_effortcompleted        | No             | No           |
+| msdyn_effortremaining        | No             | No           |
+| msdyn_finish                 | No             | No           |
+| msdyn_plannedcost            | No             | No           |
+| msdyn_plannedcost_base       | No             | No           |
+| msdyn_plannedcostcontour     | No             | No           |
+| msdyn_plannedsales           | No             | No           |
+| msdyn_plannedsales_base      | No             | No           |
+| msdyn_plannedsalescontour    | No             | No           |
+| msdyn_plannedwork            | No             | No           |
+| msdyn_projectid              | Da            | No           |
+| msdyn_projectidname          | No             | No           |
+| msdyn_projectteamid          | No             | No           |
+| msdyn_projectteamidname      | No             | No           |
+| msdyn_start                  | No             | No           |
+| msdyn_taskid                 | No             | No           |
+| msdyn_taskidname             | No             | No           |
+| msdyn_userresourceid         | No             | No           |
 
 ### <a name="project-team-member"></a>Membru echipă de proiect
 
-| **Nume logic**                                 | **Poate crea** | **Poate edita** |
+| Nume logic                                     | Poate crea     | Poate edita     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | nu             | nu           |
-| msdyn_creategenericteammemberwithrequirementname | nu             | nu           |
-| msdyn_deletestatus                               | nu             | nu           |
-| msdyn_deletestatusname                           | nu             | nu           |
-| msdyn_effort                                     | nu             | nu           |
-| msdyn_effortcompleted                            | nu             | nu           |
-| msdyn_effortremaining                            | nu             | nu           |
-| msdyn_finish                                     | nu             | nu           |
-| msdyn_hardbookedhours                            | nu             | nu           |
-| msdyn_hours                                      | nu             | nu           |
-| msdyn_markedfordeletiontimer                     | nu             | nu           |
-| msdyn_markedfordeletiontimestamp                 | nu             | nu           |
-| msdyn_msprojectclientid                          | nu             | nu           |
-| msdyn_percentage                                 | nu             | nu           |
-| msdyn_requiredhours                              | nu             | nu           |
-| msdyn_softbookedhours                            | nu             | nu           |
-| msdyn_start                                      | nu             | nu           |
+| msdyn_calendarid                                 | No             | No           |
+| msdyn_creategenericteammemberwithrequirementname | No             | No           |
+| msdyn_deletestatus                               | No             | No           |
+| msdyn_deletestatusname                           | No             | No           |
+| msdyn_effort                                     | No             | No           |
+| msdyn_effortcompleted                            | No             | No           |
+| msdyn_effortremaining                            | No             | No           |
+| msdyn_finish                                     | No             | No           |
+| msdyn_hardbookedhours                            | No             | No           |
+| msdyn_hours                                      | No             | No           |
+| msdyn_markedfordeletiontimer                     | No             | No           |
+| msdyn_markedfordeletiontimestamp                 | No             | No           |
+| msdyn_msprojectclientid                          | No             | No           |
+| msdyn_percentage                                 | No             | No           |
+| msdyn_requiredhours                              | No             | No           |
+| msdyn_softbookedhours                            | No             | No           |
+| msdyn_start                                      | No             | No           |
 
 ### <a name="project"></a>Project
 
-| **Nume logic**                       | **Poate crea** | **Poate edita** |
+| Nume logic                           | Poate crea     | Poate edita     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | nu             | nu           |
-| msdyn_actualexpensecost_base           | nu             | nu           |
-| msdyn_actuallaborcost                  | nu             | nu           |
-| msdyn_actuallaborcost_base             | nu             | nu           |
-| msdyn_actualsales                      | nu             | nu           |
-| msdyn_actualsales_base                 | nu             | nu           |
-| msdyn_contractlineproject              | da            | nu           |
-| msdyn_contractorganizationalunitid     | da            | nu           |
-| msdyn_contractorganizationalunitidname | da            | nu           |
-| msdyn_costconsumption                  | nu             | nu           |
-| msdyn_costestimateatcomplete           | nu             | nu           |
-| msdyn_costestimateatcomplete_base      | nu             | nu           |
-| msdyn_costvariance                     | nu             | nu           |
-| msdyn_costvariance_base                | nu             | nu           |
-| msdyn_duration                         | nu             | nu           |
-| msdyn_effort                           | nu             | nu           |
-| msdyn_effortcompleted                  | nu             | nu           |
-| msdyn_effortestimateatcompleteeac      | nu             | nu           |
-| msdyn_effortremaining                  | nu             | nu           |
-| msdyn_finish                           | da            | da          |
-| msdyn_globalrevisiontoken              | nu             | nu           |
-| msdyn_islinkedtomsprojectclient        | nu             | nu           |
-| msdyn_islinkedtomsprojectclientname    | nu             | nu           |
-| msdyn_linkeddocumenturl                | nu             | nu           |
-| msdyn_msprojectdocument                | nu             | nu           |
-| msdyn_msprojectdocumentname            | nu             | nu           |
-| msdyn_plannedexpensecost               | nu             | nu           |
-| msdyn_plannedexpensecost_base          | nu             | nu           |
-| msdyn_plannedlaborcost                 | nu             | nu           |
-| msdyn_plannedlaborcost_base            | nu             | nu           |
-| msdyn_plannedsales                     | nu             | nu           |
-| msdyn_plannedsales_base                | nu             | nu           |
-| msdyn_progress                         | nu             | nu           |
-| msdyn_remainingcost                    | nu             | nu           |
-| msdyn_remainingcost_base               | nu             | nu           |
-| msdyn_remainingsales                   | nu             | nu           |
-| msdyn_remainingsales_base              | nu             | nu           |
-| msdyn_replaylogheader                  | nu             | nu           |
-| msdyn_salesconsumption                 | nu             | nu           |
-| msdyn_salesestimateatcompleteeac       | nu             | nu           |
-| msdyn_salesestimateatcompleteeac_base  | nu             | nu           |
-| msdyn_salesvariance                    | nu             | nu           |
-| msdyn_salesvariance_base               | nu             | nu           |
-| msdyn_scheduleperformance              | nu             | nu           |
-| msdyn_scheduleperformancename          | nu             | nu           |
-| msdyn_schedulevariance                 | nu             | nu           |
-| msdyn_taskearlieststart                | nu             | nu           |
-| msdyn_teamsize                         | nu             | nu           |
-| msdyn_teamsize_date                    | nu             | nu           |
-| msdyn_teamsize_state                   | nu             | nu           |
-| msdyn_totalactualcost                  | nu             | nu           |
-| msdyn_totalactualcost_base             | nu             | nu           |
-| msdyn_totalplannedcost                 | nu             | nu           |
-| msdyn_totalplannedcost_base            | nu             | nu           |
+| msdyn_actualexpensecost                | No             | No           |
+| msdyn_actualexpensecost_base           | No             | No           |
+| msdyn_actuallaborcost                  | No             | No           |
+| msdyn_actuallaborcost_base             | No             | No           |
+| msdyn_actualsales                      | No             | No           |
+| msdyn_actualsales_base                 | No             | No           |
+| msdyn_contractlineproject              | Da            | No           |
+| msdyn_contractorganizationalunitid     | Da            | No           |
+| msdyn_contractorganizationalunitidname | Da            | No           |
+| msdyn_costconsumption                  | No             | No           |
+| msdyn_costestimateatcomplete           | No             | No           |
+| msdyn_costestimateatcomplete_base      | No             | No           |
+| msdyn_costvariance                     | No             | No           |
+| msdyn_costvariance_base                | No             | No           |
+| msdyn_duration                         | No             | No           |
+| msdyn_effort                           | No             | No           |
+| msdyn_effortcompleted                  | No             | No           |
+| msdyn_effortestimateatcompleteeac      | No             | No           |
+| msdyn_effortremaining                  | No             | No           |
+| msdyn_finish                           | Da            | Da          |
+| msdyn_globalrevisiontoken              | No             | No           |
+| msdyn_islinkedtomsprojectclient        | No             | No           |
+| msdyn_islinkedtomsprojectclientname    | No             | No           |
+| msdyn_linkeddocumenturl                | No             | No           |
+| msdyn_msprojectdocument                | No             | No           |
+| msdyn_msprojectdocumentname            | No             | No           |
+| msdyn_plannedexpensecost               | No             | No           |
+| msdyn_plannedexpensecost_base          | No             | No           |
+| msdyn_plannedlaborcost                 | No             | No           |
+| msdyn_plannedlaborcost_base            | No             | No           |
+| msdyn_plannedsales                     | No             | No           |
+| msdyn_plannedsales_base                | No             | No           |
+| msdyn_progress                         | No             | No           |
+| msdyn_remainingcost                    | No             | No           |
+| msdyn_remainingcost_base               | No             | No           |
+| msdyn_remainingsales                   | No             | No           |
+| msdyn_remainingsales_base              | No             | No           |
+| msdyn_replaylogheader                  | No             | No           |
+| msdyn_salesconsumption                 | No             | No           |
+| msdyn_salesestimateatcompleteeac       | No             | No           |
+| msdyn_salesestimateatcompleteeac_base  | No             | No           |
+| msdyn_salesvariance                    | No             | No           |
+| msdyn_salesvariance_base               | No             | No           |
+| msdyn_scheduleperformance              | No             | No           |
+| msdyn_scheduleperformancename          | No             | No           |
+| msdyn_schedulevariance                 | No             | No           |
+| msdyn_taskearlieststart                | No             | No           |
+| msdyn_teamsize                         | No             | No           |
+| msdyn_teamsize_date                    | No             | No           |
+| msdyn_teamsize_state                   | No             | No           |
+| msdyn_totalactualcost                  | No             | No           |
+| msdyn_totalactualcost_base             | No             | No           |
+| msdyn_totalplannedcost                 | No             | No           |
+| msdyn_totalplannedcost_base            | No             | No           |
 
+### <a name="project-bucket"></a>Pachet de proiect
+
+| Nume logic          | Poate crea      | Poate edita     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Da             | No           |
+| msdyn_name            | Da             | Da          |
+| msdyn_project         | Da             | No           |
+| msdyn_projectbucketid | Da             | No           |
 
 ## <a name="limitations-and-known-issues"></a>Limitări și probleme cunoscute
 Următoarea este o listă de limitări și probleme cunoscute:
 
-- API-urile de planificare a proiectelor pot fi utilizate numai de **Utilizatori cu licență Microsoft Project.** Nu pot fi utilizate de:
+- API-urile Project Schedule pot fi folosite numai de **Utilizatori cu licență Microsoft Project**. Nu pot fi utilizate de:
+
     - Utilizatori aplicație
     - Utilizatori de sistem
     - Utilizatori de integrare
     - Alți utilizatori care nu au licența necesară
+
 - Fiecare **OperationSet** poate efectua doar maximum 100 de operații.
 - Fiecare utilizator poate avea doar un maximum de 10 **OperationSets**.
 - Project Operations acceptă în prezent maximum 500 de sarcini totale pe un proiect.
@@ -269,8 +280,8 @@ Următoarea este o listă de limitări și probleme cunoscute:
 
 ## <a name="error-handling"></a>Eroare de tratare
 
-   - Pentru a revizui erorile generate din seturile de operații, accesați **Setări** \> **Integrarea planificării** \> **Seturi de operații**.
-   - Pentru a examina erorile generate de serviciul de planificare a proiectului, accesați **Setări** \> **Integrarea programului** \> **Jurnalele de erori PSS**.
+- Pentru a revizui erorile generate din seturile de operații, accesați **Setări** \> **Integrarea planificării** \> **Seturi de operații**.
+- Pentru a examina erorile generate de serviciul de planificare a proiectului, accesați **Setări** \> **Integrarea programului** \> **Jurnalele de erori PSS**.
 
 ## <a name="sample-scenario"></a>Eșantion de scenariu
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

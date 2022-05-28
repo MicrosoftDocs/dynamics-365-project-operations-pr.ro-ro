@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005136"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590177"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenarii multivalută
 
@@ -34,7 +35,7 @@ Microsoft Dynamics 365 are două concepte de valute:
 - **Moneda tranzacției** – valuta în care are loc o tranzacție. 
 - **Moneda de bază** – valuta instanței Dynamics 365. Această monedă este configurată atunci când o instanță Dynamics 365 este furnizată. Aceasta nu poate fi modificată.
 
-De exemplu, Contoso SUA a vândut 100 de tricouri unui client din Regatul Unit pentru 15 lire sterline (GBP) fiecare. Următorul tabel arată modul în care această tranzacție este înregistrată în entitatea Produs comandă.
+De exemplu, Contoso US a vândut 100 de tricouri unui client din Regatul Unit pentru 15 lire sterline (GBP) fiecare. Următorul tabel arată modul în care această tranzacție este înregistrată în entitatea Produs comandă.
 
 | Produs | Cantitate | Preț unitar | Monedă | Valoare | Curs de schimb | Preț unitar (de bază)| Volum (de bază)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +67,14 @@ PSA extinde conceptul de monedă de tranzacționare pentru cost și vânzări î
 
 ## <a name="multiple-currency-scenario"></a>Scenariu multivalută
 
-Această secțiune descrie un exemplu de proiect pe care Contoso Regatul Unit îl livrează pentru un client denumit Fabrikam, Japonia. Iată cum a fost configurat scenariul:
+Această secțiune descrie un exemplu de proiect pe care Contoso UK îl livrează pentru un client denumit Fabrikam, Japonia. Iată cum a fost configurat scenariul:
 
 1. GBP și yenul japonez (JPY) sunt configurate în **Setări** \> **Gestionare firmă** \> **Monede**. 
 2. Un cont de client denumit **Fabrikam – Japonia** este configurat, iar JPY este selectat ca monedă pe cont.
 3. O unitate organizațională denumită **Contoso UK** este configurată și GBP este selectată ca monedă.
-4. Este creat un contract de proiect, în care **Contoso Regatul Unit** este specificată ca unitatea contractantă **Fabrikam – Japonia** este specificată drept client.
+4. Este creat un contract de proiect, în care **Contoso UK** este specificată ca unitatea contractantă și **Fabrikam – Japonia** este specificată drept client.
 5. Se creează linii de contract de proiect, pe baza acordurilor de facturare pentru diversele clase de tranzacții din proiect, cum ar fi facturarea pentru timp versus facturarea pentru cheltuieli.
-6. Este creat un proiect în care **Contoso Regatul Unit** este specificată ca unitatea contractantă. Acest proiect este creat și mapat la liniile de contract de proiect.
+6. Este creat un proiect, în care **Contoso UK** este specificată ca unitatea contractantă. Acest proiect este creat și mapat la liniile de contract de proiect.
 
 
 În timpul estimării care utilizează detaliile liniei de ofertă, detaliile liniei de contract de proiect sau pe linia de estimare a planificării, sunt întotdeauna create două înregistrări în entitate. O înregistrare este pentru cost, iar cealaltă înregistrare este pentru vânzări.

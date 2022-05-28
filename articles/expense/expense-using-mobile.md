@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818198"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588935"
 ---
 # <a name="mobile-expense-app"></a>Aplicația Cheltuieli mobile
 
@@ -54,7 +54,7 @@ Dacă Finanța a fost implementată pentru organizația dvs., administratorul de
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops
 Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
-- [Pentru telefoanele Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Pentru telefoane Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pentru telefoane iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Conectați-vă la aplicația mobilă
@@ -206,11 +206,11 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>De ce aplicația mobilă Expense nu introduce implicit metoda de plată?
 
-Organizațiile pot personaliza **Metodă de plată prestabilită** setare pentru fiecare categorie de cheltuieli așa cum este creată. În plus, atunci când configurați metode de plată, puteți seta **Metodă de plată prestabilită** câmp la **Numai import**.
+Organizațiile pot personaliza **Metodă de plată prestabilită** setare pentru fiecare categorie de cheltuieli așa cum este creată. În plus, atunci când configurați metode de plată, puteți seta **Metodă de plată prestabilită** câmp la **Doar import**.
 
-Cand **Doar import** este activată pentru o metodă de plată, metoda de plată nu este introdusă în mod implicit. Acesta va fi necompletat în categoriile de cheltuieli în care este configurată această metodă de plată. Acest comportament este consecvent atât în experiența web, cât și în cea mobilă.
+Când **Numai import** este activată pentru o metodă de plată, metoda de plată nu este introdusă în mod implicit. Acesta va fi necompletat în categoriile de cheltuieli în care este configurată această metodă de plată. Acest comportament este consecvent atât în experiența web, cât și în cea mobilă.
     
-Cand **Numai import** nu este activată pentru o metodă de plată, valoarea setată este introdusă în mod implicit pentru categoriile de cheltuieli în care este configurată această metodă de plată. Cu toate acestea, există o problemă cunoscută în care valoarea implicită nu este introdusă în aplicația mobilă Cheltuieli. Pentru a rezolva această problemă, selectați manual o metodă de plată înainte de a salva raportul de cheltuieli. 
+Când **Numai import** nu este activată pentru o metodă de plată, valoarea setată este introdusă în mod implicit pentru categoriile de cheltuieli în care este configurată această metodă de plată. Cu toate acestea, există o problemă cunoscută în care valoarea implicită nu este introdusă în aplicația mobilă Cheltuieli. Pentru a rezolva această problemă, selectați manual o metodă de plată înainte de a salva raportul de cheltuieli. 
 
 ### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>De ce nu pot adăuga sau edita dimensiuni financiare în aplicația mobilă Cheltuieli?
 

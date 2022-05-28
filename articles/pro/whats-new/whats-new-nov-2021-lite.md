@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942946"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587785"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Ce este nou Noiembrie 2021 - Implementarea Project Operations Lite
 
@@ -26,7 +26,7 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 
 Următoarele caracteristici sunt incluse în această versiune:
 
-- Interfețele de programare a aplicațiilor (API) pentru programarea proiectelor acceptă acum capacitatea de a crea și șterge compartimente de proiect
+- Interfețele de programare a aplicațiilor (API) pentru planificarea proiectelor acceptă acum capacitatea de a crea și șterge compartimente de proiect
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 

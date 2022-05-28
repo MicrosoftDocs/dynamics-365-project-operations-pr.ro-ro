@@ -1,24 +1,24 @@
 ---
 title: Aplicarea datelor demonstrative unui mediu găzduit în Finance Cloud
-description: Acest subiect explică modul de aplicare a datelor demo din Project Operations la un mediu Dynamics 365 Finance găzduit în cloud.
+description: Acest subiect explică cum să aplicați date demonstrative din Project Operations într-un mediu Dynamics 365 Finance găzduit în cloud.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009681"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588981"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Aplicarea datelor demonstrative unui mediu găzduit în Finance Cloud
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 > [!IMPORTANT]
-> Acest subiect se aplică numai Microsoft Dynamics 365 Finance versiunea 10.0.13 și poate fi efectuată numai pe un mediu găzduit în cloud. Finalizați pașii din acest subiect **ÎNAINTE DE** aplicați actualizări de calitate mediului.
+> Acest subiect este aplicabil numai Microsoft Dynamics 365 Finance versiunea 10.0.13 și poate fi efectuată numai într-un mediu găzduit în cloud. Finalizați pașii din acest subiect **ÎNAINTE DE** aplicați actualizări de calitate mediului.
 
 1. În proiectul dvs. LCS, deschideți pagina **Detalii despre mediu**. Observați că include detaliile necesare pentru a vă conecta la mediu utilizând Remote Desktop Protocol (RDP).
 
@@ -76,7 +76,7 @@ Finalizarea acestui proces durează câteva minute. Ar trebui să primiți un me
 
 18. Închideți sesiunea desktop la distanță și utilizați pagina LCS **Detalii despre mediu** pentru a vă conecta la mediu pentru a confirma că funcționează conform așteptărilor.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finanțe și operațiuni.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

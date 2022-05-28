@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005586"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589625"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Ce este nou sau modificat în Project Operations, aprilie 2021 - pentru scenarii bazate pe stocuri/producție
 
@@ -20,7 +20,7 @@ _**Se aplică la:** Project Operations pentru scenariile bazate pe stocuri/produ
 
 Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
-- Management de proiect și contabilitate în Dynamics 365 Finance versiunea mediului 10.0.18
+- Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.18
  
 ### <a name="quality-updates"></a>Actualizări de calitate
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Proj
 | Deplasări și cheltuieli                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Când categoria de cheltuieli este o categorie care nu face parte din proiect, dimensiunile financiare selectate pe pagina **Cheltuieli** nu sunt copiate în raportul de cheltuieli.                                          |
 
 ### <a name="regulatory-updates"></a>Actualizări de reglementare
-Pentru informații despre actualizările de reglementare pentru aplicații Finance and Operations, vezi [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

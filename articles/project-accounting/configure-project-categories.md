@@ -4,14 +4,14 @@ description: Acest subiect furnizează informații despre configurarea categorii
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997126"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591557"
 ---
 # <a name="configure-project-categories"></a>Configurarea categoriilor de proiecte
 
@@ -35,7 +35,7 @@ Categoriile de tranzacții sunt definite în modulul Project Operations.
 
 ## <a name="shared-categories"></a>Categorii partajate
 
-Dynamics 365 folosește conceptul de categorii partajate pentru a clasifica cheltuielile în diferite aplicații, cum ar fi Dynamics 365 Finance, Dynamics 365 Supply Chain și Dynamics 365 Project Operations. Pentru fiecare categorie de tranzacții creată, Project Operationst creează automat patru categorii comune partajate: Ore, Cheltuieli, Taxe și Articol. Puteți examina și ajusta categoriile partajate accesând **Management de proiect și contabilitate** \> **Configurare** \> **Categorii** \> **Categorii partajate**.
+Dynamics 365 utilizează conceptul de categorii partajate pentru a clasifica cheltuielile în diferite aplicații, cum ar fi Dynamics 365 Finance, Dynamics 365 Supply Chain și Dynamics 365 Project Operations. Pentru fiecare categorie de tranzacții creată, Project Operationst creează automat patru categorii comune partajate: Ore, Cheltuieli, Taxe și Articol. Puteți examina și ajusta categoriile partajate accesând **Management de proiect și contabilitate** \> **Configurare** \> **Categorii** \> **Categorii partajate**.
 
 ## <a name="project-categories"></a>Categorii de proiecte
 

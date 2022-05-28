@@ -1,5 +1,5 @@
 ---
-title: Unități organizaționale
+title: Unități organizaționale avansate
 description: Acest subiect oferă informații despre unitățile organizaționale din Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005091"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589441"
 ---
-# <a name="organizational-units"></a>Unități organizaționale 
+# <a name="about-organizational-units"></a>Despre unitățile organizatorice 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -77,14 +78,14 @@ Atunci când implementați Dynamics 365, optimizați autorizarea de securitate p
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemplu de unități organizaționale și unități de business
 
-Contoso, Ltd. are o practică înfloritoare de tehnologie Microsoft. Daniel și Vera sunt amândoi dezvoltatori C\#, dar Vera este în Statele Unite, în timp ce Daniel este în India. Cele mai multe dintre angajamentele de proiect necesită resurse de la Contoso India și Contoso US și Daniel și Vera au nevoie de același nivel de acces de securitate la proiecte din acest domeniu de activitate. Cu toate acestea, costul dezvoltatorilor Contoso India diferă în mod semnificativ de costul dezvoltatorilor din Contoso SUA.
+Contoso, Ltd. are o practică înfloritoare de tehnologie Microsoft. Daniel și Vera sunt amândoi dezvoltatori C\#, dar Vera este în Statele Unite, în timp ce Daniel este în India. Cele mai multe dintre angajamentele de proiect necesită resurse de la Contoso India și Contoso SUA, iar Daniel și Vera au nevoie de același nivel de acces de securitate la proiecte din acest domeniu de activitate. Cu toate acestea, costul dezvoltatorilor din Contoso India diferă în mod semnificativ de costul dezvoltatorilor din Contoso SUA.
 
 Iată o modalitate optimă de a concepe acest scenariu utilizând Dynamics 365 și PSA.
 
 1. Creați practica tehnologiei Microsoft ca unitate de business și asociați-i pe Daniel și Vera cu ea. În acest fel, veți contribui la garantarea faptului că ambii angajați au același nivel de acces de securitate la orice proiecte din acest domeniu de activitate. Ambii vor putea să verifice progresul și să raporteze timpul, cheltuielile și actualizările sarcinilor. 
 2. Creați două unități organizaționale pentru a contribui la garantarea faptului că costul proiectului este reflectat corect. 
 3. Asociați-o pe Vera cu Contoso SUA și asociați-l pe Daniel cu Contoso India.
-4. Atribuiți listele de prețuri corespunzătoare ambelor unități organizaționale. În acest fel, contribuiți la garantarea faptului că costurile care sunt înregistrate în proiect pentru Daniel și Vera reflectă cu exactitate diferența de costuri dintre Contoso SUA și Contoso India.
+4. Atribuiți listele de prețuri corespunzătoare ambelor unități organizaționale. TÎn în acest fel, contribuiți la garantarea faptului că costurile care sunt înregistrate în proiect pentru Daniel și Vera reflectă cu exactitate diferența de costuri dintre Contoso SUA și Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Sunt unitățile organizaționale legate de teritoriile de vânzări în Dynamics 365?
 
@@ -122,7 +123,7 @@ Nu. În actuala versiune a PSA, unitățile organizaționale nu sunt ierarhice. 
 Când aveți o ierarhie complexă a centrelor de cost, diviziilor, birourilor de facturare etc., configurați nodurile frunză din ierarhia respectivă ca unități organizaționale distincte.
 Următorul exemplu arată o ierarhie tipică:
 
-**ContosoIndia**
+**Contoso India**
 
   - Practică SAP 
 
@@ -134,7 +135,7 @@ Următorul exemplu arată o ierarhie tipică:
     - Consultanți tehnici
     - Consultanți funcționali 
     
-**Contoso SUA**
+**Contoso US**
 
  - Practică SAP 
 

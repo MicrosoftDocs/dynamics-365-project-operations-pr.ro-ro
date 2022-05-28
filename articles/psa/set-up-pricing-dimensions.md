@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002346"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591925"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț 
 
@@ -73,7 +74,7 @@ Există două tipuri de dimensiuni de preț:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Local            |                    |Ore suplimentare                 |15     |
 |             | Contoso India|Local             |                    |Ore suplimentare                 |10     |
-|             | Contoso SUA   |Local             |                    |Ore suplimentare                 |20     |
+|             | Contoso US   |Local             |                    |Ore suplimentare                 |20     |
 
 
 Dacă o resursă de la Contoso India a cărei rată de bază este 100 USD lucrează la fața locului, și înregistrează 8 ore de timp regulat și 2 ore suplimentare pe înregistrarea de timp, motorul de tarifare Project Service va folosi rata de bază de 100 pentru 8 ore pentru a înregistra 800 USD. Pentru cele 2 ore suplimentare, se va aplica un adaos de 15% la rata de bază de 100 pentru a obține un preț unitar de 115 USD și va înregistra un cost total de 230 USD.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008151"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589119"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
 - Project Operations pe mediul Dataverse versiunea 4.9.0.221
-- Management de proiect și contabilitate în Dynamics 365 Finance versiunea mediului 10.0.17
+- Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
@@ -42,13 +42,13 @@ Următoarea listă prezintă hărțile cu scriere duală care au fost modificate
 | **Maparea entității** | **Versiune actualizată** | **Comentarii** |
 | --- | --- | --- |
 | Actualități de integrare a Project Operations (msdyn\_actuale) | 1.0.0.14 | Harta modificată pentru a sincroniza valorile reale de materiale proiect. |
-| Entitate de integrare a Project Operations pentru estimări de cheltuieli (msdyn\_estimateslines) | 1.0.0.2 | S-a adăugat sincronizarea liniei contractului de proiect la aplicații Finance and Operations pentru asistență de facturare pe bază de activitate. |
-| Entitate de integrare a Project Operations pentru estimări orare (msdyn\_resourceassignments) | 1.0.0.5 | S-a adăugat sincronizarea liniei contractului de proiect la aplicații Finance and Operations pentru asistență de facturare pe bază de activitate. |
-| Tabel de integrare a Project Operations pentru estimări de materiale (msdyn\_estimatelines) | 1.0.0.0 | Harta nouă a tabelelor pentru a sincroniza estimarea materialelor din Dataverse la aplicații Finance and Operations. |
-| Entitatea privind exportul facturilor de la furnizori în proiectul de integrare Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Harta nouă a tabelelor pentru a sincroniza anteturi de facturare ale furnizorului din aplicații Finance and Operations pentru Dataverse. |
-| Entitatea privind exportul liniilor de factură de la furnizori în proiectul de integrare Project operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Harta nouă a tabelelor pentru a sincroniza liniile de facturare ale furnizorului din aplicații Finance and Operations pentru Dataverse. |
+| Entitate de integrare a Project Operations pentru estimări de cheltuieli (msdyn\_estimateslines) | 1.0.0.2 | S-a adăugat sincronizarea liniei de contract de proiect la aplicațiile Finanțe și Operațiuni pentru suport de facturare bazat pe sarcini. |
+| Entitate de integrare a Project Operations pentru estimări orare (msdyn\_resourceassignments) | 1.0.0.5 | S-a adăugat sincronizarea liniei de contract de proiect la aplicațiile Finanțe și Operațiuni pentru suport de facturare bazat pe sarcini. |
+| Tabel de integrare a Project Operations pentru estimări de materiale (msdyn\_estimatelines) | 1.0.0.0 | Hartă nouă de tabel pentru a sincroniza estimările materiale de la Dataverse la aplicațiile Finanțe și Operațiuni. |
+| Entitatea privind exportul facturilor de la furnizori în proiectul de integrare Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Hartă nouă de tabel pentru sincronizarea antetelor facturii furnizorului din aplicațiile Finance and Operations la Dataverse. |
+| Entitatea privind exportul liniilor de factură de la furnizori în proiectul de integrare Project operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Hartă nouă de tabel pentru sincronizarea liniilor de facturi ale furnizorilor din aplicațiile Finance and Operations la Dataverse. |
 
-Ar trebui să rulați întotdeauna cea mai recentă versiune a hărții din mediul dvs. și să activați toate hărțile de tabel aferente pe măsură ce vă actualizați soluția dvs. Project Operations Dataverse și versiunea soluției Finance and Operations. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții în coloana **Versiune** de pe pagina **Scriere duală**. Puteți activa o nouă versiune a hărții selectând **Versiuni de hărții cu tabele**, selectând cea mai recentă versiune și apoi salvând versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Ar trebui să rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și să activați toate hărțile de tabel asociate pe măsură ce actualizați operațiunile de proiect Dataverse soluție și versiunea soluției pentru finanțe și operațiuni. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții în coloana **Versiune** de pe pagina **Scriere duală**. Puteți activa o nouă versiune a hărții selectând **Versiuni de hărții cu tabele**, selectând cea mai recentă versiune și apoi salvând versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Dacă întâmpinați o problemă la pornirea hărții, urmați instrucțiunile din secțiunea [Problema coloanelor lipsă din tabel, pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) a ghidului de depanare Dual Write.
 

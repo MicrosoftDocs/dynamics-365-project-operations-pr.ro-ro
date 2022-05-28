@@ -2,16 +2,16 @@
 title: Rezervarea pentru un proiect
 description: Acest subiect furnizează informații despre rezervarea unei resurse la un proiect.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994921"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591404"
 ---
 # <a name="book-to-a-project"></a>Rezervarea pentru un proiect
 
@@ -48,11 +48,14 @@ Atunci când un manager de resurse trebuie să rezerve o resursă direct la un p
 2. În panoul de jos, selectați fila **Proiect** pentru a vizualiza o listă cu cerințele proiectului.
 3. Trageți cerința pe o resursă și definiți următoarele informații:
 
-    - Dată de început
+    - Data de început
     - Data de terminare
     - Starea rezervării
     - Metodă de rezervare
     - Durată
+   
+   > [!NOTE]
+   > În prezent,Dynamics 365 Project Operations nu acceptă tabloul de program.   
 
 ## <a name="book-from-the-project-form"></a>Rezervați din formularul Proiect
 
