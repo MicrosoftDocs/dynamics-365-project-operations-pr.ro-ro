@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001491"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682817"
 ---
 # <a name="expense-management-mobile-workspace"></a>Spațiu de lucru mobil pentru gestionarea cheltuielilor
 
@@ -35,7 +34,7 @@ Multe organizații solicită ca o copie a chitanței să fie atașată unui rapo
 
 Mai exact, spațiul de lucru mobil **Managementul cheltuielilor** permite utilizatorilor să efectueze următoarele sarcini:
 
-- Faceți o fotografie a unei chitanțe și încărcați-o în Dynamics 365 Finance. Apoi, puteți atașa imaginea respectivă la un raport de cheltuieli ulterior.
+- Faceți o fotografie a unei chitanțe și încărcați-o pe Dynamics 365 Finance. Apoi, puteți atașa imaginea respectivă la un raport de cheltuieli ulterior.
 - Încărcați un fișier ca chitanță capturată. Apoi, puteți atașa fișierul respectiv la un raport de cheltuieli ulterior.
 - Creați o nouă linie de cheltuieli utilizând o chitanță atașată. Apoi puteți adăuga elementul rând la un raport de cheltuieli ulterior și îl puteți trimite pentru aprobare și rambursare.
 
@@ -53,7 +52,7 @@ De asemenea, aveţi posibilitatea să utilizaţi aceste caracteristici:
 ## <a name="prerequisites"></a>Cerințe preliminare
 Cerințele preliminare variază, în funcție de versiunea care a fost implementată pentru organizația dvs.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Condiții preliminare dacă utilizați Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Cerințe preliminare dacă utilizați Dynamics 365 Finance 
 Dacă Finanța a fost implementată pentru organizația dvs., administratorul de sistem trebuie să publice fișierul spațiu de lucru mobil **Gestionarea cheltuielii**. Pentru instrucțiuni, consultați [Publicați spații de lucru mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Condiții preliminare dacă utilizați versiunea 1611 cu platforma de 3 actualizare sau o versiune ulterioară

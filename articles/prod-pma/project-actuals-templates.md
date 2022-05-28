@@ -1,32 +1,31 @@
 ---
-title: Sincronizarea datelor reale ale proiectului direct din Project Service Automation la jurnalul de integrare a proiectului pentru postare în Finance and Operations
-description: Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza datele reale ale proiectului direct de la Microsoft Dynamics 365 Project Service Automation la Finance and Operations.
+title: Sincronizați actualele proiecte direct de la Project Service Automation în jurnalul de integrare a proiectului pentru postare în Finance and Operations
+description: Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza datele reale ale proiectului direct din Microsoft Dynamics 365 Project Service Automation la Finanțe și Operațiuni.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988126"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683553"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizarea datelor reale ale proiectului direct din Project Service Automation la jurnalul de integrare a proiectului pentru postare în Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizați actualele proiecte direct de la Project Service Automation în jurnalul de integrare a proiectului pentru postare în Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza datele reale ale proiectului direct de la Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza datele reale ale proiectului direct din Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 
 Șablonul sincronizează tranzacțiile de la Project Service Automation într-un tabel de etapizare în Finanțe. După finalizarea sincronizării, dvs. **trebuie să** importați datele din tabelul de etapizare în jurnalul de integrare.
 
@@ -42,7 +41,7 @@ Soluția de integrare Project Service Automation la Finance utilizează funcția
 
 Următoarea ilustrație arată cum sunt sincronizate datele între Project Service Automation și Finance.
 
-[![Fluxul de date pentru integrarea Project Service Automation cu Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flux de date pentru integrarea Project Service Automation cu Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Datele reale ale proiectului din Project Service Automation
 
@@ -75,7 +74,7 @@ Datele reale ale proiectului sunt gestionate în Project Service Automation și 
 
 ### <a name="power-query"></a>Power Query
 
-În șablonul datelor reale ale proiectului, trebuie să utilizați Microsoft Power Query pentru Excel pentru a finaliza aceste sarcini:
+În șablonul de date reale ale proiectului, trebuie să utilizați Microsoft Power Query pentru ca Excel să finalizeze aceste sarcini:
 
 - Transformați tipul de tranzacție în Project Service Automation la tipul de tranzacție corect în Finanțe. Această transformare este deja definită în șablonul datele reale ale proiectului (PSA la Fin și Ops).
 - Transformați tipul de facturare în Project Service Automation la tipul de facturare corect în Finanțe. Această transformare este deja definită în șablonul datele reale ale proiectului (PSA la Fin și Ops). Tipul de facturare este apoi mapat la proprietatea liniei, pe baza configurației de pe pagina **Parametri de integrare Project Service Automation**.
@@ -84,9 +83,9 @@ Datele reale ale proiectului sunt gestionate în Project Service Automation și 
 - Dacă timpul între companii sau cheltuielile datelor reale între companii nu vor fi sincronizate cu Finanțele, trebuie să ștergeți ultima coloană condițională inserată din șablonul dvs. În caz contrar, s-ar putea să apară o eroare de integrare sau tranzacțiile datelor reale incorecte ar putea fi importate în Finanțe.
 
 #### <a name="contract-organizational-unit"></a>Unitate organizațională contract
-Pentru a actualiza coloana condițională inserată în șablon, faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectați linkul **Interogare și filtrare avansate** pentru a deschide Power Query.
+Pentru a actualiza coloana condițională inserată în șablon, faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectează **Interogare avansată și filtrare** link pentru deschidere Power Query.
 
-- Dacă utilizați șablonul implicit Date reale ale proiectului (PSA la Fin și Ops), în Power Query, selectați ultima **Condiție inserată** din secțiunea **Pași aplicați**. În intrarea **Funcție**, înlocuiți **USSI** cu numele persoanei juridice care ar trebui folosită cu integrarea. Adăugați condiții suplimentare la intrarea **Funcție** după cum doriți și actualizați condiția **else** din **USMF** la persoana juridică corectă.
+- Dacă utilizați șablonul implicit pentru proiecte reale (PSA la Fin și Ops), în Power Query, selectați ultimul **Condiție inserată** de la **Pași aplicați** secțiune. În intrarea **Funcție**, înlocuiți **USSI** cu numele persoanei juridice care ar trebui folosită cu integrarea. Adăugați condiții suplimentare la intrarea **Funcție** după cum doriți și actualizați condiția **else** din **USMF** la persoana juridică corectă.
 - Când creați un șablon nou, trebuie să adăugați coloana pentru a accepta timpul și cheltuielile între companii. Selectați **Adăugare coloană condițională**, și introduceți un nume pentru coloană, cum ar fi **LegalEntity**. Introduceți o condiție pentru coloană, unde, dacă **msdyn\_contractorganizationalunitid.msdyn\_name** este \<organizational unit\>, atunci \<enter the legal entity\>; altfel este nul.
 
 ### <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor

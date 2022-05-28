@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993886"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728019"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planificați-vă munca în Microsoft Project cu programul de completare Project Service
 
@@ -40,7 +41,7 @@ Puteți instala [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dy
 ## <a name="download-and-install-the-add-in"></a>Descărcați și instalați programul de completare  
  Țineți informațiile de conectare [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] la îndemână. Veți avea nevoie de aceste informații pentru a vă conecta de la [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] la [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  De la Centrul de descărcare puteți descărca programul de completare pentru versiunea acceptată de Project Service, fie [v2. X](https://go.microsoft.com/fwlink/?linkid=828268), fie [v 3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  De la Centrul de descărcare puteți descărca programul de completare pentru versiunea acceptată de Project Service, fie [v2. X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x), fie [v 3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Selectați linkul de descărcare.  
 

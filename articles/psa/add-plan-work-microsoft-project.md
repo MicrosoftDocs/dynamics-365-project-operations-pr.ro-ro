@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005316"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727973"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilizarea programului de completare Project Service Automation pentru a vă planifica munca în Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005316"
 ## <a name="download-and-install-the-add-in"></a>Descărcați și instalați programul de completare  
  Țineți informațiile de conectare [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] la îndemână. Veți avea nevoie de aceste informații pentru a vă conecta de la [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] la [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  De la Centrul de descărcare puteți descărca programul de completare pentru versiunea acceptată de Project Service, fie [v2. X](https://go.microsoft.com/fwlink/?linkid=828268), fie [v 3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  De la Centrul de descărcare puteți descărca programul de completare pentru versiunea acceptată de Project Service, fie [v2. X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x), fie [v 3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Faceți clic pe linkul de descărcare.  
 
@@ -87,9 +88,8 @@ Atunci când terminați de planificat proiectul, următorul pas este să importa
 
 Proiectul se va importa în [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Se aplică procesul de generare a echipelor și a prețurilor. Deschideți proiectul în [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] pentru a vedea că echipa, estimările de proiect și structura detaliată a proiectului au fost generate. Următorul tabel arată unde să găsiți rezultatele:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagramă Gantt**   | Importurile în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Structura detaliată a proiectului**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Foaie de resurse** |   Importurile în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Membrii echipei de proiect**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Folosirea utilizării**    |    Importă în ecranul [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estimări de proiect**.     |

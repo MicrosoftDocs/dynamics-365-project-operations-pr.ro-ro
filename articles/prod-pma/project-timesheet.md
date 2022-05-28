@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997216"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683231"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicație mobilă pentru foaia de pontaj a proiectului
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997216"
 
 ## <a name="overview"></a>Prezentare generală
 
-Aplicația mobilă Microsoft Dynamics 365 Project Timesheet permite utilizatorilor să trimită și să aprobe foi de pontaj pentru proiecte pe dispozitivul lor mobil (iPhone sau Android). Această aplicație mobilă prezintă funcționalitatea foii de pontaj care se află în zona de management de proiect și contabilitate a Dynamics 365 Finance, îmbunătățind productivitatea și eficiența utilizatorilor, precum și permițând intrarea și aprobarea în timp util a fișelor de pontaj ale proiectului.
+Aplicația mobilă Microsoft Dynamics 365 Project Timesheet permite utilizatorilor să trimită și să aprobe foi de pontaj pentru proiecte pe dispozitivul lor mobil (iPhone sau Android). Această aplicație mobilă evidențiază funcționalitatea foii de pontaj care se află în zona de management al proiectelor și contabilitate a Dynamics 365 Finance, îmbunătățind productivitatea și eficiența utilizatorilor, precum și permițând introducerea și aprobarea în timp util a foilor de pontaj ale proiectului.
 
 ## <a name="download-and-install-the-mobile-app"></a>Descărcați și instalați aplicația mobilă
 

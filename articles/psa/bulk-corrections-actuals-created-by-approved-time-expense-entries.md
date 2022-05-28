@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995416"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683377"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Corecții în bloc ale datelor reale create prin intrări de timp și cheltuieli aprobate
 
@@ -60,10 +59,7 @@ Urmați pașii următori pentru a corecta intrările de timp unice sau multiple 
 
 10. În lista **Vizualizare asociată valori reale**, puteți vedea că intrările de timp originale care au fost inversate sunt încă listate, la fel și intrările de timp corectate corespunzătoare. 
 
-De exemplu, în graficul următor, există două elemente linie cu o cantitate de 8,00 care au debite listate în coloana Sumă. În plus, există două elemente linie cu o cantitate de -8,00 care arată sumele creditate în coloana Sumă. Aceste corecții aduc cantitatea la zero.
 
-![Listă vizualizare asociată valori reale.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>Intrări de cheltuieli aprobate corect
 
 Urmați pașii următori pentru a corecta una sau mai multe intrări de cheltuieli. 
@@ -86,8 +82,6 @@ Urmați pașii următori pentru a corecta una sau mai multe intrări de cheltuie
 7. După ce confirmați jurnalul de corecție, navigați înapoi la proiectul sau proiectele pe care le-ați actualizat, pentru a vizualiza modificările.  
 
 8. În pagina proiectului, pe fila **Date reale**, treceți în revistă **Vizualizare asociată valori reale**. Sunt enumerate intrările originale și intrările corectate. Următorul grafic arată sumele de intrare pentru cheltuieli originale și sumele corespunzătoare de intrare ale cheltuielilor corectate. 
-
-![Date reale cheltuieli.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

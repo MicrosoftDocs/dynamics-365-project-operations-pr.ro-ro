@@ -1,32 +1,31 @@
 ---
-title: Sincronizați categoriile de cheltuieli ale proiectului între Finance and Operations și Project Service Automation
-description: Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectului între Microsoft Dynamics 365 Finance și Dynamics 365 Project Service Automation.
+title: Sincronizați categoriile de cheltuieli ale proiectelor între Finance and Operations și Project Service Automation
+description: Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectului între Microsoft Dynamics 365 Finanţe şi Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001131"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685485"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizați categoriile de cheltuieli ale proiectului între Finance and Operations și Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizați categoriile de cheltuieli ale proiectelor între Finance and Operations și Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectului între Dynamics 365 Finance și Dynamics 365 Project Service Automation.
+Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectelor între Dynamics 365 Finance și Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrarea sarcinilor proiectului, categoriile tranzacțiilor de cheltuieli, estimările orelor, estimările cheltuielilor și blocarea funcționalității sunt disponibile în versiunea 8.0.
@@ -81,10 +80,10 @@ Categoriile cheltuielilor proiectului sunt gestionate în Finance și sunt sincr
 
 ### <a name="power-query"></a>Power Query
 
-Când vă sincronizați cu Project Service Automation, trebuie să utilizați Microsoft Power Query pentru Excel pentru a seta tipul de facturare în categoria tranzacției. Șablonul categorii tranzacții de cheltuieli ale proiectului (Fin și Ops la PSA) oferă o coloană și o mapare implicite. Dacă vă creați propriul șablon, trebuie să adăugați o coloană condițională în Power Query. Urmați acești pași.
+Când vă sincronizați cu Project Service Automation, trebuie să utilizați Microsoft Power Query pentru ca Excel să seteze tipul de facturare pe categoria tranzacției. Șablonul categorii tranzacții de cheltuieli ale proiectului (Fin și Ops la PSA) oferă o coloană și o mapare implicite. Dacă vă creați propriul șablon, trebuie să adăugați o coloană condiționată în Power Query. Urmați acești pași.
 
 1. Faceți clic pe săgeată pentru a deschide maparea activității categoriilor de cheltuieli de proiect în șablonul Categorii de tranzacții de cheltuieli de proiect (Fin și Ops la PSA).
-2. Faceți clic pe linkul **Interogare și filtrare avansate** pentru a deschide Power Query.
+2. Apasă pe **Interogare avansată și filtrare** link pentru deschidere Power Query.
 2. Selectați **Adăugare coloană condițională**.
 3. Introduceți un nume pentru noua coloană, cum ar fi **BillingType**.
 4. Introduceți următoarea condiție: **dacă CATEGORYID nu este egal cu nul atunci 19235001, altfel nul**.

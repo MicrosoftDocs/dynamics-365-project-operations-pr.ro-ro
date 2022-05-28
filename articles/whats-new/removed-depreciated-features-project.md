@@ -2,17 +2,17 @@
 title: Funcții eliminate sau depreciate în Dynamics 365 Project Operations
 description: Acest subiect descrie caracteristicile care au fost eliminate sau care sunt planificate pentru eliminare din Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 12/09/2021
+ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7aa2888b2752641e99087031a85177cb1171363d
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
-ms.translationtype: HT
+ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903747"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601585"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funcții eliminate sau depreciate în Dynamics 365 Project Operations
 
@@ -26,7 +26,49 @@ Acest subiect descrie caracteristicile care au fost eliminate sau care sunt plan
 Această listă este menită să vă ajute să luați în considerare aceste eliminări și perimări pentru propria dvs. planificare.
 
 > [!NOTE]
-> Informații detaliate despre obiectele din Finance and Operations aplicațiile pot fi găsite în [**Rapoarte tehnice de referință**](/dynamics/s-e/global/axtechrefrep_61). Puteți compara diferitele versiuni ale acestor rapoarte pentru a afla despre obiectele care s-au schimbat sau au fost eliminate în fiecare versiune de Finance and Operations aplicații.
+> Informații detaliate despre obiectele din aplicațiile Finanțe și Operațiuni pot fi găsite în [**Rapoarte tehnice de referință**](/dynamics/s-e/global/axtechrefrep_61). Puteți compara diferitele versiuni ale acestor rapoarte pentru a afla despre obiectele care s-au schimbat sau au fost eliminate din fiecare versiune a aplicațiilor Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Funcții eliminate sau depreciate în versiunea Project Operations din martie 2022
+
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Parametrul de management de proiect și contabilitate „Creați întotdeauna tranzacția de ajustare”.
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Motivul deprecierii / eliminării** | Tranzacțiile de ajustare sunt necesare în scopuri de audit. După depreciere, acest parametru va fi ascuns. Sistemul va crea întotdeauna tranzacții de ajustare, așa cum face în prezent când parametrul este setat la **Da**. |
+| **Înlocuit de altă caracteristică?** | No |
+| **Zonele de produse afectate** | Aplicație |
+| **Opțiune de implementare** | Operațiuni de proiect pentru scenarii de producție/stoc |
+| **Stare** | Învechit: până la 1 martie 2023, vom ascunde parametrul și vom schimba comportamentul sistemului, astfel încât tranzacțiile de ajustare să fie întotdeauna create. |
+
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Parametrul de management al proiectului și contabilitate „Utilizați data ajustării ca dată nouă a proiectului”.
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Motivul deprecierii / eliminării** | Acest parametru a fost folosit inițial pentru a permite ajustări atunci când un perioadă fiscală a fost închis. Cu toate acestea, nu mai este necesar, deoarece data contabilă a tranzacției poate fi modificată la prima dată a perioadei deschise, dacă este configurată. Data proiectului nu trebuie modificată, deoarece reprezintă data la care a avut loc tranzacția. |
+| **Înlocuit de altă caracteristică?** | No |
+| **Zonele de produse afectate** | Aplicație |
+| **Opțiune de implementare** | Operațiuni de proiect pentru scenarii de producție/stoc |
+| **Stare** | Învechit: până la 1 martie 2023, vom ascunde parametrul și vom schimba comportamentul sistemului, astfel încât data proiectului să nu fie modificată niciodată la ajustări. |
+
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Flux de lucru de solicitare de resurse în Operațiuni de proiect pentru scenarii stocate/bazate pe producție
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Motivul deprecierii / eliminării** | Depreciat din cauza limitărilor reduse de utilizare și volum de tranzacții. |
+| **Înlocuit de altă caracteristică?** | No |
+| **Zonele de produse afectate** | Aplicație |
+| **Opțiune de implementare** | Operațiuni de proiect pentru scenarii de producție/stoc |
+| **Stare** | Învechit: până la 1 martie 2023, vom dezactiva opțiunea de a solicita resurse pentru proiect utilizând fluxul de lucru. |
+
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Pagina de propunere de factură de proiect fără vederi Antet și linii
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Motivul deprecierii / eliminării** | Depreciat din cauza îmbunătățirilor aduse paginii care a fost introdusă împreună cu **Utilizați formularele de propunere de factură de proiect și jurnal de factură cu vizualizarea Antet și linii** tasta caracteristică. |
+| **Înlocuit de altă caracteristică?** | Da |
+| **Zonele de produse afectate** | Aplicație |
+| **Opțiune de implementare** | Operațiuni de proiect pentru scenarii de producție/stoc; Operațiuni de proiect pentru scenarii de resurse/nestocitate |
+| **Stare** | Învechit: până la 1 martie 2023, vom dezactiva pagina anterioară (veci) și vom activa **Utilizați formularele de propunere de factură de proiect și jurnal de factură cu vizualizarea Antet și linii** tasta caracteristică în mod implicit. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Funcții eliminate sau depreciate în versiunea Project Operations din decembrie 2021
 
@@ -36,8 +78,8 @@ Această listă este menită să vă ajute să luați în considerare aceste eli
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Motivul deprecierii/eliminării** | Depreciat din cauza utilizării reduse. Clienții care utilizează Operațiuni de proiect pentru scenarii de resurse/ne-aprovizionate pot profita [Colaborare cu grupuri de birou](../project-management/collaboration-groups.md). |
-| **Înlocuit cu alte caracteristici?** | No |
+| **Motivul deprecierii / eliminării** | Depreciat din cauza utilizării reduse. Clienții care folosesc Operațiuni de proiect pentru scenarii de resurse/ne-aprovizionate pot profita [Colaborare cu grupuri de birou](../project-management/collaboration-groups.md). |
+| **Înlocuit de altă caracteristică?** | No |
 | **Zonele de produse afectate** | Aplicație  |
 | **Opțiune de implementare** | Operațiuni de proiect pentru scenarii de producție/stoc |
 | **Stare** | Învechit: până la 1 decembrie 2022, intenționăm să nu mai acceptăm spațiile de lucru de colaborare. |

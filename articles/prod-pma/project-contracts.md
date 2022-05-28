@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001041"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683507"
 ---
 # <a name="project-contracts"></a>Contracte de proiect
 
@@ -45,7 +44,7 @@ Unele contracte de proiect specifică faptul că mai multe părți împart respo
 -   Un proiect rutier este cofinanțat de două municipalități.
 -   Un proiect de pod este finanțat de o subvenție guvernamentală și de o corporație privată.
 
-În Dynamics 365 Finance, puteți împărți facturarea pentru o singură tranzacție sau un întreg proiect între mai mulți clienți, subvenții sau organizații. 
+În Dynamics 365 Finance, puteți împărți facturarea pentru o singură tranzacție sau un întreg proiect între mai mulți clienți, granturi sau organizații. 
 
 În proiectele care au mai mulți finanțatori, toate părțile care contribuie la finanțarea unui proiect avansat de finanțare sunt numite surse de finanțare. După ce un client, o organizație sau o bursă este definit ca sursă de finanțare, acesta poate fi atribuit uneia sau mai multor reguli de finanțare. Regulile de finanțare conțin criteriile care determină modul în care taxele sunt alocate diferitelor surse de finanțare pentru un proiect. 
 

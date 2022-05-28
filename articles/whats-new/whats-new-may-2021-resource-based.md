@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994696"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723783"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în mai 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
 - Project Operations pe versiunea de mediu Dynamics 365 Dataverse 4.10.0.186
-- Management de proiect și contabilitate în medii de aplicații Finance and Operations versiunea 10.0.18
+- Management de proiect și contabilitate în mediile aplicațiilor de finanțe și operațiuni versiunea 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
@@ -41,9 +41,9 @@ Următoarea listă prezintă hărțile cu scriere duală care au fost modificate
 | Entitatea privind exportul liniilor de factură de la furnizori în proiectul de integrare Project operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Actualizări de calitate |
 | Proiecte V2 (msdyn\_projects) | 1.0.0.2 | Actualizări de calitate |
 
-Rulați întotdeauna cea mai recentă versiune a hărții din mediul dvs. și să activați toate hărțile de tabel aferente pe măsură ce vă actualizați soluția dvs. Project Operations Dataverse și versiunea soluției Finance and Operations. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții în coloana  **Versiune**  de pe pagina  **Scriere duală**. Pentru a activa o nouă versiune a hărții selectați **Versiuni ale hărții cu tabele**, selectați cea mai recentă versiune și apoi salvați versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel asociate pe măsură ce actualizați operațiunile de proiect Dataverse versiunea soluției și a aplicațiilor de finanțe și operațiuni. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții în coloana  **Versiune**  de pe pagina  **Scriere duală**. Pentru a activa o nouă versiune a hărții selectați **Versiuni ale hărții cu tabele**, selectați cea mai recentă versiune și apoi salvați versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Dacă întâmpinați o problemă la pornirea hărții, urmați instrucțiunile din secțiunea [Problema coloanelor lipsă din tabel, pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) a ghidului de depanare Dual Write.
+Dacă întâmpinați o problemă la pornirea hărții, urmați instrucțiunile din secțiunea [Problema coloanelor lipsă din tabel, pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) a ghidului de depanare Dual Write.
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 

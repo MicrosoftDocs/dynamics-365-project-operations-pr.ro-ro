@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007341"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684887"
 ---
 # <a name="project-resourcing-home-page"></a>Pagina de pornire a resurselor de proiect
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007341"
 
 Acest subiect oferă informații despre alocarea de resurse proiectului.
 
-O provocare pentru managerii de proiect și managerii de resurse în etapa de planificare a proiectului este alocarea resurselor, în care aceștia trebuie să determine și să rezerve resursa corectă pentru a lucra la un proiect. În Dynamics 365 Finance, capabilitățile de resurse pentru proiecte vă permit să definiți roluri care sunt tratate ca resurse temporare care pot fi rezervate pentru o anumită implicare sau o parte dintr-o implicare. Acest tip de alocare de resurse permite managerilor de proiect și managerilor de resurse să îndeplinească următoarele sarcini:
+O provocare pentru managerii de proiect și managerii de resurse în etapa de planificare a proiectului este alocarea resurselor, în care aceștia trebuie să determine și să rezerve resursa corectă pentru a lucra la un proiect. În Dynamics 365 Finance, capacitățile de alocare a resurselor pentru proiecte vă permit să definiți roluri care sunt tratate ca resurse temporare care pot fi rezervate pentru o anumită angajament sau pentru o parte a unei angajamente. Acest tip de alocare de resurse permite managerilor de proiect și managerilor de resurse să îndeplinească următoarele sarcini:
 
 - Definirea unui rol care are competențele necesare, astfel încât să fie ușor să potrivească resursele.
 - Folosirea de roluri pentru a defini un program inițial de implicare bazat pe resurse rezervate.

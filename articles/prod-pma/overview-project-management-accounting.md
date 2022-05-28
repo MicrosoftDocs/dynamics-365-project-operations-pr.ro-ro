@@ -3,25 +3,23 @@ title: Management de proiect și prezentare generală a contabilității
 description: Funcționalitatea de gestionare a proiectelor și contabilitate poate fi utilizată în mai multe industrii pentru a furniza un serviciu, a produce un produs sau a obține un rezultat.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007521"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683599"
 ---
 # <a name="project-management-and-accounting-overview"></a>Management de proiect și prezentare generală a contabilității
 
@@ -248,7 +246,7 @@ Tabelul următor descrie metodele de calcul ale costului pentru finalizarea unui
 <tbody>
 <tr class="odd">
 <td>Cost total - real</td>
-<td>Costurile estimate trebuie introduse manual. După coloana <strong>Cost total</strong> sau <strong>Cantitatea totală</strong> de pe pagina <strong>Cost estimat</strong> este finalizată, costurile reale sunt scăzute din totalurile introduse de utilizator. Rezultatul este costul finalizării proiectului. De obicei, progresul costurilor nu este urmărit pe baza, de exemplu, a numărului de sejururi la hotel și a meselor înregistrate în fiecare perioadă. În schimb. Urmărirea se bazează de obicei pe o comparație cu cantitatea totală de ore estimate. Această abordare nu necesită un model de prognoză, iar costul total sau cantitatea totală pot fi modificate manual. Când se introduce o valoare în coloana <strong>Cost total</strong> sau <strong>Cantitatea totală</strong>, Finanțe compară această valoare cu tranzacțiile efective înregistrate în perioada respectivă, apoi scade valoarea din coloana <strong>Cantitatea de finalizat</strong> sau <strong>Cost de finalizare</strong>.</td>
+<td>Costurile estimate trebuie introduse manual. După coloana <strong>Cost total</strong> sau <strong>Cantitatea totală</strong> de pe pagina <strong>Cost estimat</strong> este finalizată, costurile reale sunt scăzute din totalurile introduse de utilizator. Rezultatul este costul finalizării proiectului. De obicei, evoluția costurilor nu este&#39; t urmărit pe baza, de exemplu, a numărului de sejururi la hotel și de mese care sunt înregistrate în fiecare perioadă. În schimb. Urmărirea se bazează de obicei pe o comparație cu cantitatea totală de ore estimate. Această abordare nu&#39; nu necesită un model de prognoză, iar costul total sau cantitatea totală pot fi modificate manual. Când se introduce o valoare în coloana <strong>Cost total</strong> sau <strong>Cantitatea totală</strong>, Finanțe compară această valoare cu tranzacțiile efective înregistrate în perioada respectivă, apoi scade valoarea din coloana <strong>Cantitatea de finalizat</strong> sau <strong>Cost de finalizare</strong>.</td>
 </tr>
 <tr class="even">
 <td>Buget total - real</td>

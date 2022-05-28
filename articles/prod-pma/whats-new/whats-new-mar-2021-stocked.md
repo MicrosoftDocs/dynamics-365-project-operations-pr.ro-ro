@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991186"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723737"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Ce este nou sau modificat în Project Operations, martie 2021 - pentru scenarii bazate pe stocuri/producție
 
@@ -20,7 +20,7 @@ _**Se aplică la:** Project Operations pentru scenariile bazate pe stocuri/produ
 
 Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
-- Management de proiect și contabilitate în Dynamics 365 Finance versiunea mediului 10.0.17
+- Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 Următoarele caracteristici sunt incluse în această versiune:
@@ -121,7 +121,7 @@ Următoarele caracteristici sunt incluse în această versiune:
 | Management de proiect și contabilitate | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Metoda de clasă a structurii vechi de repartizare a lucrărilor (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** este perimată.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Actualizări de reglementare
-Pentru informații despre actualizările de reglementare pentru aplicații Finance and Operations, vezi [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates.md). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

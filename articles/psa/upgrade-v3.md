@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000096"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601769"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerente legate de upgrade - PSA versiunea 2.x sau 1.x la versiunea 3
 
@@ -81,15 +82,15 @@ Acest lucru este valabil și pentru activitățile de linie care au fost atribui
 
 Pentru activități care sunt atribuite membrilor generici de echipă care au fost generate cu **Generare echipă**, actualizarea va lăsa resursa generică pe echipă și va lăsa atribuirea la acel membru generic de echipă. Vă recomandăm să generați cerința de resurse pentru membrul generic de echipă după actualizare, dar înainte de a rezerva sau remite o solicitare de resurse. Acest lucru va păstra toate atribuirile de unitate de organizație pe membrii generici ai echipei care sunt diferite de unitatea de organizație contractantă a proiectului.
 
-De exemplu, în proiectul Proiect Z, unitatea de organizație contractantă este Contoso SUA. În planul de proiect, pentru sarcinile de testare în faza de implementare a fost atribuit rolul consultant tehnic și unitatea de organizație atribuită este Contoso India.
+De exemplu, în proiectul Proiect Z, unitatea de organizație contractantă este Contoso US. În planul de proiect, pentru sarcinile de testare în faza de implementare a fost atribuit rolul consultant tehnic și unitatea de organizație atribuită este Contoso India.
 
 ![Atribuire la organizație în faza de implementare.](media/org-unit-assignment-09.png)
 
-După faza de implementare, sarcina de testare a integrării este atribuită rolului de consultant tehnic, dar organizația este setată la Contoso SUA.  
+După faza de implementare, sarcina de testare a integrării este atribuită rolului de consultant tehnic, dar organizația este setată la Contoso US.  
 
 ![Test de integrare alocare sarcini de organizație.](media/org-unit-generate-team-10.png)
 
-Când generați o echipă pentru proiect, sunt creați doi membri generici de echipă din cauza diferitelor unități de organizație de pe activități. Consultantului tehnic 1 îi vor fi atribuite sarcinile Contoso India iar consultantul tehnic 2 va avea sarcinile Contoso SUA.  
+Când generați o echipă pentru proiect, sunt creați doi membri generici de echipă din cauza diferitelor unități de organizație de pe activități. Consultantului tehnic 1 îi vor fi atribuite sarcinile Contoso India, iar consultantul tehnic 2 va avea sarcinile Contoso US.  
 
 ![Membri de echipă generici generați.](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -104,7 +105,7 @@ Puteți vedea unitatea de organizație în vizualizarea estimări.
  
 Când upgrade-ul este complet, unitatea de organizație de pe linia de activitate care corespunde cu membrul de echipă generic este adăugată la membrul de echipă generic și activitatea de linie este eliminată. Din acest motiv, vă recomandăm ca, înainte de actualizare, să generați sau să generați din nou echipa pe fiecare proiect care conține resurse generice.
 
-Pentru activitățile care sunt atribuite unui rol cu o unitate de organizație care diferă de unitatea de organizație a proiectului contractant și o echipă nu a fost generată, actualizarea va crea un membru de echipă generic pentru rol, dar va utiliza unitatea contractantă a proiectului pentru unitatea de organizație a membrului echipei. Referindu-ne la exemplul cu Proiect Z, unitatea de organizație contractantă Contoso SUA, precum și pentru sarcinile de testare a planului de proiect în faza de implementare au fost atribuite rolul de consultant tehnic cu unitatea de organizație atribuită Contoso India. Sarcinii de testare a integrării încheiată după faza de Implementare i se atribuie rolul de consultant tehnic. Unitatea de organizație Contoso SUA și o echipă nu a fost generată. ctualizarea va crea un membru generic de echipă, un consultant tehnic care are orele atribuite pe toate cele trei sarcini, și o unitate de organizație Contoso SUA, unitatea de organizație contractantă a proiectului.   
+Pentru activitățile care sunt atribuite unui rol cu o unitate de organizație care diferă de unitatea de organizație a proiectului contractant și o echipă nu a fost generată, actualizarea va crea un membru de echipă generic pentru rol, dar va utiliza unitatea contractantă a proiectului pentru unitatea de organizație a membrului echipei. Referindu-ne la exemplul cu Proiectul Z, unității organizaționale contractante Contoso US, precum și sarcinilor de testare a planului de proiect în faza de implementare le-au fost atribuite rolul de consultant tehnic cu unitatea organizațională atribuite companiei Contoso India. Sarcinii de testare a integrării încheiată după faza de Implementare i se atribuie rolul de consultant tehnic. Unitatea de organizație este Contoso US și nu a fost generată o echipă. Actualizarea va crea un membru generic de echipă, un consultant tehnic care are orele atribuite pe toate cele trei sarcini, și o unitate de organizație Contoso US, unitatea de organizație contractantă a proiectului.   
  
 Modificarea valorii implicite a diverselor unități organizaționale de resurse pe membrii echipei non-generați este motivul pentru care vă recomandăm să generați sau să generați din nou echipa pe fiecare proiect care conține resurse generice înainte de actualizare, astfel încât atribuirile unității organizaționale să nu se piardă.
 

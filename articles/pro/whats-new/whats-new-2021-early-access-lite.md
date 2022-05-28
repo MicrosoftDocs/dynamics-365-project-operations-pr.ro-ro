@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323926"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723691"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Ce este nou 2021 acces timpuriu valul 2 - implementare Project Operations lite
 
@@ -26,7 +26,7 @@ Versiunea se aplică numai atunci când este un mediu [a optat pentru Acces timp
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
-[Managementul subcontractelor](../subcontracting/subcontracting_EA_scope.md) - Această caracteristică oferă o mai bună vizibilitate și un mai bun control asupra tuturor aspectelor lucrului la un proiect. Previzualizarea gestionării subcontractelor include următoarele capacități:
+[Managementul subcontractelor](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Această caracteristică oferă o mai bună vizibilitate și un mai bun control asupra tuturor aspectelor lucrului la un proiect. Previzualizarea gestionării subcontractelor include următoarele capacități:
 
   - Un manager de proiect poate crea un subcontract cu un furnizor. În mod implicit, listele de prețuri atașate la înregistrarea furnizorului sunt utilizate pentru subcontract. Contul de furnizor are un tip de relație **Vânzător** sau **Furnizor**.
   - Un manager de proiect poate detalia toate achizițiile ca elemente de linie pe subcontract. Liniile de subcontract pot fi pentru timp, cheltuieli sau produse. Clasa de tranzacție care a liniei de subcontract stabilește pentru ce este linia.

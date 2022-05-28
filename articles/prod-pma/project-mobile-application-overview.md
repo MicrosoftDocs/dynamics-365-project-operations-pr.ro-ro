@@ -3,25 +3,23 @@ title: Prezentare generală aplicații mobile pentru proiect
 description: Acest subiect oferă informații generale despre aplicațiile legate de timpul proiectului pentru Microsoft Dynamics 365 Project Timesheet, Project Time Entry și Fișele mele de pontaj/Fișe de pontaj care sunt disponibile pe un dispozitiv mobil.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005676"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685423"
 ---
 # <a name="project-mobile-applications-overview"></a>Prezentare generală aplicații mobile pentru proiect
 
@@ -31,7 +29,7 @@ Trei aplicații mobile legate de timpul proiectului sunt disponibile pentru Micr
 
 ## <a name="project-timesheet-mobile-app"></a>Aplicația mobilă Project Timesheet
 
-Aplicația mobilă Dynamics 365 Project Timesheet permite utilizatorilor să trimită și să aprobe foi de pontaj pentru proiecte pe dispozitivul lor mobil. Această aplicație mobilă prezintă funcționalitatea foii de pontaj în zona de management și contabilitate a proiectului Dynamics 365 Finance. Ajută la îmbunătățirea productivității și eficienței utilizatorilor și, de asemenea, la introducerea și aprobarea în timp util a foilor de pontaj ale proiectului.
+Aplicația mobilă Dynamics 365 Project Timesheet permite utilizatorilor să trimită și să aprobe foi de pontaj pentru proiecte pe dispozitivul lor mobil. Această aplicație mobilă prezintă funcționalitatea foii de pontaj în zona de management al proiectelor și contabilitate a Dynamics 365 Finance. Ajută la îmbunătățirea productivității și eficienței utilizatorilor și, de asemenea, la introducerea și aprobarea în timp util a foilor de pontaj ale proiectului.
 
 ## <a name="project-time-entry-workspace"></a>Spațiul de lucru Project Time Entry
 

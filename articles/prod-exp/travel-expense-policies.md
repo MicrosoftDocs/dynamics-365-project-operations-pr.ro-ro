@@ -1,6 +1,6 @@
 ---
 title: Configurarea politicilor de cheltuieli
-description: Puteți configura politicile de cheltuieli pe care lucrătorii dvs. trebuie să le urmeze atunci când introduc și depun rapoarte de cheltuieși și cereri de călătorie în Microsoft Dynamics 365 Finance.
+description: Puteți configura politicile de cheltuieli pe care lucrătorii dvs. trebuie să le respecte atunci când introduc și trimit rapoarte de cheltuieli și solicitări de călătorie în Microsoft Dynamics 365 Finante.
 author: suvaidya
 ms.date: 05/20/2020
 ms.topic: article
@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3dc5d1768b57baa68f134af318dd9d2d7cdd756
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005946"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684749"
 ---
 # <a name="set-up-expense-policies"></a>Configurarea politicilor de cheltuieli
 

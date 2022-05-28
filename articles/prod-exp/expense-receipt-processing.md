@@ -1,24 +1,23 @@
 ---
 title: Procesarea chitanțelor de cheltuieli
-description: Acest subiect oferă informații despre procesarea recunoașterii optice a caracterelor (OCR) pentru chitanțe. Această caracteristică este concepută pentru a îmbunătăți experiența utilizatorului când sunt create rapoarte de cheltuieli în Microsoft Dynamics 365 Finance.
+description: Acest subiect oferă informații despre procesarea recunoașterii optice a caracterelor (OCR) pentru chitanțe. Această funcție este concepută pentru a îmbunătăți experiența utilizatorului atunci când sunt create rapoarte de cheltuieli Microsoft Dynamics 365 Finanțe.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001401"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684335"
 ---
 # <a name="expense-receipt-processing"></a>Procesarea chitanțelor de cheltuieli
 
@@ -51,7 +50,7 @@ Pentru a crea o cheltuială sau pentru a potrivi o cheltuială dintr-o chitanț�
 
 Această caracteristică funcționează în combinație cu caracteristica **Rapoarte de cheltuieli reimaginate** pentru a simplifica experiența cheltuielilor. Această caracteristică este disponibilă numai pentru mediile Tier 2+, care sunt Sandbox și Production.
 
-Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Serviciul de gestionare a cheltuielilor pentru Microsoft Dynamics 365 Finance și activați funcțiile din instanța dvs. Puteți accesa programul de completare din proiectul dvs. din Microsoft Dynamics Lifecycle Services (LCS).
+Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Expense Management Service pentru Microsoft Dynamics 365 Finance și activați funcțiile din instanța dvs. Puteți accesa programul de completare din proiectul dvs. din Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Conectați-vă la LCS și deschideți mediul dorit.
 2. Accesați **Toate detaliile**.

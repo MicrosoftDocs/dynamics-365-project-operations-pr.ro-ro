@@ -1,34 +1,33 @@
 ---
 title: Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe
-description: Acest subiect descrie șablonul și activitățile de desfășurare care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+description: Acest subiect descrie șablonul și sarcinile de bază care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct din Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001086"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684657"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Acest subiect descrie șablonul și activitățile de desfășurare care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct de la Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+
+Acest subiect descrie șablonul și sarcinile de bază care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct din Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 
 > [!NOTE] 
 > Dacă utilizați Enterprise ediția 7.3.0, trebuie să instalați KB 4074835.
@@ -121,15 +120,15 @@ Când se aplică soluția de integrare Project Service Automation to Finance, un
 
 ## <a name="power-query"></a>Power Query
 
-Utilizați Microsoft Power Query pentru Excel pentru a filtra datele dacă sunt îndeplinite următoarele condiții:
+Utilizați Microsoft Power Query pentru ca Excel să filtreze datele dacă sunt îndeplinite următoarele condiții:
 
 - Aveți comenzi de vânzări în Dynamics 365 Sales.
 - Aveți mai multe unități organizaționale în Project Service Automation, iar aceste unități organizaționale vor fi mapate la mai multe entități juridice din Finance.
 
-Dacă trebuie să utilizați Power Query, urmați aceste recomandări:
+Dacă trebuie să utilizați Power Query, urmați aceste instrucțiuni:
 
 - Șablonul Proiecte și contracte (PSA to Fin și Ops) are un filtru implicit care include numai comenzile de vânzare ale tipului **Element de lucru (msdyn\_ordertype = 192350001)**. Acest filtru ajută la garantarea faptului că nu se creează contracte de proiect pentru comenzile de vânzare din Finance. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru.
-- Creați un filtru Power Query care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. Contractele de proiecte pe care le aveți, de exemplu, cu unitatea organizațională de contract Contoso SUA ar trebui să fie sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizațională de contract Contoso Global ar trebui să fie sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
+- Creeaza o Power Query filtrul care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. De exemplu, contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso SUA ar trebui sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso Global ar trebui sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
 
 ## <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor
 

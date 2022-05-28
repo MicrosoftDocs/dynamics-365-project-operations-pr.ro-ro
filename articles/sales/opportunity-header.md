@@ -4,14 +4,14 @@ description: Acest subiect oferă informații despre oferte bazate pe proiecte �
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 83a47502112a4862fa7b99a7821c82730e0de0938cabe65b0dd4fc382bdd5515
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12173a832c4ed91b72bc398a97c770e551d5e0f5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996406"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600987"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Detalii antet pentru oportunități bazate pe proiect
 

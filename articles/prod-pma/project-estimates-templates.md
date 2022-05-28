@@ -1,32 +1,31 @@
 ---
-title: Sincronizați estimările proiectului direct din Project Service Automation în Finance and Operations
-description: Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza estimările orare ale proiectului și estimările cheltuielilor proiectului direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+title: Sincronizați estimările de proiect direct de la Project Service Automation la Finanțe și Operațiuni
+description: Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza estimările orelor de proiect și estimările cheltuielilor proiectului direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988216"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684611"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați estimările proiectului direct din Project Service Automation în Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați estimările de proiect direct de la Project Service Automation la Finanțe și Operațiuni
 
 [!include[banner](../includes/banner.md)]
 
-Acest subiect descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza estimările orare ale proiectului și estimările cheltuielilor proiectului direct de la Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza estimările orelor de proiect și estimările cheltuielilor proiectului direct de la Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrarea sarcinilor proiectului, categoriile tranzacțiilor de cheltuieli, estimările orelor, estimările cheltuielilor și blocarea funcționalității sunt disponibile în versiunea 8.0.
@@ -70,7 +69,7 @@ Estimările orare ale proiectului sunt gestionate în Project Service Automation
 
 ### <a name="power-query"></a>Power Query
 
-În șablonul estimărilor orare ale proiectului, trebuie să utilizați Microsoft Power Query pentru Excel pentru a finaliza aceste sarcini:
+În șablonul de estimare a orelor de proiect, trebuie să utilizați Microsoft Power Query pentru ca Excel să finalizeze aceste sarcini:
 
 - Setați ID-ul implicit al modelului de prognoză care va fi utilizat atunci când integrarea creează prognoze orare noi.
 - Filtrează orice înregistrare specifică resursei în sarcina care va eșua integrarea în prognozele orare.
@@ -81,7 +80,7 @@ Estimările orare ale proiectului sunt gestionate în Project Service Automation
 Pentru a actualiza ID-ul de model de prognoză implicit în șablon, faceți clic pe săgeata **Mapare** pentru a deschide maparea. Apoi selectați linkul **Interogare și filtrare avansate**.
 
 - Dacă utilizați șablonul implicit estimări orare ale proiectului (PSA la Fin și Ops), selectați **Condiția inserată** în lista de **Pași aplicați**. În intrarea **Funcție**, înlocuiți **O\_forecast** cu numele de ID model prognoză care ar trebui folosit cu integrarea. Șablonul implicit are un ID de model de prognoză din datele demonstrative.
-- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, selectați **Adăugare coloană condițională**, și introduceți un nume pentru coloana nouă, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă activitatea Project nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
+- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, Selectați **Adăugați o coloană condiționată**, și introduceți un nume pentru noua coloană, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă activitatea Project nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrați înregistrările specifice resurselor
 
@@ -126,7 +125,7 @@ Estimările cheltuielilor proiectului sunt gestionate în Project Service Automa
 
 ### <a name="power-query"></a>Power Query
 
-În șablonul de actualizare a estimărilor cheltuielilor proiectului, trebuie să utilizați Power Query pentru a finaliza următoarele sarcini:
+În șablonul de estimare a cheltuielilor de proiect, trebuie să utilizați Power Query pentru a îndeplini următoarele sarcini:
 
 - Filtrați pentru a include numai înregistrările de linie de estimări de cheltuieli.
 - Setați ID-ul implicit al modelului de prognoză care va fi utilizat atunci când integrarea creează prognoze orare noi.
@@ -141,8 +140,8 @@ Estimările cheltuielilor proiectului sunt gestionate în Project Service Automa
 
 Pentru a actualiza ID-ul de model de prognoză implicit în șablon, selectați sarcina **Estimări de cheltuieli**, și apoi faceți clic pe săgeata **Mapare** pentru a deschide maparea. Selectați linkul **Interogare și filtrare avansate**.
 
-- Dacă utilizați șablonul implicit estimările cheltuielilor proiectului (PSA la Fin și Ops), în Power Query, selectați prima **Condiție inserată** din secțiunea **Pași aplicați**. În intrarea **Funcție**, înlocuiți **O\_forecast** cu numele de ID model prognoză care ar trebui folosit cu integrarea. Șablonul implicit are un ID de model de prognoză din datele demonstrative.
-- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, selectați **Adăugare coloană condițională**, și introduceți un nume pentru coloana nouă, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă ID-ul liniei Estimate nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
+- Dacă utilizați șablonul implicit Estimări de cheltuieli ale proiectului (PSA la Fin și Ops), în Power Query, selectați primul **Condiție inserată** de la **Pași aplicați** secțiune. În intrarea **Funcție**, înlocuiți **O\_forecast** cu numele de ID model prognoză care ar trebui folosit cu integrarea. Șablonul implicit are un ID de model de prognoză din datele demonstrative.
+- Când creați un șablon nou, trebuie să adăugați această coloană. În Power Query, Selectați **Adăugați o coloană condiționată**, și introduceți un nume pentru noua coloană, cum ar fi **ModelID**. Introduceți condiția pentru coloană, unde, dacă ID-ul liniei Estimate nu este nulă, atunci \<enter the forecast model ID\>; altfel nul.
 
 #### <a name="transform-the-billing-types"></a>Transformați tipurile de facturare
 
