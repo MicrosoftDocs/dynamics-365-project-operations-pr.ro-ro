@@ -3,16 +3,15 @@ title: Prezentare generală a modurilor de gestionare a resurselor
 description: Acest subiect furnizează informații despre funcționalitatea de management al resurselor Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008241"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585071"
 ---
 # <a name="resource-management-modes-overview"></a>Prezentare generală a modurilor de gestionare a resurselor
 

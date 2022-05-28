@@ -3,16 +3,15 @@ title: Prezentare generală a facturării între companii
 description: Acest subiect oferă informații și exemple despre facturarea între companii pentru proiecte.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005406"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586267"
 ---
 # <a name="intercompany-invoicing-overview"></a>Prezentare generală a facturării între companii
 
@@ -20,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Organizația dvs. ar putea avea mai multe divizii, filiale și alte entități juridice care își transferă produse și servicii reciproc pentru proiecte. Entitatea juridică care furnizează serviciul sau produsul se numește *entitate juridică de creditare*. Entitatea juridică care primește serviciul sau produsul se numește *entitate juridică de împrumut*.
 
-Următoarea ilustrație prezintă un scenariu tipic în care două persoane juridice, Contoso Robotics SUA (entitatea juridică care împrumută) și Contoso Robotics UK (entitatea juridică care împrumută) împarte resurse pentru a livra un proiect pentru client, Adventure works. Pentru acest scenariu, Contoso Robotics SUA este contractat pentru livrarea lucrărilor către Adventure Works.
+Următoarea ilustrație prezintă un scenariu tipic în care două entități juridice, Contoso Robotics USA (entitatea juridică care împrumută) și Contoso Robotics UK (entitatea juridică care împrumută) împart resurse pentru a livra un proiect pentru client, Adventure works. Pentru acest scenariu, Contoso Robotics SUA este contractat pentru livrarea lucrărilor către Adventure Works.
 
 ![Facturare între companii.](./media/IntercompanyScenario.png) 
 

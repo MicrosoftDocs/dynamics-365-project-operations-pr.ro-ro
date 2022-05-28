@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942900"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584887"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în noiembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -21,13 +21,13 @@ ms.locfileid: "7942900"
 Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Management de proiect si contabilitate in a Dynamics 365 Finance versiunea de mediu 10.0.22
+- Management de proiect și contabilitate într-un mediu Dynamics 365 Finance versiunea 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
 Următoarele caracteristici sunt incluse în această versiune:
 
-- Interfețele de programare a aplicațiilor (API) pentru programarea proiectelor acceptă acum capacitatea de a crea și șterge compartimente de proiect.
+- Interfețele de programare a aplicațiilor (API) pentru planificarea proiectelor acceptă acum capacitatea de a crea și șterge compartimente de proiect.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizări de hărți Project Operations cu scriere duală
 
@@ -65,7 +65,7 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | Management de proiect și contabilitate | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | Factura furnizorului intercompanii este întreruptă atunci când integrarea facturii furnizorului este activată. |
 | Management de proiect și contabilitate | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Condițiile de plată de pe facturile de proiect nu funcționează conform așteptărilor. |
 | Management de proiect și contabilitate | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Când păstrarea furnizorului este eliberată, înregistrarea voucherului are rânduri suplimentare care sunt incorecte. |
-| Management de proiect și contabilitate | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Când jurnalul de integrare Operațiuni de proiect este postat, acesta nu reușește din cauza dimensiunilor lipsă pentru un cont în care nu este postat. |
+| Management de proiect și contabilitate | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Când este postat jurnalul de integrare Operațiuni de proiect, acesta nu reușește din cauza dimensiunilor lipsă pentru un cont în care nu este postat. |
 | Management de proiect și contabilitate | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | The **Proiect** fila nu este editabilă pe o factură de furnizor în așteptare atunci când categoria de achiziție este atribuită articolului. |
 | Management de proiect și contabilitate | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Panoul de navigare lipsește dacă nu sunteți conectat la Project Operations Dataverse. |
 | Management de proiect și contabilitate | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Când înregistrați venituri dintr-o factură de proiect într-un caz de reținere aplicat, apare o problemă deoarece tranzacțiile de pe voucher nu se echilibrează. |

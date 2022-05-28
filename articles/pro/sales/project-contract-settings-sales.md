@@ -2,16 +2,16 @@
 title: Setări pentru contracte de proiecte - simplificat
 description: Acest subiect oferă informații despre câmpuri care au impact asupra liniilor de contract și informații despre contract care sunt rezumate în toate elementele rând.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995956"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586405"
 ---
 # <a name="header-details-for-project-contracts"></a>Detalii antet pentru contractele de proiect
 
@@ -32,12 +32,15 @@ Următorul tabel listează câmpurile unui contract de proiect care sunt unice p
 | Limită de nedepășire | Fila **Rezumat** | Acest câmp indică limita negociată pentru valoarea finală pe care clientul a fost de acord pentru această tranzacție. | Limita superioară este evaluată în timpul execuției și se aplică tuturor elementelor rând și proiectelor asociate acestei oferte. |
 | Dată de livrare solicitată | Fila **Rezumat** | Când un contract este creat dintr-o ofertă de proiect, acest câmp este copiat din câmpul corespunzător de pe oferta de proiect. | Această dată este utilizată ca dată de încheiere pentru a genera planificări de facturare. |
 
-Următoarele KPI sunt disponibile pe fila **Executarea contractului** unui contract de proiect.
+Următoarele KPI sunt disponibile pe fila **Executarea contractului** unui contract de proiect. 
+
+>[!NOTE]
+>Toate sumele de pe **Executarea contractului** fila sunt exprimate în moneda implicită a mediului.
 
 | Câmp | Locație | Descriere |
 | --- | --- | --- |
-| Valoare contract | Prezentarea generală a contractului | Valoarea totală a contractului de proiect. |
-| Volum facturat | Prezentarea generală a contractului | Suma sumelor de pe toate facturile aferente acestui contract. |
+| Valoare contract | Prezentarea generală a contractului | Valoarea totală a contractului de proiect.|
+| Volum facturat | Prezentarea generală a contractului | Suma sumelor de pe toate facturile aferente acestui contract.|
 | Cost achitat | Prezentarea generală a contractului | Suma tuturor costurilor reale înregistrate la toate proiectele care sunt mapate la contract. |
 | Marjă brută | Prezentarea generală a contractului | Suma facturată - Cost suportat până în prezent / Suma facturată |
 | Marjă estimată | Prezentarea generală a contractului | (Valoarea contractului - Costuri estimate) / Valoarea contractului Costuri estimate = Suma tuturor costurilor estimate pentru toate proiectele mapate la contract.|

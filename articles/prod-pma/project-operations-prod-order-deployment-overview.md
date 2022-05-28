@@ -3,16 +3,15 @@ title: Prezentare generală a implementării Project Operations pentru scenarii 
 description: Acest subiect oferă informații despre tipul de implementare, Project Operations pentru scenarii stocate/bazate pe producție.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009096"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582495"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Prezentare generală a implementării Project Operations pentru scenarii bazate pe stoc/producție
 
@@ -23,21 +22,21 @@ Acest tip de implementare are următoarele funcții pentru companiile bazate pe 
 
 - Planificarea proiectului folosind [Structuri de defalcare a proiectului](work-breakdown-structures.md)
 - Achiziționați și consumați inventar stocat pentru proiecte
-- Gestionarea vânzărilor bazate pe proiecte folosind modulul **Vânzări și marketing** în aplicații Dynamics 365 Finance and Operations
-- Prețuri și costuri ale proiectului utilizând configurația ratei costurilor și a ratei facturilor din aplicații Finance and Operations
-- Gestionarea resurselor pentru proiecte în aplicații Finance and Operations
-- Progresul proiectului și urmărirea timpului în aplicații Finance and Operations
+- Gestionarea vânzărilor bazate pe proiecte folosind **Vânzări și marketing** modul în aplicațiile Dynamics 365 Finance and Operations
+- Stabilirea prețurilor și stabilirea costurilor proiectului utilizând configurațiile ratei de cost și a ratei de facturare din aplicațiile Finance and Operations
+- Managementul resurselor pentru proiecte în aplicațiile Finanțe și Operațiuni
+- Progresul proiectului și urmărirea timpului în aplicațiile Finanțe și Operațiuni
 - Experiențe de gestionare a cheltuielilor pentru cheltuieli de proiect și non-proiect cu captarea de chitanțe utilizând capacitățile OCR
 - Facturarea utilizând un sistem de impozite pe vânzări la nivel de întreprindere și un sistem de rate de schimb eficiente în funcție de dată
 - Grupuri de proiecte configurabile pentru contabilitate și acumulări WIP
 - Recunoașterea veniturilor din proiecte
 
-Acest tip de implementare oferă, de asemenea, o extensie la funcționalitatea oferită de aplicațiile Dynamics 365 Finance și Dynamics 365 Supply Chain Management.
+Acest tip de implementare oferă, de asemenea, o extensie a funcționalității oferite de Dynamics 365 Finance și Dynamics 365 Supply Chain Management aplicatii.
 
 Selectați acest tip de implementare pentru a utiliza Dynamics 365 Project Operations pentru ciclul de viață complet al proiectului, inclusiv următoarele cerințe cheie:
 
 - Un sistem extins de gestionare a proiectelor care gestionează articole inventariate și costuri de comandă/producție pentru proiecte interne și facturabile pentru programe și situații financiare.
-- Organizația are deja Dynamics 365 Finance sau aplicațiile Dynamics 365 Supply Chain și Manufacturing și integrarea tranzacțiilor bazate pe proiecte vor simplifica accesul la date și nevoile de raportare.
+- Organizația are deja aplicații Dynamics 365 Finance sau Dynamics 365 Supply Chain și Manufacturing, iar integrarea tranzacțiilor bazate pe proiecte va simplifica accesul la date și nevoile de raportare.
 - Un sistem de gestionare a cheltuielilor complet funcțional care include aplicarea politicilor și rambursările pentru urmărirea cheltuielilor de proiect și non-proiect.
 - Un motor de impozitare pe vânzări și un curs de schimb pentru a genera facturi orientate către clienți pentru proiecte.
 - Un sistem de contabilitate a proiectelor și de recunoaștere a veniturilor conform standardelor internaționale de raportare financiară (IFRS).

@@ -4,14 +4,14 @@ description: Acest subiect oferă o detalii despre procesarea facturilor trimise
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989926"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585623"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gestionarea propunerilor de facturare pentru proiect
 
@@ -22,7 +22,7 @@ Propunerile de facturare pentru proiect pot fi procesate de departamentul dvs. d
   - Managerul de proiect confirmă factura proformă în Microsoft Dataverse.
   - Toate tranzacțiile de timp și materiale nefacturate, care sunt incluse în factura proformă, sunt înregistrate utilizând jurnalul **Integrare Project Operations** în Dynamics 365.
 
-Utilizați pașii următori pentru a finaliza o propunere de facturare a proiectului în Dynamics 365 Finance.
+Utilizați următorii pași pentru a finaliza o propunere de factură de proiect în Dynamics 365 Finance.
 
 1. Examinați informațiile de facturare pentru tranzacțiile de timp și materiale și postați jurnalul **Integrarea Project Operations**.
 2. Examinați informațiile de facturare pentru reperele de facturare cu preț fix.

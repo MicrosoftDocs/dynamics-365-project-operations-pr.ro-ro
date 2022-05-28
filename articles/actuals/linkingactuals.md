@@ -1,94 +1,39 @@
 ---
-title: Conectarea datelor reale la înregistrările originale
-description: Acest subiect explică cum să legați datele reale la înregistrările originale, cum ar fi introducerea timpului, introducerea cheltuielilor sau jurnalele de utilizare a materialelor.
+title: Originile tranzacției - Conectați datele reale la sursa lor
+description: Acest subiect explică modul în care conceptul originii tranzacției este utilizat pentru a lega datele reale la înregistrările sursă originale, cum ar fi înregistrarea timpului, înregistrarea cheltuielilor sau jurnalele de utilizare a materialelor.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991771"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584841"
 ---
-# <a name="link-actuals-to-original-records"></a>Conectarea datelor reale la înregistrările originale
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Originile tranzacției - Conectați datele reale la sursa lor
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-
-În Dynamics 365 Project Operations, *Tranzacție comercială* este un concept abstract care nu este reprezentat de o entitate. Cu toate acestea, unele câmpuri și procese comune pe entități sunt concepute pentru a utiliza conceptul de tranzacții comerciale. Următoarele entități utilizează acest concept:
-
-- Detalii linie de ofertă
-- Detalii linie de contract
-- Linii de estimare
-- Linii de jurnal
-- Reale
-
-Dintre aceste entități, **Detaliile liniei de ofertă**, **Detaliile liniei de contract** și **Liniile de estimare** sunt mapate la faza de estimare din ciclul de viață al proiectului. Entitățile **Linii de jurnal** și **Entități reale** sunt mapate la faza de execuție în ciclul de viață al proiectului.
-
-Project Operations recunoaște înregistrările din aceste cinci entități ca tranzacții comerciale. Singura distincție este că înregistrările din entități care sunt mapate la faza de estimare sunt considerate previziuni financiare, în timp ce înregistrările din entități care sunt mapate la faza de execuție sunt considerate fapte financiare care au avut deja loc.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Concepte care sunt unice pentru tranzacțiile comerciale
-Conceptele următoare sunt unice pentru conceptul de tranzacții comerciale:
-
-- Tipul tranzacției
-- Clasă de tranzacții
-- Origine tranzacție
-- Conexiune de tranzacție
-
-### <a name="transaction-type"></a>Tipul tranzacției
-
-Tipul tranzacției reprezintă temporizarea și contextul impactului financiar asupra unui proiect. Acesta este reprezentat de un set de opțiuni care are următoarele valori acceptate în Project Operations:
-
-  - Cost
-  - Contract pentru proiect
-  - Vânzări nefacturate
-  - Vânzări facturate
-  - Vânzări inter-organizaționale
-  - Cost de unitate resursă
-
-### <a name="transaction-class"></a>Clasă de tranzacții
-
-Clasa de tranzacții reprezintă diferitele tipuri de costuri suportate pentru proiecte. Acesta este reprezentat de un set de opțiuni care are următoarele valori acceptate în Project Operations:
-
-  - Timp
-  - Cheltuială
-  - Material
-  - Taxă
-  - Jalon
-  - Taxe
-
-**Jalon** este utilizată de obicei de logica de afaceri pentru facturarea cu preț fix în Project Operations.
-
-### <a name="transaction-origin"></a>Origine tranzacție
-
-**Originea tranzacției** este o entitate care stochează originea fiecărei tranzacții comerciale. Odată cu începerea unui proiect, fiecare tranzacție comercială va da naștere unei alte tranzacții comerciale care, la rândul său, va crea alta și așa mai departe. Entitatea de origine a tranzacției este concepută pentru a stoca date despre originea fiecărei tranzacții pentru a ajuta la raportare și trasabilitate. 
-
-### <a name="transaction-connection"></a>Conexiune de tranzacție
-
-**Conexiunea de tranzacție** este o entitate care stochează relația dintre două tranzacții comerciale similare, precum cost și valorile reale corelate cu vânzările, sau inversările tranzacțiilor care sunt declanșate de activități de facturare, cum ar fi confirmarea facturii sau corecțiile facturilor.
-
-Împreună, entitățile **Origine tranzacție** și **Conexiune de tranzacție** vă ajută să monitorizați relațiile dintre tranzacțiile comerciale și acțiuni care au dus la o tranzacție comercială specifică.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Exemplu: cum funcționează Origine tranzacție cu Conexiune de tranzacție
+Înregistrările despre originea tranzacției sunt create pentru a lega datele reale la sursa lor, astfel de intrări de timp, înregistrări de cheltuieli, jurnalele de utilizare a materialelor și facturile de proiect.
 
 Următorul exemplu arată procesarea tipică a intrărilor de timp într-un ciclu de viață al proiectului în Project Operations.
 
-> ![Procesarea intrărilor de timp dintr-un ciclu de viață Project Service.](media/basic-guide-17.png)
+> ![Timp de procesare întregi în Operațiuni de proiect.](media/basic-guide-17.png)
  
-1. O remitere de intrare de timp creează două linii de jurnal: o linie pentru cost și o linie pentru vânzările nefacturate.
-2. Aprobarea finală a intrării de timp creează a două valori reale: una pentru cost și una pentru vânzările nefacturate.
-3. Atunci când se creează o nouă factură de proiect, tranzacția linie factură este creată utilizând date din valorile reale pentru vânzările nefacturate. 
-4. Când este confirmată factura, sunt create două valori reale: o inversare a vânzărilor nefacturate reale și o valoare reală pentru vânzări facturate.
+1. Trimiterea unei intrări de timp determină crearea a două linii de jurnal: unul pentru cost și unul pentru vânzări nefacturate.
+2. Aprobarea eventuală a introducerii timpului face ca două valori reale să fie create: unul pentru cost și unul pentru vânzări nefacturate.
+3. Atunci când utilizatorul creează o factură de proiect, tranzacția linie factură este creată utilizând date din valorile reale pentru vânzările nefacturate.
+4. Când este confirmată factura, sunt create două valori reale: o inversare a vânzărilor nefacturate și o valoare reală pentru vânzări facturate.
 
-Fiecare dintre aceste evenimente creează o înregistrare în entitățile **Originea tranzacției** și **Conexiune de tranzacție**. Aceste noi înregistrări vă ajută să construiți un istoric al relațiilor dintre înregistrările care sunt create pe intrarea în timp, linia de jurnal, datele reale și detaliile liniei de facturare.
+Fiecare eveniment din acest flux de lucru de procesare declanșează crearea de înregistrări în entitatea de origine a tranzacției pentru a ajuta la construirea unei urme a relațiilor dintre aceste înregistrări care sunt create prin introducerea de timp, rândul jurnalului, detaliile reale și linia de factură.
 
-Următorul tabel afișează înregistrările din entitatea **Origine tranzacție** pentru fluxul de lucru.
+Următorul tabel afișează înregistrările din entitatea Origine tranzacție pentru fluxul de lucru precedent.
 
-| Eveniment                        | Origine                   | Tip de origine                       | Tranzacție                       | Tip tranzacție         |
+| Eveniment                        | Origine                   | Tip de origine                       | Tranzacție                       | Tipul tranzacției         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Remitere intrare de timp        | GUID înregistrare intrare de timp   | Intrare de timp                        | GUID înregistrare linie de jurnal (cost)   | Linie de jurnal             |
 | GUID înregistrare intrare de timp       | Intrare de timp               | GUID înregistrare linie de jurnal (vânzări)  | Linie de jurnal                      |                          |
@@ -124,18 +69,9 @@ Următorul tabel afișează înregistrările din entitatea **Origine tranzacție
 | Corecție GUID DL           | Linie factură             | GUID nou valoare reală vânzări nefacturate    | Real                            |                          |
 | Corecție GUID factură      | Factură                  | GUID nou valoare reală vânzări nefacturate    | Real                            |                          |
 
-Următorul tabel afișează înregistrările din entitatea **Conexiune de tranzacție** pentru fluxul de lucru.
 
-| Eveniment                          | Tranzacție 1                 | Rol tranzacție 1 | Tip tranzacție 1           | Tranzacție 2                | Rol tranzacție 2 | Tip tranzacție 2 |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Remitere intrare de timp          | GUID linie de jurnal (vânzări)     | Vânzări nefacturate     | msdyn_journalline            | GUID linie de jurnal (cost)     | Cost               | msdyn_journalline  |
-| Aprobare timp                  | GUID valori reale nefacturate (vânzări)  | Vânzări nefacturate     | msdyn_actual                 | GUID valoare reală cost (cost)       | Cost               | msdyn_actual       |
-| Creare factură               | GUID detaliu linie factură      | Vânzări facturate       | msdyn_invoicelinetransaction | GUID valori reale vânzări nefacturate   | Vânzări nefacturate     | msdyn_actual       |
-| Confirmare factură           | Inversarea GUID-ului real         | Inversare          | msdyn_actual                 | GUID vânzări inițiale nefacturate | Inițiale           | msdyn_actual       |
-| GUID vânzări facturate              | Vânzări facturate                  | msdyn_actual       | GUID valori reale vânzări nefacturate   | Vânzări nefacturate               | msdyn_actual       |                    |
-| Corecție factură schiță       | GUID tranzacție linie factură | Înlocuire          | msdyn_invoicelinetransaction | GUID vânzări facturate            | Inițiale           | msdyn_actual       |
-| Confirmare corecție factură     | GUID inversare vânzări facturate    | Inversare          | msdyn_actual                 | GUID vânzări facturate            | Inițiale           | msdyn_actual       |
-| GUID nou valoare reală vânzări nefacturate | Înlocuire                     | msdyn_actual       | GUID vânzări facturate            | Inițiale                     | msdyn_actual       |                    |
+Următoarea ilustrație arată legăturile care sunt create între efective și sursele lor la diferite evenimente folosind exemplul de intrări de timp în Operațiuni de proiect.
 
+> ![Modul în care datele reale sunt legate de înregistrările sursă în Operațiuni de proiect.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

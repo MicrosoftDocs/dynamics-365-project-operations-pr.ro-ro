@@ -4,14 +4,14 @@ description: Acest subiect oferă informații pentru a vă ajuta să determinaț
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994651"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584151"
 ---
 # <a name="determine-your-deployment-type"></a>Determinarea tipului de implementare
 
@@ -25,7 +25,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clienții existenți ai Dynamics utilizând Dynamics 365 Project Service Automation
 Project Operations include capabilitățile livrate împreună cu Project Service Automation. O cale de actualizare va fi lansată pentru acești clienți în versiunea 1 de lansare 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clienții existenți ai Dynamics 365 Finance care utilizează managementul proiectului și contabilitatea 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clienții existenți ai Dynamics 365 Finance care folosesc managementul proiectelor și contabilitatea 
 
 Clienții existenți ai Finanțelor care utilizează funcționalitatea de gestionare a proiectelor și contabilitate pot continua să o utilizeze așa cum este. Consultați [Project Operations pentru scenarii cu stocuri/comenzi de producție](#pma).
 
@@ -42,7 +42,7 @@ Project Operations acceptă mai multe opțiuni de implementare pentru a se potri
 - [Project Operations pentru resurse/scenarii fără stoc](#integrated)
 - [Project Operations pentru scenarii cu stocuri/comenzi de producție](#pma)
 
-Project Operations acceptă scenarii de stocare/comandă de producție și scenarii ne-stocate/bazate pe resurse în același mediu prin configurații la nivel de entitate juridică. De exemplu, cei de la Contoso pot utiliza capacitățile de comandă de stocare/producție în fabrica lor din SUA (entitate juridică =Contoso Manufacturing United States). Contoso poate utiliza capacitățile non-stocate/bazate pe resurse în facilitatea de service Contoso Robotics Arms din Regatul Unit (entitate juridică = Contoso Robotics United Kingdom).
+Project Operations acceptă scenarii de stocare/comandă de producție și scenarii ne-stocate/bazate pe resurse în același mediu prin configurații la nivel de entitate juridică. De exemplu, Contoso poate utiliza capacitățile de stocare/comandă de producție în unitatea lor de producție din SUA (entitate juridică = Contoso Manufacturing United States). Contoso poate utiliza capabilitățile non-stocate/bazate pe resurse în unitatea lor de service Contoso Robotics Arms din Regatul Unit (entitate juridică = Contoso Robotics Regatul Unit).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implementare simplificată - facturare de la ofertă și până la proforma
 

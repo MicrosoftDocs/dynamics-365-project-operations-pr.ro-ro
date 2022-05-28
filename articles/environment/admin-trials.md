@@ -2,22 +2,22 @@
 title: Înregistrați-vă pentru versiunile de încercare Project Operations
 description: Acest subiect oferă informații despre modul de implementare a unei versiuni de încercare a Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901632"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584289"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Înregistrați-vă pentru versiunile de încercare Project Operations 
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/non-stoc, implementare simplificată - facturare de la ofertă la proforma, Project Operations pentru scenarii stocate/bazate pe producție_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Acest subiect explică cum să vă abonați la oferta de previzualizare a partenerului și cum să implementați un mediu Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ Următorul tabel prezintă detaliile noii oferte de încercare.
 | Utilizarea ofertei                    | O dată per entitate găzduită                          |
 | Durata ofertei               | 30 de zile calendaristice                             |
 | Răscumpărări per entitate găzduită       | 1                                            |
-| Numărul de utilizatori              | 25                                           |
 | Extensie                    | 1 extensie, 30 de zile calendaristice               |
 | Număr de medii de încercare | 3                                            |
 
@@ -87,17 +86,17 @@ Pentru a implementa o versiune de încercare a Dynamics 365 Project Operations, 
  
   Când pregătirea este completă, starea mediului dvs. este **Pregătit**. Pregătirea mediului include implementarea datelor demo.
  
-4.  Selectați respectivul URL Microsoft Dataverse și adresele URL ale aplicațiilor Finance and Operations pentru validarea implementării.
+4.  Selectați respectivul Microsoft Dataverse URL și adresele URL ale aplicațiilor Finance and Operations pentru a valida implementarea.
 
 ## <a name="configuring-dual-write"></a>Configurare scriere duală
 - Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizați setările de securitate pentru Operațiuni de proiect în Dataverse](resource-provision-new-environment.md).
-- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu scriere duală pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu dublă scriere pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuirea de licențe
 
 Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
 
-1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
+1. Du-te la [Microsoft 365 centru de administrare](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 
    ![Pagina principală a centrului de administrare](./media/14AdminPortal.png)
 
@@ -125,7 +124,7 @@ Următoarele resurse oferă îndrumări utile pe măsură ce vă începeți căl
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Pot să-mi prelungesc versiunea de încercare peste 30 de zile?
 Pentru a vă prelungi perioada de încercare, parcurgeți pașii următori.
 
-1. În **Centrul de administrare Microsoft 365**, accesați **Facturare** > **Produsele dumneavoastră**.
+1. În **Microsoft 365 Centrul de administrare**, mergi la **Facturare** > **Produsele dvs**.
 2. Selectați **Dynamics 365 Project Operations (CE) - Previzualizare versiune de încercare**.
 3. Sub **Data expirării**, selectați **Prelungire dată**.
 

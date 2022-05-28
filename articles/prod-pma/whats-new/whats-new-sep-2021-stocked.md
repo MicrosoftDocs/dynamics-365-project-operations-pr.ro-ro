@@ -1,18 +1,18 @@
 ---
 title: Ce este nou sau schimbat în Operațiunile de proiect, septembrie 2021 pentru scenariile stocate/bazate pe producție
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în versiunea din septembrie 2021 a Operațiunilor de proiect pentru scenariile stocate/bazate pe producție.
+description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în ediția din septembrie 2021 a Project Operations pentru scenariile stocate/bazate pe producție.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815830"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582035"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Ce este nou sau schimbat în Operațiunile de proiect, septembrie 2021 pentru scenariile stocate/bazate pe producție
 
@@ -40,13 +40,13 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Management de proiect și contabilitate | [571391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=571391) | Prețul de vânzare pentru ajustarea proiectului nu este actualizat cu costuri indirecte atunci când limita de finanțare este nemarcată. |
 | Management de proiect și contabilitate | [575831](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575831) | O cerință de articol nu poate fi creată atunci când antetul tabelului de vânzări este facturat și comanda de achiziție de rezervă pentru liniile existente a fost finalizată. |
 | Management de proiect și contabilitate | [578036](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578036) | Suma de reținere pentru o regulă de facturare care are o etapă pentru un proiect diferit nu este publicată în ID-ul de proiect corespunzător care a fost selectat pentru reper. În schimb, este postat cu primul proiect. |
-| Management de proiect și contabilitate | [578327](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578327) | Când selectezi **Set de dimensiuni financiare** la o propunere de factură, apare următoarea eroare: „Imposibil de a turna obiectul de tip „Dynamics.AX.Application.FormIntControl” pentru a tasta „Dynamics.AX.Application.FormStringControl”. |
+| Management de proiect și contabilitate | [578327](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578327) | Când selectezi **Set de dimensiuni financiare** la o propunere de factură, apare următoarea eroare: „Imposibil de difuzat obiectul de tip „Dynamics.AX .Application.FormIntControl' pentru a tasta 'Dynamics.AX .Application.FormStringControl'." |
 | Management de proiect și contabilitate | [581167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581167) | The **Factura de proiect** raportul omite rânduri. |
 | Management de proiect și contabilitate | [581489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581489) | Apare o eroare atunci când calculați controlul costurilor pentru un proiect de investiții. |
-| Management de proiect și contabilitate | [590357](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590357) | The **ProjTable::InitFromCustTable - canDeletePostalAddress** metoda cauzează o problemă de performanță. |
+| Management de proiect și contabilitate | [590357](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590357) | The **ProjTable:: InitFromCustTable - canDeletePostalAddress** metoda cauzează o problemă de performanță. |
 | Management de proiect și contabilitate | [592493](https://fix.lcs.dynamics.com/Issue/Details/?bugId=592493) | Mesajul de eroare ar trebui să fie mai clar decât „Eroare neașteptată”. |
-| Management de proiect și contabilitate | [598810](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598810) | Încărcarea facturii Proiect procesează și înregistrează oferta de factură în lot, chiar dacă liniile de factură nu au fost generate. |
-| Management de proiect și contabilitate | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | O problemă de rotunjire apare atunci când cheia de configurare a licenței din sectorul public este dezactivată. Un cost sau un preț de vânzare incorect este generat în orele de pontaj pentru contractele care au mai multe surse de întemeiere. |
+| Management de proiect și contabilitate | [598810](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598810) | Încărcarea facturii de proiect lotul procesează și înregistrează propunerea de factură chiar dacă liniile de factură nu au fost generate. |
+| Management de proiect și contabilitate | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | O problemă de rotunjire apare atunci când cheia de configurare a licenței din sectorul public este dezactivată. Un cost sau un preț de vânzare incorect este generat în orele de pontaj pentru contractele care au mai multe surse fondatoare. |
 | Management de proiect și contabilitate | [577598](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577598) | Prețul de vânzare al proiectului pentru o comandă de achiziție de proiect facturată este calculat incorect atunci când modelul prețului de vânzare este **Raportul de contribuție**. |
 | Management de proiect și contabilitate | [580784](https://fix.lcs.dynamics.com/Issue/Details/?bugId=580784) | Sistemul nu ia în considerare zilele active intermediare atunci când calculează rata efectivă de muncă pentru un angajat. |
 | Management de proiect și contabilitate | [584054](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584054) | Apare o eroare de postare pe foaia de pontaj intercompanie din cauza următoarei erori de validare: „Niciun partener comercial nu este configurat pentru entitate juridică”. |
@@ -67,7 +67,7 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Management de proiect și contabilitate | [596669](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596669) | Numărul scutit de taxe pentru o entitate juridică nu este inclus pe factura de proiect tipărită. |
 | Management de proiect și contabilitate | [597563](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597563) | Nu se actualizează date financiare în eroarea unității de inventar atunci când un proiect este ajustat în raport cu liniile de credit. |
 | Management de proiect și contabilitate | [598109](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598109) | După ce aplicați KB 461935, nu puteți posta estimări dacă treceți la secvențe de numere continue. |
-| Management de proiect și contabilitate | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** face ca aplicația mobilă pentru foaia de pontaj proiect pentru Android să nu mai răspundă. |
+| Management de proiect și contabilitate | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** provoacă aplicația mobilă Project timesheet pentru Android a nu mai răspunde. |
 | Management de proiect și contabilitate | [602677](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602677) | Valoarea WIP inversată dintr-o înregistrare a facturii diferă de valoarea WIP postată inițial din momentul introducerii. |
 | Management de proiect și contabilitate | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | În cazurile de reținere aplicată, tranzacțiile pe un voucher nu se echilibrează atunci când sunt înregistrate veniturile facturate pentru un proiect. |
 | Management de proiect și contabilitate | [603320](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603320) | Cand **Îmbunătățirea performanței în planificarea resurselor proiectului** caracteristica este activată, valorile zecimale sunt rotunjite incorect pentru disponibilitatea resurselor și capacitatea. |
@@ -86,11 +86,11 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Deplasări și cheltuieli | [590544](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590544) | Apare o eroare dacă publicați un raport de cheltuieli și recuperarea taxelor este activată. |
 | Deplasări și cheltuieli | [564851](https://fix.lcs.dynamics.com/Issue/Details/?bugId=564851) | Un delegat nu poate șterge documentele de cheltuieli pentru un angajat revocat. |
 | Deplasări și cheltuieli | [587306](https://fix.lcs.dynamics.com/Issue/Details/?bugId=587306) | Ștergerea unei linii de cheltuieli durează mai mult decât se aștepta și afectează performanța. |
-| Deplasări și cheltuieli | [600455](https://fix.lcs.dynamics.com/Issue/Details/?bugId=600455) | **TrvExpTrans** provoacă un orfan **TaxUncommitted** înregistrare, pentru că numai **SourceDocumentLine** este șters. |
+| Deplasări și cheltuieli | [600455](https://fix.lcs.dynamics.com/Issue/Details/?bugId=600455) | **TrvExpTrans** provoacă un orfan **TaxNeangajat** înregistrare, pentru că numai **SourceDocumentLine** este șters. |
 | Deplasări și cheltuieli | [609918](https://fix.lcs.dynamics.com/Issue/Details/?bugId=609918) | **ReleaseUpdateDB72_Expense.updateTrvExpTransProjTransId()** nu onorează **trvExpTrans.ReferenceDataAreaId** pentru a crea noua secvență de numere. |
 
 ## <a name="regulatory-updates"></a>Actualizări de reglementare
 
-Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, puteți să vă conectați la Microsoft Dynamics Lifecycle Services (LCS) și să utilizați instrumentul de căutare a problemelor pentru a vedea actualizările de reglementare planificate. Căutarea problemelor vă permite să căutați după țară sau regiune, tip de caracteristică și versiune.
+Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la Microsoft Dynamics Lifecycle Services (LCS) și utilizați instrumentul de căutare a problemelor pentru a vedea actualizările de reglementare planificate. Căutarea problemelor vă permite să căutați după țară sau regiune, tip de caracteristică și versiune.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

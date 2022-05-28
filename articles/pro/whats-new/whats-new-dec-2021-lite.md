@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0432e2d4970c352e91cca589987bbdace57c6eaf
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
-ms.translationtype: HT
+ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942992"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585393"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Ce este nou Decembrie 2021 - Implementarea Project Operations Lite
 
@@ -20,7 +20,7 @@ _Se aplică pentru: implementare simplificată - înțelegere la emiterea factur
 
 Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
-- Operațiuni de proiect în a Dataverse versiunea de mediu 4.27.0.195, 4.27.0.242
+- Operațiuni de proiect în a Dataverse versiunea de mediu 4.27.0.195, 4.27.0.242, 4.27.0.244
 
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
@@ -29,10 +29,10 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 
 - [Subcontractarea membrilor echipei de proiect](../subcontracting/subcontracting-project-team-members.md) : Un manager de proiect poate crea membri de echipă numiți sau generici cu subcontracte și linii de subcontractare pentru a afecta personalul și estimarea.
 - [Opțiuni de subcontractare pentru membrii echipei de proiect](../subcontracting/subcon-options.md) : Când face alegeri de personal pentru membrii echipei de proiect numiți sau generici, managerul de proiect poate revizui subcontractele existente sau poate crea subcontracte noi pentru unul sau mai mulți membri ai echipei de proiect. 
-- [Estimarea costurilor alocărilor de resurse subcontractate](../subcontracting/costing-subcon-ra.md) : Estimarea costului proiectului va ține cont de alocările de resurse subcontractate și le va costa folosind listele de prețuri de achiziție asociate subcontractelor. 
+- [Estimarea costurilor alocărilor de resurse subcontractate](../subcontracting/costing-subcon-ra.md) : Estimarea costului proiectului va lua în considerare alocațiile de resurse subcontractate și le va costa folosind listele de prețuri de achiziție asociate subcontractelor. 
 - [Configurați Schedule Board pentru a afișa lucrătorii contractuali și capacitatea subcontractată](../subcontracting/configure-sb-subcon.md) : Tabloul de planificare din Operațiunile de proiect poate fi configurat acum pentru a căuta și a sugera tipul de lucrător contractual de resurse rezervabile și capacitatea subcontractată împreună cu angajații. Această configurație poate fi aplicată atunci când se caută resurse în contextul personalului pentru o anumită cerință de proiect sau când se caută în afara contextului unei cerințe de proiect.
 - [Angajarea unui proiect cu lucrători contractuali și capacitate subcontractată](../subcontracting/staffing-cw.md) : Lucrătorii contractuali pot fi acum rezervați pentru proiecte care profită de experiențele consiliului de planificare.
-- [Înregistrarea timpului, a cheltuielilor și a utilizării materialelor pe proiecte pentru componentele subcontractate](../subcontracting/recording-subcon-actuals.md) : Lucrătorii contractuali pot înregistra timpul și cheltuielile, iar membrii echipei de proiect pot, de asemenea, să înregistreze utilizarea materialelor achiziționate folosind un subcontract pentru un proiect. Acest lucru va avea ca rezultat înregistrarea costurilor precise pentru proiectele care utilizează capacitatea sau materialele achiziționate.
+- [Înregistrarea timpului, a cheltuielilor și a utilizării materialelor pe proiecte pentru componentele subcontractate](../subcontracting/recording-subcon-actuals.md) : Lucrătorii contractuali pot înregistra timpul și cheltuielile, iar membrii echipei de proiect pot, de asemenea, să înregistreze utilizarea materialelor achiziționate folosind un subcontract pentru un proiect. Acest lucru va avea ca rezultat înregistrarea costurilor exacte pentru proiectele care utilizează capacitatea sau materialele achiziționate.
 - [Tranziții de stat pe un subcontract](../subcontracting/subcon-states.md) : Subcontractele pot fi confirmate pentru a finaliza negocierea cu vânzătorul, închise pentru a indica finalizarea livrării sau anulate pentru a indica rezilierea contractului cu vânzătorul înainte de finalizarea livrării.
 
 ### <a name="task-planning"></a>Planificarea sarcinilor

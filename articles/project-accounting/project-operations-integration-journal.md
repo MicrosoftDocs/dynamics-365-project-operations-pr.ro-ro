@@ -4,29 +4,29 @@ description: Acest subiect oferă informații despre lucrul cu jurnalul de integ
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987946"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582449"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnalul de integrare în Project Operations
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Intrări de timp și cheltuieli creează tranzacții **Reale** care reprezintă vizualizarea operațională a lucrului realizat într-un proiect. Dynamics 365 Project Operations oferă contabililor un instrument pentru a revizui tranzacțiile și a ajusta atributele contabile după cum este necesar. După finalizarea revizuirii și ajustărilor, tranzacțiile sunt înregistrate în contabilitatea proiectului și registrul general. Un contabil poate efectua aceste activități folosind jurnalul **Integrarea Project Operations** (**Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Jurnale** > **Integrarea Project Operations**.
+Intrări de timp și cheltuieli creează tranzacții **Reale** care reprezintă vizualizarea operațională a lucrului realizat într-un proiect. Dynamics 365 Project Operations oferă contabililor un instrument pentru a revizui tranzacțiile și a ajusta atributele contabile după cum este necesar. După finalizarea revizuirii și ajustărilor, tranzacțiile sunt înregistrate în contabilitatea proiectului și registrul general. Un contabil poate efectua aceste activități folosind **Integrarea operațiunilor de proiect** jurnal(**Dynamics 365 Finance** > **Management de proiect si contabilitate** > **Jurnalele** > **Integrarea operațiunilor de proiect** jurnal.
 
 ![Fluxul jurnalului de integrare.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Creați înregistrări în jurnalul Project Operations de integrare
 
-Înregistrările din jurnalul de integrare a Project Operations sunt create utilizând un proces periodic, **Importați din tabelul de etapizare**. Puteți rula acest proces accesând **Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Periodic** > **Integrarea Project Operations** > **Importați din tabelul de etapizare**. Puteți rula procesul interactiv sau configura procesul pentru a rula în fundal, după cum este necesar.
+Înregistrările din jurnalul de integrare a Project Operations sunt create utilizând un proces periodic, **Importați din tabelul de etapizare**. Puteți rula acest proces accesând **Dynamics 365 Finance** > **Management de proiect si contabilitate** > **Periodic** > **Integrarea operațiunilor de proiect** > **Importați din tabelul de pregătire**. Puteți rula procesul interactiv sau configura procesul pentru a rula în fundal, după cum este necesar.
 
 Când rulează procesul periodic, sunt găsite toate datele care nu sunt încă adăugate în jurnalul de integrare a Project Operations. Se creează o linie jurnal pentru fiecare tranzacție reală.
-Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (**Finance** > **Management de proiect și contabilitate** > **Configurarea** > **Managementul proiectului și parametrii contabili**, fila **Project Operations Dynamics 365 Customer Engagement**). Valorile posibile pentru acest câmp includ:
+Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în **Unitate de perioadă pe jurnalul de integrare a operațiunilor de proiect** camp (**Finanţa** > **Management de proiect si contabilitate** > **Înființat** > **Management de proiect și parametri contabili**, **de proiect pe Dynamics 365 Customer Engagement** fila). Valorile posibile pentru acest câmp includ:
 
   - **Zile**: datele reale sunt grupate după data tranzacției. Se creează un jurnal separat pentru fiecare zi.
   - **Luni**: datele reale sunt grupate după luna calendaristică. Se creează un jurnal separat pentru fiecare lună.
@@ -40,10 +40,10 @@ Liniile de jurnalul sunt create pe baza realității proiectului. Următoarea li
   - Câmpul **Voucher** afișează numărul voucherului pentru fiecare tranzacție reală. Secvența numerelor de voucher este definită pe fila **Secvențe numerice**, pe pagina **Managementul proiectului și parametrii contabili**. Fiecărei linii i se atribuie un număr nou. După afișarea voucherului, puteți vedea modul în care sunt legate costurile și tranzacțiile de vânzare nefacturate selectând **Vouchere corelate** pe pagina **Tranzacție voucher**.
   - Câmpul **Categorie** reprezintă o tranzacție a proiectului și valorile implicite se bazează pe categoria de tranzacții pentru proiectul real.
     - Dacă **Categoria tranzacției** este setat în Proiectul real și un **Categoria proiectului** corelat există într-o anumită entitate juridică, categoria este implicită la această categorie de proiect.
-    - Dacă **Categoria tranzacției** nu este setată în proiectul real, sistemul folosește valoarea în câmpul **Categorii de proiecte implicite** pe **Project Operations pe fila Dynamics 365 Customer Engagement** de pe pagina **Managementul proiectului și parametrii contabili**.
+    - Dacă **Categoria tranzacției** nu este setat în proiectul actual, sistemul folosește valoarea din **Valorile implicite ale categoriei de proiect** câmp de pe **Operațiuni de proiect pe Dynamics 365 Customer Engagement** fila pe **Management de proiect și parametri contabili** pagină.
   - Câmpul **Resursă** reprezintă resursa proiectului legată de această tranzacție. Resursa este utilizată ca referință în propunerile de facturare ale proiectului către clienți.
-  - Câmpul **Cursul de schimb** implicit din **Cursul de schimb valutar** configurat în Dynamics 365 Finance. Dacă setarea ratei de schimb lipsește, procesul periodic **Import din etapă** nu va adăuga înregistrarea într-un jurnal și un mesaj de eroare va fi adăugat în jurnalul de execuție a lucrării.
-  - Câmpul **Proprietate de linie** reprezintă tipul de facturare în realitatea proiectului. Proprietatea de linie și maparea tipului de facturare sunt definite pe fila **Project Operations pe Dynamics 365 Customer Engagement** de pe pagina **Managementul proiectului și parametrii contabili**.
+  - The **Rata de schimb** câmpul este implicit de la **Cursul de schimb valutar** stabilit în Dynamics 365 Finance. Dacă setarea ratei de schimb lipsește, procesul periodic **Import din etapă** nu va adăuga înregistrarea într-un jurnal și un mesaj de eroare va fi adăugat în jurnalul de execuție a lucrării.
+  - Câmpul **Proprietate de linie** reprezintă tipul de facturare în realitatea proiectului. Proprietățile liniei și maparea tipului de facturare sunt definite pe **Operațiuni de proiect pe Dynamics 365 Customer Engagement** fila pe **Management de proiect și parametri contabili** pagină.
 
 Numai următoarele atribute contabile pot fi actualizate în liniile jurnalului de integrare a Project Operations:
 

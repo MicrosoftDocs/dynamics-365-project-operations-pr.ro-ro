@@ -2,16 +2,16 @@
 title: Extinderea intrărilor de timp
 description: Acest subiect oferă informații despre modul în care dezvoltatorii pot extinde controlul introducerii de timp.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993346"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583001"
 ---
 # <a name="extending-time-entries"></a>Extinderea intrărilor de timp
 
@@ -43,7 +43,7 @@ Intrările de timp sunt o entitate de bază utilizată în mai multe scenarii. �
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Intrări de timp și entitatea sursă de timp
-Fiecare intrare de timp este asociată cu o înregistrare a sursei de timp. Această înregistrare determină cum și ce aplicații ar trebui să proceseze introducerea timpului.
+Fiecare intrare de timp este asociată cu o înregistrare a sursei de timp. Această înregistrare determină ce aplicații ar trebui să proceseze introducerea orei și cum.
 
 Intrările de timp sunt întotdeauna un bloc contiguu de timp cu începutul, sfârșitul și durata legate.
 
@@ -55,7 +55,7 @@ Logica va actualiza automat înregistrarea introducerii timpului în următoarel
     - **msdyn_end**
     - **msdyn_duration**
 
-- Câmpurile, **msdyn_start** și **msdyn_end** sunt conștienți de fusul orar.
+- The **msdyn_start** și **msdyn_end** câmpurile sunt conștiente de fusul orar.
 - Intrări de timp create numai cu **msdyn_date** și **msdyn_duration** specificate va începe la miezul nopții. Câmpurile, **msdyn_start** și **msdyn_end** se vor actualiza în consecință.
 
 #### <a name="time-entry-types"></a>Tipuri de intrări de timp
@@ -72,73 +72,63 @@ Logica va actualiza automat înregistrarea introducerii timpului în următoarel
 |Vacanță   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Particularizați controlul săptămânal de intrare de timp
 Dezvoltatorii pot adăuga câmpuri și căutări suplimentare la alte entități și pot implementa reguli de afaceri personalizate pentru a-și susține scenariile de afaceri.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Adăugați câmpuri particularizate cu căutări la alte entități
 Există trei pași principali pentru adăugarea unui câmp particularizat la grila de intrare de timp săptămânală.
 
-1. Adăugați câmpul particularizat la caseta de dialog Creare rapidă.
+1. Adăugați câmpul personalizat la **Creare rapidă** căsuță de dialog.
 2. Configurați grila pentru a afișa câmpul particularizat.
-3. Adăugați câmpul particularizat la rândul de flux de activități de editare sau la fluxul de activități de editare a celulei.
+3. Adăugați câmpul personalizat la **Editare rând** sau **Editare intrare timp** pagina, după caz.
 
-Asigurați-vă că noul câmp are validările necesare în fluxul de activitate de editare a rândului sau celulei. Ca parte a acestui pas, blocați câmpul pe baza stării înregistrării de timp.
+Asigurați-vă că noul câmp are validările necesare pe **Editare rând** sau **Editare intrare timp** pagină. Ca parte a acestei sarcini, blocați câmpul, în funcție de starea intrării de timp.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Adăugați câmpul particularizat la caseta de dialog Creare rapidă
-Adăugați câmpul particularizat la caseta de dialog **Creați intrarea de timp creare rapidă**. Apoi, când sunt adăugate intrări de timp, se poate introduce o valoare selectând **Nou**.
+Când adăugați un câmp personalizat la **Intrarea timpului** grilă și apoi creați intrări de timp direct în grilă, câmpul personalizat pentru acele intrări este setat automat astfel încât să se potrivească cu rândul. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Adăugați câmpul personalizat în caseta de dialog Creare rapidă
+Adăugați câmpul personalizat la **Creare rapidă: Creați intrare de timp** căsuță de dialog. Utilizatorii pot apoi introduce o valoare atunci când adaugă intrări de timp selectând **Nou**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Configurați grila pentru a afișa câmpul particularizat
-Există două modalități pentru adăugarea unui câmp particularizat la grila de introducere de timp săptămânală:
+Există două modalități de a adăuga un câmp personalizat la **Intrare săptămânală a timpului** grilă.
 
-  - Personalizați o vizualizare și adăugați un câmp personalizat
-  - Creați o nouă intrare de timp implicită particularizată 
+- Personalizați **Intrările mele săptămânale de timp** vizualizare și adăugați câmpul personalizat la acesta. Puteți specifica poziția și dimensiunea câmpului personalizat în grilă prin editarea proprietăților din vizualizare.
+- Creați o nouă vizualizare personalizată pentru introducerea orei și setați-o ca vizualizare implicită. Această vedere ar trebui să conțină **Descriere** și **Comentarii externe** câmpuri în plus față de coloanele pe care doriți să le includă grila. Puteți specifica poziția, dimensiunea și ordinea implicită de sortare a grilei prin editarea proprietăților din vizualizare. Apoi, configurați controlul particularizat pentru această vizualizare, astfel încât să fie un control **Grilă introducere timp**. Adăugați controlul la vizualizare și selectați-l pentru **Web**, **·**, și **Comprimat**. Apoi, configurați parametrii pentru **Intrare săptămânală a timpului** grilă. Seteaza **Data de început** câmp la **msdyn\_ Data**, Seteaza **Durată** câmp la **msdyn\_ durată**, și setați **stare** câmp la **msdyn\_ starea de intrare**. The **Listă de stare numai pentru citire** câmpul este setat la **192350002 (Aprobat)**, **(Trimis)**, sau **192350004 (rechemare solicitată)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Adăugați câmpul personalizat la pagina de editare corespunzătoare
+Paginile care sunt folosite pentru a edita o intrare de timp sau un rând de intrări de timp pot fi găsite sub **Forme**. The **Editați intrarea** butonul din grilă deschide **Editați intrarea** pagina, iar **Editați rândul** butonul deschide **Editare rând** pagină. Puteți edita aceste pagini astfel încât să includă câmpuri personalizate.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Personalizați o vizualizare și adăugați un câmp personalizat
+Ambele opțiuni elimină unele filtre out-of-box activate **Proiect** și **Sarcina proiectului** entități, astfel încât toate vizualizările de căutare pentru entități să fie vizibile. În mod implicit, numai vizualizările de căutare relevante sunt vizibile.
 
-Particularizați vizualizarea **Vizualizarea înregistrărilor mele săptămânale de timp** și adăugați câmpul particularizat la acesta. Aveți posibilitatea să alegeți poziția și dimensiunea câmpului particularizat din grilă editând proprietățile în vizualizare.
+Trebuie să determinați pagina corespunzătoare pentru câmpul personalizat. Cel mai probabil, dacă ați adăugat câmpul la grilă, acesta ar trebui să meargă pe **Editare rând** pagină care este utilizată pentru câmpurile care se aplică întregului rând de intrări de timp. Dacă câmpul personalizat are o valoare unică în rând în fiecare zi (de exemplu, dacă este un câmp personalizat pentru ora de încheiere), acesta ar trebui să meargă pe **Editare intrare timp** pagină.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Creați o nouă intrare de timp implicită particularizată
-
-Această vizualizare ar trebui să conțină câmpurile **Descriere** și **Comentarii externe**, în plus față de coloanele pe care doriți să le aveți în grilă. 
-
-1. Alegeți poziția, dimensiunea și ordinea implicită de sortare a grilei editând acele proprietăți în vizualizare. 
-2. Configurați controlul particularizat pentru această vizualizare, astfel încât să fie un control **Grilă de introducere timp**. 
-3. Adăugați acest control la vizualizare și selectați-l pentru web, telefon și tabletă. 
-4. Configurați parametrii pentru grila de introducere de timp săptămânal. 
-5. Setați câmpul **Data de începere** la **msdyn_date**, setați câmpul **Durată** la **msdyn_duration** și setați câmpul **Stare** la **msdyn_entrystatus**. 
-6. Pentru vizualizarea implicită, câmpul **Listă de stare doar în citire** este setat la **192350002,192350003,192350004**. Câmpul **Flux de activități pentru editarea rândurilor** este setat la **msdyn_timeentryrowedit**. Câmpul **Flux de activități pentru editarea celulelor** este setat la **msdyn_timeentryedit**. 
-7. Aveți posibilitatea să particularizați aceste câmpuri pentru a adăuga sau elimina starea doar în citire sau pentru a utiliza o altă experiență bazată pe sarcini (TBX) pentru editarea rândului sau a celulelor. Aceste câmpuri sunt acum legate de o valoare statică.
-
-
-> [!NOTE] 
-> Ambele opțiuni vor elimina unele filtrări predefinite pe entitățile **Proiect** și **Activitate de proiect** astfel încât toate vizualizările de căutare pentru entități vor fi vizibile. În mod predefinit, numai vizualizările de căutare relevante sunt vizibile.
-
-Determinați fluxul de activitate corespunzător pentru câmpul particularizat. Dacă ați adăugat câmpul la grilă, acesta ar trebui să meargă fluxul de activități de editare câmp care este utilizat pentru câmpurile care se aplică la întregul rând de înregistrări de timp. În cazul în care câmpul particularizat are o valoare unică în fiecare zi, ar fi un câmp particularizat pentru **Ora de sfârșit**, acesta ar trebui să meargă în fluxul de activități de editare a celulei.
-
-Pentru a adăuga câmpul particularizat la un flux de activitate, glisați un element **Câmp** în poziția corespunzătoare din pagină, apoi setați-i proprietățile de câmp. Setați proprietatea **Sursă** la **Înregistrare timp** și setați proprietatea **Câmp de date** la câmpul particularizat. Proprietatea **Câmp** specifică numele afișat pe pagina TBX. Selectați **Aplicare** pentru a salva modificările pe câmp, apoi selectați **Actualizați** pentru a salva modificările pe pagină.
-
-Pentru a utiliza o nouă pagină particularizată TBX în schimb, creați un proces nou. Setați categoria la **Flux de business**, setați entitatea la **Înregistrare timp** și setați tipul de proces de afaceri la **Executare proces ca flux de activități**. Sub **Proprietăți**, proprietatea **Nume de pagină** trebuie setată la numele afișat pentru pagină. Adăugați toate câmpurile relevante la pagina TBX. Salvați și activați procesul. Actualizați proprietatea de control particularizat pentru fluxul de activități relevant la valoarea **Nume** în proces.
+Pentru a adăuga câmpul personalizat la o pagină, trageți a **Camp** element în poziția corespunzătoare pe pagină și apoi setați proprietățile acestuia.
 
 ### <a name="add-new-option-set-values"></a>Adăugați noi valori set de opțiuni
-Pentru a adăuga valori set de opțiuni la un câmp predefinit, deschideți pagina de editare pentru câmp și sub **Tip**, selectați **Editare** lângă setul de opțiuni. Adăugați o nouă opțiune care are o etichetă și o culoare particularizate. Dacă doriți să adăugați o nouă stare de înregistrare de timp, câmpul predefinit este **Stare înregistrare**, nu **Stare**.
+Pentru a adăuga valori set de opțiuni într-un câmp neconform, urmați acești pași.
+
+1. Deschideți pagina de editare a câmpului, apoi sub **Tip**, Selectați **Editați | ×** lângă set de opțiuni.
+2. Adăugați o nouă opțiune care are o etichetă și o culoare particularizate. Dacă doriți să adăugați o nouă stare de introducere a orei, câmpul out-of-box este numit **Stare de intrare**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Desemnați o nouă stare de înregistrare de timp ca doar în citire
-Pentru a desemna o nouă stare de înregistrare de timp ca doar în citire, adăugați noua valoare de intrare de timp la proprietatea **Listă de stare doar în citire**. Partea editabilă a grilei de înregistrare de timp va fi blocată pentru rândurile care au starea nouă.
-Apoi, adăugați reguli de afaceri pentru a bloca toate câmpurile de pe paginile TBX **Editare rând introducere timp** și **Editare înregistrare timp**. Puteți accesa regulile de business pentru aceste pagini deschizând editorul flux de business pentru pagină, apoi selectând **Reguli de afaceri**. Aveți posibilitatea să adăugați starea nouă la condiția din regulile de business existente sau să adăugați o nouă regulă de business pentru noua stare.
+Pentru a desemna o nouă stare de înregistrare de timp ca doar în citire, adăugați noua valoare de intrare de timp la proprietatea **Listă de stare doar în citire**. Asigurați-vă că adăugați numărul, nu eticheta. Partea editabilă a grilei de introducere a timpului va fi acum blocată pentru rândurile care au noua stare. Pentru a seta **Listă de stare numai pentru citire** proprietate diferit pentru diferit **Intrarea timpului** vizualizări, adăugați **Intrarea timpului** grilă într-o vedere **Controale personalizate** secțiunea și configurați parametrii după caz.
+
+Apoi, adăugați reguli de afaceri pentru a bloca toate câmpurile din **Editare rând** și **Editare intrare timp** pagini. Pentru a accesa regulile de afaceri pentru aceste pagini, deschideți editor formular pentru fiecare pagină, apoi selectați **Reguli de afaceri**. Aveți posibilitatea să adăugați starea nouă la condiția din regulile de business existente sau să adăugați o nouă regulă de business pentru noua stare.
 
 ### <a name="add-custom-validation-rules"></a>Adăugarea de reguli de validare particularizate
-Există două tipuri de reguli de validare pe care le puteți adăuga pentru experiența săptămânală a grilei de introducere a timpului:
+Puteți adăuga două tipuri de reguli de validare pentru **Intrare săptămânală a timpului** experiență grilă:
 
-- Regulile de business din partea clientului care funcționează în casete de dialog rapide și pe pagini TBX.
-- Validări de inserturi de la server care se aplică tuturor actualizărilor de intrare de timp.
+- Reguli de afaceri la nivelul clientului care funcționează pe pagini
+- Validări de plug-in pe partea de server care se aplică tuturor actualizărilor de intrare de timp
 
-#### <a name="business-rules"></a>Reguli de business
-Utilizați reguli de business pentru a bloca și debloca câmpuri, pentru a introduce valori implicite în câmpuri și pentru a defini validări care necesită informații numai din înregistrarea de intrare de timp curentă. Puteți accesa regulile de business pentru o pagină TBX deschizând editorul flux de business pentru pagină, apoi selectând **Reguli de business**. Aveți posibilitatea să editați regulile de business existente sau să adăugați o nouă regulă de business. Pentru validări și mai personalizate, puteți utiliza o regulă de business pentru a executa JavaScript.
+#### <a name="client-side-business-rules"></a>Reguli de afaceri la nivelul clientului
+Utilizați reguli de business pentru a bloca și debloca câmpuri, pentru a introduce valori implicite în câmpuri și pentru a defini validări care necesită informații numai din înregistrarea de intrare de timp curentă. Pentru a accesa regulile de afaceri pentru o pagină, deschideți editor formular, apoi selectați **Reguli de afaceri**. Aveți posibilitatea să editați regulile de business existente sau să adăugați o nouă regulă de business.
 
-#### <a name="plug-in-validations"></a>Validări insert
-Utilizați validările de insert pentru orice validări care necesită mai mult context decât este disponibil într-o singură înregistrare de intrare de timp sau pentru orice validări pe care doriți să executați pe actualizările inline în grilă. Pentru a finaliza validarea, creați un insert particularizat pe entitatea de **Înregistrare timp**.
+#### <a name="server-side-plug-in-validations"></a>Validări de plug-in-uri pe partea de server
+Ar trebui să utilizați validări de plug-in pentru orice validări care necesită mai mult context decât este disponibil într-o singură înregistrare de timp. De asemenea, ar trebui să le utilizați pentru orice validări pe care doriți să le executați pentru actualizările inline din grilă. Pentru a finaliza validările, creați un plug-in personalizat pe **Intrarea timpului** entitate.
+
+### <a name="limits"></a>Limite
+În prezent, cel **Intrarea timpului** grila are o limită de dimensiune de 500 de rânduri. Dacă există mai mult de 500 de rânduri, rândurile în exces nu vor fi afișate. Nu există nicio modalitate de a crește această limită de dimensiune.
 
 ### <a name="copying-time-entries"></a>Copiere intrări de timp
 Utilizați vizualizarea **Copiere coloane intrări de timp** pentru a defini lista câmpurilor de copiat în timpul introducerii timpului. **Data** și **Durata** sunt câmpuri obligatorii și nu trebuie eliminate din vizualizare.
