@@ -1,25 +1,25 @@
 ---
-title: Utilizați API-urile de planificare a proiectului cu Power Automate
-description: Acest subiect oferă un eșantion de flux care utilizează interfețele de programare a aplicației (API-uri) pentru planificarea proiectului.
+title: Utilizarea API-urilor de planificare a proiectelor cu Power Automate
+description: Acest articol oferă un exemplu de flux care utilizează interfețele de programare a aplicației (API-uri) de planificare a proiectului.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916349"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Utilizați API-urile de planificare a proiectului cu Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Utilizarea API-urilor de planificare a proiectelor cu Power Automate
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Acest subiect descrie un exemplu de flux care arată cum să creați un plan complet de proiect utilizând Microsoft Power Automate, cum să creați un set de operații și cum să actualizați o entitate. Exemplul demonstrează cum să creați un proiect, un membru al echipei de proiect, seturi de operații, sarcini de proiect și alocații de resurse. Acest subiect explică, de asemenea, cum să actualizați o entitate și să executați un set de operații.
+Acest articol descrie un exemplu de flux care arată cum să creați un plan de proiect complet utilizând Microsoft Power Automate, cum să creați un set de operații și cum să actualizați o entitate. Exemplul demonstrează cum să creați un proiect, un membru al echipei de proiect, seturi de operații, sarcini de proiect și alocații de resurse. Acest articol explică, de asemenea, cum să actualizați o entitate și să executați un set de operații.
 
-Următoarea este o listă completă a pașilor care sunt documentați în fluxul de probă din acest subiect:
+Următoarea este o listă completă a pașilor care sunt documentați în fluxul de probă din acest articol:
 
 1. [Creeaza o PowerApps declanșatorul](#1)
 2. [Creați un proiect](#2)
@@ -40,7 +40,7 @@ Următoarea este o listă completă a pașilor care sunt documentați în fluxul
 
 ## <a name="assumptions"></a>Ipoteze
 
-Acest subiect presupune că aveți cunoștințe de bază despre Dataverse platforma, fluxurile de cloud și interfața de programare a aplicației (API) pentru planificarea proiectului. Pentru mai multe informații, consultați [Referințe](#references) secțiunea mai târziu în acest subiect.
+Acest articol presupune că aveți cunoștințe de bază despre Dataverse platforma, fluxurile de cloud și interfața de programare a aplicației (API) pentru planificarea proiectului. Pentru mai multe informații, consultați [Referințe](#references) secțiunea mai târziu în acest articol.
 
 ## <a name="create-a-flow"></a>Creați un flux
 
@@ -65,7 +65,7 @@ Urmați acești pași pentru a crea un [flux conștient de soluție](/power-auto
 1. Pe **Soluții** pagina, selectați soluția pe care ați creat-o, apoi selectați **Nou**.
 2. În panoul din stânga, selectați **Norii curg** \> **Automatizare** \> **Fluxul de nor** \> **instant**.
 3. În **Nume flux** câmp, introduceți **Programați fluxul demonstrativ API**.
-4. În **Alegeți cum să declanșați acest flux** listă, selectați **Power Apps**. Când creați un Power Apps declanșatorul, logica depinde de tine în calitate de autor. În acest subiect, lăsați parametrii de intrare necompleți în scopuri de testare.
+4. În **Alegeți cum să declanșați acest flux** listă, selectați **Power Apps**. Când creați un Power Apps declanșatorul, logica depinde de tine în calitate de autor. În acest articol, lăsați necompleți parametrii de intrare în scopuri de testare.
 5. Selectați **Creare**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Pasul 2: Creați un proiect
@@ -298,4 +298,4 @@ Urmați acești pași pentru a crea o sarcină de proiect care are un ID unic ca
 - [Prezentare generală a modului de integrare a fluxurilor cu Dataverse -Power Automate](/power-automate/dataverse/overview?WT.mc_id=email)
 - [Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare](schedule-api-preview.md)
 - [Privire de ansamblu asupra fluxurilor de nor -Power Automate](/power-automate/overview-cloud?WT.mc_id=email)
-- [Prezentare generală a fluxurilor conștiente de soluții -Power Automate](/power-automate/overview-solution-flows?WT.mc_id=email)
+- [Prezentare generală a fluxurilor conștiente de soluție -Power Automate](/power-automate/overview-solution-flows?WT.mc_id=email)

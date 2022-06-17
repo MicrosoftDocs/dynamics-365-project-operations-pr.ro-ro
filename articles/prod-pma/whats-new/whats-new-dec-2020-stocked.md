@@ -1,24 +1,24 @@
 ---
 title: Noutăți decembrie 2020 - Project Operations pentru scenarii bazate pe stocuri/producție
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea din decembrie 2020 a Project Operations pentru scenarii bazate pe stocuri/producție.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din decembrie 2020 a Operațiunilor de proiect pentru scenariile stocate/bazate pe producție.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911381"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Noutăți sau modificări în Project Operations, decembrie 2020 pentru scenarii bazate pe stocuri/producție
 
 _Se aplică la: Project Operations pentru scenariile bazate pe stocuri/producție_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
   - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.15
 

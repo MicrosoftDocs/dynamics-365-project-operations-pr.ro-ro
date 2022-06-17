@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 27, V3
-description: Acest subiect listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea actualizată 27, V3.
+description: Acest articol listează caracteristicile și remedierile disponibile în Project Service Automation Update Versiunea 27, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aab77411760c3d64daa377bffc06391c8e4ed54a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c8f4f736f0659f9b6db25f4685ef1278c45d034
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912945"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Ce este nou sau schimbat în Project Service Automation versiunea actualizată 27, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8599607"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea actualizată 27. Această versiune are un număr de V3.10.45.98 și este, în general, disponibilă printr-o auto-actualizare în ianuarie 2021.
+Acest articol listează caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Actualizare Versiunea 27. Această versiune are un număr de V3.10.45.98 și este, în general, disponibilă printr-o auto-actualizare în ianuarie 2021.
 
 ## <a name="update-release-27"></a>Lansarea de actualizări 27
 

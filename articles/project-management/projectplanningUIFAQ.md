@@ -1,25 +1,25 @@
 ---
 title: Depanare de funcționare în grila de activități
-description: Acest subiect oferă informații legate de depanare necesare atunci când lucrați în grila de activități.
+description: Acest articol oferă informații de depanare necesare atunci când lucrați în grila de activități.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911059"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Depanare de funcționare în grila de activități 
 
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stoc, implementare Lite - facturare de la ofertă și până la proforma, Project for the web_
 
-Grila de activități utilizată de Dynamics 365 Project Operations este un iframe găzduit în cadrul Microsoft Dataverse. Ca urmare a acestei utilizări, trebuie îndeplinite cerințe specifice pentru a se asigura că autentificarea și autorizarea funcționează corect. Acest subiect subliniază problemele comune care pot avea impact asupra capacității de a reda grila sau de a gestiona activități în structura de defalcare a proiectului (WBS).
+Grila de activități utilizată de Dynamics 365 Project Operations este un iframe găzduit în cadrul Microsoft Dataverse. Ca urmare a acestei utilizări, trebuie îndeplinite cerințe specifice pentru a se asigura că autentificarea și autorizarea funcționează corect. Acest articol subliniază problemele comune care pot afecta capacitatea de a reda grila sau de a gestiona sarcini în structura de defalcare a lucrărilor (WBS).
 
 Printre problemele comune se numără:
 

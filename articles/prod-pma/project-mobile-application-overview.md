@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală aplicații mobile pentru proiect
-description: Acest subiect oferă informații generale despre aplicațiile legate de timpul proiectului pentru Microsoft Dynamics 365 Project Timesheet, Project Time Entry și Fișele mele de pontaj/Fișe de pontaj care sunt disponibile pe un dispozitiv mobil.
+description: Acest articol oferă informații generale despre aplicațiile legate de timp pentru proiect Microsoft Dynamics 365 Project Timesheet, Project Time Entry și My timesheets/Timesheets care sunt disponibile pe un dispozitiv mobil.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922881"
 ---
 # <a name="project-mobile-applications-overview"></a>Prezentare generală aplicații mobile pentru proiect
 

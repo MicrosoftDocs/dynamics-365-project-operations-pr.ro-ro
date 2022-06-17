@@ -1,6 +1,6 @@
 ---
 title: Configurarea câmpurilor particularizate ca dimensiuni de preț
-description: Acest subiect oferă informații despre cum să configurați dimensiunile de preț utilizând câmpuri particularizate.
+description: Acest articol oferă informații despre cum să configurați dimensiunile de preț folosind câmpuri personalizate.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917591"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Înainte de a începe, acest subiect presupune că ați finalizat procedurile din subiectele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities-pricing-dimensions.md) și [Adăugarea de câmpuri necesare particularizate la configurarea prețului și entități tranzacționale](add-custom-fields-price-setup-transactional-entities.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest subiect. 
+Înainte de a începe, acest articol presupune că ați finalizat procedurile din articole, [Creați câmpuri și entități personalizate](create-custom-fields-entities-pricing-dimensions.md) și [Adăugați câmpuri personalizate obligatorii la configurarea prețului și la entitățile tranzacționale](add-custom-fields-price-setup-transactional-entities.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol. 
 
-Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate. Pe pagina **Parametri**, fila **Dimensiuni de preț pe baza sumei**, afișează înregistrările în entitățile de dimensiune a prețului. În mod implicit, există două rânduri în grilă pe această filă:
+Acest articol oferă informații despre configurarea dimensiunilor de preț personalizate. Pe pagina **Parametri**, fila **Dimensiuni de preț pe baza sumei**, afișează înregistrările în entitățile de dimensiune a prețului. În mod implicit, există două rânduri în grilă pe această filă:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unitate organizatorică)

@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în aprilie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în versiunea din aprilie 2022 a Microsoft Dynamics 365 Project Operations pentru scenarii bazate pe resurse/neaprovizionate.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din aprilie 2022 a Microsoft Dynamics 365 Project Operations pentru scenarii bazate pe resurse/neaprovizionate.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912393"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în aprilie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.41.0.45
 - Management de proiect și contabilitate într-un mediu Dynamics 365 Finance versiunea 10.0.26
@@ -47,7 +47,7 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | ------------ | ---------------- | -------------- |
 | Timp și cheltuieli | 2573900 | The **Aprobare modernă** caracteristica trebuie să fie activată în mod implicit. |
 | Facturarea și stabilirea prețurilor | 2603313 | S-a remediat o eroare de înregistrare duplicată care a împiedicat adăugarea liniilor de cotație și contract care au un produs. |
-| Implementare și configurare | 2611368 | Clienții trebuie să poată adăuga până la cinci entități personalizate la soluție folosind designerul de aplicații modern. |
+| Implementare și configurare | 2611368 | Clienții trebuie să poată adăuga până la cinci entități personalizate la soluție utilizând designerul modern de aplicații. |
 | Timp și cheltuieli | 2628285 | S-a remediat o problemă care afecta capacitatea de a seta categoria corectă de resurse în timpul importului de intrare de timp. |
 | Managementul oportunităților| 2628815 | Actualizați limita de caractere din descrierea detaliată a liniei de citat pentru a se potrivi cu limita de caractere a subiectului sarcinii, astfel încât importul să aibă succes pentru sarcinile în care subiectul este mai lung de 100 de caractere. |
 | Timp și cheltuieli| 2629547 | The **Trimis de** domeniul aprobărilor de proiect trebuie să indice utilizatorul care a transmis înregistrarea. |

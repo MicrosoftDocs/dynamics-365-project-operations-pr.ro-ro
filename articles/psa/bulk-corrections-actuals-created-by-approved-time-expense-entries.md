@@ -1,6 +1,6 @@
 ---
 title: Corecții în bloc ale datelor reale create prin intrări de timp și cheltuieli aprobate
-description: Acest subiect explică modul în care un administrator poate efectua corecții unice sau în bloc la intrările de timp sau cheltuieli aprobate anterior dacă facturarea nu este finalizată.
+description: Acest articol explică modul în care un administrator poate face corecții individuale sau în bloc la intrările de timp sau cheltuieli aprobate anterior, dacă facturarea nu este completă.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916304"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Corecții în bloc ale datelor reale create prin intrări de timp și cheltuieli aprobate
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683377"
 
 Ocazional, o intrare de timp sau de cheltuială poate fi introdusă incorect. De exemplu, un consultant ar putea selecta data greșită atunci când creează o intrare de timp sau ar putea transpune numerele la intrarea unei cheltuieli. Dacă un consultant nu poate efectua actualizările intrărilor trimise, un administrator poate corecta direct intrarea pentru un proiect.
 
-Pentru a finaliza procedurile din acest subiect, veți avea nevoie de permisiuni de administrator.
+Pentru a finaliza procedurile din acest articol, veți avea nevoie de permisiuni de administrator.
 
 ## <a name="correct-approved-time-entries"></a>Intrări de timp aprobate corect     
 

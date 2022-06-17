@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 38, V3
-description: Acest subiect listează caracteristicile și remedierile disponibile în Actualizarea Microsoft Dynamics 365 Project Service Automation, versiunea 38, V3.
+description: Acest articol enumeră caracteristicile și remediile disponibile în Microsoft Dynamics 365 Project Service Automation Actualizați versiunea 38, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 12/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ccc08cd0bc365bd4761424a4c0ceac91985e7c89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915200"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Ce este nou sau schimbat în Project Service Automation versiunea actualizată 38, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598733"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Microsoft Dynamics 365 Project Service Automation. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Este compatibil cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați pagina de soluții online din Centrul de administrare pentru Dynamics 365 și instalați actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation, versiunea actualizată 38, V3. Această versiune are un număr de versiune V3.10.59.117 și este în general disponibilă printr-o actualizare automată în decembrie 2021.
+Acest articol listează caracteristicile și remedierile care sunt noi sau modificate pentru Actualizarea Project Service Automation Versiunea 38, V3. Această versiune are un număr de versiune V3.10.59.117 și este în general disponibilă printr-o actualizare automată în decembrie 2021.
 
 ## <a name="update-release-38"></a>Lansarea de actualizări 38
 
@@ -48,7 +48,7 @@ S-au remediat următoarele probleme.
 
 - Contururile nu sunt afișate corect în alocări de resurse pentru UTC(+09:30) și UTC(+10:00) când începe ora de vară.
 - The **Coloană suplimentară** câmpul pentru structurile de defalcare a muncii este ascuns în unele locații.
-- Selectorul de date pentru controlul calendarului din **Sarcina proiectului** grila nu este localizată corect pentru chineză.
+- Selectorul de date pentru controlul calendarului în **Sarcina proiectului** grila nu este localizată corect pentru chineză.
 
 **Vânzări**
 

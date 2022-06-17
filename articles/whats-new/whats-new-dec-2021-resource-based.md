@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în decembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în ediția din decembrie 2021 a Project Operations pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din decembrie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/neaprovizionate.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 79ae9f49a4291d162a8a9bb6eb9a22d615773f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910875"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în decembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
 *Se aplică la: Project Operations pentru scenarii bazate pe resurse/fără stoc*
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Management de proiect și contabilitate într-un mediu Dynamics 365 Finance versiunea 10.0.23

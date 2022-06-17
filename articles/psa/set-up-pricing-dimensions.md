@@ -1,6 +1,6 @@
 ---
 title: Configurarea câmpurilor particularizate ca dimensiuni de preț
-description: Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate.
+description: Acest articol oferă informații despre configurarea dimensiunilor de preț personalizate.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922612"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurarea câmpurilor particularizate ca dimensiuni de preț 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Înainte de a începe, acest subiect presupune că ați finalizat procedurile din subiectele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities.md) și [Adăugarea de câmpuri particularizate la parametrizare preț și entități tranzacționale](field-references.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest subiect. 
+Înainte de a începe, acest articol presupune că ați finalizat procedurile din articole, [Creați câmpuri și entități personalizate](create-custom-fields-entities.md) și [Adăugați câmpuri personalizate la configurarea prețului și la entitățile tranzacționale](field-references.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol. 
 
-Acest subiect oferă informații despre parametrizarea dimensiunilor de preț particularizate. În interfața Web Project Service, pe pagina **Parametri**, fila **Dimensiuni prețuri bazate pe sumă** afișează înregistrările din entitățile dimensiune de preț. În mod implicit, instalarea Project Service creează 2 rânduri în grilă în această filă:
+Acest articol oferă informații despre configurarea dimensiunilor de preț personalizate. În interfața Web Project Service, pe pagina **Parametri**, fila **Dimensiuni prețuri bazate pe sumă** afișează înregistrările din entitățile dimensiune de preț. În mod implicit, instalarea Project Service creează 2 rânduri în grilă în această filă:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unitate organizatorică)

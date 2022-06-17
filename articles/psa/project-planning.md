@@ -1,6 +1,6 @@
 ---
 title: Pagina de start planificarea proiectului
-description: Acest subiect oferă informații despre planificarea proiectului.
+description: Acest articol oferă informații despre planificarea proiectului.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919109"
 ---
 # <a name="project-planning-home-page"></a>Pagina de start planificarea proiectului
 
@@ -43,7 +43,7 @@ Instrumentele de gestionare a proiectelor din PSA vă ajută să rulați cu ușu
 - Prognozați necesarul de resurse pentru proiectele sunt deschise în canal.
 - Livrați cu succes proiecte prin urmărirea progresului și a costului în curs.
 
-Următoarele subiecte furnizează informații care vor ajuta managerii de proiect să estimeze activitatea, să estimeze costurile proiectului și să presteze cerințele privind resursele utilizând instrumentele care sunt acceptate în PSA:
+Următoarele articole oferă informații care îi vor ajuta pe managerii de proiect să estimeze munca, să estimeze costurile proiectului și să estimeze cerințele de resurse utilizând instrumentele care sunt acceptate în PSA:
 
 - [Crearea unei planificări](project-creating.md)
 - [Estimați costurile și veniturile proiectului](project-estimating.md)

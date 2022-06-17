@@ -1,17 +1,17 @@
 ---
 title: Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
-description: Acest subiect explică modul de ajustare a informațiilor referitoare la contabilitate pe un proiect de propunere de factură.
+description: Acest articol explică cum să ajustați informațiile legate de contabilitate pe o propunere de factură nefinalizată.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921225"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
 
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 *Detalii operaționale* pentru facturile de proiect sunt menținute de managerul de proiect pe o factură pro forma. Aceste detalii includ deciziile cu privire la orele, cheltuielile, materialele sau etapele care trebuie facturate, tarifele și aplicarea sumelor de avans și de reținere. După ce confirmați factura proforma originală, puteți ajusta detaliile operaționale prin crearea și confirmarea unei [facturi corective proforma](../proforma-invoicing/corrective-invoices.md).
 
-*Detaliile contabile* pentru facturile de proiect sunt păstrate într-un document de facturare orientat către client. Aceste detalii includ calculul impozitului pe vânzări și dimensiunile financiare care se aplică facturii. Acest subiect oferă detalii despre modul în care aceste detalii contabile pot fi ajustate într-o propunere de factură proiect de proiect.
+*Detaliile contabile* pentru facturile de proiect sunt păstrate într-un document de facturare orientat către client. Aceste detalii includ calculul impozitului pe vânzări și dimensiunile financiare care se aplică facturii. Acest articol oferă detalii despre modul în care aceste detalii contabile pot fi ajustate pe o propunere de factură de proiect.
 
 ## <a name="adjust-sales-tax"></a>Ajustați impozitul pe vânzări
 

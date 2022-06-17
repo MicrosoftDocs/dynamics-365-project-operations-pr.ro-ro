@@ -1,17 +1,17 @@
 ---
 title: Gestionarea ofertelor de proiect
-description: Acest subiect oferă informații despre ofertele de proiect.
+description: Acest articol oferă informații despre ofertele de proiecte.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911657"
 ---
 # <a name="manage-project-quotes"></a>Gestionarea ofertelor de proiect
 
@@ -33,7 +33,7 @@ O listă cu toate citatele proiectului poate fi văzută din pagina listei **Ofe
 Cotațiile pot fi create sau șterse din această pagină de listă sau pagini de detalii.
 
  > [!NOTE]
- > Citatele care au asociate proiecte, sarcini, estimări, jurnale și/sau date reale nu pot fi șterse. De asemenea, atunci când o cotație este închisă ca câștigat sau pierdut, nu mai poate fi șters sau modificat. 
+ > Citatele care au asociate proiecte, sarcini, estimări, jurnale și/sau date reale nu pot fi șterse. De asemenea, atunci când o cotație este închisă ca câștigată sau pierdută, nu mai poate fi șters sau modificat. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

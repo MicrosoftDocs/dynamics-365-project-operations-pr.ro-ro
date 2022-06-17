@@ -1,24 +1,24 @@
 ---
 title: Configurarea șabloanelor de cost
-description: Acest subiect oferă informații despre cum să creați și să utilizați șabloanele de cost în Project Operations.
+description: Acest articol oferă informații despre cum să creați și să utilizați șabloanele de cost în Operațiuni de proiect.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918419"
 ---
 # <a name="set-up-cost-templates"></a>Configurarea șabloanelor de cost
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 
-Acest subiect oferă informații despre cum să creați și să utilizați șabloanele de cost în Project Operations. Un șablon de cost determină:
+Acest articol oferă informații despre cum să creați și să utilizați șabloanele de cost în Operațiuni de proiect. Un șablon de cost determină:
 
 - Categoriile de proiecte pentru tranzacțiile prognozate și efective să fie incluse într-un procent din calculul finalizării proiectului. Valoarea procentuală completă este apoi utilizată pentru a calcula cât de mult venit este recunoscut.
 - Dacă procentul de finalizare poate fi modificat dacă este calculat automat.

@@ -1,22 +1,22 @@
 ---
 title: Integrarea de facturi pentru proiect
-description: Acest subiect oferă informații despre integrarea scriere duală pentru facturarea clientului în Project Operations.
+description: Acest articol oferă informații despre integrarea cu scriere duală a Project Operations pentru facturarea clienților.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912117"
 ---
 # <a name="project-invoice-integration"></a>Integrarea de facturi pentru proiect
 
-Acest subiect oferă informații despre integrarea scriere duală pentru facturarea clientului în Project Operations.
+Acest articol oferă informații despre integrarea cu scriere duală a Project Operations pentru facturarea clienților.
 
 În Project Operations, managerul de proiect gestionează restanțele de facturare ale proiectului și creează o factură proformă pentru client în Microsoft Dataverse. Pe baza acestei facturi proforma, funcționarul de creanțe sau contabilul de proiect creează o factură orientată către client. Integrarea cu dublă scriere asigură sincronizarea detaliilor facturii proforma cu aplicațiile Finance and Operations. După ce se postează factura către client, sistemul actualizează datele relevante ale proiectului în Dataverse cu acest detaliu contabil. Următorul grafic oferă o imagine de ansamblu conceptuală la nivel înalt asupra acestei integrări.
 

@@ -1,6 +1,6 @@
 ---
 title: Implementați câmpuri personalizate pentru aplicație mobilă Microsoft Dynamics 365 Project Timesheet pe iOS și Android
-description: Acest subiect oferă modele comune pentru utilizarea extensiilor pentru a implementa câmpuri personalizate.
+description: Acest articol oferă modele comune pentru utilizarea extensiilor pentru a implementa câmpuri personalizate.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913727"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementați câmpuri personalizate pentru aplicație mobilă Microsoft Dynamics 365 Project Timesheet pe iOS și Android
 
 [!include [banner](../includes/banner.md)]
 
-Acest subiect oferă modele comune pentru utilizarea extensiilor pentru a implementa câmpuri personalizate. Sunt abordate următoarele subiecte:
+Acest articol oferă modele comune pentru utilizarea extensiilor pentru a implementa câmpuri personalizate. Sunt acoperite următoarele articole:
 
 - Diferitele tipuri de date acceptate de cadrul de câmp personalizat
 - Cum se afișează câmpuri numai în citire sau editabile în intrările din foaia de pontaj și cum se salvează valorile furnizate de utilizator în baza de date
@@ -35,7 +35,7 @@ Acest subiect oferă modele comune pentru utilizarea extensiilor pentru a implem
 
 ## <a name="audience"></a>Public
 
-Acest subiect este destinat dezvoltatorilor care își integrează câmpurile personalizate în aplicație mobilă Microsoft Dynamics 365 Project Timesheet disponibilă pentru Apple iOS și Google Android. Ipoteza este că cititorii sunt familiarizați cu dezvoltarea X++ și funcționalitatea foii de timp a proiectului.
+Acest articol este destinat dezvoltatorilor care își integrează câmpurile personalizate în Microsoft Dynamics 365 Project Timesheet aplicație mobilă disponibilă pentru Apple iOS și Google Android. Ipoteza este că cititorii sunt familiarizați cu dezvoltarea X++ și funcționalitatea foii de timp a proiectului.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Contract de date - clasa TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Proprietatea **FieldBaseType** pe obiectul **TsTimesheetCustom** determină tipu
 
 - Dacă proprietatea **stringOptions** este furnizată pe obiectul **TSTimesheetCustomField**, acele elemente de listă sunt singurele valori pe care utilizatorii le pot selecta folosind butoanele de opțiune (butoanele radio).
 
-    În acest caz, câmpul șir poate acționa ca o valoare enum în scopul intrării utilizatorului. Pentru a salva valoarea în baza de date ca o enumerare, mapați manual valoarea șirului înapoi la valoarea enumerată înainte de a salva în baza de date utilizând lanțul de comandă (consultați secțiunea „Utilizați lanțul de comandă din clasa TSTimesheetEntryService pentru a salva o intrare din foaia de pontaj din aplicație înapoi în baza de date" de mai târziu din acest subiect pentru o exemplificare).
+    În acest caz, câmpul șir poate acționa ca o valoare enum în scopul intrării utilizatorului. Pentru a salva valoarea în baza de date ca enumerare, mapați manual valoarea șirului înapoi la valoarea enumerare înainte de a salva în baza de date utilizând lanțul de comandă (consultați „Utilizați lanțul de comandă în clasa TSTimesheetEntryService pentru a salva o intrare din foaia de pontaj din aplicația înapoi la baza de date" secțiunea de mai jos în acest articol pentru un exemplu).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Această proprietate specifică eticheta care este afișată lângă câmpul din
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Lista de șiruri)
 
-Această proprietate este aplicabilă numai atunci când **fieldBaseType** este setat la **Șir**. Dacă **stringOptions** este setat, valorile șirurilor disponibile pentru selectare prin butoanele de opțiune (butoanele radio) sunt specificate de șirurile din listă. Dacă nu sunt furnizate șiruri, este permisă introducerea textului liber în câmpul șirului (consultați secțiunea „Utilizați lanțul de comandă din clasa TSTimesheetEntryService pentru a salva o intrare din foaia de pontaj din aplicație înapoi în baza de date" de mai târziu din acest subiect pentru o exemplificare) .
+Această proprietate este aplicabilă numai atunci când **fieldBaseType** este setat la **Șir**. Dacă **stringOptions** este setat, valorile șirurilor disponibile pentru selectare prin butoanele de opțiune (butoanele radio) sunt specificate de șirurile din listă. Dacă nu sunt furnizate șiruri, este permisă introducerea de text liber în câmpul șir (consultați secțiunea „Utilizați lanțul de comandă în clasa TSTimesheetEntryService pentru a salva o intrare în foaie de pontaj din aplicație înapoi în baza de date” de mai jos în acest articol pentru un exemplu) .
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

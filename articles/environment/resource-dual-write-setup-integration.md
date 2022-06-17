@@ -1,24 +1,24 @@
 ---
 title: Configurarea Project Operations și integrarea datelor de configurare
-description: Acest subiect oferă informații despre setarea și configurarea de hărți cu scriere duală în Project Operations.
+description: Acest articol oferă informații despre configurarea și configurarea hărților cu dublă scriere Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914555"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Configurarea Project Operations și integrarea datelor de configurare
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect oferă informații despre integrarea cu scriere duală a Project Operations pentru entități de setare și configurare.
+Acest articol oferă informații despre integrarea cu scriere duală a Project Operations pentru entitățile de configurare și configurare.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Contracte de proiect, linii de contracte și proiecte
 
@@ -65,7 +65,7 @@ Sarcinile proiectului sunt sincronizate cu aplicațiile Finanțe și Operațiuni
 
 ## <a name="project-resources"></a>Resursele proiectului
 
-The **Rolurile resurselor proiectului** entitatea este sincronizată cu aplicațiile Finance and Operations folosind **Roluri de resurse de proiect pentru toate companiile (categorii de resurse rezervate)** Harta tabelului doar în scop de referință. Deoarece rolurile de resurse în Dataverse nu sunt specifice companiei, sistemul creează automat înregistrările respective ale rolurilor de resurse specifice companiei în aplicațiile Finance and Operations pentru toate entitățile juridice incluse în domeniul de aplicare a integrării cu dublă scriere.
+The **Rolurile resurselor proiectului** entitatea este sincronizată cu aplicațiile Finance and Operations folosind **Roluri de resurse de proiect pentru toate companiile (categorii de resurse rezervate)** Harta tabelului doar pentru referință. Deoarece rolurile de resurse în Dataverse nu sunt specifice companiei, sistemul creează automat înregistrările respective ale rolurilor de resurse specifice companiei în aplicațiile Finance and Operations pentru toate entitățile juridice incluse în domeniul de aplicare a integrării cu dublă scriere.
 
 ![Integrarea rolurilor de resurse.](./media/5Resources.jpg)
 

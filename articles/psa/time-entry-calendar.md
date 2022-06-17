@@ -1,6 +1,6 @@
 ---
 title: Calendar intrări timp
-description: Acest subiect oferă informații despre modul de utilizare a calendarului de intrări de timp.
+description: Acest articol oferă informații despre cum să utilizați calendarul de introducere a orei.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fae112be462bfd1b216a18da1691c39981fe61b6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f206a7ff39e7d6919c618f5f2064e45975bfb0db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915797"
 ---
 # <a name="time-entry-calendar"></a>Calendar intrări timp
 

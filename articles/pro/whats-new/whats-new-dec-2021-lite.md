@@ -1,24 +1,24 @@
 ---
 title: Ce este nou Decembrie 2021 - Implementarea Project Operations Lite
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în versiunea din decembrie 2021 a implementării Project Operations lite.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din decembrie 2021 a implementării Project Operations lite.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914095"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Ce este nou Decembrie 2021 - Implementarea Project Operations Lite
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.27.0.195, 4.27.0.242, 4.27.0.244
 

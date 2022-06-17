@@ -1,18 +1,18 @@
 ---
 title: Închiderea unei oferte - simplificat
-description: Acest subiect furnizează informații despre închiderea unei oferte în Project Operations.
+description: Acest articol oferă informații despre închiderea unei cotații în Operațiuni de proiect.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bde4794c19dd69b6dd77abf5483c674cd7503d23
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916947"
 ---
 # <a name="close-a-quote---lite"></a>Închiderea unei oferte - simplificat
 

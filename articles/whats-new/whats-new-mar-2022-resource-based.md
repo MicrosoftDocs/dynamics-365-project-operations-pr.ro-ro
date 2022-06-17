@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în martie 2022 - Project Operations pentru scenarii bazate pe resurse/ne-stocate
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în ediția din martie 2022 a Project Operations pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în ediția din martie 2022 a Operațiunilor de proiect pentru scenarii bazate pe resurse/nestocitate.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910921"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în martie 2022 - Project Operations pentru scenarii bazate pe resurse/ne-stocate
 
 *Se aplică la: Project Operations pentru scenarii bazate pe resurse/fără stoc*
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.30.0.99
 - Management de proiect și contabilitate într-un mediu Dynamics 365 Finance versiunea 10.0.25
@@ -87,15 +87,15 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | Deplasări și cheltuieli | [645905](https://fix.lcs.dynamics.com/Issue/Details/?bugId=645905) | **Kilometraj în revizuire** afișează un avertisment pe rapoartele de cheltuieli. |
 | Deplasări și cheltuieli | [647819](https://fix.lcs.dynamics.com/Issue/Details/?bugId=647819) | Serviciul de recunoaștere optică a caracterelor pentru chitanță (OCR) nu funcționează din cauza unei probleme cu adresa URL a serviciului OCR de cheltuieli. |
 | Deplasări și cheltuieli | [648684](https://fix.lcs.dynamics.com/Issue/Details/?bugId=648684) | Cand **Abilitatea de a detalia rapid cheltuielile recurente** caracteristica este activată, sumele de pe liniile de detaliere din rapoartele de cheltuieli modifică sumele de fiecare dată când **Detaliază** pagina este deschisă. |
-| Deplasări și cheltuieli | [651899](https://fix.lcs.dynamics.com/Issue/Details/?bugId=651899) | Nu puteți șterge un raport de cheltuieli atunci când lista intermediară are mai mulți aprobatori. |
+| Deplasări și cheltuieli | [651899](https://fix.lcs.dynamics.com/Issue/Details/?bugId=651899) | Nu puteți șterge un raport de cheltuieli atunci când lista interimară are mai mulți aprobatori. |
 
 ## <a name="removed-and-deprecated-features"></a>Funcții eliminate și depreciate
 
-The [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) subiectul descrie caracteristici pentru care au fost eliminate sau depreciate Dynamics 365 Project Operations.
+The [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) articolul descrie funcțiile pentru care au fost eliminate sau depreciate Dynamics 365 Project Operations.
 
 - O caracteristică eliminat nu mai este disponibilă în produs.
 - O funcție învechită nu este în dezvoltare activă și ar putea fi eliminată într-o actualizare viitoare.
 
-Un anunț de depreciere va apărea în [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) subiect cu 12 luni înainte ca orice caracteristică să fie eliminată din produs.
+Un anunț de depreciere va apărea în [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) articol cu 12 luni înainte ca orice caracteristică să fie eliminată din produs.
 
 Pentru modificările nerespective care afectează doar timpul de compilare, dar sunt compatibile binar cu mediile sandbox și de producție, timpul de depreciere va fi mai mic de 12 luni. De obicei, aceste modificări sunt actualizări funcționale care trebuie făcute compilatorului.

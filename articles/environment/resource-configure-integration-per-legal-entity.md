@@ -1,23 +1,23 @@
 ---
 title: Configurarea integrării Project Operations per entitate juridică
-description: Acest subiect furnizează informații despre configurarea integrării după entitatea juridică în Project Operations.
+description: Acest articol oferă informații despre configurarea integrării de către persoana juridică în Operațiuni de proiect.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914693"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurarea integrării Project Operations per entitate juridică 
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect vă prezintă pașii necesari pentru configurarea Dynamics 365 Project Operations per persoană juridică.
+Acest articol vă prezintă pașii necesari pentru a configura Dynamics 365 Project Operations pe persoană juridică.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Activați cheile de funcție în Dynamics 365 Finance
 

@@ -1,17 +1,17 @@
 ---
-title: Gestionarea subcontractelor în Project Operations
-description: Acest subiect oferă o prezentare generală a procesului tipic integral de gestionare a subcontractelor în organizațiile pe bază de proiect.
+title: Subcontractarea gestionării în Project Operations
+description: Acest articol oferă o prezentare generală a procesului de gestionare a subcontractelor de la capăt la capăt, de obicei, în organizațiile bazate pe proiecte.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911520"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Subcontractarea gestionării în Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593029"
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest subiect oferă o prezentare generală a procesului integral de gestionare a subcontractelor în organizațiile pe bază de proiect. Subcontractarea de servicii urmează de obicei un flux de business prezentat în următoarea diagramă.
+Acest articol oferă o prezentare generală a procesului de gestionare a subcontractelor de la capăt la capăt în organizațiile bazate pe proiecte. Subcontractarea de servicii urmează de obicei un flux de business prezentat în următoarea diagramă.
 
 ![Fluxul procesului de subcontractare](../media/SubcontractingProcessFlow.png)
 

@@ -1,24 +1,24 @@
 ---
 title: Ce este nou sau schimbat în Operațiunile de proiect, septembrie 2021 pentru scenariile stocate/bazate pe producție
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în ediția din septembrie 2021 a Project Operations pentru scenariile stocate/bazate pe producție.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din septembrie 2021 a Operațiunilor de proiect pentru scenariile stocate/bazate pe producție.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916533"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Ce este nou sau schimbat în Operațiunile de proiect, septembrie 2021 pentru scenariile stocate/bazate pe producție
 
 _**Se aplică la:** Project Operations pentru scenariile bazate pe stocuri/producție_
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Management de proiect și contabilitate într-un mediu Dynamics 365 Finance versiunea 10.0.21
  
@@ -45,15 +45,15 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Management de proiect și contabilitate | [581489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=581489) | Apare o eroare atunci când calculați controlul costurilor pentru un proiect de investiții. |
 | Management de proiect și contabilitate | [590357](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590357) | The **ProjTable:: InitFromCustTable - canDeletePostalAddress** metoda cauzează o problemă de performanță. |
 | Management de proiect și contabilitate | [592493](https://fix.lcs.dynamics.com/Issue/Details/?bugId=592493) | Mesajul de eroare ar trebui să fie mai clar decât „Eroare neașteptată”. |
-| Management de proiect și contabilitate | [598810](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598810) | Încărcarea facturii de proiect lotul procesează și înregistrează propunerea de factură chiar dacă liniile de factură nu au fost generate. |
-| Management de proiect și contabilitate | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | O problemă de rotunjire apare atunci când cheia de configurare a licenței din sectorul public este dezactivată. Un cost sau un preț de vânzare incorect este generat în orele de pontaj pentru contractele care au mai multe surse fondatoare. |
+| Management de proiect și contabilitate | [598810](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598810) | Încărcarea facturii Proiect procesează și înregistrează oferta de factură în lot, chiar dacă liniile de factură nu au fost generate. |
+| Management de proiect și contabilitate | [574282](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574282) | O problemă de rotunjire apare atunci când cheia de configurare a licenței din sectorul public este dezactivată. Un cost sau un preț de vânzare incorect este generat în orele de pontaj pentru contractele care au mai multe surse de întemeiere. |
 | Management de proiect și contabilitate | [577598](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577598) | Prețul de vânzare al proiectului pentru o comandă de achiziție de proiect facturată este calculat incorect atunci când modelul prețului de vânzare este **Raportul de contribuție**. |
 | Management de proiect și contabilitate | [580784](https://fix.lcs.dynamics.com/Issue/Details/?bugId=580784) | Sistemul nu ia în considerare zilele active intermediare atunci când calculează rata efectivă de muncă pentru un angajat. |
 | Management de proiect și contabilitate | [584054](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584054) | Apare o eroare de postare pe foaia de pontaj intercompanie din cauza următoarei erori de validare: „Niciun partener comercial nu este configurat pentru entitate juridică”. |
 | Management de proiect și contabilitate | [586303](https://fix.lcs.dynamics.com/Issue/Details/?bugId=586303) | Descrierea dintr-o comandă de achiziție care are o categorie de cheltuieli nu este preluată în lista de tranzacții de proiect publicată. |
 | Management de proiect și contabilitate | [590349](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590349) | Există o conversie incorectă în jurnalele de articole care sunt postate într-un proiect. |
 | Management de proiect și contabilitate | [557294](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557294) | Puteți confirma o comandă de cumpărare chiar dacă limita de finanțare a fost depășită. |
-| Management de proiect și contabilitate | [574162](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574162) | The **Rectificare/Anulare factura** secțiunea de pe o factură cu text gratuit dispare atunci când este selectat un ID de proiect. |
+| Management de proiect și contabilitate | [574162](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574162) | The **Rectificare/Anulare factura** secțiunea de pe o factură cu text liber dispare atunci când este selectat un ID de proiect. |
 | Management de proiect și contabilitate | [575425](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575425) | Există probleme de performanță atunci când o propunere de factură de proiect este postată dintr-o comandă de vânzare de proiect care include un articol stocat. |
 | Management de proiect și contabilitate | [575939](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575939) | Facturile de achiziție pentru proiecte nu pot fi încărcate deoarece apare următoarea eroare: „Funcția AccDistProcessorProjectExtension.createForProjectRevenueLine a fost apelată incorect”. |
 | Management de proiect și contabilitate | [578970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=578970) | Actualizare pentru crearea de joburi lot de estimare a proiectului pentru a sprijini executarea mai multor subsarcini. |
@@ -67,11 +67,11 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Management de proiect și contabilitate | [596669](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596669) | Numărul scutit de taxe pentru o entitate juridică nu este inclus pe factura de proiect tipărită. |
 | Management de proiect și contabilitate | [597563](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597563) | Nu se actualizează date financiare în eroarea unității de inventar atunci când un proiect este ajustat în raport cu liniile de credit. |
 | Management de proiect și contabilitate | [598109](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598109) | După ce aplicați KB 461935, nu puteți posta estimări dacă treceți la secvențe de numere continue. |
-| Management de proiect și contabilitate | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** provoacă aplicația mobilă Project timesheet pentru Android a nu mai răspunde. |
+| Management de proiect și contabilitate | [598688](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598688) | **TimeEntryDataManager** provoacă aplicația mobilă pentru foaia de pontaj proiect pentru Android a nu mai răspunde. |
 | Management de proiect și contabilitate | [602677](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602677) | Valoarea WIP inversată dintr-o înregistrare a facturii diferă de valoarea WIP postată inițial din momentul introducerii. |
 | Management de proiect și contabilitate | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | În cazurile de reținere aplicată, tranzacțiile pe un voucher nu se echilibrează atunci când sunt înregistrate veniturile facturate pentru un proiect. |
 | Management de proiect și contabilitate | [603320](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603320) | Cand **Îmbunătățirea performanței în planificarea resurselor proiectului** caracteristica este activată, valorile zecimale sunt rotunjite incorect pentru disponibilitatea resurselor și capacitatea. |
-| Management de proiect și contabilitate | [607324](https://fix.lcs.dynamics.com/Issue/Details/?bugId=607324) | Cand **Creați estimări de proiect folosind mai multe sarcini lot** caracteristica este activată, crearea de estimări într-un lot care are mai multe subsarcini funcționează numai pentru perioada curentă. |
+| Management de proiect și contabilitate | [607324](https://fix.lcs.dynamics.com/Issue/Details/?bugId=607324) | Cand **Creați estimări de proiect folosind mai multe sarcini lot** caracteristica este activată, crearea estimărilor într-un lot care are mai multe subsarcini funcționează numai pentru perioada curentă. |
 | Deplasări și cheltuieli | [551911](https://fix.lcs.dynamics.com/Issue/Details/?bugId=551911) | O politică de solicitare de călătorie este ignorată, iar fluxul de lucru este aprobat fără erori. |
 | Deplasări și cheltuieli | [563752](https://fix.lcs.dynamics.com/Issue/Details/?bugId=563752) | <p>Aplicația Mobile Expense nu salvează următoarele informații pe linia de cheltuieli:</p><ul><li>ID-ul proiectului</li><li>Dacă cheltuiala este facturabilă</li><li>Numărul activității</li></ul> |
 | Deplasări și cheltuieli | [569458](https://fix.lcs.dynamics.com/Issue/Details/?bugId=569458) | The **Chitanțe atașate** câmpul este setat la **da** chiar dacă nicio chitanță nu este atașată liniei de cheltuieli. |
@@ -86,7 +86,7 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 | Deplasări și cheltuieli | [590544](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590544) | Apare o eroare dacă publicați un raport de cheltuieli și recuperarea taxelor este activată. |
 | Deplasări și cheltuieli | [564851](https://fix.lcs.dynamics.com/Issue/Details/?bugId=564851) | Un delegat nu poate șterge documentele de cheltuieli pentru un angajat revocat. |
 | Deplasări și cheltuieli | [587306](https://fix.lcs.dynamics.com/Issue/Details/?bugId=587306) | Ștergerea unei linii de cheltuieli durează mai mult decât se aștepta și afectează performanța. |
-| Deplasări și cheltuieli | [600455](https://fix.lcs.dynamics.com/Issue/Details/?bugId=600455) | **TrvExpTrans** provoacă un orfan **TaxNeangajat** înregistrare, pentru că numai **SourceDocumentLine** este șters. |
+| Deplasări și cheltuieli | [600455](https://fix.lcs.dynamics.com/Issue/Details/?bugId=600455) | **TrvExpTrans** provoacă un orfan **TaxUncommitted** înregistrare, pentru că numai **SourceDocumentLine** este șters. |
 | Deplasări și cheltuieli | [609918](https://fix.lcs.dynamics.com/Issue/Details/?bugId=609918) | **ReleaseUpdateDB72_Expense.updateTrvExpTransProjTransId()** nu onorează **trvExpTrans.ReferenceDataAreaId** pentru a crea noua secvență de numere. |
 
 ## <a name="regulatory-updates"></a>Actualizări de reglementare

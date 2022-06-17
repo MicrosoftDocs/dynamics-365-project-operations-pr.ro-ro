@@ -1,17 +1,17 @@
 ---
 title: Comportamentul interfeței de utilizare a intrării în timp
-description: Acest subiect oferă informații despre comportamentul intrării de timp a interfeței de utilizator.
+description: Acest articol oferă informații despre comportamentul interfeței de utilizare pentru introducerea orei.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5b7bd3e9145673268907e749decdd728dcfb533f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b39f182901681875eb90f17d9421bcad63762f54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918189"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamentul interfeței de utilizare a intrării în timp
 

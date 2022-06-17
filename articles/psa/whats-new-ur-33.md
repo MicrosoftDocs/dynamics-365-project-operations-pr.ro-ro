@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 33, V3
-description: Acest subiect listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea actualizată 33, V3.
+description: Acest articol enumeră caracteristicile și remedierile disponibile în Project Service Automation Update Versiunea 33, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/30/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 063290526c25e7073137fc88408be6a61d2d20ac
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d9c282e8b95b111ce71fb441e4dbb2d04f904e0f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915431"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-33-v3"></a>Ce este nou sau schimbat în Project Service Automation versiunea actualizată 33, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8601493"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Microsoft Dynamics 365 Project Service Automation. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Este compatibil cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați pagina de soluții online din Centrul de administrare pentru Dynamics 365 și instalați actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest subiect listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea actualizată 33. Această versiune are un număr de compilări V3.10.54.98 și este, în general, disponibilă prin auto-actualizare în iulie 2021.
+Acest articol enumeră caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Update Release 33. Această versiune are un număr de compilări V3.10.54.98 și este, în general, disponibilă prin auto-actualizare în iulie 2021.
 
 ## <a name="update-release-33"></a>Lansarea de actualizări 33
 

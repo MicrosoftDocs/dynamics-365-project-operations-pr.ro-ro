@@ -1,6 +1,6 @@
 ---
 title: Ghidul de gestionare a resurselor
-description: Acest subiect oferă linkuri către informații despre gestionarea resurselor în Project Service Automation
+description: Acest articol oferă legături către informații despre gestionarea resurselor în Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910813"
 ---
 # <a name="resource-management-guide"></a>Ghidul de gestionare a resurselor
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595467"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutul a fost mutat la următoarele subiecte:
+Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
 
 - [Pagina principală gestionare resurse](../resource-management-home-page.md)
 - [Concepte-cheie](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutu
 - [Întrebări frecvente de gestionarea resurselor](../resource-management-faq.md)
 
 > [!NOTE]
-> Acest subiect va fi eliminat într-o actualizare de documentație viitoare. 
+> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

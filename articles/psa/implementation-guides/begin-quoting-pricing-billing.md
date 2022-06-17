@@ -1,6 +1,6 @@
 ---
 title: Ghid de bază pentru ofertare, tarifare și facturare
-description: Acest subiect oferă linkuri la informații despre ofertarea, tarifarea și facturarea de bază în Project Service Automation.
+description: Acest articol oferă link-uri către informații despre cotații de bază, prețuri și facturare în Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910829"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Ghid de bază pentru ofertare, tarifare și facturare
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592247"
 
 Capacitatea de a găsi resursele potrivite la momentul potrivit, de a rezerva respectivele resurse pe proiecte și de a le menține utilizate ajută organizațiile să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. 
 
-Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutul a fost mutat la următoarele subiecte:
+Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
 
 - [Ofertarea, tarifarea și facturarea](../quote-bill-price.md)
 - [Procese vânzări](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutu
 - [Înregistrarea de valori reale](../advanced-actuals.md)
 
 > [!NOTE]
-> Acest subiect va fi eliminat într-o actualizare de documentație viitoare. 
+> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
 title: Jurnalele de planificare a proiectelor
-description: Acest subiect oferă informații și exemple care vă vor ajuta să utilizați jurnalele de planificare a proiectelor pentru a urmări eșecurile care sunt legate de serviciul de planificare a proiectelor și API-urile de planificare a proiectelor.
+description: Acest articol oferă informații și exemple care vă vor ajuta să utilizați jurnalele de planificare a proiectelor pentru a urmări eșecurile legate de serviciul de planificare a proiectelor și API-urile de planificare a proiectelor.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923710"
 ---
 # <a name="project-scheduling-logs"></a>Jurnalele de planificare a proiectelor
 
@@ -68,7 +68,7 @@ Următorul tabel prezintă câmpurile care sunt legate de **Detaliu set de opera
 
 ## <a name="project-scheduling-service-error-logs"></a>Jurnalele de erori ale Serviciului de planificare a proiectelor
 
-Jurnalele de eroare ale Serviciului de planificare a proiectelor captează eșecurile care apar atunci când Serviciul de planificare a proiectelor încearcă a **salva** sau **Deschis** Operațiune. Există trei scenarii acceptate în care aceste jurnale sunt generate:
+Jurnalele de eroare ale Serviciului de planificare a proiectelor captează eșecurile care apar atunci când Serviciul de planificare a proiectelor încearcă a **Salvați** sau **Deschis** Operațiune. Există trei scenarii acceptate în care aceste jurnale sunt generate:
 
 - Acțiunile inițiate de utilizator eșuează critic (de exemplu, o atribuire nu poate fi creată din cauza privilegiilor lipsă).
 - Serviciul de planificare a proiectelor nu poate crea, actualiza, șterge sau efectua orice altă operațiune în cascadă pe o entitate în mod programatic.
@@ -94,7 +94,7 @@ Următorul tabel arată câmpurile care sunt incluse în jurnalul Serviciului de
 
 În mod implicit, atât jurnalele de eroare ale serviciului de planificare a proiectelor, cât și jurnalul setului de operațiuni pot fi curățate la fiecare 90 de zile. Orice înregistrări care sunt mai vechi de 90 de zile vor fi șterse. Cu toate acestea, prin modificarea valorii **msdyn_StateOperationSetAge** câmp de pe **Parametrii proiectului** pagina, administratorii pot ajusta intervalul de curățare astfel încât să fie între 1 și 120 de zile. Sunt disponibile mai multe metode pentru modificarea acestei valori:
 
-- Personalizați **Parametrul proiectului** entitate creând o pagină personalizată și adăugând **Stale Operations Set Age** camp.
+- Personalizați **Parametrul proiectului** entitate prin crearea unei pagini personalizate și adăugarea **Stale Operations Set Age** camp.
 - Utilizați codul client care utilizează [Kit de dezvoltare software WebApi (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
 - Utilizați codul Service SDK care utilizează Xrm SDK **updateRecord** metoda (referință API client) în aplicațiile bazate pe model. Power Apps include o descriere și parametrii acceptați pentru **updateRecord** metodă.
 

@@ -1,6 +1,6 @@
 ---
-title: Particularizarea înregistrării săptămânale de timp
-description: Acest subiect furnizează informații despre cum să implementați reguli de business particularizate care susțin practicile unei organizații.
+title: Particularizarea intrărilor de timp săptămânale
+description: Acest articol oferă informații despre cum să implementați reguli de afaceri personalizate care sprijină practicile unei organizații.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918971"
 ---
 # <a name="customize-weekly-time-entry"></a>Particularizarea intrărilor de timp săptămânale 
 
@@ -46,7 +46,7 @@ Secțiunea **Dimensiuni** afișează, ca titluri de coloană, toate dimensiunile
 - Tip
 - Stare intrare
 
-Secțiunea **Dimensiuni** nu permite editarea inline. Această secțiune este susținută de o vizualizare care permite adăugarea de câmpuri particularizate la grila de introducere săptămânală a timpului. Pentru informații despre cum se adaugă câmpuri particularizate, consultați secțiunea „Extensibilitate” mai jos în acest subiect.
+Secțiunea **Dimensiuni** nu permite editarea inline. Această secțiune este susținută de o vizualizare care permite adăugarea de câmpuri particularizate la grila de introducere săptămânală a timpului. Pentru informații despre cum să adăugați câmpuri personalizate, consultați secțiunea „Extensibilitate” mai târziu în acest articol.
 
 ### <a name="duration"></a>Durată
 Secțiunea Durată afișează zilele săptămânii ca anteturi de coloană. Această secțiune permite editarea inline. După ce se creează un rând de introducere de timp care are dimensiuni corespunzătoare, utilizatorii pot introduce rapid, inline, cantitatea de timp pe care au cheltuit-o pe aceste dimensiuni.

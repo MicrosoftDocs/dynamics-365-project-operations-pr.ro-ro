@@ -1,18 +1,18 @@
 ---
 title: Configurarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate
-description: Acest subiect explică modul de activare a materialelor care nu există pe stoc și a facturilor de la furnizori neachitate.
+description: Acest articol explică cum să activați materialele care nu sunt stocate și facturile furnizorilor în așteptare.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913773"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Configurarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Rulați hărțile cu scriere duală pentru materialele care nu există pe stoc și pentru integrarea facturilor de la furnizori
 
-Această secțiune oferă informații despre hărțile specifice necesare pentru materialele care nu există pe stoc și pentru facturile de la furnizori. Verificați dacă hărțile preliminare menționate în subiectul [Furnizarea unui mediu nou](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) rulează în mediul dvs.
+Această secțiune oferă informații despre hărțile specifice necesare pentru materialele care nu există pe stoc și pentru facturile de la furnizori. Verificați dacă hărțile de cerințe prealabile enumerate în [Furnizați un mediu nou](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) articolul rulează în mediul dvs.
 
 1. Accesați Lifecycle Services (LCS), navigați la proiectul dvs. LCS și accesați pagina **Detalii despre mediu**.
 2. În secțiunea **Common Data Service Informații despre mediu**, selectați **Link către CDS for Apps**. După ce selectați linkul, veți fi redirecționat către lista entităților din mapări.

@@ -1,17 +1,17 @@
 ---
 title: Crearea unei planificări de facturare pentru o linie de contract bazată pe proiect
-description: Acest subiect oferă informații despre cum să creați planificări de facturare și repere pe liniile de contract.
+description: Acest articol oferă informații despre cum să creați programe de facturare și repere pe liniile de contract.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7dd8e4517d5ae7401fd0f11301943157b42a6b0e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 490a61b67f54bdad95ecfce905191c381dddc85b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915015"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Crearea unei planificări de facturare pentru o linie de contract bazată pe proiect 
 

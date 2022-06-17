@@ -1,17 +1,17 @@
 ---
 title: Extinderea intrărilor de timp
-description: Acest subiect oferă informații despre modul în care dezvoltatorii pot extinde controlul introducerii de timp.
+description: Acest articol oferă informații despre modul în care dezvoltatorii pot extinde controlul introducerii timpului.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914785"
 ---
 # <a name="extending-time-entries"></a>Extinderea intrărilor de timp
 
@@ -92,7 +92,7 @@ Adăugați câmpul personalizat la **Creare rapidă: Creați intrare de timp** c
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Configurați grila pentru a afișa câmpul particularizat
 Există două modalități de a adăuga un câmp personalizat la **Intrare săptămânală a timpului** grilă.
 
-- Personalizați **Intrările mele săptămânale de timp** vizualizare și adăugați câmpul personalizat la acesta. Puteți specifica poziția și dimensiunea câmpului personalizat în grilă prin editarea proprietăților din vizualizare.
+- Personalizați **Înregistrările mele săptămânale de timp** vizualizare și adăugați câmpul personalizat la acesta. Puteți specifica poziția și dimensiunea câmpului personalizat în grilă prin editarea proprietăților din vizualizare.
 - Creați o nouă vizualizare personalizată pentru introducerea orei și setați-o ca vizualizare implicită. Această vedere ar trebui să conțină **Descriere** și **Comentarii externe** câmpuri în plus față de coloanele pe care doriți să le includă grila. Puteți specifica poziția, dimensiunea și ordinea implicită de sortare a grilei prin editarea proprietăților din vizualizare. Apoi, configurați controlul particularizat pentru această vizualizare, astfel încât să fie un control **Grilă introducere timp**. Adăugați controlul la vizualizare și selectați-l pentru **Web**, **·**, și **Comprimat**. Apoi, configurați parametrii pentru **Intrare săptămânală a timpului** grilă. Seteaza **Data de început** câmp la **msdyn\_ Data**, Seteaza **Durată** câmp la **msdyn\_ durată**, și setați **stare** câmp la **msdyn\_ starea de intrare**. The **Listă de stare numai pentru citire** câmpul este setat la **192350002 (Aprobat)**, **(Trimis)**, sau **192350004 (rechemare solicitată)**.
 
 ### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Adăugați câmpul personalizat la pagina de editare corespunzătoare
@@ -116,7 +116,7 @@ Pentru a desemna o nouă stare de înregistrare de timp ca doar în citire, adă
 Apoi, adăugați reguli de afaceri pentru a bloca toate câmpurile din **Editare rând** și **Editare intrare timp** pagini. Pentru a accesa regulile de afaceri pentru aceste pagini, deschideți editor formular pentru fiecare pagină, apoi selectați **Reguli de afaceri**. Aveți posibilitatea să adăugați starea nouă la condiția din regulile de business existente sau să adăugați o nouă regulă de business pentru noua stare.
 
 ### <a name="add-custom-validation-rules"></a>Adăugarea de reguli de validare particularizate
-Puteți adăuga două tipuri de reguli de validare pentru **Intrare săptămânală a timpului** experiență grilă:
+Puteți adăuga două tipuri de reguli de validare pentru **Intrare săptămânală de timp** experiență grilă:
 
 - Reguli de afaceri la nivelul clientului care funcționează pe pagini
 - Validări de plug-in pe partea de server care se aplică tuturor actualizărilor de intrare de timp

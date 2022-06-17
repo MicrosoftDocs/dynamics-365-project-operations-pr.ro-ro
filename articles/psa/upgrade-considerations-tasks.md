@@ -1,6 +1,6 @@
 ---
 title: Considerente de actualizare pentru structura detaliată a proiectului
-description: Acest subiect oferă informații despre actualizarea structurii detaliate a proiectului de la Project Service Automation 2.x la 3.x.
+description: Acest articol oferă informații despre actualizarea structurii de defalcare a lucrărilor de la Project Service Automation 2.x la 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913129"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considerente de actualizare pentru structura detaliată a proiectului
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Acest subiect oferă informații despre actualizarea structurii detaliate a proiectului de la Project Service Automation 2.x la 3.x. Acest subiect definește starea de sănătate a unui proiect în Project Service Automation (PSA) care este necesar pentru o actualizare de succes. Există, de asemenea, informații despre condițiile comune de blocare care vor duce la eșuarea actualizării. Pentru mai multe informații despre definirea activităților de proiect și a funcțiilor lor în cadrul unei planificări de proiect, consultați [Planificări de proiect](project-creating.md).
+Acest articol oferă informații despre actualizarea structurii de defalcare a lucrărilor de la Project Service Automation 2.x la 3.x. Acest articol definește starea sănătoasă a unui proiect în Project Service Automation (PSA) care este necesară pentru o actualizare reușită. Există, de asemenea, informații despre condițiile comune de blocare care vor duce la eșuarea actualizării. Pentru mai multe informații despre definirea activităților de proiect și a funcțiilor lor în cadrul unei planificări de proiect, consultați [Planificări de proiect](project-creating.md).
 
 ## <a name="key-entities"></a>Entități-cheie
 Pentru o structură detaliată a proiectului deja încărcată cu resurse, sunt necesare următoarele entități:

@@ -1,6 +1,6 @@
 ---
 title: Utilizați resursa care se poate rezerva ca dimensiune de tarifare
-description: Acest subiect furnizează informații despre utilizarea unei resurse rezervabile ca dimensiune de tarifare.
+description: Acest articol oferă informații despre utilizarea unei resurse rezervabile ca dimensiune a prețului.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916119"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizați resursa care se poate rezerva ca dimensiune de tarifare
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Acest subiect furnizează informații despre utilizarea unei resurse rezervabile ca dimensiune de tarifare. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din subiectul [Creare câmpuri și entități particularizate](create-custom-fields-entities.md).
+Acest articol oferă informații despre utilizarea unei resurse rezervabile ca dimensiune a prețului. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din [Creați câmpuri și entități personalizate](create-custom-fields-entities.md) articol.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adăugați o resursă rezervabilă la formulare și vizualizări
 Pentru a face câmpurile vizibile în interfața cu utilizatorul în soluția de dimensiune de tarifare, va trebui să parcurgeți toate formularele și vizualizările entităților cheie Project Service și să adăugați aceste câmpuri la formularele și vizualizările acelor entități.

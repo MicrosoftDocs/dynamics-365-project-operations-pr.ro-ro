@@ -1,6 +1,6 @@
 ---
 title: Sincronizați estimările de proiect direct de la Project Service Automation la Finanțe și Operațiuni
-description: Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza estimările orelor de proiect și estimările cheltuielilor proiectului direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+description: Acest articol descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza estimările orelor de proiect și estimările cheltuielilor proiectului direct de la Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920857"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați estimările de proiect direct de la Project Service Automation la Finanțe și Operațiuni
 
 [!include[banner](../includes/banner.md)]
 
-Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza estimările orelor de proiect și estimările cheltuielilor proiectului direct de la Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+Acest articol descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza estimările orelor de proiect și estimările cheltuielilor proiectului direct de la Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrarea sarcinilor proiectului, categoriile tranzacțiilor de cheltuieli, estimările orelor, estimările cheltuielilor și blocarea funcționalității sunt disponibile în versiunea 8.0.

@@ -1,17 +1,17 @@
 ---
 title: Atribuirea de personal pentru un proiect cu lucrători contractuali și capacitate subcontractată
-description: Acest subiect explică modul în care cerințele proiectului pot fi îndeplinite folosind lucrători contractuali sau capacitatea subcontractată în Microsoft Dynamics 365 Project Operations.
+description: Acest articol explică modul în care cerințele proiectului pot fi îndeplinite folosind lucrători contractuali sau capacitatea subcontractată în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922099"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Atribuirea de personal pentru un proiect cu lucrători contractuali și capacitate subcontractată
 
@@ -23,7 +23,7 @@ Membrii echipei de proiect generice pot avea angajați sau lucrători contractua
 
 ## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Căutați cerințele de resurse de personal cu lucrători contractuali care aparțin unei anumite linii de subcontractare
 
-Pentru a căuta și cerințe de resurse de personal cu lucrătorii contractuali care aparțin unei anumite linii de subcontractare, urmați acești pași:
+Pentru a căuta și cerințele de resurse de personal cu lucrătorii contractuali care aparțin unei anumite linii de subcontractare, urmați acești pași:
 
 1. Creați un membru generic al echipei de proiect care face referire la o linie de subcontractare și subcontractare.
 2. Generați o cerință de resurse pentru acest membru generic al echipei de proiect utilizând **Generați cerință** butonul de pe subgrila membrilor echipei de proiect.
@@ -45,7 +45,7 @@ Pentru a căuta și cerințe de resurse de personal cu orice lucrător contractu
 3. Selectați rândul membru al echipei și apoi selectați **Carte** butonul de pe subgrilă. 
 4. Aceasta deschide panoul de orar cu contextul cerințelor. Împreună cu alte atribute, cum ar fi câmpurile date, rol și unități organizaționale, filtrele Schedule Board sunt, de asemenea, populate automat cu câmpurile furnizor, subcontract și subcontract din cerința de resurse. Deoarece cerința nu a avut nicio valoare de subcontractare sau linie de subcontractare completată, aceste atribute vor fi goale în panoul de filtrare.
 5. Sistemul caută resurse care îndeplinesc criteriile de filtrare și le listează.
-6. Actualizați **Tip muncitor** câmpul din panoul de filtrare la **Muncitor Contractual** pentru a limita căutarea la lucrătorii contractuali. Actualizați **Furnizor** pe panoul de filtrare pentru a selecta un furnizor pentru a limita căutarea pentru a afișa numai lucrătorii contractuali care aparțin unei anumite companii de furnizor.
+6. Actualizați **Tip muncitor** câmpul din panoul de filtrare la **Muncitor Contractual** pentru a limita căutarea la lucrătorii contractuali. Actualizați **Furnizor** în panoul de filtrare pentru a selecta un furnizor pentru a limita căutarea pentru a afișa numai lucrătorii contractuali care aparțin unei anumite companii de furnizor.
 7. Selectați un lucrător contractual din listă și rezervați resursa pentru cerință.
 8. Este creat un membru al echipei de proiect. Cu toate acestea, membrul echipei de proiect nu este actualizat cu nicio linie de subcontract sau subcontract și, prin urmare, alocarea resurselor nu va fi calculată folosind prețul subcontractului. Actualizați manual membrul echipei de proiect cu o linie de subcontractare și accesați **Estimări de proiect** și selectați **Actualizați prețurile** pentru a vedea costul actualizat al alocării resurselor.
 

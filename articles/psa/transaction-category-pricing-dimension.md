@@ -1,6 +1,6 @@
 ---
 title: Utilizarea categoriei de tranzacții ca dimensiune de preț
-description: Acest subiect furnizează informații despre utilizarea unei categorii de tranzacții ca dimensiune de preț.
+description: Acest articol oferă informații despre utilizarea unei categorii de tranzacții ca dimensiune de preț.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915751"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilizarea categoriei de tranzacții ca dimensiune de preț
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Acest subiect arată cum se utilizează o categorie de tranzacții ca dimensiune de preț. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din subiectul [Creare câmpuri și entități particularizate](create-custom-fields-entities.md).
+Acest articol arată cum să utilizați o categorie de tranzacție ca dimensiune de preț. Înainte de a începe, dacă nu ați creat deja o soluție de dimensiune de preț, va trebui să creați una nouă. Dacă aveți deja o soluție de dimensiune de preț, atunci puteți face modificările în această soluție. Dacă nu ați creat o nouă soluție de dimensiune de preț pentru organizația dvs., finalizați procedurile din [Creați câmpuri și entități personalizate](create-custom-fields-entities.md) articol.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Adăugați o categorie de tranzacții la formulare și vizualizări
 Pentru a face categoria de tranzacții vizibilă în interfața cu utilizatorul în soluția de dimensiune de preț, va trebui să parcurgeți toate formularele și vizualizările entităților cheie și să adăugați aceste câmpuri la formularele și vizualizările acelor entități.

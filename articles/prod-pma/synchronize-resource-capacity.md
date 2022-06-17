@@ -1,6 +1,6 @@
 ---
 title: Sincronizarea capacității resurselor
-description: Acest subiect oferă informații despre cum să sincronizați capacitatea unei resurse între calendare și proiecte.
+description: Acest articol oferă informații despre cum să sincronizați capacitatea unei resurse în calendare și proiecte.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3911ffe9ecfd15a7852dea893084e0059b06c9b8
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 2b684833ffae83b7cedfc73ee96a8aa8ddd4ec57
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920719"
 ---
 # <a name="synchronize-resource-capacity"></a>Sincronizarea capacității resurselor
 

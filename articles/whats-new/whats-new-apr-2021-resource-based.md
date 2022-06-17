@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea din aprilie 2021 a Project Operations pentru scenarii bazate pe resurse/fără stoc.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în ediția din aprilie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/neaprovizionate.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912439"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în aprilie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
 - Project Operations pe mediul Dataverse versiunea 4.9.0.221
 - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.17

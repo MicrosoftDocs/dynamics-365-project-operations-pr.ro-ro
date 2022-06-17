@@ -1,6 +1,6 @@
 ---
 title: Modificări în gestionarea resurselor (Project Service Automation) 3.x
-description: Acest subiect furnizează informații despre modificările din zona de gestionare a resurselor.
+description: Acest articol oferă informații despre modificările aduse zonei de gestionare a resurselor.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916027"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Modificări în gestionarea resurselor (Project Service Automation) 3.x
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Secțiunile acestui subiect furnizează informații despre modificările efectuate în zona de gestionare a resurselor din Dynamics 365 Project Service Automation versiunea 3. x.
+Secțiunile acestui articol oferă informații despre modificările care au fost făcute în zona de gestionare a resurselor Dynamics 365 Project Service Automation versiunea 3.x.
 
 ## <a name="project-estimates"></a>Estimări de proiect
 

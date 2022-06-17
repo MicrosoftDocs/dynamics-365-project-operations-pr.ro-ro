@@ -1,25 +1,25 @@
 ---
 title: Implementarea manuală a aplicației Project Operations Dataverse cu suport pentru scriere duală
-description: Acest subiect explică cum să implementați manual aplicația Project Operations Dataverse pentru a suporta scrierea duală.
+description: Acest articol explică cum să implementați manual operațiunile de proiect Dataverse aplicație astfel încât să accepte scriere duală.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912025"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implementarea manuală a aplicației Project Operations Dataverse cu suport pentru scriere duală
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect explică cum să implementați manual Microsoft Dynamics 365 Project Operations în Microsoft Dataverse pentru a suporta scrierea duală. Project Operations detectează configurația mediului și adaugă suport suplimentar pentru scrierea duală dacă sunt îndeplinite condițiile prealabile.
+Acest articol explică cum să implementați manual Microsoft Dynamics 365 Project Operations în Microsoft Dataverse astfel încât să accepte dual-write. Project Operations detectează configurația mediului și adaugă suport suplimentar pentru scrierea duală dacă sunt îndeplinite condițiile prealabile.
 
-În timpul implementarii prin Microsoft Dynamics Lifecycle Services (LCS), dacă ați urmat instrucțiunile din acest subiect, puteți sări peste implementarea integrării Microsoft Power Platform (cunoscută anterior sub numele de mediu Common Data Service).
+În timpul implementării prin Microsoft Dynamics Servicii de ciclu de viață (LCS), dacă ați urmat instrucțiunile din acest articol, puteți sări peste implementarea Microsoft Power Platform integrare (cunoscută anterior ca Common Data Service mediu inconjurator).
 
 Procesul de implementare a Project Operations în Dataverse, astfel încât să accepte scrierea duală, are patru pași principali:
 

@@ -1,24 +1,24 @@
 ---
 title: Noutăți în august 2021 - implementare Project Operations lite
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în implementarea versiunii Project Operations lite din august 2021.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din august 2021 a implementării Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922053"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>Noutăți în august 2021 - implementare Project Operations lite
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
   - Project Operations pe mediul Dataverse versiunea 4.13.0.152
 

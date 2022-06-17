@@ -1,28 +1,28 @@
 ---
 title: Performanța API-ului de planificare a proiectelor
-description: Acest subiect oferă informații despre benchmark-urile de performanță ale API-urilor de planificare a proiectului și identifică cele mai bune practici pentru o utilizare optimă.
+description: Acest articol oferă informații despre standardele de performanță ale API-urilor de planificare a proiectului și identifică cele mai bune practici pentru o utilizare optimă.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911197"
 ---
 # <a name="project-schedule-api-performance"></a>Performanța API-ului de planificare a proiectelor
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stoc, implementare Lite - facturare de la ofertă și până la proforma, Project for the web_
 
-Acest subiect oferă informații despre benchmark-urile de performanță ale interfețelor de programare a aplicației de planificare Project și identifică cele mai bune practici pentru optimizarea utilizării.
+Acest articol oferă informații despre standardele de performanță ale interfețelor de programare a aplicațiilor (API) pentru planificarea proiectului și identifică cele mai bune practici pentru optimizarea utilizării.
 
 ## <a name="project-scheduling-service"></a>Serviciu de planificare a proiectului
 Serviciul de planificare a proiectelor este un serviciu multi-entități găzduite care rulează în Microsoft Azure. Este conceput pentru a îmbunătăți interacțiunea, oferind o experiență rapidă și fluidă atunci când utilizatorii lucrează la proiecte. Această îmbunătățire se realizează prin acceptarea cererilor de modificare, procesarea acestora și apoi returnarea imediată a rezultatului. Serviciul persistă în mod asincron în Dataverse și nu blochează utilizatorii să efectueze alte operațiuni.
 
-API-urile de planificare a proiectului se bazează pe Serviciul de planificare a proiectelor pentru a rula solicitări care sunt descrise mai detaliat în secțiunile ulterioare ale acestui subiect.
+API-urile de planificare a proiectului se bazează pe Serviciul de planificare a proiectelor pentru a rula solicitări care sunt descrise mai detaliat în secțiunile ulterioare ale acestui articol.
 
 API-urile de planificare a proiectului sunt concepute pentru a funcționa cu următoarele entități cu structură de detaliată a lucrărilor (WBS):
 

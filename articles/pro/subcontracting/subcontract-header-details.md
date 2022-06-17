@@ -1,17 +1,17 @@
 ---
 title: Detalii antet pentru subcontracte
-description: Acest subiect explică funcționalitatea oferită pe antetul subcontractului în Project Operations.
+description: Acest articol explică funcționalitatea oferită în antetul subcontractului în Operațiuni de proiect.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914187"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalii antet pentru subcontracte
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598181"
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest subiect explică funcționalitatea oferită pe antetul subcontractului în Dynamics 365 Project Operations.
+Acest articol explică funcționalitatea oferită în antetul subcontractului în Dynamics 365 Project Operations.
 
 Pe măsură ce un manager de proiect planifică și execută proiecte, acesta poate angaja subcontractanți și poate achiziționa produse și servicii de la furnizori. Atunci când un manager de proiect trebuie să achiziționeze produse sau servicii, acesta poate crea un subcontract în Project Operations.
 

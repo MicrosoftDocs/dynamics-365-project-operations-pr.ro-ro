@@ -1,27 +1,27 @@
 ---
 title: Noutăți iunie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea Project Operations din iunie 2021 pentru scenarii bazate pe stocuri/producție.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din iunie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/ne-aprovizionate.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910599"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Noutăți iunie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
 - Project Operations pe mediul Dynamics 365 Dataverse versiunea 4.11.0.156 sau 4.11.0.164.
-- Managementul proiectelor și contabilitatea în mediile aplicațiilor Finance and Operations versiunea 10.0.19.
+- Management de proiect și contabilitate în mediile aplicațiilor de finanțe și operațiuni versiunea 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 

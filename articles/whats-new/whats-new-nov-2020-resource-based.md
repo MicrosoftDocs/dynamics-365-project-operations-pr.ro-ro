@@ -1,23 +1,23 @@
 ---
 title: Ce este nou în noiembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în lansarea din noiembrie 2020 Project Operations pentru scenarii bazate pe resurse/care nu sunt bazate pe stoc.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din noiembrie 2020 a Operațiunilor de proiect pentru scenarii bazate pe resurse/non-aprovizionate.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923433"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în noiembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
 - Project Operations pe mediu CDS versiunea 4.4.0.70
 - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.14

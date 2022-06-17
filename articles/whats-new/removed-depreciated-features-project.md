@@ -1,24 +1,24 @@
 ---
 title: Funcții eliminate sau depreciate în Dynamics 365 Project Operations
-description: Acest subiect descrie caracteristicile care au fost eliminate sau care sunt planificate pentru eliminare din Dynamics 365 Project Operations.
+description: Acest articol descrie funcțiile care au fost eliminate sau care sunt planificate pentru eliminare din Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921501"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funcții eliminate sau depreciate în Dynamics 365 Project Operations
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/non-stoc, implementare simplificată - facturare de la ofertă la proforma și Project Operations pentru scenarii stocate/bazate pe producție_
 
-Acest subiect descrie caracteristicile care au fost eliminate sau care sunt planificate pentru eliminare din Dynamics 365 Project Operations.
+Acest articol descrie funcțiile care au fost eliminate sau care sunt planificate pentru eliminare din Dynamics 365 Project Operations.
 
 - O caracteristică *eliminat* nu mai este disponibilă în produs.
 - O caracteristică *perimat* nu este în dezvoltare activă și poate fi eliminată într-o actualizare viitoare.

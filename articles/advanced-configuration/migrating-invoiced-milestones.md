@@ -1,17 +1,17 @@
 ---
 title: Migrați etapele de facturare complet facturate la trecere
-description: Acest subiect explică cum să migrați etapele de facturare cu preț fix care au fost facturate clientului pentru contractele de proiect deschise înainte de data lansării.
+description: Acest articol explică cum să migrați etapele de facturare cu preț fix care au fost facturate clientului pentru contractele de proiect deschise înainte de data lansării.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912255"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migrați etapele de facturare complet facturate la trecere
 
@@ -54,7 +54,7 @@ Contoso este disponibil cu Microsoft Dynamics 365 Project Operations pentru scen
     7. În **Tip de transformare** câmp, selectați **ValueMap**.
     8. Selectați **Maparea valorii adăugate**.
     9. În câmpul din stânga, introduceți **4**. În câmpul din dreapta, introduceți **192350001**. 
-    10. Selectați **salva**, apoi închideți caseta de dialog.
+    10. Selectați **Salvați**, apoi închideți caseta de dialog.
 
 4. Selectați **Salvează ca** pentru a salva versiunea hărții cu dublă scriere. 
 5. În **Adăugați un tabel** panou, în **Editor** câmp, selectați **Editor prestabilit**.

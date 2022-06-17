@@ -1,17 +1,17 @@
 ---
 title: Moduri de planificare
-description: Acest subiect oferă informații despre moduri de planificare.
+description: Acest articol oferă informații despre modurile de programare.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923663"
 ---
 # <a name="scheduling-modes"></a>Moduri de planificare
 
@@ -38,7 +38,7 @@ Când definiți modul de planificare al unui proiect, setați una dintre aceste 
 | Efort fix de sarcină    | Durata este recalculată. | Unitățile sunt recalculate.    | Durata este recalculată. |
 | Durată fixă de sarcină  | Efortul este recalculat.   | Efortul este recalculat.    | Unitățile sunt recalculate.   |
 
-Pentru mai multe informații privind implicațiile unui mod dat, consultați [Schimbați tipul de activitate pentru o planificare mai precisă](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). În subiect, termenul **Muncă** este folosit în loc de **Efort**.
+Pentru mai multe informații privind implicațiile unui mod dat, consultați [Schimbați tipul de activitate pentru o planificare mai precisă](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). În articol, termenul **Muncă** este folosit în loc de **Efort**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Schimbați modul de planificare al organizației
 

@@ -1,24 +1,24 @@
 ---
 title: Ce este nou sau modificat în Project Operations, martie 2021 - pentru scenarii bazate pe stocuri/producție
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea din martie 2021 a Project Operations pentru scenarii stocate/bazate pe producție.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din martie 2021 a Project Operations pentru scenariile stocate/bazate pe producție.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911335"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Ce este nou sau modificat în Project Operations, martie 2021 - pentru scenarii bazate pe stocuri/producție
 
 _**Se aplică la:** Project Operations pentru scenariile bazate pe stocuri/producție_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
 - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.17
 

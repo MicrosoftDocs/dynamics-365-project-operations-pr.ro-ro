@@ -1,21 +1,21 @@
 ---
-title: Înscrieți-vă pentru un abonament de previzualizare - simplificat
-description: Acest subiect oferă informații despre cum să vă abonați și să implementați Project Operations simplificat - gestionați facturarea proforma.
+title: Înscrierea pentru un abonament de previzualizare - simplificat
+description: Acest articol oferă informații despre cum să vă abonați și să implementați implementarea Project Operations lite - acord cu facturarea proforma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921271"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Înscrierea pentru un abonament de previzualizare - simplificat 
 
-Acest subiect explică modul de abonare la oferta de încercare și de implementare a Dynamics 365 Project Operations cu implementare simplă - gestionarea facturării proforma.
+Acest articol explică cum să vă abonați la oferta de încercare și să implementați Dynamics 365 Project Operations implementare simplă - acord cu facturarea proforma.
 
 > [!NOTE]
 > Acest proces se va schimba în versiunile viitoare ale Project Operations.
@@ -50,7 +50,7 @@ Acest subiect explică modul de abonare la oferta de încercare și de implement
 
 ## <a name="create-a-new-dataverse-environment"></a>Creați un nou mediu Dataverse
 
-1. Asigurați acces la un nou mediu de implementare Project Operations Dataverse urmând instrucțiunile din subiectul, [Model de implementare Dataverse](lite-deployment.md). Când selectați tipul de mediu, asigurați-vă că utilizați **Versiune de încercare (pe bază de abonament)**.
+1. Furnizarea unui nou proiect Operațiuni Dataverse mediu de implementare urmând instrucțiunile din articol, [Dataverse model de implementare](lite-deployment.md). Când selectați tipul de mediu, asigurați-vă că utilizați **Versiune de încercare (pe bază de abonament)**.
 
   ![Mediu nou.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Acest subiect explică modul de abonare la oferta de încercare și de implement
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalați o configurare CDS și instalați date demonstrative
 
-Instalați configurația CDS și configurați datele demo urmând instrucțiunile din subiect, [Aplicați datele de instalare și configurare demonstrative](lite-apply-demo-setup-config-data.md).
+Instalați configurația CDS și configurați datele demo urmând instrucțiunile din articol, [Aplicați datele de configurare și configurare demo](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

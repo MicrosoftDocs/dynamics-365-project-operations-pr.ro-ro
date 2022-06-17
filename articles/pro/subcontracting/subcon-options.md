@@ -1,17 +1,17 @@
 ---
 title: Opțiuni de subcontractare pentru membrii echipei de proiect
-description: Acest subiect explică opțiunile de subcontractare pentru membrii echipei de proiect în Microsoft Dynamics 365 Project Operations.
+description: Acest articol explică opțiunile de subcontractare pentru membrii echipei de proiect în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88a76ccf73a4b6cfa13a67b50130b007f244d831
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919799"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Opțiuni de subcontractare pentru membrii echipei de proiect
 
@@ -41,7 +41,7 @@ Pentru a revizui și a alege dintre opțiunile de subcontractare disponibile pen
 4. Dacă ați selectat doar o înregistrare a unui membru al echipei de proiect la pasul 1, atunci următoarele opțiuni vor fi disponibile:
     - Creați noi linii de subcontractare. 
     - Rezervare pentru un subcontract existent Dacă ați selectat mai multe înregistrări ale membrilor echipei de proiect la pasul 1, atunci singura opțiune disponibilă este crearea unei noi linii de subcontract.
-5. Opțiunea de rezervare pentru o linie de subcontractare existentă vă permite să selectați un subcontract și o linie de subcontractare pentru care doriți să rezervați. Atunci când selectați o linie de subcontractare pentru rezervarea capacității, trebuie să vă asigurați că linia de subcontractare selectată este pentru timp și că rolul cerut membrului echipei de proiect se potrivește cu rolul achiziționat pe linia de subcontractare.
+5. Opțiunea de rezervare pentru o linie de subcontractare existentă vă permite să selectați un subcontract și o linie de subcontractare pentru care doriți să rezervați. Atunci când selectați o linie de subcontractare pentru a rezerva capacitate, trebuie să vă asigurați că linia de subcontractare selectată este pentru timp și că rolul solicitat membrului echipei de proiect se potrivește cu rolul achiziționat pe linia de subcontractare.
 6. Când selectați să creați noi linii de subcontractare pentru membrii echipei de proiect, sistemul vă va permite să selectați subcontractul pe care doriți să îl creați aceste linii. Subcontractul pe care îl selectați pentru a crea linii noi ar trebui să fie în **Proiect** stare. Cu această opțiune de a crea noi linii de subcontractare pentru membrii echipei de proiect selectați, sistemul va crea o linie de subcontractare pentru timp pentru fiecare membru al echipei de proiect. Rolul, orele și datele vor fi copiate de la membrul echipei de proiect în fiecare linie de subcontractare care este creată. 
 7. Când un membru generic al echipei este asociat cu o linie de subcontractare și subcontractare, **Tip muncitor** câmpul de pe rândul generic membru al echipei va fi actualizat la **Muncitor Contractual** si **Valabilitatea subcontractului** valoarea va fi setată la **Valabil**.
 

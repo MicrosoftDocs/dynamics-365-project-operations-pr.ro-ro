@@ -1,24 +1,24 @@
 ---
 title: Integrarea gestionării cheltuielilor
-description: Acest subiect oferă informații despre integrarea rapoartelor de cheltuieli în Project Operations utilizând scriere duală.
+description: Acest articol oferă informații despre integrarea raportului de cheltuieli în Operațiuni de proiect folosind scriere dublă.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924629"
 ---
 # <a name="expense-management-integration"></a>Integrarea gestionării cheltuielilor
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect oferă informații despre integrarea rapoartelor de cheltuieli în Project Operations [implementarea cheltuielilor complete](../expense/expense-overview.md) utilizând scriere duală.
+Acest articol oferă informații despre integrarea rapoartelor de cheltuieli în Operațiunile de proiect [implementarea totală a cheltuielilor](../expense/expense-overview.md) folosind dual-write.
 
 ## <a name="expense-categories"></a>Categorii de cheltuieli
 

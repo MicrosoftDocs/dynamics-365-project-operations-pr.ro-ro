@@ -1,23 +1,23 @@
 ---
 title: Adăugarea unui abonament Azure unui proiectul LCS
-description: Acest subiect oferă informații despre cum să vă conectați abonamentul Azure la un proiect LCS.
+description: Acest articol oferă informații despre cum să vă conectați abonamentul Azure la un proiect LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912163"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adăugarea unui abonament Azure unui proiectul LCS
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Mediile găzduite în cloud trebuie să fie implementate utilizând un abonament Azure existent. Acest subiect explică cum să vă conectați abonamentul Azure existent la un proiect LCS. 
+Mediile găzduite în cloud trebuie să fie implementate utilizând un abonament Azure existent. Acest articol explică cum să vă conectați abonamentul Azure existent la un proiect LCS. 
 
 ## <a name="grant-admin-consent"></a>Acordă consimțământul administratorului
 
@@ -59,7 +59,7 @@ Autorizația este acum completă.
 2. Introduceți codul de abonament Azure. Puteți găsi ID-ul dvs. de abonament Azure în [Portal Azure](https://ms.portal.azure.com/), sub  **Setări**  în colțul din stânga jos al ecranului.
 3. În câmpul **Configurați pentru a utiliza Azure Resource Manager**, selectați **Da**.
 4. Asigurați-vă că Abonamentul Azure AAD Domeniu entitate găzduită se potrivește cu abonamentul Azure deținut de domeniu pe care îl utilizați și selectați **Următorul**.
-5. Pe ecranul **Microsoft Azure Instalare** ecran, selectați **Următorul** pentru a confirma. Dacă primiți o eroare pe acest ecran, reveniți la secțiunea [Oferiți acces la serviciile de implementare dinamică la abonamentul Azure](#provide) în acest subiect și asigurați-vă că ați parcurs toți pașii.
+5. Pe ecranul **Microsoft Azure Instalare** ecran, selectați **Următorul** pentru a confirma. Dacă primiți o eroare pe acest ecran, reveniți la secțiune [Oferiți acces la serviciile de implementare Dynamics la abonamentul Azure](#provide) în acest articol și asigurați-vă că ați parcurs toți pașii.
 6. Descărcați certificatul Azure Management într-un folder local de pe computer. Solicitați administratorului dvs. de abonament Azure să încarce certificatul în portalul Azure Management selectând abonamentul și accesând **Setări** > **Certificate de management**. Acest certificat permite LCS să comunice cu Azure în numele dvs. Puteți sări peste acest pas dacă utilizatorul dvs. are acces la abonament.
 7. Selectați  **Următorul**.
 8. Selectați regiunea Azure în care să implementați și selectați un centru de date care este aproape de locul în care intenționați să utilizați acest sistem.

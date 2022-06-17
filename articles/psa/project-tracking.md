@@ -1,6 +1,6 @@
 ---
 title: Progresul și costurile în curs ale proiectului
-description: Acest subiect furnizează informații despre urmărirea progresului proiectului și consumul de costuri.
+description: Acest articol oferă informații despre urmărirea progresului proiectului și a consumului de costuri.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921777"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Progresul și costurile în curs ale proiectului
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575273"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Necesitatea de a urmări progresele în raport cu o planificare variază în funcție de industrie. Unele industrii urmăresc la un nivel granular, în timp ce alte industrii urmăresc la un nivel mai înalt. Acest subiect arată cum să planificați pentru a îndeplini cerințele organizației dvs.
+Necesitatea de a urmări progresele în raport cu o planificare variază în funcție de industrie. Unele industrii urmăresc la un nivel granular, în timp ce alte industrii urmăresc la un nivel mai înalt. Acest articol arată cum să programați pentru a îndeplini cerințele organizației dvs.
 
 ## <a name="effort-tracking-view"></a>Vizualizarea Urmărire efort
 

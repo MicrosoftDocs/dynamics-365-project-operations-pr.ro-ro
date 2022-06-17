@@ -1,6 +1,6 @@
 ---
 title: Ofertarea, tarifarea și facturarea avansată
-description: Acest subiect oferă informații despre ofertarea, facturarea și tarifarea în Project Service Automation.
+description: Acest articol oferă informații despre cotație, facturare și prețuri în Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921823"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Prețul avansat, prețul și ghidul de facturare
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579367"
 
 Capacitatea de a găsi resursele potrivite la momentul potrivit, de a rezerva respectivele resurse pe proiecte și de a le menține utilizate ajută organizațiile să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. 
 
-Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutul a fost mutat la următoarele subiecte:
+Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
 
 - [Ofertarea, tarifarea și facturarea](../quote-bill-price.md)
 - [Procese vânzări](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutu
 - [Înregistrarea de valori reale](../advanced-actuals.md)
 
 > [!NOTE]
-> Acest subiect va fi eliminat într-o actualizare de documentație viitoare. 
+> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

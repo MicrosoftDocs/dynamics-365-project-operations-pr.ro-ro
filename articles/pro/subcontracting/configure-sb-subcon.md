@@ -1,17 +1,17 @@
 ---
 title: Configurarea Tabloului de planificare pentru a afișa lucrătorii contractuali și capacitatea subcontractată
-description: Acest subiect descrie cum să configurați Schedule Board în Microsoft Dynamics 365 Project Operations pentru a arăta capacitatea de resurse subcontractate atunci când personalul este necesar pentru resursele proiectului.
+description: Acest articol descrie cum să configurați Schedule Board în Microsoft Dynamics 365 Project Operations pentru a arăta capacitatea de resurse subcontractate atunci când personalul este necesar pentru resursele proiectului.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919845"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Configurarea Tabloului de planificare pentru a afișa lucrătorii contractuali și capacitatea subcontractată 
 
@@ -22,7 +22,7 @@ _**Se aplică la:** implementare simplificată - facturare de la tranzacție la 
 Tabloul de planificare în Microsoft Dynamics 365 Project Operations poate fi folosit pentru căutarea resurselor în două moduri:
 
 - Căutare generală de resurse fără contextul vreunei cerințe specifice de resurse bazate pe proiect.
-- Căutare de resurse specifice cerinței, în care cerința proiectului va oferi contextul resurselor sugerate.
+- Căutare de resurse specifice cerințelor, în care cerința proiectului va oferi contextul resurselor sugerate.
 
 Pentru a notifica consiliul de planificare a capacității de resurse subcontractate și a lucrătorilor contractați, trebuie să faceți actualizări ale setărilor panoului de planificare. Aceste actualizări includ: 
 - Actualizați setările Schedule Board pentru căutarea generală a resurselor.

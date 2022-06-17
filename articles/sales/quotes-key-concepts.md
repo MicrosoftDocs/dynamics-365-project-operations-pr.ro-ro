@@ -1,6 +1,6 @@
 ---
 title: Oferte - Concepte cheie
-description: Acest subiect oferă informații despre ofertele de proiect și ofertele de vânzare disponibile în Project Operations.
+description: Acest articol oferă informații despre ofertele de proiect și ofertele de vânzare disponibile în Operațiuni de proiect.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912531"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Concepte unice pentru ofertele bazate pe proiecte
 
@@ -35,7 +35,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 - **Câmpuri și concepte**: o ofertă de vânzări nu include unele câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă**, **Managerul de cont** și **Facturare către Nume persoană de contact**.  
 - **Tip**: ofertele de vânzări și proiecte sunt identificate și de câmpul bazat pe setul de opțiuni, **Tip**. Pentru o ofertă de vânzări, acest câmp are valoarea **Pe bază de articol**. Pentru o ofertă de proiect, are valoarea **Pe bază de lucru**.
 
-Acest subiect se concentrează pe detaliile ofertelor de proiect.
+Acest articol se concentrează pe detaliile cotațiilor de proiect.
 
 O ofertă de proiect în Project Operations poate avea mai multe elemente de linie sau linii de ofertă. De fapt, o ofertă de proiect are două grile pentru elemente de linie. O grilă este pentru liniile bazate pe proiect, care permit estimări detaliate. Cealaltă grilă este pentru liniile bazate pe produse, care utilizează un preț unitar simplu și o abordare bazată pe cantități.
 

@@ -1,18 +1,18 @@
 ---
 title: Integrarea de facturi pentru furnizor
-description: Acest subiect oferă informații despre integrarea facturii furnizorului în Project Operations.
+description: Acest articol oferă informații despre integrarea facturii furnizorului în Operațiuni de proiect.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591190"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912071"
 ---
 # <a name="vendor-invoice-integration"></a>Integrarea de facturi pentru furnizor
 
@@ -21,7 +21,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 Achizițiile aferente proiectului în Dynamics 365 Project Operations pot fi înregistrate accesând **Conturi furnizori** > **Facturi** > **Facturi de furnizor neachitate** și utilizând un document de factură neachitată a furnizorului. Pentru mai multe informații, consultați [Achiziții de materiale care nu există pe stoc utilizând o factură de furnizor neachitată](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Înainte de a utiliza funcționalitatea descrisă în acest subiect, revizuiți și aplicați configurațiile necesare. Pentru mai multe informații, consultați [Activarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate](../procurement/configure-materials-nonstocked.md).
+> Înainte de a utiliza funcționalitatea descrisă în acest articol, revizuiți și aplicați configurațiile necesare. Pentru mai multe informații, consultați [Activarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate](../procurement/configure-materials-nonstocked.md).
 
 În Project Operations, facturile de furnizor legate de proiect sunt înregistrate folosind reguli speciale de publicare:
 

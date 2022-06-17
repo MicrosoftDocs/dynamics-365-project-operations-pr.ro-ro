@@ -1,6 +1,6 @@
 ---
 title: Unități organizaționale
-description: Acest subiect descrie conceptul de unități organizaționale și explică cum să creați și să întrețineți unități organizaționale în Microsoft Dynamics 365 Project Operations.
+description: Acest articol descrie conceptul de unități organizaționale și explică cum să creați și să mențineți unități organizaționale în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921639"
 ---
 # <a name="organizational-units-overview"></a>Prezentare generală a unităților organizaționale
 
@@ -60,7 +60,7 @@ Entitatea Organizație din Dynamics 365 reprezintă numele unei instanțe global
 
 Entitatea Unitate organizațională reprezintă un grup sau o divizie din întreprinderea globală. Acest grup sau divizie are un set de roluri și o listă de prețuri de cost pentru acele roluri, iar acele roluri și lista de prețuri diferă de rolurile și lista de prețuri ale altor grupuri sau divizii din întreprindere.
 
-Când este instalată Project Operations, o unitate organizațională implicită este creată pe baza organizației. Toate resursele existente sunt atribuite unității organizaționale implicite. Dacă sunt importați utilizatori sau resurse noi Active Directory în Dynamics 365, procesul de importare a utilizatorilor îi atribuie unității organizaționale implicite din Project Operations.
+Când este instalată Project Operations, o unitate organizațională implicită este creată pe baza organizației. Toate resursele existente sunt atribuite unității organizaționale implicite. Dacă sunt importați utilizatori sau resurse noi Active Directory în Dynamics 365, procesul de importare a utilizatorilor le atribuie unității organizaționale implicite din Project Operations.
 
 #### <a name="how-does-the-organizational-unit-entity-differ-from-the-business-unit-entity"></a>Cum diferă entitatea Unitatea Organizațională de entitatea Unitatea de afaceri?
 
@@ -166,9 +166,9 @@ Pentru a crea o unitate organizațională în Operațiuni de proiect, urmați ac
 1. Mergi la **Setări \> Unități organizaționale**.
 2. Selectați **Nou**.
 3. În **General** zona, in **Nume** câmp, introduceți un nume pentru unitatea organizatorică. Apoi setați celelalte câmpuri după cum este necesar.
-4. Selectați **salva** pentru a crea înregistrarea, astfel încât să puteți continua să o editați.
+4. Selectați **Salvați** pentru a crea înregistrarea, astfel încât să puteți continua să o editați.
 5. Sub **Liste de prețuri de cost**, selectați semnul plus (**+**) pentru a adăuga o listă de prețuri. Puteți adăuga numai liste de prețuri care au **Cost** context aici.
 6. În **Nume** câmp, selectați **Căutare** butonul și selectați o listă de prețuri pe care doriți să o puneți la dispoziția unității organizaționale. Continuați să adăugați liste de prețuri după cum este necesar.
-7. Când ați terminat de adăugat listele de prețuri, selectați **salva** în colțul din dreapta jos al paginii.
+7. Când ați terminat de adăugat listele de prețuri, selectați **Salvați** în colțul din dreapta jos al paginii.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

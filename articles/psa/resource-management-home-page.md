@@ -1,6 +1,6 @@
 ---
 title: Pagina principală gestionare resurse
-description: Acest subiect oferă informații despre modul de gestionare a resurselor.
+description: Acest articol oferă informații despre cum să gestionați resursele.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913267"
 ---
 # <a name="resource-management-home-page"></a>Pagina principală gestionare resurse
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578769"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resursele sunt cel mai important activ al unei organizații bazate pe servicii. Capacitatea de a găsi și rezerva resursele corecte atunci când aveți nevoie de ele, și menținerea utilizării lor, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. Următoarele subiecte sunt axate pe capacitățile de gestionare a resurselor ale Dynamics 365 Project Service Automation:
+Resursele sunt cel mai important activ al unei organizații bazate pe servicii. Capacitatea de a găsi și rezerva resursele corecte atunci când aveți nevoie de ele, și menținerea utilizării lor, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. Următoarele articole sunt axate pe capacitățile de gestionare a resurselor Dynamics 365 Project Service Automation:
 
-- [Gestionare resurse](manage-resources.md)
+- [Gestionarea resurselor](manage-resources.md)
 - [Concepte-cheie](reports-key-concepts.md)
 - [Solicitări de realizare resurse](resource-management-fulfill-requests.md)
 - [Propunere resurse](resource-management-propose-resources.md)

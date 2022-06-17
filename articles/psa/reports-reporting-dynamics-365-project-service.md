@@ -1,6 +1,6 @@
 ---
-title: Pagina de pornire raportare
-description: Acest subiect oferă informații despre raportare în Dynamics 365 Project Service Automation.
+title: Pagina de pornire pentru raportare
+description: Acest articol oferă informații despre raportarea în Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921685"
 ---
 # <a name="reporting-home-page"></a>Pagina de pornire pentru raportare
 
@@ -47,7 +47,7 @@ Dacă afacerea dumneavoastră necesită un raport specific care nu poate fi crea
 
 
 ## <a name="additional-resources"></a>Resurse suplimentare
-Pentru mai multe informații despre raportarea în PSA, consultați următoarele subiecte:
+Pentru mai multe informații despre raportarea în PSA, consultați următoarele articole:
 
 - [Lucrul cu modelul de date Project Service Automation](reports-working-project-service-data-model.md)
 - [Tablouri de bord](reports-dashboards.md)

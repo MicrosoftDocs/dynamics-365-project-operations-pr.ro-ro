@@ -1,25 +1,25 @@
 ---
 title: Actualizați Project Operations în mediul dvs. de Finanțe
-description: Acest subiect oferă informații despre cum să actualizați Operațiunile de proiect în mediul dvs. Dynamics 365 Finance.
+description: Acest articol oferă informații despre cum să actualizați operațiunile de proiect în mediul dvs. Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912485"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualizați Project Operations în mediul dvs. de Finanțe
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 
-Acest subiect oferă informații despre cum să actualizați Dynamics 365 Project Operations în mediul tău Dynamics 365 Finance. Există trei proceduri care sunt necesare pentru a actualiza Project Operations la Actualizarea 5 (UR5):
+Acest articol oferă informații despre cum să actualizați Dynamics 365 Project Operations în mediul tău Dynamics 365 Finance. Există trei proceduri care sunt necesare pentru a actualiza Project Operations la Actualizarea 5 (UR5):
 
 - [Importați pachetul în proiectul dvs. de previzualizare](#import)
 - [Aplicați actualizarea](#apply)

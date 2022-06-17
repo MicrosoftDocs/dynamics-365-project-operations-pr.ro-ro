@@ -1,6 +1,6 @@
 ---
 title: Unități și grupuri de unități
-description: Acest subiect oferă informații despre cum să creați unități și grupuri de unități în Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre cum să creați unități și grupuri de unități în Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921455"
 ---
 # <a name="units-and-unit-groups"></a>Unități și grupuri de unități
 
@@ -28,7 +28,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Unitățile sunt cantitățile sau măsurătorile în care vă vindeți produsele sau serviciilor. De exemplu, dacă vindeți produse pentru grădinărit, puteți vinde semințele în unități de tip pachete, cutii și paleți. Un grup de unitate este o colecție de unități diferite.
 
-Pentru a finaliza pașii din acest subiect, asigurați-vă că ați fost atribuit rolului de administrator de sistem sau de manager Sales Professional sau că aveți permisiuni echivalente.
+Pentru a parcurge pașii din acest articol, asigurați-vă că ați fost atribuit rolului de administrator de sistem sau manager profesional de vânzări sau că aveți permisiuni echivalente.
 
 ## <a name="create-a-unit-group"></a>Crearea unui grup de unităţi
 

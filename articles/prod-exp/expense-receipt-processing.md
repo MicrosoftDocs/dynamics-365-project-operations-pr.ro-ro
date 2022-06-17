@@ -1,6 +1,6 @@
 ---
 title: Procesarea chitanțelor de cheltuieli
-description: Acest subiect oferă informații despre procesarea recunoașterii optice a caracterelor (OCR) pentru chitanțe. Această funcție este concepută pentru a îmbunătăți experiența utilizatorului atunci când sunt create rapoarte de cheltuieli Microsoft Dynamics 365 Finanțe.
+description: Acest articol oferă informații despre procesarea recunoașterii optice a caracterelor (OCR) pentru chitanțe. Această funcție este concepută pentru a îmbunătăți experiența utilizatorului atunci când sunt create rapoarte de cheltuieli Microsoft Dynamics 365 Finanțe.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 5a72802e3c52b6a9e55ac779aa36c32072dc8b8b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911427"
 ---
 # <a name="expense-receipt-processing"></a>Procesarea chitanțelor de cheltuieli
 

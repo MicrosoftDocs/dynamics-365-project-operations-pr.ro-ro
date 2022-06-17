@@ -1,23 +1,23 @@
 ---
 title: Metode pentru costul de finalizare
-description: Acest subiect oferă informații despre metodele utilizate pentru a calcula costul pentru finalizarea unui proiect.
+description: Acest articol oferă informații despre metodele utilizate pentru a calcula costul pentru finalizarea unui proiect.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920305"
 ---
 # <a name="cost-to-complete-methods"></a>Metode pentru costul de finalizare
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect oferă informații despre metodele utilizate pentru a calcula costul pentru finalizarea unui proiect. Există mai multe metode pe care le puteți utiliza pentru a calcula costul pentru finalizarea unui proiect. 
+Acest articol oferă informații despre metodele utilizate pentru a calcula costul pentru finalizarea unui proiect. Există mai multe metode pe care le puteți utiliza pentru a calcula costul pentru finalizarea unui proiect. 
 
 Când creați o estimare pentru un proiect, pe pagina **Creați o estimare**, în câmpul **Metoda costului de finalizare**, puteți selecta unul dintre următoarele costuri pentru a finaliza metodele.
 

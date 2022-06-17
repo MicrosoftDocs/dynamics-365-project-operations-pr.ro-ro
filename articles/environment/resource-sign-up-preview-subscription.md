@@ -1,17 +1,17 @@
 ---
 title: Înscrieți-vă pentru abonamente de previzualizare a Project Operations pentru resurse/scenarii ne-stocate
-description: Acest subiect oferă informații despre cum să aboneze și implementeze Project Operations pentru resurse/scenarii care nu sunt bazate pe stoc.
+description: Acest articol oferă informații despre cum să vă abonați și să implementați operațiuni de proiect pentru scenarii bazate pe resurse/non-aprovizionate.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920121"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Înscrieți-vă pentru abonamente de previzualizare a Project Operations pentru resurse/scenarii ne-stocate
 
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 
 
-Acest subiect explică cum să vă abonați la oferta de încercare și să implementați mediul Project Operations pentru scenarii bazate pe resurse/nebazate pe stoc.
+Acest articol explică cum să vă abonați la oferta de încercare și să implementați mediul Project Operations pentru scenarii bazate pe resurse/non-aprovizionate.
 
 ## <a name="prerequisites"></a>Cerințe preliminare
 - Utilizatorul care implementează previzualizarea trebuie să aibă drepturi de administrator global entitate găzduită Azure. Puteți crea o entitate găzduită în timpul primei răscumpărări a ofertei. 
@@ -60,19 +60,19 @@ Accesați [Dynamics 365 for Finance versiune prekiminară de încercare](https:/
 
 ## <a name="start-a-new-project-in-lcs"></a>Începerea unui nou proiect în LCS
 
-Creați un nou proiect LCS așa cum este descris în subiect, [Începeți un nou proiect în LCS](create-lcs-project.md)
+Creați un nou proiect LCS așa cum este descris în articol, [Începeți un nou proiect în LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adăugarea unui abonament Azure unui proiectul LCS
 
-Pentru a finaliza această sarcină, urmați pașii din subiect, [Adăugați un abonament Azure la proiectul LCS](resource-add-azure-subscription-lcs-project.md).
+Pentru a finaliza această sarcină, urmați pașii din articol, [Adăugați un abonament Azure la proiectul LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementați mediul demo de finanțare cu Project Operations pentru resurse/scenarii fără stoc
 
-Urmați îndrumările din subiect, [Furnizarea accesului la un mediu nou](resource-provision-new-environment.md) pentru a finaliza implementarea. Utilizați tipul de implementare [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pentru previzualizare. 
+Urmați îndrumările din articol, [Furnizați un mediu nou](resource-provision-new-environment.md) pentru a finaliza desfășurarea. Utilizați tipul de implementare [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pentru previzualizare. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalați datele de instalare și configurare CDS
 
-Instalați datele de configurare și configurare CDS așa cum este descris în subiect, [Configurați și aplicați datele de configurare în Common Data Service](resource-apply-pro-setup-config-data.md).
+Instalați datele de configurare și configurare CDS așa cum este descris în articol, [Configurați și aplicați datele de configurare în Common Data Service](resource-apply-pro-setup-config-data.md).
 Finalizați acest pas numai după ce mediul de demonstrație Finance este implementat și datele demonstrative sunt gata.
 
 

@@ -1,19 +1,19 @@
 ---
-title: Facturare furnizor - Concept și creare
-description: Acest subiect descrie conceptul de facturi de furnizor, scenarii de utilizare și modul de creare a facturilor de furnizor în Microsoft Dynamics 365 Project Operations.
+title: Facturare furnizori - Concepere și creare
+description: Acest articol descrie conceptul de facturi de furnizor, scenarii de utilizare și modul de creare a facturilor de furnizor în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911473"
 ---
-# <a name="vendor-invoicing---concept-and-creation"></a>Facturare furnizor - Concept și creare
+# <a name="vendor-invoicing---concept-and-creation"></a>Facturare furnizori - Concepere și creare
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -29,9 +29,9 @@ Facturile furnizorilor din Operațiunile de proiect pot fi utilizate pentru a su
 
 ### <a name="customers-use-the-full-subcontracting-experiences"></a>Clienții folosesc toate experiențele de subcontractare
 
-Experiențele de facturare a furnizorilor oferă o modalitate de a verifica și potrivi intrările de timp, utilizarea materialelor și intrările de cheltuieli care fac referire la componentele subcontractate cu liniile de factură ale furnizorului. Acest proces poate fi utilizat pentru a verifica acuratețea liniilor de factură a furnizorului. După finalizarea procesului de verificare și confirmarea facturii furnizorului, aplicația va inversa valorile reale care au fost înregistrate prin jurnalele aprobate de timp, cheltuieli și utilizare a materialelor și va crea noi valori efective ale costurilor utilizând liniile de factură pentru furnizor.
+Experiențele de facturare a furnizorilor oferă o modalitate de a verifica și de a potrivi intrările de timp, utilizarea materialelor și intrările de cheltuieli care fac referire la componentele subcontractate cu liniile de factură ale furnizorului. Acest proces poate fi utilizat pentru a verifica acuratețea liniilor de factură a furnizorului. După finalizarea procesului de verificare și confirmarea facturii furnizorului, aplicația va inversa valorile reale care au fost înregistrate prin jurnalele aprobate de timp, cheltuieli și utilizare a materialelor și va crea noi valori efective ale costurilor utilizând liniile de factură pentru furnizor.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Clienții nu folosesc experiențele complete de subcontractare, dar doresc să aibă o viziune unificată a costurilor proiectelor în Operațiuni de proiect
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Clienții nu folosesc experiențele complete de subcontractare, dar doresc să aibă o vedere unificată a costurilor pe proiecte în Operațiuni de proiect
 
 Dacă urmăriți procesul de subcontractare într-un sistem terță parte, puteți înregistra costurile din acel sistem terță parte către Operațiuni de proiect, creând facturi de furnizor care nu fac referire la subcontracte. În acest fel, managerii dvs. de proiect pot avea o vedere unică și unificată a tuturor costurilor pentru un anumit proiect.
 
@@ -57,7 +57,7 @@ Facturile de furnizor care sunt create în acest fel pot face referire și la un
 
 O nouă factură de furnizor în **Proiect** starea este creată pentru fiecare subcontract pe care l-ați selectat.
 
-Facturile de furnizor pe care le creați în acest fel fac întotdeauna referire la subcontractul din antetul facturii de furnizor. Fiecare linie din subcontract care are o metodă de facturare de timp și material va determina crearea unei linii pe factura furnizorului. Fiecare linie a subcontractului care are o metodă de facturare cu preț fix va determina crearea unei linii pe factura furnizorului pentru fiecare etapă de linie de subcontractare care are statutul de **Gata de facturare**.
+Facturile de furnizor pe care le creați în acest fel fac întotdeauna referire la subcontractul din antetul facturii de furnizor. Fiecare linie din subcontract care are o metodă de facturare de timp și material va determina crearea unei linii pe factura furnizorului. Fiecare linie din subcontract care are o metodă de facturare cu preț fix va determina crearea unei linii pe factura furnizorului pentru fiecare etapă de linie de subcontractare care are statutul de **Gata de facturare**.
 
 Următoarele câmpuri și înregistrările aferente vor fi copiate din subcontract în antetul facturii furnizorului:
 

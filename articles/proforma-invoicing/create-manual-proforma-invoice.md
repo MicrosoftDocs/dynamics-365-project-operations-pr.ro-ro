@@ -1,18 +1,18 @@
 ---
 title: Facturi proforme
-description: Acest subiect oferă informații despre facturile proforma în Project Operations.
+description: Acest articol oferă informații despre facturile proforma în Operațiuni de proiect.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7b56c3908cce3115d5c95a4b1b233db70fb6c149
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920581"
 ---
 # <a name="proforma-invoices"></a>Facturi proforme
 

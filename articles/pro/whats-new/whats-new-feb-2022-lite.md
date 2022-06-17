@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în februarie 2022 - Implementare simplificată Project Operations
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în versiunea din februarie 2022 a implementării Project Operations lite.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din februarie 2022 a implementării Project Operations lite.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922835"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Ce este nou în februarie 2022 - Implementare simplificată Project Operations
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.28.0.120
 

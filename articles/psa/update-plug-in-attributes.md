@@ -1,6 +1,6 @@
 ---
 title: Actualizați atributele inserturilor pentru a include noi dimensiuni de tarifare
-description: Acest subiect furnizează informații despre actualizarea atributelor inserturilor pentru dimensiunile de tarifare.
+description: Acest articol oferă informații despre actualizarea atributelor plug-in-urilor pentru dimensiunile de preț.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913221"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Actualizați atributele inserturilor pentru a include noi dimensiuni de tarifare
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Dacă nu utilizați funcțiile de ofertare și contractare Project Service Automation (PSA), puteți sări peste acest subiect.
+> Dacă nu utilizați funcțiile de cotare și contractare Project Service Automation (PSA), puteți sări peste acest articol.
 
-Acest subiect presupune că ați finalizat procedurile din subiectele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities.md), [Adăugarea de câmpuri particularizate la parametrizare preț și entități tranzacționale](field-references.md) și [Configurare câmpuri particularizate ca dimensiuni de tarifare](set-up-pricing-dimensions.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest subiect.
+Acest articol presupune că ați finalizat procedurile din articole, [Creați câmpuri și entități personalizate](create-custom-fields-entities.md),[Adăugați câmpuri personalizate la configurarea prețului și la entitățile tranzacționale](field-references.md), și [Configurați câmpuri personalizate ca dimensiuni de preț](set-up-pricing-dimensions.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol.
 
 Când se creează un detaliu al liniei de ofertă în pagina **linie ofertă** pentru o linie de ofertă de proiect, sistemul creează două linii de estimare în fundal -- o linie pentru partea de cost a estimării și una pentru partea de vânzări. Acest lucru este la fel pentru liniile de contract de proiect.
 

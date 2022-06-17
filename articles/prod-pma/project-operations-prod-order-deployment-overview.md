@@ -1,17 +1,17 @@
 ---
 title: Prezentare generală a implementării Project Operations pentru scenarii bazate pe stoc/producție
-description: Acest subiect oferă informații despre tipul de implementare, Project Operations pentru scenarii stocate/bazate pe producție.
+description: Acest articol oferă informații despre tipul de implementare, Operațiuni de proiect pentru scenariile stocate/bazate pe producție.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922789"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Prezentare generală a implementării Project Operations pentru scenarii bazate pe stoc/producție
 

@@ -1,6 +1,6 @@
 ---
 title: Crearea de contracte avansate pentru facturare pe baza progresului
-description: Acest subiect explică modul de creare a contractelor de proiect, astfel încât să puteți genera facturi pentru clienți, pe baza unui procent din lucrările finalizate.
+description: Acest articol explică cum să creați contracte de proiect, astfel încât să puteți genera facturi pentru clienți, pe baza unui procent din munca finalizată.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913681"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Crearea de contracte avansate pentru facturare pe baza progresului
 [!include [banner](../includes/banner.md)]
 
-Acest subiect explică modul de creare a contractelor de proiect, astfel încât să puteți crea facturi pentru clienți, pe baza unui procent din lucrările finalizate. Sumele facturii sunt calculate automat pentru categoriile bugetare de lucru pe care le-ați configurat pentru un proiect. Momentul facturii este stabilit atunci când negociați contractul de proiect cu clientul.
+Acest articol explică cum să creați contracte de proiect, astfel încât să puteți crea facturi pentru clienți, pe baza unui procent din munca finalizată. Sumele facturii sunt calculate automat pentru categoriile bugetare de lucru pe care le-ați configurat pentru un proiect. Momentul facturii este stabilit atunci când negociați contractul de proiect cu clientul.
 
-Utilizați procedurile din acest subiect pentru a configura un contract, un proiect asociat și regulile de facturare care calculează sumele facturii pentru categoriile de lucrări bugetare pe care le-ați configurat pentru proiect.
+Utilizați procedurile din acest articol pentru a configura un contract, un proiect asociat și regulile de facturare care calculează sumele facturilor pentru categoriile bugetare de lucrări pe care le-ați configurat pentru proiect.
 
 După ce ați creat contractul și proiectul, puteți configura detaliile proiectului. De exemplu, puteți defini activități și atribui lucrători la proiect.
 

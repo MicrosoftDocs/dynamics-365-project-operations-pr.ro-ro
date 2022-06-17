@@ -1,23 +1,23 @@
 ---
 title: Setări pentru contracte de proiecte
-description: Acest subiect oferă informații despre câmpurile care au impact asupra liniilor de contract și informații despre contract care sunt rezumate în toate elementele rând.
+description: Acest articol oferă informații despre câmpurile care influențează liniile contractului și informațiile despre contract care sunt rezumate la toate elementele rând.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921593"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalii antet pentru contractele bazate pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect oferă informații despre câmpurile care se aplică întregului contract de proiect, inclusiv setările care au impact asupra tuturor liniilor contractuale. Sunt incluse, de asemenea, informații despre contract care sunt rezumate pe toate elementele rând pentru a genera KPI-urile contractului de proiect.
+Acest articol oferă informații despre câmpurile care se aplică întregului contract de proiect, inclusiv setările care afectează toate liniile contractului. Sunt incluse, de asemenea, informații despre contract care sunt rezumate pe toate elementele rând pentru a genera KPI-urile contractului de proiect.
 
 Următorul tabel listează câmpurile unui contract de proiect care sunt unice pentru Dynamics 365 Project Operations sau au unele schimbări importante în comportament de la comenzile de vânzări în Dynamics 365 Sales.
 

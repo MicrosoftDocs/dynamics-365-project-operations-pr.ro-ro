@@ -1,19 +1,19 @@
 ---
-title: Verificarea facturilor furnizorilor cu datele reale aprobate
-description: Acest subiect explică cum Microsoft Dynamics 365 Project Operations Haideți managerii de proiect să verifice facturile furnizorilor cu datele reale care au fost aprobate pe măsură ce antreprenorii au efectuat lucrări și au înregistrat timpul, precum și cheltuielile și materialele care au fost folosite de membrii echipei de proiect.
+title: Verificarea facturilor de furnizori cu datele reale aprobate
+description: Acest articol explică cum Microsoft Dynamics 365 Project Operations Haideți managerii de proiect să verifice facturile furnizorilor cu datele reale care au fost aprobate pe măsură ce antreprenorii au efectuat lucrări și au înregistrat timpul, precum și cheltuielile și materialele care au fost folosite de membrii echipei de proiect.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914233"
 ---
-# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificarea facturilor furnizorilor cu datele reale aprobate
+# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificarea facturilor de furnizori cu datele reale aprobate
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -22,7 +22,7 @@ _ **Se aplică la:** Lite deployment - acord cu facturarea proforma
 Microsoft Dynamics 365 Project Operations să verificăm managerii de proiect liniile de facturi ale furnizorului în următoarele moduri:
 
 - Folosește **Starea de verificare** câmpul de pe liniile facturii furnizorului.
-- Dacă liniile de factură ale furnizorului fac referire la o linie de subcontractare, legați costurile reale din activitatea subcontractorului la acele linii de factură ale furnizorului. Legătura este creată prin potrivirea costurilor reale cu liniile de factură a furnizorului.
+- Dacă liniile de factură ale furnizorului fac referire la o linie de subcontractare, legați costurile reale din activitatea subcontractantului la acele linii de factură ale furnizorului. Legătura este creată prin potrivirea costurilor reale cu liniile de factură a furnizorului.
 
     > [!NOTE]
     > Deși starea de verificare poate fi urmărită pentru liniile de factură ale furnizorului care nu fac referire la un subcontract, costurile reale nu pot fi legate de acele linii de factură ale furnizorului.
@@ -52,7 +52,7 @@ Potrivirea costurilor reale ajută la procesul de verificare pe o linie de factu
 
 În timpul procesului de potrivire, o legătură între un cost real și o linie de factură a furnizorului poate fi stabilită numai dacă sunt îndeplinite ambele condiții următoare:
 
-- The **Starea de ajustare** câmpul pentru fiecare cost real selectat trebuie să fie necompletat. Cu alte cuvinte, costurile reale nu trebuie să fi fost înlocuite cu alte costuri reale în timpul unui proces de rechemare, anulare a aprobării sau jurnal de corecție.
+- The **Starea de ajustare** câmpul pentru fiecare cost real selectat trebuie să fie necompletat. Cu alte cuvinte, costurile efective nu trebuie să fi fost înlocuite cu alte costuri reale în timpul unui proces de rechemare, anulare a aprobării sau jurnal de corecție.
 - Valorile următoarelor câmpuri sunt corelate între linia de factură a furnizorului și costul real selectat. Dacă niciun câmp nu este setat pe linia facturii furnizorului, acesta nu este luat în considerare pentru potrivire.
 
     - Contract pentru proiect

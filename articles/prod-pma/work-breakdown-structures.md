@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920673"
 ---
 # <a name="work-breakdown-structures-overview"></a>Prezentare generală a structurilor detaliate ale proiectului
 
@@ -35,7 +35,7 @@ Gradul de detaliu într-o WBS depinde de nivelul de acuratețe care este necesar
 
 În schimb, proiectele din industrii precum media și publicitatea, software-ul și infrastructura IT tind să fie unice, iar productivitatea este relativă la experiența și competența individului care îndeplinește sarcina. Prin urmare, aceste industrii folosesc un WBS pentru a obține o aproximare a dimensiunii unui proiect, nu pentru a urmări în detaliu progresul proiectului respectiv. 
 
-Construirea unui WBS este un proces intensiv care se face de obicei pe o perioadă lungă de timp și care necesită colaborare și informații de la o mare varietate de oameni. Acest subiect descrie modul în care puteți utiliza îmbunătățirile WBS pentru a satisface cerințele dvs. pentru estimări și urmărire.
+Construirea unui WBS este un proces intensiv care se face de obicei pe o perioadă lungă de timp și care necesită colaborare și informații de la o mare varietate de oameni. Acest articol descrie modul în care puteți utiliza îmbunătățirile WBS pentru a vă îndeplini cerințele pentru estimări și urmărire.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Cerințe preliminare pentru crearea unui WBS
 Pentru a crea un WBS, trebuie să puteți crea un program de lucru și să estimați costul lucrului.
@@ -166,7 +166,7 @@ Finanța are trei vizualizări pentru WBS-ul unui proiect: vizualizarea Planific
 
 ### <a name="planning-view"></a>Vizualizare planificare
 
-Vizualizarea Planificare afișează estimarea planificată sau de bază a informațiilor privind programul și costurile. Deși nu există caracteristici pentru urmărirea versiunii și a liniei de bază pentru un proiect WBS, valorile din această vizualizare sunt destinate să reprezinte versiunea de bază. Secțiunile de estimare a programării și estimarea costurilor din acest subiect descriu această vizualizare și modul în care este utilizată pentru a crea un WBS.
+Vizualizarea Planificare afișează estimarea planificată sau de bază a informațiilor privind programul și costurile. Deși nu există caracteristici pentru urmărirea versiunii și a liniei de bază pentru un proiect WBS, valorile din această vizualizare sunt destinate să reprezinte versiunea de bază. Secțiunile Estimarea programului și Estimarea costurilor din acest articol descriu această vizualizare și modul în care este utilizată pentru a crea un WBS.
 
 ### <a name="effort-tracking-view"></a>Vizualizarea Urmărire efort
 

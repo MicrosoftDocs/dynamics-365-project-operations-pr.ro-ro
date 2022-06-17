@@ -1,6 +1,6 @@
 ---
-title: Tranzacții comerciale în Operațiuni de proiect
-description: Acest subiect oferă o prezentare generală a conceptului de tranzacții comerciale în Microsoft Dynamics 365 Project Operations.
+title: Tranzacții de business în Project Operations
+description: Acest articol oferă o prezentare generală a conceptului de tranzacții comerciale în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923295"
 ---
-# <a name="business-transactions-in-project-operations"></a>Tranzacții comerciale în Operațiuni de proiect
+# <a name="business-transactions-in-project-operations"></a>Tranzacții de business în Project Operations
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
@@ -34,7 +34,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Dintre aceste entități, detaliile liniei de cotație, detaliile liniei contractului și liniile de estimare sunt mapate la *faza de estimare* în ciclul de viață al proiectului. Liniile Jurnal și entitățile Actuals sunt mapate la *faza de executie* în ciclul de viață al proiectului.
 
-Operațiunile de proiect tratează înregistrările din toate aceste cinci entități ca tranzacții comerciale. Singura distincție este că sunt luate în considerare înregistrările din entitățile care sunt mapate la faza de estimare (detalii linie de cotație, detalii linie contract și linii de estimare).*previziuni financiare*, în timp ce înregistrările din entitățile care sunt mapate la faza de execuție (linii jurnal și Actual) sunt considerate *fapte financiare* care s-au întâmplat deja.
+Operațiunile de proiect tratează înregistrările din toate aceste cinci entități ca tranzacții comerciale. Singura distincție este că sunt luate în considerare înregistrările din entitățile care sunt mapate la faza de estimare (detalii linie de cotație, detalii linie contract și linii de estimare) *previziuni financiare*, în timp ce înregistrările din entitățile care sunt mapate la faza de execuție (linii jurnal și Actuals) sunt luate în considerare *fapte financiare* care s-au întâmplat deja.
 
 Pentru mai multe informații, consultați [Estimări](../project-management/estimating-projects-overview.md) și [Valori reale](actuals-overview.md).
 

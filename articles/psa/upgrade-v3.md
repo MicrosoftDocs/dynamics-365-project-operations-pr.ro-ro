@@ -1,6 +1,6 @@
 ---
 title: Considerații privind upgrade-ul - Microsoft Dynamics 365 Project Service Automation versiunea 2.x or 1.x la versiunea 3
-description: Acest subiect oferă informații despre lucrurile pe care trebuie să le luați în calcul atunci când faceți upgrade de la Project Service Automation versiunea 2. x sau 1. x la versiunea 3.
+description: Acest articol oferă informații despre considerentele pe care trebuie să le luați atunci când faceți upgrade de la versiunea 2.x sau 1.x la versiunea 3 a Project Service Automation.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918925"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerente legate de upgrade - PSA versiunea 2.x sau 1.x la versiunea 3
 
@@ -40,7 +40,7 @@ Atât Dynamics 365 Project Service Automation, cât și Dynamics 365 Field Servi
 
 În versiunea 3 a Project Service Automation, schema de bază de atribuire a resurselor care pot fi rezervate la activități s-a modificat. Activitatea liniei a fost învechit și există o relație directă 1:1 între activitatea din **Entitatea activitate** și membrul echipei din entitatea de **Atribuire resurse**. Activitățile care sunt atribuite unui membru al echipei de proiect sunt acum stocate direct în entitatea Atribuire resurse.  
 
-Aceste modificări au impact asupra actualizării oricăror proiecte existente care au atribuiri de resurse pentru resurse care pot fi rezervate și resurse generice într-o echipă de proiect. Acest subiect oferă considerentele pe care va trebui să le luați în considerare pentru proiectele dumneavoastră atunci când faceți upgrade la versiunea 3. 
+Aceste modificări au impact asupra actualizării oricăror proiecte existente care au atribuiri de resurse pentru resurse care pot fi rezervate și resurse generice într-o echipă de proiect. Acest articol oferă considerațiile pe care va trebui să le țineți cont pentru proiectele dvs. atunci când faceți upgrade la versiunea 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Sarcini atribuite la resursele numite.
 Utilizarea entității de activitate subordonată în versiunea 2 și versiunea 1 le-au permis membrilor echipei să portretizeze un alt rol decât rolul implicit definit. De exemplu, Vera Cuza, căreia îi este atribuit implicit rolul de manager de program, ar putea fi atribuită la o sarcină cu rolul de Dezvoltator. În versiunea 3, rolul unui membru numit al echipei este întotdeauna implicit, astfel încât orice sarcină care îi este atribuită Verei Cuza utilizează rolul implicit de manager de program al Verei.

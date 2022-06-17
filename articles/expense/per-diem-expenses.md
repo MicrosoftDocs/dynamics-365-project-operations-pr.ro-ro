@@ -1,6 +1,6 @@
 ---
 title: Cheltuieli diurne
-description: Acest subiect oferă informații despre cum să lucrați cu cheltuielile diurne.
+description: Acest articol oferă informații despre cum să lucrați cu cheltuielile diurne.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923203"
 ---
 # <a name="per-diem-expenses"></a>Cheltuieli diurne
 
 > [!IMPORTANT] 
-> Funcționalitatea descrisă în acest subiect este disponibilă pentru utilizatorii vizați ca parte a unei versiuni de previzualizare.
+> Funcționalitatea descrisă în acest articol este disponibilă pentru utilizatorii vizați ca parte a unei versiuni de previzualizare.
 
 O plată diurnă este o indemnizație zilnică fixă, predeterminată, pe care o companie o plătește angajaților săi pentru cazare (hoteluri), masă și cheltuieli accesorii pe care acești angajați le suportă în timp ce călătoresc la serviciu. Compania plătește această indemnizație angajaților în loc să plătească cheltuielile efective de deplasare. Angajații își pot folosi **Incidental/Altele** alocație diurnă pentru a acoperi bacșișuri, room service, spălătorie sau curățătorie chimică pentru întâlniri importante de afaceri. Rata diurnă poate varia, în funcție de dacă angajatorul alege să ramburseze costul combinat de cazare și masă sau numai pentru costul mesei și cheltuielilor.
 
@@ -44,7 +44,7 @@ Pentru a configura cheltuielile diurne, urmați acești pași.
 
 3. Mergi la **Managementul cheltuielilor** \> **Înființat** \> **Calcule și coduri** \> **Locații diurne**.
 4. Adăugați locații în care pot fi utilizate diurne.
-5. Pentru fiecare locație pe care o adăugați, pe **Diurne** fila, selectați rata diurnă și moneda care sunt valabile între anumite date de început și de sfârșit pentru cazare, masă și alte cheltuieli. Pentru a configura ratele diurne și monedele, accesați **Managementul cheltuielilor** \> **Înființat** \> **Calcule și coduri** \> **Diurne**.
+5. Pentru fiecare locație pe care o adăugați, pe **Diurne** fila, selectați rata diurnă și moneda care sunt valabile între anumite date de început și de încheiere pentru cazare, masă și alte cheltuieli. Pentru a configura ratele diurne și monedele, accesați **Managementul cheltuielilor** \> **Înființat** \> **Calcule și coduri** \> **Diurne**.
 
 ## <a name="per-diems-in-the-reimagined-expense-interface"></a>Diurne în interfața de cheltuieli reimaginată
 
@@ -74,7 +74,7 @@ Dacă micul dejun, prânzul și cina au fost oferite în timpul călătoriei, ac
 
 ### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Exemplul 1: Diurnă în care reducerile de masă se bazează pe tipul de masă per călătorie
 
-În acest exemplu, reducerea de masă este de 30% pentru micul dejun, 30% pentru prânz și 40% pentru cină. Pe **Parametrii de gestionare a cheltuielilor** pagina, cel **Calculați reducerea de masă prin** câmpul este setat la **Tipul de masă per călătorie**. Iată calculele dacă angajatului i-au fost oferite trei mic dejun, două prânzuri și zero cine:
+În acest exemplu, reducerea de masă este de 30% pentru micul dejun, 30% pentru prânz și 40% pentru cină. Pe **Parametrii de management al cheltuielilor** pagina, cel **Calculați reducerea de masă prin** câmpul este setat la **Tipul de masă pe călătorie**. Iată calculele dacă angajatului i-au fost oferite trei mic dejun, două prânzuri și zero cine:
 
 - Reducerea mesei = (3 ×\[ 75 × 30%\]) + (2 ×\[ 75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
 - Mese și accesorii = 400 – 112,50 = USD 287.50
@@ -84,7 +84,7 @@ Dacă micul dejun, prânzul și cina au fost oferite în timpul călătoriei, ac
 
 ### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Exemplul 2: Diurnă în care reducerile de masă se bazează pe tipul de masă pe zi
 
-În acest exemplu, reducerea de masă este de 30% pentru micul dejun, 30% pentru prânz și 40% pentru cină. Pe **Parametrii de gestionare a cheltuielilor** pagina, cel **Calculați reducerea de masă prin** câmpul este setat la **Tip de masă pe zi**. În acest caz, în **Mesele** grilă în **Editați cheltuielile** caseta de dialog, debifați casetele de selectare pentru a indica ce mese vi s-au oferit în timpul călătoriei.
+În acest exemplu, reducerea de masă este de 30% pentru micul dejun, 30% pentru prânz și 40% pentru cină. Pe **Parametrii de management al cheltuielilor** pagina, cel **Calculați reducerea de masă prin** câmpul este setat la **Tip de masă pe zi**. În acest caz, în **Mesele** grilă în **Editați cheltuielile** caseta de dialog, debifați casetele de selectare pentru a indica ce mese vi s-au oferit în timpul călătoriei.
 
 De exemplu, iată calculele dacă micul dejun a fost oferit în primele trei zile ale călătoriei:
 
@@ -98,7 +98,7 @@ De exemplu, iată calculele dacă micul dejun a fost oferit în primele trei zil
 
 ### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Exemplul 3: Diurnă în care reducerile de masă se bazează pe numărul de mese pe zi
 
-În acest exemplu, reducerea de masă este calculată pe baza numărului de mese care au fost furnizate pe zi (adică, **Calculați reducerea de masă prin** câmp de pe **Parametrii de gestionare a cheltuielilor** pagina este setată la **Numărul de mese pe zi**). În **Mesele** grilă în **Editați cheltuielile** caseta de dialog, debifați casetele de selectare pentru a indica ce mese au fost furnizate.
+În acest exemplu, reducerea de masă este calculată pe baza numărului de mese care au fost furnizate pe zi (adică, **Calculați reducerea de masă prin** câmp de pe **Parametrii de management al cheltuielilor** pagina este setată la **Numărul de mese pe zi**). În **Mesele** grilă în **Editați cheltuielile** caseta de dialog, debifați casetele de selectare pentru a indica ce mese au fost furnizate.
 În acest caz, reducerea de masă se bazează doar pe numărul de mese oferite, și nu pe tipul de masă (Mic dejun/pranz/cina) oferit.
 
 Iată calculele pentru diurne atunci când alocația zilnică este USD 150 pentru cazare, USD 75 pentru mese și USD 5 pentru incidente:
@@ -108,7 +108,7 @@ Iată calculele pentru diurne atunci când alocația zilnică este USD 150 pentr
 - **Doua mese:** Reducerea mesei = 50% = USD 37.50
 - **Trei mese:** Reducerea mesei = 100% = USD 75
 
-Iată calculele pentru **indemnizatie de masa si incidente**, care include USD 5 pentru incidente:
+Iată calculele pentru **indemnizatie de masa si accesorii**, care include USD 5 pentru incidente:
 
 - Ziua 1 - Două mese asigurate = (75 – 37.50) + 5 = 37.50 + 5 = USD 42.50
 - Ziua 2 - Două mese asigurate = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
@@ -123,4 +123,4 @@ Iată calculele pentru **indemnizatie de masa si incidente**, care include USD 5
 ![Cheltuieli diurne în care reducerea de masă se bazează pe numărul de mese pe zi.](media/3-number-of-meals-per-day.png)
 
 > [!NOTE]
-> Începând cu versiunea Finanțe 10.0.23, dacă utilizați interfața de cheltuieli reimaginată, nu puteți crea cheltuieli diurne care au date suprapuse. Dacă încercați, veți primi un mesaj de eroare.
+> Începând cu versiunea Finance 10.0.23, dacă utilizați interfața de cheltuieli reimaginată, nu puteți crea cheltuieli diurne care au date suprapuse. Dacă încercați, veți primi un mesaj de eroare.

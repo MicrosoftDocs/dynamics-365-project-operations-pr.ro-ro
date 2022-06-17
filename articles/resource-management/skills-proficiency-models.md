@@ -1,17 +1,17 @@
 ---
 title: Abilități și certificări
-description: Acest subiect oferă informații despre adăugarea de calități și caracteristici de certificare la resurse.
+description: Acest articol oferă informații despre adăugarea de abilități și caracteristici de certificare la resurse.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918374"
 ---
 # <a name="skills-and-certifications"></a>Abilități și certificări
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_

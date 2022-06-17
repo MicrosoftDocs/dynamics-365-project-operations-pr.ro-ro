@@ -1,24 +1,24 @@
 ---
 title: Ce este nou 2021 acces timpuriu valul 2 - implementare Project Operations lite
-description: Acest subiect oferă informații despre caracteristicile disponibile în versiunea Project Operations de implementare lite cu acces timpuriu disponibilă în valul 2 din 2021.
+description: Acest articol oferă informații despre caracteristicile disponibile în lansarea de acces anticipat al valului 2 din 2021 a implementării Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924123"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Ce este nou 2021 acces timpuriu valul 2 - implementare Project Operations lite
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
   - Project Operations pe mediul Dataverse versiunea 4.23.0.4
 

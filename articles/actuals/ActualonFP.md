@@ -1,6 +1,6 @@
 ---
 title: Impactul real într-un angajament cu preț fix
-description: Acest subiect oferă informații despre impactul asupra tabelului Actuals la diferite evenimente din timpul ciclului de viață al unui angajament cu preț fix în Microsoft Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre impactul asupra tabelului Realități la diferite evenimente din timpul ciclului de viață al unui angajament cu preț fix în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918143"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Impactul real într-un angajament cu preț fix
 
@@ -34,7 +34,7 @@ Următorul tabel listează datele reale ale diferitelor tipuri de tranzacții ca
 | Ora este aprobată. | Este creat un cost real. | Nu se aplică | Nu se aplică | <p>Un nou real care este creat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800</li></ul> |
 | Aprobarea timpului este anulată. | <p>Starea de ajustare a costului inițial real este actualizată la **Ajustat**.</p><p>Este creat un cost real de inversare care are o stare de ajustare de **Nereglabil**.</p> | Nu se aplică | Nu se aplică | <p>Actual existent care este actualizat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800, *Ajustat*</li></ul><p>Un nou real creat pentru a inversa impactul financiar anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 ore), (800 USD), *Nereglabil*</li></ul> |
 | Ora este rechemată după ce este aprobată. | <p>Starea de ajustare a costului inițial real este actualizată la **Ajustat**.</p><p>Este creat un cost real de inversare care are o stare de ajustare de **Nereglabil**.</p> | Nu se aplică | Nu se aplică | <p>Actual existent care este actualizat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800, *Ajustat*</li></ul><p>Un nou real creat pentru a inversa impactul financiar anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 ore), (800 USD), *Nereglabil*</li></ul> |
-| Contractul este confirmat. | <p>Starea de ajustare a vechilor costuri reale este actualizată la **Ajustat**.</p><p>Sunt create costurile reale de inversare care au o stare de ajustare de **Nereglabil**.</p><p>Noi costuri reale sunt create după reevaluarea regulilor contractuale.</p> | Nu se aplică | Nu se aplică | <p>Actual existent care este actualizat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800, *Ajustat*</li></ul><p>Un nou real creat pentru a inversa impactul financiar anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 ore), (800 USD), *Nereglabil*</li></ul><p>Nou real care este creat pentru impactul financiar reevaluat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800</li></ul> |
+| Contractul este confirmat. | <p>Starea de ajustare a vechilor costuri reale este actualizată la **Ajustat**.</p><p>Sunt create costurile reale de inversare care au o stare de ajustare de **Nereglabil**.</p><p>Noile costuri reale sunt create după reevaluarea regulilor contractuale.</p> | Nu se aplică | Nu se aplică | <p>Actual existent care este actualizat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800, *Ajustat*</li></ul><p>Un nou real creat pentru a inversa impactul financiar anterior:</p><ul><li>**Cost real:** Bob Kozack, (8 ore), (800 USD), *Nereglabil*</li></ul><p>Nou real care este creat pentru impactul financiar reevaluat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800</li></ul> |
 | Se creează o factură. | Nu se aplică | Nu se aplică | Nu se aplică | |
 | Factura este confirmată cu un reper. | Nu se aplică | Nu se aplică | Sunt create noi date reale de vânzări facturate bazate pe etape. | <p>Actual existent care rămâne neschimbat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, USD 800</li></ul><p>Real nou care este creat pentru a înregistra valorile vânzărilor facturate:</p><ul><li>**Vânzări facturate reale:** Milestone, USD 5,000</li></ul> |
 | Factura este corectată pentru a credita jalonul. | Nu se aplică | Nu se aplică | Sunt create valorile efective de vânzări facturate invers. | <p>Actual existent care rămâne neschimbat:</p><ul><li>**Cost real:** Bob Kozack, 8 ore, 800 USD</li></ul><p>Actual existent care este actualizat:</p><ul><li>**Vânzări facturate reale:** Milestone, USD 5,000, *Ajustat*</li></ul><p>Real nou care este creat pentru a inversa valorile vânzărilor facturate anterioare:</p><ul><li>**Vânzări facturate reale:** Etapă, (5.000 USD), *Nereglabil*</li></ul> |

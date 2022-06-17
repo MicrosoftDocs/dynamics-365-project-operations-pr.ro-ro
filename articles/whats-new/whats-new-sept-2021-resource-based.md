@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în septembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în lansarea din septembrie 2021 a Project Operations pentru scenarii de resurse/care nu se bazează pe stocuri.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în ediția din septembrie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/nestoc.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923387"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în septembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
 *Se aplică la: Project Operations pentru scenarii bazate pe resurse/fără stoc*
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
    - Project Operations în mediul Microsoft Dataverse versiunea 4.14.0.99.
    - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.20.

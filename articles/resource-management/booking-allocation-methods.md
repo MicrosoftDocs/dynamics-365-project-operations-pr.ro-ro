@@ -1,6 +1,6 @@
 ---
 title: Metode de alocare a rezervării
-description: Acest subiect oferă informații despre cum funcționează metodele de alocare a rezervării în Project Operations.
+description: Acest articol oferă informații despre cum funcționează metodele de alocare a rezervărilor în Operațiunile de proiect.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912761"
 ---
 # <a name="booking-allocation-methods"></a>Metode de alocare a rezervării
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Indiferent dacă adăugați un membru al echipei direct la un proiect pe fila **Echipă** sau dacă rezervați o resursă la un proiect sau o cerință din tabloul de planificare există câteva metode de alocare a rezervărilor diferite pe care le puteți utiliza. Acest subiect explică modul în care funcționează fiecare metodă și ce metode ar putea duce la suprarezervarea de resurse.
+Indiferent dacă adăugați un membru al echipei direct la un proiect pe fila **Echipă** sau dacă rezervați o resursă la un proiect sau o cerință din tabloul de planificare există câteva metode de alocare a rezervărilor diferite pe care le puteți utiliza. Acest articol explică cum funcționează fiecare metodă și care metode ar putea duce la resurse de suprarezervare.
 
 ## <a name="booking-allocation-methods"></a>Metode de alocare a rezervării
 

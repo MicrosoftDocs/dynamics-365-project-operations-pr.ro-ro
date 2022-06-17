@@ -1,17 +1,17 @@
 ---
 title: Planificările de facturi pe linii de ofertă bazate pe proiect
-description: Acest subiect oferă informații despre crearea de programe de facturare și repere pentru liniile de ofertă.
+description: Acest articol oferă informații despre crearea programelor de facturare și a reperelor pentru liniile de ofertă.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6b443a353c98fe5c7475d8a95c99abe01cd00987
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918327"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificările de facturi pe linii de ofertă bazate pe proiect
 

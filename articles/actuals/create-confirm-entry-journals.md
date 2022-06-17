@@ -1,6 +1,6 @@
 ---
-title: Creați și confirmați jurnalele de intrare
-description: Acest subiect oferă informații despre cum să creați și să confirmați jurnalele de intrare în Microsoft Dynamics 365 Project Operations.
+title: Crearea și confirmarea jurnalelor de intrări
+description: Acest articol oferă informații despre cum să creați și să confirmați jurnalele de intrare în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912347"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Creați și confirmați jurnalele de intrare
+# <a name="create-and-confirm-entry-journals"></a>Crearea și confirmarea jurnalelor de intrări
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
@@ -37,20 +37,20 @@ Urmați acești pași pentru a crea un jurnal de intrare în Operațiuni de proi
 1. Mergi la **Vânzări** \> **Tranzacții** \> **Jurnalele**.
 2. Pe **Jurnalele de intrare** pagina cu listă, în panoul de acțiuni, selectați **Nou** pentru a crea un jurnal.
 3. Pe **Jurnal nou** pagina, în **Descriere** câmp, introduceți o descriere a jurnalului.
-4. Asigurați-vă că **Tipul jurnalului** câmpul este setat la **Intrare**, apoi selectați **salva**. După ce noul jurnal de intrare este salvat, a **Rânduri de jurnal** fila ar trebui să apară pe pagina jurnalului.
+4. Asigurați-vă că **Tipul jurnalului** câmpul este setat la **Intrare**, apoi selectați **Salvați**. După ce noul jurnal de intrare este salvat, a **Rânduri de jurnal** fila ar trebui să apară pe pagina jurnalului.
 5. Pe **Rânduri de jurnal** fila, pe bara de instrumente de deasupra grilei, selectați **Nou** pentru a crea o linie de jurnal de intrare.
 6. În **Creare rapidă** caseta de dialog pentru crearea unei linii de jurnal de intrare, setați câmpurile așa cum este descris în tabelul următor.
 
     | Câmp | Descriere | Impact funcțional |
     | --- | --- | --- |
     | Clasă de tranzacții | Linia jurnalului poate fi clasificată în una dintre cele șase clase de tranzacții: **Timp**, **·**, **·**, **·**, **de hotar**, sau **Impozit**. | The **Impozit** clasa de tranzacție a fost depreciată în Operațiuni de proiect. <br> Dacă creați un **Impozit** clasa de tranzacție, nu va fi procesată prin facturare sau în calcule de costuri sau venituri. **Piatra de hotar** este o clasă de tranzacții numai cu venituri. <br>The **Reținere** clasa de tranzacție reprezintă un avans primit de la un client. Ar trebui să fie întotdeauna creat ca o pereche de linii de jurnal de vânzări facturate și vânzări nefacturate. |
-    | Tip de tranzacție | The **Cost**, **Interorg**, și **Costul unitar al resurselor** tipurile de tranzacții ar trebui utilizate pentru a înregistra costul.<br> The **Vânzări nefacturate** și **Vânzări facturate** tipurile de tranzacții ar trebui utilizate pentru a înregistra veniturile. | The **Reținere** clasa de tranzacții funcționează numai cu **Vânzări nefacturate** și **Vânzări facturate** tipuri de tranzacții.<br> The **Piatra de hotar** clasa de tranzacții funcționează numai cu **Vânzări facturate** tipul tranzacției. <br>The **Vânzări Interorg** și **Costul unitar al resurselor** tipurile de tranzacții sunt aplicabile numai pentru **Timp** clasa de tranzacție și acestea sunt disponibile numai în jurnalele de intrare în scenariul de implementare Lite și nu atunci când implementați Operațiuni de proiect în scenariile Resurse/Nestocitate. |
+    | Tip de tranzacție | The **Cost**, **Interorg**, și **Costul unitar al resurselor** tipurile de tranzacții ar trebui utilizate pentru a înregistra costul.<br> The **Vânzări nefacturate** și **Vânzări facturate** tipurile de tranzacții ar trebui utilizate pentru a înregistra veniturile. | The **Reținere** clasa de tranzacții funcționează numai cu **Vânzări nefacturate** și **Vânzări facturate** tipuri de tranzacții.<br> The **Piatra de hotar** clasa de tranzacții funcționează numai cu **Vânzări facturate** tipul tranzacției. <br>The **Vânzări Interorg** și **Costul unitar al resurselor** tipurile de tranzacții sunt aplicabile numai pentru **Timp** clasa de tranzacție și acestea sunt disponibile numai în jurnalele de intrare în scenariul de implementare Lite și nu atunci când implementați Operațiuni de proiect în scenariile Resurse / Nestocat. |
     | Selectare produs | Cand **Material** clasa de tranzacție este selectată, acest câmp vă permite să specificați dacă tranzacția materială pentru care creați linia de jurnal este un produs existent sau un produs înscris. | Dacă selectați **Produs de scriere**, puteți introduce un nume pentru produs. |
     | Produs | O referire la produsul din catalog. | |
-    | Descriere | O descriere a liniei jurnalului pentru a facilita identificarea acesteia. | Pentru liniile de jurnal de vânzări nefacturate, valoarea va fi utilizată ca descriere atunci când sunt create detaliile liniei de factură. |
+    | Descriere | O descriere a liniei jurnalului pentru a facilita identificarea acesteia. | Pentru liniile de jurnal de vânzări nefacturate, valoarea va fi folosită ca descriere atunci când sunt create detaliile liniei de factură. |
     | Descriere externă | O descriere a liniei jurnalului care poate fi folosită pentru partajarea cu părțile interesate externe. | Pentru liniile de jurnal de vânzări nefacturate, valoarea va fi utilizată ca descriere externă atunci când sunt create detaliile liniei de factură. Poate apărea și pe factura care este trimisă clientului. |
     | Tip de facturare | O valoare care indică dacă linia jurnalului va fi socotită ca componentă taxabilă, gratuită sau netaxabilă a proiectului. | Într-un flux tipic, tipul de facturare este derivat din condițiile convenite care sunt stabilite în contract. Cu toate acestea, atunci când înregistrați o linie de jurnal, puteți introduce o valoare în acest câmp. |
-    | Data documentului | Folosiți o dată când a avut loc tranzacția. | |
+    | Data documentului | Utilizați o dată când a avut loc tranzacția. | |
     | Data inițială | Folosiți data la care a avut loc tranzacția. | Acest câmp este utilizat pentru compararea cu data creării facturii pentru tranzacțiile de la **Vânzări nefacturate** tip. Această comparație vă va ajuta să decideți dacă tranzacția este datată în viitor sau în trecut. Doar tranzacțiile cu date trecute vor fi adăugate pe factură. |
     | Data de sfârșit | Folosiți data la care a avut loc tranzacția. | |
     | Dată contabilitate | Utilizați data la care va fi înregistrat impactul contabil. | |
@@ -58,7 +58,7 @@ Urmați acești pași pentru a crea un jurnal de intrare în Operațiuni de proi
     | Project | Selectați proiectul pentru a înregistra actualul. | Pe baza proiectului selectat, a clasei de tranzacție și a sarcinii, sistemul va încerca să determine contractul, linia de contract și clientul liniei de contract. |
     | Activitate | Selectați sarcina pentru a înregistra realitatea. | Dacă ați asociat sarcini cu linii de contract în timpul configurării contractului, sistemul va folosi sarcina selectată, împreună cu un proiect și o clasă de tranzacție, pentru a determina contractul, linia de contract și clientul liniei de contract. |
     | Categorie tranzacție | Selectați categoria tranzacției pentru a înregistra valoarea reală. | Pentru cheltuieli, categoria de tranzacție selectată determină prețul implicit care va fi introdus pe linia jurnalului atunci când este salvat. |
-    | Rol | Acest câmp este relevant pentru liniile Jurnalului de timp. Selectați rolul resursei care a petrecut timp pe proiect și/sau sarcină. | Pentru liniile de jurnal de timp, dacă utilizați configurația out-of-box pentru introducerea costurilor implicite de resurse și a ratelor de facturare, rolul selectat este utilizat împreună cu unitatea de resurse pentru a determina prețul implicit care va fi introdus pe linia de jurnal atunci când este salvat. Dacă utilizați o configurație personalizată pentru introducerea prețurilor implicite, ar trebui să revizuiți acea configurație pentru a determina dacă **Rol** câmpul este utilizat pentru a introduce valori implicite ale prețului. |
+    | Rol | Acest câmp este relevant pentru liniile Jurnalului de timp. Selectați rolul resursei care a petrecut timp pe proiect și/sau sarcină. | Pentru liniile de jurnal de timp, dacă utilizați configurația out-of-box pentru introducerea costurilor implicite de resurse și a ratelor de facturare, rolul selectat este utilizat împreună cu unitatea de resurse pentru a determina prețul implicit care va fi introdus pe linia de jurnal atunci când este salvat. Dacă utilizați o configurație personalizată pentru introducerea prețurilor implicite, ar trebui să revizuiți acea configurație pentru a determina dacă **Rol** câmpul este folosit pentru a introduce valori implicite ale prețului. |
     | Subcontract | Dacă linia jurnalului reprezintă capacitatea subcontractată sau cheltuielile sau materialele subcontractate, selectați subcontractul relevant. | Când sunt înregistrate linii jurnal de cost, subcontractul selectat va determina lista de prețuri care este utilizată pentru a introduce costul unitar implicit. |
     | Linia de subcontractare | Dacă linia jurnalului reprezintă capacitatea subcontractată sau cheltuielile sau materialele subcontractate, selectați linia de subcontractare relevantă. | Când sunt înregistrate linii jurnal de cost, linia de subcontract selectată se va asigura că calculele de capacitate disponibile pe linia de subcontract sunt corect calculate. |
     | Metodă valoare | În mod implicit, acest câmp este setat la **Înmulțiți cantitatea cu prețul**. Când se utilizează această metodă, suma va fi calculată ca *Cantitate* ×*Preț*. Cealaltă metodă acceptată este **Preț fix**. Când se folosește această metodă, prețul va fi setat la suma, iar cantitatea nu va fi utilizată în calcul. | |

@@ -1,24 +1,24 @@
 ---
 title: Noutăți în iunie 2021 - implementare simplificată Project Operations
-description: Acest subiect oferă informații despre actualizările de calitate disponibile în versiunea Project Operations de implementare simplificată din iunie 2021.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din iunie 2021 a implementării Project Operations lite.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06ea83152e4f601ef842a0f8d975c16c2be95612
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16fffb06ebb72ac25982374bff27a015eccfae1b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913957"
 ---
 # <a name="whats-new-june-2021---project-operations-lite-deployment"></a>Noutăți în iunie 2021 - implementare simplificată Project Operations
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest subiect se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
+Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
 
   - Project Operations în mediul Dataverse versiunea 4.11.0.156 sau 4.11.0.164.
 
