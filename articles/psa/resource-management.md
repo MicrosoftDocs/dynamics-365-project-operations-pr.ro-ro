@@ -1,6 +1,6 @@
 ---
 title: Pagina de primire proiecte resursă
-description: Acest subiect oferă informații despre capacitățile de gestionare a resurselor în Project Service Automation (PSA) for Dynamics 365.
+description: Acest articol oferă informații despre capabilitățile de gestionare a resurselor din Project Service Automation (PSA) pentru Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925273"
 ---
 # <a name="resourcing-projects-home-page"></a>Pagina de primire proiecte resursă
 
@@ -46,7 +46,7 @@ Resursele sunt cel mai important activ al unei organizații bazate pe servicii. 
 - Mențineți un depozit de abilități și competență.
 
 
-Puteți să vă populați proiectul cu o echipă de resurse generice sau numite în PSA. Puteți utiliza diverse metode pentru a adăuga și atribui membri ai echipei și pentru a gestiona rezervările și atribuirile lor. Pentru informații suplimentare, consultați următoarele subiecte:
+Puteți să vă populați proiectul cu o echipă de resurse generice sau numite în PSA. Puteți utiliza diverse metode pentru a adăuga și atribui membri ai echipei și pentru a gestiona rezervările și atribuirile lor. Pentru informații suplimentare, consultați următoarele articole:
 
 - [Rezervați anumite resurse care se pot rezerva la o echipă de proiect și atribuirea de sarcini către acestea](assign-named-bookable-resource.md)
 - [Atribuiți resurse generice care se pot rezerva unei activități și generați cerințe de resurse](assign-generic-bookable-resource.md)

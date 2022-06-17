@@ -1,23 +1,23 @@
 ---
-title: Cerințe pentru articole pentru contractele de proiect cu mai multe surse de finanțare
-description: Acest subiect oferă informații despre cum să configurați și să utilizați cerințele pentru articole cu mai multe surse de finanțare.
+title: Cerințe de articole pentru contractele de proiect cu mai multe surse de finanțare
+description: Acest articol oferă informații despre cum să configurați și să utilizați cerințele pentru articole cu mai multe surse de finanțare.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931207"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Cerințe pentru articole pentru contractele de proiect cu mai multe surse de finanțare
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Cerințe de articole pentru contractele de proiect cu mai multe surse de finanțare
 
 _**Se aplică la:** Project Operations pentru scenariile bazate pe stocuri/producție_
 
-Unele acorduri contractuale pentru livrabile bazate pe proiecte ar putea necesita surse multiple de finanțare. Acest subiect explică cum să selectați și să configurați sursele de finanțare dorite atunci când sunt necesare mai multe surse pentru un proiect sau un contract de proiect.
+Unele acorduri contractuale pentru livrabile bazate pe proiecte ar putea necesita surse multiple de finanțare. Acest articol explică cum să selectați și să configurați sursele de finanțare dorite atunci când sunt necesare mai multe surse pentru un proiect sau un contract de proiect.
 
 ## <a name="terminology"></a>Terminologie
 
@@ -79,7 +79,7 @@ Pentru a crea o cerință de articol dintr-o înregistrare de prognoză a artico
 1. Selectați **Creați cerințe de articol** și confirmați mesajul pe care îl primiți.
 
     > [!NOTE]
-    > Sistemul copiază **Sursă de finanțare** valoarea de la înregistrarea de prognoză a articolului până la înregistrarea de cerințe de articol nou creată.
+    > Sistemul copiază **Sursă de finanțare** valoare de la înregistrarea de prognoză a articolului până la înregistrarea de cerințe de articol nou creată.
 
 ### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Cont de factură implicit când sistemul creează automat o cerință de articol dintr-o linie de comandă de achiziție
 

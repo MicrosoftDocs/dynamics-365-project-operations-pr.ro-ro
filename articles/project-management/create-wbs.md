@@ -1,17 +1,17 @@
 ---
 title: Crearea unei structuri detaliate a proiectului
-description: Acest subiect explică cum să creați o structură detaliată a proiectului (WBS) incluzând comenzile de bază în noua interfață de planificare.
+description: Acest articol explică cum să creați o structură de defalcare a lucrărilor (WBS) care să includă controalele de bază în noua interfață de planificare.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932081"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -127,7 +127,7 @@ Ar trebui să fiți conștient de următoarele limitări dacă utilizați struct
 | Total maxim resurse pentru un proiect              | 300                  |
 | Numărul maxim de legături (numai succesoare) pentru un proiect | 600                  |
 | Total maxim de câmpuri particularizate pentru un proiect          | 10                   |
-| Numărul maxim de elemente din lista de verificare per sarcină                   | 20                   |
+| Numărul maxim de elemente din lista de verificare pe sarcină                   | 20                   |
 
 **Limitări activitate**
 

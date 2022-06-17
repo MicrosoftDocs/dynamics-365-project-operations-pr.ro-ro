@@ -1,23 +1,23 @@
 ---
-title: Conexiuni de tranzacție - Conectați datele reale ale diferitelor tipuri de tranzacții
-description: Acest subiect explică modul în care o conexiune de tranzacție este utilizată pentru a lega datele reale de diferite tipuri pentru a ajuta la urmărirea profitabilității, a restanțelor de facturare și a calculelor veniturilor facturate versus nefacturate.
+title: Conexiunile tranzacțiilor - Conectarea datelor reale ale diferitelor tipuri de tranzacții
+description: Acest articol explică modul în care o conexiune de tranzacție este utilizată pentru a lega datele reale de diferite tipuri pentru a ajuta la urmărirea profitabilității, a întârzierilor de facturare și a calculelor veniturilor facturate versus nefacturate.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926101"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Conexiuni de tranzacție - Conectați datele reale ale diferitelor tipuri de tranzacții
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Conexiunile tranzacțiilor - Conectarea datelor reale ale diferitelor tipuri de tranzacții
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Înregistrările de conexiuni ale tranzacțiilor sunt create pentru a lega date reale de diferite tipuri, pe măsură ce timpul, cheltuielile sau utilizarea materialelor se deplasează în ciclul său de viață de la etapa de cotație sau de prevânzare la etapa de contract, aprobări și/sau retrageri, facturare și, eventual, facturare de credit sau corecție. .
+Înregistrările de conexiuni ale tranzacțiilor sunt create pentru a lega reale de diferite tipuri, pe măsură ce timpul, cheltuielile sau utilizarea materialelor se deplasează în ciclul său de viață de la etapa de cotație sau de pre-vânzare la etapa de contract, aprobări și/sau retrageri, facturare și, eventual, facturare de credit sau corecție. .
 
 Următorul exemplu arată procesarea tipică a intrărilor de timp într-un ciclu de viață al proiectului în Project Operations.
 
@@ -28,11 +28,11 @@ Procesarea intrărilor de timp într-un ciclu de viață al unui proiect Project
 1. Trimiterea unei intrări de timp determină crearea a două linii de jurnal: unul pentru cost și unul pentru vânzări nefacturate. 
 2. Aprobarea eventuală a introducerii timpului face ca două valori reale să fie create: unul pentru cost și unul pentru vânzări nefacturate. Aceste 2 date reale sunt legate folosind conexiuni de tranzacție.
 3. Atunci când utilizatorul creează o factură de proiect, tranzacția linie factură este creată utilizând date din valorile reale pentru vânzările nefacturate.
-4. Când factura este confirmată, se creează două noi date reale: o inversare a vânzărilor nefacturate și o vânzări efective facturate. Anularea vânzărilor nefacturate și vânzările reale nefacturate inițiale sunt conectate folosind conexiuni de tranzacție inversă. Vânzările facturate și datele reale ale vânzărilor inițiale nefacturate sunt, de asemenea, conectate pentru a arăta legăturile dintre ceea ce a fost cândva venitul întârziat sau în curs (WIP) și ceea ce este acum venit facturat.   
+4. Când factura este confirmată, se creează două noi date reale: o anulare a vânzărilor nefacturate și o vânzări efective facturate. Anularea vânzărilor nefacturate și vânzările reale nefacturate inițiale sunt conectate folosind conexiuni de tranzacție inversă. Vânzările facturate și datele reale ale vânzărilor inițiale nefacturate sunt, de asemenea, conectate pentru a arăta legăturile dintre ceea ce a fost cândva venitul întârziat sau în curs (WIP) și ceea ce este acum venit facturat.   
 
-Fiecare eveniment din fluxul de lucru de procesare declanșează crearea de înregistrări în **Conexiunea tranzacției** masa. Acest lucru ajută la construirea unei urme a relațiilor dintre înregistrările care sunt create prin detaliile de intrare de timp, linie de jurnal, reale și linie de factură.
+Fiecare eveniment din fluxul de lucru de procesare declanșează crearea de înregistrări în **Conexiunea tranzacției** masa. Acest lucru ajută la construirea unei urme a relațiilor dintre înregistrările care sunt create prin introducerea de timp, linia jurnalului, detaliile reale și linia de factură.
 
-Următorul tabel prezintă înregistrările din **Conexiunea tranzacției** entitate pentru fluxul de lucru anterior.
+Următorul tabel arată înregistrările din **Conexiunea tranzacției** entitate pentru fluxul de lucru anterior.
 
 |Eveniment                   |Tranzacție 1                 |Rol tranzacție 1 |Tip tranzacție 1       |Tranzacție 2          |Rol tranzacție 2 |Tip tranzacție 2 |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|

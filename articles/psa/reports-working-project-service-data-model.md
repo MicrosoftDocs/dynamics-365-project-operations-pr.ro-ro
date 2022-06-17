@@ -1,6 +1,6 @@
 ---
 title: Lucrul cu modelul de date Project Service Automation
-description: Acest subiect oferă informații despre modul de lucru cu modelul de date.
+description: Acest articol oferă informații despre cum să lucrați cu modelul de date.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926699"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Lucrul cu modelul de date Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587555"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation extinde alte entități ale aplicației și introduce propriile entități în modelul de date Common Data Service. Acest subiect descrie unele dintre entitățile pe care le veți întâlni în scenarii tipice de raportare PSA.
+Dynamics 365 Project Service Automation extinde alte entități ale aplicației și introduce propriile entități în modelul de date Common Data Service. Acest articol descrie unele dintre entitățile pe care le veți întâlni în scenariile tipice de raportare PSA.
 
 ## <a name="reporting-on-opportunities"></a>Raportarea oportunităților
 

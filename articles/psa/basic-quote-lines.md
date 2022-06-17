@@ -1,6 +1,6 @@
 ---
 title: Oferte și linii de ofertă
-description: Acest subiect oferă informații despre oferte și linii de ofertă.
+description: Acest articol oferă informații despre citate și linii de citate.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933369"
 ---
 # <a name="quotes-and-quote-lines"></a>Oferte și linii de ofertă
 
@@ -39,7 +39,7 @@ ms.locfileid: "8599055"
 - O ofertă de vânzări nu include unele câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă**, **Managerul de cont** și **Facturare către Nume persoană de contact**.  
 - Ofertele de vânzări și ofertele de proiect sunt, de asemenea, identificate printr-un câmp bazat pe set de opțiuni care este denumit **Tip**. Pentru o ofertă de vânzări, acest câmp are valoarea **Pe bază de articol**. Pentru o ofertă de proiect, are valoarea **Pe bază de lucru**.
 
-Acest subiect se va concentra pe detaliile ofertelor de proiect.
+Acest articol se va concentra pe detaliile ofertelor de proiect.
 
 O ofertă de proiect în PSA poate avea mai multe elemente de linie sau linii de ofertă. De fapt, o ofertă de proiect are două grile pentru elemente de linie. O grilă este pentru liniile bazate pe proiect, care permit estimări detaliate. Cealaltă grilă este pentru liniile bazate pe produse, care utilizează un preț unitar simplu și o abordare bazată pe cantități.
 

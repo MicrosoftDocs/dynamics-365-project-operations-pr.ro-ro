@@ -1,6 +1,6 @@
 ---
 title: Modificări de entitate, control și interfață cu utilizatorul (Project Service Automation 3.x)
-description: Acest subiect descrie modificările soluției pentru Microsoft Dynamics Project Service Automation 3.x.
+description: Acest articol descrie modificările soluției pentru Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926883"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Modificări de entitate, control și interfață cu utilizatorul (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Odată cu lansarea Microsoft Dynamics Project Service Automation (PSA) 3.x, s-au efectuat multe modificări la nivelul entităților, controalelor, vizualizărilor și interfeței cu utilizatorul. Acest subiect oferă informații despre aceste modificări importante.
+Odată cu lansarea Microsoft Dynamics Project Service Automation (PSA) 3.x, s-au efectuat multe modificări la nivelul entităților, controalelor, vizualizărilor și interfeței cu utilizatorul. Acest articol oferă informații despre aceste modificări importante.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relațiile părinte-fiu pentru documentul de vânzări, linia documentului de vânzări, entitățile detalii de linie document de vânzări
 În versiunile de Dynamics 365 Project Service Automation (PSA) lansate înainte de versiunea 3.0, anumite relații dintre documentele de vânzări, liniile de document de vânzări și entitățile detalii de linie document de vânzări au fost implementate prin câmpuri de șir care ar deține o reprezentare a șirului de GUID a entității afiliate. Acest lucru s-a datorat limitărilor de platformă care necesită cod particularizat semnificativ pe partea server și client a soluției pentru a face aceste relații să funcționeze similar cu relațiile tipice de entitate Dynamics CRM și pentru a face ca aceste câmpuri șir să acționeze sub formă de câmpuri de căutare.

@@ -1,6 +1,6 @@
 ---
 title: Actualizați planificarea de lansare pentru Project Service 3.x
-description: Acest subiect oferă informații despre versiunile disponibile și viitoare ale Dynamics 365 Project Service Automation.
+description: Acest articol oferă informații despre versiunile disponibile și viitoare ale Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
-ms.translationtype: HT
+ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732901"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959672"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Actualizați planificarea de lansare pentru Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "8732901"
 
 | Soluție  | Cea mai recentă versiune |
 |-------|----|
-| Project Service Automation    | 3.10.74.200 |
+| Project Service Automation    | 3.10.75.142 |
 | Project Service Automation program de completare desktop                | 3.60          |
 
 Pentru informații despre actualizări la Project Service, consultați [Planuri de lansare Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Pentru informații despre actualizări la Project Service, consultați [Planuri 
 | Stație  | Regiune | Versiunea curentă | Următoarea versiune |  Dată programată
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stația 1</strong> | |  |  | |
-| | <i>Prima apariție</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 27 mai 2022
+| | <i>Prima apariție</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 01 iulie 2022
 |<strong>Stația 2</strong> | |  |  | |
-| | <i>America de Sud</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>Canada</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>India</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>Franța</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>Africa de Sud</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>Germania</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>Elveția</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>Coreea de Sud</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
-| | <i>Norvegia</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03 iunie 2022
+| | <i>America de Sud</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>Canada</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>India</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>Franța</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>Africa de Sud</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>Germania</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>Elveția</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>Coreea de Sud</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
+| | <i>Norvegia</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 iulie 2022
 |<strong>Stația 3</strong> | |  |  | |
-| | <i>Japonia</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mai 2022
-| | <i>Asia Pacific</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mai 2022
-| | <i>Regatul Unit</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mai 2022
-| | <i>Oceana</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mai 2022
-| | <i>Emiratele Arabe Unite</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mai 2022
+| | <i>Japonia</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 iulie 2022
+| | <i>Asia Pacific</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 iulie 2022
+| | <i>Regatul Unit</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 iulie 2022
+| | <i>Oceana</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 iulie 2022
+| | <i>Emiratele Arabe Unite</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 iulie 2022
 |<strong>Stația 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 20 mai 2022
+| | <i>Europa</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 17 iunie 2022
 |<strong>Stația 5</strong> | |  |  | |
-| | <i>America de Nord</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 mai 2022
+| | <i>America de Nord</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 iunie 2022
 |<strong>Stația 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 mai 2022
-| | <i>Grupuri dedicate la scară</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 03 iunie 2022
+| | <i>Government Community Cloud</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 iunie 2022
+| | <i>Grupuri dedicate la scară</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 01 iulie 2022
 
 
 

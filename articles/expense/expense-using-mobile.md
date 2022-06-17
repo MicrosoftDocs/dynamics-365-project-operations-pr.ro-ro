@@ -1,6 +1,6 @@
 ---
 title: Aplicația Cheltuieli mobile
-description: Acest subiect oferă informații despre spațiul de lucru mobil pentru gestionarea cheltuielii.
+description: Acest articol oferă informații despre spațiul de lucru mobil pentru gestionarea cheltuielilor.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930241"
 ---
 # <a name="mobile-expense-app"></a>Aplicația Cheltuieli mobile
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Acest subiect oferă informații despre spațiul de lucru mobil pentru **Gestionarea cheltuielii**. Acest spațiu de lucru permite utilizatorilor să captureze și să încarce o chitanță, astfel încât să o poată atașa la un raport de cheltuieli ulterior. De asemenea, utilizatorii pot crea rapid o linie de cheltuieli utilizând o chitanță atașată și pot crea și gestiona rapoartele de cheltuieli. În plus, aprobatorii pot utiliza spațiul de lucru mobil **Gestionarea cheltuielilor** pentru a vizualiza rapoartele de cheltuieli care le sunt atribuite și pentru a aproba sau respinge rapoartele de cheltuieli respective.
+Acest articol oferă informații despre **Managementul cheltuielilor** spațiu de lucru mobil. Acest spațiu de lucru permite utilizatorilor să captureze și să încarce o chitanță, astfel încât să o poată atașa la un raport de cheltuieli ulterior. De asemenea, utilizatorii pot crea rapid o linie de cheltuieli utilizând o chitanță atașată și pot crea și gestiona rapoartele de cheltuieli. În plus, aprobatorii pot utiliza spațiul de lucru mobil **Gestionarea cheltuielilor** pentru a vizualiza rapoartele de cheltuieli care le sunt atribuite și pentru a aproba sau respinge rapoartele de cheltuieli respective.
 
 Acest spațiu de lucru mobil este destinat să fie utilizat cu aplicația mobilă Dynamics 365 Unified Ops.
 
@@ -208,9 +208,9 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
 Organizațiile pot personaliza **Metodă de plată prestabilită** setare pentru fiecare categorie de cheltuieli așa cum este creată. În plus, atunci când configurați metode de plată, puteți seta **Metodă de plată prestabilită** câmp la **Doar import**.
 
-Când **Numai import** este activată pentru o metodă de plată, metoda de plată nu este introdusă în mod implicit. Acesta va fi necompletat în categoriile de cheltuieli în care este configurată această metodă de plată. Acest comportament este consecvent atât în experiența web, cât și în cea mobilă.
+Când **Doar import** este activată pentru o metodă de plată, metoda de plată nu este introdusă în mod implicit. Acesta va fi necompletat în categoriile de cheltuieli în care este configurată această metodă de plată. Acest comportament este consecvent atât în experiența web, cât și în experiența mobilă.
     
-Când **Numai import** nu este activată pentru o metodă de plată, valoarea setată este introdusă în mod implicit pentru categoriile de cheltuieli în care este configurată această metodă de plată. Cu toate acestea, există o problemă cunoscută în care valoarea implicită nu este introdusă în aplicația mobilă Cheltuieli. Pentru a rezolva această problemă, selectați manual o metodă de plată înainte de a salva raportul de cheltuieli. 
+Când **Doar import** nu este activată pentru o metodă de plată, valoarea setată este introdusă în mod implicit pentru categoriile de cheltuieli în care este configurată această metodă de plată. Cu toate acestea, există o problemă cunoscută în care valoarea implicită nu este introdusă în aplicația mobilă Cheltuieli. Pentru a rezolva această problemă, selectați manual o metodă de plată înainte de a salva raportul de cheltuieli. 
 
 ### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>De ce nu pot adăuga sau edita dimensiuni financiare în aplicația mobilă Cheltuieli?
 

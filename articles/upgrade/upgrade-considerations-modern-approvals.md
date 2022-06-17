@@ -1,17 +1,17 @@
 ---
 title: Considerații de actualizare pentru aprobările moderne
-description: Subiectul acoperă punctele pe care administratorii ar trebui să le ia în considerare atunci când activează funcționalitatea Aprobari moderne.
+description: Articolul acoperă punctele pe care administratorii ar trebui să le ia în considerare atunci când activează funcționalitatea Aprobari moderne.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931759"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>Considerații de actualizare pentru aprobările moderne 
 
@@ -34,7 +34,7 @@ După ce faceți upgrade la Modern Approvals, un administrator trebuie să valid
 3. Selectați **Soluții** pentru a enumera soluțiile care sunt instalate în mediu.
 4. În lista de soluții, selectați **Operațiuni de proiect** sau **Serviciul de proiect**.
 5. Schimbați filtrul de la **Toate** la **Cloud Flows**.
-6. Verificați că **Serviciu de proiect – Programează în mod recurent seturi de aprobare a proiectelor** opțiunea este setată la **Pe**. Dacă nu este, selectați fluxul, apoi selectați **Aprinde**.
+6. Verificați că **Serviciu de proiect – Programează în mod recurent seturi de aprobare a proiectelor** opțiunea este setată la **Pe**. Dacă nu este, selectați fluxul, apoi selectați **Porniți**.
 7. Verificați dacă procesarea are loc la fiecare cinci minute, examinând **Joburi de sistem** lista în **Setări** zonă.
 
 ## <a name="short-term-rollback"></a>Rollback pe termen scurt

@@ -1,6 +1,6 @@
 ---
 title: Adăugarea câmpurilor solicitate particularizate la configurarea prețurilor și la entitățile tranzacționale
-description: Acest subiect oferă informații despre cum să adăugați referințe de câmp personalizate obligatorii la entități și la formulare și vizualizări.
+description: Acest articol oferă informații despre cum să adăugați referințe obligatorii de câmpuri personalizate la entități și la formulare și vizualizări.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926055"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Adăugarea câmpurilor solicitate particularizate la configurarea prețurilor și la entitățile tranzacționale
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Acest subiect presupune că ați finalizat procedurile în subiect, [Creare câmpuri și entități particularizate pentru a fi utilizate ca dimensiuni de preț](create-custom-fields-entities-pricing-dimensions.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest subiect. 
+Acest articol presupune că ați finalizat procedurile din articol, [Creați câmpuri și entități personalizate pentru a fi utilizate ca dimensiuni de preț](create-custom-fields-entities-pricing-dimensions.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol. 
 
-În acest subiect, procedurile vă vor arăta cum să adăugați referințele câmpului particularizat necesar la entități și la elementele interfeței utilizator (UI), cum ar fi formulare și vizualizări.
+În acest articol, procedurile vă vor arăta cum să adăugați referințele de câmp personalizate necesare la entități și la elementele interfeței cu utilizatorul (UI), cum ar fi formularele și vizualizările.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Adăugarea câmpurilor de dimensiune a prețului particularizate 
 După ce au fost create câmpuri și entități particularizate, următorul pas este de a face parametrizarea prețurilor și entitățile tranzacționale conștiente de orice entități particularizate sau seturi de opțiuni prin crearea de câmpuri de referință. În funcție de faptul dacă lista dimensiunilor prețurilor include dimensiunile setului de opțiuni sau dimensiunile entității sau ambele, urmați numai pașii din **Dimensiunile de prețuri particularizate bazate pe setul de opțiuni** de preț particularizate bazate pe set de opțiuni sau **Dimensiunile de prețuri particularizate bazate pe entitate** sau ambele, respectiv.

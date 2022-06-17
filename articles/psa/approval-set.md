@@ -1,18 +1,18 @@
 ---
 title: Seturi de aprobări în Project Service Automation
-description: Acest subiect oferă informații despre setul de aprobări, cereri și subseturile acelor operațiuni.
+description: Acest articol oferă informații despre setul de aprobare, solicitări și subseturile acelor operațiuni.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 0783441d3bf7ed80192a3890a2e297fea05fe425
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 568815967b909d2a5ee9bf40b4fee97e0ad4d295
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927067"
 ---
 # <a name="approval-sets-in-project-service-automation"></a>Seturi de aprobări în Project Service Automation
 

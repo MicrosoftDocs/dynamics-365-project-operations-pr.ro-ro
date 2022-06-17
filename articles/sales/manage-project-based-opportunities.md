@@ -1,17 +1,17 @@
 ---
 title: Gestionați oportunitățile bazate pe proiecte
-description: Acest subiect oferă informații despre cum să lucrați cu oportunități legate de proiecte.
+description: Acest articol oferă informații despre cum să lucrați cu oportunități legate de proiecte.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933231"
 ---
 # <a name="manage-project-based-opportunities"></a>Gestionați oportunitățile bazate pe proiecte
 
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Companiile bazate pe proiecte își desfășoară de obicei operațiunile de livrare răspândite în mai multe țări și geografii. Costul execuției și livrării proiectului poate varia în funcție de geografie sau divizie care gestionează livrarea. La rândul său, acest lucru poate afecta marjele tranzacției. Furnizarea de servicii bazate pe proiecte implică de obicei cantități mari de timp pentru resurse umane, cheltuieli considerabile pentru călătorie, costuri materiale și alte cheltuieli.
 
-Oportunități bazate pe proiecte în Dynamics 365 Project Operations sunt proiectate cu extensii la Dynamics 365 Sales. Subiectul oferă detalii despre diferitele câmpuri și logica de afaceri incluse în funcționalitatea suplimentară necesară companiilor bazate pe proiecte pentru a gestiona oportunitățile bazate pe proiecte.
+Oportunități bazate pe proiecte în Dynamics 365 Project Operations sunt proiectate cu extensii la Dynamics 365 Sales. Articolul oferă detalii despre diferitele domenii și logica de afaceri incluse în funcționalitatea suplimentară care este cerută de companiile bazate pe proiecte pentru a gestiona oportunitățile bazate pe proiecte.
 
 ## <a name="view-all-project-based-opportunities"></a>Vizualizați toate oportunitățile bazate pe proiecte
 

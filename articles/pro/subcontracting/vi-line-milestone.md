@@ -1,19 +1,19 @@
 ---
-title: Liniile de factură ale furnizorului pentru etapele de referință
-description: Acest subiect explică cum să creați linii de factură de furnizor pentru etapele unui subcontract.
+title: Liniile de factură furnizor pentru jaloane
+description: Acest articol explică cum să creați linii de factură pentru furnizori pentru etapele unui subcontract.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4fa11e2a4f459016b3ce141b03fe97e55c9a2759
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931345"
 ---
-# <a name="vendor-invoice-lines-for-milestones"></a>Liniile de factură ale furnizorului pentru etapele de referință
+# <a name="vendor-invoice-lines-for-milestones"></a>Liniile de factură furnizor pentru jaloane
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -21,7 +21,7 @@ _**Se aplică la:** implementare simplificată - facturare de la tranzacție la 
 
 O factură de furnizor în Microsoft Dynamics 365 Project Operations poate avea linii de factură de furnizor pentru etapele de referință care sunt definite pe o linie de subcontractare. Managerii de proiect pot folosi liniile de factură ale furnizorului pentru etapele de referință pentru a înregistra costurile serviciilor care sunt achiziționate ca costuri bazate pe etape care sunt suportate pentru serviciile sau produsele care sunt achiziționate pentru proiect.
 
-Liniile de factură pentru furnizori pentru etape trebuie să facă întotdeauna referire la o linie de subcontractare care are o metodă de facturare cu preț fix. Atunci când o linie de factură a furnizorului pentru etapele de referință face referire la o linie de subcontractare, managerii de proiect vor putea să potrivească și să verifice costurile subiacente ale timpului, cheltuielilor sau materialelor care fac referire la acea linie de subcontractare cu etapa care este facturată de furnizor.
+Liniile de factură pentru furnizori pentru etape trebuie să facă întotdeauna referire la o linie de subcontractare care are o metodă de facturare cu preț fix. Atunci când o linie de factură a furnizorului pentru etapele de referință face referire la o linie de subcontractare, managerii de proiect vor putea să potrivească și să verifice costurile subiacente ale timpului, cheltuielilor sau materialelor care fac referire la acea linie de subcontractare cu reperul care este facturat de furnizor.
 
 Următorul tabel oferă informații despre câmpurile de pe liniile de factură pentru furnizori pentru etape.
 

@@ -1,17 +1,17 @@
 ---
 title: Estimări financiare pentru cheltuieli în proiecte
-description: Acest subiect furnizează informații despre definirea sau estimarea cheltuielilor bazate pe proiecte.
+description: Acest articol oferă informații despre definirea sau estimarea cheltuielilor bazate pe proiecte.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925717"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Estimări financiare pentru cheltuieli în proiecte
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_

@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în martie 2022 - Implementare simplificată Project Operations
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în versiunea din martie 2022 a implementării Project Operations lite.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din martie 2022 a implementării Project Operations lite.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934243"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Ce este nou în martie 2022 - Implementare simplificată Project Operations
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.30.0.99
 
@@ -51,9 +51,9 @@ Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dyn
 
 ## <a name="removed-and-deprecated-features"></a>Funcții eliminate și depreciate
 
-The [Caracteristici eliminate sau depreciate în Operațiuni de proiect](../../whats-new/removed-depreciated-features-project.md) subiectul descrie caracteristici pentru care au fost eliminate sau depreciate Dynamics 365 Project Operations.
+The [Caracteristici eliminate sau depreciate în Operațiuni de proiect](../../whats-new/removed-depreciated-features-project.md) articolul descrie funcțiile care au fost eliminate sau depreciate pentru Dynamics 365 Project Operations.
 
 - O caracteristică eliminat nu mai este disponibilă în produs.
 - O funcție învechită nu este în dezvoltare activă și ar putea fi eliminată într-o actualizare viitoare.
 
-Un anunț de depreciere va apărea în [Caracteristici eliminate sau depreciate în Operațiuni de proiect](../../whats-new/removed-depreciated-features-project.md) subiect cu 12 luni înainte ca orice caracteristică să fie eliminată din produs.
+Un anunț de depreciere va apărea în [Caracteristici eliminate sau depreciate în Operațiuni de proiect](../../whats-new/removed-depreciated-features-project.md) articol cu 12 luni înainte ca orice caracteristică să fie eliminată din produs.

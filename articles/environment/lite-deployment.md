@@ -1,17 +1,17 @@
 ---
 title: Implementați Project Operations - simplificat
-description: Acest subiect oferă informații despre cum se instalează implementarea Project Operations lite - gestionați facturarea proforma.
+description: Acest articol oferă informații despre cum să instalați implementarea Project Operations lite - acord cu facturarea proforma.
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930333"
 ---
 # <a name="deploy-project-operations---lite"></a>Implementați Project Operations - simplificat
 
@@ -37,7 +37,7 @@ Operațiunile de proiect acceptă mai multe modele de implementare. Pentru a det
 
 
 ## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a> Instalați Project Operations pe un existent Dataverse mediu inconjurator
-1. Asigurați-vă că mediul nu a fost configurat cu [scriere duală](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) deoarece instalarea va instala apoi [Operațiuni de proiect pentru scenarii bazate pe resurse/non-aprovizionate](project-operations-integrated-deployment-overview.md) capabilități.
+1. Asigurați-vă că mediul nu a fost configurat cu [scriere duală](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) deoarece instalarea va instala apoi [Operațiuni de proiect pentru scenarii bazate pe resurse/neaprovizionate](project-operations-integrated-deployment-overview.md) capabilități.
 2. În calitate de [Administrator global sau de Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) cu o licență Project Operations, localizați mediul în [Centrul de administrare PowerPlatform](https://admin.powerplatform.com) unde puteți instala Project Operations.
 3. Instalați **Microsoft Dynamics 365 Project Operations** din lista de implementare a aplicațiilor Dynamics 365. Pentru informații suplimentare, consultați [aplicații Gestionați Dynamics 365](/power-platform/admin/manage-apps).
 

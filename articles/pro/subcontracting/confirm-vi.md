@@ -1,19 +1,19 @@
 ---
-title: Confirmați o factură de furnizor de proiect
-description: Acest subiect explică cum să confirmați o factură de furnizor de proiect în Microsoft Dynamics 365 Project Operations și impactul financiar al confirmării unei facturi de furnizor de proiect.
+title: Confirmarea unei facturi de furnizor pentru proiect
+description: Acest articol explică cum să confirmați o factură de furnizor de proiect în Microsoft Dynamics 365 Project Operations și impactul financiar al confirmării unei facturi de furnizor de proiect.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c248b3baec6d3f14a020e4fa93f3dad50c65b263
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932449"
 ---
-# <a name="confirm-a-project-vendor-invoice"></a>Confirmați o factură de furnizor de proiect
+# <a name="confirm-a-project-vendor-invoice"></a>Confirmarea unei facturi de furnizor pentru proiect
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

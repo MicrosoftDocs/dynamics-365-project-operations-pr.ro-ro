@@ -1,6 +1,6 @@
 ---
 title: Facturare în Project Service Automation
-description: Acest subiect oferă informații despre facturare.
+description: Acest articol oferă informații despre facturare.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926837"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Facturare în Project Service Automation
 
@@ -94,7 +94,7 @@ După ce **ProcessRunner** a terminat să ruleze, apelează **ProcessRunCaller**
 Lucrarea proces de lot pentru crearea facturilor este o lucrare recurentă. Dacă acest proces de lot rulează de mai multe ori, sunt create mai multe instanțe ale lucrării și cauzează erori. De aceea, ar trebui să porniți procesul de lot doar o singură dată și ar trebui să îl reporniți numai dacă se oprește rularea.
 
 > [!NOTE]
-> Facturarea în lot în Project Service Automation se execută numai pentru liniile de contract de proiect care sunt configurate prin planificarea facturilor. O linie de contract cu o metodă de facturare a prețurilor fixe trebuie să aibă configurate repere. O linie de contract de proiect cu o metodă de facturare a timpului și a materialului va avea nevoie de o planificare a facturilor pe bază de date. Informații despre configurarea frecvențelor de facturare în contextul unui proiect care se bazează pe o linie de ofertă, sunt furnizate în subiect, [Oferte și linii de ofertă](basic-quote-lines.md#invoice-schedule). Același lucru este valabil și pentru o linie de contract bazată pe proiect.      
+> Facturarea în lot în Project Service Automation se execută numai pentru liniile de contract de proiect care sunt configurate prin planificarea facturilor. O linie de contract cu o metodă de facturare a prețurilor fixe trebuie să aibă configurate repere. O linie de contract de proiect cu o metodă de facturare a timpului și a materialului va avea nevoie de o planificare a facturilor pe bază de date. Informații despre configurarea frecvențelor de facturare în contextul unui proiect care se bazează pe o linie de cotație sunt furnizate în articol, [Citate și rânduri de citate](basic-quote-lines.md#invoice-schedule). Același lucru este valabil și pentru o linie de contract bazată pe proiect.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Editați o factură PSA schiță
 

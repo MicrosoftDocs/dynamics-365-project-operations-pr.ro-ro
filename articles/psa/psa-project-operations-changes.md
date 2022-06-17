@@ -1,6 +1,6 @@
 ---
 title: Modificări de caracteristici de la Project Service Automation la Project Operations
-description: Acest subiect oferă o prezentare generală a modificărilor caracteristicilor de la Project Service Automation la Dynamics 365 Project Operations.
+description: Acest articol oferă o prezentare generală a modificărilor caracteristicilor de la Project Service Automation la Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925365"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Modificări de caracteristici de la Project Service Automation la Project Operations
 
-Upgrade-ul de la Dynamics 365 Project Service Automation la Dynamics 365 Project Operations Lite va fi livrat în trei etape. Acest subiect oferă informații despre schimbările majore pe care vă puteți aștepta să le vedeți când actualizarea este finalizată.
+Upgrade-ul de la Dynamics 365 Project Service Automation la Dynamics 365 Project Operations Lite va fi livrat în trei etape. Acest articol oferă informații despre schimbările majore pe care vă puteți aștepta să le vedeți când actualizarea este finalizată.
 
 | Livrare upgrade | Faza 1 <br>(ianuarie 2022) | Faza 2 <br>(Valul aprilie 2022) | Faza 3  |
 |------------------|------------------------|---------------------------|---------------------------|
@@ -70,7 +70,7 @@ Următorul tabel rezumă diferențele de programare dintre Project Service Autom
 
 The **Proiect** pagina din Operațiuni de proiect are un număr semnificativ de diferențe în comparație cu **Proiect** pagina din Project Service Automation.
 
-Următoarele acțiuni au fost eliminate din **Proiecte** pagina ca parte a actualizării fazei 1:
+Următoarele acțiuni au fost eliminate din **Proiecte** pagina ca parte a actualizării Fazei 1:
 
   - **Deschideți în MS Project**
   - **Creare șablon**
@@ -85,7 +85,7 @@ The **stare** fila a fost eliminată și **stare** câmpul este acum pe **rezuma
 
    ![Actualizări ale paginii Proiect.](media/projectform.png)
 
-The **Programa** fila a fost redenumită în **Sarcină** fila și prezintă noua experiență de planificare a proiectelor cu Project for the Web.
+The **Programa** fila a fost redenumită în **Sarcină** fila și oferă noua experiență de planificare a proiectelor cu Project for the Web.
 
    ![Noua filă Sarcini de proiect.](media/tasktab.png)
 
@@ -174,7 +174,7 @@ Următoarele câmpuri au fost adăugate.
 | msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Indică dacă se creează cerința de resurse pentru un membru al echipei generice nou creat.  |
 | msdyn_projectteam | msdyn_deletestatus                           | Starea de ștergere a membrului echipei de urmărit dacă există o solicitare de ștergere trimisă către serviciul de planificare a proiectului și dacă trimite cu succes un răspuns înapoi în intervalul de timp estimat. |
 | msdyn_projectteam | msdyn_effortcompleted                        | Urmărește efortul depus de membrul echipei în misiunile lor. |
-| msdyn_projectteam | msdyn_effortremaining                        | Urmărește efortul care nu a fost încă finalizat de membrul echipei pentru sarcinile lor. |
+| msdyn_projectteam | msdyn_effortremaining                        | Urmărește efortul care nu a fost încă finalizat de către membrul echipei în misiunile lor. |
 | msdyn_projectteam | msdyn_markedfordeletiontimer                 | Perioada de așteptare de la momentul în care membrul echipei trimite o solicitare de ștergere către serviciul de planificare a proiectului până când membrul echipei este șters efectiv pe Microsoft Dataverse.|
 | msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Marca temporală de înregistrat când solicitarea de ștergere a membrului echipei este trimisă către serviciul de planificare a proiectului. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Arată membrul echipei de proiect din care a fost copiat acest membru al echipei de proiect.  |

@@ -1,24 +1,24 @@
 ---
 title: Configurarea reținerii furnizorilor
-description: Acest subiect explică modul de configurare a păstrării furnizorului.
+description: Acest articol explică cum să configurați păstrarea furnizorilor.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929781"
 ---
 # <a name="set-up-vendor-retention"></a>Configurarea reținerii furnizorilor
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest subiect furnizează informații despre cum să configurați retenția furnizorului.
+Acest articol oferă informații despre cum să configurați păstrarea furnizorilor.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Configurați un cont de păstrare a furnizorului în registrul general
 

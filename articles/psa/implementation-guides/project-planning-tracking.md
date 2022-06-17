@@ -1,6 +1,6 @@
 ---
 title: Planificarea și urmărirea proiectului
-description: Acest subiect oferă un link către informații despre planificare și urmărire în Project Service Automation.
+description: Acest articol oferă un link către informații despre planificare și urmărire în Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933277"
 ---
 # <a name="project-planning-and-tracking"></a>Planificarea și urmărirea proiectului
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589901"
 
 Aplicația Project Service ajută organizațiile de servicii să identifice oportunități, să prezinte oferte, să ajungă la acorduri contractuale, să gestioneze resurse, să urmărească timpul și cheltuielile, să factureze clienți și să livreze proiecte la timp și în buget. 
 
-Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutul a fost mutat la următoarele subiecte:
+Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
 
 - [Planificări de proiect](../project-creating.md)
 - [Costuri și venit de proiect](../project-estimating.md)
@@ -43,7 +43,7 @@ Linkul PDF care a fost anterior în acest subiect a fost eliminat și conținutu
 - [Setări de proiect](../project-settings.md)
 
 > [!NOTE]
-> Acest subiect va fi eliminat într-o actualizare de documentație viitoare. 
+> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

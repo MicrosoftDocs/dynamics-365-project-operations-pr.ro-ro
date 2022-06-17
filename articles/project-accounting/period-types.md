@@ -1,23 +1,23 @@
 ---
 title: Tipuri de perioade
-description: Acest subiect oferă informații despre modul de configurare a tipurilor de perioadă pentru estimarea veniturilor.
+description: Acest articol oferă informații despre cum să configurați tipurile de perioade pentru estimarea veniturilor.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930977"
 ---
 # <a name="period-types"></a>Tipuri de perioade
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Un tip de perioadă definește frecvența cu care se estimează veniturile dintr-un proiect. Acest subiect oferă informații despre modul de configurare a tipurilor de perioadă pentru estimarea veniturilor. 
+Un tip de perioadă definește frecvența cu care se estimează veniturile dintr-un proiect. Acest articol oferă informații despre cum să configurați tipurile de perioade pentru estimarea veniturilor. 
 
 ## <a name="create-and-work-with-period-types"></a>Crearea și lucrul cu tipuri de perioade
 Pentru a crea și a lucra cu tipuri de perioadă, parcurgeți următorii pași:

@@ -1,17 +1,17 @@
 ---
 title: Înregistrați-vă pentru versiunile de încercare Project Operations
-description: Acest subiect oferă informații despre modul de implementare a unei versiuni de încercare a Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre cum să implementați o versiune de încercare a Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584289"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959697"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Înregistrați-vă pentru versiunile de încercare Project Operations 
 
@@ -19,9 +19,9 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/non-sto
 
 
 
-Acest subiect explică cum să vă abonați la oferta de previzualizare a partenerului și cum să implementați un mediu Dynamics 365 Project Operations.
+Acest articol explică cum să vă abonați la oferta de partener de previzualizare și să implementați a Dynamics 365 Project Operations mediu inconjurator.
 
-Cu noua versiune de încercare Project Operations, puteți implementa automat oricare dintre cele trei scenarii de implementare acceptate completând un chestionar care recomandă cea mai bună abordare de implementare. Acest subiect oferă informații despre cum să:
+Cu noua versiune de încercare Project Operations, puteți implementa automat oricare dintre cele trei scenarii de implementare acceptate completând un chestionar care recomandă cea mai bună abordare de implementare. Acest articol oferă informații despre cum să:
 
 - Vă valorificați oferta de încercare.
 - Începeți pregătirea.
@@ -89,7 +89,8 @@ Pentru a implementa o versiune de încercare a Dynamics 365 Project Operations, 
 4.  Selectați respectivul Microsoft Dataverse URL și adresele URL ale aplicațiilor Finance and Operations pentru a valida implementarea.
 
 ## <a name="configuring-dual-write"></a>Configurare scriere duală
-- Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizați setările de securitate pentru Operațiuni de proiect în Dataverse](resource-provision-new-environment.md).
+- Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizați setările de securitate pentru Operațiuni de proiect în Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Pentru a accesa configurația cu dublă scriere, navigați la instanța Finance and Operations, apoi navigați la **Management de date** > **Scriere dublă**.
 - Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu dublă scriere pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuirea de licențe

@@ -1,6 +1,6 @@
 ---
 title: Sincronizați actualele proiecte direct de la Project Service Automation în jurnalul de integrare a proiectului pentru postare în Finance and Operations
-description: Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza datele reale ale proiectului direct din Microsoft Dynamics 365 Project Service Automation la Finanțe și Operațiuni.
+description: Acest articol descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza datele reale ale proiectului direct din Microsoft Dynamics 365 Project Service Automation la Finanțe și Operațiuni.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929505"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizați actualele proiecte direct de la Project Service Automation în jurnalul de integrare a proiectului pentru postare în Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Acest subiect descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza datele reale ale proiectului direct din Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+Acest articol descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza datele reale ale proiectului direct din Dynamics 365 Project Service Automation la Dynamics 365 Finance.
 
 Șablonul sincronizează tranzacțiile de la Project Service Automation într-un tabel de etapizare în Finanțe. După finalizarea sincronizării, dvs. **trebuie să** importați datele din tabelul de etapizare în jurnalul de integrare.
 

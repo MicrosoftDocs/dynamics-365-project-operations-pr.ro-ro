@@ -1,6 +1,6 @@
 ---
 title: Pagina de primire pentru ofertare, prețuri și facturare
-description: Acest subiect oferă informații despre ofertare, prețuri și facturare.
+description: Acest articol oferă informații despre cotare, prețuri și facturare.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926745"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Pagina de primire pentru ofertare, prețuri și facturare
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581115"
 
 Ofertarea, tarifarea și facturarea sunt caracteristici care sunt utilizate de organizațiile mici și mari. Prin înțelegerea modului în care aceste caracteristici funcționează în aplicație, organizațiile pot personaliza mai ușor configurații.
 
-Următoarele subiecte furnizează mai multe informații despre funcționalitatea de ofertare, prețuri și facturare în PSA:
+Următoarele articole oferă mai multe informații despre ofertarea, prețurile și funcționalitatea de facturare în PSA:
 
 - [Proces vânzări](basic-sales-process.md)
 - [Linii de ofertă](basic-quote-lines.md)

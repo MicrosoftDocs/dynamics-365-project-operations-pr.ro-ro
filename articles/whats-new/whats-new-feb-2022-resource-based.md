@@ -1,24 +1,24 @@
 ---
 title: Ce este nou în februarie 2022 - Project Operations pentru scenarii bazate pe resurse/ne-stocate
-description: Acest subiect oferă informații despre actualizările de calitate care sunt disponibile în versiunea din februarie 2022 a Project Operations pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din februarie 2022 a Operațiunilor de proiect pentru scenarii bazate pe resurse/neaprovizionate.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933001"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în februarie 2022 - Project Operations pentru scenarii bazate pe resurse/ne-stocate
 
 *Se aplică la: Project Operations pentru scenarii bazate pe resurse/fără stoc*
 
-Acest subiect se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
 
 - Operațiuni de proiect în a Dataverse versiunea de mediu 4.28.0.120
 - Management de proiect și contabilitate într-un mediu Dynamics 365 Finance versiunea 10.0.24
@@ -56,14 +56,14 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | Facturarea și stabilirea prețurilor | 2556660 | S-a remediat verificarea datei de efectivitate care se face pe lista de prețuri care este atașată la o înregistrare a parametrilor proiectului. |
 | Managementul oportunităților | 2369202 | S-a corectat logica de afaceri care verifică că listele de prețuri care au date de intrare în vigoare suprapuse pot fi atașate aceluiași contract de proiect. |
 | Managementul oportunităților | 2385965 | S-a corectat comportamentul pe **Clienți** fila din **Contract de proiect** pagina când selectați **Salveaza si inchide**. |
-| Timp și cheltuieli | 2538503 | O sarcină de proiect trebuie să fie disponibilă în **Realitatea proiectului** entitate după ce este înregistrat un raport de cheltuieli. |
+| Timp și cheltuieli | 2538503 | O sarcină de proiect trebuie să fie disponibilă în **Realitatea proiectului** entitate după înregistrarea unui raport de cheltuieli. |
 
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate pe Dynamics 365 Finance
 
 | Zonă de caracteristici | Număr de referință | Actualizare de calitate |
 | --- | --- | --- |
-| Management de proiect și contabilitate | [615496](https://fix.lcs.dynamics.com/Issue/Details/?bugId=615496) | În timpul importului de note de credit de la furnizor, apare o eroare. Mesajul de eroare afirmă: „Suma reținută nu poate fi mai mare decât suma netă rămasă”. |
-| Management de proiect și contabilitate | [619391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=619391) | Dacă o propunere de factură include tranzacții cu taxe zero care sunt vânzări reale nefacturate, facturarea nu poate avea loc. |
+| Management de proiect și contabilitate | [615496](https://fix.lcs.dynamics.com/Issue/Details/?bugId=615496) | În timpul importului notelor de credit ale furnizorului, apare o eroare. Mesajul de eroare afirmă: „Suma reținută nu poate fi mai mare decât suma netă rămasă”. |
+| Management de proiect și contabilitate | [619391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=619391) | Dacă o propunere de factură include orice tranzacții cu taxe cu sumă zero care sunt vânzări reale nefacturate, facturarea nu poate avea loc. |
 | Management de proiect și contabilitate | [624423](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624423) | Costul postat nu este corect după actualizarea prețului de achiziție și **Activați gestionarea modificărilor** este activat.|
 | Management de proiect și contabilitate | [628386](https://fix.lcs.dynamics.com/Issue/Details/?bugId=628386) | Devizul de înregistrare pentru un proiect cu preț fix utilizează moneda și suma incorecte din bonul de estimare, chiar și atunci când **Activați moneda contractului de proiect pentru calcularea estimării** caracteristica este activată. |
 | Management de proiect și contabilitate | [629239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=629239) | **ProjDMFDataPopulation\_ Extensie** nu ar trebui să efectueze un apel pentru a activa urmărirea modificărilor fără a detecta excepții pentru entitățile care au chei de configurare care nu sunt activate. |
@@ -76,11 +76,11 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 
 ## <a name="removed-and-deprecated-features"></a>Funcții eliminate și depreciate
 
-The [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) subiectul descrie caracteristici pentru care au fost eliminate sau depreciate Dynamics 365 Project Operations.
+The [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) articolul descrie funcțiile pentru care au fost eliminate sau depreciate Dynamics 365 Project Operations.
 
 - O caracteristică eliminat nu mai este disponibilă în produs.
 - O funcție învechită nu este în dezvoltare activă și ar putea fi eliminată într-o actualizare viitoare.
 
-Un anunț de depreciere va apărea în [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) subiect cu 12 luni înainte ca orice caracteristică să fie eliminată din produs.
+Un anunț de depreciere va apărea în [Caracteristici eliminate sau depreciate în Operațiuni de proiect](removed-depreciated-features-project.md) articol cu 12 luni înainte ca orice caracteristică să fie eliminată din produs.
 
 Pentru modificările nerespective care afectează doar timpul de compilare, dar sunt compatibile binar cu mediile sandbox și de producție, timpul de depreciere va fi mai mic de 12 luni. De obicei, aceste modificări sunt actualizări funcționale care trebuie făcute compilatorului.

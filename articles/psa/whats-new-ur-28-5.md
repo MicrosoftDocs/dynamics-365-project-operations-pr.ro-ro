@@ -1,6 +1,6 @@
 ---
 title: Noutăți sau modificări la versiunea actualizată 28.5 Hotfix, V3 în Project Service Automation
-description: Acest subiect listează caracteristicile și corecțiile disponibile în versiunea actualizată 28.5 Hotfix, V3 pentru Project Service Automation.
+description: Acest articol listează caracteristicile și remedierile care sunt disponibile în Actualizarea Project Service Automation Versiunea 28.5 Remediere rapidă, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8c10e626094a229f2adf2137e847537becf29b55
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d232150445091e64ca0ec804994050757b159df
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928723"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-285-v3"></a>Ce este nou sau schimbat în Project Service Automation versiunea actualizată 28.5, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8595329"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest subiect listează caracteristicile și remedierile noi sau modificate pentru Project Service Automation V3, Actualizare versiunea 28.5 Această versiune are un număr de compilare de V3.10.46.87 și este, în general, disponibilă prin auto-actualizare în ianuarie 2021.
+Acest articol listează caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Actualizare versiunea 28.5 Această versiune are un număr de versiune V3.10.46.87 și este disponibilă în general printr-o actualizare automată în ianuarie 2021.
 
 ## <a name="update-release-285-hotfix"></a>Actualizare versiune 28.5 Hotfix
 

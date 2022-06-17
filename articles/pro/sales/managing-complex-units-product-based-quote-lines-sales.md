@@ -1,17 +1,17 @@
 ---
 title: Gestionarea unităților complexe, cum ar fi liniile de ofertă bazate pe produse per utilizator, pe lună - simplificat
-description: Acest subiect oferă informații despre gestionarea unităților complexe pentru linii de ofertă bazate pe produs.
+description: Acest articol oferă informații despre gestionarea unităților complexe pentru liniile de oferte bazate pe produse.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6ef70a328164291f37e42d106649178c8cfbe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88173468cd2e898331c4aa0a398792d9a0f3df10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929919"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Gestionarea unităților complexe, cum ar fi liniile de ofertă bazate pe produse per utilizator, pe lună - simplificat
 

@@ -1,6 +1,6 @@
 ---
 title: Metode de alocare a rezervărilor în Project Service Automation
-description: Acest subiect oferă informații despre diferitele modalități prin care puteți rezerva alocări.
+description: Acest articol oferă informații despre diferitele moduri în care puteți rezerva alocații.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929183"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metode de alocare a rezervărilor în Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Indiferent dacă adăugați un membru al echipei direct la un proiect pe fila **Echipă** sau dacă rezervați o resursă la un proiect sau o cerință din tabloul de planificare există câteva metode de alocare a rezervărilor diferite pe care le puteți utiliza. Acest subiect explică modul în care funcționează fiecare metodă și ce metode ar putea duce la suprarezervarea de resurse.
+Indiferent dacă adăugați un membru al echipei direct la un proiect pe fila **Echipă** sau dacă rezervați o resursă la un proiect sau o cerință din tabloul de planificare există câteva metode de alocare a rezervărilor diferite pe care le puteți utiliza. Acest articol explică cum funcționează fiecare metodă și care metode ar putea duce la resurse de suprarezervare.
 
 ## <a name="full-capacity"></a>Capacitate completă 
 Metoda Capacitate completă rezervă întreaga capacitate a resursei pentru datele de pornire și finalizare indicate. De exemplu, în cazul în care o resursă are un calendar setat să lucreze 8 ore pe zi, 5 zile pe săptămână, stabilirea unei date de început și de sfârșit care acoperă 5 zile lucrătoare rezervă resursa pentru 40 de ore. Rezervarea se face indiferent de capacitatea rămasă a resursei. În cazul în care o resursă este deja rezervată pe alte proiecte în această perioadă, cele 40 de ore sunt rezervate ca ore suplimentare, ceea ce ar putea duce la suprarezervări.

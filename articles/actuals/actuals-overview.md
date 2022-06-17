@@ -1,6 +1,6 @@
 ---
 title: Date reale
-description: Acest subiect oferă informații despre cum să lucrați cu cifrele reale în Microsoft Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre cum să lucrați cu datele reale în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924813"
 ---
 # <a name="actuals"></a>Date reale
 
@@ -33,9 +33,9 @@ Valorile reale reprezintă progresul financiar revizuit și aprobat și evoluți
 
 Operațiunile de proiect înregistrează tranzacțiile financiare care au loc în timpul ciclului de viață al angajamentului de proiect ca date reale. Crearea efectivelor la diferite evenimente din ciclul de viață variază, în funcție de faptul dacă angajamentul proiectului folosește modelul de facturare cu timp și materiale sau modelul de facturare cu preț fix și dacă este în stadiul de pre-vânzare sau este un proiect intern.
 
-Următoarele subiecte explică impactul asupra tabelului Realități la diferite evenimente pentru diferite variații:
+Următoarele articole explică impactul asupra tabelului Realități la diferite evenimente pentru diferite variații:
 
-- [Impactul real într-un timp și implicarea materialelor](ActualsonTM.md)
+- [Impactul real într-o angajare în timp și materiale](ActualsonTM.md)
 - [Impactul real într-un angajament cu preț fix](ActualonFP.md)
 - [Impactul real în timpul etapei de pre-vânzare a unui angajament](ActualonPreSales.md)
 - [Impactul real pentru un proiect intern](ActualonInternal.md)

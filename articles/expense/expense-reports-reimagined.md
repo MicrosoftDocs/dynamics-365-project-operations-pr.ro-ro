@@ -1,6 +1,6 @@
 ---
 title: Rapoartele de cheltuieli reimaginate (conțin videoclip)
-description: Acest subiect explică experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
+description: Acest articol explică experiența reproiectată și reimaginată pentru introducerea raportului de cheltuieli.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930287"
 ---
 # <a name="expense-reports-reimagined"></a>Rapoartele de cheltuieli reinventate
 
@@ -58,7 +58,7 @@ Pentru a activa noua experiență, utilizați spațiu de lucru **Gestionarea car
 | Salvați și adăugați noi linii de cheltuieli | Butoanele **Salvați** și **Nou** sunt disponibile atunci când sunt introduse noi cheltuieli, pentru a vă ajuta să introduceți rapid liniile de cheltuieli. |
 | O vizibilitate mai bună în linii separate și detaliate | Liniile detaliate și împărțite sunt adăugate direct la lista cheltuielilor pentru a crește vizibilitatea și a vă ajuta să determinați cu ușurință dacă există erori. |
 | Vizualizați detaliile subcategoriei în rânduri detaliate | Liniile detaliate ale unei cheltuieli părinte prezintă etichetele subcategoriei pe raportul de cheltuieli. Detalierea vă permite să revizuiți detaliile granulare dintr-o privire.|
-|Detaliați rapid cheltuielile recurente | Spațiul de lucru pentru cheltuieli reimaginat oferă posibilitatea de a detalia rapid cheltuielile recurente adăugând subcategoria, data de începere și cantitatea. Cantitatea se referă la numărul de ori în care încărcarea este repetată pe o perioadă continuă. |
+|Detaliați rapid cheltuielile recurente | Spațiul de lucru pentru cheltuieli reimaginat oferă posibilitatea de a detalia rapid cheltuielile recurente adăugând subcategoria, data de începere și cantitatea. Cantitatea se referă la numărul de ori se repetă încărcarea într-o perioadă continuă. |
 | Afișați chitanțele în timpul detalierii | Chitanțele pot fi afișate în timpul detalierii. |
 | Selecție de avans în numerar | Selectați unul sau mai multe avansuri de numerar pentru realizarea unei singure tranzacții de cheltuieli. |
 | Sold avans în numerar | Examinați soldul avansului de numerar în timp real atunci când creați o înregistrare a cheltuielilor comparativ cu avansurile de numerar aprobate și plătite. |

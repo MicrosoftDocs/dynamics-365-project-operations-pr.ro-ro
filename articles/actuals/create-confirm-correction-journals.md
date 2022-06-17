@@ -1,6 +1,6 @@
 ---
 title: Creați și confirmați jurnalele de corecție
-description: Acest subiect oferă informații despre cum să creați și să confirmați un jurnal de corecție.
+description: Acest articol oferă informații despre cum să creați și să confirmați un jurnal de corecție.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 70886aa5a3060fa58461ce215e4de3b7286093e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928079"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Creați și confirmați jurnalele de corecție
 
@@ -88,11 +88,11 @@ Parcurgeți următorii pași pentru a corecta una sau mai multe intrări din jur
 
 3. Pe **Jurnal nou** pagina, în **Descriere** câmp, introduceți o descriere pentru corecție. Apoi, pe **Corectarea materialului** fila, în **Noi valori pentru materiale** secțiunea, selectați câmpurile de date de corectat pentru liniile de material selectate. De exemplu, puteți atribui materialul unui alt proiect sau puteți corecta produsul, data materialului sau subcontractul.
 
-4. Selectați **Previzualizare**. Apoi, în caseta de dialog, selectați **Bine**.
+4. Selectați **Previzualizare**. Apoi, în caseta de dialog, selectați **O.K**.
 
 5. Pe **Rânduri de jurnal** fila, verificați corecțiile. Puteți vizualiza o listă cu valorile reale originale care sunt legate de intrările de material selectate care au fost inversate și liniile corespunzătoare corectate care au fost create.
 
-6. Când valorile corectate apar așa cum este așteptat, selectați **Confirmare**. Apoi, în caseta de dialog, selectați **Bine**. Dacă valorile nu sunt cele așteptate, selectați **Anulare** a reveni la **Actuale** listă. Apoi repetați pașii de la 2 la 5.
+6. Când valorile corectate apar așa cum este așteptat, selectați **Confirmare**. Apoi, în caseta de dialog, selectați **O.K**. Dacă valorile nu sunt cele așteptate, selectați **Anulare** a reveni la **Actuale** listă. Apoi repetați pașii de la 2 la 5.
 
 7. După ce confirmați jurnalul de corecție, reveniți la proiectul sau proiectele pe care le-ați actualizat pentru a vedea modificările.
 

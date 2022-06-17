@@ -1,17 +1,17 @@
 ---
 title: Setări ofertă de proiect
-description: Acest subiect oferă informații despre informațiile și setările care se aplică și care au impact asupra ofertelor de proiect.
+description: Acest articol oferă informații despre informațiile și setările care se aplică și care au impact asupra cotațiilor de proiect.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c5870c75d5337b951a453000369baf9f6e81a1da
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931943"
 ---
 # <a name="header-details-for-project-based-quotes"></a>Detalii antet pentru oferte bazate pe proiect
 

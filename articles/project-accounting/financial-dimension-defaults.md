@@ -1,17 +1,17 @@
 ---
 title: Valori implicite pentru dimensiunile financiare
-description: Acest subiect oferă informații despre cum să configurați valorile implicite ale dimensiunii financiare.
+description: Acest articol oferă informații despre cum să configurați valorile prestabilite ale dimensiunii financiare.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 10d9e0d739ac1b7681e2e77ec651daf3da8316ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931069"
 ---
 # <a name="financial-dimension-defaults"></a>Valori implicite pentru dimensiunile financiare
 
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 
 
-Dynamics 365 Project Operations folosește [Dimensiunile financiare](/dynamics365/finance/general-ledger/financial-dimensions) cadru în Dynamics 365 Finance pentru a oferi informații suplimentare despre tranzacțiile din registrul secundar al proiectului și din registrul general.
+Dynamics 365 Project Operations folosește [Dimensiuni financiare](/dynamics365/finance/general-ledger/financial-dimensions) cadru în Dynamics 365 Finance pentru a oferi informații suplimentare despre tranzacțiile din registrul secundar al proiectului și din registrul general.
 
 Dimensiunile financiare implicite pot fi stabilite pentru un client, o sursă de finanțare a proiectului, o etapă importantă, o linie de contract de proiect sau un proiect.
 

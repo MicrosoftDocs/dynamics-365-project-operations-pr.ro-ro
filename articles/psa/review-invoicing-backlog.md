@@ -1,6 +1,6 @@
 ---
 title: Revizuiți jurnalul de așteptare de facturare pe proiecte și contracte de proiect
-description: Acest subiect oferă informații despre cum se revizuiesc jurnalele de așteptare de timp, cheltuieli și produs și cum se marchează ca fiind pregătite pentru facturare.
+description: Acest articol oferă informații despre cum să examinați timpul, cheltuielile și stocurile de produse și cum să le marcați ca gata pentru facturare.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928907"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Revizuiți jurnalul de așteptare de facturare pe proiecte și contracte de proiect
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600573"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Când o tranzacție este gata pentru a avea o factură creată și procesată, tranzacția ar trebui să fie marcată ca **Gata de facturare**. Acest subiect descrie tipurile de tranzacții care pot fi create.
+Când o tranzacție este gata pentru a avea o factură creată și procesată, tranzacția ar trebui să fie marcată ca **Gata de facturare**. Acest articol descrie tipurile de tranzacții care pot fi create.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Revizuiți jurnalele de așteptare de facturare timp și materiale
 

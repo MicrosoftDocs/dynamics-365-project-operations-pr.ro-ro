@@ -1,17 +1,17 @@
 ---
 title: Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
-description: Acest subiect oferă informații și exemple pentru utilizarea API-urilor de planificare a proiectului.
+description: Acest articol oferă informații și exemple pentru utilizarea API-urilor de planificare a proiectului.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929229"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
 
@@ -60,7 +60,7 @@ Pentru că înregistrează cu amândouă **CreateProjectV1** și **CreateTeamMem
 | --- | --- | --- | --- | --- |
 Activitate de proiect | Da | Da | Da | The **Progres**, **finalizat**, și **Efort Rămân** câmpurile pot fi editate în Project for the Web, dar nu pot fi editate în Project Operations.  |
 | Dependență de activitate proiect | Da |  | Da | Înregistrările de dependență ale sarcinii de proiect nu sunt actualizate. În schimb, o înregistrare veche poate fi ștearsă și poate fi creată o înregistrare nouă. |
-| Atribuire de resurse | Da | Da | | Operațiile cu următoarele câmpuri nu sunt acceptate: **BookableResourceID**, **Efort**, **EfortCompletat**, **EfortRămânând**, și **PlannedWork**. Înregistrările de alocare a resurselor nu sunt actualizate. În schimb, vechea înregistrare poate fi ștearsă și poate fi creată o nouă înregistrare. |
+| Atribuire de resurse | Da | Da | | Operațiile cu următoarele câmpuri nu sunt acceptate: **BookableResourceID**, **Efort**, **EfortCompletat**, **EfortRămânând**, și **PlannedWork**. Înregistrările de alocare a resurselor nu sunt actualizate. În schimb, înregistrarea veche poate fi ștearsă și poate fi creată o înregistrare nouă. |
 | Pachet de proiect | Da | Da | Da | Bucket-ul implicit este creat utilizând **CreateProjectV1** API. Asistența pentru crearea și ștergerea compartimentelor de proiecte a fost adăugată în Actualizarea Versiunea 16. |
 | Membru echipă de proiect | Da | Da | Da | Pentru operația de creare, utilizați API **CreateTeamMemberV1**. |
 | Project | Da | Da |  | Operațiunile cu următoarele câmpuri nu sunt acceptate: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Efort**, **EfortCompletat**, **EfortRămânând**, **Progres**, **Finalizare**, **TaskEarliestStart** și **Durată**. |

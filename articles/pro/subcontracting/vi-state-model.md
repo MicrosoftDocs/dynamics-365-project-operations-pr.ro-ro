@@ -1,25 +1,25 @@
 ---
-title: Tranziții de stat pe o factură de furnizor
-description: Acest subiect explică tranzițiile de stare pe o factură de furnizor în Microsoft Dynamics 365 Project Operations.
+title: Tranziții de stare pe o factură de furnizor
+description: Acest articol explică tranzițiile de stare pe o factură de furnizor în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934335"
 ---
-# <a name="state-transitions-on-a-vendor-invoice"></a>Tranziții de stat pe o factură de furnizor
+# <a name="state-transitions-on-a-vendor-invoice"></a>Tranziții de stare pe o factură de furnizor
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest subiect explică tranzițiile de stare pe o factură de furnizor în Microsoft Dynamics 365 Project Operations. Sunt utilizate următoarele stări: **Proiect**, **revizuire**, **·**, **asteptare**, și **Anulat**.
+Acest articol explică tranzițiile de stare pe o factură de furnizor în Microsoft Dynamics 365 Project Operations. Sunt utilizate următoarele stări: **Proiect**, **revizuire**, **·**, **asteptare**, și **Anulat**.
 
 Următoarele ilustrații arată tranzițiile de stare.
 

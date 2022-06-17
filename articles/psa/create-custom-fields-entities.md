@@ -1,6 +1,6 @@
 ---
 title: Crearea câmpurilor și entităților particularizate
-description: Acest subiect explică modul de creare a seturilor de opțiuni și a entităților în soluția proprie în platforma Power Apps platform.
+description: Acest articol explică cum să creați seturi de opțiuni și entități în propria soluție în Power Apps platformă.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926929"
 ---
 # <a name="create-custom-fields-and-entities"></a>Crearea câmpurilor și entităților particularizate 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Parcurgeți pașii următori în orice moment în care doriți să creați un set de opțiuni sau o entitate particularizat(ă) pe platforma Power Apps.  
-Procedurile din acest subiect trebuie parcurse folosind interfața web a Project Service Automation (PSA).
+Procedurile din acest articol trebuie finalizate folosind interfața web a Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Vă recomandăm să efectuați toate modificările de dimensiune de tarifare particularizate într-o soluție separată. Această bună practică importantă oferă flexibilitate în viitor pentru a actualiza sau elimina modificările după este necesar, va ajuta la reutilizarea activității dvs. și facilitează portarea acestor modificări într-o altă instanță. După ce ați făcut toate modificările necesare, exportați această soluție ca **Soluție gestionată** și importați-o în alte instanțe pentru a reutiliza configurația dvs. de tarifare.

@@ -1,19 +1,19 @@
 ---
-title: Linii de factură a furnizorului pentru timp
-description: Acest subiect explică cum să înregistrați liniile de factură ale furnizorului pentru costurile de timp pe care subcontractanții le pun.
+title: Liniile de factură furnizor pentru timp
+description: Acest articol explică cum să înregistrați liniile de factură ale furnizorului pentru costurile de timp pe care subcontractanții le pun.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ac598dff7b0b4a29ac0397a31130ada3b197fe44
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b81d2884580e9054457906627c1f9101f435524
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927573"
 ---
-# <a name="vendor-invoice-lines-for-time"></a>Linii de factură a furnizorului pentru timp
+# <a name="vendor-invoice-lines-for-time"></a>Liniile de factură furnizor pentru timp
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -38,7 +38,7 @@ Următorul tabel oferă informații despre câmpurile de pe liniile de factură 
 | Rol | Rolul resurselor de subcontractare al căror timp este facturat. | Acest câmp specifică rolul pe care îl au resursele de subcontractare al căror timp este facturat pe factura furnizorului. |
 | Resursă ce se poate rezerva | Numele subcontractantului al cărui timp este facturat. Selectarea unei resurse rezervabile este opțională. | Dacă acest câmp este lăsat necompletat, managerul de proiect poate potrivi linia facturii furnizorului cu timpul înregistrat de orice resursă care aparține furnizorului pe linia facturii furnizorului. |
 | Cantitate | Introduceți numărul de ore de timp care sunt facturate de către furnizor pe linia de factură. |Fără |
-| Grup de unități | Valoarea implicită este **Grup de unități de timp** si nu poate fi schimbat. | Fără |
+| Grup de unități | Valoarea implicită este **Grup de unități de timp** și nu poate fi schimbat. | Fără |
 | Unitate | Valoarea implicită este unitatea de bază de ore din grupul de unități de timp. Puteți modifica această valoare pentru a cumpăra în orice unitate din grupul de unități de timp, cum ar fi ziua sau săptămână. | Combinația de **Rol** și **Unitate** valorile vor fi utilizate ca valoare implicită sau calculată pentru **Preț unitar** câmpul de pe linia facturii furnizorului. |
 | Preț unitar | Prețul unitar implicit folosește combinația de **Rol** și **Unitate** valorile din lista de prețuri a proiectului care este aplicabilă datei tranzacției din linia facturii furnizorului. | Dacă prețul pentru lista de prețuri de proiect aplicabilă este configurat într-o unitate care diferă de unitatea de pe linia de factură a furnizorului, sistemul utilizează conversia unității pentru a calcula prețul pe unitate. |
 | Subtotal | Acest câmp numai pentru citire este calculat ca *Cantitate*&times;*Preț unitar*, dacă valorile sunt introduse în ambele **Cantitate** câmpul și **Preț unitar** camp. Dacă unul sau ambele câmpuri sunt goale, puteți introduce o valoare în acest câmp. | Fără |

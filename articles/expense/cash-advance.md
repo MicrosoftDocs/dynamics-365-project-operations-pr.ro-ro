@@ -1,6 +1,6 @@
 ---
 title: Avans în numerar
-description: Acest subiect oferă informații despre avansuri de numerar.
+description: Acest articol oferă informații despre avansurile în numerar.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -8,12 +8,12 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bc270944faa7c16d2e97a988495a2a16380ba879
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931529"
 ---
 # <a name="cash-advance"></a>Avans în numerar
 
@@ -66,7 +66,7 @@ Când creați și trimiteți un raport de cheltuieli pentru avansul de numerar p
  
  Când aceste caracteristici sunt activate:
  
-  - Puteți adăuga unul sau mai multe avansuri de numerar pentru fiecare linie de cheltuieli.
+  - Puteți adăuga unul sau mai multe avansuri în numerar pentru fiecare linie de cheltuieli.
   - Soldul disponibil al unui avans de numerar este vizibil în timp real atunci când se salvează un raport de cheltuieli. Acest lucru vă permite să procesați tranzacții de cheltuieli și să returnați tranzacții în numerar în același timp.
   - Puteți selecta mai multe avansuri de numerar pentru o tranzacție de cheltuieli.
   - Datele de reconciliere a avansului de numerar sunt disponibile utilizând o interogare. 

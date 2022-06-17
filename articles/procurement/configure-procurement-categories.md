@@ -1,18 +1,18 @@
 ---
 title: Utilizați categorii de achiziții cu comenzile de achiziție de proiect și facturile furnizorilor în așteptare
-description: Acest subiect descrie modul de configurare a categoriilor de achiziții care pot fi utilizate cu comenzile de achiziție de proiect și facturile furnizorilor în așteptare.
+description: Acest articol descrie modul de configurare a categoriilor de achiziții care pot fi utilizate cu comenzile de achiziție de proiect și cu facturile furnizorilor în așteptare.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613363"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927435"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Utilizați categorii de achiziții cu comenzile de achiziție de proiect și facturile furnizorilor în așteptare
 
@@ -47,7 +47,7 @@ Urmați acești pași pentru a mapa categoriile de proiecte cu categoriile de ac
 
 1. Mergi la **Achiziții și aprovizionare \> Categorii de achiziții**.
 1. Selectați **Editați ierarhia categoriilor**.
-1. Selectați nodul dorit de ierarhie a categoriilor și apoi, pe **Atribuiți categorii de proiecte** fila, asociați nodul cu categoria de proiect din **Timp**, Cheltuieli** sau **,Proiect articol** categorie (adică **Timp implicit** sau **Implicit-Cheltuieli** categorie).
+1. Selectați nodul dorit de ierarhie a categoriilor și apoi, pe **Atribuiți categorii de proiecte** fila, asociați nodul cu categoria de proiect din **Timp**, **·**, sau, **Proiectul articolului** categorie (adică **Timp implicit** sau **Implicit-Cheltuială** categorie).
 1. Selectați **Salvare**.
 1. Închideți pagina.
 

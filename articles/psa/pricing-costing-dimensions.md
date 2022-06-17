@@ -1,6 +1,6 @@
 ---
 title: Pagină principală prețuri și dimensiuni de cost
-description: Acest subiect oferă o prezentare generală a dimensiunilor prețurilor.
+description: Acest articol oferă o prezentare generală a dimensiunilor prețurilor.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593627"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925457"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Pagină principală prețuri și dimensiuni de cost
 
@@ -47,7 +47,7 @@ PSA livrează cu un set implicit de dimensiuni de stabilire a prețurilor. Le pu
 > [!IMPORTANT]
 > Dacă ați utilizat câmpurile predefinite de unitate de rol și organizaționale ca dimensiuni ale prețurilor la versiunea 3 a PSA, nu va exista nicio modificare observabilă. Puteți continua să utilizați Project Service ca de obicei. 
 
-Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru mai multe informații, consultați următoarele subiecte, însă rețineți că trebuie să finalizați procedurile în ordinea de mai jos:
+Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru mai multe informații, consultați următoarele articole, totuși rețineți că trebuie să finalizați procedurile în ordinea de mai jos:
 
 - [Crearea câmpurilor și entităților particularizate](create-custom-fields-entities.md)
 - [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și la entitățile tranzacționale](field-references.md)

@@ -1,17 +1,17 @@
 ---
 title: Instalați și aplicați datele de configurare în Common Data Service
-description: Acest subiect furnizează informații despre configurare și aplicarea datelor de configurare în Project Operations.
+description: Acest articol oferă informații despre configurarea și aplicarea datelor de configurare în Operațiuni de proiect.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928033"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Instalați și aplicați datele de configurare în Common Data Service 
 

@@ -1,17 +1,17 @@
 ---
 title: Versiuni de hartă Project Operations cu scriere duală
-description: Acest subiect oferă lista hărților cu dublă scriere necesare pentru Dynamics 365 Project Operations.
+description: Acest articol oferă lista de hărți cu scriere duală necesare pentru Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612779"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959661"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versiuni de hartă Project Operations cu scriere duală
 
@@ -30,7 +30,7 @@ Următoarele hărți sunt condiții preliminare necesare pentru soluția Project
 | Clienți V3 (conturi) | Nu este necesar pentru pregătire. |
 | Furnizori V2 (msdyn_vendors) | Nu este necesar pentru pregătire. |
 
-1. Din lista de hărți, selectați harta Registru **(msdyn\_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. În **Master pentru sincronizarea inițială** câmp, selectați **Aplicații de finanțe și operațiuni** atât pentru harta registrului, cât și pentru toate hărțile prealabile. Selectare rând **Rulare**.
+1. Din lista de hărți, selectați harta Registru **(msdyn\_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. În **Master pentru sincronizarea inițială** câmp, selectați **Aplicații de finanțe și operațiuni** atât pentru harta registrului, cât și pentru toate hărțile necesare. Selectare rând **Rulare**.
 
 ![Sincronizarea hărții registrului contabil.](media/DW6.png)
 
@@ -54,7 +54,7 @@ Următoarele hărți sunt necesare pentru o soluție Project Operations. Versiun
 | Entitate de integrare a Project Operations pentru estimări orare (msdyn_resourceassignments) | 1.0.0.5 | Nu este necesar pentru pregătire. ||
 | Entitate de integrare de export Project Operations pentru categorii de cheltuieli (msdyn_expensecategories) | 1.0.0.1 | Nu este necesar pentru pregătire. ||
 | Entitate de integrare a Project Operations pentru cheltuieli de export (msdyn_expenses) | 1.0.0.3 | Nu este necesar pentru pregătire. ||
-| Entitatea privind exportul facturilor de la furnizori în proiectul de integrare Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Nu este necesar pentru pregătire. ||
+| Entitatea privind exportul facturilor de la furnizori în proiectul de integrare Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Nu este necesar pentru pregătire. |10.0.26 sau ulterioare|
 | Entitatea privind exportul liniilor de factură de la furnizori în proiectul de integrare Project operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Nu este necesar pentru pregătire. | 10.0.26 sau ulterioare |
 | Roluri de resurse de proiect pentru toate companiile (bookableresourcecategories) | 1.0.0.1 | Necesită o sincronizare inițială pentru harta tabelului pentru a sincroniza rolurile de resurse ale managerului de proiect și ale membrilor echipei care sunt populate în mediul Dynamics 365 Dataverse în timpul aprovizionării. Dataverse este sursa principală pentru sincronizarea inițială. ||
 | Sarcini de proiect (msdyn_projecttasks) | 1.0.0.4 | Nu este necesar pentru pregătire. ||

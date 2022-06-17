@@ -1,18 +1,18 @@
 ---
 title: Asigurarea accesului pentru un nou mediu
-description: Acest subiect furnizează informații despre ucm să provizionați un nou mediu Project Operations.
+description: Acest articol oferă informații despre cum să furnizați un nou mediu Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931621"
 ---
 # <a name="provision-a-new-environment"></a>Asigurarea accesului pentru un nou mediu
 
@@ -20,7 +20,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 
 
-Acest subiect furnizează informații despre cum să furnizați un mediu nou Dynamics 365 Project Operations pentru scenarii bazate pe resurse/fără stoc.
+Acest articol oferă informații despre cum să furnizați un nou Dynamics 365 Project Operations mediu pentru scenarii bazate pe resurse/neaprovizionate.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activați pregătirea automată a Project Operations într-un proiect LCS
 
@@ -34,7 +34,7 @@ Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pen
 
 ## <a name="provision-a-project-operations-environment"></a>Furnizarea unui mediu de Project Operations
 
-1. Deschideți un nou Dynamics 365 Finance [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) sau [mediul sandbox/producție](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) implementare. 
+1. Deschideți un nou Dynamics 365 Finance [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) sau [mediul sandbox/ de producție](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) implementare. 
 2. Vom arăta expertul **Pregătirea mediului**. 
 
    > [!IMPORTANT]

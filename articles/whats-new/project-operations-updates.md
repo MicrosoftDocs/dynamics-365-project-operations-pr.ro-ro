@@ -1,18 +1,18 @@
 ---
 title: Actualizări Project Operations
-description: Acest subiect oferă informații despre dimensiunile versiunile lansate de Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre versiunile lansate ale Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
-ms.translationtype: HT
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732946"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959708"
 ---
 # <a name="project-operations-updates"></a>Actualizări Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations este format din două componente:
 
 | Project Operations pe mediu Dataverse | Management de proiect și contabilitate în mediile aplicațiilor de finanțe și operațiuni | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Pentru Resursă de operațiuni de proiect/scenariu fără stoc, vă recomandăm să utilizați versiunea orchestrației cu scriere duală 2.3.1.15 sau o versiune superioară.
 
@@ -47,24 +47,24 @@ Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lu
 | Stație | Regiunea | Numărul versiunii curente | Actualizări automate pentru implementarea Lite | Actualizări automate pentru implementare de resurse/nestocate | Următorul număr de versiune | Următoarea versiune este disponibilă în general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stația 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima apariție         |  4.42.0.70      | Finalizați           | Finalizați            | TBD                 | 27 mai 2022        |
+|   &nbsp;  | Prima apariție         |  4.43.0.77      | Finalizați           | Finalizați            | TBD                 | 01 iulie 2022       |
 | Stația 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Sud         |  4.42.0.70      | Finalizați           | Finalizați            | TBD                 | 27 mai 2022        |
-|   &nbsp;  | Canada                |  4.42.0.70      | Finalizați           | Finalizați            | TBD                 | 27 mai 2022        |
-|   &nbsp;  | India                 |  4.42.0.70      | Finalizați           | Finalizați            | TBD                 | 27 mai 2022        |
-|   &nbsp;  | Franța                |  4.42.0.70      | Finalizați           | Finalizați            | TBD                 | 27 mai 2022        |
-|   &nbsp;  | Africa de Sud          |  4.42.0.70      | Finalizați           | Finalizați            | TBD                 | 27 mai 2022        |
-|   &nbsp;  | Elveția           |  4.42.0.70      | Finalizați           | Finalizați            | TBD                 | 27 mai 2022        |
+|   &nbsp;  | America de Sud         |  4.43.0.77      | Finalizați           | Finalizați            | TBD                 | 01 iulie 2022       |
+|   &nbsp;  | Canada                |  4.43.0.77      | Finalizați           | Finalizați            | TBD                 | 01 iulie 2022       |
+|   &nbsp;  | India                 |  4.43.0.77      | Finalizați           | Finalizați            | TBD                 | 01 iulie 2022       |
+|   &nbsp;  | Franța                |  4.43.0.77      | Finalizați           | Finalizați            | TBD                 | 01 iulie 2022       |
+|   &nbsp;  | Africa de Sud          |  4.43.0.77      | Finalizați           | Finalizați            | TBD                 | 01 iulie 2022       |
+|   &nbsp;  | Elveția           |  4.43.0.77      | Finalizați           | Finalizați            | TBD                 | 01 iulie 2022       |
 | Stația 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | TBD                 | 03 iunie 2022       |
-|   &nbsp;  | Asia Pacific          |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | TBD                 | 03 iunie 2022       |
-|   &nbsp;  | Regatul Unit         |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | TBD                 | 03 iunie 2022       |
-|   &nbsp;  | Oceania               |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | TBD                 | 03 iunie 2022       |
-|   &nbsp;  | Emiratele Arabe Unite  |  4.42.0.70      | 13 mai 2022       | 13 mai 2022        | TBD                 | 03 iunie 2022       |
+|   &nbsp;  | Japonia                 |  4.43.0.77      | 03 iunie 2022      | 03 iunie 2022       | TBD                 | 08 iulie 2022       |
+|   &nbsp;  | Asia Pacific          |  4.43.0.77      | 03 iunie 2022      | 03 iunie 2022       | TBD                 | 08 iulie 2022       |
+|   &nbsp;  | Regatul Unit         |  4.43.0.77      | 03 iunie 2022      | 03 iunie 2022       | TBD                 | 08 iulie 2022       |
+|   &nbsp;  | Oceania               |  4.43.0.77      | 03 iunie 2022      | 03 iunie 2022       | TBD                 | 08 iulie 2022       |
+|   &nbsp;  | Emiratele Arabe Unite  |  4.43.0.77      | 03 iunie 2022      | 03 iunie 2022       | TBD                 | 08 iulie 2022       |
 | Stația 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.41.0.45      | Finalizați           | Finalizați            | 4.42.0.70           | 13 mai 2022        |
+|   &nbsp;  | Europa                |  4.42.0.70      | Finalizați           | Finalizați            | 4.43.0.77           | 10 iunie 2022       |
 | Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Nord         |  4.41.0.45      | Finalizați           | Finalizați            | 4.42.0.70           | 20 mai 2022        |
+|   &nbsp;  | America de Nord         |  4.42.0.70      | Finalizați           | Finalizați            | 4.43.0.77           | 17 iunie 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programul de lansare pentru managementul proiectelor și contabilitate în mediul aplicațiilor Finanțe și operațiuni
 

@@ -1,19 +1,19 @@
 ---
-title: Linii de facturi de furnizor pentru produse
-description: Acest subiect explică cum să înregistrați liniile de factură de la furnizori pentru produse și să utilizați diferitele câmpuri pentru a înregistra achizițiile de produse de la furnizori.
+title: Liniile de factură furnizor pentru produse
+description: Acest articol explică cum să înregistrați liniile de factură de la furnizori pentru produse și să utilizați diferitele câmpuri pentru a înregistra achizițiile de produse de la furnizori.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af078cd4392f8353b509db2dc48dc5237b8ee275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931391"
 ---
-# <a name="vendor-invoice-lines-for-products"></a>Linii de facturi de furnizor pentru produse
+# <a name="vendor-invoice-lines-for-products"></a>Liniile de factură furnizor pentru produse
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
