@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917729"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036426"
 ---
 # <a name="default-price-lists"></a>Liste de prețuri implicite
 
@@ -25,7 +25,7 @@ Fiecare ofertă de proiect și contract din Dynamics 365 Project Operations con�
 Sistemul finalizează următorul proces pentru a determina ce listă de prețuri va fi implicită pentru o ofertă de proiect:
 
 1. Sistemul analizează listele de prețuri atașate listelor de prețuri ale proiectului contului. 
-2. Dacă există liste de prețuri ale proiectului atașate la înregistrarea contului, sistemul analizează listele de prețuri de vânzare atașate parametrilor proiectului care se potrivesc cu moneda ofertei de proiect.
+2. Dacă nu există liste de prețuri de proiect atașate la înregistrarea contului, sistemul analizează listele de prețuri de vânzare atașate parametrilor proiectului care se potrivesc cu moneda cotației de proiect.
 3. Apoi, sistemul verifică eficacitatea datei listelor de prețuri care se potrivesc cu intervalul de date al ofertei de proiect. Mai exact, data la care a fost creată oferta.
 4. Dacă există mai multe liste de prețuri care intră în vigoare pentru data ofertei de proiect, toate listele de prețuri sunt implicite în oferta de proiect.
 5. Dacă nu există liste de prețuri în vigoare pentru data ofertei de proiect, nu există o listă de prețuri implicită în oferta de proiect. Pe oferta de proiect va apărea un mesaj de avertizare. Mesajul indică faptul că realitățile și estimările proiectului nu vor fi evaluate, deoarece nu sunt atașate liste de prețuri ale proiectului.

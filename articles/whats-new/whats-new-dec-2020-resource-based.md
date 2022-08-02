@@ -1,18 +1,18 @@
 ---
 title: Ce este nou în decembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din decembrie 2020 a Operațiunilor de proiect pentru scenarii bazate pe resurse/non-aprovizionate.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din decembrie 2020 a Operațiunilor de proiect pentru scenarii bazate pe resurse/ne-aprovizionate.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933047"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029729"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în decembrie 2020 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -61,7 +61,7 @@ Următoarele caracteristici sunt incluse în această versiune:
 | Planificarea și urmărirea proiectului | 2057197          | Nu este acceptată copierea de estimare a liniei cu referința activității                                                                                                     |
 | Planificarea și urmărirea proiectului | 2060687          | Avertizarea privind fusul orar dispare acum după o anumită durată                                                                                                      |
 | Gestionarea resurselor           | 1832887          | ID-ul categoriei de resurse implicite trebuie să fie static pentru a asigura încărcări de date repetabile pentru Dataverse și medii financiare                                                 |
-| Timp și   cheltuială              | 2081793          | **Numele categoriei de cheltuieli** trebuie mapat la **Descrierea categoriei de cheltuieli** câmp în aplicațiile Finanțe și Operațiuni                                                  |
+| Timp și   cheltuială              | 2081793          | **Numele categoriei de cheltuieli** trebuie mapat la **Descrierea categoriei de cheltuieli** domeniu în aplicații financiare și operaționale                                                  |
 | Timp și   cheltuială              | 2034882          | Butonul **Nou** se afișează de două ori pe bara de comandă pentru intrările de timp când Dynamics 365 Field Service este instalat                                          |
 | Timp și   cheltuială              | 2056028          | Actualizați pagina **Editare de timp** pentru a include linia de timp                                                                                                              |
 | Timp și   cheltuială              | 1983747          | Diagrama de introducere a timpului prezintă date suplimentare                                                                                                                   |
@@ -106,7 +106,7 @@ Următoarele caracteristici sunt incluse în această versiune:
 | Călătorii și cheltuieli                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Fluxul de lucru de înregistrare automată a raportului de cheltuieli este finalizat, dar factura nu este înregistrată                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Actualizări de reglementare
-Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru aplicațiile de finanțare și operațiuni, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

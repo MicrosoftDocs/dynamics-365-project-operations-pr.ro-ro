@@ -1,18 +1,18 @@
 ---
 title: Actualizați Project Operations în mediul dvs. de Finanțe
-description: Acest articol oferă informații despre cum să actualizați operațiunile de proiect în mediul dvs. Dynamics 365 Finance.
+description: Acest articol oferă informații despre cum să actualizați Operațiunile de proiect în mediul dvs. Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912485"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030050"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Actualizați Project Operations în mediul dvs. de Finanțe
 
@@ -119,7 +119,7 @@ Următoarele actualizări ale privilegiilor de securitate pentru entități sunt
 4. Pe pagina **Versiunea hărții tabelului**, aplicați o nouă versiune a hărții fiecăreia dintre cele trei entități.
 5. Pe pagina **Scriere duală**, selectați rulare pentru a reporni hărțile.
 6. Din lista de hărți, selectați harta **Registru (msdyn_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. 
-7. În **Master pentru sincronizarea inițială** câmp, selectați **Aplicații de finanțe și operațiuni** și apoi selectați **Alerga**.
+7. În **Master pentru sincronizarea inițială** câmp, selectați **Aplicații de finanțare și operațiuni** și apoi selectați **Alerga**.
  
  ![Sincronizarea hărții registrului contabil.](media/DW6.png)
  

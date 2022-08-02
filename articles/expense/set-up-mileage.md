@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930149"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064293"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Configurați kilometrajul utilizând nivelurile de rată a kilometrajului
 
@@ -50,5 +50,15 @@ Caracteristica **Calculul cantității de kilometraj pentru mai multe niveluri d
 
 După ce activați caracteristica, resetați nivelurile de kilometraj pentru a reflecta corect valoarea câmpului **Cantitate**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Activați calculul totalurilor de kilometraj prin funcția exercițiu financiar
+
+The **Calcul total al kilometrajului de către exercițiu financiar** caracteristica permite o nouă setare în parametrii de gestionare a cheltuielilor, care efectuează calcule ale totalului de kilometri de către exercițiu financiar în loc de anul calendaristic. Parcurgeți pașii următori pentru a activa această caracteristică.
+
+1. Accesați **Spații de lucru** > **Gestionare caracteristică**.
+1. În listă, localizați și selectați **Calcul total al kilometrajului de către exercițiu financiar**, apoi selectați **Activați acum**.
+1. Mergi la **Managementul cheltuielilor** > **Înființat** > **General** > **Parametrii de gestionare a cheltuielilor**.
+1. Pe **Parametrii de gestionare a cheltuielilor** pagina, localizați și activați **Utilizați exercițiu financiar pentru totalul kilometrajului**.
+
+După ce activați **Utilizați exercițiu financiar pentru totalul kilometrajului**, totalul kilometrajului este calculat de exercițiu financiar.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,24 @@
 title: Depanare de funcționare în grila de activități
 description: Acest articol oferă informații de depanare necesare atunci când lucrați în grila de activități.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911059"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188247"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Depanare de funcționare în grila de activități 
 
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stoc, implementare Lite - facturare de la ofertă și până la proforma, Project for the web_
 
-Grila de activități utilizată de Dynamics 365 Project Operations este un iframe găzduit în cadrul Microsoft Dataverse. Ca urmare a acestei utilizări, trebuie îndeplinite cerințe specifice pentru a se asigura că autentificarea și autorizarea funcționează corect. Acest articol subliniază problemele comune care pot afecta capacitatea de a reda grila sau de a gestiona sarcini în structura de defalcare a lucrărilor (WBS).
+Grila de sarcini utilizată de Dynamics 365 Project Operations este un iframe găzduit în Microsoft Dataverse. Ca urmare a acestei utilizări, trebuie îndeplinite cerințe specifice pentru a asigura autentificarea și autorizarea funcționează corect. Acest articol subliniază problemele comune care pot afecta capacitatea de a reda grila sau de a gestiona sarcini în structura de defalcare a lucrărilor (WBS).
 
 Printre problemele comune se numără:
 
@@ -32,7 +32,7 @@ Printre problemele comune se numără:
 
 ### <a name="mitigation-1-enable-cookies"></a>Diminuare 1: activați cookie-urile
 
-Project Operations necesită activarea cookie-urilor terță parte pentru a reda structura detaliată a proiectului. Când modulele cookie de terță parte nu sunt activate, în loc să vedeți sarcini, veți vedea o pagină goală când selectați fila **Sarcini** de pe pagina **Proiect**.
+Project Operations necesită activarea cookie-urilor terță parte pentru a reda structura detaliată a proiectului. Când cookie-urile terță parte nu sunt activate, în loc să vedeți sarcini, veți vedea o pagină goală când selectați **Sarcini** fila de pe **Proiect** pagină.
 
 Pentru browser-ele Microsoft Edge sau Google Chrome, următoarele proceduri descriu cum să actualizați setările browser-ului pentru a activa modulele cookie de terță parte.
 
@@ -72,11 +72,14 @@ Project Operations necesită ca un parametru de proiect să facă referire la pu
 4. Eliminați câmpul de pe pagina **Parametrii proiectului**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Atenuare 3: conectați-vă la project.microsoft.com
-În dumneavoastră Microsoft Edge browser, deschideți o filă nouă, accesați project.microsoft.com și conectați-vă utilizând rolul de utilizator pe care îl utilizați pentru a accesa Operațiunile de proiect.
+
+În browser, deschideți o filă nouă, accesați project.microsoft.com și conectați-vă cu rolul de utilizator pe care îl utilizați pentru a accesa Operațiunile de proiect. Este important ca un singur utilizator să fie conectat la un produs Microsoft în browser. Mesajul de eroare „login.microsoftonline.com a refuzat să se conecteze” apare cel mai adesea atunci când sunt autentificați mai mult de un utilizator, așa cum se arată în ilustrația următoare.
+
+![Alegeți o pagină de conectare la cont care să arate că doi utilizatori sunt conectați.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problemă: Proiectul nu se încarcă, iar interfața de utilizare este blocată pe spinner
 
-În scopul autentificării, ferestrele pop-up trebuie să fie activate pentru a se încărca grila de activități. Dacă ferestrele pop-up nu sunt activate, ecranul va fi blocat pe spinner-ul de încărcare. Următorul grafic arată adresa URL cu o etichetă pop-up blocată în bara de adrese, ceea ce duce la blocarea spinner-ului în încercarea de a încărca pagina. 
+În scopul autentificării, ferestrele pop-up trebuie să fie activate pentru a se încărca grila de activități. Dacă ferestrele pop-up nu sunt activate, ecranul va fi blocat pe spinner-ul de încărcare. Următorul grafic arată adresa URL cu o etichetă pop-up blocată în bara de adrese, ceea ce duce la blocarea rotorului încercând să încarce pagina. 
 
    ![Spinner blocat și blocare de pop-up.](media/popupsblocked.png)
 
@@ -112,7 +115,7 @@ Alternativ, puteți parcurge următorii pași.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problema 3: Administrarea privilegiilor pentru Project for the Web
 
-Project Operations se bazează pe un serviciu de planificare externă. Serviciul necesită ca un utilizator să aibă mai multe roluri atribuite, care să le permită să citească și să scrie către entități legate de WBS. Aceste entități includ sarcini de proiect, alocări de resurse și dependențe de sarcini. Dacă un utilizator nu poate reda WBS atunci când navighează pe fila **Activități**, este probabil pentru că **Proiect** pentru **Project Operations** nu a fost activat. Un utilizator poate primi fie o eroare rol de securitate, fie o eroare legată de refuzul de acces.
+Project Operations se bazează pe un serviciu de planificare externă. Serviciul necesită ca un utilizator să aibă mai multe roluri atribuite care să îi permită să citească și să scrie la entități legate de WBS. Aceste entități includ sarcini de proiect, alocări de resurse și dependențe de sarcini. Dacă un utilizator nu poate reda WBS atunci când navighează la **Sarcini** fila, este probabil pentru că **Proiect** pentru **Operațiuni de proiect** nu a fost activat. Un utilizator poate primi fie o eroare rol de securitate, fie o eroare legată de refuzul de acces.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Atenuare 1: Validați rolurile de securitate ale utilizatorului aplicației și ale utilizatorului final
 

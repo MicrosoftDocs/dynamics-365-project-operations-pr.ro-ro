@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934059"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029361"
 ---
 # <a name="expense-management-overview"></a>Prezentare generală a gestionării cheltuielilor
 
@@ -43,7 +43,7 @@ Pentru informații suplimentare, consultați [Rapoartele de cheltuieli reinventa
 
 ### <a name="blogs"></a>Bloguri
 
-Puteți găsi opinii, știri și alte informații pe site [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) si [Microsoft Dynamics 365 Finanțe și operațiuni - Blog financiar](https://community.dynamics.com/365/financeandoperations/b/financials).
+Puteți găsi opinii, știri și alte informații pe site [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) si [Microsoft Dynamics 365 Finance - Blog financiar](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blogul Microsoft Dynamics al Comunității partenerilor de operațiuni](https://community.dynamics.com/partner/b/operationspartnercommunityblog) oferă partenerilor Microsoft Dynamics o singură resursă în care pot afla ce este nou și care sunt tendințele în operațiunile MBS.
 

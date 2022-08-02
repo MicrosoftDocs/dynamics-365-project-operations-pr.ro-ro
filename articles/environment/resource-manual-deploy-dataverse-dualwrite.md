@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912025"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028579"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implementarea manuală a aplicației Project Operations Dataverse cu suport pentru scriere duală
 
@@ -37,7 +37,7 @@ Pentru a finaliza această procedură, trebuie să vă conectați ca administrat
 3. Selectați tipul de mediu. Dacă v-ați înscris pentru oferta de versiune de încercare, selectați **Versiune de încercare (bazată pe abonament)**.
 4. Confirmați regiunea de implementare.
 5. Activați opțiunea **Creați o bază de date pentru acest mediu**. 
-6. Confirmați limba, apoi confirmați că moneda se potrivește cu moneda aplicațiilor dvs. Finanțe și Operațiuni.
+6. Confirmați limba, apoi confirmați că moneda se potrivește cu moneda aplicațiilor dvs. de finanțe și operațiuni.
 7. Activați opțiunea **Aplicații Dynamics 365** și confirmați că câmpul **Implementați automat aceste aplicații** este setat la **Niciuna**.
 8. Adăugați un grup de securitate, dacă este necesar un grup de securitate.
 9. Selectați **Salvare** pentru a crea mediul.
@@ -62,4 +62,4 @@ Puteți finaliza această procedură numai dacă ați finalizat procedurile ante
 
 ## <a name="link-your-environments"></a><a name="link"></a>Legați mediile
 
-După Dataverse mediu este implementat, puteți configura linkul în aplicațiile dvs. Finanțe și Operațiuni. Urmați pașii din [Utilizați expertul cu scriere duală pentru a vă conecta mediile](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+După Dataverse mediu este implementat, puteți configura legătura în aplicațiile dvs. de finanțe și operațiuni. Urmați pașii din [Utilizați expertul cu scriere duală pentru a vă conecta mediile](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

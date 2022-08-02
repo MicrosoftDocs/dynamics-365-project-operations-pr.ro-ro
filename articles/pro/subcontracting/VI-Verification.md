@@ -6,30 +6,30 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914233"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204190"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificarea facturilor de furnizori cu datele reale aprobate
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **Se aplică la:** Lite deployment - acord cu facturarea proforma
+_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Microsoft Dynamics 365 Project Operations să verificăm managerii de proiect liniile de facturi ale furnizorului în următoarele moduri:
 
 - Folosește **Starea de verificare** câmpul de pe liniile facturii furnizorului.
-- Dacă liniile de factură ale furnizorului fac referire la o linie de subcontractare, legați costurile reale din activitatea subcontractantului la acele linii de factură ale furnizorului. Legătura este creată prin potrivirea costurilor reale cu liniile de factură a furnizorului.
+- Dacă liniile de factură ale furnizorului fac referire la o linie de subcontractare, legați costurile reale din activitatea subcontractantului la acele linii de factură ale furnizorului. Legătura este creată prin potrivirea costurilor reale cu liniile de factură pentru furnizor.
 
     > [!NOTE]
-    > Deși starea de verificare poate fi urmărită pentru liniile de factură ale furnizorului care nu fac referire la un subcontract, costurile reale nu pot fi legate de acele linii de factură ale furnizorului.
+    > Deși starea de verificare poate fi urmărită pentru liniile de factură de furnizor care nu fac referire la un subcontract, costurile reale nu pot fi legate de acele linii de factură de furnizor.
 
 ## <a name="verification-status"></a>Starea de verificare
 
-The **Starea de verificare** câmpul de pe o linie de factură a furnizorului indică starea verificării. Sunt acceptate următoarele stări:
+The **Starea de verificare** câmpul de pe o linie de factură de furnizor indică starea verificării. Sunt acceptate următoarele stări:
 
 1. Neînceput
 2. În desfășurare
@@ -52,8 +52,8 @@ Potrivirea costurilor reale ajută la procesul de verificare pe o linie de factu
 
 În timpul procesului de potrivire, o legătură între un cost real și o linie de factură a furnizorului poate fi stabilită numai dacă sunt îndeplinite ambele condiții următoare:
 
-- The **Starea de ajustare** câmpul pentru fiecare cost real selectat trebuie să fie necompletat. Cu alte cuvinte, costurile efective nu trebuie să fi fost înlocuite cu alte costuri reale în timpul unui proces de rechemare, anulare a aprobării sau jurnal de corecție.
-- Valorile următoarelor câmpuri sunt corelate între linia de factură a furnizorului și costul real selectat. Dacă niciun câmp nu este setat pe linia facturii furnizorului, acesta nu este luat în considerare pentru potrivire.
+- The **Starea de ajustare** câmpul pentru fiecare cost real selectat trebuie să fie necompletat. Cu alte cuvinte, costurile reale nu trebuie să fi fost înlocuite cu alte costuri reale în timpul unui proces de rechemare, anulare a aprobării sau jurnal de corecție.
+- Valorile următoarelor câmpuri sunt corelate între linia de factură a furnizorului și costul real selectat. Dacă niciun câmp nu este setat pe linia facturii furnizorului, nu este luat în considerare pentru potrivire.
 
     - Contract pentru proiect
     - Linie contract proiect

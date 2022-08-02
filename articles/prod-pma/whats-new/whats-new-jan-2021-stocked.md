@@ -1,18 +1,18 @@
 ---
 title: Noutăți sau modificări în Project Operations, ianuarie 2021 pentru scenarii bazate pe stocuri/producție
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din ianuarie 2021 a Operațiunilor de proiect pentru scenariile stocate/bazate pe producție.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din ianuarie 2021 a Project Operations pentru scenariile stocate/bazate pe producție.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 210ef2bf0316c5e88c287052f739e438f3796c5b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923939"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029453"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Noutăți sau modificări în Project Operations, ianuarie 2021 pentru scenarii bazate pe stocuri/producție
 
@@ -142,7 +142,7 @@ Acest articol se aplică la următoarele Dynamics 365 Project Operations compone
 | Deplasări și cheltuieli                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | În Project Operations, timpul cu sarcini inter companii în Dataverse nu poate fi creat sau aprobat.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Actualizări de reglementare
-Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru aplicațiile de finanțare și operațiuni, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

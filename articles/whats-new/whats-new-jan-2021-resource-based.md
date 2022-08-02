@@ -1,18 +1,18 @@
 ---
 title: Ce este nou în ianuarie 2021 - Project Operations pentru scenarii bazate pe resurse/ne-stocate
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din ianuarie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/non-aprovizionate.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din ianuarie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/ne-aprovizionate.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4b335503139964d9d0747f9ce7addc033a512f30
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910691"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029592"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în ianuarie 2021 - Project Operations pentru scenarii bazate pe resurse/ne-stocate
 
@@ -86,7 +86,7 @@ Acest articol se aplică la următoarele Dynamics 365 Project Operations compone
 
 ## <a name="regulatory-updates"></a>Actualizări de reglementare
 
-Pentru informații despre actualizările de reglementare pentru aplicațiile Finance and Operations, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru aplicațiile de finanțare și operațiuni, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). De asemenea, vă puteți conecta la LCS și puteți vizualiza actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

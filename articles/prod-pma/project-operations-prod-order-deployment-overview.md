@@ -1,17 +1,17 @@
 ---
 title: Prezentare generală a implementării Project Operations pentru scenarii bazate pe stoc/producție
-description: Acest articol oferă informații despre tipul de implementare, Operațiuni de proiect pentru scenariile stocate/bazate pe producție.
+description: Acest articol oferă informații despre tipul de implementare, Operațiuni de proiect pentru scenarii stocate/bazate pe producție.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922789"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028810"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Prezentare generală a implementării Project Operations pentru scenarii bazate pe stoc/producție
 
@@ -22,10 +22,10 @@ Acest tip de implementare are următoarele funcții pentru companiile bazate pe 
 
 - Planificarea proiectului folosind [Structuri de defalcare a proiectului](work-breakdown-structures.md)
 - Achiziționați și consumați inventar stocat pentru proiecte
-- Gestionarea vânzărilor bazate pe proiecte folosind **Vânzări și marketing** modul în aplicațiile Dynamics 365 Finance and Operations
-- Stabilirea prețurilor și stabilirea costurilor proiectului utilizând configurațiile ratei de cost și a ratei de facturare din aplicațiile Finance and Operations
-- Managementul resurselor pentru proiecte în aplicațiile Finanțe și Operațiuni
-- Progresul proiectului și urmărirea timpului în aplicațiile Finanțe și Operațiuni
+- Gestionarea vânzărilor bazate pe proiecte folosind **Vânzări și marketing** modul în aplicațiile de finanțare și operațiuni Dynamics 365
+- Prețurile și stabilirea costurilor proiectului utilizând configurațiile ratei de cost și a ratei de facturare în aplicațiile de finanțare și operațiuni
+- Managementul resurselor pentru proiecte în aplicațiile de finanțare și operațiuni
+- Progresul proiectului și urmărirea timpului în aplicațiile de finanțare și operațiuni
 - Experiențe de gestionare a cheltuielilor pentru cheltuieli de proiect și non-proiect cu captarea de chitanțe utilizând capacitățile OCR
 - Facturarea utilizând un sistem de impozite pe vânzări la nivel de întreprindere și un sistem de rate de schimb eficiente în funcție de dată
 - Grupuri de proiecte configurabile pentru contabilitate și acumulări WIP

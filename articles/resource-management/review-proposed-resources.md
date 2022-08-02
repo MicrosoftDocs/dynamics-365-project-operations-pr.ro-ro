@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924859"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183990"
 ---
 # <a name="review-proposed-resources"></a>Revizuirea resurselor propuse
 
@@ -40,8 +40,8 @@ Pentru a examina resursele propuse, urmați acești pași:
     Apar următoarele actualizări de stare:
 
     - În pagina **Asistent planificare**, indicatorii de stare sunt actualizați pentru a indica faptul că rezervarea este propusă, nu rezervată ferm.
-    - La solicitarea de resurse, starea se modifică la **Necesită revizuire**.
-    - În fila **Echipă** a proiectului, valoarea de **Stare solicitare** a membrului generic al echipei este schimbată la **Necesită revizuire**.
+    - La cererea de resursă, examinatorul solicitării ar trebui să schimbe starea în **Necesită revizuire**.
+    - Pe **Echipă** fila proiectului, a membrului generic al echipei **Starea cererii** valoarea este schimbată automat în **Necesită revizuire**.
 
 Managerul de proiect poate accepta sau respinge propunerea.
 

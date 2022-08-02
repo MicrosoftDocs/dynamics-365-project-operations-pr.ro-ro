@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921501"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028344"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funcții eliminate sau depreciate în Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Acest articol descrie funcțiile care au fost eliminate sau care sunt planificat
 Această listă este menită să vă ajute să luați în considerare aceste eliminări și perimări pentru propria dvs. planificare.
 
 > [!NOTE]
-> Informații detaliate despre obiectele din aplicațiile Finanțe și Operațiuni pot fi găsite în [**Rapoarte tehnice de referință**](/dynamics/s-e/global/axtechrefrep_61). Puteți compara diferitele versiuni ale acestor rapoarte pentru a afla despre obiectele care s-au schimbat sau au fost eliminate din fiecare versiune a aplicațiilor Finance and Operations.
+> Informații detaliate despre obiectele din aplicațiile financiare și operațiuni pot fi găsite în [**Rapoarte tehnice de referință**](/dynamics/s-e/global/axtechrefrep_61). Puteți compara diferitele versiuni ale acestor rapoarte pentru a afla despre obiectele care s-au schimbat sau au fost eliminate din fiecare versiune a aplicațiilor de finanțare și operațiuni.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Funcții eliminate sau depreciate în versiunea Project Operations din martie 2022
 
@@ -64,7 +64,7 @@ Această listă este menită să vă ajute să luați în considerare aceste eli
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Motivul deprecierii / eliminării** | Depreciat din cauza îmbunătățirilor aduse paginii care a fost introdusă împreună cu **Utilizați formularele de propunere de factură de proiect și jurnal de factură cu vizualizarea Antet și linii** tasta caracteristică. |
+| **Motivul deprecierii / eliminării** | Depreciat din cauza îmbunătățirilor aduse paginii care a fost introdusă împreună cu **Utilizați formularele de propunere de factură de proiect și jurnal de factură cu vizualizarea Antet și linii** cheie caracteristică. |
 | **Înlocuit de altă caracteristică?** | Da |
 | **Zonele de produse afectate** | Aplicație |
 | **Opțiune de implementare** | Operațiuni de proiect pentru scenarii de producție/stoc; Operațiuni de proiect pentru scenarii de resurse/nestocitate |
@@ -78,7 +78,7 @@ Această listă este menită să vă ajute să luați în considerare aceste eli
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Motivul deprecierii / eliminării** | Depreciat din cauza utilizării reduse. Clienții care folosesc Operațiuni de proiect pentru scenarii de resurse/ne-aprovizionate pot profita [Colaborare cu grupuri de birou](../project-management/collaboration-groups.md). |
+| **Motivul deprecierii / eliminării** | Depreciat din cauza utilizării reduse. Clienții care folosesc Operațiuni de proiect pentru scenarii de resurse/ne-aprovizionate pot profita [Colaborare cu grupuri Office](../project-management/collaboration-groups.md). |
 | **Înlocuit de altă caracteristică?** | No |
 | **Zonele de produse afectate** | Aplicație  |
 | **Opțiune de implementare** | Operațiuni de proiect pentru scenarii de producție/stoc |

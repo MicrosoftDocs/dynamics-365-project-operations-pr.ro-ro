@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931207"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028503"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Cerințe de articole pentru contractele de proiect cu mai multe surse de finanțare
 
@@ -33,7 +33,7 @@ Contoso a câștigat un contract de reînnoire a echipamentelor cu doi dintre cl
 
 ### <a name="prerequisites"></a>Cerințe preliminare
 
-- Microsoft Dynamics 365 Finanțe și operațiuni **versiunea 10.0.27 sau mai recentă** este necesar să utilizeze cerințe pentru articole care au mai multe conturi de factură.
+- Microsoft Dynamics 365 Finante **versiunea 10.0.27 sau mai recentă** este necesar să utilizeze cerințe pentru articole care au mai multe conturi de factură.
 - Administratorul dvs. de sistem trebuie să activeze **Permiteți cerințele articolului cu mai multe surse de finanțare pentru scenariile stocate/bazate pe producție pentru Operațiuni de proiect** caracteristică în **Managementul caracteristicilor** spațiu de lucru.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Configurați regulile implicite ale contului de factură
@@ -63,10 +63,10 @@ Pentru a selecta contul de factură de utilizat atunci când creați o cerință
     - În mod implicit, **Cont de factură** câmpul din înregistrare este setat la contul de factură care este setat pentru proiect. Puteți modifica valoarea **Cont de factură** câmp și apoi salvați înregistrarea. După ce înregistrarea este salvată, nu mai puteți actualiza **Cont de factură** valoare. Dacă trebuie să actualizați **Cont de factură** valoare pentru cerința de articol, ștergeți cerința de articol existentă și apoi creați una nouă care are valoarea dorită.
     - În mod implicit, **Client** câmpul pentru cerința articolului este setat pe baza **Client implicit** valoarea care este setată pe **Management de proiect și parametri contabili** pagină.
 
-    Când înregistrarea cerințelor articolului este salvată, sistemul o asociază cu **Cerința articolului comandă de vânzare** înregistrare antet. Dacă niciun antet de comandă de vânzare deschisă nu are contul de factură selectat, sistemul va crea unul și va asocia cu acesta linia de cerințe de articol.
+    Când înregistrarea cerințelor articolului este salvată, sistemul o asociază cu **Cerința articolului comandă de vânzare** înregistrare antet. Dacă niciun antet de comandă de vânzare deschisă nu are contul de factură selectat, sistemul va crea unul și va asocia linia de cerințe de articol cu acesta.
 
 > [!NOTE]
-> Cerințele pentru articole sunt întotdeauna facturate integral în contul de factură care este setat în înregistrare. Sistemul nu acceptă în prezent regulile de alocare a fondurilor care au cerințe privind articolele și nu va împărți postarea în funcție de configurarea regulilor de alocare a finanțării.
+> Cerințele pentru articole sunt întotdeauna facturate integral în contul de factură care este setat în înregistrare. Sistemul nu acceptă în prezent regulile de alocare a fondurilor care au cerințe pentru articole și nu va împărți postarea pe baza setării regulilor de alocare a finanțării.
 
 ### <a name="create-an-item-requirement-from-an-item-forecast-record"></a>Creați o cerință de articol dintr-o înregistrare de prognoză a articolului
 
@@ -79,7 +79,7 @@ Pentru a crea o cerință de articol dintr-o înregistrare de prognoză a artico
 1. Selectați **Creați cerințe de articol** și confirmați mesajul pe care îl primiți.
 
     > [!NOTE]
-    > Sistemul copiază **Sursă de finanțare** valoare de la înregistrarea de prognoză a articolului până la înregistrarea de cerințe de articol nou creată.
+    > Sistemul copiază **Sursă de finanțare** valoarea de la înregistrarea de prognoză a articolului până la înregistrarea de cerințe de articol nou creată.
 
 ### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Cont de factură implicit când sistemul creează automat o cerință de articol dintr-o linie de comandă de achiziție
 

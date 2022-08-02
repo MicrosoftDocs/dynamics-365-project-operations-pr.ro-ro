@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912393"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110899"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ce este nou în aprilie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
 
@@ -25,19 +25,19 @@ Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dyn
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
-Categoriile de achiziții pot fi utilizate în comenzile de achiziție ale proiectelor și în facturile furnizorilor în așteptare. Pentru mai multe informații, vezi [Utilizați categorii de achiziții cu comenzile de achiziție de proiect și facturile furnizorilor în așteptare](configure-procurement-categories.md).
+Categoriile de achiziții pot fi utilizate în comenzile de achiziție ale proiectelor și în facturile furnizorilor în așteptare. Pentru mai multe informații, vezi [Utilizați categorii de achiziții cu comenzile de achiziție de proiect și facturile furnizorilor în așteptare](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizări de hărți Project Operations cu scriere duală
 
-Următorul tabel arată hărțile cu dublă scriere care au fost modificate sau adăugate în versiunea din martie 2022 a Project Operations.
+Următorul tabel prezintă hărțile cu dublă scriere care au fost modificate sau adăugate în versiunea din martie 2022 a Project Operations.
 
 | Maparea entității | Versiune actualizată | Comentarii |
 | -------------- | ------------------- | ------------|
-| Proiect Operations integrare proiect furnizor linie factură export entitate msdyn\_ proiectevendorinvoicelines | 1.0.0.4 | Această hartă acceptă utilizarea categoriilor de achiziții cu comenzile de achiziție și facturile furnizorilor în așteptare. |
+| Proiect Operațiuni de integrare proiect furnizor linie factură export entitate msdyn\_ proiectevendorinvoicelines | 1.0.0.4 | Această hartă acceptă utilizarea categoriilor de achiziții cu comenzile de achiziție și facturile furnizorilor în așteptare. |
 
 Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel asociate pe măsură ce actualizați operațiunile de proiect Dataverse soluție și versiunea soluției financiare. Este posibil ca unele funcții și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vizualiza versiunea activă a hărții în coloana **Versiune** de pe pagina **Scriere duală**. Pentru a activa o nouă versiune a hărții selectați **Versiuni ale hărții cu tabele**, selectați cea mai recentă versiune și apoi salvați versiunea selectată. Dacă ați personalizat o hartă a tabelului out-of-box, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile din [Problemă cu coloanele din tabel lipsă pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) secțiunea din ghidul de depanare cu scriere duală.
+Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile din [Problemă cu coloanele din tabel lipsă pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) secțiunea din ghidul de depanare cu scriere dublă.
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 
@@ -47,7 +47,7 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | ------------ | ---------------- | -------------- |
 | Timp și cheltuieli | 2573900 | The **Aprobare modernă** caracteristica trebuie să fie activată în mod implicit. |
 | Facturarea și stabilirea prețurilor | 2603313 | S-a remediat o eroare de înregistrare duplicată care a împiedicat adăugarea liniilor de cotație și contract care au un produs. |
-| Implementare și configurare | 2611368 | Clienții trebuie să poată adăuga până la cinci entități personalizate la soluție utilizând designerul modern de aplicații. |
+| Implementare și configurare | 2611368 | Clienții trebuie să poată adăuga până la cinci entități personalizate la soluție folosind designerul de aplicații modern. |
 | Timp și cheltuieli | 2628285 | S-a remediat o problemă care afecta capacitatea de a seta categoria corectă de resurse în timpul importului de intrare de timp. |
 | Managementul oportunităților| 2628815 | Actualizați limita de caractere din descrierea detaliată a liniei de citat pentru a se potrivi cu limita de caractere a subiectului sarcinii, astfel încât importul să aibă succes pentru sarcinile în care subiectul este mai lung de 100 de caractere. |
 | Timp și cheltuieli| 2629547 | The **Trimis de** domeniul aprobărilor de proiect trebuie să indice utilizatorul care a transmis înregistrarea. |

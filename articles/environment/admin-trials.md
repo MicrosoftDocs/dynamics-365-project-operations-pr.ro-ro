@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959697"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029315"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Înregistrați-vă pentru versiunile de încercare Project Operations 
 
@@ -86,12 +86,12 @@ Pentru a implementa o versiune de încercare a Dynamics 365 Project Operations, 
  
   Când pregătirea este completă, starea mediului dvs. este **Pregătit**. Pregătirea mediului include implementarea datelor demo.
  
-4.  Selectați respectivul Microsoft Dataverse URL și adresele URL ale aplicațiilor Finance and Operations pentru a valida implementarea.
+4.  Selectați respectivul Microsoft Dataverse URL și adresele URL ale aplicațiilor financiare și operaționale pentru a valida implementarea.
 
 ## <a name="configuring-dual-write"></a>Configurare scriere duală
 - Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizați setările de securitate pentru Operațiuni de proiect în Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Pentru a accesa configurația cu dublă scriere, navigați la instanța Finance and Operations, apoi navigați la **Management de date** > **Scriere dublă**.
-- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu dublă scriere pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Pentru a accesa configurația cu dublă scriere, navigați la instanța de finanțare și operațiuni, apoi navigați la **Management de date** > **Scriere dublă**.
+- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu scriere duală pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuirea de licențe
 
@@ -117,7 +117,7 @@ Următoarele resurse oferă îndrumări utile pe măsură ce vă începeți căl
 
 ## <a name="frequently-asked-questions"></a>Întrebări frecvente
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ce se întâmplă dacă am nevoie de ALM sau ELM pentru mediul meu de aplicații Finance and Operations?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ce se întâmplă dacă am nevoie de ALM sau ELM pentru mediul meu de aplicații financiare și operaționale?
 
 - Pentru partenerii care necesită capacități complete de gestionare a ciclului de viață al mediului, consultați [Solicitare de licență pentru Sandbox partener](https://experience.dynamics.com/requestlicense) pentru a revizui noua ofertă de partener. 
 - Pentru partenerii care caută mai multe informații despre drepturile de utilizare internă, consultați [Cloud drepturi de utilizare internă și beneficii software (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

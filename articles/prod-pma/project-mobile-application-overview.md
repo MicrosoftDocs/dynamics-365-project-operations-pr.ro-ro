@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922881"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028901"
 ---
 # <a name="project-mobile-applications-overview"></a>Prezentare generală aplicații mobile pentru proiect
 
@@ -33,11 +33,11 @@ Aplicația mobilă Dynamics 365 Project Timesheet permite utilizatorilor să tri
 
 ## <a name="project-time-entry-workspace"></a>Spațiul de lucru Project Time Entry
 
-Spațiul de lucru Project Time Entry permite utilizatorilor să introducă și să economisească timp pentru un proiect. Cu toate acestea, nu le permite utilizatorilor să trimită sau să aprobe fișele de pontaj ale proiectului. Poate fi folosit numai pentru introducerea timpului. Acest spațiu de lucru mobil este destinat să fie utilizat împreună cu aplicația mobilă Finance and Operations.
+Spațiul de lucru Project Time Entry permite utilizatorilor să introducă și să economisească timp pentru un proiect. Cu toate acestea, nu le permite utilizatorilor să trimită sau să aprobe fișele de pontaj ale proiectului. Poate fi folosit numai pentru introducerea timpului. Acest spațiu de lucru mobil este destinat să fie utilizat împreună cu aplicația mobilă de finanțe și operațiuni.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Fișele mele de pontaj/Fișe de pontaj de revizuit
 
-Fișele mele de pontaj (Optimizat pentru mobil) și Fișe de pontaj de revizuit (Optimizat pentru mobil) alcătuiesc o soluție care permite angajaților să creeze, să trimită și să aprobe fișele de pontaj ale proiectului pe un dispozitiv mobil. Lucrătorii pot accesa funcționalitatea Finance prin adresa URL a aplicației. Această soluție nu necesită aplicația mobilă Finance and Operations.
+Fișele mele de pontaj (Optimizat pentru mobil) și Fișe de pontaj de revizuit (Optimizat pentru mobil) alcătuiesc o soluție care permite angajaților să creeze, să trimită și să aprobe fișele de pontaj ale proiectului pe un dispozitiv mobil. Lucrătorii pot accesa funcționalitatea Finance prin adresa URL a aplicației. Această soluție nu necesită aplicația mobilă de finanțare și operațiuni.
 
 ## <a name="for-more-information"></a>Pentru mai multe informații
 
