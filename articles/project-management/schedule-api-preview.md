@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929229"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230331"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizați API-urile de planificare a proiectelor pentru a efectua operațiuni cu entități de planificare
 
@@ -45,9 +45,9 @@ OperationSet este un model de unitate de lucru care poate fi utilizat atunci câ
 - **msdyn_CreateProjectV1**: Acest API poate fi folosit pentru a crea un proiect. Proiectul și compartimentul implicit de proiect sunt create imediat.
 - **msdyn_CreateTeamMemberV1**: Acest API poate fi utilizat pentru a crea un membru al echipei de proiect. Înregistrarea membrilor echipei este creată imediat.
 - **msdyn_CreateOperationSetV1**: Acest API poate fi utilizat pentru a programa mai multe solicitări care trebuie efectuate în cadrul unei tranzacții.
-- **msdyn_PSSCreateV1**: Acest API poate fi utilizat pentru a crea o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de creare.
-- **msdyn_PSSUpdateV1**: acest API poate fi utilizat pentru a actualiza o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de actualizare.
-- **msdyn_PSSDeleteV1**: acest API poate fi utilizat pentru a șterge o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de ștergere.
+- **msdyn_PssCreateV1** : Acest API poate fi folosit pentru a crea o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de creare.
+- **msdyn_PssUpdateV1** : Acest API poate fi folosit pentru a actualiza o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de actualizare.
+- **msdyn_PssDeleteV1** : Acest API poate fi folosit pentru a șterge o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de ștergere.
 - **msdyn_ExecuteOperationSetV1**: Acest API este utilizat pentru a executa toate operațiunile din cadrul setului de operații date.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Utilizarea API-urilor de planificare a proiectelor cu OperationSet

@@ -6,22 +6,20 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3ffad20b53344221ead9b6850ecdc1efd48d5b13
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2c3cd2fab87af1cbfccd81e543f2cea0278978f6
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925912"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261715"
 ---
 # <a name="vendor-invoice-lines-for-expense-categories"></a>Liniile de factură furnizor pentru categoriile de cheltuieli
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 O factură de furnizor în Microsoft Dynamics 365 Project Operations poate avea linii de factură de furnizor pentru categoriile de cheltuieli. Managerii de proiect pot folosi liniile de factură ale furnizorului pentru categoriile de cheltuieli pentru a înregistra costurile serviciilor care sunt achiziționate ca categorii de cheltuieli.
 
-Liniile de factură de furnizor pentru categoriile de cheltuieli ar putea sau nu să facă referire la o linie de subcontractare pentru categoriile de cheltuieli. Dacă o linie de factură a furnizorului pentru categoriile de cheltuieli face referire la un subcontract, managerii de proiect vor putea să coreleze și să verifice cheltuielile care sunt facturate de linia de factură ale furnizorului cu cheltuielile care sunt înregistrate pe aceste categorii de cheltuieli și aprobate de managerii de proiect în cadrul proiectului.
+Liniile de factură de furnizor pentru categoriile de cheltuieli ar putea sau nu să facă referire la o linie de subcontractare pentru categoriile de cheltuieli. Dacă o linie de factură a furnizorului pentru categorii de cheltuieli face referire la un subcontract, managerii de proiect vor putea să coreleze și să verifice cheltuielile care sunt facturate de linia de factură ale furnizorului cu cheltuielile care sunt înregistrate pe aceste categorii de cheltuieli și aprobate de managerii de proiect în cadrul proiectului.
 
 Următorul tabel oferă informații despre câmpurile de pe liniile de factură de furnizor pentru categoriile de cheltuieli.
 
@@ -30,7 +28,7 @@ Următorul tabel oferă informații despre câmpurile de pe liniile de factură 
 | Nume | Numele liniei de factură a furnizorului, pentru a ajuta la identificare. | Acest nume va fi afișat ca prima coloană în toate căutările care se bazează pe liniile de factură pentru furnizor. |
 | Descriere | O scurtă descriere a serviciilor care sunt facturate de către furnizor pe linia de facturare a furnizorului. | Fără |
 | Subcontract | Subcontractul pe care au fost comandate inițial serviciile. | Când este selectat un subcontract pentru factura de furnizor, toate liniile de pe factura de furnizor vor moșteni acea selecție. O factură de furnizor nu poate avea linii de factură de furnizor care să facă referire la diferite subcontracte. |
-| Linia de subcontractare | Linia de subcontractare pe care au fost comandate serviciile. Lista liniilor de subcontract care pot fi selectate este limitată la liniile din subcontractul selectat. | Când o linie de subcontractare este selectată pe o linie de factură de furnizor pentru categoriile de cheltuieli, valorile implicite pentru **Proiect**, **·**, și **Categoria tranzacției** câmpurile sunt introduse din câmpurile corespunzătoare de pe linia de subcontractare. Dacă linia de subcontractare selectată are valori în **Proiect**, **proiectului**, și **Categoria tranzacției** câmpuri, valorile câmpurilor corespunzătoare de pe linia facturii furnizorului nu pot diferi de acele valori. |
+| Linia de subcontractare | Linia de subcontractare pe care au fost comandate serviciile. Lista liniilor de subcontractare care pot fi selectate este limitată la liniile din subcontractul selectat. | Când o linie de subcontractare este selectată pe o linie de factură de furnizor pentru categoriile de cheltuieli, valorile implicite pentru **Proiect**, **·**, și **Categoria tranzacției** câmpurile sunt introduse din câmpurile corespunzătoare de pe linia de subcontractare. Dacă linia de subcontractare selectată are valori în **Proiect**, **proiectului**, și **Categoria tranzacției** câmpuri, valorile câmpurilor corespunzătoare de pe linia facturii furnizorului nu pot diferi de acele valori. |
 | Data tranzacției | Data la care costul real al liniei de factură a furnizorului va fi înregistrat în proiect. |Fără |
 | Clasă de tranzacții | Selectați **Cheltuiala** pentru a înregistra o factură de furnizor pentru o categorie de cheltuieli. | Valoarea **Cheltuiala** indică faptul că linia de factură a furnizorului este utilizată pentru a înregistra suma facturii pentru serviciile care au fost achiziționate ca categorii de cheltuieli. |
 | Project | Numele proiectului pentru care au fost utilizate serviciile care sunt facturate. | Acest câmp este obligatoriu și nu poate fi lăsat necompletat. |
@@ -39,7 +37,7 @@ Următorul tabel oferă informații despre câmpurile de pe liniile de factură 
 | Cantitate | Introduceți cantitatea care este facturată de furnizor pe linia de factură. |Fără|
 | Grup de unități | O valoare implicită este introdusă pe baza grupului de unități din categoria de tranzacție selectată. | Fără |
 | Unitate | Valoarea implicită este unitatea de bază a grupului de unități care este selectat. Puteți modifica această valoare pentru a cumpăra în orice unitate din grupul de unități. | Combinația de **Categoria tranzacției** și **Unitate** valorile vor fi utilizate ca valoare implicită sau calculată pentru **Preț unitar** câmpul de pe linia facturii furnizorului. |
-| Preț unitar | Prețul unitar implicit folosește combinația de **Categoria tranzacției** și **Unitate** valorile din lista de prețuri a proiectului care este aplicabilă datei tranzacției din linia facturii furnizorului. | Dacă prețul pentru lista de prețuri de proiect aplicabilă este configurat într-o unitate care diferă de unitatea de pe linia de factură a furnizorului, sistemul utilizează conversia unității pentru a calcula prețul pe unitate. |
+| Preț unitar | Prețul unitar implicit folosește combinația de **Categoria tranzacției** și **Unitate** valorile din lista de prețuri a proiectului care este aplicabilă datei tranzacției a liniei facturii furnizorului. | Dacă prețul pentru lista de prețuri de proiect aplicabilă este configurat într-o unitate care diferă de unitatea de pe linia de factură a furnizorului, sistemul utilizează conversia unității pentru a calcula prețul pe unitate. |
 | Subtotal | Acest câmp numai pentru citire este calculat ca *Cantitate*&times;*Preț unitar*, dacă valorile sunt introduse în ambele **Cantitate** câmpul și **Preț unitar** camp. Dacă unul sau ambele câmpuri sunt goale, puteți introduce o valoare în acest câmp.| Fără |
 | Impozit pe vânzări | Introduceți valoarea impozitului pe vânzări. | Fără |
 | Valoare totală | Suma totală a liniei de factură a furnizorului, inclusiv taxele. Acest câmp este calculat ca *Subtotal* + *Taxa de vanzari*. | Fără |

@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912991"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230284"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade de la Project Service Automation la Project Operations
 
-Suntem încântați să anunțăm prima dintre cele trei faze de la care trebuie să faceți upgrade Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Project Operations. Acest articol oferă o prezentare generală pentru clienții care pornesc în această călătorie interesantă. Articolele viitoare vor include considerații pentru dezvoltatori și detalii despre îmbunătățirile caracteristicilor. Ei nu numai că vă vor oferi îndrumări pentru a vă ajuta să vă pregătiți pentru upgrade-ul la Operațiuni de proiect, dar vă vor explica și la ce vă puteți aștepta după ce ați făcut upgrade.
+Suntem încântați să anunțăm prima dintre cele trei faze de la care trebuie să faceți upgrade Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Project Operations. Acest articol oferă o prezentare generală pentru clienții care pornesc în această călătorie interesantă. Articolele viitoare vor include considerații pentru dezvoltatori și detalii despre îmbunătățirile caracteristicilor. Aceștia nu numai că vă vor oferi îndrumări pentru a vă ajuta să vă pregătiți pentru upgrade-ul la Project Operations, dar vă vor explica și la ce vă puteți aștepta după ce ați făcut upgrade.
 
 Programul de livrare a upgrade-ului va fi împărțit în trei faze.
 
@@ -46,7 +46,7 @@ Ca parte a procesului de actualizare, am adăugat jurnalele de actualizare pe ha
 | WBS va fi validat în raport cu limitele cunoscute ale clientului desktop Project. | |  | :heavy_check_mark: |
 | Resursele rezervabile și calendarele proiectelor vor fi evaluate în raport cu excepțiile comune ale regulilor calendaristice incompatibile. | | :heavy_check_mark: | :heavy_check_mark: |
 
-În faza 2, clienții care fac upgrade la Project Operations vor avea proiectele existente actualizate la o experiență doar în citire pentru planificarea proiectelor. În această experiență numai în citire, WBS complet va fi vizibil în grila de urmărire. Pentru a edita WBS, managerii de proiect pot selecta **Convertit** pe principal **Proiecte** pagină. Un proces de fundal va actualiza apoi proiectul, astfel încât să accepte noua experiență de planificare a proiectelor din Project for the Web. Această fază este potrivită pentru clienții care au proiecte care se încadrează în [limitele cunoscute ale Proiectului pentru Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+În faza 2, clienții care fac upgrade la Project Operations vor avea proiectele existente actualizate la o experiență numai în citire pentru planificarea proiectelor. În această experiență numai în citire, WBS complet va fi vizibil în grila de urmărire. Pentru a edita WBS, managerii de proiect pot selecta **Convertit** pe principal **Proiecte** pagină. Un proces de fundal va actualiza apoi proiectul, astfel încât să accepte noua experiență de planificare a proiectelor de la Project for the Web. Această fază este potrivită pentru clienții care au proiecte care se încadrează în [limitele cunoscute ale Proiectului pentru Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 În faza 3, se va adăuga suport pentru clientul desktop Project, în beneficiul clienților care doresc să continue să își editeze proiectele din acea aplicație. Cu toate acestea, dacă proiectele existente sunt convertite în noua experiență Proiect pentru Web, accesul la programul de completare va fi dezactivat pentru fiecare proiect convertit.
 
@@ -67,14 +67,14 @@ Dacă aveți licențe active pentru Project Service Automation, puteți instala 
 
 ## <a name="testing-and-refactoring-customizations"></a>Testarea și refactorizarea personalizărilor
 
-Ca punct de plecare, importați toate personalizările într-un mediu curat de operațiuni de proiect (lite) pentru a confirma că importul are succes și că operațiunile de afaceri se comportă conform așteptărilor.
+Ca punct de plecare, importați toate personalizările într-un mediu curat de operațiuni de proiect (Lite) pentru a confirma că importul a avut succes și că operațiunile de afaceri se comportă așa cum era de așteptat.
 
 Iată câteva lucruri la care trebuie să fii atent:
 
 - Importul poate eșua din cauza dependențelor lipsă. Cu alte cuvinte, personalizările fac referire la câmpuri sau alte componente care au fost eliminate în Operațiuni de proiect. În acest caz, eliminați aceste dependențe din mediul de dezvoltare.
-- Dacă soluțiile dvs. negestionate și gestionate includ componente care nu sunt personalizate, eliminați acele componente din soluție. De exemplu, când personalizați **Proiect** entitate, adăugați numai antetul entității la soluția dvs. Nu adăugați toate câmpurile. Dacă ați adăugat anterior toate subcomponentele, poate fi necesar să creați manual o nouă soluție și să adăugați componente relevante.
-- Este posibil ca formularele și vizualizările să nu apară așa cum era de așteptat. În anumite circumstanțe, dacă ați personalizat oricare dintre formularele sau vizualizările disponibile, personalizările ar putea împiedica noile actualizări din Operațiunile de proiect să intre în vigoare. Pentru a identifica aceste probleme, vă recomandăm să faceți o revizuire paralelă a unei instalări curate a Project Operations și a unei instalări a Project Operations care include personalizările dvs. Comparați cele mai frecvent utilizate formulare în afacerea dvs. pentru a confirma că versiunea dvs. a formularului încă are sens și că nu lipsește ceva din versiunea curată a formularului. Faceți același tip de revizuire una lângă alta pentru toate vizualizările pe care le-ați personalizat.
-- Logica de afaceri poate eșua în timpul execuției. Deoarece referințele la câmpurile din pluginurile dvs. nu sunt validate în momentul importului, logica de afaceri poate eșua din cauza referințelor la câmpuri care nu mai există și este posibil să primiți un mesaj de eroare care seamănă cu următorul exemplu: „„Proiect” entitatea nu conține un atribut cu Name = 'msdyn_plannedhours' și NameMapping = 'Logical'." În acest caz, modificați personalizările astfel încât acestea să utilizeze noile câmpuri. Dacă utilizați clase de proxy generate automat și referințe de tip puternic în logica plug-in-ului, luați în considerare regenerarea acelor proxy dintr-o instalare curată. În acest fel, puteți identifica cu ușurință toate locurile în care pluginurile dvs. depind de câmpurile învechite.
+- Dacă soluțiile dvs. negestionate și gestionate includ componente care nu sunt personalizate, eliminați acele componente din soluție. De exemplu, atunci când personalizați **Proiect** entitate, adăugați numai antetul entității la soluția dvs. Nu adăugați toate câmpurile. Dacă ați adăugat anterior toate subcomponentele, ar putea fi necesar să creați manual o soluție nouă și să adăugați componente relevante.
+- Este posibil ca formularele și vizualizările să nu apară așa cum era de așteptat. În anumite circumstanțe, dacă ați personalizat oricare dintre formularele sau vizualizările disponibile, personalizările pot împiedica noile actualizări din Operațiunile de proiect să intre în vigoare. Pentru a identifica aceste probleme, vă recomandăm să faceți o revizuire paralelă a unei instalări curate a Project Operations și a unei instalări a Project Operations care include personalizările dvs. Comparați cele mai frecvent utilizate formulare în afacerea dvs. pentru a confirma că versiunea dvs. a formularului încă are sens și că nu lipsește ceva din versiunea curată a formularului. Faceți același tip de revizuire alăturată pentru toate vizualizările pe care le-ați personalizat.
+- Logica de afaceri poate eșua în timpul execuției. Deoarece referințele la câmpurile din plug-in-urile dvs. nu sunt validate la momentul importului, logica de afaceri poate eșua din cauza referințelor la câmpuri care nu mai există și este posibil să primiți un mesaj de eroare care seamănă cu următorul exemplu: „„Proiect” entitatea nu conține un atribut cu Name = 'msdyn_plannedhours' și NameMapping = 'Logical'." În acest caz, modificați personalizările astfel încât acestea să utilizeze noile câmpuri. Dacă utilizați clase de proxy generate automat și referințe de tip puternic în logica plug-in-ului, luați în considerare regenerarea acelor proxy dintr-o instalare curată. În acest fel, puteți identifica cu ușurință toate locurile în care pluginurile dvs. depind de câmpurile învechite.
 
 După ce vă actualizați personalizările pentru a importa în mod curat operațiunile de proiect, treceți la pașii următori.
 
@@ -93,11 +93,11 @@ După ce vă actualizați personalizările pentru a importa în mod curat opera�
 3. Actualizați soluțiile personalizate după caz. În acest moment, implementați orice modificări pe care le-ați făcut personalizărilor dvs. în [Testarea și refactorizarea personalizărilor](#testing-and-refactoring-customizations) secțiunea acestui articol.
 4. Mergi la **Setări** \> **Soluții**, și selectați pentru a dezinstala **Operațiuni de proiect Componente depreciate** soluţie.
 
-    Această soluție este o soluție temporară care deține modelul de date existent și componentele care sunt prezente în timpul upgrade-ului. Prin eliminarea acestei soluții, eliminați toate câmpurile și componentele care nu mai sunt utilizate. În acest fel, contribuiți la simplificarea interfeței și facilitați integrarea și extinderea.
+    Această soluție este o soluție temporară care deține modelul de date existent și componentele care sunt prezente în timpul upgrade-ului. Prin eliminarea acestei soluții, eliminați toate câmpurile și componentele care nu mai sunt utilizate. În acest fel, ajutați la simplificarea interfeței și facilitați integrarea și extinderea.
     
 ### <a name="validate-common-scenarios"></a>Validați scenariile comune
 
-Când validați personalizările dvs. specifice, vă recomandăm să examinați și procesele de afaceri care sunt acceptate în cadrul aplicațiilor. Aceste procese de afaceri includ, dar nu se limitează la, crearea de entități de vânzări, cum ar fi cotații și contracte, și crearea de proiecte care includ WBS și aprobarea datelor reale.
+Când validați personalizările dvs. specifice, vă recomandăm să examinați și procesele de afaceri care sunt acceptate în toate aplicațiile. Aceste procese de afaceri includ, dar nu se limitează la, crearea de entități de vânzare, cum ar fi cotații și contracte, și crearea de proiecte care includ WBS și aprobarea datelor reale.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Schimbări majore între Project Service Automation și Project Operations
 
@@ -105,11 +105,11 @@ Această secțiune oferă un rezumat al schimbărilor majore la care vă puteți
 
 ### <a name="project-planning"></a>Planificarea unui proiect
 
-Capacitățile de planificare a proiectelor din Operațiunile de proiect nu se mai bazează pe o combinație de logică la nivelul clientului și logica la nivelul serverului. În schimb, Project Operations folosește Project pentru Web ca motor de planificare. Această modificare a capabilităților de programare permite mai multe funcții noi, cum ar fi vizualizări Board și Gantt, planificare bazată pe resurse, [elemente din lista de verificare a sarcinilor](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c), și modurile de programare a proiectelor. Noile capabilități de programare sunt susținute și de un set bogat de noi [interfețe de programare a aplicațiilor (API)](../project-management/schedule-api-preview.md). Aceste API-uri sunt menite să ajute să se asigure că nicio operațiune programatică pentru crearea, actualizarea sau ștergerea unei entități din WBS nu corupe câmpurile calculate din program.
+Capacitățile de planificare a proiectelor din Operațiunile de proiect nu se mai bazează pe o combinație de logică pe partea clientului și pe logica pe partea serverului. În schimb, Project Operations folosește Project pentru Web ca motor de planificare. Această modificare a capabilităților de programare permite mai multe funcții noi, cum ar fi vizualizări Board și Gantt, planificare bazată pe resurse, [elemente din lista de verificare a sarcinilor](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c), și modurile de programare a proiectelor. Noile capabilități de programare sunt susținute și de un set bogat de noi [interfețe de programare a aplicațiilor (API)](../project-management/schedule-api-preview.md). Aceste API-uri sunt menite să ajute să se asigure că nicio operațiune programatică pentru crearea, actualizarea sau ștergerea unei entități din WBS nu corupe câmpurile calculate din program.
 
 ## <a name="billing-and-pricing"></a>Facturarea și stabilirea prețurilor
 
-Ca parte a investițiilor continue în operațiunile de proiect, sunt disponibile câteva capabilități noi în Facturare și stabilire a prețurilor. Iată câteva exemple:
+Ca parte a investițiilor continue în Operațiunile de Proiect, sunt disponibile câteva capabilități noi în Facturare și stabilire a prețurilor. Iată câteva exemple:
 
 - [Înregistrarea utilizării materialelor pe proiecte și sarcini ale proiectului](../material/material-usage-log.md)
 - [Managementul subcontractelor](../pro/subcontracting/managing-subcontracts-overview.md)
@@ -119,7 +119,7 @@ Ca parte a investițiilor continue în operațiunile de proiect, sunt disponibil
 
 ## <a name="frequently-asked-questions"></a>Întrebări frecvente
 
-### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Ce tipuri de implementare sunt acceptate în prezent pentru actualizare?
+### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Ce tipuri de implementare sunt acceptate în prezent pentru upgrade?
 
 | Sursă                                                 | Țintă                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|

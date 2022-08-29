@@ -6,16 +6,14 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 649687cb9ac66e684069434a353b63155103aefb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916901"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261386"
 ---
 # <a name="subcontracting-project-team-members"></a>Subcontractarea membrilor echipei de proiect
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -24,7 +22,7 @@ _**Se aplică la:** implementare simplificată - facturare de la tranzacție la 
 - Membrii echipei de proiect fără personal au o resursă generică alocată.
 - Membrii echipei cu personal au o resursă numită atribuită.
 
-Când legați un membru al echipei de proiect la o linie de subcontractare, orice atribuire a sarcinilor pe care le are membrul echipei vor fi decontate pe baza listei de prețuri de achiziție atașată subcontractului.  Pe **Estimări** fila pe **detaliile proiectului** pagina, selectați **Actualizați prețurile** butonul pentru a vedea prețurile și/sau costurile actualizate rezultate din decizia de subcontractare. 
+Când legați un membru al echipei de proiect la o linie de subcontractare, orice atribuire a sarcinilor pe care le are membrul echipei vor fi decontate pe baza listei de prețuri de achiziție atașată subcontractului.  Pe **Estimări** fila de pe **detaliile proiectului** pagina, selectați **Actualizați prețurile** butonul pentru a vedea prețurile și/sau costurile actualizate rezultate din decizia de subcontractare. 
 
 ## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subcontractarea unui membru al echipei de proiect fără personal
 The **Detalii despre membrii echipei** pagina are câmpuri de subcontractare și subcontractare care permit unui manager de proiect să exprime modul în care ar dori să atragă capacitatea necesară dintr-un subcontract. Pentru a subcontracta un membru al echipei de proiect ca resursă generică, urmați acești pași:
@@ -44,7 +42,7 @@ Când un membru generic al echipei este asociat cu o linie de subcontractare și
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Subcontractarea unui membru al echipei de proiect cu personal
 La fel ca membrii echipei generice sau fără personal, capacitatea de membru al echipei cu personal necesară pentru un proiect poate fi, de asemenea, legată de un subcontract. Pentru a subcontracta un membru numit al echipei de proiect, urmați acești pași:
 
-1.  Asigurați-vă că resursa numită este configurată ca tip de resursă rezervabilă de angajat contractual. De asemenea, asigurați-vă că **Furnizor** câmpul din resursa rezervabilă se potrivește cu furnizorul din subcontractul pe care îl selectați. 
+1.  Asigurați-vă că resursa numită este configurată ca resursă rezervabilă de tip lucrător contractual. De asemenea, asigurați-vă că **Furnizor** câmpul din resursa rezervabilă se potrivește cu furnizorul din subcontractul pe care îl selectați. 
 
 2.  Puteți selecta doar subcontracte în **Proiect** sau **Confirmat** stare. **Închis** sau **Anulat** subcontractele nu pot fi selectate. 
 

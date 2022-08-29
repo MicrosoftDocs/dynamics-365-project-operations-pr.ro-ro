@@ -6,22 +6,20 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b57ec8cdb6097e6f2207056667aadfb43ee8acfc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911473"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261959"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>Facturare furnizori - Concepere și creare
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 Facturarea furnizorilor în Microsoft Dynamics 365 Project Operations poate fi folosit pentru a înregistra costurile din livrările de servicii și/sau materiale pe un proiect de către furnizori.
 
-Atunci când serviciile și/sau materialele sunt subcontractate unui furnizor, un subcontract reprezintă acordul contractual cu acel furnizor. Pe măsură ce furnizorul furnizează serviciile sau materialele sunt primite și utilizate pentru sarcinile proiectului, costurile sunt înregistrate în proiect. Periodic, furnizorul trimite facturi care sunt verificate și corelate cu costurile care sunt înregistrate în proiect. După finalizarea procesului de verificare, factura furnizorului este confirmată și eliberată pentru plată.
+Atunci când serviciile și/sau materialele sunt subcontractate unui furnizor, un subcontract reprezintă acordul contractual cu acel furnizor. Pe măsură ce furnizorul furnizează serviciile sau materialele sunt primite și utilizate în sarcinile proiectului, costurile sunt înregistrate în proiect. Periodic, furnizorul trimite facturi care sunt verificate și corelate cu costurile care sunt înregistrate în proiect. După finalizarea procesului de verificare, factura furnizorului este confirmată și eliberată pentru plată.
 
 ## <a name="scenarios-for-use"></a>Scenarii de utilizare
 
@@ -29,7 +27,7 @@ Facturile furnizorilor din Operațiunile de proiect pot fi utilizate pentru a su
 
 ### <a name="customers-use-the-full-subcontracting-experiences"></a>Clienții folosesc toate experiențele de subcontractare
 
-Experiențele de facturare a furnizorilor oferă o modalitate de a verifica și de a potrivi intrările de timp, utilizarea materialelor și intrările de cheltuieli care fac referire la componentele subcontractate cu liniile de factură ale furnizorului. Acest proces poate fi utilizat pentru a verifica acuratețea liniilor de factură a furnizorului. După finalizarea procesului de verificare și confirmarea facturii furnizorului, aplicația va inversa valorile reale care au fost înregistrate prin jurnalele aprobate de timp, cheltuieli și utilizare a materialelor și va crea noi valori efective ale costurilor utilizând liniile de factură pentru furnizor.
+Experiențele de facturare a furnizorilor oferă o modalitate de a verifica și potrivi intrările de timp, utilizarea materialelor și intrările de cheltuieli care fac referire la componentele subcontractate cu liniile de factură ale furnizorului. Acest proces poate fi utilizat pentru a verifica acuratețea liniilor de factură a furnizorului. După finalizarea procesului de verificare și confirmarea facturii furnizorului, aplicația va inversa valorile reale care au fost înregistrate de jurnalele aprobate de timp, cheltuieli și utilizare a materialelor și va crea noi valori reale de cost utilizând liniile de factură a furnizorului.
 
 ### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Clienții nu folosesc experiențele complete de subcontractare, dar doresc să aibă o vedere unificată a costurilor pe proiecte în Operațiuni de proiect
 
@@ -47,9 +45,9 @@ Facturile furnizorilor pot fi create în două moduri:
 1. Mergi la **Achizitie** \> **Facturi de furnizor**.
 2. Pe pagina cu listă de facturi de furnizor sau pe pagina de detalii pentru o singură factură de furnizor, selectați **Nou** pentru a crea o nouă factură de furnizor.
 
-Facturile de furnizor care sunt create în acest fel pot face referire și la un subcontract.
+Facturile de furnizor care sunt create în acest mod pot face referire și la un subcontract.
 
-### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Creare din pagina cu lista de subcontracte sau din pagina de detalii
+### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Creare din pagina listei de subcontracte sau pagina de detalii
 
 1. Mergi la **Achizitie** \> **Subcontracte**.
 2. Selectați unul sau mai multe subcontracte.
@@ -57,7 +55,7 @@ Facturile de furnizor care sunt create în acest fel pot face referire și la un
 
 O nouă factură de furnizor în **Proiect** starea este creată pentru fiecare subcontract pe care l-ați selectat.
 
-Facturile de furnizor pe care le creați în acest fel fac întotdeauna referire la subcontractul din antetul facturii de furnizor. Fiecare linie din subcontract care are o metodă de facturare de timp și material va determina crearea unei linii pe factura furnizorului. Fiecare linie din subcontract care are o metodă de facturare cu preț fix va determina crearea unei linii pe factura furnizorului pentru fiecare etapă de linie de subcontractare care are statutul de **Gata de facturare**.
+Facturile de furnizor pe care le creați în acest fel fac întotdeauna referire la subcontractul din antetul facturii de furnizor. Fiecare linie din subcontract care are o metodă de facturare de timp și material va determina crearea unei linii pe factura furnizorului. Fiecare linie a subcontractului care are o metodă de facturare cu preț fix va determina crearea unei linii pe factura furnizorului pentru fiecare etapă de linie de subcontractare care are statutul de **Gata de facturare**.
 
 Următoarele câmpuri și înregistrările aferente vor fi copiate din subcontract în antetul facturii furnizorului:
 
@@ -78,7 +76,7 @@ Pentru liniile de subcontractare Timp și material, următoarele câmpuri și î
 - Activitate
 - Resursă ce se poate rezerva
 
-Pentru liniile de subcontractare cu preț fix, următoarele câmpuri vor fi copiate din linia de subcontractare și din linia de referință de subcontractare în linia de factură a furnizorului:
+Pentru liniile de subcontractare cu preț fix, următoarele câmpuri vor fi copiate de pe linia de subcontractare și din linia de referință de subcontractare în linia de factură a furnizorului:
 
 - Referințe de linii de subcontractare și subcontractare.
 - Clasa de tranzacții. În mod implicit, valoarea va fi **Piatra de hotar**.

@@ -1,17 +1,17 @@
 ---
-title: Instalați și aplicați datele de configurare în Common Data Service
+title: Instalați și aplicați datele de configurare în Microsoft Dataverse
 description: Acest articol oferă informații despre configurarea și aplicarea datelor de configurare în Operațiuni de proiect.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928033"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230267"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Instalați și aplicați datele de configurare în Common Data Service 
 
@@ -21,10 +21,10 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 ## <a name="prerequisites"></a>Cerințe preliminare
 
-Înainte de a începe să configurați datele în Common Data Service (CDS), trebuie îndeplinite următoarele condiții prealabile:
+Înainte de a începe să configurați datele în Microsoft Dataverse, trebuie îndeplinite următoarele condiții prealabile:
 
-1.  Furnizați un mediu CDS și un mediu Dynamics 365 Finance pentru operațiunile de proiect.
-2.  Informațiile despre entitate juridică de la Dynamics 365 Finance sunt partajate mediului CDS. Aceasta înseamnă că entitatea **Companie** din CDS are următoarele înregistrări ale companiei:
+1.  Dispozitia a Dataverse mediu și un mediu Dynamics 365 Finance pentru operațiunile de proiect.
+2.  Informațiile despre entitate juridică de la Dynamics 365 Finance sunt partajate către Dataverse mediu inconjurator. Aceasta înseamnă că **Companie** entitate în Dataverse are următoarele înregistrări ale companiei:
   - THPM
   - USPM
   - GBPM

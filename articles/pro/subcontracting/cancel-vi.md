@@ -6,28 +6,26 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79d00a91f9ab2d66eab2f80349d6f1fba1934f94
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911565"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261106"
 ---
 # <a name="cancel-a-project-vendor-invoice"></a>Anularea unei facturi de furnizor pentru proiect
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 După ce o factură de furnizor este confirmată, aceasta nu poate fi editată sau ștearsă. Dacă a existat o eroare pe o factură de furnizor care a fost confirmată, puteți utiliza acțiunea Anulare pentru a inversa impactul facturii de furnizor și pentru a crea o nouă factură de furnizor.
 
-Când selectezi **Anulare** pe o factură de furnizor, apare următorul comportament:
+Când selectați **Anulare** pe o factură de furnizor, apare următorul comportament:
 
 1. Starea facturii furnizorului este actualizată la **Anulat**.
 2. Factura de furnizor anulată și înregistrările asociate acesteia devin numai pentru citire și nu pot fi editate sau șterse.
 3. Orice costuri reale care au fost create pe baza liniilor de factură a furnizorului ca parte a confirmării facturii furnizorului sunt inversate.
-4. Dacă costurile reale au fost legate de liniile de factură a furnizorului ca parte a procesului de potrivire, confirmarea originală a facturii furnizorului le-a inversat. În timpul anulării facturii furnizorului, acele costuri reale sunt recreate. Originile indică intrările privind timpul, cheltuielile sau utilizarea materialului.
-5. După ce factura furnizorului este anulată, puteți crea din nou jurnalele de corecție, puteți procesa retrageri de timp de intrare și puteți anula aprobarea timpului inițial, a cheltuielilor sau a materialelor reale.
+4. Dacă costurile reale au fost legate de liniile de factură a furnizorului ca parte a procesului de potrivire, confirmarea inițială a facturii furnizorului le-a inversat. În timpul anulării facturii furnizorului, acele costuri reale sunt recreate. Originile indică înregistrările privind timpul, cheltuielile sau utilizarea materialului.
+5. După anularea facturii furnizorului, puteți crea din nou jurnalele de corecție, puteți procesa retragerile de timp de intrare și puteți anula aprobarea timpului, cheltuielilor sau materialelor reale inițiale.
 
 > [!NOTE]
 > Numai facturile de furnizor de proiect confirmate pot fi anulate. Facturile furnizorilor din alte state nu pot fi anulate.

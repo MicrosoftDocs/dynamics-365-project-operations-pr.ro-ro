@@ -1,21 +1,20 @@
 ---
 title: Gestionarea listelor de prețuri de vânzări și achiziții în Project Operations
-description: Acest articol oferă informații care vă vor ajuta să creați și să mențineți datele despre furnizori și listele de prețuri de achiziție pentru subcontractare.
+description: Acest articol oferă informații care vă vor ajuta să creați și să mențineți date despre furnizori și liste de prețuri de achiziție pentru subcontractare.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6840ffcbc510fe6385dd3fdaf881e9700c4fdd18
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3cd883fed8a59f1c54c39e2d051b9748833ba692
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914141"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261903"
 ---
 # <a name="vendor-and-purchase-price-list-management-in-project-operations"></a>Gestionarea listelor de prețuri de vânzări și achiziții în Project Operations
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
