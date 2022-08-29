@@ -56,16 +56,18 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integrarea gestionării cheltuielilor
               href: environment/resource-dual-write-expense.md
-            - name: Integrarea facturilor pentru furnizori
+            - name: Integrarea facturilor furnizorilor
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Dezinstalarea Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Noutăți
       items:
-        - name: Iulie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: August 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arhivă
           items:
+            - name: Iulie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Iunie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mai 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -384,6 +386,42 @@
           items:
             - name: Prezentare generală a utilizării resurselor
               href: resource-management/resource-utilization-overview.md
+    - name: Gestionarea subcontractării
+      items:
+        - name: Gestionarea subcontractării în Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Concepte cheie în subcontractare
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gestionarea furnizorilor și a listelor de prețuri ale proiectelor
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontractanții ca resurse ce se pot rezerva
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalii de antet pentru subcontracte
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Linii de subcontractare pentru timp
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Linii de subcontractare pentru categoriile de cheltuieli
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Linii de subcontractare pentru produse
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Resursele de linie de subcontractare
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Jaloanele de linie de subcontractare
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontractarea membrilor echipei de proiect
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opțiuni de subcontractare pentru membrii echipei de proiect
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimarea costurilor pentru atribuirile de resurse subcontractate
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurarea Tabloului de planificare pentru a afișa lucrătorii contractuali și capacitatea subcontractată
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Atribuirea de personal pentru un proiect cu lucrători contractuali și capacitate subcontractată
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Înregistrarea timpului, cheltuielilor și utilizării materialelor pentru componentele subcontractate'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Tranziții de stare pe un subcontract
+          href: pro/subcontracting/subcon-states.md
     - name: Timp
       items:
         - name: Prezentare generală a timpului
@@ -580,6 +618,8 @@
       items:
         - name: Migrarea jaloanelor de facturare complet facturate în timpul tranziției
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Sincronizarea stării proiectelor pentru a preveni introducerea de date în proiectele închise
+          href: advanced-configuration/sync-project-status.md
     - name: Upgrade
       items:
         - name: Considerații privind upgrade-ul pentru aprobările moderne
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
-        - name: Noutăți iulie 2022 - implementare simplificată
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Noutăți august 2022 - implementare simplificată
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arhivă
           items:
+            - name: Noutăți iulie 2022 - implementare simplificată
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Noutăți iunie 2022 - implementare simplificată
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Noutăți 2021 - valul 2 de acces timpuriu - implementare simplificată
