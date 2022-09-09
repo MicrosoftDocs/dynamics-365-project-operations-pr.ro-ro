@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348108"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403872"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Noutăți august 2022 - Project Operations pentru scenarii bazate pe resurse/fără stocuri
 
@@ -38,6 +38,11 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | Zonă de caracteristici | Număr de referință | Actualizare de calitate |
 | --- | --- | --- |
 | Managementul oportunităților | 2762089 | Gestionarea erorilor la închiderea contractului ca pierdută dacă salvarea automată este dezactivată în organizație.|
+|Planificare și urmărire de proiect | 2767841 | Actualizări de telemetrie Entitatea proiectului Creați sau actualizați scenarii.|
+|Facturarea și stabilirea prețurilor | 2771072 | Gestionarea excepțiilor referințelor nule în timpul câștigării cotației.|
+|Facturarea și stabilirea prețurilor | 2844181 |Eșecul în obținerea unui ID de corelare și blocarea creării unei facturi.|
+|Facturarea și stabilirea prețurilor | 2852836 | Lipsesc date efective între companii pentru Cheltuielile între companii create și aprobate în CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Management de proiect si contabilitate in Finante
 

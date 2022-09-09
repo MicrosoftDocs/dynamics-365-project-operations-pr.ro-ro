@@ -164,10 +164,12 @@
                   href: sales/create-estimate-quote-line.md
                 - name: Importul de estimări dintr-un proiect pentru o linie de ofertă pe bază de proiect
                   href: sales/import-estimate-quote-line.md
-                - name: Planificările de facturi pe linii de ofertă bazate pe proiect
+                - name: Planificările de facturi din liniile de ofertă bazate pe proiect
                   href: sales/invoice-schedule-quote-line.md
             - name: Copierea ofertelor de proiect
               href: sales/lose-quote.md
+            - name: Activarea și revizuirea unei oferte de proiect
+              href: sales/activation-and-revision.md
             - name: Închiderea ofertelor de proiect
               href: sales/win-quote.md
         - name: Gestionarea contractelor de proiect
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Crearea planificărilor de facturare pentru linii de contract bazate pe proiect
                   href: sales/invoice-schedules-contract-line.md
+            - name: Copierea contractelor bazate pe proiect
+              href: sales/copy-project-based-contracts-sales.md
             - name: Confirmarea unui contract de proiect
               href: pro/sales/confirm-contract-sales.md
             - name: Avansuri și garanții
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Înlocuirea listelor de prețuri de vânzare pentru proiect
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Rezolvarea prețurilor de cost pentru estimări și date reale
+            - name: Stabilirea prețurilor de cost pentru estimări și date reale
               href: pricing-costing/cost-price-resolution.md
-            - name: Rezolvarea prețurilor de vânzări pentru estimări și date reale
+            - name: Stabilirea prețurilor de vânzare pentru estimări și date reale
               href: pricing-costing/sales-price-resolution.md
             - name: Copierea listelor de prețuri
               href: pricing-costing/copy-price-lists.md
@@ -762,10 +766,12 @@
                   href: pro/sales/create-estimate-quote-line-sales.md
                 - name: Importul estimării dintr-un proiect
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Gestionarea planificărilor de factură
+                - name: Gestionarea planificărilor de facturi
                   href: sales/invoice-schedule-quote-line.md
             - name: Copierea ofertelor bazate pe proiect
               href: sales/lose-quote.md
+            - name: Activarea și revizuirea unei oferte de proiect
+              href: sales/activation-and-revision.md
             - name: Închiderea ofertelor bazate pe proiect
               href: pro/sales/win-quote-sales.md
         - name: Gestionarea contractelor bazate pe proiect
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Înlocuirea listelor de prețuri de vânzare pentru proiect
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Rezolvarea prețurilor de cost pentru estimări de proiect și date reale
+            - name: Stabilirea prețurilor de cost pentru estimări de proiect și date reale
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Rezolvarea prețurilor de vânzări pentru estimări de proiect și date reale
+            - name: Stabilirea prețurilor de vânzări pentru estimări de proiect și date reale
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Copierea listelor de prețuri
               href: pricing-costing/copy-price-lists.md

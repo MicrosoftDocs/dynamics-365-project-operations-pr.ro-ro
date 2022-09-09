@@ -1,18 +1,18 @@
 ---
 title: Noutăți iulie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
-description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea Microsoft din iulie 2022 Dynamics 365 Project Operations pentru scenarii bazate pe resurse/neaprovizionate.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din iulie 2022 a Microsoft Dynamics 365 Project Operations pentru scenarii bazate pe resurse/neaprovizionate.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183928"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403967"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Noutăți iulie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
 
@@ -41,10 +41,16 @@ Dacă întâmpinați o problemă când porniți harta, urmați instrucțiunile d
 | Facturarea și stabilirea prețurilor | 2746940 | Numele liniei de subcontractare trebuie să aibă o lungime maximă de 100 de caractere. |
 | Facturarea și stabilirea prețurilor | 2739162 | Clienții trebuie să poată vedea butoanele de tip panglică în vizualizarea actuală a grilei. |
 | Planificare și urmărire de proiect | 2730318 | Validare actualizată pentru caracterele neacceptate din subiectul proiectului. |
-| Facturarea și stabilirea prețurilor | 2705361 | Datele efective de vânzări facturate pentru etapa de referință trebuie incluse în câmpurile de urmărire a proiectului. |
-| Facturarea și stabilirea prețurilor | 2675880 | Preveniți conectarea unui proiect la o linie de contract care nu se bazează pe muncă. |
+| Facturarea și stabilirea prețurilor | 2705361 | Datele efective de vânzări facturate de reper trebuie incluse în câmpurile de urmărire a proiectului. |
+| Facturarea și stabilirea prețurilor | 2675880 | Preveniți conectarea unui proiect la o linie de contract care nu este bazată pe muncă. |
 | Facturarea și stabilirea prețurilor | 2664396 | Dacă o listă de prețuri de cotație este salvată fără o cotație, trebuie să existe o eroare care afirmă că oferta nu poate fi goală. |
 | Facturarea și stabilirea prețurilor | 2184019 | The **Facturare bazată pe sarcini** fila nu ar trebui să fie afișată pentru proiectele care nu au contract de sprijin sau ofertă. |
+| Timp și cheltuială | 2754459 | Când fluxul cloud de programare recurentă este inactiv, afișați bannerul și ocoliți procesarea asincronă. |
+| Facturarea și stabilirea prețurilor | 2724391 | Se face o excepție greșită atunci când regula de facturare împărțită în contractul de proiect lipsește o valoare pentru client. |
+| Facturarea și stabilirea prețurilor | 2708638 | Înregistrarea nu a fost găsită în timpul căutării utilizând căutarea pe grilă în Utilizări materiale și aprobări pentru utilizări materiale.|
+| Facturarea și stabilirea prețurilor | 2686977 | Preveniți validarea liniei de factură în timpul creării facturii. |
+| Facturarea și stabilirea prețurilor | 2683032 | Copierea rolurilor și categoriilor taxabile nu depășește 5000 de înregistrări.|
+| Facturarea și stabilirea prețurilor | 2673363 | Procentul consumului de cost pe proiect este corupt atunci când există atât estimări de efort, cât și cheltuieli și valori reale pentru un proiect. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Management de proiect si contabilitate in Finante
 
@@ -52,7 +58,7 @@ Pentru informații despre remedierea erorilor care sunt incluse în această act
 
 ## <a name="features-turned-on-by-default-in-upcoming-release"></a>Funcțiile sunt activate în mod prestabilit în versiunea viitoare
 
-Următorul tabel listează caracteristicile care sunt activate implicit în versiunea 10.0.29. Majoritatea funcțiilor care au fost activate automat pot fi dezactivate în [Managementul caracteristicilor](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). În viitor, unele funcții care au fost activate automat ar putea fi eliminate din Gestionarea funcțiilor și devin obligatorii. Această modificare asigură că clienții folosesc funcționalitatea actuală, astfel încât îmbunătățirile se pot construi pe funcționalitatea curentă pe măsură ce sunt adăugate. Funcțiile nu vor fi niciodată activate automat în mai puțin de un an, cu excepția cazului în care se consideră că sunt esențiale.
+Următorul tabel listează caracteristicile care sunt activate implicit în versiunea 10.0.29. Majoritatea funcțiilor care au fost activate automat pot fi dezactivate în [Managementul caracteristicilor](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). În viitor, unele funcții care au fost activate automat ar putea fi eliminate din Gestionarea caracteristicilor și devin obligatorii. Această modificare asigură că clienții folosesc funcționalitatea actuală, astfel încât îmbunătățirile se pot construi pe funcționalitatea curentă pe măsură ce sunt adăugate. Funcțiile nu vor fi niciodată activate automat în mai puțin de un an, cu excepția cazului în care se consideră că sunt esențiale.
 
 | Numele caracteristicii | Activați data | Funcție adăugată | Stare caracteristică | Modul |
 | --- | --- | --- |--- |--- |
@@ -65,7 +71,7 @@ Următorul tabel listează caracteristicile care sunt activate implicit în vers
 | Faceți jurnalele Ora de proiect doar în citire dacă starea actuală de aprobare nu permite editarea | 16 septembrie 2022 | 6 Octombrie 2021 | Activat implicit | Management de proiect și contabilitate |
 | Activați sincronizarea liniilor de vânzări din liniile de achiziție atunci când liniile de achiziție sunt actualizate și parametrul de gestionare a modificării comenzii de achiziție este activat | 16 septembrie 2022 | 7 Octombrie 2020 | Activat implicit | Management de proiect și contabilitate |
 | Activați operațiunile de proiect pe Dynamics 365 Customer Engagement | 16 septembrie 2022 | 29 iunie 2020 | Activat implicit | Management de proiect și contabilitate |
-| Funcția de corectare a inversării tranzacției de proiect | 16 septembrie 2022 | 13 iulie 2020 | Activat implicit | Management de proiect și contabilitate |
+| Caracteristica de corectare a inversării tranzacției de proiect | 16 septembrie 2022 | 13 iulie 2020 | Activat implicit | Management de proiect și contabilitate |
 
 ## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>Funcții care devin obligatorii în următoarea lansare
 
@@ -75,5 +81,5 @@ Următorul tabel listează caracteristicile care sunt obligatorii începând cu 
 | --- | --- | --- | --- | --- |
 | Calculați valoarea angajată pe sursa de finanțare fără a rotunji cursul de schimb | 16 septembrie 2022 | 14 iunie 2020 | Obligatoriu | Management de proiect și contabilitate |
 | Activați înregistrarea ajustărilor de proiect cu același cont contabil ca tranzacția inițială | 16 septembrie 2022 | 14 iunie 2020 | Obligatoriu | Management de proiect și contabilitate |
-| Detaliu suma angajată din contractul de proiect | 16 septembrie 2022 | 31 august, 2019 | Obligatoriu | Management de proiect și contabilitate |
+| Detaliu suma angajată prin contract de proiect | 16 septembrie 2022 | 31 august, 2019 | Obligatoriu | Management de proiect și contabilitate |
 | Activați sortarea după resursă în timpul creării propunerii de factură de proiect | 16 septembrie 2022 | 31 august, 2019 | Obligatoriu | Management de proiect și contabilitate |

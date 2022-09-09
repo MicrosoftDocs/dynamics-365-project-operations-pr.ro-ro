@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921271"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410075"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Înscrierea pentru un abonament de previzualizare - simplificat 
 
@@ -63,9 +63,9 @@ Acest articol explică cum să vă abonați la oferta de încercare și să impl
 
 ![Instalați soluția.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalați o configurare CDS și instalați date demonstrative
+## <a name="set-up-demo-data"></a>Configurați datele demonstrative
 
-Instalați configurația CDS și configurați datele demo urmând instrucțiunile din articol, [Aplicați datele de configurare și configurare demo](lite-apply-demo-setup-config-data.md).
+Configurați datele demonstrative urmând instrucțiunile din articol, [Aplicați datele de configurare și configurare demo](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

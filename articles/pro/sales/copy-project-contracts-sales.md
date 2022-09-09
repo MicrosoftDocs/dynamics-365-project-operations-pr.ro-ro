@@ -1,19 +1,19 @@
 ---
-title: Copierea contractelor de proiect - simplificat
+title: Copierea contractelor de proiect
 description: Acest articol oferă informații despre copierea contractelor de proiect în Operațiuni de proiect.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a1846af677f7cea3ec22fdba4408f2bbd7db8a3c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8fa17bbd5738e4bc6330c728a3418a2be6828eef
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932633"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410087"
 ---
-# <a name="copy-project-contracts---lite"></a>Copierea contractelor de proiect - simplificat
+# <a name="copy-project-contracts"></a>Copierea contractelor de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
