@@ -230,8 +230,10 @@
           items:
             - name: Liste de prețuri implicite
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Înlocuirea listelor de prețuri de vânzare pentru proiect
+            - name: Înlocuirea listelor de prețuri de vânzare din proiect
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurarea înlocuirilor cu dată de valabilitate pentru anumite prețuri din lista de prețuri
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Stabilirea prețurilor de cost pentru estimări și date reale
               href: pricing-costing/cost-price-resolution.md
             - name: Stabilirea prețurilor de vânzare pentru estimări și date reale
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Comandarea pentru proiecte a unor bunuri și servicii folosind comenzi de achiziție pentru proiecte
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Facturi de furnizor pentru subcontracte din Dataverse
+          items:
+            - name: Crearea facturilor de furnizor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verificarea facturilor de furnizori cu datele reale aprobate
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confirmarea facturilor de la furnizorii din proiect
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Reținerea furnizorilor
           items:
             - name: Prezentare generală a reținerii furnizorilor
@@ -842,11 +852,13 @@
           items:
             - name: Liste de prețuri implicite
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Înlocuirea listelor de prețuri de vânzare pentru proiect
+            - name: Înlocuirea listelor de prețuri de vânzare din proiect
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurarea înlocuirilor cu dată de valabilitate pentru anumite prețuri din lista de prețuri
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Stabilirea prețurilor de cost pentru estimări de proiect și date reale
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Stabilirea prețurilor de vânzări pentru estimări de proiect și date reale
+            - name: Stabilirea prețurilor de vânzare pentru estimări de proiect și date reale
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Copierea listelor de prețuri
               href: pricing-costing/copy-price-lists.md
