@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925365"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459942"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Modificări de caracteristici de la Project Service Automation la Project Operations
 
-Upgrade-ul de la Dynamics 365 Project Service Automation la Dynamics 365 Project Operations Lite va fi livrat în trei etape. Acest articol oferă informații despre schimbările majore pe care vă puteți aștepta să le vedeți când actualizarea este finalizată.
+Upgrade-ul de la Dynamics 365 Project Service Automation la Dynamics 365 Project Operations Lite va fi livrat în trei etape. Acest articol oferă informații despre modificările majore pe care vă puteți aștepta să le vedeți când actualizarea este finalizată.
 
-| Livrare upgrade | Faza 1 <br>(ianuarie 2022) | Faza 2 <br>(Valul aprilie 2022) | Faza 3  |
+| Livrare upgrade | Faza 1 <br>(ianuarie 2022) | Faza 2 <br>(noiembrie 2022) | Faza 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nicio dependență de structura de defalcare a lucrărilor (WBS) pentru proiecte. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS este inclus în limitele suportate în prezent ale operațiunilor de proiect. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Cele mai semnificative schimbări în experiența utilizatorului vor fi în zona
 
 ## <a name="differences-in-the-scheduling-experience"></a>Diferențe în experiența de programare
 
-Următorul tabel rezumă diferențele de programare dintre Project Service Automation și Project Operations.
+Următorul tabel rezumă diferențele de planificare dintre Project Service Automation și Project Operations.
 
 |  Planificare     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
@@ -50,11 +50,11 @@ Următorul tabel rezumă diferențele de programare dintre Project Service Autom
 | Sarcinile bazate pe resurse vor respecta disponibilitatea resurselor alocate   | :heavy_check_mark: |  &nbsp;    |
 | Editare în etape - Editați planurile și lucrați zi de zi   |   &nbsp;  | :heavy_check_mark: |
 | Programare automată/manuală - Utilizați motorul de planificare a proiectului pentru a programa automat sau manual sarcini |  &nbsp; | :heavy_check_mark:  |
-| Editați proiecte mari direct în interfața cu utilizatorul: nu există limită pentru dimensiunea planurilor care sunt editabile  | Limită de 500 de sarcini  | :heavy_check_mark:       |
+| Editați proiecte mari direct în interfața cu utilizatorul: nu există nicio limită pentru dimensiunea planurilor care sunt editabile  | Limită de sarcini 500  | :heavy_check_mark:       |
 | Procent finalizat - Marcați progresul sarcinii   | :heavy_check_mark:  |  &nbsp;  |
 | [Moduri de planificare a proiectului](../project-management/scheduling-modes.md) - Definiți proiectul ca unități fixe, efort fix sau durată fixă | :heavy_check_mark: | &nbsp; |
 | Cronologie - Creați și personalizați vizualizarea cronologiei pentru a vizualiza detaliile programului și pentru a comunica cu părțile interesate. | :heavy_check_mark:  | &nbsp; |
-| Sarcini bazate pe efort - Suport motor de programare pentru programarea unei sarcini ca bazată pe efort  | :heavy_check_mark:  | &nbsp; |
+| Sarcini bazate pe efort - Suportul motorului de programare pentru programarea unei sarcini ca bazată pe efort  | :heavy_check_mark:  | &nbsp; |
 | **Informații despre sarcină** caseta de dialog - Salvați detaliile sarcinii utilizând o casetă de dialog | :heavy_check_mark:  |  &nbsp;  |
 | Trageți și plasați - Selectați sarcini multiple și modificați poziția lor pe WBS | :heavy_check_mark: | &nbsp;  |
 | Vizualizări persistente flexibile - Definiți vederi mai granulare ale atributelor sarcinii   | :heavy_check_mark:  | &nbsp; |
@@ -70,7 +70,7 @@ Următorul tabel rezumă diferențele de programare dintre Project Service Autom
 
 The **Proiect** pagina din Operațiuni de proiect are un număr semnificativ de diferențe în comparație cu **Proiect** pagina din Project Service Automation.
 
-Următoarele acțiuni au fost eliminate din **Proiecte** pagina ca parte a actualizării Fazei 1:
+Următoarele acțiuni au fost eliminate din **Proiecte** pagina ca parte a actualizării fazei 1:
 
   - **Deschideți în MS Project**
   - **Creare șablon**
@@ -85,13 +85,13 @@ The **stare** fila a fost eliminată și **stare** câmpul este acum pe **rezuma
 
    ![Actualizări ale paginii Proiect.](media/projectform.png)
 
-The **Programa** fila a fost redenumită în **Sarcină** fila și oferă noua experiență de planificare a proiectelor cu Project for the Web.
+The **Programa** fila a fost redenumită în **Sarcină** fila și prezintă noua experiență de planificare a proiectelor cu Project for the Web.
 
    ![Noua filă Sarcini de proiect.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Moduri de planificare
 
-Project Operations a introdus o nouă caracteristică, [Moduri de programare](../project-management/scheduling-modes.md). Toate proiectele existente de Project Service Automation vor fi implicite **Durată fixă** în Operațiuni de proiect. Cu toate acestea, valoarea implicită pentru proiecte noi poate fi gestionată accesând **Setări** > **Parametrii** > **Parametru** > **Modul de programare**.
+Project Operations a introdus o nouă caracteristică, [Moduri de programare](../project-management/scheduling-modes.md). Toate proiectele existente Project Service Automation vor fi implicite **Durată fixă** în Operațiuni de proiect. Cu toate acestea, valoarea implicită pentru proiecte noi poate fi gestionată accesând **Setări** > **Parametrii** > **Parametru** > **Modul de programare**.
 
    ![Setări ale parametrilor proiectului pentru modul Program.](media/projectparameter.png)
 
@@ -114,7 +114,7 @@ Project Operations se bazează pe Project for Web pentru toate operațiunile de 
 | Interval de date acceptat pentru o activitate                    | 1/1/2000 - 12/31/2149 |
 | Elemente listă de verificare                                    | 20                    |
 
-## <a name="project-planning-extensibility-and-development"></a>Extensibilitatea și dezvoltarea proiectelor
+## <a name="project-planning-extensibility-and-development"></a>Extensibilitatea și dezvoltarea planificării proiectelor
 
 După ce faceți upgrade la Project Operations, trebuie să utilizați API-urile Project Scheduling pentru a executa operațiuni de creare, actualizare și ștergere pe următoarele entități:
 
@@ -159,13 +159,13 @@ Următoarele câmpuri au fost adăugate.
 | msdyn_project     | msdyn_businesscase                           |                |
 | msdyn_project     | msdyn_contractlineproject                    | Linia de contract asociată acestui proiect. |
 | msdyn_project     | msdyn_copyprojectcorrelationid               | Acesta este un câmp intern al sistemului care este folosit pentru **Copiați proiectul** legate de identificatorul de corelație. Pentru utilizare numai în Project Service Automation. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Acesta este un câmp intern al sistemului, folosit pentru **Copiați proiectul** legate de identificatorul de sesiune. Pentru utilizare numai în Project Service Automation. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Acesta este un câmp intern al sistemului, folosit pentru **Copiați proiectul** legate de Identificatorul de sesiune. Pentru utilizare numai în Project Service Automation. |
 | msdyn_project     | msdyn_globalrevisiontoken                    | Ultima sincronizare xRM Global Revision Token din serviciul de planificare a proiectului. |
 | msdyn_project     | msdyn_msprojectdocument                      | Documentul Microsoft Project care aparține proiectului. |
 | msdyn_project     | msdyn_plannedmaterialcost                    | Totalul costului materialului planificat pentru proiect. Pentru utilizare numai în Project Service Automation. |
 | msdyn_project     | msdyn_plannedmaterialsales                   | Agregatul vânzărilor de materiale planificate pe proiect. Pentru utilizare numai în Project Service Automation. |
 | msdyn_project     | msdyn_program                                | Programul cu care este corelat acest proiect. |
-| msdyn_project     | msdyn_quotelineproject                       | Linia de cotare asociată acestui proiect. |
+| msdyn_project     | msdyn_quotelineproject                       | Linia de citare asociată acestui proiect. |
 | msdyn_project     | msdyn_replaylogheader                        | Antetul pentru jurnalele de reluare. |
 | msdyn_project     | msdyn_schedulemode                           | Modul de programare implicit utilizat pentru toate sarcinile din proiect.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Cea mai timpurie dată de începere a oricărei activități din proiect.  |
@@ -174,7 +174,7 @@ Următoarele câmpuri au fost adăugate.
 | msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Indică dacă se creează cerința de resurse pentru un membru al echipei generice nou creat.  |
 | msdyn_projectteam | msdyn_deletestatus                           | Starea de ștergere a membrului echipei de urmărit dacă există o solicitare de ștergere trimisă către serviciul de planificare a proiectului și dacă trimite cu succes un răspuns înapoi în intervalul de timp estimat. |
 | msdyn_projectteam | msdyn_effortcompleted                        | Urmărește efortul depus de membrul echipei în misiunile lor. |
-| msdyn_projectteam | msdyn_effortremaining                        | Urmărește efortul care nu a fost încă finalizat de către membrul echipei în misiunile lor. |
+| msdyn_projectteam | msdyn_effortremaining                        | Urmărește efortul care nu a fost încă finalizat de membrul echipei în misiunile lor. |
 | msdyn_projectteam | msdyn_markedfordeletiontimer                 | Perioada de așteptare de la momentul în care membrul echipei trimite o solicitare de ștergere către serviciul de planificare a proiectului până când membrul echipei este șters efectiv pe Microsoft Dataverse.|
 | msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Marca temporală de înregistrat când solicitarea de ștergere a membrului echipei este trimisă către serviciul de planificare a proiectului. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Arată membrul echipei de proiect din care a fost copiat acest membru al echipei de proiect.  |
@@ -187,7 +187,7 @@ Project Operations nu oferă suport pentru șabloanele de proiect. Cu toate aces
 
 Suportul pentru programul de completare Microsoft Project Desktop nu va fi disponibil în primele 2 faze ale upgrade-ului. În Faza 3, clienții care au proiecte mai mari decât limitele acceptate în prezent de Project for Web vor putea folosi programul de completare pentru desktop.
 
-## <a name="editing-resource-assignment-contours"></a>Editarea contururilor de alocare a resurselor
+## <a name="editing-resource-assignment-contours"></a>Editarea contururilor de atribuire a resurselor
 
 Capacitatea de a edita contururile de alocare a resurselor va fi disponibilă atunci când Faza 2 de actualizare este disponibilă.
 

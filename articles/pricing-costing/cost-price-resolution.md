@@ -1,43 +1,84 @@
 ---
-title: Rezolvarea prețurilor de cost pentru estimări și date reale
-description: Acest articol oferă informații despre cum sunt rezolvate prețurile de cost pentru estimări și valori reale.
+title: Determinați ratele de cost pentru estimările și valorile reale bazate pe proiecte
+description: Acest articol oferă informații despre modul în care sunt determinate ratele de cost pentru estimările și valorile reale bazate pe proiecte.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 822a7bd8ae87d4fd4044d8b46347bfe1b4ca13ca
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919983"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475294"
 ---
-# <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Rezolvarea prețurilor de cost pentru estimări și date reale
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Determinați ratele de cost pentru estimările și valorile reale bazate pe proiecte
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Pentru a rezolva prețurile de cost și lista de prețuri de cost pentru estimări și date reale, sistemul folosește informațiile din câmpurile **Date**, **Monedă** și **Unitate Contractantă** ale proiectului aferent. După ce lista de prețuri a fost rezolvată, aplicația rezolvă rata de cost.
+Pentru a determina prețurile de cost pe estimări și valori reale în Microsoft Dynamics 365 Project Operations, sistemul utilizează mai întâi data și moneda în estimarea primită sau contextul real pentru a determina lista de prețuri de vânzare. În contextul actual, în mod specific, sistemul utilizează **Data tranzacției** câmp pentru a determina care listă de prețuri este aplicabilă. The **Data tranzacției** valoarea estimată sau reală primită este comparată cu **Pornire efectivă (independent de fus orar)** și **Sfârșit efectiv (independent de fusul orar)** valorile de pe lista de preturi. După ce lista de prețuri de cost este determinată, sistemul determină rata de cost.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Rezolvarea ratelor de cost pe liniile reale și estimate pentru Timp
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinarea ratelor de cost în contexte estimative și reale pentru Timp
 
-Liniile de estimare pentru Timp se referă la detaliile de ofertă și de linie de contract pentru atribuirea timpului și a resurselor unui proiect.
+Estimați contextul pentru **Timp** se refera la:
 
-După rezolvarea unei liste de prețuri de cost, sistemul utilizează câmpurile **Rol**, **Firmă de resurse** și **Unitate de resurse** de pe linia estimativă pentru Timp pentru a se potrivi cu liniile de preț de rol din lista de prețuri. Această potrivire presupune că utilizați dimensiuni de stabilire a prețurilor predefinite pentru costul forței de muncă. Dacă ați configurat sistemul pentru a se potrivi câmpurilor în loc de sau în plus față de **Rol**, **Firmă de resurse** și **Unitate de resurse**, atunci va fi utilizată o combinație diferită pentru a regăsi o linie de preț de rol potrivită. Dacă aplicația găsește o linie de preț de rol care are o rată de cost pentru combinația **Rol**, **Firmă de resurse** și **Unitate de resurse**, aceasta este rata implicită a costurilor. Dacă aplicația nu se potrivește exact cu combinația de **Rol**, **Companie de resurse** și **Unitate de resurse**, va prelua liniile de preț ale rolului cu o valoare de rol potrivită, dar are valori nule pentru **Unitate de resurse** și **Companie de resurse**. După potrivirea unei înregistrări a prețului de rol cu valoarea prețului de rol aferent, rata de cost primește valoarea implicită din înregistrarea respectivă. 
+- Cotați detaliile liniei pentru **Timp**.
+- Detalii linie contract pentru **Timp**.
+- Atribuții de resurse pentru un proiect.
+
+Contextul real pentru **Timp** se refera la:
+
+- Liniile jurnalului de intrare și corecție pentru **Timp**.
+- Liniile de jurnal care sunt create atunci când este trimisă o intrare de timp.
+
+După ce se stabilește o listă de prețuri de cost, sistemul parcurge următorii pași pentru a introduce rata de cost implicită.
+
+1. Sistemul se potrivește cu combinația dintre **Rol**, **de resurse**, și **Unitatea de Resurse** câmpuri în context estimativ sau real pentru **Timp** față de liniile de preț pentru rol de pe lista de prețuri. Această potrivire presupune că utilizați dimensiunile standard de preț pentru costul forței de muncă. Dacă ați configurat sistemul pentru a se potrivi cu alte câmpuri decât sau în plus față de **Rol**, **de resurse** și **Unitatea de Resurse**, o combinație diferită este utilizată pentru a prelua o linie de preț cu rol potrivit.
+1. Dacă sistemul găsește o linie de preț pentru rol care are o rată de cost pentru **Rol**, **de resurse**, și **Unitatea de Resurse** combinație, acea rată de cost este utilizată ca rată de cost implicită.
+1. Dacă sistemul nu poate să se potrivească cu **Rol**, **de resurse**, și **Unitatea de Resurse** valori, renunță la dimensiunea care are cea mai scăzută prioritate, caută linii de preț pentru rol care au potriviri pentru celelalte două valori ale dimensiunii și continuă să renunțe treptat la dimensiuni până când este găsit un rând de preț pentru rol care se potrivește. Rata de cost din acea înregistrare va fi utilizată ca rată de cost implicită. Dacă sistemul nu găsește un rând de preț pentru rol potrivit, prețul va fi setat la **0** (zero) implicit.
 
 > [!NOTE]
-> Dacă configurați o prioritate diferită de **Rol**, **Firmă de resurse** și **Unitate de resurse**, sau dacă aveți alte dimensiuni care au prioritate mai mare, acest comportament se va schimba în consecință. Sistemul preia înregistrările prețurilor de rol cu valori care se potrivesc fiecăreia dintre valorile dimensiunilor de stabilire a prețurilor în ordine de prioritate cu rânduri care au valori nule pentru dimensiunile care sunt ultimele în ordinea priorității.
+> Dacă configurați o altă prioritizare a **Rol** și **Unitatea de Resurse** câmpuri sau dacă aveți alte dimensiuni care au prioritate mai mare, comportamentul precedent se va modifica în consecință. Sistemul preia înregistrările prețului rolului care au valori care se potrivesc cu fiecare valoare a dimensiunii de preț în ordinea priorității. Rândurile care au valori nule pentru acele dimensiuni vin ultimele.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Rezolvarea ratelor de cost pe liniile reale și estimate pentru Cheltuială
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Determinarea ratelor de cost pe liniile reale și estimative pentru Cheltuieli
 
-Liniile de estimare pentru Cheltuială se referă la detaliile de ofertă și de linie de contract pentru cheltuieli și liniile de estimare a cheltuielilor unui proiect.
+Estimați contextul pentru **Cheltuiala** se refera la:
 
-După rezolvarea unei liste de prețuri de cost, sistemul utilizează o combinație de câmpuri **Categorie** și **Unitate** de pe linia de estimare pentru ca o cheltuială să se potrivească cu liniile **Preț de categorie** din lista de prețuri rezolvate. Dacă sistemul găsește o linie de preț de categorie care are o rată de cost pentru combinația de câmp **Categorie** și **Unitate**, rata de cost este implicită. Dacă sistemul nu se potrivește cu valorile **Categorie** și **Unitate** sau dacă este capabil să găsească o linie de preț de categorie potrivită, dar metoda de stabilire a prețurilor nu este **Preț pe unitate**, rata de cost trece implicit la zero (0).
+- Cotați detaliile liniei pentru **Cheltuiala**.
+- Detalii linie contract pentru **Cheltuiala**.
+- Estimări de cheltuieli pentru un proiect.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rezolvarea ratelor de costuri pe liniile reale și estimate pentru material
+Contextul real pentru **Cheltuiala** se refera la:
 
-Liniile de estimare pentru materiale se referă la detaliile liniei de ofertă și a liniei de contract pentru materiale și la liniile de estimare pentru un proiect.
+- Liniile jurnalului de intrare și corecție pentru **Cheltuiala**.
+- Liniile de jurnal care sunt create atunci când este trimisă o înregistrare de cheltuieli.
 
-După rezolvarea unei liste de prețuri de cost, sistemul folosește o combinație a câmpurilor **Produs** și **Unitate** de pe linia de estimare pentru o estimare a materialelor, de potrivit cu liniile **Articole din lista de prețuri** din lista de prețuri rezolvate. Dacă sistemul găsește o linie de preț de produs care are o rată de cost pentru combinația de câmpuri **Produs** și **Unitate**, rata de cost revine la valoarea implicită. Dacă sistemul nu poate asocia valorile **Produs** și **Unitate**, costum unitar capătă valoarea implicită zero. Această valoare implicită se va întâmpla și dacă există o linie aferentă de articole din lista de prețuri, dar metoda de stabilire a prețurilor se bazează pe un cost standard sau cost curent care nu este definit în produs.
+După ce se stabilește o listă de prețuri de cost, sistemul parcurge următorii pași pentru a introduce rata de cost implicită.
+
+1. Sistemul se potrivește cu combinația dintre **Categorie** și **Unitate** câmpuri în context estimativ sau real pentru **Cheltuiala** față de liniile de preț de categorie din lista de prețuri.
+1. Dacă sistemul găsește o linie de preț de categorie care are o rată de cost pentru **Categorie** și **Unitate** combinație, acea rată de cost este utilizată ca rată de cost implicită.
+1. Dacă sistemul nu poate să se potrivească cu **Categorie** și **Unitate** valori, prețul este setat la **0** (zero) implicit.
+1. În contextul estimării, dacă sistemul poate găsi o linie de preț de categorie potrivită, dar metoda de stabilire a prețului este altceva decât **Preț pe unitate**, rata de cost este setată la **0** (zero) implicit.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Determinarea ratelor de cost pe liniile reale și estimative pentru Material
+
+Estimați contextul pentru **Material** se refera la:
+
+- Cotați detaliile liniei pentru **Material**.
+- Detalii linie contract pentru **Material**.
+- Estimări materiale pentru un proiect.
+
+Contextul real pentru **Material** se refera la:
+
+- Liniile jurnalului de intrare și corecție pentru **Material**.
+- Liniile de jurnal care sunt create atunci când este trimis un jurnal de utilizare a materialelor.
+
+După ce se stabilește o listă de prețuri de cost, sistemul parcurge următorii pași pentru a introduce rata de cost implicită.
+
+1. Sistemul folosește combinația dintre **Produs** și **Unitate** câmpuri în context estimativ sau real pentru **Material** față de liniile de articole din lista de prețuri din lista de prețuri.
+1. Dacă sistemul găsește o linie de articol din lista de prețuri care are o rată de cost pentru **Produs** și **Unitate** combinație, acea rată de cost este utilizată ca rată de cost implicită.
+1. Dacă sistemul nu poate să se potrivească cu **Produs** și **Unitate** valori, costul unitar este setat la **0** (zero) implicit.
+1. În contextul estimativ sau real, dacă sistemul poate găsi o linie de articole din lista de prețuri care se potrivește, dar metoda de stabilire a prețurilor este altceva decât **Suma valutară**, costul unitar este setat la **0** în mod implicit. Acest comportament apare deoarece Project Operations acceptă numai **Suma valutară** metoda de stabilire a prețurilor pentru materialele care sunt utilizate într-un proiect.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410174"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475251"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinați ratele de cost pentru estimările și efectivele de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Pentru a determina lista de prețuri de cost și ratele de cost în contexte estimative și reale, sistemul utilizează informațiile din **Data**, **·**, și **Unitatea de Contractare** domeniile proiectului aferent.
+Pentru a determina ratele de cost pe estimări și valori reale în Microsoft Dynamics 365 Project Operations, sistemul utilizează mai întâi data și moneda în estimarea primită sau contextul real pentru a determina lista de prețuri de cost. În contextul actual, în mod specific, sistemul utilizează **Data tranzacției** câmp pentru a determina care listă de prețuri este aplicabilă. The **Data tranzacției** valoarea estimată sau reală primită este comparată cu **Pornire efectivă (independent de fus orar)** și **Sfârșit efectiv (independent de fusul orar)** valorile de pe lista de preturi. După ce lista de prețuri de cost este determinată, sistemul determină rata de cost. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinarea ratelor de cost în contexte estimative și reale pentru Timp
 
@@ -57,7 +57,7 @@ Contextul real pentru **Cheltuiala** se refera la:
 
 După ce se stabilește o listă de prețuri de cost, sistemul parcurge următorii pași pentru a introduce rata de cost implicită.
 
-1. Sistemul se potrivește cu combinația dintre **Categorie** și **Unitate** câmpuri în contextul estimativ sau real pentru **Cheltuiala** față de liniile de preț de categorie din lista de prețuri.
+1. Sistemul se potrivește cu combinația dintre **Categorie** și **Unitate** câmpuri în context estimativ sau real pentru **Cheltuiala** față de liniile de preț de categorie din lista de prețuri.
 1. Dacă sistemul găsește o linie de preț de categorie care are o rată de cost pentru **Categorie** și **Unitate** combinație, acea rată de cost este utilizată ca rată de cost implicită.
 1. Dacă sistemul nu poate să se potrivească cu **Categorie** și **Unitate** valori, prețul este setat la **0** (zero) implicit.
 1. În contextul estimării, dacă sistemul poate găsi o linie de preț de categorie potrivită, dar metoda de stabilire a prețului este altceva decât **Preț pe unitate**, rata de cost este setată la **0** (zero) implicit.
@@ -80,6 +80,6 @@ După ce se stabilește o listă de prețuri de cost, sistemul parcurge următor
 1. Sistemul folosește combinația dintre **Produs** și **Unitate** câmpuri în context estimativ sau real pentru **Material** față de liniile de articole din lista de prețuri din lista de prețuri.
 1. Dacă sistemul găsește o linie de articol din lista de prețuri care are o rată de cost pentru **Produs** și **Unitate** combinație, acea rată de cost este utilizată ca rată de cost implicită.
 1. Dacă sistemul nu poate să se potrivească cu **Produs** și **Unitate** valori, costul unitar este setat la **0** (zero) implicit.
-1. În context estimativ sau real, dacă sistemul poate găsi o linie de articole din lista de prețuri care se potrivește, dar metoda de stabilire a prețurilor este altceva decât **Suma valutară**, costul unitar este setat la **0** în mod implicit. Acest comportament apare deoarece Project Operations acceptă numai **Suma valutară** metoda de stabilire a prețurilor pentru materialele care sunt utilizate într-un proiect.
+1. În contextul estimativ sau real, dacă sistemul poate găsi o linie de articole din lista de prețuri care se potrivește, dar metoda de stabilire a prețurilor este altceva decât **Suma valutară**, costul unitar este setat la **0** în mod implicit. Acest comportament apare deoarece Project Operations acceptă numai **Suma valutară** metoda de stabilire a prețurilor pentru materialele care sunt utilizate într-un proiect.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

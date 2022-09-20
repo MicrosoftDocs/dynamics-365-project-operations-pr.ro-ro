@@ -1,23 +1,23 @@
 ---
-title: Determinați prețurile de vânzare pentru estimările și realizările proiectului
+title: Stabilirea prețurilor de vânzări pentru estimări de proiect și date reale
 description: Acest articol oferă informații despre modul în care sunt determinate prețurile de vânzare pentru estimările de proiect și efectivele.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410134"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475200"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinați prețurile de vânzare pentru estimările și realizările proiectului
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Stabilirea prețurilor de vânzări pentru estimări de proiect și date reale
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Pentru a determina prețurile de vânzare pe estimări și valori reale în Microsoft Dynamics 365 Project Operations, sistemul utilizează mai întâi data și moneda în estimarea primită sau contextul real pentru a determina lista de prețuri de vânzare. În contextul actual, în mod specific, sistemul utilizează **Data tranzacției** câmp pentru a determina care listă de prețuri este aplicabilă. După ce lista de prețuri de vânzare este determinată, sistemul determină rata de vânzare sau de facturare.
+Pentru a determina prețurile de vânzare pe estimări și valori reale în Microsoft Dynamics 365 Project Operations, sistemul utilizează mai întâi data și moneda în estimarea primită sau contextul real pentru a determina lista de prețuri de vânzare. În contextul actual, în mod specific, sistemul utilizează **Data tranzacției** câmp pentru a determina care listă de prețuri este aplicabilă. The **Data tranzacției** valoarea estimată sau reală primită este comparată cu **Pornire efectivă (independent de fus orar)** și **Sfârșit efectiv (independent de fusul orar)** valorile de pe lista de preturi. După ce lista de prețuri de vânzare este determinată, sistemul determină rata de vânzare sau de facturare.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinarea ratelor de vânzare pe liniile reale și estimative pentru Time
 
