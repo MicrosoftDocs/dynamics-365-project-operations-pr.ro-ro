@@ -2,20 +2,20 @@
 title: Jaloane linie de subcontract
 description: Acest articol explică cum să creați și să mențineți un program de facturare bazat pe etape pentru un subcontract cu un furnizor.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261809"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522480"
 ---
 # <a name="subcontract-line-milestones"></a>Jaloane linie de subcontract
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 În Dynamics 365 Project Operations, o linie de subcontract cu o metodă de facturare la preț fix poate specifica un program de facturare bazat jalon cu furnizorul.
 

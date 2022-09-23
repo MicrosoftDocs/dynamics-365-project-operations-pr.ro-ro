@@ -1,8 +1,8 @@
 ---
 title: Postarea rapoartelor de cheltuieli
 description: Acest articol explică cum să postezi rapoarte de cheltuieli.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934519"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524885"
 ---
 # <a name="post-expense-reports"></a>Postarea rapoartelor de cheltuieli
 
@@ -30,5 +30,15 @@ Pentru a publicare un raport de cheltuieli, pe pagina **Rapoarte de cheltuieli a
 
 De asemenea, puteți publica toate rapoartele de cheltuieli în listă în același timp. Selectați toate rapoartele de cheltuieli, apoi selectați **Publicare**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Activați funcția Abilitatea de a încărca obligația de cheltuieli în moneda furnizorului pentru metoda de plată în numerar
+
+The **Posibilitatea de a înregistra datoria de cheltuieli în moneda vânzătorului pentru metoda de plată în numerar** caracteristica permite ca rapoartele de cheltuieli să fie postate într-o monedă a furnizorului pentru metoda de plată în numerar.
+
+În prezent, atunci când trimiteți cheltuieli de numerar, rapoartele de cheltuieli sunt înregistrate în moneda contabilă. Din cauza conversiei sumei între moneda tranzacției, moneda contabilă și moneda furnizorului, o sumă incorectă este plătită furnizorilor dacă data tranzacției a cheltuielii și data reală a plății au cursuri de schimb diferite.
+
+Această caracteristică va asigura că soldul furnizorului este înregistrat în moneda furnizorului atunci când raportul de cheltuieli este publicat.
+
+1. Accesați **Spații de lucru** \> **Gestionare caracteristică**.
+2. În listă, găsiți și selectați **Posibilitatea de a înregistra datoria de cheltuieli în moneda vânzătorului pentru metoda de plată în numerar**, apoi selectați **Activați acum**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

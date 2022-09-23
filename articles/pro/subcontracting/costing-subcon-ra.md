@@ -2,20 +2,20 @@
 title: Estimarea costurilor pentru atribuirile de resurse subcontractate
 description: Acest articol explică cum Microsoft Dynamics 365 Project Operations calculează estimarea costurilor alocărilor de resurse subcontractate.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262075"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522671"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Estimarea costurilor pentru atribuirile de resurse subcontractate
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Atribuțiile de sarcini ale membrilor echipei de proiect subcontractați sunt calculate folosind **Cumpărare** lista de prețuri atașată subcontractului în evidența membrilor echipei aferente. Acest lucru este diferit de modul în care sunt calculate alocările de resurse ale angajaților în cazul în care atribuirile de sarcini ale resurselor angajaților sunt calculate folosind **Cost** lista de preturi care se ataseaza unitatii contractante a proiectului. 
 
@@ -37,12 +37,12 @@ Folosind **Resurse** lista în **Sarcini** pentru o anumită sarcină, puteți c
 Dacă alegeți să creați un membru generic al echipei din **Resurse Alocate** meniu derulant pe sarcină, **Crearea generală a membrilor echipei** dialog vă va permite să selectați o linie de subcontractare și subcontractare. Când resursa generică este atribuită sarcinii și este creată înregistrarea corespunzătoare a membrului echipei de proiect, veți observa că înregistrarea membrului echipei de proiect este creată cu tipul de lucrător setat la **Muncitor Contractual** și **Valabilitate** setat la **Valabil**.
 
 ### <a name="creating-project-team-members-using-the-team-tab"></a>Crearea membrilor echipei de proiect folosind fila Echipă
-Folosind fila Echipa din proiect, puteți crea un membru al echipei generic sau numit. Când creați membrul echipei, puteți selecta subcontractul și linia de subcontractare. După ce membrul echipei este creat, va trebui să îl atribuiți unui membru al echipei la o sarcină folosind **Resurse Alocate** meniu derulant pe sarcină. 
+Folosind fila Echipa din proiect, puteți crea un membru al echipei generic sau numit. Când creați membrul echipei, puteți selecta linia de subcontractare și subcontractare. După ce membrul echipei este creat, va trebui să îl atribuiți unui membru al echipei la o sarcină folosind **Resurse Alocate** meniu derulant pe sarcină. 
 
 ## <a name="updating-estimates"></a>Actualizarea estimărilor
 După ce ați atribuit sarcinilor membrilor echipei de proiect, va trebui să navigați la **Estimări** fila pe proiect și selectați **Actualizați prețurile** pentru a se asigura că ratele de cost ale alocărilor de resurse ale subcontractanților sunt actualizate pe baza listei de prețuri de achiziție anexată la subcontract. Estimările nu sunt generate pentru sarcinile nealocate în Microsoft Dynamics 365 Project Operations. Ca rezultat, va trebui să creați sarcini pentru a stabili prețul și costul diferitelor sarcini din proiectul dvs. 
 
-> [NOTĂ!] Membrii echipei de proiect care au **Tip muncitor** la fel de **Muncitor contractual** dar nu au o referință de subcontract sunt marcate ca **Invalid** pe **Membrii echipei de proiect** grilă. Dacă există membri ai echipei de proiect cu această stare, deschideți înregistrarea membrilor echipei de proiect și actualizați manual câmpurile de subcontractare și subcontractare, astfel încât estimarea costurilor financiare să reflecte cu acuratețe costul subcontractantului pe **Estimări** fila. 
+> [NOTĂ!] Membrii echipei de proiect care au **Tip muncitor** la fel de **Muncitor contractual** dar nu au o referință de subcontract sunt marcate ca **Invalid** pe **Membrii echipei de proiect** grilă. Dacă există membri ai echipei de proiect cu acest statut, deschideți înregistrarea membrilor echipei de proiect și actualizați manual câmpurile de subcontractare și subcontractare, astfel încât estimarea costurilor financiare să reflecte cu acuratețe costul subcontractantului pe **Estimări** fila. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

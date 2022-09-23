@@ -2,21 +2,21 @@
 title: Concepte cheie în subcontractare
 description: Acest articol explică câteva concepte cheie care se aplică subcontractării în Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262185"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522764"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Concepte cheie în subcontractare
 
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Articolul explică câteva concepte cheie de care ar trebui să le cunoașteți înainte de a începe să utilizați funcționalitatea de subcontractare din Microsoft Dynamics 365 Project Operations.
 

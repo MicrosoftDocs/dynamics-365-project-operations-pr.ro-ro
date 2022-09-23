@@ -2,20 +2,20 @@
 title: Subcontractarea membrilor echipei de proiect
 description: Acest articol explică cum să subcontractați membrii echipei de proiect în Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261386"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522811"
 ---
 # <a name="subcontracting-project-team-members"></a>Subcontractarea membrilor echipei de proiect
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 În Microsoft Dynamics 365 Project Operations, puteți alege să subcontractați membri ai echipei de proiect fără personal sau personal.
 

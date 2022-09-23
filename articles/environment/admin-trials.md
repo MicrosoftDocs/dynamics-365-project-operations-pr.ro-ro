@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 60790d83d5fcc8c75fef8eac2877d1ca14a761f2
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029315"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528035"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Înregistrați-vă pentru versiunile de încercare Project Operations 
 
@@ -91,7 +91,7 @@ Pentru a implementa o versiune de încercare a Dynamics 365 Project Operations, 
 ## <a name="configuring-dual-write"></a>Configurare scriere duală
 - Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizați setările de securitate pentru Operațiuni de proiect în Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
 - Pentru a accesa configurația cu dublă scriere, navigați la instanța de finanțare și operațiuni, apoi navigați la **Management de date** > **Scriere dublă**.
-- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu scriere duală pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu dublă scriere pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuirea de licențe
 
@@ -112,7 +112,7 @@ Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Port
 Următoarele resurse oferă îndrumări utile pe măsură ce vă începeți călătoria cu Project Operations:
 
 - [Seria de videoclipuri Prezentare generală Project Operations prezintă caracteristici detaliate și foi de parcurs](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
-- [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
+- [Dynamics 365 Project Operations](/training/modules/examine-dynamics-365-project-operations/)
 - [Determinarea tipului de implementare](determine-deployment-type.md)
 
 ## <a name="frequently-asked-questions"></a>Întrebări frecvente

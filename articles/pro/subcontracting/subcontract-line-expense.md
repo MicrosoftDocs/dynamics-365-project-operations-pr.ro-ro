@@ -2,20 +2,20 @@
 title: Linii de subcontract pentru categoriile de cheltuieli
 description: Acest articol explică cum să înregistrați liniile de subcontractare pentru cheltuieli și să utilizați câmpurile pentru a înregistra achiziția de timp de la furnizori.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261856"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522623"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Linii de subcontract pentru categoriile de cheltuieli
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Un subcontract în Dynamics 365 Project Operations poate avea o linie pentru categorii de cheltuieli. Liniile de subcontract pentru categoriile de cheltuieli îi permit unui manager de proiect să achiziționeze categorii de servicii sau produse de la furnizori pe care le pot percepe unui proiect.
 

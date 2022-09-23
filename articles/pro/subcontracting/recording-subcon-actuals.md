@@ -2,25 +2,25 @@
 title: Înregistrarea timpului, cheltuielilor și consumului materialelor pentru componentele subcontractate
 description: Acest articol explică modul în care timpul, cheltuielile și utilizarea materialelor înregistrate pe proiecte din componentele subcontractate sunt urmărite de Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261155"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522529"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Înregistrarea timpului, a cheltuielilor și a utilizării materialelor pe proiecte pentru componentele subcontractate
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Acest articol explică modul în care timpul, cheltuielile și utilizarea materialelor înregistrate pe proiecte din componentele subcontractate sunt urmărite de Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Costuri pentru timpul subcontractantului pe proiecte
-În operațiunile de proiect, lucrătorii contractuali pot înregistra timp pentru proiecte într-un mod similar cu angajații. Când introduceți timp pentru proiecte și/sau sarcini de proiect, un lucrător contractual poate selecta o anumită linie de subcontractare și de subcontractare.
+În Operațiuni de proiect, lucrătorii contractuali pot înregistra timp pentru proiecte într-un mod similar cu angajații. Când introduceți timp pentru proiecte și/sau sarcini de proiect, un lucrător contractual poate selecta o anumită linie de subcontractare și de subcontractare.
 
 Când timpul transmis de lucrătorii contractuali este aprobat, costul proiectului este înregistrat utilizând rata costului unitar care este stabilit pentru resursa respectivă de lucrător contractual în **Prețurile de rol** secțiunea din lista de prețuri de achiziție din subcontract.
 

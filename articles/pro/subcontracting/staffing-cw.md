@@ -2,20 +2,20 @@
 title: Atribuirea de personal pentru un proiect cu lucrători contractuali și capacitate subcontractată
 description: Acest articol explică modul în care cerințele proiectului pot fi îndeplinite folosind lucrători contractuali sau capacitatea subcontractată în Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261270"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522451"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Atribuirea de personal pentru un proiect cu lucrători contractuali și capacitate subcontractată
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Membrii echipei de proiect generice pot avea angajați sau lucrători contractuali. Când angajați un proiect cu lucrători contractuali, vă puteți limita opțiunile de angajare la anumiți lucrători contractuali care sunt alocați unei linii de subcontractare. 
 
@@ -32,7 +32,7 @@ Pentru a căuta și cerințele de resurse de personal cu lucrătorii contractual
 7. Un membru al echipei de proiect este creat și actualizat cu referințe de subcontractare și subcontractare. Mergi la **Estimări de proiect** și selectați **Actualizați prețurile** pentru a vedea costul actualizat al alocării resurselor. 
 
 > [!NOTE]
-> Actualizarea membrului echipei de proiect cu o referință de subcontract și linie de subcontract nu poate fi întotdeauna posibilă în timpul rezervării dacă resursa este alocată mai multor linii de subcontract. Dacă sistemul nu poate actualiza membrul echipei de proiect cu o linie de subcontractare și subcontractare, atunci deschideți înregistrarea membrului echipei de proiect și actualizați manual aceste câmpuri, astfel încât estimarea costului financiar să reflecte cu acuratețe costul subcontractantului.
+> Actualizarea membrului echipei de proiect cu o referință de subcontract și linie de subcontract poate să nu fie întotdeauna posibilă în timpul rezervării dacă resursa este alocată mai multor linii de subcontract. Dacă sistemul nu poate actualiza membrul echipei de proiect cu o linie de subcontractare și subcontractare, atunci deschideți înregistrarea membrului echipei de proiect și actualizați manual aceste câmpuri, astfel încât estimarea costului financiar să reflecte cu acuratețe costul subcontractantului.
 
 ## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Căutați și cerințele de resurse de personal cu orice lucrător contractual
 
@@ -43,12 +43,12 @@ Pentru a căuta și cerințe de resurse de personal cu orice lucrător contractu
 3. Selectați rândul membru al echipei și apoi selectați **Carte** butonul de pe subgrilă. 
 4. Aceasta deschide panoul de orar cu contextul cerințelor. Alături de alte atribute, cum ar fi câmpurile date, rol și unități organizaționale, filtrele Schedule Board sunt, de asemenea, populate automat cu câmpurile furnizor, subcontract și subcontract din cerința de resurse. Deoarece cerința nu a avut nicio valoare de subcontractare sau linie de subcontractare completată, aceste atribute vor fi goale în panoul de filtrare.
 5. Sistemul caută resurse care îndeplinesc criteriile de filtrare și le listează.
-6. Actualizați **Tip muncitor** câmpul din panoul de filtrare la **Muncitor Contractual** pentru a limita căutarea la lucrătorii contractuali. Actualizați **Furnizor** pe panoul de filtrare pentru a selecta un furnizor pentru a limita căutarea pentru a afișa numai lucrătorii contractuali care aparțin unei anumite companii de furnizor.
+6. Actualizați **Tip muncitor** câmpul din panoul de filtrare la **Muncitor Contractual** pentru a limita căutarea la lucrătorii contractuali. Actualizați **Furnizor** în panoul de filtrare pentru a selecta un furnizor pentru a limita căutarea pentru a afișa numai lucrătorii contractuali care aparțin unei anumite companii de furnizor.
 7. Selectați un lucrător contractual din listă și rezervați resursa pentru cerință.
-8. Este creat un membru al echipei de proiect. Cu toate acestea, membrul echipei de proiect nu este actualizat cu nicio linie de subcontractare sau subcontractare și, prin urmare, alocarea resurselor nu va fi calculată folosind prețul subcontractului. Actualizați manual membrul echipei de proiect cu o linie de subcontractare și accesați **Estimări de proiect** și selectați **Actualizați prețurile** pentru a vedea costul actualizat al alocării resurselor.
+8. Este creat un membru al echipei de proiect. Cu toate acestea, membrul echipei de proiect nu este actualizat cu nicio linie de subcontract sau de subcontract și, prin urmare, alocarea resurselor nu va fi calculată folosind prețul subcontractului. Actualizați manual membrul echipei de proiect cu o linie de subcontractare și accesați **Estimări de proiect** și selectați **Actualizați prețurile** pentru a vedea costul actualizat al alocării resurselor.
 
 > [!NOTE]
-> Membrii echipei de proiect care au **Tip muncitor** la fel de **Muncitor contractual** dar nu au o referință de subcontract sunt marcate ca **Invalid** pe **Membrii echipei de proiect** grilă. Dacă există membri ai echipei de proiect cu această stare, deschideți înregistrarea membrilor echipei de proiect și actualizați manual câmpurile de subcontractare și subcontractare, astfel încât estimarea costurilor financiare să reflecte cu acuratețe costul subcontractantului pe **Estimări** fila. 
+> Membrii echipei de proiect care au **Tip muncitor** la fel de **Muncitor contractual** dar nu au o referință de subcontract sunt marcate ca **Invalid** pe **Membrii echipei de proiect** grilă. Dacă există membri ai echipei de proiect cu acest statut, deschideți înregistrarea membrilor echipei de proiect și actualizați manual câmpurile de subcontractare și subcontractare, astfel încât estimarea costurilor financiare să reflecte cu acuratețe costul subcontractantului pe **Estimări** fila. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Linii de subcontract pentru produse
 description: Acest articol explică cum să înregistrați liniile de subcontractare pentru produse și să utilizați diferitele câmpuri pentru a înregistra achizițiile de produse de la furnizori.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262138"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522858"
 ---
 # <a name="subcontract-lines-for-products"></a>Linii de subcontract pentru produse
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Un subcontract în Dynamics 365 Project Operations poate avea o linie de subcontract pentru produse. Aceste linii îi permit unui manager de proiect să achiziționeze produse de la furnizori, pe care să le poată utiliza apoi în sarcinile proiectului.
 

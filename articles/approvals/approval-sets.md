@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918097"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524932"
 ---
 # <a name="approval-sets"></a>Seturi de aprobare
 
@@ -45,14 +45,9 @@ Selectarea **Reîncercați** adaugă la numărul de durată de viață al setulu
 ## <a name="configure-approval-sets"></a>Configurați seturi de aprobare
 
 ### <a name="enable-the-approval-sets-feature"></a>Activați caracteristica Seturi de aprobare
-Înainte de a activa funcția Seturi de aprobări, verificați dacă nu există aprobări în curs de procesare.
+Înainte de a activa funcția Seturi de aprobări, verificați dacă nu există aprobări în curs de procesare. După ce această funcție este activată, nu poate fi dezactivată.
 
 - Accesați pagina **Parametrii proiectului** și selectați **Controlul caracteristicilor** > **Activați aprobările moderne**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Dezactivați caracteristica Seturi de aprobare
-Înainte de a dezactiva funcția Seturi de aprobări, verificați dacă nu există aprobări în curs de procesare.
-
-- Accesați pagina **Parametrii proiectului** și selectați **Controlul caracteristicilor** > **Dezactivați aprobările moderne**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Configurarea pragului asincron 
 Când sunt create seturi de aprobare, procesarea se mută în fundal atunci când numărul selectat de înregistrări pentru aprobare depășește pragul indicat. Utilizați câmpul **Prag asincron** pentru a configura când procesarea aprobării ar trebui să fie executată sincron sau asincron. Selectați una dintre următoarele valori:

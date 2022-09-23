@@ -2,16 +2,16 @@
 title: Jurnalul de integrare în Project Operations
 description: Acest articol oferă informații despre lucrul cu jurnalul de integrare în Operațiuni de proiect.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106290"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541093"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnalul de integrare în Project Operations
 
@@ -65,6 +65,12 @@ Postarea poate fi efectuată interactiv sau în lot. Rețineți că toate jurnal
 > [!NOTE]
 > Pentru a utiliza această capacitate, activați **Transferați toate liniile cu erori de postare într-un nou jurnal de integrare Project Operations** caracteristică în **Managementul caracteristicilor** spațiu de lucru.
 
-În timpul postării în jurnalul de integrare Project Operations, sistemul validează fiecare linie din jurnal. Sistemul postează toate liniile care nu au erori și creează un nou jurnal pentru toate liniile care au erori de înregistrare. Pentru a examina jurnalele care au rânduri de eroare de postare, accesați **Management de proiect si contabilitate** > **Jurnalele** > **Jurnal de integrare a operațiunilor de proiect**, și filtrați jurnalele utilizând **Jurnal original** camp.
+Această caracteristică ajută la îmbunătățirea experienței cu jurnalul de integrare Project Operations. Când este activat, problemele de sincronizare cu dublă scriere și problemele de configurare nu mai împiedică postarea jurnalelor valide. În timpul postării în jurnalul de integrare Project Operations, sistemul validează fiecare linie din jurnal. Postează toate liniile care nu au erori și creează un nou jurnal pentru toate liniile care au erori de postare.
+
+Pentru a examina jurnalele care au rânduri de eroare de postare, accesați **Management de proiect si contabilitate** \> **Jurnalele** \> **Jurnal de integrare a operațiunilor de proiect**, și filtrați lista de reviste utilizând **Jurnal original** camp. Următoarea ilustrație arată un exemplu în care jurnalele de pe **Jurnal de integrare a operațiunilor de proiect** pagina au fost filtrate în acest fel.
+
+![Jurnalul original afișat pe pagina jurnalului de integrare a operațiunilor de proiect.](./media/transferLines-originalJournal.png)
+
+Dacă o sarcină periodică de lot este configurată pentru a posta jurnalul de integrare, se va reîncerca postarea, iar jurnalele vor fi postate dacă problema de sincronizare a fost remediată. Toate jurnalele rămase trebuie investigate manual, examinând jurnalele și luând orice acțiune necesară.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

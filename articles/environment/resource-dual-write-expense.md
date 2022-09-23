@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029224"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528020"
 ---
 # <a name="expense-management-integration"></a>Integrarea gestionării cheltuielilor
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol oferă informații despre integrarea rapoartelor de cheltuieli în Operațiunile de proiect [implementarea totală a cheltuielilor](../expense/expense-overview.md) folosind dual-write.
+Acest articol oferă informații despre integrarea rapoartelor de cheltuieli în Operațiunile de proiect [implementarea integrală a cheltuielilor](../expense/expense-overview.md) folosind dual-write.
 
 ## <a name="expense-categories"></a>Categorii de cheltuieli
 
@@ -34,7 +34,7 @@ Categoriile de cheltuieli din aplicațiile de finanțare și operațiuni sunt sp
 
 ## <a name="expense-reports"></a>Rapoarte de cheltuieli
 
-Rapoartele de cheltuieli sunt create și aprobate în aplicațiile de finanțare și operațiuni. Pentru mai multe informații, consultați [Creați și procesați rapoarte de cheltuieli în Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). După ce raportul de cheltuieli este aprobat de managerul de proiect este afișat în registrul general. În Project Operations, liniile de raportare a cheltuielilor legate de proiect sunt înregistrate folosind reguli speciale de publicare:
+Rapoartele de cheltuieli sunt create și aprobate în aplicațiile de finanțare și operațiuni. Pentru mai multe informații, consultați [Creați și procesați rapoarte de cheltuieli în Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). După ce raportul de cheltuieli este aprobat de managerul de proiect este afișat în registrul general. În Project Operations, liniile de raportare a cheltuielilor legate de proiect sunt înregistrate folosind reguli speciale de publicare:
 
   - Costul aferent proiectului (inclusiv impozitul nerecuperabil) nu este înregistrat imediat în contul de cost al proiectului în registrul general, ci este înregistrat în contul de integrare a cheltuielilor. Acest cont este configurat în **Management de proiect și contabilitate** > **Configurare** > **Management de proiect și parametrii contabili**, fila **Project Operations pe Dynamics 365 Customer engagement**.
   - Scrierea duală se sincronizează la Dataverse folosind harta de tabel **Entitatea privind exportul de cheltuieli în proiectul de integrare Project Operations (msdyn\_expenses)**.

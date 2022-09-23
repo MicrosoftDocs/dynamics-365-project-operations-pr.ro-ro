@@ -1,21 +1,21 @@
 ---
 title: Configurați subcontractanții ca resurse ce se pot rezerva
-description: Acest articol explică cum să configurați și să întrețineți resursele subcontractanților care sunt create de la utilizatori și contacte din sistem, astfel încât acestea să poată fi asociate cu subcontractele în Microsoft Dynamics 365 Project Operations.
+description: Acest articol explică cum să configurați și să mențineți resursele subcontractanților care sunt create de la utilizatori și contacte din sistem, astfel încât acestea să poată fi asociate cu subcontractele în Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261339"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522717"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Configurați subcontractanții ca resurse ce se pot rezerva
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Urmați acești pași pentru a configura subcontractanții ca resurse ce se pot rezerva în Microsoft Dynamics 365 Project Operations.
 

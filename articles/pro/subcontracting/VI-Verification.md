@@ -6,16 +6,16 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 67e0a0143fa354ca9a87bfac5fbbd6306a97811c
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261762"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522944"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificarea facturilor de furnizori cu datele reale aprobate
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 Microsoft Dynamics 365 Project Operations să verificăm managerii de proiect liniile de facturi ale furnizorului în următoarele moduri:
 
@@ -51,7 +51,7 @@ Potrivirea costurilor reale ajută la procesul de verificare pe o linie de factu
 În timpul procesului de potrivire, o legătură între un cost real și o linie de factură a furnizorului poate fi stabilită numai dacă sunt îndeplinite ambele condiții următoare:
 
 - The **Starea de ajustare** câmpul pentru fiecare cost real selectat trebuie să fie necompletat. Cu alte cuvinte, costurile reale nu trebuie să fi fost înlocuite cu alte costuri reale în timpul unui proces de rechemare, anulare a aprobării sau jurnal de corecție.
-- Valorile următoarelor câmpuri sunt corelate între linia de factură a furnizorului și costul real selectat. Dacă niciun câmp nu este setat pe linia facturii furnizorului, nu este luat în considerare pentru potrivire.
+- Valorile următoarelor câmpuri sunt corelate între linia facturii furnizorului și costul real selectat. Dacă niciun câmp nu este setat pe linia facturii furnizorului, nu este luat în considerare pentru potrivire.
 
     - Contract pentru proiect
     - Linie contract proiect
