@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Retragerea intrărilor aprobate anterior
           href: approvals/recall-cancel.md
+        - name: Securitate și aprobări
+          href: approvals/approvals-security.md
         - name: Note pentru dezvoltatori
           items:
             - name: Note pentru dezvoltatori pentru aprobări
@@ -560,7 +562,9 @@
               href: procurement/vendor-retention-overview.md
             - name: Configurarea reținerii furnizorilor
               href: procurement/set-up-vendor-retention.md
-    - name: Facturare
+            - name: Plătiți la plată
+              href: procurement/Pay-when-paid.md
+    - name: Facturarea
       items:
         - name: Prezentare generală a procesului de facturare
           href: invoicing/post-project-invoices.md
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Retragerea intrărilor aprobate anterior
           href: approvals/recall-cancel.md
+        - name: Securitate și aprobări
+          href: approvals/approvals-security.md
         - name: Note pentru dezvoltatori
           items:
             - name: Note pentru dezvoltatori pentru aprobări
@@ -1636,7 +1642,7 @@
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
             - name: Revizuirea jurnalului de așteptare pentru facturarea proiectului
               href: psa/review-invoicing-backlog.md
-            - name: Facturare
+            - name: Facturarea
               href: psa/invoicing.md
             - name: Scenarii cu valute multiple
               href: psa/advanced-currency.md
