@@ -1,18 +1,18 @@
 ---
 title: Actualizări Project Operations
-description: Acest articol oferă informații despre versiunile lansate de Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre versiunile lansate ale Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409954"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622042"
 ---
 # <a name="project-operations-updates"></a>Actualizări Project Operations
 
@@ -47,24 +47,24 @@ Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lu
 | Stație | Regiunea | Numărul versiunii curente | Actualizări automate pentru implementarea Lite | Actualizări automate pentru implementare de resurse/nestocate | Următorul număr de versiune | Următoarea versiune este disponibilă în general |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stația 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima apariție         |  4.45.0.53      | Finalizați           | Finalizați            | TBD                 | 09 septembrie 2022      |
+|   &nbsp;  | Prima apariție         |  4.46.0.60      | Finalizați           | Finalizați            | TBD                 | 07 Octombrie 2022      |
 | Stația 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Sud         |  4.45.0.53      | Finalizați           | Finalizați            | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Canada                |  4.45.0.53      | Finalizați           | Finalizați            | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Finalizați           | Finalizați            | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Franța                |  4.45.0.53      | Finalizați           | Finalizați            | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Africa de Sud          |  4.45.0.53      | Finalizați           | Finalizați            | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Elveția           |  4.45.0.53      | Finalizați           | Finalizați            | TBD                 | 09 septembrie 2022       |
+|   &nbsp;  | America de Sud         |  4.46.0.60      | Finalizați           | Finalizați            | TBD                 | 14 Octombrie 2022       |
+|   &nbsp;  | Canada                |  4.46.0.60      | Finalizați           | Finalizați            | TBD                 | 14 Octombrie 2022       |
+|   &nbsp;  | India                 |  4.46.0.60      | Finalizați           | Finalizați            | TBD                 | 14 Octombrie 2022       |
+|   &nbsp;  | Franța                |  4.46.0.60      | Finalizați           | Finalizați            | TBD                 | 14 Octombrie 2022       |
+|   &nbsp;  | Africa de Sud          |  4.46.0.60      | Finalizați           | Finalizați            | TBD                 | 14 Octombrie 2022       |
+|   &nbsp;  | Elveția           |  4.46.0.60      | Finalizați           | Finalizați            | TBD                 | 14 Octombrie 2022       |
 | Stația 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonia                 |  4.45.0.53      | Finalizați      | Finalizați       | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Asia Pacific          |  4.45.0.53      | Finalizați      | Finalizați       | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Regatul Unit         |  4.45.0.53      | Finalizați      | Finalizați       | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Oceania               |  4.45.0.53      | Finalizați      | Finalizați       | TBD                 | 09 septembrie 2022       |
-|   &nbsp;  | Emiratele Arabe Unite  |  4.45.0.53      | Finalizați      | Finalizați       | TBD                 | 09 septembrie 2022       |
+|   &nbsp;  | Japonia                 |  4.46.0.60      | Finalizați      | Finalizați       | TBD                 | 21 Octombrie 2022       |
+|   &nbsp;  | Asia Pacific          |  4.46.0.60      | Finalizați      | Finalizați       | TBD                 | 21 Octombrie 2022       |
+|   &nbsp;  | Regatul Unit         |  4.46.0.60      | Finalizați      | Finalizați       | TBD                 | 21 Octombrie 2022       |
+|   &nbsp;  | Oceania               |  4.46.0.60      | Finalizați      | Finalizați       | TBD                 | 21 Octombrie 2022       |
+|   &nbsp;  | Emiratele Arabe Unite  |  4.46.0.60      | Finalizați      | Finalizați       | TBD                 | 21 Octombrie 2022       |
 | Stația 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Finalizați           | Finalizați            | TBD           | 16 septembrie 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Finalizați           | Finalizați            | TBD           | 28 Octombrie 2022       |
 | Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America de Nord         |  4.45.0.53      | Finalizați           | Finalizați            | TBD           | 16 septembrie 2022       |
+|   &nbsp;  | America de Nord         |  4.46.0.60      | Finalizați           | Finalizați            | TBD           | 04 noiembrie 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programul de lansare pentru managementul proiectelor și contabilitate în mediul aplicațiilor financiare și operaționale
 

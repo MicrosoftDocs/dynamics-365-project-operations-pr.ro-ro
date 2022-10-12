@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Noutăți
       items:
-        - name: August 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: Septembrie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arhivă
           items:
+            - name: August 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Iulie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Iunie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Noutăți
       items:
-        - name: Noutăți august 2022 - implementare simplificată
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Noutăți septembrie 2022 - implementare simplificată
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arhivă
           items:
+            - name: Noutăți august 2022 - implementare simplificată
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Noutăți iulie 2022 - implementare simplificată
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Noutăți iunie 2022 - implementare simplificată
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Noutăți
       items:
-        - name: Noutăți iulie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Noutăți septembrie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arhivă
           items:
+            - name: Noutăți iulie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Noutăți iunie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Noutăți octombrie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -1434,8 +1440,12 @@
       href: psa/overview.md
     - name: Noutăți
       items:
-        - name: Planificarea lansărilor de actualizări pentru Project Service 3.x
+        - name: Actualizarea planificării lansărilor pentru Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Ce este nou sau schimbat în ediția de actualizare 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Ce este nou sau schimbat în ediția de actualizare 43, V3'
