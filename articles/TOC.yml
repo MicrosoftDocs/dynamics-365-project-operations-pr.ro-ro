@@ -1530,13 +1530,21 @@
           href: psa/whats-new-ur-12.md
         - name: Ce este nou sau schimbat în Project Service Automation V3.x etapa 1 2021
           href: psa/whats-new-2021-wave1.md
-        - name: Ce este nou sau schimbat în Project Service Automation V3.x etapa 1 2020
+        - name: Ce este nou sau schimbat în Project Service Automation V3.x valul 1 2020
           href: psa/whats-new-v3-2020-wave1.md
-        - name: Ce este nou sau modificat în Project Service Automation V3
+        - name: Ce este nou sau schimbat în Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Upgrade de la Project Service Automation (versiunea de aplicație Project Operations simplificat 4.x)
+      items:
+        - name: Upgrade de la Project Service Automation la Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Modificări de caracteristici de la Project Service Automation la Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Procesul de conversie a planificării proiectelor din Project Service Automation în Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Planificați implementarea (versiunea 3.x a aplicației)
       items:
-        - name: Instalare date eșantion
+        - name: Instalarea datelor eșantion
           href: psa/install-sample-data-3-x.md
         - name: Ghid de planificare și de urmărire a proiectelor
           href: psa/implementation-guides/project-planning-tracking.md
