@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932081"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655204"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creați o structuri detaliate a proiectului (WBS)
 
@@ -63,7 +63,7 @@ Parcurgeți următorii pași pentru a indenta sau promova o sarcină.
 
 ### <a name="move-tasks-up-and-down"></a>Mutați sarcini în sus și în jos
 
-Sarcinile pot fi mutate la orice nivel în structura detaliată a proiectului în unul din cele două moduri:
+Sarcinile pot fi mutate la orice nivel din structura de defalcare a muncii în unul din două moduri:
 
 - Selectați una sau mai multe sarcini și trageți-le în locația dorită.
 - Selectați una sau mai multe sarcini, faceți clic dreapta și selectați **Decupare**, selectați celula de destinație în program, apoi faceți clic dreapta și selectați **Lipire**.
@@ -95,7 +95,7 @@ Următorul tabel prezintă atribute de programare suplimentare.
 
 ## <a name="staffing-attributes"></a>Atribute de personal
 
-Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să selectați **Creare** și în panoul **Creare rapidă** să adăugați un membru al echipei de proiect ca o resursă nouă.  Când căutați o resursă folosind selectorul de resurse din grila de activități, vizualizarea panoului sau gantt, căutarea returnează fie membri existenți ai echipei de proiect, fie resurse active care pot fi rezervate.
+Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. Aveți posibilitatea fie să căutați o resursă existentă, fie să selectați **Creare** și în panoul **Creare rapidă** să adăugați un membru al echipei de proiect ca o resursă nouă.  Când căutați o resursă utilizând selectorul de resurse din grila de activități, vizualizarea panoului sau gantt, căutarea returnează fie membrii echipei de proiect existente, fie resurse active care pot fi rezervate.
 
 Câmpurile **Rol**, **Unitate de resursă** și **Nume poziție** sunt utilizate pentru a descrie cerințele de personal pentru activitate. Aceste atribute de personal, împreună cu planificarea sarcinii, sunt utilizate pentru a găsi resursele disponibile pentru a realiza această sarcină.
 
@@ -112,6 +112,18 @@ Câmpul **Categorie** reține valorile care indică un tip mai amplu de activita
 Aveți posibilitatea să utilizați planificarea în Project Operations pentru a crea relații predecesoare între sarcini. Câmpul **Predecesor** utilizează una sau mai multe valori pentru a indica sarcinile de care depinde o altă sarcină. Când valorile pedecesoare sunt atribuite unei sarcini, sarcina poate începe numai după ce toate sarcinile predecesoare au fost finalizate. Din cauza dependenței, data planificată de începere a activității este resetată la data la care sunt finalizate activitățile predecesoare.
 
 Modul de activitate nu are niciun efect asupra actualizărilor efectuate la datele de început și de sfârșit ale activităților predecesoare/dependente.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Înțelegerea impactului duratei, al calendarelor de resurse și al calendarelor de proiect asupra sarcinilor
+Durata unei sarcini este definită ca numărul de ore de lucru dintre ora de începere a datei de începere și ora de încheiere a datei de încheiere a sarcinii.   Proiectul pentru web definește unitățile de măsură de durată după cum urmează:
+
+| **Măsura duratei** | **Cantitate**|
+|----------------------------------------------------|----------------------|
+| Ore pe zi | 8 |
+| Ore pe săptămână |  40 |
+| Zile pe lună |  20 |
+
+Sarcinile nealocate sunt programate folosind calendarul proiectului. Cu toate acestea, la atribuirea inițială a resursei, programarea unei sarcini este actualizată astfel încât să respecte calendarul resursei. Modificările ulterioare ale unei sarcini care are o sarcină vor fi guvernate de [modul de programare](scheduling-modes.md) a proiectului. Pentru a afla mai multe despre influența calendarelor asupra sarcinilor, consultați [Calendare de resurse în Project pentru web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) și [Ora de începere a sarcinilor și proiectele dvs.!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Comenzi rapide de la tastatură și accesibilitate
 

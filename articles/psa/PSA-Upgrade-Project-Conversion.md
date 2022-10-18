@@ -1,9 +1,9 @@
 ---
-title: Modificări ale caracteristicilor pentru Project Service Automation în Project Operations
+title: Procesul de conversie a programării proiectelor de la Project Service Automation în Project Operations
 description: Acest articol oferă o prezentare generală a modificărilor caracteristicilor pentru Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
-ms.translationtype: HT
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621336"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642584"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Modificări ale caracteristicilor pentru Project Service Automation în Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Procesul de conversie a programării proiectelor de la Project Service Automation în Project Operations
 
 După ce un proiect a fost actualizat cu succes de la Microsoft Dynamics 365 Project Service Automation 3.X la Dynamics 365 Project Operations Lite, nu este posibilă editarea sarcinilor de proiect în structura de defalcare a activității grilei de activități (WBS). Clienții vor putea examina WBS-urile în grila de urmărire unde au fost adăugate câmpuri noi pentru a furniza toate detaliile legate de sarcină. Pentru proiectele în care sunt necesare modificări ale WBS, puteți converti în mod selectiv proiectele eligibile în noul Proiect pentru experiența de programare web.
 
