@@ -3,7 +3,7 @@ title: Upgrade de la Project Service Automation la Project Operations
 description: Acest articol oferă o prezentare generală a procesului de la care faceți upgrade Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,28 +16,28 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
-ms.translationtype: MT
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.translationtype: HT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446051"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686991"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade de la Project Service Automation la Project Operations
 
-Suntem încântați să anunțăm prima dintre cele trei faze de la care trebuie să faceți upgrade Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Project Operations. Acest articol oferă o prezentare generală pentru clienții care pornesc în această călătorie interesantă. Articolele viitoare vor include considerații pentru dezvoltatori și detalii despre îmbunătățirile caracteristicilor. Aceștia nu numai că vă vor oferi îndrumări pentru a vă ajuta să vă pregătiți pentru upgrade-ul la Project Operations, dar vă vor explica și la ce vă puteți aștepta după ce ați făcut upgrade.
+Suntem încântați să anunțăm cea de-a doua din cele trei faze de la care trebuie să faceți upgrade Microsoft Dynamics 365 Project Service Automation către Microsoft Dynamics 365 Project Operations. Acest articol oferă o prezentare generală pentru clienții care pornesc în această călătorie interesantă. 
 
 Programul de livrare a upgrade-ului va fi împărțit în trei faze.
 
 | Livrare upgrade | Faza 1 (ianuarie 2022) | Faza 2 (noiembrie 2022) | Faza 3 (valul aprilie 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nicio dependență de structura de defalcare a lucrărilor (WBS) pentru proiecte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS în limitele suportate în prezent ale operațiunilor de proiect | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS în afara limitelor suportate în prezent ale operațiunilor de proiect, inclusiv suport pentru clientul desktop Project | | | :heavy_check_mark: |
+| Un WBS în limitele suportate în prezent ale operațiunilor de proiect | | :heavy_check_mark: | :heavy_check_mark: |
+| Un WBS în afara limitelor suportate în prezent ale operațiunilor de proiect, inclusiv suport pentru clientul desktop Project | | | :heavy_check_mark: |
 
 ## <a name="upgrade-process-features"></a>Funcțiile procesului de upgrade 
 
-Ca parte a procesului de actualizare, am adăugat jurnalele de actualizare pe harta site-ului, astfel încât administratorii să poată diagnostica mai ușor defecțiunile. Pe lângă noua interfață, vor fi adăugate noi reguli de validare pentru a asigura integritatea datelor după o actualizare. Următoarele validări vor fi adăugate procesului de actualizare.
+Ca parte a procesului de actualizare, am adăugat jurnalele de actualizare pe harta site-ului pentru a permite administratorilor să diagnosticheze mai ușor defecțiunile. Pe lângă noua interfață, vor fi adăugate noi reguli de validare pentru a asigura integritatea datelor după o actualizare. Următoarele validări vor fi adăugate procesului de actualizare.
 
 | Validari | Faza 1 (ianuarie 2022) | Faza 2 (noiembrie 2022) | Faza 3  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -46,24 +46,31 @@ Ca parte a procesului de actualizare, am adăugat jurnalele de actualizare pe ha
 | WBS va fi validat în raport cu limitele cunoscute ale clientului desktop Project. | |  | :heavy_check_mark: |
 | Resursele rezervabile și calendarele proiectelor vor fi evaluate în raport cu excepțiile comune ale regulilor calendaristice incompatibile. | | :heavy_check_mark: | :heavy_check_mark: |
 
-În faza 2, clienții care fac upgrade la Project Operations vor avea proiectele existente actualizate la o experiență numai în citire pentru planificarea proiectelor. În această experiență numai în citire, WBS complet va fi vizibil în grila de urmărire. Pentru a edita WBS, managerii de proiect pot selecta **Convertit** pe principal **Proiecte** pagină. Un proces de fundal va actualiza apoi proiectul, astfel încât să accepte noua experiență de planificare a proiectelor de la Project for the Web. Această fază este potrivită pentru clienții care au proiecte care se încadrează în [limitele cunoscute ale Proiectului pentru Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+În faza 2, clienții care fac upgrade la Project Operations vor avea proiectele existente actualizate la o experiență numai în citire pentru planificarea proiectelor. În această experiență numai în citire, WBS complet va fi vizibil în grila de urmărire. Pentru a edita WBS, managerii de proiect pot selecta [**Convertit**](/PSA-Upgrade-Project-Conversion.md) pe pagina principală a proiectului. Un proces de fundal actualizează apoi proiectul, astfel încât să accepte noua experiență de planificare a proiectelor din Project for the Web. Această fază este potrivită pentru clienții care au proiecte care se încadrează în [limitele cunoscute ale Proiectului pentru Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 În faza 3, se va adăuga suport pentru clientul desktop Project, în beneficiul clienților care doresc să continue să își editeze proiectele din acea aplicație. Cu toate acestea, dacă proiectele existente sunt convertite în noua experiență Proiect pentru Web, accesul la programul de completare va fi dezactivat pentru fiecare proiect convertit.
 
 ## <a name="prerequisites"></a>Cerințe preliminare
 
-Pentru a fi eligibil pentru faza 1 de actualizare, un client trebuie să îndeplinească următoarele criterii:
+Pentru a fi eligibil pentru Faza 1 de upgrade, trebuie să îndepliniți următoarele criterii:
 
 - Mediul țintă nu trebuie să conțină nicio înregistrare în **msdyn_projecttask** entitate.
-- Licențele de operațiuni de proiect valide trebuie alocate tuturor utilizatorilor activi ai clientului. 
-- Clientul trebuie să valideze procesul de actualizare în cel puțin un mediu non-producție care are un set de date reprezentativ care este aliniat cu datele de producție.
-- Mediul țintă trebuie actualizat la Project Service Automation Update Release 41 (3.10.62.162) sau mai târziu.
+- Licențele de operațiuni de proiect valide trebuie alocate tuturor utilizatorilor activi. 
+- Trebuie să validați procesul de actualizare în cel puțin un mediu care nu este de producție care conține un set de date reprezentativ care este aliniat cu mediul dumneavoastră de producție.
+- Mediul țintă trebuie actualizat la Project Service Automation Update Release 37 (V3.10.58.120) sau o versiune ulterioară.
 
-Cerințele preliminare pentru faza 2 și faza 3 vor fi actualizate pe măsură ce se apropie datele generale de disponibilitate.
+Pentru a fi eligibil pentru Faza 2 de upgrade, trebuie să îndepliniți următoarele criterii:
+
+- Licențele de operațiuni de proiect valide trebuie alocate tuturor utilizatorilor activi. 
+- Trebuie să validați procesul de actualizare în cel puțin un mediu care nu este de producție care conține un set de date reprezentativ care este aliniat cu mediul dumneavoastră de producție.
+- Mediul țintă trebuie actualizat la Project Service Automation Update Release 37 (V3.10.58.120) sau o versiune ulterioară.
+- Mediile care conțin sarcini (msdyn_projecttask) sunt acceptate numai dacă numărul total de sarcini per proiect este de 500 sau mai puțin.
+
+Cerințele preliminare pentru Faza 3 vor fi actualizate pe măsură ce se apropie data disponibilității generale.
 
 ## <a name="licensing"></a>Licențiere
 
-Dacă aveți licențe active pentru Project Service Automation, puteți instala și utiliza Project Operations, care include toate capabilitățile Project Service Automation și multe altele. În acest fel, puteți testa capabilitățile Project Operations în timp ce continuați să utilizați Project Service Automation în producție. După expirarea licențelor Project Service Automation, va trebui să treceți la Project Operations. Când planificați această tranziție, trebuie să luați în considerare faptul că licența Project Operations nu include o licență Project Service Automation.
+Dacă aveți licențe active pentru Project Service Automation, puteți instala și utiliza Project Operations, care include toate capabilitățile Project Service Automation și multe altele. Apoi puteți testa capabilitățile Project Operations într-un mediu separat în timp ce continuați să utilizați Project Service Automation în producție. După expirarea licențelor Project Service Automation, va trebui să treceți la Project Operations. Când planificați această tranziție, trebuie să luați în considerare faptul că licența Project Operations nu include o licență Project Service Automation.
 
 ## <a name="testing-and-refactoring-customizations"></a>Testarea și refactorizarea personalizărilor
 
@@ -87,17 +94,26 @@ După ce vă actualizați personalizările pentru a importa în mod curat opera�
 
     După finalizarea upgrade-ului, mediul ar trebui să arate că Project Operations este instalat și că Project Service Automation nu este instalat.
 
-    > [!NOTE]
-    > În funcție de cantitatea de date din mediu, upgrade-ul poate dura câteva ore. Echipa de bază care gestionează upgrade-ul ar trebui să planifice în consecință și să execute upgrade-ul în timpul orelor de lucru. În unele cazuri, dacă volumul de date este mare, upgrade-ul ar trebui să fie rulat în weekend. Decizia privind programarea ar trebui să se bazeze pe rezultatele testării în medii inferioare.
+    În funcție de cantitatea de date din mediu, upgrade-ul poate dura câteva ore. Echipa de bază care gestionează upgrade-ul ar trebui să planifice în consecință și să execute upgrade-ul în timpul orelor de lucru. În unele cazuri, dacă volumul de date este mare, upgrade-ul ar trebui să fie rulat în weekend. Decizia privind programarea ar trebui să se bazeze pe rezultatele testării în medii inferioare.
 
 3. Actualizați soluțiile personalizate după caz. În acest moment, implementați orice modificări pe care le-ați făcut personalizărilor dvs. în [Testarea și refactorizarea personalizărilor](#testing-and-refactoring-customizations) secțiunea acestui articol.
 4. Mergi la **Setări** \> **Soluții**, și selectați pentru a dezinstala **Operațiuni de proiect Componente depreciate** soluţie.
 
     Această soluție este o soluție temporară care deține modelul de date existent și componentele care sunt prezente în timpul upgrade-ului. Prin eliminarea acestei soluții, eliminați toate câmpurile și componentele care nu mai sunt utilizate. În acest fel, contribuiți la simplificarea interfeței și facilitați integrarea și extinderea.
     
+### <a name="upgrade-to-project-operations-lite"></a>Faceți upgrade la Project Operations Lite
+
+Următorii pași descriu procesul de actualizare și înregistrarea erorilor asociate:
+
+1. **Verificarea versiunii PSA:** Pentru a instala Project Operations, trebuie să aveți V3.10.58.120 sau mai mare.
+1. **Prevalidare:** Când un administrator inițiază o actualizare, sistemul rulează o operațiune de pre-validare pentru fiecare entitate care este esențială pentru soluția Project Operations. Acest pas verifică dacă toate referințele de entități sunt valide și asigură că datele care sunt legate de WBS se încadrează în limitele publicate de Project for Web.
+1. **Actualizare metadate:** După prevalidarea cu succes, sistemul inițiază modificări ale schemei și creează o soluție de componente depreciate. Puteți elimina această soluție învechită după ce ați finalizat toate refactorizarea necesară a personalizărilor. Acest pas este cea mai lungă parte a procesului de actualizare și poate dura până la patru ore pentru a fi finalizat.
+1. **Upgrade de date:** După ce toate modificările necesare ale schemei au fost finalizate în pasul de actualizare a metadatelor, datele dvs. sunt migrate la noua schemă și sunt efectuate toate recalculările și implicitele necesare.
+1. **Actualizarea motorului de planificare a proiectului:** După actualizarea cu succes a datelor, **Programa** fila de pe pagina principală este reetichetată **Sarcini**. Când un utilizator selectează această filă după actualizare, acesta este direcționat să navigheze la grila de urmărire pentru a vedea o versiune numai pentru citire a WBS. Pentru a edita WBS, trebuie să inițieze programul [procesul de conversie](/PSA-Upgrade-Project-Conversion.md). Toate proiectele fără un WBS preexistent pot folosi noua experiență de programare direct, fără conversie.
+ 
 ### <a name="validate-common-scenarios"></a>Validați scenariile comune
 
-Când validați personalizările dvs. specifice, vă recomandăm să examinați și procesele de afaceri care sunt acceptate în toate aplicațiile. Aceste procese de afaceri includ, dar nu se limitează la, crearea de entități de vânzare, cum ar fi cotații și contracte, și crearea de proiecte care includ WBS și aprobarea datelor reale.
+Când validați personalizările dvs. specifice, vă recomandăm să examinați și procesele de afaceri care sunt acceptate în toate aplicațiile. Aceste procese de afaceri includ, dar nu se limitează la, crearea de entități de vânzări, cum ar fi cotații și contracte, și crearea de proiecte care includ WBS și aprobarea datelor reale.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Schimbări majore între Project Service Automation și Project Operations
 
@@ -107,7 +123,7 @@ Această secțiune oferă un rezumat al schimbărilor majore la care vă puteți
 
 Capacitățile de planificare a proiectelor din Operațiunile de proiect nu se mai bazează pe o combinație de logică pe partea clientului și pe logica pe partea serverului. În schimb, Project Operations folosește Project pentru Web ca motor de planificare. Această modificare a capabilităților de programare permite mai multe funcții noi, cum ar fi vizualizări Board și Gantt, planificare bazată pe resurse, [elemente din lista de verificare a sarcinilor](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c), și modurile de programare a proiectelor. Noile capabilități de programare sunt susținute și de un set bogat de noi [interfețe de programare a aplicațiilor (API)](../project-management/schedule-api-preview.md). Aceste API-uri sunt menite să ajute să se asigure că nicio operațiune programatică pentru crearea, actualizarea sau ștergerea unei entități din WBS nu corupe câmpurile calculate din program.
 
-## <a name="billing-and-pricing"></a>Facturarea și stabilirea prețurilor
+### <a name="billing-and-pricing"></a>Facturarea și stabilirea prețurilor
 
 Ca parte a investițiilor continue în Operațiunile de Proiect, sunt disponibile câteva capabilități noi în Facturare și stabilire a prețurilor. Iată câteva exemple:
 
@@ -116,6 +132,10 @@ Ca parte a investițiilor continue în Operațiunile de Proiect, sunt disponibil
 - [Avansuri și contracte bazate pe garanții](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Statutul contractului de a nu depăși și validările](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Facturare bazată pe sarcini
+
+### <a name="resource-management"></a>Gestionarea resurselor
+
+Operațiunile de proiect oferă suport opțional pentru Universal Resource Scheduling (URS) asistent de bord și de programare. Această nouă experiență va deveni obligatorie în valul din aprilie 2023.
 
 ## <a name="frequently-asked-questions"></a>Întrebări frecvente
 
@@ -136,5 +156,4 @@ Există două opțiuni pentru instalarea Project Operations înainte ca instrume
 - Furnizați un mediu nou.
 - Implementați operațiunile de proiect separat în orice organizație de vânzări în care Project Service Automation nu este prezent.
 
-> [!NOTE]
-> Dacă Project Service Automation este instalat într-o organizație, dar nu a fost folosit, poate fi dezinstalat. După ce eliminați complet Project Service Automation, Project Operations poate fi instalat în aceeași organizație.
+Dacă Project Service Automation este instalat într-o organizație, dar nu a fost folosit, poate fi dezinstalat. După ce eliminați complet Project Service Automation, Project Operations poate fi instalat în aceeași organizație.
