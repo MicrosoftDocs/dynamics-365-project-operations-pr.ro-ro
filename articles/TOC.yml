@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Cum particularizez fluxul de business Fazele proiectului?
               href: psa/FAQ-customize-bpf.md
-            - name: Considerente privind upgrade-ul pentru structura detaliată a proiectului
-              href: psa/upgrade-considerations-tasks.md
         - name: Cărți albe
           href: psa/white-papers.md
         - name: Ghidul administratorului
