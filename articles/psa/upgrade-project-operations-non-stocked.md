@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686991"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709460"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade de la Project Service Automation la Project Operations
 
@@ -70,7 +70,7 @@ Cerințele preliminare pentru Faza 3 vor fi actualizate pe măsură ce se apropi
 
 ## <a name="licensing"></a>Licențiere
 
-Dacă aveți licențe active pentru Project Service Automation, puteți instala și utiliza Project Operations, care include toate capabilitățile Project Service Automation și multe altele. Apoi puteți testa capabilitățile Project Operations într-un mediu separat în timp ce continuați să utilizați Project Service Automation în producție. După expirarea licențelor Project Service Automation, va trebui să treceți la Project Operations. Când planificați această tranziție, trebuie să luați în considerare faptul că licența Project Operations nu include o licență Project Service Automation.
+Dacă aveți licențe active pentru Project Service Automation, puteți instala și utiliza Project Operations, care include toate capabilitățile Project Service Automation și multe altele. În acest fel, puteți testa capabilitățile Project Operations în timp ce continuați să utilizați Project Service Automation în producție. După expirarea licențelor Project Service Automation, va trebui să treceți la Project Operations. Când planificați această tranziție, trebuie să luați în considerare faptul că licența Project Operations nu include o licență Project Service Automation. Clienții care au scenarii în care au implementat Project Service Automation și trebuie să continue să folosească sau să-și mărească licențele pentru PSA în timp ce intenționează să treacă la Project Operations, pot solicita licențe PSA temporare pe baza licențelor achiziționate de Project Operations. Va fi eliberată o licență Project Service Automation pentru o licență Project Operations. Licențele PSA temporare pot fi solicitate utilizând acest link: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Testarea și refactorizarea personalizărilor
 
@@ -79,9 +79,9 @@ Ca punct de plecare, importați toate personalizările într-un mediu curat de o
 Iată câteva lucruri la care trebuie să fii atent:
 
 - Importul poate eșua din cauza dependențelor lipsă. Cu alte cuvinte, personalizările fac referire la câmpuri sau alte componente care au fost eliminate în Operațiuni de proiect. În acest caz, eliminați aceste dependențe din mediul de dezvoltare.
-- Dacă soluțiile dvs. negestionate și gestionate includ componente care nu sunt personalizate, eliminați acele componente din soluție. De exemplu, atunci când personalizați **Proiect** entitate, adăugați numai antetul entității la soluția dvs. Nu adăugați toate câmpurile. Dacă ați adăugat anterior toate subcomponentele, ar putea fi necesar să creați manual o soluție nouă și să adăugați componente relevante.
+- Dacă soluțiile dvs. negestionate și gestionate includ componente care nu sunt personalizate, eliminați acele componente din soluție. De exemplu, când personalizați **Proiect** entitate, adăugați numai antetul entității la soluția dvs. Nu adăugați toate câmpurile. Dacă ați adăugat anterior toate subcomponentele, ar putea fi necesar să creați manual o soluție nouă și să adăugați componente relevante.
 - Este posibil ca formularele și vizualizările să nu apară așa cum era de așteptat. În anumite circumstanțe, dacă ați personalizat oricare dintre formularele sau vizualizările out-of-box, personalizările pot împiedica noile actualizări din Operațiunile de proiect să intre în vigoare. Pentru a identifica aceste probleme, vă recomandăm să faceți o revizuire paralelă a unei instalări curate a Project Operations și a unei instalări a Project Operations care include personalizările dvs. Comparați cele mai frecvent utilizate formulare în afacerea dvs. pentru a confirma că versiunea dvs. a formularului încă are sens și că nu lipsește ceva din versiunea curată a formularului. Faceți același tip de revizuire alăturată pentru toate vizualizările pe care le-ați personalizat.
-- Logica de afaceri poate eșua în timpul execuției. Deoarece referințele la câmpurile din plug-in-urile dvs. nu sunt validate în momentul importului, logica de afaceri poate eșua din cauza referințelor la câmpuri care nu mai există și este posibil să primiți un mesaj de eroare care seamănă cu următorul exemplu: „„Proiect” entitatea nu conține un atribut cu Name = 'msdyn_plannedhours' și NameMapping = 'Logical'." În acest caz, modificați personalizările astfel încât acestea să utilizeze noile câmpuri. Dacă utilizați clase de proxy generate automat și referințe de tip puternic în logica plug-in-ului, luați în considerare regenerarea acelor proxy dintr-o instalare curată. În acest fel, puteți identifica cu ușurință toate locurile în care pluginurile dvs. depind de câmpurile învechite.
+- Logica de afaceri ar putea eșua în timpul rulării. Deoarece referințele la câmpurile din plug-in-urile dvs. nu sunt validate în momentul importului, logica de afaceri poate eșua din cauza referințelor la câmpuri care nu mai există și este posibil să primiți un mesaj de eroare care seamănă cu următorul exemplu: „„Proiect” entitatea nu conține un atribut cu Name = 'msdyn_plannedhours' și NameMapping = 'Logical'." În acest caz, modificați personalizările astfel încât acestea să utilizeze noile câmpuri. Dacă utilizați clase de proxy generate automat și referințe de tip puternic în logica plug-in-ului, luați în considerare regenerarea acelor proxy dintr-o instalare curată. În acest fel, puteți identifica cu ușurință toate locurile în care pluginurile dvs. depind de câmpurile învechite.
 
 După ce vă actualizați personalizările pentru a importa în mod curat operațiunile de proiect, treceți la pașii următori.
 

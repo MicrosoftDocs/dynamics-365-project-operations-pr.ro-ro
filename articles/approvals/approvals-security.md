@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525411"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709413"
 ---
 # <a name="security-and-approvals"></a>Securitate și aprobări
 
@@ -33,6 +33,6 @@ Pentru a aproba intrări non-proiect, trebuie să fii managerul celui care depun
 > [!NOTE]
 > The [Seturi de aprobare](approval-sets.md) caracteristica trebuie să fie activată înainte de a putea utiliza funcționalitatea de administrare a avizului de proiect.
 
-The **Administrator aprobator de proiect** rol de securitate permite utilizatorilor să ocolească politicile și permite aprobarea intrărilor în toate proiectele. Atribuirea acestui rol va ocoli logica de validare care necesită apartenența la echipă și marcarea ca aprobator. Trebuie să aveți acces la entitățile relevante relevante, cum ar fi **Proiect**. Acest acces poate fi atribuit de cineva care are **Manager de proiect** rol.
+The **Administrator aprobator de proiect** rol de securitate permite utilizatorilor să ocolească politicile și permite aprobarea intrărilor în toate proiectele. Atribuirea acestui rol va ocoli logica de validare care necesită apartenența la echipă și marcarea ca aprobator. Trebuie să aveți acces la tabelele relevante relevante, cum ar fi **Proiect**, prin rolurile de securitate atribuite dvs.
 
 Contextul utilizatorului SISTEM ocolește validările în același mod ca administratorul de aprobare a proiectului rol de securitate.
