@@ -284,8 +284,10 @@
           href: project-management/understand-project-status.md
         - name: Definirea calendarelor de proiect
           href: project-management/define-project-calendars.md
-        - name: Moduri de programare
+        - name: Moduri de planificare
           href: project-management/scheduling-modes.md
+        - name: Planificarea externă
+          href: project-management/external-scheduling.md
         - name: Actualizarea unui proiect
           href: project-management/update-project.md
         - name: Copierea unui proiect
@@ -912,8 +914,10 @@
           href: project-management/understand-project-status.md
         - name: Definirea calendarelor de proiect
           href: project-management/define-project-calendars.md
-        - name: Moduri de programare
+        - name: Moduri de planificare
           hreF: project-management/scheduling-modes.md
+        - name: Planificarea externă
+          href: project-management/external-scheduling.md
         - name: Actualizarea unui proiect
           href: project-management/update-project.md
         - name: Copierea unui proiect
