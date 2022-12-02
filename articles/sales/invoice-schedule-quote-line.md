@@ -1,6 +1,6 @@
 ---
 title: Planificările de facturi pe linii de ofertă bazate pe proiect
-description: Acest articol oferă informații despre crearea programelor de facturare și a reperelor pentru liniile de ofertă.
+description: Acest articol oferă informații despre crearea de programe de facturare și repere pentru liniile de ofertă.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

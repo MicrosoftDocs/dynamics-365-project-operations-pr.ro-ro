@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a recunoașterii veniturilor
-description: Acest articol oferă informații despre recunoașterea veniturilor în Operațiunile de proiect.
+description: Acest articol furnizează informații despre recunoașterea veniturilor în Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926285"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-În Dynamics 365 Project Operations, principiile de recunoaștere a veniturilor variază în funcție de metoda de facturare selectată pentru un proiect sau porțiune din proiect. Acest articol oferă informații despre recunoașterea veniturilor în Operațiunile de proiect.
+În Dynamics 365 Project Operations, principiile de recunoaștere a veniturilor variază în funcție de metoda de facturare selectată pentru un proiect sau porțiune din proiect. Acest articol furnizează informații despre recunoașterea veniturilor în Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Tranzacțiile contabilizate utilizând metoda de facturare de materiale și timp
 

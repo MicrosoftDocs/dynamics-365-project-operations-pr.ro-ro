@@ -1,6 +1,6 @@
 ---
 title: Configurarea tarifelor facturii pentru muncă
-description: Acest articol oferă informații despre cum să configurați tarifele de facturare a forței de muncă în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să configurați ratele de facturare a costului pentru muncă în Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

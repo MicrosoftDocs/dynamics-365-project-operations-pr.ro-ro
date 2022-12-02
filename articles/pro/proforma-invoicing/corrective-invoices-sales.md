@@ -1,6 +1,6 @@
 ---
 title: Facturi corective pentru proiect
-description: Acest articol oferă informații despre cum să creați și să confirmați facturile corective în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să creați și să confirmați facturi corective în Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

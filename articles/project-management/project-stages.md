@@ -1,6 +1,6 @@
 ---
 title: Fazele unui proiect
-description: Acest articol oferă informații despre etapele proiectului care sunt disponibile în Microsoft Dynamics Operațiuni de proiect.
+description: Acest articol oferă informații despre etapele proiectului care sunt disponibile în Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Când asociați un proiect cu o ofertă sau când creați un proiect de la o ofe
 
 ## <a name="plan"></a>Plan
 
-Atunci când câștigați o ofertă care este asociată cu un proiect și acesta este mutat la faza de **Contract**, etapa proiectului este actualizată la **Plan**. În timp ce proiectul este în **Plan** etapa, cel **Vânzări** fila de pe **Entitatea de proiect** pagina prezintă detaliile contractului.
+Atunci când câștigați o ofertă care este asociată cu un proiect și acesta este mutat la faza de **Contract**, etapa proiectului este actualizată la **Plan**. În timp ce proiectul este în etapa de **Plan**, fila **Vânzări** de pe pagina **Entitate de proiect** afișează detaliile contractului.
 
 ## <a name="deliver"></a>Livrare
 

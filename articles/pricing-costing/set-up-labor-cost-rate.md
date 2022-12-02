@@ -1,6 +1,6 @@
 ---
 title: Configurarea tarifelor de cost pentru muncă
-description: Acest articol oferă informații despre cum să stabiliți tarife pentru costul forței de muncă Operațiunile de proiect
+description: Acest articol oferă informații despre modul de configurare al ratelor de cost pentru forța de muncă în Project Operations
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

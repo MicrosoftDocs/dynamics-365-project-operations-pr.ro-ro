@@ -1,6 +1,6 @@
 ---
 title: Configurați kilometrajul utilizând nivelurile de rată a kilometrajului
-description: Acest articol oferă informații despre ratele de kilometraj și nivelurile de rate de kilometri.
+description: Acest articol oferă informații despre ratele de kilometraj și nivelurile de kilometraj.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Caracteristica **Calculul cantității de kilometraj pentru mai multe niveluri d
 
 După ce activați caracteristica, resetați nivelurile de kilometraj pentru a reflecta corect valoarea câmpului **Cantitate**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Activați calculul totalurilor de kilometraj prin funcția exercițiu financiar
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Activați funcția Calculul total de kilometraj pe an fiscal
 
-The **Calcul total al kilometrajului de către exercițiu financiar** caracteristica permite o nouă setare în parametrii de gestionare a cheltuielilor, care efectuează calcule ale totalului de kilometri de către exercițiu financiar în loc de anul calendaristic. Parcurgeți pașii următori pentru a activa această caracteristică.
+Caracteristica **Calculul total al kilometrajului pe an fiscal** permite o nouă setare în parametrii de gestionare a cheltuielilor, care efectuează calcule ale totalului de kilometri pe anul fiscal în loc de anul calendaristic. Parcurgeți pașii următori pentru a activa această caracteristică.
 
 1. Accesați **Spații de lucru** > **Gestionare caracteristică**.
-1. În listă, localizați și selectați **Calcul total al kilometrajului de către exercițiu financiar**, apoi selectați **Activați acum**.
-1. Mergi la **Managementul cheltuielilor** > **Înființat** > **General** > **Parametrii de gestionare a cheltuielilor**.
-1. Pe **Parametrii de gestionare a cheltuielilor** pagina, localizați și activați **Utilizați exercițiu financiar pentru totalul kilometrajului**.
+1. În listă, găsiți și selectați **Calculul total al kilometrajului pe an fiscal**, apoi selectați **Activați acum**.
+1. Accesați **Managementul cheltuielilor** > **Configurare** > **General** > **Parametrii de gestionare a cheltuielilor**.
+1. Pe pagina **Parametrii de gestionare a cheltuielilor**, găsiți și activați opțiunea **Utilizați anul fiscal pentru totalul de kilometraj**.
 
-După ce activați **Utilizați exercițiu financiar pentru totalul kilometrajului**, totalul kilometrajului este calculat de exercițiu financiar.
+După ce activați opțiunea **Utilizați anul fiscal pentru totalul de kilometraj**, totalul de kilometraj este calculat pe an fiscal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

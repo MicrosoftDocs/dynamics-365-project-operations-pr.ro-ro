@@ -1,6 +1,6 @@
 ---
 title: Membrii echipei de proiect
-description: Acest articol oferă informații despre cum să lucrați cu informațiile, atributele și programarea membrilor echipei de proiect.
+description: Acest articol oferă informații despre cum să lucrați cu informațiile, atributele și planificarea membrilor echipei de proiect.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

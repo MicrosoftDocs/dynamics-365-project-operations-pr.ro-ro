@@ -1,6 +1,6 @@
 ---
 title: Gestionarea unităților complexe pentru liniile de contract bazate pe produse - simplificat
-description: Acest articol oferă informații despre sprijinirea vânzării de produse pe bază de abonament.
+description: Acest articol oferă informații despre sprijinirea vânzării produselor bazate pe abonament.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

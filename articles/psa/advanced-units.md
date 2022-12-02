@@ -1,6 +1,6 @@
 ---
 title: Unități și grupuri de unități
-description: Acest articol oferă informații despre grupurile de unități și unități.
+description: Acest articol oferă informații despre unități și grupuri de unități.
 author: rumant
 ms.custom:
 - dyn365-projectservice

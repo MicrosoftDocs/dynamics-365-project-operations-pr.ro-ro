@@ -1,6 +1,6 @@
 ---
 title: Moneda
-description: Acest articol oferă informații despre cum să adăugați și să eliminați tipuri de monede în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să adăugați și să eliminați tipurile de monedă în Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

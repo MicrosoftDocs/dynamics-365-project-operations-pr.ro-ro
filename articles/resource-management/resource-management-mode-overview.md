@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a modurilor de gestionare a resurselor
-description: Acest articol oferă informații despre funcționalitatea de gestionare a resurselor în Dynamics 365 Project Operations.
+description: Acest articol furnizează informații despre funcționalitatea de management al resurselor Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Pentru organizațiile care necesită flexibilitate în alocarea resurselor, modu
 
 ![Mod hibrid.](./media/resource-management-hybrid.png)
 
-În plus față de procesul de mod central acceptat, consultați următoarele articole pentru a gestiona toate celelalte fluxuri de rezervare acceptate în modul hibrid:
+În plus față de procesul Mod central acceptat, consultați următoarele articole pentru a gestiona toate celelalte fluxuri de rezervare acceptate în modul hibrid:
 
 Rezervați o resursă direct unui proiect:
 - [Rezervați resurse rezervabile numite la o echipă de proiect și atribuiți sarcini](/dynamics365/project-service/assign-named-bookable-resource)

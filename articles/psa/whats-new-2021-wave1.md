@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat la Project Service Automation Early Access Valul 1 2021, V3
-description: Acest articol enumeră caracteristicile și remedierile disponibile în Project Service Automation Early Access Wave 1 2021, V3.
+description: Acest articol listează caracteristicile și corecțiile disponibile pentru Project Service Automation Early Access Valul 1 2021, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -31,7 +31,7 @@ ms.locfileid: "8930747"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol enumeră caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Early Access Wave 1 2021. Această versiune are numărul de versiune V3.10.49.3 și este în general disponibilă printr-o actualizare automată în februarie 2021.
+Acest articol listează caracteristicile și corecțiile noi sau modificate pentru Project Service Automation V3, Early Access Valul 1 2021. Această versiune are numărul de versiune V3.10.49.3 și este în general disponibilă printr-o actualizare automată în februarie 2021.
 
 
 ### <a name="bug-fixes"></a>Remedieri de erori

@@ -1,6 +1,6 @@
 ---
 title: Înregistrați-vă pentru versiunile de încercare Project Operations
-description: Acest articol oferă informații despre cum să implementați o versiune de încercare a Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre modul de implementare a unei versiuni de încercare a Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/non-sto
 
 
 
-Acest articol explică cum să vă abonați la oferta de partener de previzualizare și să implementați a Dynamics 365 Project Operations mediu inconjurator.
+Acest articol explică cum să vă abonați la oferta de previzualizare a partenerului și cum să implementați un mediu Dynamics 365 Project Operations.
 
 Cu noua versiune de încercare Project Operations, puteți implementa automat oricare dintre cele trei scenarii de implementare acceptate completând un chestionar care recomandă cea mai bună abordare de implementare. Acest articol oferă informații despre cum să:
 
@@ -86,18 +86,18 @@ Pentru a implementa o versiune de încercare a Dynamics 365 Project Operations, 
  
   Când pregătirea este completă, starea mediului dvs. este **Pregătit**. Pregătirea mediului include implementarea datelor demo.
  
-4.  Selectați respectivul Microsoft Dataverse URL și adresele URL ale aplicațiilor financiare și operaționale pentru a valida implementarea.
+4.  Selectați respectivul URL Microsoft Dataverse și adresele URL ale aplicațiilor pentru finanțe și operațiuni pentru validarea implementării.
 
 ## <a name="configuring-dual-write"></a>Configurare scriere duală
-- Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizați setările de securitate pentru Operațiuni de proiect în Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Pentru a accesa configurația cu dublă scriere, navigați la instanța de finanțare și operațiuni, apoi navigați la **Management de date** > **Scriere dublă**.
-- Pentru a configura hărți cu scriere duală, consultați [Rulați hărți cu dublă scriere pentru Operațiuni de proiect](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Pentru a configura rolurile de securitate pentru scriere duală, consultați [Actualizarea setărilor de securitate pentru Project Operations în Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Pentru a accesa configurația cu scriere duală, navigați la instanța finanțe și operațiuni, apoi navigați la **Management de date** > **Scriere duală**.
+- Pentru a configura hărți cu scriere duală, consultați [Executarea hărților cu scriere duală pentru Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuirea de licențe
 
 Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
 
-1. Du-te la [Microsoft 365 centru de administrare](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
+1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 
    ![Pagina principală a centrului de administrare](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Următoarele resurse oferă îndrumări utile pe măsură ce vă începeți căl
 
 ## <a name="frequently-asked-questions"></a>Întrebări frecvente
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ce se întâmplă dacă am nevoie de ALM sau ELM pentru mediul meu de aplicații financiare și operaționale?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Ce se întâmplă dacă am nevoie de ALM sau ELM pentru mediul meu de aplicații pentru finanțe și operațiuni?
 
 - Pentru partenerii care necesită capacități complete de gestionare a ciclului de viață al mediului, consultați [Solicitare de licență pentru Sandbox partener](https://experience.dynamics.com/requestlicense) pentru a revizui noua ofertă de partener. 
 - Pentru partenerii care caută mai multe informații despre drepturile de utilizare internă, consultați [Cloud drepturi de utilizare internă și beneficii software (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Următoarele resurse oferă îndrumări utile pe măsură ce vă începeți căl
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Pot să-mi prelungesc versiunea de încercare peste 30 de zile?
 Pentru a vă prelungi perioada de încercare, parcurgeți pașii următori.
 
-1. În **Microsoft 365 Centrul de administrare**, mergi la **Facturare** > **Produsele dvs**.
+1. În **În centrul de administrare** Microsoft 365, accesați **Facturare** > **Produsele dvs.**.
 2. Selectați **Dynamics 365 Project Operations (CE) - Previzualizare versiune de încercare**.
 3. Sub **Data expirării**, selectați **Prelungire dată**.
 

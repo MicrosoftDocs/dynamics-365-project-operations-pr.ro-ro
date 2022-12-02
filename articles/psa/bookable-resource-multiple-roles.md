@@ -1,6 +1,6 @@
 ---
 title: Estimează vânzările și costurile proiectului atunci când o resursă care poate fi rezervată îndeplinește mai multe roluri pentru un proiect
-description: Acest articol oferă informații despre modul în care dimensiunile de preț pot fi utilizate pentru a sprijini stabilirea prețurilor și a costurilor pentru o resursă care ocupă mai multe roluri într-un proiect.
+description: Acest articol oferă informații referitoare la modul în care pot fi utilizate dimensiunile de stabilire a prețurilor pentru a sprijini estimarea prețurilor și a costurilor pentru o resursă care îndeplinește mai multe roluri în cadrul unui proiect.
 author: rumant
 ms.custom:
 - dyn365-projectservice

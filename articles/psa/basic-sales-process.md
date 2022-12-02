@@ -1,6 +1,6 @@
 ---
 title: Procese vânzări
-description: Acest articol oferă informații despre procesele de bază de vânzare.
+description: Acest articol oferă informații despre procesele de vânzări de bază.
 author: rumant
 ms.custom:
 - dyn365-projectservice

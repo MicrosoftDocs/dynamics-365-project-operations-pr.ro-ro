@@ -1,6 +1,6 @@
 ---
 title: Produse
-description: Acest articol oferă informații despre catalogul de produse pe care le puteți folosi pentru a oferi clienților informații despre produsele și prețurile oferite de organizația dvs.
+description: Acest articol oferă informații despre catalogul de produse pe care îl puteți utiliza pentru a oferi clienților informații despre produsele și prețurile oferite de organizația dvs.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

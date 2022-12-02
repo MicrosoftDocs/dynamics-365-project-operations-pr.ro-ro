@@ -1,6 +1,6 @@
 ---
 title: Estimarea unei linii de ofertă pe bază de proiect
-description: Acest articol oferă informații despre cum să creați o estimare pe o linie de cotație bazată pe proiect.
+description: Acest articol oferă informații despre cum să creați o estimare pe o linie de ofertă pe bază de proiect.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

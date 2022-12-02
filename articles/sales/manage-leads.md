@@ -1,6 +1,6 @@
 ---
 title: Gestionarea clienților potențiali
-description: Acest articol oferă informații despre gestionarea clienților potențiali bazați pe proiecte.
+description: Acest articol furnizează informații despre gestionarea clienților potențiali pe bază de proiect.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

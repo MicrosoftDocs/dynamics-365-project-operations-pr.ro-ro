@@ -1,6 +1,6 @@
 ---
 title: Estimări de vânzări și proiecte
-description: Acest articol oferă informații despre cum să profitați de program și estimări în procesul de vânzare.
+description: Acest articol furnizează informații despre cum să profitați de planificare și de estimări în procesul de vânzări.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

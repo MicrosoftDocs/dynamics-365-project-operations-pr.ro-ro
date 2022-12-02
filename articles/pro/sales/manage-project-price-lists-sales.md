@@ -1,6 +1,6 @@
 ---
 title: Gestionarea listelor de prețuri ale proiectelor din ofertele de proiecte
-description: Acest articol oferă informații despre lucrul cu listele de prețuri ale proiectelor pe cotații.
+description: Acest articol oferă informații despre lucrul cu liste de prețuri de proiect pe oferte.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

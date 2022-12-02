@@ -1,6 +1,6 @@
 ---
 title: Creare soluții particularizate pentru dimensiunile de tarifare
-description: Acest articol explică cum să creați o soluție personalizată atunci când creați dimensiuni de preț personalizate.
+description: Acest articol explică cum să creați o soluție personalizată atunci când creați dimensiuni de tarifare personalizate.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

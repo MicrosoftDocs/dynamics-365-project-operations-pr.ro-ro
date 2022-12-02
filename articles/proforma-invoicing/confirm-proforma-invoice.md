@@ -1,6 +1,6 @@
 ---
 title: Confirmarea unei facturi proforma bazate pe proiect
-description: Acest articol oferă informații despre confirmarea unei facturi proforma bazate pe proiect.
+description: Acest articol oferă informații despre confirmarea unei facturi proforme bazate pe proiect.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

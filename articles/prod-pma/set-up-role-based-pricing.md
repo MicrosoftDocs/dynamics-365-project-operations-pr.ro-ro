@@ -1,6 +1,6 @@
 ---
 title: Configurați prețurile bazate pe roluri
-description: Acest articol oferă informații despre cum să configurați prețurile pentru anumite roluri.
+description: Acest articol oferă informații despre cum să configurați dimensiunile de preț pentru roluri specifice.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

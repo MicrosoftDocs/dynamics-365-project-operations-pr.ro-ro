@@ -1,6 +1,6 @@
 ---
 title: Antet/rezumat de oportunitate
-description: Acest articol oferă informații despre ofertele bazate pe proiecte și liniile de oportunitate bazate pe proiecte.
+description: Acest articol oferă informații despre oferte bazate pe proiecte și liniile de oportunitate bazate pe proiecte.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Concepte de estimare financiară
-description: Acest articol oferă informații despre estimările financiare ale proiectelor în Operațiuni de proiect.
+description: Acest articol oferă informații despre estimările financiare ale proiectelor în Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

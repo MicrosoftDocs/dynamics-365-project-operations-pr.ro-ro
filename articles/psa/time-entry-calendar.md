@@ -1,6 +1,6 @@
 ---
 title: Calendar intrări timp
-description: Acest articol oferă informații despre cum să utilizați calendarul de introducere a orei.
+description: Acest articol oferă informații despre modul de utilizare a calendarului de intrări de timp.
 author: rumant
 ms.custom:
 - dyn365-projectservice

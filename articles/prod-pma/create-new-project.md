@@ -1,6 +1,6 @@
 ---
 title: Creați un nou proiect
-description: Acest articol oferă informații despre cum să creați un nou proiect.
+description: Acest articol oferă informații despre cum să creați un proiect nou.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

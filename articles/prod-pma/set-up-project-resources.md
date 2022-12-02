@@ -1,6 +1,6 @@
 ---
 title: Configurarea resurselor proiectului
-description: Acest articol oferă informații despre configurarea sau solicitarea resurselor proiectului.
+description: Acest articol furnizează informații despre configurarea sau solicitarea resurselor de proiect.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Adăugarea membrilor echipei din grila de membri Echipă
-description: Acest articol oferă informații despre cum puteți gestiona resursele membrilor echipei.
+description: Acest articol oferă informații despre cum puteți gestiona resursele membrului echipei.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

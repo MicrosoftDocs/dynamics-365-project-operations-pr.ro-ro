@@ -1,6 +1,6 @@
 ---
 title: Gestionarea mai multor clienți în linii de contract bazate pe proiect
-description: Acest articol oferă informații despre lucrul cu linii de contract și contracte care conțin mai mulți clienți.
+description: Acest articol oferă informații despre lucrul cu liniile contractuale și contractele care conțin mai mulți clienți.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

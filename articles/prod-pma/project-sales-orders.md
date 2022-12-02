@@ -1,6 +1,6 @@
 ---
 title: Comenzi de vânzare pentru proiecte de timp și materiale
-description: Acest articol explică cum să creați comenzi de vânzări bazate pe proiecte pentru proiecte de timp și materiale.
+description: Acest articol explică cum să creați comenzi de vânzare bazate pe proiecte pentru proiecte de timp și materiale.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article

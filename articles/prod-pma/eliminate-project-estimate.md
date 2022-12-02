@@ -1,6 +1,6 @@
 ---
 title: Eliminarea unei estimări de proiect
-description: Acest articol oferă informații despre eliminarea unei estimări de proiect după ce este finalizată.
+description: Acest articol oferă informații despre eliminarea unei estimări de proiect după finalizarea acestuia.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

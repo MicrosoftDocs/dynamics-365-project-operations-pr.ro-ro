@@ -1,6 +1,6 @@
 ---
 title: Editați rezervările
-description: Acest articol oferă informații despre cum să actualizați și să faceți modificări în rezervări.
+description: Acest articol oferă informații despre cum să actualizați și să modificați rezervările.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915245"
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 
-Când apar modificări într-un proiect care necesită actualizarea rezervărilor existente, există mai multe modalități de a face modificările. Acest articol prezintă cum să actualizați și să faceți modificări în rezervări.
+Când apar modificări într-un proiect care necesită actualizarea rezervărilor existente, există mai multe modalități de a face modificările. Acest articol prezintă modalitatea de a actualiza și modifica rezervările.
 
 ## <a name="resource-reconciliation"></a>Reconcilierea resurselor
 

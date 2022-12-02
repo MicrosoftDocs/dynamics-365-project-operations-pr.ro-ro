@@ -1,6 +1,6 @@
 ---
 title: Importați estimări pentru un proiect pentru o linie de ofertă pe bază de proiect - simplificat
-description: Acest articol oferă informații despre cum să importați estimări dintr-un proiect într-o linie de ofertă.
+description: Acest articol oferă informații despre cum să importați estimările dintr-un proiect într-o linie de ofertă.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

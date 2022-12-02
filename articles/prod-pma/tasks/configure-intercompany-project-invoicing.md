@@ -1,6 +1,6 @@
 ---
 title: Configurați facturarea proiectelor între companii
-description: Acest articol arată cum să configurați facturarea proiectelor între două companii din organizația dvs.
+description: Acest articol arată cum să configurați facturarea proiectului între două companii din organizația dvs.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916625"
 
 [!include [banner](../../includes/banner.md)]
 
-Acest articol arată cum să configurați facturarea proiectelor între două companii din organizația dvs. Această sarcină utilizează setul de date USSI.
+Acest articol arată cum să configurați facturarea proiectului între două companii din organizația dvs. Această sarcină utilizează setul de date USSI.
 
 1. În panoul de navigare, accesați **Module > Conturi furnizori > Furnizori > Toți furnizorii**.
 2. În lista **Toți furnizorii**, găsiți și selectați înregistrarea dorită.

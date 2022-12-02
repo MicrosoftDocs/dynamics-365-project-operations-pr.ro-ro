@@ -1,6 +1,6 @@
 ---
 title: Rezervarea provizorie a unei resurse
-description: Acest articol oferă informații despre cum să programați sau să rezervați temporar membrii echipei de proiect.
+description: Acest articol oferă informații despre cum se realizează o rezervare provizorie pentru membrii echipei de proiect.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

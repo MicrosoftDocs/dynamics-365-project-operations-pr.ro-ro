@@ -1,6 +1,6 @@
 ---
 title: De ce nu pot să șterg înregistrările din entitatea Valori reale?
-description: Acest articol oferă informații despre motivul pentru care nu puteți șterge înregistrările din entitatea reală.
+description: Acest articol furnizează informații despre motivul pentru care nu puteți șterge înregistrările din entitatea Valori reale.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
-title: Determinați prețurile de vânzare pentru estimări și valori reale bazate pe proiecte
-description: Acest articol oferă informații despre modul în care sunt determinate prețurile de vânzare pentru estimările și valorile reale bazate pe proiecte.
+title: Stabilirea prețurilor de vânzare pentru estimări și valori reale bazate pe proiect
+description: Acest articol oferă informații despre cum sunt stabilite prețurile de vânzare pentru estimările și valorile reale bazate pe proiect.
 author: rumant
 ms.date: 09/12/2022
 ms.topic: article
@@ -13,83 +13,83 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475385"
 ---
-#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Determinați prețurile de vânzare pentru estimări și valori reale bazate pe proiecte
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Stabilirea prețurilor de vânzare pentru estimări și valori reale bazate pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Pentru a determina prețurile de vânzare pe estimări și valori reale în Microsoft Dynamics 365 Project Operations, sistemul utilizează mai întâi data și moneda în estimarea primită sau contextul real pentru a determina lista de prețuri de vânzare. În contextul actual, în mod specific, sistemul utilizează **Data tranzacției** câmp pentru a determina care listă de prețuri este aplicabilă. The **Data tranzacției** valoarea estimată sau reală primită este comparată cu **Pornire efectivă (independent de fus orar)** și **Sfârșit efectiv (independent de fusul orar)** valorile de pe lista de preturi. După ce lista de prețuri de vânzare este determinată, sistemul determină rata de vânzare sau de facturare.
+Pentru a stabili prețurile de vânzare pentru estimări și valori reale în Microsoft Dynamics 365 Project Operations, sistemul folosește mai întâi data și moneda în estimarea primită sau contextul real pentru a stabili lista de prețuri de vânzare. În contextul actual, în mod specific, sistemul utilizează câmpul **Dată tranzacție** pentru a determina care listă de prețuri este aplicabilă. Valoarea **Dată tranzacție** a estimării sau a valorii reale primite este comparată cu valorile **De la: (independent de fusul orar)** și **Până la: (independent de fusul orar)** de pe lista de preturi. După ce lista de prețuri de vânzare este stabilită, sistemul stabilește rata de vânzare sau de facturare.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinarea ratelor de vânzare pe liniile reale și estimative pentru Time
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Stabilirea ratelor de vânzare pe liniile de valori reale și estimate pentru Timp
 
-Estimați contextul pentru **Timp** se refera la:
+Contextul estimat pentru **Timp** se referă la:
 
-- Cotați detaliile liniei pentru **Timp**.
-- Detalii linie contract pentru **Timp**.
-- Atribuții de resurse pentru un proiect.
+- Detalii pentru linia de ofertă pentru **Timp**.
+- Detalii pentru linia de contract pentru **Timp**.
+- Atribuirile de resurse într-un proiect.
 
-Contextul real pentru **Timp** se refera la:
+Contextul real pentru **Timp** se referă la:
 
-- Liniile jurnalului de intrare și corecție pentru **Timp**.
+- Liniile de jurnalul de intrare și corecție pentru **Timp**.
 - Liniile de jurnal care sunt create atunci când este trimisă o intrare de timp.
-- Detaliile liniei de factură pentru **Timp**. 
+- Detalii pentru linia de facturare pentru **Timp**. 
 
-După ce se stabilește o listă de prețuri pentru vânzări, sistemul parcurge următorii pași pentru a introduce rata de facturare implicită.
+După ce o listă de prețuri pentru vânzare este stabilită, sistemul parcurge următorii pași pentru a introduce rata de facturare implicită.
 
-1. Sistemul se potrivește cu combinația dintre **Rol**, **de resurse**, și **Unitatea de Resurse** câmpuri în context estimativ sau real pentru **Timp** față de liniile de preț pentru rol de pe lista de prețuri. Această potrivire presupune că utilizați parametrii de preț out-of-box pentru tarifele facturilor. Dacă ați configurat prețul astfel încât să se bazeze pe alte câmpuri decât sau în plus față de **Rol**, **de resurse**, și **Unitatea de Resurse**, acea combinație de câmpuri este utilizată pentru a prelua o linie de preț pentru rol potrivită.
-1. Dacă sistemul găsește o linie de preț pentru rol care are o rată de facturare pentru **Rol**, **de resurse**, și **Unitatea de Resurse** combinație, acea rată a facturii este utilizată ca rată implicită a facturii.
+1. Sistemul potrivește câmpurile **Rol**, **Companie de resurse** și **Unitate de resurse** în contextul estimat sau real pentru **Timp** cu liniile de prețuri de rol în lista de prețuri. Această potrivire presupune că utilizați dimensiunile de stabilire a prețurilor predefinite pentru ratele de facturare. Dacă ați configurat prețurile astfel încât să se bazeze pe oricare alte câmpuri decât sau în plus față de câmpurile **Rol**, **Companie de resurse** și **Unitate de resurse**, atunci această combinație de câmpuri va fi utilizată pentru a regăsi o linie de preț de rol potrivită.
+1. Dacă sistemul găsește o linie de preț de rol care are o rată de facturare pentru combinația de câmpuri **Rol**, **Companie de resurse** și **Unitate de resurse**, atunci acea rată de facturare este utilizată ca rată de facturare implicită.
 
 > [!NOTE]
-> Dacă configurați o altă prioritizare a **Rol**, **de resurse**, și **Unitatea de Resurse** câmpuri sau dacă aveți alte dimensiuni care au prioritate mai mare, comportamentul precedent se va modifica în consecință. Sistemul preia înregistrările prețului rolului care au valori care se potrivesc cu fiecare valoare a dimensiunii de preț în ordinea priorității. Rândurile care au valori nule pentru acele dimensiuni vin ultimele.
+> Dacă configurați o prioritate diferită pentru câmpurile **Rol**, **Companie de resurse** și **Unitate de resurse** sau dacă aveți alte dimensiuni care au prioritate mai mare, acest comportament precedent se va schimba în consecință. Sistemul preia înregistrările prețului de rolul care au valori care se potrivesc cu fiecare valoare a dimensiunii de preț în ordinea priorității. Rândurile care au valori nule pentru acele dimensiuni vin ultimele.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Determinarea ratelor de vânzare pe liniile reale și estimative pentru Cheltuieli
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Stabilirea ratelor de vânzare pe liniile de valori reale și estimate pentru Cheltuieli
 
-Estimați contextul pentru **Cheltuiala** se refera la:
+Contextul estimat pentru **Cheltuieli** se referă la:
 
-- Cotați detaliile liniei pentru **Cheltuiala**.
-- Detalii linie contract pentru **Cheltuiala**.
-- Linii de estimare a cheltuielilor pe un proiect.
+- Detalii pentru linia de ofertă pentru **Cheltuieli**.
+- Detalii pentru linia de contract pentru **Cheltuieli**.
+- Linii de estimări de cheltuieli într-un proiect.
 
-Contextul real pentru **Cheltuiala** se refera la:
+Contextul real pentru **Cheltuieli** se referă la:
 
-- Liniile jurnalului de intrare și corecție pentru **Cheltuiala**.
-- Liniile de jurnal care sunt create atunci când este trimisă o înregistrare de cheltuieli.
-- Detaliile liniei de factură pentru **Cheltuiala**. 
+- Liniile de jurnal de intrare și corecție pentru **Cheltuieli**.
+- Liniile de jurnal care sunt create atunci când este trimisă o intrare de cheltuieli.
+- Detalii pentru linia de facturare pentru **Cheltuieli**. 
 
-După ce se stabilește o listă de prețuri pentru vânzări, sistemul parcurge următorii pași pentru a introduce prețul unitar de vânzare implicit.
+După o listă de prețuri pentru vânzări este stabilită, sistemul parcurge următorii pași pentru a introduce prețul de vânzare pe unitate implicit.
 
-1. Sistemul se potrivește cu combinația dintre **Categorie** și **Unitate** câmpurile de pe linia de estimare pentru **Cheltuiala** față de liniile de preț de categorie din lista de prețuri.
-1. Dacă sistemul găsește o linie de preț de categorie care are o rată de vânzare pentru **Categorie** și **Unitate** combinație, acea rată de vânzări este utilizată ca rată implicită de vânzări.
-1. Dacă sistemul găsește o linie de preț de categorie potrivită, metoda de stabilire a prețului poate fi utilizată pentru a introduce prețul de vânzare implicit. Următorul tabel arată comportamentul implicit pentru prețurile de cheltuieli în Operațiuni de proiect.
+1. Sistemul potrivește combinația de câmpuri **Categorie** și **Unitate** pe linia de estimare pentru **Cheltuieli** cu liniile de preț de categorie pe lista de prețuri.
+1. Dacă sistemul găsește o linie de preț de categorie care are o rată de vânzare pentru combinația de câmpuri **Categorie** și **Unitate**, acea rată de vânzare este utilizată ca rată de vânzare implicită.
+1. Dacă sistemul găsește o linie de preț de categorie potrivită, metoda de stabilire a prețurilor poate fi utilizată pentru a introduce prețul de vânzare implicit. Următorul tabel prezintă comportamentul implicit pentru prețurile de cheltuieli în Project Operations.
 
     | Context | Metodă de stabilire a prețului | Preț implicit |
     | --- | --- | --- |
-    | Estimată | Preț unitar | Pe baza liniei de preț de categorie. |
+    | Estimată | Preț unitar | Pe baza liniei de preț a categoriei. |
     |        | La cost | 0.00 |
     |        | Adaos peste cost | 0.00 |
-    | Real | Preț unitar | Pe baza liniei de preț de categorie. |
+    | Real | Preț unitar | Pe baza liniei de preț a categoriei. |
     |        | La cost | Pe baza costului real aferent. |
-    |        | Adaos peste cost | Se aplică o majorare, așa cum este definită de linia prețului categoriei, ratei de cost unitar a costului real aferent. |
+    |        | Adaos peste cost | Un adaos este aplicat așa cum este definit de linia de preț a categoriei la rata de cost unitară a costului real aferent. |
 
-1. Dacă sistemul nu poate să se potrivească cu **Categorie** și **Unitate** valori, rata de vânzări este setată la **0** (zero) implicit.
+1. Dacă sistemul nu poate să potrivească valorile de câmp **Categorie** și **Unitate**, rata de vânzare este setată la **0** (zero) în mod implicit.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Determinarea ratelor de vânzare pe liniile reale și estimative pentru Material
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Stabilirea ratelor de vânzări pe liniile de valori reale și estimate pentru Materiale
 
-Estimați contextul pentru **Material** se refera la:
+Contextul estimat pentru **Materiale** se referă la:
 
-- Cotați detaliile liniei pentru **Material**.
-- Detalii linie contract pentru **Material**.
-- Linii de estimare a materialului pe un proiect.
+- Detalii pentru linia de ofertă pentru **Materiale**.
+- Detalii pentru linia de contract pentru **Materiale**.
+- Linii de estimări de materiale într-un proiect.
 
-Contextul real pentru **Material** se refera la:
+Contextul real pentru **Materiale** se referă la:
 
-- Liniile jurnalului de intrare și corecție pentru **Material**.
-- Liniile de jurnal care sunt create atunci când este trimis un jurnal de utilizare a materialelor.
-- Detaliile liniei de factură pentru **Material**. 
+- Liniile de jurnal de intrare și corecție pentru **Materiale**.
+- Liniile de jurnal care sunt create atunci când este trimisă o înregistrare de utilizare de Materiale.
+- Detalii pentru linia de facturare pentru **Materiale**. 
 
-După ce se stabilește o listă de prețuri pentru vânzări, sistemul parcurge următorii pași pentru a introduce prețul unitar de vânzare implicit.
+După o listă de prețuri pentru vânzări este stabilită, sistemul parcurge următorii pași pentru a introduce prețul de vânzare pe unitate implicit.
 
-1. Sistemul se potrivește cu combinația dintre **Produs** și **Unitate** câmpurile de pe linia de estimare pentru **Material** față de liniile de articole din lista de prețuri din lista de prețuri.
-1. Dacă sistemul găsește o linie de articol din lista de prețuri care are o rată de vânzare pentru **Produs** și **Unitate** combinație și dacă metoda de stabilire a prețului este **Suma valutară**, se folosește prețul de vânzare care este specificat pe rândul listei de prețuri. 
-1. Dacă **Produs** și **Unitate** valorile câmpurilor nu se potrivesc sau dacă metoda de stabilire a prețului este altceva decât **Suma valutară**, rata de vânzări este setată la **0** (zero) implicit. Acest comportament apare deoarece Project Operations acceptă numai **Suma valutară** metoda de stabilire a prețurilor pentru materialele care sunt utilizate într-un proiect.
+1. Sistemul potrivește combinația de câmpuri **Produs** și **Unitate** pe linia de estimări pentru **Materiale** cu liniile de articole din lista de prețuri pe lista de prețuri.
+1. Dacă sistemul găsește o listă de articole din lista de prețuri care are o rată de vânzare pentru combinația de câmp **Produs** și **Unitate** și dacă metoda de stabilire a prețurilor este **Sumă valută**, se folosește prețul de vânzare specificat pe linia listei de prețuri. 
+1. Dacă valorile câmpurilor **Produs** și **Unitate** nu se potrivesc sau dacă metoda de stabilire a prețului este alta decât **Sumă valută**, rata de vânzare este setată la **0** (zero) implicit. Acest comportament apare deoarece Project Operations acceptă numai metoda de stabilire a prețurilor **Sumă valutară** pentru materialele care sunt utilizate într-un proiect.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Utilizați un câmp existent în Project Service ca dimensiune de tarifare
-description: Acest articol oferă informații despre utilizarea câmpurilor existente Project Service ca dimensiuni de preț.
+description: Acest articol furnizează informații despre utilizarea câmpurilor Project Service existente ca dimensiuni de tarifare.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

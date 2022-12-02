@@ -1,6 +1,6 @@
 ---
 title: Avansuri și contracte bazate pe garanții
-description: Acest articol oferă informații despre modelele de contractare bazate pe reținere și progresele în operațiunile de proiect.
+description: Acest articol furnizează informații despre modele de contractare și avansuri pe bază de onorariu în Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

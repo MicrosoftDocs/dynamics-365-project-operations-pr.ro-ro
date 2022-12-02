@@ -1,6 +1,6 @@
 ---
 title: Gestionați mai mulți clienți în linii de oferte bazate pe proiect - simplificat
-description: Acest articol descrie cum să gestionați mai mulți clienți pe linii de cotație bazate pe proiect.
+description: Acest articol descrie cum să gestionați mai mulți clienți pe linii de ofertă bazate pe proiecte.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Gestionarea competențelor de resurse
-description: Acest articol oferă informații despre configurarea competențelor pentru resursele proiectului.
+description: Acest articol furnizează informații despre configurarea competențelor pentru resursele de proiect.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

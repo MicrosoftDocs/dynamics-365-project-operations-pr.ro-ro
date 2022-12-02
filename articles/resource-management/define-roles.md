@@ -1,6 +1,6 @@
 ---
 title: Definirea rolurilor
-description: Acest articol oferă un link către informații despre configurarea categoriilor de resurse care pot fi rezervate.
+description: Acest articol furnizează un link spre informații despre configurarea categoriilor de resurse care pot fi rezervate.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

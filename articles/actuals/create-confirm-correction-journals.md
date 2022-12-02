@@ -24,7 +24,7 @@ ms.locfileid: "8928079"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Ocazional, o intrare de timp sau de cheltuieli poate fi introdusă incorect. De exemplu, un consultant poate selecta data greșită atunci când creează o intrare de timp sau ar putea selecta proiectul greșit atunci când introduce o cheltuială. Dacă un consultant nu poate actualiza intrările trimise, un administrator back-end poate corecta direct datele reale pentru un proiect.
+Ocazional, o intrare de timp sau de cheltuială ar putea fi introdusă incorect. De exemplu, un consultant ar putea selecta data greșită atunci când creează o intrare de timp sau ar putea selecta proiectul greșit atunci când introduce o cheltuială. Dacă un consultant nu poate actualiza intrările trimise, un administrator back-end poate corecta direct valorile reale pentru un proiect.
 
 ## <a name="correct-approved-time-entries"></a>Intrări de timp aprobate corect     
 
@@ -73,30 +73,30 @@ Urmați pașii următori pentru a corecta una sau mai multe intrări de cheltuie
 
 6. Când valorile corectate apar așa cum este așteptat, selectați **Confirmare**. În caseta de dialog, selectați **OK.** Dacă valorile nu se afișează așa cum este așteptat, selectați **Anulare** pentru a reveni la lista **Cheltuieli aprobate**. Repetați pașii 2 până la 5. 
 
-7. După ce confirmați jurnalul de corecție, reveniți la proiectul sau proiectele pe care le-ați actualizat pentru a vedea modificările.
+7. După ce confirmați jurnalul de corecție, reveniți la proiectul sau proiectele pe care le-ați actualizat, pentru a vizualiza modificările.
 
-8. Pe pagina proiectului, pe **Actuale** fila, revizuiți **Vedere asociată reală** listă. Sunt enumerate intrările originale și intrările corectate.
+8. Pe pagina proiectului, pe fila **Valori reale**, treceți în revistă lista **Vizualizare asociată valori reale**. Sunt enumerate intrările originale și intrările corectate.
 
 
 ## <a name="correct-approved-material-usage-logs"></a>Corectați jurnalele de utilizare a materialelor aprobate
 
-Parcurgeți următorii pași pentru a corecta una sau mai multe intrări din jurnalul de utilizare a materialelor.
+Finalizați pașii următori pentru a corecta una sau mai multe intrări de jurnal de utilizare a materialelor.
 
-1. În **Vânzări** zonă, în panoul de navigare din stânga, sub **Tranzacții**, Selectați **Actuale**.
+1. În zona **Vânzări**, în panoul de navigare din stânga, sub **Tranzacții**, selectați **Valori reale**.
 
-2. În **Actuale** listă, utilizați filtre de coloană pentru a selecta **Material** clasa de tranzacție, astfel încât să fie afișate doar valorile reale pentru materiale. Utilizați alte filtre de coloană pentru a limita și mai mult valorile reale afișate. După ce puteți găsi setul dorit de valori reale, selectați datele reale, apoi selectați **Intrări corecte**. Un nou jurnal de corecție este creat automat și **Corecție materială** este atribuit tipul.
+2. În lista **Valori reale**, utilizați filtre de coloană pentru a selecta clasa de tranzacție **Material**, astfel încât să fie afișate doar valorile reale pentru materiale. Utilizați alte filtre de coloană pentru a limita și mai mult valorile reale afișate. După ce puteți găsi setul dorit de valori reale, selectați valorile reale, apoi selectați **Intrări corecte**. Un nou jurnal de corecție este creat automat și tipul **Corecție pentru materiale** este alocat.
 
-3. Pe **Jurnal nou** pagina, în **Descriere** câmp, introduceți o descriere pentru corecție. Apoi, pe **Corectarea materialului** fila, în **Noi valori pentru materiale** secțiunea, selectați câmpurile de date de corectat pentru liniile de material selectate. De exemplu, puteți atribui materialul unui alt proiect sau puteți corecta produsul, data materialului sau subcontractul.
+3. Pe pagia **Jurnal nou**, în câmpul **Descriere**, introduceți o descriere pentru corecție. Apoi, pe fila **Corecție pentru material**, în secțiunea **Noi valori pentru materiale**, selectați câmpurile de date de corectat pentru liniile de material selectate. De exemplu, puteți aloca materialul unui alt proiect sau puteți corecta produsul, data materialului sau subcontractul.
 
-4. Selectați **Previzualizare**. Apoi, în caseta de dialog, selectați **O.K**.
+4. Selectați **Previzualizare**. Apoi, în următoarea casetă de dialog, selectați **OK**.
 
-5. Pe **Rânduri de jurnal** fila, verificați corecțiile. Puteți vizualiza o listă cu valorile reale originale care sunt legate de intrările de material selectate care au fost inversate și liniile corespunzătoare corectate care au fost create.
+5. Pe fila **Linii de jurnal**, verificați corecțiile. Puteți vizualiza o listă cu valorile reale inițiale care sunt legate de intrările de material selectate care au fost inversate și liniile corectate corespunzătoare care au fost create.
 
-6. Când valorile corectate apar așa cum este așteptat, selectați **Confirmare**. Apoi, în caseta de dialog, selectați **O.K**. Dacă valorile nu sunt cele așteptate, selectați **Anulare** a reveni la **Actuale** listă. Apoi repetați pașii de la 2 la 5.
+6. Când valorile corectate apar așa cum este așteptat, selectați **Confirmare**. Apoi, în următoarea casetă de dialog, selectați **OK**. Dacă valorile nu sunt conform așteptărilor, selectați **Anulare** pentru a reveni la lista **Valori reale**. Apoi, repetați pașii 2 până la 5.
 
-7. După ce confirmați jurnalul de corecție, reveniți la proiectul sau proiectele pe care le-ați actualizat pentru a vedea modificările.
+7. După ce confirmați jurnalul de corecție, reveniți la proiectul sau proiectele pe care le-ați actualizat, pentru a vizualiza modificările.
 
-8. Pe pagina proiectului, pe **Actuale** fila, revizuiți **Vedere asociată reală** listă. Sunt enumerate intrările originale și intrările corectate.
+8. Pe pagina proiectului, pe fila **Valori reale**, treceți în revistă lista **Vizualizare asociată valori reale**. Sunt enumerate intrările originale și intrările corectate.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

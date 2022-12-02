@@ -1,6 +1,6 @@
 ---
 title: Noutăți iulie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din iulie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/non-aprovizionate.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din iulie 2021 a Project Operations pentru scenarii bazate pe resurse/care nu există pe stoc.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931713"
 
 *Se aplică la: Project Operations pentru scenarii bazate pe resurse/fără stoc*
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
    - Project Operations în mediul Microsoft Dataverse versiunea 4.12.0.148 sau 4.12.0.152.
-   - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.20.
+   - Management de proiect și contabilitate în mediul Dynamics 365 Finance, versiunea 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
@@ -80,7 +80,7 @@ Dacă întâmpinați o problemă în lansarea hărții, urmați instrucțiunile 
 | General                       | 2253682              | Soluția de scriere duală Project Operations nu ar trebui instalată atunci când nucleul de scriere duală este instalat într-un mediu fără soluția de orchestrare cu scriere duală.                                                |
 | General                       | 2316420              | Asigurarea accesului de bază la Project Service eșuează dacă se schimbă unitatea de business a utilizatorului aplicației.                                                                                                                     |
 | General                       | 2376405              | S-a remediat problema de actualizare bazată pe editor (Actualizarea de calitate este disponibilă în versiunea 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate pe Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate în Dynamics 365 Finance
 
 | Zonă de caracteristici                      | Număr de referință | Actualizare de calitate                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

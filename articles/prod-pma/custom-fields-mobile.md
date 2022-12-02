@@ -26,7 +26,7 @@ ms.locfileid: "8913727"
 
 [!include [banner](../includes/banner.md)]
 
-Acest articol oferă modele comune pentru utilizarea extensiilor pentru a implementa câmpuri personalizate. Sunt acoperite următoarele articole:
+Acest articol oferă modele comune pentru utilizarea extensiilor pentru a implementa câmpuri personalizate. Sunt abordate următoarele articole:
 
 - Diferitele tipuri de date acceptate de cadrul de câmp personalizat
 - Cum se afișează câmpuri numai în citire sau editabile în intrările din foaia de pontaj și cum se salvează valorile furnizate de utilizator în baza de date
@@ -35,7 +35,7 @@ Acest articol oferă modele comune pentru utilizarea extensiilor pentru a implem
 
 ## <a name="audience"></a>Public
 
-Acest articol este destinat dezvoltatorilor care își integrează câmpurile personalizate în Microsoft Dynamics 365 Project Timesheet aplicație mobilă disponibilă pentru Apple iOS și Google Android. Ipoteza este că cititorii sunt familiarizați cu dezvoltarea X++ și funcționalitatea foii de timp a proiectului.
+Acest articol este destinat dezvoltatorilor care își integrează câmpurile personalizate în aplicație mobilă Microsoft Dynamics 365 Project Timesheet disponibilă pentru Apple iOS și Google Android. Ipoteza este că cititorii sunt familiarizați cu dezvoltarea X++ și funcționalitatea foii de timp a proiectului.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Contract de date - clasa TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Proprietatea **FieldBaseType** pe obiectul **TsTimesheetCustom** determină tipu
 
 - Dacă proprietatea **stringOptions** este furnizată pe obiectul **TSTimesheetCustomField**, acele elemente de listă sunt singurele valori pe care utilizatorii le pot selecta folosind butoanele de opțiune (butoanele radio).
 
-    În acest caz, câmpul șir poate acționa ca o valoare enum în scopul intrării utilizatorului. Pentru a salva valoarea în baza de date ca enumerare, mapați manual valoarea șirului înapoi la valoarea enumerare înainte de a salva în baza de date utilizând lanțul de comandă (consultați „Utilizați lanțul de comandă în clasa TSTimesheetEntryService pentru a salva o intrare din foaia de pontaj din aplicația înapoi la baza de date" secțiunea de mai jos în acest articol pentru un exemplu).
+    În acest caz, câmpul șir poate acționa ca o valoare enum în scopul intrării utilizatorului. Pentru a salva valoarea în baza de date ca o enumerare, mapați manual valoarea șirului înapoi la valoarea enumerată înainte de a salva în baza de date utilizând lanțul de comandă (consultați secțiunea „Utilizați lanțul de comandă din clasa TSTimesheetEntryService pentru a salva o intrare din foaia de pontaj din aplicație înapoi în baza de date" de mai târziu din acest articol pentru o exemplificare).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Această proprietate specifică eticheta care este afișată lângă câmpul din
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Lista de șiruri)
 
-Această proprietate este aplicabilă numai atunci când **fieldBaseType** este setat la **Șir**. Dacă **stringOptions** este setat, valorile șirurilor disponibile pentru selectare prin butoanele de opțiune (butoanele radio) sunt specificate de șirurile din listă. Dacă nu sunt furnizate șiruri, este permisă introducerea de text liber în câmpul șir (consultați secțiunea „Utilizați lanțul de comandă în clasa TSTimesheetEntryService pentru a salva o intrare în foaie de pontaj din aplicație înapoi în baza de date” de mai jos în acest articol pentru un exemplu) .
+Această proprietate este aplicabilă numai atunci când **fieldBaseType** este setat la **Șir**. Dacă **stringOptions** este setat, valorile șirurilor disponibile pentru selectare prin butoanele de opțiune (butoanele radio) sunt specificate de șirurile din listă. Dacă nu sunt furnizate șiruri, este permisă introducerea textului liber în câmpul șirului (consultați secțiunea „Utilizați lanțul de comandă din clasa TSTimesheetEntryService pentru a salva o intrare din foaia de pontaj din aplicație înapoi în baza de date" mai târziu în acest articol pentru exemplificare) .
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

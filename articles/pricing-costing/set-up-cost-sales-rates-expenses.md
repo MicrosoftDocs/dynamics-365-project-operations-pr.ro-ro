@@ -1,6 +1,6 @@
 ---
 title: Configurați tarifelor de cost și de vânzare pentru cheltuieli
-description: Acest articol oferă informații despre cum să configurați costurile și ratele de vânzare pentru categoriile de tranzacții și cheltuieli.
+description: Acest articol oferă informații despre modul de configurare al costului și a ratelor de vânzăare pentru categorii de tranzacție și de cheltuieli.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

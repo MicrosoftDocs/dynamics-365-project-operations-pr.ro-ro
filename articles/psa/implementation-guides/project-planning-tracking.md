@@ -32,7 +32,7 @@ ms.locfileid: "8933277"
 
 Aplicația Project Service ajută organizațiile de servicii să identifice oportunități, să prezinte oferte, să ajungă la acorduri contractuale, să gestioneze resurse, să urmărească timpul și cheltuielile, să factureze clienți și să livreze proiecte la timp și în buget. 
 
-Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
+Linkul PDF care a fost anterior în acest articol a fost eliminat și conținutul a fost mutat la următoarele articole:
 
 - [Planificări de proiect](../project-creating.md)
 - [Costuri și venit de proiect](../project-estimating.md)
@@ -43,7 +43,7 @@ Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul 
 - [Setări de proiect](../project-settings.md)
 
 > [!NOTE]
-> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
+> Acest articol va fi eliminat într-o actualizare de documentație viitoare. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

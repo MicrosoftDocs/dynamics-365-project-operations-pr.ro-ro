@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în martie 2021 - Implementare simplificată Project Operations
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din martie 2021 a implementării Project Operations lite.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din martie 2021 de implementare a Project Operations lite.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8913911"
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
 - Project Operations pe mediul Dataverse versiunea 4.8.0.91 
 

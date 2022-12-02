@@ -1,6 +1,6 @@
 ---
 title: Gestionarea unei facturi proforma bazate pe proiect
-description: Acest articol oferă informații despre cum să gestionați și să lucrați cu facturile proforma bazate pe proiecte.
+description: Acest articol oferă informații despre gestionarea și lucrul cu facturile proforme bazate pe proiect.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -25,7 +25,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/non-sto
 Dynamics 365 Project Operations este format din două componente:
 
 - Project Operations pe mediul Dataverse acoperă capabilitățile de la oportunitate la emiterea facturii proforme. Dataverse este utilizat în implementarea simplă și implementarea scenariilor de resurse/ne-stocate ale Project Operations.
-- Managementul proiectelor și contabilitatea în mediul Dynamics 365 Finance acoperă capabilitățile de gestionare a cheltuielilor, contabilitatea proiectelor și recunoașterea veniturilor. Mediul aplicației de finanțare și operațiuni este utilizat în Operațiuni de proiect pentru scenarii bazate pe resurse/ne-aprovizionate și Operațiuni de proiect pentru scenarii bazate pe stoc/producție.
+- Management de proiect și contabilitate în mediul Dynamics 365 Finance acoperă capabilități de gestionare a cheltuielilor, contabilitate de proiect și recunoașterea veniturilor. Mediul de aplicație pentru finanțe și operațiuni este utilizat în Project Operations pentru scenarii de resurse/care nu există pe stoc și Project Operations pentru scenarii aflate pe stoc/pe bază de producție.
 
 ## <a name="project-operations-release-notes"></a>Note de lansare pentru Project Operations
 - Cele mai recente note de lansare pentru Project Operations în cazul scenariilor [Resursă/non-stoc](whats-new-july-2022-resource-based.md).
@@ -34,11 +34,11 @@ Dynamics 365 Project Operations este format din două componente:
 
 ## <a name="project-operations-latest-version"></a>Ultima versiune Project Operations
 
-| Project Operations pe mediu Dataverse | Management de proiect și contabilitate în mediile aplicațiilor financiare și operaționale | 
+| Project Operations pe mediu Dataverse | Management de proiect și contabilitate în medii de aplicații pentru finanțe și operațiuni | 
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Pentru Resursă de operațiuni de proiect/scenariu fără stoc, vă recomandăm să utilizați versiunea orchestrației cu scriere duală 2.3.1.15 sau o versiune superioară.
+Pentru scenariul Project Operations Resource/ne-stocat, vă recomandăm să utilizați versiunea de orchestrare cu scriere duală 2.3.1.15 sau o versiune ulterioară.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Planificare de lansare pentru Project Operations pe mediul Dataverse
 
@@ -66,7 +66,7 @@ Actualizările pentru Project Operations pe mediul Dataverse sunt disponibile lu
 | Stația 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | America de Nord         |  4.46.0.60      | Finalizați           | Finalizați            | TBD           | 04 noiembrie 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programul de lansare pentru managementul proiectelor și contabilitate în mediul aplicațiilor financiare și operaționale
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planificare de lansare pentru Management de proiect și contabilitate în mediul de aplicații pentru finanțe și operațiuni
 
 Actualizările pentru managementul de proiect și contabilitate sunt publicate de opt ori pe an.
 

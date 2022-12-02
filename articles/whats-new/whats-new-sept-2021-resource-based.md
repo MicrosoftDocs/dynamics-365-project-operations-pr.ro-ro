@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în septembrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest articol oferă informații despre actualizările de calitate disponibile în ediția din septembrie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în lansarea din septembrie 2021 a Project Operations pentru scenarii de resurse/care nu există pe stoc.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923387"
 
 *Se aplică la: Project Operations pentru scenarii bazate pe resurse/fără stoc*
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
    - Project Operations în mediul Microsoft Dataverse versiunea 4.14.0.99.
-   - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.20.
+   - Management de proiect și contabilitate în mediul Dynamics 365 Finance, versiunea 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Actualizări de hărți Project Operations cu scriere duală
 

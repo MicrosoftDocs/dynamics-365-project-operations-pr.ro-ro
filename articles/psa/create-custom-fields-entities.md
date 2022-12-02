@@ -1,6 +1,6 @@
 ---
 title: Crearea câmpurilor și entităților particularizate
-description: Acest articol explică cum să creați seturi de opțiuni și entități în propria soluție în Power Apps platformă.
+description: Acest articol explică modul de creare a seturilor de opțiuni și a entităților în soluția proprie în platforma Power Apps platform.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926929"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Parcurgeți pașii următori în orice moment în care doriți să creați un set de opțiuni sau o entitate particularizat(ă) pe platforma Power Apps.  
-Procedurile din acest articol trebuie finalizate folosind interfața web a Project Service Automation (PSA).
+Procedurile din acest articol trebuie parcurse folosind interfața web a Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Vă recomandăm să efectuați toate modificările de dimensiune de tarifare particularizate într-o soluție separată. Această bună practică importantă oferă flexibilitate în viitor pentru a actualiza sau elimina modificările după este necesar, va ajuta la reutilizarea activității dvs. și facilitează portarea acestor modificări într-o altă instanță. După ce ați făcut toate modificările necesare, exportați această soluție ca **Soluție gestionată** și importați-o în alte instanțe pentru a reutiliza configurația dvs. de tarifare.

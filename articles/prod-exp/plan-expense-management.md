@@ -1,6 +1,6 @@
 ---
 title: Configurați gestionarea cheltuielilor
-description: Acest articol descrie considerentele și deciziile pe care trebuie să le luați în timpul procesului de planificare înainte de a configura gestionarea cheltuielilor în Microsoft Dynamics 365 Finanțe.
+description: Acest articol descrie considerațiile și deciziile pe care trebuie să le luați în timpul procesului de planificare înainte de a configura gestionarea cheltuielilor în Microsoft Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article

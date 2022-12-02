@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a gestionării cheltuielilor
-description: Acest articol oferă informații generale despre gestionarea cheltuielilor și link-uri către resurse suplimentare. Puteți utiliza gestionarea cheltuielilor pentru a crea un flux de lucru integrat în care puteți stoca informații despre metoda de plată, puteți importa tranzacții cu cardul de credit și puteți urmări banii cheltuiți de angajați atunci când suportă cheltuieli pentru afacerea dvs.
+description: Acest articol oferă informații generale despre gestionarea cheltuielilor și linkuri către resurse suplimentare. Puteți utiliza gestionarea cheltuielilor pentru a crea un flux de lucru integrat în care puteți stoca informații despre metoda de plată, puteți importa tranzacții cu cardul de credit și puteți urmări banii cheltuiți de angajați atunci când suportă cheltuieli pentru afacerea dvs.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Pentru informații suplimentare, consultați [Rapoartele de cheltuieli reinventa
 
 ### <a name="blogs"></a>Bloguri
 
-Puteți găsi opinii, știri și alte informații pe site [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) si [Microsoft Dynamics 365 Finance - Blog financiar](https://community.dynamics.com/365/financeandoperations/b/financials).
+Puteți găsi opinii, știri și alte informații pe [Blogul Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) și pe [Blogul financiar Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blogul Microsoft Dynamics al Comunității partenerilor de operațiuni](https://community.dynamics.com/partner/b/operationspartnercommunityblog) oferă partenerilor Microsoft Dynamics o singură resursă în care pot afla ce este nou și care sunt tendințele în operațiunile MBS.
 

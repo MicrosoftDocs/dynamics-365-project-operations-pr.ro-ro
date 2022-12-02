@@ -17,26 +17,26 @@ ms.locfileid: "8930379"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Un membru al echipei de proiect care trimite o înregistrare privind timpul, cheltuiala sau utilizarea materialului poate reaminti acea înregistrare după ce a fost aprobată. Procesul de retragere are două etape principale:
+Un membru al echipei de proiect care depune o intrare de timp, cheltuieli sau utilizare a materialelor poate retrage acea intrare după ce a fost aprobată. Procesul de retragere are doi pași principali:
 
 1. Un depunător cere o retragere.
-2. Un autorizator aprobă cererea de retragere.
+2. Un aprobator aprobă retragerea solicitării.
 
 ## <a name="request-a-recall"></a>Solicitați o retragere
 
-Urmați acești pași pentru a solicita o retragere a intrărilor aprobate privind timpul, cheltuielile sau utilizarea materialelor.
+Urmați acești pași pentru a solicita o retragere a intrărilor de timp, cheltuieli sau utilizare a materialelor aprobate.
 
-1. Urmați unul dintre acești pași, în funcție de tipul de intrare pe care doriți să o reamintiți:
+1. Urmați unul dintre acești pași, în funcție de tipul de intrare pe care doriți să o retrageți:
 
-    - Pentru intrări de timp, accesați **Proiecte** \> **Munca mea** \> **Intrarea timpului**, și selectați toate intrările de timp pentru o combinație specifică a unui proiect și a unei sarcini. Alternativ, în grilă, selectați celulele individuale pentru timp la o anumită dată pentru un anumit proiect.
-    - Pentru intrări de cheltuieli, accesați **Proiecte** \> **Munca mea** \> **Cheltuieli**, și selectați rândul pentru înregistrarea cheltuielilor de rechemat.
-    - Pentru intrări privind utilizarea materialului, accesați **Proiecte** \> **Munca mea** \> **Jurnal de utilizare a materialelor**, și selectați rândul pentru intrarea de utilizare a materialului de rememorat.
+    - Pentru intrările de timp, accesați **Proiecte** \> **Lucrările mele** \> **Intrare de timp** și selectați toate intrările de timp pentru o anumită combinație a unui proiect și a unei activități. Alternativ, în grilă, selectați celulele individuale pentru timp la o anumită dată pentru un anumit proiect.
+    - Pentru intrările de cheltuieli, accesați **Proiecte** \> **Lucrările mele** \> **Cheltuieli** și selectați rândul pentru intrarea de cheltuieli de retras.
+    - Pentru intrările de utilizare a materialelor, accesați **Proiecte** \> **Lucrările mele** \> **Cheltuieli** și selectați rândul pentru intrarea de utilizare a materialelor de retras.
 
-2. Selectați **Retragere**. Apare o casetă de dialog de confirmare. Dacă intrările selectate privind timpul, cheltuielile sau utilizarea materialului au fost deja aprobate, vi se solicită să introduceți un motiv pentru retragere.
+2. Selectați **Retragere**. Apare o casetă de dialog de confirmare. Dacă intrările de timp, cheltuieli sau utilizare a materialelor selectate au fost deja aprobate, vi se solicită să introduceți un motiv pentru retragere.
 3. Introduceți un motiv pentru retragere apoi selectați **OK** pentru a confirma operațiunea. Sistemul trimite persoanei care a aprobat înregistrările o cerere de aprobare a retragerii.
 
 > [!IMPORTANT]
-> Nu puteți crea o cerere de retragere pentru o intrare aprobată de timp, cheltuială sau utilizare a materialului care a fost deja facturată clientului. Dacă încercați, primiți un mesaj care afirmă că înregistrarea de timp, cheltuieli sau utilizare a materialului nu poate fi reamintită deoarece a fost deja facturată. În acest caz, puteți solicita retragerea înregistrării numai dacă se utilizează o factură corectivă pentru a emite un credit complet sau o rambursare către client pe factura originală.
+> Nu puteți crea o solicitare de retragere pentru o intrare de timp, cheltuieli și utilizare a materialelor aprobată, care a fost deja facturată clientului. Dacă încercați, veți primi un mesaj care afirmă că intrarea de timp, cheltuieli sau utilizare a materialelor nu poate fi retrasă, deoarece a fost deja facturată. În acest caz, puteți solicita o retragere a intrării numai dacă se utilizează o factură corectivă pentru a emite o creditare completă sau o rambursare către client pe factura originală.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Aprobarea sau respingerea unei solicitări de retragere
 
@@ -52,7 +52,7 @@ Urmați acești pași pentru a aproba sau respinge o solicitare de retragere.
     Dacă ați selectat **Respingere**, solicitarea de retragere este respinsă.
 
 > [!IMPORTANT]
-> Atunci când o retragere este aprobată, la fel ca atunci când este solicitată, sistemul verifică orice activitate de facturare în ceea ce privește intrările de timp, cheltuieli sau utilizare materiale. Dacă o intrare a fost deja facturată sau dacă se află pe o ciornă de factură, aprobatorul primește un mesaj de eroare care afirmă că timpul sau cheltuiala nu pot fi aprobate pentru rechemare deoarece au fost deja facturate. În acest caz, aprobatorul poate aproba retragerea numai dacă se utilizează o factură corectivă pentru a emite un credit complet sau o rambursare către client pe factura originală.
+> Atunci când o retragere este aprobată, ca și atunci când este retrasă, sistemul verifică orice activitate de facturare pe intrările de timp, cheltuieli sau utilizare a materialelor. Dacă o intrare a fost deja facturată sau dacă este pe o schiță de factură, aprobatorul primește un mesaj de eroare care afirmă că timpul sau cheltuiala nu pot fi aprobate pentru retragere deoarece au fost deja facturate. În acest caz, aprobatorul poate aproba retragerea numai dacă se utilizează o factură corectivă pentru a emite o creditare completă sau o rambursare către client pe factura originală.
 
 ## <a name="impact-of-a-recall-request"></a>Impactul unei solicitări de retragere
 
@@ -60,9 +60,9 @@ Atunci când se retrage o aprobare, există atât un impact operațional, cât �
 
 ### <a name="operational-impact"></a>Impactul operațional
 
-Dacă se aprobă o solicitare de retragere, înregistrarea de aprobare este marcată **Respinsă**. Starea intrării este schimbată în oricare **Întors** sau **Respins**, în funcție de faptul că este o intrare de timp sau o intrare de cheltuială sau de utilizare a materialului.
+Dacă se aprobă o solicitare de retragere, înregistrarea de aprobare este marcată **Respinsă**. Starea intrării se modifică fie în **Returnată**, fie în **Respinsă** și depinde dacă este o intrare de timp sau o înregistrare de cheltuieli.
 
-Membrul echipei de proiect poate vizualiza intrările, edita și apoi retrimite intrări sau poate șterge complet intrări.
+Membrul echipei de proiect poate vizualiza intrările, poate edita și apoi retrimite intrările sau poate șterge complet intrările.
 
 Dacă o solicitare de retragere este respinsă, starea înregistrării rămâne **Aprobată**, iar înregistrarea nu poate fi editată de membrul echipei de proiect sau de aprobatorul proiectului.
 
@@ -79,14 +79,14 @@ Dacă o cerere de retragere este respinsă, nu există niciun impact financiar a
 
 ## <a name="changes-to-time-entry-records"></a>Modificări la înregistrări de intrări de timp
 
-Următoarea ilustrație arată modificările care apar pentru intrările de timp aprobate și înregistrările de aprobare corespunzătoare atunci când sunt rechemate.
+Următoarea ilustrație arată modificările care apar pentru intrările de timp aprobate și înregistrările de aprobare corespunzătoare atunci când acestea sunt retrase.
 
-![Tranziții de stare de intrare în timp.](media/TimeEntryStateTransitions.png)
+![Tranziții de stare pentru Intrarea de timp.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Modificări ale înregistrărilor privind cheltuielile și utilizarea materialelor
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Modificări la înregistrările de intrare de utilizare a materialelor
 
-Următoarea ilustrație arată modificările care apar pentru înregistrările de cheltuieli aprobate și de utilizare a materialelor și înregistrările de aprobare corespunzătoare atunci când sunt rechemate.
+Următoarea ilustrație arată modificările care apar pentru intrările de cheltuieli și utilizare a materialelor aprobate și înregistrările de aprobare corespunzătoare atunci când acestea sunt retrase.
 
-![Tranziții de stare de intrare a cheltuielilor.](media/ExpenseEntryStateTransitions.png)
+![Tranziții de stare pentru Intrarea de cheltuieli.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

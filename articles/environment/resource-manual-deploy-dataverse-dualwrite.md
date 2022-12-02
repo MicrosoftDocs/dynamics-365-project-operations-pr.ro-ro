@@ -1,6 +1,6 @@
 ---
 title: Implementarea manuală a aplicației Project Operations Dataverse cu suport pentru scriere duală
-description: Acest articol explică cum să implementați manual operațiunile de proiect Dataverse aplicație astfel încât să accepte scriere duală.
+description: Acest articol explică cum să implementați manual aplicația Project Operations Dataverse astfel încât să accepte scrierea duală.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028579"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol explică cum să implementați manual Microsoft Dynamics 365 Project Operations în Microsoft Dataverse astfel încât să accepte dual-write. Project Operations detectează configurația mediului și adaugă suport suplimentar pentru scrierea duală dacă sunt îndeplinite condițiile prealabile.
+Acest articol explică cum să implementați manual Microsoft Dynamics 365 Project Operations în Microsoft Dataverse astfel încât să accepte scrierea duală. Project Operations detectează configurația mediului și adaugă suport suplimentar pentru scrierea duală dacă sunt îndeplinite condițiile prealabile.
 
-În timpul implementării prin Microsoft Dynamics Servicii de ciclu de viață (LCS), dacă ați urmat instrucțiunile din acest articol, puteți sări peste implementarea Microsoft Power Platform integrare (cunoscută anterior ca Common Data Service mediu inconjurator).
+În timpul implementarii prin Microsoft Dynamics Lifecycle Services (LCS), dacă ați urmat instrucțiunile din acest articol, puteți sări peste implementarea integrării Microsoft Power Platform (cunoscută anterior sub numele de mediu Common Data Service).
 
 Procesul de implementare a Project Operations în Dataverse, astfel încât să accepte scrierea duală, are patru pași principali:
 
@@ -37,7 +37,7 @@ Pentru a finaliza această procedură, trebuie să vă conectați ca administrat
 3. Selectați tipul de mediu. Dacă v-ați înscris pentru oferta de versiune de încercare, selectați **Versiune de încercare (bazată pe abonament)**.
 4. Confirmați regiunea de implementare.
 5. Activați opțiunea **Creați o bază de date pentru acest mediu**. 
-6. Confirmați limba, apoi confirmați că moneda se potrivește cu moneda aplicațiilor dvs. de finanțe și operațiuni.
+6. Confirmați limba, apoi confirmați că moneda se potrivește cu moneda pentru aplicațiile pentru finanțe și operațiuni ale dvs.
 7. Activați opțiunea **Aplicații Dynamics 365** și confirmați că câmpul **Implementați automat aceste aplicații** este setat la **Niciuna**.
 8. Adăugați un grup de securitate, dacă este necesar un grup de securitate.
 9. Selectați **Salvare** pentru a crea mediul.
@@ -62,4 +62,4 @@ Puteți finaliza această procedură numai dacă ați finalizat procedurile ante
 
 ## <a name="link-your-environments"></a><a name="link"></a>Legați mediile
 
-După Dataverse mediu este implementat, puteți configura legătura în aplicațiile dvs. de finanțe și operațiuni. Urmați pașii din [Utilizați expertul cu scriere duală pentru a vă conecta mediile](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+După ce este implementat mediul Dataverse, puteți configura legătura în aplicațiile pentru finanțe și operațiuni. Urmați pașii din [Utilizați expertul cu scriere duală pentru a vă conecta mediile](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

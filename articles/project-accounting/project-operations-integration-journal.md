@@ -1,6 +1,6 @@
 ---
 title: Jurnalul de integrare în Project Operations
-description: Acest articol oferă informații despre lucrul cu jurnalul de integrare în Operațiuni de proiect.
+description: Acest articol oferă informații despre lucrul cu jurnalul de integrare în Project Operations.
 author: sigitac
 ms.date: 09/22/2022
 ms.topic: article
@@ -17,16 +17,16 @@ ms.locfileid: "9541093"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Timpul, cheltuielile, taxele și intrările de materiale creează **Real** tranzacții care reprezintă imaginea operațională a lucrărilor încheiate în cadrul unui proiect. Dynamics 365 Project Operations oferă contabililor un instrument pentru a revizui tranzacțiile și a ajusta atributele contabile după cum este necesar. După finalizarea revizuirii și ajustărilor, tranzacțiile sunt înregistrate în contabilitatea proiectului și registrul general. Un contabil poate efectua aceste activități folosind **Integrarea operațiunilor de proiect** jurnal (**Dynamics 365 Finance** > **Management de proiect si contabilitate** > **Jurnalele** > **Integrarea operațiunilor de proiect** jurnal.
+Intrările de timp, cheltuieli, taxe și materiale creează tranzacții **Reale** care reprezintă vizualizarea operațională a lucrului realizat într-un proiect. Dynamics 365 Project Operations oferă contabililor un instrument pentru a revizui tranzacțiile și a ajusta atributele contabile după cum este necesar. După finalizarea revizuirii și ajustărilor, tranzacțiile sunt înregistrate în contabilitatea proiectului și registrul general. Un contabil poate efectua aceste activități folosind jurnalul **Integrare Project Operations** (jurnalul **Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Jurnale** > **Integrare Project Operations**.
 
 ![Fluxul jurnalului de integrare.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Creați înregistrări în jurnalul Project Operations de integrare
 
-Înregistrările din jurnalul de integrare a Project Operations sunt create utilizând un proces periodic, **Importați din tabelul de etapizare**. Puteți rula acest proces accesând **Dynamics 365 Finance** > **Management de proiect si contabilitate** > **Periodic** > **Integrarea operațiunilor de proiect** > **Importați din tabelul de pregătire**. Puteți rula procesul interactiv sau configura procesul pentru a rula în fundal, după cum este necesar.
+Înregistrările din jurnalul de integrare a Project Operations sunt create utilizând un proces periodic, **Importați din tabelul de etapizare**. Puteți rula acest proces accesând **Dynamics 365 Finance** > **Management de proiect și contabilitate** > **Periodic** > **Integrare Project Operations** > **Importare din tabelul de etapizare**. Puteți rula procesul interactiv sau configura procesul pentru a rula în fundal, după cum este necesar.
 
 Când rulează procesul periodic, sunt găsite toate datele care nu sunt încă adăugate în jurnalul de integrare a Project Operations. Se creează o linie jurnal pentru fiecare tranzacție reală.
-Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în **Unitatea de perioadă pe jurnalul de integrare a operațiunilor de proiect** camp (**Finanţa** > **Management de proiect si contabilitate** > **Înființat** > **Management de proiect și parametri contabili**, **de proiect pe Dynamics 365 Customer Engagement** fila). Valorile posibile pentru acest câmp includ:
+Sistemul grupează liniile jurnalului în jurnale separate pe baza valorii selectate în câmpul **Unitate periodică în jurnalul de integrare a Project Operations** (fila **Finanțe** > **Management de proiect și contabilitate** > **Configurare** > **Management de proiect și parametri contabili**, **Project Operations în Dynamics 365 Customer Engagement**). Valorile posibile pentru acest câmp includ:
 
   - **Zile**: datele reale sunt grupate după data tranzacției. Se creează un jurnal separat pentru fiecare zi.
   - **Luni**: datele reale sunt grupate după luna calendaristică. Se creează un jurnal separat pentru fiecare lună.
@@ -40,37 +40,37 @@ Liniile de jurnalul sunt create pe baza realității proiectului. Următoarea li
   - Câmpul **Voucher** afișează numărul voucherului pentru fiecare tranzacție reală. Secvența numerelor de voucher este definită pe fila **Secvențe numerice**, pe pagina **Managementul proiectului și parametrii contabili**. Fiecărei linii i se atribuie un număr nou. După afișarea voucherului, puteți vedea modul în care sunt legate costurile și tranzacțiile de vânzare nefacturate selectând **Vouchere corelate** pe pagina **Tranzacție voucher**.
   - Câmpul **Categorie** reprezintă o tranzacție a proiectului și valorile implicite se bazează pe categoria de tranzacții pentru proiectul real.
     - Dacă **Categoria tranzacției** este setat în Proiectul real și un **Categoria proiectului** corelat există într-o anumită entitate juridică, categoria este implicită la această categorie de proiect.
-    - Dacă **Categoria tranzacției** nu este setat în proiectul actual, sistemul folosește valoarea din **Valorile implicite ale categoriei de proiect** câmp de pe **Operațiuni de proiect pe Dynamics 365 Customer Engagement** fila de pe **Management de proiect și parametri contabili** pagină.
+    - Dacă **Categoria de tranzacție** nu este setată în proiectul real, sistemul folosește valoarea în câmpul **Categorii de proiecte implicite** pe fila **Project Operations în Dynamics 365 Customer Engagement** de pe pagina **Management de proiect și parametri contabili**.
   - Câmpul **Resursă** reprezintă resursa proiectului legată de această tranzacție. Resursa este utilizată ca referință în propunerile de facturare ale proiectului către clienți.
-  - The **Rata de schimb** câmpul este implicit de la **Cursul de schimb valutar** stabilit în Dynamics 365 Finance. Dacă setarea ratei de schimb lipsește, procesul periodic **Import din etapă** nu va adăuga înregistrarea într-un jurnal și un mesaj de eroare va fi adăugat în jurnalul de execuție a lucrării.
-  - Câmpul **Proprietate de linie** reprezintă tipul de facturare în realitatea proiectului. Proprietățile liniei și maparea tipului de facturare sunt definite pe **Operațiuni de proiect pe Dynamics 365 Customer Engagement** fila de pe **Management de proiect și parametri contabili** pagină.
+  - Câmpul **Curs de schimb valutar** este preluat implicit din **Rată de schimb valutar** configurat în Dynamics 365 Finance Dacă setarea ratei de schimb lipsește, procesul periodic **Import din etapă** nu va adăuga înregistrarea într-un jurnal și un mesaj de eroare va fi adăugat în jurnalul de execuție a lucrării.
+  - Câmpul **Proprietate de linie** reprezintă tipul de facturare în realitatea proiectului. Proprietatea de linie și maparea tipului de facturare sunt definite pe fila **Project Operations în Dynamics 365 Customer Engagement** de pe pagina **Management de proiect și parametri contabili**.
 
 Numai următoarele atribute contabile pot fi actualizate în liniile jurnalului de integrare a Project Operations:
 
 - **Grup de impozitare pe vânzare** și **Grup de impozitare pe vânzare articol de facturare**
 - **Dimensiuni financiare** (folosind acțiunea **Distribuiți sume**)
 
-Liniile jurnalului de integrare pot fi șterse. Cu toate acestea, orice rând neîncărcat va fi inserat din nou în jurnal după ce reluați **Import de la montare** proces periodic.
+Liniile jurnalului de integrare pot fi șterse. Cu toate acestea, toate liniile nepublicate vor fi inserate din nou în jurnal după ce ați relansat procesul periodic **Import din etapă**.
 
-### <a name="post-the-project-operations-integration-journal"></a>Postați jurnalul de integrare a operațiunilor de proiect
+### <a name="post-the-project-operations-integration-journal"></a>Publicarea Jurnalului de integrare Project Operations
 
 Când postați jurnalul de integrare, se creează o tranzacție de contabilitate de proiect și contabilitate generală. Acestea sunt utilizate în facturarea clienților din aval, recunoașterea veniturilor și raportarea financiară.
 
-Jurnalul de integrare Project Operations selectat poate fi postat utilizând **Post** pe pagina jurnalului de integrare a operațiunilor de proiect. Toate jurnalele pot fi postate automat prin rularea unui proces la **Periodice** > **Integrarea operațiunilor de proiect** > **Jurnal de integrare Post Project Operations**.
+Jurnalul de integrare Project Operations selectat poate fi publicat utilizând **Publicare** pe pagina jurnalului de integrare Project Operations. Toate jurnalele pot fi publicate automat prin rularea unui proces la **Periodice** > **Integrare Project Operations** > **Publicare jurnal de integrare Project Operations**.
 
-Postarea poate fi efectuată interactiv sau în lot. Rețineți că toate jurnalele care au mai mult de 100 de rânduri vor fi postate automat într-un lot. Pentru o performanță mai bună atunci când jurnalele care au multe rânduri sunt postate într-un lot, activați **Postați jurnalul de integrare a operațiunilor de proiect folosind mai multe sarcini de lot** caracteristică în **Managementul caracteristicilor** spațiu de lucru. 
+Publicarea poate fi efectuată interactiv sau în lot. Rețineți că toate jurnalele care au mai mult de 100 de rânduri vor fi publicate automat într-un lot. Pentru o performanță mai bună atunci când jurnalele care au multe linii sunt postate într-un lot, activați funcția **Publicare jurnal de integrare Project Operations folosind mai multe sarcini de lot** în spațiul de lucru **Gestionare caracteristici**. 
 
-#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Transferați toate rândurile care au erori de înregistrare într-un nou jurnal
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Transferarea tuturor liniilor care au erori de înregistrare într-un nou jurnal
 
 > [!NOTE]
-> Pentru a utiliza această capacitate, activați **Transferați toate liniile cu erori de postare într-un nou jurnal de integrare Project Operations** caracteristică în **Managementul caracteristicilor** spațiu de lucru.
+> Pentru a utiliza această capacitate, activați funcția **Transferarea tuturor liniilor cu erori de postare într-un nou jurnal de integrare Project Operations** înspațiul de lucru **Gestionare caracteristici**.
 
-Această caracteristică ajută la îmbunătățirea experienței cu jurnalul de integrare Project Operations. Când este activat, problemele de sincronizare cu dublă scriere și problemele de configurare nu mai împiedică postarea jurnalelor valide. În timpul postării în jurnalul de integrare Project Operations, sistemul validează fiecare linie din jurnal. Postează toate liniile care nu au erori și creează un nou jurnal pentru toate liniile care au erori de postare.
+Această funcție ajută la îmbunătățirea experienței cu jurnalul de integrare Project Operations. Când este activat, problemele de sincronizare cu scriere duală și problemele de configurare nu mai împiedică publicarea jurnalelor valide. În timpul publicării în jurnalul de integrare Project Operations, sistemul validează fiecare linie din jurnal. Publică toate liniile care nu au erori și creează un nou jurnal pentru toate liniile care au erori de publicate.
 
-Pentru a examina jurnalele care au rânduri de eroare de postare, accesați **Management de proiect si contabilitate** \> **Jurnalele** \> **Jurnal de integrare a operațiunilor de proiect**, și filtrați lista de reviste utilizând **Jurnal original** camp. Următoarea ilustrație arată un exemplu în care jurnalele de pe **Jurnal de integrare a operațiunilor de proiect** pagina au fost filtrate în acest fel.
+Pentru a examina jurnalele care au linii de eroare de publicare, accesați **Management de proiect si contabilitate** \> **Jurnale** \> **Jurnal de integrare Project Operations** și filtrați lista de jurnale utilizând câmpul **Jurnal inițial**. Următoarea ilustrație arată un exemplu în care jurnalele de pe pagina **Jurnal de integrare Project Operations** au fost filtrate în acest fel.
 
-![Jurnalul original afișat pe pagina jurnalului de integrare a operațiunilor de proiect.](./media/transferLines-originalJournal.png)
+![Jurnalul inițial afișat pe pagina jurnalului de integrare Project Operations.](./media/transferLines-originalJournal.png)
 
-Dacă o sarcină periodică de lot este configurată pentru a posta jurnalul de integrare, se va reîncerca postarea, iar jurnalele vor fi postate dacă problema de sincronizare a fost remediată. Toate jurnalele rămase trebuie investigate manual, examinând jurnalele și luând orice acțiune necesară.
+Dacă o operațiune în bloc este configurată pentru a publica jurnalul de integrare, se va reîncerca publicarea, iar jurnalele vor fi publicate dacă problema de sincronizare a fost remediată. Toate jurnalele rămase trebuie investigate manual, examinând jurnalele și luând orice acțiune necesară.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

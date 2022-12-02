@@ -1,6 +1,6 @@
 ---
 title: Gestionarea listelor de prețuri ale proiectelor din contractele de proiecte
-description: Acest articol oferă informații despre gestionarea listelor de prețuri ale proiectelor pe contractele de proiect.
+description: Acest articol oferă informații despre gestionarea listelor de prețuri de proiecte pe contractele de proiecte.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

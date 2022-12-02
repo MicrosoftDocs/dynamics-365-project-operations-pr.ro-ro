@@ -1,6 +1,6 @@
 ---
 title: Linii de subcontract pentru produse
-description: Acest articol explică cum să înregistrați liniile de subcontractare pentru produse și să utilizați diferitele câmpuri pentru a înregistra achizițiile de produse de la furnizori.
+description: Acest articol explică modul de înregistrare a liniilor de subcontractare pentru produse și utilizarea diferitelor câmpuri pentru înregistrarea achizițiilor de produse de la furnizori.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

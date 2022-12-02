@@ -1,6 +1,6 @@
 ---
 title: Gestionarea restanțelor de facturare
-description: Acest articol oferă informații despre cum să vizualizați și să lucrați cu restanța de facturare în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să vizualizați și să lucrați cu restanțele de facturare în Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

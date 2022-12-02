@@ -1,6 +1,6 @@
 ---
 title: Postarea rapoartelor de cheltuieli
-description: Acest articol explică cum să postezi rapoarte de cheltuieli.
+description: Acest articol explică modul de postare a rapoartelor de cheltuieli.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Pentru a publicare un raport de cheltuieli, pe pagina **Rapoarte de cheltuieli a
 
 De asemenea, puteți publica toate rapoartele de cheltuieli în listă în același timp. Selectați toate rapoartele de cheltuieli, apoi selectați **Publicare**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Activați funcția Abilitatea de a încărca obligația de cheltuieli în moneda furnizorului pentru metoda de plată în numerar
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Activați funcția Posibilitatea de a încărca obligația de cheltuieli în moneda furnizorului pentru metoda de plată în numerar
 
-The **Posibilitatea de a înregistra datoria de cheltuieli în moneda vânzătorului pentru metoda de plată în numerar** caracteristica permite ca rapoartele de cheltuieli să fie postate într-o monedă a furnizorului pentru metoda de plată în numerar.
+Caracteristica **Posibilitatea de a înregistra obligația de cheltuieli în moneda vânzătorului pentru metoda de plată în numerar** permite ca rapoartele de cheltuieli să fie postate într-o monedă a furnizorului pentru metoda de plată în numerar.
 
-În prezent, atunci când trimiteți cheltuieli de numerar, rapoartele de cheltuieli sunt înregistrate în moneda contabilă. Din cauza conversiei sumei între moneda tranzacției, moneda contabilă și moneda furnizorului, o sumă incorectă este plătită furnizorilor dacă data tranzacției a cheltuielii și data reală a plății au cursuri de schimb diferite.
+În prezent, atunci când trimiteți cheltuieli în numerar, rapoartele de cheltuieli sunt înregistrate în moneda contabilă. Din cauza conversiei sumei între moneda tranzacției, moneda contabilă și moneda furnizorului, o sumă incorectă este plătită furnizorilor dacă data tranzacției a cheltuielii și data reală a plății au cursuri de schimb valutar diferite.
 
 Această caracteristică va asigura că soldul furnizorului este înregistrat în moneda furnizorului atunci când raportul de cheltuieli este publicat.
 
 1. Accesați **Spații de lucru** \> **Gestionare caracteristică**.
-2. În listă, găsiți și selectați **Posibilitatea de a înregistra datoria de cheltuieli în moneda vânzătorului pentru metoda de plată în numerar**, apoi selectați **Activați acum**.
+2. În listă, găsiți și selectați **Posibilitatea de a înregistra obligația de cheltuieli în moneda vânzătorului pentru metoda de plată în numerar**, apoi selectați **Activați acum**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

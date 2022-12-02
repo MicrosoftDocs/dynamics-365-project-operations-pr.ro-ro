@@ -1,6 +1,6 @@
 ---
 title: Configurați contabilitatea pentru proiectele facturabile
-description: Acest articol oferă informații despre opțiunile de contabilitate pentru proiectele facturabile.
+description: Acest articol furnizează informații despre opțiunile contabile pentru proiectele facturabile.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

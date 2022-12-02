@@ -1,6 +1,6 @@
 ---
 title: Linii de proiect bazate pe oportunitate
-description: Acest articol oferă informații despre lucrul cu linii de oportunitate bazate pe proiecte.
+description: Acest articol oferă informații despre lucrul cu linii de oportunitate pe bază de proiect.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

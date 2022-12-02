@@ -1,6 +1,6 @@
 ---
 title: Estimări financiare pentru timpul alocat resurselor în proiecte
-description: Acest articol oferă informații despre cum sunt calculate estimările financiare pentru timp.
+description: Acest articol oferă informații despre modul în care sunt calculate estimările financiare pentru timp.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

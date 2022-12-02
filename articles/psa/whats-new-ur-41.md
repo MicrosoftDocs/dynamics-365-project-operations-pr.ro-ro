@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 41, V3
-description: Acest articol enumeră caracteristicile și remediile disponibile în Microsoft Dynamics 365 Project Service Automation Actualizați versiunea 41, V3.
+description: Acest articol listează caracteristicile și remedierile disponibile în Microsoft Dynamics 365 Project Service Automation, versiunea de actualizare 41, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8930563"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Microsoft Dynamics 365 Project Service Automation. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Este compatibil cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați pagina de soluții online din Centrul de administrare pentru Dynamics 365 și instalați actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru Actualizarea Project Service Automation Versiunea 41, V3. Această versiune are un număr de V3.10.62.162 și este, în general, disponibilă printr-o auto-actualizare în martie 2022.
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation, versiunea de actualizare 41, V3. Această versiune are un număr de V3.10.62.162 și este, în general, disponibilă printr-o auto-actualizare în martie 2022.
 
 ## <a name="update-release-41"></a>Lansarea de actualizări 41
 
@@ -38,10 +38,10 @@ Acest articol listează caracteristicile și corecțiile care sunt noi sau modif
 S-au remediat următoarele probleme.
 
 **Gestionare de proiect**
-- Când încercați să creați un proiect dintr-un șablon care se bazează pe un proiect creat din programul de completare desktop, se afișează următoarea eroare, „Validarea câmpului de lucru planificat pentru alocarea resurselor: data de sfârșit a fiecărei secțiuni de timp alocarii resurselor nu trebuie să fie anterioară începerii acesteia. Data".
+- Când încercați să creați un proiect dintr-un șablon care se bazează pe un proiect creat din programul de completare pentru desktop, se afișează următoarea eroare „Validarea câmpului de lucru planificat pentru atribuirea resurselor: Data de sfârșit a fiecărei secțiuni de timp de atribuire de resurse nu trebuie să fie anterioară datei începerii acesteia".
 
 **Timp și cheltuială**
-- Când încercați să ștergeți o intrare de timp, se afișează următorul mesaj de eroare, „Apare o eroare neașteptată din codul ISV”.
+- Când încercați să ștergeți o intrare de timp, se afișează următorul mesaj de eroare „Apare o eroare neașteptată din codul ISV”.
 
 **Vânzări**
-- Când creați o factură pentru o etapă de preț fix, **Descriere** și **Descriere externă** câmpurile nu sunt populate. 
+- Când creați o factură pentru o etapă de preț fix, câmpurile **Descriere** și **Descriere externă** nu sunt populate. 

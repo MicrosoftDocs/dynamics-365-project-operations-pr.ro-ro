@@ -1,6 +1,6 @@
 ---
 title: Copierea listelor de prețuri
-description: Acest articol oferă informații despre cum să copiați listele de prețuri în Operațiuni de proiect.
+description: Acest articol furnizează informații despre cum să copiați listele de prețuri în Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

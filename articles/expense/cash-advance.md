@@ -1,6 +1,6 @@
 ---
 title: Avans în numerar
-description: Acest articol oferă informații despre avansurile în numerar.
+description: Acest articol oferă informații despre avansuri de numerar.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Când creați și trimiteți un raport de cheltuieli pentru avansul de numerar p
  
  Când aceste caracteristici sunt activate:
  
-  - Puteți adăuga unul sau mai multe avansuri în numerar pentru fiecare linie de cheltuieli.
+  - Puteți adăuga unul sau mai multe avansuri de numerar pentru fiecare linie de cheltuieli.
   - Soldul disponibil al unui avans de numerar este vizibil în timp real atunci când se salvează un raport de cheltuieli. Acest lucru vă permite să procesați tranzacții de cheltuieli și să returnați tranzacții în numerar în același timp.
   - Puteți selecta mai multe avansuri de numerar pentru o tranzacție de cheltuieli.
   - Datele de reconciliere a avansului de numerar sunt disponibile utilizând o interogare. 

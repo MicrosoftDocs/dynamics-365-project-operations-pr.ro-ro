@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a cheltuielilor
-description: Acest articol oferă informații despre funcționalitatea Cheltuieli din Operațiuni de proiect.
+description: Acest articol oferă informații despre lucrul cu funcționalitatea Cheltuieli în Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

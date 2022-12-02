@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 32, V3
-description: Acest articol listează caracteristicile și remedierile disponibile în Project Service Automation Update Versiunea 32, V3.
+description: Acest articol listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea de actualizare 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8912899"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Microsoft Dynamics 365 Project Service Automation. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Este compatibil cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați pagina de soluții online din Centrul de administrare pentru Dynamics 365 și instalați actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol listează caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Actualizare versiunea 32. Această versiune are un număr de versiune V3.10.53.108 și este, în general, disponibilă prin auto-actualizare în iunie 2021.
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea de actualizare 32. Această versiune are un număr de versiune V3.10.53.108 și este, în general, disponibilă prin auto-actualizare în iunie 2021.
 
 ## <a name="update-release-32"></a>Lansarea de actualizări 32
 

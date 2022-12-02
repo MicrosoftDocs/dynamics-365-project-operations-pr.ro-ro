@@ -30,14 +30,14 @@ Când se aprobă o tranzacție între companii, se creează următoarele tranzac
 
 Costul, costul unitar al resurselor și prețurile tranzacțiilor de vânzare ale unităților inter-organizaționale și moneda sunt determinate de **unitate organizațională**. Acest lucru este important de reținut atunci când decideți cum să structurați companiile și unitățile organizaționale în implementarea dvs.
 
-Când creați oportunități, cotații, contract de proiect și înregistrări de proiect, sistemul verifică dacă moneda unității contractante se potrivește cu moneda contabilă a companiei contractante. Când nu sunt la fel, aceste înregistrări nu pot fi create. Moneda unității organizaționale este definită în Dynamics 365 Project Operations accesând **Dataverse** > **Setări** > **Unități organizaționale**. Moneda contabilă a unei companii este definită în Dynamics 365 Finance accesând **Registrul general** > **Configurare registru** > **Registrul mare**. Moneda este sincronizată cu mediul dvs. Dataverse folosind harta Ledgers Dual Write.
+Când creați oportunități, cotații, contract de proiect și înregistrări de proiect, sistemul verifică dacă moneda unității contractante se potrivește cu moneda contabilă a companiei contractante. Când nu sunt la fel, aceste înregistrări nu pot fi create. Moneda unității organizaționale este definită în Dynamics 365 Project Operations accesând **Dataverse** > **Setări** > **Unități organizaționale**. Moneda contabilă a unei companii este definită în Dynamics 365 Finance accesând **Registru general** > **Configurare registru** > **Registru**. Moneda este sincronizată cu mediul dvs. Dataverse folosind harta Ledgers Dual Write.
 
 Sistemul creează costuri unitare de resurse și rezultate ale vânzărilor de unități interorganizaționale în următoarele situații:
 
   - Când unitatea de resurse diferă de unitatea contractantă
   - Când compania de resurse diferă de compania contractantă
 
-Cu toate acestea, doar tranzacțiile care au o companie de resurse diferită de compania contractantă vor fi transferate în mediul Dynamics 365 Finance pentru contabilitate suplimentară.
+Cu toate acestea, numai tranzacțiile care au o companie de resurse diferită de firma contractantă vor fi transferate către mediul Dynamics 365 Finance pentru contabilitate suplimentară.
 
 Contabilitatea realității proiectului este înregistrată în jurnalul de integrare a Project Operations din Finanțe. Sistemul creează următoarele linii de jurnal.
 

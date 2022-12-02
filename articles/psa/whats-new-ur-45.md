@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 45, V3
-description: Acest articol enumeră funcțiile și remediile disponibile în Microsoft Dynamics 365 Project Service Automation Actualizați versiunea 45, V3.
+description: Acest articol listează caracteristicile și remedierile disponibile în Microsoft Dynamics 365 Project Service Automation, versiunea de actualizare 45, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9169185"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Microsoft Dynamics 365 Project Service Automation. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Este compatibil cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați pagina de soluții online din Centrul de administrare pentru Dynamics 365 și instalați actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol listează caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation Update Versiunea 45, V3. Această versiune are un număr de compilări V3.10.76.168 și este, în general, disponibilă prin auto-actualizare în iulie 2022.
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation, versiunea de actualizare 45, V3. Această versiune are un număr de compilări V3.10.76.168 și este, în general, disponibilă prin auto-actualizare în iulie 2022.
 
 ## <a name="update-release-45"></a>Lansarea de actualizări 45
 
@@ -43,5 +43,5 @@ S-au remediat următoarele probleme.
 
 **Timp și cheltuială**
 
-- Când aprobările moderne este activată și se aprobă o aprobare de proiect rechemată, etapa de înregistrare este actualizată incorect la **Cerere de rechemare aprobată**.
-- Când Modern Approvals este activat și Cloud Flows este inactiv, procesul de aprobare nu are succes, iar utilizatorii care trimit sau aprobă nu sunt notificați.
+- Când Aprobări moderne este activat și se aprobă o aprobare de proiect rechemată, etapa de înregistrare este actualizată incorect la **Cerere de retragere aprobată**.
+- Când Aprobări moderne este activat și Fluxuri Cloud este inactiv, procesul de aprobare nu are succes, iar utilizatorii care trimit sau aprobă nu sunt notificați.

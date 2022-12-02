@@ -1,6 +1,6 @@
 ---
 title: Îndeplinirea cerințelor de resurse generice
-description: Acest articol oferă informații despre cum să rezervați resurse denumite pentru o cerință de resurse generice.
+description: Acest articol furnizează informații despre cum să rezervați resurse numite pentru o cerință de resurse generice.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

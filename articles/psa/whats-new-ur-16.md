@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 16, V3
-description: Acest articol enumeră caracteristicile și remedierile disponibile în Project Service Automation Update Versiunea 16, V3.
+description: Acest articol listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea de actualizare 16, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8926515"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității.  Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365 online, pagina cu soluții pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea unei soluții preferate](/dynamics365/project-service/upgrade-psa-home-page).
-Acest articol enumeră caracteristicile și remedierile care sunt noi sau modificate pentru PSA V3, Actualizare Versiunea 16. Această versiune are un număr de V3.10.6.34 și este, în general, disponibilă printr-o auto-actualizare în ianuarie 2020.
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru PSA V3, versiunea de actualizare 16. Această versiune are un număr de V3.10.6.34 și este, în general, disponibilă printr-o auto-actualizare în ianuarie 2020.
 
 
 ## <a name="update-release-16"></a>Lansarea de actualizări 16

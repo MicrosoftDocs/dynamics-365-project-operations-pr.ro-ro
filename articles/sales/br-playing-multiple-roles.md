@@ -1,6 +1,6 @@
 ---
 title: Estimează vânzările și costurile proiectului atunci când o resursă care poate fi rezervată îndeplinește mai multe roluri într-un proiect
-description: Acest articol explică cum să utilizați dimensiunile de preț pentru a sprijini estimările de preț și de cost pentru o resursă care ocupă mai multe roluri într-un proiect.
+description: Acest articol explică modul de utilizare a dimensiunilor de stabilire a prețurilor pentru a sprijini estimarea prețurilor și a costurilor pentru o resursă care îndeplinește mai multe roluri într-un proiect.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article

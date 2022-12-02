@@ -1,6 +1,6 @@
 ---
 title: Conceptele cheie de gestionare a resurselor
-description: Acest articol oferă informații despre capabilitățile de gestionare a resurselor în Microsoft Dynamics Operațiuni de proiect.
+description: Acest articol furnizează informații despre capacitățile de gestionare a resurselor în Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

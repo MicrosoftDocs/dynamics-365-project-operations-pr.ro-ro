@@ -1,6 +1,6 @@
 ---
-title: Sincronizați categoriile de cheltuieli ale proiectelor între finanțare și operațiuni și Project Service Automation
-description: Acest articol descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectului între Microsoft Dynamics 365 Finanţe şi Dynamics 365 Project Service Automation.
+title: Sincronizarea categoriilor de cheltuieli ale proiectelor direct între Project Service Automation și finanțe și operațiuni
+description: Acest articol descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectului între Microsoft Dynamics 365 Finance și Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028947"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizați categoriile de cheltuieli ale proiectelor între finanțare și operațiuni și Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizarea categoriilor de cheltuieli ale proiectelor direct între Project Service Automation și finanțe și operațiuni
 
 [!include[banner](../includes/banner.md)]
 
-Acest articol descrie șabloanele și sarcinile de bază care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectelor între Dynamics 365 Finance și Dynamics 365 Project Service Automation.
+Acest articol descrie șabloanele și sarcinile de desfășurare care sunt utilizate pentru a sincroniza categoriile de cheltuieli ale proiectului între Dynamics 365 Finance și Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrarea sarcinilor proiectului, categoriile tranzacțiilor de cheltuieli, estimările orelor, estimările cheltuielilor și blocarea funcționalității sunt disponibile în versiunea 8.0.
@@ -80,10 +80,10 @@ Categoriile cheltuielilor proiectului sunt gestionate în Finance și sunt sincr
 
 ### <a name="power-query"></a>Power Query
 
-Când vă sincronizați cu Project Service Automation, trebuie să utilizați Microsoft Power Query pentru ca Excel să seteze tipul de facturare pe categoria tranzacției. Șablonul categorii tranzacții de cheltuieli ale proiectului (Fin și Ops la PSA) oferă o coloană și o mapare implicite. Dacă vă creați propriul șablon, trebuie să adăugați o coloană condiționată în Power Query. Urmați acești pași.
+Când vă sincronizați cu Project Service Automation, trebuie să utilizați Microsoft Power Query pentru Excel pentru a seta tipul de facturare în categoria tranzacției. Șablonul categorii tranzacții de cheltuieli ale proiectului (Fin și Ops la PSA) oferă o coloană și o mapare implicite. Dacă vă creați propriul șablon, trebuie să adăugați o coloană condițională în Power Query. Urmați acești pași.
 
 1. Faceți clic pe săgeată pentru a deschide maparea activității categoriilor de cheltuieli de proiect în șablonul Categorii de tranzacții de cheltuieli de proiect (Fin și Ops la PSA).
-2. Apasă pe **Interogare avansată și filtrare** link pentru deschidere Power Query.
+2. Faceți clic pe linkul **Interogare și filtrare avansate** pentru a deschide Power Query.
 2. Selectați **Adăugare coloană condițională**.
 3. Introduceți un nume pentru noua coloană, cum ar fi **BillingType**.
 4. Introduceți următoarea condiție: **dacă CATEGORYID nu este egal cu nul atunci 19235001, altfel nul**.

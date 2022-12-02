@@ -1,6 +1,6 @@
 ---
 title: Valori implicite pentru dimensiunile financiare pentru înregistrările de timp ale proiectului
-description: Acest articol oferă informații despre modul în care dimensiunile financiare implicite sunt aplicate înregistrărilor de timp.
+description: Acest articol oferă informații despre modul în care dimensiunile financiare implicite sunt aplicate intrărilor de timp.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -23,6 +23,6 @@ Când utilizați dimensiuni financiare pentru intrările de timp ale proiectului
 2. Project
 3. Sursă de finanțare
 
-De exemplu, dacă dimensiunea implicită este specificată pe o resursă, valoarea implicită este aplicată peste valoarea implicită care este specificată pentru proiect. De asemenea, dacă dimensiunea implicită este specificată pe un proiect, valoarea implicită este aplicată peste valoarea implicită care este specificată pentru sursa de finanțare.
+De exemplu, dacă dimensiunea implicită este specificată pe o resursă, valoarea implicită este aplicată peste valoarea implicită care este specificată pentru proiect. De asemenea, dacă dimensiunea implicită este specificată într-un proiect, valoarea implicită este aplicată peste valoarea implicită care este specificată pentru sursa de finanțare.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

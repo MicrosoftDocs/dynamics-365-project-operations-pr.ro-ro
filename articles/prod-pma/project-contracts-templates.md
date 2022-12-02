@@ -1,6 +1,6 @@
 ---
 title: Sincronizați contractele de proiect și proiectele direct din Project Service Automation în Finanțe
-description: Acest articol descrie șablonul și sarcinile de bază care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct din Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+description: Acest articol descrie șablonul și activitățile de desfășurare care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct din Microsoft Dynamics 365 Project Service Automation în Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933875"
 
 
 
-Acest articol descrie șablonul și sarcinile de bază care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct din Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+Acest articol descrie șablonul și activitățile de desfășurare care sunt utilizate pentru a sincroniza contractele de proiect și proiectele direct din Dynamics 365 Project Service Automation în Dynamics 365 Finance.
 
 > [!NOTE] 
 > Dacă utilizați Enterprise ediția 7.3.0, trebuie să instalați KB 4074835.
@@ -120,15 +120,15 @@ Când se aplică soluția de integrare Project Service Automation to Finance, un
 
 ## <a name="power-query"></a>Power Query
 
-Utilizați Microsoft Power Query pentru ca Excel să filtreze datele dacă sunt îndeplinite următoarele condiții:
+Utilizați Microsoft Power Query pentru Excel pentru a filtra datele dacă sunt îndeplinite următoarele condiții:
 
 - Aveți comenzi de vânzări în Dynamics 365 Sales.
 - Aveți mai multe unități organizaționale în Project Service Automation, iar aceste unități organizaționale vor fi mapate la mai multe entități juridice din Finance.
 
-Dacă trebuie să utilizați Power Query, urmați aceste instrucțiuni:
+Dacă trebuie să utilizați Power Query, urmați aceste recomandări:
 
 - Șablonul Proiecte și contracte (PSA to Fin și Ops) are un filtru implicit care include numai comenzile de vânzare ale tipului **Element de lucru (msdyn\_ordertype = 192350001)**. Acest filtru ajută la garantarea faptului că nu se creează contracte de proiect pentru comenzile de vânzare din Finance. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru.
-- Creeaza o Power Query filtrul care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. De exemplu, contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso SUA ar trebui sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso Global ar trebui sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
+- Creați un filtru Power Query care include doar organizațiile contractuale care ar trebui sincronizate cu entitatea juridică a setului de conexiuni de integrare. De exemplu, contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso SUA ar trebui sincronizate cu entitatea juridică USSI, dar contractele de proiect pe care le aveți cu unitatea organizatorică contractuală a Contoso Global ar trebui sincronizate cu entitatea juridică USMF. Dacă nu adăugați acest filtru la maparea sarcinilor, toate contractele de proiect vor fi sincronizate cu entitatea juridică definită pentru setul de conexiuni, indiferent de unitatea organizațională a contractului.
 
 ## <a name="template-mapping-in-data-integration"></a>Maparea șabloanelor în integrarea datelor
 

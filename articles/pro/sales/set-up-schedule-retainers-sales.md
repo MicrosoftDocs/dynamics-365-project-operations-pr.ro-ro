@@ -1,6 +1,6 @@
 ---
 title: Configurați o planificare pentru onorariu
-description: Acest articol oferă informații despre cum să configurați un program de reținere în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să configurați o planificare de onorariu în Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

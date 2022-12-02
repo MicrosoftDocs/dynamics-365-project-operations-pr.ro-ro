@@ -1,6 +1,6 @@
 ---
 title: Aplicația Cheltuieli mobile
-description: Acest articol oferă informații despre spațiul de lucru mobil pentru gestionarea cheltuielilor.
+description: Acest articol oferă informații despre spațiul de lucru mobil pentru Gestionarea cheltuielor.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8930241"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Acest articol oferă informații despre **Managementul cheltuielilor** spațiu de lucru mobil. Acest spațiu de lucru permite utilizatorilor să captureze și să încarce o chitanță, astfel încât să o poată atașa la un raport de cheltuieli ulterior. De asemenea, utilizatorii pot crea rapid o linie de cheltuieli utilizând o chitanță atașată și pot crea și gestiona rapoartele de cheltuieli. În plus, aprobatorii pot utiliza spațiul de lucru mobil **Gestionarea cheltuielilor** pentru a vizualiza rapoartele de cheltuieli care le sunt atribuite și pentru a aproba sau respinge rapoartele de cheltuieli respective.
+Acest articol oferă informații despre spațiul de lucru mobil pentru **Gestionarea cheltuielor**. Acest spațiu de lucru permite utilizatorilor să captureze și să încarce o chitanță, astfel încât să o poată atașa la un raport de cheltuieli ulterior. De asemenea, utilizatorii pot crea rapid o linie de cheltuieli utilizând o chitanță atașată și pot crea și gestiona rapoartele de cheltuieli. În plus, aprobatorii pot utiliza spațiul de lucru mobil **Gestionarea cheltuielilor** pentru a vizualiza rapoartele de cheltuieli care le sunt atribuite și pentru a aproba sau respinge rapoartele de cheltuieli respective.
 
 Acest spațiu de lucru mobil este destinat să fie utilizat cu aplicația mobilă Dynamics 365 Unified Ops.
 
@@ -100,7 +100,7 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
 10. Selectați **Terminat**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Aprobați un raport de cheltuieli utilizând spațiul de lucru mobil pentru gestionarea cheltuielilor
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Aprobați un raport de cheltuieli utilizând spațiul de lucru mobil pentru Gestionarea cheltuielilor
 
 1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
 2. **Aprobări de cheltuieli** afișează numărul de rapoarte de cheltuieli care vi se atribuie spre aprobare. Numărul este actualizat aproximativ la fiecare 30 de minute. Selectați **Aprobări de cheltuieli**.
@@ -113,7 +113,7 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 6. Introduceți orice comentariu pentru acțiunea de aprobare.
 7. Selectați **Terminat**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Creați un nou raport de cheltuieli și trimiteți-l spre aprobare utilizând spațiul de lucru mobil pentru Gestionarea cheltuielilor
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Creați un nou raport de cheltuieli și trimiteți-l pentru aprobare utilizând spațiul de lucru mobil de Gestionare a cheltuielilor
 
 1. Pe dispozitivul dvs. mobil, deschideți spațiul de lucru **Gestionarea cheltuielilor**.
 2. Selectați **Introducere de cheltuieli**.
@@ -206,23 +206,23 @@ Descărcați și instalați aplicația mobilă Dynamics 365 Unified Ops:
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>De ce aplicația mobilă Expense nu introduce implicit metoda de plată?
 
-Organizațiile pot personaliza **Metodă de plată prestabilită** setare pentru fiecare categorie de cheltuieli așa cum este creată. În plus, atunci când configurați metode de plată, puteți seta **Metodă de plată prestabilită** câmp la **Doar import**.
+Organizațiile pot personaliza setarea **Metodă de plată implicită** pentru fiecare categorie de cheltuieli așa cum este creată. În plus, atunci când configurați metode de plată, puteți seta câmpul **Metodă de plată implicită** la **Numai import**.
 
-Când **Doar import** este activată pentru o metodă de plată, metoda de plată nu este introdusă în mod implicit. Acesta va fi necompletat în categoriile de cheltuieli în care este configurată această metodă de plată. Acest comportament este consecvent atât în experiența web, cât și în experiența mobilă.
+Când setarea **Numai import** este activată pentru o metodă de plată, metoda de plată nu este introdusă în mod implicit. Va fi necompletat în categoriile de cheltuieli în care este configurată această metodă de plată. Acest comportament este consecvent, atât în experiența web, cât și în cea mobilă.
     
-Când **Doar import** nu este activată pentru o metodă de plată, valoarea setată este introdusă în mod implicit pentru categoriile de cheltuieli în care este configurată această metodă de plată. Cu toate acestea, există o problemă cunoscută în care valoarea implicită nu este introdusă în aplicația mobilă Cheltuieli. Pentru a rezolva această problemă, selectați manual o metodă de plată înainte de a salva raportul de cheltuieli. 
+Când setarea **Numai import** nu este activată pentru o metodă de plată, valoarea setată este introdusă implicit pentru categoriile de cheltuieli în care este configurată această metodă de plată. Cu toate acestea, există o problemă cunoscută în care valoarea implicită nu este introdusă în aplicația mobilă Expense. Pentru a rezolva această problemă, selectați manual o metodă de plată înainte de a salva raportul de cheltuieli. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>De ce nu pot adăuga sau edita dimensiuni financiare în aplicația mobilă Cheltuieli?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>De ce nu pot adăuga sau edita dimensiuni financiare în aplicația mobilă Expense?
 
-Introducerea dimensiunilor și distribuțiilor nu este acceptată. Pentru a evita această limitare, puteți stabili aceste câmpuri în mod implicit în aplicația mobilă, setând dimensiunile financiare implicite pentru fiecare proiect sau angajat.
+Introducerea dimensiunilor și a distribuirilor nu este acceptată. Pentru a evita această limitare, puteți avea aceste câmpuri setate în mod implicit în aplicația mobilă, setând dimensiunile financiare implicite pentru fiecare proiect sau angajat.
 
 ### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>De ce văd uneori o eroare de sincronizare în aplicația mobilă Expense?
 
-Dacă liniile de cheltuieli nu îndeplinesc cerințele politicii, iar utilizatorul trimite raportul de cheltuieli fără a adresa avertismentul de politică, datele mobile nu sunt sincronizate cu serverul și are loc o eroare de sincronizare. Toate rapoartele de cheltuieli care sunt trimise după producerea unei erori de sincronizare vor rămâne într-o stare de eșec și vor cauza mai multe erori de sincronizare. Singura modalitate de a remedia această situație este să ștergeți manual notificările de sincronizare. Această problemă a fost rezolvată prin oprirea trimiterii rapoartelor de cheltuieli atunci când avertismentele de politică nu au fost abordate, astfel încât erorile de sincronizare să fie evitate.
+Dacă liniile de cheltuieli nu îndeplinesc cerințele politicii și utilizatorul trimite raportul de cheltuieli fără a lua în considerare avertismentul de politică, datele mobile nu sunt sincronizate cu serverul și are loc o eroare de sincronizare. Toate rapoartele de cheltuieli care sunt trimise după producerea unei erori de sincronizare vor rămâne într-o stare eșuată și vor cauza mai multe erori de sincronizare. Singura modalitate de a remedia această situație este să ștergeți manual notificările de sincronizare. Această problemă a fost rezolvată prin oprirea trimiterii rapoartelor de cheltuieli atunci când avertismentele de politică nu au fost abordate, astfel încât erorile de sincronizare să fie evitate.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>De ce nu se reflectă corect validarea proiectelor și a categoriilor în aplicația mobilă Expense?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>De ce validarea proiectelor și a categoriilor nu este reflectată corect în aplicația mobilă Expense?
 
-Această validare nu este acceptată în prezent. Cu toate acestea, suportul ar putea fi adăugat în viitor. 
+Această validare nu este acceptată în prezent. Cu toate acestea, este posibil să se adauge asistență în viitor. 
 
 ### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Ce tipuri de documente sunt acceptate în aplicația mobilă Expense?
 

@@ -1,6 +1,6 @@
 ---
 title: Configurarea listelor de prețuri
-description: Acest articol oferă informații despre cum să configurați listele de prețuri și prețuri de vânzare.
+description: Acest articol oferă informații despre cum să configurați listele de de prețuri de cost și vânzare.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

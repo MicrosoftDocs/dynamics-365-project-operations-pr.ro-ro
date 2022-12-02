@@ -47,13 +47,13 @@ OperationSet este un model de unitate de lucru care poate fi utilizat atunci câ
 
 | **API**                                 | Descriere                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Acest API este folosit pentru a crea un proiect. Proiectul și compartimentul implicit de proiect sunt create imediat.                         |
+| **msdyn_CreateProjectV1**               | Acest API este folosit pentru a crea un proiect. Proiectul și pachetul de proiect implicit sunt create imediat.                         |
 | **msdyn_CreateTeamMemberV1**            | Acest API este folosit pentru a crea un membru al echipei de proiect. Înregistrarea membrilor echipei este creată imediat.                                  |
 | **msdyn_CreateOperationSetV1**          | Acest API este folosit pentru a programa mai multe solicitări care trebuie efectuate în cadrul unei tranzacții.                                        |
 | **msdyn_PssCreateV1**                   | Acest API este folosit pentru a crea o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de creare. |
-| **msdyn_PssUpdateV1**                   | Acest API este folosit pentru a actualiza o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care acceptă operația de actualizare  |
+| **msdyn_PssUpdateV1**                   | Acest API este folosit pentru a actualiza o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de actualizare  |
 | **msdyn_PssDeleteV1**                   | Acest API este folosit pentru a șterge o entitate. Entitatea poate fi oricare dintre entitățile de planificare a proiectului care susțin operațiunea de ștergere. |
-| **msdyn_ExecuteOperationSetV1**         | Acest API este folosit pentru a executa toate operațiunile din setul de operațiuni dat.                                                 |
+| **msdyn_ExecuteOperationSetV1**         | Acest API este utilizat pentru a executa toate operațiunile din cadrul setului de operații date.                                                 |
 | **msdyn_PssUpdateResourceAssignmentV1** | Acest API este utilizat pentru a actualiza un contur de lucru planificat al Atribuirii resurselor.                                                        |
 
 
@@ -66,16 +66,16 @@ Pentru că înregistrează cu amândouă **CreateProjectV1** și **CreateTeamMem
 
 | **Entitate de planificare**   | **Creați** | **Actualizați** | **Delete** | **Considerații importante**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Activitate de proiect            | Da        | Da        | Da        | The **Progres**, **finalizat**, și **Efort Rămân** câmpurile pot fi editate în Project for the Web, dar nu pot fi editate în Project Operations.                                                                                                                                                                                             |
-| Dependență de activitate proiect | Da        | No         | Da        | Înregistrările de dependență ale sarcinii de proiect nu sunt actualizate. În schimb, o înregistrare veche poate fi ștearsă și poate fi creată o înregistrare nouă.                                                                                                                                                                                                                                 |
-| Atribuire de resurse     | Da        | Da\*      | Da        | Operațiile cu următoarele câmpuri nu sunt acceptate: **BookableResourceID**, **Efort**, **EfortCompletat**, **EfortRămânând**, și **PlannedWork**. Înregistrările de alocare a resurselor nu sunt actualizate. În schimb, înregistrarea veche poate fi ștearsă și poate fi creată o înregistrare nouă. A fost furnizat un API separat pentru a actualiza contururile de atribuire a resurselor. |
-| Pachet de proiect          | Da        | Da        | Da        | Bucket-ul implicit este creat utilizând **CreateProjectV1** API. Asistența pentru crearea și ștergerea compartimentelor de proiecte a fost adăugată în Actualizarea Versiunea 16.                                                                                                                                                                                                   |
+| Activitate de proiect            | Da        | Da        | Da        | Câmpurile **Progres**, **EffortCompleted** și **EffortRemaining** pot fi editate în Project for the Web, dar nu pot fi editate în Project Operations.                                                                                                                                                                                             |
+| Dependență de activitate proiect | Da        | No         | Da        | Înregistrările de dependență ale sarcinii de proiect nu sunt actualizate. În schimb, o înregistrare veche poate fi ștearsă și o nouă înregistrare poate fi creată.                                                                                                                                                                                                                                 |
+| Atribuire de resurse     | Da        | Da\*      | Da        | Operațiile cu următoarele câmpuri nu sunt acceptate: **BookableResourceID**, **Efort**, **EfortCompletat**, **EfortRămânând**, și **PlannedWork**. Înregistrările de alocare a resurselor nu sunt actualizate. În schimb, înregistrarea veche poate fi ștearsă și o nouă înregistrare poate fi creată. A fost furnizat un API separat pentru a actualiza contururile de atribuire a resurselor. |
+| Pachet de proiect          | Da        | Da        | Da        | Pachetul implicit este creat prin utilizarea API-ului **CreateProjectV1**. Asistența pentru crearea și ștergerea pachetelor de proiecte a fost adăugată în Actualizarea Versiunea 16.                                                                                                                                                                                                   |
 | Membru echipă de proiect     | Da        | Da        | Da        | Pentru operația de creare, utilizați API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Da        | Da        |            | Operațiunile cu următoarele câmpuri nu sunt acceptate: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Efort**, **EfortCompletat**, **EfortRămânând**, **Progres**, **Finalizare**, **TaskEarliestStart** și **Durată**.                                                                                       |
 | Liste de verificare proiect      | Da        | Da        | Da        |                                                                                                                                                                                                                                                                                                                                                         |
 | Etichetă proiect           | No         | Da        | No         | Numele etichetelor pot fi schimbate. Această caracteristică este disponibilă numai pentru Project for the Web                                                                                                                                                                                                                                                                      |
 | Sarcină de proiect de etichetat   | Da        | No         | Da        | Această caracteristică este disponibilă numai pentru Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Sprint proiect          | Da        | Da        | Da        | The **start** câmpul trebuie să aibă o dată anterioară **finalizarea** camp. Sprinturile pentru același proiect nu se pot suprapune. Această caracteristică este disponibilă numai pentru Project for the Web                                                                                                                                                                    |
+| Sprint proiect          | Da        | Da        | Da        | Câmpul **Începere** trebuie să aibă o dată anterioară celei din câmpul **Finalizare**. Etapele rapide pentru același proiect nu se pot suprapune. Această caracteristică este disponibilă numai pentru Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Proprietatea ID este opțională. Dacă este furnizat, sistemul încearcă să-l
 
 Următoarea este o listă de limitări și probleme cunoscute:
 
--   API-urile Project Schedule pot fi folosite numai de **Utilizatori cu licență Microsoft Project**. Nu pot fi utilizate de:
+-   API-urile de planificare a proiectelor pot fi utilizate numai de **Utilizatori cu licență Microsoft Project**. Nu pot fi utilizate de:
     -   Utilizatori aplicație
     -   Utilizatori de sistem
     -   Utilizatori de integrare
@@ -94,11 +94,11 @@ Următoarea este o listă de limitări și probleme cunoscute:
 -   Fiecare **OperationSet** poate efectua doar maximum 100 de operații.
 -   Fiecare utilizator poate avea doar un maximum de 10 **OperationSets**.
 -   Project Operations acceptă în prezent maximum 500 de sarcini totale pe un proiect.
--   Fiecare operație de actualizare al conturului alocării resurselor contează ca o singură operație.
+-   Fiecare operațiune de actualizare a conturului alocării resurselor se consideră ca o singură operațiune.
 -   Fiecare listă de contururi actualizate poate conține maximum 100 de secțiuni de timp.
 -   **OperationSet** starea de eroare și jurnalele de erori nu sunt disponibile momentan.
--   Există maximum 400 de sprinturi per proiect.
--   [Limite și limite ale proiectelor și sarcinilor](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Există maximum 400 de etape rapide per proiect.
+-   [Limite și restricții pentru proiecte și sarcini](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 -   În prezent, etichetele sunt disponibile numai pentru Project for the Web.
 
 **Eroare de tratare**
@@ -108,23 +108,23 @@ Următoarea este o listă de limitări și probleme cunoscute:
 
 **Editarea contururilor de atribuire a resurselor**
 
-Spre deosebire de toate celelalte API-uri de planificare a proiectelor care actualizează o entitate, API-ul contur de atribuire a resurselor este singurul responsabil pentru actualizările unui singur câmp, msdyn_plannedwork, pe o singură entitate, msydn_resourceassignment.
+Spre deosebire de toate celelalte API-uri de planificare a proiectelor care actualizează o entitate, API-ul de contur de alocare a resurselor este singurul responsabil pentru actualizările unui singur câmp, msdyn_plannedwork, pe o singură entitate, msydn_resourceassignment.
 
 Modul de programare dat este:
 
--   **unitati fixe**
+-   **unități fixe**
 -   Calendarul proiectului este 9-5p este 9-5pst, Luni, Marți, Joi, Vineri (Fără LUCRU MIERCURI)
--   Iar calendarul de resurse este 9-1p PST de luni până vineri
+-   iar calendarul de resurse este 9-1p PST de Luni până Vineri
 
 Această sarcină este de o săptămână, patru ore pe zi. Acest lucru se datorează faptului că calendarul de resurse este de la 9-1 PST, sau patru ore pe zi.
 
-| &nbsp;     | Activitate | Data inițială | Data de sfârșit  | Cantitate | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
+| &nbsp;     | Activitate | Data inițială | Data de sfârșit  | Cantitate | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 muncitor |  T1  | 13.06.2022  | 17.06.2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 muncitor |  T1  | 13/6/2022  | 17/6/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
 De exemplu, dacă doriți ca lucrătorul să lucreze doar trei ore în fiecare zi în această săptămână și să acorde o oră pentru alte sarcini.
 
-#### <a name="updatedcontours-sample-payload"></a>Exemplu de încărcare utilă UpdatedContours:
+#### <a name="updatedcontours-sample-payload"></a>Eșantion de sarcină UpdatedContours:
 
 ```json
 [{
@@ -140,9 +140,9 @@ De exemplu, dacă doriți ca lucrătorul să lucreze doar trei ore în fiecare z
 
 Aceasta este atribuirea după rularea API-ului Update Contour Schedule.
 
-| &nbsp;     | Activitate | Data inițială | Data de sfârșit  | Cantitate | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
+| &nbsp;     | Activitate | Data inițială | Data de sfârșit  | Cantitate | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 muncitor | T1   | 13.06.2022  | 17.06.2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 muncitor | T1   | 13/6/2022  | 17/6/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Eșantion de scenariu**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Mostre suplimentare
+** Eșantioane suplimentare
 
 ```csharp
 #region Call actions --- Sample code ----

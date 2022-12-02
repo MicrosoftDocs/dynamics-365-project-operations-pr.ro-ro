@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a asistentului de planificare
-description: Acest articol oferă informații despre lucrul cu Asistentul de programare pentru a rezerva resurse.
+description: Acest articol furnizează informații despre lucrul cu Asistentul de planificare pentru a rezerva resurse.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

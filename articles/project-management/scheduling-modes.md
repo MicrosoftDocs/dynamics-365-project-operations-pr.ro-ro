@@ -1,6 +1,6 @@
 ---
 title: Moduri de planificare
-description: Acest articol oferă informații despre modurile de programare.
+description: Acest articol oferă informații despre moduri de planificare.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article

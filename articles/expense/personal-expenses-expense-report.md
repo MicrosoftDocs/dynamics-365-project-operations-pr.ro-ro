@@ -1,6 +1,6 @@
 ---
 title: Lucrul cu cheltuieli personale pe un raport de cheltuieli
-description: Acest articol oferă informații despre cum să lucrați cu cheltuielile personale suportate de angajați în timp ce călătoresc în scopuri de afaceri.
+description: Acest articol oferă informații despre cum să lucrați cu cheltuielile personale suportate de angajați în timp efectuează deplasări în interes de serviciu.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

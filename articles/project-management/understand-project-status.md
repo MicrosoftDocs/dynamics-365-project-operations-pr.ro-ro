@@ -1,6 +1,6 @@
 ---
 title: Ce este starea unui proiect
-description: Acest articol oferă informații despre statutul atribuit proiectelor în Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre starea atribuită proiectelor în Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

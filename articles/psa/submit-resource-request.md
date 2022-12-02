@@ -1,6 +1,6 @@
 ---
 title: Remiterea unei solicitări de resurse
-description: Acest articol oferă informații despre trimiterea unei cereri pentru o resursă de proiect.
+description: Acest articol furnizează informații despre remiterea unei solicitări pentru o resursă de proiect.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

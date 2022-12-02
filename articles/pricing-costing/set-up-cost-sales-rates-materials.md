@@ -1,6 +1,6 @@
 ---
 title: Configurarea tarifelor de cost și de vânzare pentru materiale
-description: Acest articol oferă informații despre cum să configurați costurile și tarifele de vânzare pentru materialele utilizate în proiecte.
+description: Acest articol oferă informații despre cum să setați costurile și ratele de vânzare pentru materialele utilizate în proiecte.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Pentru a configura costurile și ratele de vânzare pentru produse, parcurgeți 
 2. Pe **Articole din lista de prețuri**, din meniul subgrilă, selectați **Articol nou din lista de prețuri**. 
 3. Pe pagina **Creare rapidă**, introduceți produsul și unitatea pentru care creați noul preț.
 
-Pentru mai multe informații despre cum să definiți prețurile pentru articolele din catalog, consultați [Definiți prețul produselor cu liste de prețuri și articole din lista de prețuri](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) și [Precizie zecimală în monedă și preț](/dynamics365/sales/decimal-precision-currency-pricing).
+Pentru mai multe informații despre cum să definiți prețurile pentru articolele din catalog, consultați [Definirea prețurilor pentru produse cu listele de prețuri și acticolele din lista de prețuri](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) și [Precizia zecimală în valută și prețuri](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations nu acceptă toate metodele de stabilire a prețurilor pentru produse ca Dynamics 365 Sales. Singura metodă de stabilire a prețurilor acceptată pentru produsele care urmează să fie utilizate în proiecte este *Suma valutară*.
+> Dynamics 365 Project Operations nu acceptă toate metodele de stabilire a prețurilor pentru produse ca Dynamics 365 Sales. Singura metodă de stabilire a prețurilor acceptată pentru produsele care urmează să fie utilizate în proiecte este *Sumă valută*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

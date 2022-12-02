@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală Project Service Automation
-description: Acest articol oferă informații despre Dynamics 365 Project Service Automation la Dynamics 365 Finance soluție de integrare.
+description: Acest articol oferă informații despre Dynamics 365 Project Service Automation la soluția de integrare Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929597"
 [!include[banner](../includes/banner.md)]
 
 
-Soluția de integrare Project Service Automation to Finance folosește caracteristica de integrare a datelor pentru a sincroniza datele între instanțe de Dynamics 365 Finance și Dynamics 365 Project Service Automation prin intermediul Common Data Service. Șabloanele de integrare disponibile cu funcția de integrare a datelor permit fluxul de proiecte, contracte de proiect, linii de contracte de proiect, repere de linii de contracte de proiect, sarcini de proiect, categorii de tranzacții de cheltuieli, estimări de oră și estimări de cheltuieli de la Project Service Automation până la finanțe.
+Soluția de integrare Project Service Automation to Finance utilizează funcția de integrare a datelor pentru a sincroniza datele între instanțe din Dynamics 365 Finance și Dynamics 365 Project Service Automation prin Common Data Service. Șabloanele de integrare disponibile cu funcția de integrare a datelor permit fluxul de proiecte, contracte de proiect, linii de contracte de proiect, repere de linii de contracte de proiect, sarcini de proiect, categorii de tranzacții de cheltuieli, estimări de oră și estimări de cheltuieli de la Project Service Automation până la finanțe.
 
 > [!NOTE]
 > - Dacă utilizați versiunea 7.3.0, trebuie să instalați KB 4074835. Veți putea apoi să integrați proiecte cu preț fix.

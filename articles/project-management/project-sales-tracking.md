@@ -1,6 +1,6 @@
 ---
 title: Urmărire vânzări pe proiect
-description: Acest articol oferă informații despre modul în care Operațiunile de proiect urmăresc progresul în raport cu veniturile din forță de muncă dintr-un proiect.
+description: Acest articol oferă informații despre modul în care Project Operations urmărește progresul în raport cu venitul forței de muncă pentru un proiect.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

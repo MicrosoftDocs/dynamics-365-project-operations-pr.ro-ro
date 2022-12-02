@@ -1,6 +1,6 @@
 ---
 title: Concepte cheie
-description: Acest articol oferă informații despre conceptele cheie pentru gestionarea resurselor în Project Service Automation.
+description: Acest articol oferă informații despre conceptele-cheie pentru gestionarea resurselor în Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

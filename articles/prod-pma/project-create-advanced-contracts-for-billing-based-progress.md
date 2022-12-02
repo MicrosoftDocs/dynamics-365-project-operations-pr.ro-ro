@@ -1,6 +1,6 @@
 ---
 title: Crearea de contracte avansate pentru facturare pe baza progresului
-description: Acest articol explică cum să creați contracte de proiect, astfel încât să puteți genera facturi pentru clienți, pe baza unui procent din munca finalizată.
+description: Acest articol explică modul de creare a contractelor de proiect, astfel încât să puteți genera facturi pentru clienți, pe baza unui procent din lucrările finalizate.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913681"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Crearea de contracte avansate pentru facturare pe baza progresului
 [!include [banner](../includes/banner.md)]
 
-Acest articol explică cum să creați contracte de proiect, astfel încât să puteți crea facturi pentru clienți, pe baza unui procent din munca finalizată. Sumele facturii sunt calculate automat pentru categoriile bugetare de lucru pe care le-ați configurat pentru un proiect. Momentul facturii este stabilit atunci când negociați contractul de proiect cu clientul.
+Acest articol explică modul de creare a contractelor de proiect, astfel încât să puteți crea facturi pentru clienți, pe baza unui procent din lucrările finalizate. Sumele facturii sunt calculate automat pentru categoriile bugetare de lucru pe care le-ați configurat pentru un proiect. Momentul facturii este stabilit atunci când negociați contractul de proiect cu clientul.
 
-Utilizați procedurile din acest articol pentru a configura un contract, un proiect asociat și regulile de facturare care calculează sumele facturilor pentru categoriile bugetare de lucrări pe care le-ați configurat pentru proiect.
+Utilizați procedurile din acest articol pentru a configura un contract, un proiect asociat și regulile de facturare care calculează sumele facturii pentru categoriile de lucrări bugetare pe care le-ați configurat pentru proiect.
 
 După ce ați creat contractul și proiectul, puteți configura detaliile proiectului. De exemplu, puteți defini activități și atribui lucrători la proiect.
 

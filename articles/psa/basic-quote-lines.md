@@ -1,6 +1,6 @@
 ---
 title: Oferte și linii de ofertă
-description: Acest articol oferă informații despre citate și linii de citate.
+description: Acest articol oferă informații despre oferte și linii de ofertă.
 author: rumant
 ms.custom:
 - dyn365-projectservice

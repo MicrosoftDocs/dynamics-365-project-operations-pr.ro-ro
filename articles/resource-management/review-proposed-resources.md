@@ -1,6 +1,6 @@
 ---
 title: Revizuirea resurselor propuse
-description: Acest articol oferă informații despre cum să propui resursele proiectului.
+description: Acest articol furnizează informații despre modul de propunere a resurselor de proiect.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -41,7 +41,7 @@ Pentru a examina resursele propuse, urmați acești pași:
 
     - În pagina **Asistent planificare**, indicatorii de stare sunt actualizați pentru a indica faptul că rezervarea este propusă, nu rezervată ferm.
     - La cererea de resursă, examinatorul solicitării ar trebui să schimbe starea în **Necesită revizuire**.
-    - Pe **Echipă** fila proiectului, a membrului generic al echipei **Starea cererii** valoarea este schimbată automat în **Necesită revizuire**.
+    - În fila **Echipă** a proiectului, valoarea de **Stare solicitare** a membrului generic al echipei este schimbată automat la **Necesită revizuire**.
 
 Managerul de proiect poate accepta sau respinge propunerea.
 

@@ -1,6 +1,6 @@
 ---
 title: Informații rezumative despre o ofertă de proiect - simplificat
-description: Acest articol oferă informații despre informațiile și setările care se aplică și care au impact asupra cotațiilor de proiect. (Sales)
+description: Acest articol oferă informații despre informațiile și setările care se aplică și care au impact asupra ofertelor de proiect. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

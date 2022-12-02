@@ -1,6 +1,6 @@
 ---
 title: Configurarea câmpurilor particularizate ca dimensiuni de preț
-description: Acest articol oferă informații despre configurarea dimensiunilor de preț personalizate.
+description: Acest articol oferă informații despre parametrizarea dimensiunilor de preț particularizate.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922612"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Înainte de a începe, acest articol presupune că ați finalizat procedurile din articole, [Creați câmpuri și entități personalizate](create-custom-fields-entities.md) și [Adăugați câmpuri personalizate la configurarea prețului și la entitățile tranzacționale](field-references.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol. 
+Înainte de a începe, acest articol presupune că ați finalizat procedurile din articolele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities.md) și [Adăugarea de câmpuri particularizate la parametrizare preț și entități tranzacționale](field-references.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest articol. 
 
-Acest articol oferă informații despre configurarea dimensiunilor de preț personalizate. În interfața Web Project Service, pe pagina **Parametri**, fila **Dimensiuni prețuri bazate pe sumă** afișează înregistrările din entitățile dimensiune de preț. În mod implicit, instalarea Project Service creează 2 rânduri în grilă în această filă:
+Acest articol oferă informații despre parametrizarea dimensiunilor de preț particularizate. În interfața Web Project Service, pe pagina **Parametri**, fila **Dimensiuni prețuri bazate pe sumă** afișează înregistrările din entitățile dimensiune de preț. În mod implicit, instalarea Project Service creează 2 rânduri în grilă în această filă:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unitate organizatorică)

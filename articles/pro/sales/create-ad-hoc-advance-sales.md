@@ -1,6 +1,6 @@
 ---
 title: Crearea unui avans ad-hoc pe un contract
-description: Acest articol oferă informații despre crearea unui avans pentru un contract, după cum este necesar.
+description: Acest articol oferă informații despre crearea unui avans pe un contract, după cum este necesar.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

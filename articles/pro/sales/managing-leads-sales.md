@@ -1,6 +1,6 @@
 ---
 title: Gestionarea clienților potențiali - simplificat
-description: Acest articol oferă informații despre gestionarea clienților potențiali bazați pe proiecte (pro).
+description: Acest articol furnizează informații despre gestionarea clienților potențiali pe bază de proiect (pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

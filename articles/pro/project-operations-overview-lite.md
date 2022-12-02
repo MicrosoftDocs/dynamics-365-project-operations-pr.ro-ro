@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a implementării simplificate
-description: Acest articol oferă informații despre implementarea Lite a Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre implementarea simplificată a Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

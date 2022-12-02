@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în februarie 2021 - Implementare simplificată Project Operations
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din februarie 2021 a implementării Project Operations lite.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din februarie 2021 de implementare Project Operations lite.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.locfileid: "8914049"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Ce este nou în februarie 2021 - Implementare simplificată Project Operations
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
   - Project Operations pe mediul Dataverse versiunea 4.7.0.95
 

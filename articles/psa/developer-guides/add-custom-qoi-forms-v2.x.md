@@ -1,6 +1,6 @@
 ---
 title: Adăugarea de noi formulare de entități particularizate (Project Service Automation 2. x)
-description: Acest articol oferă informații despre cum să adăugați formulare personalizate de entitate pentru oportunități, cotații, comenzi sau facturi în Dynamics 365 Project Service Automation 2.x.
+description: Acest articol furnizează informații despre cum se adaugă formulare de entități particularizate pentru oportunități, oferte, comenzi sau facturi în Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

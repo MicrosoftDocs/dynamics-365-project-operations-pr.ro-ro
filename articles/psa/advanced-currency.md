@@ -1,6 +1,6 @@
 ---
 title: Scenarii multivalută (versiunea 3. x)
-description: Acest articol oferă informații despre scenariile cu mai multe monede.
+description: Acest articol furnizează informații despre scenariile multivalută.
 author: rumant
 ms.custom:
 - dyn365-projectservice

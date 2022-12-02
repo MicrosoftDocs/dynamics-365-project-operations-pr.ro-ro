@@ -1,6 +1,6 @@
 ---
 title: Noutăți iunie 2021 - Project Operations pentru scenarii bazate pe stocuri/producție
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din iunie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/ne-aprovizionate.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea Project Operations din iunie 2021 pentru scenarii bazate pe resurse/care nu există pe stoc.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028278"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
 - Project Operations pe mediul Dynamics 365 Dataverse versiunea 4.11.0.156 sau 4.11.0.164.
-- Management de proiect și contabilitate în mediile aplicațiilor financiare și operaționale versiunea 10.0.19.
+- Management de proiect și contabilitate în medii de aplicații pentru finanțe și operațiuni versiunea 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
@@ -38,7 +38,7 @@ Nu există actualizări pentru hărțile cu dublă scriere Project Operations î
 
 Pentru o listă actuală și versiuni ale hărților cu scriere duală Project Operations, consultați [Versiuni de hartă cu scriere duală Project Operations](../environment/resource-dual-write-maps.md).
 
-Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel asociate pe măsură ce actualizați operațiunile de proiect Dataverse versiune de soluție și aplicații de finanțare și operațiuni. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții pe pagina **Scriere duală** în coloana **Versiune**. Activați o nouă versiune a hărții selectând **Versiunile hărții tabel**, selectând cea mai recentă versiune și apoi salvând versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel aferente pe măsură ce vă actualizați soluția Project Operations Dataverse și versiunea de soluție pentru finanțe și operațiuni. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții pe pagina **Scriere duală** în coloana **Versiune**. Activați o nouă versiune a hărții selectând **Versiunile hărții tabel**, selectând cea mai recentă versiune și apoi salvând versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Dacă întâmpinați o problemă în lansarea hărții, urmați instrucțiunile din secțiunea [Problemă legată de coloanele lipsă în tabel pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) din Ghidul de depanare pentru scriere duală.
 
@@ -62,7 +62,7 @@ Dacă întâmpinați o problemă în lansarea hărții, urmați instrucțiunile 
 | Timp și cheltuială | 2194431 | Grila **Intrare de timp** trebuie să onoreze începutul săptămânii așa cum este stabilit în **Setările sistemului**. |
 | Timp și cheltuială | 2277311 | După ce ștergeți valoarea dintr-o celulă din grila **Intrare de timp**, cursorul rămâne în grilă. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate pe Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate în Dynamics 365 Finance
 
 | Zonă de caracteristici | Număr de referință | Actualizare de calitate |
 | --- | --- | --- |

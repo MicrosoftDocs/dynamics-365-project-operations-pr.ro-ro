@@ -47,7 +47,7 @@ PSA livrează cu un set implicit de dimensiuni de stabilire a prețurilor. Le pu
 > [!IMPORTANT]
 > Dacă ați utilizat câmpurile predefinite de unitate de rol și organizaționale ca dimensiuni ale prețurilor la versiunea 3 a PSA, nu va exista nicio modificare observabilă. Puteți continua să utilizați Project Service ca de obicei. 
 
-Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru mai multe informații, consultați următoarele articole, totuși rețineți că trebuie să finalizați procedurile în ordinea de mai jos:
+Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru mai multe informații, consultați următoarele articole, însă rețineți că trebuie să finalizați procedurile în ordinea de mai jos:
 
 - [Crearea câmpurilor și entităților particularizate](create-custom-fields-entities.md)
 - [Adăugarea câmpurilor particularizate la parametrizarea prețurilor și la entitățile tranzacționale](field-references.md)

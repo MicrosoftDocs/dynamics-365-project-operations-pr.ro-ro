@@ -1,6 +1,6 @@
 ---
 title: Resurse de pe linia de subcontract
-description: Acest articol explică cum să specificați resursele dedicate care sunt furnizate de furnizor pentru o anumită linie de subcontractare pentru timp.
+description: Acest articol explică modul de precizare a resurselor dedicate oferite de furnizor pentru o anumită linie de subcontractare pentru timp.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

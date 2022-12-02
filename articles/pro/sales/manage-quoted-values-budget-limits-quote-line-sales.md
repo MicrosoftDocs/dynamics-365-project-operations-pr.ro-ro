@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a liniilor de oferte bazate pe proiect
-description: Acest articol oferă informații despre utilizarea liniilor de cotație bazate pe proiect pentru munca de proiect.
+description: Acest articol oferă informații despre utilizarea liniilor de ofertă bazate pe proiecte pentru lucrările de proiect.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

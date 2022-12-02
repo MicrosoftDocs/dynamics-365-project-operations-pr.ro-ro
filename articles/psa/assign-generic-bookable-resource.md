@@ -1,6 +1,6 @@
 ---
 title: Atribuirea de resurse generice rezervabile unei activități și unei echipe de proiect
-description: Acest articol oferă informații despre rezervarea resurselor generice pentru sarcini și echipe de proiect.
+description: Acest articol oferă informații despre rezervarea resurselor generice pentru activități și echipe de proiect.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

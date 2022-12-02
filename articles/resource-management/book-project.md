@@ -1,6 +1,6 @@
 ---
 title: Rezervarea pentru un proiect
-description: Acest articol oferă informații despre rezervarea unei resurse pentru un proiect.
+description: Acest articol furnizează informații despre rezervarea unei resurse pe un proiect.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Atunci când un manager de resurse trebuie să rezerve o resursă direct la un p
     - Durată
    
    > [!NOTE]
-   > În prezent,Dynamics 365 Project Operations nu acceptă tabloul de program.   
+   > În prezent, Dynamics 365 Project Operations nu acceptă tabloul de planificare.   
 
 ## <a name="book-from-the-project-form"></a>Rezervați din formularul Proiect
 

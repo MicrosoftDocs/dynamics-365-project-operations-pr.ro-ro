@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a dimensiunilor de preț
-description: Acest articol oferă informații despre dimensiunile de preț în Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre dimensiunile stabilirii prețurilor în Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations livrează cu un set implicit de dimensiuni de st
 
 ![Captură de ecran a parametrilor Project Service cu „Aplicabil vânzărilor” evidențiat.](media/PS-OOB-parameters.png)
 
-Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru mai multe informații, consultați următoarele articole. 
+Dacă aveți nevoie de preț sau cost pentru resurse utilizând atribute suplimentare, aveți posibilitatea să creați câmpuri, entități și dimensiuni particularizate. Pentru informații suplimentare, consultați următoarele articole. 
   
   > [!NOTE]
   > Procedurile trebuie finalizate în ordinea în care sunt listate.

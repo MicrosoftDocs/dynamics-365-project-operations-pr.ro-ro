@@ -1,6 +1,6 @@
 ---
 title: Contabilitatea corectă a propunerilor schiță de facturi pentru proiect
-description: Acest articol explică cum să ajustați informațiile legate de contabilitate pe o propunere de factură nefinalizată.
+description: Acest articol explică modul de ajustare a informațiilor referitoare la contabilitate pe un proiect de propunere de facturare.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 *Detalii operaționale* pentru facturile de proiect sunt menținute de managerul de proiect pe o factură pro forma. Aceste detalii includ deciziile cu privire la orele, cheltuielile, materialele sau etapele care trebuie facturate, tarifele și aplicarea sumelor de avans și de reținere. După ce confirmați factura proforma originală, puteți ajusta detaliile operaționale prin crearea și confirmarea unei [facturi corective proforma](../proforma-invoicing/corrective-invoices.md).
 
-*Detaliile contabile* pentru facturile de proiect sunt păstrate într-un document de facturare orientat către client. Aceste detalii includ calculul impozitului pe vânzări și dimensiunile financiare care se aplică facturii. Acest articol oferă detalii despre modul în care aceste detalii contabile pot fi ajustate pe o propunere de factură de proiect.
+*Detaliile contabile* pentru facturile de proiect sunt păstrate într-un document de facturare orientat către client. Aceste detalii includ calculul impozitului pe vânzări și dimensiunile financiare care se aplică facturii. Acest articol oferă detalii despre modul în care aceste detalii contabile pot fi ajustate într-o propunere de proiect de facturare de proiect.
 
 ## <a name="adjust-sales-tax"></a>Ajustați impozitul pe vânzări
 
@@ -27,15 +27,15 @@ Grupurile de taxe de vânzare și facturile implicite de facturare pot fi ajusta
 
 ## <a name="adjust-financial-dimensions"></a>Ajustați dimensiunile financiare
 
-### <a name="header-dimensions"></a>Dimensiunile antetului
+### <a name="header-dimensions"></a>Dimensiuni antet
 
-În mod implicit, dimensiunile financiare ale facturii sunt derivate din înregistrările tranzacțiilor de proiect nefacturate care sunt facturate. Cu toate acestea, setările de sistem vă permit să utilizați dimensiunile financiare din antetul propunerilor de factură de proiect pentru a posta soldurile clienților. Pentru a activa această funcționalitate, selectați **Permite actualizări ale dimensiunilor proiectului pentru conturile de încasat** pe **Financiare** fila din **Management de proiect și parametri contabili** pagină.
+În mod implicit, dimensiunile financiare ale facturii sunt derivate din înregistrările tranzacțiilor de proiect nefacturate care sunt facturate. Cu toate acestea, setările de sistem vă permit să utilizați dimensiunile financiare din antetul propunerilor de facturare de proiect pentru a posta soldurile clienților. Pentru a activa această funcționalitate, selectați **Permite actualizări ale dimensiunilor proiectului pentru conturile de încasat** pe fila **Financiare** de pe pagina **Parametrii pentru managementul de proiect și contabilitate**.
 
-Dimensiunile financiare de pe anteturile facturii pot fi editate înainte ca o factură să fie postată. Pe **Propunere de factura de proiect** pagina, comutați la **Antet** vizualizați și apoi editați valorile din **Dimensiunile financiare** fila.
+Dimensiunile financiare de pe anteturile facturii pot fi editate înainte ca o factură să fie postată. Pe pagina **Propunere de facturare de proiect**, comutați la vizualizare **Antet**, apoi editați valorile pe fila **Dimensiuni financiare**.
 
-The **Antet** vizualizarea este disponibilă numai după ce administratorul de sistem activează **Utilizați formularele de propunere de factură de proiect și jurnal de factură cu vizualizarea Antet și linii** caracteristică în **Managementul caracteristicilor** spațiu de lucru. Această caracteristică necesită actualizarea financiară 10.0.25 sau o versiune ulterioară.
+Vizualizarea **Antetului** este disponibilă numai după ce administratorul de sistem activează funcția **Utilizați propunerea de facturare de proiect și formularele de jurnal de facturare cu opțiunea de vizualizare Antet și linii** în spațiul de lucru **Gestionarea caracteristicilor**. Această funcție necesită actualizare la Finance 10.0.25 sau o versiune ulterioară.
 
-### <a name="line-dimensions"></a>Dimensiunile liniei
+### <a name="line-dimensions"></a>Dimensiuni linii
 
 Dimensiunile financiare nu pot fi editate direct pe o linie de propunere de factură de proiect. În schimb, urmați acești pași pentru a ajusta dimensiunile financiare pe o propunere de factură a proiectului.
 

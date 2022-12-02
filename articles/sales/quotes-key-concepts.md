@@ -1,6 +1,6 @@
 ---
 title: Oferte - Concepte cheie
-description: Acest articol oferă informații despre ofertele de proiect și ofertele de vânzare disponibile în Operațiuni de proiect.
+description: Acest articol oferă informații despre ofertele de proiect și ofertele de vânzare disponibile în Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 - **Câmpuri și concepte**: o ofertă de vânzări nu include unele câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă**, **Managerul de cont** și **Facturare către Nume persoană de contact**.  
 - **Tip**: ofertele de vânzări și proiecte sunt identificate și de câmpul bazat pe setul de opțiuni, **Tip**. Pentru o ofertă de vânzări, acest câmp are valoarea **Pe bază de articol**. Pentru o ofertă de proiect, are valoarea **Pe bază de lucru**.
 
-Acest articol se concentrează pe detaliile cotațiilor de proiect.
+Acest articol se concentrează pe detaliile ofertelor de proiect.
 
 O ofertă de proiect în Project Operations poate avea mai multe elemente de linie sau linii de ofertă. De fapt, o ofertă de proiect are două grile pentru elemente de linie. O grilă este pentru liniile bazate pe proiect, care permit estimări detaliate. Cealaltă grilă este pentru liniile bazate pe produse, care utilizează un preț unitar simplu și o abordare bazată pe cantități.
 

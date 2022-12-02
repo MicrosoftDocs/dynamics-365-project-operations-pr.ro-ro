@@ -1,6 +1,6 @@
 ---
 title: Retragerea înregistrărilor aprobate de timp sau cheltuieli
-description: Acest articol oferă informații despre cum să rechemați o tranzacție de timp sau de cheltuială aprobată anterior.
+description: Acest articol oferă informații despre cum să retrageți o operațiune de timp sau cheltuieli aprobată anterior.
 author: rumant
 ms.custom: ''
 ms.author: rumant

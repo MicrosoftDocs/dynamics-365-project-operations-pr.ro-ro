@@ -1,6 +1,6 @@
 ---
 title: Pagina de pornire a resurselor de proiect
-description: Acest articol oferă informații despre resursele proiectului.
+description: Acest articol oferă informații despre alocarea de resurse proiectului.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924031"
 
 [!include [banner](../includes/banner.md)]
 
-Acest articol oferă informații despre resursele proiectului.
+Acest articol oferă informații despre alocarea de resurse proiectului.
 
-O provocare pentru managerii de proiect și managerii de resurse în etapa de planificare a proiectului este alocarea resurselor, în care aceștia trebuie să determine și să rezerve resursa corectă pentru a lucra la un proiect. În Dynamics 365 Finance, capacitățile de alocare a resurselor pentru proiecte vă permit să definiți roluri care sunt tratate ca resurse temporare care pot fi rezervate pentru o anumită angajament sau pentru o parte a unei angajamente. Acest tip de alocare de resurse permite managerilor de proiect și managerilor de resurse să îndeplinească următoarele sarcini:
+O provocare pentru managerii de proiect și managerii de resurse în etapa de planificare a proiectului este alocarea resurselor, în care aceștia trebuie să determine și să rezerve resursa corectă pentru a lucra la un proiect. În Dynamics 365 Finance, capabilitățile de resurse pentru proiecte vă permit să definiți roluri care sunt tratate ca resurse temporare care pot fi rezervate pentru un anumit angajament sau o parte dintr-un angajament. Acest tip de alocare de resurse permite managerilor de proiect și managerilor de resurse să îndeplinească următoarele sarcini:
 
 - Definirea unui rol care are competențele necesare, astfel încât să fie ușor să potrivească resursele.
 - Folosirea de roluri pentru a defini un program inițial de implicare bazat pe resurse rezervate.

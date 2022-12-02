@@ -1,6 +1,6 @@
 ---
 title: Noutăți mai 2022 - implementare simplificată Project Operations
-description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din mai 2022 a Microsoft Dynamics 365 Project Operations implementare simplă.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din mai 2022 de implementare a Microsoft Dynamics 365 Project Operations lite.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "8934151"
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni de Microsoft Dynamics 365 Project Operations:
 
-- Operațiuni de proiect în a Dataverse versiunea de mediu 4.42.0.70
+- Project Operations într-un mediu Dataverse versiunea 4.42.0.70
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 
 | Zonă de caracteristici | Număr de referință | Actualizare de calitate |
 | --- | --- | --- |
 | Gestionarea resurselor | 2634019 | Mesaje de eroare îmbunătățite pentru validările de afaceri atunci când adăugați membri generici ai echipei ca resurse. |
-| Planificarea și urmărirea proiectului | 2648515 | Actualizări restricționate ale **proprietarid**, **·**, și **stare** în entităţile de planificare. |
-| Facturarea și stabilirea prețurilor | 2653167 | The **Estimări** separatorul zecimal al grilei trebuie să urmeze setările de format din **Opțiuni personale**. |
-| Facturarea și stabilirea prețurilor| 2662251 | Valorile din **Unitate corectată** și **Grup de unitati** câmpurile implicite la crearea înregistrărilor în estimările materiale. |
-| Facturarea și stabilirea prețurilor| 2571408 | Datele reale de vânzări nefacturate sunt ștampilate cu un ID de factură proforma atunci când se creează o ciornă de factură. |
+| Planificarea și urmărirea proiectului | 2648515 | Actualizări restricționate ale entității **proprietarid**, **stare** și **stare** în entităţile de planificare. |
+| Facturarea și stabilirea prețurilor | 2653167 | Separatorul zecimal al grilei **Estimări** trebuie să urmeze setările de format din **Opțiuni personale**. |
+| Facturarea și stabilirea prețurilor| 2662251 | Valori din câmpurile **Unitate corectată** și **Grup de unități** sunt implicite la crearea înregistrărilor în estimările de materiale. |
+| Facturarea și stabilirea prețurilor| 2571408 | Valorile reale de vânzări nefacturate sunt ștampilate cu un ID de factură proformă atunci când se creează o schiță de factură. |

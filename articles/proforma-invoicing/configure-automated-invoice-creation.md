@@ -1,6 +1,6 @@
 ---
 title: Configurarea creării automate a facturilor
-description: Acest articol oferă informații despre cum să configurați sistemul pentru a genera automat facturi.
+description: Acest articol oferă informații despre cum să configurați sistemul pentru a genera facturi automat.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

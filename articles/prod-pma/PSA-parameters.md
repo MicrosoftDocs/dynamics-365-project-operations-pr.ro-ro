@@ -1,6 +1,6 @@
 ---
 title: Parametri de integrare Project Service Automation
-description: Acest articol explică cum să configurați modul în care sunt introduse datele implicite atunci când integrați Microsoft Dynamics 365 for Project Service Automation cu Microsoft Dynamics 365 Finanțe.
+description: Acest articol explică cum se configurează modul în care sunt introduse datele implicite la integrarea Microsoft Dynamics 365 for Project Service Automation cu Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932311"
 
 [!include[banner](../includes/banner.md)]
 
-Pe **Parametrii de integrare Project Service Automation** pagina, puteți configura modul în care sunt introduse datele implicite atunci când integrați Dynamics 365 Project Service Automation cu Dynamics 365 Finance. Pentru ca proiectele să fie sincronizate cu succes de la Project Service Automation la Finance, trebuie să configurați următoarele câmpuri.
+Pe pagina **Parametrii de integrare a Project Service Automation**, puteți configura modul în care sunt introduse datele implicite când integrați Dynamics 365 Project Service Automation cu Dynamics 365 Finance. Pentru ca proiectele să fie sincronizate cu succes de la Project Service Automation la Finance, trebuie să configurați următoarele câmpuri.
 
 Pentru a deschide pagina **Parametrii de integrare a Project Service Automation**, accesați **Management de proiect și contabilitate** \> **Configurare** \> **Dynamics 365 for Project Service Automation parametri de integrare**. 
 

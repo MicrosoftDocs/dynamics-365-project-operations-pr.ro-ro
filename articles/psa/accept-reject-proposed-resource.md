@@ -1,6 +1,6 @@
 ---
 title: Acceptarea sau respingerea unei resurse de proiect propuse
-description: Acest articol oferă informații despre cum să aprobi sau să respingi o resursă de proiect propusă.
+description: Acest articol furnizează informații despre modul de acceptare sau respingere a unei resurse de proiect propuse.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916211"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Acest articol oferă informații despre cum să aprobi sau să respingi o resursă de proiect propusă.
+Acest articol furnizează informații despre modul de acceptare sau respingere a unei resurse de proiect propuse.
 
 Când un manager de resurse propune o resursă denumită pentru a completa solicitarea de resurse generice pentru un proiect, câmpul **Stare solicitare** pentru membrul de echipă generic va fi actualizat la **Necesită revizuire**. Solicitarea va fi trimisă managerului de proiect pentru aprobare sau respingere.
 

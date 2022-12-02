@@ -1,6 +1,6 @@
 ---
 title: Configurați costurile standard pentru forța de muncă și cheltuieli
-description: Acest articol explică cum să configurați costurile standard pentru forță de muncă și cheltuielile pentru un proiect.
+description: Acest articol explică modul de stabilire a costurilor standard pentru forța de muncă și pentru cheltuielile unui proiect.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919551"
 
 [!include [banner](../../includes/banner.md)]
 
-Acest articol explică cum să configurați costurile standard pentru forță de muncă și cheltuielile pentru un proiect. Această sarcină utilizează setul de date USSI.
+Acest articol explică modul de stabilire a costurilor standard pentru forța de muncă și pentru cheltuielile unui proiect. Această sarcină utilizează setul de date USSI.
 
 1. În panoul de navigare, accesați **Module > Management de proiect și contabilitate > Configurare > Prețuri > Preț de cost (oră)**.
 2. Selectați **Nou**.

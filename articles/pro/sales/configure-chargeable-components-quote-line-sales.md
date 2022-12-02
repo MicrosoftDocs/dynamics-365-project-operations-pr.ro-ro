@@ -1,6 +1,6 @@
 ---
 title: Configurarea componentelor tarifabile ale unei linii de ofertă
-description: Acest articol oferă informații despre configurarea componentelor taxabile și neîncărcabile pe o linie de cotație bazată pe proiect.
+description: Acest articol oferă informații despre configurarea componentelor taxabile și netaxabile pe o linie de ofertă bazată pe proiect.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

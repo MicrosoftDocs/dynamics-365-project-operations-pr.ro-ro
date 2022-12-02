@@ -1,6 +1,6 @@
 ---
 title: Performanța API-ului de planificare a proiectelor
-description: Acest articol oferă informații despre standardele de performanță ale API-urilor de planificare a proiectului și identifică cele mai bune practici pentru o utilizare optimă.
+description: Acest articol oferă informații despre criteriile de referință pentru performanță ale API-urilor de planificare a proiectului și identifică cele mai bune practici pentru o utilizare optimă.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8911197"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stoc, implementare Lite - facturare de la ofertă și până la proforma, Project for the web_
 
-Acest articol oferă informații despre standardele de performanță ale interfețelor de programare a aplicațiilor (API) pentru planificarea proiectului și identifică cele mai bune practici pentru optimizarea utilizării.
+Acest articole oferă informații despre criteriile de referință pentru performanță ale interfețelor de programare a aplicației de planificare Project și identifică cele mai bune practici pentru optimizarea utilizării.
 
 ## <a name="project-scheduling-service"></a>Serviciu de planificare a proiectului
 Serviciul de planificare a proiectelor este un serviciu multi-entități găzduite care rulează în Microsoft Azure. Este conceput pentru a îmbunătăți interacțiunea, oferind o experiență rapidă și fluidă atunci când utilizatorii lucrează la proiecte. Această îmbunătățire se realizează prin acceptarea cererilor de modificare, procesarea acestora și apoi returnarea imediată a rezultatului. Serviciul persistă în mod asincron în Dataverse și nu blochează utilizatorii să efectueze alte operațiuni.

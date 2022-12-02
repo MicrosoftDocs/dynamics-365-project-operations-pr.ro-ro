@@ -1,6 +1,6 @@
 ---
 title: Asigurarea accesului pentru un nou mediu
-description: Acest articol oferă informații despre cum să furnizați un nou mediu Project Operations.
+description: Acest articol furnizează informații despre cum să asigurați accesul la un nou mediu în Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 
 
-Acest articol oferă informații despre cum să furnizați un nou Dynamics 365 Project Operations mediu pentru scenarii bazate pe resurse/neaprovizionate.
+Acest articol furnizează informații despre cum să asigurați accesul la un mediu nou Dynamics 365 Project Operations pentru scenarii bazate pe resurse/fără stoc.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Activați pregătirea automată a Project Operations într-un proiect LCS
 
@@ -34,7 +34,7 @@ Utilizați pașii următori pentru a activa fluxul automatizat de pregătire pen
 
 ## <a name="provision-a-project-operations-environment"></a>Furnizarea unui mediu de Project Operations
 
-1. Deschideți un nou Dynamics 365 Finance [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) sau [mediul sandbox/ de producție](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) implementare. 
+1. Deschideți un nou [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance sau o/un [implementare sandbox/mediu de producție](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Vom arăta expertul **Pregătirea mediului**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Este posibil să trebuiască să aplicați actualizări de calitate mediului dvs
 
     ![Aplicați soluții.](./media/13ApplySolutions.png)
 
-5. Selectați ambele soluții, **Dynamics 365 Finance Hartă cu entitate de scriere duală** și **Dynamics 365 Project Operations Hărți cu entități de scriere duală**, apoi selectați **aplica**.
+5. Selectați ambele soluții, **Hartă entități cu scriere duală Dynamics 365 Finance Dual Write Entity Map** și **Hartă entități cu scriere duală** Dynamics 365 Project Operations, apoi selectați **Aplicare**.
 
     ![Confirmați soluțiile.](./media/14ConfirmSolutions.png)
 

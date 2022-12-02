@@ -1,6 +1,6 @@
 ---
 title: Creare intrări de timp
-description: Acest articol oferă informații despre cum să creați intrări de timp.
+description: Acest articol oferă informații despre modul de creare a intrărilor de timp.
 author: rumant
 ms.custom:
 - dyn365-projectservice

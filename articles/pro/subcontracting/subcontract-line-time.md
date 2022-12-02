@@ -1,6 +1,6 @@
 ---
 title: Linii de subcontract pentru timp
-description: Acest articol explică cum să înregistrați liniile de subcontractare pentru timp și să înregistrați achiziția de timp de la furnizori.
+description: Acest articol explică modul de înregistrare a liniilor de subcontractare pentru timp și înregistrarea achizițiilor de timp de la furnizori.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

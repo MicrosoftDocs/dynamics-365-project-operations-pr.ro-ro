@@ -1,6 +1,6 @@
 ---
 title: Tarifare proiect
-description: Acest articol oferă informații despre cum funcționează prețurile în Dynamics 365 Project Service Automation.
+description: Acest articol oferă informații despre modul în care funcționează tarifarea în Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

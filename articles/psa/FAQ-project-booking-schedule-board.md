@@ -1,6 +1,6 @@
 ---
 title: Crearea unei rezervări de proiect din Panoul de planificare
-description: Acest articol oferă informații despre cum să creați o rezervare de proiect din panoul de planificare.
+description: Acest articol oferă informații despre modul de a crea o rezervare de proiect din tabloul de planificare.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

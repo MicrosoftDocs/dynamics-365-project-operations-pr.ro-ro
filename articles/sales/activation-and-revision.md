@@ -1,6 +1,6 @@
 ---
-title: Activați și revizuiți o ofertă de proiect
-description: Acest articol oferă informații despre activarea și revizuirea cotațiilor în Microsoft Dynamics 365 Project Operations.
+title: Activarea și revizuirea unei oferte de proiect
+description: Acest articol oferă informații despre activarea și revizuirea ofertelor în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,38 +13,38 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410377"
 ---
-# <a name="activate-and-revise-a-project-quote"></a>Activați și revizuiți o ofertă de proiect
+# <a name="activate-and-revise-a-project-quote"></a>Activarea și revizuirea unei oferte de proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Capacitățile de activare și revizuire vă ajută să urmăriți versiunea pentru cotațiile bazate pe proiecte în timpul fazelor de estimare și negociere. Când o versiune nefinalizată a unei cotații este activată, aceasta devine doar pentru citire.
+Capacitățile de activare și revizuire vă ajută să urmăriți versiunea pentru ofertele bazate pe proiecte în timpul fazelor de estimare și negociere. Când o versiune nefinalizată a unei oferte este activată, aceasta devine doar pentru citire.
 
 Capacitățile de activare și revizuire vă permit să efectuați următoarele sarcini:
 
-- Câștigă sau pierde ghilimele numai după activare.
+- Câștigați sau pierdeți oferte numai după activare.
 - Revizuiți o ofertă fie pentru a modifica oferta existentă, fie pentru a crea o versiune nouă.
 
 > [!NOTE]
-> După ce funcția de activare și revizuire a ghilimelor este activată, aceasta nu poate fi dezactivată.
+> După ce funcția de activare și revizuire a ofertelor este activată, aceasta nu poate fi dezactivată.
 
-Pentru a activa capacitatea de a activa și revizui cotațiile bazate pe proiecte, urmați acești pași.
+Pentru a activa capacitatea de a activa și revizui ofertele bazate pe proiecte, urmați acești pași.
 
-1. Mergi la **Setări** \> **Parametrii**.
-1. Deschide **Parametrii** record.
-1. În panoul de acțiuni, pe **Controlul caracteristicilor** filă, selectați **Activați activarea și revizuirea cotațiilor**.
+1. Accesați **Setări** \> **Parametri**.
+1. Deschideți înregistrarea **Parametri**.
+1. În panoul de acțiuni, pe fila **Control funcții**, selectați **Permitere activare și revizuire oferte**.
 1. În caseta de dialog de confirmare, selectați **OK**.
-1. După câteva momente, reîmprospătați browserul. Capacitățile de activare și revizuire ar trebui să fie acum disponibile. Veți ști că aceste capabilități au fost activate dacă **Activați activarea și revizuirea cotațiilor** butonul nu mai apare în panoul de acțiuni.
+1. După câteva momente, reîmprospătați browserul. Capacitățile de activare și revizuire ar trebui să fie acum disponibile. Veți ști că aceste capabilități au fost activate dacă butonul **Permitere activare și revizuire pentru oferte** nu mai apare în Panoul de acțiuni.
 
-## <a name="activating-a-quote"></a>Activarea unei cotații
+## <a name="activating-a-quote"></a>Activarea uneioferte
 
-După ce funcția de activare și revizuire a ghilimelor este activată, **Închideți citatul ca câștigat** și **Închide citatul ca pierdut** butoanele din panoul de acțiuni nu sunt disponibile pentru ofertele de proiect nefinalizate. Sunt disponibile numai după activarea unei cotații.
+După ce funcția de activare și revizuire a ofertelor este activată, butoanele **Închidere ofertă ca fiind câștigată** și **Închidere ofertă ca fiind pierdută** din Panoul de acțiuni nu sunt disponibile pentru ofertele de proiect nefinalizate. Sunt disponibile numai după activarea unei oferte.
 
-Activarea reprezintă etapa din procesul de cotație în care doriți să preveniți mai multe modificări ale cotației. În această etapă, oferta este trimisă spre revizuire internă sau către client.
+Activarea reprezintă etapa din procesul de oferte în care doriți să preveniți mai multe modificări ale ofertei. În această etapă, oferta este trimisă spre revizuire internă sau către client.
 
-The **Închideți citatul ca câștigat** și **Închide citatul ca pierdut** butoanele din panoul de acțiuni sunt disponibile pentru cotațiile activate. În funcție de rezultatul evaluării interne sau ale clienților, puteți folosi unul dintre aceste butoane pentru a închide o cotație activată. Puteți efectua negocieri și modificări asupra cotațiilor activate selectând **Revizuiește citatul**.
+Butoanele **Închidere ofetă ca fiind câștigată** și **Închidere ofertă ca fiind pierdută** din Panoul de acțiuni sunt disponibile pentru ofertele activate. În funcție de rezultatul evaluării interne sau a clienților, puteți folosi unul dintre aceste butoane pentru a închide o ofertă activată. Puteți efectua negocieri și modificări asupra ofertelor activate selectând **Revizuire ofertă**.
 
-## <a name="revising-a-quote"></a>Revizuirea unui citat
+## <a name="revising-a-quote"></a>Revizuirea unei oferte
 
-Dacă trebuie să faceți modificări la o ofertă activată, selectați **Revizuiește citatul**. Citatul este închis, iar **revizuit** este folosit codul motiv. Se creează apoi o nouă cotație care are același ID și un număr de revizuire incrementat. Toate detaliile din oferta originală sunt copiate în noul citat. Noul cotație este în stare de proiect și poate fi editată după cum este necesar.
+Dacă trebuie să faceți modificări la o ofertă activată, selectați **Revizuire ofertă**. Oferta este închisă, iar codul motivului **revizuit** este folosit. Se creează apoi o nouă ofertă care are același ID și un număr de revizuire incrementat. Toate detaliile din oferta originală sunt copiate în noua ofertă. Noua ofertă este în stare de proiect și poate fi editatădupă cum este necesar.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

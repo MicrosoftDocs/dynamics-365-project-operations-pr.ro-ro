@@ -1,6 +1,6 @@
 ---
 title: Folosiți tabloul de planificare pentru a rezerva o resursă de proiect
-description: Acest articol oferă informații despre cum să rezervați resurse.
+description: Acest articol oferă informații despre modul de rezervare a resurselor.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

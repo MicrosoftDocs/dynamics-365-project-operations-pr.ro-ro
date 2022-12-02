@@ -1,6 +1,6 @@
 ---
 title: Rezervați resurse denumite din cerințele de resurse
-description: Acest articol oferă informații despre rezervarea resurselor denumite pentru o cerință de resurse generice.
+description: Acest articol furnizează informații despre rezervarea de resurse numite pentru o cerință de resurse generice.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

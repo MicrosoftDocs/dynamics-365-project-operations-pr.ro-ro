@@ -1,6 +1,6 @@
 ---
 title: Anularea intrărilor de timp și cheltuieli aprobate anterior
-description: Acest articol oferă informații despre cum să anulați o tranzacție de timp și cheltuieli de proiect aprobată.
+description: Acest articol oferă informații despre cum să anulați o tranzacție de timp și cheltuieli de proiect aprobată anterior.
 author: rumant
 ms.custom:
 - dyn365-projectservice

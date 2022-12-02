@@ -1,6 +1,6 @@
 ---
 title: Actualizați atributele inserturilor pentru a include noi dimensiuni de tarifare
-description: Acest articol oferă informații despre actualizarea atributelor plug-in-urilor pentru dimensiunile de preț.
+description: Acest articol furnizează informații despre actualizarea atributelor inserturilor pentru dimensiunile de tarifare.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913221"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Dacă nu utilizați funcțiile de cotare și contractare Project Service Automation (PSA), puteți sări peste acest articol.
+> Dacă nu utilizați funcțiile de ofertare și contractare Project Service Automation (PSA), puteți sări peste acest articol.
 
-Acest articol presupune că ați finalizat procedurile din articole, [Creați câmpuri și entități personalizate](create-custom-fields-entities.md),[Adăugați câmpuri personalizate la configurarea prețului și la entitățile tranzacționale](field-references.md), și [Configurați câmpuri personalizate ca dimensiuni de preț](set-up-pricing-dimensions.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol.
+Acest articol presupune că ați finalizat procedurile din articolele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities.md), [Adăugarea de câmpuri particularizate la parametrizare preț și entități tranzacționale](field-references.md) și [Configurare câmpuri particularizate ca dimensiuni de tarifare](set-up-pricing-dimensions.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest articol.
 
 Când se creează un detaliu al liniei de ofertă în pagina **linie ofertă** pentru o linie de ofertă de proiect, sistemul creează două linii de estimare în fundal -- o linie pentru partea de cost a estimării și una pentru partea de vânzări. Acest lucru este la fel pentru liniile de contract de proiect.
 

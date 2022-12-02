@@ -1,6 +1,6 @@
 ---
 title: Pagina principală gestionare resurse
-description: Acest articol oferă informații despre cum să gestionați resursele.
+description: Acest articol oferă informații despre modul de gestionare a resurselor.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8913267"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resursele sunt cel mai important activ al unei organizații bazate pe servicii. Capacitatea de a găsi și rezerva resursele corecte atunci când aveți nevoie de ele, și menținerea utilizării lor, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. Următoarele articole sunt axate pe capacitățile de gestionare a resurselor Dynamics 365 Project Service Automation:
+Resursele sunt cel mai important activ al unei organizații bazate pe servicii. Capacitatea de a găsi și rezerva resursele corecte atunci când aveți nevoie de ele, și menținerea utilizării lor, ajută organizația să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. Următoarele articole sunt axate pe capacitățile de gestionare a resurselor ale Dynamics 365 Project Service Automation:
 
 - [Gestionarea resurselor](manage-resources.md)
 - [Concepte-cheie](reports-key-concepts.md)

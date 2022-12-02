@@ -1,6 +1,6 @@
 ---
 title: Estimarea unei linii de contract pentru proiect
-description: Acest articol oferă informații despre estimări pe o linie de contract de proiect.
+description: Acest articol oferă informații despre estimările pentru o linie de contract de proiect.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

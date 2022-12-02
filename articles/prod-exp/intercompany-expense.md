@@ -1,6 +1,6 @@
 ---
 title: Cheltuieli între companii
-description: Acest articol oferă informații despre cum să utilizați cheltuielile între companii pentru a atribui cheltuielile unui lucrător persoanei juridice pentru care a fost efectuată munca.
+description: Acest articol oferă informații despre modul de utilizare a cheltuielilor între companii pentru a aloca cheltuielile unui lucrător persoanei juridice pentru care a fost efectuată munca.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

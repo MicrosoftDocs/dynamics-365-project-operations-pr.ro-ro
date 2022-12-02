@@ -1,6 +1,6 @@
 ---
 title: Facturi proforme
-description: Acest articol oferă informații despre facturile proforma în Operațiuni de proiect.
+description: Acest articol oferă informații despre facturile proforme în Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Atunci când creați o factură de proiect schiță, toate tranzacțiile de vân
 Selectați **Confirmați** pentru a confirma o factură. Acțiunea Confirmați este o acțiune într-o direcție. Când selectați **Confirmați**, sistemul face factura doar în citire și creează valori reale de vânzări facturate din fiecare detaliu de linie de factură pentru fiecare linie de factură. Dacă detaliul de linie pentru factură face referire la o valoare reală de vânzări nefacturate, sistemul inversează, de asemenea, valoarea reală de vânzări nefacturate. (Orice detaliu al liniei de factură care a fost creat dintr-o intrare de timp sau cheltuieli va face referire la o valoare reală de vânzări nefacturate.) Sistemele de integrare ale registrului general pot utiliza această inversare pentru a inversa proiectul în curs (WIP) în scopuri contabile.
 
 > [!NOTE]
-> Facturile proforma confirmate și înregistrările aferente, cum ar fi liniile de factură și detaliile liniei de factură, nu pot fi editate sau șterse. 
+> Facturile proforme confirmate și înregistrările aferente, cum ar fi liniile de factură și detaliile liniei de factură, nu pot fi editate sau șterse. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Corectați o factură confirmată
 

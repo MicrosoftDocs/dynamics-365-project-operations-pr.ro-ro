@@ -1,6 +1,6 @@
 ---
 title: Integrarea de facturi pentru furnizor
-description: Acest articol oferă informații despre integrarea facturii furnizorului în Operațiuni de proiect.
+description: Acest articol oferă informații despre integrarea facturii furnizorului în Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -34,7 +34,7 @@ Achizițiile aferente proiectului în Dynamics 365 Project Operations pot fi în
      > [!NOTE]
      > Detaliile facturii de furnizor în Dataverse nu sunt editabile.
 
-Registrul fiscal secundar, registrul secundar al furnizorului și alte înregistrări financiare sunt înregistrate după caz în Dynamics 365 Finance atunci când factura de furnizor este înregistrată.
+Subregistrul de impozit, subregistrul furnizorului și alte înregistrări financiare sunt înregistrate după caz, în Dynamics 365 Finance când se postează factura pentru furnizor.
 
 ![Integrarea facturilor pentru furnizor.](media/DW7VendorInvoice.png)
 

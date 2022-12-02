@@ -1,6 +1,6 @@
 ---
 title: Ofertarea, tarifarea și facturarea avansată
-description: Acest articol oferă informații despre cotație, facturare și prețuri în Project Service Automation.
+description: Acest articol oferă informații despre ofertarea, facturarea și tarifarea în Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921823"
 
 Capacitatea de a găsi resursele potrivite la momentul potrivit, de a rezerva respectivele resurse pe proiecte și de a le menține utilizate ajută organizațiile să îndeplinească obiectivele de venituri și obiectivele de satisfacție a clienților. 
 
-Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
+Linkul PDF care a fost anterior în acest articol a fost eliminat și conținutul a fost mutat la următoarele articole:
 
 - [Ofertarea, tarifarea și facturarea](../quote-bill-price.md)
 - [Procese vânzări](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul 
 - [Înregistrarea de valori reale](../advanced-actuals.md)
 
 > [!NOTE]
-> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
+> Acest articol va fi eliminat într-o actualizare de documentație viitoare. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

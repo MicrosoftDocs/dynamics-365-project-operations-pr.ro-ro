@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a liniilor de contract bazate pe proiect
-description: Acest articol oferă informații despre lucrul cu linii de contract bazate pe proiecte.
+description: Acest articol oferă informații despre lucrul cu linii de contract bazate pe proiect.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

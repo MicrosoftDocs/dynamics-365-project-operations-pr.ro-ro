@@ -1,6 +1,6 @@
 ---
 title: Configurarea de roluri în șabloanele de structură detaliată a proiectului
-description: Acest articol oferă informații despre configurarea informațiilor despre rol în șabloanele de structură de defalcare a muncii.
+description: Acest articol oferă informații despre configurarea informațiilor despre roluri pe șabloanele structurii de defalcare a lucrului.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

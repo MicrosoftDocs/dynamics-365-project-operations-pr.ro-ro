@@ -1,6 +1,6 @@
 ---
 title: Creați și actualizați un proiect
-description: Acest articol oferă informații despre actualizarea proiectelor Operațiuni de proiect.
+description: Acest articol furnizează informații despre actualizarea proiectelor în Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

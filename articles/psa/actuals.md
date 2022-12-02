@@ -1,6 +1,6 @@
 ---
 title: Prezentare date reale
-description: Acest articol oferă informații despre proiectele reale.
+description: Acest articol oferă informații despre valorile reale ale proiectului.
 author: rumant
 ms.custom:
 - dyn365-projectservice

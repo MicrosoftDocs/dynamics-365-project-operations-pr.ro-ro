@@ -1,6 +1,6 @@
 ---
 title: Prognoze și bugete de proiect
-description: Microsoft Dynamics 365 Finance oferă previziuni și bugete ale proiectelor pentru a vă gestiona și controla proiectele.
+description: Microsoft Dynamics 365 Finance furnizează prognoze ale proiectului și bugete ale proiectului pentru a vă gestiona și controla proiectele.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

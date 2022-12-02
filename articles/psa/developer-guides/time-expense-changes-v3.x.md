@@ -1,6 +1,6 @@
 ---
 title: Modificări de timp și cheltuieli (Project Service Automation 3.x)
-description: Acest articol oferă informații despre modificările soluției pentru Timp și Cheltuială.
+description: Acest articol oferă informații despre modificările soluției pentru Timp și Cheltuieli.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Tipuri de etape de proiect
-description: Acest articol oferă informații despre etapele proiectului.
+description: Acest articol oferă informații despre etapele de proiect.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

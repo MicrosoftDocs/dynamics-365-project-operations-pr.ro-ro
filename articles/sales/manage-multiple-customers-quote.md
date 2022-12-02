@@ -1,6 +1,6 @@
 ---
 title: Gestionarea mai multor clienți într-o ofertă de proiect
-description: Acest articol oferă informații despre lucrul la cotații care implică mai mulți clienți care vor finanța proiectul.
+description: Acest articol furnizează informații despre lucrul cu oferte care implică mai mulți clienți care vor finanța proiectul.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

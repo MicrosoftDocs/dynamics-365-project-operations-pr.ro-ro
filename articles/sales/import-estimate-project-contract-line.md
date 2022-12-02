@@ -1,6 +1,6 @@
 ---
 title: Importul unei estimări într-o linie de contract bazată pe proiect
-description: Acest articol oferă informații despre cum să importați estimări dintr-un proiect într-o linie de contract.
+description: Acest articol oferă informații despre cum să importați estimările dintr-un proiect într-o linie de contract.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

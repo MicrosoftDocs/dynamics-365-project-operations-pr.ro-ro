@@ -1,6 +1,6 @@
 ---
 title: Granturi de proiecte
-description: Acest articol explică cum să creați sau să modificați o grant.
+description: Acest articol explică modul de creare sau modificare a unei subvenții.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

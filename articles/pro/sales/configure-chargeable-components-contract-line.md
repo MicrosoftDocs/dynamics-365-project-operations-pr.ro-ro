@@ -1,6 +1,6 @@
 ---
 title: Configurarea componentelor tarifabile ale unei linii de contract bazate pe proiect
-description: Acest articol oferă informații despre cum să adăugați componente taxabile la liniile contractuale în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să adăugați componente taxabile la liniile de contract în Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Creați o echipă de proiect
-description: Acest articol oferă informații despre cum să creați și să gestionați echipele de proiect.
+description: Acest articol oferă informații despre cum să creați și să gestionați echipe de proiect.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

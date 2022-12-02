@@ -1,6 +1,6 @@
 ---
 title: Înregistrarea utilizării materialelor pentru proiecte și activitățile proiectului
-description: Acest articol oferă informații despre cum să înregistrați utilizarea materialelor pentru proiecte și sarcini de proiect.
+description: Acest articol oferă informații despre cum să conectați utilizarea materialului la proiecte și sarcinile proiectului.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

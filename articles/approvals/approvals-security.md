@@ -24,15 +24,15 @@ Microsoft Dynamics 365 Project Operations utilizează două roluri de securitate
 
 ## <a name="project-approver"></a>Aprobator proiect
 
-Trebuie să ai **Aprobator de proiect** rol de securitate pentru a aproba timpul de proiect, cheltuielile și intrările de materiale. De asemenea, trebuie să aveți acces la entitățile relevante relevante, cum ar fi **Proiect**. Acest acces poate fi atribuit de cineva care are **Manager de proiect** rol. În plus, trebuie să fii membru al echipei al proiectului și să fii marcat ca aviz.
+Trebuie să aveți rolul de securitate **Aprobator de proiect** pentru a aproba timpul de proiect, cheltuielile și intrările de materiale. De asemenea, trebuie să aveți acces la entitățile relevante corespunzătoare, cum ar fi **Proiect**. Acest acces poate fi atribuit de cineva care are rolul de **Manager de proiect**. În plus, trebuie să fii membru al echipei de proiect și să fii marcat ca aprobator.
 
-Pentru a aproba intrări non-proiect, trebuie să fii managerul celui care depune.
+Pentru a aproba intrări non-proiect, trebuie să fii managerul solicitantului.
 
 ## <a name="project-approver-admin"></a>Administrator aprobator de proiect
 
 > [!NOTE]
-> The [Seturi de aprobare](approval-sets.md) caracteristica trebuie să fie activată înainte de a putea utiliza funcționalitatea de administrare a avizului de proiect.
+> Funcția [Seturi de aprobare](approval-sets.md) trebuie să fie activată înainte de a putea utiliza funcționalitatea de administrare a avizului de proiect.
 
-The **Administrator aprobator de proiect** rol de securitate permite utilizatorilor să ocolească politicile și permite aprobarea intrărilor în toate proiectele. Atribuirea acestui rol va ocoli logica de validare care necesită apartenența la echipă și marcarea ca aprobator. Trebuie să aveți acces la tabelele relevante relevante, cum ar fi **Proiect**, prin rolurile de securitate atribuite dvs.
+Rolul de securitate **Administrator aprobator de proiect** permite utilizatorilor să ocolească politicile și permite aprobarea intrărilor în toate proiectele. Atribuirea acestui rol va ocoli logica de validare care necesită apartenența la echipă și marcarea ca aprobator. Trebuie să aveți acces la tabelele relevante corespunzătoare, cum ar fi **Proiect**, prin rolurile de securitate atribuite dvs.
 
-Contextul utilizatorului SISTEM ocolește validările în același mod ca administratorul de aprobare a proiectului rol de securitate.
+Contextul utilizatorului SISTEM ocolește validările în același mod ca rolul de securitate Administrator aprobator de proiect.

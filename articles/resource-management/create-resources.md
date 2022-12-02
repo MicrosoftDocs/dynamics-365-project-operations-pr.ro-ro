@@ -1,6 +1,6 @@
 ---
 title: Crearea de resurse
-description: Acest articol oferă un link către informații despre cum să creați resurse care pot fi rezervate.
+description: Acest articol furnizează un link spre informații despre cum se creează resurse care pot fi rezervate.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Puteți utiliza Dynamics 365 Field Service pentru a crea resurse care pot fi rezervate pe care să le utilizați în mediul Dynamics 365 Project Operations. Pentru a crea aceste resurse, consultați [Configurați resurse care pot fi rezervate](/dynamics365/field-service/set-up-bookable-resources).
 
-Operațiunile de proiect acceptă următoarele tipuri de resurse:
+Planificarea în Project Operations acceptă următoarele tipuri de resurse:
 - Cont
 - Contactați
 - User

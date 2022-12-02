@@ -1,6 +1,6 @@
 ---
 title: Crearea de entități și câmpuri particularizate ca dimensiuni de preț
-description: Acest articol oferă informații despre cum să creați seturi sau entități personalizate de opțiuni.
+description: Acest articol oferă informații despre cum să creați seturi de opțiuni sau entități particularizate.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

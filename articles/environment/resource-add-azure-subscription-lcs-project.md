@@ -59,13 +59,13 @@ Autorizația este acum completă.
 2. Introduceți codul de abonament Azure. Puteți găsi ID-ul dvs. de abonament Azure în [Portal Azure](https://ms.portal.azure.com/), sub  **Setări**  în colțul din stânga jos al ecranului.
 3. În câmpul **Configurați pentru a utiliza Azure Resource Manager**, selectați **Da**.
 4. Asigurați-vă că Abonamentul Azure AAD Domeniu entitate găzduită se potrivește cu abonamentul Azure deținut de domeniu pe care îl utilizați și selectați **Următorul**.
-5. Pe ecranul **Microsoft Azure Instalare** ecran, selectați **Următorul** pentru a confirma. Dacă primiți o eroare pe acest ecran, reveniți la secțiune [Oferiți acces la serviciile de implementare Dynamics la abonamentul Azure](#provide) în acest articol și asigurați-vă că ați parcurs toți pașii.
+5. Pe ecranul **Microsoft Azure Instalare** ecran, selectați **Următorul** pentru a confirma. Dacă primiți o eroare pe acest ecran, reveniți la secțiunea [Oferire acces la Serviciile de implementare dinamică la abonamentul Azure](#provide) din acest articol și asigurați-vă că ați parcurs toți pașii.
 6. Descărcați certificatul Azure Management într-un folder local de pe computer. Solicitați administratorului dvs. de abonament Azure să încarce certificatul în portalul Azure Management selectând abonamentul și accesând **Setări** > **Certificate de management**. Acest certificat permite LCS să comunice cu Azure în numele dvs. Puteți sări peste acest pas dacă utilizatorul dvs. are acces la abonament.
 7. Selectați  **Următorul**.
 8. Selectați regiunea Azure în care să implementați și selectați un centru de date care este aproape de locul în care intenționați să utilizați acest sistem.
 9.  Selectați  **Conectare**.
 
-Ați conectat cu succes abonamentul Azure. Acum puteți implementa medii găzduite în cloud Dynamics 365 Finance.
+Ați conectat cu succes abonamentul Azure. Acum, puteți implementa medii găzduite în cloud Dynamics 365 Finance.
 
 
 

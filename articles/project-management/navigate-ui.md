@@ -1,6 +1,6 @@
 ---
 title: Navigarea în interfața cu utilizatorul
-description: Acest articol oferă informații despre managementul proiectelor în operațiunile de proiect Dynamics 365.
+description: Acest articol oferă informații despre Managementul de proiect în Dynamics 365 Project operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Progresul și costurile în curs ale proiectului
-description: Acest articol oferă informații despre urmărirea progresului proiectului și a consumului de costuri.
+description: Acest articol furnizează informații despre urmărirea progresului proiectului și consumul de costuri.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921777"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Necesitatea de a urmări progresele în raport cu o planificare variază în funcție de industrie. Unele industrii urmăresc la un nivel granular, în timp ce alte industrii urmăresc la un nivel mai înalt. Acest articol arată cum să programați pentru a îndeplini cerințele organizației dvs.
+Necesitatea de a urmări progresele în raport cu o planificare variază în funcție de industrie. Unele industrii urmăresc la un nivel granular, în timp ce alte industrii urmăresc la un nivel mai înalt. Acest articol arată cum să planificați pentru a îndeplini cerințele organizației dvs.
 
 ## <a name="effort-tracking-view"></a>Vizualizarea Urmărire efort
 

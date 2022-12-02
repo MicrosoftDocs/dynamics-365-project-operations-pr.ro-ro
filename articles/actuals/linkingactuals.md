@@ -1,6 +1,6 @@
 ---
-title: Originile tranzacției - Conectați datele reale la sursa lor
-description: Acest articol explică modul în care conceptul originii tranzacției este utilizat pentru a lega datele reale la înregistrările sursă originale, cum ar fi înregistrarea timpului, înregistrarea cheltuielilor sau jurnalele de utilizare a materialelor.
+title: Originile tranzacțiilor - Conectarea valorilor reale la sursa acestora
+description: Acest articol explică modul în care conceptul de origini de tranzacție este utilizat pentru a conecta valorile reale la înregistrările inițiale, cum ar fi introducerea timpului, introducerea cheltuielilor sau jurnalele de utilizare a materialelor.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921317"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Originile tranzacției - Conectați datele reale la sursa lor
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Originile tranzacțiilor - Conectarea valorilor reale la sursa acestora
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Înregistrările despre originea tranzacției sunt create pentru a lega datele reale la sursa lor, astfel de intrări de timp, înregistrări de cheltuieli, jurnalele de utilizare a materialelor și facturile de proiect.
+Înregistrările despre originea tranzacției sunt create pentru a conecta datele reale la sursa lor, cum ar fi intrări de timp, înregistrări de cheltuieli, jurnalele de utilizare a materialelor și facturile de proiect.
 
 Următorul exemplu arată procesarea tipică a intrărilor de timp într-un ciclu de viață al proiectului în Project Operations.
 
-> ![Timp de procesare întregi în Operațiuni de proiect.](media/basic-guide-17.png)
+> ![Procesarea intrărilor de timp în Project Operations.](media/basic-guide-17.png)
  
-1. Trimiterea unei intrări de timp determină crearea a două linii de jurnal: unul pentru cost și unul pentru vânzări nefacturate.
-2. Aprobarea eventuală a introducerii timpului face ca două valori reale să fie create: unul pentru cost și unul pentru vânzări nefacturate.
+1. Remiterea unei intrări de timp determină crearea a două linii de jurnal: una pentru cost și una pentru vânzările nefacturate.
+2. Aprobarea eventuală a intrării de timp determină crearea a două valori reale: una pentru cost și una pentru vânzările nefacturate.
 3. Atunci când utilizatorul creează o factură de proiect, tranzacția linie factură este creată utilizând date din valorile reale pentru vânzările nefacturate.
 4. Când este confirmată factura, sunt create două valori reale: o inversare a vânzărilor nefacturate și o valoare reală pentru vânzări facturate.
 
-Fiecare eveniment din acest flux de lucru de procesare declanșează crearea de înregistrări în entitatea de origine a tranzacției pentru a ajuta la construirea unei urme a relațiilor dintre aceste înregistrări care sunt create prin introducerea de timp, rândul jurnalului, detaliile reale și linia de factură.
+Fiecare eveniment din acest flux de procesare declanșează crearea de înregistrări în entitatea Originea tranzacției, pentru a ajuta la construirea unei urmăriri a relațiilor dintre aceste înregistrări care sunt create pe detaliile pentru intrarea de timp, linia de jurnal, valoarea reală și linia de facturare.
 
 Următorul tabel afișează înregistrările din entitatea Origine tranzacție pentru fluxul de lucru precedent.
 
@@ -70,8 +70,8 @@ Următorul tabel afișează înregistrările din entitatea Origine tranzacție p
 | Corecție GUID factură      | Factură                  | GUID nou valoare reală vânzări nefacturate    | Real                            |                          |
 
 
-Următoarea ilustrație arată legăturile care sunt create între efective și sursele lor la diferite evenimente folosind exemplul de intrări de timp în Operațiuni de proiect.
+Următoarea ilustrație arată legăturile care sunt create între diferite tipuri de valori reale și sursele acestora la diferite evenimente folosind exemplul de intrări de timp în Project Operations.
 
-> ![Modul în care datele reale sunt legate de înregistrările sursă în Operațiuni de proiect.](media/TransactionOrigins.png)
+> ![Modul în care valorile reale sunt legate la înregistrările sursă în Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

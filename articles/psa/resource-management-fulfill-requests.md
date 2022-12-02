@@ -1,6 +1,6 @@
 ---
 title: Îndeplinirea de cerințe de resurse
-description: Acest articol oferă informații despre cum să îndepliniți cerințele de resurse.
+description: Acest articol oferă informații despre modul de îndeplinire a cerințelor de resurse.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

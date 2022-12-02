@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în mai 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest articol oferă informații despre actualizările de calitate disponibile în ediția din mai 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/neaprovizionate.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din mai 2021 a Project Operations pentru scenarii bazate pe resurse/care nu există pe stoc.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9030004"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
 - Project Operations pe versiunea de mediu Dynamics 365 Dataverse 4.10.0.186
-- Management de proiect și contabilitate în medii de aplicații financiare și operaționale versiunea 10.0.18
+- Management de proiect și contabilitate în medii de aplicații pentru finanțe și operațiuni versiunea 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
@@ -41,7 +41,7 @@ Următoarea listă prezintă hărțile cu scriere duală care au fost modificate
 | Entitatea privind exportul liniilor de factură de la furnizori în proiectul de integrare Project operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Actualizări de calitate |
 | Proiecte V2 (msdyn\_projects) | 1.0.0.2 | Actualizări de calitate |
 
-Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel asociate pe măsură ce actualizați operațiunile de proiect Dataverse versiune de soluție și aplicații de finanțare și operațiuni. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții în coloana  **Versiune**  de pe pagina  **Scriere duală**. Pentru a activa o nouă versiune a hărții selectați **Versiuni ale hărții cu tabele**, selectați cea mai recentă versiune și apoi salvați versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Rulați întotdeauna cea mai recentă versiune a hărții în mediul dvs. și activați toate hărțile de tabel aferente pe măsură ce vă actualizați soluția Project Operations Dataverse și versiunea de soluție pentru finanțe și operațiuni. Este posibil ca anumite caracteristici și capabilități să nu funcționeze corect dacă cea mai recentă versiune a hărții nu este activată. Puteți vedea versiunea activă a hărții în coloana  **Versiune**  de pe pagina  **Scriere duală**. Pentru a activa o nouă versiune a hărții selectați **Versiuni ale hărții cu tabele**, selectați cea mai recentă versiune și apoi salvați versiunea selectată. Dacă ați personalizat o hartă a tabelului predefinită, aplicați din nou modificările. Pentru mai multe informații, consultați: [Gestionarea ciclului de viață al aplicațiilor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Dacă întâmpinați o problemă la pornirea hărții, urmați instrucțiunile din secțiunea [Problema coloanelor lipsă din tabel, pe hărți](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) a ghidului de depanare Dual Write.
 

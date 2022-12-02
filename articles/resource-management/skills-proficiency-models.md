@@ -1,6 +1,6 @@
 ---
 title: Abilități și certificări
-description: Acest articol oferă informații despre adăugarea de abilități și caracteristici de certificare la resurse.
+description: Acest articol oferă informații despre adăugarea de calități și caracteristici de certificare pentru resurse.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

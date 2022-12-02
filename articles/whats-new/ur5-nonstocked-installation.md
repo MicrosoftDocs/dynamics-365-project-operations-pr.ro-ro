@@ -1,6 +1,6 @@
 ---
 title: Actualizați Project Operations în mediul dvs. de Finanțe
-description: Acest articol oferă informații despre cum să actualizați Operațiunile de proiect în mediul dvs. Dynamics 365 Finance.
+description: Acest articol oferă informații despre cum să actualizați Project Operations în mediul dvs. Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030050"
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 
-Acest articol oferă informații despre cum să actualizați Dynamics 365 Project Operations în mediul tău Dynamics 365 Finance. Există trei proceduri care sunt necesare pentru a actualiza Project Operations la Actualizarea 5 (UR5):
+Acest articol oferă informații despre cum să actualizați Dynamics 365 Project Operations în mediul dvs. Dynamics 365 Finance. Există trei proceduri care sunt necesare pentru a actualiza Project Operations la Actualizarea 5 (UR5):
 
 - [Importați pachetul în proiectul dvs. de previzualizare](#import)
 - [Aplicați actualizarea](#apply)
@@ -119,7 +119,7 @@ Următoarele actualizări ale privilegiilor de securitate pentru entități sunt
 4. Pe pagina **Versiunea hărții tabelului**, aplicați o nouă versiune a hărții fiecăreia dintre cele trei entități.
 5. Pe pagina **Scriere duală**, selectați rulare pentru a reporni hărțile.
 6. Din lista de hărți, selectați harta **Registru (msdyn_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. 
-7. În **Master pentru sincronizarea inițială** câmp, selectați **Aplicații de finanțare și operațiuni** și apoi selectați **Alerga**.
+7. În câmpul **Master pentru sincronizarea inițială**. selectați **Aplicații pentru finanțe și operațiuni** și apoi selectați **Rulare**.
  
  ![Sincronizarea hărții registrului contabil.](media/DW6.png)
  

@@ -1,6 +1,6 @@
 ---
 title: Instalați și aplicați datele de configurare în Microsoft Dataverse
-description: Acest articol oferă informații despre configurarea și aplicarea datelor de configurare în Operațiuni de proiect.
+description: Acest articol furnizează informații despre configurarea și aplicarea datelor de configurare în Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -23,8 +23,8 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 Înainte de a începe să configurați datele în Microsoft Dataverse, trebuie îndeplinite următoarele condiții prealabile:
 
-1.  Dispozitia a Dataverse mediu și un mediu Dynamics 365 Finance pentru operațiunile de proiect.
-2.  Informațiile despre entitate juridică de la Dynamics 365 Finance sunt partajate către Dataverse mediu inconjurator. Aceasta înseamnă că **Companie** entitate în Dataverse are următoarele înregistrări ale companiei:
+1.  Asigurați accesul la un mediu Dataverse și la un mediu Dynamics 365 Finance pentru Project Operations.
+2.  Informații privind entitatea juridică de la Dynamics 365 Finance sunt partajate la mediul Dataverse. Aceasta înseamnă că entitatea **Companie** din Dataverse are următoarele înregistrări ale companiei:
   - THPM
   - USPM
   - GBPM

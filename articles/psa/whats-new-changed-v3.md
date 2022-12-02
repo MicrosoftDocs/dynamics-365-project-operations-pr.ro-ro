@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau modificat în Project Service Automation versiunea 3
-description: Acest articol oferă informații despre ceea ce este nou și modificat în Project Service Automation versiunea 3.
+description: Acest articol oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926607"
 
 
 
-Acest articol oferă informații despre modificările aduse interfeței cu utilizatorul (UI), funcționalității și terminologiei din Project Service Automation între versiunea 2 sau versiunea 1 și versiunea 3.
+Acest articol oferă informații despre modificările la interfața cu utilizatorul (UI), funcționalitatea și terminologia în Project Service Automation (PSA) dintre versiunea 2 sau versiunea 1 și versiunea 3.
 
 ## <a name="project-scheduling"></a>Planificarea proiectelor
 Planificarea de proiect, care a fost cunoscută sub numele de structura detaliată a proiectului (WBS) în versiunile anterioare, a fost redenumit Planificare și este accesat făcând clic pe fila **Planificare**. 
@@ -150,7 +150,7 @@ Când aveți atribuiri de sarcini pentru o resursă fără rezervări (o lipsă 
 Această secțiune furnizează informații despre modificările în timp, cheltuieli și aprobare în versiunea 3 a Project Service Automation. Ca parte a soluției Dynamics 365 Project Service Automation, caracteristica de **Intrare de timp** a fost reîmprospătată pentru a profita de structura Interfață unificată. Aceasta permite livrarea unei interfețe a utilizatorului consistente, uniforme, care urmărește un design receptiv pentru vizualizare optimă pe orice mărime de ecran sau dispozitiv. 
 
 ### <a name="landing-page"></a>Pagină de destinație
-Experiența de intrare de timp particularizată non-extensibilă a fost perimată în versiunea 3. În schimb, există acum o experiență de rețea extensibilă și accesibilă. Puteți accesa funcționalitatea de intrare în timp utilizând harta site-ului din stânga. Cu această modificare, nu veți mai putea să introduceți ora pentru o săptămână la rând. În schimb, va trebui să creați o intrare de timp pentru fiecare zi în grilă. După câteva intrări de timp au fost create, utilizatorii pot crea în bloc intrări de timp cu **Copie** funcție explicată mai târziu în acest articol. 
+Experiența de intrare de timp particularizată non-extensibilă a fost perimată în versiunea 3. În schimb, există acum o experiență de rețea extensibilă și accesibilă. Puteți accesa funcționalitatea de intrare în timp utilizând harta site-ului din stânga. Cu această modificare, nu veți mai putea să introduceți ora pentru o săptămână la rând. În schimb, va trebui să creați o intrare de timp pentru fiecare zi în grilă. După ce au fost create câteva intrări de timp, utilizatorii pot crea în bloc intrările de timp cu funcția **Copiere** explicată mai târziu în acest articol. 
 
 ![Pagina de destinație a intrării de timp.](media/time-entry-landing-page-07.png)
  

@@ -1,6 +1,6 @@
 ---
 title: Configurarea câmpurilor particularizate ca dimensiuni de preț
-description: Acest articol oferă informații despre cum să configurați dimensiunile de preț folosind câmpuri personalizate.
+description: Acest articol oferă informații despre cum să configurați dimensiunile de preț utilizând câmpuri particularizate.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917591"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Înainte de a începe, acest articol presupune că ați finalizat procedurile din articole, [Creați câmpuri și entități personalizate](create-custom-fields-entities-pricing-dimensions.md) și [Adăugați câmpuri personalizate obligatorii la configurarea prețului și la entitățile tranzacționale](add-custom-fields-price-setup-transactional-entities.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol. 
+Înainte de a începe, acest articol presupune că ați finalizat procedurile din articolele [Crearea de câmpuri și entități particularizate](create-custom-fields-entities-pricing-dimensions.md) și [Adăugarea de câmpuri necesare particularizate la configurarea prețului și entități tranzacționale](add-custom-fields-price-setup-transactional-entities.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest articol. 
 
-Acest articol oferă informații despre configurarea dimensiunilor de preț personalizate. Pe pagina **Parametri**, fila **Dimensiuni de preț pe baza sumei**, afișează înregistrările în entitățile de dimensiune a prețului. În mod implicit, există două rânduri în grilă pe această filă:
+Acest articol oferă informații despre parametrizarea dimensiunilor de preț particularizate. Pe pagina **Parametri**, fila **Dimensiuni de preț pe baza sumei**, afișează înregistrările în entitățile de dimensiune a prețului. În mod implicit, există două rânduri în grilă pe această filă:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Unitate organizatorică)

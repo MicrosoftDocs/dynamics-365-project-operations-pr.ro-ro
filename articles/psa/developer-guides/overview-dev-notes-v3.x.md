@@ -1,6 +1,6 @@
 ---
 title: Pagina de pornire pentru dezvoltare (Project Service Automation 3.x)
-description: Acest articol oferă link-uri către articole care oferă informații despre dezvoltare Dynamics 365 Project Service Automation (PSA) versiunea 3.x.
+description: Acest articol oferă linkuri către articole care furnizează informații de dezvoltare pentru Dynamics 365 Project Service Automation (PSA) versiunea 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8928999"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x oferă noi caracteristici, implementarea noilor capabilități de platformă, și îmbunătățiri la caracteristicile existente în diferite domenii. Următoarele articole oferă mai multe informații despre modificările care au fost făcute în cea mai nouă versiune de PSA:
+Dynamics 365 Project Service Automation 3.x oferă noi caracteristici, implementarea noilor capabilități de platformă, și îmbunătățiri la caracteristicile existente în diferite domenii. Următoarele articole oferă mai multe informații despre modificările efectuate în cea mai nouă versiune de PSA:
 
 - [Modificări de entitate, control și interfață cu utilizatorul (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Modificări de timp și cheltuieli (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

@@ -1,6 +1,6 @@
 ---
 title: Comportamentul interfeței de utilizare a intrării în timp
-description: Acest articol oferă informații despre comportamentul interfeței de utilizare pentru introducerea orei.
+description: Acest articol oferă informații despre comportamentul Interfeței de utilizator pentru Intrarea de timp.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Utilizarea categoriei de tranzacții ca dimensiune de preț
-description: Acest articol oferă informații despre cum să utilizați câmpul Categoria tranzacției ca dimensiune de preț.
+description: Acest articol furnizează informații despre cum să utilizați câmpul Categorie de tranzacție ca dimensiune de preț.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911716"
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 
-Acest articol explică cum se utilizează **Categoria tranzacției** câmp ca dimensiune a prețului. 
+Acest articol explică cum să utilizați câmpul **Categorie de tranzacție** ca dimensiune de preț. 
 
 ## <a name="prerequisites"></a>Cerințe preliminare
-Înainte de a finaliza procedurile din acest articol, trebuie să aveți o nouă soluție de dimensiune de preț pentru organizația dvs. Dacă nu ați creat deja unul, consultați [Creați câmpuri și entități personalizate ca dimensiuni de preț](create-custom-fields-entities-pricing-dimensions.md).
+Înainte de a finaliza procedurile din acest articol, trebuie să aveți o nouă soluție de dimensiune a prețurilor pentru organizația dvs. Dacă nu ați creat deja unul, consultați [Creați câmpuri și entități personalizate ca dimensiuni de preț](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Adăugați câmpul Categorie de tranzacție la formulare și vizualizări
 Pentru a face câmpul **Categoria tranzacției** vizibil în soluția de dimensiune a prețurilor, trebuie să adăugați câmpul la toate formularele și vizualizările ca entitate.

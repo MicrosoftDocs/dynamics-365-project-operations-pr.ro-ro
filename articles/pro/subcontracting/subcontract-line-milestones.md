@@ -1,6 +1,6 @@
 ---
 title: Jaloane linie de subcontract
-description: Acest articol explică cum să creați și să mențineți un program de facturare bazat pe etape pentru un subcontract cu un furnizor.
+description: Acest articol explică cum să creați și să mențineți un program de facturare bazat pe un jalon pentru un subcontract cu un furnizor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

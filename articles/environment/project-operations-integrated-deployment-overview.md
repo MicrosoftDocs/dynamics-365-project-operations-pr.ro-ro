@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a implementării Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest articol oferă informații despre tipul de implementare, Operațiuni de proiect pentru scenarii bazate pe resurse/non-aprovizionate.
+description: Acest articol oferă informații despre tipul de implementare, Project Operations pentru scenarii bazate pe resursă/nestocate.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Tipul de implementare, Dynamics 365 Project Operations pentru scenarii bazate pe
 - Recunoașterea veniturilor din proiecte
 - Extensibilitatea prin Power Platform
 
-Acest tip de implementare oferă o extensie a funcționalității oferite de Dynamics 365 Finance și Dynamics 365 Supply Chain Management aplicatii.
+Acest tip de implementare oferă o extensie la funcționalitatea oferită de aplicațiile Dynamics 365 Finance și Dynamics 365 Supply Chain Management .
 
 Această implementare ar trebui să fie aleasă dacă așteptările dvs. de la Project Operations este să utilizați ciclul de viață complet al proiectului care include următoarele cerințe:
 

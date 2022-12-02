@@ -1,6 +1,6 @@
 ---
 title: Pagina de primire pentru ofertare, prețuri și facturare
-description: Acest articol oferă informații despre cotare, prețuri și facturare.
+description: Acest articol oferă informații despre ofertare, prețuri și facturare.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926745"
 
 Ofertarea, tarifarea și facturarea sunt caracteristici care sunt utilizate de organizațiile mici și mari. Prin înțelegerea modului în care aceste caracteristici funcționează în aplicație, organizațiile pot personaliza mai ușor configurații.
 
-Următoarele articole oferă mai multe informații despre ofertarea, prețurile și funcționalitatea de facturare în PSA:
+Următoarele articole furnizează mai multe informații despre funcționalitatea de ofertare, prețuri și facturare în PSA:
 
 - [Proces vânzări](basic-sales-process.md)
 - [Linii de ofertă](basic-quote-lines.md)

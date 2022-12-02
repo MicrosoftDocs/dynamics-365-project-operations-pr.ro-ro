@@ -24,7 +24,7 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927113"
 ---
-# <a name="about-organizational-units"></a>Despre unitățile organizatorice 
+# <a name="about-organizational-units"></a>Despre unitățile organizaționale 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

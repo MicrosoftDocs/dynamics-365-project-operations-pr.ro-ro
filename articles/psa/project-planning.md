@@ -43,7 +43,7 @@ Instrumentele de gestionare a proiectelor din PSA vă ajută să rulați cu ușu
 - Prognozați necesarul de resurse pentru proiectele sunt deschise în canal.
 - Livrați cu succes proiecte prin urmărirea progresului și a costului în curs.
 
-Următoarele articole oferă informații care îi vor ajuta pe managerii de proiect să estimeze munca, să estimeze costurile proiectului și să estimeze cerințele de resurse utilizând instrumentele care sunt acceptate în PSA:
+Următoarele articole furnizează informații care vor ajuta managerii de proiect să estimeze activitatea, să estimeze costurile proiectului și să prognozeze cerințele privind resursele utilizând instrumentele care sunt acceptate în PSA:
 
 - [Crearea unei planificări](project-creating.md)
 - [Estimați costurile și veniturile proiectului](project-estimating.md)

@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 19, V3
-description: Acest articol listează caracteristicile și remedierile disponibile în Project Service Automation Update Versiunea 19, V3.
+description: Acest articol listează caracteristicile și corecțiile care sunt disponibile în Project Service Automation V3, versiunea de actualizare 19, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8915521"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol enumeră caracteristicile și remedierile care sunt noi sau modificate pentru PSA V3, Update Release 19. Această versiune are un număr de versiune V3.10.30.41 și este disponibil în general printr-o autoactualizare în mai 2020.
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru PSA V3, versiunea de actualizare 19. Această versiune are un număr de versiune V3.10.30.41 și este disponibil în general printr-o autoactualizare în mai 2020.
 
 ## <a name="update-release-19"></a>Lansarea de actualizări 19
 

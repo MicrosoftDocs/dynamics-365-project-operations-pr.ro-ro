@@ -1,6 +1,6 @@
 ---
 title: Utilizarea programului de completare Project Service pentru a vă planifica munca în Microsoft Project | MicrosoftDocs
-description: Acest articol oferă informații despre cum să adăugați, să configurați și să utilizați programul de completare Microsoft Project pentru Microsoft Project Service.
+description: Acest articol furnizează informații despre cum se adaugă, se configurează și se utilizează programul de completare Microsoft Project pentru Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

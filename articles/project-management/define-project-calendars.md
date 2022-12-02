@@ -1,6 +1,6 @@
 ---
 title: Definirea calendarelor de proiect
-description: Acest articol oferă informații despre cum să aplicați un șablon de calendar la un proiect pentru a urmări programarea proiectului.
+description: Acest articol oferă informații despre cum se aplică un șablon de calendar unui proiect pentru a urmări planificarea proiectului.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

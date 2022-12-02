@@ -1,6 +1,6 @@
 ---
 title: Șabloane de proiect
-description: Acest articol oferă informații despre cum să utilizați șabloanele de proiect pentru configurarea rapidă a proiectului.
+description: Acest articol furnizează informații despre modul de utilizare a șabloanelor de proiect pentru configurarea rapidă a proiectului.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Crearea unei planificări de facturare pentru o linie de contract bazată pe proiect
-description: Acest articol oferă informații despre cum să creați programe de facturare și repere pe liniile de contract.
+description: Acest articol oferă informații despre cum să creați planificări de facturare și jaloane pe liniile de contract.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Creați atribuiri de resurse
-description: Acest articol oferă informații despre crearea atribuirilor de resurse generice și denumite.
+description: Acest articol oferă informații despre crearea alocărilor de resurse generice și numite.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ro-RO
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933507"
@@ -18,7 +18,7 @@ ms.locfileid: "8933507"
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
 
-O alocare a resurselor este asocierea directă a unui membru al echipei de proiect la o sarcină de nod frunză. Acest articol oferă informații despre diferitele modalități de alocare a resurselor.
+O alocare a resurselor este asocierea directă a unui membru al echipei de proiect la o sarcină de nod frunză. Acest articol furnizează informații despre moduri diferite de a atribui resurse.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Creați un membru al echipei prin atribuirea de sarcini
 

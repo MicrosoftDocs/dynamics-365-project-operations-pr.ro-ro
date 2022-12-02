@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a reținerii furnizorilor
-description: Acest articol oferă o prezentare generală a capabilităților de păstrare a furnizorilor.
+description: Acest articol oferă o prezentare generală a capacităților de reținere a furnizorilor.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

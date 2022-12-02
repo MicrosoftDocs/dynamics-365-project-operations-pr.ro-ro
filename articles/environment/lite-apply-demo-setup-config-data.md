@@ -1,6 +1,6 @@
 ---
 title: Aplicarea datelor de instalare și configurare demonstrative - simplificat
-description: Acest articol oferă informații despre cum să aplicați datele de configurare și configurare demonstrative pentru Operațiunile de proiect.
+description: Acest articol oferă informații despre cum se aplică datele de instalare și configurare demo pentru Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ro-RO
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410049"
@@ -21,7 +21,7 @@ _**Implementare simplificată - facturare de la tranzacție la proforma_
 
 ## <a name="prerequisites"></a>Cerințe preliminare
 
-Înainte de a începe configurarea, trebuie să aveți un Dataverse mediu prevăzut pentru Dynamics 365 Project Operations.
+Înainte să începeți configurarea, trebuie să aveți un mediu Dataverse furnizat pentru Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Instrucțiuni

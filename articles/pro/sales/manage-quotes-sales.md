@@ -1,6 +1,6 @@
 ---
 title: Gestionarea ofertelor de proiect
-description: Acest articol oferă informații despre ofertele de proiecte.
+description: Acest articol oferă informații despre ofertele de proiect.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ O listă cu toate citatele proiectului poate fi văzută din pagina listei **Ofe
 Cotațiile pot fi create sau șterse din această pagină de listă sau pagini de detalii.
 
  > [!NOTE]
- > Citatele care au asociate proiecte, sarcini, estimări, jurnale și/sau date reale nu pot fi șterse. De asemenea, atunci când o cotație este închisă ca câștigată sau pierdută, nu mai poate fi șters sau modificat. 
+ > Ofertele care au asociate proiecte, sarcini, estimări, jurnale și/sau valori reale nu pot fi șterse. De asemenea, atunci când o ofertă este închisă ca Câștigată sau Pierdută, nu mai poate fi ștearsă sau modificată. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

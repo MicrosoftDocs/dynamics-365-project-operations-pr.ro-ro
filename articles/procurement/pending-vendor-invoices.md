@@ -1,6 +1,6 @@
 ---
-title: Achiziționați materiale care nu sunt stocate sau categorii de achiziții folosind o factură de furnizor în așteptare
-description: Acest articol explică cum să înregistrați facturile furnizorilor în așteptare.
+title: Achiziții de materiale care nu există pe stoc sau categorii de achiziții care utilizează o factură de furnizor neachitată
+description: Acest articol explică modul de înregistrare a facturilor de furnizor neachitate.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8922007"
 ---
-# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Achiziționați materiale care nu sunt stocate sau categorii de achiziții folosind o factură de furnizor în așteptare
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Achiziții de materiale care nu există pe stoc sau categorii de achiziții care utilizează o factură de furnizor neachitată
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Deoarece o companie achiziționează materiale neaprovizionate sau categorii de achiziții pentru un proiect, costurile pot fi înregistrate imediat în raport cu proiectul. 
+Întrucât o companie cumpără materiale care nu sunt stocate sau categorii de achiziții pentru un proiect, costurile pot fi înregistrate imediat în raport cu proiectul. 
 
-De exemplu, Contoso Robotics SUA realizează un proiect de reînnoire a echipamentelor și are nevoie de licențe software. Aceste licențe sunt achiziționate de la un furnizor terță parte.  Folosind Dynamics 365 Finance, funcționarul conturi plătibile înregistrează un document de facturare a furnizorului în așteptare și atribuie costurile de licență direct proiectului de reînnoire a echipamentului. 
+De exemplu, Contoso Robotics SUA realizează un proiect de reînnoire a echipamentelor și are nevoie de licențe software. Aceste licențe sunt achiziționate de la un furnizor terță parte.  Folosind Dynamics 365 Finance, funcționarul pentru Conturi de plată înregistrează un document de factură de furnizor în așteptare și atribuie costurile licenței direct proiectului de reînnoire a echipamentului. 
 
 > [!IMPORTANT]
-> Înainte de a utiliza funcționalitatea descrisă în acest articol, revizuiți și aplicați configurațiile necesare. Pentru mai multe informații, vezi [Activați materialele care nu sunt stocate și facturile furnizorilor în așteptare](configure-materials-nonstocked.md) și [Utilizați categorii de achiziții cu comenzile de achiziție de proiect și facturile furnizorilor în așteptare](configure-procurement-categories.md)
+> Înainte de a utiliza funcționalitatea descrisă în acest articol, revizuiți și aplicați configurațiile necesare. Pentru mai multe informații, consultați [Activarea materialelor care nu sunt stocate și facturile de furnizor aflate în așteptare](configure-materials-nonstocked.md) și [Utilizarea categoriilor de achiziții cu comenzile de cumpărare de proiect și facturile de furnizor aflate în așteptare](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Postați o factură de vânzător neachitată legată de proiect 
 
 Facturile neachitate de la vânzător pot fi înregistrate pe pagina **Facturi de vânzător neachitate** (**Conturi furnizori** > **Facturi** > **Facturi de vânzător neachitate**). Parcurgeți pașii următori pentru a posta o factură de furnizor neachitată legată de proiect:
 
-1. Mergi la **Creanţe** > **Facturi**, și selectați **Nou**. 
-1. În **Cont de factură** câmp, selectați un furnizor și apoi, în **Număr** câmp, introduceți identificarea facturii furnizorului.
-1. Adăugați o linie la factura furnizorului, apoi, în **Numărul de articol** câmp, selectați articolul neachizitionat care a fost achiziționat de la furnizor. Alternativ, în **Categoria de achiziții** câmp, selectați categoria de achiziție care a fost achiziționată de la furnizor.   
-1. Adăugați cantitatea care a fost achiziționată. Sistemul completează prețul unitar, pe baza configurației prețului articolului care nu este stocat. 
+1. Accesați **Conturi de plată** > **Facturi** și selectați **Nou**. 
+1. În câmpul **Cont de factură**, selectați un furnizor și apoi, în câmpul **Număr**, introduceți identificarea facturii de furnizor.
+1. Adăugați o linie la factura de furnizor și apoi, în câmpul **Număr articol**, selectați articolul care nu se află în stoc cumpărat de la furnizor. Alternativ, în câmpul **Categorie de achiziții**, selectați categoria de achiziții care a fost achiziționată de la furnizor.   
+1. Adăugați cantitatea care a fost achiziționată. Sistemul completează prețul unitar pe baza configurației prețului articolului care nu se află în stoc. 
 1. Verificați suma totală și alte detalii necesare pe linie.
-1. În detaliile rândului, pe **Proiect** fila, selectați ID-ul proiectului în care va fi înregistrat acest articol.
-1. Opțional: Selectați numărul activității și actualizați categoria proiectului și proprietatea liniei.
-1. Postați factura de furnizor în așteptare. Când factura este înregistrată, sistemul înregistrează următoarele informații:
+1. În detaliile de linie, pe fila **Proiect**, selectați ID-ul proiectului în care va fi înregistrat acest element.
+1. Opțional: Selectați numărul activității și actualizați categoria de proiect și proprietatea liniei.
+1. Publicați factura de furnizor aflată în așteptare. Când factura este publicată, sistemul înregistrează următoarele informații:
     
     - Valoarea soldului furnizorului.
     - Valoare impozit pe vânzări.

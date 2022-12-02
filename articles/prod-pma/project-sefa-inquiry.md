@@ -1,6 +1,6 @@
 ---
 title: Planificarea de cheltuieli al anchetei Federal Awards
-description: Acest articol oferă informații despre programul de cheltuieli al anchetei privind premiile federale.
+description: Acest articol oferă informații despre ancheta privind planificarea de cheltuieli a Federal Awards.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

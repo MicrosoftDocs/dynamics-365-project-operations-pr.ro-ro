@@ -1,6 +1,6 @@
 ---
 title: Gestionarea contractelor de proiect
-description: Acest articol oferă informații despre vizualizarea contractelor bazate pe proiecte.
+description: Acest articol furnizează informații despre vizualizarea contractelor bazate pe proiect.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ O listă cu toate contractele de proiect poate fi văzută pe pagina listei **Co
 Contractele pot fi create sau șterse din această pagină de listă sau pagini de detalii.
 
 > [!NOTE]
-> Contractele care au proiecte, sarcini, estimări, jurnale și/sau date reale asociate cu acestea nu pot fi șterse. 
+> Contractele care au asociate proiecte, sarcini, estimări, jurnale și/sau valori reale nu pot fi șterse. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

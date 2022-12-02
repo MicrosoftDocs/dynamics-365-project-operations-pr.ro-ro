@@ -1,6 +1,6 @@
 ---
 title: Seturi de aprobări în Project Service Automation
-description: Acest articol oferă informații despre setul de aprobare, solicitări și subseturile acelor operațiuni.
+description: Acest articol oferă informații despre setul de aprobări, cereri și subseturile acelor operațiuni.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

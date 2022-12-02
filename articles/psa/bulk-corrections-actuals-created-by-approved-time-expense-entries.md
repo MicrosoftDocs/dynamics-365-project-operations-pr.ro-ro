@@ -1,6 +1,6 @@
 ---
 title: Corecții în bloc ale datelor reale create prin intrări de timp și cheltuieli aprobate
-description: Acest articol explică modul în care un administrator poate face corecții individuale sau în bloc la intrările de timp sau cheltuieli aprobate anterior, dacă facturarea nu este completă.
+description: Acest articol explică modul în care un administrator poate efectua corecții unice sau în bloc la intrările de timp sau cheltuieli aprobate anterior dacă facturarea nu este finalizată.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article

@@ -18,7 +18,7 @@ ms.locfileid: "8931254"
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
   - Project Operations pe mediul Dataverse versiunea 4.9.0.221 
 

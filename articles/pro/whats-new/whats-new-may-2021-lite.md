@@ -1,6 +1,6 @@
 ---
 title: Noutăți mai 2021 - implementare simplificată Project Operations
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea mai 2021 a implementării Project Operations lite.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din mai 2021 de implementare a Project Operations lite.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8934197"
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
    - Project Operations pe mediul Dataverse versiunea 4.10.0.186.
 

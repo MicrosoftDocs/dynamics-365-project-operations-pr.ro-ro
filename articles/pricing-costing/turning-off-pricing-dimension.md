@@ -1,6 +1,6 @@
 ---
 title: Dezactivarea unei dimensiuni de preț
-description: Acest articol oferă informații despre cum să dezactivați parametrii de preț.
+description: Acest articol oferă informații despre cum să dezactivați dimensiunile de preț.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

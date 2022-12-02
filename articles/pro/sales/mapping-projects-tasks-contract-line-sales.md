@@ -1,6 +1,6 @@
 ---
 title: Maparea proiectelor și activităților într-o linie de contract bazată pe proiect - simplificat
-description: Acest articol oferă informații despre adăugarea și eliminarea proiectelor și sarcinilor dintr-o linie de contract.
+description: Acest articol oferă informații despre adăugarea și eliminarea de proiecte și sarcini pe o linie de contract.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Editați o cerință de resurse
-description: Acest articol oferă informații despre actualizarea informațiilor despre cerințele de resurse.
+description: Acest articol oferă informații despre actualizarea informațiilor de cerințe de resursă.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Dezactivarea unei dimensiuni de tarifare
-description: Acest articol arată cum să configurați dimensiunile de preț în soluția Project Service.
+description: Acest articol arată cum se configurează dimensiunile de tarifare în soluția Project service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

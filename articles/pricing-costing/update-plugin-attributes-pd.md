@@ -1,6 +1,6 @@
 ---
 title: Actualizarea atributelor inserturilor cu noile dimensiuni de preț
-description: Acest articol oferă informații despre cum să actualizați atributele plug-in-urilor pentru dimensiunile de preț.
+description: Acest articol furnizează informații despre cum să actualizați atributele inserturilor pentru dimensiunile de preț.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920029"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Actualizați atributele inserturilor cu noile dimensiuni de preț
 
-Acest articol oferă informații despre cum să actualizați atributele plug-in-urilor pentru dimensiunile de preț.
+Acest articol furnizează informații despre cum să actualizați atributele inserturilor pentru dimensiunile de preț.
 
 > [!NOTE]
-> Acest articol se aplică numai cotației și caracteristicilor contractului din Dynamics 365 Project Operations.
+> Acest articol se aplică numai caracteristicilor de ofertă și contract în Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Cerințe preliminare
-Înainte de a parcurge pașii din acest articol, trebuie să fi finalizat procedurile din următoarele articole:
+Înainte de a finaliza pașii din acest articol, trebuie să fi finalizat procedurile din următoarele articole:
 
   - [Crearea câmpurilor și entităților particularizate](create-custom-fields-entities-pricing-dimensions.md) 
   - [Adăugarea câmpurilor particularizate la configurarea prețurilor și la entitățile tranzacționale ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configurarea câmpurilor particularizate ca dimensiuni de preț](set-up-custom-fields-pricing-dimensions.md). 
   
-Dacă nu ați finalizat aceste proceduri, completați-le și apoi reveniți la acest articol.
+Dacă nu ați finalizat acele proceduri, finalizați-le și apoi reveniți la acest articol.
 
 ## <a name="register-a-plug-in"></a>Înregistrați un insert
 Când se creează un detaliu de linie de ofertă pe pagina **Linie de ofertă** pentru o linie de ofertă de proiect, sistemul creează două linii de estimare. O linie este pentru partea de cost a estimării, iar cealaltă linie este pentru partea de vânzări. Acest lucru este la fel pentru liniile de contract de proiect.

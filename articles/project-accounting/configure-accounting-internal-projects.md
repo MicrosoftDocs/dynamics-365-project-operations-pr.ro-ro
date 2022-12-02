@@ -1,6 +1,6 @@
 ---
 title: Configurați contabilitatea pentru proiectele interne
-description: Acest articol oferă informații despre cum să configurați practicile de contabilitate pentru proiectele interne în Operațiuni de proiect.
+description: Acest articol oferă informații despre modul de configurare a practicilor contabile pentru proiecte interne în Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

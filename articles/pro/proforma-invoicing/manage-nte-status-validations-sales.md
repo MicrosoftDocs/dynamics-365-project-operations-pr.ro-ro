@@ -1,6 +1,6 @@
 ---
 title: Gestionarea stării și validărilor care nu trebuie depășite
-description: Acest articol oferă informații despre verificările pentru a nu depăși limita efectuate în Operațiunile de proiect.
+description: Acest articol oferă informații despre verificările cu limită de nedepășit efectuate în Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

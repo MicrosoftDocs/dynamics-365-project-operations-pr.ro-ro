@@ -1,6 +1,6 @@
 ---
 title: Crearea ofertelor de proiecte din oportunități
-description: Acest articol oferă informații despre crearea unei cotații de proiect dintr-o oportunitate.
+description: Acest articol oferă informații despre crearea unei oferte de proiect dintr-o oportunitate.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

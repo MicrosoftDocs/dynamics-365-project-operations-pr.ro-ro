@@ -1,6 +1,6 @@
 ---
 title: Rezervări versus atribuiri
-description: Acest articol oferă informații despre diferențele dintre rezervările de resurse și alocările de resurse.
+description: Acest articol furnizează informații despre diferențele dintre rezervările de resurse și atribuirile de resurse.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

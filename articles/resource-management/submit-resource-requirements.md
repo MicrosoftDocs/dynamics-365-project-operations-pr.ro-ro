@@ -1,6 +1,6 @@
 ---
 title: Remiterea unei solicitări de resursă
-description: Aveți posibilitatea să trimiteți o cerință de resursă generată ca o solicitare de resursă. Solicitarea este apoi trimisă unui manager de resurse pentru îndeplinire.
+description: Aveți posibilitatea să trimiteți o cerință de resursă generată ca o solicitare de resursă. Solicitarea este apoi trimisă către un Manager de resurse pentru îndeplinire.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9137196"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Aveți posibilitatea să trimiteți o cerință de resursă generată ca o solicitare de resursă. Solicitarea este apoi trimisă unui manager de resurse pentru îndeplinire.
+Aveți posibilitatea să trimiteți o cerință de resursă generată ca o solicitare de resursă. Solicitarea este apoi trimisă către un Manager de resurse pentru îndeplinire.
 
 1. În Dynamics 365 Project Operations, pe pagina **Proiecte**, selectați fila **Echipă** pentru a vizualiza o listă de resurse care pot fi rezervate. 
 2. Selectați resursa generică care are o cerință de resurse din listă și apoi faceți clic pe **Remitere cerere**.
@@ -28,7 +28,7 @@ Destinatarul cererii de resurse are capacitatea fie de a îndeplini parțial cer
 
 După ce solicitarea este îndeplinită, una sau mai multe resurse numite sunt adăugate la proiect ca membri ai echipei de proiect. Dacă cerința de resursă este îndeplinită de o resursă, membrul generic al echipei asociat cu cererea de resursă este șters. 
 
-După ce destinatarul solicitării de resurse a propus resurse și este gata pentru ca managerul de proiect să examineze resursele care au fost propuse, acesta ar trebui să actualizeze starea solicitării de resurse la **Necesită revizuire**.
+După ce destinatarul solicitării de resurse a propus resurse și este gata pentru ca Managerul de proiect să examineze resursele care au fost propuse, acesta ar trebui să actualizeze starea solicitării de resurse la **Necesită revizuire**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

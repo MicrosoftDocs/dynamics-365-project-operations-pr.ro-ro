@@ -1,6 +1,6 @@
 ---
 title: Configurarea reținerii furnizorilor
-description: Acest articol explică cum să configurați păstrarea furnizorilor.
+description: Acest articol explică modul de configurare a reținerii furnizorului.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929781"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol oferă informații despre cum să configurați păstrarea furnizorilor.
+Acest articol furnizează informații despre cum să configurați reținerea furnizorului.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Configurați un cont de păstrare a furnizorului în registrul general
 
-1. În Dynamics 365 Finance, accesați **Registrul general** > **Configurarea postării** > **Conturi pentru tranzacții automate**.
+1. În Dynamics 365 Finance, accesați **Registru general** > **Configurare publicare** > **Conturi pentru tranzacții automate**.
 2. Adăugați o linie nouă.
 3. În câmpul **Tip de publicare**, selectați **Păstrarea furnizorului**.
 4. Selectați contul principal pentru înregistrarea de păstrare a furnizorului.

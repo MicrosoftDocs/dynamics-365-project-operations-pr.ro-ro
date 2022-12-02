@@ -1,6 +1,6 @@
 ---
-title: Sincronizați sarcinile de proiect direct de la Project Service Automation la finanțare și operațiuni
-description: Acest articol descrie șablonul și sarcina de bază care sunt utilizate pentru a sincroniza sarcinile de proiect direct din Microsoft Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+title: Sincronizarea activităților de proiecte direct din Project Service Automation în finanțe și operațiuni
+description: Acest articol descrie șablonul și sarcina de desfășurare care sunt utilizate pentru a sincroniza sarcinile proiectului direct din Microsoft Dynamics 365 Project Service Automation în Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028376"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizați sarcinile de proiect direct de la Project Service Automation la finanțare și operațiuni
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizarea activităților de proiecte direct din Project Service Automation în finanțe și operațiuni
 
 [!include[banner](../includes/banner.md)]
 
-Acest articol descrie șablonul și sarcina de bază care sunt utilizate pentru a sincroniza sarcinile de proiect direct din Dynamics 365 Project Service Automation la Dynamics 365 Finance.
+Acest articol descrie șablonul și sarcina de desfășurare care sunt utilizate pentru a sincroniza sarcinile proiectului direct din Dynamics 365 Project Service Automation în Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrarea sarcinilor proiectului, categoriile tranzacțiilor de cheltuieli, estimările orelor, estimările cheltuielilor și blocarea funcționalității sunt disponibile în versiunea 8.0.
@@ -67,11 +67,11 @@ Sarcinile proiectului sunt gestionate în Project Service Automation și sunt si
 
 ## <a name="power-query"></a>Power Query
 
-Trebuie să utilizați Microsoft Power Query pentru ca Excel să filtreze datele dacă această condiție este îndeplinită:
+Trebuie să utilizați Microsoft Power Query pentru Excel pentru a filtra datele dacă această condiție este îndeplinită:
 
 - Aveți înregistrări specifice resurselor într-o sarcină de proiect.
 
-Dacă trebuie să utilizați Power Query, urmați acest ghid:
+Dacă trebuie să utilizați Power Query, urmați această recomandare:
 
 - Șablonul Sarcini de proiect (PSA la Fin și Ops) are un filtru implicit care exclude înregistrările specifice resurselor dintr-o sarcină de proiect prin setarea filtrului pe **IsLineTask** la **Fals**. Dacă vă creați propriul șablon, trebuie să adăugați acest filtru.
 

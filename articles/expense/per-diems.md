@@ -1,6 +1,6 @@
 ---
 title: Diurne
-description: Acest articol oferă informații despre regulile diurne care sunt utilizate în gestionarea cheltuielilor.
+description: Acest articol oferă informații despre regulile pentru diurnă care sunt utilizate în Managementul cheltuielilor.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

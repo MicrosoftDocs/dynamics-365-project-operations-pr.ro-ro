@@ -1,6 +1,6 @@
 ---
 title: Câmpurile Project Operations ca dimensiuni de preț
-description: Acest articol oferă informații folosind câmpuri ca dimensiuni de preț în Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre utilizarea câmpurilor ca dimensiuni pentru stabilirea prețurilor în Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

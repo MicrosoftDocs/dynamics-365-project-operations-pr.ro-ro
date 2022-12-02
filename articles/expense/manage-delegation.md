@@ -1,6 +1,6 @@
 ---
 title: Gestionarea delegării
-description: Acest articol oferă informații despre modul în care un delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli pentru un alt angajat.
+description: Acest articol furnizează informații despre modul în care un delegat de cheltuieli poate crea și gestiona rapoarte de cheltuieli pentru un alt angajat.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

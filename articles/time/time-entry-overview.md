@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală de timp
-description: Acest articol oferă informații despre funcționalitatea Time în Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre funcționalitatea Timp din Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Definirea abilităților și competențelor
-description: Acest articol oferă informații despre cum să configurați modele de competență pentru a evalua resursele.
+description: Acest articol oferă informații despre cum să configurați modele de competență pentru a evalua resurse.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

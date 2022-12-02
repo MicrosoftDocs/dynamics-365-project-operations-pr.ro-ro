@@ -1,6 +1,6 @@
 ---
 title: Crearea unui șablon de ore de lucru
-description: Acest articol descrie cum să creați un șablon de oră de lucru în Project Service.
+description: Acest articol descrie cum să creați un șablon de ore de lucru în Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

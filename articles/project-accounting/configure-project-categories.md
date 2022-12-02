@@ -1,6 +1,6 @@
 ---
 title: Configurarea categoriilor de proiecte
-description: Acest articol oferă informații despre configurarea categoriilor de proiecte.
+description: Acest articol furnizează informații despre configurarea categoriilor de proiect.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article

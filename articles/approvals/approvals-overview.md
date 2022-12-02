@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a aprobărilor
-description: Acest articol oferă informații despre lucrul cu aprobări în Operațiuni de proiect.
+description: Acest articol oferă informații despre lucrul cu aprobări în Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

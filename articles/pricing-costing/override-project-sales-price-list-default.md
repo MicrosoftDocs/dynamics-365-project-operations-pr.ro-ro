@@ -1,6 +1,6 @@
 ---
 title: Înlocuirea listelor de prețuri de vânzare pentru proiect
-description: Acest articol oferă informații despre crearea unor liste de prețuri de vânzare personalizate.
+description: Acest articol oferă informații despre crearea listelor de prețuri de vânzare personalizate.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

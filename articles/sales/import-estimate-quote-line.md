@@ -1,6 +1,6 @@
 ---
 title: Importați estimări pentru un proiect pentru o linie de ofertă a unui proiect
-description: Acest articol oferă informații despre importul estimărilor dintr-un proiect într-o linie de ofertă de proiect.
+description: Acest articol oferă informații despre importul de estimări dintr-un proiect într-o linie de ofertă de proiect.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

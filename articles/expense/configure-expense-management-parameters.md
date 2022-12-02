@@ -1,6 +1,6 @@
 ---
 title: Configurarea parametrilor de gestionare a cheltuielilor
-description: Acest articol descrie parametrii care controlează comportamentul general în managementul cheltuielilor.
+description: Acest articol descrie parametrii care controlează comportamentul general în Gestionarea cheltuielilor.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931483"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol descrie parametrii de control al comportamentului general în managementul cheltuielilor.
+Acest articol descrie parametrii care controlează comportamentul general în Gestionarea cheltuielilor.
 
 ## <a name="general"></a>General
 

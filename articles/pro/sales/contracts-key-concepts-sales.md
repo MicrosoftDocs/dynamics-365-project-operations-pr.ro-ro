@@ -19,7 +19,7 @@ _**Se aplică la:** implementare simplificată - facturare de la tranzacție la 
 
 
 
-Acest articol oferă conceptele cheie de care trebuie să fiți conștient înainte de a începe să utilizați contractele de proiect Dynamics 365 Project Operations:
+Acest articol oferă conceptele cheie pe care trebuie să le cunoașteți înainte de a începe să utilizați Contractele de proiect în Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unitate contractantă
 

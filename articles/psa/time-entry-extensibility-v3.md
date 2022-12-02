@@ -1,6 +1,6 @@
 ---
 title: Particularizarea intrărilor de timp săptămânale
-description: Acest articol oferă informații despre cum să implementați reguli de afaceri personalizate care sprijină practicile unei organizații.
+description: Acest articol furnizează informații despre cum să implementați reguli de business particularizate care susțin practicile unei organizații.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Secțiunea **Dimensiuni** afișează, ca titluri de coloană, toate dimensiunile
 - Tip
 - Stare intrare
 
-Secțiunea **Dimensiuni** nu permite editarea inline. Această secțiune este susținută de o vizualizare care permite adăugarea de câmpuri particularizate la grila de introducere săptămânală a timpului. Pentru informații despre cum să adăugați câmpuri personalizate, consultați secțiunea „Extensibilitate” mai târziu în acest articol.
+Secțiunea **Dimensiuni** nu permite editarea inline. Această secțiune este susținută de o vizualizare care permite adăugarea de câmpuri particularizate la grila de introducere săptămânală a timpului. Pentru informații despre cum se adaugă câmpuri particularizate, consultați secțiunea „Extensibilitate” mai jos în acest articol.
 
 ### <a name="duration"></a>Durată
 Secțiunea Durată afișează zilele săptămânii ca anteturi de coloană. Această secțiune permite editarea inline. După ce se creează un rând de introducere de timp care are dimensiuni corespunzătoare, utilizatorii pot introduce rapid, inline, cantitatea de timp pe care au cheltuit-o pe aceste dimensiuni.

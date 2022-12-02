@@ -1,6 +1,6 @@
 ---
 title: Versiuni de hartă Project Operations cu scriere duală
-description: Acest articol oferă lista de hărți cu scriere duală necesare pentru Dynamics 365 Project Operations.
+description: Acest articol oferă lista hărților cu scriere duală necesare pentru Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Următoarele hărți sunt condiții preliminare necesare pentru soluția Project
 
 | Mapare de tabele | Sincronizare inițială |
 | --- | --- |
-| Registru (msdyn_ledgers) | Necesită sincronizare inițială pentru harta tabelului și toate condițiile preliminare. Master pentru sincronizarea inițială este aplicațiile de finanțare și operațiuni. |
+| Registru (msdyn_ledgers) | Necesită sincronizare inițială pentru harta tabelului și toate condițiile preliminare. Coordonatorul pentru sincronizarea inițială este reprezentate de aplicațiile pentru finanțe și operațiuni. |
 | Entități legale (cdm_companies) | Nu este necesar. Sistemul populează această entitate automat atunci când mediile sunt conectate utilizând scrierea duală. |
 | Clienți V3 (conturi) | Nu este necesar pentru pregătire. |
 | Furnizori V2 (msdyn_vendors) | Nu este necesar pentru pregătire. |
 
-1. Din lista de hărți, selectați harta Registru **(msdyn\_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. În **Master pentru sincronizarea inițială** câmp, selectați **Aplicații de finanțare și operațiuni** atât pentru harta registrului, cât și pentru toate hărțile prealabile. Selectare rând **Rulare**.
+1. Din lista de hărți, selectați harta Registru **(msdyn\_ledgers)** cu toate premisele si selectați caseta de bifare **Sincronizare inițială**. În câmpul **Coordonator pentru sincronizarea inițială**, selectați **Aplicațiile pentru finanțe și operațiuni** atât pentru harta contabilă, cât și pentru toate hărțile preliminare necesare. Selectare rând **Rulare**.
 
 ![Sincronizarea hărții registrului contabil.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Următoarele hărți sunt necesare pentru o soluție Project Operations. Versiun
 | Anteturile contractului de proiect (comenzi de vânzări) | 1.0.0.1 | Nu este necesar pentru pregătire. ||
 | Linii de contract de proiect (salesorderdetails) | 1.0.0.0 | Nu este necesar pentru pregătire. ||
 | Sursa de finanțare a proiectului (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nu este necesar pentru pregătire. ||
-| Tabel de integrare a proiectelor pentru estimări de materiale (msdyn\_ estimări) | 1.0.0.0 | Nu este necesar pentru pregătire. ||
+| Tabel de integrare a proiectului pentru estimări de materiale (msdyn\_estimatelines) | 1.0.0.0 | Nu este necesar pentru pregătire. ||
 | Propuneri de facturi de proiect V2 (facturi) | 1.0.0.3 | Nu este necesar pentru pregătire. ||
 | Integrare valori reale Project Operations (msdyn_actuals) | 1.0.0.15 | Nu este necesar pentru pregătire. |10.0.29 sau ulterioare|
 | Integrare Project Operations jaloane linie de contract (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nu este necesar pentru pregătire. ||

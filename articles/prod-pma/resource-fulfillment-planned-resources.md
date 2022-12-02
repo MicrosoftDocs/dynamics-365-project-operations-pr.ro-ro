@@ -1,6 +1,6 @@
 ---
 title: Completarea resurselor pentru resursele planificate
-description: Acest articol oferă informații despre resursele planificate pentru un proiect.
+description: Acest articol furnizează informații despre resursele planificate pentru un proiect.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

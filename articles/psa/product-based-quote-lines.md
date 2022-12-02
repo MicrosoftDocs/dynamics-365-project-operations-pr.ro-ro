@@ -1,6 +1,6 @@
 ---
 title: Linii de oferte bazate pe produs
-description: Acest articol oferă informații despre liniile de oferte bazate pe produse.
+description: Acest articol oferă informații despre linii de ofertă pe bază de produs.
 author: rumant
 ms.custom:
 - dyn365-projectservice

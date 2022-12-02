@@ -1,6 +1,6 @@
 ---
 title: Model de securitate
-description: Acest articol oferă informații despre modelul de securitate în Dynamics 365 Project Operations.
+description: Acest articol oferă informații despre modelul de securitate din Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ Pe măsură ce modelul de colaborare în grup Office evoluează, funcționalitat
 
 Pentru mai multe informații consultați [Securitate în Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Operațiuni de proiect și Microsoft Dynamics 365 Securitate financiară
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Securitatea în Project Operations și Microsoft Microsoft Dynamics 365 Finance
 Project Operations include următoarele roluri:
 
 - Manager de proiect

@@ -1,6 +1,6 @@
 ---
 title: Noutăți sau modificări la versiunea actualizată 29.5 Hotfix, V3 în Project Service Automation
-description: Acest articol enumeră caracteristicile și corecțiile disponibile în actualizarea Project Service Automation, versiunea 29.5, remediere rapidă, V3.
+description: Acest articol listează caracteristicile și corecțiile disponibile în Project Service Automation, versiunea de actualizare 29.5 Hotfix, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -27,7 +27,7 @@ ms.locfileid: "8926377"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Project Service Automation pentru Dynamics 365. Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365, pagina de soluții online pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol listează caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Actualizare Versiunea 29.5. Această versiune are un număr de V3.10.47.150 și este, în general, disponibilă printr-o auto-actualizare în ianuarie 2021.
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea de actualizare 29.5. Această versiune are un număr de V3.10.47.150 și este, în general, disponibilă printr-o auto-actualizare în ianuarie 2021.
 
 ## <a name="update-release-295"></a>Lansarea de actualizări 29.5
 

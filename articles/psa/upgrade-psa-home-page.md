@@ -1,6 +1,6 @@
 ---
 title: Actualizare pagină de pornire
-description: Acest articol arată unde puteți găsi informații importante despre funcțiile noi și modificate în Dynamics 365 Project Service Automation, și procesul de actualizare la cea mai nouă versiune.
+description: Acest articol arată unde se găsesc informații importante despre caracteristicile noi și modificate din Dynamics 365 Project Service Automation, precum și procesul de upgrade la cea mai nouă versiune.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Anterior, clienții care au o instanță de PSA versiunea 2.x și trebuiau să f
 Înainte de a începe procesul de actualizare, vă recomandăm să completați următoarele activități:
 
 - Verificați dacă pe instanța identificată sunt instalate atât Dynamics 365 Field Service, cât și Project Service Automation. Dacă ambele soluții sunt instalate, trebuie să planificați să le actualizați pe amândouă înainte de a relua utilizarea regulată a instanței.
-- Consultați cu atenție următoarele articole. Conștientizarea și înțelegerea modificărilor dintre versiuni vă vor ajuta cu procesul de actualizare. Aceste articole oferă informații despre schimbările majore în PSA, împreună cu considerații și recomandări pentru planificarea upgrade-ului la versiunea 3.x.
+- Examinați cu atenție următoarele articole. Conștientizarea și înțelegerea modificărilor dintre versiuni vă vor ajuta cu procesul de actualizare. Aceste articole oferă informații despre modificările majore în PSA, împreună cu considerente și recomandări pentru planificarea actualizării la versiunea 3.x.
 
     - [Ce este nou sau modificat în Project Service Automation versiunea 3](whats-new-changed-v3.md)
     - [Considerente legate de upgrade - Project Service Automation versiunea 2.x sau 1.x până la versiunea 3](upgrade-v3.md)
 
 - Actualizați-vă instanța sandbox pentru a evalua modificările din implementare înainte de a vă actualiza instanța de producție.
 
-După ce ați examinat articolele menționate mai devreme și sunteți gata să faceți upgrade la versiunea PSA 3.x sau la versiunea bazată pe UCI, trimiteți o solicitare la asistența Microsoft pentru a face upgrade-ul disponibil din Centrul de administrare. În cererea dumneavoastră, furnizați detaliile instanței dvs.
+După ce ați revizuit articolele care au fost menționate mai sus și sunteți gata să actualizați la PSA versiunea 3.x sau versiunea bazată pe UCI, trimiteți o solicitare de asistență Microsoft pentru a face actualizarea disponibilă din centrul de administrare. În cererea dumneavoastră, furnizați detaliile instanței dvs.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Versiuni mai vechi de PSA (PSA versiunea 2.x) într-o instanță nou creată
 

@@ -1,6 +1,6 @@
 ---
 title: Note pentru dezvoltatori pentru aprobări
-description: Acest articol oferă informații suplimentare despre dezvoltatori despre lucrul cu aprobări.
+description: Acest articol oferă informații suplimentare pentru dezvoltatori despre lucrul cu aprobări.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

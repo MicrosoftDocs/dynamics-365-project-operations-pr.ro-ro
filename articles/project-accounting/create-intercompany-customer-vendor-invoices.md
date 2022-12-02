@@ -1,6 +1,6 @@
 ---
 title: Crearea de facturi de client și furnizor între companii
-description: Acest articol oferă informații despre cum să creați facturi intercompanii pentru clienți și furnizori.
+description: Acest articol oferă informații despre cum să creați facturi de client și vânzător între companii.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Utilizați această procedură pentru a crea manual o factură de client între 
 
 Următorii pași trebuie să fie efectuați în entitatea juridică de creditare. 
 
-1. În Dynamics 365 Finance, accesați **Management de proiect si contabilitate** > **Facturi de proiect** > **Facturi clienți intercompanii**. Pe pagina listă **Facturi clienți între companii**, în panoul de acțiuni, selectați **Nou.**
+1. În Dynamics 365 Finance, accesați **Management de proiect și contabilitate** > **Facturi de proiect** > **Facturi de clienți între companii**. Pe pagina listă **Facturi clienți între companii**, în panoul de acțiuni, selectați **Nou.**
 2. Pe pagina **Creați factură între companii**, în câmpul **Entitate legală**, selectați o entitate juridică care împrumută.
 3. Opțional: introduceți un anumit contract de proiect și un număr de proiect.
 4. Limitați căutarea selectând un interval de date. Introduceți date specifice în câmpurile **Data de început** și **Data de încheiere**. Numai tranzacțiile între companii care sunt înregistrate în acest interval de date sunt afișate în rezultatele căutării.

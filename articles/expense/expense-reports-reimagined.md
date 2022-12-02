@@ -1,6 +1,6 @@
 ---
-title: Rapoartele de cheltuieli reimaginate (conțin videoclip)
-description: Acest articol explică experiența reproiectată și reimaginată pentru introducerea raportului de cheltuieli.
+title: Rapoartele de cheltuieli reinventate (conține clip video)
+description: Acest articol explică experiența reproiectată și reinventată pentru introducerea raportului de cheltuieli.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Pentru a activa noua experiență, utilizați spațiu de lucru **Gestionarea car
 | Salvați și adăugați noi linii de cheltuieli | Butoanele **Salvați** și **Nou** sunt disponibile atunci când sunt introduse noi cheltuieli, pentru a vă ajuta să introduceți rapid liniile de cheltuieli. |
 | O vizibilitate mai bună în linii separate și detaliate | Liniile detaliate și împărțite sunt adăugate direct la lista cheltuielilor pentru a crește vizibilitatea și a vă ajuta să determinați cu ușurință dacă există erori. |
 | Vizualizați detaliile subcategoriei în rânduri detaliate | Liniile detaliate ale unei cheltuieli părinte prezintă etichetele subcategoriei pe raportul de cheltuieli. Detalierea vă permite să revizuiți detaliile granulare dintr-o privire.|
-|Detaliați rapid cheltuielile recurente | Spațiul de lucru pentru cheltuieli reimaginat oferă posibilitatea de a detalia rapid cheltuielile recurente adăugând subcategoria, data de începere și cantitatea. Cantitatea se referă la numărul de ori se repetă încărcarea într-o perioadă continuă. |
+|Detaliați rapid cheltuielile recurente | Spațiul de lucru pentru cheltuieli reinventat oferă posibilitatea de a detalia rapid cheltuielile recurente adăugând subcategoria, data de începere și cantitatea. Cantitatea se referă la frecvența cu care încărcarea se repetă pe o perioadă continuă de timp. |
 | Afișați chitanțele în timpul detalierii | Chitanțele pot fi afișate în timpul detalierii. |
 | Selecție de avans în numerar | Selectați unul sau mai multe avansuri de numerar pentru realizarea unei singure tranzacții de cheltuieli. |
 | Sold avans în numerar | Examinați soldul avansului de numerar în timp real atunci când creați o înregistrare a cheltuielilor comparativ cu avansurile de numerar aprobate și plătite. |

@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau modificat în Project Service Automation versiunea 3.x etapa 1 2020
-description: Acest articol oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea 3 val 1 2020.
+description: Acest articol oferă informații despre ceea ce este nou și schimbat în Project Service Automation, versiunea 3, valul 1, 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928631"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Articolul evidențiază considerente cheie de actualizare atunci când treceți la cea mai recentă versiune a Project Service Automation (PSA) versiunea 3.x val 1 2020.
+Articolul subliniază considerentele cheie de actualizare atunci când treceți la cea mai recentă versiune a Project Service Automation (PSA), versiunea 3.x, valul 1, 2020.
 
 ## <a name="time-entry"></a>Intrare de timp
 Experiența de intrare în timp a fost extinsă pentru a oferi capabilități pentru prelungirea intrării timpului în mai multe scenarii de clienți. Aceasta include capacitatea de a adăuga tipuri de intrare, care conduc acum un comportament specific bazat pe numele schemei de câmp **Setări de intrare de timp**, afișat ca **Sursa timpului**. A fost adăugată o nouă soluție, numită Timp, Cheltuieli, Declarație și Aprobări (TESA) pentru a susține această funcționalitate.

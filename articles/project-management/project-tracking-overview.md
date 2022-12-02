@@ -1,6 +1,6 @@
 ---
 title: Urmărirea efortului în proiecte
-description: Acest articol oferă informații despre cum să urmăriți efortul proiectului și progresul lucrării.
+description: Acest articol furnizează informații despre să urmăriți efortul proiectului și progresul lucrului.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929275"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Necesitatea de a urmări progresele în raport cu o planificare variază în funcție de industrie. Unele industrii urmăresc la un nivel granular, în timp ce alte industrii urmăresc la un nivel mai înalt. Acest articol arată cum să programați pentru a îndeplini cerințele organizației dvs.
+Necesitatea de a urmări progresele în raport cu o planificare variază în funcție de industrie. Unele industrii urmăresc la un nivel granular, în timp ce alte industrii urmăresc la un nivel mai înalt. Acest articol arată cum să planificați pentru a îndeplini cerințele organizației dvs.
 
 ## <a name="effort-tracking-view"></a>Vizualizarea Urmărire efort
 

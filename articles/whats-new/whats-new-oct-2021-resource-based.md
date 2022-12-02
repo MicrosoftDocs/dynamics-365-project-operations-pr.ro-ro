@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în Octombrie 2021 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-description: Acest articol oferă informații despre actualizările de calitate disponibile în ediția din octombrie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în lansarea din octombrie 2021 a Project Operations pentru scenarii de resurse/care nu există pe stoc.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914652"
 
 *Se aplică la: Project Operations pentru scenarii bazate pe resurse/fără stoc*
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
    - Project Operations în mediul Microsoft Dataverse versiunea 4.25.0.91
-   - Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.21
+   - Management de proiect și contabilitate în mediul Dynamics 365 Finance, versiunea 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Caracteristicile incluse în această versiune
 
@@ -49,7 +49,7 @@ Dacă întâmpinați o problemă la pornirea hărții, urmați instrucțiunile d
 | Facturarea și stabilirea prețurilor | 2338357 | Moneda din jurnalul de utilizare a materialelor trebuie să fie implicită față de moneda proiectului atunci când este selectat proiectul. |
 | Timp și cheltuieli | 2414777 | Anularea unei aprobări atunci când înregistrarea cheltuielilor sau a timpului are mai multe aprobări de proiect asociate trebuie să fie posibilă. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate pe Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Management de proiect și contabilitate în Dynamics 365 Finance
 
 | Zonă de caracteristici | Număr de referință | Actualizare de calitate |
 | --- | --- | --- |

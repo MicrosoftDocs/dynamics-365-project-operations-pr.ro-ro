@@ -1,6 +1,6 @@
 ---
 title: Spațiul de lucru mobil pentru intrarea de timp a proiectului
-description: Acest articol oferă informații despre spațiul de lucru mobil pentru intrarea timpului proiectului. Acest spațiu de lucru permite utilizatorilor să intre și să economisească timp pentru un proiect utilizând dispozitivul mobil.
+description: Acest articol oferă informații despre spațiul de lucru mobil pentru intrarea de timp a proiectului. Acest spațiu de lucru permite utilizatorilor să intre și să economisească timp pentru un proiect utilizând dispozitivul mobil.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029683"
 
 [!include [banner](../includes/banner.md)]
 
-Acest articol oferă informații despre **Introducerea timpului proiectului** spațiu de lucru mobil. Acest spațiu de lucru permite utilizatorilor să intre și să economisească timp pentru un proiect utilizând dispozitivul mobil.
+Acest articol oferă informații despre spațiul de lucru mobil pentru **Intrarea de timp a proiectului**. Acest spațiu de lucru permite utilizatorilor să intre și să economisească timp pentru un proiect utilizând dispozitivul mobil.
 
 Acest spațiu de lucru mobil este destinat să fie utilizat cu aplicația mobilă Dynamics 365 Unified Ops. 
 

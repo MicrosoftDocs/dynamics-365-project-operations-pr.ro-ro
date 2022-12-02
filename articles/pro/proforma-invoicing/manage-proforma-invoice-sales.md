@@ -1,6 +1,6 @@
 ---
 title: Gestionarea unei facturi proforma pentru proiect
-description: Acest articol oferă informații despre cum să lucrați cu facturile de proiect proforma.
+description: Acest articol oferă informații despre lucrul cu facturile de proiect proforme în Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

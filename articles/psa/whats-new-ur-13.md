@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 13, V3
-description: Acest articol oferă informații despre noutățile din Project Service Automation Update Versiunea 13, V3.
+description: Acest articol oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea de actualizare 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8930701"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Dynamics 365 Project Service Automation (PSA). Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365 online și accesați pagina cu soluții pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol listează caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Actualizare versiunea 13. Această versiune are un număr de V3.10.3.18 și este disponibilă în următoarea planificare:
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea de actualizare 13. Această versiune are un număr de V3.10.3.18 și este disponibilă în următoarea planificare:
 
 - **Disponibilitate generală (autoactualizare):** noiembrie 2019
 - **Auto-actualizare:** decembrie 2019

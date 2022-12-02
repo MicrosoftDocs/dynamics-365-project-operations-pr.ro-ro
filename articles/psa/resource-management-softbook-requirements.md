@@ -1,6 +1,6 @@
 ---
 title: Cerințe de rezervare provizorie
-description: Acest articol oferă informații despre cum să faceți soft-book-ul cerințelor.
+description: Acest articol oferă informații despre modul de creare a rezervărilor provizorii.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

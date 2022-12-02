@@ -1,6 +1,6 @@
 ---
 title: Gestionarea unităților complexe, cum ar fi liniile de ofertă bazate pe produse per utilizator, pe lună - simplificat
-description: Acest articol oferă informații despre gestionarea unităților complexe pentru liniile de oferte bazate pe produse.
+description: Acest articol oferă informații despre gestionarea unităților complexe pentru linii de ofertă bazate pe produs.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

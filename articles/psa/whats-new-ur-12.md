@@ -1,6 +1,6 @@
 ---
 title: Ce este nou sau schimbat în Project Service Automation versiunea actualizată 12, V3
-description: Acest articol oferă informații despre noutățile din Project Service Automation Update Versiunea 12, V3.
+description: Acest articol oferă informații despre ceea ce este nou și schimbat în Project Service Automation versiunea de actualizare 12, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8922651"
 
 Suntem încântați să anunțăm cea mai recentă actualizare pentru aplicația Dynamics 365 Project Service Automation (PSA). Această versiune include câteva îmbunătățiri importante ale calității, performanței și utilizabilității. Această versiune este compatibilă cu Dynamics 365 9.x. Pentru a actualiza această versiune, accesați Centrul de administrare pentru Dynamics 365 online și accesați pagina cu soluții pentru a instala actualizarea. Pentru informații suplimentare, consultați: [Instalarea, actualizarea sau eliminarea unei soluții preferate](/power-platform/admin/install-remove-preferred-solution).
 
-Acest articol enumeră caracteristicile și remedierile care sunt noi sau modificate pentru Project Service Automation V3, Update Release 12. Această versiune are un număr de V3.10.2.34 și este, în general, disponibilă printr-o auto-actualizare în octombrie 2019.
+Acest articol listează caracteristicile și corecțiile care sunt noi sau modificate pentru Project Service Automation V3, versiunea de actualizare 12. Această versiune are un număr de V3.10.2.34 și este, în general, disponibilă printr-o auto-actualizare în octombrie 2019.
 
 ## <a name="update-release-12"></a>Lansarea de actualizări 12
 

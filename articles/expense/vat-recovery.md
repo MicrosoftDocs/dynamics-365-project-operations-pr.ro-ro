@@ -1,6 +1,6 @@
 ---
 title: Recuperarea TVA în gestionarea cheltuielilor
-description: Acest articol explică cum să primiți rambursări pentru tranzacțiile eligibile cu taxa pe valoarea adăugată (TVA).
+description: Acest articol explică modul de primire a rambursărilor pentru tranzacțiile eligibile cu taxa pe valoarea adăugată (TVA).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

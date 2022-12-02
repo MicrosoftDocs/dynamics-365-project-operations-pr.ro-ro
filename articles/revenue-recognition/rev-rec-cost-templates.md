@@ -1,6 +1,6 @@
 ---
 title: Configurarea șabloanelor de cost
-description: Acest articol oferă informații despre cum să creați și să utilizați șabloanele de cost în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să creați și să utilizați șabloanele de cost în Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918419"
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 
-Acest articol oferă informații despre cum să creați și să utilizați șabloanele de cost în Operațiuni de proiect. Un șablon de cost determină:
+Acest articol oferă informații despre cum să creați și să utilizați șabloanele de cost în Project Operations. Un șablon de cost determină:
 
 - Categoriile de proiecte pentru tranzacțiile prognozate și efective să fie incluse într-un procent din calculul finalizării proiectului. Valoarea procentuală completă este apoi utilizată pentru a calcula cât de mult venit este recunoscut.
 - Dacă procentul de finalizare poate fi modificat dacă este calculat automat.
@@ -56,7 +56,7 @@ Decizia ce abordare trebuie adoptată pentru a crea un șablon de cost poate dep
 ## <a name="create-cost-templates"></a>Creați șabloane de cost
 Pentru a crea șabloane de cost, urmați acești pași:
 
-1. Pentru a accesa șabloanele de cost, în mediul Dynamics 365 Finance, accesați **Management de proiect si contabilitate** > **Înființat** > **Estimări** > **Șablon de cost**.
+1. Pentru a accesa șabloane de cost, în mediul Dynamics 365 Finance, accesați **Management de proiect și contabilitate** > **Configurare** > **Estimări** > **Șablon de cost**.
 2. Selectați **Nou** pentru a crea un șablon nou de cost. Introduceți un nume și descriere.
 3. Furnizați codul liniei de cost pentru fiecare tip de tranzacție.
 4. Selectați o metodă implicită de finalizare:

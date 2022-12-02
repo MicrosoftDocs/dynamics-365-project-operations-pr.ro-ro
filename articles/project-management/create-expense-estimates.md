@@ -1,6 +1,6 @@
 ---
 title: Estimări financiare pentru cheltuieli în proiecte
-description: Acest articol oferă informații despre definirea sau estimarea cheltuielilor bazate pe proiecte.
+description: Acest articol furnizează informații despre definirea sau estimarea cheltuielilor bazate pe proiecte.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

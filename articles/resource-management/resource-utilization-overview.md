@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a utilizării resurselor
-description: Acest articol oferă informații despre utilizarea resurselor în Operațiuni de proiect.
+description: Acest articol furnizează informații despre vizualizarea utilizării resurselor în Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

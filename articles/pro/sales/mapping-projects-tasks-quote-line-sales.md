@@ -1,6 +1,6 @@
 ---
 title: Maparea proiectelor și activităților într-o linie de ofertă bazată pe proiect
-description: Acest articol oferă informații despre cum să mapați proiecte și sarcini la o linie de activități bazată pe proiect.
+description: Acest articol oferă informații despre cum să mapați proiectele și sarcinile la o linie de activități bazată pe proiecte.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

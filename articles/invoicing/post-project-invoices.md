@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a procesului de facturare
-description: Acest articol oferă o prezentare generală a procesului de facturare în Operațiuni de proiect pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă o prezentare generală a procesului de facturare în Project Operations pentru scenarii bazate pe resurse/fără stoc.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Project Operations pentru scenariile bazate pe resurse/ne-stocate oferă capabil
 
 ![Diagrama fluxului de facturare.](./media/invoicing-flow.png)
 
-Linia contractului de proiect definește metoda de facturare pentru tranzacțiile asociate proiectului. Când managerul de proiect aprobă tranzacțiile de timp și cheltuieli, sistemul înregistrează tranzacțiile în **Datele reale ale proiectului** entității și trimite informațiile către **Management de proiect si contabilitate** modul în Dynamics 365 Finance. Contabilul proiectului revizuiește apoi și postează înregistrările folosind [Jurnal de integrare din Project Operations](../project-accounting/project-operations-integration-journal.md). Acest jurnal include detalii contabile importante pentru datele reale proiectului, cum ar fi facturarea, grupul de impozitare pe vânzări, grupul de impozitare pe vânzare și dimensiuni financiare.
+Linia contractului de proiect definește metoda de facturare pentru tranzacțiile asociate proiectului. Când Managerul de proiect aprobă tranzacțiile de timp și cheltuieli, sistemul înregistrează tranzacțiile în entitatea **Valori reale ale proiectului** și trimite informațiile către modulul **Management de proiect și contabilitate** în Dynamics 365 Finance. Contabilul proiectului revizuiește apoi și postează înregistrările folosind [Jurnal de integrare din Project Operations](../project-accounting/project-operations-integration-journal.md). Acest jurnal include detalii contabile importante pentru datele reale proiectului, cum ar fi facturarea, grupul de impozitare pe vânzări, grupul de impozitare pe vânzare și dimensiuni financiare.
 
 Managerul de proiect poate revizui tranzacțiile de vânzare nefacturate folosind metoda de facturare a timpului și a materialului din [Restanțe de facturare de timp și materiale](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) și facturare cu preț fix în [Repere cu preț fix](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Aceste vizualizări vă permit să filtrați și să selectați tranzacțiile care trebuie incluse în următorul ciclu de facturare și apoi să le marcați ca **Gata de facturare**.
 

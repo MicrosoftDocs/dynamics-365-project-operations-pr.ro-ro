@@ -1,6 +1,6 @@
 ---
 title: Copierea ofertelor bazate pe proiect
-description: Acest articol oferă informații despre cum să copiați cotațiile bazate pe proiect în Operațiuni de proiect.
+description: Acest articol furnizează informații despre cum să copiați ofertele bazate pe proiect în Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

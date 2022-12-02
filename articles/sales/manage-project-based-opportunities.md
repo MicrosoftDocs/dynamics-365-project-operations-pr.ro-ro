@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Companiile bazate pe proiecte își desfășoară de obicei operațiunile de livrare răspândite în mai multe țări și geografii. Costul execuției și livrării proiectului poate varia în funcție de geografie sau divizie care gestionează livrarea. La rândul său, acest lucru poate afecta marjele tranzacției. Furnizarea de servicii bazate pe proiecte implică de obicei cantități mari de timp pentru resurse umane, cheltuieli considerabile pentru călătorie, costuri materiale și alte cheltuieli.
 
-Oportunități bazate pe proiecte în Dynamics 365 Project Operations sunt proiectate cu extensii la Dynamics 365 Sales. Articolul oferă detalii despre diferitele domenii și logica de afaceri incluse în funcționalitatea suplimentară care este cerută de companiile bazate pe proiecte pentru a gestiona oportunitățile bazate pe proiecte.
+Oportunități bazate pe proiecte în Dynamics 365 Project Operations sunt proiectate cu extensii la Dynamics 365 Sales. Articolul oferă detalii despre diferitele câmpuri și logica de afaceri incluse în funcționalitatea suplimentară necesară companiilor bazate pe proiecte pentru a gestiona oportunitățile bazate pe proiecte.
 
 ## <a name="view-all-project-based-opportunities"></a>Vizualizați toate oportunitățile bazate pe proiecte
 

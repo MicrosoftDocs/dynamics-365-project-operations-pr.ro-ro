@@ -1,6 +1,6 @@
 ---
 title: Planificări de proiect
-description: Acest articol oferă informații despre cum să creați un program.
+description: Acest articol oferă informații despre cum să creați o planificare.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -18,7 +18,7 @@ ms.locfileid: "8927987"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Utilizări Project Operations [capabilități de scriere duală](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) pentru a sincroniza datele între ele Microsoft Dataverse și Dynamics 365 Finance.
+Project Operations utilizează [capabilități de scriere duală](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) pentru a sincroniza datele din Microsoft Dataverse și Dynamics 365 Finance.
 
 Următoarea ilustrație arată cum sunt sincronizate datele ca parte a acestei integrări între Dataverse și Finanțe.
 

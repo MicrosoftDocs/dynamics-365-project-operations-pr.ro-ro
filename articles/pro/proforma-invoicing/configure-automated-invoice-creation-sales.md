@@ -1,6 +1,6 @@
 ---
 title: Configurarea creării automate a facturilor
-description: Acest articol oferă informații despre configurarea și configurarea creării automate a facturilor proforme.
+description: Acest articol oferă informații despre setarea și configurarea creării automate a facturilor proforme.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

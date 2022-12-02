@@ -1,6 +1,6 @@
 ---
 title: Transferarea bugetelor proiectului la sfârșitul unui exercițiu financiar
-description: Acest articol oferă informații despre cum să transferați sumele bugetare rămase în anii următori și să creați detaliile registrului bugetar.
+description: Acest articol oferă informații despre cum să transferați sumele bugetare rămase în anii următori și să creați detalii privind registrul bugetului.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

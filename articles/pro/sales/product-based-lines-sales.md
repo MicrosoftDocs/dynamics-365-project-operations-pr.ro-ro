@@ -1,6 +1,6 @@
 ---
 title: Linii de contract bazate pe oportunitate - simplificat
-description: Acest articol oferă informații despre elementele rând de oportunitate bazate pe produs în Operațiuni de proiect.
+description: Acest articol furnizează informații despre elemente de linie de oportunitate pe bază de proiect în Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

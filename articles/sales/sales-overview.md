@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a procesului de vânzări
-description: Acest articol oferă informații despre procesele de bază de vânzare.
+description: Acest articol oferă informații despre procese de vânzări de bază.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

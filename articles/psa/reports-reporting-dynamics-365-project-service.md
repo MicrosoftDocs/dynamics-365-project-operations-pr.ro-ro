@@ -1,6 +1,6 @@
 ---
 title: Pagina de pornire pentru raportare
-description: Acest articol oferă informații despre raportarea în Dynamics 365 Project Service Automation.
+description: Acest articol oferă informații despre raportare în Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

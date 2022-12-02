@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a gestionării proiectelor
-description: Acest articol oferă informații despre managementul proiectelor în Dynamics 365 Project Operations.
+description: Acest articol furnizează informații despre Managementul de proiect în Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

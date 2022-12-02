@@ -30,7 +30,7 @@ ms.locfileid: "8919247"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Odată ce ați configurat elementele din articolele anterioare, trebuie să setați parametri suplimentari de proiect pe care să îi utilizați pentru proiectele dvs. Când ați instalat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], ați creat o setare de parametri pentru a crea toate înregistrările necesare pentru ca [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] să funcționeze. E timpul să mergeți înapoi și să configurați câmpuri suplimentare pentru aceste setări.  
+După ce ați configurat elementele din articolele anterioare, trebuie să setați parametrii suplimentari ai proiectului de utilizat pentru proiectele dvs. Când ați instalat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], ați creat o setare de parametri pentru a crea toate înregistrările necesare pentru ca [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] să funcționeze. E timpul să mergeți înapoi și să configurați câmpuri suplimentare pentru aceste setări.  
   
  Va trebui să aveți configurate următoarele setări:  
   

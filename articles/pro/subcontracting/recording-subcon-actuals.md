@@ -20,19 +20,19 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 Acest articol explică modul în care timpul, cheltuielile și utilizarea materialelor înregistrate pe proiecte din componentele subcontractate sunt urmărite de Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Costuri pentru timpul subcontractantului pe proiecte
-În Operațiuni de proiect, lucrătorii contractuali pot înregistra timp pentru proiecte într-un mod similar cu angajații. Când introduceți timp pentru proiecte și/sau sarcini de proiect, un lucrător contractual poate selecta o anumită linie de subcontractare și de subcontractare.
+În Project Operations, lucrătorii contractuali pot înregistra timp pe proiecte într-un mod similar cu angajații. La introducerea timpului pe proiecte și/sau sarcini de proiecte, un lucrător contractual poate selecta un anumit subcontract și o anumită linie de subcontract.
 
-Când timpul transmis de lucrătorii contractuali este aprobat, costul proiectului este înregistrat utilizând rata costului unitar care este stabilit pentru resursa respectivă de lucrător contractual în **Prețurile de rol** secțiunea din lista de prețuri de achiziție din subcontract.
+Când timpul transmis de lucrătorii contractuali este aprobat, costul proiectului este înregistrat utilizând rata costului unitar care este stabilită pentru resursa respectivă de lucrător contractual în secțiunea **Prețuri de rol** din lista de prețuri de achiziție din subcontract.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>Costuri pentru cheltuielile subcontractate pe proiecte
-Când introduceți cheltuielile efectuate pentru proiecte, puteți selecta o linie de subcontractare și subcontractare în înregistrarea de cheltuieli. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>Calcularea prețurilor pentru cheltuieli subcontractate pe proiecte
+Când introduceți cheltuielile efectuate pentru proiecte, puteți selecta un subcontract și o linie de subcontractare în înregistrarea de cheltuieli. 
 
-Când această înregistrare a cheltuielilor este depusă și aprobată, costul cheltuielilor este înregistrat în proiect pe baza costului unitar care este stabilit pentru acea categorie de tranzacție în **Preturi de categorie** secțiunea din lista de prețuri de achiziție din subcontract.
+Când această intrare de cheltuieli este transmisă și aprobată, costul pentru cheltuieli este înregistrat în proiect pe baza costului unitar care este stabilit pentru categoria de tranzacție în secțiunea **Prețuri categorii** din lista de prețuri de achiziție din subcontract.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>Costuri pentru materialele subcontractate pe proiecte
-Când introduceți utilizarea materialului pe proiecte, puteți selecta o linie de subcontractare și subcontractare în jurnalul de utilizare a materialului. Când registrul de utilizare a materialului este depus și aprobat, costul materialului este înregistrat în proiect pe baza costului unitar care este stabilit pentru acel produs în **Articole din lista de preturi** secțiunea listei de prețuri de subcontractare.
+## <a name="costing-for-subcontracted-materials-on-projects"></a>Calcularea prețurilor pentru materiale subcontractate pe proiecte
+Când introduceți utilizarea materialelor pe proiecte, puteți selecta un subcontract și o linie de subcontractare în înregistrarea de utilizare a materialelor. Când înregistrarea de utilizare a materialelor este transmisă și aprobată, costul pentru materiale este înregistrat în proiect pe baza costului unitar care este stabilit pentru acel produs în secțiunea **Articole din lista de prețuri** a listei de prețuri din subcontract.
 
-Utilizarea materialului poate fi înregistrată și pentru produsele de înscriere pe proiecte. Acest tip de utilizare a materialului poate fi, de asemenea, legat de o linie de subcontractare și de subcontractare. Când înregistrați utilizarea materialului pentru produsele de scriere, trebuie să introduceți costul pe unitate al produsului de scriere. 
+Utilizarea materialelor poate fi înregistrată și pentru produsele din afara catalogului pe proiecte. Acest tip de utilizare a materialelor poate fi, de asemenea, legat de un subcontract și o linie de subcontractare. Când înregistrați utilizarea materialelor pentru produsele din afara catalogului, trebuie să introduceți costul unitar al produsului din afara catalogului. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

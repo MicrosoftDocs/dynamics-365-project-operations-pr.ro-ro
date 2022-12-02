@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în februarie 2021 - Project Operations pentru scenarii bazate pe resurse/ne-stocate
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din februarie 2021 a Operațiunilor de proiect pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în lansarea din februarie 2021 a Project Operations pentru scenarii bazate pe resurse/care nu există pe stoc.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029637"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
 - Project Operations pe mediu Dataverse 4.7.0.95
-- Management de proiect și contabilitate în mediul Dynamics 365 Finance versiunea 10.0.16 
+- Management de proiect și contabilitate în mediul Dynamics 365 Finance, versiunea 10.0.16 
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 
@@ -46,12 +46,12 @@ Acest articol se aplică la următoarele Dynamics 365 Project Operations compone
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Management de proiect și contabilitate în Dynamics 365 Finance 
 
-Pentru mai multe informații despre managementul proiectelor și contabilitate în Dynamics 365 Finance, consultați [Noutăți Ianuarie 2021 - Operațiuni de proiect pentru scenarii bazate pe resurse/neaprovizionate](whats-new-jan-2021-resource-based.md).
+Pentru mai multe informații despre Management de proiect și contabilitate în Dynamics 365 Finance, consultați [Ce este nou, ianuarie 2021 - Scenarii Project Operations bazate pe resurse/ne-stocate](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Actualizări de reglementare
 
-Pentru informații despre actualizările de reglementare pentru aplicațiile de finanțare și operațiuni, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). O altă modalitate de a afla despre actualizările de reglementare este să vă conectați la Lifecycle Services (LCS) și să vizualizați actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
+Pentru informații despre actualizările de reglementare pentru aplicații de finanțe și operațiuni, consultați [Actualizări de reglementare](/dynamics365/finance/localizations/regulatory-updates). O altă modalitate de a afla despre actualizările de reglementare este să vă conectați la Lifecycle Services (LCS) și să vizualizați actualizările de reglementare planificate folosind instrumentul de căutare a problemelor. Căutarea problemelor vă permite să căutați în funcție de țară, tipul de funcție și eliberare.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

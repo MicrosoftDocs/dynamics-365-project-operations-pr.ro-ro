@@ -1,6 +1,6 @@
 ---
 title: Înscrierea pentru un abonament de previzualizare - simplificat
-description: Acest articol oferă informații despre cum să vă abonați și să implementați implementarea Project Operations lite - acord cu facturarea proforma.
+description: Acest articol oferă informații despre cum să vă abonați și să implementați Project Operations lite – gestionarea facturării proforme.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410075"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Înscrierea pentru un abonament de previzualizare - simplificat 
 
-Acest articol explică cum să vă abonați la oferta de încercare și să implementați Dynamics 365 Project Operations implementare simplă - acord cu facturarea proforma.
+Acest articol explică modul de abonare la oferta de încercare și de implementare a Dynamics 365 Project Operations cu implementare simplă – gestionarea facturării proforme.
 
 > [!NOTE]
 > Acest proces se va schimba în versiunile viitoare ale Project Operations.
@@ -43,14 +43,14 @@ Acest articol explică cum să vă abonați la oferta de încercare și să impl
 > Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
 
 
-1. Mergi la [Microsoft 365 centru de administrare](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
+1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
 3. Verificați dacă este selectată licența **Dynamics 365 Project Operations**. 
 4. Selectați **Salvați modificările**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Creați un nou mediu Dataverse
 
-1. Furnizarea unui nou proiect Operațiuni Dataverse mediu de implementare urmând instrucțiunile din articol, [Dataverse model de implementare](lite-deployment.md). Când selectați tipul de mediu, asigurați-vă că utilizați **Versiune de încercare (pe bază de abonament)**.
+1. Asigurați acces la un nou mediu de implementare Project Operations Dataverse urmând instrucțiunile din articol, [Model de implementare Dataverse](lite-deployment.md). Când selectați tipul de mediu, asigurați-vă că utilizați **Versiune de încercare (pe bază de abonament)**.
 
   ![Mediu nou.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Acest articol explică cum să vă abonați la oferta de încercare și să impl
 
 ![Instalați soluția.](./media/21InstallSolution.png)
 
-## <a name="set-up-demo-data"></a>Configurați datele demonstrative
+## <a name="set-up-demo-data"></a>Configurare date demonstrative
 
-Configurați datele demonstrative urmând instrucțiunile din articol, [Aplicați datele de configurare și configurare demo](lite-apply-demo-setup-config-data.md).
+Configurați datele demonstrative urmând instrucțiunile din articol, [Aplicarea datelelor demonstrative de instalare și configurare](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

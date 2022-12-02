@@ -1,6 +1,6 @@
 ---
 title: Contracte de proiect - concepte cheie
-description: Acest articol oferă informații despre conceptele cheie ale contractelor de proiect în Operațiuni de proiect.
+description: Acest articol furnizează informații despre conceptele cheie ale contractelor de proiect în Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 
 
-Acest articol oferă conceptele cheie de care trebuie să fiți conștient înainte de a începe să utilizați contractele de proiect Dynamics 365 Project Operations:
+Acest articol oferă conceptele cheie pe care trebuie să le cunoașteți înainte de a începe să utilizați Contractele de proiect în Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Firmă proprietară
 
-Societatea proprietară este persoana juridică din **Management de proiect si contabilitate** modul pentru Operațiuni de proiect de la Dynamics 365 Finance. Compania deținătoare reprezintă entitatea juridică care va contabiliza costurile și veniturile care rezultă dintr-o tranzacție.
+Compania deținătoare este entitatea juridică din modulul **Management de proiect și contabilitate** pentru Project Operations din Dynamics 365 Finance. Compania deținătoare reprezintă entitatea juridică care va contabiliza costurile și veniturile care rezultă dintr-o tranzacție.
 
 ## <a name="contracting-unit"></a>Unitate contractantă
 

@@ -44,7 +44,7 @@ Unele contracte de proiect specifică faptul că mai multe părți împart respo
 -   Un proiect rutier este cofinanțat de două municipalități.
 -   Un proiect de pod este finanțat de o subvenție guvernamentală și de o corporație privată.
 
-În Dynamics 365 Finance, puteți împărți facturarea pentru o singură tranzacție sau un întreg proiect între mai mulți clienți, granturi sau organizații. 
+În Dynamics 365 Finance, puteți împărți facturarea pentru o singură tranzacție sau un întreg proiect între mai mulți clienți, subvenții sau organizații. 
 
 În proiectele care au mai mulți finanțatori, toate părțile care contribuie la finanțarea unui proiect avansat de finanțare sunt numite surse de finanțare. După ce un client, o organizație sau o bursă este definit ca sursă de finanțare, acesta poate fi atribuit uneia sau mai multor reguli de finanțare. Regulile de finanțare conțin criteriile care determină modul în care taxele sunt alocate diferitelor surse de finanțare pentru un proiect. 
 

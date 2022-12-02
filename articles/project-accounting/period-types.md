@@ -1,6 +1,6 @@
 ---
 title: Tipuri de perioade
-description: Acest articol oferă informații despre cum să configurați tipurile de perioade pentru estimarea veniturilor.
+description: Acest articol oferă informații despre modul de configurare a tipurilor de perioadă pentru estimarea veniturilor.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930977"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Un tip de perioadă definește frecvența cu care se estimează veniturile dintr-un proiect. Acest articol oferă informații despre cum să configurați tipurile de perioade pentru estimarea veniturilor. 
+Un tip de perioadă definește frecvența cu care se estimează veniturile dintr-un proiect. Acest articol oferă informații despre modul de configurare a tipurilor de perioadă pentru estimarea veniturilor. 
 
 ## <a name="create-and-work-with-period-types"></a>Crearea și lucrul cu tipuri de perioade
 Pentru a crea și a lucra cu tipuri de perioadă, parcurgeți următorii pași:
 
-1. În mediul dvs. Dynamics 365 Finance, accesați **Management de proiect si contabilitate** > **Înființat** > **Estimări** > **Tipuri de perioade**.
+1. În mediul dvs. Dynamics 365 Finance, accesați **Management de proiect și contabilitate** > **Configurare** > **Estimări** > **Tipuri de perioade**.
 2. Selectați **Nou** pentru a crea un nou tip de perioadă. Introduceți un nume și descriere.
 3. În câmpul **Frecvență**, selectați o valoare:
 

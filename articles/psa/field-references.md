@@ -1,6 +1,6 @@
 ---
 title: Adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale
-description: Acest articol oferă informații despre adăugarea de câmpuri personalizate la configurarea prețului și la entitățile tranzacționale.
+description: Acest articol furnizează informații despre adăugarea câmpurilor particularizate la parametrizarea prețurilor și entitățile tranzacționale.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920489"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Acest articol presupune că ați finalizat procedurile din articol, [Creați câmpuri și entități personalizate](create-custom-fields-entities.md). Dacă nu ați finalizat aceste proceduri, reveniți și finalizați-le și apoi reveniți la acest articol. 
+Acest articol presupune că ați finalizat procedurile din articol, [Creare câmpuri și entități particularizate](create-custom-fields-entities.md). Dacă nu ați finalizat aceste proceduri, reveniți și completați-le și apoi reveniți la acest articol. 
 
-În acest articol, procedurile vă vor arăta cum să adăugați referințele de câmp personalizate necesare la entități și la elementele interfeței cu utilizatorul (UI), cum ar fi formularele și vizualizările.
+În acest articol, procedurile vă vor arăta cum să adăugați referințele câmpului particularizat necesar la entități și la elementele interfeței utilizator (UI), cum ar fi formulare și vizualizări.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Adăugarea câmpurilor de dimensiune a prețului particularizate 
 După ce au fost create câmpuri și entități particularizate, următorul pas este de a face parametrizarea prețurilor și entitățile tranzacționale conștiente de orice entități particularizate sau seturi de opțiuni prin crearea de câmpuri de referință. În funcție de faptul dacă lista dimensiunilor prețurilor include dimensiunile setului de opțiuni sau dimensiunile entității sau ambele, urmați numai pașii din **Dimensiunile de prețuri particularizate bazate pe setul de opțiuni** de preț particularizate bazate pe set de opțiuni sau **Dimensiunile de prețuri particularizate bazate pe entitate** sau ambele, respectiv.

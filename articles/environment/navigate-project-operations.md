@@ -22,9 +22,9 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 Dynamics 365 Project Operations pentru scenarii de resursă/fără stoc constă în două componente: 
 
  - **Project Operations pe mediul Common Data Service (CDS)**: această componentă acoperă capabilitățile și procesele din oportunitate la factura proforma. 
- - **Management de proiect și contabilitate în mediul Dynamics 365 Finance** : Această componentă acoperă capabilitățile de gestionare a cheltuielilor, contabilitatea proiectului și recunoașterea veniturilor. 
+ - **Management de proiect și contabilitate pe mediul Dynamics 365 Finance**: această componentă acoperă capacitățile de gestionare a cheltuielilor, contabilitatea proiectelor și recunoașterea veniturilor. 
 
-După ce furnizați operațiunile de proiect, așa cum este descris în acest articol, serviciile de ciclu de viață (LCS) **Detalii de mediu** pagina oferă acces ușor la ambele componente ale Operațiunilor de proiect.  
+După ce asigurați accesul la Project Operations așa cum este descris în acest articol, pagina Lifecycle Services (LCS) **Detalii despre mediu** oferă acces simplu la ambele componente ale Project Operations.  
 
 Utilizați numele mediului în secțiune, **Common Data Service Numele mediului** pentru a naviga la Project Operations pe un mediu CDS. 
 

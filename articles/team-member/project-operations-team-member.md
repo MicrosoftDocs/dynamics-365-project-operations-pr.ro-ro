@@ -1,6 +1,6 @@
 ---
 title: Aplicația Project Operations Team Member
-description: Acest articol oferă informații despre aplicația Project Operations Team Member din Microsoft Dynamics 365 Project Operations.
+description: Acest articol furnizează informații despre aplicația Project Operations Team Member în Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -26,16 +26,16 @@ ms.locfileid: "8918235"
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Aplicația Project Operations Team Member (cunoscută anterior sub numele de Project Resource Hub) include toate capabilitățile Microsoft Dynamics 365 Project Operations oferă licenței de utilizator pentru membrii echipei.
+Aplicația Project Operations Team Member (cunoscută anterior sub numele de Project Resource Hub) include toate capabilitățile pe care Microsoft Dynamics 365 Project Operations le oferă pentru licența de utilizator Team Members.
 
-Iată câteva dintre capacitățile aplicației Project Operations Team Member:
+Iată câteva dintre capabilitățile aplicației Project Operations Team Member:
 
 - Intrare de timp
-- Intrarea cheltuielilor (implementare simplă)
+- Intrare de cheltuieli (implementare simplificată)
 - Consumul de materiale
 - Approvals
 - Extensibilitate (până la 15 entități)
 
-Pentru a utiliza aplicația Project Operations Team Member, trebuie să aveți fie o licență completă Project Operations, fie o licență de utilizator Dynamics Team Members. Pentru mai multe informații despre licențe, consultați [Ghid de licențiere Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplicația Project Operations Team Member necesită o implementare a Project Operations.
+Pentru a utiliza aplicația Project Operations Team Member, trebuie să aveți fie o licență completă pentru Project Operations, fie o licență de utilizator pentru Dynamics Team Members. Pentru mai multe informații despre licenței, consultați [Ghidul de licențiere Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplicația Project Operations Team Member necesită o implementare a Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

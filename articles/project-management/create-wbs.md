@@ -1,6 +1,6 @@
 ---
 title: Crearea unei structuri detaliate a proiectului
-description: Acest articol explică cum să creați o structură de defalcare a lucrărilor (WBS) care să includă controalele de bază în noua interfață de planificare.
+description: Acest articol explică cum să creați o structură detaliată a proiectului (WBS) incluzând comenzile de bază în noua interfață de planificare.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Parcurgeți următorii pași pentru a indenta sau promova o sarcină.
 
 ### <a name="move-tasks-up-and-down"></a>Mutați sarcini în sus și în jos
 
-Sarcinile pot fi mutate la orice nivel din structura de defalcare a muncii în unul din două moduri:
+Sarcinile pot fi mutate la orice nivel în structura detaliată a proiectului în unul din cele două moduri:
 
 - Selectați una sau mai multe sarcini și trageți-le în locația dorită.
 - Selectați una sau mai multe sarcini, faceți clic dreapta și selectați **Decupare**, selectați celula de destinație în program, apoi faceți clic dreapta și selectați **Lipire**.
@@ -99,7 +99,7 @@ Atributele de personal sunt accesate prin câmpul **Resurse** din planificare. A
 
 Câmpurile **Rol**, **Unitate de resursă** și **Nume poziție** sunt utilizate pentru a descrie cerințele de personal pentru activitate. Aceste atribute de personal, împreună cu planificarea sarcinii, sunt utilizate pentru a găsi resursele disponibile pentru a realiza această sarcină.
 
-   - **Rol** : Specificați tipul de resursă care este necesară pentru realizarea sarcinii.,
+   - **Rol**: Specificați tipul de resursă care este necesar pentru a realiza sarcina.
    - **Unitate resursă**: Specificați unitatea de la care ar trebui să se atribuie resursele pentru sarcină. Acest atribut afectează estimarea costurilor și vânzărilor pentru activitate dacă rata de cost și de facturare pentru resursă se setează pe baza unităților de resurse.
    - **Numele poziției**: Introduceți un nume pentru resursa generică ce servește ca un substituent pentru resursa care în cele din urmă va efectua activitatea.
 
@@ -114,18 +114,18 @@ Aveți posibilitatea să utilizați planificarea în Project Operations pentru a
 Modul de activitate nu are niciun efect asupra actualizărilor efectuate la datele de început și de sfârșit ale activităților predecesoare/dependente.
 
 ## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Înțelegerea impactului duratei, al calendarelor de resurse și al calendarelor de proiect asupra sarcinilor
-Durata unei sarcini este definită ca numărul de ore de lucru dintre ora de începere a datei de începere și ora de încheiere a datei de încheiere a sarcinii.   Proiectul pentru web definește unitățile de măsură de durată după cum urmează:
+Durata unei sarcini este definită ca numărul de ore de lucru dintre ora de începere a datei de începere și ora de încheiere a datei de încheiere a sarcinii.   Project for the web definește unitățile de măsură de durată după cum urmează:
 
-| **Măsura duratei** | **Cantitate**|
+| **Măsură de durată** | **Cantitate**|
 |----------------------------------------------------|----------------------|
 | Ore pe zi | 8 |
 | Ore pe săptămână |  40 |
 | Zile pe lună |  20 |
 
-Sarcinile nealocate sunt programate folosind calendarul proiectului. Cu toate acestea, la atribuirea inițială a resursei, programarea unei sarcini este actualizată astfel încât să respecte calendarul resursei. Modificările ulterioare ale unei sarcini care are o sarcină vor fi guvernate de [modul de programare](scheduling-modes.md) a proiectului. Pentru a afla mai multe despre influența calendarelor asupra sarcinilor, consultați [Calendare de resurse în Project pentru web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) și [Ora de începere a sarcinilor și proiectele dvs.!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Sarcinile nealocate sunt programate folosind calendarul proiectului. Cu toate acestea, la atribuirea inițială a resursei, programarea unei sarcini este actualizată astfel încât să respecte calendarul resursei. Modificările ulterioare ale unei sarcini care are o atribuire vor fi guvernate de [modul de programare](scheduling-modes.md) a proiectului. Pentru a afla mai multe despre influența calendarelor asupra sarcinilor, consultați [Calendare de resurse în Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) și [Ora de începere a sarcinilor și proiectelor dvs.!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
-## <a name="accessibility-and-keyboard-shortcuts"></a>Comenzi rapide de la tastatură și accesibilitate
+## <a name="accessibility-and-keyboard-shortcuts"></a>Accesibilitate și comenzi rapide de la tastatură
 
 Grila de **Planificare** este complet accesibilă și poate fi utilizată cu cititoare de ecran, ar fi Narator, JAWS sau NVDA. Aveți posibilitatea să vă deplasați prin zona grilă utilizând tastele săgeată (ca în Microsoft Excel), puteți utiliza tasta Tab pentru a avansa printre elementele interfeței cu utilizatorul interactive și puteți utiliza tasta săgeată în jos, tasta Enter sau bara de spațiu pentru a selecta și a deschide meniurile verticale.
 
@@ -139,7 +139,7 @@ Ar trebui să fiți conștient de următoarele limitări dacă utilizați struct
 | Total maxim resurse pentru un proiect              | 300                  |
 | Numărul maxim de legături (numai succesoare) pentru un proiect | 600                  |
 | Total maxim de câmpuri particularizate pentru un proiect          | 10                   |
-| Numărul maxim de elemente din lista de verificare pe sarcină                   | 20                   |
+| Numărul maxim de elemente din lista de verificare per sarcină                   | 20                   |
 
 **Limitări activitate**
 

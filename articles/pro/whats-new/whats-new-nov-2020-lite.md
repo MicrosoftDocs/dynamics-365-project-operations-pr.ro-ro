@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în noiembrie 2020 - implementare Project Operations simplificat - facturare de la ofertă și până la proforma
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din noiembrie 2020 a implementării Project Operations Lite - acord cu facturarea proforma.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din noiembrie 2020 de integrare a Project Operations lite – de la ofertă și până la factura proformă.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

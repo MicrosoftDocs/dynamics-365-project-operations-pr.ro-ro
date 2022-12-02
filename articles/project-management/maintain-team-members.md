@@ -1,6 +1,6 @@
 ---
 title: Menținerea membrilor echipei
-description: Acest articol oferă informații despre rezervarea resurselor numite pentru echipele de proiect și despre atribuirea acestora la sarcini.
+description: Acest articol oferă informații despre rezervarea resurselor numite pentru echipe de proiect și atribuirea lor către activități.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

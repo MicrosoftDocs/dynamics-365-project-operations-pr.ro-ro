@@ -1,6 +1,6 @@
 ---
 title: Transferul unei oferte către un proiect
-description: Acest articol oferă informații despre cum să transferați o ofertă la un proiect nou sau existent.
+description: Acest articol oferă informații despre cum să transferați o ofertă către un proiect nou sau existent.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

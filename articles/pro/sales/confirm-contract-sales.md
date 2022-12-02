@@ -1,6 +1,6 @@
 ---
 title: Confirmarea unui contract de proiect
-description: Acest articol oferă informații despre cum să confirmați un contract în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să confirmați un contract în Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

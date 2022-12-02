@@ -1,6 +1,6 @@
 ---
 title: Linii de oferte bazate pe produs de cost
-description: Acest articol oferă informații despre aplicarea unui preț de cost la o linie de cotație bazată pe produs.
+description: Acest articol oferă informații despre aplicarea unui preț de cost unei linii de ofertă pe bază de produs.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

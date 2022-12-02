@@ -1,6 +1,6 @@
 ---
 title: Gestionarea estimărilor de venituri
-description: Acest articol oferă informații despre cum să lucrați cu estimări ale veniturilor pentru proiecte.
+description: Acest articol oferă informații despre cum să lucrați cu estimările de venituri pentru proiecte.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8928493"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Puteți crea, calcula, posta, inversa sau elimina estimările veniturilor. Puteți face acest lucru fie manual, fie utilizând un proces periodic. Acest articol oferă informații despre cum să lucrați cu estimări ale veniturilor pentru proiecte.
+Puteți crea, calcula, posta, inversa sau elimina estimările veniturilor. Puteți face acest lucru fie manual, fie utilizând un proces periodic. Acest articol oferă informații despre cum să lucrați cu estimările de venituri pentru proiecte.
 
 ### <a name="manage-revenue-estimates-manually"></a>Gestionarea manuală a estimărilor de venituri
 

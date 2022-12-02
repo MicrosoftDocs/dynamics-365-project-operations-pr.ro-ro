@@ -1,6 +1,6 @@
 ---
 title: Setări de proiect
-description: Acest articol oferă informații despre setările de management de proiect.
+description: Acest articol furnizează informații despre setările de management de proiect.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

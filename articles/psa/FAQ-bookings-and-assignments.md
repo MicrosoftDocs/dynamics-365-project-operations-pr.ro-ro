@@ -1,6 +1,6 @@
 ---
 title: Rezervări resurse și care este legătura sa cu atribuirile sarcinilor
-description: Acest articol oferă informații despre cum să gestionați resursele denumite, rezervările de resurse și atribuirile de sarcini și despre cum se leagă între ele.
+description: Acest articol oferă informații despre modul în care se gestionează resursele numite, rezervările de resurse și atribuirile de activități și modul în care acestea se asociază între ele.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

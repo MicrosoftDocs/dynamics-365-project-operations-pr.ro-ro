@@ -1,6 +1,6 @@
 ---
 title: Configurarea materialelor care nu există pe stoc și a facturilor de la furnizori neachitate
-description: Acest articol explică cum să activați materialele care nu sunt stocate și facturile furnizorilor în așteptare.
+description: Acest articol explică modul de activare a materialelor care nu există pe stoc și a facturilor de furnizori neachitate.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Rulați hărțile cu scriere duală pentru materialele care nu există pe stoc și pentru integrarea facturilor de la furnizori
 
-Această secțiune oferă informații despre hărțile specifice necesare pentru materialele care nu există pe stoc și pentru facturile de la furnizori. Verificați dacă hărțile de cerințe prealabile enumerate în [Furnizați un mediu nou](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) articolul rulează în mediul dvs.
+Această secțiune oferă informații despre hărțile specifice necesare pentru materialele care nu există pe stoc și pentru facturile de la furnizori. Verificați dacă hărțile preliminare listate în articolul [Furnizarea unui mediu nou](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) rulează în mediul dvs.
 
 1. Accesați Lifecycle Services (LCS), navigați la proiectul dvs. LCS și accesați pagina **Detalii despre mediu**.
 2. În secțiunea **Common Data Service Informații despre mediu**, selectați **Link către CDS for Apps**. După ce selectați linkul, veți fi redirecționat către lista entităților din mapări.

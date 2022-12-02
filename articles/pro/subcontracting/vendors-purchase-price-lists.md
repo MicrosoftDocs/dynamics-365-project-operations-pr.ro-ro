@@ -1,6 +1,6 @@
 ---
 title: Gestionarea listelor de prețuri de vânzări și achiziții în Project Operations
-description: Acest articol oferă informații care vă vor ajuta să creați și să mențineți date despre furnizori și liste de prețuri de achiziție pentru subcontractare.
+description: Acest articol oferă informații care vă vor ajuta să creați și să întrețineți datele furnizorilor și listele de prețuri de achiziție pentru subcontractare.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

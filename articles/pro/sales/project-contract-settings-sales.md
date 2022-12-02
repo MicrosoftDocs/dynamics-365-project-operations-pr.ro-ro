@@ -1,6 +1,6 @@
 ---
 title: Setări pentru contracte de proiecte - simplificat
-description: Acest articol oferă informații despre câmpurile care au impact asupra liniilor de contract și informații despre contract care sunt rezumate la toate elementele rând.
+description: Acest articol oferă informații despre câmpuri care au impact asupra liniilor de contract și informații despre contract care sunt rezumate în toate articolele de linie.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917085"
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest articol oferă informații despre câmpurile care se aplică întregului contract de proiect, inclusiv setările care afectează toate liniile contractului. Sunt incluse, de asemenea, informații despre contract care sunt rezumate pe toate elementele rând pentru a genera KPI-urile contractului de proiect.
+Acest articol oferă informații despre câmpurile care se aplică întregului contract de proiect, inclusiv setările care au impact asupra tuturor liniilor de contract. Sunt incluse, de asemenea, informații despre contract care sunt rezumate pe toate elementele rând pentru a genera KPI-urile contractului de proiect.
 
 Următorul tabel listează câmpurile unui contract de proiect care sunt unice pentru Dynamics 365 Project Operations sau au unele schimbări importante în comportament de la comenzile de vânzări în Dynamics 365 Sales.
 
@@ -35,7 +35,7 @@ Următorul tabel listează câmpurile unui contract de proiect care sunt unice p
 Următoarele KPI sunt disponibile pe fila **Executarea contractului** unui contract de proiect. 
 
 >[!NOTE]
->Toate sumele de pe **Executarea contractului** fila sunt exprimate în moneda implicită a mediului.
+>Toate sumele de pe fila **Performanță contract** sunt exprimate în moneda implicită a mediului.
 
 | Câmp | Locație | Descriere |
 | --- | --- | --- |

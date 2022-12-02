@@ -1,6 +1,6 @@
 ---
 title: Intrare cheltuieli (simplificată)
-description: Acest articol oferă informații despre cum să lucrați cu înregistrarea cheltuielilor într-o implementare simplă.
+description: Acest articol oferă informații despre cum să lucrați cu intrarea de cheltuieli într-o implementare simplificată.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Configurarea și utilizarea plăților de la furnizor cu plată la plată
-description: Acest articol explică cum să creați termeni pay-when-paid (PWP), astfel încât să puteți elibera plăți parțiale ale furnizorilor, pe baza plăților clienților.
+description: Acest articol explică cum să creați termeni de plată la plată (PWP), astfel încât să puteți elibera plăți parțiale de la furnizor, pe baza plăților clienților.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

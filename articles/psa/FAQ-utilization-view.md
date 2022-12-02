@@ -1,6 +1,6 @@
 ---
 title: Vizualizați utilizarea taxabilă pentru o resursă
-description: Acest articol oferă informații despre vizualizarea de utilizare a resurselor.
+description: Acest articol furnizează informații despre vizualizarea utilizării resurselor.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Confirmarea unei facturi proforma pentru proiect
-description: Acest articol oferă informații despre confirmarea facturilor de proiect proforma în Operațiuni de proiect.
+description: Acest articol oferă informații despre confirmarea facturilor de proiect proforme în Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

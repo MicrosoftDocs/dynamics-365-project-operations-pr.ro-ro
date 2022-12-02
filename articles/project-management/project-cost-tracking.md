@@ -1,6 +1,6 @@
 ---
 title: Urmărirea costului de proiect
-description: Acest articol oferă informații despre modul în care Operațiunile de proiect urmăresc progresul în raport cu costul forței de muncă și cheltuielile pentru un proiect.
+description: Acest articol oferă informații despre modul în care Project Operations urmărește progresul în raport cu costul forței de muncă și cheltuielile pentru un proiect.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

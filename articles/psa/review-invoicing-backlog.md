@@ -1,6 +1,6 @@
 ---
 title: Revizuiți jurnalul de așteptare de facturare pe proiecte și contracte de proiect
-description: Acest articol oferă informații despre cum să examinați timpul, cheltuielile și stocurile de produse și cum să le marcați ca gata pentru facturare.
+description: Acest articol oferă informații despre cum se revizuiesc jurnalele de așteptare de timp, cheltuieli și produs și cum se marchează ca fiind pregătite pentru facturare.
 author: rumant
 ms.custom: ''
 ms.author: rumant

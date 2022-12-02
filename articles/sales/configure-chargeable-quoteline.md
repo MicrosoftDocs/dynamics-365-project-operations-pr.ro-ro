@@ -1,6 +1,6 @@
 ---
 title: Configurarea componentelor tarifabile ale unei linii de ofertă pe bază de proiect
-description: Acest articol oferă informații despre componentele incluse, taxabile și neexigibile în liniile de cotație bazate pe proiect.
+description: Acest articol oferă informații despre componentele incluse, taxabile și neimpozabile pe liniile de ofertă bazate pe proiecte.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

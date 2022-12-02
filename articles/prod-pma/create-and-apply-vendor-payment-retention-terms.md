@@ -1,6 +1,6 @@
 ---
 title: Crearea și aplicarea condițiilor de reținere a plăților către furnizor
-description: Acest articol oferă informații despre cum să configurați și să mențineți termenii de păstrare pentru plățile furnizorilor.
+description: Acest articol oferă informații despre cum să configurați și să mențineți termenii de retenție pentru plățile furnizorilor.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

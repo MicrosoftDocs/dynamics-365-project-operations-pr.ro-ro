@@ -1,6 +1,6 @@
 ---
-title: Copiați contracte bazate pe proiecte
-description: Acest articol oferă informații despre copierea contractelor de proiect în Microsoft Dynamics 365 Project Operations.
+title: Copierea contractelor bazate pe proiect
+description: Acest articol furnizează informații despre copierea contractelor de proiect în Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.contentlocale: ro-RO
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410376"
 ---
-# <a name="copy-project-based-contracts"></a>Copiați contracte bazate pe proiecte
+# <a name="copy-project-based-contracts"></a>Copierea contractelor bazate pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Puteți crea cu ușurință noi contracte de proiect prin copierea contractelor existente într-unul din două moduri:
+Puteți crea cu ușurință noi contracte de proiect prin copierea contractelor existente într-unul din cele două moduri:
 
-- Pe **Contracte de proiect** listă, selectați un contract de proiect, apoi selectați **Copie**.
+- Pe pagina de listă **Contracte de proiect**, selectați un contract de proiect și apoi selectați **Copiere**.
 - Pe pagina de detalii **Contract de proiect**, selectați **Copie**.
 
-În ambele cazuri, apare o casetă de dialog, în care puteți seta parametrii contractului copiat. Caseta de dialog include următoarele câmpuri. În funcție de valorile pe care le selectați, procesul de copiere se poate schimba.
+În ambele cazuri, apare o casetă de dialog, în care puteți seta parametrii contractului copiat. Caseta de dialog include următoarele câmpuri. În funcție de valorile pe care le selectați, procesul de copiere se poate modifica.
 
 | Câmp | Descriere | Impactul din aval |
 | --- | --- | --- |
@@ -30,19 +30,19 @@ Puteți crea cu ușurință noi contracte de proiect prin copierea contractelor 
 | client | O trimitere la compania clientului sau la înregistrarea contului. Când se deschide caseta de dialog, sistemul setează câmpul la contul din contractul sursă. | Acest câmp este clientul principal din contract. |
 | Firmă proprietară | Compania care este responsabilă pentru livrarea proiectelor care sunt asociate cu această afacere. Când se deschide caseta de dialog, sistemul setează câmpul companiei care deține contractul sursă. | Compania proprietară este entitatea juridică care va executa proiectul după încheierea tranzacției. Moneda companiei proprietare trebuie să se potrivească cu moneda unității contractante. |
 | Unitate contractantă | Unitatea organizatorică care este responsabilă de livrarea proiectelor care sunt asociate cu această afacere. Când se deschide caseta de dialog, sistemul setează câmpul la unitatea contractantă a contractului sursă. | Unitatea contractantă este divizia companiei care va exeecuta proiectele după încheierea tranzacției. Fiecare unitate contractantă are o monedă. Această monedă este utilizată pentru a raporta costurile estimate și reale care sunt suportate în timpul proiectului. |
-| Moneda | Moneda în care este calculată tranzacția. Când se deschide caseta de dialog, sistemul setează câmpul la moneda contractului sursă. Moneda poate fi schimbată. Dacă este, **Copiați prețul** câmpul este întotdeauna setat la **Nu**, deoarece listele de prețuri de pe contractul sursă nu mai sunt relevante. | Această monedă este utilizată pentru listele implicite de prețuri, pentru a genera estimări financiare asupra contractului și pentru a factura clientului atunci când afacerea este câștigată. |
-| Dată de livrare solicitată | Data de livrare care este solicitată de client. | Această dată este utilizată ca dată de încheiere atunci când creați date de facturare la o anumită frecvență. |
-| Copiați prețul | O valoare care indică dacă prețul din contract ar trebui copiat din contractul sursă. | Dacă câmpul este setat la **da**, referințele la lista de prețuri la proiecte și produse sunt copiate din contractul sursă în contractul țintă. Dacă este setat la **Nu**, sunt utilizate liste de prețuri implicite, pe baza celor mai recente liste de prețuri din parametrii contului sau proiectului. |
+| Moneda | Moneda în care este calculată tranzacția. Când se deschide caseta de dialog, sistemul setează câmpul la moneda contractului sursă. Moneda poate fi schimbată. Dacă este cazul, câmpul **Copiere preț** este întotdeauna setat la **Nu** întrucât listele de prețuri din contractul sursă nu mai sunt relevante. | Această monedă este utilizată pentru listele implicite de prețuri, pentru a genera estimări financiare privind contractul și pentru a factura clientului atunci când tranzacția este câștigată. |
+| Dată de livrare solicitată | Data de livrare care este solicitată de client. | Această dată este utilizată ca dată de încheiere când creați date de facturare la o anumită frecvență. |
+| Copiați prețul | O valoare care indică dacă prețul contractului trebuie copiat din contractul sursă. | Dacă câmpul este setat la **Da**, referințele la proiect și la lista de prețuri ale produselor sunt copiate din contractul sursă în contractul țintă. Dacă este setat la **Nu**, sunt utilizate listele de prețuri implicite pe baza celor mai recente liste de prețuri din parametrii contului sau proiectului. |
 
-Când selectați **O.K** în caseta de dialog, sistemul creează o copie a contractului, pe baza valorilor parametrilor pe care le-ați setat. Apoi se deschide noul contract.
+Când selectați **OK** în caseta de dialog, sistemul creează o copie a contractului pe baza parametrilor valorilor pe care le setați. Apoi, este deschis noul contract.
 
-Următoarele informații sunt **nu** copiat din contractul sursă în contractul țintă, deoarece este specific fiecărui contract:
+Următoarele informații **nu** sunt copiate din contractul sursă în contractul țintă, deoarece sunt specifice fiecărui contract:
 
 - Planificări factură
 - Contract și clienți de linie de contract
 - Referința proiectului pe liniile de contract pe bază de proiect
 - Informații despre bugetul clienților
 
-Liniile de contract pentru proiecte și produse, estimările în detaliile liniilor de contract și valorile care nu trebuie depășite la nivel de contract sunt copiate. Introducerea prețurilor implicite și a ratelor de cost depinde de selecția din **Copiați prețul** câmp în **Copiați parametrii** căsuță de dialog.
+Se copiază liniile de contract pentru proiecte și produse, estimările în detaliile liniei de contract și valorile care nu trebuie depășite la nivelul contractului. Introducerea prețurilor implicite și a ratelor de cost depinde de selecția din câmpul **Copiere preț** de pe pagina de dialog **Copiere parametri**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

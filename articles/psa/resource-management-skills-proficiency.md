@@ -1,6 +1,6 @@
 ---
 title: Modele abilități și competență
-description: Acest articol oferă informații despre cum să utilizați modelele de abilități și competențe.
+description: Acest articol oferă informații despre modul de utilizare a modelelor de abilități și competență.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

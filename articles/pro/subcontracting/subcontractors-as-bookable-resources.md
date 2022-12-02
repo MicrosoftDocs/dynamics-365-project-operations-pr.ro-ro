@@ -1,6 +1,6 @@
 ---
 title: Configurați subcontractanții ca resurse ce se pot rezerva
-description: Acest articol explică cum să configurați și să mențineți resursele subcontractanților care sunt create de la utilizatori și contacte din sistem, astfel încât acestea să poată fi asociate cu subcontractele în Microsoft Dynamics 365 Project Operations.
+description: Acest articol explică modul de configurare și de întreținere a resurselor pentru subcontractanți care sunt create de la utilizatori și persoane de contact în sistem, astfel încât să poată fi asociate cu subcontractele din Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

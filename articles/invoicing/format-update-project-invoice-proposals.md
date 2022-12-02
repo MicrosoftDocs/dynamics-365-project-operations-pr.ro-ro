@@ -1,6 +1,6 @@
 ---
 title: Gestionarea propunerilor de facturare pentru proiect
-description: Acest articol oferă detalii despre procesarea facturilor adresate clienților cu Operațiuni de proiect pentru scenarii bazate pe resurse/nestoc.
+description: Acest articol oferă o detalii despre procesarea facturilor trimise la client cu Project Operations pentru scenarii bazate pe resurse/fără stoc.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Propunerile de facturare pentru proiect pot fi procesate de departamentul dvs. d
   - Managerul de proiect confirmă factura proformă în Microsoft Dataverse.
   - Toate tranzacțiile de timp și materiale nefacturate, care sunt incluse în factura proformă, sunt înregistrate utilizând jurnalul **Integrare Project Operations** în Dynamics 365.
 
-Utilizați următorii pași pentru a finaliza o propunere de factură de proiect în Dynamics 365 Finance.
+Utilizați pașii următori pentru a finaliza o propunere de facturare a proiectului în Dynamics 365 Finance.
 
 1. Examinați informațiile de facturare pentru tranzacțiile de timp și materiale și postați jurnalul **Integrarea Project Operations**.
 2. Examinați informațiile de facturare pentru reperele de facturare cu preț fix.

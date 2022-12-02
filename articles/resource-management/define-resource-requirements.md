@@ -1,6 +1,6 @@
 ---
 title: Definirea cerințelor pentru resurse
-description: Acest articol oferă informații despre definirea informațiilor despre cerințele de resurse.
+description: Acest articol oferă informații despre informațiile de definire a cerinței de resursă.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

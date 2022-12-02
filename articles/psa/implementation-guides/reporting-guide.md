@@ -1,6 +1,6 @@
 ---
 title: Ghidul de raportare
-description: Acest articol oferă link-uri către informații despre raportare.
+description: Acest articol oferă linkuri către informații despre raportare.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919201"
 
 Metodele și tehnologiile de raportare din această aplicație vă pot ajuta să determinați starea de sănătate a proiectelor și să identificați momentul în care trebuie să luați măsuri corective. 
 
-Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
+Linkul PDF care a fost anterior în acest articol a fost eliminat și conținutul a fost mutat la următoarele articole:
 
 - [Pagina de pornire raportare](../reports-reporting-dynamics-365-project-service.md)
 - [Tablouri de bord](../reports-dashboards.md)
 - [Lucrul cu modelul de date Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
+> Acest articol va fi eliminat într-o actualizare de documentație viitoare. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

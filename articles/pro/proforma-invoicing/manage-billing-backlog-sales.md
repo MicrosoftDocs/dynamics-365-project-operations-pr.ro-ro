@@ -1,6 +1,6 @@
 ---
 title: Gestionarea jurnalului de așteptare pentru facturarea proiectului
-description: Acest articol oferă informații despre diferitele vizualizări disponibile pentru a fi utilizate atunci când gestionați întârzierea de facturare pe proiecte.
+description: Acest articol oferă informații despre diferitele vizualizări disponibile care pot fi utilizate atunci când gestionați restanțele de facturare pentru proiecte.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

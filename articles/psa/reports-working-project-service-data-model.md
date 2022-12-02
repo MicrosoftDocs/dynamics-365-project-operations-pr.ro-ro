@@ -1,6 +1,6 @@
 ---
 title: Lucrul cu modelul de date Project Service Automation
-description: Acest articol oferă informații despre cum să lucrați cu modelul de date.
+description: Acest articol oferă informații despre modul de lucru cu modelul de date.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8926699"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation extinde alte entități ale aplicației și introduce propriile entități în modelul de date Common Data Service. Acest articol descrie unele dintre entitățile pe care le veți întâlni în scenariile tipice de raportare PSA.
+Dynamics 365 Project Service Automation extinde alte entități ale aplicației și introduce propriile entități în modelul de date Common Data Service. Acest articol descrie unele dintre entitățile pe care le veți întâlni în scenarii tipice de raportare PSA.
 
 ## <a name="reporting-on-opportunities"></a>Raportarea oportunităților
 

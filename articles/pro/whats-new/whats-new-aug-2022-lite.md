@@ -1,6 +1,6 @@
 ---
 title: Noutăți în august 2022 - implementare Project Operations lite
-description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din august 2022 a Microsoft Dynamics 365 Project Operations implementare simplă.
+description: Acest articol oferă informații despre actualizările de calitate care sunt disponibile în versiunea din august 2022 a implementării Microsoft Dynamics 365 Project Operations lite.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "9403919"
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest articol se aplică următoarelor componente și versiuni ale Microsoft Dynamics 365 Project Operations:
+Acest articol se aplică următoarelor componente și versiuni de Microsoft Dynamics 365 Project Operations:
 
-- Operațiuni de proiect în a Dataverse versiunea de mediu 4.45.0.53
+- Project Operations într-un mediu Dataverse versiunea 4.45.0.53
 
 ## <a name="quality-updates"></a>Actualizări de calitate
 
 | Zonă de caracteristici | Număr de referință | Actualizare de calitate |
 | --- | --- | --- |
-| Managementul oportunităților | 2762089 | Gestionarea erorilor la închiderea contractului ca pierdută dacă salvarea automată este dezactivată în organizație.|
-|Planificare și urmărire de proiect | 2767841 | Actualizări de telemetrie Entitatea proiectului Creați sau actualizați scenarii.|
-|Facturarea și stabilirea prețurilor | 2771072 | Gestionarea excepțiilor referințelor nule în timpul câștigării cotației.|
+| Managementul oportunităților | 2762089 | Gestionarea erorilor la închiderea contractului ca pierdut dacă salvarea automată este dezactivată în organizație.|
+|Planificare și urmărire de proiect | 2767841 | Actualizări de telemetrie pentru Entitatea proiectului Creare sau Actualizare scenarii.|
+|Facturarea și stabilirea prețurilor | 2771072 | Gestionarea excepțiilor referințelor nule în timpul câștigării ofertei.|
 |Facturarea și stabilirea prețurilor | 2844181 |Eșecul în obținerea unui ID de corelare și blocarea creării unei facturi.|
 |Facturarea și stabilirea prețurilor | 2852836 | Lipsesc date efective între companii pentru Cheltuielile între companii create și aprobate în CE.|

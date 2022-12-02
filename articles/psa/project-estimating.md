@@ -1,6 +1,6 @@
 ---
 title: Costuri și venit de proiect
-description: Acest articol oferă informații despre estimarea costurilor și a veniturilor proiectului.
+description: Acest articol furnizează informații despre estimarea costurilor și a veniturilor proiectului.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

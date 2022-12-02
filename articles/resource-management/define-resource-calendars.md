@@ -1,6 +1,6 @@
 ---
 title: Definirea calendarelor de resurse
-description: Acest articol oferă informații despre cum să definiți calendarele orelor de lucru pentru resurse în Operațiuni de proiect.
+description: Acest articol furnizează informații despre cum să definiți calendarele orelor de lucru pentru resurse în Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

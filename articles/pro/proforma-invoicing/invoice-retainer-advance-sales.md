@@ -1,6 +1,6 @@
 ---
 title: Facturarea unui avans sau unei garanții
-description: Acest articol oferă informații despre cum să facturați un avans sau un avans în operațiunile de proiect.
+description: Acest articol furnizează informații despre cum să facturați un onorariu sau un avans în Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

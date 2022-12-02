@@ -35,18 +35,18 @@ ms.locfileid: "9177441"
 ## <a name="components-of-project-template"></a>Componentele șablonului de proiect
  Un șablon de proiect constă în trei componente:  
   
-- **Structura detaliată a proiectului**: O structură de defalcare a proiectului dintr-un șablon de proiect are același set de elemente ca în proiect. Puteți crea o ierarhie de sarcini, puteți asocia roluri la sarcină, puteți defini atribute de planificare, puteți stabili dependențe și puteți vizualiza toate datele din Gantt. Structura de defalcare a lucrărilor din șabloanele de proiect acceptă și moduri de activitate pentru fiecare sarcină. Nu există nicio diferență între un șablon de proiect și un proiect atunci când creați un program de lucru.  
+- **Structura detaliată a proiectului**: O structură de defalcare a proiectului dintr-un șablon de proiect are același set de elemente ca în proiect. Puteți să creați o ierarhie de activități, să asociați roluri la activitate, să definiți atribute de program, să stabiliți dependențe și să vedeți toate datele în Gantt. Structura detaliată a proiectului din șabloanele de proiect acceptă și modurile pentru fiecare activitate. Nu există nici o diferență între un șablon de proiect și un proiect de la crearea unui program de lucru.  
   
 - **Estimările de proiect**: estimările de proiect din șabloane funcționează la fel ca în proiecte, cu excepția faptului că listele de prețuri pentru costurile și prețurile de vânzare implicite sunt întotdeauna costurile implicit și listele de prețuri de vânzare definite în parametrii [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Restul funcționalității este la fel ca într-un proiect.  
   
 - **Formarea echipei de proiect**: atunci când se formează o echipă de proiect pentru un șablon de proiect, nu se poate rezerva o resursă denumită într-un șablon. Puteți utiliza opțiunea **Generați echipa de proiect** în structura detaliată a proiectului pentru a genera un set de resurse generice. De asemenea, puteți specifica abilitățile și expertizele necesare pentru resursele generice. Nu puteți substitui o resursă generică cu o resursă ce se poate rezerva din șabloanele de proiect.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Creați un șablon de proiect dintr-un proiect existent
+## <a name="create-a-project-template-from-an-existing-project"></a>Crearea unui șablon de proiect pe baza unui proiect existent
 Puteți crea un șablon de proiect dintr-un proiect în următoarele moduri:
 
 - **Structura de defalcare a muncii** : O structură de defalcare a lucrării într-un șablon care este derivat dintr-un proiect va copia toate sarcinile și dependențele. Misiunile care sunt create se vor baza pe membrii echipei generice care sunt adăugați echipei de proiect atunci când este creat șablonul de proiect.
-- **Estimări de proiect** : Când un șablon de proiect este creat dintr-un proiect existent, estimările din proiectul sursă sunt copiate în șablonul de proiect.
-- **Membrii echipei de proiect** : Când un șablon este creat dintr-un proiect existent, toți membrii echipei numiți sunt înlocuiți cu resursa generică a organizației. Toate numele posturilor și rolurile sunt păstrate.
+- **Estimări de proiect**: Când un șablon de proiect este creat dintr-un proiect existent, estimările din proiectul sursă sunt copiate în șablonul de proiect.
+- **Membrii echipei de proiect**: Când un șablon este creat dintr-un proiect existent, toți membrii echipei numiți sunt înlocuiți cu resursa generică a organizației. Toate numele posturilor și rolurile sunt păstrate.
 
 ## <a name="create-a-project-from-a-template"></a>Creați un proiect dintr-un șablon  
  Puteți crea un proiect dintr-un șablon în următoarele moduri:  

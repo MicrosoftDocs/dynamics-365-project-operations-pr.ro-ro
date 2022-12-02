@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a reconcilierii resurselor
-description: Acest articol oferă informații care vă vor ajuta să vă asigurați că rezervările de resurse și sarcinile pentru proiecte sunt aliniate.
+description: Acest articol oferă informații care vă vor ajuta să vă asigurați că rezervările de resurse și atribuirile pentru proiecte sunt armonizate.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

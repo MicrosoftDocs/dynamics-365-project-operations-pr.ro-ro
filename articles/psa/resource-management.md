@@ -1,6 +1,6 @@
 ---
 title: Pagina de primire proiecte resursă
-description: Acest articol oferă informații despre capabilitățile de gestionare a resurselor din Project Service Automation (PSA) pentru Dynamics 365.
+description: Acest articol oferă informații despre capacitățile de gestionare a resurselor în Project Service Automation (PSA) pentru Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

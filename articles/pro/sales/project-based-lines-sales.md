@@ -1,6 +1,6 @@
 ---
 title: Linii de proiect bazate pe oportunitate - simplificat
-description: Acest articol oferă informații despre liniile de oportunitate bazate pe proiecte. (Pro)
+description: Acest articol oferă informații despre linii de oportunitate pe bază de proiect. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

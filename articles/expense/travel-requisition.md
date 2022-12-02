@@ -1,6 +1,6 @@
 ---
 title: Cereri de călătorie
-description: Acest articol oferă informații despre solicitările de călătorie.
+description: Acest articol oferă informații despre cereri de călătorie.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

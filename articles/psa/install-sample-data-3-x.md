@@ -1,6 +1,6 @@
 ---
 title: Instalarea datelor eșantion
-description: Acest articol oferă informații despre instalarea datelor eșantion în Project Service Automation.
+description: Acest articol oferă informații despre instalarea eșantionului de date în Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

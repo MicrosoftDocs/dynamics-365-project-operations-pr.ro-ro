@@ -1,6 +1,6 @@
 ---
 title: Analiza ofertelor de proiect
-description: Acest articol oferă informații despre analiza cotațiilor de proiect.
+description: Acest articol oferă informații despre analiza ofertelor de proiect.
 author: rumant
 ms.custom:
 - dyn365-projectservice

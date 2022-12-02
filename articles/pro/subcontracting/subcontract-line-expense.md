@@ -1,6 +1,6 @@
 ---
 title: Linii de subcontract pentru categoriile de cheltuieli
-description: Acest articol explică cum să înregistrați liniile de subcontractare pentru cheltuieli și să utilizați câmpurile pentru a înregistra achiziția de timp de la furnizori.
+description: Acest articol explică modul de înregistrare a liniilor de subcontractare pentru cheltuieli și utilizarea câmpurilor pentru înregistrarea achizițiilor de timp de la furnizori.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

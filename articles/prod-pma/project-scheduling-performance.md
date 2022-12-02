@@ -1,6 +1,6 @@
 ---
 title: Performanța planificării resurselor proiectului
-description: Acest articol oferă informații despre cum să îmbunătățiți performanța programării resurselor pentru un număr mare de proiecte.
+description: Acest articol oferă informații despre cum să îmbunătățim performanța planificării resurselor pentru un număr mare de proiecte.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

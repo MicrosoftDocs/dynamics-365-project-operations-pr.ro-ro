@@ -1,6 +1,6 @@
 ---
 title: Primiți articole din comanda de achiziție din cerința articolului
-description: Acest articol explică cum să primiți articole dintr-o comandă de achiziție dintr-o cerință de articol.
+description: Acest articol explică modul de primire a articolelor dintr-o comandă de cumpărare dintr-o cerință de articol.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929551"
 
 [!include [banner](../../includes/banner.md)]
 
-Acest articol explică cum să primiți articole dintr-o comandă de achiziție dintr-o cerință de articol.
+Acest articol explică modul de primire a articolelor dintr-o comandă de cumpărare dintr-o cerință de articol.
 
 Utilizând o cerință de articol în loc de o tranzacție de articol, puteți planifica livrarea chiar înainte ca articolul să fie utilizat efectiv, să creați o comandă de achiziție, să includeți articolul în cadrul acordului comercial și să includeți cerința articolului în planificarea producției. 
 

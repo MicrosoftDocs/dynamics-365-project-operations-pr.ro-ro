@@ -1,6 +1,6 @@
 ---
 title: Copierea contractelor de proiect
-description: Acest articol oferă informații despre copierea contractelor de proiect în Operațiuni de proiect.
+description: Acest articol furnizează informații despre copierea contractelor de proiect în Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

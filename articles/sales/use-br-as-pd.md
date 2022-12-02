@@ -1,6 +1,6 @@
 ---
 title: Utilizarea unei resurse care se poate rezerva ca dimensiune de preț
-description: Acest articol oferă informații despre cum să utilizați o resursă rezervabilă ca dimensiune a prețului.
+description: Acest articol furnizează informații despre cum să utilizați o resursă care se poate rezerva ca dimensiune de tarifare.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914831"
 
  _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_ 
 
-Acest articol oferă informații despre cum să utilizați o resursă rezervabilă ca dimensiune a prețului. Dacă strategia dvs. de stabilire a prețurilor este configurată astfel încât fiecare resursă rezervabilă să aibă un anumit preț sau o rată de cost, utilizați o resursă rezervabilă ca dimensiune de stabilire a prețurilor.
+Acest articol furnizează informații despre cum să utilizați o resursă care se poate rezerva ca dimensiune de tarifare. Dacă strategia dvs. de stabilire a prețurilor este configurată astfel încât fiecare resursă rezervabilă să aibă un anumit preț sau o rată de cost, utilizați o resursă rezervabilă ca dimensiune de stabilire a prețurilor.
 
 ## <a name="prerequisites"></a>Cerințe preliminare
-Înainte de a finaliza procedurile din acest articol, trebuie să aveți o nouă soluție de dimensiune de preț pentru organizația dvs. Dacă nu ați creat deja unul, consultați [Creați câmpuri și entități particularizate](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Înainte de a finaliza procedurile din acest articol, trebuie să aveți o nouă soluție de dimensiune a prețurilor pentru organizația dvs. Dacă nu ați creat deja unul, consultați [Creați câmpuri și entități particularizate](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Adăugați câmpul Resursă care se poate rezerva la formulare și vizualizări
 Pentru a face câmpul **Resursă care se poate rezerva** vizibil în soluția de dimensiune a prețurilor, trebuie să adăugați câmpul la toate formularele și vizualizările ca entitate.

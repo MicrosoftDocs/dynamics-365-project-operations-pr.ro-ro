@@ -1,6 +1,6 @@
 ---
 title: Înscrieți-vă pentru abonamente de previzualizare a Project Operations pentru resurse/scenarii ne-stocate
-description: Acest articol oferă informații despre cum să vă abonați și să implementați operațiuni de proiect pentru scenarii bazate pe resurse/non-aprovizionate.
+description: Acest articol oferă informații despre cum să vă abonați și să implementați Project Operations pentru resurse/scenarii care nu sunt bazate pe stoc.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără 
 
 
 
-Acest articol explică cum să vă abonați la oferta de încercare și să implementați mediul Project Operations pentru scenarii bazate pe resurse/non-aprovizionate.
+Acest articol explică cum să vă abonați la oferta de încercare și să implementați mediul Project Operations pentru scenarii bazate pe resurse/nebazate pe stoc.
 
 ## <a name="prerequisites"></a>Cerințe preliminare
 - Utilizatorul care implementează previzualizarea trebuie să aibă drepturi de administrator global entitate găzduită Azure. Puteți crea o entitate găzduită în timpul primei răscumpărări a ofertei. 
@@ -40,7 +40,7 @@ Acest articol explică cum să vă abonați la oferta de încercare și să impl
 
   Veți vedea că oferta de confirmare a fost valorificată cu succes.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Probă de previzualizare Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Încercare de previzualizare Dynamics 365 Finance
 
 Accesați [Dynamics 365 for Finance versiune prekiminară de încercare](https://aka.ms/trypoche) și repetați pașii din secțiunea anterioară cu oferta, Înscrieți-vă în mediul găzduit în cloud.  
 
@@ -49,7 +49,7 @@ Accesați [Dynamics 365 for Finance versiune prekiminară de încercare](https:/
 > [!IMPORTANT]
 > Veți avea nevoie de acces administrativ la organizația dvs. Microsoft 365 Portal pentru a finaliza pașii următori.
 
-1. Mergi la [Microsoft 365 centru de administrare](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
+1. Accesați [Centrul de administrare Microsoft 365](https://portal.office.com/) pentru a atribui licențele utilizatorilor dvs.
 
 2. Pe pagina **Utilizatori activi**, selectați utilizatorii cărora doriți să le atribuiți o licență.
 
@@ -68,11 +68,11 @@ Pentru a finaliza această sarcină, urmați pașii din articol, [Adăugați un 
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementați mediul demo de finanțare cu Project Operations pentru resurse/scenarii fără stoc
 
-Urmați îndrumările din articol, [Furnizați un mediu nou](resource-provision-new-environment.md) pentru a finaliza desfășurarea. Utilizați tipul de implementare [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pentru previzualizare. 
+Urmați îndrumările din articol, [Asigurarea accesului la un mediu nou](resource-provision-new-environment.md) pentru a finaliza implementarea. Utilizați tipul de implementare [mediu demonstrativ](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) pentru previzualizare. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalați datele de instalare și configurare CDS
 
-Instalați datele de configurare și configurare CDS așa cum este descris în articol, [Configurați și aplicați datele de configurare în Common Data Service](resource-apply-pro-setup-config-data.md).
+Instalați datele de instalare și configurare CDS așa cum este descris în articol, [Instalarea și aplicarea datelor de configurare în Common Data Service](resource-apply-pro-setup-config-data.md).
 Finalizați acest pas numai după ce mediul de demonstrație Finance este implementat și datele demonstrative sunt gata.
 
 

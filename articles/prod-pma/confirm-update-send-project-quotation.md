@@ -1,6 +1,6 @@
 ---
 title: Confirmarea, actualizarea și trimiterea unei oferte de proiect
-description: Acest articol oferă informații despre trimiterea unei oferte către client pentru confirmare, modificarea pe baza feedback-ului și apoi retrimiterea ofertei.
+description: Acest articol oferă informații despre trimiterea unei oferte către client pentru confirmare, modificarea pe baza feedback-ului și apoi retrimiterea ofertelor.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

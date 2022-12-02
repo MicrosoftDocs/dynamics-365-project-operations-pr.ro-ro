@@ -1,6 +1,6 @@
 ---
 title: Ce este nou în decembrie 2020 - implementare Project Operations simplificat - facturare de la ofertă și până la proforma
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din decembrie 2020 a implementării Project Operations Lite - acord cu facturarea proforma.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din decembrie 2020 de implementare a Project Operations lite – de la ofertă până la facturarea proformă.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924077"
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
   - Project Operations pe mediul Dataverse versiunea 4.5.0.134 
 

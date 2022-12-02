@@ -1,6 +1,6 @@
 ---
 title: Ghidul de gestionare a resurselor
-description: Acest articol oferă legături către informații despre gestionarea resurselor în Project Service Automation
+description: Acest articol oferă linkuri către informații despre gestionarea resurselor în Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910813"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul a fost mutat în următoarele articole:
+Linkul PDF care a fost anterior în acest articol a fost eliminat și conținutul a fost mutat la următoarele articole:
 
 - [Pagina principală gestionare resurse](../resource-management-home-page.md)
 - [Concepte-cheie](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Linkul PDF care era anterior în acest articol a fost eliminat, iar conținutul 
 - [Întrebări frecvente de gestionarea resurselor](../resource-management-faq.md)
 
 > [!NOTE]
-> Acest articol va fi eliminat într-o viitoare actualizare a documentației. 
+> Acest articol va fi eliminat într-o actualizare de documentație viitoare. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

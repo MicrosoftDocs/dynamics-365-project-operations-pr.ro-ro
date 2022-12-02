@@ -1,6 +1,6 @@
 ---
 title: Rezervați resurse rezervabile numite la o echipă de proiect și atribuiți sarcini
-description: Acest articol oferă informații despre cum să rezervați resurse numite echipelor de proiect și să le atribuiți sarcinilor.
+description: Acest articol oferă informații despre cum să rezervați resurse numite pentru echipe de proiect și despre atribuirea lor către activități.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Elaborarea șabloanelor de proiect cu Copiere proiect
-description: Acest articol oferă informații despre cum să creați șabloane de proiect folosind acțiunea personalizată Copiere proiect.
+description: Acest articol oferă informații despre cum să creați șabloane de proiect utilizând acțiunea personalizată Copiere proiect.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,42 +25,42 @@ Când selectați **Copie proiect**, starea proiectului țintă este actualizată
 
 ### <a name="name"></a>Nume 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Parametri de intrare
 
 Există trei parametri de intrare:
 
-- **ÎnlocuieșteNamedResources** sau **ClearTeamsAndAssignments** – Setați doar una dintre opțiuni. Nu le seta pe amândouă.
+- **ReplaceNamedResources** sau **ClearTeamsAndAssignments** – Setați doar una dintre opțiuni. Nu le setați pe ambele.
 
-    - **\{„ReplaceNamedResources”:true\}** – Comportamentul implicit pentru Operațiuni de proiect. Orice resurse numite sunt înlocuite cu resurse generice.
-    - **\{„ClearTeamsAndAssignments”:adevărat\}** – Comportamentul implicit pentru Proiect pentru Web. Toate misiunile și membrii echipei sunt eliminați.
+    - **\{„ReplaceNamedResources”:true\}** – Comportamentul implicit pentru Project Operations. Orice resursă numită este înlocuită cu resurse generice.
+    - **\{„ClearTeamsAndAssignments”:true\}** – Comportamentul implicit pentru Project for the Web. Toate sarcinile și membrii echipei sunt eliminate.
 
-- **SourceProject** – Referința entității a proiectului sursă din care să se copieze. Acest parametru nu poate fi nul.
-- **Ţintă** – Referința entității a proiectului țintă în care să se copieze. Acest parametru nu poate fi nul.
+- **SourceProject** – Referința entității proiectului sursă din care urmează să se copieze. Acest parametru nu poate fi nul.
+- **Target** – Referința entității proiectului sursă în care urmează să se copieze. Acest parametru nu poate fi nul.
 
-Următorul tabel oferă un rezumat al celor trei parametri.
+Următorul tabel oferă o scurtă prezentare a celor trei parametri.
 
 | Parametru                | Tipul             | Valoare                 |
 |--------------------------|------------------|-----------------------|
-| ÎnlocuieșteNamedResources    | Boolean          | **Adevărat** sau **Fals** |
+| ReplaceNamedResources    | Boolean          | **Adevărat** sau **Fals** |
 | ClearTeamsAndAssignments | Boolean          | **Adevărat** sau **Fals** |
 | SourceProject            | Referință de entitate | Proiectul sursă    |
 | Țintă                   | Referință de entitate | Proiectul țintă    |
 
-Pentru mai multe valori implicite ale acțiunilor, consultați [Utilizați acțiunile API-ului web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Pentru mai multe valori implicite privind acțiunile, consultați [Utilizarea acțiunilor Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
-### <a name="validations"></a>Validari
+### <a name="validations"></a>Validări
 
-Se fac următoarele validări.
+Sunt efectuate următoarele validări.
 
 1. Null verifică și preia proiectele sursă și țintă pentru a confirma existența ambelor proiecte în organizație.
 2. Sistemul validează că proiectul țintă este valabil pentru copiere prin verificarea următoarelor condiții:
 
-    - Nu există nicio activitate anterioară în cadrul proiectului (inclusiv selecția **Sarcini** fila), iar proiectul este nou creat.
-    - Nu există o copie anterioară, nu a fost solicitat niciun import pentru acest proiect și proiectul nu are un **A eșuat** stare.
+    - Nu există nicio activitate anterioară în cadrul proiectului (inclusiv selecția de pe fila **Sarcini**), iar proiectul este nou creat.
+    - Nu există o copie anterioară, nu a fost solicitat niciun import pentru acest proiect și proiectul nu are o stare **Eșuat**.
 
-3. Operația nu este apelată folosind HTTP.
+3. Operațiunea nu este apelată folosind HTTP.
 
 ## <a name="specify-fields-to-copy"></a>Specificați câmpurile de copiat
 
@@ -68,7 +68,7 @@ Când este apelată acțiunea, **Copie proiect** va analiza vizualizarea proiect
 
 ### <a name="example"></a>Exemplu
 
-Următorul exemplu arată cum să apelați **CopyProjectV3** acțiune personalizată cu **removeNamedResources** set de parametri.
+Următorul exemplu arată cum să apelați acțiunea personalizată **CopyProjectV3** cu setul de parametri **removeNamedResources**.
 
 ```C#
 {

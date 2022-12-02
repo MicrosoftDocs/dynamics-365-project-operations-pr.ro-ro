@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a liniilor de contract bazate pe produs - simplificat
-description: Acest articol oferă informații despre liniile contractuale bazate pe produse.
+description: Acest articol oferă informații despre linii de contract pe bază de produs.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

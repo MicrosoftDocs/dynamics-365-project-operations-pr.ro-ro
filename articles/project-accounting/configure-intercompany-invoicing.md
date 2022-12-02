@@ -1,6 +1,6 @@
 ---
 title: Configurarea facturării între companii
-description: Acest articol oferă informații și exemple despre configurarea facturării intercompanii pentru proiecte.
+description: Acest articol oferă informații și exemple despre configurarea facturării între companii pentru proiecte.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Parcurgeți pașii următori pentru a configura facturarea între companii pentr
 
 1. **Configurați contabilitatea între companii între entități juridice**. Fiecare pereche de persoane juridice care iau cu împrumut și împrumută trebuie să fie configurată pe pagina registrului general [Contabilitate între companii](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. În Dynamics 365 Finance, accesați **Registrul general** > **Configurarea postării** > **Contabilitatea intercompanii**. Creați o înregistrare cu următoarele informații:
+    1. În Dynamics 365 Finance, accesați **Registru general** > **Configurare publicare** > **Contabilitate între companii**. Creați o înregistrare cu următoarele informații:
 
         - **Companie originară** = **GBPM**
         - **Compania destinatară** = **USPM**

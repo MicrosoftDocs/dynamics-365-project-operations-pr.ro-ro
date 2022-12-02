@@ -1,6 +1,6 @@
 ---
 title: Prezentare generală a liniilor de oferte bazate pe produs - simplificat
-description: Acest articol oferă informații despre lucrul cu linii de oferta bazate pe produs.
+description: Acest articol oferă informații despre lucrul cu linii de ofertă bazate pe produs.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

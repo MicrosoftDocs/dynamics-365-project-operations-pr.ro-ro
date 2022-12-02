@@ -35,7 +35,7 @@ Gradul de detaliu într-o WBS depinde de nivelul de acuratețe care este necesar
 
 În schimb, proiectele din industrii precum media și publicitatea, software-ul și infrastructura IT tind să fie unice, iar productivitatea este relativă la experiența și competența individului care îndeplinește sarcina. Prin urmare, aceste industrii folosesc un WBS pentru a obține o aproximare a dimensiunii unui proiect, nu pentru a urmări în detaliu progresul proiectului respectiv. 
 
-Construirea unui WBS este un proces intensiv care se face de obicei pe o perioadă lungă de timp și care necesită colaborare și informații de la o mare varietate de oameni. Acest articol descrie modul în care puteți utiliza îmbunătățirile WBS pentru a vă îndeplini cerințele pentru estimări și urmărire.
+Construirea unui WBS este un proces intensiv care se face de obicei pe o perioadă lungă de timp și care necesită colaborare și informații de la o mare varietate de oameni. Acest articol descrie modul în care puteți utiliza îmbunătățirile WBS pentru a satisface cerințele dvs. pentru estimări și urmărire.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Cerințe preliminare pentru crearea unui WBS
 Pentru a crea un WBS, trebuie să puteți crea un program de lucru și să estimați costul lucrului.
@@ -166,7 +166,7 @@ Finanța are trei vizualizări pentru WBS-ul unui proiect: vizualizarea Planific
 
 ### <a name="planning-view"></a>Vizualizare planificare
 
-Vizualizarea Planificare afișează estimarea planificată sau de bază a informațiilor privind programul și costurile. Deși nu există caracteristici pentru urmărirea versiunii și a liniei de bază pentru un proiect WBS, valorile din această vizualizare sunt destinate să reprezinte versiunea de bază. Secțiunile Estimarea programului și Estimarea costurilor din acest articol descriu această vizualizare și modul în care este utilizată pentru a crea un WBS.
+Vizualizarea Planificare afișează estimarea planificată sau de bază a informațiilor privind programul și costurile. Deși nu există caracteristici pentru urmărirea versiunii și a liniei de bază pentru un proiect WBS, valorile din această vizualizare sunt destinate să reprezinte versiunea de bază. Secțiunile de estimare a programării și estimarea costurilor din acest articol descriu această vizualizare și modul în care este utilizată pentru a crea un WBS.
 
 ### <a name="effort-tracking-view"></a>Vizualizarea Urmărire efort
 

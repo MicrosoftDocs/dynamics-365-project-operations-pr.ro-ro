@@ -24,7 +24,7 @@ ms.locfileid: "8683875"
 
 [!include [banner](../../includes/banner.md)]
 
-Fazele proiectului pot servi drept ghid pentru ciclul de viață al proiectului. Puteți defini etapele proiectului pe care doriți să le includeți în proiectele dvs. în zona Faza proiectului în pagina Managementul proiectului și parametrii contabili. Dynamics 365 Finance oferă cinci etape de proiect predefinite și trei etape definite de utilizator. Puteți actualiza numele unei faze de proiect pe care o utilizați pentru a urmări progresul proiectelor. De asemenea, puteți furniza nume pentru numele de stare definite de utilizator. Această sarcină arată cum să redenumiți sau să modificați o fază de proiect și utilizează setul de date USSI.
+Fazele proiectului pot servi drept ghid pentru ciclul de viață al proiectului. Puteți defini etapele proiectului pe care doriți să le includeți în proiectele dvs. în zona Faza proiectului în pagina Managementul proiectului și parametrii contabili. Dynamics 365 Finance furnizează cinci faze de proiect predefinite și trei faze definite de utilizator. Puteți actualiza numele unei faze de proiect pe care o utilizați pentru a urmări progresul proiectelor. De asemenea, puteți furniza nume pentru numele de stare definite de utilizator. Această sarcină arată cum să redenumiți sau să modificați o fază de proiect și utilizează setul de date USSI.
 
 1. Accesați Gestionarea proiectelor și contabilitate > Configurare > Gestionarea proiectelor și parametrii contabili.
 2. Faceți clic pe fila Fază proiect.

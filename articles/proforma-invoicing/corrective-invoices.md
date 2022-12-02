@@ -1,6 +1,6 @@
 ---
 title: Facturi corective bazate pe proiect
-description: Acest articol oferă informații despre cum să creați și să confirmați facturile corective bazate pe proiect în Operațiuni de proiect.
+description: Acest articol oferă informații despre cum să creați și să confirmați facturi corective bazate pe proiect în Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

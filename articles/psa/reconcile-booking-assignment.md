@@ -1,6 +1,6 @@
 ---
 title: Reconciliați rezervări și atribuiri
-description: Acest articol oferă informații despre fapte reale.
+description: Acest articol oferă informații despre valorile reale.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

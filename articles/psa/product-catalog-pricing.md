@@ -1,6 +1,6 @@
 ---
 title: Tarifare pentru Catalog de produse
-description: Acest articol oferă informații despre cum funcționează prețurile din catalogul de produse Dynamics 365 Project Service Automation (PSA).
+description: Acest articol furnizează informații despre modul în care funcționează prețul din catalogul de produse în Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -52,7 +52,7 @@ Pentru a crea o cheltuială sau pentru a potrivi o cheltuială dintr-o chitanț�
 
 ## <a name="installation"></a>Instalare
 
-Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Expense Management Service pentru Microsoft Dynamics 365 Finance și activați funcțiile din instanța dvs. Puteți accesa programul de completare din proiectul dvs. din Microsoft Dynamics Lifecycle Services (LCS).
+Pentru a utiliza aceste capabilități avansate de cheltuieli, instalați programul de completare Serviciul de gestionare a cheltuielilor pentru Microsoft Microsoft Dynamics 365 Finance și activați funcțiile din instanța dvs. Puteți accesa programul de completare din proiectul dvs. din Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Conectați-vă la LCS și deschideți mediul dorit.
 2. Accesați **Toate detaliile**.
@@ -89,11 +89,11 @@ Disponibilitatea acestei caracteristici în diferite regiuni este listată în t
 
 | Regiunea | Acceptat                         |
 |--------|-----------------------------------|
-| STATELE UNITE ALE AMERICII    | Da                               |
+| S.U.A.    | Da                               |
 | CAN    | Da                               |
 | Regatul Unit     | Da                               |
 | AUS    | Da                               |
-| UE     | Parţial. Numai chitanțe în limba engleză. |
+| UE     | Parțial. Numai chitanțe în limba engleză. |
 | Asia   | No                                |
 | Japonia  | No                                |
 | Africa | No                                |

@@ -1,6 +1,6 @@
 ---
 title: Stări de rezervare
-description: Acest articol oferă un link către informații despre cum să configurați stările rezervării pentru Operațiunile de proiect.
+description: Acest articol oferă un link către informații despre cum să configurați stările rezervărilor pentru Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

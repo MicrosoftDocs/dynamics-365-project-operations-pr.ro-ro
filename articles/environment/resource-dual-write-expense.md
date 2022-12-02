@@ -1,6 +1,6 @@
 ---
 title: Integrarea gestionării cheltuielilor
-description: Acest articol oferă informații despre integrarea raportului de cheltuieli în Operațiuni de proiect folosind scriere dublă.
+description: Acest articol oferă informații despre integrarea rapoartelor de cheltuieli în Project Operations utilizând scrierea duală.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -18,23 +18,23 @@ ms.locfileid: "9528020"
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Acest articol oferă informații despre integrarea rapoartelor de cheltuieli în Operațiunile de proiect [implementarea integrală a cheltuielilor](../expense/expense-overview.md) folosind dual-write.
+Acest articol oferă informații despre integrarea rapoartelor de cheltuieli în Project Operations [implementarea cheltuielilor complete](../expense/expense-overview.md) utilizând scrierea duală.
 
 ## <a name="expense-categories"></a>Categorii de cheltuieli
 
-Într-o implementare completă a cheltuielilor, categoriile de cheltuieli sunt create și menținute în aplicațiile de finanțare și operațiuni. Pentru a crea o nouă categorie de cheltuieli, parcurgeți următorii pași:
+Într-o implementare completă a cheltuielilor, categoriile de cheltuieli sunt create și menținute în aplicațiile pentru finanțe și operațiuni. Pentru a crea o nouă categorie de cheltuieli, parcurgeți următorii pași:
 
-1. În Microsoft Dataverse creeați o categorie **Tranzacție**. Integrarea cu dublă scriere va sincroniza această categorie de tranzacții cu aplicațiile de finanțare și operațiuni. Pentru mai multe informații, consultați [Configurarea categoriilor de proiecte](/dynamics365/project-operations/project-accounting/configure-project-categories) și [Configurarea Project Operations și integrarea datelor de configurare](resource-dual-write-setup-integration.md). Ca rezultat al acestei integrări, sistemul creează patru înregistrări de categorii partajate în aplicațiile de finanțare și operațiuni.
+1. În Microsoft Dataverse creeați o categorie **Tranzacție**. Integrarea cu scriere duală va sincroniza această categorie de tranzacții cu aplicațiile pentru finanțe și operațiuni. Pentru mai multe informații, consultați [Configurarea categoriilor de proiecte](/dynamics365/project-operations/project-accounting/configure-project-categories) și [Configurarea Project Operations și integrarea datelor de configurare](resource-dual-write-setup-integration.md). Ca urmare a acestei integrări, sistemul creează patru înregistrări de categorii partajate în aplicațiile pentru finanțe și operațiuni.
 2. În Finanțe, accesați **Gestionarea cheltuielilor** > **Configurare** > **Categorii partajate** și selectați o categorie partajată cu o clasă de tranzacție **Cheltuieli**. Setați parametrul **Poate fi folosit în Cheltuieli** la **True** și definiți tipul de cheltuială de utilizat.
 3. Folosind această înregistrare de categorie partajată, creați o nouă categorie de cheltuieli accesând **Gestionarea cheltuielilor** > **Configurare** > **Categorii de cheltuieli** și selectând **Nou**. Când înregistrarea este salvată, scrierea duală utilizează harta tabelului, **Entitatea privind exportul categoriilor de cheltuieli în proiectul de integrare Project Operations (msdyn\_expensecategories)** pentru a sincroniza această înregistrare cu Dataverse.
 
   ![Integrarea categoriilor de cheltuieli.](./media/DW6ExpenseCategories.png)
 
-Categoriile de cheltuieli din aplicațiile de finanțare și operațiuni sunt specifice companiei sau entității juridice. Există înregistrări separate, corespunzătoare, specifice entității juridice Dataverse. Atunci când un manager de proiect estimează cheltuielile, nu poate selecta categoriile de cheltuieli care au fost create pentru un proiect care este deținut de o companie diferită de compania care deține proiectul la care lucrează. 
+Categoriile de cheltuieli în aplicațiile pentru finanțe și operațiuni sunt specifice companiei sau entității juridice. Există înregistrări separate, corespunzătoare, specifice entității juridice Dataverse. Atunci când un manager de proiect estimează cheltuielile, nu poate selecta categoriile de cheltuieli care au fost create pentru un proiect care este deținut de o companie diferită de compania care deține proiectul la care lucrează. 
 
 ## <a name="expense-reports"></a>Rapoarte de cheltuieli
 
-Rapoartele de cheltuieli sunt create și aprobate în aplicațiile de finanțare și operațiuni. Pentru mai multe informații, consultați [Creați și procesați rapoarte de cheltuieli în Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). După ce raportul de cheltuieli este aprobat de managerul de proiect este afișat în registrul general. În Project Operations, liniile de raportare a cheltuielilor legate de proiect sunt înregistrate folosind reguli speciale de publicare:
+Rapoartele de cheltuieli sunt create și aprobate în aplicațiile pentru finanțe și operațiuni. Pentru mai multe informații, consultați [Creați și procesați rapoarte de cheltuieli în Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). După ce raportul de cheltuieli este aprobat de managerul de proiect este afișat în registrul general. În Project Operations, liniile de raportare a cheltuielilor legate de proiect sunt înregistrate folosind reguli speciale de publicare:
 
   - Costul aferent proiectului (inclusiv impozitul nerecuperabil) nu este înregistrat imediat în contul de cost al proiectului în registrul general, ci este înregistrat în contul de integrare a cheltuielilor. Acest cont este configurat în **Management de proiect și contabilitate** > **Configurare** > **Management de proiect și parametrii contabili**, fila **Project Operations pe Dynamics 365 Customer engagement**.
   - Scrierea duală se sincronizează la Dataverse folosind harta de tabel **Entitatea privind exportul de cheltuieli în proiectul de integrare Project Operations (msdyn\_expenses)**.

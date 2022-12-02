@@ -1,6 +1,6 @@
 ---
 title: Aplicarea datelor demonstrative unui mediu găzduit în Finance Cloud
-description: Acest articol explică cum să aplicați date demonstrative din Project Operations într-un mediu Dynamics 365 Finance găzduit în cloud.
+description: Acest articol explică modul de aplicare a datelor demo din Project Operations la un mediu Dynamics 365 Finance găzduit în cloud.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029912"
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 > [!IMPORTANT]
-> Acest articol este aplicabil numai Microsoft Dynamics 365 Finance versiunea 10.0.13 și poate fi efectuată numai într-un mediu găzduit în cloud. Parcurgeți pașii din acest articol **INAINTE DE** aplicați actualizări de calitate mediului.
+> Acest articol este aplicabil numai pentru Microsoft Dynamics 365 Finance, versiunea 10.0.13, și se poate efectua numai pe un mediu găzduit în cloud. Finalizați pașii din acest articol **ÎNAINTE DE** a aplica actualizări de calitate mediului.
 
 1. În proiectul dvs. LCS, deschideți pagina **Detalii despre mediu**. Observați că include detaliile necesare pentru a vă conecta la mediu utilizând Remote Desktop Protocol (RDP).
 
@@ -76,7 +76,7 @@ Finalizarea acestui proces durează câteva minute. Ar trebui să primiți un me
 
 18. Închideți sesiunea desktop la distanță și utilizați pagina LCS **Detalii despre mediu** pentru a vă conecta la mediu pentru a confirma că funcționează conform așteptărilor.
 
-![Finanțe și operațiuni.](./media/10FinanceAndOperations.png)
+![Finanțe și operațiuni](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

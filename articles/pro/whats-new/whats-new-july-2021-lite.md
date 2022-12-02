@@ -1,6 +1,6 @@
 ---
 title: Noutăți în iulie 2021 - implementare simplificată Project Operations
-description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din iulie 2021 a implementării Project Operations lite.
+description: Acest articol oferă informații despre actualizările de calitate disponibile în versiunea din iulie 2021 de implementare a Project Operations lite.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8914003"
 
 _Se aplică pentru: implementare simplificată - înțelegere la emiterea facturii proforme_
 
-Acest articol se aplică la următoarele Dynamics 365 Project Operations componente si versiuni:
+Acest articol se aplică următoarelor componente și versiuni Dynamics 365 Project Operations:
 
   - Project Operations în mediul Dataverse versiunea 4.12.0.148 sau 4.12.0.152.
 

@@ -1,6 +1,6 @@
 ---
 title: Facturi proforma de proiect
-description: Acest articol oferă informații despre facturile de proiect proforma în Operațiuni de proiect.
+description: Acest articol oferă informații despre facturile de proiect proforme în Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

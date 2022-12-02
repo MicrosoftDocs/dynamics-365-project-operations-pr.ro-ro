@@ -1,6 +1,6 @@
 ---
 title: Propuneți resurse de proiect
-description: Acest articol oferă informații despre propunerea resurselor proiectului.
+description: Acest articol furnizează informații despre propunerea resurselor de proiect.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

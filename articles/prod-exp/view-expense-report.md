@@ -1,6 +1,6 @@
 ---
 title: Vizualizați un raport de cheltuieli din registrul general sau Achiziții și aprovizionare
-description: Acest articol explică cum să vizualizați raportul de cheltuieli inițial în care a apărut o tranzacție.
+description: Acest articol explică modul de vizualizare a raportului de cheltuieli inițial pe care a apărut o tranzacție.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

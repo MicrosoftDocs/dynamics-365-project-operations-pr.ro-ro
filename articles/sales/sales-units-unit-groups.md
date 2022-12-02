@@ -28,7 +28,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 
 Unitățile sunt cantitățile sau măsurătorile în care vă vindeți produsele sau serviciilor. De exemplu, dacă vindeți produse pentru grădinărit, puteți vinde semințele în unități de tip pachete, cutii și paleți. Un grup de unitate este o colecție de unități diferite.
 
-Pentru a parcurge pașii din acest articol, asigurați-vă că ați fost atribuit rolului de administrator de sistem sau manager profesional de vânzări sau că aveți permisiuni echivalente.
+Pentru a finaliza pașii din acest articol, asigurați-vă că ați fost atribuit rolului de Administrator de sistem sau Manager Sales Professional sau că aveți permisiuni echivalente.
 
 ## <a name="create-a-unit-group"></a>Crearea unui grup de unităţi
 

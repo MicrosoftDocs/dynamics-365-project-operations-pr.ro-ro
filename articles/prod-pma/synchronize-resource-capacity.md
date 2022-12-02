@@ -1,6 +1,6 @@
 ---
 title: Sincronizarea capacității resurselor
-description: Acest articol oferă informații despre cum să sincronizați capacitatea unei resurse în calendare și proiecte.
+description: Acest articol oferă informații despre cum să sincronizați capacitatea unei resurse între calendare și proiecte.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

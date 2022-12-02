@@ -1,6 +1,6 @@
 ---
 title: Determinarea tipului de implementare
-description: Acest articol oferă informații pentru a vă ajuta să determinați tipul corect de implementare a operațiunilor de proiect pentru compania dvs.
+description: Acest articol oferă informații pentru a vă ajuta să determinați tipul corect de implementare a Project Operations pentru compania dvs.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clienții existenți ai Dynamics utilizând Dynamics 365 Project Service Automation
 Project Operations include capabilitățile livrate împreună cu Project Service Automation. O cale de actualizare va fi lansată pentru acești clienți în versiunea 1 de lansare 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clienții existenți ai Dynamics 365 Finance care folosesc managementul proiectelor și contabilitatea 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clienții existenți ai Dynamics 365 Finance care utilizează Managementul de proiect și contabilitate 
 
 Clienții existenți ai Finanțelor care utilizează funcționalitatea de gestionare a proiectelor și contabilitate pot continua să o utilizeze așa cum este. Consultați [Project Operations pentru scenarii cu stocuri/comenzi de producție](#pma).
 

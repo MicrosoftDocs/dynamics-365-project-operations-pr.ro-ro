@@ -1,6 +1,6 @@
 ---
 title: Tablouri de bord
-description: Acest articol oferă informații despre tablourile de bord de raportare care sunt incluse în Dynamics 365 Project Service Automation.
+description: Acest articol furnizează informații despre tablourile de bord de raportare care sunt incluse în Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

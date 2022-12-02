@@ -1,6 +1,6 @@
 ---
 title: Performanța propunerilor de facturi pentru proiect
-description: Acest articol oferă informații despre îmbunătățirile performanței la propunerile de facturi de proiect.
+description: Acest articol oferă informații despre îmbunătățirile de performanță pentru propunerile de facturi ale proiectului.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

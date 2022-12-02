@@ -1,6 +1,6 @@
 ---
 title: Proiecte cu estimarea veniturilor cu preț fix
-description: Acest articol oferă informații despre veniturile cu preț fix în proiecte.
+description: Acest articol furnizează informații despre veniturile la preț fix în proiecte.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Când creați o linie de contract de proiect cu următoarele atribute în Dynami
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Revizuiți proiecte cu estimarea veniturilor cu preț fix
 Pentru a revizui proiectele de estimare a veniturilor cu preț fix, parcurgeți următorii pași:
 
-1. În mediul Dynamics 365 Finance, accesați **Management de proiecte si contabilitate** > **Proiecte** > **Proiecte de estimare a veniturilor cu preț fix**.
+1. În mediul Dynamics 365 Finance, accesați **Managementul proiectelor și contabilitate** > **Proiecte** > **Proiecte de estimare a veniturilor cu preț fix**.
 2. Selectați proiectul pe care doriți să îl vizualizați și faceți dublu clic pe **Estimarea ID-ului proiectului** pentru a deschide înregistrarea și a revizui detaliile proiectului.
 3. Extindeți fila **Proiect**. Veți vedea un proiect în grila **Proiecte selectate**. Sistemul îl folosește ca proiect implicit, deoarece este proiectul asociat liniei contractului de proiect. 
 4. Pentru a schimba asocierea, selectați proiecte suplimentare și adăugați-le la grila **Proiecte selectate**. Dacă sunt selectate mai multe proiecte în această grilă, finalizarea procentuală a proiectului și estimările veniturilor sunt calculate împreună pentru toate proiectele selectate.

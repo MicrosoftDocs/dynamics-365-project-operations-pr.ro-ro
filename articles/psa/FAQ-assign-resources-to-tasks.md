@@ -1,6 +1,6 @@
 ---
 title: Atribuirea unei resurse la o activitate
-description: Acest articol oferă informații despre cum să atribuiți resurse sarcinilor.
+description: Acest articol furnizează informații despre modul de atribuire a resurselor la activități.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Crearea unei soluții pentru dimensiunile de tarifare particularizate
-description: Acest articol oferă informații despre cum să creați soluții pentru dimensiunile de preț personalizate.
+description: Acest articol oferă informații despre cum să creați soluții pentru dimensiuni de preț particularizate.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

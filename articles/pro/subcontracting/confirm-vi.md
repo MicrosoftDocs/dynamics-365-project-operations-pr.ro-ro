@@ -19,15 +19,15 @@ _**Se aplică la:** implementare simplificată - facturare de la tranzacție la 
 
 După ce ați verificat toate rândurile de pe o factură de furnizor în Microsoft Dynamics 365 Project Operations, puteți utiliza acțiunea Confirmare pentru a confirma factura furnizorului.
 
-Când selectați **A confirma** pe o factură de furnizor, apare următorul comportament:
+Când selectați **Confirmare** pe o factură de furnizor, apare următorul comportament:
 
-1. Starea facturii furnizorului este actualizată la **Confirmat**.
+1. Starea facturii de furnizor este actualizată la **Confirmat**.
 2. Factura de furnizor confirmată și înregistrările asociate acesteia devin numai pentru citire și nu pot fi editate sau șterse.
-3. Dacă costurile efective fac referire la linia de factură a furnizorului ca parte a procesului de potrivire, toate costurile reale care sunt asociate cu linia de factură a furnizorului la care se face referire sunt inversate.
-4. Noile costuri reale sunt create prin utilizarea informațiilor de pe linia de factură a furnizorului.
-5. După confirmarea facturii furnizorului, nu mai puteți crea jurnale de corecție, nu mai puteți procesa retrageri de timp de intrare sau nu mai puteți anula aprobarea timpului inițial, a cheltuielilor sau a efectivelor materiale care au fost inversate.
+3. Dacă orice costuri efective fac referire la linia de facturare a furnizorului ca parte a procesului de potrivire, toate costurile reale care sunt asociate cu linia de facturare a furnizorului la care se face referire sunt inversate.
+4. Noile costuri reale sunt create prin utilizarea informațiilor de pe linia de facturare a furnizorului.
+5. După confirmarea facturii de furnizor, nu mai puteți crea jurnale de corecție, procesa retrageri de intrare de timp sau anula aprobarea valorilor reale inițiale pentru timp, cheltuieli sau materiale care au fost inversate.
 
 > [!NOTE]
-> Dacă orice rând de pe o factură de furnizor are o stare de verificare diferită de **Complet**, factura furnizorului nu poate fi confirmată.
+> Dacă orice linie de pe o factură de furnizor are o altă stare de verificare decât **Finalizat**, factura furnizorului nu poate fi confirmată.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

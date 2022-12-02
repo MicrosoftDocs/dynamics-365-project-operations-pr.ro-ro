@@ -26,7 +26,7 @@ ms.locfileid: "8685000"
 
 [!include [banner](../includes/banner.md)]
 
-Planificarea și menținerea unui plan de proiect pot fi complexe, astfel încât managerii de proiect trebuie să utilizeze instrumente care îi ajută să gestioneze această sarcină. Integrarea cu Microsoft Project Client oferă suport pentru deschiderea și gestionarea unei structuri detaliate a proiectului. Managerul de proiect poate publica orice modificări în structura de defalcare a lucrărilor de proiect Dynamics 365 Finance.
+Planificarea și menținerea unui plan de proiect pot fi complexe, astfel încât managerii de proiect trebuie să utilizeze instrumente care îi ajută să gestioneze această sarcină. Integrarea cu Microsoft Project Client oferă suport pentru deschiderea și gestionarea unei structuri detaliate a proiectului. Managerul de proiect poate publica orice modificări înapoi la structura detaliată a proiectului Dynamics 365 Finance.
 
 > [!NOTE]
 > Dacă utilizați actualizarea din iulie (versiunea 10.0.4), trebuie să instalați KB 4054797 și 4055884.
@@ -39,7 +39,7 @@ Pentru a permite integrarea cu Microsoft Project Client, a Microsoft Dynamics 36
 •   Faceți clic pe **Deschidere**, apoi apăsați **Rulare** când vi se solicită.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Deschideți și editați o structură detaliată a proiectului existentă în Microsoft Project Client
-Dacă un proiect din Dynamics 365 Finance are deja creată o structură de defalcare a lucrării, structura de defalcare a lucrării poate fi deschisă în aplicația Microsoft Project Client dacă structura de defalcare a lucrării este într-o stare de schiță. Pentru a deschide din pagina **Proiect**, faceți clic pe linkul **Deschideți în Microsoft Project** din fila **Plan**. Această pagină poate fi deschisă și din aplicația Microsoft Project Client făcând clic pe **Deschidere** în fila **Microsoft Dynamics 365**. Selectați **Entitate legală** și **Proiect** din listă.
+Dacă un proiect în Dynamics 365 Finance are deja creată o structură detaliată a proiectului, structura detaliată a proiectului poate fi deschisă în aplicația Microsoft Project Client dacă structura detaliată a proiectului este în starea de schiță. Pentru a deschide din pagina **Proiect**, faceți clic pe linkul **Deschideți în Microsoft Project** din fila **Plan**. Această pagină poate fi deschisă și din aplicația Microsoft Project Client făcând clic pe **Deschidere** în fila **Microsoft Dynamics 365**. Selectați **Entitate legală** și **Proiect** din listă.
 
 > [!NOTE]
 > Dacă folosiți Internet Explorer ca browser, va trebui să faceți clic pe **Salvare** pentru a deschide manual din locația în care este descărcat fișierul. Sau faceți clic pe **Salvare și deschidere** pentru a deschide fișierul în Microsoft Project Client. Nu redenumiți numele fișierului atunci când salvați.
