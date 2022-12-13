@@ -38,7 +38,7 @@
               href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Asigurarea accesului pentru un nou mediu
               href: environment/resource-provision-new-environment.md
-            - name: Model de securitate
+            - name: Modelul de securitate
               href: environment/security-model.md
             - name: Configurarea integrării Project Operations per entitate juridică
               href: environment/resource-configure-integration-per-legal-entity.md
@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Noutăți
       items:
-        - name: Septembrie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Noiembrie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arhivă
           items:
+            - name: Octombrie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: Septembrie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: August 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Iulie 2022 - Project Operations pentru scenarii de resurse/care nu sunt bazate pe stoc
@@ -118,107 +122,105 @@
               href: sales/sales-products.md
             - name: Unități și grupuri de unități
               href: sales/sales-units-unit-groups.md
-            - name: Monedă
+            - name: Moneda
               href: sales/sales-currency.md
             - name: Unități organizaționale
               href: sales/OrgUnits.md
-        - name: Gestionarea clienților potențiali pentru proiecte
+        - name: Gestionarea clienților potențiali pe baza proiectelor
           href: sales/manage-leads.md
-        - name: Gestionarea oportunităților de proiecte
+        - name: Gestionarea oportunităților oe baza proiectelor
           items:
             - name: Prezentare generală a gestionării oportunităților de proiecte
               href: sales/manage-project-based-opportunities.md
-            - name: Detalii antet pentru oportunități bazate pe proiect
+            - name: Detalii antet pentru oportunități bazate pe proiecte
               href: sales/opportunity-header.md
-            - name: Linii de oportunitate bazate pe proiect
+            - name: Linii de oportunități bazate pe proiecte
               href: sales/project-based-lines.md
-            - name: Crearea ofertelor de proiecte din oportunități
+            - name: Crearea ofertelor din oportunități de proiecte
               href: sales/link-quotes-opportunities.md
-            - name: Copierea oportunităților bazate pe proiect
+            - name: Copierea oportunităților de proiecte
               href: sales/copy-project-based-opportunity.md
             - name: Închiderea unei oportunități de proiect
               href: sales/close-opportunity.md
-        - name: Gestionarea ofertelor de proiect
+        - name: Gestionarea ofertelor bazate pe proiecte
           items:
             - name: Prezentare generală a gestionării ofertelor de proiecte
               href: pro/sales/manage-quotes-sales.md
             - name: Concepte unice pentru ofertele bazate pe proiecte
               href: sales/quotes-key-concepts.md
-            - name: Detalii antet pentru oferte bazate pe proiect
+            - name: Detalii antet pentru oferte bazate pe proiecte
               href: sales/quote-values-budget-limits-contract.md
-            - name: Gestionarea mai multor clienți într-o ofertă de proiect
+            - name: Gestionarea mai multor clienți într-o ofertă bazată pe proiect
               href: sales/manage-multiple-customers-quote.md
-            - name: Gestionarea listelor de prețuri ale proiectelor dintr-o ofertă
+            - name: Listele de prețuri ale proiectelor din ofertele de proiecte
               href: pro/sales/manage-project-price-lists-sales.md
-            - name: Linii de oferte bazate pe proiect
+            - name: Linii de oferte bazate pe proiecte
               items:
-                - name: Prezentare generală a liniilor de oferte bazate pe proiect
+                - name: Prezentare generală a liniilor de oferte de proiecte
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Gestionarea mai multor clienți în linii de oferte bazate pe proiect
+                - name: Gestionarea mai multor clienți în linii de oferte bazate pe proiecte
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Maparea proiectelor și activităților la linii de ofertă bazate pe proiect
+                - name: Maparea proiectelor și activităților la liniile ofertelor de proiecte
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Configurarea componentelor tarifabile pentru linii de ofertă bazate pe proiect
+                - name: Configurarea componentelor tarifabile din liniile de oferte de proiecte
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Configurarea componentelor tarifabile ale unei linii de ofertă de proiect
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Estimarea unei linii de ofertă de proiect
-                  href: sales/create-estimate-quote-line.md
-                - name: Importul de estimări dintr-un proiect pentru o linie de ofertă pe bază de proiect
-                  href: sales/import-estimate-quote-line.md
-                - name: Planificările de facturi din liniile de ofertă bazate pe proiect
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Importul estimărilor dintr-un proiect într-o linie de ofertă de proiect
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Planificările de facturi din liniile de oferte de proiecte
                   href: sales/invoice-schedule-quote-line.md
-            - name: Copierea ofertelor de proiect
+            - name: Copierea ofertelor de proiecte
               href: sales/lose-quote.md
             - name: Activarea și revizuirea unei oferte de proiect
               href: sales/activation-and-revision.md
-            - name: Închiderea ofertelor de proiect
+            - name: Închiderea ofertelor bazate pe proiecte
               href: sales/win-quote.md
-        - name: Gestionarea contractelor de proiect
+        - name: Gestionarea contractelor bazate pe proiecte
           items:
-            - name: Prezentare generală a gestionării contractelor de proiecte
+            - name: Gestionarea contractelor de proiecte
               href: pro/sales/manage-contracts-sales.md
             - name: Concepte unice pentru contractele bazate pe proiecte
               href: sales/contracts-key-concepts.md
-            - name: Detalii antet pentru contractele bazate pe proiect
+            - name: Detalii antet pentru contractele bazate pe proiecte
               href: sales/project-contract-settings.md
-            - name: Gestionarea listelor de prețuri ale proiectelor din contractele de proiecte
+            - name: Gestionarea listelor de prețuri din contractele bazate pe proiecte
               href: sales/contracts-manage-project-price-lists.md
-            - name: Gestionarea mai multor clienți în contractele de proiect
+            - name: Gestionarea mai multor clienți în contracte bazate pe proiecte
               href: sales/manage-multiple-customers-contract.md
-            - name: Linii de contract bazate pe proiect
+            - name: Linii de contracte bazate pe proiecte
               items:
-                - name: Prezentare generală a liniilor de contract bazate pe proiect
+                - name: Prezentare generală a liniilor de contracte de proiecte
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Gestionarea mai multor clienți în linii de contract bazate pe proiect
+                - name: Gestionarea mai multor clienți în linii de contracte bazate pe proiecte
                   href: sales/manage-multiple-customers-contract-line.md
                 - name: Maparea proiectelor și activităților la o linie de contract de proiect
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Configurarea componentelor tarifabile pentru o linie de contract de proiect
+                - name: Configurarea componentelor tarifabile ale unei linii de contract de proiect
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Estimarea unei linii de contract pentru proiect
+                - name: Estimarea unei linii de contract bazate pe proiect
                   href: sales/create-estimate-contract-line.md
-                - name: Importul de estimări dintr-un proiect pentru o linie de contract bazată pe proiect
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Crearea planificărilor de facturare pentru linii de contract bazate pe proiect
+                - name: Importul estimărilor dintr-un proiect într-o linie de contract de proiect
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Crearea planificărilor de facturi pentru o linie de contract bazată pe proiect
                   href: sales/invoice-schedules-contract-line.md
-            - name: Copierea contractelor bazate pe proiect
+            - name: Copierea contractelor bazate pe proiecte
               href: sales/copy-project-based-contracts-sales.md
             - name: Confirmarea unui contract de proiect
               href: pro/sales/confirm-contract-sales.md
             - name: Avansuri și garanții
               items:
-                - name: Avansuri și contracte bazate pe garanții
+                - name: Contracte de proiecte bazate pe avansuri și garanții
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurați o planificare pentru garanții
+                - name: Configurarea unei planificări pentru garanții
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Crearea unui avans ad-hoc pentru un contract
+                - name: Crearea unui avans ad-hoc într-un contract de proiect
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prețuri și costuri
       items:
         - name: Configurarea listei de prețuri
           items:
-            - name: Definiția listei de prețuri
+            - name: Definirea listei de prețuri
               href: pricing-costing/price-list-setup.md
             - name: Configurarea tarifelor facturii pentru muncă
               href: pricing-costing/set-up-labor-bill-rate.md
@@ -642,7 +644,9 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Sincronizarea stării proiectelor pentru a preveni introducerea de date în proiectele închise
           href: advanced-configuration/sync-project-status.md
-    - name: Upgrade
+        - name: Configurarea conversiei valutare pentru calcularea prețurilor de vânzări din tarifele de cost
+          href: advanced-configuration/currencyconversion.md
+    - name: Upgrade-ul
       items:
         - name: Considerații privind upgrade-ul pentru aprobările moderne
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -668,17 +672,21 @@
           href: environment/lite-deployment.md
         - name: Aplicarea datelor de instalare și configurare demonstrative - simplificată
           href: environment/lite-apply-demo-setup-config-data.md
-        - name: Model de securitate
+        - name: Modelul de securitate
           href: environment/security-model.md
     - name: Noutăți
       items:
-        - name: Noutăți septembrie 2022 - implementare simplificată
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Noutăți noiembrie 2022 - implementarea simplificată
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arhivă
           items:
-            - name: Noutăți august 2022 - implementare simplificată
+            - name: Noutăți octombrie 2022 - implementarea simplificată
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Noutăți septembrie 2022 - implementarea simplificată
+              href: pro/whats-new/whats-new-sept-2022-lite.md
+            - name: Noutăți august 2022 - implementarea simplificată
               href: pro/whats-new/whats-new-aug-2022-lite.md
-            - name: Noutăți iulie 2022 - implementare simplificată
+            - name: Noutăți iulie 2022 - implementarea simplificată
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Noutăți iunie 2022 - implementare simplificată
               href: pro/whats-new/whats-new-june-2022-lite.md
@@ -730,7 +738,7 @@
               href: sales/sales-products.md
             - name: Unități și grupuri de unități
               href: sales/sales-units-unit-groups.md
-            - name: Monedă
+            - name: Moneda
               href: sales/sales-currency.md
             - name: Unități organizaționale
               href: sales/OrgUnits.md
@@ -744,23 +752,23 @@
               href: pro/sales/opportunity-header-sales.md
             - name: Gestionarea liniilor de oportunitate bazate pe produs
               href: pro/sales/product-based-lines-sales.md
-            - name: Gestionarea liniilor de oportunitate bazate pe proiect
+            - name: Gestionarea liniilor de oportunități bazate pe proiecte
               href: pro/sales/project-based-lines-sales.md
             - name: Crearea ofertelor din oportunități de proiecte
               href: sales/link-quotes-opportunities.md
-            - name: Copierea oportunităților bazate pe proiect
+            - name: Copierea oportunităților de proiecte
               href: sales/copy-project-based-opportunity.md
             - name: Închiderea unei oportunități de proiect
               href: sales/close-opportunity.md
-        - name: Gestionarea ofertelor bazate pe proiect
+        - name: Gestionarea ofertelor de proiecte
           items:
-            - name: Prezentare generală a ofertelor bazate pe proiect
+            - name: Prezentare generală a ofertelor de proiecte
               href: pro/sales/manage-quotes-sales.md
             - name: Concepte unice pentru ofertele de proiecte
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Detalii antet pentru oferte de proiect
+            - name: Detalii antet pentru oferte de proiecte
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Clienți multipli în oferte de proiect
+            - name: Gestionarea mai multor clienți în ofertele de proiecte
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Listele de prețuri ale proiectelor din ofertele de proiecte
               href: pro/sales/manage-project-price-lists-sales.md
@@ -770,41 +778,41 @@
                   href: pro/sales/product-based-quote-lines-sales.md
                 - name: Linii de oferte bazate pe costul de produs
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: Gestionarea unităților complexe pentru liniile de ofertă bazate pe produse
+                - name: Gestionarea unităților complexe pentru liniile de oferte bazate pe produse
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Linii de oferte bazate pe proiect
+            - name: Liniile de oferte de proiecte
               items:
-                - name: Prezentare generală a liniilor de oferte bazate pe proiect
+                - name: Prezentare generală a liniilor de oferte de proiecte
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Gestionarea mai multor clienți
+                - name: Gestionarea mai multor clienți în linii de oferte de proiecte
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Maparea proiectelor și activităților
+                - name: Maparea proiectelor și activităților la liniile ofertelor de proiecte
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Configurarea componentelor cu taxă
+                - name: Configurarea componentelor tarifabile din liniile de oferte de proiecte
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Estimarea unei linii de ofertă bazate pe proiect
+                - name: Estimarea unei linii de ofertă de proiect
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Importul estimării dintr-un proiect
+                - name: Importul estimărilor dintr-un proiect într-o linie de ofertă de proiect
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Gestionarea planificărilor de facturi
+                - name: Planificările de facturi din liniile de oferte de proiecte
                   href: sales/invoice-schedule-quote-line.md
-            - name: Copierea ofertelor bazate pe proiect
+            - name: Copierea ofertelor de proiecte
               href: sales/lose-quote.md
             - name: Activarea și revizuirea unei oferte de proiect
               href: sales/activation-and-revision.md
-            - name: Închiderea ofertelor bazate pe proiect
+            - name: Închiderea ofertelor de proiecte
               href: pro/sales/win-quote-sales.md
-        - name: Gestionarea contractelor bazate pe proiect
+        - name: Gestionarea contractelor de proiecte
           items:
-            - name: Prezentare generală a contractelor bazate pe proiect
+            - name: Prezentare generală a contractelor de proiecte
               href: pro/sales/manage-contracts-sales.md
-            - name: Concepte unice pentru contractele de proiect
+            - name: Concepte unice pentru contractele de proiecte
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Detalii antet pentru contractele de proiect
+            - name: Detalii antet pentru contractele de proiecte
               href: pro/sales/project-contract-settings-sales.md
-            - name: Clienți multipli în contractele de proiect
+            - name: Gestionarea mai multor clienți în contractele de proiecte
               href: pro/sales/manage-multiple-customers-contract-sales.md
-            - name: Liste de prețuri proiect în contracte de proiect
+            - name: Liste de prețuri de proiecte în contractele de proiecte
               href: sales/contracts-manage-project-price-lists.md
             - name: Linii de contract bazate pe produs
               items:
@@ -812,41 +820,41 @@
                   href: pro/sales/product-based-contract-lines-overview-sales.md
                 - name: Linii de contract bazate pe produs de cost
                   href: pro/sales/cost-product-based-contract-lines-sales.md
-                - name: Gestionarea unităților complexe pentru liniile de contract bazate pe produse
+                - name: Gestionarea unităților complexe pentru liniile de contracte bazate pe produse
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Linii de contract bazate pe proiect
+            - name: Liniile de contracte de proiecte
               items:
-                - name: Prezentare generală a liniilor de contract bazate pe proiect
+                - name: Prezentare generală a liniilor de contracte de proiecte
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Gestionarea mai multor clienți de contract
+                - name: Gestionarea mai multor clienți în contractele de proiecte
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
-                - name: Maparea proiectelor și activităților într-o linie de contract de proiect
+                - name: Maparea proiectelor și activităților la o linie de contract de proiect
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Configurarea componentelor tarifabile ale unei linii de contract de proiect
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Estimarea unei linii de contract bazate pe proiect
+                - name: Estimarea unei linii de contract de proiect
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Importul estimărilor dintr-un proiect într-o linie de contract de proiect
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Gestionarea planificărilor de facturi dintr-o linie de contract de proiect
+                - name: Crearea planificărilor de facturi într-o linie de contract de proiect
                   href: pro/sales/invoice-schedules-contract-line-sales.md
-            - name: Copierea contractelor de proiect
+            - name: Copierea contractelor de proiecte
               href: pro/sales/copy-project-contracts-sales.md
             - name: Confirmarea unui contract de proiect
               href: pro/sales/confirm-contract-sales.md
             - name: Avansuri și garanții
               items:
-                - name: Avansuri și contracte bazate pe garanții - simplificat
+                - name: Contracte bazate pe avansuri și garanții
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurarea unei planificări de garanții - simplificat
+                - name: Configurarea unei planificări pentru garanțiiConfigurarea unei planificări pentru garanții
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Crearea unui avans ad-hoc pentru un contract - simplificat
+                - name: Crearea unui avans ad-hoc într-un contract de proiect
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prețuri și costuri
       items:
         - name: Configurarea listei de prețuri
           items:
-            - name: Definiția listei de prețuri
+            - name: Definirea listei de prețuri
               href: pricing-costing/price-list-setup.md
             - name: Configurarea listelor de prețuri pentru produse
               href: pricing-costing/product-price-list.md
@@ -1154,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurarea automatizării facturii de proiect
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Upgrade
+    - name: Upgrade-ul
       items:
         - name: Considerații privind upgrade-ul pentru aprobările moderne
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Noutăți
       items:
-        - name: Noutăți septembrie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Noutăți octombrie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arhivă
           items:
+            - name: Noutăți septembrie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Noutăți iulie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Noutăți iunie 2022 - Project Operations pentru scenarii bazate pe stocuri/producție
@@ -1216,11 +1226,15 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Prezentare generală a implementării Project Operations pentru scenarii bazate pe stoc/producție
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Management de proiect și prezentare generală a contabilității
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Contabilitatea proiectelor
+      items:
+        - name: Prezentare generală a managementului și contabilității proiectelor
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Ajustări de proiecte
+          href: project-accounting/project-adjustments.md
     - name: Procesul de vânzări al unui proiect
       items:
-        - name: Oferte de proiect
+        - name: Oferte de proiecte
           href: prod-pma/project-quotations.md
         - name: 'Confirmarea, actualizarea și trimiterea unei oferte de proiect'
           href: prod-pma/confirm-update-send-project-quotation.md
