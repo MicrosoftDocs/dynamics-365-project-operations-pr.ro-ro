@@ -1,23 +1,23 @@
 ---
-title: Gestionați mai mulți clienți în linii de oferte bazate pe proiect - simplificat
-description: Acest articol descrie cum să gestionați mai mulți clienți pe linii de ofertă bazate pe proiecte.
+title: Gestionați mai mulți clienți pe liniile de ofertă de proiect
+description: Acest articol descrie cum să gestionați mai mulți clienți pe liniile de ofertă de proiect.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927803"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824454"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gestionați mai mulți clienți în linii de oferte bazate pe proiect - simplificat
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Gestionați mai mulți clienți pe liniile de ofertă de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-Liniile de ofertă bazate pe proiecte acceptă scenarii în care fiecare linie de ofertă are o listă de clienți care plătesc pentru aceasta. Această listă de clienți de pe linia de ofertă bazată pe proiecte poate fi aceeași cu lista de clienți din ofertă. De asemenea, puteți modifica lista clienților pentru a fi diferiți. Când se câștigă o ofertă de proiect, lista de clienți de pe linia de ofertă bazată pe proiect este copiată pe linia de contract corespunzătoare bazată pe proiect pentru a crea eventualul contract de proiect. Clienții din oferta pe bază de de proiect sunt copiați în contractul de proiect.
+Liniile de cotație de proiect acceptă scenarii în care fiecare linie de cotație are o listă de clienți care plătesc pentru aceasta. Această listă de clienți de pe linia de ofertă bazată pe proiecte poate fi aceeași cu lista de clienți din ofertă. De asemenea, puteți modifica lista clienților pentru a fi diferiți. Când se câștigă o ofertă de proiect, lista de clienți de pe linia de ofertă bazată pe proiect este copiată pe linia de contract corespunzătoare bazată pe proiect pentru a crea eventualul contract de proiect. Clienții din oferta pe bază de de proiect sunt copiați în contractul de proiect.
 
 Când facturați eventualul contract de proiect, lista clienților de pe linia de contract bazată pe proiect are prioritate față de lista din contractul de proiect. Lista clienților din contractul de proiect este utilizată numai pentru valorile implicite ale noilor linii de contract de proiect.
 

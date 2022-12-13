@@ -1,21 +1,21 @@
 ---
 title: Linii de oferte bazate pe produs de cost
 description: Acest articol oferă informații despre aplicarea unui preț de cost unei linii de ofertă pe bază de produs.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932587"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825627"
 ---
 # <a name="costing-product-based-quote-lines"></a>Linii de oferte bazate pe produs de cost
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
 
 Linii de ofertă bazate pe produse din Dynamics 365 Project Operations au și un câmp **Preț de cost**. Acest câmp este utilizat pentru a urmări prețul de cost al produsului pe linia de ofertă și pentru calculele de profitabilitate din aval.

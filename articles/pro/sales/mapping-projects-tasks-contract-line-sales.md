@@ -1,23 +1,23 @@
 ---
-title: Maparea proiectelor și activităților într-o linie de contract bazată pe proiect - simplificat
+title: Maparea proiectelor și activităților într-o linie de contract de proiect
 description: Acest articol oferă informații despre adăugarea și eliminarea de proiecte și sarcini pe o linie de contract.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932541"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825074"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Maparea proiectelor și sarcinilor într-o linie de contract bazată pe proiect 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Maparea proiectelor și activităților într-o linie de contract de proiect 
 
 _**Se aplică la:** Implementare Lite - tratarea facturării proforma, Project Operations pentru resurse/scenarii bazate pe altceva decât stocuri_
 
-Pe liniile de contract bazate pe proiecte, puteți asocia sarcini specifice dintr-un proiect la linia de contract.
+Pe liniile de contract de proiect, puteți mapa anumite sarcini dintr-un proiect la linia de contract.
 
 Când asociați sarcini specifice la o linie de contract, metoda de facturare, opțiunile de taxare, limitele care nu trebuie depășite și clienții definiți pe linia de contract vor fi aplicabile numai acelor sarcini specifice.
 
@@ -25,7 +25,7 @@ Dacă aveți un scenariu în care o fază a unui proiect, de exemplu faza protot
 
 Toate celelalte faze din structura de defalcare a lucrărilor de proiect (WBS) pot fi asociate liniei contractuale bazate pe timp și material.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Activități asociate liniilor de contract bazate pe proiect
+## <a name="associate-tasks-to-project-contract-lines"></a>Asociați sarcini la liniile contractuale de proiect
 
 Activitățile pot fi asociate liniilor contractuale din fila **Activități facturabile** de pe pagina **Linie de contract** sau de pe fila **Facturarea activităților** de pe pagina **Proiect**.
 

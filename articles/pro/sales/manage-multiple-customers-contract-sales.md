@@ -1,19 +1,19 @@
 ---
-title: Gestionarea mai multor clienți în contractele de proiect - simplificat
+title: Gestionarea mai multor clienți în contractele de proiect
 description: Acest articol oferă informații despre gestionarea mai multor clienți pe contracte de proiect.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 001c3c822a5d1cef6bd85164ef5e63e81719dafb
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917220"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824548"
 ---
-# <a name="manage-multiple-customers-on-project-contracts---lite"></a>Gestionarea mai multor clienți în contractele de proiect - simplificat
+# <a name="manage-multiple-customers-on-project-contracts"></a>Gestionarea mai multor clienți în contractele de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 

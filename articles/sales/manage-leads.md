@@ -1,31 +1,29 @@
 ---
-title: Gestionarea clienților potențiali
+title: Gestionați clienții potențiali bazați pe proiecte
 description: Acest articol furnizează informații despre gestionarea clienților potențiali pe bază de proiect.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920213"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825815"
 ---
-# <a name="manage-leads"></a>Gestionarea clienților potențiali
+# <a name="manage-project-based-leads"></a>Gestionați clienții potențiali bazați pe proiecte
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
 Oportunitățile bazate pe proiect pot fi gestionate și calificate în Project Operations. Procesul de gestionare a clienților potențiali include crearea de clienți potențiali pe bază de muncă și calificarea acestora. 
 
-## <a name="project-sales-leads"></a>Clienți potențiali de proiect de vânzări
-
 În secțiunea **Vânzări**, în panoul de navigare din stânga, deschideți pagina listă **Clienți potențiali** pentru a vizualiza o listă cu toate înregistrările potențiale din sistem. Lista de clienți potențiali afișați este bazată pe muncă și alte tipuri de clienți potențiali care pot fi creați dacă aveți și Dynamics 365 Sales sau aplicații Dynamics 365 Field Service.
 
 Puteți crea o vizualizare filtrată pentru a vedea numai clienți potențiali bazate pe proiecte, creând un filtru pe valoarea **Tip**. De exemplu, puteți selecta să afișați numai clienți potențiali pe bază de muncă.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Creați un nou client potențial pentru o tranzacție pe bază de proiect
+## <a name="create-a-new-project-based-lead"></a>Creați un nou client potențial bazat pe proiect 
 
 Când un client bazat pe proiect este calificat, se creează o oportunitate și un cont. O oportunitate bazată pe proiect este punctul de plecare pentru activitățile de urmărire a vânzărilor în faza oportunitate. Oportunitățile bazate pe proiecte au capacități unice care sunt necesare pentru vânzarea lucrărilor de proiect. Aceste funcții includ:
 

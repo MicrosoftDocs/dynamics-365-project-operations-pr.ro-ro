@@ -1,32 +1,32 @@
 ---
-title: Estimați o linie de contract pe bază de proiect - simplificat
+title: Estimați o linie de contract de proiect
 description: Acest articol oferă informații despre estimarea unei linii de contract bazate pe proiect.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914417"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824783"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Estimați o linie de contract pe bază de proiect - simplificat
+# <a name="estimate-a-project-contract-line"></a>Estimarea unei linii de contract pentru proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
-În Dynamics 365 Project Operations, o linie de contract pe bază de proiect conține detalii care ajută la estimarea costului și a veniturilor potențiale ale lucrărilor implicate pentru livrarea liniei de contract.
+În Dynamics 365 Project Operations, o linie de contract de proiect are detalii care ajută la estimarea costurilor și a veniturilor potențiale ale lucrării implicate pentru livrarea liniei de contract.
 
-Pentru a estima o linie de contract bazată pe proiect, accesați fila **Detaliu linie contract** de pe **Linie de contract** bazată pe proiect.  Există două moduri de a crea o estimare pe o linie de contract bazată pe proiect:
+Pentru a estima o linie de contract de proiect, accesați fila **Detaliu linie de contract** din linia de contract **pe bază de proiect**.  Există două moduri de a crea o estimare pe o linie de contract bazată pe proiect:
 
    - Creați o estimare direct pe linia contractului adăugând manual detaliile liniei contractului.
    - Creați un proiect și un plan de proiect, apoi asociați proiectul și sarcinile la linia contractuală a proiectului. Aceasta permite procesul prin care puteți importa estimarea planului de proiect în linia contractului pe baza componentelor incluse pe linia contractului.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Creați o estimare direct pe o linie de contract bazată pe proiect
 
-Pentru a crea o estimare direct pe o linie de contract bazată pe proiect, urmați acești pași:
+Pentru a crea o estimare direct pe o linie de contract de proiect, urmați acești pași:
 
 1. Accesați linia de și selectați fila **Detaliu linie contract**. Liniile pe care le creați în această filă sunt rezumate și afișate ca **Valoarea contractată** pentru această **Linie de contract**. 
 2. În subgrila **Detalii linie contract**, selectați **Detaliu linie contract nouă**. Se deschide un glisor de creare rapidă. Următoarele câmpuri sunt disponibile pe pagina **Detalii linie contract**.

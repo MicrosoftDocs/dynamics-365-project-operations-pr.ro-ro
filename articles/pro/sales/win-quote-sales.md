@@ -1,5 +1,5 @@
 ---
-title: Închiderea unei oferte - simplificat
+title: Închiderea ofertelor de proiect
 description: Acest articol furnizează informații despre închiderea unei oferte în Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916947"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826191"
 ---
-# <a name="close-a-quote---lite"></a>Închiderea unei oferte - simplificat
+# <a name="close-project-quotes"></a>Închiderea ofertelor de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 
@@ -30,7 +30,7 @@ Dacă oferta este atașată unei oportunități, orice alte oferte ale proiectul
 
 Dacă există date reale de timp pentru un proiect în timp ce este încă atașat la cironă de ofertă, se înregistrează doar costul timpului sau cheltuielilor. După închiderea unei oferte ca câștigat, aplicația va refactoriza costurile prin inversarea costurilor mai vechi și recrearea costurilor noi. Aplicația va procesa aceste costuri reale pe baza metodei de facturare a liniei contractului de proiect asociat. În cazul în care valorile reale ale costurilor fac referire la o linie de contract de timp și materiale, sunt create valorile reale de vânzare neînregistrate în contabilitate corespunzătoare pentru momentul când se închid ofertele și se creează contractul de proiect. În cazul în care valorile reale ale costurilor fac referire la o linie de contract cu preț fix, aplicația va înceta să reproceseze valorile reale ale costurilor care se bazează pe regulile de facturare divizată pentru clienții contractului de proiect.
 
-## <a name="closing-a-quote-as-lost"></a>Închiderea unei oferte drept pierdută:
+## <a name="closing-a-quote-as-lost"></a>Închiderea unui citat ca pierdut
 
 Când închideți o ofertă de proiect ca Pierdut, starea este setată pe Închis și motivul pentru această stare este Pierdut. Închiderea ofertei face ca oferta de proiect să fie doar în citire. Deoarece o ofertă închisă nu poate fi redeschisă și înainte de a închide o ofertă, un dialog de confirmare vă va confirma modificările.
 

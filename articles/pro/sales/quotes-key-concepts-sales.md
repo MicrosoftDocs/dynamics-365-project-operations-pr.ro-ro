@@ -1,17 +1,17 @@
 ---
-title: Oferte - concepte cheie - simplificat
+title: Concepte unice pentru ofertele de Proiecte
 description: Acest articol furnizează informații despre utilizarea ofertelor de proiect în Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916993"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825909"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Concepte unice pentru ofertele de Proiecte
 
@@ -82,9 +82,13 @@ Planificările facturilor sunt specifice fiecărei linii de ofertă și sunt, de
 
 Ofertele Project Operations sunt construite pe ofertele Dynamics 365 Sales. Cu toate acestea, există câteva diferențe importante în funcționalitate pe care ar trebui să le cunoașteți:
 
-- Acțiunile **Revizui** și **Activare** nu sunt acceptate.
+
 - Ofertele Project Operations au două tipuri diferite de linii. Una este pentru proiecte și celalatlă este pentru produse.
 - Ofertele Project Operations au propriile lor elemente de formă și de interfață, reguli de afaceri, logică de afaceri în inserturi și scripturi de partea clientului care le fac unice din ofertele de vânzări.
+- Ofertele de vânzare vă permit să atașați mai multe comenzi la o ofertă de vânzare. În Operațiuni de proiect, la o ofertă de proiect poate fi atașat un singur contract de proiect.
+- Când câștigați o ofertă de vânzare, oportunitatea aferentă poate rămâne deschisă. După ce se câștigă o ofertă de proiect, oportunitatea corelată este închisă.
+- O ofertă de vânzare nu include anumite câmpuri și concepte care sunt incluse într-o ofertă de proiect. Câmpurile includ **Unitatea contractantă**, **Managerul de cont** și **Facturare către Nume persoană de contact**.  
+- **Tip**: ofertele de vânzări și proiecte sunt identificate și de câmpul bazat pe setul de opțiuni, **Tip**. Pentru o ofertă de vânzări, acest câmp are valoarea **Pe bază de articol**. Pentru o ofertă de proiect, are valoarea **Pe bază de lucru**.
 
 Din aceste motive, nu este recomandat să utilizați în mod interschimbabil o ofertă de vânzări și o ofertă de Project Operations.
 

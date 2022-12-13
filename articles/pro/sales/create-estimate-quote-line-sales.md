@@ -1,21 +1,21 @@
 ---
-title: Estimarea unei linii de ofertă pe bază de proiect
-description: Acest articol oferă informații despre cum să creați o estimare pe o linie de ofertă pe bază de proiect.
+title: Estimarea unei linii de ofertă de proiect
+description: Acest articol oferă informații despre cum să creați o estimare pe o linie de ofertă de proiect.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914371"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826003"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimarea unei linii de ofertă pe bază de proiect
+# <a name="estimate-a-project-quote-line"></a>Estimarea unei linii de ofertă de proiect
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică la:** Implementare Lite - tratarea facturării proforma, Project Operations pentru resurse/scenarii bazate pe altceva decât stocuri_
 
 O linie de ofertă bazată pe proiecte conține detalii care ajută la estimarea costului și a veniturilor potențiale ale lucrărilor implicate pentru livrarea liniei de ofertă.
 
@@ -24,7 +24,7 @@ Pentru a estima o linie de ofertă bazată pe proiect, pe linia de estimare baza
 - Creați manual estimarea direct pe linia de ofertă folosind detaliile liniei de ofertă. 
 - Creați un proiect și un plan de proiect, apoi asociați proiectul și sarcinile proiectului la linia de ofertă. Va fi activat procesul de importare a estimărilor din planul de proiect în linia de ofertă pe baza informațiilor furnizate de dvs.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Creați estimările direct pe o linie de ofertă pe bază de proiect
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Creați estimări direct pe o linie de ofertă de proiect
 
 Pentru a crea o ofertă pe o linie de ofertă bazată pe proiect, selectați fila **Detalii linie ofertă**. Elementul rând pe care îl creați în această filă va rezuma valoarea ofertată pentru acest rând de ofertă. 
 
@@ -68,8 +68,7 @@ Moneda din detaliul liniei de ofertă pentru valorile implicite de cost din list
 
 Calculele de rentabilitate convertesc suma din detaliile liniei de ofertă pentru costuri și vânzări în moneda de bază a mediului pentru a raporta marja generală estimată la ofertă.
 
-> [!NOTĂ
-> > Erorile de rotunjire a valutei și modificarea marjelor ar putea apărea din cauza lipsei ratelor de schimb efective la dată. Utilizați aceste calcule numai la contractele proiectului, deoarece acestea sunt aproximări și nu sunt pentru raportări legale sau de altă natură care necesită o precizie mai mare a rotunjirii și conștientizarea aplicabilității datei pentru ratele de schimb.
+> [!NOTĂ Erorile de rotunjire a monedei și marjele modificate pot apărea din cauza lipsei cursurilor de schimb efective ale datei. Utilizați aceste calcule numai la contractele proiectului, deoarece acestea sunt aproximări și nu sunt pentru raportări legale sau de altă natură care necesită o precizie mai mare a rotunjirii și conștientizarea aplicabilității datei pentru ratele de schimb.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

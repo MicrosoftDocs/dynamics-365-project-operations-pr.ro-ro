@@ -1,27 +1,27 @@
 ---
-title: Planificările de facturi pe linii de ofertă bazate pe proiect
+title: Programele de facturare pe liniile de oferta de proiect
 description: Acest articol oferă informații despre crearea de programe de facturare și repere pentru liniile de ofertă.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918327"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825769"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Planificările de facturi pe linii de ofertă bazate pe proiect
+# <a name="invoice-schedules-on-project-quote-lines"></a>Programele de facturare pe liniile de oferta de proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-O linie de ofertă bazată pe proiect oferă posibilitatea de a exprima o planificare de facturare. Acest lucru este opțional în faza de ofertă, deoarece aplicația nu acceptă facturarea unui proiect atunci când este legat de o linie de ofertă. Facturarea este permisă numai după ce se câștigă oferta. Singurul impact din aval al creării unei planificări de facturare în timpul fazei de ofertare este că acest program de facturare este copiat pe linia contractuală bazată pe proiect. Dacă nu creați o planificare de facturare în timpul fazei de ofertă, veți putea face acest lucru pe linia de contract bazată pe proiect.
+O linie de ofertă de proiect oferă posibilitatea de a exprima un program de factură. Acest lucru este opțional în faza de ofertă, deoarece aplicația nu acceptă facturarea unui proiect atunci când este legat de o linie de ofertă. Facturarea este permisă numai după ce se câștigă oferta. Singurul impact din aval al creării unei planificări de facturare în timpul fazei de ofertare este că acest program de facturare este copiat pe linia contractuală bazată pe proiect. Dacă nu creați o planificare de facturare în timpul fazei de ofertă, veți putea face acest lucru pe linia de contract bazată pe proiect.
 
 În general, scopul planificărilor de facturare este de a permite crearea automată a proiectelor de facturi pentru o linie de contract bazată pe proiecte. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Creați un program de facturare în timp și materiale pentru o linie de ofertă bazată pe proiect
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Creați un program de factură de timp și material pentru o linie de ofertă de proiect
 
 Atunci când metoda de facturare pentru o linie de ofertă bazată pe proiect este Timp și material, sistemul generează o planificare de facturare bazată pe date. Pentru a genera automat o planificare de facturare bazat pe date, parcurgeți pașii următori.
 
@@ -36,7 +36,7 @@ Atunci când metoda de facturare pentru o linie de ofertă bazată pe proiect es
     - **Data limită a tranzacției** este setată cu o zi înainte de **Data executării facturii**.
     - **Rulați starea** este setat automat la **Neexecutat**. Când operațiunea de creare automată a facturii rulează pentru o anumită dată de rulare a facturii, va actualiza acest câmp la oricare dintre ele **Rulare reușită** sau **Rularea nu a reușit**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Creați o planificare de factură cu preț fix pentru o linie de ofertă bazată pe proiect
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Creați un program de factură cu preț fix pentru o linie de ofertă de proiect
 
 Când linia de ofertă bazată pe proiect are o metodă de facturare **Fixă**, sistemul creează o planificare de facturare bazată pe o dată scadentă. Parcurgeți pașii următori pentru a genera automat această planificare pentru un set fix de repere care sunt distribuite în mod egal pentru perioada calendaristică.
 

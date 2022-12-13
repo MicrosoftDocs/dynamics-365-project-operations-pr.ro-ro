@@ -1,23 +1,23 @@
 ---
-title: Închiderea unei oferte
+title: Închiderea ofertelor bazate pe proiect
 description: Acest articol furnizează informații despre închiderea ofertelor în Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931897"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824233"
 ---
-# <a name="close-a-quote"></a>Închideți o ofertă
+# <a name="close-project-based-quotes"></a>Închiderea ofertelor bazate pe proiect
 
 _**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-O ofertă de proiect poate fi închisă drept câștigată sau pierdută. Deoarece funcțiile de activare și revizuire a cotațiilor nu sunt acceptate în Microsoft Dynamics 365 Project Operations, puteți închide ciorna unei oferte.
+O cotație de proiect poate fi închisă ca **câștigat** sau **pierdut**. 
 
 ## <a name="close-a-quote-as-won"></a>Închideți o ofertă drept Câștigată
 

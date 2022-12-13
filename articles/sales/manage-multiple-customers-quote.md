@@ -1,23 +1,23 @@
 ---
-title: Gestionarea mai multor clienți într-o ofertă de proiect
+title: Gestionați mai mulți clienți pe o ofertă bazată pe proiect
 description: Acest articol furnizează informații despre lucrul cu oferte care implică mai mulți clienți care vor finanța proiectul.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928217"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825164"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Gestionarea mai multor clienți într-o ofertă de proiect
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Gestionați mai mulți clienți pe o ofertă bazată pe proiect
 
-_**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
+_**Se aplică la:** Project Operations pentru scenarii bazate pe resurse/fără stoc_
 
-Cotațiile proiectului susțin scenariul în care propunerea implică mai mulți clienți care vor finanța afacerea. Fila **Rezumat** a Ofertei are câmpul **Client potențial** care identifică clientul principal al tranzacției. Alți clienți pentru afacere pot fi setați pe fila **Clienți** a ofertei de proiect.
+Cotațiile bazate pe proiecte susțin scenariul în care propunerea implică mai mulți clienți care vor finanța afacerea. Fila **Rezumat** a Ofertei are câmpul **Client potențial** care identifică clientul principal al tranzacției. Alți clienți pentru afacere pot fi setați pe fila **Clienți** a ofertei de proiect.
 
 Toți clienții de ofertă de pe fila **Clienți** din oferta de proiect implicită ca clienți de linie de ofertă pe orice linii **noi** de ofertă bazate pe proiect create pentru ofertă. Orice linie de ofertă existentă bazată pe proiect nu va moșteni înregistrările noi ale clienților de ofertă create după acestea.
 

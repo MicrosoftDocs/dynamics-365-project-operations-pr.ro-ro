@@ -1,21 +1,21 @@
 ---
-title: Importul unei estimări într-o linie de contract bazată pe proiect - simplificat
+title: Importul estimărilor dintr-un proiect într-o linie de contract de proiect
 description: Acest articol oferă informații despre cum să importați estimările financiare dintr-un proiect într-o linie de contract.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924215"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824690"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importul unei estimări într-o linie de contract bazată pe proiect - simplificat
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Importul estimărilor dintr-un proiect într-o linie de contract de proiect
 
-_**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
+_**Se aplică pentru:** Implementare simplă - acord pentru facturarea proforma, operațiuni de proiect pentru scenarii bazate pe resurse/nestoc_ _
 
 În Dynamics 365 Project Operations, puteți importa estimări dintr-un proiect pentru o linie de contract bazată pe proiect.
 

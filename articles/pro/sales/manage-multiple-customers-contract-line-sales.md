@@ -1,19 +1,19 @@
 ---
-title: Gestionați mai mulți clienți în linii de oferte bazate pe contract - simplificat
+title: Gestionați mai mulți clienți pe liniile de contract de proiect
 description: Acest articol oferă informații despre gestionarea mai multor clienți pe linii de contract bazate pe proiecte.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f7648c7ef7ec6ffb68932552a0c25b79f1f93733
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ec8457fd32a5c215bbc2056b02b2ab3527c4ab1f
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922145"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825956"
 ---
-# <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Gestionați mai mulți clienți în linii de oferte bazate pe contract - simplificat
+# <a name="manage-multiple-customers-on-project-contract-lines"></a>Gestionați mai mulți clienți pe liniile de contract de proiect
 
 _**Se aplică la:** implementare simplificată - facturare de la tranzacție la proforma_
 

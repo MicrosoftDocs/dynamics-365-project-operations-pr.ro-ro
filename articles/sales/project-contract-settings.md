@@ -1,17 +1,17 @@
 ---
-title: Setări pentru contracte de proiecte
-description: Acest articol oferă informații despre câmpurile care au impact asupra liniilor de contract și informații despre contract care sunt rezumate în toate elementele de linie.
+title: Detalii antet pentru contractele bazate pe proiect
+description: Acest articol oferă informații despre câmpurile și informații despre contractele bazate pe proiecte din Operațiuni de proiect.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5839a812dbb3a61fcf271ae6e80e22bfe61f7e14
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921593"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824407"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalii antet pentru contractele bazate pe proiect
 

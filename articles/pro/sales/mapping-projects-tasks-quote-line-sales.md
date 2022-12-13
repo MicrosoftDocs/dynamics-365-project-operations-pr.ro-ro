@@ -1,23 +1,23 @@
 ---
-title: Maparea proiectelor și activităților într-o linie de ofertă bazată pe proiect
-description: Acest articol oferă informații despre cum să mapați proiectele și sarcinile la o linie de activități bazată pe proiecte.
+title: Hartați proiecte și sarcini la liniile de cotație de proiect
+description: Acest articol oferă informații despre cum să mapați proiecte și sarcini la liniile de cotație de proiect.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ro-RO
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917177"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824362"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Maparea proiectelor și activităților într-o linie de ofertă bazată pe proiect
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Hartați proiecte și sarcini la liniile de cotație de proiect
 
 _**Se aplică la:** Project Operations pentru resurse/scenarii bazate pe stocuri, implementare Lite - tratarea facturării proforma_
 
-Pe liniile de ofertă bazate pe proiect, puteți mapa sarcinile specifice unui proiect care este deja asociat cu o linie de ofertă.
+Pe liniile de oferta de proiect, puteți mapa sarcinile specifice ale unui proiect care este deja asociat unei linii de oferta.
 
 Când asociați sarcinile la o linie de ofertă, următoarele elemente definite pe linia de ofertă se vor aplica numai acelor activități:
 
