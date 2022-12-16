@@ -38,7 +38,7 @@
               href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Asigurarea accesului pentru un nou mediu
               href: environment/resource-provision-new-environment.md
-            - name: Modelul de securitate
+            - name: Model de securitate
               href: environment/security-model.md
             - name: Configurarea integrării Project Operations per entitate juridică
               href: environment/resource-configure-integration-per-legal-entity.md
@@ -738,7 +738,7 @@
               href: sales/sales-products.md
             - name: Unități și grupuri de unități
               href: sales/sales-units-unit-groups.md
-            - name: Moneda
+            - name: Monedă
               href: sales/sales-currency.md
             - name: Unități organizaționale
               href: sales/OrgUnits.md
@@ -846,7 +846,7 @@
               items:
                 - name: Contracte bazate pe avansuri și garanții
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurarea unei planificări pentru garanțiiConfigurarea unei planificări pentru garanții
+                - name: Configurarea unei planificări pentru garanții
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Crearea unui avans ad-hoc într-un contract de proiect
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurarea automatizării facturii de proiect
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Upgrade-ul
+    - name: Upgrade
       items:
         - name: Considerații privind upgrade-ul pentru aprobările moderne
           href: upgrade/upgrade-considerations-modern-approvals.md
